@@ -68,16 +68,16 @@ code_w2i = read_pickle("dataset/code_w2i.pkl")
 nl_i2w = read_pickle("dataset/nl_i2w.pkl")
 nl_w2i = read_pickle("dataset/nl_w2i.pkl")
 
-from itertools import islice
 
+import random
+from itertools import islice
 def take(n, iterable):
     "Return first n items of the iterable as a list"
-    return list(islice(iterable, n))
+    return random.sample(list(iterable),n)
   
 trn_x, trn_y_raw = zip(*sorted(trn_data.items()))
-
-vld_x, vld_y_raw = zip(*sorted(take(500, trn_data.items())))
 #vld_x, vld_y_raw = zip(*sorted(vld_data.items()))
+vld_x, vld_y_raw = zip(*sorted(take(200,trn_data.items())))
 tst_x, tst_y_raw = zip(*sorted(tst_data.items()))
 
 trn_y = [[nl_w2i[t] if t in nl_w2i.keys() else nl_w2i["<UNK>"] for t in l] for l in trn_y_raw]
@@ -125,13 +125,15 @@ trn_gen = Datagen(trn_x, trn_y, batch_size, code_w2i, nl_i2w, train=True)
 vld_gen = Datagen(vld_x, vld_y, batch_size, code_w2i, nl_i2w, train=False)
 tst_gen = Datagen(tst_x, tst_y, batch_size, code_w2i, nl_i2w, train=False)
 
-f_train_loss = open("train_loss.txt","a+")
-f_valid_loss = open("valid_loss.txt","a+")
-f_valid_bleu = open("valid_bleu.txt","a+")
 
+print("DONE------")
+print(trn_x)
 
-#root.restore("./models/codenn_dim512_embed256_drop0.5_lr0.001_batch32_epochs20_layer1NEW_skip_size100/ckpt-20")
+#root.restore(best_model)
 
+f_train_loss = open('train_loss.txt','a+')
+f_valid_loss = open('valid_loss.txt','a+')
+f_valid_bleu = open('valid_bleu.txt','a+')
 # training
 with writer.as_default(), tf.contrib.summary.always_record_summaries():
 
@@ -143,22 +145,23 @@ with writer.as_default(), tf.contrib.summary.always_record_summaries():
         for x, y, _, _ in t:
             loss_tmp.append(model.train_on_batch(x, y))
             t.set_description("epoch:{:03d}, loss = {}".format(epoch, np.mean(loss_tmp)))
-            f_train_loss.write(str(np.mean(loss_tmp)) + "\n")
         history["loss"].append(np.sum(loss_tmp) / len(t))
         tf.contrib.summary.scalar("loss", np.sum(loss_tmp) / len(t), step=epoch)
-        
-                
-
+                    
+        f_train_loss.write(str(np.sum(loss_tmp) / len(t)))
+        f_train_loss.write("\n")
+                    
         # validate loss
         loss_tmp = []
         t = tqdm(vld_gen(0))
         for x, y, _, _ in t:
-            loss_tmp.append(model.train_on_batch(x, y))
+            loss_tmp.append(model.evaluate_on_batch(x, y))
             t.set_description("epoch:{:03d}, loss_val = {}".format(epoch, np.mean(loss_tmp)))
-            f_valid_loss.write(str(np.mean(loss_tmp))+ "\n")
         history["loss_val"].append(np.sum(loss_tmp) / len(t))
         tf.contrib.summary.scalar("loss_val", np.sum(loss_tmp) / len(t), step=epoch)
-
+        
+        f_valid_loss.write(str(np.sum(loss_tmp) / len(t)))
+        f_valid_loss.write("\n")
         # validate bleu
         preds = []
         trues = []
@@ -170,22 +173,23 @@ with writer.as_default(), tf.contrib.summary.always_record_summaries():
             trues += [s[1:-1] for s in y_raw]
             bleus += [bleu4(tt, p) for tt, p in zip(trues, preds)]
             t.set_description("epoch:{:03d}, bleu_val = {}".format(epoch, np.mean(bleus)))
-            f_valid_bleu.write(str(np.mean(bleus)) + "\n")
         history["bleu_val"].append(np.mean(bleus))
         tf.contrib.summary.scalar("bleu_val", np.mean(bleus), step=epoch)
-
+         
+        f_valid_bleu.write(str(np.mean(bleus)))
+        f_valid_bleu.write("\n")
         # checkpoint
         checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
-        # hoge = root.save(file_prefix=checkpoint_prefix)
+        hoge = root.save(file_prefix=checkpoint_prefix)
         if history["bleu_val"][-1] == max(history["bleu_val"]):
-            hoge = root.save(file_prefix=checkpoint_prefix)
             best_model = hoge
-             
             print("Now best model is {}".format(best_model))
 
 
 # load final weight
-
+f_train_loss.close()
+f_valid_loss.close()
+f_valid_bleu.close()
 print("Restore {}".format(best_model))
 root.restore(best_model)
 
@@ -204,10 +208,6 @@ history["bleus"] = bleus
 history["preds"] = preds
 history["trues"] = trues
 history["numbers"] = [int(x.split("/")[-1]) for x in tst_x]
-
-f_train_loss.close()
-f_valid_loss.close()
-f_valid_bleu.close()
 
 with open(os.path.join(checkpoint_dir, "history.json"), "w") as f:
     json.dump(history, f)
