@@ -1,0 +1,74 @@
+36
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 statement (ForeachStmt)
+6 body (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='addTransform'
+10 scope (ThisExpr)
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='dt'
+15 iterable (NameExpr)
+16 name (SimpleName)
+17 identifier='transforms'
+18 variable (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 name (SimpleName)
+22 identifier='dt'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='DataTransform'
+26 name (SimpleName)
+27 identifier='DataTransformProcess'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='true'
+31 name (SimpleName)
+32 identifier='transforms'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='DataTransform'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+7 8
+8 9
+7 10
+7 11
+11 12
+12 13
+13 14
+5 15
+15 16
+16 17
+5 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+
+Creates a new transform process from the listed factories, which will be applied in order by index.

@@ -1,0 +1,150 @@
+74
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='bytes'
+9 value (ArrayCreationExpr)
+10 elementType (PrimitiveType)
+11 type='BYTE'
+12 levels
+13 level (ArrayCreationLevel)
+14 dimension (CastExpr)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='length'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='file'
+21 type (PrimitiveType)
+22 type='INT'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='RandomAccessFile'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='file'
+35 argument (StringLiteralExpr)
+36 value='r'
+37 name (SimpleName)
+38 identifier='raf'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='RandomAccessFile'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='read'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='raf'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='bytes'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='close'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='raf'
+60 name (SimpleName)
+61 identifier='NSData'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='file'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='File'
+70 thrownExceptions
+71 thrownException (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+14 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+33 34
+31 35
+35 36
+26 37
+37 38
+26 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+Creates a NSData object from a file. Using the files contents as the contents of this NSData object.

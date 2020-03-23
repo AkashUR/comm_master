@@ -1,0 +1,104 @@
+51
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='priviledgedExecuteNonSelectingCall'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='session'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='SQLCall'
+15 arguments
+16 argument (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='toString'
+19 scope (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='buildAddFieldWriter'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='session'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='field'
+29 argument (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='StringWriter'
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='addFieldOnDatabase'
+36 parameters
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='session'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='AbstractSession'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='field'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='FieldDefinition'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+22 29
+29 30
+30 31
+31 32
+0 33
+0 34
+34 35
+0 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+36 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+
+INTERNAL: Execute the SQL alter table to add the field to the table.

@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='callAddress'
+7 arguments
+8 argument (NullLiteralExpr)
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='address'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='afterAction'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='returnVoid'
+18 argument (BooleanLiteralExpr)
+19 value='false'
+20 argument (NullLiteralExpr)
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='callAddress'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='address'
+29 type (PrimitiveType)
+30 type='INT'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='afterAction'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='IAction'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='returnVoid'
+42 type (PrimitiveType)
+43 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+13 14
+7 15
+15 16
+16 17
+7 18
+18 19
+7 20
+0 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+24 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+24 38
+38 39
+38 40
+40 41
+38 42
+42 43
+
+Execute the code at the given address. The code is executed in the context of the currentThread. Parameters ($a0, $a1, ...) may have been copied to the current CpuState before calling this method. This call can return before the completion of the code. Use the "afterAction" parameter to trigger some actions that need to be executed after the code (e.g. to evaluate a return value in $v0).

@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TomcatWAR'
+11 arguments
+12 argument (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getResourcePath'
+15 arguments
+16 argument (BinaryExpr)
+17 operator='PLUS'
+18 left (NameExpr)
+19 name (SimpleName)
+20 identifier='PACKAGE_PATH'
+21 right (StringLiteralExpr)
+22 value='tomcat-empty.war'
+23 name (SimpleName)
+24 identifier='war'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='TomcatWAR'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='setContext'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='war'
+35 arguments
+36 argument (StringLiteralExpr)
+37 value='context'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='assertEquals'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='context'
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getContext'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='war'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='testGetPathContextWhenContextAlreadySetupAndNoTomcatContextXml'
+54 thrownExceptions
+55 thrownException (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+6 23
+23 24
+6 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+56 57
+
+Test set and get path context for a WAR with no Tomcat context.xml.

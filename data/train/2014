@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='lockNoHandshake'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='monitor'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='rvmThread'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='osr_flag'
+19 value (BooleanLiteralExpr)
+20 value='true'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='broadcast'
+25 scope (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='monitor'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='rvmThread'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='unlock'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='monitor'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='rvmThread'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='activate'
+44 annotations
+45 annotation (MarkerAnnotationExpr)
+46 name (Name)
+47 identifier='Uninterruptible'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+46 47
+
+Activates organizer thread if it is waiting.

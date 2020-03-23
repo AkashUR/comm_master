@@ -1,0 +1,408 @@
+203
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDocument'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='builder'
+13 name (SimpleName)
+14 identifier='document'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Document'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='createElement'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='document'
+28 arguments
+29 argument (StringLiteralExpr)
+30 value='domain'
+31 name (SimpleName)
+32 identifier='domain'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Element'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='setAttribute'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='domain'
+43 arguments
+44 argument (StringLiteralExpr)
+45 value='xmlns'
+46 argument (StringLiteralExpr)
+47 value='http://www.bea.com/ns/weblogic/920/domain'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='setAttribute'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='domain'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='xmlns:xsi'
+58 argument (StringLiteralExpr)
+59 value='http://www.w3.org/2001/XMLSchema-instance'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='setAttribute'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='domain'
+67 arguments
+68 argument (StringLiteralExpr)
+69 value='xsi:schemaLocation'
+70 argument (BinaryExpr)
+71 operator='PLUS'
+72 left (StringLiteralExpr)
+73 value='http://www.bea.com/ns/weblogic/920/domain '
+74 right (StringLiteralExpr)
+75 value='http://www.bea.com/ns/weblogic/920/domain.xsd'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='appendChild'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='document'
+83 arguments
+84 argument (NameExpr)
+85 name (SimpleName)
+86 identifier='domain'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='saveXml'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='util'
+94 arguments
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='document'
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='TEST_FILE'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='createFile'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='fileHandler'
+108 arguments
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='TEST_FILE'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='setNamespaces'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='manager'
+119 arguments
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='namespaces'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='setFile'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='manager'
+130 arguments
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='TEST_FILE'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='loadFile'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='manager'
+141 statement (ExpressionStmt)
+142 expression (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='insertElementsUnderXPath'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='manager'
+148 arguments
+149 argument (StringLiteralExpr)
+150 value='<subnode property=\'hello\' />'
+151 argument (StringLiteralExpr)
+152 value='//weblogic:domain'
+153 statement (ExpressionStmt)
+154 expression (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='writeFile'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='manager'
+160 statement (ExpressionStmt)
+161 expression (VariableDeclarationExpr)
+162 variables
+163 variable (VariableDeclarator)
+164 initializer (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='readTextFile'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='fileHandler'
+170 arguments
+171 argument (NameExpr)
+172 name (SimpleName)
+173 identifier='TEST_FILE'
+174 argument (StringLiteralExpr)
+175 value='UTF-8'
+176 name (SimpleName)
+177 identifier='xml'
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='String'
+181 statement (ExpressionStmt)
+182 expression (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='assertXpathEvaluatesTo'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='XMLAssert'
+188 arguments
+189 argument (StringLiteralExpr)
+190 value='hello'
+191 argument (StringLiteralExpr)
+192 value='//weblogic:domain/weblogic:subnode/@property'
+193 argument (NameExpr)
+194 name (SimpleName)
+195 identifier='xml'
+196 type (VoidType)
+197 name (SimpleName)
+198 identifier='testManagerCanInsertAnElementIntoFileWithNamespace'
+199 thrownExceptions
+200 thrownException (ClassOrInterfaceType)
+201 name (SimpleName)
+202 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+21 31
+31 32
+21 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+43 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+55 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+67 70
+70 71
+70 72
+72 73
+70 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+77 83
+83 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+94 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+124 130
+130 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+2 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+148 151
+151 152
+2 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+2 160
+160 161
+161 162
+162 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+164 170
+170 171
+171 172
+172 173
+170 174
+174 175
+163 176
+176 177
+163 178
+178 179
+179 180
+2 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+182 188
+188 189
+189 190
+188 191
+191 192
+188 193
+193 194
+194 195
+0 196
+0 197
+197 198
+0 199
+199 200
+200 201
+201 202
+
+Test that the file system manager can insert an XML element with a namespace.

@@ -1,0 +1,1012 @@
+505
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getSingleton'
+11 scope (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='INSTANCE'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='SingletonRegistry'
+17 arguments
+18 argument (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='HERON_SYSTEM_CONFIG'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='SystemConfig'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='SystemConfig'
+27 name (SimpleName)
+28 identifier='systemConfig'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='SystemConfig'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getHeronMetricsExportIntervalSec'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='systemConfig'
+42 name (SimpleName)
+43 identifier='interval'
+44 type (PrimitiveType)
+45 type='INT'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='registerMetric'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='metricsCollector'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='__jvm-gc-collection-time-ms'
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='jvmGCTimeMs'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='interval'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='registerMetric'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='metricsCollector'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='__jvm-gc-collection-count'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='jvmGCCount'
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='interval'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='registerMetric'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='metricsCollector'
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='__jvm-gc-time-ms'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='jvmGCTimeMsPerGCType'
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='interval'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='registerMetric'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='metricsCollector'
+101 arguments
+102 argument (StringLiteralExpr)
+103 value='__jvm-gc-count'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='jvmGCCountPerGCType'
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='interval'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='registerMetric'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='metricsCollector'
+117 arguments
+118 argument (StringLiteralExpr)
+119 value='__jvm-uptime-secs'
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='jvmUpTimeSecs'
+123 argument (NameExpr)
+124 name (SimpleName)
+125 identifier='interval'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='registerMetric'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='metricsCollector'
+133 arguments
+134 argument (StringLiteralExpr)
+135 value='__jvm-thread-count'
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='jvmThreadCount'
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='interval'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='registerMetric'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='metricsCollector'
+149 arguments
+150 argument (StringLiteralExpr)
+151 value='__jvm-daemon-thread-count'
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='jvmDaemonThreadCount'
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='interval'
+158 statement (ExpressionStmt)
+159 expression (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='registerMetric'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='metricsCollector'
+165 arguments
+166 argument (StringLiteralExpr)
+167 value='__jvm-process-cpu-time-nanos'
+168 argument (NameExpr)
+169 name (SimpleName)
+170 identifier='processCPUTimeNs'
+171 argument (NameExpr)
+172 name (SimpleName)
+173 identifier='interval'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='registerMetric'
+178 scope (NameExpr)
+179 name (SimpleName)
+180 identifier='metricsCollector'
+181 arguments
+182 argument (StringLiteralExpr)
+183 value='__jvm-threads-cpu-time-nanos'
+184 argument (NameExpr)
+185 name (SimpleName)
+186 identifier='threadsCPUTimeNs'
+187 argument (NameExpr)
+188 name (SimpleName)
+189 identifier='interval'
+190 statement (ExpressionStmt)
+191 expression (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='registerMetric'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='metricsCollector'
+197 arguments
+198 argument (StringLiteralExpr)
+199 value='__jvm-other-threads-cpu-time-nanos'
+200 argument (NameExpr)
+201 name (SimpleName)
+202 identifier='otherThreadsCPUTimeNs'
+203 argument (NameExpr)
+204 name (SimpleName)
+205 identifier='interval'
+206 statement (ExpressionStmt)
+207 expression (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='registerMetric'
+210 scope (NameExpr)
+211 name (SimpleName)
+212 identifier='metricsCollector'
+213 arguments
+214 argument (StringLiteralExpr)
+215 value='__jvm-threads-user-cpu-time-nanos'
+216 argument (NameExpr)
+217 name (SimpleName)
+218 identifier='threadsUserCPUTimeNs'
+219 argument (NameExpr)
+220 name (SimpleName)
+221 identifier='interval'
+222 statement (ExpressionStmt)
+223 expression (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='registerMetric'
+226 scope (NameExpr)
+227 name (SimpleName)
+228 identifier='metricsCollector'
+229 arguments
+230 argument (StringLiteralExpr)
+231 value='__jvm-other-threads-user-cpu-time-nanos'
+232 argument (NameExpr)
+233 name (SimpleName)
+234 identifier='otherThreadsUserCPUTimeNs'
+235 argument (NameExpr)
+236 name (SimpleName)
+237 identifier='interval'
+238 statement (ExpressionStmt)
+239 expression (MethodCallExpr)
+240 name (SimpleName)
+241 identifier='registerMetric'
+242 scope (NameExpr)
+243 name (SimpleName)
+244 identifier='metricsCollector'
+245 arguments
+246 argument (StringLiteralExpr)
+247 value='__jvm-process-cpu-load'
+248 argument (NameExpr)
+249 name (SimpleName)
+250 identifier='processCPULoad'
+251 argument (NameExpr)
+252 name (SimpleName)
+253 identifier='interval'
+254 statement (ExpressionStmt)
+255 expression (MethodCallExpr)
+256 name (SimpleName)
+257 identifier='registerMetric'
+258 scope (NameExpr)
+259 name (SimpleName)
+260 identifier='metricsCollector'
+261 arguments
+262 argument (StringLiteralExpr)
+263 value='__jvm-fd-count'
+264 argument (NameExpr)
+265 name (SimpleName)
+266 identifier='fdCount'
+267 argument (NameExpr)
+268 name (SimpleName)
+269 identifier='interval'
+270 statement (ExpressionStmt)
+271 expression (MethodCallExpr)
+272 name (SimpleName)
+273 identifier='registerMetric'
+274 scope (NameExpr)
+275 name (SimpleName)
+276 identifier='metricsCollector'
+277 arguments
+278 argument (StringLiteralExpr)
+279 value='__jvm-fd-limit'
+280 argument (NameExpr)
+281 name (SimpleName)
+282 identifier='fdLimit'
+283 argument (NameExpr)
+284 name (SimpleName)
+285 identifier='interval'
+286 statement (ExpressionStmt)
+287 expression (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='registerMetric'
+290 scope (NameExpr)
+291 name (SimpleName)
+292 identifier='metricsCollector'
+293 arguments
+294 argument (StringLiteralExpr)
+295 value='__jvm-memory-free-mb'
+296 argument (NameExpr)
+297 name (SimpleName)
+298 identifier='jvmMemoryFreeMB'
+299 argument (NameExpr)
+300 name (SimpleName)
+301 identifier='interval'
+302 statement (ExpressionStmt)
+303 expression (MethodCallExpr)
+304 name (SimpleName)
+305 identifier='registerMetric'
+306 scope (NameExpr)
+307 name (SimpleName)
+308 identifier='metricsCollector'
+309 arguments
+310 argument (StringLiteralExpr)
+311 value='__jvm-memory-used-mb'
+312 argument (NameExpr)
+313 name (SimpleName)
+314 identifier='jvmMemoryUsedMB'
+315 argument (NameExpr)
+316 name (SimpleName)
+317 identifier='interval'
+318 statement (ExpressionStmt)
+319 expression (MethodCallExpr)
+320 name (SimpleName)
+321 identifier='registerMetric'
+322 scope (NameExpr)
+323 name (SimpleName)
+324 identifier='metricsCollector'
+325 arguments
+326 argument (StringLiteralExpr)
+327 value='__jvm-memory-mb-total'
+328 argument (NameExpr)
+329 name (SimpleName)
+330 identifier='jvmMemoryTotalMB'
+331 argument (NameExpr)
+332 name (SimpleName)
+333 identifier='interval'
+334 statement (ExpressionStmt)
+335 expression (MethodCallExpr)
+336 name (SimpleName)
+337 identifier='registerMetric'
+338 scope (NameExpr)
+339 name (SimpleName)
+340 identifier='metricsCollector'
+341 arguments
+342 argument (StringLiteralExpr)
+343 value='__jvm-memory-heap-mb-used'
+344 argument (NameExpr)
+345 name (SimpleName)
+346 identifier='jvmMemoryHeapUsedMB'
+347 argument (NameExpr)
+348 name (SimpleName)
+349 identifier='interval'
+350 statement (ExpressionStmt)
+351 expression (MethodCallExpr)
+352 name (SimpleName)
+353 identifier='registerMetric'
+354 scope (NameExpr)
+355 name (SimpleName)
+356 identifier='metricsCollector'
+357 arguments
+358 argument (StringLiteralExpr)
+359 value='__jvm-memory-heap-mb-committed'
+360 argument (NameExpr)
+361 name (SimpleName)
+362 identifier='jvmMemoryHeapCommittedMB'
+363 argument (NameExpr)
+364 name (SimpleName)
+365 identifier='interval'
+366 statement (ExpressionStmt)
+367 expression (MethodCallExpr)
+368 name (SimpleName)
+369 identifier='registerMetric'
+370 scope (NameExpr)
+371 name (SimpleName)
+372 identifier='metricsCollector'
+373 arguments
+374 argument (StringLiteralExpr)
+375 value='__jvm-memory-heap-mb-max'
+376 argument (NameExpr)
+377 name (SimpleName)
+378 identifier='jvmMemoryHeapMaxMB'
+379 argument (NameExpr)
+380 name (SimpleName)
+381 identifier='interval'
+382 statement (ExpressionStmt)
+383 expression (MethodCallExpr)
+384 name (SimpleName)
+385 identifier='registerMetric'
+386 scope (NameExpr)
+387 name (SimpleName)
+388 identifier='metricsCollector'
+389 arguments
+390 argument (StringLiteralExpr)
+391 value='__jvm-memory-non-heap-mb-used'
+392 argument (NameExpr)
+393 name (SimpleName)
+394 identifier='jvmMemoryNonHeapUsedMB'
+395 argument (NameExpr)
+396 name (SimpleName)
+397 identifier='interval'
+398 statement (ExpressionStmt)
+399 expression (MethodCallExpr)
+400 name (SimpleName)
+401 identifier='registerMetric'
+402 scope (NameExpr)
+403 name (SimpleName)
+404 identifier='metricsCollector'
+405 arguments
+406 argument (StringLiteralExpr)
+407 value='__jvm-memory-non-heap-mb-committed'
+408 argument (NameExpr)
+409 name (SimpleName)
+410 identifier='jvmMemoryNonHeapCommittedMB'
+411 argument (NameExpr)
+412 name (SimpleName)
+413 identifier='interval'
+414 statement (ExpressionStmt)
+415 expression (MethodCallExpr)
+416 name (SimpleName)
+417 identifier='registerMetric'
+418 scope (NameExpr)
+419 name (SimpleName)
+420 identifier='metricsCollector'
+421 arguments
+422 argument (StringLiteralExpr)
+423 value='__jvm-memory-non-heap-mb-max'
+424 argument (NameExpr)
+425 name (SimpleName)
+426 identifier='jvmMemoryNonHeapMaxMB'
+427 argument (NameExpr)
+428 name (SimpleName)
+429 identifier='interval'
+430 statement (ExpressionStmt)
+431 expression (MethodCallExpr)
+432 name (SimpleName)
+433 identifier='registerMetric'
+434 scope (NameExpr)
+435 name (SimpleName)
+436 identifier='metricsCollector'
+437 arguments
+438 argument (StringLiteralExpr)
+439 value='__jvm-peak-usage'
+440 argument (NameExpr)
+441 name (SimpleName)
+442 identifier='jvmPeakUsagePerMemoryPool'
+443 argument (NameExpr)
+444 name (SimpleName)
+445 identifier='interval'
+446 statement (ExpressionStmt)
+447 expression (MethodCallExpr)
+448 name (SimpleName)
+449 identifier='registerMetric'
+450 scope (NameExpr)
+451 name (SimpleName)
+452 identifier='metricsCollector'
+453 arguments
+454 argument (StringLiteralExpr)
+455 value='__jvm-collection-usage'
+456 argument (NameExpr)
+457 name (SimpleName)
+458 identifier='jvmCollectionUsagePerMemoryPool'
+459 argument (NameExpr)
+460 name (SimpleName)
+461 identifier='interval'
+462 statement (ExpressionStmt)
+463 expression (MethodCallExpr)
+464 name (SimpleName)
+465 identifier='registerMetric'
+466 scope (NameExpr)
+467 name (SimpleName)
+468 identifier='metricsCollector'
+469 arguments
+470 argument (StringLiteralExpr)
+471 value='__jvm-estimated-usage'
+472 argument (NameExpr)
+473 name (SimpleName)
+474 identifier='jvmEstimatedUsagePerMemoryPool'
+475 argument (NameExpr)
+476 name (SimpleName)
+477 identifier='interval'
+478 statement (ExpressionStmt)
+479 expression (MethodCallExpr)
+480 name (SimpleName)
+481 identifier='registerMetric'
+482 scope (NameExpr)
+483 name (SimpleName)
+484 identifier='metricsCollector'
+485 arguments
+486 argument (StringLiteralExpr)
+487 value='__jvm-buffer-pool'
+488 argument (NameExpr)
+489 name (SimpleName)
+490 identifier='jvmBufferPoolMemoryUsage'
+491 argument (NameExpr)
+492 name (SimpleName)
+493 identifier='interval'
+494 type (VoidType)
+495 name (SimpleName)
+496 identifier='registerMetrics'
+497 parameters
+498 parameter (Parameter)
+499 isVarArgs='false'
+500 name (SimpleName)
+501 identifier='metricsCollector'
+502 type (ClassOrInterfaceType)
+503 name (SimpleName)
+504 identifier='MetricsCollector'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+15 16
+8 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+7 24
+24 25
+25 26
+6 27
+27 28
+6 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+35 42
+42 43
+35 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+117 120
+120 121
+121 122
+117 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+127 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+143 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+2 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+165 168
+168 169
+169 170
+165 171
+171 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+175 181
+181 182
+182 183
+181 184
+184 185
+185 186
+181 187
+187 188
+188 189
+2 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+191 197
+197 198
+198 199
+197 200
+200 201
+201 202
+197 203
+203 204
+204 205
+2 206
+206 207
+207 208
+208 209
+207 210
+210 211
+211 212
+207 213
+213 214
+214 215
+213 216
+216 217
+217 218
+213 219
+219 220
+220 221
+2 222
+222 223
+223 224
+224 225
+223 226
+226 227
+227 228
+223 229
+229 230
+230 231
+229 232
+232 233
+233 234
+229 235
+235 236
+236 237
+2 238
+238 239
+239 240
+240 241
+239 242
+242 243
+243 244
+239 245
+245 246
+246 247
+245 248
+248 249
+249 250
+245 251
+251 252
+252 253
+2 254
+254 255
+255 256
+256 257
+255 258
+258 259
+259 260
+255 261
+261 262
+262 263
+261 264
+264 265
+265 266
+261 267
+267 268
+268 269
+2 270
+270 271
+271 272
+272 273
+271 274
+274 275
+275 276
+271 277
+277 278
+278 279
+277 280
+280 281
+281 282
+277 283
+283 284
+284 285
+2 286
+286 287
+287 288
+288 289
+287 290
+290 291
+291 292
+287 293
+293 294
+294 295
+293 296
+296 297
+297 298
+293 299
+299 300
+300 301
+2 302
+302 303
+303 304
+304 305
+303 306
+306 307
+307 308
+303 309
+309 310
+310 311
+309 312
+312 313
+313 314
+309 315
+315 316
+316 317
+2 318
+318 319
+319 320
+320 321
+319 322
+322 323
+323 324
+319 325
+325 326
+326 327
+325 328
+328 329
+329 330
+325 331
+331 332
+332 333
+2 334
+334 335
+335 336
+336 337
+335 338
+338 339
+339 340
+335 341
+341 342
+342 343
+341 344
+344 345
+345 346
+341 347
+347 348
+348 349
+2 350
+350 351
+351 352
+352 353
+351 354
+354 355
+355 356
+351 357
+357 358
+358 359
+357 360
+360 361
+361 362
+357 363
+363 364
+364 365
+2 366
+366 367
+367 368
+368 369
+367 370
+370 371
+371 372
+367 373
+373 374
+374 375
+373 376
+376 377
+377 378
+373 379
+379 380
+380 381
+2 382
+382 383
+383 384
+384 385
+383 386
+386 387
+387 388
+383 389
+389 390
+390 391
+389 392
+392 393
+393 394
+389 395
+395 396
+396 397
+2 398
+398 399
+399 400
+400 401
+399 402
+402 403
+403 404
+399 405
+405 406
+406 407
+405 408
+408 409
+409 410
+405 411
+411 412
+412 413
+2 414
+414 415
+415 416
+416 417
+415 418
+418 419
+419 420
+415 421
+421 422
+422 423
+421 424
+424 425
+425 426
+421 427
+427 428
+428 429
+2 430
+430 431
+431 432
+432 433
+431 434
+434 435
+435 436
+431 437
+437 438
+438 439
+437 440
+440 441
+441 442
+437 443
+443 444
+444 445
+2 446
+446 447
+447 448
+448 449
+447 450
+450 451
+451 452
+447 453
+453 454
+454 455
+453 456
+456 457
+457 458
+453 459
+459 460
+460 461
+2 462
+462 463
+463 464
+464 465
+463 466
+466 467
+467 468
+463 469
+469 470
+470 471
+469 472
+472 473
+473 474
+469 475
+475 476
+476 477
+2 478
+478 479
+479 480
+480 481
+479 482
+482 483
+483 484
+479 485
+485 486
+486 487
+485 488
+488 489
+489 490
+485 491
+491 492
+492 493
+0 494
+0 495
+495 496
+0 497
+497 498
+498 499
+498 500
+500 501
+498 502
+502 503
+503 504
+
+Register metrics with the metrics collector

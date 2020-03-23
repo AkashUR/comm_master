@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (NameExpr)
+10 name (SimpleName)
+11 identifier='authenticating'
+12 value (BooleanLiteralExpr)
+13 value='false'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='cancel'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='timer'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='purge'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='timer'
+28 expression (NameExpr)
+29 name (SimpleName)
+30 identifier='syncLock'
+31 type (VoidType)
+32 name (SimpleName)
+33 identifier='cancelAuthentication'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+5 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+5 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+3 28
+28 29
+29 30
+0 31
+0 32
+32 33
+
+if this object is authenticating using the callback based authenticate method, then this will cancel future authentication requests. if using authenticate that returns an Observable, then this has no effect.

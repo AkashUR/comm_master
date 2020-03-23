@@ -1,0 +1,182 @@
+90
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='commandSessionTracker'
+9 scope (ThisExpr)
+10 value (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='ServiceTracker'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='context'
+18 argument (ClassExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='CommandSession'
+22 argument (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='CommandSessionListener'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='context'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='open'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='commandSessionTracker'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='serviceTrackerActions'
+43 scope (ThisExpr)
+44 value (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='ServiceTracker'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='context'
+52 argument (ClassExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='CommandWithAction'
+56 argument (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='SwitchActionListener'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='context'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='open'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='serviceTrackerActions'
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='start'
+74 parameters
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='context'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='BundleContext'
+82 thrownExceptions
+83 thrownException (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='Exception'
+86 annotations
+87 annotation (MarkerAnnotationExpr)
+88 name (Name)
+89 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+14 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+40 43
+38 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+54 55
+48 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+0 71
+0 72
+72 73
+0 74
+74 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+0 82
+82 83
+83 84
+84 85
+0 86
+86 87
+87 88
+88 89
+
+Called when this bundle is started so the Framework can perform the bundle-specific activities necessary to start this bundle. This method can be used to register services or to allocate any resources that this bundle needs. <p/> <p/> This method must complete and return to its caller in a timely manner.

@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='start'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='checkNotNull'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='start'
+17 argument (StringLiteralExpr)
+18 value='start'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='end'
+25 scope (ThisExpr)
+26 value (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='sub'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='add'
+32 scope (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='start'
+35 scope (ThisExpr)
+36 arguments
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='size'
+40 scope (ThisExpr)
+41 arguments
+42 argument (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='ONE'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='Vector3i'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='fill'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='Arrays'
+55 arguments
+56 argument (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='biomes'
+59 scope (ThisExpr)
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='OCEAN'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='BiomeTypes'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='reuse'
+69 parameters
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='start'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='Vector3i'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+13 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+22 25
+20 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+29 36
+36 37
+37 38
+38 39
+37 40
+26 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+56 59
+55 60
+60 61
+61 62
+60 63
+63 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+70 72
+72 73
+70 74
+74 75
+75 76
+
+Changes the bounds of this biome volume, so that it can be reused for another chunk.

@@ -1,0 +1,104 @@
+51
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onWebSocketError'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='cause'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='info'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='log'
+19 arguments
+20 argument (StringLiteralExpr)
+21 value='Socket error: '
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='cause'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='unsubscribe'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='store'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='handle'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='onWebSocketError'
+39 parameters
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='cause'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='Throwable'
+47 annotations
+48 annotation (MarkerAnnotationExpr)
+49 name (Name)
+50 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+0 36
+0 37
+37 38
+0 39
+39 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+0 47
+47 48
+48 49
+49 50
+
+Called by Jetty when the WebSocket connection is forcibly closed due to an error.

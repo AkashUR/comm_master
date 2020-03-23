@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='WAR'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='path'
+14 name (SimpleName)
+15 identifier='deployable'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Deployable'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getAbsolutePath'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='deployer'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='deployable'
+33 name (SimpleName)
+34 identifier='path'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='assertEquals'
+42 arguments
+43 argument (BinaryExpr)
+44 operator='PLUS'
+45 left (BinaryExpr)
+46 operator='PLUS'
+47 left (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getProperty'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='System'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='user.dir'
+56 right (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getProperty'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='System'
+62 arguments
+63 argument (StringLiteralExpr)
+64 value='file.separator'
+65 right (StringLiteralExpr)
+66 value='path'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='path'
+70 type (VoidType)
+71 name (SimpleName)
+72 identifier='testGetAbsolutePathWithRelativePath'
+73 thrownExceptions
+74 thrownException (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+22 33
+33 34
+22 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+43 45
+45 46
+45 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+45 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+43 65
+65 66
+42 67
+67 68
+68 69
+0 70
+0 71
+71 72
+0 73
+73 74
+74 75
+75 76
+
+Test path getter.

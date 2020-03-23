@@ -1,0 +1,410 @@
+204
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 name (SimpleName)
+12 identifier='intent'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Intent'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setAction'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='intent'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='ACTION_UPDATE_STATUS'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='TileReceiver'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='putExtra'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='intent'
+37 arguments
+38 argument (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='EXTRA_ACTION'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='C'
+44 argument (ConditionalExpr)
+45 condition (NameExpr)
+46 name (SimpleName)
+47 identifier='nowStatus'
+48 elseExpr (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='ACTION_START'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='C'
+54 thenExpr (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='ACTION_STOP'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='C'
+60 statement (ExpressionStmt)
+61 expression (VariableDeclarationExpr)
+62 variables
+63 variable (VariableDeclarator)
+64 initializer (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='build'
+67 scope (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='setOnClickIntent'
+70 scope (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='setIcon'
+73 scope (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='setLabel'
+76 scope (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='shouldCollapsePanel'
+79 scope (ObjectCreationExpr)
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Builder'
+83 scope (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='CustomTile'
+86 arguments
+87 argument (NameExpr)
+88 name (SimpleName)
+89 identifier='context'
+90 arguments
+91 argument (BooleanLiteralExpr)
+92 value='false'
+93 arguments
+94 argument (ConditionalExpr)
+95 condition (NameExpr)
+96 name (SimpleName)
+97 identifier='nowStatus'
+98 elseExpr (FieldAccessExpr)
+99 name (SimpleName)
+100 identifier='app_name'
+101 scope (FieldAccessExpr)
+102 name (SimpleName)
+103 identifier='string'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='R'
+107 thenExpr (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='notification_action_turn_off'
+110 scope (FieldAccessExpr)
+111 name (SimpleName)
+112 identifier='string'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='R'
+116 arguments
+117 argument (ConditionalExpr)
+118 condition (NameExpr)
+119 name (SimpleName)
+120 identifier='nowStatus'
+121 elseExpr (FieldAccessExpr)
+122 name (SimpleName)
+123 identifier='ic_wb_sunny_white_36dp'
+124 scope (FieldAccessExpr)
+125 name (SimpleName)
+126 identifier='drawable'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='R'
+130 thenExpr (FieldAccessExpr)
+131 name (SimpleName)
+132 identifier='ic_brightness_2_white_36dp'
+133 scope (FieldAccessExpr)
+134 name (SimpleName)
+135 identifier='drawable'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='R'
+139 arguments
+140 argument (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='getBroadcast'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='PendingIntent'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='context'
+150 argument (IntegerLiteralExpr)
+151 value='0'
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='intent'
+155 argument (FieldAccessExpr)
+156 name (SimpleName)
+157 identifier='FLAG_UPDATE_CURRENT'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='PendingIntent'
+161 name (SimpleName)
+162 identifier='customTile'
+163 type (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='CustomTile'
+166 statement (ExpressionStmt)
+167 expression (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='publishTile'
+170 scope (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='getInstance'
+173 scope (NameExpr)
+174 name (SimpleName)
+175 identifier='CMStatusBarManager'
+176 arguments
+177 argument (NameExpr)
+178 name (SimpleName)
+179 identifier='context'
+180 arguments
+181 argument (NameExpr)
+182 name (SimpleName)
+183 identifier='CM_TILE_CODE'
+184 argument (NameExpr)
+185 name (SimpleName)
+186 identifier='customTile'
+187 type (VoidType)
+188 name (SimpleName)
+189 identifier='createStatusBarTiles'
+190 parameters
+191 parameter (Parameter)
+192 isVarArgs='false'
+193 name (SimpleName)
+194 identifier='context'
+195 type (ClassOrInterfaceType)
+196 name (SimpleName)
+197 identifier='Context'
+198 parameter (Parameter)
+199 isVarArgs='false'
+200 name (SimpleName)
+201 identifier='nowStatus'
+202 type (PrimitiveType)
+203 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+37 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+48 51
+51 52
+52 53
+44 54
+54 55
+55 56
+54 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+73 74
+74 75
+73 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+79 86
+86 87
+87 88
+88 89
+76 90
+90 91
+91 92
+73 93
+93 94
+94 95
+95 96
+96 97
+94 98
+98 99
+99 100
+98 101
+101 102
+102 103
+101 104
+104 105
+105 106
+94 107
+107 108
+108 109
+107 110
+110 111
+111 112
+110 113
+113 114
+114 115
+70 116
+116 117
+117 118
+118 119
+119 120
+117 121
+121 122
+122 123
+121 124
+124 125
+125 126
+124 127
+127 128
+128 129
+117 130
+130 131
+131 132
+130 133
+133 134
+134 135
+133 136
+136 137
+137 138
+67 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+146 150
+150 151
+146 152
+152 153
+153 154
+146 155
+155 156
+156 157
+155 158
+158 159
+159 160
+63 161
+161 162
+63 163
+163 164
+164 165
+2 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+170 173
+173 174
+174 175
+170 176
+176 177
+177 178
+178 179
+167 180
+180 181
+181 182
+182 183
+180 184
+184 185
+185 186
+0 187
+0 188
+188 189
+0 190
+190 191
+191 192
+191 193
+193 194
+191 195
+195 196
+196 197
+190 198
+198 199
+198 200
+200 201
+198 202
+202 203
+
+Create a tiles on the status bar through CyanogenMod SDK -- Fung Jichun You can learn more from: https://cyngn.com/developer-blog/introducing-the-cyanogen-platform-sdk

@@ -1,0 +1,168 @@
+83
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='registerInput'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='varName'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='rdd'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='rlen'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='clen'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='brlen'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='bclen'
+26 argument (UnaryExpr)
+27 operator='MINUS'
+28 expression (IntegerLiteralExpr)
+29 value='1'
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='registerInput'
+33 parameters
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='varName'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='String'
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='rdd'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='JavaPairRDD'
+48 typeArguments
+49 typeArgument (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='MatrixIndexes'
+52 typeArgument (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='MatrixBlock'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='rlen'
+59 type (PrimitiveType)
+60 type='LONG'
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='clen'
+65 type (PrimitiveType)
+66 type='LONG'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='brlen'
+71 type (PrimitiveType)
+72 type='INT'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='bclen'
+77 type (PrimitiveType)
+78 type='INT'
+79 thrownExceptions
+80 thrownException (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='DMLRuntimeException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+24 25
+7 26
+26 27
+26 28
+28 29
+0 30
+0 31
+31 32
+0 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+33 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+33 55
+55 56
+55 57
+57 58
+55 59
+59 60
+33 61
+61 62
+61 63
+63 64
+61 65
+65 66
+33 67
+67 68
+67 69
+69 70
+67 71
+71 72
+33 73
+73 74
+73 75
+75 76
+73 77
+77 78
+0 79
+79 80
+80 81
+81 82
+
+Register binary blocked RDD with given dimensions, given block sizes and no nnz <p> Marks the variable in the DML script as input variable. Note that this expects a "varName = read(...)" statement in the DML script which through non-MLContext invocation would have been created by reading a HDFS file.

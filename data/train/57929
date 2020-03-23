@@ -1,0 +1,498 @@
+248
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='info'
+9 statement (ExpressionStmt)
+10 expression (VariableDeclarationExpr)
+11 variables
+12 variable (VariableDeclarator)
+13 initializer (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getTileSize'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='info'
+19 arguments
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getMinimumZoomLevel'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='info'
+26 name (SimpleName)
+27 identifier='tileSize'
+28 type (PrimitiveType)
+29 type='INT'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='emptyTile'
+36 value (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='BufferedImage'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='tileSize'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='tileSize'
+47 argument (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='TYPE_INT_ARGB'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='BufferedImage'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='createGraphics'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='emptyTile'
+63 name (SimpleName)
+64 identifier='g'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='Graphics2D'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='setRenderingHint'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='g'
+75 arguments
+76 argument (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='KEY_ANTIALIASING'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='RenderingHints'
+82 argument (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='VALUE_ANTIALIAS_ON'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='RenderingHints'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='setColor'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='g'
+95 arguments
+96 argument (FieldAccessExpr)
+97 name (SimpleName)
+98 identifier='GRAY'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='Color'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='fillRect'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='g'
+109 arguments
+110 argument (IntegerLiteralExpr)
+111 value='0'
+112 argument (IntegerLiteralExpr)
+113 value='0'
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='tileSize'
+117 argument (NameExpr)
+118 name (SimpleName)
+119 identifier='tileSize'
+120 statement (ExpressionStmt)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='setColor'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='g'
+127 arguments
+128 argument (FieldAccessExpr)
+129 name (SimpleName)
+130 identifier='WHITE'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='Color'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='drawOval'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='g'
+141 arguments
+142 argument (IntegerLiteralExpr)
+143 value='10'
+144 argument (IntegerLiteralExpr)
+145 value='10'
+146 argument (BinaryExpr)
+147 operator='MINUS'
+148 left (NameExpr)
+149 name (SimpleName)
+150 identifier='tileSize'
+151 right (IntegerLiteralExpr)
+152 value='20'
+153 argument (BinaryExpr)
+154 operator='MINUS'
+155 left (NameExpr)
+156 name (SimpleName)
+157 identifier='tileSize'
+158 right (IntegerLiteralExpr)
+159 value='20'
+160 statement (ExpressionStmt)
+161 expression (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='fillOval'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='g'
+167 arguments
+168 argument (IntegerLiteralExpr)
+169 value='70'
+170 argument (IntegerLiteralExpr)
+171 value='50'
+172 argument (IntegerLiteralExpr)
+173 value='20'
+174 argument (IntegerLiteralExpr)
+175 value='20'
+176 statement (ExpressionStmt)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='fillOval'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='g'
+183 arguments
+184 argument (BinaryExpr)
+185 operator='MINUS'
+186 left (NameExpr)
+187 name (SimpleName)
+188 identifier='tileSize'
+189 right (IntegerLiteralExpr)
+190 value='90'
+191 argument (IntegerLiteralExpr)
+192 value='50'
+193 argument (IntegerLiteralExpr)
+194 value='20'
+195 argument (IntegerLiteralExpr)
+196 value='20'
+197 statement (ExpressionStmt)
+198 expression (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='fillOval'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='g'
+204 arguments
+205 argument (BinaryExpr)
+206 operator='MINUS'
+207 left (BinaryExpr)
+208 operator='DIVIDE'
+209 left (NameExpr)
+210 name (SimpleName)
+211 identifier='tileSize'
+212 right (IntegerLiteralExpr)
+213 value='2'
+214 right (IntegerLiteralExpr)
+215 value='10'
+216 argument (BinaryExpr)
+217 operator='MINUS'
+218 left (BinaryExpr)
+219 operator='DIVIDE'
+220 left (NameExpr)
+221 name (SimpleName)
+222 identifier='tileSize'
+223 right (IntegerLiteralExpr)
+224 value='2'
+225 right (IntegerLiteralExpr)
+226 value='10'
+227 argument (IntegerLiteralExpr)
+228 value='20'
+229 argument (IntegerLiteralExpr)
+230 value='20'
+231 statement (ExpressionStmt)
+232 expression (MethodCallExpr)
+233 name (SimpleName)
+234 identifier='dispose'
+235 scope (NameExpr)
+236 name (SimpleName)
+237 identifier='g'
+238 name (SimpleName)
+239 identifier='EmptyTileFactory'
+240 parameters
+241 parameter (Parameter)
+242 isVarArgs='false'
+243 name (SimpleName)
+244 identifier='info'
+245 type (ClassOrInterfaceType)
+246 name (SimpleName)
+247 identifier='TileFactoryInfo'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+12 26
+26 27
+12 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+40 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+56 63
+63 64
+56 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+75 82
+82 83
+83 84
+82 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+103 109
+109 110
+110 111
+109 112
+112 113
+109 114
+114 115
+115 116
+109 117
+117 118
+118 119
+2 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+135 141
+141 142
+142 143
+141 144
+144 145
+141 146
+146 147
+146 148
+148 149
+149 150
+146 151
+151 152
+141 153
+153 154
+153 155
+155 156
+156 157
+153 158
+158 159
+2 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+161 167
+167 168
+168 169
+167 170
+170 171
+167 172
+172 173
+167 174
+174 175
+2 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+184 186
+186 187
+187 188
+184 189
+189 190
+183 191
+191 192
+183 193
+193 194
+183 195
+195 196
+2 197
+197 198
+198 199
+199 200
+198 201
+201 202
+202 203
+198 204
+204 205
+205 206
+205 207
+207 208
+207 209
+209 210
+210 211
+207 212
+212 213
+205 214
+214 215
+204 216
+216 217
+216 218
+218 219
+218 220
+220 221
+221 222
+218 223
+223 224
+216 225
+225 226
+204 227
+227 228
+204 229
+229 230
+2 231
+231 232
+232 233
+233 234
+232 235
+235 236
+236 237
+0 238
+238 239
+0 240
+240 241
+241 242
+241 243
+243 244
+241 245
+245 246
+246 247
+
+Creates a new instance of EmptyTileFactory using the specified info.

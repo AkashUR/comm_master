@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertFalse'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='domainMatches'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='HttpCookie'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='localhost'
+17 argument (StringLiteralExpr)
+18 value='localhost'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='assertFalse'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='domainMatches'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='HttpCookie'
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='b'
+33 argument (StringLiteralExpr)
+34 value='b'
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='testDomainMatchesOnLocalAddresses'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+14 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+30 33
+33 34
+0 35
+0 36
+36 37
+
+RFC 2109 and RFC 2965 disagree here. 2109 says two equals strings match only if they are fully-qualified domain names. 2965 says two equal strings always match. We're testing for 2109 behavior because it's more widely used, it's more conservative, and it's what the RI does.

@@ -1,0 +1,242 @@
+120
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (BinaryExpr)
+18 operator='PLUS'
+19 left (NameExpr)
+20 name (SimpleName)
+21 identifier='RESOURCE'
+22 right (StringLiteralExpr)
+23 value='/'
+24 right (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='toString'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='alertId'
+30 right (StringLiteralExpr)
+31 value='/notifications/'
+32 right (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='toString'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='notificationId'
+38 right (StringLiteralExpr)
+39 value='/triggers/'
+40 right (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='toString'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='triggerId'
+46 name (SimpleName)
+47 identifier='requestUrl'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 statement (ExpressionStmt)
+52 expression (VariableDeclarationExpr)
+53 variables
+54 variable (VariableDeclarator)
+55 initializer (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='executeHttpRequest'
+58 scope (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='getClient'
+61 arguments
+62 argument (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='DELETE'
+65 scope (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='RequestType'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='ArgusHttpClient'
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='requestUrl'
+74 argument (NullLiteralExpr)
+75 name (SimpleName)
+76 identifier='response'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='ArgusResponse'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='assertValidResponse'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='response'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='requestUrl'
+91 type (VoidType)
+92 name (SimpleName)
+93 identifier='unlinkTrigger'
+94 parameters
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='alertId'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='BigInteger'
+102 parameter (Parameter)
+103 isVarArgs='false'
+104 name (SimpleName)
+105 identifier='notificationId'
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='BigInteger'
+109 parameter (Parameter)
+110 isVarArgs='false'
+111 name (SimpleName)
+112 identifier='triggerId'
+113 type (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='BigInteger'
+116 thrownExceptions
+117 thrownException (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+15 24
+24 25
+25 26
+24 27
+27 28
+28 29
+13 30
+30 31
+11 32
+32 33
+33 34
+32 35
+35 36
+36 37
+9 38
+38 39
+7 40
+40 41
+41 42
+40 43
+43 44
+44 45
+6 46
+46 47
+6 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+65 68
+68 69
+69 70
+61 71
+71 72
+72 73
+61 74
+54 75
+75 76
+54 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+0 91
+0 92
+92 93
+0 94
+94 95
+95 96
+95 97
+97 98
+95 99
+99 100
+100 101
+94 102
+102 103
+102 104
+104 105
+102 106
+106 107
+107 108
+94 109
+109 110
+109 111
+111 112
+109 113
+113 114
+114 115
+0 116
+116 117
+117 118
+118 119
+
+Unlinks the specified trigger from the specified notification.

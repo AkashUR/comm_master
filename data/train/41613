@@ -1,0 +1,38 @@
+18
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setProperty'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='System'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='java.rmi.server.hostname'
+13 argument (StringLiteralExpr)
+14 value='127.0.0.1'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='ensureRegistryOnLoopbackAddress'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+0 15
+0 16
+16 17
+
+A registry is created on the "localhost". But what is the "localhost"? usually, this is a loopback address 127.0.0.1. But, if there are network interfaces, depending on the operating system the "localhost" can bind to them. <p> So, if we start EvoSuite with a connection on (eg WiFi), losing such connection would mess up EvoSuite. Even worse, if EvoSuite is started from Eclipse, Eclipse will always use the binding it used at it start! In that case, Eclipse would need to be restarted each time connection change.  <p> For these reasons, here we try to force to always bind to 127.0.0.1

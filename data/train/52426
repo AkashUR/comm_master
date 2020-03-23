@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='snmpV2Trap'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='addr'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='trapPort'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='cs'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='trapOid'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='varBindList'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='time'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='snmpV2Trap'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='addr'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='InetAddress'
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='cs'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='String'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='trapOid'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='SnmpOid'
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='varBindList'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='SnmpVarBindList'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='time'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='SnmpTimeticks'
+65 thrownExceptions
+66 thrownException (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='IOException'
+69 thrownException (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='SnmpStatusException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+29 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+29 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+29 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+29 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+0 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+
+Sends a trap using SNMP V2 trap format. <BR>The trap is sent to the specified <CODE>InetAddress</CODE> destination using the specified parameters (and the ACL file is not used). Note that if the specified <CODE>InetAddress</CODE> destination is null, then the ACL file mechanism is used. <BR>The variable list included in the outgoing trap is composed of the following items: <UL> <LI><CODE>sysUpTime.0</CODE> with the value specified by <CODE>time</CODE></LI> <LI><CODE>snmpTrapOid.0</CODE> with the value specified by <CODE>trapOid</CODE></LI> <LI><CODE>all the (oid,values)</CODE> from the specified <CODE>varBindList</CODE></LI> </UL>

@@ -1,0 +1,504 @@
+251
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TungstenProperties'
+11 name (SimpleName)
+12 identifier='conf'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TungstenProperties'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setString'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='conf'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='SERVICE_NAME'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='ReplicatorConf'
+30 argument (StringLiteralExpr)
+31 value='test'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='setString'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='conf'
+39 arguments
+40 argument (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='ROLE'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='ReplicatorConf'
+46 argument (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='ROLE_MASTER'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='ReplicatorConf'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='setString'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='conf'
+59 arguments
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='PIPELINES'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='ReplicatorConf'
+66 argument (StringLiteralExpr)
+67 value='master'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='setString'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='conf'
+75 arguments
+76 argument (BinaryExpr)
+77 operator='PLUS'
+78 left (FieldAccessExpr)
+79 name (SimpleName)
+80 identifier='PIPELINE_ROOT'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='ReplicatorConf'
+84 right (StringLiteralExpr)
+85 value='.master'
+86 argument (StringLiteralExpr)
+87 value='extract'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='setString'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='conf'
+95 arguments
+96 argument (BinaryExpr)
+97 operator='PLUS'
+98 left (FieldAccessExpr)
+99 name (SimpleName)
+100 identifier='STAGE_ROOT'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='ReplicatorConf'
+104 right (StringLiteralExpr)
+105 value='.extract'
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='toString'
+109 scope (ClassExpr)
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='SingleThreadStageTask'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='setString'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='conf'
+120 arguments
+121 argument (BinaryExpr)
+122 operator='PLUS'
+123 left (FieldAccessExpr)
+124 name (SimpleName)
+125 identifier='STAGE_ROOT'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='ReplicatorConf'
+129 right (StringLiteralExpr)
+130 value='.extract.extractor'
+131 argument (StringLiteralExpr)
+132 value='dummy'
+133 statement (ExpressionStmt)
+134 expression (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='setString'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='conf'
+140 arguments
+141 argument (BinaryExpr)
+142 operator='PLUS'
+143 left (FieldAccessExpr)
+144 name (SimpleName)
+145 identifier='STAGE_ROOT'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='ReplicatorConf'
+149 right (StringLiteralExpr)
+150 value='.extract.applier'
+151 argument (StringLiteralExpr)
+152 value='dummy'
+153 statement (ExpressionStmt)
+154 expression (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='setString'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='conf'
+160 arguments
+161 argument (BinaryExpr)
+162 operator='PLUS'
+163 left (FieldAccessExpr)
+164 name (SimpleName)
+165 identifier='APPLIER_ROOT'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='ReplicatorConf'
+169 right (StringLiteralExpr)
+170 value='.dummy'
+171 argument (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='getName'
+174 scope (ClassExpr)
+175 type (ClassOrInterfaceType)
+176 name (SimpleName)
+177 identifier='DummyApplier'
+178 statement (ExpressionStmt)
+179 expression (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='setString'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='conf'
+185 arguments
+186 argument (BinaryExpr)
+187 operator='PLUS'
+188 left (FieldAccessExpr)
+189 name (SimpleName)
+190 identifier='EXTRACTOR_ROOT'
+191 scope (NameExpr)
+192 name (SimpleName)
+193 identifier='ReplicatorConf'
+194 right (StringLiteralExpr)
+195 value='.dummy'
+196 argument (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='getName'
+199 scope (ClassExpr)
+200 type (ClassOrInterfaceType)
+201 name (SimpleName)
+202 identifier='DummyExtractor'
+203 statement (ExpressionStmt)
+204 expression (VariableDeclarationExpr)
+205 variables
+206 variable (VariableDeclarator)
+207 initializer (ObjectCreationExpr)
+208 type (ClassOrInterfaceType)
+209 name (SimpleName)
+210 identifier='ReplicatorRuntime'
+211 arguments
+212 argument (NameExpr)
+213 name (SimpleName)
+214 identifier='conf'
+215 argument (ObjectCreationExpr)
+216 type (ClassOrInterfaceType)
+217 name (SimpleName)
+218 identifier='MockOpenReplicatorContext'
+219 argument (MethodCallExpr)
+220 name (SimpleName)
+221 identifier='getInstance'
+222 scope (NameExpr)
+223 name (SimpleName)
+224 identifier='ReplicatorMonitor'
+225 name (SimpleName)
+226 identifier='runtime'
+227 type (ClassOrInterfaceType)
+228 name (SimpleName)
+229 identifier='ReplicatorRuntime'
+230 statement (ExpressionStmt)
+231 expression (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='configure'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='runtime'
+237 statement (ExpressionStmt)
+238 expression (MethodCallExpr)
+239 name (SimpleName)
+240 identifier='release'
+241 scope (NameExpr)
+242 name (SimpleName)
+243 identifier='runtime'
+244 type (VoidType)
+245 name (SimpleName)
+246 identifier='testNullRuntime'
+247 thrownExceptions
+248 thrownException (ClassOrInterfaceType)
+249 name (SimpleName)
+250 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+47 48
+46 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+59 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+76 78
+78 79
+79 80
+78 81
+81 82
+82 83
+76 84
+84 85
+75 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+96 98
+98 99
+99 100
+98 101
+101 102
+102 103
+96 104
+104 105
+95 106
+106 107
+107 108
+106 109
+109 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+121 123
+123 124
+124 125
+123 126
+126 127
+127 128
+121 129
+129 130
+120 131
+131 132
+2 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+134 140
+140 141
+141 142
+141 143
+143 144
+144 145
+143 146
+146 147
+147 148
+141 149
+149 150
+140 151
+151 152
+2 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+154 160
+160 161
+161 162
+161 163
+163 164
+164 165
+163 166
+166 167
+167 168
+161 169
+169 170
+160 171
+171 172
+172 173
+171 174
+174 175
+175 176
+176 177
+2 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+179 185
+185 186
+186 187
+186 188
+188 189
+189 190
+188 191
+191 192
+192 193
+186 194
+194 195
+185 196
+196 197
+197 198
+196 199
+199 200
+200 201
+201 202
+2 203
+203 204
+204 205
+205 206
+206 207
+207 208
+208 209
+209 210
+207 211
+211 212
+212 213
+213 214
+211 215
+215 216
+216 217
+217 218
+211 219
+219 220
+220 221
+219 222
+222 223
+223 224
+206 225
+225 226
+206 227
+227 228
+228 229
+2 230
+230 231
+231 232
+232 233
+231 234
+234 235
+235 236
+2 237
+237 238
+238 239
+239 240
+238 241
+241 242
+242 243
+0 244
+0 245
+245 246
+0 247
+247 248
+248 249
+249 250
+
+Prove it is possible to configure a minimal runtime. This helps quite a bit with unit testing.

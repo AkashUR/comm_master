@@ -1,0 +1,268 @@
+133
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='ddTriangle'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='ClickableTriangle'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='upState'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='down'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='upTriLabel'
+26 value (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='JLabel'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='upLabel'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='downTriLabel'
+40 value (ObjectCreationExpr)
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='JLabel'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='downLabel'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='parent'
+54 scope (ThisExpr)
+55 value (NameExpr)
+56 name (SimpleName)
+57 identifier='parent'
+58 statement (ExpressionStmt)
+59 expression (AssignExpr)
+60 operator='ASSIGN'
+61 target (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='down'
+64 scope (ThisExpr)
+65 value (NameExpr)
+66 name (SimpleName)
+67 identifier='down'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='setLayout'
+72 scope (ThisExpr)
+73 arguments
+74 argument (ObjectCreationExpr)
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='BoxLayout'
+78 arguments
+79 argument (ThisExpr)
+80 argument (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='X_AXIS'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='BoxLayout'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='initLayout'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='addMouseListener'
+94 arguments
+95 argument (ThisExpr)
+96 name (SimpleName)
+97 identifier='DropDownTriangle'
+98 parameters
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='upState'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='UpDirection'
+106 parameter (Parameter)
+107 isVarArgs='false'
+108 name (SimpleName)
+109 identifier='down'
+110 type (PrimitiveType)
+111 type='BOOLEAN'
+112 parameter (Parameter)
+113 isVarArgs='false'
+114 name (SimpleName)
+115 identifier='upLabel'
+116 type (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='String'
+119 parameter (Parameter)
+120 isVarArgs='false'
+121 name (SimpleName)
+122 identifier='downLabel'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='String'
+126 parameter (Parameter)
+127 isVarArgs='false'
+128 name (SimpleName)
+129 identifier='parent'
+130 type (ClassOrInterfaceType)
+131 name (SimpleName)
+132 identifier='Window'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+51 54
+49 55
+55 56
+56 57
+2 58
+58 59
+59 60
+59 61
+61 62
+62 63
+61 64
+59 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+69 73
+73 74
+74 75
+75 76
+76 77
+74 78
+78 79
+78 80
+80 81
+81 82
+80 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+0 96
+96 97
+0 98
+98 99
+99 100
+99 101
+101 102
+99 103
+103 104
+104 105
+98 106
+106 107
+106 108
+108 109
+106 110
+110 111
+98 112
+112 113
+112 114
+114 115
+112 116
+116 117
+117 118
+98 119
+119 120
+119 121
+121 122
+119 123
+123 124
+124 125
+98 126
+126 127
+126 128
+128 129
+126 130
+130 131
+131 132
+
+Creates a drop down triangle with a label displayed when it is in the "up" state and a label displayed when it is in the "down" state. The triangle points either left or right in the "up" state and starts out either "up" or down.

@@ -1,0 +1,138 @@
+68
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (AssertStmt)
+4 check (BinaryExpr)
+5 operator='AND'
+6 left (BinaryExpr)
+7 operator='NOT_EQUALS'
+8 left (NameExpr)
+9 name (SimpleName)
+10 identifier='serverLeg'
+11 right (NullLiteralExpr)
+12 right (BinaryExpr)
+13 operator='GREATER'
+14 left (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='length'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='serverLeg'
+20 right (IntegerLiteralExpr)
+21 value='0'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='principalId'
+28 scope (ThisExpr)
+29 value (NullLiteralExpr)
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='contextId'
+36 scope (ThisExpr)
+37 value (NameExpr)
+38 name (SimpleName)
+39 identifier='contextId'
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='ASSIGN'
+43 target (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='serverLeg'
+46 scope (ThisExpr)
+47 value (NameExpr)
+48 name (SimpleName)
+49 identifier='serverLeg'
+50 name (SimpleName)
+51 identifier='GSSResult'
+52 parameters
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='contextId'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='serverLeg'
+64 type (ArrayType)
+65 origin='TYPE'
+66 componentType (PrimitiveType)
+67 type='BYTE'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+6 8
+8 9
+9 10
+6 11
+4 12
+12 13
+12 14
+14 15
+15 16
+14 17
+17 18
+18 19
+12 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+25 28
+23 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+33 36
+31 37
+37 38
+38 39
+2 40
+40 41
+41 42
+41 43
+43 44
+44 45
+43 46
+41 47
+47 48
+48 49
+0 50
+50 51
+0 52
+52 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+52 60
+60 61
+60 62
+62 63
+60 64
+64 65
+64 66
+66 67
+
+Creates a result that indicates for not yet established GSS security context. Typically, such result is returned when gss_accept_sec_context() returns GSS_S_CONTINUE_NEEDED.

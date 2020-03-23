@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TimerTaskWrapper'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='task'
+15 name (SimpleName)
+16 identifier='taskWrapper'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='TimerTaskWrapper'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='put'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='wrappedTasks'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='task'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='taskWrapper'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='scheduleAtFixedRate'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='timer'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='taskWrapper'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='firstTime'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='period'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='scheduleAtFixedRate'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='task'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='TimerTask'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='firstTime'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='Date'
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='period'
+73 type (PrimitiveType)
+74 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+41 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+54 69
+69 70
+69 71
+71 72
+69 73
+73 74
+
+Schedules the specified task for repeated <i>fixed-rate execution</i>, beginning at the specified time. Subsequent executions take place at approximately regular intervals, separated by the specified period. <p> In fixed-rate execution, each execution is scheduled relative to the scheduled execution time of the initial execution. If an execution is delayed for any reason (such as garbage collection or other background activity), two or more executions will occur in rapid succession to "catch up." In the long run, the frequency of execution will be exactly the reciprocal of the specified period (assuming the system clock underlying <tt>Object.wait(long)</tt> is accurate). <p> Fixed-rate execution is appropriate for recurring activities that are sensitive to <i>absolute</i> time, such as ringing a chime every hour on the hour, or running scheduled maintenance every day at a particular time. It is also appropriate for recurring activities where the total time to perform a fixed number of executions is important, such as a countdown timer that ticks once every second for ten seconds. Finally, fixed-rate execution is appropriate for scheduling multiple repeating timer tasks that must remain synchronized with respect to one another.

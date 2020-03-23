@@ -1,0 +1,350 @@
+174
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setTitle'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='OMAS - the Osm Map Agent Simulator'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='setSelectors'
+14 arguments
+15 argument (ArrayCreationExpr)
+16 elementType (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='String'
+19 initializer (ArrayInitializerExpr)
+20 values
+21 value (NameExpr)
+22 name (SimpleName)
+23 identifier='SCENARIO_SEL'
+24 value (NameExpr)
+25 name (SimpleName)
+26 identifier='AGENT_SEL'
+27 value (NameExpr)
+28 name (SimpleName)
+29 identifier='SEARCH_SEL'
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='Q_SEARCH_IMPL_SEL'
+33 value (NameExpr)
+34 name (SimpleName)
+35 identifier='HEURISTIC_SEL'
+36 levels
+37 level (ArrayCreationLevel)
+38 argument (ArrayCreationExpr)
+39 elementType (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='String'
+42 initializer (ArrayInitializerExpr)
+43 values
+44 value (StringLiteralExpr)
+45 value='Select Scenario'
+46 value (StringLiteralExpr)
+47 value='Select Agent'
+48 value (StringLiteralExpr)
+49 value='Select Search Strategy'
+50 value (StringLiteralExpr)
+51 value='Select QSearch Implementation'
+52 value (StringLiteralExpr)
+53 value='Select Heuristic'
+54 levels
+55 level (ArrayCreationLevel)
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='setSelectorItems'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='SCENARIO_SEL'
+64 argument (ArrayCreationExpr)
+65 elementType (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='String'
+68 initializer (ArrayInitializerExpr)
+69 values
+70 value (StringLiteralExpr)
+71 value='Use any way'
+72 value (StringLiteralExpr)
+73 value='Travel by car'
+74 value (StringLiteralExpr)
+75 value='Travel by bicycle'
+76 levels
+77 level (ArrayCreationLevel)
+78 argument (IntegerLiteralExpr)
+79 value='0'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='setSelectorItems'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='AGENT_SEL'
+88 argument (ArrayCreationExpr)
+89 elementType (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='String'
+92 initializer (ArrayInitializerExpr)
+93 values
+94 value (StringLiteralExpr)
+95 value='Offline Search'
+96 value (StringLiteralExpr)
+97 value='Online Search (LRTA*)'
+98 levels
+99 level (ArrayCreationLevel)
+100 argument (IntegerLiteralExpr)
+101 value='0'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='setSelectorItems'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='SEARCH_SEL'
+110 argument (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='getSearchStrategyNames'
+113 scope (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='getInstance'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='SearchFactory'
+119 argument (IntegerLiteralExpr)
+120 value='5'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='setSelectorItems'
+125 arguments
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='Q_SEARCH_IMPL_SEL'
+129 argument (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='getQSearchImplNames'
+132 scope (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getInstance'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='SearchFactory'
+138 argument (IntegerLiteralExpr)
+139 value='1'
+140 statement (ExpressionStmt)
+141 expression (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='setSelectorItems'
+144 arguments
+145 argument (NameExpr)
+146 name (SimpleName)
+147 identifier='HEURISTIC_SEL'
+148 argument (ArrayCreationExpr)
+149 elementType (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='String'
+152 initializer (ArrayInitializerExpr)
+153 values
+154 value (StringLiteralExpr)
+155 value='=0'
+156 value (StringLiteralExpr)
+157 value='SLD'
+158 levels
+159 level (ArrayCreationLevel)
+160 argument (IntegerLiteralExpr)
+161 value='1'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='setLogLater'
+166 scope (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='getMessageLogger'
+169 arguments
+170 argument (BooleanLiteralExpr)
+171 value='true'
+172 name (SimpleName)
+173 identifier='OsmAgentFrame'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+20 27
+27 28
+28 29
+20 30
+30 31
+31 32
+20 33
+33 34
+34 35
+15 36
+36 37
+14 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+44 45
+43 46
+46 47
+43 48
+48 49
+43 50
+50 51
+43 52
+52 53
+38 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+70 71
+69 72
+72 73
+69 74
+74 75
+64 76
+76 77
+60 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+90 91
+88 92
+92 93
+93 94
+94 95
+93 96
+96 97
+88 98
+98 99
+84 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+108 109
+106 110
+110 111
+111 112
+110 113
+113 114
+114 115
+113 116
+116 117
+117 118
+106 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+127 128
+125 129
+129 130
+130 131
+129 132
+132 133
+133 134
+132 135
+135 136
+136 137
+125 138
+138 139
+2 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+146 147
+144 148
+148 149
+149 150
+150 151
+148 152
+152 153
+153 154
+154 155
+153 156
+156 157
+148 158
+158 159
+144 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+163 169
+169 170
+170 171
+0 172
+172 173
+
+Creates a new frame.

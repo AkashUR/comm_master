@@ -1,0 +1,128 @@
+63
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='factory'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getDefault'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='FeedURLFactory'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='service'
+21 value (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='SpreadsheetService'
+25 arguments
+26 argument (StringLiteralExpr)
+27 value='gdata-sample-spreadhsheetindex'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='setUserCredentials'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='service'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='username'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='password'
+42 name (SimpleName)
+43 identifier='IndexClient'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='username'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='password'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+59 thrownExceptions
+60 thrownException (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+44 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+0 59
+59 60
+60 61
+61 62
+
+Creates a client object for which the provided username and password produces a valid authentication.

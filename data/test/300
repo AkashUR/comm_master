@@ -1,0 +1,114 @@
+56
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='m_values'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='LinkedHashMap'
+13 statement (ForeachStmt)
+14 body (BlockStmt)
+15 statements
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='add'
+20 scope (ThisExpr)
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='integerMap'
+25 iterable (NameExpr)
+26 name (SimpleName)
+27 identifier='integerMaps'
+28 variable (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 name (SimpleName)
+32 identifier='integerMap'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='LinkedIntegerMap'
+36 typeArguments
+37 typeArgument (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='T'
+40 name (SimpleName)
+41 identifier='LinkedIntegerMap'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='integerMaps'
+47 type (ArrayType)
+48 origin='TYPE'
+49 componentType (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='LinkedIntegerMap'
+52 typeArguments
+53 typeArgument (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='T'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+17 21
+21 22
+22 23
+23 24
+13 25
+25 26
+26 27
+13 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+47 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+
+This will make a new IntegerMap. The Objects will be linked, but the integers mapped to them will not be linked.

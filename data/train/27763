@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='weighItems'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='newItems'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='deduplicateAndAdd'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='newItems'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='sort'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='expandPopularItems'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='notifyDataSetChanged'
+31 type (VoidType)
+32 name (SimpleName)
+33 identifier='addAndResort'
+34 parameters
+35 parameter (Parameter)
+36 isVarArgs='false'
+37 name (SimpleName)
+38 identifier='newItems'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='List'
+42 typeArguments
+43 typeArgument (WildcardType)
+44 extendedType (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='PlaidItem'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+0 31
+0 32
+32 33
+0 34
+34 35
+35 36
+35 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+45 46
+
+Main entry point for adding items to this adapter. Takes care of de-duplicating items and sorting them (depending on the data source). Will also expand some items to span multiple grid columns.

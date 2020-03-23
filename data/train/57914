@@ -1,0 +1,236 @@
+117
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (ArrayAccessExpr)
+7 index (BinaryExpr)
+8 operator='PLUS'
+9 left (NameExpr)
+10 name (SimpleName)
+11 identifier='offset'
+12 right (IntegerLiteralExpr)
+13 value='0'
+14 name (NameExpr)
+15 name (SimpleName)
+16 identifier='data'
+17 value (CastExpr)
+18 expression (EnclosedExpr)
+19 inner (BinaryExpr)
+20 operator='BINARY_AND'
+21 left (EnclosedExpr)
+22 inner (BinaryExpr)
+23 operator='SIGNED_RIGHT_SHIFT'
+24 left (NameExpr)
+25 name (SimpleName)
+26 identifier='value'
+27 right (IntegerLiteralExpr)
+28 value='0'
+29 right (IntegerLiteralExpr)
+30 value='0xff'
+31 type (PrimitiveType)
+32 type='BYTE'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (ArrayAccessExpr)
+37 index (BinaryExpr)
+38 operator='PLUS'
+39 left (NameExpr)
+40 name (SimpleName)
+41 identifier='offset'
+42 right (IntegerLiteralExpr)
+43 value='1'
+44 name (NameExpr)
+45 name (SimpleName)
+46 identifier='data'
+47 value (CastExpr)
+48 expression (EnclosedExpr)
+49 inner (BinaryExpr)
+50 operator='BINARY_AND'
+51 left (EnclosedExpr)
+52 inner (BinaryExpr)
+53 operator='SIGNED_RIGHT_SHIFT'
+54 left (NameExpr)
+55 name (SimpleName)
+56 identifier='value'
+57 right (IntegerLiteralExpr)
+58 value='8'
+59 right (IntegerLiteralExpr)
+60 value='0xff'
+61 type (PrimitiveType)
+62 type='BYTE'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='writeSwappedShort'
+66 parameters
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='data'
+71 type (ArrayType)
+72 origin='TYPE'
+73 componentType (PrimitiveType)
+74 type='BYTE'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='offset'
+79 type (PrimitiveType)
+80 type='INT'
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='value'
+85 type (PrimitiveType)
+86 type='SHORT'
+87 annotations
+88 annotation (NormalAnnotationExpr)
+89 name (Name)
+90 identifier='DSGenerator'
+91 pairs
+92 pair (MemberValuePair)
+93 name (SimpleName)
+94 identifier='tool_name'
+95 value (StringLiteralExpr)
+96 value='Doppelganger'
+97 pair (MemberValuePair)
+98 name (SimpleName)
+99 identifier='tool_version'
+100 value (StringLiteralExpr)
+101 value='2.0'
+102 pair (MemberValuePair)
+103 name (SimpleName)
+104 identifier='generated_on'
+105 value (StringLiteralExpr)
+106 value='2014-09-03 14:59:50.406 -0400'
+107 pair (MemberValuePair)
+108 name (SimpleName)
+109 identifier='hash_original_method'
+110 value (StringLiteralExpr)
+111 value='2BD035C73A838BB41D1FD62BFA454098'
+112 pair (MemberValuePair)
+113 name (SimpleName)
+114 identifier='hash_generated_method'
+115 value (StringLiteralExpr)
+116 value='6C6045864E93EA335BA6A9445DBF5B1D'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+6 14
+14 15
+15 16
+4 17
+17 18
+18 19
+19 20
+19 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+19 29
+29 30
+17 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+37 39
+39 40
+40 41
+37 42
+42 43
+36 44
+44 45
+45 46
+34 47
+47 48
+48 49
+49 50
+49 51
+51 52
+52 53
+52 54
+54 55
+55 56
+52 57
+57 58
+49 59
+59 60
+47 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+67 69
+69 70
+67 71
+71 72
+71 73
+73 74
+66 75
+75 76
+75 77
+77 78
+75 79
+79 80
+66 81
+81 82
+81 83
+83 84
+81 85
+85 86
+0 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+93 94
+92 95
+95 96
+91 97
+97 98
+98 99
+97 100
+100 101
+91 102
+102 103
+103 104
+102 105
+105 106
+91 107
+107 108
+108 109
+107 110
+110 111
+91 112
+112 113
+113 114
+112 115
+115 116
+
+Writes a "short" value to a byte array at a given offset. The value is converted to the opposed endian system while writing.

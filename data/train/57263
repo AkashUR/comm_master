@@ -1,0 +1,36 @@
+17
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='tryMT'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='2'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='testMT'
+13 thrownExceptions
+14 thrownException (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+0 13
+13 14
+14 15
+15 16
+
+Tests column-consistency for subquery: create table MyTable(p0 string, p1 string, ..., p4 string)   (5 props) Insert row single: MyTable={p0="1", p1="1", p2="1", p3="1", p4="1"} A writer-thread uses an on-merge statement to update the p0 to p4 columns from "1" to "2", then "2" to "1" A reader-thread uses a subquery checking ("p1="1" and p2="1" and p3="1" and p4="1")

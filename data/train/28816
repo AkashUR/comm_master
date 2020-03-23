@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='[9223372036854775806.000]'
+9 name (SimpleName)
+10 identifier='json'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='JsonReader'
+22 arguments
+23 argument (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='StringReader'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='json'
+31 name (SimpleName)
+32 identifier='reader'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='JsonReader'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='beginArray'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='reader'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='assertEquals'
+47 arguments
+48 argument (LongLiteralExpr)
+49 value='9223372036854775806L'
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='nextLong'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='reader'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='endArray'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='reader'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='testHighPrecisionLong'
+66 thrownExceptions
+67 thrownException (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+29 30
+17 31
+31 32
+17 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+68 69
+
+This test fails because there's no double for 9223372036854775806, and our long parsing uses Double.parseDouble() for fractional values.

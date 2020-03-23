@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='checksum'
+9 value (BinaryExpr)
+10 operator='BINARY_AND'
+11 left (IntegerLiteralExpr)
+12 value='0xff'
+13 right (NameExpr)
+14 name (SimpleName)
+15 identifier='checksum'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='checksum'
+22 value (BinaryExpr)
+23 operator='MINUS'
+24 left (IntegerLiteralExpr)
+25 value='0xff'
+26 right (NameExpr)
+27 name (SimpleName)
+28 identifier='checksum'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='debug'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='log'
+36 arguments
+37 argument (BinaryExpr)
+38 operator='PLUS'
+39 left (StringLiteralExpr)
+40 value='computed checksum is '
+41 right (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='formatByte'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='ByteUtils'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='checksum'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='compute'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+9 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+0 51
+0 52
+52 53
+
+Computes checksum and stores in checksum instance variable

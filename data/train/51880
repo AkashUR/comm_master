@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='findAllJobInfoWithoutMessages'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='jobRepository'
+13 name (SimpleName)
+14 identifier='jobs'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='List'
+18 typeArguments
+19 typeArgument (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='JobInfo'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='forEach'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='findJobsToDelete'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='jobs'
+33 arguments
+34 argument (NullLiteralExpr)
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='doCleanUp'
+38 annotations
+39 annotation (NormalAnnotationExpr)
+40 name (Name)
+41 identifier='Scheduled'
+42 pairs
+43 pair (MemberValuePair)
+44 name (SimpleName)
+45 identifier='fixedRate'
+46 value (NameExpr)
+47 name (SimpleName)
+48 identifier='KEEP_LAST_JOBS_CLEANUP_INTERVAL'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+23 33
+33 34
+0 35
+0 36
+36 37
+0 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+
+Execute the cleanup of the given repository.

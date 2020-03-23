@@ -1,0 +1,212 @@
+105
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='clone'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='pos'
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='MathVector'
+17 name (SimpleName)
+18 identifier='pos0'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='MathVector'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='HG'
+30 arguments
+31 argument (ThisExpr)
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='pos'
+35 name (SimpleName)
+36 identifier='hg'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='HG'
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='ASSIGN'
+43 target (NameExpr)
+44 name (SimpleName)
+45 identifier='hg'
+46 value (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='walkSubTree'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='root'
+52 arguments
+53 argument (BinaryExpr)
+54 operator='MULTIPLY'
+55 left (NameExpr)
+56 name (SimpleName)
+57 identifier='rsize'
+58 right (NameExpr)
+59 name (SimpleName)
+60 identifier='rsize'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='hg'
+64 statement (ExpressionStmt)
+65 expression (AssignExpr)
+66 operator='ASSIGN'
+67 target (NameExpr)
+68 name (SimpleName)
+69 identifier='phi'
+70 value (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='phi0'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='hg'
+76 statement (ExpressionStmt)
+77 expression (AssignExpr)
+78 operator='ASSIGN'
+79 target (NameExpr)
+80 name (SimpleName)
+81 identifier='newAcc'
+82 value (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='acc0'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='hg'
+88 type (VoidType)
+89 name (SimpleName)
+90 identifier='hackGravity'
+91 parameters
+92 parameter (Parameter)
+93 isVarArgs='false'
+94 name (SimpleName)
+95 identifier='rsize'
+96 type (PrimitiveType)
+97 type='DOUBLE'
+98 parameter (Parameter)
+99 isVarArgs='false'
+100 name (SimpleName)
+101 identifier='root'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='Node'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+26 30
+30 31
+30 32
+32 33
+33 34
+25 35
+35 36
+25 37
+37 38
+38 39
+2 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+53 55
+55 56
+56 57
+53 58
+58 59
+59 60
+52 61
+61 62
+62 63
+2 64
+64 65
+65 66
+65 67
+67 68
+68 69
+65 70
+70 71
+71 72
+70 73
+73 74
+74 75
+2 76
+76 77
+77 78
+77 79
+79 80
+80 81
+77 82
+82 83
+83 84
+82 85
+85 86
+86 87
+0 88
+0 89
+89 90
+0 91
+91 92
+92 93
+92 94
+94 95
+92 96
+96 97
+91 98
+98 99
+98 100
+100 101
+98 102
+102 103
+103 104
+
+Evaluate gravitational field on the body. The original olden version calls a routine named "walkscan", but we use the same name that is in the Barnes code.

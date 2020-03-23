@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='healthListener'
+12 scope (ThisExpr)
+13 value (NameExpr)
+14 name (SimpleName)
+15 identifier='observer'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (CastExpr)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='sendAndWait'
+24 arguments
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='create'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='AddHealthListenerRequest'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='cfg'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='AddHealthListenerResponse'
+38 name (SimpleName)
+39 identifier='response'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='AddHealthListenerResponse'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='healthListenerId'
+49 scope (ThisExpr)
+50 value (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getHealthListenerId'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='response'
+56 expression (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='healthLock'
+59 scope (ThisExpr)
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='addHealthListener'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='observer'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='HealthListener'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='cfg'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='GemFireHealthConfig'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+7 13
+13 14
+14 15
+5 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+20 35
+35 36
+36 37
+19 38
+38 39
+19 40
+40 41
+41 42
+5 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+51 52
+50 53
+53 54
+54 55
+3 56
+56 57
+57 58
+56 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+63 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+
+Returns the configuration of the remote VM.

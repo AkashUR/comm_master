@@ -1,0 +1,84 @@
+41
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='logDir'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='File'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getTempDirectory'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='FileUtils'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getSimpleName'
+23 scope (ClassExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='LogReaderTest'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='mkdirs'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='logDir'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='createLogDir'
+37 annotations
+38 annotation (MarkerAnnotationExpr)
+39 name (Name)
+40 identifier='BeforeClass'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+39 40
+
+Creates a temporary log dir to use within this test.

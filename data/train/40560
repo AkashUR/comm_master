@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addHeader'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='request'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='Accept-Encoding'
+13 argument (StringLiteralExpr)
+14 value='gzip'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='modifyRequestToAcceptGzipResponse'
+18 parameters
+19 parameter (Parameter)
+20 isVarArgs='false'
+21 name (SimpleName)
+22 identifier='request'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='HttpRequest'
+26 annotations
+27 annotation (NormalAnnotationExpr)
+28 name (Name)
+29 identifier='DSGenerator'
+30 pairs
+31 pair (MemberValuePair)
+32 name (SimpleName)
+33 identifier='tool_name'
+34 value (StringLiteralExpr)
+35 value='Doppelganger'
+36 pair (MemberValuePair)
+37 name (SimpleName)
+38 identifier='tool_version'
+39 value (StringLiteralExpr)
+40 value='2.0'
+41 pair (MemberValuePair)
+42 name (SimpleName)
+43 identifier='generated_on'
+44 value (StringLiteralExpr)
+45 value='2013-12-30 12:36:12.271 -0500'
+46 pair (MemberValuePair)
+47 name (SimpleName)
+48 identifier='hash_original_method'
+49 value (StringLiteralExpr)
+50 value='5BE818A223A96394C31CAF6E13D4DDEA'
+51 pair (MemberValuePair)
+52 name (SimpleName)
+53 identifier='hash_generated_method'
+54 value (StringLiteralExpr)
+55 value='94EB0F268A15AE6A6DF2A5D9518C61C6'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+19 21
+21 22
+19 23
+23 24
+24 25
+0 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+31 34
+34 35
+30 36
+36 37
+37 38
+36 39
+39 40
+30 41
+41 42
+42 43
+41 44
+44 45
+30 46
+46 47
+47 48
+46 49
+49 50
+30 51
+51 52
+52 53
+51 54
+54 55
+
+Modifies a request to indicate to the server that we would like a gzipped response.  (Uses the "Accept-Encoding" HTTP header.)

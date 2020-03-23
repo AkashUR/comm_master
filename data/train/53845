@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (EnclosedExpr)
+8 inner (ConditionalExpr)
+9 condition (BinaryExpr)
+10 operator='NOT_EQUALS'
+11 left (NameExpr)
+12 name (SimpleName)
+13 identifier='interfaceNames'
+14 right (NullLiteralExpr)
+15 elseExpr (EnclosedExpr)
+16 inner (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='interfaceNames'
+21 value (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='TreeSet'
+25 typeArguments
+26 typeArgument (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='NameInfo'
+29 thenExpr (NameExpr)
+30 name (SimpleName)
+31 identifier='interfaceNames'
+32 arguments
+33 argument (ObjectCreationExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='NameInfo'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='interfaceName'
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='line'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='addImportName'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='interfaceName'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='line'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='addInterfaceName'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='interfaceName'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='String'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='line'
+70 type (PrimitiveType)
+71 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+9 11
+11 12
+12 13
+9 14
+8 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+8 29
+29 30
+30 31
+4 32
+32 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+39 40
+37 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+58 66
+66 67
+66 68
+68 69
+66 70
+70 71
+
+add interface ('implements') name. adds name to import list. <br>Happens in InterfaceCompiler.createDocumentInfo(), right after initial syntax check in parse()

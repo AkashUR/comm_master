@@ -1,0 +1,168 @@
+83
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (ObjectCreationExpr)
+7 type (ClassOrInterfaceType)
+8 name (SimpleName)
+9 identifier='File'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='/dev/tty'
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='terminalInput'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='terminalOutput'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='terminalCharset'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='customSizeQuerier'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='terminalCtrlCBehaviour'
+28 name (SimpleName)
+29 identifier='UnixTerminal'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='terminalInput'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='InputStream'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='terminalOutput'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='OutputStream'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='terminalCharset'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Charset'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='customSizeQuerier'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='UnixTerminalSizeQuerier'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='terminalCtrlCBehaviour'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='CtrlCBehaviour'
+66 thrownExceptions
+67 thrownException (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='IOException'
+70 annotations
+71 annotation (SingleMemberAnnotationExpr)
+72 memberValue (ArrayInitializerExpr)
+73 values
+74 value (StringLiteralExpr)
+75 value='SameParameterValue'
+76 value (StringLiteralExpr)
+77 value='WeakerAccess'
+78 name (Name)
+79 identifier='SuppressWarnings'
+80 annotation (MarkerAnnotationExpr)
+81 name (Name)
+82 identifier='Deprecated'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+11 12
+5 13
+13 14
+14 15
+5 16
+16 17
+17 18
+5 19
+19 20
+20 21
+5 22
+22 23
+23 24
+5 25
+25 26
+26 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+30 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+30 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+30 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+30 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+0 66
+66 67
+67 68
+68 69
+0 70
+70 71
+71 72
+72 73
+73 74
+74 75
+73 76
+76 77
+71 78
+78 79
+70 80
+80 81
+81 82
+
+Creates a UnixTerminal using a specified input stream, output stream and character set, with a custom size querier instead of using the default one. This way you can override size detection (if you want to force the terminal to a fixed size, for example). You also choose how you want ctrl+c key strokes to be handled.

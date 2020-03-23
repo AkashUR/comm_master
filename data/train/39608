@@ -1,0 +1,322 @@
+160
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='fp'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Address'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='sp'
+18 value (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='minus'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='sp'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='STACKFRAME_HEADER_SIZE'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='fp'
+34 value (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='minus'
+37 scope (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='minus'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='sp'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='BYTES_IN_ADDRESS'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='STACKFRAME_BODY_OFFSET'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setCallerFramePointer'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='Magic'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='fp'
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='STACKFRAME_SENTINEL_FP'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='setCompiledMethodID'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='Magic'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='fp'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='INVISIBLE_METHOD_ID'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='sp'
+85 value (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='minus'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='sp'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='BYTES_IN_ADDRESS'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='set'
+99 scope (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getGPRs'
+102 arguments
+103 argument (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='value'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='ESP'
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='toWord'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='sp'
+115 statement (ExpressionStmt)
+116 expression (AssignExpr)
+117 operator='ASSIGN'
+118 target (FieldAccessExpr)
+119 name (SimpleName)
+120 identifier='fp'
+121 scope (ThisExpr)
+122 value (NameExpr)
+123 name (SimpleName)
+124 identifier='fp'
+125 statement (ExpressionStmt)
+126 expression (AssignExpr)
+127 operator='ASSIGN'
+128 target (FieldAccessExpr)
+129 name (SimpleName)
+130 identifier='ip'
+131 scope (ThisExpr)
+132 value (NameExpr)
+133 name (SimpleName)
+134 identifier='ip'
+135 type (VoidType)
+136 name (SimpleName)
+137 identifier='initializeStack'
+138 parameters
+139 parameter (Parameter)
+140 isVarArgs='false'
+141 name (SimpleName)
+142 identifier='ip'
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='Address'
+146 parameter (Parameter)
+147 isVarArgs='false'
+148 name (SimpleName)
+149 identifier='sp'
+150 type (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='Address'
+153 annotations
+154 annotation (MarkerAnnotationExpr)
+155 name (Name)
+156 identifier='Override'
+157 annotation (MarkerAnnotationExpr)
+158 name (Name)
+159 identifier='Uninterruptible'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+34 47
+47 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+74 75
+72 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+102 109
+109 110
+110 111
+109 112
+112 113
+113 114
+2 115
+115 116
+116 117
+116 118
+118 119
+119 120
+118 121
+116 122
+122 123
+123 124
+2 125
+125 126
+126 127
+126 128
+128 129
+129 130
+128 131
+126 132
+132 133
+133 134
+0 135
+0 136
+136 137
+0 138
+138 139
+139 140
+139 141
+141 142
+139 143
+143 144
+144 145
+138 146
+146 147
+146 148
+148 149
+146 150
+150 151
+151 152
+0 153
+153 154
+154 155
+155 156
+153 157
+157 158
+158 159
+
+The following method initializes a thread stack as if "startoff" method had been called by an empty baseline-compiled "sentinel" frame with one local variable

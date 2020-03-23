@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='root'
+9 value (CastExpr)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='construct'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='constructor'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='left'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='right'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='T'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='expandLeft'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='root'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='expandRight'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='root'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='init'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='left'
+50 type (PrimitiveType)
+51 type='INT'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='right'
+56 type (PrimitiveType)
+57 type='INT'
+58 annotations
+59 annotation (SingleMemberAnnotationExpr)
+60 memberValue (StringLiteralExpr)
+61 value='unchecked'
+62 name (Name)
+63 identifier='SuppressWarnings'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+9 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+45 52
+52 53
+52 54
+54 55
+52 56
+56 57
+0 58
+58 59
+59 60
+60 61
+59 62
+62 63
+
+Initialize the tree. Manages segments drawn from the [left, right) domain.

@@ -1,0 +1,168 @@
+83
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setArgument'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='0'
+10 argument (NameExpr)
+11 name (SimpleName)
+12 identifier='notifyCount'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='setArgument'
+17 arguments
+18 argument (IntegerLiteralExpr)
+19 value='1'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='notifyArg'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setArgument'
+27 arguments
+28 argument (IntegerLiteralExpr)
+29 value='2'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='callbackArgument'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='notifyCount'
+39 value (IntegerLiteralExpr)
+40 value='0'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (NameExpr)
+45 name (SimpleName)
+46 identifier='notifyArg'
+47 value (IntegerLiteralExpr)
+48 value='0'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='call'
+53 scope (SuperExpr)
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='thread'
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='afterAction'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='call'
+64 parameters
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='thread'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='SceKernelThreadInfo'
+72 parameter (Parameter)
+73 isVarArgs='false'
+74 name (SimpleName)
+75 identifier='afterAction'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='IAction'
+79 annotations
+80 annotation (MarkerAnnotationExpr)
+81 name (Name)
+82 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+50 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+0 61
+0 62
+62 63
+0 64
+64 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+64 72
+72 73
+72 74
+74 75
+72 76
+76 77
+77 78
+0 79
+79 80
+80 81
+81 82
+
+Call this to switch in the callback, in a given thread context.

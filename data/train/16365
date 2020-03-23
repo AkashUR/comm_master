@@ -1,0 +1,620 @@
+309
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setDateFactoryInstance'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='BillingIntegrationTestBase'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='2013-02-04 12:00:00'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='createPublishAndActivateMarketableService'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='serviceSetup'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getSupplierAdminKey'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='basicSetup'
+30 argument (StringLiteralExpr)
+31 value='PARCHARGE_PU_MONTH_ROLES'
+32 argument (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='EXAMPLE'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='TestService'
+38 argument (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='EXAMPLE_PERUNIT_MONTH_ROLES_PARS'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='TestPriceModel'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='technicalService'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='supplierMarketplace'
+50 name (SimpleName)
+51 identifier='serviceDetails'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='VOServiceDetails'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='setCutOffDay'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getSupplierAdminKey'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='basicSetup'
+66 argument (IntegerLiteralExpr)
+67 value='1'
+68 statement (ExpressionStmt)
+69 expression (VariableDeclarationExpr)
+70 variables
+71 variable (VariableDeclarator)
+72 initializer (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getRole'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='VOServiceFactory'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='serviceDetails'
+82 argument (StringLiteralExpr)
+83 value='USER'
+84 name (SimpleName)
+85 identifier='role'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='VORoleDefinition'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='login'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='container'
+96 arguments
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getCustomerAdminKey'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='basicSetup'
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='ROLE_ORGANIZATION_ADMIN'
+106 statement (ExpressionStmt)
+107 expression (VariableDeclarationExpr)
+108 variables
+109 variable (VariableDeclarator)
+110 initializer (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='subscribeToService'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='subscrSetup'
+116 arguments
+117 argument (StringLiteralExpr)
+118 value='PARCHARGE_PU_MONTH_ROLES'
+119 argument (NameExpr)
+120 name (SimpleName)
+121 identifier='serviceDetails'
+122 argument (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='getCustomerUser1'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='basicSetup'
+128 argument (NameExpr)
+129 name (SimpleName)
+130 identifier='role'
+131 name (SimpleName)
+132 identifier='subDetails'
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='VOSubscriptionDetails'
+136 statement (ExpressionStmt)
+137 expression (AssignExpr)
+138 operator='ASSIGN'
+139 target (NameExpr)
+140 name (SimpleName)
+141 identifier='subDetails'
+142 value (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='modifyParameterForSubscription'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='subscrSetup'
+148 arguments
+149 argument (NameExpr)
+150 name (SimpleName)
+151 identifier='subDetails'
+152 argument (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='calculateMillis'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='DateTimeHandling'
+158 arguments
+159 argument (StringLiteralExpr)
+160 value='2013-02-11 12:00:00'
+161 argument (StringLiteralExpr)
+162 value='MAX_FOLDER_NUMBER'
+163 argument (StringLiteralExpr)
+164 value='4'
+165 statement (ExpressionStmt)
+166 expression (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='setDateFactoryInstance'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='BillingIntegrationTestBase'
+172 arguments
+173 argument (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='calculateMillis'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='DateTimeHandling'
+179 arguments
+180 argument (StringLiteralExpr)
+181 value='2013-02-15 00:00:00'
+182 statement (ExpressionStmt)
+183 expression (AssignExpr)
+184 operator='ASSIGN'
+185 target (NameExpr)
+186 name (SimpleName)
+187 identifier='subDetails'
+188 value (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='modifyUserRole'
+191 scope (NameExpr)
+192 name (SimpleName)
+193 identifier='subscrSetup'
+194 arguments
+195 argument (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='get'
+198 scope (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='getUsageLicenses'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='subDetails'
+204 arguments
+205 argument (IntegerLiteralExpr)
+206 value='0'
+207 argument (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='getRole'
+210 scope (NameExpr)
+211 name (SimpleName)
+212 identifier='VOServiceFactory'
+213 arguments
+214 argument (NameExpr)
+215 name (SimpleName)
+216 identifier='serviceDetails'
+217 argument (StringLiteralExpr)
+218 value='GUEST'
+219 argument (MethodCallExpr)
+220 name (SimpleName)
+221 identifier='getSubscriptionId'
+222 scope (NameExpr)
+223 name (SimpleName)
+224 identifier='subDetails'
+225 statement (ExpressionStmt)
+226 expression (AssignExpr)
+227 operator='ASSIGN'
+228 target (NameExpr)
+229 name (SimpleName)
+230 identifier='subDetails'
+231 value (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='modifyParameterForSubscription'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='subscrSetup'
+237 arguments
+238 argument (NameExpr)
+239 name (SimpleName)
+240 identifier='subDetails'
+241 argument (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='calculateMillis'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='DateTimeHandling'
+247 arguments
+248 argument (StringLiteralExpr)
+249 value='2013-02-22 00:00:00'
+250 argument (StringLiteralExpr)
+251 value='MAX_FOLDER_NUMBER'
+252 argument (StringLiteralExpr)
+253 value='88'
+254 statement (ExpressionStmt)
+255 expression (MethodCallExpr)
+256 name (SimpleName)
+257 identifier='setDateFactoryInstance'
+258 scope (NameExpr)
+259 name (SimpleName)
+260 identifier='BillingIntegrationTestBase'
+261 arguments
+262 argument (StringLiteralExpr)
+263 value='2013-02-25 12:00:00'
+264 statement (ExpressionStmt)
+265 expression (MethodCallExpr)
+266 name (SimpleName)
+267 identifier='unsubscribeToService'
+268 scope (NameExpr)
+269 name (SimpleName)
+270 identifier='subscrSetup'
+271 arguments
+272 argument (MethodCallExpr)
+273 name (SimpleName)
+274 identifier='getSubscriptionId'
+275 scope (NameExpr)
+276 name (SimpleName)
+277 identifier='subDetails'
+278 statement (ExpressionStmt)
+279 expression (MethodCallExpr)
+280 name (SimpleName)
+281 identifier='resetCutOffDay'
+282 arguments
+283 argument (MethodCallExpr)
+284 name (SimpleName)
+285 identifier='getSupplierAdminKey'
+286 scope (NameExpr)
+287 name (SimpleName)
+288 identifier='basicSetup'
+289 statement (ExpressionStmt)
+290 expression (MethodCallExpr)
+291 name (SimpleName)
+292 identifier='updateSubscriptionListForTests'
+293 scope (NameExpr)
+294 name (SimpleName)
+295 identifier='BillingIntegrationTestBase'
+296 arguments
+297 argument (StringLiteralExpr)
+298 value='PARCHARGE_PU_MONTH_ROLES'
+299 argument (NameExpr)
+300 name (SimpleName)
+301 identifier='subDetails'
+302 type (VoidType)
+303 name (SimpleName)
+304 identifier='createMonthScenarioParAndRoleChange'
+305 thrownExceptions
+306 thrownException (ClassOrInterfaceType)
+307 name (SimpleName)
+308 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+23 32
+32 33
+33 34
+32 35
+35 36
+36 37
+23 38
+38 39
+39 40
+38 41
+41 42
+42 43
+23 44
+44 45
+45 46
+23 47
+47 48
+48 49
+16 50
+50 51
+16 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+59 66
+66 67
+2 68
+68 69
+69 70
+70 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+78 82
+82 83
+71 84
+84 85
+71 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+96 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+110 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+122 125
+125 126
+126 127
+116 128
+128 129
+129 130
+109 131
+131 132
+109 133
+133 134
+134 135
+2 136
+136 137
+137 138
+137 139
+139 140
+140 141
+137 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+150 151
+148 152
+152 153
+153 154
+152 155
+155 156
+156 157
+152 158
+158 159
+159 160
+148 161
+161 162
+148 163
+163 164
+2 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+166 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+173 179
+179 180
+180 181
+2 182
+182 183
+183 184
+183 185
+185 186
+186 187
+183 188
+188 189
+189 190
+188 191
+191 192
+192 193
+188 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+195 204
+204 205
+205 206
+194 207
+207 208
+208 209
+207 210
+210 211
+211 212
+207 213
+213 214
+214 215
+215 216
+213 217
+217 218
+194 219
+219 220
+220 221
+219 222
+222 223
+223 224
+2 225
+225 226
+226 227
+226 228
+228 229
+229 230
+226 231
+231 232
+232 233
+231 234
+234 235
+235 236
+231 237
+237 238
+238 239
+239 240
+237 241
+241 242
+242 243
+241 244
+244 245
+245 246
+241 247
+247 248
+248 249
+237 250
+250 251
+237 252
+252 253
+2 254
+254 255
+255 256
+256 257
+255 258
+258 259
+259 260
+255 261
+261 262
+262 263
+2 264
+264 265
+265 266
+266 267
+265 268
+268 269
+269 270
+265 271
+271 272
+272 273
+273 274
+272 275
+275 276
+276 277
+2 278
+278 279
+279 280
+280 281
+279 282
+282 283
+283 284
+284 285
+283 286
+286 287
+287 288
+2 289
+289 290
+290 291
+291 292
+290 293
+293 294
+294 295
+290 296
+296 297
+297 298
+296 299
+299 300
+300 301
+0 302
+0 303
+303 304
+0 305
+305 306
+306 307
+307 308
+
+A customer subscribes to a service and terminates the subscription within a time unit. The value of a parameter is changed several times in the time unit. The role of the assigned user is changed too in the time unit. The parameter fees are charged in a "pro rata" way. See example 2 in requirement http://wwwi.est.fujitsu.com/confluence/x/4I7H

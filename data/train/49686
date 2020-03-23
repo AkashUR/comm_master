@@ -1,0 +1,480 @@
+239
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='conf'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='conf'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='mailboxId'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='mailboxId'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='uid'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='uid'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='messageId'
+39 scope (ThisExpr)
+40 value (NameExpr)
+41 name (SimpleName)
+42 identifier='messageId'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='modSeq'
+49 scope (ThisExpr)
+50 value (NameExpr)
+51 name (SimpleName)
+52 identifier='modSeq'
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='userFlags'
+59 scope (ThisExpr)
+60 value (ObjectCreationExpr)
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='ArrayList'
+64 typeArguments
+65 typeArgument (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='String'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='setFlags'
+72 arguments
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='createFlags'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='original'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='recent'
+85 scope (ThisExpr)
+86 value (BooleanLiteralExpr)
+87 value='true'
+88 statement (ExpressionStmt)
+89 expression (AssignExpr)
+90 operator='ASSIGN'
+91 target (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='contentOctets'
+94 scope (ThisExpr)
+95 value (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='getFullContentOctets'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='original'
+101 statement (ExpressionStmt)
+102 expression (AssignExpr)
+103 operator='ASSIGN'
+104 target (FieldAccessExpr)
+105 name (SimpleName)
+106 identifier='bodyStartOctet'
+107 scope (ThisExpr)
+108 value (CastExpr)
+109 expression (EnclosedExpr)
+110 inner (BinaryExpr)
+111 operator='MINUS'
+112 left (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getFullContentOctets'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='original'
+118 right (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='getBodyOctets'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='original'
+124 type (PrimitiveType)
+125 type='INT'
+126 statement (ExpressionStmt)
+127 expression (AssignExpr)
+128 operator='ASSIGN'
+129 target (FieldAccessExpr)
+130 name (SimpleName)
+131 identifier='internalDate'
+132 scope (ThisExpr)
+133 value (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getInternalDate'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='original'
+139 statement (ExpressionStmt)
+140 expression (AssignExpr)
+141 operator='ASSIGN'
+142 target (FieldAccessExpr)
+143 name (SimpleName)
+144 identifier='textualLineCount'
+145 scope (ThisExpr)
+146 value (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='getTextualLineCount'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='original'
+152 statement (ExpressionStmt)
+153 expression (AssignExpr)
+154 operator='ASSIGN'
+155 target (FieldAccessExpr)
+156 name (SimpleName)
+157 identifier='mediaType'
+158 scope (ThisExpr)
+159 value (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='getMediaType'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='original'
+165 statement (ExpressionStmt)
+166 expression (AssignExpr)
+167 operator='ASSIGN'
+168 target (FieldAccessExpr)
+169 name (SimpleName)
+170 identifier='subType'
+171 scope (ThisExpr)
+172 value (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='getSubType'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='original'
+178 statement (ExpressionStmt)
+179 expression (AssignExpr)
+180 operator='ASSIGN'
+181 target (FieldAccessExpr)
+182 name (SimpleName)
+183 identifier='properties'
+184 scope (ThisExpr)
+185 value (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='getProperties'
+188 scope (NameExpr)
+189 name (SimpleName)
+190 identifier='original'
+191 name (SimpleName)
+192 identifier='HBaseMailboxMessage'
+193 parameters
+194 parameter (Parameter)
+195 isVarArgs='false'
+196 name (SimpleName)
+197 identifier='conf'
+198 type (ClassOrInterfaceType)
+199 name (SimpleName)
+200 identifier='Configuration'
+201 parameter (Parameter)
+202 isVarArgs='false'
+203 name (SimpleName)
+204 identifier='mailboxId'
+205 type (ClassOrInterfaceType)
+206 name (SimpleName)
+207 identifier='HBaseId'
+208 parameter (Parameter)
+209 isVarArgs='false'
+210 name (SimpleName)
+211 identifier='uid'
+212 type (ClassOrInterfaceType)
+213 name (SimpleName)
+214 identifier='MessageUid'
+215 parameter (Parameter)
+216 isVarArgs='false'
+217 name (SimpleName)
+218 identifier='messageId'
+219 type (ClassOrInterfaceType)
+220 name (SimpleName)
+221 identifier='MessageId'
+222 parameter (Parameter)
+223 isVarArgs='false'
+224 name (SimpleName)
+225 identifier='modSeq'
+226 type (PrimitiveType)
+227 type='LONG'
+228 parameter (Parameter)
+229 isVarArgs='false'
+230 name (SimpleName)
+231 identifier='original'
+232 type (ClassOrInterfaceType)
+233 name (SimpleName)
+234 identifier='MailboxMessage'
+235 thrownExceptions
+236 thrownException (ClassOrInterfaceType)
+237 name (SimpleName)
+238 identifier='MailboxException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+56 59
+54 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+82 85
+80 86
+86 87
+2 88
+88 89
+89 90
+89 91
+91 92
+92 93
+91 94
+89 95
+95 96
+96 97
+95 98
+98 99
+99 100
+2 101
+101 102
+102 103
+102 104
+104 105
+105 106
+104 107
+102 108
+108 109
+109 110
+110 111
+110 112
+112 113
+113 114
+112 115
+115 116
+116 117
+110 118
+118 119
+119 120
+118 121
+121 122
+122 123
+108 124
+124 125
+2 126
+126 127
+127 128
+127 129
+129 130
+130 131
+129 132
+127 133
+133 134
+134 135
+133 136
+136 137
+137 138
+2 139
+139 140
+140 141
+140 142
+142 143
+143 144
+142 145
+140 146
+146 147
+147 148
+146 149
+149 150
+150 151
+2 152
+152 153
+153 154
+153 155
+155 156
+156 157
+155 158
+153 159
+159 160
+160 161
+159 162
+162 163
+163 164
+2 165
+165 166
+166 167
+166 168
+168 169
+169 170
+168 171
+166 172
+172 173
+173 174
+172 175
+175 176
+176 177
+2 178
+178 179
+179 180
+179 181
+181 182
+182 183
+181 184
+179 185
+185 186
+186 187
+185 188
+188 189
+189 190
+0 191
+191 192
+0 193
+193 194
+194 195
+194 196
+196 197
+194 198
+198 199
+199 200
+193 201
+201 202
+201 203
+203 204
+201 205
+205 206
+206 207
+193 208
+208 209
+208 210
+210 211
+208 212
+212 213
+213 214
+193 215
+215 216
+215 217
+217 218
+215 219
+219 220
+220 221
+193 222
+222 223
+222 224
+224 225
+222 226
+226 227
+193 228
+228 229
+228 230
+230 231
+228 232
+232 233
+233 234
+0 235
+235 236
+236 237
+237 238
+
+Create a copy of the given message. All properties are cloned except mailbox and UID.

@@ -1,0 +1,90 @@
+44
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (IntegerLiteralExpr)
+7 value='10'
+8 statement (ForeachStmt)
+9 body (BlockStmt)
+10 statements
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='append'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='s'
+19 iterable (NameExpr)
+20 name (SimpleName)
+21 identifier='iter'
+22 variable (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='s'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='String'
+30 name (SimpleName)
+31 identifier='StringList'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='iter'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Iterable'
+40 typeArguments
+41 typeArgument (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='String'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+2 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+8 19
+19 20
+20 21
+8 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+
+Create from something iterable, for instance: StringList list = new StringList(hashMap.keySet());

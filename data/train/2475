@@ -1,0 +1,30 @@
+14
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='solve'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='TOTAL_PIVOT_SEARCH'
+11 type (VoidType)
+12 name (SimpleName)
+13 identifier='solveByTotalPivotSearch'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+0 11
+0 12
+12 13
+
+Solves this linear equation system by total pivot search. "Total pivot search" takes as pivot element the element in the current column having the biggest value. If we have: <br> <code> ( a_11 &nbsp;&nbsp;&nbsp;&nbsp; ... &nbsp;&nbsp;&nbsp;&nbsp; a_1n      ) <br> (  0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ...   &nbsp;&nbsp;&nbsp;&nbsp; a_2n      ) <br> (  0 ... a_ii     &nbsp;&nbsp;&nbsp; ... a_in      )<br> (  0 ... a_(i+1)i ... a_(i+1)n  ) <br> (  0 ... a_ni     &nbsp;&nbsp;&nbsp; ... a_nn      ) <br> </code> Then we search for x,y in {i,...n}, so that |a_xy| > |a_ij|

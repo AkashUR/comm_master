@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getServerUri'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='DEFAULT_FILENAME'
+14 name (SimpleName)
+15 identifier='uri'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Uri'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='enqueueResponse'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='buildResponse'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='HTTP_PARTIAL_CONTENT'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='doErrorTest'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='uri'
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='ERROR_UNHANDLED_HTTP_CODE'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='DownloadManager'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='testErrorUnhandledHttpCode'
+48 thrownExceptions
+49 thrownException (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Exception'
+52 annotations
+53 annotation (MarkerAnnotationExpr)
+54 name (Name)
+55 identifier='LargeTest'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+50 51
+0 52
+52 53
+53 54
+54 55
+
+Tests the download failure error from an unhandled HTTP status code

@@ -1,0 +1,204 @@
+101
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getWorld'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='DimensionManager'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='spaceDimId'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Configuration'
+20 name (SimpleName)
+21 identifier='worldObj'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='World'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='pasteInWorld'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='chunk'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='worldObj'
+36 argument (BinaryExpr)
+37 operator='MINUS'
+38 left (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='x'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='spawnLocation'
+44 right (BinaryExpr)
+45 operator='DIVIDE'
+46 left (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getSizeX'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='chunk'
+52 right (IntegerLiteralExpr)
+53 value='2'
+54 argument (BinaryExpr)
+55 operator='MINUS'
+56 left (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='y'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='spawnLocation'
+62 right (BinaryExpr)
+63 operator='DIVIDE'
+64 left (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getSizeY'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='chunk'
+70 right (IntegerLiteralExpr)
+71 value='2'
+72 argument (BinaryExpr)
+73 operator='MINUS'
+74 left (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='z'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='spawnLocation'
+80 right (BinaryExpr)
+81 operator='DIVIDE'
+82 left (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='getSizeZ'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='chunk'
+88 right (IntegerLiteralExpr)
+89 value='2'
+90 type (VoidType)
+91 name (SimpleName)
+92 identifier='onModuleUnpack'
+93 parameters
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='chunk'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='IStorageChunk'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+32 36
+36 37
+36 38
+38 39
+39 40
+38 41
+41 42
+42 43
+36 44
+44 45
+44 46
+46 47
+47 48
+46 49
+49 50
+50 51
+44 52
+52 53
+32 54
+54 55
+54 56
+56 57
+57 58
+56 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+65 66
+64 67
+67 68
+68 69
+62 70
+70 71
+32 72
+72 73
+72 74
+74 75
+75 76
+74 77
+77 78
+78 79
+72 80
+80 81
+80 82
+82 83
+83 84
+82 85
+85 86
+86 87
+80 88
+88 89
+0 90
+0 91
+91 92
+0 93
+93 94
+94 95
+94 96
+96 97
+94 98
+98 99
+99 100
+
+When the space stations are first created they are 'unpacked' from the storage chunk they reside in

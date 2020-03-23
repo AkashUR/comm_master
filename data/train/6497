@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='lock'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='lock'
+10 statement (TryStmt)
+11 finallyBlock (BlockStmt)
+12 statements
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='unlock'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='lock'
+20 tryBlock (BlockStmt)
+21 statements
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='illegalResponseException'
+28 value (NameExpr)
+29 name (SimpleName)
+30 identifier='e'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='signal'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='condition'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='doneWithInvalidResponse'
+41 parameters
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='e'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='InvalidResponseException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+10 20
+20 21
+21 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+21 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+
+Done with invalid response (negative response/non OK command_status).

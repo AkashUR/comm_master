@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mFile'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='createObbFile'
+12 arguments
+13 argument (StringLiteralExpr)
+14 value='bad password@$%#@^*(!&)'
+15 argument (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='obb_enc_file100_orig3'
+18 scope (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='raw'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='R'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 initializer (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getAbsolutePath'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='mFile'
+34 name (SimpleName)
+35 identifier='filePath'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='String'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='mountObb'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='filePath'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='OBB_FILE_3_PASSWORD'
+50 argument (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='ERROR_COULD_NOT_MOUNT'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='OnObbStateChangeListener'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='unmountObb'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='filePath'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='DONT_FORCE'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='testMountSingleEncryptedObbInvalidPassword'
+70 annotations
+71 annotation (MarkerAnnotationExpr)
+72 name (Name)
+73 identifier='LargeTest'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+27 34
+34 35
+27 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+43 50
+50 51
+51 52
+50 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+Tests mounting a single encrypted OBB file using an invalid password.

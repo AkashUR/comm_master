@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='thenReturn'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='when'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='isServerHealthy'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='mTroubleshooter'
+17 arguments
+18 argument (BooleanLiteralExpr)
+19 value='false'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='init'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='mController'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='thenReturn'
+31 scope (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='when'
+34 arguments
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='isServerHealthy'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='mTroubleshooter'
+41 arguments
+42 argument (BooleanLiteralExpr)
+43 value='true'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='post'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='mFakeEventBus'
+51 arguments
+52 argument (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='TroubleshootingActionsChangedEvent'
+56 arguments
+57 argument (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='of'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='ImmutableSet'
+63 arguments
+64 argument (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='CHECK_PACKAGE_SERVER_CONFIGURATION'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='TroubleshootingAction'
+70 argument (NullLiteralExpr)
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='loadKnownUsers'
+75 scope (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='verify'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='mMockUserManager'
+82 argument (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='times'
+85 arguments
+86 argument (IntegerLiteralExpr)
+87 value='2'
+88 type (VoidType)
+89 name (SimpleName)
+90 identifier='testOnServerHealthy_reloadsUsersIfNotAvailable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+4 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+28 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+56 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+82 85
+85 86
+86 87
+0 88
+0 89
+89 90
+
+Tests that users are reloaded if the server becomes healthy and users are unavailable.

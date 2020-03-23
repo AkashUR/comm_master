@@ -1,0 +1,446 @@
+222
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='start'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='connection'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='createSession'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='connection'
+20 arguments
+21 argument (BooleanLiteralExpr)
+22 value='false'
+23 argument (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='CLIENT_ACKNOWLEDGE'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='Session'
+29 name (SimpleName)
+30 identifier='session'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Session'
+34 statement (ExpressionStmt)
+35 expression (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 initializer (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='createQueue'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='session'
+44 arguments
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getQueueName'
+48 name (SimpleName)
+49 identifier='queue'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='Queue'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='createProducer'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='session'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='queue'
+67 name (SimpleName)
+68 identifier='producer'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='MessageProducer'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='send'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='producer'
+79 arguments
+80 argument (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='createTextMessage'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='session'
+86 arguments
+87 argument (StringLiteralExpr)
+88 value='Hello'
+89 statement (ExpressionStmt)
+90 expression (VariableDeclarationExpr)
+91 variables
+92 variable (VariableDeclarator)
+93 initializer (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='createConsumer'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='session'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='queue'
+103 name (SimpleName)
+104 identifier='consumer'
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='MessageConsumer'
+108 statement (ExpressionStmt)
+109 expression (VariableDeclarationExpr)
+110 variables
+111 variable (VariableDeclarator)
+112 initializer (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='receive'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='consumer'
+118 arguments
+119 argument (IntegerLiteralExpr)
+120 value='1000'
+121 name (SimpleName)
+122 identifier='msg'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='Message'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='assertNotNull'
+130 arguments
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='msg'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='close'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='session'
+141 statement (ExpressionStmt)
+142 expression (AssignExpr)
+143 operator='ASSIGN'
+144 target (NameExpr)
+145 name (SimpleName)
+146 identifier='session'
+147 value (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='createSession'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='connection'
+153 arguments
+154 argument (BooleanLiteralExpr)
+155 value='false'
+156 argument (FieldAccessExpr)
+157 name (SimpleName)
+158 identifier='CLIENT_ACKNOWLEDGE'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='Session'
+162 statement (ExpressionStmt)
+163 expression (AssignExpr)
+164 operator='ASSIGN'
+165 target (NameExpr)
+166 name (SimpleName)
+167 identifier='consumer'
+168 value (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='createConsumer'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='session'
+174 arguments
+175 argument (NameExpr)
+176 name (SimpleName)
+177 identifier='queue'
+178 statement (ExpressionStmt)
+179 expression (AssignExpr)
+180 operator='ASSIGN'
+181 target (NameExpr)
+182 name (SimpleName)
+183 identifier='msg'
+184 value (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='receive'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='consumer'
+190 arguments
+191 argument (IntegerLiteralExpr)
+192 value='2000'
+193 statement (ExpressionStmt)
+194 expression (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='assertNotNull'
+197 arguments
+198 argument (NameExpr)
+199 name (SimpleName)
+200 identifier='msg'
+201 statement (ExpressionStmt)
+202 expression (MethodCallExpr)
+203 name (SimpleName)
+204 identifier='acknowledge'
+205 scope (NameExpr)
+206 name (SimpleName)
+207 identifier='msg'
+208 statement (ExpressionStmt)
+209 expression (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='close'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='session'
+215 type (VoidType)
+216 name (SimpleName)
+217 identifier='testUnAckedMessageAreNotConsumedOnSessionClose'
+218 thrownExceptions
+219 thrownException (ClassOrInterfaceType)
+220 name (SimpleName)
+221 identifier='JMSException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+13 29
+29 30
+13 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+37 48
+48 49
+37 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+56 67
+67 68
+56 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+101 102
+92 103
+103 104
+92 105
+105 106
+106 107
+2 108
+108 109
+109 110
+110 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+112 118
+118 119
+119 120
+111 121
+121 122
+111 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+2 141
+141 142
+142 143
+142 144
+144 145
+145 146
+142 147
+147 148
+148 149
+147 150
+150 151
+151 152
+147 153
+153 154
+154 155
+153 156
+156 157
+157 158
+156 159
+159 160
+160 161
+2 162
+162 163
+163 164
+163 165
+165 166
+166 167
+163 168
+168 169
+169 170
+168 171
+171 172
+172 173
+168 174
+174 175
+175 176
+176 177
+2 178
+178 179
+179 180
+179 181
+181 182
+182 183
+179 184
+184 185
+185 186
+184 187
+187 188
+188 189
+184 190
+190 191
+191 192
+2 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+199 200
+2 201
+201 202
+202 203
+203 204
+202 205
+205 206
+206 207
+2 208
+208 209
+209 210
+210 211
+209 212
+212 213
+213 214
+0 215
+0 216
+216 217
+0 218
+218 219
+219 220
+220 221
+
+Tests if unacknowledged messages are being re-delivered when the consumer connects again.

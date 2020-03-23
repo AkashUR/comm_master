@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='fromObject'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='ObjectReference'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getEntryCodeArray'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='compiledMethod'
+20 name (SimpleName)
+21 identifier='code'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='ObjectReference'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='pushFrameIP'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='code'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='verbosity'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='scanFrameForCode'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='code'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='processFrameForCode'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='verbosity'
+52 type (PrimitiveType)
+53 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+0 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+
+Identify all pointers into code pointers associated with a frame. There are two cases to be considered: a) the instruction pointer associated with each frame (stored in the thread's metadata for the top frame and as a return address for all subsequent frames), and b) local variables on the stack which happen to be pointers to code.<p> FIXME: SB: Why is it that JNI frames are skipped when considering top of stack frames, while boot image frames are skipped when considering other frames.  Shouldn't they both be considered in both cases?

@@ -1,0 +1,318 @@
+158
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ArrayList'
+11 name (SimpleName)
+12 identifier='al'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ArrayList'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='add'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='al'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='a'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='add'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='al'
+33 arguments
+34 argument (StringLiteralExpr)
+35 value='b'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='unmodifiableCollection'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='Collections'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='al'
+50 name (SimpleName)
+51 identifier='uc'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Collection'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='assertEquals'
+59 arguments
+60 argument (StringLiteralExpr)
+61 value='[a, b]'
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='toString'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='uc'
+68 statement (ExpressionStmt)
+69 expression (VariableDeclarationExpr)
+70 variables
+71 variable (VariableDeclarator)
+72 initializer (ObjectCreationExpr)
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='HashMap'
+76 name (SimpleName)
+77 identifier='m'
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='HashMap'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='put'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='m'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='one'
+91 argument (StringLiteralExpr)
+92 value='1'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='put'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='m'
+100 arguments
+101 argument (StringLiteralExpr)
+102 value='two'
+103 argument (StringLiteralExpr)
+104 value='2'
+105 statement (ExpressionStmt)
+106 expression (VariableDeclarationExpr)
+107 variables
+108 variable (VariableDeclarator)
+109 initializer (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='unmodifiableMap'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='Collections'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='m'
+119 name (SimpleName)
+120 identifier='um'
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='Map'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='assertTrue'
+128 arguments
+129 argument (BinaryExpr)
+130 operator='OR'
+131 left (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='equals'
+134 scope (StringLiteralExpr)
+135 value='{one=1, two=2}'
+136 arguments
+137 argument (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='toString'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='um'
+143 right (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='equals'
+146 scope (StringLiteralExpr)
+147 value='{two=2, one=1}'
+148 arguments
+149 argument (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='toString'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='um'
+155 type (VoidType)
+156 name (SimpleName)
+157 identifier='test_unmodifiable_toString_methods'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+39 50
+50 51
+39 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+62 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+71 72
+72 73
+73 74
+74 75
+71 76
+76 77
+71 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+88 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+100 103
+103 104
+2 105
+105 106
+106 107
+107 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+108 119
+119 120
+108 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+129 131
+131 132
+132 133
+131 134
+134 135
+131 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+129 143
+143 144
+144 145
+143 146
+146 147
+143 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+0 155
+0 156
+156 157
+
+Test unmodifiable objects toString methods

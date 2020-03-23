@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='beepOnError'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Sound'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='showMessageDialog'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='JOptionPane'
+17 arguments
+18 argument (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='get'
+21 scope (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='CURRENT_GUI_FRAME'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='Env'
+27 argument (ArrayCreationExpr)
+28 elementType (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Object'
+31 initializer (ArrayInitializerExpr)
+32 values
+33 value (NameExpr)
+34 name (SimpleName)
+35 identifier='messages'
+36 value (StringLiteralExpr)
+37 value=' '
+38 value (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='linkForAction'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='View Logs...'
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='ABOUT_LOGS'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='Actions'
+50 levels
+51 level (ArrayCreationLevel)
+52 argument (StringLiteralExpr)
+53 value='Error!'
+54 argument (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='ERROR_MESSAGE'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='JOptionPane'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='showErrorMsg'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='true'
+66 name (SimpleName)
+67 identifier='messages'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+17 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+33 34
+34 35
+32 36
+36 37
+32 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+27 50
+50 51
+17 52
+52 53
+17 54
+54 55
+55 56
+54 57
+57 58
+58 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+
+Shows an error message. <p> This method blocks until the dialog is closed. </p>

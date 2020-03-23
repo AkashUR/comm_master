@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkDeadlocksRepeat'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='5'
+10 argument (IntegerLiteralExpr)
+11 value='2'
+12 argument (IntegerLiteralExpr)
+13 value='2'
+14 argument (IntegerLiteralExpr)
+15 value='2'
+16 argument (IntegerLiteralExpr)
+17 value='0'
+18 argument (IntegerLiteralExpr)
+19 value='0'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='UPDATE_CNT'
+23 argument (IntegerLiteralExpr)
+24 value='0'
+25 argument (IntegerLiteralExpr)
+26 value='0'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='testDeadlocksUpdate'
+30 thrownExceptions
+31 thrownException (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+7 12
+12 13
+7 14
+14 15
+7 16
+16 17
+7 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+7 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+32 33
+
+Ensure that deadlocks do not occur during concurrent update operations.

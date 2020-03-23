@@ -1,0 +1,240 @@
+119
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='execute'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='callerContext'
+10 arguments
+11 argument (NullLiteralExpr)
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='await'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getSession'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='sessions'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='context'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='executor'
+32 scope (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getStateMachine'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='state'
+38 arguments
+39 argument (IntegerLiteralExpr)
+40 value='1'
+41 name (SimpleName)
+42 identifier='session'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='ServerSessionContext'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='assertNotNull'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='session'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='assertEquals'
+58 arguments
+59 argument (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='id'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='session'
+65 argument (IntegerLiteralExpr)
+66 value='1'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='assertEquals'
+71 arguments
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getTimestamp'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='session'
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='timestamp'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='execute'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='callerContext'
+88 arguments
+89 argument (NullLiteralExpr)
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='await'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='assertEquals'
+98 arguments
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getTimestamp'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='session'
+105 argument (BinaryExpr)
+106 operator='PLUS'
+107 left (NameExpr)
+108 name (SimpleName)
+109 identifier='timestamp'
+110 right (IntegerLiteralExpr)
+111 value='100'
+112 type (VoidType)
+113 name (SimpleName)
+114 identifier='testSessionLeaderReset'
+115 thrownExceptions
+116 thrownException (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+2 12
+12 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+20 38
+38 39
+39 40
+19 41
+41 42
+19 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+58 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+71 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+2 90
+90 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+98 105
+105 106
+105 107
+107 108
+108 109
+105 110
+110 111
+0 112
+0 113
+113 114
+0 115
+115 116
+116 117
+117 118
+
+Tests resetting session timeouts when a new leader is elected.

@@ -1,0 +1,286 @@
+142
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ArrayInitializerExpr)
+8 values
+9 value (IntegerLiteralExpr)
+10 value='8'
+11 value (IntegerLiteralExpr)
+12 value='0'
+13 value (IntegerLiteralExpr)
+14 value='0'
+15 value (IntegerLiteralExpr)
+16 value='1'
+17 value (UnaryExpr)
+18 operator='MINUS'
+19 expression (IntegerLiteralExpr)
+20 value='1'
+21 value (UnaryExpr)
+22 operator='MINUS'
+23 expression (IntegerLiteralExpr)
+24 value='1'
+25 value (UnaryExpr)
+26 operator='MINUS'
+27 expression (IntegerLiteralExpr)
+28 value='127'
+29 value (UnaryExpr)
+30 operator='MINUS'
+31 expression (IntegerLiteralExpr)
+32 value='1'
+33 value (IntegerLiteralExpr)
+34 value='0'
+35 value (UnaryExpr)
+36 operator='MINUS'
+37 expression (IntegerLiteralExpr)
+38 value='128'
+39 value (UnaryExpr)
+40 operator='MINUS'
+41 expression (IntegerLiteralExpr)
+42 value='1'
+43 value (IntegerLiteralExpr)
+44 value='127'
+45 name (SimpleName)
+46 identifier='bytes'
+47 type (ArrayType)
+48 origin='TYPE'
+49 componentType (PrimitiveType)
+50 type='BYTE'
+51 statement (ExpressionStmt)
+52 expression (VariableDeclarationExpr)
+53 variables
+54 variable (VariableDeclarator)
+55 initializer (ObjectCreationExpr)
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='MySQLPacket'
+59 arguments
+60 argument (BinaryExpr)
+61 operator='MINUS'
+62 left (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='length'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='bytes'
+68 right (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='HEADER_LENGTH'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='MySQLPacket'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='bytes'
+77 argument (CastExpr)
+78 expression (IntegerLiteralExpr)
+79 value='1'
+80 type (PrimitiveType)
+81 type='BYTE'
+82 name (SimpleName)
+83 identifier='array'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='MySQLPacket'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='assertEquals'
+91 arguments
+92 argument (IntegerLiteralExpr)
+93 value='65535'
+94 argument (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='getUnsignedShort'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='array'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='assertEquals'
+104 arguments
+105 argument (IntegerLiteralExpr)
+106 value='65409'
+107 argument (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='getUnsignedShort'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='array'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='assertEquals'
+117 arguments
+118 argument (IntegerLiteralExpr)
+119 value='32768'
+120 argument (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='getUnsignedShort'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='array'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='assertEquals'
+130 arguments
+131 argument (IntegerLiteralExpr)
+132 value='32767'
+133 argument (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getUnsignedShort'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='array'
+139 type (VoidType)
+140 name (SimpleName)
+141 identifier='testGetUnsignedInt16'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+8 13
+13 14
+8 15
+15 16
+8 17
+17 18
+17 19
+19 20
+8 21
+21 22
+21 23
+23 24
+8 25
+25 26
+25 27
+27 28
+8 29
+29 30
+29 31
+31 32
+8 33
+33 34
+8 35
+35 36
+35 37
+37 38
+8 39
+39 40
+39 41
+41 42
+8 43
+43 44
+6 45
+45 46
+6 47
+47 48
+47 49
+49 50
+2 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+60 62
+62 63
+63 64
+62 65
+65 66
+66 67
+60 68
+68 69
+69 70
+68 71
+71 72
+72 73
+59 74
+74 75
+75 76
+59 77
+77 78
+78 79
+77 80
+80 81
+54 82
+82 83
+54 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+94 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+117 120
+120 121
+121 122
+120 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+130 133
+133 134
+134 135
+133 136
+136 137
+137 138
+0 139
+0 140
+140 141
+
+Test the getUnsignedInt16() method.

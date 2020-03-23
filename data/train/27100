@@ -1,0 +1,366 @@
+182
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='com.sun.faces.TestBean'
+9 name (SimpleName)
+10 identifier='beanName'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='ManagedBeanInfo'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='beanName'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='beanName'
+29 argument (StringLiteralExpr)
+30 value='session'
+31 argument (NullLiteralExpr)
+32 argument (NullLiteralExpr)
+33 argument (NullLiteralExpr)
+34 argument (NullLiteralExpr)
+35 name (SimpleName)
+36 identifier='beanInfo'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='ManagedBeanInfo'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (CastExpr)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getFactory'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='FactoryFinder'
+51 arguments
+52 argument (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='APPLICATION_FACTORY'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='FactoryFinder'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='ApplicationFactory'
+61 name (SimpleName)
+62 identifier='aFactory'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='ApplicationFactory'
+66 statement (ExpressionStmt)
+67 expression (VariableDeclarationExpr)
+68 variables
+69 variable (VariableDeclarator)
+70 initializer (CastExpr)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getApplication'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='aFactory'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='ApplicationImpl'
+80 name (SimpleName)
+81 identifier='application'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='ApplicationImpl'
+85 statement (ExpressionStmt)
+86 expression (VariableDeclarationExpr)
+87 variables
+88 variable (VariableDeclarator)
+89 initializer (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='getCurrentInstance'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='ApplicationAssociate'
+95 name (SimpleName)
+96 identifier='associate'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='ApplicationAssociate'
+100 statement (ExpressionStmt)
+101 expression (VariableDeclarationExpr)
+102 variables
+103 variable (VariableDeclarator)
+104 initializer (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='getBeanManager'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='associate'
+110 name (SimpleName)
+111 identifier='manager'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='BeanManager'
+115 statement (ExpressionStmt)
+116 expression (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='register'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='manager'
+122 arguments
+123 argument (NameExpr)
+124 name (SimpleName)
+125 identifier='beanInfo'
+126 statement (ExpressionStmt)
+127 expression (VariableDeclarationExpr)
+128 variables
+129 variable (VariableDeclarator)
+130 initializer (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='getVariableResolver'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='application'
+136 name (SimpleName)
+137 identifier='variableResolver'
+138 type (ClassOrInterfaceType)
+139 name (SimpleName)
+140 identifier='VariableResolver'
+141 statement (ExpressionStmt)
+142 expression (VariableDeclarationExpr)
+143 variables
+144 variable (VariableDeclarator)
+145 initializer (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='resolveVariable'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='variableResolver'
+151 arguments
+152 argument (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='getFacesContext'
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='beanName'
+158 name (SimpleName)
+159 identifier='result'
+160 type (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='Object'
+163 statement (ExpressionStmt)
+164 expression (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='assertTrue'
+167 arguments
+168 argument (InstanceOfExpr)
+169 expression (NameExpr)
+170 name (SimpleName)
+171 identifier='result'
+172 type (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='TestBean'
+175 type (VoidType)
+176 name (SimpleName)
+177 identifier='testManagedBean'
+178 thrownExceptions
+179 thrownException (ClassOrInterfaceType)
+180 name (SimpleName)
+181 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+22 29
+29 30
+22 31
+22 32
+22 33
+22 34
+17 35
+35 36
+17 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+44 58
+58 59
+59 60
+43 61
+61 62
+43 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+69 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+70 77
+77 78
+78 79
+69 80
+80 81
+69 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+88 95
+95 96
+88 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+103 110
+110 111
+103 112
+112 113
+113 114
+2 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+129 136
+136 137
+129 138
+138 139
+139 140
+2 141
+141 142
+142 143
+143 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+145 151
+151 152
+152 153
+153 154
+151 155
+155 156
+156 157
+144 158
+158 159
+144 160
+160 161
+161 162
+2 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+169 170
+170 171
+168 172
+172 173
+173 174
+0 175
+0 176
+176 177
+0 178
+178 179
+179 180
+180 181
+
+This test verifies that if the variable resolver does not find a managed bean it tries to instantiate it if it was added to the application's managed bean factory list.

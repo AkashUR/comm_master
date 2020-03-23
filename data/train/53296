@@ -1,0 +1,160 @@
+79
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='p'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='p'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='m'
+19 scope (ThisExpr)
+20 value (BinaryExpr)
+21 operator='LEFT_SHIFT'
+22 left (IntegerLiteralExpr)
+23 value='1'
+24 right (NameExpr)
+25 name (SimpleName)
+26 identifier='p'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='hashFunc'
+33 scope (ThisExpr)
+34 value (NameExpr)
+35 name (SimpleName)
+36 identifier='hashFunc'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='registers'
+43 scope (ThisExpr)
+44 value (ArrayCreationExpr)
+45 elementType (PrimitiveType)
+46 type='BYTE'
+47 levels
+48 level (ArrayCreationLevel)
+49 dimension (NameExpr)
+50 name (SimpleName)
+51 identifier='m'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='singleBucket'
+58 scope (ThisExpr)
+59 value (UnaryExpr)
+60 operator='MINUS'
+61 expression (IntegerLiteralExpr)
+62 value='1'
+63 name (SimpleName)
+64 identifier='HyperLogLogPlusCounter'
+65 parameters
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='p'
+70 type (PrimitiveType)
+71 type='INT'
+72 parameter (Parameter)
+73 isVarArgs='false'
+74 name (SimpleName)
+75 identifier='hashFunc'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='HashFunction'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+20 22
+22 23
+20 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+28 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+40 43
+38 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+55 58
+53 59
+59 60
+59 61
+61 62
+0 63
+63 64
+0 65
+65 66
+66 67
+66 68
+68 69
+66 70
+70 71
+65 72
+72 73
+72 74
+74 75
+72 76
+76 77
+77 78
+
+The larger p is, the more storage (2^p bytes), the better accuracy

@@ -1,0 +1,100 @@
+49
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='version'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='V1'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getDerValue'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='in'
+22 name (SimpleName)
+23 identifier='derVal'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='DerValue'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='construct'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='derVal'
+35 name (SimpleName)
+36 identifier='CertificateVersion'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='in'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='DerInputStream'
+45 thrownExceptions
+46 thrownException (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+15 22
+22 23
+15 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+0 45
+45 46
+46 47
+47 48
+
+Create the object, decoding the values from the passed DER stream.

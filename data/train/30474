@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='write'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Files'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='get'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='Paths'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='NETSCAPE_KEYSTORE'
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='decode'
+24 scope (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getMimeDecoder'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Base64'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='readAllBytes'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='Files'
+37 arguments
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='get'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='Paths'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='NETSCAPE_KEYSTORE_BASE64'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 initializer (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='BadNetscapeCertTypeTest'
+56 name (SimpleName)
+57 identifier='test'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='BadNetscapeCertTypeTest'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='start'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='test'
+68 type (VoidType)
+69 name (SimpleName)
+70 identifier='main'
+71 parameters
+72 parameter (Parameter)
+73 isVarArgs='false'
+74 name (SimpleName)
+75 identifier='args'
+76 type (ArrayType)
+77 origin='TYPE'
+78 componentType (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='String'
+81 thrownExceptions
+82 thrownException (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+10 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+21 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+51 56
+56 57
+51 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+0 68
+0 69
+69 70
+0 71
+71 72
+72 73
+72 74
+74 75
+72 76
+76 77
+76 78
+78 79
+79 80
+0 81
+81 82
+82 83
+83 84
+
+The test signs and verifies a jar that contains entries whose signer certificate's NetscapeCertType extension doesn't allow code signing (badNetscapeCertType). Warning message is expected. Run bad_netscape_cert_type.sh script to create bad_netscape_cert_type.jks

@@ -1,0 +1,124 @@
+61
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='name'
+9 scope (ThisExpr)
+10 value (BinaryExpr)
+11 operator='PLUS'
+12 left (BinaryExpr)
+13 operator='PLUS'
+14 left (BinaryExpr)
+15 operator='PLUS'
+16 left (BinaryExpr)
+17 operator='PLUS'
+18 left (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getName'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='source'
+24 right (CharLiteralExpr)
+25 value='.'
+26 right (NameExpr)
+27 name (SimpleName)
+28 identifier='name'
+29 right (CharLiteralExpr)
+30 value='@'
+31 right (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='toHexString'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='Integer'
+37 arguments
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='hashCode'
+41 scope (ThisExpr)
+42 name (SimpleName)
+43 identifier='AttributeKey'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='source'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Class'
+52 typeArguments
+53 typeArgument (WildcardType)
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='name'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+10 12
+12 13
+12 14
+14 15
+14 16
+16 17
+16 18
+18 19
+19 20
+18 21
+21 22
+22 23
+16 24
+24 25
+14 26
+26 27
+27 28
+12 29
+29 30
+10 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+38 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+49 52
+52 53
+44 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+Creates a new instance. It's built from : <ul> <li>the class' name</li> <li>the attribute's name</li> <li>this attribute hashCode</li> </ul>

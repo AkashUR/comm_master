@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='queuingTime'
+9 scope (ThisExpr)
+10 value (BinaryExpr)
+11 operator='PLUS'
+12 left (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getLinkEnterTime'
+15 scope (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='enteredPerson'
+18 scope (ThisExpr)
+19 right (BinaryExpr)
+20 operator='DIVIDE'
+21 left (NameExpr)
+22 name (SimpleName)
+23 identifier='availableLinkSpace'
+24 right (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='min'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Math'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getFreespeed'
+34 scope (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getLink'
+37 scope (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='enteredPerson'
+40 scope (ThisExpr)
+41 argument (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getSpeed'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='MixedTrafficVehiclesUtils'
+47 arguments
+48 argument (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getLegMode'
+51 scope (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='enteredPerson'
+54 scope (ThisExpr)
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='updateQueuingTime'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+10 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+10 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+30 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+0 55
+0 56
+56 57
+
+This sets the actual queuing time in fraction without any rounding and  it depends on the number of vehicles queued at the end of the link.

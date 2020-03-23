@@ -1,0 +1,190 @@
+94
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getHeader'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='request'
+14 arguments
+15 argument (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='NAME'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='ViaHeader'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='ViaHeader'
+24 name (SimpleName)
+25 identifier='viaHeader'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='ViaHeader'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='removeParameter'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='viaHeader'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='branch'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='removeBranchID'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='request'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Request'
+50 annotations
+51 annotation (SingleMemberAnnotationExpr)
+52 memberValue (StringLiteralExpr)
+53 value='Private Method'
+54 name (Name)
+55 identifier='DSComment'
+56 annotation (SingleMemberAnnotationExpr)
+57 memberValue (FieldAccessExpr)
+58 name (SimpleName)
+59 identifier='PRIVATE_METHOD'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='DSCat'
+63 name (Name)
+64 identifier='DSBan'
+65 annotation (NormalAnnotationExpr)
+66 name (Name)
+67 identifier='DSGenerator'
+68 pairs
+69 pair (MemberValuePair)
+70 name (SimpleName)
+71 identifier='tool_name'
+72 value (StringLiteralExpr)
+73 value='Doppelganger'
+74 pair (MemberValuePair)
+75 name (SimpleName)
+76 identifier='tool_version'
+77 value (StringLiteralExpr)
+78 value='2.0'
+79 pair (MemberValuePair)
+80 name (SimpleName)
+81 identifier='generated_on'
+82 value (StringLiteralExpr)
+83 value='2013-12-30 12:55:40.522 -0500'
+84 pair (MemberValuePair)
+85 name (SimpleName)
+86 identifier='hash_original_method'
+87 value (StringLiteralExpr)
+88 value='ADD4EE56A02B7B5492F16169DF575C77'
+89 pair (MemberValuePair)
+90 name (SimpleName)
+91 identifier='hash_generated_method'
+92 value (StringLiteralExpr)
+93 value='C79BF4B67E3189EEF19E9080990D2DC9'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+7 21
+21 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+0 50
+50 51
+51 52
+52 53
+51 54
+54 55
+50 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+56 63
+63 64
+50 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+69 72
+72 73
+68 74
+74 75
+75 76
+74 77
+77 78
+68 79
+79 80
+80 81
+79 82
+82 83
+68 84
+84 85
+85 86
+84 87
+87 88
+68 89
+89 90
+90 91
+89 92
+92 93
+
+Removes all via headers from <tt>request</tt> and replaces them with a new one, equal to the one that was top most.

@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TreeSet'
+11 name (SimpleName)
+12 identifier='subKeys'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TreeSet'
+16 typeArguments
+17 typeArgument (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='String'
+20 statement (ForeachStmt)
+21 body (BlockStmt)
+22 statements
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='clear'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='subKeys'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='fillAssignedKeys'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='expr'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='subKeys'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='addAll'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='keys'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='subKeys'
+52 iterable (NameExpr)
+53 name (SimpleName)
+54 identifier='_exprs'
+55 variable (VariableDeclarationExpr)
+56 variables
+57 variable (VariableDeclarator)
+58 name (SimpleName)
+59 identifier='expr'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='ExprKraken'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='fillAssignedKeys'
+66 parameters
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='keys'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='Set'
+74 typeArguments
+75 typeArgument (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='String'
+78 annotations
+79 annotation (MarkerAnnotationExpr)
+80 name (Name)
+81 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+22 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+22 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+20 52
+52 53
+53 54
+20 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+71 74
+74 75
+75 76
+76 77
+0 78
+78 79
+79 80
+80 81
+
+Returns all the keys assigned statically, e.g. by param or literal.

@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='ilev'
+9 value (BinaryExpr)
+10 operator='BINARY_OR'
+11 left (EnclosedExpr)
+12 inner (BinaryExpr)
+13 operator='LEFT_SHIFT'
+14 left (NameExpr)
+15 name (SimpleName)
+16 identifier='ilev'
+17 right (IntegerLiteralExpr)
+18 value='4'
+19 right (EnclosedExpr)
+20 inner (BinaryExpr)
+21 operator='BINARY_AND'
+22 left (NameExpr)
+23 name (SimpleName)
+24 identifier='cmask'
+25 right (NameExpr)
+26 name (SimpleName)
+27 identifier='Ilev_Cmask_mask'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='pushIlevCmask'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='cmask'
+36 type (PrimitiveType)
+37 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+9 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+26 27
+0 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+
+Shifts ILEV left by 4 bits, then puts the given cmask as the current mask position (last 3 bits)

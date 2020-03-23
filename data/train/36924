@@ -1,0 +1,348 @@
+173
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='basicPublisher'
+10 name (SimpleName)
+11 identifier='p'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='SubmissionPublisher'
+15 typeArguments
+16 typeArgument (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Integer'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='TestSubscriber'
+27 name (SimpleName)
+28 identifier='s1'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='TestSubscriber'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='TestSubscriber'
+40 name (SimpleName)
+41 identifier='s2'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='TestSubscriber'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='subscribe'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='p'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='s1'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='subscribe'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='p'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='s2'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='submit'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='p'
+74 arguments
+75 argument (IntegerLiteralExpr)
+76 value='1'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='closeExceptionally'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='p'
+84 arguments
+85 argument (ObjectCreationExpr)
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='SPException'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='assertTrue'
+93 arguments
+94 argument (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='isClosed'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='p'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='awaitError'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='s1'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='assertTrue'
+111 arguments
+112 argument (BinaryExpr)
+113 operator='LESS_EQUALS'
+114 left (FieldAccessExpr)
+115 name (SimpleName)
+116 identifier='nexts'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='s1'
+120 right (IntegerLiteralExpr)
+121 value='1'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='assertEquals'
+126 arguments
+127 argument (IntegerLiteralExpr)
+128 value='1'
+129 argument (FieldAccessExpr)
+130 name (SimpleName)
+131 identifier='errors'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='s1'
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='awaitError'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='s2'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='assertTrue'
+146 arguments
+147 argument (BinaryExpr)
+148 operator='LESS_EQUALS'
+149 left (FieldAccessExpr)
+150 name (SimpleName)
+151 identifier='nexts'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='s2'
+155 right (IntegerLiteralExpr)
+156 value='1'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='assertEquals'
+161 arguments
+162 argument (IntegerLiteralExpr)
+163 value='1'
+164 argument (FieldAccessExpr)
+165 name (SimpleName)
+166 identifier='errors'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='s2'
+170 type (VoidType)
+171 name (SimpleName)
+172 identifier='testCloseExceptionallyError'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+22 27
+27 28
+22 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+35 40
+40 41
+35 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+68 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+112 114
+114 115
+115 116
+114 117
+117 118
+118 119
+112 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+133 134
+2 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+147 149
+149 150
+150 151
+149 152
+152 153
+153 154
+147 155
+155 156
+2 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+161 164
+164 165
+165 166
+164 167
+167 168
+168 169
+0 170
+0 171
+171 172
+
+Closing a publisher exceptionally causes onError to subscribers

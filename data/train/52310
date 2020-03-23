@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mLocationRequest'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='create'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='LocationRequest'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='setPriority'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='mLocationRequest'
+22 arguments
+23 argument (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='PRIORITY_HIGH_ACCURACY'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='LocationRequest'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='setInterval'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='mLocationRequest'
+36 arguments
+37 argument (IntegerLiteralExpr)
+38 value='1000'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='requestLocationUpdates'
+43 scope (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='FusedLocationApi'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='LocationServices'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='mGoogleApiClient'
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='mLocationRequest'
+56 argument (ThisExpr)
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='onConnected'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='connectionHint'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='Bundle'
+68 annotations
+69 annotation (MarkerAnnotationExpr)
+70 name (Name)
+71 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+40 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+49 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+0 68
+68 69
+69 70
+70 71
+
+Runs when a GoogleApiClient object successfully connects.

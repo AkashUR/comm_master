@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='compileStatement'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getWritableDatabase'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='mDbHelper'
+16 arguments
+17 argument (BinaryExpr)
+18 operator='PLUS'
+19 left (StringLiteralExpr)
+20 value=';ROLLBACK TO '
+21 right (NameExpr)
+22 name (SimpleName)
+23 identifier='savepointName'
+24 name (SimpleName)
+25 identifier='statement'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='SQLiteStatement'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='execute'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='statement'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='close'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='statement'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='rollbackNamedTransaction'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='savepointName'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+17 19
+19 20
+17 21
+21 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+
+Rolls back a named transaction by rolling back to a savepoint with the given name.

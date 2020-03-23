@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getToken'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getInstance'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='FirebaseInstanceId'
+16 name (SimpleName)
+17 identifier='refreshedToken'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='String'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='d'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='Log'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='TAG'
+32 argument (BinaryExpr)
+33 operator='PLUS'
+34 left (StringLiteralExpr)
+35 value='Refreshed token: '
+36 right (NameExpr)
+37 name (SimpleName)
+38 identifier='refreshedToken'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='sendRegistrationToServer'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='refreshedToken'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='onTokenRefresh'
+50 annotations
+51 annotation (MarkerAnnotationExpr)
+52 name (Name)
+53 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+28 32
+32 33
+32 34
+34 35
+32 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+52 53
+
+Called if InstanceID token is updated. This may occur if the security of the previous token had been compromised. Note that this is called when the InstanceID token is initially generated so this is where you would retrieve the token.

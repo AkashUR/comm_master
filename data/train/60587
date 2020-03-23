@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='replaceAll'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getDeployableDir'
+13 scope (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='deployer'
+16 scope (ThisExpr)
+17 arguments
+18 argument (NullLiteralExpr)
+19 arguments
+20 argument (StringLiteralExpr)
+21 value='\\\\'
+22 argument (StringLiteralExpr)
+23 value='/'
+24 name (SimpleName)
+25 identifier='name'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='String'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='assertEquals'
+33 arguments
+34 argument (BinaryExpr)
+35 operator='PLUS'
+36 left (NameExpr)
+37 name (SimpleName)
+38 identifier='DOMAIN_HOME'
+39 right (StringLiteralExpr)
+40 value='/autodeploy'
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='name'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='testDeployableDirIsAutoDeploy'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+10 17
+17 18
+7 19
+19 20
+20 21
+19 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+33 41
+41 42
+42 43
+0 44
+0 45
+45 46
+
+This tests that the DeployableDir is DOMAIN_HOME/autodeploy, which should be the case, as this test uses WebLogic 9.

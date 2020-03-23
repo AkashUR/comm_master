@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='renderArrow'
+7 scope (ThisExpr)
+8 arguments
+9 argument (CastExpr)
+10 expression (NameExpr)
+11 name (SimpleName)
+12 identifier='par1Entity'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='EntityFragments'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='par2'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='par4'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='par6'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='par8'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='par9'
+31 type (VoidType)
+32 name (SimpleName)
+33 identifier='doRender'
+34 parameters
+35 parameter (Parameter)
+36 isVarArgs='false'
+37 name (SimpleName)
+38 identifier='par1Entity'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Entity'
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='par2'
+46 type (PrimitiveType)
+47 type='DOUBLE'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='par4'
+52 type (PrimitiveType)
+53 type='DOUBLE'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='par6'
+58 type (PrimitiveType)
+59 type='DOUBLE'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='par8'
+64 type (PrimitiveType)
+65 type='FLOAT'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='par9'
+70 type (PrimitiveType)
+71 type='FLOAT'
+72 annotations
+73 annotation (MarkerAnnotationExpr)
+74 name (Name)
+75 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+8 16
+16 17
+17 18
+8 19
+19 20
+20 21
+8 22
+22 23
+23 24
+8 25
+25 26
+26 27
+8 28
+28 29
+29 30
+0 31
+0 32
+32 33
+0 34
+34 35
+35 36
+35 37
+37 38
+35 39
+39 40
+40 41
+34 42
+42 43
+42 44
+44 45
+42 46
+46 47
+34 48
+48 49
+48 50
+50 51
+48 52
+52 53
+34 54
+54 55
+54 56
+56 57
+54 58
+58 59
+34 60
+60 61
+60 62
+62 63
+60 64
+64 65
+34 66
+66 67
+66 68
+68 69
+66 70
+70 71
+0 72
+72 73
+73 74
+74 75
+
+Actually renders the given argument. This is a synthetic bridge method, always casting down its argument and then handing it off to a worker function which does the actual work. In all probabilty, the class Render is generic (Render<T extends Entity) and this method has signature public void doRender(T entity, double d, double d1, double d2, float f, float f1). But JAD is pre 1.5 so doesn't do that.

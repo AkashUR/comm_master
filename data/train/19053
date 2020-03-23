@@ -1,0 +1,288 @@
+143
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='directionToAzEl'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='MathUtil'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='dir'
+17 argument (NullLiteralExpr)
+18 name (SimpleName)
+19 identifier='angle'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Vector3'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setAzAndEl'
+27 arguments
+28 argument (UnaryExpr)
+29 operator='MINUS'
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getX'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='angle'
+36 argument (BinaryExpr)
+37 operator='PLUS'
+38 left (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getY'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='angle'
+44 right (BinaryExpr)
+45 operator='DIVIDE'
+46 left (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='PI'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='Math'
+52 right (IntegerLiteralExpr)
+53 value='2'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='set'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='lookAt'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='dir'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='scaleAddLocal'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='lookAt'
+72 arguments
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getDistanceToCoR'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='camera'
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getLocation'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='camera'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='setLookAt'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='camera'
+92 arguments
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='lookAt'
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='rotateTurntable'
+100 arguments
+101 argument (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='getDistanceToCoR'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='camera'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='updateFromCamera'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='updateCrosshair'
+115 statement (ExpressionStmt)
+116 expression (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='updateGeometricState'
+119 arguments
+120 argument (IntegerLiteralExpr)
+121 value='0'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='set'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='changed'
+129 arguments
+130 argument (BooleanLiteralExpr)
+131 value='true'
+132 type (VoidType)
+133 name (SimpleName)
+134 identifier='changeCamera'
+135 parameters
+136 parameter (Parameter)
+137 isVarArgs='false'
+138 name (SimpleName)
+139 identifier='dir'
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='ReadOnlyVector3'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+33 34
+34 35
+27 36
+36 37
+36 38
+38 39
+39 40
+38 41
+41 42
+42 43
+36 44
+44 45
+44 46
+46 47
+47 48
+46 49
+49 50
+50 51
+44 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+72 79
+79 80
+80 81
+79 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+86 92
+92 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+2 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+0 132
+0 133
+133 134
+0 135
+135 136
+136 137
+136 138
+138 139
+136 140
+140 141
+141 142
+
+Propagate camera direction changes to lookat, distance, and angles.

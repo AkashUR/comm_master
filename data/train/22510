@@ -1,0 +1,208 @@
+103
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validateNotNull'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ValidateUtil'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='connConfig'
+14 argument (StringLiteralExpr)
+15 value='STS connection configuration'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='connConfig'
+22 scope (ThisExpr)
+23 value (NameExpr)
+24 name (SimpleName)
+25 identifier='connConfig'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='trustedIssuerCertificates'
+32 scope (ThisExpr)
+33 value (NameExpr)
+34 name (SimpleName)
+35 identifier='trustedIssuerCertificates'
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='executorService'
+42 scope (ThisExpr)
+43 value (ConditionalExpr)
+44 condition (EnclosedExpr)
+45 inner (BinaryExpr)
+46 operator='NOT_EQUALS'
+47 left (NameExpr)
+48 name (SimpleName)
+49 identifier='executorService'
+50 right (NullLiteralExpr)
+51 elseExpr (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='newSingleThreadExecutor'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='Executors'
+57 thenExpr (NameExpr)
+58 name (SimpleName)
+59 identifier='executorService'
+60 statement (ExpressionStmt)
+61 expression (AssignExpr)
+62 operator='ASSIGN'
+63 target (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='holderOfKeyConfig'
+66 scope (ThisExpr)
+67 value (NameExpr)
+68 name (SimpleName)
+69 identifier='holderOfKeyConfig'
+70 name (SimpleName)
+71 identifier='SecurityTokenServiceConfig'
+72 parameters
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='connConfig'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='ConnectionConfig'
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='trustedIssuerCertificates'
+84 type (ArrayType)
+85 origin='TYPE'
+86 componentType (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='X509Certificate'
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='executorService'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='ExecutorService'
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='holderOfKeyConfig'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='HolderOfKeyConfig'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+29 32
+27 33
+33 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+39 42
+37 43
+43 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+43 51
+51 52
+52 53
+51 54
+54 55
+55 56
+43 57
+57 58
+58 59
+2 60
+60 61
+61 62
+61 63
+63 64
+64 65
+63 66
+61 67
+67 68
+68 69
+0 70
+70 71
+0 72
+72 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+72 80
+80 81
+80 82
+82 83
+80 84
+84 85
+84 86
+86 87
+87 88
+72 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+72 96
+96 97
+96 98
+98 99
+96 100
+100 101
+101 102
+
+Creates STS configuration object suitable for holder of key confirmation type.<br> If the executor service is null a default single threaded executor will be created.

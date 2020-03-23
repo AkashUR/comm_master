@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ContentValues'
+11 name (SimpleName)
+12 identifier='contentValues'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ContentValues'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='update'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='resolver'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='CONTENT_URI'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Directory'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='contentValues'
+33 argument (NullLiteralExpr)
+34 argument (NullLiteralExpr)
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='notifyDirectoryChange'
+38 parameters
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='resolver'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='ContentResolver'
+46 annotations
+47 annotation (NormalAnnotationExpr)
+48 name (Name)
+49 identifier='DSGenerator'
+50 pairs
+51 pair (MemberValuePair)
+52 name (SimpleName)
+53 identifier='tool_name'
+54 value (StringLiteralExpr)
+55 value='Doppelganger'
+56 pair (MemberValuePair)
+57 name (SimpleName)
+58 identifier='tool_version'
+59 value (StringLiteralExpr)
+60 value='2.0'
+61 pair (MemberValuePair)
+62 name (SimpleName)
+63 identifier='generated_on'
+64 value (StringLiteralExpr)
+65 value='2013-12-30 12:33:45.670 -0500'
+66 pair (MemberValuePair)
+67 name (SimpleName)
+68 identifier='hash_original_method'
+69 value (StringLiteralExpr)
+70 value='6D608DB52AC8952A89B8472446A9496C'
+71 pair (MemberValuePair)
+72 name (SimpleName)
+73 identifier='hash_generated_method'
+74 value (StringLiteralExpr)
+75 value='6DBDE6CD2DFF18E2305CB5B3F5A9E508'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+31 32
+23 33
+23 34
+0 35
+0 36
+36 37
+0 38
+38 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+0 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+51 54
+54 55
+50 56
+56 57
+57 58
+56 59
+59 60
+50 61
+61 62
+62 63
+61 64
+64 65
+50 66
+66 67
+67 68
+66 69
+69 70
+50 71
+71 72
+72 73
+71 74
+74 75
+
+Notifies the system of a change in the list of directories handled by a particular directory provider. The Contacts provider will turn around and send a query to the directory provider for the full list of directories, which will replace the previous list.

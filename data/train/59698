@@ -1,0 +1,80 @@
+39
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (ConditionalExpr)
+7 condition (EnclosedExpr)
+8 inner (BinaryExpr)
+9 operator='NOT_EQUALS'
+10 left (NameExpr)
+11 name (SimpleName)
+12 identifier='tg'
+13 right (NullLiteralExpr)
+14 elseExpr (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getThreadGroup'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='currentThread'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='Thread'
+23 thenExpr (NameExpr)
+24 name (SimpleName)
+25 identifier='tg'
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='nextThreadName'
+29 name (SimpleName)
+30 identifier='RunQueue'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='tg'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='ThreadGroup'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+6 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+6 23
+23 24
+24 25
+5 26
+26 27
+27 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+37 38
+
+construct this thread in a particular ThreadGroup

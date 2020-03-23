@@ -1,0 +1,1002 @@
+500
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='mapper'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='generateJsonSchema'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='mapper'
+26 arguments
+27 argument (ClassExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='SimpleBean'
+31 name (SimpleName)
+32 identifier='jsonSchema'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='JsonSchema'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='assertNotNull'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='jsonSchema'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='assertTrue'
+48 arguments
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='equals'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='jsonSchema'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='jsonSchema'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='assertFalse'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='equals'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='jsonSchema'
+70 arguments
+71 argument (NullLiteralExpr)
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='assertFalse'
+76 arguments
+77 argument (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='equals'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='jsonSchema'
+83 arguments
+84 argument (StringLiteralExpr)
+85 value='foo'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='assertNotNull'
+90 arguments
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='toString'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='jsonSchema'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='assertNotNull'
+101 arguments
+102 argument (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='getDefaultSchemaNode'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='JsonSchema'
+108 statement (ExpressionStmt)
+109 expression (VariableDeclarationExpr)
+110 variables
+111 variable (VariableDeclarator)
+112 initializer (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getSchemaNode'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='jsonSchema'
+118 name (SimpleName)
+119 identifier='root'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='ObjectNode'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='assertEquals'
+127 arguments
+128 argument (StringLiteralExpr)
+129 value='object'
+130 argument (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='asText'
+133 scope (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='get'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='root'
+139 arguments
+140 argument (StringLiteralExpr)
+141 value='type'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='assertEquals'
+146 arguments
+147 argument (BooleanLiteralExpr)
+148 value='false'
+149 argument (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='getBooleanValue'
+152 scope (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='path'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='root'
+158 arguments
+159 argument (StringLiteralExpr)
+160 value='required'
+161 statement (ExpressionStmt)
+162 expression (VariableDeclarationExpr)
+163 variables
+164 variable (VariableDeclarator)
+165 initializer (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='get'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='root'
+171 arguments
+172 argument (StringLiteralExpr)
+173 value='properties'
+174 name (SimpleName)
+175 identifier='propertiesSchema'
+176 type (ClassOrInterfaceType)
+177 name (SimpleName)
+178 identifier='JsonNode'
+179 statement (ExpressionStmt)
+180 expression (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='assertNotNull'
+183 arguments
+184 argument (NameExpr)
+185 name (SimpleName)
+186 identifier='propertiesSchema'
+187 statement (ExpressionStmt)
+188 expression (VariableDeclarationExpr)
+189 variables
+190 variable (VariableDeclarator)
+191 initializer (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='get'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='propertiesSchema'
+197 arguments
+198 argument (StringLiteralExpr)
+199 value='property1'
+200 name (SimpleName)
+201 identifier='property1Schema'
+202 type (ClassOrInterfaceType)
+203 name (SimpleName)
+204 identifier='JsonNode'
+205 statement (ExpressionStmt)
+206 expression (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='assertNotNull'
+209 arguments
+210 argument (NameExpr)
+211 name (SimpleName)
+212 identifier='property1Schema'
+213 statement (ExpressionStmt)
+214 expression (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='assertEquals'
+217 arguments
+218 argument (StringLiteralExpr)
+219 value='integer'
+220 argument (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='asText'
+223 scope (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='get'
+226 scope (NameExpr)
+227 name (SimpleName)
+228 identifier='property1Schema'
+229 arguments
+230 argument (StringLiteralExpr)
+231 value='type'
+232 statement (ExpressionStmt)
+233 expression (MethodCallExpr)
+234 name (SimpleName)
+235 identifier='assertEquals'
+236 arguments
+237 argument (BooleanLiteralExpr)
+238 value='false'
+239 argument (MethodCallExpr)
+240 name (SimpleName)
+241 identifier='getBooleanValue'
+242 scope (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='path'
+245 scope (NameExpr)
+246 name (SimpleName)
+247 identifier='property1Schema'
+248 arguments
+249 argument (StringLiteralExpr)
+250 value='required'
+251 statement (ExpressionStmt)
+252 expression (VariableDeclarationExpr)
+253 variables
+254 variable (VariableDeclarator)
+255 initializer (MethodCallExpr)
+256 name (SimpleName)
+257 identifier='get'
+258 scope (NameExpr)
+259 name (SimpleName)
+260 identifier='propertiesSchema'
+261 arguments
+262 argument (StringLiteralExpr)
+263 value='property2'
+264 name (SimpleName)
+265 identifier='property2Schema'
+266 type (ClassOrInterfaceType)
+267 name (SimpleName)
+268 identifier='JsonNode'
+269 statement (ExpressionStmt)
+270 expression (MethodCallExpr)
+271 name (SimpleName)
+272 identifier='assertNotNull'
+273 arguments
+274 argument (NameExpr)
+275 name (SimpleName)
+276 identifier='property2Schema'
+277 statement (ExpressionStmt)
+278 expression (MethodCallExpr)
+279 name (SimpleName)
+280 identifier='assertEquals'
+281 arguments
+282 argument (StringLiteralExpr)
+283 value='string'
+284 argument (MethodCallExpr)
+285 name (SimpleName)
+286 identifier='asText'
+287 scope (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='get'
+290 scope (NameExpr)
+291 name (SimpleName)
+292 identifier='property2Schema'
+293 arguments
+294 argument (StringLiteralExpr)
+295 value='type'
+296 statement (ExpressionStmt)
+297 expression (MethodCallExpr)
+298 name (SimpleName)
+299 identifier='assertEquals'
+300 arguments
+301 argument (BooleanLiteralExpr)
+302 value='false'
+303 argument (MethodCallExpr)
+304 name (SimpleName)
+305 identifier='getBooleanValue'
+306 scope (MethodCallExpr)
+307 name (SimpleName)
+308 identifier='path'
+309 scope (NameExpr)
+310 name (SimpleName)
+311 identifier='property2Schema'
+312 arguments
+313 argument (StringLiteralExpr)
+314 value='required'
+315 statement (ExpressionStmt)
+316 expression (VariableDeclarationExpr)
+317 variables
+318 variable (VariableDeclarator)
+319 initializer (MethodCallExpr)
+320 name (SimpleName)
+321 identifier='get'
+322 scope (NameExpr)
+323 name (SimpleName)
+324 identifier='propertiesSchema'
+325 arguments
+326 argument (StringLiteralExpr)
+327 value='property3'
+328 name (SimpleName)
+329 identifier='property3Schema'
+330 type (ClassOrInterfaceType)
+331 name (SimpleName)
+332 identifier='JsonNode'
+333 statement (ExpressionStmt)
+334 expression (MethodCallExpr)
+335 name (SimpleName)
+336 identifier='assertNotNull'
+337 arguments
+338 argument (NameExpr)
+339 name (SimpleName)
+340 identifier='property3Schema'
+341 statement (ExpressionStmt)
+342 expression (MethodCallExpr)
+343 name (SimpleName)
+344 identifier='assertEquals'
+345 arguments
+346 argument (StringLiteralExpr)
+347 value='array'
+348 argument (MethodCallExpr)
+349 name (SimpleName)
+350 identifier='asText'
+351 scope (MethodCallExpr)
+352 name (SimpleName)
+353 identifier='get'
+354 scope (NameExpr)
+355 name (SimpleName)
+356 identifier='property3Schema'
+357 arguments
+358 argument (StringLiteralExpr)
+359 value='type'
+360 statement (ExpressionStmt)
+361 expression (MethodCallExpr)
+362 name (SimpleName)
+363 identifier='assertEquals'
+364 arguments
+365 argument (BooleanLiteralExpr)
+366 value='false'
+367 argument (MethodCallExpr)
+368 name (SimpleName)
+369 identifier='getBooleanValue'
+370 scope (MethodCallExpr)
+371 name (SimpleName)
+372 identifier='path'
+373 scope (NameExpr)
+374 name (SimpleName)
+375 identifier='property3Schema'
+376 arguments
+377 argument (StringLiteralExpr)
+378 value='required'
+379 statement (ExpressionStmt)
+380 expression (MethodCallExpr)
+381 name (SimpleName)
+382 identifier='assertEquals'
+383 arguments
+384 argument (StringLiteralExpr)
+385 value='string'
+386 argument (MethodCallExpr)
+387 name (SimpleName)
+388 identifier='asText'
+389 scope (MethodCallExpr)
+390 name (SimpleName)
+391 identifier='get'
+392 scope (MethodCallExpr)
+393 name (SimpleName)
+394 identifier='get'
+395 scope (NameExpr)
+396 name (SimpleName)
+397 identifier='property3Schema'
+398 arguments
+399 argument (StringLiteralExpr)
+400 value='items'
+401 arguments
+402 argument (StringLiteralExpr)
+403 value='type'
+404 statement (ExpressionStmt)
+405 expression (VariableDeclarationExpr)
+406 variables
+407 variable (VariableDeclarator)
+408 initializer (MethodCallExpr)
+409 name (SimpleName)
+410 identifier='get'
+411 scope (NameExpr)
+412 name (SimpleName)
+413 identifier='propertiesSchema'
+414 arguments
+415 argument (StringLiteralExpr)
+416 value='property4'
+417 name (SimpleName)
+418 identifier='property4Schema'
+419 type (ClassOrInterfaceType)
+420 name (SimpleName)
+421 identifier='JsonNode'
+422 statement (ExpressionStmt)
+423 expression (MethodCallExpr)
+424 name (SimpleName)
+425 identifier='assertNotNull'
+426 arguments
+427 argument (NameExpr)
+428 name (SimpleName)
+429 identifier='property4Schema'
+430 statement (ExpressionStmt)
+431 expression (MethodCallExpr)
+432 name (SimpleName)
+433 identifier='assertEquals'
+434 arguments
+435 argument (StringLiteralExpr)
+436 value='array'
+437 argument (MethodCallExpr)
+438 name (SimpleName)
+439 identifier='asText'
+440 scope (MethodCallExpr)
+441 name (SimpleName)
+442 identifier='get'
+443 scope (NameExpr)
+444 name (SimpleName)
+445 identifier='property4Schema'
+446 arguments
+447 argument (StringLiteralExpr)
+448 value='type'
+449 statement (ExpressionStmt)
+450 expression (MethodCallExpr)
+451 name (SimpleName)
+452 identifier='assertEquals'
+453 arguments
+454 argument (BooleanLiteralExpr)
+455 value='false'
+456 argument (MethodCallExpr)
+457 name (SimpleName)
+458 identifier='getBooleanValue'
+459 scope (MethodCallExpr)
+460 name (SimpleName)
+461 identifier='path'
+462 scope (NameExpr)
+463 name (SimpleName)
+464 identifier='property4Schema'
+465 arguments
+466 argument (StringLiteralExpr)
+467 value='required'
+468 statement (ExpressionStmt)
+469 expression (MethodCallExpr)
+470 name (SimpleName)
+471 identifier='assertEquals'
+472 arguments
+473 argument (StringLiteralExpr)
+474 value='number'
+475 argument (MethodCallExpr)
+476 name (SimpleName)
+477 identifier='asText'
+478 scope (MethodCallExpr)
+479 name (SimpleName)
+480 identifier='get'
+481 scope (MethodCallExpr)
+482 name (SimpleName)
+483 identifier='get'
+484 scope (NameExpr)
+485 name (SimpleName)
+486 identifier='property4Schema'
+487 arguments
+488 argument (StringLiteralExpr)
+489 value='items'
+490 arguments
+491 argument (StringLiteralExpr)
+492 value='type'
+493 type (VoidType)
+494 name (SimpleName)
+495 identifier='testGeneratingJsonSchema'
+496 thrownExceptions
+497 thrownException (ClassOrInterfaceType)
+498 name (SimpleName)
+499 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+29 30
+19 31
+31 32
+19 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+77 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+2 108
+108 109
+109 110
+110 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+111 118
+118 119
+111 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+127 130
+130 131
+131 132
+130 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+146 149
+149 150
+150 151
+149 152
+152 153
+153 154
+152 155
+155 156
+156 157
+152 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+165 171
+171 172
+172 173
+164 174
+174 175
+164 176
+176 177
+177 178
+2 179
+179 180
+180 181
+181 182
+180 183
+183 184
+184 185
+185 186
+2 187
+187 188
+188 189
+189 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+191 197
+197 198
+198 199
+190 200
+200 201
+190 202
+202 203
+203 204
+2 205
+205 206
+206 207
+207 208
+206 209
+209 210
+210 211
+211 212
+2 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+217 220
+220 221
+221 222
+220 223
+223 224
+224 225
+223 226
+226 227
+227 228
+223 229
+229 230
+230 231
+2 232
+232 233
+233 234
+234 235
+233 236
+236 237
+237 238
+236 239
+239 240
+240 241
+239 242
+242 243
+243 244
+242 245
+245 246
+246 247
+242 248
+248 249
+249 250
+2 251
+251 252
+252 253
+253 254
+254 255
+255 256
+256 257
+255 258
+258 259
+259 260
+255 261
+261 262
+262 263
+254 264
+264 265
+254 266
+266 267
+267 268
+2 269
+269 270
+270 271
+271 272
+270 273
+273 274
+274 275
+275 276
+2 277
+277 278
+278 279
+279 280
+278 281
+281 282
+282 283
+281 284
+284 285
+285 286
+284 287
+287 288
+288 289
+287 290
+290 291
+291 292
+287 293
+293 294
+294 295
+2 296
+296 297
+297 298
+298 299
+297 300
+300 301
+301 302
+300 303
+303 304
+304 305
+303 306
+306 307
+307 308
+306 309
+309 310
+310 311
+306 312
+312 313
+313 314
+2 315
+315 316
+316 317
+317 318
+318 319
+319 320
+320 321
+319 322
+322 323
+323 324
+319 325
+325 326
+326 327
+318 328
+328 329
+318 330
+330 331
+331 332
+2 333
+333 334
+334 335
+335 336
+334 337
+337 338
+338 339
+339 340
+2 341
+341 342
+342 343
+343 344
+342 345
+345 346
+346 347
+345 348
+348 349
+349 350
+348 351
+351 352
+352 353
+351 354
+354 355
+355 356
+351 357
+357 358
+358 359
+2 360
+360 361
+361 362
+362 363
+361 364
+364 365
+365 366
+364 367
+367 368
+368 369
+367 370
+370 371
+371 372
+370 373
+373 374
+374 375
+370 376
+376 377
+377 378
+2 379
+379 380
+380 381
+381 382
+380 383
+383 384
+384 385
+383 386
+386 387
+387 388
+386 389
+389 390
+390 391
+389 392
+392 393
+393 394
+392 395
+395 396
+396 397
+392 398
+398 399
+399 400
+389 401
+401 402
+402 403
+2 404
+404 405
+405 406
+406 407
+407 408
+408 409
+409 410
+408 411
+411 412
+412 413
+408 414
+414 415
+415 416
+407 417
+417 418
+407 419
+419 420
+420 421
+2 422
+422 423
+423 424
+424 425
+423 426
+426 427
+427 428
+428 429
+2 430
+430 431
+431 432
+432 433
+431 434
+434 435
+435 436
+434 437
+437 438
+438 439
+437 440
+440 441
+441 442
+440 443
+443 444
+444 445
+440 446
+446 447
+447 448
+2 449
+449 450
+450 451
+451 452
+450 453
+453 454
+454 455
+453 456
+456 457
+457 458
+456 459
+459 460
+460 461
+459 462
+462 463
+463 464
+459 465
+465 466
+466 467
+2 468
+468 469
+469 470
+470 471
+469 472
+472 473
+473 474
+472 475
+475 476
+476 477
+475 478
+478 479
+479 480
+478 481
+481 482
+482 483
+481 484
+484 485
+485 486
+481 487
+487 488
+488 489
+478 490
+490 491
+491 492
+0 493
+0 494
+494 495
+0 496
+496 497
+497 498
+498 499
+
+tests generating json-schema stuff.

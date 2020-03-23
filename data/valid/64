@@ -1,0 +1,562 @@
+280
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TestableAbstractLogger'
+11 name (SimpleName)
+12 identifier='logger'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TestableAbstractLogger'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setLevel'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='logger'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='WARN'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='LogLevel'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='debug'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='logger'
+37 arguments
+38 argument (StringLiteralExpr)
+39 value='test1'
+40 argument (StringLiteralExpr)
+41 value='category'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='assertNull'
+46 arguments
+47 argument (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='popMessage'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='logger'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='info'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='logger'
+60 arguments
+61 argument (StringLiteralExpr)
+62 value='test2'
+63 argument (StringLiteralExpr)
+64 value='category'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='assertNull'
+69 arguments
+70 argument (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='popMessage'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='logger'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='warn'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='logger'
+83 arguments
+84 argument (StringLiteralExpr)
+85 value='test3'
+86 argument (StringLiteralExpr)
+87 value='category'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='assertEquals'
+92 arguments
+93 argument (StringLiteralExpr)
+94 value='[warn][category][test3]'
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='popMessage'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='logger'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='setLevel'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='logger'
+108 arguments
+109 argument (FieldAccessExpr)
+110 name (SimpleName)
+111 identifier='INFO'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='LogLevel'
+115 statement (ExpressionStmt)
+116 expression (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='debug'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='logger'
+122 arguments
+123 argument (StringLiteralExpr)
+124 value='test4'
+125 argument (StringLiteralExpr)
+126 value='category'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='assertNull'
+131 arguments
+132 argument (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='popMessage'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='logger'
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='info'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='logger'
+145 arguments
+146 argument (StringLiteralExpr)
+147 value='test5'
+148 argument (StringLiteralExpr)
+149 value='category'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='assertEquals'
+154 arguments
+155 argument (StringLiteralExpr)
+156 value='[info][category][test5]'
+157 argument (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='popMessage'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='logger'
+163 statement (ExpressionStmt)
+164 expression (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='warn'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='logger'
+170 arguments
+171 argument (StringLiteralExpr)
+172 value='test6'
+173 argument (StringLiteralExpr)
+174 value='category'
+175 statement (ExpressionStmt)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='assertEquals'
+179 arguments
+180 argument (StringLiteralExpr)
+181 value='[warn][category][test6]'
+182 argument (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='popMessage'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='logger'
+188 statement (ExpressionStmt)
+189 expression (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='setLevel'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='logger'
+195 arguments
+196 argument (FieldAccessExpr)
+197 name (SimpleName)
+198 identifier='DEBUG'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='LogLevel'
+202 statement (ExpressionStmt)
+203 expression (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='debug'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='logger'
+209 arguments
+210 argument (StringLiteralExpr)
+211 value='test7'
+212 argument (StringLiteralExpr)
+213 value='category'
+214 statement (ExpressionStmt)
+215 expression (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='assertEquals'
+218 arguments
+219 argument (StringLiteralExpr)
+220 value='[debug][category][test7]'
+221 argument (MethodCallExpr)
+222 name (SimpleName)
+223 identifier='popMessage'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='logger'
+227 statement (ExpressionStmt)
+228 expression (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='info'
+231 scope (NameExpr)
+232 name (SimpleName)
+233 identifier='logger'
+234 arguments
+235 argument (StringLiteralExpr)
+236 value='test8'
+237 argument (StringLiteralExpr)
+238 value='category'
+239 statement (ExpressionStmt)
+240 expression (MethodCallExpr)
+241 name (SimpleName)
+242 identifier='assertEquals'
+243 arguments
+244 argument (StringLiteralExpr)
+245 value='[info][category][test8]'
+246 argument (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='popMessage'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='logger'
+252 statement (ExpressionStmt)
+253 expression (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='warn'
+256 scope (NameExpr)
+257 name (SimpleName)
+258 identifier='logger'
+259 arguments
+260 argument (StringLiteralExpr)
+261 value='test9'
+262 argument (StringLiteralExpr)
+263 value='category'
+264 statement (ExpressionStmt)
+265 expression (MethodCallExpr)
+266 name (SimpleName)
+267 identifier='assertEquals'
+268 arguments
+269 argument (StringLiteralExpr)
+270 value='[warn][category][test9]'
+271 argument (MethodCallExpr)
+272 name (SimpleName)
+273 identifier='popMessage'
+274 scope (NameExpr)
+275 name (SimpleName)
+276 identifier='logger'
+277 type (VoidType)
+278 name (SimpleName)
+279 identifier='testLoggingAccordingToLogLevels'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+37 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+60 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+77 83
+83 84
+84 85
+83 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+2 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+122 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+139 145
+145 146
+146 147
+145 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+154 157
+157 158
+158 159
+157 160
+160 161
+161 162
+2 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+164 170
+170 171
+171 172
+170 173
+173 174
+2 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+179 182
+182 183
+183 184
+182 185
+185 186
+186 187
+2 188
+188 189
+189 190
+190 191
+189 192
+192 193
+193 194
+189 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+2 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+203 209
+209 210
+210 211
+209 212
+212 213
+2 214
+214 215
+215 216
+216 217
+215 218
+218 219
+219 220
+218 221
+221 222
+222 223
+221 224
+224 225
+225 226
+2 227
+227 228
+228 229
+229 230
+228 231
+231 232
+232 233
+228 234
+234 235
+235 236
+234 237
+237 238
+2 239
+239 240
+240 241
+241 242
+240 243
+243 244
+244 245
+243 246
+246 247
+247 248
+246 249
+249 250
+250 251
+2 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+253 259
+259 260
+260 261
+259 262
+262 263
+2 264
+264 265
+265 266
+266 267
+265 268
+268 269
+269 270
+268 271
+271 272
+272 273
+271 274
+274 275
+275 276
+0 277
+0 278
+278 279
+
+Test the matching between logging levels.

@@ -1,0 +1,74 @@
+36
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (MethodCallExpr)
+7 name (SimpleName)
+8 identifier='synchronizedMap'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='Collections'
+12 arguments
+13 argument (ObjectCreationExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='WeakCache'
+17 typeArguments
+18 typeArgument (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='String'
+21 typeArgument (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='String'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='lengthLimit'
+27 name (SimpleName)
+28 identifier='StringConverter'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='lengthLimit'
+34 type (PrimitiveType)
+35 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+6 12
+12 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+5 24
+24 25
+25 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+
+Construct a StringConverter using a cache with weak references for strings not exceeding the length limit.

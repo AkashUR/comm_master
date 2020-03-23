@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='loggedDoneMessage'
+9 scope (ThisExpr)
+10 value (BooleanLiteralExpr)
+11 value='true'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='startup'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='StartupStatus'
+19 arguments
+20 argument (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='CreatePersistentRegionProcessor_DONE_WAITING_FOR_BUCKET_MEMBERS'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='LocalizedStrings'
+26 argument (ArrayCreationExpr)
+27 elementType (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Object'
+30 initializer (ArrayInitializerExpr)
+31 values
+32 value (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='region'
+35 scope (ThisExpr)
+36 value (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='transform'
+39 scope (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='persistentMemberIdToLogEntryTransformer'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='TransformUtils'
+45 arguments
+46 argument (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='thisMember'
+49 scope (ThisExpr)
+50 levels
+51 level (ArrayCreationLevel)
+52 type (VoidType)
+53 name (SimpleName)
+54 identifier='logDoneMessage'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+19 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+33 34
+32 35
+31 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+42 43
+43 44
+36 45
+45 46
+46 47
+47 48
+46 49
+26 50
+50 51
+0 52
+0 53
+53 54
+
+Prints a recovery completion message to the log.

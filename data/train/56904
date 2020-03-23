@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='tex'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='glGenTextures'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='glBindTexture'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='GL_TEXTURE_2D'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='tex'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='glTexImage2D'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='GL_TEXTURE_2D'
+32 argument (IntegerLiteralExpr)
+33 value='0'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='GL_RGBA32F_ARB'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='width'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='height'
+43 argument (IntegerLiteralExpr)
+44 value='0'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='GL_RGBA'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='GL_FLOAT'
+51 argument (CastExpr)
+52 expression (NullLiteralExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='ByteBuffer'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='glTexParameteri'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='GL_TEXTURE_2D'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='GL_TEXTURE_MAG_FILTER'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='GL_NEAREST'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='glTexParameteri'
+74 arguments
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='GL_TEXTURE_2D'
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='GL_TEXTURE_MIN_FILTER'
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='GL_NEAREST'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='glBindTexture'
+88 arguments
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='GL_TEXTURE_2D'
+92 argument (IntegerLiteralExpr)
+93 value='0'
+94 type (VoidType)
+95 name (SimpleName)
+96 identifier='createFramebufferTexture'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+28 32
+32 33
+28 34
+34 35
+35 36
+28 37
+37 38
+38 39
+28 40
+40 41
+41 42
+28 43
+43 44
+28 45
+45 46
+46 47
+28 48
+48 49
+49 50
+28 51
+51 52
+51 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+60 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+76 77
+74 78
+78 79
+79 80
+74 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+90 91
+88 92
+92 93
+0 94
+0 95
+95 96
+
+Create the texture that will serve as our framebuffer.

@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='outPool'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='createAWSResourcePool'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='host'
+17 scope (ThisExpr)
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='outComputeHost'
+24 scope (ThisExpr)
+25 value (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='createAWSComputeHost'
+28 arguments
+29 argument (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='host'
+32 scope (ThisExpr)
+33 argument (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='documentSelfLink'
+36 scope (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='outPool'
+39 scope (ThisExpr)
+40 argument (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='accessKey'
+43 scope (ThisExpr)
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='secretKey'
+47 scope (ThisExpr)
+48 argument (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='isAwsClientMock'
+51 scope (ThisExpr)
+52 argument (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='awsMockEndpointReference'
+55 scope (ThisExpr)
+56 argument (NullLiteralExpr)
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='createResourcePoolComputeHost'
+60 thrownExceptions
+61 thrownException (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+14 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+21 24
+19 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+29 32
+28 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+28 40
+40 41
+41 42
+40 43
+28 44
+44 45
+45 46
+44 47
+28 48
+48 49
+49 50
+48 51
+28 52
+52 53
+53 54
+52 55
+28 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+62 63
+
+Creates the state associated with the resource pool, compute host and the VM to be created.

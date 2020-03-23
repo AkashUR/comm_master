@@ -1,0 +1,58 @@
+28
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='boost'
+9 value (ConditionalExpr)
+10 condition (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='usually'
+13 elseExpr (BinaryExpr)
+14 operator='MULTIPLY'
+15 left (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='nextFloat'
+18 scope (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='random'
+21 right (IntegerLiteralExpr)
+22 value='10000'
+23 thenExpr (DoubleLiteralExpr)
+24 value='1F'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='initBoost'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+13 15
+15 16
+16 17
+15 18
+18 19
+19 20
+13 21
+21 22
+9 23
+23 24
+0 25
+0 26
+26 27
+
+Set boost to a random value each time it is called.

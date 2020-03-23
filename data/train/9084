@@ -1,0 +1,678 @@
+338
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='storageData'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='StorageData'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='setName'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='storageData'
+20 arguments
+21 argument (StringLiteralExpr)
+22 value='Test'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='singletonList'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Collections'
+33 arguments
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='mock'
+37 arguments
+38 argument (ClassExpr)
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='DefaultData'
+42 name (SimpleName)
+43 identifier='data'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='List'
+47 typeArguments
+48 typeArgument (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='DefaultData'
+51 statement (ExpressionStmt)
+52 expression (VariableDeclarationExpr)
+53 variables
+54 variable (VariableDeclarator)
+55 initializer (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='singleton'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='Collections'
+61 arguments
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='mock'
+65 arguments
+66 argument (ClassExpr)
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='AbstractDataProcessor'
+70 name (SimpleName)
+71 identifier='processors'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Collection'
+75 typeArguments
+76 typeArgument (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='AbstractDataProcessor'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='storageManager'
+85 value (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='spy'
+88 arguments
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='storageManager'
+92 statement (ExpressionStmt)
+93 expression (VariableDeclarationExpr)
+94 variables
+95 variable (VariableDeclarator)
+96 initializer (LongLiteralExpr)
+97 value='10L'
+98 name (SimpleName)
+99 identifier='platformIdent'
+100 type (PrimitiveType)
+101 type='LONG'
+102 statement (ExpressionStmt)
+103 expression (VariableDeclarationExpr)
+104 variables
+105 variable (VariableDeclarator)
+106 initializer (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='mock'
+109 arguments
+110 argument (ClassExpr)
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='Collection'
+114 name (SimpleName)
+115 identifier='elementIds'
+116 type (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='Collection'
+119 typeArguments
+120 typeArgument (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='Long'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='thenReturn'
+127 scope (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='when'
+130 arguments
+131 argument (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='getDataFromIdList'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='storageDataDao'
+137 arguments
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='elementIds'
+141 argument (NameExpr)
+142 name (SimpleName)
+143 identifier='platformIdent'
+144 arguments
+145 argument (NameExpr)
+146 name (SimpleName)
+147 identifier='data'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='copyDataToStorage'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='storageManager'
+155 arguments
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='storageData'
+159 argument (NameExpr)
+160 name (SimpleName)
+161 identifier='elementIds'
+162 argument (NameExpr)
+163 name (SimpleName)
+164 identifier='platformIdent'
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='processors'
+168 argument (BooleanLiteralExpr)
+169 value='false'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='getDataFromIdList'
+174 scope (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='verify'
+177 arguments
+178 argument (NameExpr)
+179 name (SimpleName)
+180 identifier='storageDataDao'
+181 argument (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='times'
+184 arguments
+185 argument (IntegerLiteralExpr)
+186 value='1'
+187 arguments
+188 argument (NameExpr)
+189 name (SimpleName)
+190 identifier='elementIds'
+191 argument (NameExpr)
+192 name (SimpleName)
+193 identifier='platformIdent'
+194 statement (ExpressionStmt)
+195 expression (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='writeToStorage'
+198 scope (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='verify'
+201 arguments
+202 argument (NameExpr)
+203 name (SimpleName)
+204 identifier='storageManager'
+205 argument (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='times'
+208 arguments
+209 argument (IntegerLiteralExpr)
+210 value='1'
+211 arguments
+212 argument (NameExpr)
+213 name (SimpleName)
+214 identifier='storageData'
+215 argument (NameExpr)
+216 name (SimpleName)
+217 identifier='data'
+218 argument (NameExpr)
+219 name (SimpleName)
+220 identifier='processors'
+221 argument (BooleanLiteralExpr)
+222 value='true'
+223 statement (ExpressionStmt)
+224 expression (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='copyDataToStorage'
+227 scope (NameExpr)
+228 name (SimpleName)
+229 identifier='storageManager'
+230 arguments
+231 argument (NameExpr)
+232 name (SimpleName)
+233 identifier='storageData'
+234 argument (NameExpr)
+235 name (SimpleName)
+236 identifier='elementIds'
+237 argument (NameExpr)
+238 name (SimpleName)
+239 identifier='platformIdent'
+240 argument (NameExpr)
+241 name (SimpleName)
+242 identifier='processors'
+243 argument (BooleanLiteralExpr)
+244 value='false'
+245 statement (ExpressionStmt)
+246 expression (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='getDataFromIdList'
+249 scope (MethodCallExpr)
+250 name (SimpleName)
+251 identifier='verify'
+252 arguments
+253 argument (NameExpr)
+254 name (SimpleName)
+255 identifier='storageDataDao'
+256 argument (MethodCallExpr)
+257 name (SimpleName)
+258 identifier='times'
+259 arguments
+260 argument (IntegerLiteralExpr)
+261 value='2'
+262 arguments
+263 argument (NameExpr)
+264 name (SimpleName)
+265 identifier='elementIds'
+266 argument (NameExpr)
+267 name (SimpleName)
+268 identifier='platformIdent'
+269 statement (ExpressionStmt)
+270 expression (MethodCallExpr)
+271 name (SimpleName)
+272 identifier='writeToStorage'
+273 scope (MethodCallExpr)
+274 name (SimpleName)
+275 identifier='verify'
+276 arguments
+277 argument (NameExpr)
+278 name (SimpleName)
+279 identifier='storageManager'
+280 argument (MethodCallExpr)
+281 name (SimpleName)
+282 identifier='times'
+283 arguments
+284 argument (IntegerLiteralExpr)
+285 value='2'
+286 arguments
+287 argument (NameExpr)
+288 name (SimpleName)
+289 identifier='storageData'
+290 argument (NameExpr)
+291 name (SimpleName)
+292 identifier='data'
+293 argument (NameExpr)
+294 name (SimpleName)
+295 identifier='processors'
+296 argument (BooleanLiteralExpr)
+297 value='true'
+298 statement (ExpressionStmt)
+299 expression (MethodCallExpr)
+300 name (SimpleName)
+301 identifier='assertThat'
+302 arguments
+303 argument (MethodCallExpr)
+304 name (SimpleName)
+305 identifier='isStorageClosed'
+306 scope (NameExpr)
+307 name (SimpleName)
+308 identifier='storageManager'
+309 arguments
+310 argument (NameExpr)
+311 name (SimpleName)
+312 identifier='storageData'
+313 argument (MethodCallExpr)
+314 name (SimpleName)
+315 identifier='is'
+316 arguments
+317 argument (BooleanLiteralExpr)
+318 value='true'
+319 type (VoidType)
+320 name (SimpleName)
+321 identifier='copyDataToStorage'
+322 thrownExceptions
+323 thrownException (ClassOrInterfaceType)
+324 name (SimpleName)
+325 identifier='IOException'
+326 thrownException (ClassOrInterfaceType)
+327 name (SimpleName)
+328 identifier='SerializationException'
+329 thrownException (ClassOrInterfaceType)
+330 name (SimpleName)
+331 identifier='BusinessException'
+332 annotations
+333 annotation (SingleMemberAnnotationExpr)
+334 memberValue (StringLiteralExpr)
+335 value='unchecked'
+336 name (Name)
+337 identifier='SuppressWarnings'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+39 40
+40 41
+26 42
+42 43
+26 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+68 69
+54 70
+70 71
+54 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+85 88
+88 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+95 96
+96 97
+95 98
+98 99
+95 100
+100 101
+2 102
+102 103
+103 104
+104 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+111 112
+112 113
+105 114
+114 115
+105 116
+116 117
+117 118
+116 119
+119 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+127 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+131 137
+137 138
+138 139
+139 140
+137 141
+141 142
+142 143
+124 144
+144 145
+145 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+157 158
+155 159
+159 160
+160 161
+155 162
+162 163
+163 164
+155 165
+165 166
+166 167
+155 168
+168 169
+2 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+174 177
+177 178
+178 179
+179 180
+177 181
+181 182
+182 183
+181 184
+184 185
+185 186
+171 187
+187 188
+188 189
+189 190
+187 191
+191 192
+192 193
+2 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+203 204
+201 205
+205 206
+206 207
+205 208
+208 209
+209 210
+195 211
+211 212
+212 213
+213 214
+211 215
+215 216
+216 217
+211 218
+218 219
+219 220
+211 221
+221 222
+2 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+224 230
+230 231
+231 232
+232 233
+230 234
+234 235
+235 236
+230 237
+237 238
+238 239
+230 240
+240 241
+241 242
+230 243
+243 244
+2 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+249 252
+252 253
+253 254
+254 255
+252 256
+256 257
+257 258
+256 259
+259 260
+260 261
+246 262
+262 263
+263 264
+264 265
+262 266
+266 267
+267 268
+2 269
+269 270
+270 271
+271 272
+270 273
+273 274
+274 275
+273 276
+276 277
+277 278
+278 279
+276 280
+280 281
+281 282
+280 283
+283 284
+284 285
+270 286
+286 287
+287 288
+288 289
+286 290
+290 291
+291 292
+286 293
+293 294
+294 295
+286 296
+296 297
+2 298
+298 299
+299 300
+300 301
+299 302
+302 303
+303 304
+304 305
+303 306
+306 307
+307 308
+303 309
+309 310
+310 311
+311 312
+302 313
+313 314
+314 315
+313 316
+316 317
+317 318
+0 319
+0 320
+320 321
+0 322
+322 323
+323 324
+324 325
+322 326
+326 327
+327 328
+322 329
+329 330
+330 331
+0 332
+332 333
+333 334
+334 335
+333 336
+336 337
+
+Tests copy data to storage action.

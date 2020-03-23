@@ -1,0 +1,72 @@
+35
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='cancel'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='handler'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='onReceivedClientCertRequest'
+13 parameters
+14 parameter (Parameter)
+15 isVarArgs='false'
+16 name (SimpleName)
+17 identifier='view'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='WebView'
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='handler'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='ClientCertRequestHandler'
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='host_and_port'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+0 13
+13 14
+14 15
+14 16
+16 17
+14 18
+18 19
+19 20
+13 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+13 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+
+Notify the host application to handle a SSL client certificate request (display the request to the user and ask whether to proceed with a client certificate or not). The host application has to call either handler.cancel() or handler.proceed() as the connection is suspended and waiting for the response. The default behavior is to cancel, returning no client certificate.

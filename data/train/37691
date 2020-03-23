@@ -1,0 +1,798 @@
+398
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='IndexWriter'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='indexDir'
+15 argument (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='setOpenMode'
+18 scope (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='IndexWriterConfig'
+22 arguments
+23 argument (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='WhitespaceAnalyzer'
+27 arguments
+28 argument (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='CREATE'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='OpenMode'
+34 name (SimpleName)
+35 identifier='writer'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='IndexWriter'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='Document'
+47 name (SimpleName)
+48 identifier='doc'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Document'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='add'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='doc'
+59 arguments
+60 argument (ObjectCreationExpr)
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='DoublePoint'
+64 arguments
+65 argument (StringLiteralExpr)
+66 value='latitude'
+67 argument (DoubleLiteralExpr)
+68 value='40.759011'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='add'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='doc'
+76 arguments
+77 argument (ObjectCreationExpr)
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='NumericDocValuesField'
+81 arguments
+82 argument (StringLiteralExpr)
+83 value='latitude'
+84 argument (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='doubleToRawLongBits'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='Double'
+90 arguments
+91 argument (DoubleLiteralExpr)
+92 value='40.759011'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='add'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='doc'
+100 arguments
+101 argument (ObjectCreationExpr)
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='DoublePoint'
+105 arguments
+106 argument (StringLiteralExpr)
+107 value='longitude'
+108 argument (UnaryExpr)
+109 operator='MINUS'
+110 expression (DoubleLiteralExpr)
+111 value='73.9844722'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='add'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='doc'
+119 arguments
+120 argument (ObjectCreationExpr)
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='NumericDocValuesField'
+124 arguments
+125 argument (StringLiteralExpr)
+126 value='longitude'
+127 argument (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='doubleToRawLongBits'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='Double'
+133 arguments
+134 argument (UnaryExpr)
+135 operator='MINUS'
+136 expression (DoubleLiteralExpr)
+137 value='73.9844722'
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='addDocument'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='writer'
+145 arguments
+146 argument (NameExpr)
+147 name (SimpleName)
+148 identifier='doc'
+149 statement (ExpressionStmt)
+150 expression (AssignExpr)
+151 operator='ASSIGN'
+152 target (NameExpr)
+153 name (SimpleName)
+154 identifier='doc'
+155 value (ObjectCreationExpr)
+156 type (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='Document'
+159 statement (ExpressionStmt)
+160 expression (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='add'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='doc'
+166 arguments
+167 argument (ObjectCreationExpr)
+168 type (ClassOrInterfaceType)
+169 name (SimpleName)
+170 identifier='DoublePoint'
+171 arguments
+172 argument (StringLiteralExpr)
+173 value='latitude'
+174 argument (DoubleLiteralExpr)
+175 value='40.718266'
+176 statement (ExpressionStmt)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='add'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='doc'
+183 arguments
+184 argument (ObjectCreationExpr)
+185 type (ClassOrInterfaceType)
+186 name (SimpleName)
+187 identifier='NumericDocValuesField'
+188 arguments
+189 argument (StringLiteralExpr)
+190 value='latitude'
+191 argument (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='doubleToRawLongBits'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='Double'
+197 arguments
+198 argument (DoubleLiteralExpr)
+199 value='40.718266'
+200 statement (ExpressionStmt)
+201 expression (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='add'
+204 scope (NameExpr)
+205 name (SimpleName)
+206 identifier='doc'
+207 arguments
+208 argument (ObjectCreationExpr)
+209 type (ClassOrInterfaceType)
+210 name (SimpleName)
+211 identifier='DoublePoint'
+212 arguments
+213 argument (StringLiteralExpr)
+214 value='longitude'
+215 argument (UnaryExpr)
+216 operator='MINUS'
+217 expression (DoubleLiteralExpr)
+218 value='74.007819'
+219 statement (ExpressionStmt)
+220 expression (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='add'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='doc'
+226 arguments
+227 argument (ObjectCreationExpr)
+228 type (ClassOrInterfaceType)
+229 name (SimpleName)
+230 identifier='NumericDocValuesField'
+231 arguments
+232 argument (StringLiteralExpr)
+233 value='longitude'
+234 argument (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='doubleToRawLongBits'
+237 scope (NameExpr)
+238 name (SimpleName)
+239 identifier='Double'
+240 arguments
+241 argument (UnaryExpr)
+242 operator='MINUS'
+243 expression (DoubleLiteralExpr)
+244 value='74.007819'
+245 statement (ExpressionStmt)
+246 expression (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='addDocument'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='writer'
+252 arguments
+253 argument (NameExpr)
+254 name (SimpleName)
+255 identifier='doc'
+256 statement (ExpressionStmt)
+257 expression (AssignExpr)
+258 operator='ASSIGN'
+259 target (NameExpr)
+260 name (SimpleName)
+261 identifier='doc'
+262 value (ObjectCreationExpr)
+263 type (ClassOrInterfaceType)
+264 name (SimpleName)
+265 identifier='Document'
+266 statement (ExpressionStmt)
+267 expression (MethodCallExpr)
+268 name (SimpleName)
+269 identifier='add'
+270 scope (NameExpr)
+271 name (SimpleName)
+272 identifier='doc'
+273 arguments
+274 argument (ObjectCreationExpr)
+275 type (ClassOrInterfaceType)
+276 name (SimpleName)
+277 identifier='DoublePoint'
+278 arguments
+279 argument (StringLiteralExpr)
+280 value='latitude'
+281 argument (DoubleLiteralExpr)
+282 value='40.7051157'
+283 statement (ExpressionStmt)
+284 expression (MethodCallExpr)
+285 name (SimpleName)
+286 identifier='add'
+287 scope (NameExpr)
+288 name (SimpleName)
+289 identifier='doc'
+290 arguments
+291 argument (ObjectCreationExpr)
+292 type (ClassOrInterfaceType)
+293 name (SimpleName)
+294 identifier='NumericDocValuesField'
+295 arguments
+296 argument (StringLiteralExpr)
+297 value='latitude'
+298 argument (MethodCallExpr)
+299 name (SimpleName)
+300 identifier='doubleToRawLongBits'
+301 scope (NameExpr)
+302 name (SimpleName)
+303 identifier='Double'
+304 arguments
+305 argument (DoubleLiteralExpr)
+306 value='40.7051157'
+307 statement (ExpressionStmt)
+308 expression (MethodCallExpr)
+309 name (SimpleName)
+310 identifier='add'
+311 scope (NameExpr)
+312 name (SimpleName)
+313 identifier='doc'
+314 arguments
+315 argument (ObjectCreationExpr)
+316 type (ClassOrInterfaceType)
+317 name (SimpleName)
+318 identifier='DoublePoint'
+319 arguments
+320 argument (StringLiteralExpr)
+321 value='longitude'
+322 argument (UnaryExpr)
+323 operator='MINUS'
+324 expression (DoubleLiteralExpr)
+325 value='74.0088305'
+326 statement (ExpressionStmt)
+327 expression (MethodCallExpr)
+328 name (SimpleName)
+329 identifier='add'
+330 scope (NameExpr)
+331 name (SimpleName)
+332 identifier='doc'
+333 arguments
+334 argument (ObjectCreationExpr)
+335 type (ClassOrInterfaceType)
+336 name (SimpleName)
+337 identifier='NumericDocValuesField'
+338 arguments
+339 argument (StringLiteralExpr)
+340 value='longitude'
+341 argument (MethodCallExpr)
+342 name (SimpleName)
+343 identifier='doubleToRawLongBits'
+344 scope (NameExpr)
+345 name (SimpleName)
+346 identifier='Double'
+347 arguments
+348 argument (UnaryExpr)
+349 operator='MINUS'
+350 expression (DoubleLiteralExpr)
+351 value='74.0088305'
+352 statement (ExpressionStmt)
+353 expression (MethodCallExpr)
+354 name (SimpleName)
+355 identifier='addDocument'
+356 scope (NameExpr)
+357 name (SimpleName)
+358 identifier='writer'
+359 arguments
+360 argument (NameExpr)
+361 name (SimpleName)
+362 identifier='doc'
+363 statement (ExpressionStmt)
+364 expression (AssignExpr)
+365 operator='ASSIGN'
+366 target (NameExpr)
+367 name (SimpleName)
+368 identifier='searcher'
+369 value (ObjectCreationExpr)
+370 type (ClassOrInterfaceType)
+371 name (SimpleName)
+372 identifier='IndexSearcher'
+373 arguments
+374 argument (MethodCallExpr)
+375 name (SimpleName)
+376 identifier='open'
+377 scope (NameExpr)
+378 name (SimpleName)
+379 identifier='DirectoryReader'
+380 arguments
+381 argument (NameExpr)
+382 name (SimpleName)
+383 identifier='writer'
+384 statement (ExpressionStmt)
+385 expression (MethodCallExpr)
+386 name (SimpleName)
+387 identifier='close'
+388 scope (NameExpr)
+389 name (SimpleName)
+390 identifier='writer'
+391 type (VoidType)
+392 name (SimpleName)
+393 identifier='index'
+394 thrownExceptions
+395 thrownException (ClassOrInterfaceType)
+396 name (SimpleName)
+397 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+24 25
+25 26
+15 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+6 34
+34 35
+6 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+42 47
+47 48
+42 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+64 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+79 80
+77 81
+81 82
+82 83
+81 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+102 103
+103 104
+101 105
+105 106
+106 107
+105 108
+108 109
+108 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+122 123
+120 124
+124 125
+125 126
+124 127
+127 128
+128 129
+127 130
+130 131
+131 132
+127 133
+133 134
+134 135
+134 136
+136 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+139 145
+145 146
+146 147
+147 148
+2 149
+149 150
+150 151
+150 152
+152 153
+153 154
+150 155
+155 156
+156 157
+157 158
+2 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+160 166
+166 167
+167 168
+168 169
+169 170
+167 171
+171 172
+172 173
+171 174
+174 175
+2 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+185 186
+186 187
+184 188
+188 189
+189 190
+188 191
+191 192
+192 193
+191 194
+194 195
+195 196
+191 197
+197 198
+198 199
+2 200
+200 201
+201 202
+202 203
+201 204
+204 205
+205 206
+201 207
+207 208
+208 209
+209 210
+210 211
+208 212
+212 213
+213 214
+212 215
+215 216
+215 217
+217 218
+2 219
+219 220
+220 221
+221 222
+220 223
+223 224
+224 225
+220 226
+226 227
+227 228
+228 229
+229 230
+227 231
+231 232
+232 233
+231 234
+234 235
+235 236
+234 237
+237 238
+238 239
+234 240
+240 241
+241 242
+241 243
+243 244
+2 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+246 252
+252 253
+253 254
+254 255
+2 256
+256 257
+257 258
+257 259
+259 260
+260 261
+257 262
+262 263
+263 264
+264 265
+2 266
+266 267
+267 268
+268 269
+267 270
+270 271
+271 272
+267 273
+273 274
+274 275
+275 276
+276 277
+274 278
+278 279
+279 280
+278 281
+281 282
+2 283
+283 284
+284 285
+285 286
+284 287
+287 288
+288 289
+284 290
+290 291
+291 292
+292 293
+293 294
+291 295
+295 296
+296 297
+295 298
+298 299
+299 300
+298 301
+301 302
+302 303
+298 304
+304 305
+305 306
+2 307
+307 308
+308 309
+309 310
+308 311
+311 312
+312 313
+308 314
+314 315
+315 316
+316 317
+317 318
+315 319
+319 320
+320 321
+319 322
+322 323
+322 324
+324 325
+2 326
+326 327
+327 328
+328 329
+327 330
+330 331
+331 332
+327 333
+333 334
+334 335
+335 336
+336 337
+334 338
+338 339
+339 340
+338 341
+341 342
+342 343
+341 344
+344 345
+345 346
+341 347
+347 348
+348 349
+348 350
+350 351
+2 352
+352 353
+353 354
+354 355
+353 356
+356 357
+357 358
+353 359
+359 360
+360 361
+361 362
+2 363
+363 364
+364 365
+364 366
+366 367
+367 368
+364 369
+369 370
+370 371
+371 372
+369 373
+373 374
+374 375
+375 376
+374 377
+377 378
+378 379
+374 380
+380 381
+381 382
+382 383
+2 384
+384 385
+385 386
+386 387
+385 388
+388 389
+389 390
+0 391
+0 392
+392 393
+0 394
+394 395
+395 396
+396 397
+
+Build the example index.

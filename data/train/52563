@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='MINUS'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='x'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='amount'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='MINUS'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='y'
+18 value (NameExpr)
+19 name (SimpleName)
+20 identifier='amount'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='PLUS'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='width'
+27 value (BinaryExpr)
+28 operator='MULTIPLY'
+29 left (IntegerLiteralExpr)
+30 value='2'
+31 right (NameExpr)
+32 name (SimpleName)
+33 identifier='amount'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='PLUS'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='height'
+40 value (BinaryExpr)
+41 operator='MULTIPLY'
+42 left (IntegerLiteralExpr)
+43 value='2'
+44 right (NameExpr)
+45 name (SimpleName)
+46 identifier='amount'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='grow'
+50 parameters
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='amount'
+55 type (PrimitiveType)
+56 type='DOUBLE'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+51 53
+53 54
+51 55
+55 56
+
+Grows the rectangle by the given amount, that is, this method subtracts the given amount from the x- and y-coordinates and adds twice the amount to the width and height.

@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='MyCertificate'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='TEST'
+14 argument (ArrayCreationExpr)
+15 elementType (PrimitiveType)
+16 type='BYTE'
+17 levels
+18 level (ArrayCreationLevel)
+19 dimension (IntegerLiteralExpr)
+20 value='10'
+21 name (SimpleName)
+22 identifier='cert'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Certificate'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='TrustedCertificateEntry'
+34 scope (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='KeyStore'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='cert'
+41 name (SimpleName)
+42 identifier='ksTCE'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='TrustedCertificateEntry'
+46 scope (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='KeyStore'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='assertEquals'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='Incorrect certificate'
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='cert'
+59 argument (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='getTrustedCertificate'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='ksTCE'
+65 type (VoidType)
+66 name (SimpleName)
+67 identifier='testGetTrustedCertificate'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+38 39
+39 40
+29 41
+41 42
+29 43
+43 44
+44 45
+43 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+59 62
+62 63
+63 64
+0 65
+0 66
+66 67
+
+Test for <codfe>getTrustedCertificate()</code> method Assertion: returns trusted Certificate from goven entry

@@ -1,0 +1,294 @@
+146
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='queryByType'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='dbClient'
+13 arguments
+14 argument (ClassExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='VirtualPool'
+18 argument (BooleanLiteralExpr)
+19 value='true'
+20 name (SimpleName)
+21 identifier='vpoolURIs'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='List'
+25 typeArguments
+26 typeArgument (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='URI'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='queryObject'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='dbClient'
+39 arguments
+40 argument (ClassExpr)
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='VirtualPool'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='vpoolURIs'
+47 name (SimpleName)
+48 identifier='vpoolList'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='List'
+52 typeArguments
+53 typeArgument (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='VirtualPool'
+56 statement (ExpressionStmt)
+57 expression (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 initializer (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='fetchSRDFTargetVirtualPools'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='SRDFUtils'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='dbClient'
+70 name (SimpleName)
+71 identifier='srdfEnabledTargetVPools'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Set'
+75 typeArguments
+76 typeArgument (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='URI'
+79 statement (ExpressionStmt)
+80 expression (VariableDeclarationExpr)
+81 variables
+82 variable (VariableDeclarator)
+83 initializer (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='fetchRPTargetVirtualPools'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='RPHelper'
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='dbClient'
+93 name (SimpleName)
+94 identifier='rpEnabledTargetVPools'
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='Set'
+98 typeArguments
+99 typeArgument (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='URI'
+102 statement (ForeachStmt)
+103 body (BlockStmt)
+104 statements
+105 statement (ExpressionStmt)
+106 expression (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='matchVirtualPoolsWithUnManagedVolumes'
+109 arguments
+110 argument (NameExpr)
+111 name (SimpleName)
+112 identifier='vpool'
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='srdfEnabledTargetVPools'
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='rpEnabledTargetVPools'
+119 argument (NameExpr)
+120 name (SimpleName)
+121 identifier='dbClient'
+122 argument (BooleanLiteralExpr)
+123 value='false'
+124 iterable (NameExpr)
+125 name (SimpleName)
+126 identifier='vpoolList'
+127 variable (VariableDeclarationExpr)
+128 variables
+129 variable (VariableDeclarator)
+130 name (SimpleName)
+131 identifier='vpool'
+132 type (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='VirtualPool'
+135 type (VoidType)
+136 name (SimpleName)
+137 identifier='runImplicitUnManagedObjectsMatcher'
+138 parameters
+139 parameter (Parameter)
+140 isVarArgs='false'
+141 name (SimpleName)
+142 identifier='dbClient'
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='DbClient'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+16 17
+13 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+42 43
+39 44
+44 45
+45 46
+32 47
+47 48
+32 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+59 70
+70 71
+59 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+91 92
+82 93
+93 94
+82 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+111 112
+109 113
+113 114
+114 115
+109 116
+116 117
+117 118
+109 119
+119 120
+120 121
+109 122
+122 123
+102 124
+124 125
+125 126
+102 127
+127 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+0 135
+0 136
+136 137
+0 138
+138 139
+139 140
+139 141
+141 142
+139 143
+143 144
+144 145
+
+run implicit unmanaged matcher during rediscovery

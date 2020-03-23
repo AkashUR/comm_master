@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Database'
+11 arguments
+12 argument (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getApplicationContext'
+15 scope (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getInstance'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='App'
+21 name (SimpleName)
+22 identifier='db'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Database'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='onUpgrade'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='db'
+33 arguments
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getWritableDatabase'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='db'
+40 argument (IntegerLiteralExpr)
+41 value='0'
+42 argument (IntegerLiteralExpr)
+43 value='1'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='close'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='db'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='clearDatabase'
+54 thrownExceptions
+55 thrownException (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+33 40
+40 41
+33 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+56 57
+
+Clears all contents of the database (note: this does not include ODK forms or instances).

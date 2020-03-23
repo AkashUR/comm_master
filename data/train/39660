@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='dumpBufferLockOffset'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getOffset'
+12 scope (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='dumpBufferLockField'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='Entrypoints'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (NameExpr)
+22 name (SimpleName)
+23 identifier='intBufferLockOffset'
+24 value (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getOffset'
+27 scope (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='intBufferLockField'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Entrypoints'
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='boot'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+0 33
+0 34
+34 35
+
+Called during the boot sequence, any time before we go multi-threaded. We do this so that we can leave the lockOffsets set to -1 until the VM actually needs the locking (and is running multi-threaded).

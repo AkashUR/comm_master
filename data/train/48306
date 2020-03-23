@@ -1,0 +1,184 @@
+91
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='uniq'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='intern'
+12 scope (EnclosedExpr)
+13 inner (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (BinaryExpr)
+18 operator='PLUS'
+19 left (BinaryExpr)
+20 operator='PLUS'
+21 left (NameExpr)
+22 name (SimpleName)
+23 identifier='clazz'
+24 right (StringLiteralExpr)
+25 value='&%$#&'
+26 right (NameExpr)
+27 name (SimpleName)
+28 identifier='name'
+29 right (StringLiteralExpr)
+30 value='*()#$'
+31 right (NameExpr)
+32 name (SimpleName)
+33 identifier='sig'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='clazz'
+40 scope (ThisExpr)
+41 value (ObjectCreationExpr)
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='ClassCP'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='clazz'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='nt'
+55 scope (ThisExpr)
+56 value (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='NameTypeCP'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='name'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='sig'
+67 name (SimpleName)
+68 identifier='FieldCP'
+69 parameters
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='clazz'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='String'
+77 parameter (Parameter)
+78 isVarArgs='false'
+79 name (SimpleName)
+80 identifier='name'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='String'
+84 parameter (Parameter)
+85 isVarArgs='false'
+86 name (SimpleName)
+87 identifier='sig'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+13 15
+15 16
+15 17
+17 18
+17 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+17 26
+26 27
+27 28
+15 29
+29 30
+13 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+37 40
+35 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+52 55
+50 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+0 67
+67 68
+0 69
+69 70
+70 71
+70 72
+72 73
+70 74
+74 75
+75 76
+69 77
+77 78
+77 79
+79 80
+77 81
+81 82
+82 83
+69 84
+84 85
+84 86
+86 87
+84 88
+88 89
+89 90
+
+FieldCP's are created by specifying the class to which the  field belongs, the name of the symbol, and its signature. For instance, to refer to the field <tt>out</tt> in  <tt>System.out</tt> use <tt> new FieldCP("java/lang/System", "out", "Ljava/io/PrintStream;")</tt>

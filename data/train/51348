@@ -1,0 +1,294 @@
+146
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='InMemoryDirectoryServiceFactory'
+11 name (SimpleName)
+12 identifier='dsFactory'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='InMemoryDirectoryServiceFactory'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='init'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='dsFactory'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='ds'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='directoryService'
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getDirectoryService'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='dsFactory'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getSchemaManager'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='directoryService'
+48 name (SimpleName)
+49 identifier='schemaManager'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='SchemaManager'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='importLdif'
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='directoryService'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='schemaManager'
+64 argument (ObjectCreationExpr)
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='LdifReader'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='ldifFile'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (NameExpr)
+76 name (SimpleName)
+77 identifier='ldapServer'
+78 value (ObjectCreationExpr)
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='LdapServer'
+82 scope (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='ldap'
+85 scope (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='server'
+88 scope (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='directory'
+91 scope (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='apache'
+94 scope (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='org'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='setTransports'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='ldapServer'
+104 arguments
+105 argument (ObjectCreationExpr)
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='TcpTransport'
+109 arguments
+110 argument (StringLiteralExpr)
+111 value='127.0.0.1'
+112 argument (IntegerLiteralExpr)
+113 value='1024'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='setDirectoryService'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='ldapServer'
+121 arguments
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='directoryService'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='start'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='ldapServer'
+132 name (SimpleName)
+133 identifier='LdapServer'
+134 parameters
+135 parameter (Parameter)
+136 isVarArgs='false'
+137 name (SimpleName)
+138 identifier='ldifFile'
+139 type (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='String'
+142 thrownExceptions
+143 thrownException (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+32 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+41 48
+48 49
+41 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+57 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+106 107
+107 108
+105 109
+109 110
+110 111
+109 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+0 132
+132 133
+0 134
+134 135
+135 136
+135 137
+137 138
+135 139
+139 140
+140 141
+0 142
+142 143
+143 144
+144 145
+
+Create a single LDAP server.

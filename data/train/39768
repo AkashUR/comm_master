@@ -1,0 +1,104 @@
+51
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='os'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='soapBytes'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='attachmentInputStream'
+18 scope (ThisExpr)
+19 value (NameExpr)
+20 name (SimpleName)
+21 identifier='attachmentInputStream'
+22 name (SimpleName)
+23 identifier='CustomAttachmentWriter'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='os'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='PipedOutputStream'
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='soapBytes'
+36 type (ArrayType)
+37 origin='TYPE'
+38 componentType (PrimitiveType)
+39 type='BYTE'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='attachmentInputStream'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='InputStream'
+47 thrownExceptions
+48 thrownException (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+15 18
+13 19
+19 20
+20 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+30 31
+24 32
+32 33
+32 34
+34 35
+32 36
+36 37
+36 38
+38 39
+24 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+0 47
+47 48
+48 49
+49 50
+
+Constructs a writer for the given output stream and test request bytes. Will attach contents of the custom attachment input stream to the request.

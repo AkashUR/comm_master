@@ -1,0 +1,168 @@
+83
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='isEmpty'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getSupervisedUserSecondCustodianName'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getInstance'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='PrefServiceBridge'
+19 name (SimpleName)
+20 identifier='singleParentIsManager'
+21 type (PrimitiveType)
+22 type='BOOLEAN'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='show'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='makeText'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Toast'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='context'
+37 argument (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getString'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='context'
+43 arguments
+44 argument (ConditionalExpr)
+45 condition (NameExpr)
+46 name (SimpleName)
+47 identifier='singleParentIsManager'
+48 elseExpr (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='managed_by_your_parents'
+51 scope (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='string'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='R'
+57 thenExpr (FieldAccessExpr)
+58 name (SimpleName)
+59 identifier='managed_by_your_parent'
+60 scope (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='string'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='R'
+66 argument (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='LENGTH_LONG'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='Toast'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='showManagedByParentToast'
+75 parameters
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='context'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Context'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+6 19
+19 20
+6 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+44 57
+57 58
+58 59
+57 60
+60 61
+61 62
+60 63
+63 64
+64 65
+33 66
+66 67
+67 68
+66 69
+69 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+
+Shows a toast indicating that the previous action is managed by the parent(s) of the supervised user. This is usually used to explain to the user why a given control is disabled in the settings.

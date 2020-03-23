@@ -1,0 +1,292 @@
+145
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getWorkspace'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='ResourcesPlugin'
+13 name (SimpleName)
+14 identifier='workspace'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='IWorkspace'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (StringLiteralExpr)
+23 value='gwt-dev'
+24 name (SimpleName)
+25 identifier='gwtDevProjectName'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='String'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getURIValue'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getPathVariableManager'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='workspace'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='GWT_ROOT'
+45 name (SimpleName)
+46 identifier='gwtProjectsUri'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='URI'
+50 statement (ExpressionStmt)
+51 expression (VariableDeclarationExpr)
+52 variables
+53 variable (VariableDeclarator)
+54 initializer (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='append'
+57 scope (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='toPath'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='URIUtil'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='gwtProjectsUri'
+67 arguments
+68 argument (StringLiteralExpr)
+69 value='eclipse'
+70 name (SimpleName)
+71 identifier='gwtProjectsDir'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='IPath'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 initializer (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='append'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='gwtProjectsDir'
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='dev'
+88 name (SimpleName)
+89 identifier='gwtDevDir'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='IPath'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='importProject'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='ProjectUtilities'
+100 arguments
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='gwtDevProjectName'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='gwtDevDir'
+107 statement (ExpressionStmt)
+108 expression (VariableDeclarationExpr)
+109 variables
+110 variable (VariableDeclarator)
+111 initializer (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='append'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='gwtProjectsDir'
+117 arguments
+118 argument (StringLiteralExpr)
+119 value='user'
+120 name (SimpleName)
+121 identifier='gwtUserDir'
+122 type (ClassOrInterfaceType)
+123 name (SimpleName)
+124 identifier='IPath'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='importProject'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='ProjectUtilities'
+132 arguments
+133 argument (StringLiteralExpr)
+134 value='gwt-user'
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='gwtUserDir'
+138 type (VoidType)
+139 name (SimpleName)
+140 identifier='importGwtSourceProjects'
+141 thrownExceptions
+142 thrownException (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='CoreException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+21 24
+24 25
+21 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+33 42
+42 43
+43 44
+32 45
+45 46
+32 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+54 67
+67 68
+68 69
+53 70
+70 71
+53 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+78 88
+88 89
+78 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+102 103
+100 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+110 120
+120 121
+110 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+132 135
+135 136
+136 137
+0 138
+0 139
+139 140
+0 141
+141 142
+142 143
+143 144
+
+Imports the gwt-dev and gwt-user projects into the workspace.

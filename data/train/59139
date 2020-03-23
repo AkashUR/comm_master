@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getConfig'
+11 scope (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getProjectFacetAction'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='workingCopy'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='facet'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='IDataModel'
+24 name (SimpleName)
+25 identifier='model'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='IDataModel'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='setMavenProject'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='GwtFacetInstallDataModelProvider'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='model'
+40 argument (BooleanLiteralExpr)
+41 value='true'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='setProjectFacetActionConfig'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='workingCopy'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='facet'
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='model'
+56 type (VoidType)
+57 name (SimpleName)
+58 identifier='markToUseMavenDependencies'
+59 parameters
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='facet'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='IProjectFacet'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='workingCopy'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='IFacetedProjectWorkingCopy'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+7 21
+21 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+36 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+0 56
+0 57
+57 58
+0 59
+59 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+59 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+
+Sets a property that will be read by GwtFacetInstallDelegate to decide whether or not to create a WTP classpath container with GAE SDK dependencies. A property value of true indicates that we should not create the WTP classpath container, because we will be using the Maven classpath container.

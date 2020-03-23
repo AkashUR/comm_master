@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='format'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='String'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='%05d.png'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='cycleCount'
+19 name (SimpleName)
+20 identifier='filename'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='String'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='save'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='StdDraw'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='filename'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='add'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='toDelete'
+42 arguments
+43 argument (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='File'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='filename'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='saveGifFrame'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='cycleCount'
+59 type (PrimitiveType)
+60 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+13 16
+16 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+
+Saves a single frame and schedules it for deletion on exit. To be called after each cycle, before incrementing the cycleCount.

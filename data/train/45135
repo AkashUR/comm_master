@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='externalLibraryPreferenceStore'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='toUri'
+14 scope (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='toPath'
+17 scope (EnclosedExpr)
+18 inner (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='File'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='USER_HOME'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='remove'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='externalLibraryPreferenceStore'
+33 arguments
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='toUri'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='dir'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='save'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='externalLibraryPreferenceStore'
+47 arguments
+48 argument (ObjectCreationExpr)
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='NullProgressMonitor'
+52 type (VoidType)
+53 name (SimpleName)
+54 identifier='removeExternalLibrariesPreferenceStoreLocations'
+55 parameters
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='externalLibraryPreferenceStore'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='ExternalLibraryPreferenceStore'
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='dir'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='Path'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+50 51
+0 52
+0 53
+53 54
+0 55
+55 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+55 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+
+Removes given locations from the provided library store. Tries to restore 'default' location.

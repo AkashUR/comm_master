@@ -1,0 +1,150 @@
+74
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='index'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='backupIndex'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='hitLimit'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='hitLimit'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='missLimit'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='missLimit'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='init'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='put'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='objectTracker'
+44 arguments
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='filename'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='backupIndex'
+51 argument (ThisExpr)
+52 name (SimpleName)
+53 identifier='Cache'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='backupIndex'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Index'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='hitLimit'
+66 type (PrimitiveType)
+67 type='INT'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='missLimit'
+72 type (PrimitiveType)
+73 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+44 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+62 66
+66 67
+54 68
+68 69
+68 70
+70 71
+68 72
+72 73
+
+create a ObjectIndex cache. The cache may either limited by a number of entries in the hit/miss cache or the cache size can only be limited by the available RAM

@@ -1,0 +1,232 @@
+115
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ArgumentParser'
+11 arguments
+12 argument (ArrayCreationExpr)
+13 elementType (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='String'
+16 initializer (ArrayInitializerExpr)
+17 values
+18 value (StringLiteralExpr)
+19 value='a'
+20 value (StringLiteralExpr)
+21 value='bc'
+22 value (StringLiteralExpr)
+23 value='def=g'
+24 value (StringLiteralExpr)
+25 value='hjk=lmn opq'
+26 levels
+27 level (ArrayCreationLevel)
+28 name (SimpleName)
+29 identifier='parser'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='ArgumentParser'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='iterator'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='parser'
+43 name (SimpleName)
+44 identifier='iter'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Iterator'
+48 typeArguments
+49 typeArgument (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='assertEquals'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='a'
+59 argument (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='next'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='iter'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='assertEquals'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='bc'
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='next'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='iter'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='assertEquals'
+82 arguments
+83 argument (StringLiteralExpr)
+84 value='def=g'
+85 argument (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='next'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='iter'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='assertEquals'
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='hjk=lmn opq'
+98 argument (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='next'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='iter'
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='assertIteratorAtEnd'
+108 arguments
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='iter'
+112 type (VoidType)
+113 name (SimpleName)
+114 identifier='testArguments'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+18 19
+17 20
+20 21
+17 22
+22 23
+17 24
+24 25
+12 26
+26 27
+6 28
+28 29
+6 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+36 43
+43 44
+36 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+110 111
+0 112
+0 113
+113 114
+
+Test if regular arguments (no options) are correctly recognized.

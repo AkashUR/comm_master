@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setOrderType'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='order'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getMiscOrderType'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='DbUtil'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='setCareSetting'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='order'
+24 arguments
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getCareSettingByName'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='orderService'
+31 arguments
+32 argument (StringLiteralExpr)
+33 value='Outpatient'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='setConcept'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='order'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getFreeTextOrderConcept'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='setUrgency'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='order'
+52 arguments
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='ON_SCHEDULED_DATE'
+56 scope (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='Urgency'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='Order'
+62 type (VoidType)
+63 name (SimpleName)
+64 identifier='populateDefaultsForNewOrder'
+65 parameters
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='order'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Order'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+0 62
+0 63
+63 64
+0 65
+65 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+
+Populates data for a NEW order that was created with the Buendia API. This should not be used for revisions, because it may overwrite data set by another source.

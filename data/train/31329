@@ -1,0 +1,42 @@
+20
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertIsMutable'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='clearChanged'
+11 scope (ThisExpr)
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='setImmutable'
+16 scope (ThisExpr)
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='removedFromDatasource'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+2 12
+12 13
+13 14
+14 15
+13 16
+0 17
+0 18
+18 19
+
+Flags this object as being removed from the data source. The entity engine will call this method immediately after removing this value from the data source. Once this method is called, the object is immutable.

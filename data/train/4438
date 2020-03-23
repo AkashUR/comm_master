@@ -1,0 +1,152 @@
+75
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='propertyName'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='beanClass'
+12 argument (BinaryExpr)
+13 operator='PLUS'
+14 left (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='IS_PREFIX'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Introspector'
+20 right (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='capitalize'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='NameGenerator'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='propertyName'
+30 argument (BinaryExpr)
+31 operator='PLUS'
+32 left (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='SET_PREFIX'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='Introspector'
+38 right (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='capitalize'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='NameGenerator'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='propertyName'
+48 name (SimpleName)
+49 identifier='PropertyDescriptor'
+50 parameters
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='propertyName'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='String'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='beanClass'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='Class'
+65 typeArguments
+66 typeArgument (WildcardType)
+67 thrownExceptions
+68 thrownException (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='IntrospectionException'
+71 annotations
+72 annotation (MarkerAnnotationExpr)
+73 name (Name)
+74 identifier='SideEffectFree'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+12 14
+14 15
+15 16
+14 17
+17 18
+18 19
+12 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+5 30
+30 31
+30 32
+32 33
+33 34
+32 35
+35 36
+36 37
+30 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+0 48
+48 49
+0 50
+50 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+50 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+62 65
+65 66
+0 67
+67 68
+68 69
+69 70
+0 71
+71 72
+72 73
+73 74
+
+Constructs a PropertyDescriptor for a property that follows the standard Java convention by having getFoo and setFoo accessor methods.  Thus if the argument name is "fred", it will assume that the writer method is "setFred" and the reader method is "getFred" (or "isFred" for a boolean property).  Note that the property name should start with a lower case character, which will be capitalized in the method names.

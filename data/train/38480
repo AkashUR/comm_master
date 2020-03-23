@@ -1,0 +1,232 @@
+115
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ItemDeleteTranslator'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='listener'
+15 name (SimpleName)
+16 identifier='delListener'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='PacketListener'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='put'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='itemDeleteToListenerMap'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='listener'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='delListener'
+34 statement (ExpressionStmt)
+35 expression (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 initializer (ObjectCreationExpr)
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='EventContentFilter'
+42 arguments
+43 argument (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='toString'
+46 scope (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='items'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='EventElementType'
+52 argument (StringLiteralExpr)
+53 value='retract'
+54 name (SimpleName)
+55 identifier='deleteItem'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='EventContentFilter'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (ObjectCreationExpr)
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='EventContentFilter'
+67 arguments
+68 argument (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='toString'
+71 scope (FieldAccessExpr)
+72 name (SimpleName)
+73 identifier='purge'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='EventElementType'
+77 name (SimpleName)
+78 identifier='purge'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='EventContentFilter'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='addPacketListener'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='con'
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='delListener'
+93 argument (ObjectCreationExpr)
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='OrFilter'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='deleteItem'
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='purge'
+104 type (VoidType)
+105 name (SimpleName)
+106 identifier='addItemDeleteListener'
+107 parameters
+108 parameter (Parameter)
+109 isVarArgs='false'
+110 name (SimpleName)
+111 identifier='listener'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='ItemDeleteListener'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+42 52
+52 53
+37 54
+54 55
+37 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+62 77
+77 78
+62 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+95 96
+93 97
+97 98
+98 99
+99 100
+97 101
+101 102
+102 103
+0 104
+0 105
+105 106
+0 107
+107 108
+108 109
+108 110
+110 111
+108 112
+112 113
+113 114
+
+Register an listener for item delete events.  This listener gets called whenever an item is deleted from the node.

@@ -1,0 +1,524 @@
+261
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mLastPercent'
+9 value (IntegerLiteralExpr)
+10 value='0'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='mNotificationBuilder'
+17 value (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='newNotificationBuilderWithProgressBar'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='NotificationBuilderWithProgressBar'
+23 arguments
+24 argument (ThisExpr)
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='setContentText'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='setProgress'
+32 scope (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='setContentTitle'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='setTicker'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='setSmallIcon'
+41 scope (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='setOngoing'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='mNotificationBuilder'
+47 arguments
+48 argument (BooleanLiteralExpr)
+49 value='true'
+50 arguments
+51 argument (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='notification_icon'
+54 scope (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='drawable'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='R'
+60 arguments
+61 argument (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getString'
+64 arguments
+65 argument (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='uploader_upload_in_progress_ticker'
+68 scope (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='string'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='R'
+74 arguments
+75 argument (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='getString'
+78 arguments
+79 argument (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='uploader_upload_in_progress_ticker'
+82 scope (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='string'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='R'
+88 arguments
+89 argument (IntegerLiteralExpr)
+90 value='100'
+91 argument (IntegerLiteralExpr)
+92 value='0'
+93 argument (BooleanLiteralExpr)
+94 value='false'
+95 arguments
+96 argument (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='format'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='String'
+102 arguments
+103 argument (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='getString'
+106 arguments
+107 argument (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='uploader_upload_in_progress_content'
+110 scope (FieldAccessExpr)
+111 name (SimpleName)
+112 identifier='string'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='R'
+116 argument (IntegerLiteralExpr)
+117 value='0'
+118 argument (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='getFileName'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='upload'
+124 statement (ExpressionStmt)
+125 expression (VariableDeclarationExpr)
+126 variables
+127 variable (VariableDeclarator)
+128 initializer (ObjectCreationExpr)
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='Intent'
+132 arguments
+133 argument (ThisExpr)
+134 argument (ClassExpr)
+135 type (ClassOrInterfaceType)
+136 name (SimpleName)
+137 identifier='FileDisplayActivity'
+138 name (SimpleName)
+139 identifier='showDetailsIntent'
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='Intent'
+143 statement (ExpressionStmt)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='putExtra'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='showDetailsIntent'
+150 arguments
+151 argument (FieldAccessExpr)
+152 name (SimpleName)
+153 identifier='EXTRA_FILE'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='FileActivity'
+157 argument (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='getFile'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='upload'
+163 statement (ExpressionStmt)
+164 expression (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='putExtra'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='showDetailsIntent'
+170 arguments
+171 argument (FieldAccessExpr)
+172 name (SimpleName)
+173 identifier='EXTRA_ACCOUNT'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='FileActivity'
+177 argument (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='getAccount'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='upload'
+183 statement (ExpressionStmt)
+184 expression (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='setFlags'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='showDetailsIntent'
+190 arguments
+191 argument (FieldAccessExpr)
+192 name (SimpleName)
+193 identifier='FLAG_ACTIVITY_CLEAR_TOP'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='Intent'
+197 statement (ExpressionStmt)
+198 expression (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='setContentIntent'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='mNotificationBuilder'
+204 arguments
+205 argument (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='getActivity'
+208 scope (NameExpr)
+209 name (SimpleName)
+210 identifier='PendingIntent'
+211 arguments
+212 argument (ThisExpr)
+213 argument (CastExpr)
+214 expression (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='currentTimeMillis'
+217 scope (NameExpr)
+218 name (SimpleName)
+219 identifier='System'
+220 type (PrimitiveType)
+221 type='INT'
+222 argument (NameExpr)
+223 name (SimpleName)
+224 identifier='showDetailsIntent'
+225 argument (IntegerLiteralExpr)
+226 value='0'
+227 statement (ExpressionStmt)
+228 expression (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='notify'
+231 scope (NameExpr)
+232 name (SimpleName)
+233 identifier='mNotificationManager'
+234 arguments
+235 argument (FieldAccessExpr)
+236 name (SimpleName)
+237 identifier='uploader_upload_in_progress_ticker'
+238 scope (FieldAccessExpr)
+239 name (SimpleName)
+240 identifier='string'
+241 scope (NameExpr)
+242 name (SimpleName)
+243 identifier='R'
+244 argument (MethodCallExpr)
+245 name (SimpleName)
+246 identifier='build'
+247 scope (NameExpr)
+248 name (SimpleName)
+249 identifier='mNotificationBuilder'
+250 type (VoidType)
+251 name (SimpleName)
+252 identifier='notifyUploadStart'
+253 parameters
+254 parameter (Parameter)
+255 isVarArgs='false'
+256 name (SimpleName)
+257 identifier='upload'
+258 type (ClassOrInterfaceType)
+259 name (SimpleName)
+260 identifier='UploadFileOperation'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+38 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+35 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+32 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+29 88
+88 89
+89 90
+88 91
+91 92
+88 93
+93 94
+26 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+110 113
+113 114
+114 115
+102 116
+116 117
+102 118
+118 119
+119 120
+118 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+127 128
+128 129
+129 130
+130 131
+128 132
+132 133
+132 134
+134 135
+135 136
+136 137
+127 138
+138 139
+127 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+150 157
+157 158
+158 159
+157 160
+160 161
+161 162
+2 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+164 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+170 177
+177 178
+178 179
+177 180
+180 181
+181 182
+2 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+184 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+2 197
+197 198
+198 199
+199 200
+198 201
+201 202
+202 203
+198 204
+204 205
+205 206
+206 207
+205 208
+208 209
+209 210
+205 211
+211 212
+211 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+213 220
+220 221
+211 222
+222 223
+223 224
+211 225
+225 226
+2 227
+227 228
+228 229
+229 230
+228 231
+231 232
+232 233
+228 234
+234 235
+235 236
+236 237
+235 238
+238 239
+239 240
+238 241
+241 242
+242 243
+234 244
+244 245
+245 246
+244 247
+247 248
+248 249
+0 250
+0 251
+251 252
+0 253
+253 254
+254 255
+254 256
+256 257
+254 258
+258 259
+259 260
+
+Creates a status notification to show the upload progress

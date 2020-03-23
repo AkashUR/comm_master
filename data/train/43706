@@ -1,0 +1,68 @@
+33
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='getChildren'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='tempDir'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='refresh'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='tempDir'
+17 arguments
+18 argument (BooleanLiteralExpr)
+19 value='false'
+20 argument (BooleanLiteralExpr)
+21 value='true'
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='synchronizeTempDirVfs'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='tempDir'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='VirtualFile'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+17 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+
+If a temp directory is reused from some previous test run, there might be cached children in its VFS. Ensure they're removed

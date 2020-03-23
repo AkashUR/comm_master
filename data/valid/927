@@ -1,0 +1,170 @@
+84
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addCallback'
+7 arguments
+8 argument (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='BT_GET_SCRATCH'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='BeanMessageID'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='callback'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Buffer'
+25 name (SimpleName)
+26 identifier='buffer'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Buffer'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='writeByte'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='buffer'
+37 arguments
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='intToByte'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getRawValue'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='bank'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='sendMessage'
+52 arguments
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='BT_GET_SCRATCH'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='BeanMessageID'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='buffer'
+62 type (VoidType)
+63 name (SimpleName)
+64 identifier='readScratchData'
+65 parameters
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='bank'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='ScratchBank'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='callback'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Callback'
+80 typeArguments
+81 typeArgument (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='ScratchData'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+20 25
+25 26
+20 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+52 59
+59 60
+60 61
+0 62
+0 63
+63 64
+0 65
+65 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+65 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+77 80
+80 81
+81 82
+82 83
+
+Request a scratch bank data value.

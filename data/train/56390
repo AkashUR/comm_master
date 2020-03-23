@@ -1,0 +1,438 @@
+218
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='StringBuilder'
+11 name (SimpleName)
+12 identifier='result'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='StringBuilder'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='append'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='result'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='Token['
+26 statement (SwitchStmt)
+27 selector (NameExpr)
+28 name (SimpleName)
+29 identifier='ttype'
+30 entries
+31 entrie (SwitchEntryStmt)
+32 label (NameExpr)
+33 name (SimpleName)
+34 identifier='TT_EOF'
+35 statements
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='append'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='result'
+43 arguments
+44 argument (StringLiteralExpr)
+45 value='EOF'
+46 statement (BreakStmt)
+47 entrie (SwitchEntryStmt)
+48 label (NameExpr)
+49 name (SimpleName)
+50 identifier='TT_EOL'
+51 statements
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='append'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='result'
+59 arguments
+60 argument (StringLiteralExpr)
+61 value='EOL'
+62 statement (BreakStmt)
+63 entrie (SwitchEntryStmt)
+64 label (NameExpr)
+65 name (SimpleName)
+66 identifier='TT_NUMBER'
+67 statements
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='append'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='result'
+75 arguments
+76 argument (StringLiteralExpr)
+77 value='n='
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='append'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='result'
+85 arguments
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='nval'
+89 statement (BreakStmt)
+90 entrie (SwitchEntryStmt)
+91 label (NameExpr)
+92 name (SimpleName)
+93 identifier='TT_WORD'
+94 statements
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='append'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='result'
+102 arguments
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='sval'
+106 statement (BreakStmt)
+107 entrie (SwitchEntryStmt)
+108 statements
+109 statement (IfStmt)
+110 condition (BinaryExpr)
+111 operator='OR'
+112 left (BinaryExpr)
+113 operator='EQUALS'
+114 left (NameExpr)
+115 name (SimpleName)
+116 identifier='ttype'
+117 right (NameExpr)
+118 name (SimpleName)
+119 identifier='TT_UNKNOWN'
+120 right (BinaryExpr)
+121 operator='EQUALS'
+122 left (ArrayAccessExpr)
+123 index (NameExpr)
+124 name (SimpleName)
+125 identifier='ttype'
+126 name (NameExpr)
+127 name (SimpleName)
+128 identifier='tokenTypes'
+129 right (NameExpr)
+130 name (SimpleName)
+131 identifier='TOKEN_QUOTE'
+132 elseStmt (BlockStmt)
+133 statements
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='append'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='result'
+141 arguments
+142 argument (CharLiteralExpr)
+143 value='\\''
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='append'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='result'
+151 arguments
+152 argument (CastExpr)
+153 expression (NameExpr)
+154 name (SimpleName)
+155 identifier='ttype'
+156 type (PrimitiveType)
+157 type='CHAR'
+158 statement (ExpressionStmt)
+159 expression (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='append'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='result'
+165 arguments
+166 argument (CharLiteralExpr)
+167 value='\\''
+168 thenStmt (BlockStmt)
+169 statements
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='append'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='result'
+177 arguments
+178 argument (NameExpr)
+179 name (SimpleName)
+180 identifier='sval'
+181 statement (ExpressionStmt)
+182 expression (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='append'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='result'
+188 arguments
+189 argument (StringLiteralExpr)
+190 value='], line '
+191 statement (ExpressionStmt)
+192 expression (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='append'
+195 scope (NameExpr)
+196 name (SimpleName)
+197 identifier='result'
+198 arguments
+199 argument (NameExpr)
+200 name (SimpleName)
+201 identifier='lineNumber'
+202 statement (ReturnStmt)
+203 expression (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='toString'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='result'
+209 type (ClassOrInterfaceType)
+210 name (SimpleName)
+211 identifier='String'
+212 name (SimpleName)
+213 identifier='toString'
+214 annotations
+215 annotation (MarkerAnnotationExpr)
+216 name (Name)
+217 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+35 46
+30 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+51 62
+30 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+67 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+67 89
+30 90
+90 91
+91 92
+92 93
+90 94
+94 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+94 106
+30 107
+107 108
+108 109
+109 110
+110 111
+110 112
+112 113
+112 114
+114 115
+115 116
+112 117
+117 118
+118 119
+110 120
+120 121
+120 122
+122 123
+123 124
+124 125
+122 126
+126 127
+127 128
+120 129
+129 130
+130 131
+109 132
+132 133
+133 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+135 141
+141 142
+142 143
+133 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+145 151
+151 152
+152 153
+153 154
+154 155
+152 156
+156 157
+133 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+109 168
+168 169
+169 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+171 177
+177 178
+178 179
+179 180
+2 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+182 188
+188 189
+189 190
+2 191
+191 192
+192 193
+193 194
+192 195
+195 196
+196 197
+192 198
+198 199
+199 200
+200 201
+2 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+0 209
+209 210
+210 211
+0 212
+212 213
+0 214
+214 215
+215 216
+216 217
+
+Returns the state of this tokenizer in a readable format.

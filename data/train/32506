@@ -1,0 +1,118 @@
+58
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='url'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='auth'
+15 scope (ThisExpr)
+16 value (ConditionalExpr)
+17 condition (BinaryExpr)
+18 operator='EQUALS'
+19 left (NameExpr)
+20 name (SimpleName)
+21 identifier='auth'
+22 right (NullLiteralExpr)
+23 elseExpr (NameExpr)
+24 name (SimpleName)
+25 identifier='auth'
+26 thenExpr (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='NtlmPasswordAuthentication'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getUserInfo'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='url'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getUncPath0'
+41 name (SimpleName)
+42 identifier='SmbFile'
+43 parameters
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='url'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='URL'
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='auth'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='NtlmPasswordAuthentication'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+12 15
+10 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+16 23
+23 24
+24 25
+16 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+0 41
+41 42
+0 43
+43 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+43 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+
+Constructs an SmbFile representing a resource on an SMB network such as a file or directory from a <tt>URL</tt> object and an <tt>NtlmPasswordAuthentication</tt> object.

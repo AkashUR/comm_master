@@ -1,0 +1,214 @@
+106
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='x'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='current'
+12 value (CastExpr)
+13 expression (EnclosedExpr)
+14 inner (BinaryExpr)
+15 operator='PLUS'
+16 left (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='x'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='start'
+22 right (BinaryExpr)
+23 operator='MULTIPLY'
+24 left (EnclosedExpr)
+25 inner (BinaryExpr)
+26 operator='MINUS'
+27 left (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='x'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='end'
+33 right (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='x'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='start'
+39 right (NameExpr)
+40 name (SimpleName)
+41 identifier='fraction'
+42 type (PrimitiveType)
+43 type='INT'
+44 statement (ExpressionStmt)
+45 expression (AssignExpr)
+46 operator='ASSIGN'
+47 target (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='y'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='current'
+53 value (CastExpr)
+54 expression (EnclosedExpr)
+55 inner (BinaryExpr)
+56 operator='PLUS'
+57 left (FieldAccessExpr)
+58 name (SimpleName)
+59 identifier='y'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='start'
+63 right (BinaryExpr)
+64 operator='MULTIPLY'
+65 left (EnclosedExpr)
+66 inner (BinaryExpr)
+67 operator='MINUS'
+68 left (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='y'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='end'
+74 right (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='y'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='start'
+80 right (NameExpr)
+81 name (SimpleName)
+82 identifier='fraction'
+83 type (PrimitiveType)
+84 type='INT'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='setCarPosition'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='track'
+92 arguments
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='current'
+96 type (VoidType)
+97 name (SimpleName)
+98 identifier='timingEvent'
+99 parameters
+100 parameter (Parameter)
+101 isVarArgs='false'
+102 name (SimpleName)
+103 identifier='fraction'
+104 type (PrimitiveType)
+105 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+19 20
+20 21
+14 22
+22 23
+22 24
+24 25
+25 26
+25 27
+27 28
+28 29
+27 30
+30 31
+31 32
+25 33
+33 34
+34 35
+33 36
+36 37
+37 38
+22 39
+39 40
+40 41
+12 42
+42 43
+2 44
+44 45
+45 46
+45 47
+47 48
+48 49
+47 50
+50 51
+51 52
+45 53
+53 54
+54 55
+55 56
+55 57
+57 58
+58 59
+57 60
+60 61
+61 62
+55 63
+63 64
+63 65
+65 66
+66 67
+66 68
+68 69
+69 70
+68 71
+71 72
+72 73
+66 74
+74 75
+75 76
+74 77
+77 78
+78 79
+63 80
+80 81
+81 82
+53 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+86 92
+92 93
+93 94
+94 95
+0 96
+0 97
+97 98
+0 99
+99 100
+100 101
+100 102
+102 103
+100 104
+104 105
+
+TimingTarget implementation: calculate and set the current car position based on the animation fraction

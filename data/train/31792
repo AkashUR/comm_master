@@ -1,0 +1,186 @@
+92
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='State'
+11 scope (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='VirtualNetworkService'
+14 name (SimpleName)
+15 identifier='virtualNetworkPatchState'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='State'
+19 scope (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='VirtualNetworkService'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='natRuleToFloatingIpMap'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='virtualNetworkPatchState'
+31 value (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='natRuleToFloatingIpMap'
+34 scope (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='taskServiceEntity'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='state'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='sendWith'
+44 scope (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='setCompletion'
+47 scope (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setBody'
+50 scope (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='createPatch'
+53 scope (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='getCloudStoreHelper'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='ServiceHostUtils'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getHost'
+63 arguments
+64 argument (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='documentSelfLink'
+67 scope (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='taskServiceEntity'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='state'
+73 arguments
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='virtualNetworkPatchState'
+77 arguments
+78 argument (NullLiteralExpr)
+79 arguments
+80 argument (ThisExpr)
+81 type (VoidType)
+82 name (SimpleName)
+83 identifier='updateVirtualNetwork'
+84 parameters
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='state'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='RemoveFloatingIpFromVmWorkflowDocument'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+25 28
+28 29
+29 30
+23 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+50 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+47 73
+73 74
+74 75
+75 76
+44 77
+77 78
+41 79
+79 80
+0 81
+0 82
+82 83
+0 84
+84 85
+85 86
+85 87
+87 88
+85 89
+89 90
+90 91
+
+Updates a VirtualNetworkService.State entity in cloud-store.

@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='printRootedTree'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='child'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='state'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='writer'
+17 argument (IntegerLiteralExpr)
+18 value='0'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='println'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='writer'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='printTree'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='state'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='EvolutionState'
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='writer'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='PrintWriter'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+29 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+
+Prints out the tree in single-line fashion suitable for reading in later by computer. O(n).  The default version of this method simply calls child's  printRootedTree(...) method.

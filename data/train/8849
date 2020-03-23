@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkState'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='checkTypeConcurrency'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='updateObject'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='rs'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='columnIndex'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='x'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='scale'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='updateObject'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='columnIndex'
+36 type (PrimitiveType)
+37 type='INT'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='x'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Object'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='scale'
+49 type (PrimitiveType)
+50 type='INT'
+51 thrownExceptions
+52 thrownException (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+12 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+18 25
+25 26
+26 27
+0 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+31 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+31 45
+45 46
+45 47
+47 48
+45 49
+49 50
+0 51
+51 52
+52 53
+53 54
+
+Updates the designated column with an <code>Object</code> value. The <code>updateXXX</code> methods are used to update column values in the current row or the insert row.  The <code>updateXXX</code> methods do not update the underlying database; instead the <code>updateRow</code> or <code>insertRow</code> methods are called to update the database.

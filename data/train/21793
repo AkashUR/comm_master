@@ -1,0 +1,278 @@
+138
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='IndexWriter'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='dir'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='newIndexWriterConfig'
+30 arguments
+31 argument (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='MockAnalyzer'
+35 arguments
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='random'
+39 name (SimpleName)
+40 identifier='iw'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='IndexWriter'
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (ObjectCreationExpr)
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Document'
+52 name (SimpleName)
+53 identifier='document'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Document'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (ObjectCreationExpr)
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='FieldType'
+65 arguments
+66 argument (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='TYPE_NOT_STORED'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='TextField'
+72 name (SimpleName)
+73 identifier='customType'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='FieldType'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='setStoreTermVectors'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='customType'
+84 arguments
+85 argument (BooleanLiteralExpr)
+86 value='true'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='add'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='document'
+94 arguments
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='newField'
+98 arguments
+99 argument (StringLiteralExpr)
+100 value='tvtest'
+101 argument (StringLiteralExpr)
+102 value=''
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='customType'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='addDocument'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='iw'
+113 arguments
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='document'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='close'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='iw'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='close'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='dir'
+131 type (VoidType)
+132 name (SimpleName)
+133 identifier='testBadSegment'
+134 thrownExceptions
+135 thrownException (ClassOrInterfaceType)
+136 name (SimpleName)
+137 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+37 38
+18 39
+39 40
+18 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+47 52
+52 53
+47 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+61 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+60 72
+72 73
+60 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+98 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+0 131
+0 132
+132 133
+0 134
+134 135
+135 136
+136 137
+
+Test that no NullPointerException will be raised, when adding one document with a single, empty field and term vectors enabled.

@@ -1,0 +1,426 @@
+212
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='initFile'
+10 scope (ThisExpr)
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='testInputWaitAvailable'
+14 name (SimpleName)
+15 identifier='f'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='File'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='FileOutputStream'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='f'
+31 name (SimpleName)
+32 identifier='fos'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='FileOutputStream'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (ObjectCreationExpr)
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='DataOutputStream'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='fos'
+48 name (SimpleName)
+49 identifier='dos'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='DataOutputStream'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (ObjectCreationExpr)
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='BufferedFileDataInput'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='f'
+65 name (SimpleName)
+66 identifier='bfdi'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='BufferedFileDataInput'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='assertEquals'
+74 arguments
+75 argument (StringLiteralExpr)
+76 value='empty file'
+77 argument (IntegerLiteralExpr)
+78 value='0'
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='waitAvailable'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='bfdi'
+85 arguments
+86 argument (IntegerLiteralExpr)
+87 value='4'
+88 argument (IntegerLiteralExpr)
+89 value='10'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='writeInt'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='dos'
+97 arguments
+98 argument (IntegerLiteralExpr)
+99 value='0'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='writeInt'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='dos'
+107 arguments
+108 argument (IntegerLiteralExpr)
+109 value='1'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='flush'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='dos'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='assertEquals'
+121 arguments
+122 argument (StringLiteralExpr)
+123 value='sufficient data'
+124 argument (IntegerLiteralExpr)
+125 value='8'
+126 argument (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='waitAvailable'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='bfdi'
+132 arguments
+133 argument (IntegerLiteralExpr)
+134 value='4'
+135 argument (IntegerLiteralExpr)
+136 value='10'
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='readInt'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='bfdi'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='assertEquals'
+148 arguments
+149 argument (StringLiteralExpr)
+150 value='exactly enough data'
+151 argument (IntegerLiteralExpr)
+152 value='4'
+153 argument (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='waitAvailable'
+156 scope (NameExpr)
+157 name (SimpleName)
+158 identifier='bfdi'
+159 arguments
+160 argument (IntegerLiteralExpr)
+161 value='4'
+162 argument (IntegerLiteralExpr)
+163 value='10'
+164 statement (ExpressionStmt)
+165 expression (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='readInt'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='bfdi'
+171 statement (ExpressionStmt)
+172 expression (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='assertEquals'
+175 arguments
+176 argument (StringLiteralExpr)
+177 value='data exhausted'
+178 argument (IntegerLiteralExpr)
+179 value='0'
+180 argument (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='waitAvailable'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='bfdi'
+186 arguments
+187 argument (IntegerLiteralExpr)
+188 value='4'
+189 argument (IntegerLiteralExpr)
+190 value='10'
+191 statement (ExpressionStmt)
+192 expression (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='close'
+195 scope (NameExpr)
+196 name (SimpleName)
+197 identifier='dos'
+198 statement (ExpressionStmt)
+199 expression (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='close'
+202 scope (NameExpr)
+203 name (SimpleName)
+204 identifier='bfdi'
+205 type (VoidType)
+206 name (SimpleName)
+207 identifier='testInputWaitAvailable'
+208 thrownExceptions
+209 thrownException (ClassOrInterfaceType)
+210 name (SimpleName)
+211 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+29 30
+22 31
+31 32
+22 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+46 47
+39 48
+48 49
+39 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+63 64
+56 65
+65 66
+56 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+74 77
+77 78
+74 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+85 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+121 124
+124 125
+121 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+132 135
+135 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+148 151
+151 152
+148 153
+153 154
+154 155
+153 156
+156 157
+157 158
+153 159
+159 160
+160 161
+159 162
+162 163
+2 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+2 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+175 178
+178 179
+175 180
+180 181
+181 182
+180 183
+183 184
+184 185
+180 186
+186 187
+187 188
+186 189
+189 190
+2 191
+191 192
+192 193
+193 194
+192 195
+195 196
+196 197
+2 198
+198 199
+199 200
+200 201
+199 202
+202 203
+203 204
+0 205
+0 206
+206 207
+0 208
+208 209
+209 210
+210 211
+
+Confirm that we can wait for enough output to be provided in order to do a non-blocking read and that the wait fails if sufficient data do not appear.

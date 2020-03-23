@@ -1,0 +1,434 @@
+216
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (BinaryExpr)
+18 operator='PLUS'
+19 left (BinaryExpr)
+20 operator='PLUS'
+21 left (BinaryExpr)
+22 operator='PLUS'
+23 left (BinaryExpr)
+24 operator='PLUS'
+25 left (BinaryExpr)
+26 operator='PLUS'
+27 left (BinaryExpr)
+28 operator='PLUS'
+29 left (BinaryExpr)
+30 operator='PLUS'
+31 left (BinaryExpr)
+32 operator='PLUS'
+33 left (NameExpr)
+34 name (SimpleName)
+35 identifier='WEBAPP_TEST_HEADER'
+36 right (StringLiteralExpr)
+37 value='  <servlet-mapping>'
+38 right (StringLiteralExpr)
+39 value='    <servlet-name>s1</servlet-name>'
+40 right (StringLiteralExpr)
+41 value='    <url-pattern>/s1mapping1</url-pattern>'
+42 right (StringLiteralExpr)
+43 value='  </servlet-mapping>'
+44 right (StringLiteralExpr)
+45 value='  <servlet-mapping>'
+46 right (StringLiteralExpr)
+47 value='    <servlet-name>s1</servlet-name>'
+48 right (StringLiteralExpr)
+49 value='    <url-pattern>/s1mapping2</url-pattern>'
+50 right (StringLiteralExpr)
+51 value='  </servlet-mapping>'
+52 right (StringLiteralExpr)
+53 value='  <servlet-mapping>'
+54 right (StringLiteralExpr)
+55 value='    <servlet-name>s1</servlet-name>'
+56 right (StringLiteralExpr)
+57 value='    <url-pattern>/s1mapping3</url-pattern>'
+58 right (StringLiteralExpr)
+59 value='  </servlet-mapping>'
+60 right (StringLiteralExpr)
+61 value='</web-app>'
+62 name (SimpleName)
+63 identifier='xml'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='String'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='build'
+71 scope (FieldAccessExpr)
+72 name (SimpleName)
+73 identifier='builder'
+74 scope (ThisExpr)
+75 arguments
+76 argument (ObjectCreationExpr)
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='ByteArrayInputStream'
+80 arguments
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getBytes'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='xml'
+87 arguments
+88 argument (StringLiteralExpr)
+89 value='UTF-8'
+90 statement (ExpressionStmt)
+91 expression (VariableDeclarationExpr)
+92 variables
+93 variable (VariableDeclarator)
+94 initializer (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='parseWebXml'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='WebXmlIo'
+100 arguments
+101 argument (ObjectCreationExpr)
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='ByteArrayInputStream'
+105 arguments
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='getBytes'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='xml'
+112 arguments
+113 argument (StringLiteralExpr)
+114 value='UTF-8'
+115 argument (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='getEntityResolver'
+118 name (SimpleName)
+119 identifier='webXml'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='WebXml'
+123 statement (ExpressionStmt)
+124 expression (VariableDeclarationExpr)
+125 variables
+126 variable (VariableDeclarator)
+127 initializer (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='getServletMappings'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='WebXmlUtils'
+133 arguments
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='webXml'
+137 argument (StringLiteralExpr)
+138 value='s1'
+139 name (SimpleName)
+140 identifier='servletMappings'
+141 type (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='List'
+144 typeArguments
+145 typeArgument (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='String'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='assertEquals'
+152 arguments
+153 argument (IntegerLiteralExpr)
+154 value='3'
+155 argument (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='size'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='servletMappings'
+161 statement (ExpressionStmt)
+162 expression (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='assertEquals'
+165 arguments
+166 argument (StringLiteralExpr)
+167 value='/s1mapping1'
+168 argument (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='get'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='servletMappings'
+174 arguments
+175 argument (IntegerLiteralExpr)
+176 value='0'
+177 statement (ExpressionStmt)
+178 expression (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='assertEquals'
+181 arguments
+182 argument (StringLiteralExpr)
+183 value='/s1mapping2'
+184 argument (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='get'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='servletMappings'
+190 arguments
+191 argument (IntegerLiteralExpr)
+192 value='1'
+193 statement (ExpressionStmt)
+194 expression (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='assertEquals'
+197 arguments
+198 argument (StringLiteralExpr)
+199 value='/s1mapping3'
+200 argument (MethodCallExpr)
+201 name (SimpleName)
+202 identifier='get'
+203 scope (NameExpr)
+204 name (SimpleName)
+205 identifier='servletMappings'
+206 arguments
+207 argument (IntegerLiteralExpr)
+208 value='2'
+209 type (VoidType)
+210 name (SimpleName)
+211 identifier='testGetServletMappingsWithMultipleMappings'
+212 thrownExceptions
+213 thrownException (ClassOrInterfaceType)
+214 name (SimpleName)
+215 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+17 19
+19 20
+19 21
+21 22
+21 23
+23 24
+23 25
+25 26
+25 27
+27 28
+27 29
+29 30
+29 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+29 38
+38 39
+27 40
+40 41
+25 42
+42 43
+23 44
+44 45
+21 46
+46 47
+19 48
+48 49
+17 50
+50 51
+15 52
+52 53
+13 54
+54 55
+11 56
+56 57
+9 58
+58 59
+7 60
+60 61
+6 62
+62 63
+6 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+68 75
+75 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+102 103
+103 104
+101 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+100 115
+115 116
+116 117
+93 118
+118 119
+93 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+127 133
+133 134
+134 135
+135 136
+133 137
+137 138
+126 139
+139 140
+126 141
+141 142
+142 143
+141 144
+144 145
+145 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+152 155
+155 156
+156 157
+155 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+165 168
+168 169
+169 170
+168 171
+171 172
+172 173
+168 174
+174 175
+175 176
+2 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+181 184
+184 185
+185 186
+184 187
+187 188
+188 189
+184 190
+190 191
+191 192
+2 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+201 202
+200 203
+203 204
+204 205
+200 206
+206 207
+207 208
+0 209
+0 210
+210 211
+0 212
+212 213
+213 214
+214 215
+
+Tests whether multiple servlet mappings are correctly retrieved from a descriptor.

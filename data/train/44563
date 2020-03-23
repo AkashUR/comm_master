@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='print'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='wrap'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='bytes'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='out'
+18 argument (IntegerLiteralExpr)
+19 value='0'
+20 argument (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='length'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='bytes'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='print'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='bytes'
+34 type (ArrayType)
+35 origin='TYPE'
+36 componentType (PrimitiveType)
+37 type='BYTE'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='out'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='PrintStream'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+7 15
+15 16
+16 17
+7 18
+18 19
+7 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+34 36
+36 37
+29 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+
+Print a full byte array as nicely formatted groups of hex numbers. Output looks like: <p> 01 02 03 04 05 06 07 08    01 02 03 04 05 06 07 08    01 02 03 04 05 06 07 08    01 02 03 04 05 06 07 08 01 02 03 04 05 06 07 08    01 02 03 04 05 06 07 08    01 02 03 04 05 06 07 08    01 02 03 04 05 06 07 08

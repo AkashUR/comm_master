@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='Test: makeBucket(String bucketName, String region)'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (BinaryExpr)
+15 operator='PLUS'
+16 left (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getRandomName'
+19 right (StringLiteralExpr)
+20 value='.withperiod'
+21 name (SimpleName)
+22 identifier='name'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='String'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='makeBucket'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='client'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='name'
+37 argument (StringLiteralExpr)
+38 value='eu-central-1'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='removeBucket'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='client'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='name'
+50 type (VoidType)
+51 name (SimpleName)
+52 identifier='makeBucket_test3'
+53 thrownExceptions
+54 thrownException (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+13 21
+21 22
+13 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+0 50
+0 51
+51 52
+0 53
+53 54
+54 55
+55 56
+
+Test: makeBucket(String bucketName, String region) where bucketName has periods in its name.

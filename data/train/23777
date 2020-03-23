@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='isRunning'
+12 scope (ThisExpr)
+13 value (BooleanLiteralExpr)
+14 value='false'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='notifyAll'
+19 scope (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='messageQueue'
+22 scope (ThisExpr)
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='close'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='sock'
+30 expression (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='messageQueue'
+33 scope (ThisExpr)
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='stop'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+7 13
+13 14
+5 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+5 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+3 30
+30 31
+31 32
+30 33
+0 34
+0 35
+35 36
+
+Shut down the message processor. Close the socket for recieving incoming messages.

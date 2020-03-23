@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='log'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='s_logger'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='FINE'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='Level'
+17 argument (StringLiteralExpr)
+18 value='recreateDBSchema'
+19 argument (ArrayCreationExpr)
+20 elementType (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Object'
+23 initializer (ArrayInitializerExpr)
+24 values
+25 value (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getSchema'
+28 value (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getDirection'
+31 levels
+32 level (ArrayCreationLevel)
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='connectDatabaseSystem'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='dropDBSchema'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='createDBSchema'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='connectDatabase'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='log'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='s_logger'
+56 arguments
+57 argument (FieldAccessExpr)
+58 name (SimpleName)
+59 identifier='FINE'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='Level'
+63 argument (StringLiteralExpr)
+64 value='dbSchemaRecreated'
+65 argument (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getSchema'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='flush'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='s_logger'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='reCreateDBSchema'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+10 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+19 31
+31 32
+2 33
+33 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+56 63
+63 64
+56 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+0 75
+0 76
+76 77
+
+drop and re-create a schema in a database

@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='listChannels'
+7 scope (ThisExpr)
+8 arguments
+9 argument (NullLiteralExpr)
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='listChannels'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+0 10
+0 11
+11 12
+
+Issues a request for a list of all channels on the IRC server. When the PircBot receives information for each channel, it will call the onChannelInfo method, which you will need to override if you want it to do anything useful.

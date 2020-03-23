@@ -1,0 +1,186 @@
+92
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 arguments
+8 argument (CastExpr)
+9 expression (EnclosedExpr)
+10 inner (BinaryExpr)
+11 operator='BINARY_AND'
+12 left (NameExpr)
+13 name (SimpleName)
+14 identifier='int32'
+15 right (IntegerLiteralExpr)
+16 value='0xFF'
+17 type (PrimitiveType)
+18 type='BYTE'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='put'
+23 arguments
+24 argument (CastExpr)
+25 expression (EnclosedExpr)
+26 inner (BinaryExpr)
+27 operator='BINARY_AND'
+28 left (EnclosedExpr)
+29 inner (BinaryExpr)
+30 operator='SIGNED_RIGHT_SHIFT'
+31 left (NameExpr)
+32 name (SimpleName)
+33 identifier='int32'
+34 right (IntegerLiteralExpr)
+35 value='8'
+36 right (IntegerLiteralExpr)
+37 value='0xFF'
+38 type (PrimitiveType)
+39 type='BYTE'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='put'
+44 arguments
+45 argument (CastExpr)
+46 expression (EnclosedExpr)
+47 inner (BinaryExpr)
+48 operator='BINARY_AND'
+49 left (EnclosedExpr)
+50 inner (BinaryExpr)
+51 operator='SIGNED_RIGHT_SHIFT'
+52 left (NameExpr)
+53 name (SimpleName)
+54 identifier='int32'
+55 right (IntegerLiteralExpr)
+56 value='16'
+57 right (IntegerLiteralExpr)
+58 value='0xFF'
+59 type (PrimitiveType)
+60 type='BYTE'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='put'
+65 arguments
+66 argument (CastExpr)
+67 expression (EnclosedExpr)
+68 inner (BinaryExpr)
+69 operator='BINARY_AND'
+70 left (EnclosedExpr)
+71 inner (BinaryExpr)
+72 operator='SIGNED_RIGHT_SHIFT'
+73 left (NameExpr)
+74 name (SimpleName)
+75 identifier='int32'
+76 right (IntegerLiteralExpr)
+77 value='24'
+78 right (IntegerLiteralExpr)
+79 value='0xFF'
+80 type (PrimitiveType)
+81 type='BYTE'
+82 type (VoidType)
+83 name (SimpleName)
+84 identifier='putINT32'
+85 parameters
+86 parameter (Parameter)
+87 isVarArgs='false'
+88 name (SimpleName)
+89 identifier='int32'
+90 type (PrimitiveType)
+91 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+10 11
+10 12
+12 13
+13 14
+10 15
+15 16
+8 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+26 27
+26 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+26 36
+36 37
+24 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+47 48
+47 49
+49 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+47 57
+57 58
+45 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+68 69
+68 70
+70 71
+71 72
+71 73
+73 74
+74 75
+71 76
+76 77
+68 78
+78 79
+66 80
+80 81
+0 82
+0 83
+83 84
+0 85
+85 86
+86 87
+86 88
+88 89
+86 90
+90 91
+
+Writes a signed little-endian int32 to this ByteBuffer, starting at the current position. Advances the current position by 4.

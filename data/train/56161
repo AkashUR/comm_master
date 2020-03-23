@@ -1,0 +1,62 @@
+30
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='clear'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='pausedJobGroups'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='resumeTriggers'
+17 arguments
+18 argument (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='anyTriggerGroup'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='GroupMatcher'
+24 expression (NameExpr)
+25 name (SimpleName)
+26 identifier='lock'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='resumeAll'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+5 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+3 24
+24 25
+25 26
+0 27
+0 28
+28 29
+
+<p> Resume (un-pause) all triggers - equivalent of calling <code>resumeTriggerGroup(group)</code> on every group. </p> <p> If any <code>Trigger</code> missed one or more fire-times, then the <code>Trigger</code>'s misfire instruction will be applied. </p>

@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='initializePsiClass'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='\"\"'
+10 argument (StringLiteralExpr)
+11 value='\"\"'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='initializePsiMethod'
+16 arguments
+17 argument (StringLiteralExpr)
+18 value='updateFoo'
+19 argument (StringLiteralExpr)
+20 value='\"\"'
+21 argument (StringLiteralExpr)
+22 value='\"\"'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='initMocks'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='MockitoAnnotations'
+30 arguments
+31 argument (ThisExpr)
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='RestSignatureInspection'
+40 name (SimpleName)
+41 identifier='inspection'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='RestSignatureInspection'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getHttpMethod'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='inspection'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='mockPsiMethod'
+59 name (SimpleName)
+60 identifier='httpMethod'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='String'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='assertEquals'
+68 arguments
+69 argument (StringLiteralExpr)
+70 value='PUT'
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='httpMethod'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='testGetHttpMethod_NameWithRestPrefix'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+16 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+35 40
+40 41
+35 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+48 59
+59 60
+48 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+0 74
+0 75
+75 76
+
+Test getHttpMethod when the method name starts with a REST prefix.

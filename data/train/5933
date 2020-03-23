@@ -1,0 +1,182 @@
+90
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='graph'
+9 argument (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='get'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='supplier'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='treeFactory'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='weights'
+21 name (SimpleName)
+22 identifier='MinimumSpanningForest2'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='graph'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Graph'
+31 typeArguments
+32 typeArgument (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='V'
+35 typeArgument (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='E'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='supplier'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Supplier'
+45 typeArguments
+46 typeArgument (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Forest'
+49 typeArguments
+50 typeArgument (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='V'
+53 typeArgument (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='E'
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='treeFactory'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='Supplier'
+63 typeArguments
+64 typeArgument (WildcardType)
+65 extendedType (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='Graph'
+68 typeArguments
+69 typeArgument (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='V'
+72 typeArgument (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='E'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='weights'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Function'
+82 typeArguments
+83 typeArgument (WildcardType)
+84 superType (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='E'
+87 typeArgument (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='Double'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+9 12
+12 13
+13 14
+5 15
+15 16
+16 17
+5 18
+18 19
+19 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+23 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+23 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+23 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+85 86
+82 87
+87 88
+88 89
+
+Create a Forest from the supplied Graph and supplied Supplier, which is used to create a new, empty Forest. If non-null, the supplied root will be used as the root of the tree/forest. If the supplied root is null, or not present in the Graph, then an arbitary Graph vertex will be selected as the root. If the Minimum Spanning Tree does not include all vertices of the Graph, then a leftover vertex is selected as a root, and another tree is created

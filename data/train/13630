@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='level'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='computeQuadLevel'
+12 arguments
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='itemEnv'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='env'
+22 value (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Envelope'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='computeKey'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='level'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='itemEnv'
+37 statement (WhileStmt)
+38 body (BlockStmt)
+39 statements
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='PLUS'
+43 target (NameExpr)
+44 name (SimpleName)
+45 identifier='level'
+46 value (IntegerLiteralExpr)
+47 value='1'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='computeKey'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='level'
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='itemEnv'
+59 condition (UnaryExpr)
+60 operator='LOGICAL_COMPLEMENT'
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='contains'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='env'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='itemEnv'
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='computeKey'
+74 parameters
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='itemEnv'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Envelope'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+39 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+37 59
+59 60
+59 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+0 71
+0 72
+72 73
+0 74
+74 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+
+return a square envelope containing the argument envelope, whose extent is a power of two and which is based at a power of 2

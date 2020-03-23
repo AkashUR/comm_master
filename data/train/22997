@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='ensureCapacity'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='PLUS'
+10 left (NameExpr)
+11 name (SimpleName)
+12 identifier='count'
+13 right (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='length'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='str'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getChars'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='str'
+26 arguments
+27 argument (IntegerLiteralExpr)
+28 value='0'
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='length'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='str'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='buf'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='count'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='PLUS'
+44 target (NameExpr)
+45 name (SimpleName)
+46 identifier='count'
+47 value (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='length'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='str'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='append'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='str'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+14 15
+13 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+26 35
+35 36
+36 37
+26 38
+38 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+48 49
+47 50
+50 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+
+This will add a <code>String</code> to the end of the buffer. The buffer will not overflow with repeated uses of the  <code>append</code>, it uses an <code>ensureCapacity</code>  method which will allow the buffer to dynamically grow in  size to accomodate large <code>String</code> objects.

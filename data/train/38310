@@ -1,0 +1,206 @@
+102
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Label'
+11 name (SimpleName)
+12 identifier='newLabel'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Label'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='adopt'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='newLabel'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='primarySuccessor'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='currentLabel'
+33 value (NameExpr)
+34 name (SimpleName)
+35 identifier='newLabel'
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='alternateSuccessor'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='currentLabel'
+45 value (NameExpr)
+46 name (SimpleName)
+47 identifier='alternateSuccessor'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='catchLabels'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='currentLabel'
+57 value (NameExpr)
+58 name (SimpleName)
+59 identifier='catchLabels'
+60 statement (ExpressionStmt)
+61 expression (AssignExpr)
+62 operator='ASSIGN'
+63 target (NameExpr)
+64 name (SimpleName)
+65 identifier='currentLabel'
+66 value (NameExpr)
+67 name (SimpleName)
+68 identifier='newLabel'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='marked'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='currentLabel'
+78 value (BooleanLiteralExpr)
+79 value='true'
+80 type (VoidType)
+81 name (SimpleName)
+82 identifier='splitCurrentLabel'
+83 parameters
+84 parameter (Parameter)
+85 isVarArgs='false'
+86 name (SimpleName)
+87 identifier='alternateSuccessor'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='Label'
+91 parameter (Parameter)
+92 isVarArgs='false'
+93 name (SimpleName)
+94 identifier='catchLabels'
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='List'
+98 typeArguments
+99 typeArgument (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='Label'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+27 30
+30 31
+31 32
+25 33
+33 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+39 42
+42 43
+43 44
+37 45
+45 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+51 54
+54 55
+55 56
+49 57
+57 58
+58 59
+2 60
+60 61
+61 62
+61 63
+63 64
+64 65
+61 66
+66 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+72 75
+75 76
+76 77
+70 78
+78 79
+0 80
+0 81
+81 82
+0 83
+83 84
+84 85
+84 86
+86 87
+84 88
+88 89
+89 90
+83 91
+91 92
+91 93
+93 94
+91 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+
+Closes the current label and starts a new one.

@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='CBRConnection'
+11 arguments
+12 argument (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getHost'
+15 scope (ThisExpr)
+16 argument (ThisExpr)
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getHost'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='anotherInterface'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='anotherInterface'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='transmitSpeed'
+29 name (SimpleName)
+30 identifier='con'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Connection'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='connect'
+38 scope (ThisExpr)
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='con'
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='anotherInterface'
+46 type (VoidType)
+47 name (SimpleName)
+48 identifier='connect'
+49 parameters
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='anotherInterface'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='NetworkInterface'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+11 16
+11 17
+17 18
+18 19
+17 20
+20 21
+21 22
+11 23
+23 24
+24 25
+11 26
+26 27
+27 28
+6 29
+29 30
+6 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+35 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+0 46
+0 47
+47 48
+0 49
+49 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+
+Connects the interface to another interface. Overload this in a derived class.  Check the requirements for the connection to work in the derived class, then call connect(Connection, NetworkInterface) for the actual connection.

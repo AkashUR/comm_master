@@ -1,0 +1,246 @@
+122
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='check'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Assert'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='NOT_EQUALS'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='currentState'
+16 right (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='UNKNOWN'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='BitsState'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='check'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='Assert'
+29 arguments
+30 argument (BinaryExpr)
+31 operator='GREATER_EQUALS'
+32 left (NameExpr)
+33 name (SimpleName)
+34 identifier='x'
+35 right (IntegerLiteralExpr)
+36 value='0'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='sizeTo'
+41 arguments
+42 argument (BinaryExpr)
+43 operator='PLUS'
+44 left (EnclosedExpr)
+45 inner (BinaryExpr)
+46 operator='UNSIGNED_RIGHT_SHIFT'
+47 left (NameExpr)
+48 name (SimpleName)
+49 identifier='x'
+50 right (NameExpr)
+51 name (SimpleName)
+52 identifier='wordshift'
+53 right (IntegerLiteralExpr)
+54 value='1'
+55 statement (ExpressionStmt)
+56 expression (AssignExpr)
+57 operator='ASSIGN'
+58 target (ArrayAccessExpr)
+59 index (BinaryExpr)
+60 operator='UNSIGNED_RIGHT_SHIFT'
+61 left (NameExpr)
+62 name (SimpleName)
+63 identifier='x'
+64 right (NameExpr)
+65 name (SimpleName)
+66 identifier='wordshift'
+67 name (NameExpr)
+68 name (SimpleName)
+69 identifier='bits'
+70 value (BinaryExpr)
+71 operator='BINARY_AND'
+72 left (ArrayAccessExpr)
+73 index (BinaryExpr)
+74 operator='UNSIGNED_RIGHT_SHIFT'
+75 left (NameExpr)
+76 name (SimpleName)
+77 identifier='x'
+78 right (NameExpr)
+79 name (SimpleName)
+80 identifier='wordshift'
+81 name (NameExpr)
+82 name (SimpleName)
+83 identifier='bits'
+84 right (UnaryExpr)
+85 operator='BITWISE_COMPLEMENT'
+86 expression (EnclosedExpr)
+87 inner (BinaryExpr)
+88 operator='LEFT_SHIFT'
+89 left (IntegerLiteralExpr)
+90 value='1'
+91 right (EnclosedExpr)
+92 inner (BinaryExpr)
+93 operator='BINARY_AND'
+94 left (NameExpr)
+95 name (SimpleName)
+96 identifier='x'
+97 right (NameExpr)
+98 name (SimpleName)
+99 identifier='wordmask'
+100 statement (ExpressionStmt)
+101 expression (AssignExpr)
+102 operator='ASSIGN'
+103 target (NameExpr)
+104 name (SimpleName)
+105 identifier='currentState'
+106 value (FieldAccessExpr)
+107 name (SimpleName)
+108 identifier='NORMAL'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='BitsState'
+112 type (VoidType)
+113 name (SimpleName)
+114 identifier='excl'
+115 parameters
+116 parameter (Parameter)
+117 isVarArgs='false'
+118 name (SimpleName)
+119 identifier='x'
+120 type (PrimitiveType)
+121 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+42 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+51 52
+42 53
+53 54
+2 55
+55 56
+56 57
+56 58
+58 59
+59 60
+59 61
+61 62
+62 63
+59 64
+64 65
+65 66
+58 67
+67 68
+68 69
+56 70
+70 71
+70 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+79 80
+72 81
+81 82
+82 83
+70 84
+84 85
+84 86
+86 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+92 94
+94 95
+95 96
+92 97
+97 98
+98 99
+2 100
+100 101
+101 102
+101 103
+103 104
+104 105
+101 106
+106 107
+107 108
+106 109
+109 110
+110 111
+0 112
+0 113
+113 114
+0 115
+115 116
+116 117
+116 118
+118 119
+116 120
+120 121
+
+Exclude x from this set.

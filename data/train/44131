@@ -1,0 +1,174 @@
+86
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='minimum'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='min'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='preferred'
+18 value (NameExpr)
+19 name (SimpleName)
+20 identifier='pref'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='maximum'
+27 value (NameExpr)
+28 name (SimpleName)
+29 identifier='max'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='alignment'
+36 value (ConditionalExpr)
+37 condition (BinaryExpr)
+38 operator='GREATER'
+39 left (NameExpr)
+40 name (SimpleName)
+41 identifier='a'
+42 right (DoubleLiteralExpr)
+43 value='1.0f'
+44 elseExpr (ConditionalExpr)
+45 condition (BinaryExpr)
+46 operator='LESS'
+47 left (NameExpr)
+48 name (SimpleName)
+49 identifier='a'
+50 right (DoubleLiteralExpr)
+51 value='0.0f'
+52 elseExpr (NameExpr)
+53 name (SimpleName)
+54 identifier='a'
+55 thenExpr (DoubleLiteralExpr)
+56 value='0.0f'
+57 thenExpr (DoubleLiteralExpr)
+58 value='1.0f'
+59 name (SimpleName)
+60 identifier='SizeRequirements'
+61 parameters
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='min'
+66 type (PrimitiveType)
+67 type='INT'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='pref'
+72 type (PrimitiveType)
+73 type='INT'
+74 parameter (Parameter)
+75 isVarArgs='false'
+76 name (SimpleName)
+77 identifier='max'
+78 type (PrimitiveType)
+79 type='INT'
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='a'
+84 type (PrimitiveType)
+85 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+37 39
+39 40
+40 41
+37 42
+42 43
+36 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+44 52
+52 53
+53 54
+44 55
+55 56
+36 57
+57 58
+0 59
+59 60
+0 61
+61 62
+62 63
+62 64
+64 65
+62 66
+66 67
+61 68
+68 69
+68 70
+70 71
+68 72
+72 73
+61 74
+74 75
+74 76
+76 77
+74 78
+78 79
+61 80
+80 81
+80 82
+82 83
+80 84
+84 85
+
+Creates a SizeRequirements object with the specified minimum, preferred, and maximum sizes and the specified alignment.

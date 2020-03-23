@@ -1,0 +1,154 @@
+76
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='gssManager'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='gssManager'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='mechCtxt'
+19 value (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getMechanismContext'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='gssManager'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='interProcessToken'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (NameExpr)
+33 name (SimpleName)
+34 identifier='initiator'
+35 value (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='isInitiator'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='mechCtxt'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='mechOid'
+47 scope (ThisExpr)
+48 value (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getMech'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='mechCtxt'
+54 name (SimpleName)
+55 identifier='GSSContextImpl'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='gssManager'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='GSSManagerImpl'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='interProcessToken'
+68 type (ArrayType)
+69 origin='TYPE'
+70 componentType (PrimitiveType)
+71 type='BYTE'
+72 thrownExceptions
+73 thrownException (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='GSSException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+35 38
+38 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+44 47
+42 48
+48 49
+49 50
+48 51
+51 52
+52 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+56 64
+64 65
+64 66
+66 67
+64 68
+68 69
+68 70
+70 71
+0 72
+72 73
+73 74
+74 75
+
+Creates a GSSContextImpl out of a previously exported GSSContext.

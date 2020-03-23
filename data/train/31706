@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='err'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='JavaCUP Fatal Internal Error Detected'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='println'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='err'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='System'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getMessage'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='printStackTrace'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='exit'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='System'
+41 arguments
+42 argument (UnaryExpr)
+43 operator='MINUS'
+44 expression (IntegerLiteralExpr)
+45 value='1'
+46 type (VoidType)
+47 name (SimpleName)
+48 identifier='crash'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+17 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+42 44
+44 45
+0 46
+0 47
+47 48
+
+Method called to do a forced error exit on an internal error for cases when we can't actually throw the exception. 

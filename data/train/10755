@@ -1,0 +1,518 @@
+258
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createFile'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='fileHandler'
+10 scope (ThisExpr)
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='ram:///test.jar'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (CastExpr)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='createDeployable'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='factory'
+25 arguments
+26 argument (StringLiteralExpr)
+27 value='jonas4x'
+28 argument (StringLiteralExpr)
+29 value='ram:///test.jar'
+30 argument (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='EJB'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='DeployableType'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='EJB'
+39 name (SimpleName)
+40 identifier='ejb'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='EJB'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='assertEquals'
+48 arguments
+49 argument (BinaryExpr)
+50 operator='PLUS'
+51 left (NameExpr)
+52 name (SimpleName)
+53 identifier='JONAS_BASE'
+54 right (StringLiteralExpr)
+55 value='/ejbjars'
+56 argument (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getDeployableDir'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='deployer'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='ejb'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='createFile'
+70 scope (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='fileHandler'
+73 scope (ThisExpr)
+74 arguments
+75 argument (StringLiteralExpr)
+76 value='ram:///test.ear'
+77 statement (ExpressionStmt)
+78 expression (VariableDeclarationExpr)
+79 variables
+80 variable (VariableDeclarator)
+81 initializer (CastExpr)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='createDeployable'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='factory'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='jonas4x'
+91 argument (StringLiteralExpr)
+92 value='ram:///test.ear'
+93 argument (FieldAccessExpr)
+94 name (SimpleName)
+95 identifier='EAR'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='DeployableType'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='EAR'
+102 name (SimpleName)
+103 identifier='ear'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='EAR'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='assertEquals'
+111 arguments
+112 argument (BinaryExpr)
+113 operator='PLUS'
+114 left (NameExpr)
+115 name (SimpleName)
+116 identifier='JONAS_BASE'
+117 right (StringLiteralExpr)
+118 value='/apps'
+119 argument (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='getDeployableDir'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='deployer'
+125 arguments
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='ear'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='createFile'
+133 scope (FieldAccessExpr)
+134 name (SimpleName)
+135 identifier='fileHandler'
+136 scope (ThisExpr)
+137 arguments
+138 argument (StringLiteralExpr)
+139 value='ram:///test.war'
+140 statement (ExpressionStmt)
+141 expression (VariableDeclarationExpr)
+142 variables
+143 variable (VariableDeclarator)
+144 initializer (CastExpr)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='createDeployable'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='factory'
+151 arguments
+152 argument (StringLiteralExpr)
+153 value='jonas4x'
+154 argument (StringLiteralExpr)
+155 value='ram:///test.war'
+156 argument (FieldAccessExpr)
+157 name (SimpleName)
+158 identifier='WAR'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='DeployableType'
+162 type (ClassOrInterfaceType)
+163 name (SimpleName)
+164 identifier='WAR'
+165 name (SimpleName)
+166 identifier='war'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='WAR'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='assertEquals'
+174 arguments
+175 argument (BinaryExpr)
+176 operator='PLUS'
+177 left (NameExpr)
+178 name (SimpleName)
+179 identifier='JONAS_BASE'
+180 right (StringLiteralExpr)
+181 value='/webapps'
+182 argument (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='getDeployableDir'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='deployer'
+188 arguments
+189 argument (NameExpr)
+190 name (SimpleName)
+191 identifier='war'
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='createFile'
+196 scope (FieldAccessExpr)
+197 name (SimpleName)
+198 identifier='fileHandler'
+199 scope (ThisExpr)
+200 arguments
+201 argument (StringLiteralExpr)
+202 value='ram:///test.rar'
+203 statement (ExpressionStmt)
+204 expression (VariableDeclarationExpr)
+205 variables
+206 variable (VariableDeclarator)
+207 initializer (CastExpr)
+208 expression (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='createDeployable'
+211 scope (NameExpr)
+212 name (SimpleName)
+213 identifier='factory'
+214 arguments
+215 argument (StringLiteralExpr)
+216 value='jonas4x'
+217 argument (StringLiteralExpr)
+218 value='ram:///test.rar'
+219 argument (FieldAccessExpr)
+220 name (SimpleName)
+221 identifier='RAR'
+222 scope (NameExpr)
+223 name (SimpleName)
+224 identifier='DeployableType'
+225 type (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='RAR'
+228 name (SimpleName)
+229 identifier='rar'
+230 type (ClassOrInterfaceType)
+231 name (SimpleName)
+232 identifier='RAR'
+233 statement (ExpressionStmt)
+234 expression (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='assertEquals'
+237 arguments
+238 argument (BinaryExpr)
+239 operator='PLUS'
+240 left (NameExpr)
+241 name (SimpleName)
+242 identifier='JONAS_BASE'
+243 right (StringLiteralExpr)
+244 value='/rars'
+245 argument (MethodCallExpr)
+246 name (SimpleName)
+247 identifier='getDeployableDir'
+248 scope (NameExpr)
+249 name (SimpleName)
+250 identifier='deployer'
+251 arguments
+252 argument (NameExpr)
+253 name (SimpleName)
+254 identifier='rar'
+255 type (VoidType)
+256 name (SimpleName)
+257 identifier='testGetDeployableDir'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+4 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+25 28
+28 29
+25 30
+30 31
+31 32
+30 33
+33 34
+34 35
+18 36
+36 37
+37 38
+17 39
+39 40
+17 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+49 51
+51 52
+52 53
+49 54
+54 55
+48 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+67 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+88 91
+91 92
+88 93
+93 94
+94 95
+93 96
+96 97
+97 98
+81 99
+99 100
+100 101
+80 102
+102 103
+80 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+112 114
+114 115
+115 116
+112 117
+117 118
+111 119
+119 120
+120 121
+119 122
+122 123
+123 124
+119 125
+125 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+133 136
+130 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+143 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+145 151
+151 152
+152 153
+151 154
+154 155
+151 156
+156 157
+157 158
+156 159
+159 160
+160 161
+144 162
+162 163
+163 164
+143 165
+165 166
+143 167
+167 168
+168 169
+2 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+175 177
+177 178
+178 179
+175 180
+180 181
+174 182
+182 183
+183 184
+182 185
+185 186
+186 187
+182 188
+188 189
+189 190
+190 191
+2 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+196 199
+193 200
+200 201
+201 202
+2 203
+203 204
+204 205
+205 206
+206 207
+207 208
+208 209
+209 210
+208 211
+211 212
+212 213
+208 214
+214 215
+215 216
+214 217
+217 218
+214 219
+219 220
+220 221
+219 222
+222 223
+223 224
+207 225
+225 226
+226 227
+206 228
+228 229
+206 230
+230 231
+231 232
+2 233
+233 234
+234 235
+235 236
+234 237
+237 238
+238 239
+238 240
+240 241
+241 242
+238 243
+243 244
+237 245
+245 246
+246 247
+245 248
+248 249
+249 250
+245 251
+251 252
+252 253
+253 254
+0 255
+0 256
+256 257
+
+Test the <code>getDeployableDir</code> method.

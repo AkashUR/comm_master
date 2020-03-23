@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='callReplicationSvc'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='storage'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='MODIFY_REPLICA_SYNCHRONIZATION'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='inArgs'
+17 argument (ArrayCreationExpr)
+18 elementType (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='CIMArgument'
+21 levels
+22 level (ArrayCreationLevel)
+23 dimension (IntegerLiteralExpr)
+24 value='5'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='callModifyReplica'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='storage'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='StorageSystem'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='inArgs'
+40 type (ArrayType)
+41 origin='TYPE'
+42 componentType (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='CIMArgument'
+45 thrownExceptions
+46 thrownException (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Exception'
+49 annotations
+50 annotation (SingleMemberAnnotationExpr)
+51 memberValue (StringLiteralExpr)
+52 value='rawtypes'
+53 name (Name)
+54 identifier='SuppressWarnings'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+28 36
+36 37
+36 38
+38 39
+36 40
+40 41
+40 42
+42 43
+43 44
+0 45
+45 46
+46 47
+47 48
+0 49
+49 50
+50 51
+51 52
+50 53
+53 54
+
+Convenience method that wraps SMI-S ModifyReplicatSynchronization operation

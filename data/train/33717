@@ -1,0 +1,298 @@
+148
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (StringLiteralExpr)
+18 value='<web-app>'
+19 right (StringLiteralExpr)
+20 value='  <context-param>'
+21 right (StringLiteralExpr)
+22 value='    <param-name>param</param-name>'
+23 right (StringLiteralExpr)
+24 value='    <param-value>value</param-value>'
+25 right (StringLiteralExpr)
+26 value='  </context-param>'
+27 right (StringLiteralExpr)
+28 value='</web-app>'
+29 name (SimpleName)
+30 identifier='srcXml'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+34 statement (ExpressionStmt)
+35 expression (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 initializer (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='parseWebXml'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='WebXmlIo'
+44 arguments
+45 argument (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='ByteArrayInputStream'
+49 arguments
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getBytes'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='srcXml'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='UTF-8'
+59 argument (NullLiteralExpr)
+60 name (SimpleName)
+61 identifier='srcWebXml'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='WebXml'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='parseWebXml'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='WebXmlIo'
+75 arguments
+76 argument (ObjectCreationExpr)
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='ByteArrayInputStream'
+80 arguments
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getBytes'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='srcXml'
+87 arguments
+88 argument (StringLiteralExpr)
+89 value='UTF-8'
+90 argument (NullLiteralExpr)
+91 name (SimpleName)
+92 identifier='mergeWebXml'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='WebXml'
+96 statement (ExpressionStmt)
+97 expression (VariableDeclarationExpr)
+98 variables
+99 variable (VariableDeclarator)
+100 initializer (ObjectCreationExpr)
+101 type (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='WebXmlMerger'
+104 arguments
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='srcWebXml'
+108 name (SimpleName)
+109 identifier='merger'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='WebXmlMerger'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='merge'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='merger'
+120 arguments
+121 argument (NameExpr)
+122 name (SimpleName)
+123 identifier='mergeWebXml'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='assertTrue'
+128 arguments
+129 argument (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='hasContextParam'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='WebXmlUtils'
+135 arguments
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='srcWebXml'
+139 argument (StringLiteralExpr)
+140 value='param'
+141 type (VoidType)
+142 name (SimpleName)
+143 identifier='testMergeOneContextParamIntoDocumentWithSameContextParam'
+144 thrownExceptions
+145 thrownException (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+15 19
+19 20
+13 21
+21 22
+11 23
+23 24
+9 25
+25 26
+7 27
+27 28
+6 29
+29 30
+6 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+44 59
+37 60
+60 61
+37 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+75 90
+68 91
+91 92
+68 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+99 100
+100 101
+101 102
+102 103
+100 104
+104 105
+105 106
+106 107
+99 108
+108 109
+99 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+129 135
+135 136
+136 137
+137 138
+135 139
+139 140
+0 141
+0 142
+142 143
+0 144
+144 145
+145 146
+146 147
+
+Tests whether a single context param in the merge descriptor is ignored because a context param with the same name already exists in the source descriptor.

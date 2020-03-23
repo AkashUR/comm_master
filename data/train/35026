@@ -1,0 +1,312 @@
+155
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='MULTIPLY'
+9 left (BinaryExpr)
+10 operator='DIVIDE'
+11 left (EnclosedExpr)
+12 inner (BinaryExpr)
+13 operator='PLUS'
+14 left (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='particleAge'
+17 scope (ThisExpr)
+18 right (NameExpr)
+19 name (SimpleName)
+20 identifier='partialTicks'
+21 right (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='particleMaxAge'
+24 scope (ThisExpr)
+25 right (DoubleLiteralExpr)
+26 value='32.0F'
+27 name (SimpleName)
+28 identifier='f'
+29 type (PrimitiveType)
+30 type='FLOAT'
+31 statement (ExpressionStmt)
+32 expression (AssignExpr)
+33 operator='ASSIGN'
+34 target (NameExpr)
+35 name (SimpleName)
+36 identifier='f'
+37 value (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='clamp_float'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='MathHelper'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='f'
+47 argument (DoubleLiteralExpr)
+48 value='0.0F'
+49 argument (DoubleLiteralExpr)
+50 value='1.0F'
+51 statement (ExpressionStmt)
+52 expression (AssignExpr)
+53 operator='ASSIGN'
+54 target (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='particleScale'
+57 scope (ThisExpr)
+58 value (BinaryExpr)
+59 operator='MULTIPLY'
+60 left (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='smokeParticleScale'
+63 scope (ThisExpr)
+64 right (NameExpr)
+65 name (SimpleName)
+66 identifier='f'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='renderParticle'
+71 scope (SuperExpr)
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='worldRendererIn'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='entityIn'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='partialTicks'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='rotationX'
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='rotationZ'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='rotationYZ'
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='rotationXY'
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='rotationXZ'
+97 type (VoidType)
+98 name (SimpleName)
+99 identifier='renderParticle'
+100 parameters
+101 parameter (Parameter)
+102 isVarArgs='false'
+103 name (SimpleName)
+104 identifier='worldRendererIn'
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='VertexBuffer'
+108 parameter (Parameter)
+109 isVarArgs='false'
+110 name (SimpleName)
+111 identifier='entityIn'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='Entity'
+115 parameter (Parameter)
+116 isVarArgs='false'
+117 name (SimpleName)
+118 identifier='partialTicks'
+119 type (PrimitiveType)
+120 type='FLOAT'
+121 parameter (Parameter)
+122 isVarArgs='false'
+123 name (SimpleName)
+124 identifier='rotationX'
+125 type (PrimitiveType)
+126 type='FLOAT'
+127 parameter (Parameter)
+128 isVarArgs='false'
+129 name (SimpleName)
+130 identifier='rotationZ'
+131 type (PrimitiveType)
+132 type='FLOAT'
+133 parameter (Parameter)
+134 isVarArgs='false'
+135 name (SimpleName)
+136 identifier='rotationYZ'
+137 type (PrimitiveType)
+138 type='FLOAT'
+139 parameter (Parameter)
+140 isVarArgs='false'
+141 name (SimpleName)
+142 identifier='rotationXY'
+143 type (PrimitiveType)
+144 type='FLOAT'
+145 parameter (Parameter)
+146 isVarArgs='false'
+147 name (SimpleName)
+148 identifier='rotationXZ'
+149 type (PrimitiveType)
+150 type='FLOAT'
+151 annotations
+152 annotation (MarkerAnnotationExpr)
+153 name (Name)
+154 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+12 13
+12 14
+14 15
+15 16
+14 17
+12 18
+18 19
+19 20
+9 21
+21 22
+22 23
+21 24
+7 25
+25 26
+6 27
+27 28
+6 29
+29 30
+2 31
+31 32
+32 33
+32 34
+34 35
+35 36
+32 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+43 47
+47 48
+43 49
+49 50
+2 51
+51 52
+52 53
+52 54
+54 55
+55 56
+54 57
+52 58
+58 59
+58 60
+60 61
+61 62
+60 63
+58 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+68 72
+72 73
+73 74
+74 75
+72 76
+76 77
+77 78
+72 79
+79 80
+80 81
+72 82
+82 83
+83 84
+72 85
+85 86
+86 87
+72 88
+88 89
+89 90
+72 91
+91 92
+92 93
+72 94
+94 95
+95 96
+0 97
+0 98
+98 99
+0 100
+100 101
+101 102
+101 103
+103 104
+101 105
+105 106
+106 107
+100 108
+108 109
+108 110
+110 111
+108 112
+112 113
+113 114
+100 115
+115 116
+115 117
+117 118
+115 119
+119 120
+100 121
+121 122
+121 123
+123 124
+121 125
+125 126
+100 127
+127 128
+127 129
+129 130
+127 131
+131 132
+100 133
+133 134
+133 135
+135 136
+133 137
+137 138
+100 139
+139 140
+139 141
+141 142
+139 143
+143 144
+100 145
+145 146
+145 147
+147 148
+145 149
+149 150
+0 151
+151 152
+152 153
+153 154
+
+Renders the particle

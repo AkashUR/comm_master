@@ -1,0 +1,224 @@
+111
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (StringLiteralExpr)
+10 value='java/lang/'
+11 right (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getSimpleName'
+14 scope (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='wrapperType'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='wrapper'
+20 name (SimpleName)
+21 identifier='owner'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='String'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (BinaryExpr)
+30 operator='PLUS'
+31 left (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='primitiveSimpleName'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='wrapper'
+37 right (StringLiteralExpr)
+38 value='Value'
+39 name (SimpleName)
+40 identifier='name'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='String'
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (BinaryExpr)
+49 operator='PLUS'
+50 left (StringLiteralExpr)
+51 value='()'
+52 right (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='basicTypeChar'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='wrapper'
+58 name (SimpleName)
+59 identifier='desc'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='String'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='emitReferenceCast'
+67 arguments
+68 argument (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='wrapperType'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='wrapper'
+74 argument (NullLiteralExpr)
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='visitMethodInsn'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='mv'
+82 arguments
+83 argument (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='INVOKEVIRTUAL'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='Opcodes'
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='owner'
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='name'
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='desc'
+98 argument (BooleanLiteralExpr)
+99 value='false'
+100 type (VoidType)
+101 name (SimpleName)
+102 identifier='emitUnboxing'
+103 parameters
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='wrapper'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='Wrapper'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+29 31
+31 32
+32 33
+31 34
+34 35
+35 36
+29 37
+37 38
+28 39
+39 40
+28 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+52 55
+55 56
+56 57
+47 58
+58 59
+47 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+67 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+82 89
+89 90
+90 91
+82 92
+92 93
+93 94
+82 95
+95 96
+96 97
+82 98
+98 99
+0 100
+0 101
+101 102
+0 103
+103 104
+104 105
+104 106
+106 107
+104 108
+108 109
+109 110
+
+Emit an unboxing call (plus preceding checkcast).

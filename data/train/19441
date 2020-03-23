@@ -1,0 +1,54 @@
+26
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='log'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='app'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Gdx'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='TAG'
+17 argument (StringLiteralExpr)
+18 value='Resumed'
+19 type (VoidType)
+20 name (SimpleName)
+21 identifier='resume'
+22 annotations
+23 annotation (MarkerAnnotationExpr)
+24 name (Name)
+25 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+13 17
+17 18
+0 19
+0 20
+20 21
+0 22
+22 23
+23 24
+24 25
+
+Called when the game regains focus after being paused. This is mostly relevant on Android, where the game can be paused by pressing the home button, but dispose is not called. When the game is relaunched, resume will be called.

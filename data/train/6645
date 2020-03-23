@@ -1,0 +1,176 @@
+87
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='buildFilePath'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='x'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='y'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='zoomLevel'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getFileExt'
+23 name (SimpleName)
+24 identifier='imagePath'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='String'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='loadTile'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='imagePath'
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='x'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='y'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='zoomLevel'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='proj'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='list'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='loadTile'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='x'
+59 type (PrimitiveType)
+60 type='INT'
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='y'
+65 type (PrimitiveType)
+66 type='INT'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='zoomLevel'
+71 type (PrimitiveType)
+72 type='INT'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='proj'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Projection'
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='list'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='OMGraphicList'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+6 23
+23 24
+6 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+32 36
+36 37
+37 38
+32 39
+39 40
+40 41
+32 42
+42 43
+43 44
+32 45
+45 46
+46 47
+32 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+54 61
+61 62
+61 63
+63 64
+61 65
+65 66
+54 67
+67 68
+67 69
+69 70
+67 71
+71 72
+54 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+54 80
+80 81
+80 82
+82 83
+80 84
+84 85
+85 86
+
+Handles going to the cache, getting the cache to load the tile, and then manage the resulting OMRaster tile. Adds the tile to the list after generating it with the projection, and calls the repaintCallback if there is one. Handles creating the image file path given the other info.

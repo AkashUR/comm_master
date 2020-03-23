@@ -1,0 +1,302 @@
+150
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='randomTerm'
+10 name (SimpleName)
+11 identifier='t1'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Term'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='randomTerm'
+22 name (SimpleName)
+23 identifier='t2'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Term'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='Builder'
+35 scope (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='BooleanQuery'
+38 name (SimpleName)
+39 identifier='q1'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Builder'
+43 scope (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='BooleanQuery'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='add'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='q1'
+53 arguments
+54 argument (ObjectCreationExpr)
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='TermQuery'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='t1'
+62 argument (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='SHOULD'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='Occur'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='add'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='q1'
+75 arguments
+76 argument (ObjectCreationExpr)
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='TermQuery'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='t2'
+84 argument (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='SHOULD'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='Occur'
+90 statement (ExpressionStmt)
+91 expression (VariableDeclarationExpr)
+92 variables
+93 variable (VariableDeclarator)
+94 initializer (ObjectCreationExpr)
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='DisjunctionMaxQuery'
+98 arguments
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='asList'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='Arrays'
+105 arguments
+106 argument (ObjectCreationExpr)
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='TermQuery'
+110 arguments
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='t1'
+114 argument (ObjectCreationExpr)
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='TermQuery'
+118 arguments
+119 argument (NameExpr)
+120 name (SimpleName)
+121 identifier='t2'
+122 argument (DoubleLiteralExpr)
+123 value='0.5f'
+124 name (SimpleName)
+125 identifier='q2'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='DisjunctionMaxQuery'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='assertSameSet'
+133 arguments
+134 argument (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='build'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='q1'
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='q2'
+143 type (VoidType)
+144 name (SimpleName)
+145 identifier='testDisjunctionSumVersusDisjunctionMax'
+146 thrownExceptions
+147 thrownException (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+18 22
+22 23
+18 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+30 38
+38 39
+30 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+60 61
+53 62
+62 63
+63 64
+62 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+82 83
+75 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+94 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+107 108
+108 109
+106 110
+110 111
+111 112
+112 113
+105 114
+114 115
+115 116
+116 117
+114 118
+118 119
+119 120
+120 121
+98 122
+122 123
+93 124
+124 125
+93 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+133 140
+140 141
+141 142
+0 143
+0 144
+144 145
+0 146
+146 147
+147 148
+148 149
+
+(A B) = (A | B)

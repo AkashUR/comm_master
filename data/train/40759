@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='SELECT EXISTS(SELECT 1 FROM MockModel WHERE intField = ? )'
+9 name (SimpleName)
+10 identifier='expected'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='toExistsSql'
+21 scope (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='where'
+24 scope (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='from'
+27 scope (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Select'
+31 arguments
+32 argument (ClassExpr)
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='MockModel'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='intField = ?'
+39 argument (IntegerLiteralExpr)
+40 value='1'
+41 name (SimpleName)
+42 identifier='actual'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='String'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='assertEquals'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='expected'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='actual'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='testCountWhereClauseSql'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+24 31
+31 32
+32 33
+33 34
+34 35
+21 36
+36 37
+37 38
+36 39
+39 40
+17 41
+41 42
+17 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+0 57
+0 58
+58 59
+
+Should be an exists with the specified where-clause.

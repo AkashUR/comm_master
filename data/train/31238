@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clearCache'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='classIntrospector'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='clearClassIntrospecitonCache'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+
+Removes all class introspection data from the cache. <p>Use this if you want to free up memory on the expense of recreating the cache entries for the classes that will be used later in templates.

@@ -1,0 +1,290 @@
+144
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='DecimalFormat'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='0'
+14 name (SimpleName)
+15 identifier='nf'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='NumberFormat'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='RelativeDateFormat'
+27 name (SimpleName)
+28 identifier='df1'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='RelativeDateFormat'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='setSecondFormatter'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='df1'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='nf'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (NullLiteralExpr)
+48 name (SimpleName)
+49 identifier='df2'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='RelativeDateFormat'
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (NameExpr)
+57 name (SimpleName)
+58 identifier='df2'
+59 value (CastExpr)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='clone'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='df1'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='RelativeDateFormat'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='assertTrue'
+73 arguments
+74 argument (BinaryExpr)
+75 operator='NOT_EQUALS'
+76 left (NameExpr)
+77 name (SimpleName)
+78 identifier='df1'
+79 right (NameExpr)
+80 name (SimpleName)
+81 identifier='df2'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='assertTrue'
+86 arguments
+87 argument (BinaryExpr)
+88 operator='EQUALS'
+89 left (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='getClass'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='df1'
+95 right (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='getClass'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='df2'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='assertTrue'
+105 arguments
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='equals'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='df1'
+112 arguments
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='df2'
+116 statement (ExpressionStmt)
+117 expression (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='setMinimumFractionDigits'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='nf'
+123 arguments
+124 argument (IntegerLiteralExpr)
+125 value='2'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='assertFalse'
+130 arguments
+131 argument (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='equals'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='df1'
+137 arguments
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='df2'
+141 type (VoidType)
+142 name (SimpleName)
+143 identifier='testCloning'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+22 27
+27 28
+22 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+54 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+59 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+74 76
+76 77
+77 78
+74 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+87 89
+89 90
+90 91
+89 92
+92 93
+93 94
+87 95
+95 96
+96 97
+95 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+114 115
+2 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+117 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+131 137
+137 138
+138 139
+139 140
+0 141
+0 142
+142 143
+
+Confirm that cloning works.

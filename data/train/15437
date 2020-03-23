@@ -1,0 +1,68 @@
+33
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='pushFrame'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getParentStack'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='SessionScopedData'
+15 arguments
+16 argument (StringLiteralExpr)
+17 value='<RandomSessionKey>'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='pushFrame'
+22 scope (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getParentStack'
+25 arguments
+26 argument (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='SecondInSessionViewPresenter'
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='mainViewClicked'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+28 29
+0 30
+0 31
+31 32
+
+This represents some app nav action which happens via the parent FatStack. Called by UI in production or called directly in tests. At this point you will generally want to 1) push another UI frame on the stack 2) push a scoped-data frame on the stack and then a UI frame.

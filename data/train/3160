@@ -1,0 +1,706 @@
+352
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (MethodCallExpr)
+7 name (SimpleName)
+8 identifier='createBoundArray'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='EvoSVM'
+12 arguments
+13 argument (DoubleLiteralExpr)
+14 value='0.0d'
+15 argument (BinaryExpr)
+16 operator='MULTIPLY'
+17 left (IntegerLiteralExpr)
+18 value='2'
+19 right (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='size'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='exampleSet'
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='determineMax'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='EvoSVM'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='c'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='kernel'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='exampleSet'
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='selectionType'
+44 argument (BinaryExpr)
+45 operator='MULTIPLY'
+46 left (IntegerLiteralExpr)
+47 value='2'
+48 right (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='size'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='exampleSet'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='popSize'
+57 argument (BinaryExpr)
+58 operator='MULTIPLY'
+59 left (IntegerLiteralExpr)
+60 value='2'
+61 right (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='size'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='exampleSet'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='initType'
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='maxIterations'
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='generationsWithoutImprovement'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='selectionType'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='tournamentFraction'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='keepBest'
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='mutationType'
+88 argument (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='NaN'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='Double'
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='crossoverProb'
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='showConvergencePlot'
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='showPopulationPlot'
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='random'
+106 argument (NameExpr)
+107 name (SimpleName)
+108 identifier='logging'
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='executingOperator'
+112 statement (ExpressionStmt)
+113 expression (AssignExpr)
+114 operator='ASSIGN'
+115 target (FieldAccessExpr)
+116 name (SimpleName)
+117 identifier='exampleSet'
+118 scope (ThisExpr)
+119 value (NameExpr)
+120 name (SimpleName)
+121 identifier='exampleSet'
+122 statement (ExpressionStmt)
+123 expression (AssignExpr)
+124 operator='ASSIGN'
+125 target (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='kernel'
+128 scope (ThisExpr)
+129 value (NameExpr)
+130 name (SimpleName)
+131 identifier='kernel'
+132 statement (ExpressionStmt)
+133 expression (AssignExpr)
+134 operator='ASSIGN'
+135 target (FieldAccessExpr)
+136 name (SimpleName)
+137 identifier='ys'
+138 scope (ThisExpr)
+139 value (ArrayCreationExpr)
+140 elementType (PrimitiveType)
+141 type='DOUBLE'
+142 levels
+143 level (ArrayCreationLevel)
+144 dimension (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='size'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='exampleSet'
+150 statement (ExpressionStmt)
+151 expression (VariableDeclarationExpr)
+152 variables
+153 variable (VariableDeclarator)
+154 initializer (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='iterator'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='exampleSet'
+160 name (SimpleName)
+161 identifier='reader'
+162 type (ClassOrInterfaceType)
+163 name (SimpleName)
+164 identifier='Iterator'
+165 typeArguments
+166 typeArgument (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='Example'
+169 statement (ExpressionStmt)
+170 expression (VariableDeclarationExpr)
+171 variables
+172 variable (VariableDeclarator)
+173 initializer (IntegerLiteralExpr)
+174 value='0'
+175 name (SimpleName)
+176 identifier='index'
+177 type (PrimitiveType)
+178 type='INT'
+179 statement (WhileStmt)
+180 body (BlockStmt)
+181 statements
+182 statement (ExpressionStmt)
+183 expression (VariableDeclarationExpr)
+184 variables
+185 variable (VariableDeclarator)
+186 initializer (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='next'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='reader'
+192 name (SimpleName)
+193 identifier='example'
+194 type (ClassOrInterfaceType)
+195 name (SimpleName)
+196 identifier='Example'
+197 statement (ExpressionStmt)
+198 expression (AssignExpr)
+199 operator='ASSIGN'
+200 target (ArrayAccessExpr)
+201 index (UnaryExpr)
+202 operator='POSTFIX_INCREMENT'
+203 expression (NameExpr)
+204 name (SimpleName)
+205 identifier='index'
+206 name (NameExpr)
+207 name (SimpleName)
+208 identifier='ys'
+209 value (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='getLabel'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='example'
+215 condition (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='hasNext'
+218 scope (NameExpr)
+219 name (SimpleName)
+220 identifier='reader'
+221 statement (ExpressionStmt)
+222 expression (AssignExpr)
+223 operator='ASSIGN'
+224 target (FieldAccessExpr)
+225 name (SimpleName)
+226 identifier='optimizationFunction'
+227 scope (ThisExpr)
+228 value (ObjectCreationExpr)
+229 type (ClassOrInterfaceType)
+230 name (SimpleName)
+231 identifier='RegressionOptimizationFunction'
+232 arguments
+233 argument (NameExpr)
+234 name (SimpleName)
+235 identifier='epsilon'
+236 name (SimpleName)
+237 identifier='RegressionEvoOptimization'
+238 parameters
+239 parameter (Parameter)
+240 isVarArgs='false'
+241 name (SimpleName)
+242 identifier='exampleSet'
+243 type (ClassOrInterfaceType)
+244 name (SimpleName)
+245 identifier='ExampleSet'
+246 parameter (Parameter)
+247 isVarArgs='false'
+248 name (SimpleName)
+249 identifier='kernel'
+250 type (ClassOrInterfaceType)
+251 name (SimpleName)
+252 identifier='Kernel'
+253 parameter (Parameter)
+254 isVarArgs='false'
+255 name (SimpleName)
+256 identifier='c'
+257 type (PrimitiveType)
+258 type='DOUBLE'
+259 parameter (Parameter)
+260 isVarArgs='false'
+261 name (SimpleName)
+262 identifier='epsilon'
+263 type (PrimitiveType)
+264 type='DOUBLE'
+265 parameter (Parameter)
+266 isVarArgs='false'
+267 name (SimpleName)
+268 identifier='initType'
+269 type (PrimitiveType)
+270 type='INT'
+271 parameter (Parameter)
+272 isVarArgs='false'
+273 name (SimpleName)
+274 identifier='maxIterations'
+275 type (PrimitiveType)
+276 type='INT'
+277 parameter (Parameter)
+278 isVarArgs='false'
+279 name (SimpleName)
+280 identifier='generationsWithoutImprovement'
+281 type (PrimitiveType)
+282 type='INT'
+283 parameter (Parameter)
+284 isVarArgs='false'
+285 name (SimpleName)
+286 identifier='popSize'
+287 type (PrimitiveType)
+288 type='INT'
+289 parameter (Parameter)
+290 isVarArgs='false'
+291 name (SimpleName)
+292 identifier='selectionType'
+293 type (PrimitiveType)
+294 type='INT'
+295 parameter (Parameter)
+296 isVarArgs='false'
+297 name (SimpleName)
+298 identifier='tournamentFraction'
+299 type (PrimitiveType)
+300 type='DOUBLE'
+301 parameter (Parameter)
+302 isVarArgs='false'
+303 name (SimpleName)
+304 identifier='keepBest'
+305 type (PrimitiveType)
+306 type='BOOLEAN'
+307 parameter (Parameter)
+308 isVarArgs='false'
+309 name (SimpleName)
+310 identifier='mutationType'
+311 type (PrimitiveType)
+312 type='INT'
+313 parameter (Parameter)
+314 isVarArgs='false'
+315 name (SimpleName)
+316 identifier='crossoverProb'
+317 type (PrimitiveType)
+318 type='DOUBLE'
+319 parameter (Parameter)
+320 isVarArgs='false'
+321 name (SimpleName)
+322 identifier='showConvergencePlot'
+323 type (PrimitiveType)
+324 type='BOOLEAN'
+325 parameter (Parameter)
+326 isVarArgs='false'
+327 name (SimpleName)
+328 identifier='showPopulationPlot'
+329 type (PrimitiveType)
+330 type='BOOLEAN'
+331 parameter (Parameter)
+332 isVarArgs='false'
+333 name (SimpleName)
+334 identifier='random'
+335 type (ClassOrInterfaceType)
+336 name (SimpleName)
+337 identifier='RandomGenerator'
+338 parameter (Parameter)
+339 isVarArgs='false'
+340 name (SimpleName)
+341 identifier='logging'
+342 type (ClassOrInterfaceType)
+343 name (SimpleName)
+344 identifier='LoggingHandler'
+345 parameter (Parameter)
+346 isVarArgs='false'
+347 name (SimpleName)
+348 identifier='executingOperator'
+349 type (ClassOrInterfaceType)
+350 name (SimpleName)
+351 identifier='Operator'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+6 12
+12 13
+13 14
+12 15
+15 16
+15 17
+17 18
+15 19
+19 20
+20 21
+19 22
+22 23
+23 24
+5 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+31 38
+38 39
+39 40
+31 41
+41 42
+42 43
+31 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+48 51
+51 52
+52 53
+5 54
+54 55
+55 56
+5 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+61 64
+64 65
+65 66
+5 67
+67 68
+68 69
+5 70
+70 71
+71 72
+5 73
+73 74
+74 75
+5 76
+76 77
+77 78
+5 79
+79 80
+80 81
+5 82
+82 83
+83 84
+5 85
+85 86
+86 87
+5 88
+88 89
+89 90
+88 91
+91 92
+92 93
+5 94
+94 95
+95 96
+5 97
+97 98
+98 99
+5 100
+100 101
+101 102
+5 103
+103 104
+104 105
+5 106
+106 107
+107 108
+5 109
+109 110
+110 111
+2 112
+112 113
+113 114
+113 115
+115 116
+116 117
+115 118
+113 119
+119 120
+120 121
+2 122
+122 123
+123 124
+123 125
+125 126
+126 127
+125 128
+123 129
+129 130
+130 131
+2 132
+132 133
+133 134
+133 135
+135 136
+136 137
+135 138
+133 139
+139 140
+140 141
+139 142
+142 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+153 160
+160 161
+153 162
+162 163
+163 164
+162 165
+165 166
+166 167
+167 168
+2 169
+169 170
+170 171
+171 172
+172 173
+173 174
+172 175
+175 176
+172 177
+177 178
+2 179
+179 180
+180 181
+181 182
+182 183
+183 184
+184 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+185 192
+192 193
+185 194
+194 195
+195 196
+181 197
+197 198
+198 199
+198 200
+200 201
+201 202
+201 203
+203 204
+204 205
+200 206
+206 207
+207 208
+198 209
+209 210
+210 211
+209 212
+212 213
+213 214
+179 215
+215 216
+216 217
+215 218
+218 219
+219 220
+2 221
+221 222
+222 223
+222 224
+224 225
+225 226
+224 227
+222 228
+228 229
+229 230
+230 231
+228 232
+232 233
+233 234
+234 235
+0 236
+236 237
+0 238
+238 239
+239 240
+239 241
+241 242
+239 243
+243 244
+244 245
+238 246
+246 247
+246 248
+248 249
+246 250
+250 251
+251 252
+238 253
+253 254
+253 255
+255 256
+253 257
+257 258
+238 259
+259 260
+259 261
+261 262
+259 263
+263 264
+238 265
+265 266
+265 267
+267 268
+265 269
+269 270
+238 271
+271 272
+271 273
+273 274
+271 275
+275 276
+238 277
+277 278
+277 279
+279 280
+277 281
+281 282
+238 283
+283 284
+283 285
+285 286
+283 287
+287 288
+238 289
+289 290
+289 291
+291 292
+289 293
+293 294
+238 295
+295 296
+295 297
+297 298
+295 299
+299 300
+238 301
+301 302
+301 303
+303 304
+301 305
+305 306
+238 307
+307 308
+307 309
+309 310
+307 311
+311 312
+238 313
+313 314
+313 315
+315 316
+313 317
+317 318
+238 319
+319 320
+319 321
+321 322
+319 323
+323 324
+238 325
+325 326
+325 327
+327 328
+325 329
+329 330
+238 331
+331 332
+331 333
+333 334
+331 335
+335 336
+336 337
+238 338
+338 339
+338 340
+340 341
+338 342
+342 343
+343 344
+238 345
+345 346
+345 347
+347 348
+345 349
+349 350
+350 351
+
+Creates a new evolutionary SVM optimization.

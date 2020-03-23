@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (NameExpr)
+5 name (SimpleName)
+6 identifier='state'
+7 entries
+8 entrie (SwitchEntryStmt)
+9 label (NameExpr)
+10 name (SimpleName)
+11 identifier='DISABLED'
+12 statements
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='disabledInit'
+17 statement (BreakStmt)
+18 entrie (SwitchEntryStmt)
+19 label (NameExpr)
+20 name (SimpleName)
+21 identifier='AUTONOMOUS'
+22 statements
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='autonomousInit'
+27 statement (BreakStmt)
+28 entrie (SwitchEntryStmt)
+29 label (NameExpr)
+30 name (SimpleName)
+31 identifier='TELEOP'
+32 statements
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='teleopInit'
+37 statement (BreakStmt)
+38 entrie (SwitchEntryStmt)
+39 label (NameExpr)
+40 name (SimpleName)
+41 identifier='TEST'
+42 statements
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='testInit'
+47 statement (BreakStmt)
+48 type (VoidType)
+49 name (SimpleName)
+50 identifier='transitionState'
+51 parameters
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='state'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='RobotState'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='oldState'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='RobotState'
+66 annotations
+67 annotation (MarkerAnnotationExpr)
+68 name (Name)
+69 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+3 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+14 15
+15 16
+12 17
+7 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+24 25
+25 26
+22 27
+7 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+34 35
+35 36
+32 37
+7 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+44 45
+45 46
+42 47
+0 48
+0 49
+49 50
+0 51
+51 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+51 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+0 66
+66 67
+67 68
+68 69
+
+Called when a transition between 2 states occurs. This involves the robot migrating from a state (such as disabled) to another state (such as autonomous).

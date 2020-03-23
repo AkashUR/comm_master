@@ -1,0 +1,580 @@
+289
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Condition'
+11 name (SimpleName)
+12 identifier='c'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Condition'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setType'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='c'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='cookie'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='setName'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='c'
+33 arguments
+34 argument (StringLiteralExpr)
+35 value='abcdef'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (ObjectCreationExpr)
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='NormalRule'
+44 name (SimpleName)
+45 identifier='rule'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='NormalRule'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='setFrom'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='rule'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='/a\\.jsp'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='setTo'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='rule'
+66 arguments
+67 argument (StringLiteralExpr)
+68 value='/b.jsp'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='addCondition'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='rule'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='c'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='initialise'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='rule'
+87 arguments
+88 argument (NullLiteralExpr)
+89 statement (ExpressionStmt)
+90 expression (VariableDeclarationExpr)
+91 variables
+92 variable (VariableDeclarator)
+93 initializer (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='matches'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='rule'
+99 arguments
+100 argument (StringLiteralExpr)
+101 value='/a.jsp'
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='request'
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='response'
+108 name (SimpleName)
+109 identifier='rewrittenUrl'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='RewrittenUrl'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='assertTrue'
+117 arguments
+118 argument (BinaryExpr)
+119 operator='EQUALS'
+120 left (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='getCookies'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='request'
+126 right (NullLiteralExpr)
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='assertTrue'
+131 arguments
+132 argument (BinaryExpr)
+133 operator='EQUALS'
+134 left (NameExpr)
+135 name (SimpleName)
+136 identifier='rewrittenUrl'
+137 right (NullLiteralExpr)
+138 statement (ExpressionStmt)
+139 expression (AssignExpr)
+140 operator='ASSIGN'
+141 target (NameExpr)
+142 name (SimpleName)
+143 identifier='c'
+144 value (ObjectCreationExpr)
+145 type (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='Condition'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='setType'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='c'
+155 arguments
+156 argument (StringLiteralExpr)
+157 value='cookie'
+158 statement (ExpressionStmt)
+159 expression (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='setName'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='c'
+165 arguments
+166 argument (StringLiteralExpr)
+167 value='abcdef'
+168 statement (ExpressionStmt)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='setOperator'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='c'
+175 arguments
+176 argument (StringLiteralExpr)
+177 value='notequal'
+178 statement (ExpressionStmt)
+179 expression (AssignExpr)
+180 operator='ASSIGN'
+181 target (NameExpr)
+182 name (SimpleName)
+183 identifier='rule'
+184 value (ObjectCreationExpr)
+185 type (ClassOrInterfaceType)
+186 name (SimpleName)
+187 identifier='NormalRule'
+188 statement (ExpressionStmt)
+189 expression (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='setFrom'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='rule'
+195 arguments
+196 argument (StringLiteralExpr)
+197 value='/a\\.jsp'
+198 statement (ExpressionStmt)
+199 expression (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='setTo'
+202 scope (NameExpr)
+203 name (SimpleName)
+204 identifier='rule'
+205 arguments
+206 argument (StringLiteralExpr)
+207 value='/b.jsp'
+208 statement (ExpressionStmt)
+209 expression (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='addCondition'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='rule'
+215 arguments
+216 argument (NameExpr)
+217 name (SimpleName)
+218 identifier='c'
+219 statement (ExpressionStmt)
+220 expression (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='initialise'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='rule'
+226 arguments
+227 argument (NullLiteralExpr)
+228 statement (ExpressionStmt)
+229 expression (AssignExpr)
+230 operator='ASSIGN'
+231 target (NameExpr)
+232 name (SimpleName)
+233 identifier='rewrittenUrl'
+234 value (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='matches'
+237 scope (NameExpr)
+238 name (SimpleName)
+239 identifier='rule'
+240 arguments
+241 argument (StringLiteralExpr)
+242 value='/a.jsp'
+243 argument (NameExpr)
+244 name (SimpleName)
+245 identifier='request'
+246 argument (NameExpr)
+247 name (SimpleName)
+248 identifier='response'
+249 statement (ExpressionStmt)
+250 expression (MethodCallExpr)
+251 name (SimpleName)
+252 identifier='assertTrue'
+253 arguments
+254 argument (BinaryExpr)
+255 operator='EQUALS'
+256 left (MethodCallExpr)
+257 name (SimpleName)
+258 identifier='getCookies'
+259 scope (NameExpr)
+260 name (SimpleName)
+261 identifier='request'
+262 right (NullLiteralExpr)
+263 statement (ExpressionStmt)
+264 expression (MethodCallExpr)
+265 name (SimpleName)
+266 identifier='assertEquals'
+267 arguments
+268 argument (StringLiteralExpr)
+269 value='/b.jsp'
+270 argument (MethodCallExpr)
+271 name (SimpleName)
+272 identifier='getTarget'
+273 scope (NameExpr)
+274 name (SimpleName)
+275 identifier='rewrittenUrl'
+276 type (VoidType)
+277 name (SimpleName)
+278 identifier='testRuleCookieEmpty'
+279 thrownExceptions
+280 thrownException (ClassOrInterfaceType)
+281 name (SimpleName)
+282 identifier='IOException'
+283 thrownException (ClassOrInterfaceType)
+284 name (SimpleName)
+285 identifier='ServletException'
+286 thrownException (ClassOrInterfaceType)
+287 name (SimpleName)
+288 identifier='InvocationTargetException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+39 44
+44 45
+39 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+2 89
+89 90
+90 91
+91 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+92 108
+108 109
+92 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+118 120
+120 121
+121 122
+120 123
+123 124
+124 125
+118 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+132 134
+134 135
+135 136
+132 137
+2 138
+138 139
+139 140
+139 141
+141 142
+142 143
+139 144
+144 145
+145 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+2 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+2 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+169 175
+175 176
+176 177
+2 178
+178 179
+179 180
+179 181
+181 182
+182 183
+179 184
+184 185
+185 186
+186 187
+2 188
+188 189
+189 190
+190 191
+189 192
+192 193
+193 194
+189 195
+195 196
+196 197
+2 198
+198 199
+199 200
+200 201
+199 202
+202 203
+203 204
+199 205
+205 206
+206 207
+2 208
+208 209
+209 210
+210 211
+209 212
+212 213
+213 214
+209 215
+215 216
+216 217
+217 218
+2 219
+219 220
+220 221
+221 222
+220 223
+223 224
+224 225
+220 226
+226 227
+2 228
+228 229
+229 230
+229 231
+231 232
+232 233
+229 234
+234 235
+235 236
+234 237
+237 238
+238 239
+234 240
+240 241
+241 242
+240 243
+243 244
+244 245
+240 246
+246 247
+247 248
+2 249
+249 250
+250 251
+251 252
+250 253
+253 254
+254 255
+254 256
+256 257
+257 258
+256 259
+259 260
+260 261
+254 262
+2 263
+263 264
+264 265
+265 266
+264 267
+267 268
+268 269
+267 270
+270 271
+271 272
+270 273
+273 274
+274 275
+0 276
+0 277
+277 278
+0 279
+279 280
+280 281
+281 282
+279 283
+283 284
+284 285
+279 286
+286 287
+287 288
+
+<rule> <condition type="cookie" name="SAJKLHDSKJHDSKJHD" /> <from>/a\.jsp</from> <to>/b.jsp</to> </rule> <p/> (Which I think it means: "if the user asks for a.jsp and the cookie SAJKLHDSKJHDSKJHD is not set, redirect him to b.jsp") the rule stops working. Maybe it's because the cookie is null instead of an empty string, I don't know.

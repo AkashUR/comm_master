@@ -1,0 +1,110 @@
+54
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='isCIDFont'
+9 value (BooleanLiteralExpr)
+10 value='true'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='TTstreamisCID'
+17 value (NameExpr)
+18 name (SimpleName)
+19 identifier='ttflag'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='glyphs'
+26 value (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='TTGlyphs'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='init'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='currentPdfFile'
+38 name (SimpleName)
+39 identifier='CIDFontType2'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='currentPdfFile'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='PdfObjectReader'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='ttflag'
+52 type (PrimitiveType)
+53 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+40 48
+48 49
+48 50
+50 51
+48 52
+52 53
+
+get handles onto Reader so we can access the file

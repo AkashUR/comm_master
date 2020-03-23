@@ -1,0 +1,398 @@
+198
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onCreate'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='icicle'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='setContentView'
+16 arguments
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='main'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='layout'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='R'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getDataDirectory'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='Environment'
+36 name (SimpleName)
+37 identifier='path'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='File'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='StatFs'
+49 arguments
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getPath'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='path'
+56 name (SimpleName)
+57 identifier='stat'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='StatFs'
+61 statement (ExpressionStmt)
+62 expression (VariableDeclarationExpr)
+63 variables
+64 variable (VariableDeclarator)
+65 initializer (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getBlockCount'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='stat'
+71 name (SimpleName)
+72 identifier='totalBlocks'
+73 type (PrimitiveType)
+74 type='INT'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='ASSIGN'
+78 target (NameExpr)
+79 name (SimpleName)
+80 identifier='mBlockSize'
+81 value (CastExpr)
+82 expression (EnclosedExpr)
+83 inner (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getBlockSize'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='stat'
+89 type (PrimitiveType)
+90 type='INT'
+91 statement (ExpressionStmt)
+92 expression (VariableDeclarationExpr)
+93 variables
+94 variable (VariableDeclarator)
+95 initializer (CastExpr)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='findViewById'
+99 arguments
+100 argument (FieldAccessExpr)
+101 name (SimpleName)
+102 identifier='totalsize'
+103 scope (FieldAccessExpr)
+104 name (SimpleName)
+105 identifier='id'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='R'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='TextView'
+112 name (SimpleName)
+113 identifier='startSizeTextView'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='TextView'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='setText'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='startSizeTextView'
+124 arguments
+125 argument (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='toString'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='Long'
+131 arguments
+132 argument (BinaryExpr)
+133 operator='DIVIDE'
+134 left (EnclosedExpr)
+135 inner (BinaryExpr)
+136 operator='MULTIPLY'
+137 left (NameExpr)
+138 name (SimpleName)
+139 identifier='totalBlocks'
+140 right (NameExpr)
+141 name (SimpleName)
+142 identifier='mBlockSize'
+143 right (NameExpr)
+144 name (SimpleName)
+145 identifier='BYTE_SIZE'
+146 statement (ExpressionStmt)
+147 expression (VariableDeclarationExpr)
+148 variables
+149 variable (VariableDeclarator)
+150 initializer (CastExpr)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='findViewById'
+154 arguments
+155 argument (FieldAccessExpr)
+156 name (SimpleName)
+157 identifier='button_run'
+158 scope (FieldAccessExpr)
+159 name (SimpleName)
+160 identifier='id'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='R'
+164 type (ClassOrInterfaceType)
+165 name (SimpleName)
+166 identifier='Button'
+167 name (SimpleName)
+168 identifier='button'
+169 type (ClassOrInterfaceType)
+170 name (SimpleName)
+171 identifier='Button'
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='setOnClickListener'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='button'
+179 arguments
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='mStartListener'
+183 type (VoidType)
+184 name (SimpleName)
+185 identifier='onCreate'
+186 parameters
+187 parameter (Parameter)
+188 isVarArgs='false'
+189 name (SimpleName)
+190 identifier='icicle'
+191 type (ClassOrInterfaceType)
+192 name (SimpleName)
+193 identifier='Bundle'
+194 annotations
+195 annotation (MarkerAnnotationExpr)
+196 name (Name)
+197 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+29 36
+36 37
+29 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+44 56
+56 57
+44 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+64 71
+71 72
+64 73
+73 74
+2 75
+75 76
+76 77
+76 78
+78 79
+79 80
+76 81
+81 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+81 89
+89 90
+2 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+106 107
+107 108
+95 109
+109 110
+110 111
+94 112
+112 113
+94 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+132 134
+134 135
+135 136
+135 137
+137 138
+138 139
+135 140
+140 141
+141 142
+132 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+149 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+158 161
+161 162
+162 163
+150 164
+164 165
+165 166
+149 167
+167 168
+149 169
+169 170
+170 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+173 179
+179 180
+180 181
+181 182
+0 183
+0 184
+184 185
+0 186
+186 187
+187 188
+187 189
+189 190
+187 191
+191 192
+192 193
+0 194
+194 195
+195 196
+196 197
+
+Called when the activity is first created.

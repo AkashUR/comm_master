@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='write'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='tag'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='putLength'
+15 arguments
+16 argument (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='count'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='out'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='write'
+26 arguments
+27 argument (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='buf'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='out'
+33 argument (IntegerLiteralExpr)
+34 value='0'
+35 argument (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='count'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='out'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='write'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='tag'
+49 type (PrimitiveType)
+50 type='BYTE'
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='out'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='DerOutputStream'
+58 thrownExceptions
+59 thrownException (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+26 35
+35 36
+36 37
+35 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+44 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+0 58
+58 59
+59 60
+60 61
+
+Writes tagged data using buffer-to-buffer copy.  As above, this writes a standard DER record.  This is often used when efficiently encapsulating values in sequences.

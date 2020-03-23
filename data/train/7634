@@ -1,0 +1,72 @@
+35
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='log'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='TAG'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='msg'
+14 argument (IntegerLiteralExpr)
+15 value='3'
+16 argument (NullLiteralExpr)
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='log'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='TAG'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='String'
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='msg'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+7 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+20 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+
+This method allows you to output debug messages only when debugging is on. This will allow you to add a debug option to your app, which by default can be left off for performance. However, when you need debugging information, a simple switch can enable it and provide you with detailed logging. <p/> This method handles whether or not to log the information you pass it depending whether or not RootTools.debugMode is on. So you can use this and not have to worry about handling it yourself.

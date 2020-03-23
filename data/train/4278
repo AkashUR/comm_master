@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getFeedbackRequestMsg'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='XNetMessage'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='baseaddress'
+17 argument (EnclosedExpr)
+18 inner (BinaryExpr)
+19 operator='EQUALS'
+20 left (NameExpr)
+21 name (SimpleName)
+22 identifier='nibble'
+23 right (IntegerLiteralExpr)
+24 value='0x00'
+25 name (SimpleName)
+26 identifier='msg'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='XNetMessage'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='setElement'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='msg'
+37 arguments
+38 argument (IntegerLiteralExpr)
+39 value='1'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='baseaddress'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='setParity'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='msg'
+50 statement (SynchronizedStmt)
+51 body (BlockStmt)
+52 statements
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (NameExpr)
+57 name (SimpleName)
+58 identifier='statusRequested'
+59 value (BooleanLiteralExpr)
+60 value='true'
+61 expression (ThisExpr)
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='sendXNetMessage'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='tc'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='msg'
+73 argument (NullLiteralExpr)
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='requestUpdateFromLayout'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+6 25
+25 26
+6 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+53 54
+54 55
+54 56
+56 57
+57 58
+54 59
+59 60
+50 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+71 72
+69 73
+0 74
+0 75
+75 76
+
+request an update on status by sending an XPressNet message

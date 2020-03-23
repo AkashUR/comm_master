@@ -1,0 +1,436 @@
+217
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newInstance'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='DocumentBuilderFactory'
+13 name (SimpleName)
+14 identifier='factory'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='DocumentBuilderFactory'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='setNamespaceAware'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='factory'
+25 arguments
+26 argument (BooleanLiteralExpr)
+27 value='false'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='builder'
+34 value (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='newDocumentBuilder'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='factory'
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='ASSIGN'
+43 target (NameExpr)
+44 name (SimpleName)
+45 identifier='document'
+46 value (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='parse'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='builder'
+52 arguments
+53 argument (ObjectCreationExpr)
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='InputSource'
+57 arguments
+58 argument (ObjectCreationExpr)
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='StringReader'
+62 arguments
+63 argument (BinaryExpr)
+64 operator='PLUS'
+65 left (BinaryExpr)
+66 operator='PLUS'
+67 left (StringLiteralExpr)
+68 value='<menu '
+69 right (StringLiteralExpr)
+70 value='xmlns:f=\"http://food\" xmlns:a=\"http://addons\">'
+71 right (StringLiteralExpr)
+72 value='<f:item a:standard=\"strawberry\" deluxe=\"yes\">Waffles</f:item></menu>'
+73 statement (ExpressionStmt)
+74 expression (AssignExpr)
+75 operator='ASSIGN'
+76 target (NameExpr)
+77 name (SimpleName)
+78 identifier='name'
+79 value (CastExpr)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getFirstChild'
+83 scope (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getFirstChild'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='document'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Element'
+92 statement (ExpressionStmt)
+93 expression (VariableDeclarationExpr)
+94 variables
+95 variable (VariableDeclarator)
+96 initializer (CastExpr)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='cloneNode'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='name'
+103 arguments
+104 argument (BooleanLiteralExpr)
+105 value='true'
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='Element'
+109 name (SimpleName)
+110 identifier='clonedName'
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='Element'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='assertNull'
+118 arguments
+119 argument (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='getNamespaceURI'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='clonedName'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='assertEquals'
+129 arguments
+130 argument (StringLiteralExpr)
+131 value='f:item'
+132 argument (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getNodeName'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='clonedName'
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='assertNull'
+142 arguments
+143 argument (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='getLocalName'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='clonedName'
+149 statement (ExpressionStmt)
+150 expression (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='assertNull'
+153 arguments
+154 argument (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='getNamespaceURI'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='clonedName'
+160 statement (ExpressionStmt)
+161 expression (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='assertEquals'
+164 arguments
+165 argument (StringLiteralExpr)
+166 value='yes'
+167 argument (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='getAttribute'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='clonedName'
+173 arguments
+174 argument (StringLiteralExpr)
+175 value='deluxe'
+176 statement (ExpressionStmt)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='assertEquals'
+180 arguments
+181 argument (StringLiteralExpr)
+182 value='strawberry'
+183 argument (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='getAttribute'
+186 scope (NameExpr)
+187 name (SimpleName)
+188 identifier='clonedName'
+189 arguments
+190 argument (StringLiteralExpr)
+191 value='a:standard'
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='assertEquals'
+196 arguments
+197 argument (StringLiteralExpr)
+198 value=''
+199 argument (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='getAttributeNS'
+202 scope (NameExpr)
+203 name (SimpleName)
+204 identifier='clonedName'
+205 arguments
+206 argument (StringLiteralExpr)
+207 value='http://addons'
+208 argument (StringLiteralExpr)
+209 value='standard'
+210 type (VoidType)
+211 name (SimpleName)
+212 identifier='testCloneNodeNotNamespaceAware'
+213 thrownExceptions
+214 thrownException (ClassOrInterfaceType)
+215 name (SimpleName)
+216 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+35 36
+34 37
+37 38
+38 39
+2 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+55 56
+53 57
+57 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+63 65
+65 66
+65 67
+67 68
+65 69
+69 70
+63 71
+71 72
+2 73
+73 74
+74 75
+74 76
+76 77
+77 78
+74 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+83 86
+86 87
+87 88
+79 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+96 106
+106 107
+107 108
+95 109
+109 110
+95 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+133 134
+132 135
+135 136
+136 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+2 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+164 167
+167 168
+168 169
+167 170
+170 171
+171 172
+167 173
+173 174
+174 175
+2 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+180 183
+183 184
+184 185
+183 186
+186 187
+187 188
+183 189
+189 190
+190 191
+2 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+196 199
+199 200
+200 201
+199 202
+202 203
+203 204
+199 205
+205 206
+206 207
+205 208
+208 209
+0 210
+0 211
+211 212
+0 213
+213 214
+214 215
+215 216
+
+We can't use the namespace-aware factory method for non-namespace-aware nodes. http://code.google.com/p/android/issues/detail?id=2735

@@ -1,0 +1,130 @@
+64
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='connection'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='connection'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='setDoOutput'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='connection'
+20 arguments
+21 argument (BooleanLiteralExpr)
+22 value='true'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setDoInput'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='connection'
+30 arguments
+31 argument (BooleanLiteralExpr)
+32 value='true'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='setRequestProperty'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='connection'
+40 arguments
+41 argument (StringLiteralExpr)
+42 value='Content-Type'
+43 argument (BinaryExpr)
+44 operator='PLUS'
+45 left (StringLiteralExpr)
+46 value='multipart/form-data; boundary='
+47 right (NameExpr)
+48 name (SimpleName)
+49 identifier='boundary'
+50 name (SimpleName)
+51 identifier='ClientHttpRequest'
+52 parameters
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='connection'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='URLConnection'
+60 thrownExceptions
+61 thrownException (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+40 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+0 50
+50 51
+0 52
+52 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+0 60
+60 61
+61 62
+62 63
+
+Creates a new multipart POST HTTP request on a freshly opened URLConnection

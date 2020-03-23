@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='buildStructure'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='m_SearchAlgorithm'
+10 arguments
+11 argument (ThisExpr)
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='m_Instances'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='buildStructure'
+18 thrownExceptions
+19 thrownException (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+10 12
+12 13
+13 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+20 21
+
+buildStructure determines the network structure/graph of the network. The default behavior is creating a network where all nodes have the first node as its parent (i.e., a BayesNet that behaves like a naive Bayes classifier). This method can be overridden by derived classes to restrict the class of network structures that are acceptable.

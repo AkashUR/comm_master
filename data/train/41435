@@ -1,0 +1,420 @@
+209
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getPrefix'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='model'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='num'
+17 name (SimpleName)
+18 identifier='prefix'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='String'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='writeComment'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='writer'
+29 arguments
+30 argument (StringLiteralExpr)
+31 value='The TN93 substitution model'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='writeOpenTag'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='writer'
+39 arguments
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getXMLName'
+43 scope (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='TN93'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='NucModelType'
+49 argument (ArrayCreationExpr)
+50 elementType (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='Attribute'
+53 initializer (ArrayInitializerExpr)
+54 values
+55 value (ObjectCreationExpr)
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='Default'
+59 scope (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Attribute'
+62 typeArguments
+63 typeArgument (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='String'
+66 arguments
+67 argument (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='ID'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='XMLParser'
+73 argument (BinaryExpr)
+74 operator='PLUS'
+75 left (NameExpr)
+76 name (SimpleName)
+77 identifier='prefix'
+78 right (StringLiteralExpr)
+79 value='tn93'
+80 levels
+81 level (ArrayCreationLevel)
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='writeOpenTag'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='writer'
+89 arguments
+90 argument (FieldAccessExpr)
+91 name (SimpleName)
+92 identifier='FREQUENCIES'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='HKYParser'
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='writeFrequencyModelDNA'
+100 arguments
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='writer'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='model'
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='num'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='writeCloseTag'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='writer'
+117 arguments
+118 argument (FieldAccessExpr)
+119 name (SimpleName)
+120 identifier='FREQUENCIES'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='HKYParser'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='writeParameter'
+128 arguments
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='num'
+132 argument (FieldAccessExpr)
+133 name (SimpleName)
+134 identifier='KAPPA1'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='TN93Parser'
+138 argument (StringLiteralExpr)
+139 value='kappa1'
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='model'
+143 argument (NameExpr)
+144 name (SimpleName)
+145 identifier='writer'
+146 statement (ExpressionStmt)
+147 expression (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='writeParameter'
+150 arguments
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='num'
+154 argument (FieldAccessExpr)
+155 name (SimpleName)
+156 identifier='KAPPA2'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='TN93Parser'
+160 argument (StringLiteralExpr)
+161 value='kappa2'
+162 argument (NameExpr)
+163 name (SimpleName)
+164 identifier='model'
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='writer'
+168 statement (ExpressionStmt)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='writeCloseTag'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='writer'
+175 arguments
+176 argument (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='getXMLName'
+179 scope (FieldAccessExpr)
+180 name (SimpleName)
+181 identifier='TN93'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='NucModelType'
+185 type (VoidType)
+186 name (SimpleName)
+187 identifier='writeTN93Model'
+188 parameters
+189 parameter (Parameter)
+190 isVarArgs='false'
+191 name (SimpleName)
+192 identifier='num'
+193 type (PrimitiveType)
+194 type='INT'
+195 parameter (Parameter)
+196 isVarArgs='false'
+197 name (SimpleName)
+198 identifier='writer'
+199 type (ClassOrInterfaceType)
+200 name (SimpleName)
+201 identifier='XMLWriter'
+202 parameter (Parameter)
+203 isVarArgs='false'
+204 name (SimpleName)
+205 identifier='model'
+206 type (ClassOrInterfaceType)
+207 name (SimpleName)
+208 identifier='PartitionSubstitutionModel'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+39 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+55 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+66 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+49 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+102 103
+100 104
+104 105
+105 106
+100 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+130 131
+128 132
+132 133
+133 134
+132 135
+135 136
+136 137
+128 138
+138 139
+128 140
+140 141
+141 142
+128 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+152 153
+150 154
+154 155
+155 156
+154 157
+157 158
+158 159
+150 160
+160 161
+150 162
+162 163
+163 164
+150 165
+165 166
+166 167
+2 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+169 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+179 182
+182 183
+183 184
+0 185
+0 186
+186 187
+0 188
+188 189
+189 190
+189 191
+191 192
+189 193
+193 194
+188 195
+195 196
+195 197
+197 198
+195 199
+199 200
+200 201
+188 202
+202 203
+202 204
+204 205
+202 206
+206 207
+207 208
+
+Write the TN93 model XML block.

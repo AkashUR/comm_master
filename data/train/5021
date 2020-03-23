@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='privateLastModified'
+9 value (IntegerLiteralExpr)
+10 value='0'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='privateCrc'
+17 value (NameExpr)
+18 name (SimpleName)
+19 identifier='CRC_NOT_SET'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='setFlags'
+24 arguments
+25 argument (BooleanLiteralExpr)
+26 value='false'
+27 argument (BinaryExpr)
+28 operator='PLUS'
+29 left (BinaryExpr)
+30 operator='PLUS'
+31 left (BinaryExpr)
+32 operator='PLUS'
+33 left (BinaryExpr)
+34 operator='PLUS'
+35 left (BinaryExpr)
+36 operator='PLUS'
+37 left (BinaryExpr)
+38 operator='PLUS'
+39 left (BinaryExpr)
+40 operator='PLUS'
+41 left (NameExpr)
+42 name (SimpleName)
+43 identifier='FLAG_CRC_CALCED'
+44 right (NameExpr)
+45 name (SimpleName)
+46 identifier='FLAG_MODIFIED_CHECKED'
+47 right (NameExpr)
+48 name (SimpleName)
+49 identifier='FLAG_EXISTS_CHECKED'
+50 right (NameExpr)
+51 name (SimpleName)
+52 identifier='FLAG_LENGTH_CHECKED'
+53 right (NameExpr)
+54 name (SimpleName)
+55 identifier='FLAG_EXISTS'
+56 right (NameExpr)
+57 name (SimpleName)
+58 identifier='FLAG_IS_DIRECTORY'
+59 right (NameExpr)
+60 name (SimpleName)
+61 identifier='FLAG_IS_DIRECTORY_CHECKED'
+62 right (NameExpr)
+63 name (SimpleName)
+64 identifier='FLAG_CACHED_VALUES_CHECKED'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='setFlags'
+69 arguments
+70 argument (BooleanLiteralExpr)
+71 value='true'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='FLAG_IS_CHANGED'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='clearCachedInformation'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+27 29
+29 30
+29 31
+31 32
+31 33
+33 34
+33 35
+35 36
+35 37
+37 38
+37 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+45 46
+37 47
+47 48
+48 49
+35 50
+50 51
+51 52
+33 53
+53 54
+54 55
+31 56
+56 57
+57 58
+29 59
+59 60
+60 61
+27 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+73 74
+0 75
+0 76
+76 77
+
+Use this when we have just created a new file. This is pribarliy when new image files are generated, so we want to force any cached files to be re-read.

@@ -1,0 +1,244 @@
+121
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='DoubleAdder'
+11 name (SimpleName)
+12 identifier='x'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='DoubleAdder'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='serialClone'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='x'
+27 name (SimpleName)
+28 identifier='y'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='DoubleAdder'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='assertNotSame'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='x'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='y'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='add'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='x'
+50 arguments
+51 argument (UnaryExpr)
+52 operator='MINUS'
+53 expression (DoubleLiteralExpr)
+54 value='22.0'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='serialClone'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='x'
+66 name (SimpleName)
+67 identifier='z'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='DoubleAdder'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='assertEquals'
+75 arguments
+76 argument (UnaryExpr)
+77 operator='MINUS'
+78 expression (DoubleLiteralExpr)
+79 value='22.0'
+80 argument (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='sum'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='x'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='assertEquals'
+90 arguments
+91 argument (DoubleLiteralExpr)
+92 value='0.0'
+93 argument (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='sum'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='y'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='assertEquals'
+103 arguments
+104 argument (UnaryExpr)
+105 operator='MINUS'
+106 expression (DoubleLiteralExpr)
+107 value='22.0'
+108 argument (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='sum'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='z'
+114 type (VoidType)
+115 name (SimpleName)
+116 identifier='testSerialization'
+117 thrownExceptions
+118 thrownException (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+19 27
+27 28
+19 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+51 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+58 66
+66 67
+58 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+76 78
+78 79
+75 80
+80 81
+81 82
+80 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+90 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+104 106
+106 107
+103 108
+108 109
+109 110
+108 111
+111 112
+112 113
+0 114
+0 115
+115 116
+0 117
+117 118
+118 119
+119 120
+
+a deserialized serialized adder holds same value

@@ -1,0 +1,248 @@
+123
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='zkHost'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='zkHost'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='clientIsInternal'
+19 scope (ThisExpr)
+20 value (BinaryExpr)
+21 operator='EQUALS'
+22 left (NameExpr)
+23 name (SimpleName)
+24 identifier='httpClient'
+25 right (NullLiteralExpr)
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='myClient'
+32 scope (ThisExpr)
+33 value (ConditionalExpr)
+34 condition (BinaryExpr)
+35 operator='EQUALS'
+36 left (NameExpr)
+37 name (SimpleName)
+38 identifier='httpClient'
+39 right (NullLiteralExpr)
+40 elseExpr (NameExpr)
+41 name (SimpleName)
+42 identifier='httpClient'
+43 thenExpr (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='createClient'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='HttpClientUtil'
+49 arguments
+50 argument (NullLiteralExpr)
+51 statement (ExpressionStmt)
+52 expression (AssignExpr)
+53 operator='ASSIGN'
+54 target (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='lbClient'
+57 scope (ThisExpr)
+58 value (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='createLBHttpSolrClient'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='myClient'
+65 statement (ExpressionStmt)
+66 expression (AssignExpr)
+67 operator='ASSIGN'
+68 target (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='updatesToLeaders'
+71 scope (ThisExpr)
+72 value (BooleanLiteralExpr)
+73 value='true'
+74 statement (ExpressionStmt)
+75 expression (AssignExpr)
+76 operator='ASSIGN'
+77 target (FieldAccessExpr)
+78 name (SimpleName)
+79 identifier='directUpdatesToLeadersOnly'
+80 scope (ThisExpr)
+81 value (BooleanLiteralExpr)
+82 value='false'
+83 statement (ExpressionStmt)
+84 expression (AssignExpr)
+85 operator='ASSIGN'
+86 target (NameExpr)
+87 name (SimpleName)
+88 identifier='shutdownLBHttpSolrServer'
+89 value (BooleanLiteralExpr)
+90 value='true'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='addQueryParams'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='lbClient'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='STATE_VERSION'
+102 name (SimpleName)
+103 identifier='CloudSolrClient'
+104 parameters
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='zkHost'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='String'
+112 parameter (Parameter)
+113 isVarArgs='false'
+114 name (SimpleName)
+115 identifier='httpClient'
+116 type (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='HttpClient'
+119 annotations
+120 annotation (MarkerAnnotationExpr)
+121 name (Name)
+122 identifier='Deprecated'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+20 22
+22 23
+23 24
+20 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+29 32
+27 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+33 40
+40 41
+41 42
+33 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+2 51
+51 52
+52 53
+52 54
+54 55
+55 56
+54 57
+52 58
+58 59
+59 60
+58 61
+61 62
+62 63
+63 64
+2 65
+65 66
+66 67
+66 68
+68 69
+69 70
+68 71
+66 72
+72 73
+2 74
+74 75
+75 76
+75 77
+77 78
+78 79
+77 80
+75 81
+81 82
+2 83
+83 84
+84 85
+84 86
+86 87
+87 88
+84 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+100 101
+0 102
+102 103
+0 104
+104 105
+105 106
+105 107
+107 108
+105 109
+109 110
+110 111
+104 112
+112 113
+112 114
+114 115
+112 116
+116 117
+117 118
+0 119
+119 120
+120 121
+121 122
+
+Create a new client object that connects to Zookeeper and is always aware of the SolrCloud state. If there is a fully redundant Zookeeper quorum and SolrCloud has enough replicas for every shard in a collection, there is no single point of failure. Updates will be sent to shard leaders by default.

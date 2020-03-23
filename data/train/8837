@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getVerticalScrollBar'
+10 name (SimpleName)
+11 identifier='bar'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='JScrollBar'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (CastExpr)
+20 expression (EnclosedExpr)
+21 inner (BinaryExpr)
+22 operator='MINUS'
+23 left (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getHeight'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getSize'
+29 right (EnclosedExpr)
+30 inner (BinaryExpr)
+31 operator='MULTIPLY'
+32 left (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getUnitIncrement'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='bar'
+38 arguments
+39 argument (IntegerLiteralExpr)
+40 value='1'
+41 right (IntegerLiteralExpr)
+42 value='3'
+43 type (PrimitiveType)
+44 type='INT'
+45 name (SimpleName)
+46 identifier='incr'
+47 type (PrimitiveType)
+48 type='INT'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='setBlockIncrement'
+53 scope (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='getVerticalScrollBar'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='incr'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='componentResized'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='e'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='ComponentEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+21 23
+23 24
+24 25
+23 26
+26 27
+27 28
+21 29
+29 30
+30 31
+30 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+30 41
+41 42
+19 43
+43 44
+18 45
+45 46
+18 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+
+Invoked when the component's size changes. Reset scrollable increment, because page-down/up is relative to current view size.

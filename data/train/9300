@@ -1,0 +1,114 @@
+56
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='name'
+9 argument (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getType'
+12 arguments
+13 argument (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='length'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='min'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setRangeValues'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='min'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='max'
+30 name (SimpleName)
+31 identifier='IntRangeField'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='name'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='min'
+44 type (ArrayType)
+45 origin='TYPE'
+46 componentType (PrimitiveType)
+47 type='INT'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='max'
+52 type (ArrayType)
+53 origin='TYPE'
+54 componentType (PrimitiveType)
+55 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+32 40
+40 41
+40 42
+42 43
+40 44
+44 45
+44 46
+46 47
+32 48
+48 49
+48 50
+50 51
+48 52
+52 53
+52 54
+54 55
+
+Create a new IntRangeField type, from min/max parallel arrays

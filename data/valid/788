@@ -1,0 +1,206 @@
+102
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mNotifyManager'
+9 value (CastExpr)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getSystemService'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='NOTIFICATION_SERVICE'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Context'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='NotificationManager'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='mBuilder'
+29 value (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='setProgress'
+32 scope (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='setTicker'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='setSmallIcon'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='setContentText'
+41 scope (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='setContentTitle'
+44 scope (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Builder'
+48 scope (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='NotificationCompat'
+51 arguments
+52 argument (ThisExpr)
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='Video Upload'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='Upload in progress'
+59 arguments
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='stat_sys_upload'
+63 scope (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='drawable'
+66 scope (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='R'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='android'
+72 arguments
+73 argument (StringLiteralExpr)
+74 value='Uploading video'
+75 arguments
+76 argument (IntegerLiteralExpr)
+77 value='0'
+78 argument (IntegerLiteralExpr)
+79 value='0'
+80 argument (BooleanLiteralExpr)
+81 value='true'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='notify'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='mNotifyManager'
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='NOTIFICATION_ID'
+93 argument (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='build'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='mBuilder'
+99 type (VoidType)
+100 name (SimpleName)
+101 identifier='startNotification'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+9 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+44 51
+51 52
+41 53
+53 54
+54 55
+38 56
+56 57
+57 58
+35 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+66 69
+69 70
+70 71
+32 72
+72 73
+73 74
+29 75
+75 76
+76 77
+75 78
+78 79
+75 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+93 96
+96 97
+97 98
+0 99
+0 100
+100 101
+
+Starts the Notification to show the progress of video upload.

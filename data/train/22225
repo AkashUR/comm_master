@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='sendPacketToAllAroundPoint'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='networkHelper'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='instance'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='MultiMine'
+16 arguments
+17 argument (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='PartialBlockRemovalPacket'
+21 arguments
+22 argument (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getPos'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='block'
+28 argument (ObjectCreationExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='TargetPoint'
+32 arguments
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getDimension'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='block'
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getX'
+42 scope (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getPos'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='block'
+48 argument (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getY'
+51 scope (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getPos'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='block'
+57 argument (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getZ'
+60 scope (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getPos'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='block'
+66 argument (DoubleLiteralExpr)
+67 value='30D'
+68 type (VoidType)
+69 name (SimpleName)
+70 identifier='sendPartiallyMinedBlockDeleteCommandToAllPlayers'
+71 parameters
+72 parameter (Parameter)
+73 isVarArgs='false'
+74 name (SimpleName)
+75 identifier='block'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='PartiallyMinedBlock'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+4 16
+16 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+16 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+32 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+32 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+32 57
+57 58
+58 59
+57 60
+60 61
+61 62
+60 63
+63 64
+64 65
+32 66
+66 67
+0 68
+0 69
+69 70
+0 71
+71 72
+72 73
+72 74
+74 75
+72 76
+76 77
+77 78
+
+Tells all clients to delete this partially mined Block off their local storage, the server exceeds the max amount of concurrent partial Blocks.

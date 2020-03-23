@@ -1,0 +1,202 @@
+100
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='snmpV1Trap'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='addr'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='trapPort'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='agentAddr'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='cs'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='enterpOid'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='generic'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='specific'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='varBindList'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='time'
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='snmpV1Trap'
+38 parameters
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='addr'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='InetAddress'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='agentAddr'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='SnmpIpAddress'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='cs'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='enterpOid'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='SnmpOid'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='generic'
+71 type (PrimitiveType)
+72 type='INT'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='specific'
+77 type (PrimitiveType)
+78 type='INT'
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='varBindList'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='SnmpVarBindList'
+86 parameter (Parameter)
+87 isVarArgs='false'
+88 name (SimpleName)
+89 identifier='time'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='SnmpTimeticks'
+93 thrownExceptions
+94 thrownException (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='IOException'
+97 thrownException (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='SnmpStatusException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+24 25
+7 26
+26 27
+27 28
+7 29
+29 30
+30 31
+7 32
+32 33
+33 34
+0 35
+0 36
+36 37
+0 38
+38 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+38 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+38 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+38 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+38 67
+67 68
+67 69
+69 70
+67 71
+71 72
+38 73
+73 74
+73 75
+75 76
+73 77
+77 78
+38 79
+79 80
+79 81
+81 82
+79 83
+83 84
+84 85
+38 86
+86 87
+86 88
+88 89
+86 90
+90 91
+91 92
+0 93
+93 94
+94 95
+95 96
+93 97
+97 98
+98 99
+
+Sends a trap using SNMP V1 trap format. <BR>The trap is sent to the specified <CODE>InetAddress</CODE> destination using the specified parameters (and the ACL file is not used). Note that if the specified <CODE>InetAddress</CODE> destination is null, then the ACL file mechanism is used.

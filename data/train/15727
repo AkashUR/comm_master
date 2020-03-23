@@ -1,0 +1,604 @@
+301
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='crawl_page'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setCrawlConfigFilePath'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='crawlerFactory'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='PAGE_CRAWL_CONF_FILE_PATH'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getString'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='bundle'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='FULL_SITE_CRAWL_URL_KEY'
+41 name (SimpleName)
+42 identifier='siteUrl'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='String'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='AuditImpl'
+54 name (SimpleName)
+55 identifier='audit'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='Audit'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='setParameterSet'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='audit'
+66 arguments
+67 argument (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='setCrawlParameters'
+70 arguments
+71 argument (StringLiteralExpr)
+72 value='3'
+73 argument (StringLiteralExpr)
+74 value=''
+75 argument (StringLiteralExpr)
+76 value=''
+77 argument (StringLiteralExpr)
+78 value=''
+79 argument (StringLiteralExpr)
+80 value=''
+81 statement (ExpressionStmt)
+82 expression (VariableDeclarationExpr)
+83 variables
+84 variable (VariableDeclarator)
+85 initializer (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='crawlPage'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='crawlerService'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='audit'
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='siteUrl'
+98 name (SimpleName)
+99 identifier='page'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='WebResource'
+103 statement (ExpressionStmt)
+104 expression (VariableDeclarationExpr)
+105 variables
+106 variable (VariableDeclarator)
+107 initializer (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='getSSPIdsFromWebResource'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='mockContentDataService'
+113 arguments
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='getId'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='page'
+120 argument (FieldAccessExpr)
+121 name (SimpleName)
+122 identifier='SC_OK'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='HttpStatus'
+126 argument (IntegerLiteralExpr)
+127 value='0'
+128 argument (IntegerLiteralExpr)
+129 value='10'
+130 name (SimpleName)
+131 identifier='contentListId'
+132 type (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='Collection'
+135 typeArguments
+136 typeArgument (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='Long'
+139 statement (ExpressionStmt)
+140 expression (VariableDeclarationExpr)
+141 variables
+142 variable (VariableDeclarator)
+143 initializer (ObjectCreationExpr)
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='ArrayList'
+147 name (SimpleName)
+148 identifier='contentList'
+149 type (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='List'
+152 typeArguments
+153 typeArgument (ClassOrInterfaceType)
+154 name (SimpleName)
+155 identifier='Content'
+156 statement (ForeachStmt)
+157 body (BlockStmt)
+158 statements
+159 statement (ExpressionStmt)
+160 expression (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='add'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='contentList'
+166 arguments
+167 argument (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='readWithRelatedContent'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='mockContentDataService'
+173 arguments
+174 argument (NameExpr)
+175 name (SimpleName)
+176 identifier='id'
+177 argument (BooleanLiteralExpr)
+178 value='false'
+179 iterable (NameExpr)
+180 name (SimpleName)
+181 identifier='contentListId'
+182 variable (VariableDeclarationExpr)
+183 variables
+184 variable (VariableDeclarator)
+185 name (SimpleName)
+186 identifier='id'
+187 type (ClassOrInterfaceType)
+188 name (SimpleName)
+189 identifier='Long'
+190 statement (ExpressionStmt)
+191 expression (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='assertEquals'
+194 arguments
+195 argument (IntegerLiteralExpr)
+196 value='1'
+197 argument (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='size'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='contentList'
+203 statement (ExpressionStmt)
+204 expression (VariableDeclarationExpr)
+205 variables
+206 variable (VariableDeclarator)
+207 initializer (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='getUrlSet'
+210 arguments
+211 argument (NameExpr)
+212 name (SimpleName)
+213 identifier='contentList'
+214 name (SimpleName)
+215 identifier='urlSet'
+216 type (ClassOrInterfaceType)
+217 name (SimpleName)
+218 identifier='Set'
+219 typeArguments
+220 typeArgument (ClassOrInterfaceType)
+221 name (SimpleName)
+222 identifier='String'
+223 statement (ExpressionStmt)
+224 expression (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='assertTrue'
+227 arguments
+228 argument (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='contains'
+231 scope (NameExpr)
+232 name (SimpleName)
+233 identifier='urlSet'
+234 arguments
+235 argument (NameExpr)
+236 name (SimpleName)
+237 identifier='siteUrl'
+238 statement (ExpressionStmt)
+239 expression (MethodCallExpr)
+240 name (SimpleName)
+241 identifier='assertFalse'
+242 arguments
+243 argument (MethodCallExpr)
+244 name (SimpleName)
+245 identifier='contains'
+246 scope (NameExpr)
+247 name (SimpleName)
+248 identifier='urlSet'
+249 arguments
+250 argument (BinaryExpr)
+251 operator='PLUS'
+252 left (NameExpr)
+253 name (SimpleName)
+254 identifier='siteUrl'
+255 right (NameExpr)
+256 name (SimpleName)
+257 identifier='PAGE_NAME_LEVEL1'
+258 statement (ExpressionStmt)
+259 expression (MethodCallExpr)
+260 name (SimpleName)
+261 identifier='assertFalse'
+262 arguments
+263 argument (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='contains'
+266 scope (NameExpr)
+267 name (SimpleName)
+268 identifier='urlSet'
+269 arguments
+270 argument (BinaryExpr)
+271 operator='PLUS'
+272 left (NameExpr)
+273 name (SimpleName)
+274 identifier='siteUrl'
+275 right (NameExpr)
+276 name (SimpleName)
+277 identifier='PAGE_NAME_LEVEL2'
+278 statement (ExpressionStmt)
+279 expression (MethodCallExpr)
+280 name (SimpleName)
+281 identifier='assertFalse'
+282 arguments
+283 argument (MethodCallExpr)
+284 name (SimpleName)
+285 identifier='contains'
+286 scope (NameExpr)
+287 name (SimpleName)
+288 identifier='urlSet'
+289 arguments
+290 argument (BinaryExpr)
+291 operator='PLUS'
+292 left (NameExpr)
+293 name (SimpleName)
+294 identifier='siteUrl'
+295 right (NameExpr)
+296 name (SimpleName)
+297 identifier='FORBIDDEN_PAGE_NAME'
+298 type (VoidType)
+299 name (SimpleName)
+300 identifier='testCrawl_Page'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+30 41
+41 42
+30 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+49 54
+54 55
+49 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+73 74
+70 75
+75 76
+70 77
+77 78
+70 79
+79 80
+2 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+91 95
+95 96
+96 97
+84 98
+98 99
+84 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+113 120
+120 121
+121 122
+120 123
+123 124
+124 125
+113 126
+126 127
+113 128
+128 129
+106 130
+130 131
+106 132
+132 133
+133 134
+132 135
+135 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+142 143
+143 144
+144 145
+145 146
+142 147
+147 148
+142 149
+149 150
+150 151
+149 152
+152 153
+153 154
+154 155
+2 156
+156 157
+157 158
+158 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+160 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+167 173
+173 174
+174 175
+175 176
+173 177
+177 178
+156 179
+179 180
+180 181
+156 182
+182 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+2 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+201 202
+2 203
+203 204
+204 205
+205 206
+206 207
+207 208
+208 209
+207 210
+210 211
+211 212
+212 213
+206 214
+214 215
+206 216
+216 217
+217 218
+216 219
+219 220
+220 221
+221 222
+2 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+229 230
+228 231
+231 232
+232 233
+228 234
+234 235
+235 236
+236 237
+2 238
+238 239
+239 240
+240 241
+239 242
+242 243
+243 244
+244 245
+243 246
+246 247
+247 248
+243 249
+249 250
+250 251
+250 252
+252 253
+253 254
+250 255
+255 256
+256 257
+2 258
+258 259
+259 260
+260 261
+259 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+263 269
+269 270
+270 271
+270 272
+272 273
+273 274
+270 275
+275 276
+276 277
+2 278
+278 279
+279 280
+280 281
+279 282
+282 283
+283 284
+284 285
+283 286
+286 287
+287 288
+283 289
+289 290
+290 291
+290 292
+292 293
+293 294
+290 295
+295 296
+296 297
+0 298
+0 299
+299 300
+
+Test the crawl of a page

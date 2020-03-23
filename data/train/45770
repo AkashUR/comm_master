@@ -1,0 +1,194 @@
+96
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getRequest'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='enumerationContext'
+13 name (SimpleName)
+14 identifier='request'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='ComputeEnumerateResourceRequest'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='queryForCluster'
+25 arguments
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='resourceLink'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='request'
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getValue'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getId'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='cr'
+41 name (SimpleName)
+42 identifier='task'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='QueryTask'
+46 statement (ExpressionStmt)
+47 expression (AssignExpr)
+48 operator='ASSIGN'
+49 target (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='tenantLinks'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='task'
+55 value (NameExpr)
+56 name (SimpleName)
+57 identifier='tenantLinks'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='withTaskResults'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='task'
+66 argument (NullLiteralExpr)
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='processFoundComputeResource'
+70 parameters
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='enumerationContext'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='EnumerationContext'
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='cr'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='ComputeResourceOverlay'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='tenantLinks'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='List'
+92 typeArguments
+93 typeArgument (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+25 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+21 41
+41 42
+21 43
+43 44
+44 45
+2 46
+46 47
+47 48
+47 49
+49 50
+50 51
+49 52
+52 53
+53 54
+47 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+62 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+70 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+70 85
+85 86
+85 87
+87 88
+85 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+
+Either creates a new Compute or update an already existing one. Existence is checked by querying for a compute with id equals to moref value of a cluster whose parent is the Compute from the request.

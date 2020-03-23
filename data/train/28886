@@ -1,0 +1,36 @@
+17
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='chooseFirstProvider'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='engineReset'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='spi'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='reset'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+0 14
+0 15
+15 16
+
+Resets this <code>Mac</code> object. <p>A call to this method resets this <code>Mac</code> object to the state it was in when previously initialized via a call to <code>init(Key)</code> or <code>init(Key, AlgorithmParameterSpec)</code>. That is, the object is reset and available to generate another MAC from the same key, if desired, via new calls to <code>update</code> and <code>doFinal</code>. (In order to reuse this <code>Mac</code> object with a different key, it must be reinitialized via a call to <code>init(Key)</code> or <code>init(Key, AlgorithmParameterSpec)</code>.

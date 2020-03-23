@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='execNonQuery'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='SQL_CREATE_TABLE'
+11 argument (ArrayCreationExpr)
+12 elementType (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='String'
+15 initializer (ArrayInitializerExpr)
+16 values
+17 value (NameExpr)
+18 name (SimpleName)
+19 identifier='TABLE_NAME'
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='COLUMN_KEY'
+23 value (NameExpr)
+24 name (SimpleName)
+25 identifier='COLUMN_VALUE'
+26 levels
+27 level (ArrayCreationLevel)
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='createKVTable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+16 23
+23 24
+24 25
+11 26
+26 27
+0 28
+0 29
+29 30
+
+create KVStore table if not exists

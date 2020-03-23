@@ -1,0 +1,396 @@
+197
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertEquals'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='RELYING_PARTY_NAME'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getName'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='relyingParty'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='assertEquals'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='RELYING_PARTY_URI'
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getUrl'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='relyingParty'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='assertNotNull'
+35 arguments
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getCertificate'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='relyingParty'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='assertFalse'
+46 arguments
+47 argument (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='isAuthnRequestsSigned'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='relyingParty'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='assertEquals'
+57 arguments
+58 argument (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='ASSERTION_CS_NAME'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='RelyingPartyDataGenerator'
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getDefaultAssertionConsumerService'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='relyingParty'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='assertEquals'
+74 arguments
+75 argument (FieldAccessExpr)
+76 name (SimpleName)
+77 identifier='ATTRIBUTE_CS_NAME'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='RelyingPartyDataGenerator'
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getDefaultAttributeConsumerService'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='relyingParty'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='assertEquals'
+91 arguments
+92 argument (IntegerLiteralExpr)
+93 value='1'
+94 argument (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='size'
+97 scope (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getAssertionConsumerServices'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='relyingParty'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='assertEquals'
+107 arguments
+108 argument (IntegerLiteralExpr)
+109 value='1'
+110 argument (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='size'
+113 scope (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='getAttributeConsumerServices'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='relyingParty'
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='assertEquals'
+123 arguments
+124 argument (IntegerLiteralExpr)
+125 value='1'
+126 argument (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='size'
+129 scope (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='getSingleLogoutServices'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='relyingParty'
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='assertLogoutServiceEndPoint'
+139 arguments
+140 argument (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='next'
+143 scope (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='iterator'
+146 scope (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='getSingleLogoutServices'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='relyingParty'
+152 statement (ExpressionStmt)
+153 expression (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='assertAttributeConsumerService'
+156 arguments
+157 argument (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='next'
+160 scope (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='iterator'
+163 scope (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='getAttributeConsumerServices'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='relyingParty'
+169 statement (ExpressionStmt)
+170 expression (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='assertAssertionConsumerService'
+173 arguments
+174 argument (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='next'
+177 scope (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='iterator'
+180 scope (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='getAssertionConsumerServices'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='relyingParty'
+186 type (VoidType)
+187 name (SimpleName)
+188 identifier='assertRelyingParty'
+189 parameters
+190 parameter (Parameter)
+191 isVarArgs='false'
+192 name (SimpleName)
+193 identifier='relyingParty'
+194 type (ClassOrInterfaceType)
+195 name (SimpleName)
+196 identifier='RelyingPartyDTO'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+25 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+57 64
+64 65
+65 66
+64 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+74 81
+81 82
+82 83
+81 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+94 97
+97 98
+98 99
+97 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+110 111
+111 112
+110 113
+113 114
+114 115
+113 116
+116 117
+117 118
+2 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+123 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+133 134
+2 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+143 146
+146 147
+147 148
+146 149
+149 150
+150 151
+2 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+160 163
+163 164
+164 165
+163 166
+166 167
+167 168
+2 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+177 180
+180 181
+181 182
+180 183
+183 184
+184 185
+0 186
+0 187
+187 188
+0 189
+189 190
+190 191
+190 192
+192 193
+190 194
+194 195
+195 196
+
+Hard coded asserts, Not a generic one

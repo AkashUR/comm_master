@@ -1,0 +1,214 @@
+106
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='lock'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='readLock'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='lock'
+13 statement (TryStmt)
+14 finallyBlock (BlockStmt)
+15 statements
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='unlock'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='readLock'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='lock'
+26 tryBlock (BlockStmt)
+27 statements
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getServerName'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='host'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='port'
+42 name (SimpleName)
+43 identifier='serverName'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='String'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='checkArgument'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='Preconditions'
+54 arguments
+55 argument (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='containsKey'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='serverTrackerMap'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='serverName'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='reportHeartbeatResult'
+69 scope (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='get'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='serverTrackerMap'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='serverName'
+79 arguments
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='success'
+83 type (VoidType)
+84 name (SimpleName)
+85 identifier='reportHeartbeat'
+86 parameters
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='host'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='String'
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='port'
+98 type (PrimitiveType)
+99 type='INT'
+100 parameter (Parameter)
+101 isVarArgs='false'
+102 name (SimpleName)
+103 identifier='success'
+104 type (PrimitiveType)
+105 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+13 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+31 42
+42 43
+31 44
+44 45
+45 46
+27 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+27 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+66 79
+79 80
+80 81
+81 82
+0 83
+0 84
+84 85
+0 86
+86 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+86 94
+94 95
+94 96
+96 97
+94 98
+98 99
+86 100
+100 101
+100 102
+102 103
+100 104
+104 105
+
+Report a heartbeat status of a server. This function can be used to report heartbeats by external callers in addition to the regular pings maintained by this class.

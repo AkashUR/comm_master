@@ -1,0 +1,238 @@
+118
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='split'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='name'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='NEWLINE'
+17 argument (IntegerLiteralExpr)
+18 value='2'
+19 name (SimpleName)
+20 identifier='strings'
+21 type (ArrayType)
+22 origin='TYPE'
+23 componentType (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='String'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='setUserName'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='client'
+33 arguments
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='trim'
+37 scope (ArrayAccessExpr)
+38 index (IntegerLiteralExpr)
+39 value='0'
+40 name (NameExpr)
+41 name (SimpleName)
+42 identifier='strings'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='sendRemainingParts'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='client'
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='strings'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='setReader'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='client'
+61 arguments
+62 argument (ObjectCreationExpr)
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='ClientReader'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='chatServer'
+70 argument (ObjectCreationExpr)
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='MessageReader'
+74 arguments
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='chatServer'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='writeStringMessage'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='client'
+85 arguments
+86 argument (BinaryExpr)
+87 operator='PLUS'
+88 left (BinaryExpr)
+89 operator='PLUS'
+90 left (StringLiteralExpr)
+91 value='Welcome '
+92 right (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='getUserName'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='client'
+98 right (StringLiteralExpr)
+99 value='\n'
+100 type (VoidType)
+101 name (SimpleName)
+102 identifier='onUserNameRead'
+103 parameters
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='client'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='Client'
+111 parameter (Parameter)
+112 isVarArgs='false'
+113 name (SimpleName)
+114 identifier='name'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+6 19
+19 20
+6 21
+21 22
+21 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+68 69
+66 70
+70 71
+71 72
+72 73
+70 74
+74 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+86 88
+88 89
+88 90
+90 91
+88 92
+92 93
+93 94
+92 95
+95 96
+96 97
+86 98
+98 99
+0 100
+0 101
+101 102
+0 103
+103 104
+104 105
+104 106
+106 107
+104 108
+108 109
+109 110
+103 111
+111 112
+111 113
+113 114
+111 115
+115 116
+116 117
+
+Splits the name on the newlines, takes the first as the username and appends everything else to the clients message buffer. Sets the clients handler to MessageReader.

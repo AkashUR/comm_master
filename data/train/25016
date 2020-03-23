@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mPreparedStatement'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getStatement'
+12 arguments
+13 argument (BooleanLiteralExpr)
+14 value='false'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='clearBindings'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='mPreparedStatement'
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='prepareForInsert'
+25 annotations
+26 annotation (SingleMemberAnnotationExpr)
+27 memberValue (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='SAFE_LIST'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='DSCat'
+33 name (Name)
+34 identifier='DSSafe'
+35 annotation (NormalAnnotationExpr)
+36 name (Name)
+37 identifier='DSGenerator'
+38 pairs
+39 pair (MemberValuePair)
+40 name (SimpleName)
+41 identifier='tool_name'
+42 value (StringLiteralExpr)
+43 value='Doppelganger'
+44 pair (MemberValuePair)
+45 name (SimpleName)
+46 identifier='tool_version'
+47 value (StringLiteralExpr)
+48 value='2.0'
+49 pair (MemberValuePair)
+50 name (SimpleName)
+51 identifier='generated_on'
+52 value (StringLiteralExpr)
+53 value='2013-12-30 12:28:38.464 -0500'
+54 pair (MemberValuePair)
+55 name (SimpleName)
+56 identifier='hash_original_method'
+57 value (StringLiteralExpr)
+58 value='BEDC7093698B9136E99447F456E9608C'
+59 pair (MemberValuePair)
+60 name (SimpleName)
+61 identifier='hash_generated_method'
+62 value (StringLiteralExpr)
+63 value='CDE373DF2B92F0C86FB3B28296D008D6'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+25 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+39 42
+42 43
+38 44
+44 45
+45 46
+44 47
+47 48
+38 49
+49 50
+50 51
+49 52
+52 53
+38 54
+54 55
+55 56
+54 57
+57 58
+38 59
+59 60
+60 61
+59 62
+62 63
+
+Prepare the InsertHelper for an insert. The pattern for this is: <ul> <li>prepareForInsert() <li>bind(index, value); <li>bind(index, value); <li>... <li>bind(index, value); <li>execute(); </ul>

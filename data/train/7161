@@ -1,0 +1,292 @@
+145
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createTranslateService'
+10 name (SimpleName)
+11 identifier='translate'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Translate'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='sourceLanguage'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='TranslateOption'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='sourceLang'
+29 name (SimpleName)
+30 identifier='srcLang'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='TranslateOption'
+34 statement (ExpressionStmt)
+35 expression (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 initializer (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='targetLanguage'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='TranslateOption'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='targetLang'
+48 name (SimpleName)
+49 identifier='tgtLang'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='TranslateOption'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='translate'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='translate'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='sourceText'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='srcLang'
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='tgtLang'
+73 name (SimpleName)
+74 identifier='translation'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Translation'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='printf'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='out'
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='Source Text:\n\tLang: %s, Text: %s\n'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='sourceLang'
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='sourceText'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='printf'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='out'
+101 arguments
+102 argument (StringLiteralExpr)
+103 value='TranslatedText:\n\tLang: %s, Text: %s\n'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='targetLang'
+107 argument (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='translatedText'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='translation'
+113 type (VoidType)
+114 name (SimpleName)
+115 identifier='translateTextWithOptions'
+116 parameters
+117 parameter (Parameter)
+118 isVarArgs='false'
+119 name (SimpleName)
+120 identifier='sourceText'
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='String'
+124 parameter (Parameter)
+125 isVarArgs='false'
+126 name (SimpleName)
+127 identifier='sourceLang'
+128 type (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='String'
+131 parameter (Parameter)
+132 isVarArgs='false'
+133 name (SimpleName)
+134 identifier='targetLang'
+135 type (ClassOrInterfaceType)
+136 name (SimpleName)
+137 identifier='String'
+138 parameter (Parameter)
+139 isVarArgs='false'
+140 name (SimpleName)
+141 identifier='out'
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='PrintStream'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+18 29
+29 30
+18 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+37 48
+48 49
+37 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+63 70
+70 71
+71 72
+56 73
+73 74
+56 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+107 110
+110 111
+111 112
+0 113
+0 114
+114 115
+0 116
+116 117
+117 118
+117 119
+119 120
+117 121
+121 122
+122 123
+116 124
+124 125
+124 126
+126 127
+124 128
+128 129
+129 130
+116 131
+131 132
+131 133
+133 134
+131 135
+135 136
+136 137
+116 138
+138 139
+138 140
+140 141
+138 142
+142 143
+143 144
+
+Translate the source text from source to target language.

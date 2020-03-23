@@ -1,0 +1,236 @@
+117
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='build'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='withContent'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='withDuration'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='withCount'
+19 scope (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='create'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='MetricOracleBuilder'
+25 arguments
+26 argument (IntegerLiteralExpr)
+27 value='24'
+28 arguments
+29 argument (IntegerLiteralExpr)
+30 value='1000'
+31 arguments
+32 argument (StringLiteralExpr)
+33 value='OK'
+34 name (SimpleName)
+35 identifier='notVulnerableOracle'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='MetricOracle'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getAllAttacks'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='IntelligentDoSLibraryImpl'
+49 name (SimpleName)
+50 identifier='attacks'
+51 type (ArrayType)
+52 origin='TYPE'
+53 componentType (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='DoSAttack'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='iterate'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='IDoSTestHelper'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='notVulnerableOracle'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='attacks'
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='impl'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='assertThat'
+77 arguments
+78 argument (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='hasFurtherAttack'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='impl'
+84 argument (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='is'
+87 arguments
+88 argument (BooleanLiteralExpr)
+89 value='false'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='assertThat'
+94 arguments
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='size'
+98 scope (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='getSuccessfulAttacks'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='impl'
+104 argument (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='is'
+107 arguments
+108 argument (IntegerLiteralExpr)
+109 value='0'
+110 type (VoidType)
+111 name (SimpleName)
+112 identifier='notVulnerableTest'
+113 annotations
+114 annotation (MarkerAnnotationExpr)
+115 name (Name)
+116 identifier='Ignore'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+16 25
+25 26
+26 27
+13 28
+28 29
+29 30
+10 31
+31 32
+32 33
+6 34
+34 35
+6 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+42 49
+49 50
+42 51
+51 52
+51 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+63 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+77 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+102 103
+94 104
+104 105
+105 106
+104 107
+107 108
+108 109
+0 110
+0 111
+111 112
+0 113
+113 114
+114 115
+115 116
+
+this is a test where the web service is not vulnerable against any of the DoS Attacks. Because the test takes very long it will be ignored

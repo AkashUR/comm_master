@@ -1,0 +1,174 @@
+86
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ArrayCreationExpr)
+8 elementType (PrimitiveType)
+9 type='BYTE'
+10 levels
+11 level (ArrayCreationLevel)
+12 dimension (BinaryExpr)
+13 operator='MULTIPLY'
+14 left (NameExpr)
+15 name (SimpleName)
+16 identifier='unitsInThisTile'
+17 right (IntegerLiteralExpr)
+18 value='2'
+19 name (SimpleName)
+20 identifier='byteArray'
+21 type (ArrayType)
+22 origin='NAME'
+23 componentType (PrimitiveType)
+24 type='BYTE'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='decode'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='lzwDecoder'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='input'
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='byteArray'
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='height'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='newRect'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='unpackShorts'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='byteArray'
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='sdata'
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='unitsInThisTile'
+59 type (VoidType)
+60 name (SimpleName)
+61 identifier='decodeTilePixels'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='input'
+67 type (ArrayType)
+68 origin='TYPE'
+69 componentType (PrimitiveType)
+70 type='BYTE'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='newRect'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Rectangle'
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='sdata'
+82 type (ArrayType)
+83 origin='TYPE'
+84 componentType (PrimitiveType)
+85 type='SHORT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+6 19
+19 20
+6 21
+21 22
+21 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+32 36
+36 37
+37 38
+32 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+49 56
+56 57
+57 58
+0 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+67 69
+69 70
+62 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+62 78
+78 79
+78 80
+80 81
+78 82
+82 83
+82 84
+84 85
+
+Decode a rectangle of pixels

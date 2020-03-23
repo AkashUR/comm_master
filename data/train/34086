@@ -1,0 +1,232 @@
+115
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='context'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='context'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='mapId'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='mapId'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='flushNo'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='flushNo'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='splitId'
+39 scope (ThisExpr)
+40 value (NameExpr)
+41 name (SimpleName)
+42 identifier='splitId'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='info'
+49 scope (ThisExpr)
+50 value (BinaryExpr)
+51 operator='PLUS'
+52 left (BinaryExpr)
+53 operator='PLUS'
+54 left (BinaryExpr)
+55 operator='PLUS'
+56 left (BinaryExpr)
+57 operator='PLUS'
+58 left (StringLiteralExpr)
+59 value='NewHadoopRunWriter(Map '
+60 right (NameExpr)
+61 name (SimpleName)
+62 identifier='mapId'
+63 right (StringLiteralExpr)
+64 value=', flush '
+65 right (NameExpr)
+66 name (SimpleName)
+67 identifier='flushNo'
+68 right (StringLiteralExpr)
+69 value=')'
+70 name (SimpleName)
+71 identifier='NewHadoopRunWriter'
+72 parameters
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='context'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Context'
+80 scope (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Mapper'
+83 typeArguments
+84 typeArgument (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Text'
+87 typeArgument (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='VALUEIN'
+90 typeArgument (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='NewSplitEmittedTerm'
+93 typeArgument (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='MapEmittedPostingList'
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='mapId'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='String'
+103 parameter (Parameter)
+104 isVarArgs='false'
+105 name (SimpleName)
+106 identifier='splitId'
+107 type (PrimitiveType)
+108 type='INT'
+109 parameter (Parameter)
+110 isVarArgs='false'
+111 name (SimpleName)
+112 identifier='flushNo'
+113 type (PrimitiveType)
+114 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+50 52
+52 53
+52 54
+54 55
+54 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+54 63
+63 64
+52 65
+65 66
+66 67
+50 68
+68 69
+0 70
+70 71
+0 72
+72 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+77 80
+80 81
+81 82
+80 83
+83 84
+84 85
+85 86
+83 87
+87 88
+88 89
+83 90
+90 91
+91 92
+83 93
+93 94
+94 95
+72 96
+96 97
+96 98
+98 99
+96 100
+100 101
+101 102
+72 103
+103 104
+103 105
+105 106
+103 107
+107 108
+72 109
+109 110
+109 111
+111 112
+109 113
+113 114
+
+Create a new HadoopRunWriter, specifying the output collector of the map task the run number and the flush number.

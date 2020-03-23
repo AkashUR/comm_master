@@ -1,0 +1,426 @@
+212
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getVertices'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='MULTIPLY'
+13 left (IntegerLiteralExpr)
+14 value='2'
+15 right (IntegerLiteralExpr)
+16 value='2'
+17 name (SimpleName)
+18 identifier='vertices'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='FloatBuffer'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='put'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='vertices'
+29 arguments
+30 argument (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='x'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='origin'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='put'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='vertices'
+43 arguments
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='y'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='origin'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='put'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='vertices'
+57 arguments
+58 argument (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='x'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='destination'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='put'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='vertices'
+71 arguments
+72 argument (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='y'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='destination'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='position'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='vertices'
+85 arguments
+86 argument (IntegerLiteralExpr)
+87 value='0'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='glDisable'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='gl'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='GL_TEXTURE_2D'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='glDisableClientState'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='gl'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='GL_TEXTURE_COORD_ARRAY'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='glDisableClientState'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='gl'
+117 arguments
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='GL_COLOR_ARRAY'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='glVertexPointer'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='gl'
+128 arguments
+129 argument (IntegerLiteralExpr)
+130 value='2'
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='GL_FLOAT'
+134 argument (IntegerLiteralExpr)
+135 value='0'
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='vertices'
+139 statement (ExpressionStmt)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='glDrawArrays'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='gl'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='GL_LINES'
+150 argument (IntegerLiteralExpr)
+151 value='0'
+152 argument (IntegerLiteralExpr)
+153 value='2'
+154 statement (ExpressionStmt)
+155 expression (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='glEnableClientState'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='gl'
+161 arguments
+162 argument (NameExpr)
+163 name (SimpleName)
+164 identifier='GL_COLOR_ARRAY'
+165 statement (ExpressionStmt)
+166 expression (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='glEnableClientState'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='gl'
+172 arguments
+173 argument (NameExpr)
+174 name (SimpleName)
+175 identifier='GL_TEXTURE_COORD_ARRAY'
+176 statement (ExpressionStmt)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='glEnable'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='gl'
+183 arguments
+184 argument (NameExpr)
+185 name (SimpleName)
+186 identifier='GL_TEXTURE_2D'
+187 type (VoidType)
+188 name (SimpleName)
+189 identifier='ccDrawLine'
+190 parameters
+191 parameter (Parameter)
+192 isVarArgs='false'
+193 name (SimpleName)
+194 identifier='gl'
+195 type (ClassOrInterfaceType)
+196 name (SimpleName)
+197 identifier='GL10'
+198 parameter (Parameter)
+199 isVarArgs='false'
+200 name (SimpleName)
+201 identifier='origin'
+202 type (ClassOrInterfaceType)
+203 name (SimpleName)
+204 identifier='CGPoint'
+205 parameter (Parameter)
+206 isVarArgs='false'
+207 name (SimpleName)
+208 identifier='destination'
+209 type (ClassOrInterfaceType)
+210 name (SimpleName)
+211 identifier='CGPoint'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+11 13
+13 14
+11 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+122 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+128 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+146 150
+150 151
+146 152
+152 153
+2 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+155 161
+161 162
+162 163
+163 164
+2 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+166 172
+172 173
+173 174
+174 175
+2 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+185 186
+0 187
+0 188
+188 189
+0 190
+190 191
+191 192
+191 193
+193 194
+191 195
+195 196
+196 197
+190 198
+198 199
+198 200
+200 201
+198 202
+202 203
+203 204
+190 205
+205 206
+205 207
+207 208
+205 209
+209 210
+210 211
+
+draws a line given the origin and destination point

@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='computeOverlaps'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='start'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='end'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='mc'
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='start'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='mc'
+23 argument (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='end'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='mc'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='mco'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='computeOverlaps'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='mc'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='MonotoneChain'
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='mco'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='MonotoneChainOverlapAction'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+17 20
+20 21
+21 22
+7 23
+23 24
+24 25
+23 26
+26 27
+27 28
+7 29
+29 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+35 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+
+Determine all the line segments in two chains which may overlap, and process them. <p> The monotone chain search algorithm attempts to optimize  performance by not calling the overlap action on chain segments which it can determine do not overlap. However, it *may* call the overlap action on segments which do not actually interact. This saves on the overhead of checking intersection each time, since clients may be able to do this more efficiently.

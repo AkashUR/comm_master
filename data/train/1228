@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rangeCheck'
+7 arguments
+8 argument (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='length'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='a'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='fromIndex'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='toIndex'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (CastExpr)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='clone'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='a'
+31 type (ArrayType)
+32 origin='TYPE'
+33 componentType (PrimitiveType)
+34 type='BYTE'
+35 name (SimpleName)
+36 identifier='aux'
+37 type (ArrayType)
+38 origin='NAME'
+39 componentType (PrimitiveType)
+40 type='BYTE'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='mergeSort1'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='aux'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='a'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='fromIndex'
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='toIndex'
+58 type (VoidType)
+59 name (SimpleName)
+60 identifier='mergeSort'
+61 parameters
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='a'
+66 type (ArrayType)
+67 origin='TYPE'
+68 componentType (PrimitiveType)
+69 type='BYTE'
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='fromIndex'
+74 type (PrimitiveType)
+75 type='INT'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='toIndex'
+80 type (PrimitiveType)
+81 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+24 31
+31 32
+31 33
+33 34
+23 35
+35 36
+23 37
+37 38
+37 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+45 52
+52 53
+53 54
+45 55
+55 56
+56 57
+0 58
+0 59
+59 60
+0 61
+61 62
+62 63
+62 64
+64 65
+62 66
+66 67
+66 68
+68 69
+61 70
+70 71
+70 72
+72 73
+70 74
+74 75
+61 76
+76 77
+76 78
+78 79
+76 80
+80 81
+
+Sorts the specified range of the specified array of elements. <p>This sort is guaranteed to be <i>stable</i>:  equal elements will not be reordered as a result of the sort.<p> The sorting algorithm is a modified mergesort (in which the merge is omitted if the highest element in the low sublist is less than the lowest element in the high sublist).  This algorithm offers guaranteed n*log(n) performance, and can approach linear performance on nearly sorted lists.

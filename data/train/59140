@@ -1,0 +1,72 @@
+35
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertTrue'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='LESS'
+10 left (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='compareTo'
+13 scope (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='V2_2'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='WebXmlVersion'
+19 arguments
+20 argument (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='V2_3'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='WebXmlVersion'
+26 right (IntegerLiteralExpr)
+27 value='0'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='testCompare22To23'
+31 thrownExceptions
+32 thrownException (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+10 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+8 26
+26 27
+0 28
+0 29
+29 30
+0 31
+31 32
+32 33
+33 34
+
+Verifies that comparing version 2.2 to version 2.3 yields a negative value.

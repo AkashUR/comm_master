@@ -1,0 +1,86 @@
+42
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='connectServerBlock'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='ensureServerClosed'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='assertTrue'
+15 arguments
+16 argument (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='isOpen'
+19 scope (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='channel1'
+22 scope (ThisExpr)
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='close'
+27 scope (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='channel1'
+30 scope (ThisExpr)
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='statusChannelClosed'
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='testCFII_ServerClosedAfterFinish_Block'
+38 thrownExceptions
+39 thrownException (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+2 31
+31 32
+32 33
+33 34
+0 35
+0 36
+36 37
+0 38
+38 39
+39 40
+40 41
+
+connect-->finish-->server closed-->close

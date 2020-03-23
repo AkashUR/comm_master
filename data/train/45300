@@ -1,0 +1,394 @@
+196
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getStorageByName'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='storageDao'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getStorageName'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='request'
+20 name (SimpleName)
+21 identifier='storageEntity'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='StorageEntity'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getS3BucketName'
+32 scope (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getS3BucketAccessParams'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='storageHelper'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='storageEntity'
+42 name (SimpleName)
+43 identifier='s3BucketName'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='String'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getBusinessObjectDataKey'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='request'
+58 name (SimpleName)
+59 identifier='businessObjectDataKey'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='BusinessObjectDataKey'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='setBusinessObjectDataVersion'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='businessObjectDataKey'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='businessObjectDataVersion'
+74 statement (ExpressionStmt)
+75 expression (VariableDeclarationExpr)
+76 variables
+77 variable (VariableDeclarator)
+78 initializer (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='buildS3KeyPrefix'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='s3KeyPrefixHelper'
+84 arguments
+85 argument (FieldAccessExpr)
+86 name (SimpleName)
+87 identifier='S3_KEY_PREFIX_VELOCITY_TEMPLATE'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='AbstractServiceTest'
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='businessObjectFormatEntity'
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='businessObjectDataKey'
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getName'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='storageEntity'
+103 name (SimpleName)
+104 identifier='s3KeyPrefix'
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='String'
+108 statement (ExpressionStmt)
+109 expression (VariableDeclarationExpr)
+110 variables
+111 variable (VariableDeclarator)
+112 initializer (BinaryExpr)
+113 operator='PLUS'
+114 left (NameExpr)
+115 name (SimpleName)
+116 identifier='s3KeyPrefix'
+117 right (StringLiteralExpr)
+118 value='/test'
+119 name (SimpleName)
+120 identifier='s3ObjectKey'
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='String'
+124 statement (ExpressionStmt)
+125 expression (VariableDeclarationExpr)
+126 variables
+127 variable (VariableDeclarator)
+128 initializer (ObjectCreationExpr)
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='PutObjectRequest'
+132 arguments
+133 argument (NameExpr)
+134 name (SimpleName)
+135 identifier='s3BucketName'
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='s3ObjectKey'
+139 argument (ObjectCreationExpr)
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='ByteArrayInputStream'
+143 arguments
+144 argument (ArrayCreationExpr)
+145 elementType (PrimitiveType)
+146 type='BYTE'
+147 levels
+148 level (ArrayCreationLevel)
+149 dimension (IntegerLiteralExpr)
+150 value='1'
+151 argument (ObjectCreationExpr)
+152 type (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='ObjectMetadata'
+155 name (SimpleName)
+156 identifier='putObjectRequest'
+157 type (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='PutObjectRequest'
+160 statement (ExpressionStmt)
+161 expression (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='putObject'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='s3Operations'
+167 arguments
+168 argument (NameExpr)
+169 name (SimpleName)
+170 identifier='putObjectRequest'
+171 argument (NullLiteralExpr)
+172 type (VoidType)
+173 name (SimpleName)
+174 identifier='createS3Object'
+175 parameters
+176 parameter (Parameter)
+177 isVarArgs='false'
+178 name (SimpleName)
+179 identifier='businessObjectFormatEntity'
+180 type (ClassOrInterfaceType)
+181 name (SimpleName)
+182 identifier='BusinessObjectFormatEntity'
+183 parameter (Parameter)
+184 isVarArgs='false'
+185 name (SimpleName)
+186 identifier='request'
+187 type (ClassOrInterfaceType)
+188 name (SimpleName)
+189 identifier='BusinessObjectDataInvalidateUnregisteredRequest'
+190 parameter (Parameter)
+191 isVarArgs='false'
+192 name (SimpleName)
+193 identifier='businessObjectDataVersion'
+194 type (PrimitiveType)
+195 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+28 42
+42 43
+28 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+50 58
+58 59
+50 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+84 91
+91 92
+92 93
+84 94
+94 95
+95 96
+84 97
+97 98
+98 99
+97 100
+100 101
+101 102
+77 103
+103 104
+77 105
+105 106
+106 107
+2 108
+108 109
+109 110
+110 111
+111 112
+112 113
+112 114
+114 115
+115 116
+112 117
+117 118
+111 119
+119 120
+111 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+127 128
+128 129
+129 130
+130 131
+128 132
+132 133
+133 134
+134 135
+132 136
+136 137
+137 138
+132 139
+139 140
+140 141
+141 142
+139 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+149 150
+132 151
+151 152
+152 153
+153 154
+127 155
+155 156
+127 157
+157 158
+158 159
+2 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+161 167
+167 168
+168 169
+169 170
+167 171
+0 172
+0 173
+173 174
+0 175
+175 176
+176 177
+176 178
+178 179
+176 180
+180 181
+181 182
+175 183
+183 184
+183 185
+185 186
+183 187
+187 188
+188 189
+175 190
+190 191
+190 192
+192 193
+190 194
+194 195
+
+Creates an object in S3 with the prefix constructed from the given parameters. The object's full path will be {prefix}/{UUID}

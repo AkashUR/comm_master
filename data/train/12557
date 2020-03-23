@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NullLiteralExpr)
+8 name (SimpleName)
+9 identifier='rewriteConn'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Connection'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='rewriteConn'
+19 value (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getConnectionWithProps'
+22 arguments
+23 argument (StringLiteralExpr)
+24 value='rewriteBatchedStatements=true'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='checkBug34093'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='rewriteConn'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='rewriteConn'
+39 value (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getConnectionWithProps'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='rewriteBatchedStatements=true,useServerPrepStmts=true'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='checkBug34093'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='rewriteConn'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='testBug34093'
+56 thrownExceptions
+57 thrownException (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+58 59
+
+Tests fix for BUG#34093 - Statements with batched values do not return correct values for getGeneratedKeys() when "rewriteBatchedStatements" is set to "true", and the statement has an "ON DUPLICATE KEY UPDATE" clause.

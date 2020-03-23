@@ -1,0 +1,610 @@
+304
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='m_pageMax'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getPageCount'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='m_viewPanel'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='setMaximum'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='spinnerModel'
+22 arguments
+23 argument (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Integer'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='m_pageMax'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='setPreferredSize'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='centerScrollPane'
+38 arguments
+39 argument (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Dimension'
+43 arguments
+44 argument (BinaryExpr)
+45 operator='PLUS'
+46 left (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getPaperWidth'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='m_viewPanel'
+52 right (IntegerLiteralExpr)
+53 value='30'
+54 argument (BinaryExpr)
+55 operator='PLUS'
+56 left (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getPaperHeight'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='m_viewPanel'
+62 right (IntegerLiteralExpr)
+63 value='15'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='setViewSize'
+68 scope (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='getViewport'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='centerScrollPane'
+74 arguments
+75 argument (ObjectCreationExpr)
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='Dimension'
+79 arguments
+80 argument (BinaryExpr)
+81 operator='PLUS'
+82 left (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='getPaperWidth'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='m_viewPanel'
+88 right (BinaryExpr)
+89 operator='MULTIPLY'
+90 left (IntegerLiteralExpr)
+91 value='2'
+92 right (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='getMarginSize'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='m_viewPanel'
+98 arguments
+99 argument (BooleanLiteralExpr)
+100 value='true'
+101 argument (BinaryExpr)
+102 operator='PLUS'
+103 left (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='getPaperHeight'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='m_viewPanel'
+109 right (BinaryExpr)
+110 operator='MULTIPLY'
+111 left (IntegerLiteralExpr)
+112 value='2'
+113 right (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='getMarginSize'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='m_viewPanel'
+119 arguments
+120 argument (BooleanLiteralExpr)
+121 value='true'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='setTitle'
+126 arguments
+127 argument (BinaryExpr)
+128 operator='PLUS'
+129 left (BinaryExpr)
+130 operator='PLUS'
+131 left (BinaryExpr)
+132 operator='PLUS'
+133 left (BinaryExpr)
+134 operator='PLUS'
+135 left (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='getMsg'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='Msg'
+141 arguments
+142 argument (NameExpr)
+143 name (SimpleName)
+144 identifier='m_ctx'
+145 argument (StringLiteralExpr)
+146 value='Report'
+147 right (StringLiteralExpr)
+148 value=': '
+149 right (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='getName'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='m_reportEngine'
+155 right (StringLiteralExpr)
+156 value='  '
+157 right (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='getHeader'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='Env'
+163 arguments
+164 argument (NameExpr)
+165 name (SimpleName)
+166 identifier='m_ctx'
+167 argument (IntegerLiteralExpr)
+168 value='0'
+169 statement (ExpressionStmt)
+170 expression (VariableDeclarationExpr)
+171 variables
+172 variable (VariableDeclarator)
+173 initializer (ObjectCreationExpr)
+174 type (ClassOrInterfaceType)
+175 name (SimpleName)
+176 identifier='StringBuffer'
+177 name (SimpleName)
+178 identifier='sb'
+179 type (ClassOrInterfaceType)
+180 name (SimpleName)
+181 identifier='StringBuffer'
+182 statement (ExpressionStmt)
+183 expression (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='append'
+186 scope (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='append'
+189 scope (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='append'
+192 scope (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='append'
+195 scope (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='append'
+198 scope (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='append'
+201 scope (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='append'
+204 scope (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='append'
+207 scope (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='append'
+210 scope (NameExpr)
+211 name (SimpleName)
+212 identifier='sb'
+213 arguments
+214 argument (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='toString'
+217 scope (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='getPaper'
+220 scope (NameExpr)
+221 name (SimpleName)
+222 identifier='m_viewPanel'
+223 arguments
+224 argument (NameExpr)
+225 name (SimpleName)
+226 identifier='m_ctx'
+227 arguments
+228 argument (StringLiteralExpr)
+229 value=' - '
+230 arguments
+231 argument (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='getMsg'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='Msg'
+237 arguments
+238 argument (NameExpr)
+239 name (SimpleName)
+240 identifier='m_ctx'
+241 argument (StringLiteralExpr)
+242 value='DataCols'
+243 arguments
+244 argument (StringLiteralExpr)
+245 value='='
+246 arguments
+247 argument (MethodCallExpr)
+248 name (SimpleName)
+249 identifier='getColumnCount'
+250 scope (NameExpr)
+251 name (SimpleName)
+252 identifier='m_reportEngine'
+253 arguments
+254 argument (StringLiteralExpr)
+255 value=', '
+256 arguments
+257 argument (MethodCallExpr)
+258 name (SimpleName)
+259 identifier='getMsg'
+260 scope (NameExpr)
+261 name (SimpleName)
+262 identifier='Msg'
+263 arguments
+264 argument (NameExpr)
+265 name (SimpleName)
+266 identifier='m_ctx'
+267 argument (StringLiteralExpr)
+268 value='DataRows'
+269 arguments
+270 argument (StringLiteralExpr)
+271 value='='
+272 arguments
+273 argument (MethodCallExpr)
+274 name (SimpleName)
+275 identifier='getRowCount'
+276 scope (NameExpr)
+277 name (SimpleName)
+278 identifier='m_reportEngine'
+279 statement (ExpressionStmt)
+280 expression (MethodCallExpr)
+281 name (SimpleName)
+282 identifier='setStatusLine'
+283 scope (NameExpr)
+284 name (SimpleName)
+285 identifier='statusBar'
+286 arguments
+287 argument (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='toString'
+290 scope (NameExpr)
+291 name (SimpleName)
+292 identifier='sb'
+293 statement (ExpressionStmt)
+294 expression (MethodCallExpr)
+295 name (SimpleName)
+296 identifier='setPage'
+297 arguments
+298 argument (NameExpr)
+299 name (SimpleName)
+300 identifier='m_pageNo'
+301 type (VoidType)
+302 name (SimpleName)
+303 identifier='revalidate'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+49 50
+50 51
+44 52
+52 53
+43 54
+54 55
+54 56
+56 57
+57 58
+56 59
+59 60
+60 61
+54 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+65 74
+74 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+80 82
+82 83
+83 84
+82 85
+85 86
+86 87
+80 88
+88 89
+88 90
+90 91
+88 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+79 101
+101 102
+101 103
+103 104
+104 105
+103 106
+106 107
+107 108
+101 109
+109 110
+109 111
+111 112
+109 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+127 129
+129 130
+129 131
+131 132
+131 133
+133 134
+133 135
+135 136
+136 137
+135 138
+138 139
+139 140
+135 141
+141 142
+142 143
+143 144
+141 145
+145 146
+133 147
+147 148
+131 149
+149 150
+150 151
+149 152
+152 153
+153 154
+129 155
+155 156
+127 157
+157 158
+158 159
+157 160
+160 161
+161 162
+157 163
+163 164
+164 165
+165 166
+163 167
+167 168
+2 169
+169 170
+170 171
+171 172
+172 173
+173 174
+174 175
+175 176
+172 177
+177 178
+172 179
+179 180
+180 181
+2 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+186 189
+189 190
+190 191
+189 192
+192 193
+193 194
+192 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+201 204
+204 205
+205 206
+204 207
+207 208
+208 209
+207 210
+210 211
+211 212
+207 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+217 220
+220 221
+221 222
+214 223
+223 224
+224 225
+225 226
+204 227
+227 228
+228 229
+201 230
+230 231
+231 232
+232 233
+231 234
+234 235
+235 236
+231 237
+237 238
+238 239
+239 240
+237 241
+241 242
+198 243
+243 244
+244 245
+195 246
+246 247
+247 248
+248 249
+247 250
+250 251
+251 252
+192 253
+253 254
+254 255
+189 256
+256 257
+257 258
+258 259
+257 260
+260 261
+261 262
+257 263
+263 264
+264 265
+265 266
+263 267
+267 268
+186 269
+269 270
+270 271
+183 272
+272 273
+273 274
+274 275
+273 276
+276 277
+277 278
+2 279
+279 280
+280 281
+281 282
+280 283
+283 284
+284 285
+280 286
+286 287
+287 288
+288 289
+287 290
+290 291
+291 292
+2 293
+293 294
+294 295
+295 296
+294 297
+297 298
+298 299
+299 300
+0 301
+0 302
+302 303
+
+Revalidate settings after change of environment

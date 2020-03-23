@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='path'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='createTempDir'
+12 arguments
+13 argument (StringLiteralExpr)
+14 value='testCrashCorruptsIndexing'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='indexAndCrashOnCreateOutputSegments2'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='searchForFleas'
+23 arguments
+24 argument (IntegerLiteralExpr)
+25 value='2'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='indexAfterRestart'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='searchForFleas'
+34 arguments
+35 argument (IntegerLiteralExpr)
+36 value='3'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='testCrashCorruptsIndexing'
+40 thrownExceptions
+41 thrownException (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+42 43
+
+LUCENE-3627: This test fails.

@@ -1,0 +1,32 @@
+15
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onDestroy'
+7 scope (SuperExpr)
+8 type (VoidType)
+9 name (SimpleName)
+10 identifier='onDestroy'
+11 annotations
+12 annotation (MarkerAnnotationExpr)
+13 name (Name)
+14 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+0 8
+0 9
+9 10
+0 11
+11 12
+12 13
+13 14
+
+Called by the system to notify a Service that it is no longer used and is being removed. The service should clean up any resources it holds (threads, registered receivers, etc) at this point.  Upon return, there will be no more calls in to this Service object and it is effectively dead.  Do not call this method directly.

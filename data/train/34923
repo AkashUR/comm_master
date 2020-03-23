@@ -1,0 +1,72 @@
+35
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mActivity'
+9 value (CastExpr)
+10 expression (NameExpr)
+11 name (SimpleName)
+12 identifier='activity'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Activity'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='onAttach'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='mActivity'
+24 type (VoidType)
+25 name (SimpleName)
+26 identifier='droidsafeSetContext'
+27 parameters
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='activity'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='Context'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+0 24
+0 25
+25 26
+0 27
+27 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+
+We need to pass in the activity to associate the fragment with an activity. There is no legal way of doing it through API, easier to make of type context for generated soot code

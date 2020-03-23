@@ -1,0 +1,298 @@
+148
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='REPOS'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='DgPaths'
+17 right (StringLiteralExpr)
+18 value='shared-svn/projects/cottbus/data/optimization/cb2ks2010/'
+19 right (StringLiteralExpr)
+20 value='2015-02-25_minflow_50.0_morning_peak_speedFilter15.0_SP_tt_cBB50.0_sBB500.0/'
+21 name (SimpleName)
+22 identifier='directory'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='String'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (StringLiteralExpr)
+31 value='routeComparison/paths.xml'
+32 name (SimpleName)
+33 identifier='btuRoutesFilename'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='String'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (StringLiteralExpr)
+42 value='network_small_simplified.xml.gz'
+43 name (SimpleName)
+44 identifier='networkFilename'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='String'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 initializer (StringLiteralExpr)
+53 value='trip_plans_from_morning_peak_ks_commodities_minFlow50.0.xml'
+54 name (SimpleName)
+55 identifier='populationFile'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='split'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='btuRoutesFilename'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='/'
+72 name (SimpleName)
+73 identifier='filenameAttributes'
+74 type (ArrayType)
+75 origin='TYPE'
+76 componentType (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='String'
+79 statement (ExpressionStmt)
+80 expression (VariableDeclarationExpr)
+81 variables
+82 variable (VariableDeclarator)
+83 initializer (BinaryExpr)
+84 operator='PLUS'
+85 left (BinaryExpr)
+86 operator='PLUS'
+87 left (NameExpr)
+88 name (SimpleName)
+89 identifier='directory'
+90 right (StringLiteralExpr)
+91 value='routeComparison/2015-03-10_sameEndTimes_ksOptTripPlans_'
+92 right (ArrayAccessExpr)
+93 index (BinaryExpr)
+94 operator='MINUS'
+95 left (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='length'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='filenameAttributes'
+101 right (IntegerLiteralExpr)
+102 value='1'
+103 name (NameExpr)
+104 name (SimpleName)
+105 identifier='filenameAttributes'
+106 name (SimpleName)
+107 identifier='outputFilename'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='String'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='startConversion'
+115 scope (ObjectCreationExpr)
+116 type (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='ConvertBTURoutes2Matsim'
+119 arguments
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='directory'
+123 argument (NameExpr)
+124 name (SimpleName)
+125 identifier='btuRoutesFilename'
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='networkFilename'
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='populationFile'
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='outputFilename'
+135 type (VoidType)
+136 name (SimpleName)
+137 identifier='main'
+138 parameters
+139 parameter (Parameter)
+140 isVarArgs='false'
+141 name (SimpleName)
+142 identifier='args'
+143 type (ArrayType)
+144 origin='TYPE'
+145 componentType (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+12 13
+11 14
+14 15
+15 16
+9 17
+17 18
+7 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+29 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+40 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+51 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+62 72
+72 73
+62 74
+74 75
+74 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+82 83
+83 84
+83 85
+85 86
+85 87
+87 88
+88 89
+85 90
+90 91
+83 92
+92 93
+93 94
+93 95
+95 96
+96 97
+95 98
+98 99
+99 100
+93 101
+101 102
+92 103
+103 104
+104 105
+82 106
+106 107
+82 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+117 118
+112 119
+119 120
+120 121
+121 122
+119 123
+123 124
+124 125
+119 126
+126 127
+127 128
+119 129
+129 130
+130 131
+119 132
+132 133
+133 134
+0 135
+0 136
+136 137
+0 138
+138 139
+139 140
+139 141
+141 142
+139 143
+143 144
+143 145
+145 146
+146 147
+
+Main method to run the conversion.

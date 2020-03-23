@@ -1,0 +1,732 @@
+365
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertEquals'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='formatDateTimeIso8601'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='StringUtils'
+14 arguments
+15 argument (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getTime'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='location'
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getChildTextValue'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='tag'
+28 argument (StringLiteralExpr)
+29 value='Time'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getChildElement'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='tag'
+41 argument (StringLiteralExpr)
+42 value='Position'
+43 name (SimpleName)
+44 identifier='positionTag'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Element'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='assertEquals'
+52 arguments
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='toString'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='Double'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getLatitude'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='location'
+66 argument (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='getChildTextValue'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='positionTag'
+73 argument (StringLiteralExpr)
+74 value='LatitudeDegrees'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='assertEquals'
+79 arguments
+80 argument (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='toString'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='Double'
+86 arguments
+87 argument (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='getLongitude'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='location'
+93 argument (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='getChildTextValue'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='positionTag'
+100 argument (StringLiteralExpr)
+101 value='LongitudeDegrees'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='assertEquals'
+106 arguments
+107 argument (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='toString'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='Double'
+113 arguments
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='getAltitude'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='location'
+120 argument (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='getChildTextValue'
+123 arguments
+124 argument (NameExpr)
+125 name (SimpleName)
+126 identifier='tag'
+127 argument (StringLiteralExpr)
+128 value='AltitudeMeters'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='assertTrue'
+133 arguments
+134 argument (BinaryExpr)
+135 operator='NOT_EQUALS'
+136 left (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='getSensorDataSet'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='location'
+142 right (NullLiteralExpr)
+143 statement (ExpressionStmt)
+144 expression (VariableDeclarationExpr)
+145 variables
+146 variable (VariableDeclarator)
+147 initializer (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='getSensorDataSet'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='location'
+153 name (SimpleName)
+154 identifier='sds'
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='SensorDataSet'
+158 scope (ClassOrInterfaceType)
+159 name (SimpleName)
+160 identifier='Sensor'
+161 statement (ExpressionStmt)
+162 expression (VariableDeclarationExpr)
+163 variables
+164 variable (VariableDeclarator)
+165 initializer (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='getChildElements'
+168 arguments
+169 argument (NameExpr)
+170 name (SimpleName)
+171 identifier='tag'
+172 argument (StringLiteralExpr)
+173 value='HeartRateBpm'
+174 argument (IntegerLiteralExpr)
+175 value='1'
+176 name (SimpleName)
+177 identifier='heartRate'
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='List'
+181 typeArguments
+182 typeArgument (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='Element'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='assertEquals'
+189 arguments
+190 argument (MethodCallExpr)
+191 name (SimpleName)
+192 identifier='toString'
+193 scope (NameExpr)
+194 name (SimpleName)
+195 identifier='Integer'
+196 arguments
+197 argument (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='getValue'
+200 scope (MethodCallExpr)
+201 name (SimpleName)
+202 identifier='getHeartRate'
+203 scope (NameExpr)
+204 name (SimpleName)
+205 identifier='sds'
+206 argument (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='getChildTextValue'
+209 arguments
+210 argument (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='get'
+213 scope (NameExpr)
+214 name (SimpleName)
+215 identifier='heartRate'
+216 arguments
+217 argument (IntegerLiteralExpr)
+218 value='0'
+219 argument (StringLiteralExpr)
+220 value='Value'
+221 statement (ExpressionStmt)
+222 expression (VariableDeclarationExpr)
+223 variables
+224 variable (VariableDeclarator)
+225 initializer (MethodCallExpr)
+226 name (SimpleName)
+227 identifier='getChildElements'
+228 arguments
+229 argument (NameExpr)
+230 name (SimpleName)
+231 identifier='tag'
+232 argument (StringLiteralExpr)
+233 value='Extensions'
+234 argument (IntegerLiteralExpr)
+235 value='1'
+236 name (SimpleName)
+237 identifier='extensions'
+238 type (ClassOrInterfaceType)
+239 name (SimpleName)
+240 identifier='List'
+241 typeArguments
+242 typeArgument (ClassOrInterfaceType)
+243 name (SimpleName)
+244 identifier='Element'
+245 statement (ExpressionStmt)
+246 expression (VariableDeclarationExpr)
+247 variables
+248 variable (VariableDeclarator)
+249 initializer (MethodCallExpr)
+250 name (SimpleName)
+251 identifier='getChildElements'
+252 arguments
+253 argument (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='get'
+256 scope (NameExpr)
+257 name (SimpleName)
+258 identifier='extensions'
+259 arguments
+260 argument (IntegerLiteralExpr)
+261 value='0'
+262 argument (StringLiteralExpr)
+263 value='TPX'
+264 argument (IntegerLiteralExpr)
+265 value='1'
+266 name (SimpleName)
+267 identifier='tpx'
+268 type (ClassOrInterfaceType)
+269 name (SimpleName)
+270 identifier='List'
+271 typeArguments
+272 typeArgument (ClassOrInterfaceType)
+273 name (SimpleName)
+274 identifier='Element'
+275 statement (ExpressionStmt)
+276 expression (MethodCallExpr)
+277 name (SimpleName)
+278 identifier='assertEquals'
+279 arguments
+280 argument (MethodCallExpr)
+281 name (SimpleName)
+282 identifier='toString'
+283 scope (NameExpr)
+284 name (SimpleName)
+285 identifier='Integer'
+286 arguments
+287 argument (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='getValue'
+290 scope (MethodCallExpr)
+291 name (SimpleName)
+292 identifier='getCadence'
+293 scope (NameExpr)
+294 name (SimpleName)
+295 identifier='sds'
+296 argument (MethodCallExpr)
+297 name (SimpleName)
+298 identifier='getChildTextValue'
+299 arguments
+300 argument (MethodCallExpr)
+301 name (SimpleName)
+302 identifier='get'
+303 scope (NameExpr)
+304 name (SimpleName)
+305 identifier='tpx'
+306 arguments
+307 argument (IntegerLiteralExpr)
+308 value='0'
+309 argument (StringLiteralExpr)
+310 value='RunCadence'
+311 statement (ExpressionStmt)
+312 expression (MethodCallExpr)
+313 name (SimpleName)
+314 identifier='assertEquals'
+315 arguments
+316 argument (MethodCallExpr)
+317 name (SimpleName)
+318 identifier='toString'
+319 scope (NameExpr)
+320 name (SimpleName)
+321 identifier='Integer'
+322 arguments
+323 argument (MethodCallExpr)
+324 name (SimpleName)
+325 identifier='getValue'
+326 scope (MethodCallExpr)
+327 name (SimpleName)
+328 identifier='getPower'
+329 scope (NameExpr)
+330 name (SimpleName)
+331 identifier='sds'
+332 argument (MethodCallExpr)
+333 name (SimpleName)
+334 identifier='getChildTextValue'
+335 arguments
+336 argument (MethodCallExpr)
+337 name (SimpleName)
+338 identifier='get'
+339 scope (NameExpr)
+340 name (SimpleName)
+341 identifier='tpx'
+342 arguments
+343 argument (IntegerLiteralExpr)
+344 value='0'
+345 argument (StringLiteralExpr)
+346 value='Watts'
+347 type (VoidType)
+348 name (SimpleName)
+349 identifier='assertTagMatchesLocation'
+350 parameters
+351 parameter (Parameter)
+352 isVarArgs='false'
+353 name (SimpleName)
+354 identifier='tag'
+355 type (ClassOrInterfaceType)
+356 name (SimpleName)
+357 identifier='Element'
+358 parameter (Parameter)
+359 isVarArgs='false'
+360 name (SimpleName)
+361 identifier='location'
+362 type (ClassOrInterfaceType)
+363 name (SimpleName)
+364 identifier='MyTracksLocation'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+7 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+24 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+39 40
+37 41
+41 42
+33 43
+43 44
+33 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+52 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+69 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+79 93
+93 94
+94 95
+93 96
+96 97
+97 98
+98 99
+96 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+106 120
+120 121
+121 122
+120 123
+123 124
+124 125
+125 126
+123 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+134 136
+136 137
+137 138
+136 139
+139 140
+140 141
+134 142
+2 143
+143 144
+144 145
+145 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+146 153
+153 154
+146 155
+155 156
+156 157
+155 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+170 171
+168 172
+172 173
+168 174
+174 175
+164 176
+176 177
+164 178
+178 179
+179 180
+178 181
+181 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+190 196
+196 197
+197 198
+198 199
+197 200
+200 201
+201 202
+200 203
+203 204
+204 205
+189 206
+206 207
+207 208
+206 209
+209 210
+210 211
+211 212
+210 213
+213 214
+214 215
+210 216
+216 217
+217 218
+209 219
+219 220
+2 221
+221 222
+222 223
+223 224
+224 225
+225 226
+226 227
+225 228
+228 229
+229 230
+230 231
+228 232
+232 233
+228 234
+234 235
+224 236
+236 237
+224 238
+238 239
+239 240
+238 241
+241 242
+242 243
+243 244
+2 245
+245 246
+246 247
+247 248
+248 249
+249 250
+250 251
+249 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+253 259
+259 260
+260 261
+252 262
+262 263
+252 264
+264 265
+248 266
+266 267
+248 268
+268 269
+269 270
+268 271
+271 272
+272 273
+273 274
+2 275
+275 276
+276 277
+277 278
+276 279
+279 280
+280 281
+281 282
+280 283
+283 284
+284 285
+280 286
+286 287
+287 288
+288 289
+287 290
+290 291
+291 292
+290 293
+293 294
+294 295
+279 296
+296 297
+297 298
+296 299
+299 300
+300 301
+301 302
+300 303
+303 304
+304 305
+300 306
+306 307
+307 308
+299 309
+309 310
+2 311
+311 312
+312 313
+313 314
+312 315
+315 316
+316 317
+317 318
+316 319
+319 320
+320 321
+316 322
+322 323
+323 324
+324 325
+323 326
+326 327
+327 328
+326 329
+329 330
+330 331
+315 332
+332 333
+333 334
+332 335
+335 336
+336 337
+337 338
+336 339
+339 340
+340 341
+336 342
+342 343
+343 344
+335 345
+345 346
+0 347
+0 348
+348 349
+0 350
+350 351
+351 352
+351 353
+353 354
+351 355
+355 356
+356 357
+350 358
+358 359
+358 360
+360 361
+358 362
+362 363
+363 364
+
+Asserts that the given tag describes the given location.

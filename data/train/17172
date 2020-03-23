@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkNotNull'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='fluoClient'
+11 statement (TryStmt)
+12 tryBlock (BlockStmt)
+13 statements
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='addRow'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='tx'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='row'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='col'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='val'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='commit'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='tx'
+38 resources
+39 resource (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='newTransaction'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='fluoClient'
+48 name (SimpleName)
+49 identifier='tx'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='Transaction'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='addRow'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='fluoClient'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='FluoClient'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='row'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='String'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='col'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Column'
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='val'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+18 25
+25 26
+26 27
+18 28
+28 29
+29 30
+13 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+11 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+41 48
+48 49
+41 50
+50 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+56 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+56 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+56 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+
+Add a row, creating and closing a transaction.

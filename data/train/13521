@@ -1,0 +1,132 @@
+65
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='salt'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='makeRand'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='Digest'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='serialize'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='data'
+27 name (SimpleName)
+28 identifier='d'
+29 type (ArrayType)
+30 origin='TYPE'
+31 componentType (PrimitiveType)
+32 type='BYTE'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='value'
+39 scope (ThisExpr)
+40 value (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='digest'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='Digest'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='d'
+50 name (SimpleName)
+51 identifier='Commitment'
+52 parameters
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='data'
+57 type (ArrayType)
+58 origin='TYPE'
+59 componentType (PrimitiveType)
+60 type='BYTE'
+61 thrownExceptions
+62 thrownException (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='NoSuchAlgorithmException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+19 27
+27 28
+19 29
+29 30
+29 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+0 50
+50 51
+0 52
+52 53
+53 54
+53 55
+55 56
+53 57
+57 58
+57 59
+59 60
+0 61
+61 62
+62 63
+63 64
+
+Generate a new commitment to protect CONIKS users' data. The commitment consists of a random salt and the value.

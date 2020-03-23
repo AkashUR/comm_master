@@ -1,0 +1,294 @@
+146
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TurnRestriction'
+11 name (SimpleName)
+12 identifier='restriction'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TurnRestriction'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='fromEdge'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='restriction'
+25 value (NameExpr)
+26 name (SimpleName)
+27 identifier='from'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='toEdge'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='restriction'
+37 value (NameExpr)
+38 name (SimpleName)
+39 identifier='to'
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='ASSIGN'
+43 target (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='only'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='restriction'
+49 value (NameExpr)
+50 name (SimpleName)
+51 identifier='onlyTurn'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='viaEdges'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='restriction'
+61 value (NameExpr)
+62 name (SimpleName)
+63 identifier='via'
+64 statement (ExpressionStmt)
+65 expression (VariableDeclarationExpr)
+66 variables
+67 variable (VariableDeclarator)
+68 initializer (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='size'
+71 scope (FieldAccessExpr)
+72 name (SimpleName)
+73 identifier='turnRestrictions'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='streetLayer'
+77 name (SimpleName)
+78 identifier='ridx'
+79 type (PrimitiveType)
+80 type='INT'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='add'
+85 scope (FieldAccessExpr)
+86 name (SimpleName)
+87 identifier='turnRestrictions'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='streetLayer'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='restriction'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='put'
+99 scope (FieldAccessExpr)
+100 name (SimpleName)
+101 identifier='turnRestrictions'
+102 scope (FieldAccessExpr)
+103 name (SimpleName)
+104 identifier='edgeStore'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='streetLayer'
+108 arguments
+109 argument (FieldAccessExpr)
+110 name (SimpleName)
+111 identifier='fromEdge'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='restriction'
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='ridx'
+118 type (VoidType)
+119 name (SimpleName)
+120 identifier='restrictTurn'
+121 parameters
+122 parameter (Parameter)
+123 isVarArgs='false'
+124 name (SimpleName)
+125 identifier='onlyTurn'
+126 type (PrimitiveType)
+127 type='BOOLEAN'
+128 parameter (Parameter)
+129 isVarArgs='false'
+130 name (SimpleName)
+131 identifier='from'
+132 type (PrimitiveType)
+133 type='INT'
+134 parameter (Parameter)
+135 isVarArgs='false'
+136 name (SimpleName)
+137 identifier='to'
+138 type (PrimitiveType)
+139 type='INT'
+140 parameter (Parameter)
+141 isVarArgs='true'
+142 name (SimpleName)
+143 identifier='via'
+144 type (PrimitiveType)
+145 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+22 23
+23 24
+17 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+31 34
+34 35
+35 36
+29 37
+37 38
+38 39
+2 40
+40 41
+41 42
+41 43
+43 44
+44 45
+43 46
+46 47
+47 48
+41 49
+49 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+55 58
+58 59
+59 60
+53 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+67 77
+77 78
+67 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+82 91
+91 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+99 102
+102 103
+103 104
+102 105
+105 106
+106 107
+96 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+108 115
+115 116
+116 117
+0 118
+0 119
+119 120
+0 121
+121 122
+122 123
+122 124
+124 125
+122 126
+126 127
+121 128
+128 129
+128 130
+130 131
+128 132
+132 133
+121 134
+134 135
+134 136
+136 137
+134 138
+138 139
+121 140
+140 141
+140 142
+142 143
+140 144
+144 145
+
+create a turn restriction

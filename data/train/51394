@@ -1,0 +1,384 @@
+191
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='mapper'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='objectNode'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getNodeFactory'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='mapper'
+29 name (SimpleName)
+30 identifier='n'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='ObjectNode'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='put'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='n'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='pojo'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='POJONode'
+47 scope (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getNodeFactory'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='mapper'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='abc'
+56 statement (ExpressionStmt)
+57 expression (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 initializer (ObjectCreationExpr)
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='StringWriter'
+64 name (SimpleName)
+65 identifier='sw'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='StringWriter'
+69 statement (ExpressionStmt)
+70 expression (VariableDeclarationExpr)
+71 variables
+72 variable (VariableDeclarator)
+73 initializer (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='createJsonGenerator'
+76 scope (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='getJsonFactory'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='mapper'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='sw'
+86 name (SimpleName)
+87 identifier='jg'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='JsonGenerator'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='writeTree'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='mapper'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='jg'
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='n'
+105 statement (ExpressionStmt)
+106 expression (VariableDeclarationExpr)
+107 variables
+108 variable (VariableDeclarator)
+109 initializer (CastExpr)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='readValue'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='mapper'
+116 arguments
+117 argument (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='toString'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='sw'
+123 argument (ClassExpr)
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='Map'
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='Map'
+130 typeArguments
+131 typeArgument (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='String'
+134 typeArgument (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='Object'
+137 name (SimpleName)
+138 identifier='result'
+139 type (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='Map'
+142 typeArguments
+143 typeArgument (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='String'
+146 typeArgument (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='Object'
+149 statement (ExpressionStmt)
+150 expression (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='assertEquals'
+153 arguments
+154 argument (IntegerLiteralExpr)
+155 value='1'
+156 argument (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='size'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='result'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='assertEquals'
+166 arguments
+167 argument (StringLiteralExpr)
+168 value='abc'
+169 argument (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='get'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='result'
+175 arguments
+176 argument (StringLiteralExpr)
+177 value='pojo'
+178 type (VoidType)
+179 name (SimpleName)
+180 identifier='testPOJOString'
+181 thrownExceptions
+182 thrownException (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='Exception'
+185 annotations
+186 annotation (SingleMemberAnnotationExpr)
+187 memberValue (StringLiteralExpr)
+188 value='unchecked'
+189 name (Name)
+190 identifier='SuppressWarnings'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+19 29
+29 30
+19 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+44 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+59 64
+64 65
+59 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+76 79
+79 80
+80 81
+73 82
+82 83
+83 84
+84 85
+72 86
+86 87
+72 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+100 101
+98 102
+102 103
+103 104
+2 105
+105 106
+106 107
+107 108
+108 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+110 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+116 123
+123 124
+124 125
+125 126
+109 127
+127 128
+128 129
+127 130
+130 131
+131 132
+132 133
+130 134
+134 135
+135 136
+108 137
+137 138
+108 139
+139 140
+140 141
+139 142
+142 143
+143 144
+144 145
+142 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+153 156
+156 157
+157 158
+156 159
+159 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+166 169
+169 170
+170 171
+169 172
+172 173
+173 174
+169 175
+175 176
+176 177
+0 178
+0 179
+179 180
+0 181
+181 182
+182 183
+183 184
+0 185
+185 186
+186 187
+187 188
+186 189
+189 190
+
+Simple test to verify that POJONodes (JsonNode wrapper around any old Java object) work with serialization

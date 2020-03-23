@@ -1,0 +1,252 @@
+125
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='libraryName'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='replace'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='libraryName'
+15 arguments
+16 argument (StringLiteralExpr)
+17 value='\''
+18 argument (StringLiteralExpr)
+19 value='\'\''
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='tag'
+26 value (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='replace'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='tag'
+32 arguments
+33 argument (StringLiteralExpr)
+34 value='\''
+35 argument (StringLiteralExpr)
+36 value='\'\''
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (BinaryExpr)
+42 operator='PLUS'
+43 left (BinaryExpr)
+44 operator='PLUS'
+45 left (BinaryExpr)
+46 operator='PLUS'
+47 left (BinaryExpr)
+48 operator='PLUS'
+49 left (BinaryExpr)
+50 operator='PLUS'
+51 left (BinaryExpr)
+52 operator='PLUS'
+53 left (BinaryExpr)
+54 operator='PLUS'
+55 left (BinaryExpr)
+56 operator='PLUS'
+57 left (BinaryExpr)
+58 operator='PLUS'
+59 left (BinaryExpr)
+60 operator='PLUS'
+61 left (NameExpr)
+62 name (SimpleName)
+63 identifier='LIBRARY_NAME'
+64 right (StringLiteralExpr)
+65 value='='
+66 right (StringLiteralExpr)
+67 value='\''
+68 right (NameExpr)
+69 name (SimpleName)
+70 identifier='libraryName'
+71 right (StringLiteralExpr)
+72 value='\''
+73 right (StringLiteralExpr)
+74 value=' AND '
+75 right (NameExpr)
+76 name (SimpleName)
+77 identifier='LIBRARY_TAG'
+78 right (StringLiteralExpr)
+79 value='='
+80 right (StringLiteralExpr)
+81 value='\''
+82 right (NameExpr)
+83 name (SimpleName)
+84 identifier='tag'
+85 right (StringLiteralExpr)
+86 value='\''
+87 name (SimpleName)
+88 identifier='where'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='String'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='delete'
+96 scope (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='getDatabase'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='LIBRARIES_TABLE'
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='where'
+106 argument (NullLiteralExpr)
+107 type (VoidType)
+108 name (SimpleName)
+109 identifier='deleteLibrary'
+110 parameters
+111 parameter (Parameter)
+112 isVarArgs='false'
+113 name (SimpleName)
+114 identifier='libraryName'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='String'
+118 parameter (Parameter)
+119 isVarArgs='false'
+120 name (SimpleName)
+121 identifier='tag'
+122 type (ClassOrInterfaceType)
+123 name (SimpleName)
+124 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+15 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+32 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+41 43
+43 44
+43 45
+45 46
+45 47
+47 48
+47 49
+49 50
+49 51
+51 52
+51 53
+53 54
+53 55
+55 56
+55 57
+57 58
+57 59
+59 60
+59 61
+61 62
+62 63
+59 64
+64 65
+57 66
+66 67
+55 68
+68 69
+69 70
+53 71
+71 72
+51 73
+73 74
+49 75
+75 76
+76 77
+47 78
+78 79
+45 80
+80 81
+43 82
+82 83
+83 84
+41 85
+85 86
+40 87
+87 88
+40 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+101 102
+99 103
+103 104
+104 105
+99 106
+0 107
+0 108
+108 109
+0 110
+110 111
+111 112
+111 113
+113 114
+111 115
+115 116
+116 117
+110 118
+118 119
+118 120
+120 121
+118 122
+122 123
+123 124
+
+Deletes the specified library by its name and tag.

@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='desiredSSAOptions'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='ir'
+12 value (ObjectCreationExpr)
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='SSAOptions'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setScalarsOnly'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='desiredSSAOptions'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='ir'
+26 arguments
+27 argument (BooleanLiteralExpr)
+28 value='true'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='setBackwards'
+33 scope (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='desiredSSAOptions'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='ir'
+39 arguments
+40 argument (BooleanLiteralExpr)
+41 value='false'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='setInsertUsePhis'
+46 scope (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='desiredSSAOptions'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='ir'
+52 arguments
+53 argument (BooleanLiteralExpr)
+54 value='false'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='perform'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='ir'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='IR'
+66 annotations
+67 annotation (MarkerAnnotationExpr)
+68 name (Name)
+69 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+17 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+30 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+43 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+0 66
+66 67
+67 68
+68 69
+
+register in the IR the SSA properties we need for simple scalar renaming

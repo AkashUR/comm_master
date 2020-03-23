@@ -1,0 +1,522 @@
+260
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getDisplayMetrics'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getResources'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='context'
+16 name (SimpleName)
+17 identifier='dm'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='DisplayMetrics'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='mDisplayWidth'
+27 value (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='widthPixels'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='dm'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='mDisplayHeight'
+39 value (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='heightPixels'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='dm'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='v'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='Log'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='TAG'
+56 argument (BinaryExpr)
+57 operator='PLUS'
+58 left (BinaryExpr)
+59 operator='PLUS'
+60 left (BinaryExpr)
+61 operator='PLUS'
+62 left (StringLiteralExpr)
+63 value='keyboard\'s display metrics:'
+64 right (NameExpr)
+65 name (SimpleName)
+66 identifier='dm'
+67 right (StringLiteralExpr)
+68 value=', mDisplayWidth='
+69 right (NameExpr)
+70 name (SimpleName)
+71 identifier='mDisplayWidth'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (NameExpr)
+76 name (SimpleName)
+77 identifier='mDefaultHorizontalGap'
+78 value (IntegerLiteralExpr)
+79 value='0'
+80 statement (ExpressionStmt)
+81 expression (AssignExpr)
+82 operator='ASSIGN'
+83 target (NameExpr)
+84 name (SimpleName)
+85 identifier='mDefaultWidth'
+86 value (BinaryExpr)
+87 operator='DIVIDE'
+88 left (NameExpr)
+89 name (SimpleName)
+90 identifier='mDisplayWidth'
+91 right (IntegerLiteralExpr)
+92 value='10'
+93 statement (ExpressionStmt)
+94 expression (AssignExpr)
+95 operator='ASSIGN'
+96 target (NameExpr)
+97 name (SimpleName)
+98 identifier='mDefaultVerticalGap'
+99 value (IntegerLiteralExpr)
+100 value='0'
+101 statement (ExpressionStmt)
+102 expression (AssignExpr)
+103 operator='ASSIGN'
+104 target (NameExpr)
+105 name (SimpleName)
+106 identifier='mDefaultHeight'
+107 value (NameExpr)
+108 name (SimpleName)
+109 identifier='defaultHeight'
+110 statement (ExpressionStmt)
+111 expression (AssignExpr)
+112 operator='ASSIGN'
+113 target (NameExpr)
+114 name (SimpleName)
+115 identifier='mKeyboardHeight'
+116 value (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='round'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='Math'
+122 arguments
+123 argument (BinaryExpr)
+124 operator='DIVIDE'
+125 left (BinaryExpr)
+126 operator='MULTIPLY'
+127 left (NameExpr)
+128 name (SimpleName)
+129 identifier='mDisplayHeight'
+130 right (NameExpr)
+131 name (SimpleName)
+132 identifier='kbHeightPercent'
+133 right (IntegerLiteralExpr)
+134 value='100'
+135 statement (ExpressionStmt)
+136 expression (AssignExpr)
+137 operator='ASSIGN'
+138 target (NameExpr)
+139 name (SimpleName)
+140 identifier='mKeys'
+141 value (ObjectCreationExpr)
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='ArrayList'
+145 typeArguments
+146 typeArgument (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='Key'
+149 statement (ExpressionStmt)
+150 expression (AssignExpr)
+151 operator='ASSIGN'
+152 target (NameExpr)
+153 name (SimpleName)
+154 identifier='mModifierKeys'
+155 value (ObjectCreationExpr)
+156 type (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='ArrayList'
+159 typeArguments
+160 typeArgument (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='Key'
+163 statement (ExpressionStmt)
+164 expression (AssignExpr)
+165 operator='ASSIGN'
+166 target (NameExpr)
+167 name (SimpleName)
+168 identifier='mKeyboardMode'
+169 value (NameExpr)
+170 name (SimpleName)
+171 identifier='modeId'
+172 statement (ExpressionStmt)
+173 expression (AssignExpr)
+174 operator='ASSIGN'
+175 target (NameExpr)
+176 name (SimpleName)
+177 identifier='mUseExtension'
+178 value (FieldAccessExpr)
+179 name (SimpleName)
+180 identifier='useExtension'
+181 scope (FieldAccessExpr)
+182 name (SimpleName)
+183 identifier='sKeyboardSettings'
+184 scope (NameExpr)
+185 name (SimpleName)
+186 identifier='LatinIME'
+187 statement (ExpressionStmt)
+188 expression (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='loadKeyboard'
+191 arguments
+192 argument (NameExpr)
+193 name (SimpleName)
+194 identifier='context'
+195 argument (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='getXml'
+198 scope (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='getResources'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='context'
+204 arguments
+205 argument (NameExpr)
+206 name (SimpleName)
+207 identifier='xmlLayoutResId'
+208 statement (ExpressionStmt)
+209 expression (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='setEdgeFlags'
+212 statement (ExpressionStmt)
+213 expression (MethodCallExpr)
+214 name (SimpleName)
+215 identifier='fixAltChars'
+216 arguments
+217 argument (FieldAccessExpr)
+218 name (SimpleName)
+219 identifier='inputLocale'
+220 scope (FieldAccessExpr)
+221 name (SimpleName)
+222 identifier='sKeyboardSettings'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='LatinIME'
+226 name (SimpleName)
+227 identifier='Keyboard'
+228 parameters
+229 parameter (Parameter)
+230 isVarArgs='false'
+231 name (SimpleName)
+232 identifier='context'
+233 type (ClassOrInterfaceType)
+234 name (SimpleName)
+235 identifier='Context'
+236 parameter (Parameter)
+237 isVarArgs='false'
+238 name (SimpleName)
+239 identifier='defaultHeight'
+240 type (PrimitiveType)
+241 type='INT'
+242 parameter (Parameter)
+243 isVarArgs='false'
+244 name (SimpleName)
+245 identifier='xmlLayoutResId'
+246 type (PrimitiveType)
+247 type='INT'
+248 parameter (Parameter)
+249 isVarArgs='false'
+250 name (SimpleName)
+251 identifier='modeId'
+252 type (PrimitiveType)
+253 type='INT'
+254 parameter (Parameter)
+255 isVarArgs='false'
+256 name (SimpleName)
+257 identifier='kbHeightPercent'
+258 type (PrimitiveType)
+259 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+52 56
+56 57
+56 58
+58 59
+58 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+58 67
+67 68
+56 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+2 80
+80 81
+81 82
+81 83
+83 84
+84 85
+81 86
+86 87
+86 88
+88 89
+89 90
+86 91
+91 92
+2 93
+93 94
+94 95
+94 96
+96 97
+97 98
+94 99
+99 100
+2 101
+101 102
+102 103
+102 104
+104 105
+105 106
+102 107
+107 108
+108 109
+2 110
+110 111
+111 112
+111 113
+113 114
+114 115
+111 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+123 125
+125 126
+125 127
+127 128
+128 129
+125 130
+130 131
+131 132
+123 133
+133 134
+2 135
+135 136
+136 137
+136 138
+138 139
+139 140
+136 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+147 148
+2 149
+149 150
+150 151
+150 152
+152 153
+153 154
+150 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+161 162
+2 163
+163 164
+164 165
+164 166
+166 167
+167 168
+164 169
+169 170
+170 171
+2 172
+172 173
+173 174
+173 175
+175 176
+176 177
+173 178
+178 179
+179 180
+178 181
+181 182
+182 183
+181 184
+184 185
+185 186
+2 187
+187 188
+188 189
+189 190
+188 191
+191 192
+192 193
+193 194
+191 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+195 204
+204 205
+205 206
+206 207
+2 208
+208 209
+209 210
+210 211
+2 212
+212 213
+213 214
+214 215
+213 216
+216 217
+217 218
+218 219
+217 220
+220 221
+221 222
+220 223
+223 224
+224 225
+0 226
+226 227
+0 228
+228 229
+229 230
+229 231
+231 232
+229 233
+233 234
+234 235
+228 236
+236 237
+236 238
+238 239
+236 240
+240 241
+228 242
+242 243
+242 244
+244 245
+242 246
+246 247
+228 248
+248 249
+248 250
+250 251
+248 252
+252 253
+228 254
+254 255
+254 256
+256 257
+254 258
+258 259
+
+Creates a keyboard from the given xml key layout file. Weeds out rows that have a keyboard mode defined but don't match the specified mode.

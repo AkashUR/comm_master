@@ -1,0 +1,314 @@
+156
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getBusinessObjectDataStatusEntity'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='businessObjectDataStatusDaoHelper'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='status'
+17 name (SimpleName)
+18 identifier='businessObjectDataStatusEntity'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='BusinessObjectDataStatusEntity'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getCode'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getStatus'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='businessObjectDataEntity'
+35 name (SimpleName)
+36 identifier='oldStatus'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='setStatus'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='businessObjectDataEntity'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='businessObjectDataStatusEntity'
+51 statement (ExpressionStmt)
+52 expression (VariableDeclarationExpr)
+53 variables
+54 variable (VariableDeclarator)
+55 initializer (ObjectCreationExpr)
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='BusinessObjectDataStatusHistoryEntity'
+59 name (SimpleName)
+60 identifier='businessObjectDataStatusHistoryEntity'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='BusinessObjectDataStatusHistoryEntity'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='add'
+68 scope (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='getHistoricalStatuses'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='businessObjectDataEntity'
+74 arguments
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='businessObjectDataStatusHistoryEntity'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='setBusinessObjectData'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='businessObjectDataStatusHistoryEntity'
+85 arguments
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='businessObjectDataEntity'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='setStatus'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='businessObjectDataStatusHistoryEntity'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='businessObjectDataStatusEntity'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='saveAndRefresh'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='businessObjectDataDao'
+107 arguments
+108 argument (NameExpr)
+109 name (SimpleName)
+110 identifier='businessObjectDataEntity'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='processBusinessObjectDataStatusChangeNotificationEvent'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='sqsNotificationEventService'
+118 arguments
+119 argument (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='getBusinessObjectDataKey'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='businessObjectDataHelper'
+125 arguments
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='businessObjectDataEntity'
+129 argument (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='getCode'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='businessObjectDataStatusEntity'
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='oldStatus'
+138 type (VoidType)
+139 name (SimpleName)
+140 identifier='updateBusinessObjectDataStatus'
+141 parameters
+142 parameter (Parameter)
+143 isVarArgs='false'
+144 name (SimpleName)
+145 identifier='businessObjectDataEntity'
+146 type (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='BusinessObjectDataEntity'
+149 parameter (Parameter)
+150 isVarArgs='false'
+151 name (SimpleName)
+152 identifier='status'
+153 type (ClassOrInterfaceType)
+154 name (SimpleName)
+155 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+25 35
+35 36
+25 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+54 59
+59 60
+54 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+65 74
+74 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+112 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+119 125
+125 126
+126 127
+127 128
+118 129
+129 130
+130 131
+129 132
+132 133
+133 134
+118 135
+135 136
+136 137
+0 138
+0 139
+139 140
+0 141
+141 142
+142 143
+142 144
+144 145
+142 146
+146 147
+147 148
+141 149
+149 150
+149 151
+151 152
+149 153
+153 154
+154 155
+
+Update the business object data status.

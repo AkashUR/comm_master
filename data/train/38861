@@ -1,0 +1,450 @@
+224
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='compile'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='manifest'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='H2 Database Engine'
+14 argument (StringLiteralExpr)
+15 value='org.h2.tools.Console'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='exclude'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='exclude'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='exclude'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='exclude'
+32 scope (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='exclude'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='exclude'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='exclude'
+41 scope (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='exclude'
+44 scope (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='exclude'
+47 scope (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='exclude'
+50 scope (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='exclude'
+53 scope (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='exclude'
+56 scope (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='exclude'
+59 scope (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='exclude'
+62 scope (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='exclude'
+65 scope (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='exclude'
+68 scope (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='files'
+71 arguments
+72 argument (StringLiteralExpr)
+73 value='temp'
+74 arguments
+75 argument (StringLiteralExpr)
+76 value='temp/android/*'
+77 arguments
+78 argument (StringLiteralExpr)
+79 value='temp/org/h2/android/*'
+80 arguments
+81 argument (StringLiteralExpr)
+82 value='temp/org/h2/build/*'
+83 arguments
+84 argument (StringLiteralExpr)
+85 value='temp/org/h2/dev/*'
+86 arguments
+87 argument (StringLiteralExpr)
+88 value='temp/org/h2/jcr/*'
+89 arguments
+90 argument (StringLiteralExpr)
+91 value='temp/org/h2/jaqu/*'
+92 arguments
+93 argument (StringLiteralExpr)
+94 value='temp/org/h2/java/*'
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='temp/org/h2/jcr/*'
+98 arguments
+99 argument (StringLiteralExpr)
+100 value='temp/org/h2/mode/*'
+101 arguments
+102 argument (StringLiteralExpr)
+103 value='temp/org/h2/samples/*'
+104 arguments
+105 argument (StringLiteralExpr)
+106 value='temp/org/h2/server/ftp/*'
+107 arguments
+108 argument (StringLiteralExpr)
+109 value='temp/org/h2/test/*'
+110 arguments
+111 argument (StringLiteralExpr)
+112 value='*.bat'
+113 arguments
+114 argument (StringLiteralExpr)
+115 value='*.sh'
+116 arguments
+117 argument (StringLiteralExpr)
+118 value='*.txt'
+119 arguments
+120 argument (StringLiteralExpr)
+121 value='*.DS_Store'
+122 name (SimpleName)
+123 identifier='files'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='FileList'
+127 statement (ExpressionStmt)
+128 expression (AssignExpr)
+129 operator='ASSIGN'
+130 target (NameExpr)
+131 name (SimpleName)
+132 identifier='files'
+133 value (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='excludeTestMetaInfFiles'
+136 arguments
+137 argument (NameExpr)
+138 name (SimpleName)
+139 identifier='files'
+140 statement (ExpressionStmt)
+141 expression (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='jar'
+144 arguments
+145 argument (BinaryExpr)
+146 operator='PLUS'
+147 left (StringLiteralExpr)
+148 value='bin/h2'
+149 right (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='getJarSuffix'
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='files'
+155 argument (StringLiteralExpr)
+156 value='temp'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='filter'
+161 arguments
+162 argument (StringLiteralExpr)
+163 value='src/installer/h2.sh'
+164 argument (StringLiteralExpr)
+165 value='bin/h2.sh'
+166 argument (StringLiteralExpr)
+167 value='h2.jar'
+168 argument (BinaryExpr)
+169 operator='PLUS'
+170 left (StringLiteralExpr)
+171 value='h2'
+172 right (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='getJarSuffix'
+175 statement (ExpressionStmt)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='filter'
+179 arguments
+180 argument (StringLiteralExpr)
+181 value='src/installer/h2.bat'
+182 argument (StringLiteralExpr)
+183 value='bin/h2.bat'
+184 argument (StringLiteralExpr)
+185 value='h2.jar'
+186 argument (BinaryExpr)
+187 operator='PLUS'
+188 left (StringLiteralExpr)
+189 value='h2'
+190 right (MethodCallExpr)
+191 name (SimpleName)
+192 identifier='getJarSuffix'
+193 statement (ExpressionStmt)
+194 expression (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='filter'
+197 arguments
+198 argument (StringLiteralExpr)
+199 value='src/installer/h2w.bat'
+200 argument (StringLiteralExpr)
+201 value='bin/h2w.bat'
+202 argument (StringLiteralExpr)
+203 value='h2.jar'
+204 argument (BinaryExpr)
+205 operator='PLUS'
+206 left (StringLiteralExpr)
+207 value='h2'
+208 right (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='getJarSuffix'
+211 type (VoidType)
+212 name (SimpleName)
+213 identifier='jar'
+214 annotations
+215 annotation (NormalAnnotationExpr)
+216 name (Name)
+217 identifier='Description'
+218 pairs
+219 pair (MemberValuePair)
+220 name (SimpleName)
+221 identifier='summary'
+222 value (StringLiteralExpr)
+223 value='Create the regular h2.jar file.'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+62 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+65 74
+74 75
+75 76
+62 77
+77 78
+78 79
+59 80
+80 81
+81 82
+56 83
+83 84
+84 85
+53 86
+86 87
+87 88
+50 89
+89 90
+90 91
+47 92
+92 93
+93 94
+44 95
+95 96
+96 97
+41 98
+98 99
+99 100
+38 101
+101 102
+102 103
+35 104
+104 105
+105 106
+32 107
+107 108
+108 109
+29 110
+110 111
+111 112
+26 113
+113 114
+114 115
+23 116
+116 117
+117 118
+20 119
+119 120
+120 121
+19 122
+122 123
+19 124
+124 125
+125 126
+2 127
+127 128
+128 129
+128 130
+130 131
+131 132
+128 133
+133 134
+134 135
+133 136
+136 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+145 147
+147 148
+145 149
+149 150
+150 151
+144 152
+152 153
+153 154
+144 155
+155 156
+2 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+161 164
+164 165
+161 166
+166 167
+161 168
+168 169
+168 170
+170 171
+168 172
+172 173
+173 174
+2 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+179 182
+182 183
+179 184
+184 185
+179 186
+186 187
+186 188
+188 189
+186 190
+190 191
+191 192
+2 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+197 202
+202 203
+197 204
+204 205
+204 206
+206 207
+204 208
+208 209
+209 210
+0 211
+0 212
+212 213
+0 214
+214 215
+215 216
+216 217
+215 218
+218 219
+219 220
+220 221
+219 222
+222 223
+
+Create the regular h2.jar file.

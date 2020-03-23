@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='firstSystemTime'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='elapsedRealtime'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='SystemClock'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='timeToUpdate'
+21 value (BinaryExpr)
+22 operator='PLUS'
+23 left (NameExpr)
+24 name (SimpleName)
+25 identifier='firstSystemTime'
+26 right (LongLiteralExpr)
+27 value='1000L'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='numberOfFrames'
+34 value (IntegerLiteralExpr)
+35 value='0'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='resetFPSCalculations'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+0 36
+0 37
+37 38
+
+Reset the variables used to calculate processed frames per second.

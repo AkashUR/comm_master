@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NullLiteralExpr)
+8 name (SimpleName)
+9 identifier='obj'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Object'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='GuardedObject'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='obj'
+25 argument (NullLiteralExpr)
+26 name (SimpleName)
+27 identifier='go'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='GuardedObject'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='assertNull'
+35 arguments
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getObject'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='go'
+42 statement (ExpressionStmt)
+43 expression (AssignExpr)
+44 operator='ASSIGN'
+45 target (NameExpr)
+46 name (SimpleName)
+47 identifier='obj'
+48 value (StringLiteralExpr)
+49 value='ewte rtw3456'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (NameExpr)
+54 name (SimpleName)
+55 identifier='go'
+56 value (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='GuardedObject'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='obj'
+64 argument (NullLiteralExpr)
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='assertEquals'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='obj'
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getObject'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='go'
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='testNoGuard'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+23 24
+21 25
+16 26
+26 27
+16 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+2 42
+42 43
+43 44
+43 45
+45 46
+46 47
+43 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+62 63
+60 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+73 76
+76 77
+77 78
+0 79
+0 80
+80 81
+
+Null guard imposes no restriction.

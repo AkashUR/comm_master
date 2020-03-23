@@ -1,0 +1,468 @@
+233
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='synchronizedList'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Collections'
+13 arguments
+14 argument (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='ArrayList'
+18 name (SimpleName)
+19 identifier='lastN'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='List'
+23 typeArguments
+24 typeArgument (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='JsonObject'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='sink'
+31 scope (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='tag'
+34 scope (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='aggregate'
+37 scope (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='last'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='stream'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='count'
+47 argument (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='keyFn'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='JsonTuples'
+53 arguments
+54 argument (NullLiteralExpr)
+55 arguments
+56 argument (BinaryExpr)
+57 operator='PLUS'
+58 left (NameExpr)
+59 name (SimpleName)
+60 identifier='event'
+61 right (StringLiteralExpr)
+62 value='.lastN'
+63 arguments
+64 argument (NullLiteralExpr)
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='tag'
+72 scope (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='map'
+75 scope (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='tag'
+78 scope (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='filter'
+81 scope (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='tag'
+84 scope (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='poll'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='t'
+90 arguments
+91 argument (NullLiteralExpr)
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='nSec'
+95 argument (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='SECONDS'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='TimeUnit'
+101 arguments
+102 argument (BinaryExpr)
+103 operator='PLUS'
+104 left (NameExpr)
+105 name (SimpleName)
+106 identifier='event'
+107 right (StringLiteralExpr)
+108 value='.trigger'
+109 arguments
+110 argument (NullLiteralExpr)
+111 arguments
+112 argument (BinaryExpr)
+113 operator='PLUS'
+114 left (NameExpr)
+115 name (SimpleName)
+116 identifier='event'
+117 right (StringLiteralExpr)
+118 value='.changed'
+119 arguments
+120 argument (NullLiteralExpr)
+121 arguments
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='event'
+125 name (SimpleName)
+126 identifier='periodicLastN'
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='TStream'
+130 typeArguments
+131 typeArgument (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='JsonObject'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='traceStream'
+138 arguments
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='periodicLastN'
+142 argument (NameExpr)
+143 name (SimpleName)
+144 identifier='event'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='events'
+149 scope (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='mqttDevice'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='app'
+155 arguments
+156 argument (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='tag'
+159 scope (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='pressureReliever'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='PlumbingStreams'
+165 arguments
+166 argument (NameExpr)
+167 name (SimpleName)
+168 identifier='periodicLastN'
+169 argument (NullLiteralExpr)
+170 argument (IntegerLiteralExpr)
+171 value='30'
+172 arguments
+173 argument (BinaryExpr)
+174 operator='PLUS'
+175 left (NameExpr)
+176 name (SimpleName)
+177 identifier='event'
+178 right (StringLiteralExpr)
+179 value='.pressureRelieved'
+180 argument (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='sensorEventId'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='app'
+186 arguments
+187 argument (NameExpr)
+188 name (SimpleName)
+189 identifier='sensorId'
+190 argument (NameExpr)
+191 name (SimpleName)
+192 identifier='event'
+193 argument (FieldAccessExpr)
+194 name (SimpleName)
+195 identifier='FIRE_AND_FORGET'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='QoS'
+199 type (VoidType)
+200 name (SimpleName)
+201 identifier='periodicallyPublishLastNInfo'
+202 parameters
+203 parameter (Parameter)
+204 isVarArgs='false'
+205 name (SimpleName)
+206 identifier='stream'
+207 type (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='TStream'
+210 typeArguments
+211 typeArgument (ClassOrInterfaceType)
+212 name (SimpleName)
+213 identifier='JsonObject'
+214 parameter (Parameter)
+215 isVarArgs='false'
+216 name (SimpleName)
+217 identifier='count'
+218 type (PrimitiveType)
+219 type='INT'
+220 parameter (Parameter)
+221 isVarArgs='false'
+222 name (SimpleName)
+223 identifier='nSec'
+224 type (PrimitiveType)
+225 type='INT'
+226 parameter (Parameter)
+227 isVarArgs='false'
+228 name (SimpleName)
+229 identifier='event'
+230 type (ClassOrInterfaceType)
+231 name (SimpleName)
+232 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+47 50
+50 51
+51 52
+34 53
+53 54
+31 55
+55 56
+56 57
+56 58
+58 59
+59 60
+56 61
+61 62
+28 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+90 92
+92 93
+93 94
+90 95
+95 96
+96 97
+95 98
+98 99
+99 100
+81 101
+101 102
+102 103
+102 104
+104 105
+105 106
+102 107
+107 108
+78 109
+109 110
+75 111
+111 112
+112 113
+112 114
+114 115
+115 116
+112 117
+117 118
+72 119
+119 120
+69 121
+121 122
+122 123
+123 124
+68 125
+125 126
+68 127
+127 128
+128 129
+127 130
+130 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+140 141
+138 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+149 152
+152 153
+153 154
+146 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+167 168
+165 169
+165 170
+170 171
+156 172
+172 173
+173 174
+173 175
+175 176
+176 177
+173 178
+178 179
+155 180
+180 181
+181 182
+180 183
+183 184
+184 185
+180 186
+186 187
+187 188
+188 189
+186 190
+190 191
+191 192
+155 193
+193 194
+194 195
+193 196
+196 197
+197 198
+0 199
+0 200
+200 201
+0 202
+202 203
+203 204
+203 205
+205 206
+203 207
+207 208
+208 209
+207 210
+210 211
+211 212
+212 213
+202 214
+214 215
+214 216
+216 217
+214 218
+218 219
+202 220
+220 221
+220 222
+222 223
+220 224
+224 225
+202 226
+226 227
+226 228
+228 229
+226 230
+230 231
+231 232
+
+Periodically publish the lastN on a stream.

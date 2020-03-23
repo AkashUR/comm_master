@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getGState'
+10 name (SimpleName)
+11 identifier='oldGState'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='GState'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='add'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='mGStateStack'
+22 arguments
+23 argument (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='GState'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='oldGState'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='println'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='mPSStream'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='GSAVE_STR'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='gsave'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+0 42
+0 43
+43 44
+
+Emit a PostScript gsave command and add a new GState on to our stack which represents the printer's gstate stack.

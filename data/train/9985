@@ -1,0 +1,340 @@
+169
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createStackedBarChart3D'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='ChartFactory'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getTitle'
+17 argument (NullLiteralExpr)
+18 argument (BinaryExpr)
+19 operator='PLUS'
+20 left (StringLiteralExpr)
+21 value='Breakdown'
+22 right (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='unitSuffix'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='dataset'
+28 argument (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='VERTICAL'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='PlotOrientation'
+34 argument (BooleanLiteralExpr)
+35 value='true'
+36 argument (BooleanLiteralExpr)
+37 value='true'
+38 argument (BooleanLiteralExpr)
+39 value='false'
+40 name (SimpleName)
+41 identifier='chart'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='JFreeChart'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getDomainAxis'
+52 scope (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getCategoryPlot'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='chart'
+58 name (SimpleName)
+59 identifier='domainAxis'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='CategoryAxis'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='setCategoryLabelPositions'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='domainAxis'
+70 arguments
+71 argument (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='createUpRotationLabelPositions'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='CategoryLabelPositions'
+77 arguments
+78 argument (BinaryExpr)
+79 operator='DIVIDE'
+80 left (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='PI'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='Math'
+86 right (DoubleLiteralExpr)
+87 value='6.0'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='addProgressListener'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='chart'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='locker'
+99 statement (ExpressionStmt)
+100 expression (VariableDeclarationExpr)
+101 variables
+102 variable (VariableDeclarator)
+103 initializer (CastExpr)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='getPlot'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='chart'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='CategoryPlot'
+113 name (SimpleName)
+114 identifier='plot'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='CategoryPlot'
+118 statement (ExpressionStmt)
+119 expression (VariableDeclarationExpr)
+120 variables
+121 variable (VariableDeclarator)
+122 initializer (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='getRenderer'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='plot'
+128 name (SimpleName)
+129 identifier='renderer'
+130 type (ClassOrInterfaceType)
+131 name (SimpleName)
+132 identifier='CategoryItemRenderer'
+133 statement (ExpressionStmt)
+134 expression (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='setToolTipGenerator'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='renderer'
+140 arguments
+141 argument (NameExpr)
+142 name (SimpleName)
+143 identifier='dataset'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='add'
+148 scope (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='mainPanel'
+151 arguments
+152 argument (FieldAccessExpr)
+153 name (SimpleName)
+154 identifier='CENTER'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='BorderLayout'
+158 argument (ObjectCreationExpr)
+159 type (ClassOrInterfaceType)
+160 name (SimpleName)
+161 identifier='ChartPanel'
+162 arguments
+163 argument (NameExpr)
+164 name (SimpleName)
+165 identifier='chart'
+166 type (VoidType)
+167 name (SimpleName)
+168 identifier='addChart'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+13 18
+18 19
+18 20
+20 21
+18 22
+22 23
+23 24
+13 25
+25 26
+26 27
+13 28
+28 29
+29 30
+28 31
+31 32
+32 33
+13 34
+34 35
+13 36
+36 37
+13 38
+38 39
+6 40
+40 41
+6 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+52 55
+55 56
+56 57
+48 58
+58 59
+48 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+71 77
+77 78
+78 79
+78 80
+80 81
+81 82
+80 83
+83 84
+84 85
+78 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+102 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+103 110
+110 111
+111 112
+102 113
+113 114
+102 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+121 128
+128 129
+121 130
+130 131
+131 132
+2 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+134 140
+140 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+145 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+151 158
+158 159
+159 160
+160 161
+158 162
+162 163
+163 164
+164 165
+0 166
+0 167
+167 168
+
+It creates a chart for the given dataset and adds the chart to the panel.

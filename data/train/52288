@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='MyCertPath'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='testEncoding'
+15 name (SimpleName)
+16 identifier='cp1'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='CertPath'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='MyCertPath'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='testEncoding'
+32 name (SimpleName)
+33 identifier='cp2'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='CertPath'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='assertTrue'
+41 arguments
+42 argument (BinaryExpr)
+43 operator='AND'
+44 left (EnclosedExpr)
+45 inner (BinaryExpr)
+46 operator='EQUALS'
+47 left (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='hashCode'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='cp1'
+53 right (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='hashCode'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='cp2'
+59 right (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='equals'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='cp1'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='cp2'
+69 type (VoidType)
+70 name (SimpleName)
+71 identifier='testHashCodeEqualsObject'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+23 32
+32 33
+23 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+42 44
+44 45
+45 46
+45 47
+47 48
+48 49
+47 50
+50 51
+51 52
+45 53
+53 54
+54 55
+53 56
+56 57
+57 58
+42 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+0 69
+0 70
+70 71
+
+Test for <code>hashCode()</code> method<br> Assertion: hash code of equal objects should be the same

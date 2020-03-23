@@ -1,0 +1,344 @@
+171
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='toLowerCase'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='configuredSchema'
+13 name (SimpleName)
+14 identifier='lowerCaseSchema'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='String'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='parseHiveSchema'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='lowerCaseSchema'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='configuredSchema'
+32 name (SimpleName)
+33 identifier='hiveSchema'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='String'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='hiveSchema'
+43 value (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='substring'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='hiveSchema'
+49 arguments
+50 argument (IntegerLiteralExpr)
+51 value='1'
+52 argument (BinaryExpr)
+53 operator='MINUS'
+54 left (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='length'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='hiveSchema'
+60 right (IntegerLiteralExpr)
+61 value='1'
+62 statement (ExpressionStmt)
+63 expression (VariableDeclarationExpr)
+64 variables
+65 variable (VariableDeclarator)
+66 initializer (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='parseOrcSchema'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='configuredSchema'
+73 name (SimpleName)
+74 identifier='orcSchema'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='String'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='build'
+82 scope (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='setOutputProperty'
+85 scope (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='setInputProperty'
+88 scope (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='setEnableExploreOnCreate'
+91 scope (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='setExploreSchema'
+94 scope (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='setSerDe'
+97 scope (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='setExploreOutputFormat'
+100 scope (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='setExploreInputFormat'
+103 scope (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='setOutputFormat'
+106 scope (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='setInputFormat'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='properties'
+112 arguments
+113 argument (ClassExpr)
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='OrcInputFormat'
+117 arguments
+118 argument (ClassExpr)
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='OrcOutputFormat'
+122 arguments
+123 argument (StringLiteralExpr)
+124 value='org.apache.hadoop.hive.ql.io.orc.OrcInputFormat'
+125 arguments
+126 argument (StringLiteralExpr)
+127 value='org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat'
+128 arguments
+129 argument (StringLiteralExpr)
+130 value='org.apache.hadoop.hive.ql.io.orc.OrcSerde'
+131 arguments
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='hiveSchema'
+135 arguments
+136 argument (BooleanLiteralExpr)
+137 value='true'
+138 arguments
+139 argument (StringLiteralExpr)
+140 value='orc.mapred.output.schema'
+141 argument (NameExpr)
+142 name (SimpleName)
+143 identifier='orcSchema'
+144 arguments
+145 argument (StringLiteralExpr)
+146 value='orc.mapred.output.schema'
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='orcSchema'
+150 type (VoidType)
+151 name (SimpleName)
+152 identifier='configureORCFileSet'
+153 parameters
+154 parameter (Parameter)
+155 isVarArgs='false'
+156 name (SimpleName)
+157 identifier='configuredSchema'
+158 type (ClassOrInterfaceType)
+159 name (SimpleName)
+160 identifier='String'
+161 parameter (Parameter)
+162 isVarArgs='false'
+163 name (SimpleName)
+164 identifier='properties'
+165 type (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='Builder'
+168 scope (ClassOrInterfaceType)
+169 name (SimpleName)
+170 identifier='FileSetProperties'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+21 32
+32 33
+21 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+49 52
+52 53
+52 54
+54 55
+55 56
+54 57
+57 58
+58 59
+52 60
+60 61
+2 62
+62 63
+63 64
+64 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+65 73
+73 74
+65 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+94 97
+97 98
+98 99
+97 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+114 115
+115 116
+103 117
+117 118
+118 119
+119 120
+120 121
+100 122
+122 123
+123 124
+97 125
+125 126
+126 127
+94 128
+128 129
+129 130
+91 131
+131 132
+132 133
+133 134
+88 135
+135 136
+136 137
+85 138
+138 139
+139 140
+138 141
+141 142
+142 143
+82 144
+144 145
+145 146
+144 147
+147 148
+148 149
+0 150
+0 151
+151 152
+0 153
+153 154
+154 155
+154 156
+156 157
+154 158
+158 159
+159 160
+153 161
+161 162
+161 163
+163 164
+161 165
+165 166
+166 167
+165 168
+168 169
+169 170
+
+Configure a file set to use ORC file format with a given schema. The schema is parsed validated and converted into a Hive schema which is compatible with ORC format. The file set is configured to use ORC input and output format, and also configured for Explore to use Hive. The schema is added to the file set properties in all the different required ways: <ul> <li>As a top-level dataset property;</li> <li>As the schema for the input and output format;</li> <li>As the schema to be used by the ORC serde (which is used by Hive).</li> </ul>

@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='perspective'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='cameraFOV'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='cameraAspect'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='cameraNear'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='cameraFar'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='perspective'
+23 annotations
+24 annotation (MarkerAnnotationExpr)
+25 name (Name)
+26 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+25 26
+
+Calls perspective() with Processing's standard coordinate projection. <P> Projection functions: <UL> <LI>frustrum() <LI>ortho() <LI>perspective() </UL> Each of these three functions completely replaces the projection matrix with a new one. They can be called inside setup(), and their effects will be felt inside draw(). At the top of draw(), the projection matrix is not reset. Therefore the last projection function to be called always dominates. On resize, the default projection is always established, which has perspective. <P> This behavior is pretty much familiar from OpenGL, except where functions replace matrices, rather than multiplying against the previous. <P>

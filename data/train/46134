@@ -1,0 +1,76 @@
+37
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='impl'
+9 scope (ThisExpr)
+10 value (ConditionalExpr)
+11 condition (BinaryExpr)
+12 operator='NOT_EQUALS'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='factory'
+16 right (NullLiteralExpr)
+17 elseExpr (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='PlainSocketImpl'
+21 thenExpr (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='createSocketImpl'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='factory'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='proxy'
+33 scope (ThisExpr)
+34 value (NullLiteralExpr)
+35 name (SimpleName)
+36 identifier='Socket'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+10 17
+17 18
+18 19
+19 20
+10 21
+21 22
+22 23
+21 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+28 34
+0 35
+35 36
+
+Creates a new unconnected socket. When a SocketImplFactory is defined it creates the internal socket implementation, otherwise the default socket implementation will be used for this socket.

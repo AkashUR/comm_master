@@ -1,0 +1,72 @@
+35
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='_initialize_data'
+10 name (SimpleName)
+11 identifier='to_reinsert'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='List'
+15 typeArguments
+16 typeArgument (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='InstalledApp'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='add_apps'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='_app_adapter'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='to_reinsert'
+30 argument (BooleanLiteralExpr)
+31 value='false'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='restore_apps'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+26 30
+30 31
+0 32
+0 33
+33 34
+
+Restores the app list to its original state. Any apps filtered out by searches are reinserted, but ignored apps stay ignored.

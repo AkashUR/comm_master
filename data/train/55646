@@ -1,0 +1,182 @@
+90
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='makeString'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Automata'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='do'
+16 name (SimpleName)
+17 identifier='pfx'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Automaton'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='concatenate'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='Operations'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='pfx'
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='makeAnyString'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='Automata'
+41 name (SimpleName)
+42 identifier='prefixAutomaton'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='Automaton'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='AutomatonQuery'
+54 arguments
+55 argument (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='newTerm'
+58 arguments
+59 argument (StringLiteralExpr)
+60 value='bogus'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='prefixAutomaton'
+64 name (SimpleName)
+65 identifier='aq'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='AutomatonQuery'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='assertEquals'
+73 arguments
+74 argument (IntegerLiteralExpr)
+75 value='3'
+76 argument (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='automatonQueryNrHits'
+79 arguments
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='aq'
+83 type (VoidType)
+84 name (SimpleName)
+85 identifier='testRewritePrefix'
+86 thrownExceptions
+87 thrownException (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+35 38
+38 39
+39 40
+24 41
+41 42
+24 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+54 61
+61 62
+62 63
+49 64
+64 65
+49 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+73 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+0 83
+0 84
+84 85
+0 86
+86 87
+87 88
+88 89
+
+Test that rewriting to a prefix query works as expected, preserves MultiTermQuery semantics.

@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='underlying_terms'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='index'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='t'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='terms'
+23 value (CastExpr)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='toArray'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='underlying_terms'
+30 arguments
+31 argument (ArrayCreationExpr)
+32 elementType (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='RatTerm'
+35 initializer (ArrayInitializerExpr)
+36 levels
+37 level (ArrayCreationLevel)
+38 type (ArrayType)
+39 origin='TYPE'
+40 componentType (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='RatTerm'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='insert'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='t'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='RatTerm'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='index'
+58 type (PrimitiveType)
+59 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+33 34
+31 35
+31 36
+36 37
+23 38
+38 39
+38 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+46 54
+54 55
+54 56
+56 57
+54 58
+58 59
+
+Insertion operation. requires: t != null && 0 <= index <= this.size() modifies: this effects: Inserts 't' as a component in this RatTermVec at the specified index. Each component in this vector with an index greater or equal to the specified index is shifted upward to have an index one greater than the value it had previously. The size of this vector is increased by 1. <br> e.g. Given a RatTermVec v = [t2, t3, t4], the statement "v.insert(t5, 1);" will make v_post = [t2, t5, t3, t4].

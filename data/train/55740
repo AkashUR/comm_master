@@ -1,0 +1,366 @@
+182
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='priv'
+9 argument (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='compressPoint'
+12 arguments
+13 argument (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='checkNotNull'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='publicAsPoint'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='checkArgument'
+24 arguments
+25 argument (BinaryExpr)
+26 operator='EQUALS'
+27 left (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='length'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='chainCode'
+33 right (IntegerLiteralExpr)
+34 value='32'
+35 statement (ExpressionStmt)
+36 expression (AssignExpr)
+37 operator='ASSIGN'
+38 target (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='parent'
+41 scope (ThisExpr)
+42 value (NameExpr)
+43 name (SimpleName)
+44 identifier='parent'
+45 statement (ExpressionStmt)
+46 expression (AssignExpr)
+47 operator='ASSIGN'
+48 target (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='childNumberPath'
+51 scope (ThisExpr)
+52 value (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='checkNotNull'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='childNumberPath'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='chainCode'
+65 scope (ThisExpr)
+66 value (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='copyOf'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='Arrays'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='chainCode'
+76 argument (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='length'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='chainCode'
+82 statement (ExpressionStmt)
+83 expression (AssignExpr)
+84 operator='ASSIGN'
+85 target (FieldAccessExpr)
+86 name (SimpleName)
+87 identifier='depth'
+88 scope (ThisExpr)
+89 value (ConditionalExpr)
+90 condition (BinaryExpr)
+91 operator='EQUALS'
+92 left (NameExpr)
+93 name (SimpleName)
+94 identifier='parent'
+95 right (NullLiteralExpr)
+96 elseExpr (BinaryExpr)
+97 operator='PLUS'
+98 left (FieldAccessExpr)
+99 name (SimpleName)
+100 identifier='depth'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='parent'
+104 right (IntegerLiteralExpr)
+105 value='1'
+106 thenExpr (IntegerLiteralExpr)
+107 value='0'
+108 statement (ExpressionStmt)
+109 expression (AssignExpr)
+110 operator='ASSIGN'
+111 target (FieldAccessExpr)
+112 name (SimpleName)
+113 identifier='parentFingerprint'
+114 scope (ThisExpr)
+115 value (ConditionalExpr)
+116 condition (EnclosedExpr)
+117 inner (BinaryExpr)
+118 operator='NOT_EQUALS'
+119 left (NameExpr)
+120 name (SimpleName)
+121 identifier='parent'
+122 right (NullLiteralExpr)
+123 elseExpr (IntegerLiteralExpr)
+124 value='0'
+125 thenExpr (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='getFingerprint'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='parent'
+131 name (SimpleName)
+132 identifier='DeterministicKey'
+133 parameters
+134 parameter (Parameter)
+135 isVarArgs='false'
+136 name (SimpleName)
+137 identifier='childNumberPath'
+138 type (ClassOrInterfaceType)
+139 name (SimpleName)
+140 identifier='ImmutableList'
+141 typeArguments
+142 typeArgument (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='ChildNumber'
+145 parameter (Parameter)
+146 isVarArgs='false'
+147 name (SimpleName)
+148 identifier='chainCode'
+149 type (ArrayType)
+150 origin='TYPE'
+151 componentType (PrimitiveType)
+152 type='BYTE'
+153 parameter (Parameter)
+154 isVarArgs='false'
+155 name (SimpleName)
+156 identifier='publicAsPoint'
+157 type (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='LazyECPoint'
+160 parameter (Parameter)
+161 isVarArgs='false'
+162 name (SimpleName)
+163 identifier='priv'
+164 type (ClassOrInterfaceType)
+165 name (SimpleName)
+166 identifier='BigInteger'
+167 annotations
+168 annotation (MarkerAnnotationExpr)
+169 name (Name)
+170 identifier='Nullable'
+171 parameter (Parameter)
+172 isVarArgs='false'
+173 name (SimpleName)
+174 identifier='parent'
+175 type (ClassOrInterfaceType)
+176 name (SimpleName)
+177 identifier='DeterministicKey'
+178 annotations
+179 annotation (MarkerAnnotationExpr)
+180 name (Name)
+181 identifier='Nullable'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+25 27
+27 28
+28 29
+27 30
+30 31
+31 32
+25 33
+33 34
+2 35
+35 36
+36 37
+36 38
+38 39
+39 40
+38 41
+36 42
+42 43
+43 44
+2 45
+45 46
+46 47
+46 48
+48 49
+49 50
+48 51
+46 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+62 65
+60 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+74 75
+72 76
+76 77
+77 78
+76 79
+79 80
+80 81
+2 82
+82 83
+83 84
+83 85
+85 86
+86 87
+85 88
+83 89
+89 90
+90 91
+90 92
+92 93
+93 94
+90 95
+89 96
+96 97
+96 98
+98 99
+99 100
+98 101
+101 102
+102 103
+96 104
+104 105
+89 106
+106 107
+2 108
+108 109
+109 110
+109 111
+111 112
+112 113
+111 114
+109 115
+115 116
+116 117
+117 118
+117 119
+119 120
+120 121
+117 122
+115 123
+123 124
+115 125
+125 126
+126 127
+125 128
+128 129
+129 130
+0 131
+131 132
+0 133
+133 134
+134 135
+134 136
+136 137
+134 138
+138 139
+139 140
+138 141
+141 142
+142 143
+143 144
+133 145
+145 146
+145 147
+147 148
+145 149
+149 150
+149 151
+151 152
+133 153
+153 154
+153 155
+155 156
+153 157
+157 158
+158 159
+133 160
+160 161
+160 162
+162 163
+160 164
+164 165
+165 166
+160 167
+167 168
+168 169
+169 170
+133 171
+171 172
+171 173
+173 174
+171 175
+175 176
+176 177
+171 178
+178 179
+179 180
+180 181
+
+Constructs a key from its components. This is not normally something you should use.

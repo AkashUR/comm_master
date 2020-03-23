@@ -1,0 +1,348 @@
+173
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='userDirectory'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='SimpleDirectory'
+13 typeArguments
+14 typeArgument (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='User'
+17 arguments
+18 argument (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getUsers'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='userService'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='ldapConnection'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='connectionDirectory'
+34 value (ObjectCreationExpr)
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='SimpleDirectory'
+38 typeArguments
+39 typeArgument (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Connection'
+42 arguments
+43 argument (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getConnections'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='connectionService'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='user'
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='ldapConnection'
+56 statement (ExpressionStmt)
+57 expression (AssignExpr)
+58 operator='ASSIGN'
+59 target (NameExpr)
+60 name (SimpleName)
+61 identifier='rootGroup'
+62 value (ObjectCreationExpr)
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='SimpleConnectionGroup'
+66 arguments
+67 argument (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='ROOT_CONNECTION_GROUP'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='LDAPAuthenticationProvider'
+73 argument (FieldAccessExpr)
+74 name (SimpleName)
+75 identifier='ROOT_CONNECTION_GROUP'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='LDAPAuthenticationProvider'
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getIdentifiers'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='connectionDirectory'
+85 argument (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='emptyList'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='Collections'
+91 typeArguments
+92 typeArgument (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='String'
+95 statement (ExpressionStmt)
+96 expression (AssignExpr)
+97 operator='ASSIGN'
+98 target (NameExpr)
+99 name (SimpleName)
+100 identifier='connectionGroupDirectory'
+101 value (ObjectCreationExpr)
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='SimpleConnectionGroupDirectory'
+105 arguments
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='singleton'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='Collections'
+112 arguments
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='rootGroup'
+116 statement (ExpressionStmt)
+117 expression (AssignExpr)
+118 operator='ASSIGN'
+119 target (NameExpr)
+120 name (SimpleName)
+121 identifier='self'
+122 value (ObjectCreationExpr)
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='SimpleUser'
+126 arguments
+127 argument (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='getIdentifier'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='user'
+133 argument (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getIdentifiers'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='userDirectory'
+139 argument (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='getIdentifiers'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='connectionDirectory'
+145 argument (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='getIdentifiers'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='connectionGroupDirectory'
+151 type (VoidType)
+152 name (SimpleName)
+153 identifier='init'
+154 parameters
+155 parameter (Parameter)
+156 isVarArgs='false'
+157 name (SimpleName)
+158 identifier='user'
+159 type (ClassOrInterfaceType)
+160 name (SimpleName)
+161 identifier='AuthenticatedUser'
+162 parameter (Parameter)
+163 isVarArgs='false'
+164 name (SimpleName)
+165 identifier='ldapConnection'
+166 type (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='LDAPConnection'
+169 thrownExceptions
+170 thrownException (ClassOrInterfaceType)
+171 name (SimpleName)
+172 identifier='GuacamoleException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+9 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+34 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+2 56
+56 57
+57 58
+57 59
+59 60
+60 61
+57 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+66 73
+73 74
+74 75
+73 76
+76 77
+77 78
+66 79
+79 80
+80 81
+79 82
+82 83
+83 84
+66 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+2 95
+95 96
+96 97
+96 98
+98 99
+99 100
+96 101
+101 102
+102 103
+103 104
+101 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+114 115
+2 116
+116 117
+117 118
+117 119
+119 120
+120 121
+117 122
+122 123
+123 124
+124 125
+122 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+126 133
+133 134
+134 135
+133 136
+136 137
+137 138
+126 139
+139 140
+140 141
+139 142
+142 143
+143 144
+126 145
+145 146
+146 147
+145 148
+148 149
+149 150
+0 151
+0 152
+152 153
+0 154
+154 155
+155 156
+155 157
+157 158
+155 159
+159 160
+160 161
+154 162
+162 163
+162 164
+164 165
+162 166
+166 167
+167 168
+0 169
+169 170
+170 171
+171 172
+
+Initializes this UserContext using the provided AuthenticatedUser and LDAPConnection.

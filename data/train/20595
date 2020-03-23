@@ -1,0 +1,784 @@
+391
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='RandomIndexWriter'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='random'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='dir'
+30 name (SimpleName)
+31 identifier='writer'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='RandomIndexWriter'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Document'
+43 name (SimpleName)
+44 identifier='document'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Document'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='add'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='document'
+55 arguments
+56 argument (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='HalfFloatPoint'
+60 arguments
+61 argument (StringLiteralExpr)
+62 value='field'
+63 argument (DoubleLiteralExpr)
+64 value='1.25f'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='addDocument'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='writer'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='document'
+76 statement (ExpressionStmt)
+77 expression (VariableDeclarationExpr)
+78 variables
+79 variable (VariableDeclarator)
+80 initializer (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getReader'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='writer'
+86 name (SimpleName)
+87 identifier='reader'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='IndexReader'
+91 statement (ExpressionStmt)
+92 expression (VariableDeclarationExpr)
+93 variables
+94 variable (VariableDeclarator)
+95 initializer (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='newSearcher'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='reader'
+102 name (SimpleName)
+103 identifier='searcher'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='IndexSearcher'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='assertEquals'
+111 arguments
+112 argument (IntegerLiteralExpr)
+113 value='1'
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='count'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='searcher'
+120 arguments
+121 argument (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='newExactQuery'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='HalfFloatPoint'
+127 arguments
+128 argument (StringLiteralExpr)
+129 value='field'
+130 argument (DoubleLiteralExpr)
+131 value='1.25f'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='assertEquals'
+136 arguments
+137 argument (IntegerLiteralExpr)
+138 value='0'
+139 argument (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='count'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='searcher'
+145 arguments
+146 argument (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='newExactQuery'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='HalfFloatPoint'
+152 arguments
+153 argument (StringLiteralExpr)
+154 value='field'
+155 argument (DoubleLiteralExpr)
+156 value='1f'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='assertEquals'
+161 arguments
+162 argument (IntegerLiteralExpr)
+163 value='0'
+164 argument (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='count'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='searcher'
+170 arguments
+171 argument (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='newExactQuery'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='HalfFloatPoint'
+177 arguments
+178 argument (StringLiteralExpr)
+179 value='field'
+180 argument (DoubleLiteralExpr)
+181 value='2f'
+182 statement (ExpressionStmt)
+183 expression (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='assertEquals'
+186 arguments
+187 argument (IntegerLiteralExpr)
+188 value='1'
+189 argument (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='count'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='searcher'
+195 arguments
+196 argument (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='newRangeQuery'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='HalfFloatPoint'
+202 arguments
+203 argument (StringLiteralExpr)
+204 value='field'
+205 argument (DoubleLiteralExpr)
+206 value='1f'
+207 argument (DoubleLiteralExpr)
+208 value='2f'
+209 statement (ExpressionStmt)
+210 expression (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='assertEquals'
+213 arguments
+214 argument (IntegerLiteralExpr)
+215 value='0'
+216 argument (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='count'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='searcher'
+222 arguments
+223 argument (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='newRangeQuery'
+226 scope (NameExpr)
+227 name (SimpleName)
+228 identifier='HalfFloatPoint'
+229 arguments
+230 argument (StringLiteralExpr)
+231 value='field'
+232 argument (DoubleLiteralExpr)
+233 value='0f'
+234 argument (DoubleLiteralExpr)
+235 value='1f'
+236 statement (ExpressionStmt)
+237 expression (MethodCallExpr)
+238 name (SimpleName)
+239 identifier='assertEquals'
+240 arguments
+241 argument (IntegerLiteralExpr)
+242 value='0'
+243 argument (MethodCallExpr)
+244 name (SimpleName)
+245 identifier='count'
+246 scope (NameExpr)
+247 name (SimpleName)
+248 identifier='searcher'
+249 arguments
+250 argument (MethodCallExpr)
+251 name (SimpleName)
+252 identifier='newRangeQuery'
+253 scope (NameExpr)
+254 name (SimpleName)
+255 identifier='HalfFloatPoint'
+256 arguments
+257 argument (StringLiteralExpr)
+258 value='field'
+259 argument (DoubleLiteralExpr)
+260 value='1.5f'
+261 argument (DoubleLiteralExpr)
+262 value='2f'
+263 statement (ExpressionStmt)
+264 expression (MethodCallExpr)
+265 name (SimpleName)
+266 identifier='assertEquals'
+267 arguments
+268 argument (IntegerLiteralExpr)
+269 value='1'
+270 argument (MethodCallExpr)
+271 name (SimpleName)
+272 identifier='count'
+273 scope (NameExpr)
+274 name (SimpleName)
+275 identifier='searcher'
+276 arguments
+277 argument (MethodCallExpr)
+278 name (SimpleName)
+279 identifier='newSetQuery'
+280 scope (NameExpr)
+281 name (SimpleName)
+282 identifier='HalfFloatPoint'
+283 arguments
+284 argument (StringLiteralExpr)
+285 value='field'
+286 argument (DoubleLiteralExpr)
+287 value='1.25f'
+288 statement (ExpressionStmt)
+289 expression (MethodCallExpr)
+290 name (SimpleName)
+291 identifier='assertEquals'
+292 arguments
+293 argument (IntegerLiteralExpr)
+294 value='1'
+295 argument (MethodCallExpr)
+296 name (SimpleName)
+297 identifier='count'
+298 scope (NameExpr)
+299 name (SimpleName)
+300 identifier='searcher'
+301 arguments
+302 argument (MethodCallExpr)
+303 name (SimpleName)
+304 identifier='newSetQuery'
+305 scope (NameExpr)
+306 name (SimpleName)
+307 identifier='HalfFloatPoint'
+308 arguments
+309 argument (StringLiteralExpr)
+310 value='field'
+311 argument (DoubleLiteralExpr)
+312 value='1f'
+313 argument (DoubleLiteralExpr)
+314 value='1.25f'
+315 statement (ExpressionStmt)
+316 expression (MethodCallExpr)
+317 name (SimpleName)
+318 identifier='assertEquals'
+319 arguments
+320 argument (IntegerLiteralExpr)
+321 value='0'
+322 argument (MethodCallExpr)
+323 name (SimpleName)
+324 identifier='count'
+325 scope (NameExpr)
+326 name (SimpleName)
+327 identifier='searcher'
+328 arguments
+329 argument (MethodCallExpr)
+330 name (SimpleName)
+331 identifier='newSetQuery'
+332 scope (NameExpr)
+333 name (SimpleName)
+334 identifier='HalfFloatPoint'
+335 arguments
+336 argument (StringLiteralExpr)
+337 value='field'
+338 argument (DoubleLiteralExpr)
+339 value='1f'
+340 statement (ExpressionStmt)
+341 expression (MethodCallExpr)
+342 name (SimpleName)
+343 identifier='assertEquals'
+344 arguments
+345 argument (IntegerLiteralExpr)
+346 value='0'
+347 argument (MethodCallExpr)
+348 name (SimpleName)
+349 identifier='count'
+350 scope (NameExpr)
+351 name (SimpleName)
+352 identifier='searcher'
+353 arguments
+354 argument (MethodCallExpr)
+355 name (SimpleName)
+356 identifier='newSetQuery'
+357 scope (NameExpr)
+358 name (SimpleName)
+359 identifier='HalfFloatPoint'
+360 arguments
+361 argument (StringLiteralExpr)
+362 value='field'
+363 statement (ExpressionStmt)
+364 expression (MethodCallExpr)
+365 name (SimpleName)
+366 identifier='close'
+367 scope (NameExpr)
+368 name (SimpleName)
+369 identifier='reader'
+370 statement (ExpressionStmt)
+371 expression (MethodCallExpr)
+372 name (SimpleName)
+373 identifier='close'
+374 scope (NameExpr)
+375 name (SimpleName)
+376 identifier='writer'
+377 statement (ExpressionStmt)
+378 expression (MethodCallExpr)
+379 name (SimpleName)
+380 identifier='close'
+381 scope (NameExpr)
+382 name (SimpleName)
+383 identifier='dir'
+384 type (VoidType)
+385 name (SimpleName)
+386 identifier='testBasics'
+387 thrownExceptions
+388 thrownException (ClassOrInterfaceType)
+389 name (SimpleName)
+390 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+18 30
+30 31
+18 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+38 43
+43 44
+38 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+60 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+79 86
+86 87
+79 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+94 102
+102 103
+94 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+111 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+127 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+136 139
+139 140
+140 141
+139 142
+142 143
+143 144
+139 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+146 152
+152 153
+153 154
+152 155
+155 156
+2 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+161 164
+164 165
+165 166
+164 167
+167 168
+168 169
+164 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+171 177
+177 178
+178 179
+177 180
+180 181
+2 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+186 189
+189 190
+190 191
+189 192
+192 193
+193 194
+189 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+196 202
+202 203
+203 204
+202 205
+205 206
+202 207
+207 208
+2 209
+209 210
+210 211
+211 212
+210 213
+213 214
+214 215
+213 216
+216 217
+217 218
+216 219
+219 220
+220 221
+216 222
+222 223
+223 224
+224 225
+223 226
+226 227
+227 228
+223 229
+229 230
+230 231
+229 232
+232 233
+229 234
+234 235
+2 236
+236 237
+237 238
+238 239
+237 240
+240 241
+241 242
+240 243
+243 244
+244 245
+243 246
+246 247
+247 248
+243 249
+249 250
+250 251
+251 252
+250 253
+253 254
+254 255
+250 256
+256 257
+257 258
+256 259
+259 260
+256 261
+261 262
+2 263
+263 264
+264 265
+265 266
+264 267
+267 268
+268 269
+267 270
+270 271
+271 272
+270 273
+273 274
+274 275
+270 276
+276 277
+277 278
+278 279
+277 280
+280 281
+281 282
+277 283
+283 284
+284 285
+283 286
+286 287
+2 288
+288 289
+289 290
+290 291
+289 292
+292 293
+293 294
+292 295
+295 296
+296 297
+295 298
+298 299
+299 300
+295 301
+301 302
+302 303
+303 304
+302 305
+305 306
+306 307
+302 308
+308 309
+309 310
+308 311
+311 312
+308 313
+313 314
+2 315
+315 316
+316 317
+317 318
+316 319
+319 320
+320 321
+319 322
+322 323
+323 324
+322 325
+325 326
+326 327
+322 328
+328 329
+329 330
+330 331
+329 332
+332 333
+333 334
+329 335
+335 336
+336 337
+335 338
+338 339
+2 340
+340 341
+341 342
+342 343
+341 344
+344 345
+345 346
+344 347
+347 348
+348 349
+347 350
+350 351
+351 352
+347 353
+353 354
+354 355
+355 356
+354 357
+357 358
+358 359
+354 360
+360 361
+361 362
+2 363
+363 364
+364 365
+365 366
+364 367
+367 368
+368 369
+2 370
+370 371
+371 372
+372 373
+371 374
+374 375
+375 376
+2 377
+377 378
+378 379
+379 380
+378 381
+381 382
+382 383
+0 384
+0 385
+385 386
+0 387
+387 388
+388 389
+389 390
+
+Add a single value and search for it

@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='reorderVisually'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='BidiBase'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='levels'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='levelStart'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='objects'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='objectStart'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='count'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='reorderVisually'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='levels'
+34 type (ArrayType)
+35 origin='TYPE'
+36 componentType (PrimitiveType)
+37 type='BYTE'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='levelStart'
+42 type (PrimitiveType)
+43 type='INT'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='objects'
+48 type (ArrayType)
+49 origin='TYPE'
+50 componentType (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='Object'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='objectStart'
+57 type (PrimitiveType)
+58 type='INT'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='count'
+63 type (PrimitiveType)
+64 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+10 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+34 36
+36 37
+29 38
+38 39
+38 40
+40 41
+38 42
+42 43
+29 44
+44 45
+44 46
+46 47
+44 48
+48 49
+48 50
+50 51
+51 52
+29 53
+53 54
+53 55
+55 56
+53 57
+57 58
+29 59
+59 60
+59 61
+61 62
+59 63
+63 64
+
+Reorder the objects in the array into visual order based on their levels. This is a utility function to use when you have a collection of objects representing runs of text in logical order, each run containing text at a single level.  The elements at <code>index</code> from <code>objectStart</code> up to <code>objectStart + count</code> in the objects array will be reordered into visual order assuming each run of text has the level indicated by the corresponding element in the levels array (at <code>index - objectStart + levelStart</code>).

@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='adb'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='forward'
+10 argument (BinaryExpr)
+11 operator='PLUS'
+12 left (StringLiteralExpr)
+13 value='tcp:'
+14 right (NameExpr)
+15 name (SimpleName)
+16 identifier='PC_PORT'
+17 argument (BinaryExpr)
+18 operator='PLUS'
+19 left (StringLiteralExpr)
+20 value='tcp:'
+21 right (NameExpr)
+22 name (SimpleName)
+23 identifier='APP_PORT'
+24 type (VoidType)
+25 name (SimpleName)
+26 identifier='portForwarding'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+10 12
+12 13
+10 14
+14 15
+15 16
+7 17
+17 18
+17 19
+19 20
+17 21
+21 22
+22 23
+0 24
+0 25
+25 26
+
+Forwarding the PC_PORT which sockets of desktop application uses, to the APP_PORT which server socket of android application uses.

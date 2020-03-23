@@ -1,0 +1,176 @@
+87
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='REST request to delete Renewal : {}'
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='id'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='checkOldOwner'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='ownerService'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='renewalRepository'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='id'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='delete'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='renewalRepository'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='id'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='delete'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='id'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Long'
+52 annotations
+53 annotation (MarkerAnnotationExpr)
+54 name (Name)
+55 identifier='PathVariable'
+56 annotations
+57 annotation (NormalAnnotationExpr)
+58 name (Name)
+59 identifier='RequestMapping'
+60 pairs
+61 pair (MemberValuePair)
+62 name (SimpleName)
+63 identifier='value'
+64 value (StringLiteralExpr)
+65 value='/renewals/{id}'
+66 pair (MemberValuePair)
+67 name (SimpleName)
+68 identifier='method'
+69 value (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='DELETE'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='RequestMethod'
+75 pair (MemberValuePair)
+76 name (SimpleName)
+77 identifier='produces'
+78 value (FieldAccessExpr)
+79 name (SimpleName)
+80 identifier='APPLICATION_JSON_VALUE'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='MediaType'
+84 annotation (MarkerAnnotationExpr)
+85 name (Name)
+86 identifier='Timed'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+45 52
+52 53
+53 54
+54 55
+0 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+61 64
+64 65
+60 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+73 74
+60 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+56 84
+84 85
+85 86
+
+DELETE  /renewals/:id -> delete the "id" renewal.

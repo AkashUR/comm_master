@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clear'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='m_activeIDs'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='thisCoroutine'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (NameExpr)
+18 name (SimpleName)
+19 identifier='m_nextCoroutine'
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='NOBODY'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='notify'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='co_exit'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='thisCoroutine'
+35 type (PrimitiveType)
+36 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+
+Terminate this entire set of coroutines. The others will be deregistered and have exceptions thrown at them. Note that this is intended as a panic-shutdown operation; under normal circumstances a coroutine should always end with co_exit_to() in order to politely inform at least one of its partners that it is going away. %TBD% This may need significantly more work.  %TBD% Should this just be co_exit_to(,,CoroutineManager.PANIC)?

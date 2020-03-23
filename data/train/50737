@@ -1,0 +1,240 @@
+119
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='create'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='igfsSecondary'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='paths'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='DIR'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='SUBDIR'
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='paths'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='FILE'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='create'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='igfs'
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='paths'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='DIR'
+43 argument (NullLiteralExpr)
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='rename'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='igfs'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='FILE'
+55 argument (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='ROOT'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='IgfsPath'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='checkExist'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='igfs'
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='SUBDIR'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='checkExist'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='igfs'
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='igfsSecondary'
+83 argument (ObjectCreationExpr)
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='IgfsPath'
+87 arguments
+88 argument (BinaryExpr)
+89 operator='PLUS'
+90 left (StringLiteralExpr)
+91 value='/'
+92 right (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='name'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='FILE'
+98 statement (ExpressionStmt)
+99 expression (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='checkNotExist'
+102 arguments
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='igfs'
+106 argument (NameExpr)
+107 name (SimpleName)
+108 identifier='igfsSecondary'
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='FILE'
+112 type (VoidType)
+113 name (SimpleName)
+114 identifier='testMoveFileDestinationRootSourceMissingPartially'
+115 thrownExceptions
+116 thrownException (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+7 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+32 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+32 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+55 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+76 83
+83 84
+84 85
+85 86
+83 87
+87 88
+88 89
+88 90
+90 91
+88 92
+92 93
+93 94
+92 95
+95 96
+96 97
+2 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+104 105
+102 106
+106 107
+107 108
+102 109
+109 110
+110 111
+0 112
+0 113
+113 114
+0 115
+115 116
+116 117
+117 118
+
+Test file move when destination is the root and source is missing partially.

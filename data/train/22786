@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NullLiteralExpr)
+8 name (SimpleName)
+9 identifier='httpResponse'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='CloseableHttpResponse'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='httpResponse'
+19 value (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='postOverHttp'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='executionUpdateData'
+26 argument (BinaryExpr)
+27 operator='PLUS'
+28 left (BinaryExpr)
+29 operator='PLUS'
+30 left (BinaryExpr)
+31 operator='PLUS'
+32 left (BinaryExpr)
+33 operator='PLUS'
+34 left (StringLiteralExpr)
+35 value='/'
+36 right (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getStateMachineId'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='executionUpdateData'
+42 right (StringLiteralExpr)
+43 value='/'
+44 right (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getTaskId'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='executionUpdateData'
+50 right (StringLiteralExpr)
+51 value='/status'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='closeQuietly'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='HttpClientUtils'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='httpResponse'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='updateExecutionStatus'
+66 parameters
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='executionUpdateData'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='ExecutionUpdateData'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+22 26
+26 27
+26 28
+28 29
+28 30
+30 31
+30 32
+32 33
+32 34
+34 35
+32 36
+36 37
+37 38
+36 39
+39 40
+40 41
+30 42
+42 43
+28 44
+44 45
+45 46
+44 47
+47 48
+48 49
+26 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+
+Interface method implementation. Updates the status in persistence store by invoking suitable Flux runtime API

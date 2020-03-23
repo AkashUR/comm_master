@@ -1,0 +1,208 @@
+103
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='tenum'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='finite'
+15 scope (ThisExpr)
+16 value (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='finite'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='compiled'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='runAutomaton'
+28 scope (ThisExpr)
+29 value (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='runAutomaton'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='compiled'
+35 statement (AssertStmt)
+36 check (BinaryExpr)
+37 operator='NOT_EQUALS'
+38 left (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='runAutomaton'
+41 scope (ThisExpr)
+42 right (NullLiteralExpr)
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='commonSuffixRef'
+49 scope (ThisExpr)
+50 value (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='commonSuffixRef'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='compiled'
+56 statement (ExpressionStmt)
+57 expression (AssignExpr)
+58 operator='ASSIGN'
+59 target (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='automaton'
+62 scope (ThisExpr)
+63 value (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='automaton'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='compiled'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (NameExpr)
+73 name (SimpleName)
+74 identifier='visited'
+75 value (ArrayCreationExpr)
+76 elementType (PrimitiveType)
+77 type='LONG'
+78 levels
+79 level (ArrayCreationLevel)
+80 dimension (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getSize'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='runAutomaton'
+86 name (SimpleName)
+87 identifier='AutomatonTermsEnum'
+88 parameters
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='tenum'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='TermsEnum'
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='compiled'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='CompiledAutomaton'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+12 15
+10 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+25 28
+23 29
+29 30
+30 31
+29 32
+32 33
+33 34
+2 35
+35 36
+36 37
+36 38
+38 39
+39 40
+38 41
+36 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+51 52
+50 53
+53 54
+54 55
+2 56
+56 57
+57 58
+57 59
+59 60
+60 61
+59 62
+57 63
+63 64
+64 65
+63 66
+66 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+70 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+0 86
+86 87
+0 88
+88 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+88 96
+96 97
+96 98
+98 99
+96 100
+100 101
+101 102
+
+Construct an enumerator based upon an automaton, enumerating the specified field, working on a supplied TermsEnum

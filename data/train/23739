@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validateIsInt16'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='copy1DRangeFromUnchecked'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='off'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='count'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='d'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='copy1DRangeFrom'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='off'
+29 type (PrimitiveType)
+30 type='INT'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='count'
+35 type (PrimitiveType)
+36 type='INT'
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='d'
+41 type (ArrayType)
+42 origin='TYPE'
+43 componentType (PrimitiveType)
+44 type='SHORT'
+45 annotations
+46 annotation (NormalAnnotationExpr)
+47 name (Name)
+48 identifier='DSGenerator'
+49 pairs
+50 pair (MemberValuePair)
+51 name (SimpleName)
+52 identifier='tool_name'
+53 value (StringLiteralExpr)
+54 value='Doppelganger'
+55 pair (MemberValuePair)
+56 name (SimpleName)
+57 identifier='tool_version'
+58 value (StringLiteralExpr)
+59 value='2.0'
+60 pair (MemberValuePair)
+61 name (SimpleName)
+62 identifier='generated_on'
+63 value (StringLiteralExpr)
+64 value='2013-12-30 12:31:09.118 -0500'
+65 pair (MemberValuePair)
+66 name (SimpleName)
+67 identifier='hash_original_method'
+68 value (StringLiteralExpr)
+69 value='1EAA6FDE909AE941C837793DE6358EFA'
+70 pair (MemberValuePair)
+71 name (SimpleName)
+72 identifier='hash_generated_method'
+73 value (StringLiteralExpr)
+74 value='0B48AA10B2C40A1009726BB6AFB5ADA6'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+11 18
+18 19
+19 20
+0 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+24 31
+31 32
+31 33
+33 34
+31 35
+35 36
+24 37
+37 38
+37 39
+39 40
+37 41
+41 42
+41 43
+43 44
+0 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+50 53
+53 54
+49 55
+55 56
+56 57
+55 58
+58 59
+49 60
+60 61
+61 62
+60 63
+63 64
+49 65
+65 66
+66 67
+65 68
+68 69
+49 70
+70 71
+71 72
+70 73
+73 74
+
+Copy part of an allocation from an array.  This variant is type checked and will generate exceptions if the Allocation type is not a 16 bit integer type.

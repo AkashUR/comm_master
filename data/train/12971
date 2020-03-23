@@ -1,0 +1,372 @@
+185
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getProteinsByIdRange'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='rawMatchDAO'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getBottomProtein'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='stepInstance'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getTopProtein'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='stepInstance'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='signatureLibraryRelease'
+29 name (SimpleName)
+30 identifier='rawMatches'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Set'
+34 typeArguments
+35 typeArgument (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='RawProtein'
+38 typeArguments
+39 typeArgument (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='ProSitePatternRawMatch'
+42 statement (ExpressionStmt)
+43 expression (VariableDeclarationExpr)
+44 variables
+45 variable (VariableDeclarator)
+46 initializer (ObjectCreationExpr)
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='HashMap'
+50 typeArguments
+51 typeArgument (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='String'
+54 typeArgument (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='RawProtein'
+57 typeArguments
+58 typeArgument (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='ProSitePatternRawMatch'
+61 arguments
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='size'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='rawMatches'
+68 name (SimpleName)
+69 identifier='proteinIdToRawProteinMap'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Map'
+73 typeArguments
+74 typeArgument (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='String'
+77 typeArgument (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='RawProtein'
+80 typeArguments
+81 typeArgument (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='ProSitePatternRawMatch'
+84 statement (ForeachStmt)
+85 body (BlockStmt)
+86 statements
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='put'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='proteinIdToRawProteinMap'
+94 arguments
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='getProteinIdentifier'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='rawMatch'
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='rawMatch'
+104 iterable (NameExpr)
+105 name (SimpleName)
+106 identifier='rawMatches'
+107 variable (VariableDeclarationExpr)
+108 variables
+109 variable (VariableDeclarator)
+110 name (SimpleName)
+111 identifier='rawMatch'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='RawProtein'
+115 typeArguments
+116 typeArgument (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='ProSitePatternRawMatch'
+119 statement (ExpressionStmt)
+120 expression (VariableDeclarationExpr)
+121 variables
+122 variable (VariableDeclarator)
+123 initializer (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='process'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='postProcessor'
+129 arguments
+130 argument (NameExpr)
+131 name (SimpleName)
+132 identifier='proteinIdToRawProteinMap'
+133 name (SimpleName)
+134 identifier='filteredMatches'
+135 type (ClassOrInterfaceType)
+136 name (SimpleName)
+137 identifier='Map'
+138 typeArguments
+139 typeArgument (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='String'
+142 typeArgument (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='RawProtein'
+145 typeArguments
+146 typeArgument (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='ProSitePatternRawMatch'
+149 statement (ExpressionStmt)
+150 expression (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='persist'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='filteredMatchDAO'
+156 arguments
+157 argument (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='values'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='filteredMatches'
+163 type (VoidType)
+164 name (SimpleName)
+165 identifier='execute'
+166 parameters
+167 parameter (Parameter)
+168 isVarArgs='false'
+169 name (SimpleName)
+170 identifier='stepInstance'
+171 type (ClassOrInterfaceType)
+172 name (SimpleName)
+173 identifier='StepInstance'
+174 parameter (Parameter)
+175 isVarArgs='false'
+176 name (SimpleName)
+177 identifier='temporaryFileDirectory'
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='String'
+181 annotations
+182 annotation (MarkerAnnotationExpr)
+183 name (Name)
+184 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+20 23
+23 24
+24 25
+13 26
+26 27
+27 28
+6 29
+29 30
+6 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+46 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+45 68
+68 69
+45 70
+70 71
+71 72
+70 73
+73 74
+74 75
+75 76
+73 77
+77 78
+78 79
+77 80
+80 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+94 101
+101 102
+102 103
+84 104
+104 105
+105 106
+84 107
+107 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+112 115
+115 116
+116 117
+117 118
+2 119
+119 120
+120 121
+121 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+131 132
+122 133
+133 134
+122 135
+135 136
+136 137
+135 138
+138 139
+139 140
+140 141
+138 142
+142 143
+143 144
+142 145
+145 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+150 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+0 163
+0 164
+164 165
+0 166
+166 167
+167 168
+167 169
+169 170
+167 171
+171 172
+172 173
+166 174
+174 175
+174 176
+176 177
+174 178
+178 179
+179 180
+0 181
+181 182
+182 183
+183 184
+
+This method is called to execute the action that the StepInstance must perform. <p/> If an error occurs that cannot be immediately recovered from, the implementation of this method MUST throw a suitable Exception, as the call to execute is performed within a transaction with the reply to the JMSBroker. <p/> Implementations of this method MAY call delayForNfs() before starting, if, for example, they are operating of file system resources.

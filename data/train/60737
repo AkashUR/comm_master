@@ -1,0 +1,226 @@
+112
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='notNull'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ArgumentChecking'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='gcTrace'
+14 argument (StringLiteralExpr)
+15 value='gcTrace'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='createUniqueGCTraceName'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='gcTrace'
+27 name (SimpleName)
+28 identifier='gcTraceName'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='String'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='setName'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='gcTrace'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='gcTraceName'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='setAddedDate'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='gcTrace'
+50 arguments
+51 argument (ObjectCreationExpr)
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Date'
+55 arguments
+56 argument (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='currentTimeMillis'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='System'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='addListener'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='gcTrace'
+69 arguments
+70 argument (ThisExpr)
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='add'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='gcTrace'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='recreateAllGCActivityNames'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='callGCTraceAdded'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='listeners'
+90 arguments
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='gcTrace'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='afterAddingToGCTraceSet'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='gcTrace'
+101 type (VoidType)
+102 name (SimpleName)
+103 identifier='addGCTrace'
+104 parameters
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='gcTrace'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='GCTrace'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+19 27
+27 28
+19 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+0 101
+0 102
+102 103
+0 104
+104 105
+105 106
+105 107
+107 108
+105 109
+109 110
+110 111
+
+It adds a new GC trace to this set. Before adding it, it will set its name to one that is based on the file of the GC trace and that is unique in this set. After adding it, it will call the <tt>gcTraceAdded()</tt> method on the listeners of this set.

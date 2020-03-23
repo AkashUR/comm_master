@@ -1,0 +1,140 @@
+69
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='convert'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='GraphConverters'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='nodes'
+17 name (SimpleName)
+18 identifier='convertedNodes'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='List'
+22 typeArguments
+23 typeArgument (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='INaviViewNode'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='firePreEvent'
+30 scope (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getGraph'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='deleteNodes'
+37 scope (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getContent'
+40 scope (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getRawView'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='convertedNodes'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='firePostEvent'
+51 scope (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getGraph'
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='deleteNodes'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='nodes'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='List'
+65 typeArguments
+66 typeArgument (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='NaviNode'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+34 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+0 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+
+This is the preferred way to delete nodes from open graphs. The reason for this is that node deletion throws selection events and proximity browsing re-layouts after each selection event, making the deletion of multiple nodes without pre/post events tediously slow.

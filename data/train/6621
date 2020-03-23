@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='index'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='assertQ'
+11 arguments
+12 argument (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='req'
+15 arguments
+16 argument (StringLiteralExpr)
+17 value='q'
+18 argument (StringLiteralExpr)
+19 value='*:*'
+20 argument (StringLiteralExpr)
+21 value='facet'
+22 argument (StringLiteralExpr)
+23 value='true'
+24 argument (StringLiteralExpr)
+25 value='facet.pivot'
+26 argument (StringLiteralExpr)
+27 value='{!stats=bogus}place_t,company_t'
+28 argument (StringLiteralExpr)
+29 value='//arr[@name=\'place_t,company_t\']/lst[str[@name=\'value\'][.=\'dublin\']]'
+30 argument (StringLiteralExpr)
+31 value='count(//arr[@name=\'place_t,company_t\']/lst[str[@name=\'value\'][.=\'dublin\']]/lst[@name=\'stats\'])=0'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='testBogusStatsTag'
+35 thrownExceptions
+36 thrownException (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+15 20
+20 21
+15 22
+22 23
+15 24
+24 25
+15 26
+26 27
+11 28
+28 29
+11 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+37 38
+
+if bogus stats are requested, the pivots should still work

@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='WAR'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='/some/path/to/file.war'
+14 name (SimpleName)
+15 identifier='war'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='WAR'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='EAR'
+27 arguments
+28 argument (StringLiteralExpr)
+29 value='/file.ear'
+30 name (SimpleName)
+31 identifier='ear'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='EAR'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='assertNotSame'
+39 arguments
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getType'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='war'
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getType'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='ear'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='assertTrue'
+56 arguments
+57 argument (BinaryExpr)
+58 operator='NOT_EQUALS'
+59 left (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='getType'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='war'
+65 right (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getType'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='ear'
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='testWARAndEARDifference'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+22 30
+30 31
+22 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+47 48
+46 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+57 59
+59 60
+60 61
+59 62
+62 63
+63 64
+57 65
+65 66
+66 67
+65 68
+68 69
+69 70
+0 71
+0 72
+72 73
+
+Test difference between WAR and EAR deployables.

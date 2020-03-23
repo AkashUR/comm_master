@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='assertMutatorRemsetsFlushed'
+0 1
+0 2
+0 3
+3 4
+
+Assert that the remsets have been flushed.  This is critical to correctness.  We need to maintain the invariant that remset entries do not accrue during GC.  If the host JVM generates barrier entries it is its own responsibility to ensure that they are flushed before returning to MMTk.

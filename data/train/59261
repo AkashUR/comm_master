@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='d'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Log'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='TAG'
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (StringLiteralExpr)
+17 value='From: '
+18 right (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getFrom'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='remoteMessage'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='d'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='Log'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='TAG'
+35 argument (BinaryExpr)
+36 operator='PLUS'
+37 left (StringLiteralExpr)
+38 value='Notification Message Body: '
+39 right (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getBody'
+42 scope (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getNotification'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='remoteMessage'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='sendNotification'
+52 arguments
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='getBody'
+56 scope (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getNotification'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='remoteMessage'
+62 type (VoidType)
+63 name (SimpleName)
+64 identifier='onMessageReceived'
+65 parameters
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='remoteMessage'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='RemoteMessage'
+73 annotations
+74 annotation (MarkerAnnotationExpr)
+75 name (Name)
+76 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+14 16
+16 17
+14 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+31 35
+35 36
+35 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+0 62
+0 63
+63 64
+0 65
+65 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+0 73
+73 74
+74 75
+75 76
+
+Called when message is received.

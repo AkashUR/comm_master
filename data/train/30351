@@ -1,0 +1,178 @@
+88
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setThrowExceptionOnFailingStatusCode'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getOptions'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='webClient'
+13 arguments
+14 argument (BooleanLiteralExpr)
+15 value='true'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setThrowExceptionOnScriptError'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getOptions'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='webClient'
+26 arguments
+27 argument (BooleanLiteralExpr)
+28 value='false'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getPage'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='webClient'
+39 arguments
+40 argument (BinaryExpr)
+41 operator='PLUS'
+42 left (NameExpr)
+43 name (SimpleName)
+44 identifier='webUrl'
+45 right (StringLiteralExpr)
+46 value='faces/body.xhtml'
+47 name (SimpleName)
+48 identifier='page'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='HtmlPage'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='assertEquals'
+56 arguments
+57 argument (IntegerLiteralExpr)
+58 value='200'
+59 argument (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='getStatusCode'
+62 scope (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='getWebResponse'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='page'
+68 type (VoidType)
+69 name (SimpleName)
+70 identifier='testAjaxToOnBody'
+71 thrownExceptions
+72 thrownException (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Exception'
+75 annotations
+76 annotation (SingleMemberAnnotationExpr)
+77 memberValue (FieldAccessExpr)
+78 name (SimpleName)
+79 identifier='JSF_2_2_1'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='JsfVersion'
+83 name (Name)
+84 identifier='JsfTest'
+85 annotation (MarkerAnnotationExpr)
+86 name (Name)
+87 identifier='Test'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+17 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+32 47
+47 48
+32 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+62 65
+65 66
+66 67
+0 68
+0 69
+69 70
+0 71
+71 72
+72 73
+73 74
+0 75
+75 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+76 83
+83 84
+75 85
+85 86
+86 87
+
+Test attaching a ClientBehaviorHolder to h:body. Note the current 2.1 spec does not allow using f:ajax outside of a form so this will throw a script error which we are going to ignore.

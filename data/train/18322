@@ -1,0 +1,192 @@
+95
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='spec'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='hokConfirmation'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='jaxbContext'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='requestValidityInSeconds'
+18 statement (AssertStmt)
+19 check (BinaryExpr)
+20 operator='NOT_EQUALS'
+21 left (NameExpr)
+22 name (SimpleName)
+23 identifier='subject'
+24 right (NullLiteralExpr)
+25 statement (AssertStmt)
+26 check (BinaryExpr)
+27 operator='NOT_EQUALS'
+28 left (NameExpr)
+29 name (SimpleName)
+30 identifier='password'
+31 right (NullLiteralExpr)
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='subject'
+38 scope (ThisExpr)
+39 value (NameExpr)
+40 name (SimpleName)
+41 identifier='subject'
+42 statement (ExpressionStmt)
+43 expression (AssignExpr)
+44 operator='ASSIGN'
+45 target (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='password'
+48 scope (ThisExpr)
+49 value (NameExpr)
+50 name (SimpleName)
+51 identifier='password'
+52 name (SimpleName)
+53 identifier='AcquireTokenByUserPassRequestBuilder'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='subject'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='password'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='String'
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='spec'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='TokenSpec'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='hokConfirmation'
+80 type (PrimitiveType)
+81 type='BOOLEAN'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='jaxbContext'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='JAXBContext'
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='requestValidityInSeconds'
+93 type (PrimitiveType)
+94 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+5 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+26 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+35 38
+33 39
+39 40
+40 41
+2 42
+42 43
+43 44
+43 45
+45 46
+46 47
+45 48
+43 49
+49 50
+50 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+54 69
+69 70
+69 71
+71 72
+69 73
+73 74
+74 75
+54 76
+76 77
+76 78
+78 79
+76 80
+80 81
+54 82
+82 83
+82 84
+84 85
+82 86
+86 87
+87 88
+54 89
+89 90
+89 91
+91 92
+89 93
+93 94
+
+Creates AcquireTokenByUserPassRequestBuilder. If the password is not specified (i.e. creating request for a solution user) WS-Security UsernameToken element won't be included in the request.

@@ -1,0 +1,372 @@
+185
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='JvmLauncherStub'
+11 name (SimpleName)
+12 identifier='java'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='JvmLauncherStub'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setupSysProps'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='container'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='java'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getSystemProperties'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='java'
+37 name (SimpleName)
+38 identifier='props'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Properties'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='assertEquals'
+46 arguments
+47 argument (IntegerLiteralExpr)
+48 value='12'
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='size'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='props'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='assertTrue'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='endsWith'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getProperty'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='props'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='install.root'
+72 arguments
+73 argument (StringLiteralExpr)
+74 value='ram:/jonasroot'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='assertTrue'
+79 arguments
+80 argument (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='endsWith'
+83 scope (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getProperty'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='props'
+89 arguments
+90 argument (StringLiteralExpr)
+91 value='jonas.base'
+92 arguments
+93 argument (StringLiteralExpr)
+94 value='ram:/jonasbase'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='assertTrue'
+99 arguments
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='endsWith'
+103 scope (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='getProperty'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='props'
+109 arguments
+110 argument (StringLiteralExpr)
+111 value='java.endorsed.dirs'
+112 arguments
+113 argument (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='append'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='fileHandler'
+119 arguments
+120 argument (StringLiteralExpr)
+121 value='ram:/jonasroot'
+122 argument (StringLiteralExpr)
+123 value='lib/endorsed'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='assertTrue'
+128 arguments
+129 argument (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='endsWith'
+132 scope (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getProperty'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='props'
+138 arguments
+139 argument (StringLiteralExpr)
+140 value='java.security.policy'
+141 arguments
+142 argument (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='append'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='fileHandler'
+148 arguments
+149 argument (StringLiteralExpr)
+150 value='ram:/jonasbase'
+151 argument (StringLiteralExpr)
+152 value='conf/java.policy'
+153 statement (ExpressionStmt)
+154 expression (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='assertTrue'
+157 arguments
+158 argument (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='endsWith'
+161 scope (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='getProperty'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='props'
+167 arguments
+168 argument (StringLiteralExpr)
+169 value='java.security.auth.login.config'
+170 arguments
+171 argument (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='append'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='fileHandler'
+177 arguments
+178 argument (StringLiteralExpr)
+179 value='ram:/jonasbase'
+180 argument (StringLiteralExpr)
+181 value='conf/jaas.config'
+182 type (VoidType)
+183 name (SimpleName)
+184 identifier='testSetupSysProps'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+30 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+60 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+80 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+106 107
+107 108
+103 109
+109 110
+110 111
+100 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+119 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+132 135
+135 136
+136 137
+132 138
+138 139
+139 140
+129 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+148 151
+151 152
+2 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+161 164
+164 165
+165 166
+161 167
+167 168
+168 169
+158 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+171 177
+177 178
+178 179
+177 180
+180 181
+0 182
+0 183
+183 184
+
+Test system properties.

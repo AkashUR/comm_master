@@ -1,0 +1,314 @@
+156
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='glUseProgram'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='rasterProgram'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='glUniformMatrix4fv'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='viewMatrixUniform'
+19 argument (BooleanLiteralExpr)
+20 value='false'
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='get'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='viewMatrix'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='matrixBuffer'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='glUniformMatrix4fv'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='projectionMatrixUniform'
+39 argument (BooleanLiteralExpr)
+40 value='false'
+41 argument (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='get'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='projMatrix'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='matrixBuffer'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='glClear'
+55 arguments
+56 argument (BinaryExpr)
+57 operator='BINARY_OR'
+58 left (NameExpr)
+59 name (SimpleName)
+60 identifier='GL_COLOR_BUFFER_BIT'
+61 right (NameExpr)
+62 name (SimpleName)
+63 identifier='GL_DEPTH_BUFFER_BIT'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='glBindTexture'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='GL_TEXTURE_CUBE_MAP_ARRAY'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='photonMapTexture'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='glBindSampler'
+79 arguments
+80 argument (IntegerLiteralExpr)
+81 value='0'
+82 argument (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='sampler'
+85 scope (ThisExpr)
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='glBindVertexArray'
+90 arguments
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='vaoScene'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='glDrawArraysInstanced'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='GL_TRIANGLES'
+102 argument (IntegerLiteralExpr)
+103 value='0'
+104 argument (BinaryExpr)
+105 operator='MULTIPLY'
+106 left (IntegerLiteralExpr)
+107 value='6'
+108 right (IntegerLiteralExpr)
+109 value='6'
+110 argument (BinaryExpr)
+111 operator='DIVIDE'
+112 left (FieldAccessExpr)
+113 name (SimpleName)
+114 identifier='length'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='boxes'
+118 right (IntegerLiteralExpr)
+119 value='2'
+120 statement (ExpressionStmt)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='glBindVertexArray'
+124 arguments
+125 argument (IntegerLiteralExpr)
+126 value='0'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='glBindSampler'
+131 arguments
+132 argument (IntegerLiteralExpr)
+133 value='0'
+134 argument (IntegerLiteralExpr)
+135 value='0'
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='glBindTexture'
+140 arguments
+141 argument (NameExpr)
+142 name (SimpleName)
+143 identifier='GL_TEXTURE_CUBE_MAP_ARRAY'
+144 argument (IntegerLiteralExpr)
+145 value='0'
+146 statement (ExpressionStmt)
+147 expression (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='glUseProgram'
+150 arguments
+151 argument (IntegerLiteralExpr)
+152 value='0'
+153 type (VoidType)
+154 name (SimpleName)
+155 identifier='raster'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+15 19
+19 20
+15 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+35 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+56 58
+58 59
+59 60
+56 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+98 102
+102 103
+98 104
+104 105
+104 106
+106 107
+104 108
+108 109
+98 110
+110 111
+110 112
+112 113
+113 114
+112 115
+115 116
+116 117
+110 118
+118 119
+2 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+131 134
+134 135
+2 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+142 143
+140 144
+144 145
+2 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+0 153
+0 154
+154 155
+
+Rasterize the boxes by sampling the traced photon maps and present the final image on the screen/viewport.

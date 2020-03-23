@@ -1,0 +1,178 @@
+88
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='exampleSet'
+9 argument (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Partition'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='splitRatios'
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='size'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='exampleSet'
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='createPartitionBuilder'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='exampleSet'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='samplingType'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='useLocalRandomSeed'
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='seed'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='autoSwitchToShuffled'
+42 name (SimpleName)
+43 identifier='SplittedExampleSet'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='exampleSet'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='ExampleSet'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='splitRatios'
+56 type (ArrayType)
+57 origin='TYPE'
+58 componentType (PrimitiveType)
+59 type='DOUBLE'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='samplingType'
+64 type (PrimitiveType)
+65 type='INT'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='useLocalRandomSeed'
+70 type (PrimitiveType)
+71 type='BOOLEAN'
+72 parameter (Parameter)
+73 isVarArgs='false'
+74 name (SimpleName)
+75 identifier='seed'
+76 type (PrimitiveType)
+77 type='INT'
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='autoSwitchToShuffled'
+82 type (PrimitiveType)
+83 type='BOOLEAN'
+84 thrownExceptions
+85 thrownException (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='UserError'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+13 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+26 33
+33 34
+34 35
+26 36
+36 37
+37 38
+26 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+44 52
+52 53
+52 54
+54 55
+52 56
+56 57
+56 58
+58 59
+44 60
+60 61
+60 62
+62 63
+60 64
+64 65
+44 66
+66 67
+66 68
+68 69
+66 70
+70 71
+44 72
+72 73
+72 74
+74 75
+72 76
+76 77
+44 78
+78 79
+78 80
+80 81
+78 82
+82 83
+0 84
+84 85
+85 86
+86 87
+
+Creates an example set that is splitted into n subsets with the given sampling type. If autoSwitchToShuffled is true, the sampling type is switched from Stratified to Shuffled automatically without error when no classification label is present. This shouldn't be used, but it keeps compatibility to previous versions.

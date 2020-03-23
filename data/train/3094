@@ -1,0 +1,104 @@
+51
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='stack'
+9 scope (ThisExpr)
+10 value (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='Heap'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='stackFile'
+18 argument (IntegerLiteralExpr)
+19 value='8'
+20 argument (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='naturalOrder'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='NaturalOrder'
+26 argument (IntegerLiteralExpr)
+27 value='0'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='lastHandle'
+34 scope (ThisExpr)
+35 value (IntegerLiteralExpr)
+36 value='0'
+37 name (SimpleName)
+38 identifier='Stack'
+39 parameters
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='stackFile'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='File'
+47 thrownExceptions
+48 thrownException (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+14 18
+18 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+14 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+31 34
+29 35
+35 36
+0 37
+37 38
+0 39
+39 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+0 47
+47 48
+48 49
+49 50
+
+create a new stack object. a stack object is backed by a blob file that contains the stack entries. all stack entries can be accessed with a long handle; the handle is represented as b256-encoded byte[] as key in the blob. The handle is created using the current time. That means that the top element on the stack has the maximum time as key handle and the element at the bottom of the stack has the minimum time as key handle

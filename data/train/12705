@@ -1,0 +1,30 @@
+14
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='trimToSize'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='elements'
+10 scope (ThisExpr)
+11 type (VoidType)
+12 name (SimpleName)
+13 identifier='trimToSize'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+0 11
+0 12
+12 13
+
+Releases any superfluous memory created by explicitly putting zero values into cells formerly having non-zero values;  An application can use this operation to minimize the storage of the receiver. <p> <b>Background:</b> <p> Cells that <ul> <li>are never set to non-zero values do not use any memory. <li>switch from zero to non-zero state do use memory. <li>switch back from non-zero to zero state also do use memory. However, their memory can be reclaimed by calling <tt>trimToSize()</tt>. </ul> A sequence like <tt>set(s,r,c,5); set(s,r,c,0);</tt> sets a cell to non-zero state and later back to zero state. Such as sequence generates obsolete memory that is automatically reclaimed from time to time or can manually be reclaimed by calling <tt>trimToSize()</tt>. Putting zeros into cells already containing zeros does not generate obsolete memory since no memory was allocated to them in the first place.

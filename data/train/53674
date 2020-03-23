@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mOverlayViewGroup'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='view'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='add'
+17 parameters
+18 parameter (Parameter)
+19 isVarArgs='false'
+20 name (SimpleName)
+21 identifier='view'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='View'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+18 20
+20 21
+18 22
+22 23
+23 24
+
+Adds a View to the overlay. The bounds of the added view should be relative to the host view. Any view added to the overlay should be removed when it is no longer needed or no longer visible. <p>Views in the overlay are visual-only; they do not receive input events and do not participate in focus traversal. Overlay views are intended to be transient, such as might be needed by a temporary animation effect.</p> <p>If the view has a parent, the view will be removed from that parent before being added to the overlay. Also, if that parent is attached in the current view hierarchy, the view will be repositioned such that it is in the same relative location inside the activity. For example, if the view's current parent lies 100 pixels to the right and 200 pixels down from the origin of the overlay's host view, then the view will be offset by (100, 200).</p>

@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='loadInputStreamOrReader'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='reader'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='baseURI'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='dataFormat'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='rdfHandler'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='load'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='reader'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Reader'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='baseURI'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='dataFormat'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='RDFFormat'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='rdfHandler'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='RDFHandler'
+52 thrownExceptions
+53 thrownException (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='IOException'
+56 thrownException (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='RDFParseException'
+59 thrownException (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='RDFHandlerException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+23 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+23 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+23 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+0 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+52 59
+59 60
+60 61
+
+Parses RDF data from a Reader to the RDFHandler. <b>Note: using a Reader to upload byte-based data means that you have to be careful not to destroy the data's character encoding by enforcing a default character encoding upon the bytes. If possible, adding such data using an InputStream is to be preferred.</b>

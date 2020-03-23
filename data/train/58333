@@ -1,0 +1,204 @@
+101
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (NameExpr)
+16 name (SimpleName)
+17 identifier='RESOURCE'
+18 right (StringLiteralExpr)
+19 value='/'
+20 right (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='toString'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='alertId'
+26 right (StringLiteralExpr)
+27 value='/notifications/'
+28 right (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='toString'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='notificationId'
+34 name (SimpleName)
+35 identifier='requestUrl'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='String'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='executeHttpRequest'
+46 scope (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getClient'
+49 arguments
+50 argument (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='DELETE'
+53 scope (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='RequestType'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='ArgusHttpClient'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='requestUrl'
+62 argument (NullLiteralExpr)
+63 name (SimpleName)
+64 identifier='response'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='ArgusResponse'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='assertValidResponse'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='response'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='requestUrl'
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='deleteNotification'
+82 parameters
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='alertId'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='BigInteger'
+90 parameter (Parameter)
+91 isVarArgs='false'
+92 name (SimpleName)
+93 identifier='notificationId'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='BigInteger'
+97 thrownExceptions
+98 thrownException (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+11 20
+20 21
+21 22
+20 23
+23 24
+24 25
+9 26
+26 27
+7 28
+28 29
+29 30
+28 31
+31 32
+32 33
+6 34
+34 35
+6 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+49 59
+59 60
+60 61
+49 62
+42 63
+63 64
+42 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+74 75
+72 76
+76 77
+77 78
+0 79
+0 80
+80 81
+0 82
+82 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+82 90
+90 91
+90 92
+92 93
+90 94
+94 95
+95 96
+0 97
+97 98
+98 99
+99 100
+
+Deletes the notification for the given alert ID. Associated triggers are not deleted from the alert.

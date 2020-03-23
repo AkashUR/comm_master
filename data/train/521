@@ -1,0 +1,150 @@
+74
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (ConditionalExpr)
+7 condition (EnclosedExpr)
+8 inner (BinaryExpr)
+9 operator='NOT_EQUALS'
+10 left (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='get'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='jsonResponse'
+16 arguments
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='ERROR_NODE'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='ApiMethod'
+23 right (NullLiteralExpr)
+24 elseExpr (StringLiteralExpr)
+25 value='No message returned'
+26 thenExpr (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='stringFromJsonNode'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='JsonUtils'
+32 arguments
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='get'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='jsonResponse'
+39 arguments
+40 argument (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='ERROR_NODE'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='ApiMethod'
+46 argument (StringLiteralExpr)
+47 value='message'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='code'
+54 scope (ThisExpr)
+55 value (NameExpr)
+56 name (SimpleName)
+57 identifier='code'
+58 name (SimpleName)
+59 identifier='ApiException'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='code'
+65 type (PrimitiveType)
+66 type='INT'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='jsonResponse'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='ObjectNode'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+8 9
+8 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+8 23
+6 24
+24 25
+6 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+32 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+51 54
+49 55
+55 56
+56 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+60 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+
+Construct exception from JSON response

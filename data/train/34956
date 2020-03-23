@@ -1,0 +1,266 @@
+132
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Logger'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getSimpleName'
+14 scope (ClassExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='HostMonitor'
+18 argument (StringLiteralExpr)
+19 value='reset configuration'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='apply'
+24 scope (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='clear'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='edit'
+30 scope (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getSharedPreferences'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='context'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='PREFS_FILE_NAME'
+40 argument (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='MODE_PRIVATE'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='Context'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setBroadcastReceiverEnabled'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='Util'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='context'
+57 argument (ClassExpr)
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='ConnectivityReceiver'
+61 argument (BooleanLiteralExpr)
+62 value='false'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='debug'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='Logger'
+70 arguments
+71 argument (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getSimpleName'
+74 scope (ClassExpr)
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='HostMonitor'
+78 argument (StringLiteralExpr)
+79 value='cancelling scheduled checks'
+80 statement (ExpressionStmt)
+81 expression (VariableDeclarationExpr)
+82 variables
+83 variable (VariableDeclarator)
+84 initializer (CastExpr)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getSystemService'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='context'
+91 arguments
+92 argument (FieldAccessExpr)
+93 name (SimpleName)
+94 identifier='ALARM_SERVICE'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='Context'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='AlarmManager'
+101 name (SimpleName)
+102 identifier='alarmManager'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='AlarmManager'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='cancel'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='alarmManager'
+113 arguments
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='getPeriodicCheckIntent'
+117 arguments
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='context'
+121 type (VoidType)
+122 name (SimpleName)
+123 identifier='reset'
+124 parameters
+125 parameter (Parameter)
+126 isVarArgs='false'
+127 name (SimpleName)
+128 identifier='context'
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='Context'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+10 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+53 57
+57 58
+58 59
+59 60
+53 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+76 77
+70 78
+78 79
+2 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+84 98
+98 99
+99 100
+83 101
+101 102
+83 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+119 120
+0 121
+0 122
+122 123
+0 124
+124 125
+125 126
+125 127
+127 128
+125 129
+129 130
+130 131
+
+Resets the currently persisted configuration. Disables the connectivity receiver and cancels all scheduled periodic checks (if any).

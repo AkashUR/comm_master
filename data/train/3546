@@ -1,0 +1,202 @@
+100
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='destroySceneGraph'
+7 statement (ExpressionStmt)
+8 expression (VariableDeclarationExpr)
+9 variables
+10 variable (VariableDeclarator)
+11 initializer (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Portrayal3DHolder'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='portrayal'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='name'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='visible'
+25 name (SimpleName)
+26 identifier='p'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Portrayal3DHolder'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='add'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='portrayals'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='p'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='add'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='popup'
+48 arguments
+49 argument (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='menuItem'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='p'
+55 statement (ExpressionStmt)
+56 expression (AssignExpr)
+57 operator='ASSIGN'
+58 target (NameExpr)
+59 name (SimpleName)
+60 identifier='dirty'
+61 value (BooleanLiteralExpr)
+62 value='true'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='setCurrentDisplay'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='portrayal'
+70 arguments
+71 argument (ThisExpr)
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='createSceneGraph'
+76 type (VoidType)
+77 name (SimpleName)
+78 identifier='attach'
+79 parameters
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='portrayal'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Portrayal3D'
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='name'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='String'
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='visible'
+98 type (PrimitiveType)
+99 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+15 22
+22 23
+23 24
+10 25
+25 26
+10 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+2 55
+55 56
+56 57
+56 58
+58 59
+59 60
+56 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+2 72
+72 73
+73 74
+74 75
+0 76
+0 77
+77 78
+0 79
+79 80
+80 81
+80 82
+82 83
+80 84
+84 85
+85 86
+79 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+79 94
+94 95
+94 96
+96 97
+94 98
+98 99
+
+Attaches a portrayal to the Display3D, along with the provided human-readable name for the portrayal. The portrayal will be transformed, along with similar attached portrayals, according to the Display3D's internal transform.  The portrayal may be attached initially visible or not visible. 

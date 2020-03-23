@@ -1,0 +1,266 @@
+132
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createScheduler'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='schedulerName'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='schedulerInstanceId'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='threadPool'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='DEFAULT_THREAD_EXECUTOR'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='jobStore'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='schedulerPluginMap'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='rmiRegistryHost'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='rmiRegistryPort'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='idleWaitTime'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='dbFailureRetryInterval'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='jmxExport'
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='jmxObjectName'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='createScheduler'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='schedulerName'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='schedulerInstanceId'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='threadPool'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='ThreadPool'
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='jobStore'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='JobStore'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='schedulerPluginMap'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Map'
+83 typeArguments
+84 typeArgument (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='String'
+87 typeArgument (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='SchedulerPlugin'
+90 parameter (Parameter)
+91 isVarArgs='false'
+92 name (SimpleName)
+93 identifier='rmiRegistryHost'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='String'
+97 parameter (Parameter)
+98 isVarArgs='false'
+99 name (SimpleName)
+100 identifier='rmiRegistryPort'
+101 type (PrimitiveType)
+102 type='INT'
+103 parameter (Parameter)
+104 isVarArgs='false'
+105 name (SimpleName)
+106 identifier='idleWaitTime'
+107 type (PrimitiveType)
+108 type='LONG'
+109 parameter (Parameter)
+110 isVarArgs='false'
+111 name (SimpleName)
+112 identifier='dbFailureRetryInterval'
+113 type (PrimitiveType)
+114 type='LONG'
+115 parameter (Parameter)
+116 isVarArgs='false'
+117 name (SimpleName)
+118 identifier='jmxExport'
+119 type (PrimitiveType)
+120 type='BOOLEAN'
+121 parameter (Parameter)
+122 isVarArgs='false'
+123 name (SimpleName)
+124 identifier='jmxObjectName'
+125 type (ClassOrInterfaceType)
+126 name (SimpleName)
+127 identifier='String'
+128 thrownExceptions
+129 thrownException (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='SchedulerException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+24 25
+7 26
+26 27
+27 28
+7 29
+29 30
+30 31
+7 32
+32 33
+33 34
+7 35
+35 36
+36 37
+7 38
+38 39
+39 40
+7 41
+41 42
+42 43
+0 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+47 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+47 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+47 69
+69 70
+69 71
+71 72
+69 73
+73 74
+74 75
+47 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+80 83
+83 84
+84 85
+85 86
+83 87
+87 88
+88 89
+47 90
+90 91
+90 92
+92 93
+90 94
+94 95
+95 96
+47 97
+97 98
+97 99
+99 100
+97 101
+101 102
+47 103
+103 104
+103 105
+105 106
+103 107
+107 108
+47 109
+109 110
+109 111
+111 112
+109 113
+113 114
+47 115
+115 116
+115 117
+117 118
+115 119
+119 120
+47 121
+121 122
+121 123
+123 124
+121 125
+125 126
+126 127
+0 128
+128 129
+129 130
+130 131
+
+Creates a scheduler using the specified thread pool, job store, and plugins, and binds it to RMI.

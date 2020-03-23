@@ -1,0 +1,42 @@
+20
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='optimize'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='solrClient'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='optimize'
+13 thrownExceptions
+14 thrownException (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='IOException'
+17 thrownException (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='SolrServerException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+0 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+
+Optimize the index, merges every segment of the index into one monolithic file. Optimizing is very expensive, and if the index is constantly changing, the slight performance boost will not last long... The tradeoff is not often worth it for a non static index. <p> Blocking method, will block until optimization is complete. Solr won't respond to search queries until optimization is done.

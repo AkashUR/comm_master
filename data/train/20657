@@ -1,0 +1,422 @@
+210
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (StringLiteralExpr)
+18 value='<web-app>'
+19 right (StringLiteralExpr)
+20 value='  <security-role>'
+21 right (StringLiteralExpr)
+22 value='    <description>A role</description>'
+23 right (StringLiteralExpr)
+24 value='    <role-name>role1</role-name>'
+25 right (StringLiteralExpr)
+26 value='  </security-role>'
+27 right (StringLiteralExpr)
+28 value='</web-app>'
+29 name (SimpleName)
+30 identifier='srcXml'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+34 statement (ExpressionStmt)
+35 expression (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 initializer (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='parseWebXml'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='WebXmlIo'
+44 arguments
+45 argument (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='ByteArrayInputStream'
+49 arguments
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getBytes'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='srcXml'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='UTF-8'
+59 argument (NullLiteralExpr)
+60 name (SimpleName)
+61 identifier='srcWebXml'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='WebXml'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (BinaryExpr)
+70 operator='PLUS'
+71 left (BinaryExpr)
+72 operator='PLUS'
+73 left (BinaryExpr)
+74 operator='PLUS'
+75 left (BinaryExpr)
+76 operator='PLUS'
+77 left (StringLiteralExpr)
+78 value='<web-app>'
+79 right (StringLiteralExpr)
+80 value='  <security-role>'
+81 right (StringLiteralExpr)
+82 value='    <role-name>role1</role-name>'
+83 right (StringLiteralExpr)
+84 value='  </security-role>'
+85 right (StringLiteralExpr)
+86 value='</web-app>'
+87 name (SimpleName)
+88 identifier='mergeXml'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='String'
+92 statement (ExpressionStmt)
+93 expression (VariableDeclarationExpr)
+94 variables
+95 variable (VariableDeclarator)
+96 initializer (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='parseWebXml'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='WebXmlIo'
+102 arguments
+103 argument (ObjectCreationExpr)
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='ByteArrayInputStream'
+107 arguments
+108 argument (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='getBytes'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='mergeXml'
+114 arguments
+115 argument (StringLiteralExpr)
+116 value='UTF-8'
+117 argument (NullLiteralExpr)
+118 name (SimpleName)
+119 identifier='mergeWebXml'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='WebXml'
+123 statement (ExpressionStmt)
+124 expression (VariableDeclarationExpr)
+125 variables
+126 variable (VariableDeclarator)
+127 initializer (ObjectCreationExpr)
+128 type (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='WebXmlMerger'
+131 arguments
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='srcWebXml'
+135 name (SimpleName)
+136 identifier='merger'
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='WebXmlMerger'
+140 statement (ExpressionStmt)
+141 expression (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='merge'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='merger'
+147 arguments
+148 argument (NameExpr)
+149 name (SimpleName)
+150 identifier='mergeWebXml'
+151 statement (ExpressionStmt)
+152 expression (VariableDeclarationExpr)
+153 variables
+154 variable (VariableDeclarator)
+155 initializer (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='getSecurityRoleNames'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='WebXmlUtils'
+161 arguments
+162 argument (NameExpr)
+163 name (SimpleName)
+164 identifier='srcWebXml'
+165 name (SimpleName)
+166 identifier='securityRoleNames'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='List'
+170 typeArguments
+171 typeArgument (ClassOrInterfaceType)
+172 name (SimpleName)
+173 identifier='String'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='assertEquals'
+178 arguments
+179 argument (IntegerLiteralExpr)
+180 value='1'
+181 argument (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='size'
+184 scope (NameExpr)
+185 name (SimpleName)
+186 identifier='securityRoleNames'
+187 statement (ExpressionStmt)
+188 expression (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='assertEquals'
+191 arguments
+192 argument (StringLiteralExpr)
+193 value='role1'
+194 argument (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='get'
+197 scope (NameExpr)
+198 name (SimpleName)
+199 identifier='securityRoleNames'
+200 arguments
+201 argument (IntegerLiteralExpr)
+202 value='0'
+203 type (VoidType)
+204 name (SimpleName)
+205 identifier='testMergeSecurityRoleIntoDocumentWithSameRole'
+206 thrownExceptions
+207 thrownException (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+15 19
+19 20
+13 21
+21 22
+11 23
+23 24
+9 25
+25 26
+7 27
+27 28
+6 29
+29 30
+6 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+44 59
+37 60
+60 61
+37 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+69 71
+71 72
+71 73
+73 74
+73 75
+75 76
+75 77
+77 78
+75 79
+79 80
+73 81
+81 82
+71 83
+83 84
+69 85
+85 86
+68 87
+87 88
+68 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+105 106
+103 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+102 117
+95 118
+118 119
+95 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+126 127
+127 128
+128 129
+129 130
+127 131
+131 132
+132 133
+133 134
+126 135
+135 136
+126 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+141 147
+147 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+155 161
+161 162
+162 163
+163 164
+154 165
+165 166
+154 167
+167 168
+168 169
+167 170
+170 171
+171 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+178 181
+181 182
+182 183
+181 184
+184 185
+185 186
+2 187
+187 188
+188 189
+189 190
+188 191
+191 192
+192 193
+191 194
+194 195
+195 196
+194 197
+197 198
+198 199
+194 200
+200 201
+201 202
+0 203
+0 204
+204 205
+0 206
+206 207
+207 208
+208 209
+
+Tests whether a single security role is ignored when the source descriptor already contains a role with the same name.

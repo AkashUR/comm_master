@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (NameExpr)
+9 name (SimpleName)
+10 identifier='shape'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='Double'
+14 scope (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='RoundRectangle2D'
+17 name (SimpleName)
+18 identifier='rrect'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Double'
+22 scope (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='RoundRectangle2D'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='setRoundRect'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='rrect'
+32 arguments
+33 argument (IntegerLiteralExpr)
+34 value='0'
+35 argument (IntegerLiteralExpr)
+36 value='0'
+37 argument (BinaryExpr)
+38 operator='MINUS'
+39 left (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='width'
+42 scope (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getBounds'
+45 right (IntegerLiteralExpr)
+46 value='1'
+47 argument (BinaryExpr)
+48 operator='MINUS'
+49 left (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='height'
+52 scope (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getBounds'
+55 right (IntegerLiteralExpr)
+56 value='1'
+57 argument (IntegerLiteralExpr)
+58 value='10'
+59 argument (IntegerLiteralExpr)
+60 value='10'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='resetShapeBounds'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+32 35
+35 36
+32 37
+37 38
+37 39
+39 40
+40 41
+39 42
+42 43
+43 44
+37 45
+45 46
+32 47
+47 48
+47 49
+49 50
+50 51
+49 52
+52 53
+53 54
+47 55
+55 56
+32 57
+57 58
+32 59
+59 60
+0 61
+0 62
+62 63
+
+Rests the boundaries of the shape which is drawn as the rubberband. The boundaries of the shape need to be set so that when drawn they lie just inside the boundaries of the component on all four sides.

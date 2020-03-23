@@ -1,0 +1,2436 @@
+1217
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setDateFactoryInstance'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='BillingIntegrationTestBase'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='calculateMillis'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='DateTimeHandling'
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='2013-10-22 10:00:00'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (StringLiteralExpr)
+25 value='Pict06Supplier'
+26 name (SimpleName)
+27 identifier='supplierAdminId'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='String'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='createOrganization'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='orgSetup'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getPlatformOperatorUserKey'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='basicSetup'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='supplierAdminId'
+51 argument (StringLiteralExpr)
+52 value='Pict06SupplierOrg'
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='ORGANIZATION_DOMICILE_DE'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='TestOrganizationSetup'
+59 argument (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='TECHNOLOGY_PROVIDER'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='OrganizationRoleType'
+65 argument (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='SUPPLIER'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='OrganizationRoleType'
+71 name (SimpleName)
+72 identifier='supplier'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='VOOrganization'
+76 statement (ExpressionStmt)
+77 expression (VariableDeclarationExpr)
+78 variables
+79 variable (VariableDeclarator)
+80 initializer (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getUser'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='orgSetup'
+86 arguments
+87 argument (NameExpr)
+88 name (SimpleName)
+89 identifier='supplierAdminId'
+90 argument (BooleanLiteralExpr)
+91 value='true'
+92 name (SimpleName)
+93 identifier='supplierAdmin'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='VOUser'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='createPaymentForSupplier'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='paymentSetup'
+104 arguments
+105 argument (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='getPlatformOperatorUserKey'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='basicSetup'
+111 argument (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='getKey'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='supplierAdmin'
+117 argument (NameExpr)
+118 name (SimpleName)
+119 identifier='supplier'
+120 statement (ExpressionStmt)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='setCutOffDay'
+124 arguments
+125 argument (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='getKey'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='supplierAdmin'
+131 argument (IntegerLiteralExpr)
+132 value='1'
+133 statement (ExpressionStmt)
+134 expression (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='saveAllVats'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='orgSetup'
+140 arguments
+141 argument (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='getKey'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='supplierAdmin'
+147 argument (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='newVOVatRate'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='VOVatRateFactory'
+153 arguments
+154 argument (ObjectCreationExpr)
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='BigDecimal'
+158 arguments
+159 argument (StringLiteralExpr)
+160 value='0.00'
+161 argument (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='asList'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='Arrays'
+167 arguments
+168 argument (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='newVOCountryVatRate'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='VOVatRateFactory'
+174 arguments
+175 argument (ObjectCreationExpr)
+176 type (ClassOrInterfaceType)
+177 name (SimpleName)
+178 identifier='BigDecimal'
+179 arguments
+180 argument (StringLiteralExpr)
+181 value='20.00'
+182 argument (FieldAccessExpr)
+183 name (SimpleName)
+184 identifier='ORGANIZATION_DOMICILE_UK'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='TestOrganizationSetup'
+188 argument (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='newVOCountryVatRate'
+191 scope (NameExpr)
+192 name (SimpleName)
+193 identifier='VOVatRateFactory'
+194 arguments
+195 argument (ObjectCreationExpr)
+196 type (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='BigDecimal'
+199 arguments
+200 argument (StringLiteralExpr)
+201 value='10.00'
+202 argument (FieldAccessExpr)
+203 name (SimpleName)
+204 identifier='ORGANIZATION_DOMICILE_DE'
+205 scope (NameExpr)
+206 name (SimpleName)
+207 identifier='TestOrganizationSetup'
+208 argument (NullLiteralExpr)
+209 statement (ExpressionStmt)
+210 expression (VariableDeclarationExpr)
+211 variables
+212 variable (VariableDeclarator)
+213 initializer (StringLiteralExpr)
+214 value='Pict06Customer'
+215 name (SimpleName)
+216 identifier='customerAdminId'
+217 type (ClassOrInterfaceType)
+218 name (SimpleName)
+219 identifier='String'
+220 statement (ExpressionStmt)
+221 expression (VariableDeclarationExpr)
+222 variables
+223 variable (VariableDeclarator)
+224 initializer (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='registerCustomer'
+227 scope (NameExpr)
+228 name (SimpleName)
+229 identifier='orgSetup'
+230 arguments
+231 argument (StringLiteralExpr)
+232 value='Pict06CustomerOrg'
+233 argument (FieldAccessExpr)
+234 name (SimpleName)
+235 identifier='ORGANIZATION_DOMICILE_UK'
+236 scope (NameExpr)
+237 name (SimpleName)
+238 identifier='TestOrganizationSetup'
+239 argument (NameExpr)
+240 name (SimpleName)
+241 identifier='customerAdminId'
+242 argument (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='getMarketplaceId'
+245 scope (NameExpr)
+246 name (SimpleName)
+247 identifier='supplierMarketplace'
+248 argument (MethodCallExpr)
+249 name (SimpleName)
+250 identifier='getOrganizationId'
+251 scope (NameExpr)
+252 name (SimpleName)
+253 identifier='supplier'
+254 name (SimpleName)
+255 identifier='customer'
+256 type (ClassOrInterfaceType)
+257 name (SimpleName)
+258 identifier='VOOrganization'
+259 statement (ExpressionStmt)
+260 expression (VariableDeclarationExpr)
+261 variables
+262 variable (VariableDeclarator)
+263 initializer (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='getUser'
+266 scope (NameExpr)
+267 name (SimpleName)
+268 identifier='orgSetup'
+269 arguments
+270 argument (NameExpr)
+271 name (SimpleName)
+272 identifier='customerAdminId'
+273 argument (BooleanLiteralExpr)
+274 value='true'
+275 name (SimpleName)
+276 identifier='customerAdmin'
+277 type (ClassOrInterfaceType)
+278 name (SimpleName)
+279 identifier='VOUser'
+280 statement (ExpressionStmt)
+281 expression (MethodCallExpr)
+282 name (SimpleName)
+283 identifier='createMarketingPermission'
+284 scope (NameExpr)
+285 name (SimpleName)
+286 identifier='orgSetup'
+287 arguments
+288 argument (MethodCallExpr)
+289 name (SimpleName)
+290 identifier='getSupplierAdminKey'
+291 scope (NameExpr)
+292 name (SimpleName)
+293 identifier='basicSetup'
+294 argument (MethodCallExpr)
+295 name (SimpleName)
+296 identifier='getOrganizationId'
+297 scope (NameExpr)
+298 name (SimpleName)
+299 identifier='supplier'
+300 argument (NameExpr)
+301 name (SimpleName)
+302 identifier='technicalServiceAsync'
+303 statement (ExpressionStmt)
+304 expression (VariableDeclarationExpr)
+305 variables
+306 variable (VariableDeclarator)
+307 initializer (MethodCallExpr)
+308 name (SimpleName)
+309 identifier='createAndPublishMarketableService'
+310 scope (NameExpr)
+311 name (SimpleName)
+312 identifier='serviceSetup'
+313 arguments
+314 argument (MethodCallExpr)
+315 name (SimpleName)
+316 identifier='getKey'
+317 scope (NameExpr)
+318 name (SimpleName)
+319 identifier='supplierAdmin'
+320 argument (StringLiteralExpr)
+321 value='PICT_TEST_06'
+322 argument (FieldAccessExpr)
+323 name (SimpleName)
+324 identifier='EXAMPLE2_ASYNC'
+325 scope (NameExpr)
+326 name (SimpleName)
+327 identifier='TestService'
+328 argument (FieldAccessExpr)
+329 name (SimpleName)
+330 identifier='FREE'
+331 scope (NameExpr)
+332 name (SimpleName)
+333 identifier='TestPriceModel'
+334 argument (NameExpr)
+335 name (SimpleName)
+336 identifier='technicalServiceAsync'
+337 argument (NameExpr)
+338 name (SimpleName)
+339 identifier='supplierMarketplace'
+340 name (SimpleName)
+341 identifier='serviceUnitTempl'
+342 type (ClassOrInterfaceType)
+343 name (SimpleName)
+344 identifier='VOServiceDetails'
+345 statement (ExpressionStmt)
+346 expression (VariableDeclarationExpr)
+347 variables
+348 variable (VariableDeclarator)
+349 initializer (MethodCallExpr)
+350 name (SimpleName)
+351 identifier='savePriceModelForCustomer'
+352 scope (NameExpr)
+353 name (SimpleName)
+354 identifier='serviceSetup'
+355 arguments
+356 argument (NameExpr)
+357 name (SimpleName)
+358 identifier='serviceUnitTempl'
+359 argument (FieldAccessExpr)
+360 name (SimpleName)
+361 identifier='EXAMPLE_PICT06_UNIT_HOUR'
+362 scope (NameExpr)
+363 name (SimpleName)
+364 identifier='TestPriceModel'
+365 argument (NameExpr)
+366 name (SimpleName)
+367 identifier='customer'
+368 name (SimpleName)
+369 identifier='serviceDetails'
+370 type (ClassOrInterfaceType)
+371 name (SimpleName)
+372 identifier='VOServiceDetails'
+373 statement (ExpressionStmt)
+374 expression (AssignExpr)
+375 operator='ASSIGN'
+376 target (NameExpr)
+377 name (SimpleName)
+378 identifier='serviceDetails'
+379 value (MethodCallExpr)
+380 name (SimpleName)
+381 identifier='activateMarketableService'
+382 scope (NameExpr)
+383 name (SimpleName)
+384 identifier='serviceSetup'
+385 arguments
+386 argument (NameExpr)
+387 name (SimpleName)
+388 identifier='serviceDetails'
+389 statement (ExpressionStmt)
+390 expression (VariableDeclarationExpr)
+391 variables
+392 variable (VariableDeclarator)
+393 initializer (MethodCallExpr)
+394 name (SimpleName)
+395 identifier='createAndPublishMarketableService'
+396 scope (NameExpr)
+397 name (SimpleName)
+398 identifier='serviceSetup'
+399 arguments
+400 argument (MethodCallExpr)
+401 name (SimpleName)
+402 identifier='getKey'
+403 scope (NameExpr)
+404 name (SimpleName)
+405 identifier='supplierAdmin'
+406 argument (StringLiteralExpr)
+407 value='PICT_TEST_06_Upgrade'
+408 argument (FieldAccessExpr)
+409 name (SimpleName)
+410 identifier='EXAMPLE2_ASYNC'
+411 scope (NameExpr)
+412 name (SimpleName)
+413 identifier='TestService'
+414 argument (FieldAccessExpr)
+415 name (SimpleName)
+416 identifier='FREE'
+417 scope (NameExpr)
+418 name (SimpleName)
+419 identifier='TestPriceModel'
+420 argument (NameExpr)
+421 name (SimpleName)
+422 identifier='technicalServiceAsync'
+423 argument (NameExpr)
+424 name (SimpleName)
+425 identifier='supplierMarketplace'
+426 name (SimpleName)
+427 identifier='serviceProRataTempl'
+428 type (ClassOrInterfaceType)
+429 name (SimpleName)
+430 identifier='VOServiceDetails'
+431 statement (ExpressionStmt)
+432 expression (VariableDeclarationExpr)
+433 variables
+434 variable (VariableDeclarator)
+435 initializer (MethodCallExpr)
+436 name (SimpleName)
+437 identifier='savePriceModelForCustomer'
+438 scope (NameExpr)
+439 name (SimpleName)
+440 identifier='serviceSetup'
+441 arguments
+442 argument (NameExpr)
+443 name (SimpleName)
+444 identifier='serviceProRataTempl'
+445 argument (FieldAccessExpr)
+446 name (SimpleName)
+447 identifier='EXAMPLE_PICT06_RATA_HOUR'
+448 scope (NameExpr)
+449 name (SimpleName)
+450 identifier='TestPriceModel'
+451 argument (NameExpr)
+452 name (SimpleName)
+453 identifier='customer'
+454 name (SimpleName)
+455 identifier='serviceProRata'
+456 type (ClassOrInterfaceType)
+457 name (SimpleName)
+458 identifier='VOServiceDetails'
+459 statement (ExpressionStmt)
+460 expression (AssignExpr)
+461 operator='ASSIGN'
+462 target (NameExpr)
+463 name (SimpleName)
+464 identifier='serviceProRata'
+465 value (MethodCallExpr)
+466 name (SimpleName)
+467 identifier='activateMarketableService'
+468 scope (NameExpr)
+469 name (SimpleName)
+470 identifier='serviceSetup'
+471 arguments
+472 argument (NameExpr)
+473 name (SimpleName)
+474 identifier='serviceProRata'
+475 statement (ExpressionStmt)
+476 expression (MethodCallExpr)
+477 name (SimpleName)
+478 identifier='registerCompatibleServices'
+479 scope (NameExpr)
+480 name (SimpleName)
+481 identifier='serviceSetup'
+482 arguments
+483 argument (MethodCallExpr)
+484 name (SimpleName)
+485 identifier='getKey'
+486 scope (NameExpr)
+487 name (SimpleName)
+488 identifier='supplierAdmin'
+489 argument (NameExpr)
+490 name (SimpleName)
+491 identifier='serviceUnitTempl'
+492 argument (NameExpr)
+493 name (SimpleName)
+494 identifier='serviceProRataTempl'
+495 statement (ExpressionStmt)
+496 expression (VariableDeclarationExpr)
+497 variables
+498 variable (VariableDeclarator)
+499 initializer (MethodCallExpr)
+500 name (SimpleName)
+501 identifier='getRole'
+502 scope (NameExpr)
+503 name (SimpleName)
+504 identifier='VOServiceFactory'
+505 arguments
+506 argument (NameExpr)
+507 name (SimpleName)
+508 identifier='serviceDetails'
+509 argument (StringLiteralExpr)
+510 value='ADMIN'
+511 name (SimpleName)
+512 identifier='role'
+513 type (ClassOrInterfaceType)
+514 name (SimpleName)
+515 identifier='VORoleDefinition'
+516 statement (ExpressionStmt)
+517 expression (MethodCallExpr)
+518 name (SimpleName)
+519 identifier='login'
+520 scope (NameExpr)
+521 name (SimpleName)
+522 identifier='container'
+523 arguments
+524 argument (MethodCallExpr)
+525 name (SimpleName)
+526 identifier='getKey'
+527 scope (NameExpr)
+528 name (SimpleName)
+529 identifier='customerAdmin'
+530 argument (NameExpr)
+531 name (SimpleName)
+532 identifier='ROLE_ORGANIZATION_ADMIN'
+533 statement (ExpressionStmt)
+534 expression (VariableDeclarationExpr)
+535 variables
+536 variable (VariableDeclarator)
+537 initializer (MethodCallExpr)
+538 name (SimpleName)
+539 identifier='subscribeToService'
+540 scope (NameExpr)
+541 name (SimpleName)
+542 identifier='subscrSetup'
+543 arguments
+544 argument (StringLiteralExpr)
+545 value='PICT_TEST_06'
+546 argument (NameExpr)
+547 name (SimpleName)
+548 identifier='serviceDetails'
+549 argument (NameExpr)
+550 name (SimpleName)
+551 identifier='customerAdmin'
+552 argument (NameExpr)
+553 name (SimpleName)
+554 identifier='role'
+555 name (SimpleName)
+556 identifier='subDetails'
+557 type (ClassOrInterfaceType)
+558 name (SimpleName)
+559 identifier='VOSubscriptionDetails'
+560 statement (ExpressionStmt)
+561 expression (MethodCallExpr)
+562 name (SimpleName)
+563 identifier='setDateFactoryInstance'
+564 scope (NameExpr)
+565 name (SimpleName)
+566 identifier='BillingIntegrationTestBase'
+567 arguments
+568 argument (MethodCallExpr)
+569 name (SimpleName)
+570 identifier='calculateMillis'
+571 scope (NameExpr)
+572 name (SimpleName)
+573 identifier='DateTimeHandling'
+574 arguments
+575 argument (StringLiteralExpr)
+576 value='2013-10-23 10:00:00'
+577 statement (ExpressionStmt)
+578 expression (AssignExpr)
+579 operator='ASSIGN'
+580 target (NameExpr)
+581 name (SimpleName)
+582 identifier='subDetails'
+583 value (MethodCallExpr)
+584 name (SimpleName)
+585 identifier='completeAsyncSubscription'
+586 scope (NameExpr)
+587 name (SimpleName)
+588 identifier='subscrSetup'
+589 arguments
+590 argument (MethodCallExpr)
+591 name (SimpleName)
+592 identifier='getSupplierAdminKey'
+593 scope (NameExpr)
+594 name (SimpleName)
+595 identifier='basicSetup'
+596 argument (NameExpr)
+597 name (SimpleName)
+598 identifier='customerAdmin'
+599 argument (NameExpr)
+600 name (SimpleName)
+601 identifier='subDetails'
+602 statement (ExpressionStmt)
+603 expression (MethodCallExpr)
+604 name (SimpleName)
+605 identifier='setDateFactoryInstance'
+606 scope (NameExpr)
+607 name (SimpleName)
+608 identifier='BillingIntegrationTestBase'
+609 arguments
+610 argument (MethodCallExpr)
+611 name (SimpleName)
+612 identifier='calculateMillis'
+613 scope (NameExpr)
+614 name (SimpleName)
+615 identifier='DateTimeHandling'
+616 arguments
+617 argument (StringLiteralExpr)
+618 value='2013-10-26 08:00:00'
+619 statement (ExpressionStmt)
+620 expression (MethodCallExpr)
+621 name (SimpleName)
+622 identifier='login'
+623 scope (NameExpr)
+624 name (SimpleName)
+625 identifier='container'
+626 arguments
+627 argument (MethodCallExpr)
+628 name (SimpleName)
+629 identifier='getKey'
+630 scope (NameExpr)
+631 name (SimpleName)
+632 identifier='supplierAdmin'
+633 argument (NameExpr)
+634 name (SimpleName)
+635 identifier='ROLE_SERVICE_MANAGER'
+636 statement (ExpressionStmt)
+637 expression (MethodCallExpr)
+638 name (SimpleName)
+639 identifier='deleteCustomerPaymentTypes'
+640 scope (NameExpr)
+641 name (SimpleName)
+642 identifier='paymentSetup'
+643 arguments
+644 argument (NameExpr)
+645 name (SimpleName)
+646 identifier='customer'
+647 statement (ExpressionStmt)
+648 expression (MethodCallExpr)
+649 name (SimpleName)
+650 identifier='setDateFactoryInstance'
+651 scope (NameExpr)
+652 name (SimpleName)
+653 identifier='BillingIntegrationTestBase'
+654 arguments
+655 argument (MethodCallExpr)
+656 name (SimpleName)
+657 identifier='calculateMillis'
+658 scope (NameExpr)
+659 name (SimpleName)
+660 identifier='DateTimeHandling'
+661 arguments
+662 argument (StringLiteralExpr)
+663 value='2013-10-26 09:00:00'
+664 statement (ExpressionStmt)
+665 expression (MethodCallExpr)
+666 name (SimpleName)
+667 identifier='reassignCustomerPaymentTypes'
+668 scope (NameExpr)
+669 name (SimpleName)
+670 identifier='paymentSetup'
+671 arguments
+672 argument (NameExpr)
+673 name (SimpleName)
+674 identifier='customer'
+675 statement (ExpressionStmt)
+676 expression (AssignExpr)
+677 operator='ASSIGN'
+678 target (NameExpr)
+679 name (SimpleName)
+680 identifier='subDetails'
+681 value (MethodCallExpr)
+682 name (SimpleName)
+683 identifier='getSubscriptionDetails'
+684 scope (NameExpr)
+685 name (SimpleName)
+686 identifier='subscrSetup'
+687 arguments
+688 argument (MethodCallExpr)
+689 name (SimpleName)
+690 identifier='getKey'
+691 scope (NameExpr)
+692 name (SimpleName)
+693 identifier='customerAdmin'
+694 argument (MethodCallExpr)
+695 name (SimpleName)
+696 identifier='getSubscriptionId'
+697 scope (NameExpr)
+698 name (SimpleName)
+699 identifier='subDetails'
+700 statement (ExpressionStmt)
+701 expression (MethodCallExpr)
+702 name (SimpleName)
+703 identifier='login'
+704 scope (NameExpr)
+705 name (SimpleName)
+706 identifier='container'
+707 arguments
+708 argument (MethodCallExpr)
+709 name (SimpleName)
+710 identifier='getKey'
+711 scope (NameExpr)
+712 name (SimpleName)
+713 identifier='customerAdmin'
+714 argument (NameExpr)
+715 name (SimpleName)
+716 identifier='ROLE_ORGANIZATION_ADMIN'
+717 statement (ExpressionStmt)
+718 expression (MethodCallExpr)
+719 name (SimpleName)
+720 identifier='setDateFactoryInstance'
+721 scope (NameExpr)
+722 name (SimpleName)
+723 identifier='BillingIntegrationTestBase'
+724 arguments
+725 argument (MethodCallExpr)
+726 name (SimpleName)
+727 identifier='calculateMillis'
+728 scope (NameExpr)
+729 name (SimpleName)
+730 identifier='DateTimeHandling'
+731 arguments
+732 argument (StringLiteralExpr)
+733 value='2013-10-26 09:30:00'
+734 statement (ExpressionStmt)
+735 expression (VariableDeclarationExpr)
+736 variables
+737 variable (VariableDeclarator)
+738 initializer (MethodCallExpr)
+739 name (SimpleName)
+740 identifier='upgradeSubscription'
+741 scope (NameExpr)
+742 name (SimpleName)
+743 identifier='subscrSetup'
+744 arguments
+745 argument (NameExpr)
+746 name (SimpleName)
+747 identifier='subDetails'
+748 argument (NameExpr)
+749 name (SimpleName)
+750 identifier='serviceProRata'
+751 name (SimpleName)
+752 identifier='upgradedSubDetails'
+753 type (ClassOrInterfaceType)
+754 name (SimpleName)
+755 identifier='VOSubscriptionDetails'
+756 statement (ExpressionStmt)
+757 expression (MethodCallExpr)
+758 name (SimpleName)
+759 identifier='setDateFactoryInstance'
+760 scope (NameExpr)
+761 name (SimpleName)
+762 identifier='BillingIntegrationTestBase'
+763 arguments
+764 argument (MethodCallExpr)
+765 name (SimpleName)
+766 identifier='calculateMillis'
+767 scope (NameExpr)
+768 name (SimpleName)
+769 identifier='DateTimeHandling'
+770 arguments
+771 argument (StringLiteralExpr)
+772 value='2013-10-26 10:00:00'
+773 statement (ExpressionStmt)
+774 expression (AssignExpr)
+775 operator='ASSIGN'
+776 target (NameExpr)
+777 name (SimpleName)
+778 identifier='upgradedSubDetails'
+779 value (MethodCallExpr)
+780 name (SimpleName)
+781 identifier='completeAsyncUpgradeSubscription'
+782 scope (NameExpr)
+783 name (SimpleName)
+784 identifier='subscrSetup'
+785 arguments
+786 argument (MethodCallExpr)
+787 name (SimpleName)
+788 identifier='getSupplierAdminKey'
+789 scope (NameExpr)
+790 name (SimpleName)
+791 identifier='basicSetup'
+792 argument (NameExpr)
+793 name (SimpleName)
+794 identifier='customerAdmin'
+795 argument (NameExpr)
+796 name (SimpleName)
+797 identifier='upgradedSubDetails'
+798 statement (ExpressionStmt)
+799 expression (MethodCallExpr)
+800 name (SimpleName)
+801 identifier='login'
+802 scope (NameExpr)
+803 name (SimpleName)
+804 identifier='container'
+805 arguments
+806 argument (MethodCallExpr)
+807 name (SimpleName)
+808 identifier='getKey'
+809 scope (NameExpr)
+810 name (SimpleName)
+811 identifier='supplierAdmin'
+812 argument (NameExpr)
+813 name (SimpleName)
+814 identifier='ROLE_SERVICE_MANAGER'
+815 statement (ExpressionStmt)
+816 expression (MethodCallExpr)
+817 name (SimpleName)
+818 identifier='setDateFactoryInstance'
+819 scope (NameExpr)
+820 name (SimpleName)
+821 identifier='BillingIntegrationTestBase'
+822 arguments
+823 argument (MethodCallExpr)
+824 name (SimpleName)
+825 identifier='calculateMillis'
+826 scope (NameExpr)
+827 name (SimpleName)
+828 identifier='DateTimeHandling'
+829 arguments
+830 argument (StringLiteralExpr)
+831 value='2013-10-26 11:00:00'
+832 statement (ExpressionStmt)
+833 expression (VariableDeclarationExpr)
+834 variables
+835 variable (VariableDeclarator)
+836 initializer (MethodCallExpr)
+837 name (SimpleName)
+838 identifier='modifyPriceModelPeriodFee'
+839 scope (NameExpr)
+840 name (SimpleName)
+841 identifier='VOPriceModelFactory'
+842 arguments
+843 argument (MethodCallExpr)
+844 name (SimpleName)
+845 identifier='getPriceModel'
+846 scope (NameExpr)
+847 name (SimpleName)
+848 identifier='upgradedSubDetails'
+849 argument (ObjectCreationExpr)
+850 type (ClassOrInterfaceType)
+851 name (SimpleName)
+852 identifier='BigDecimal'
+853 arguments
+854 argument (StringLiteralExpr)
+855 value='1000.00'
+856 name (SimpleName)
+857 identifier='newSubPriceModel'
+858 type (ClassOrInterfaceType)
+859 name (SimpleName)
+860 identifier='VOPriceModel'
+861 statement (ExpressionStmt)
+862 expression (MethodCallExpr)
+863 name (SimpleName)
+864 identifier='savePriceModelForSubscription'
+865 scope (NameExpr)
+866 name (SimpleName)
+867 identifier='subscrSetup'
+868 arguments
+869 argument (MethodCallExpr)
+870 name (SimpleName)
+871 identifier='getKey'
+872 scope (NameExpr)
+873 name (SimpleName)
+874 identifier='supplierAdmin'
+875 argument (NameExpr)
+876 name (SimpleName)
+877 identifier='upgradedSubDetails'
+878 argument (NameExpr)
+879 name (SimpleName)
+880 identifier='newSubPriceModel'
+881 argument (NameExpr)
+882 name (SimpleName)
+883 identifier='customer'
+884 statement (ExpressionStmt)
+885 expression (MethodCallExpr)
+886 name (SimpleName)
+887 identifier='login'
+888 scope (NameExpr)
+889 name (SimpleName)
+890 identifier='container'
+891 arguments
+892 argument (MethodCallExpr)
+893 name (SimpleName)
+894 identifier='getKey'
+895 scope (NameExpr)
+896 name (SimpleName)
+897 identifier='customerAdmin'
+898 argument (NameExpr)
+899 name (SimpleName)
+900 identifier='ROLE_ORGANIZATION_ADMIN'
+901 statement (ExpressionStmt)
+902 expression (MethodCallExpr)
+903 name (SimpleName)
+904 identifier='setDateFactoryInstance'
+905 scope (NameExpr)
+906 name (SimpleName)
+907 identifier='BillingIntegrationTestBase'
+908 arguments
+909 argument (MethodCallExpr)
+910 name (SimpleName)
+911 identifier='calculateMillis'
+912 scope (NameExpr)
+913 name (SimpleName)
+914 identifier='DateTimeHandling'
+915 arguments
+916 argument (StringLiteralExpr)
+917 value='2013-10-26 22:00:00'
+918 statement (ExpressionStmt)
+919 expression (MethodCallExpr)
+920 name (SimpleName)
+921 identifier='revokeUser'
+922 scope (NameExpr)
+923 name (SimpleName)
+924 identifier='subscrSetup'
+925 arguments
+926 argument (NameExpr)
+927 name (SimpleName)
+928 identifier='customerAdmin'
+929 argument (MethodCallExpr)
+930 name (SimpleName)
+931 identifier='getSubscriptionId'
+932 scope (NameExpr)
+933 name (SimpleName)
+934 identifier='upgradedSubDetails'
+935 statement (ExpressionStmt)
+936 expression (MethodCallExpr)
+937 name (SimpleName)
+938 identifier='setDateFactoryInstance'
+939 scope (NameExpr)
+940 name (SimpleName)
+941 identifier='BillingIntegrationTestBase'
+942 arguments
+943 argument (MethodCallExpr)
+944 name (SimpleName)
+945 identifier='calculateMillis'
+946 scope (NameExpr)
+947 name (SimpleName)
+948 identifier='DateTimeHandling'
+949 arguments
+950 argument (StringLiteralExpr)
+951 value='2013-10-27 02:30:00'
+952 statement (ExpressionStmt)
+953 expression (MethodCallExpr)
+954 name (SimpleName)
+955 identifier='login'
+956 scope (NameExpr)
+957 name (SimpleName)
+958 identifier='container'
+959 arguments
+960 argument (MethodCallExpr)
+961 name (SimpleName)
+962 identifier='getKey'
+963 scope (NameExpr)
+964 name (SimpleName)
+965 identifier='supplierAdmin'
+966 argument (NameExpr)
+967 name (SimpleName)
+968 identifier='ROLE_SERVICE_MANAGER'
+969 statement (ExpressionStmt)
+970 expression (MethodCallExpr)
+971 name (SimpleName)
+972 identifier='deleteMarketableService'
+973 scope (NameExpr)
+974 name (SimpleName)
+975 identifier='serviceSetup'
+976 arguments
+977 argument (NameExpr)
+978 name (SimpleName)
+979 identifier='serviceProRata'
+980 statement (ExpressionStmt)
+981 expression (MethodCallExpr)
+982 name (SimpleName)
+983 identifier='login'
+984 scope (NameExpr)
+985 name (SimpleName)
+986 identifier='container'
+987 arguments
+988 argument (MethodCallExpr)
+989 name (SimpleName)
+990 identifier='getSupplierAdminKey'
+991 scope (NameExpr)
+992 name (SimpleName)
+993 identifier='basicSetup'
+994 argument (NameExpr)
+995 name (SimpleName)
+996 identifier='ROLE_SERVICE_MANAGER'
+997 argument (NameExpr)
+998 name (SimpleName)
+999 identifier='ROLE_TECHNOLOGY_MANAGER'
+1000 statement (ExpressionStmt)
+1001 expression (MethodCallExpr)
+1002 name (SimpleName)
+1003 identifier='recordEventForSubscription'
+1004 scope (NameExpr)
+1005 name (SimpleName)
+1006 identifier='subscrSetup'
+1007 arguments
+1008 argument (NameExpr)
+1009 name (SimpleName)
+1010 identifier='upgradedSubDetails'
+1011 argument (MethodCallExpr)
+1012 name (SimpleName)
+1013 identifier='calculateMillis'
+1014 scope (NameExpr)
+1015 name (SimpleName)
+1016 identifier='DateTimeHandling'
+1017 arguments
+1018 argument (StringLiteralExpr)
+1019 value='2013-10-27 02:40:00'
+1020 argument (StringLiteralExpr)
+1021 value='FILE_DOWNLOAD'
+1022 argument (IntegerLiteralExpr)
+1023 value='1'
+1024 statement (ExpressionStmt)
+1025 expression (MethodCallExpr)
+1026 name (SimpleName)
+1027 identifier='login'
+1028 scope (NameExpr)
+1029 name (SimpleName)
+1030 identifier='container'
+1031 arguments
+1032 argument (MethodCallExpr)
+1033 name (SimpleName)
+1034 identifier='getKey'
+1035 scope (NameExpr)
+1036 name (SimpleName)
+1037 identifier='customerAdmin'
+1038 argument (NameExpr)
+1039 name (SimpleName)
+1040 identifier='ROLE_ORGANIZATION_ADMIN'
+1041 statement (ExpressionStmt)
+1042 expression (MethodCallExpr)
+1043 name (SimpleName)
+1044 identifier='setDateFactoryInstance'
+1045 scope (NameExpr)
+1046 name (SimpleName)
+1047 identifier='BillingIntegrationTestBase'
+1048 arguments
+1049 argument (MethodCallExpr)
+1050 name (SimpleName)
+1051 identifier='calculateMillis'
+1052 scope (NameExpr)
+1053 name (SimpleName)
+1054 identifier='DateTimeHandling'
+1055 arguments
+1056 argument (StringLiteralExpr)
+1057 value='2013-10-27 22:00:00'
+1058 statement (ExpressionStmt)
+1059 expression (AssignExpr)
+1060 operator='ASSIGN'
+1061 target (NameExpr)
+1062 name (SimpleName)
+1063 identifier='role'
+1064 value (MethodCallExpr)
+1065 name (SimpleName)
+1066 identifier='getRole'
+1067 scope (NameExpr)
+1068 name (SimpleName)
+1069 identifier='VOServiceFactory'
+1070 arguments
+1071 argument (NameExpr)
+1072 name (SimpleName)
+1073 identifier='serviceDetails'
+1074 argument (StringLiteralExpr)
+1075 value='ADMIN'
+1076 statement (ExpressionStmt)
+1077 expression (AssignExpr)
+1078 operator='ASSIGN'
+1079 target (NameExpr)
+1080 name (SimpleName)
+1081 identifier='upgradedSubDetails'
+1082 value (MethodCallExpr)
+1083 name (SimpleName)
+1084 identifier='addUser'
+1085 scope (NameExpr)
+1086 name (SimpleName)
+1087 identifier='subscrSetup'
+1088 arguments
+1089 argument (NameExpr)
+1090 name (SimpleName)
+1091 identifier='customerAdmin'
+1092 argument (NameExpr)
+1093 name (SimpleName)
+1094 identifier='role'
+1095 argument (MethodCallExpr)
+1096 name (SimpleName)
+1097 identifier='getSubscriptionId'
+1098 scope (NameExpr)
+1099 name (SimpleName)
+1100 identifier='upgradedSubDetails'
+1101 statement (ExpressionStmt)
+1102 expression (MethodCallExpr)
+1103 name (SimpleName)
+1104 identifier='login'
+1105 scope (NameExpr)
+1106 name (SimpleName)
+1107 identifier='container'
+1108 arguments
+1109 argument (MethodCallExpr)
+1110 name (SimpleName)
+1111 identifier='getKey'
+1112 scope (NameExpr)
+1113 name (SimpleName)
+1114 identifier='customerAdmin'
+1115 argument (NameExpr)
+1116 name (SimpleName)
+1117 identifier='ROLE_ORGANIZATION_ADMIN'
+1118 statement (ExpressionStmt)
+1119 expression (VariableDeclarationExpr)
+1120 variables
+1121 variable (VariableDeclarator)
+1122 initializer (MethodCallExpr)
+1123 name (SimpleName)
+1124 identifier='calculateMillis'
+1125 scope (NameExpr)
+1126 name (SimpleName)
+1127 identifier='DateTimeHandling'
+1128 arguments
+1129 argument (StringLiteralExpr)
+1130 value='2013-10-29 10:00:00'
+1131 name (SimpleName)
+1132 identifier='userterminateTime'
+1133 type (PrimitiveType)
+1134 type='LONG'
+1135 statement (ExpressionStmt)
+1136 expression (MethodCallExpr)
+1137 name (SimpleName)
+1138 identifier='setDateFactoryInstance'
+1139 scope (NameExpr)
+1140 name (SimpleName)
+1141 identifier='BillingIntegrationTestBase'
+1142 arguments
+1143 argument (NameExpr)
+1144 name (SimpleName)
+1145 identifier='userterminateTime'
+1146 statement (ExpressionStmt)
+1147 expression (MethodCallExpr)
+1148 name (SimpleName)
+1149 identifier='unsubscribeToService'
+1150 scope (NameExpr)
+1151 name (SimpleName)
+1152 identifier='subscrSetup'
+1153 arguments
+1154 argument (MethodCallExpr)
+1155 name (SimpleName)
+1156 identifier='getSubscriptionId'
+1157 scope (NameExpr)
+1158 name (SimpleName)
+1159 identifier='upgradedSubDetails'
+1160 statement (ExpressionStmt)
+1161 expression (MethodCallExpr)
+1162 name (SimpleName)
+1163 identifier='resetCutOffDay'
+1164 arguments
+1165 argument (MethodCallExpr)
+1166 name (SimpleName)
+1167 identifier='getKey'
+1168 scope (NameExpr)
+1169 name (SimpleName)
+1170 identifier='supplierAdmin'
+1171 statement (ExpressionStmt)
+1172 expression (MethodCallExpr)
+1173 name (SimpleName)
+1174 identifier='updateSubscriptionListForTests'
+1175 scope (NameExpr)
+1176 name (SimpleName)
+1177 identifier='BillingIntegrationTestBase'
+1178 arguments
+1179 argument (StringLiteralExpr)
+1180 value='PICT_TEST_06'
+1181 argument (NameExpr)
+1182 name (SimpleName)
+1183 identifier='subDetails'
+1184 statement (ExpressionStmt)
+1185 expression (MethodCallExpr)
+1186 name (SimpleName)
+1187 identifier='updateSubscriptionListForTests'
+1188 scope (NameExpr)
+1189 name (SimpleName)
+1190 identifier='BillingIntegrationTestBase'
+1191 arguments
+1192 argument (StringLiteralExpr)
+1193 value='PICT_TEST_06'
+1194 argument (NameExpr)
+1195 name (SimpleName)
+1196 identifier='upgradedSubDetails'
+1197 statement (ExpressionStmt)
+1198 expression (MethodCallExpr)
+1199 name (SimpleName)
+1200 identifier='updateCustomerListForTests'
+1201 scope (NameExpr)
+1202 name (SimpleName)
+1203 identifier='BillingIntegrationTestBase'
+1204 arguments
+1205 argument (StringLiteralExpr)
+1206 value='PICT_TEST_06'
+1207 argument (NameExpr)
+1208 name (SimpleName)
+1209 identifier='customer'
+1210 type (VoidType)
+1211 name (SimpleName)
+1212 identifier='createPictScenario06'
+1213 thrownExceptions
+1214 thrownException (ClassOrInterfaceType)
+1215 name (SimpleName)
+1216 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+23 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+41 48
+48 49
+49 50
+41 51
+51 52
+41 53
+53 54
+54 55
+53 56
+56 57
+57 58
+41 59
+59 60
+60 61
+59 62
+62 63
+63 64
+41 65
+65 66
+66 67
+65 68
+68 69
+69 70
+34 71
+71 72
+34 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+88 89
+86 90
+90 91
+79 92
+92 93
+79 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+104 111
+111 112
+112 113
+111 114
+114 115
+115 116
+104 117
+117 118
+118 119
+2 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+124 131
+131 132
+2 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+134 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+140 147
+147 148
+148 149
+147 150
+150 151
+151 152
+147 153
+153 154
+154 155
+155 156
+156 157
+154 158
+158 159
+159 160
+140 161
+161 162
+162 163
+161 164
+164 165
+165 166
+161 167
+167 168
+168 169
+169 170
+168 171
+171 172
+172 173
+168 174
+174 175
+175 176
+176 177
+177 178
+175 179
+179 180
+180 181
+174 182
+182 183
+183 184
+182 185
+185 186
+186 187
+167 188
+188 189
+189 190
+188 191
+191 192
+192 193
+188 194
+194 195
+195 196
+196 197
+197 198
+195 199
+199 200
+200 201
+194 202
+202 203
+203 204
+202 205
+205 206
+206 207
+140 208
+2 209
+209 210
+210 211
+211 212
+212 213
+213 214
+212 215
+215 216
+212 217
+217 218
+218 219
+2 220
+220 221
+221 222
+222 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+224 230
+230 231
+231 232
+230 233
+233 234
+234 235
+233 236
+236 237
+237 238
+230 239
+239 240
+240 241
+230 242
+242 243
+243 244
+242 245
+245 246
+246 247
+230 248
+248 249
+249 250
+248 251
+251 252
+252 253
+223 254
+254 255
+223 256
+256 257
+257 258
+2 259
+259 260
+260 261
+261 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+263 269
+269 270
+270 271
+271 272
+269 273
+273 274
+262 275
+275 276
+262 277
+277 278
+278 279
+2 280
+280 281
+281 282
+282 283
+281 284
+284 285
+285 286
+281 287
+287 288
+288 289
+289 290
+288 291
+291 292
+292 293
+287 294
+294 295
+295 296
+294 297
+297 298
+298 299
+287 300
+300 301
+301 302
+2 303
+303 304
+304 305
+305 306
+306 307
+307 308
+308 309
+307 310
+310 311
+311 312
+307 313
+313 314
+314 315
+315 316
+314 317
+317 318
+318 319
+313 320
+320 321
+313 322
+322 323
+323 324
+322 325
+325 326
+326 327
+313 328
+328 329
+329 330
+328 331
+331 332
+332 333
+313 334
+334 335
+335 336
+313 337
+337 338
+338 339
+306 340
+340 341
+306 342
+342 343
+343 344
+2 345
+345 346
+346 347
+347 348
+348 349
+349 350
+350 351
+349 352
+352 353
+353 354
+349 355
+355 356
+356 357
+357 358
+355 359
+359 360
+360 361
+359 362
+362 363
+363 364
+355 365
+365 366
+366 367
+348 368
+368 369
+348 370
+370 371
+371 372
+2 373
+373 374
+374 375
+374 376
+376 377
+377 378
+374 379
+379 380
+380 381
+379 382
+382 383
+383 384
+379 385
+385 386
+386 387
+387 388
+2 389
+389 390
+390 391
+391 392
+392 393
+393 394
+394 395
+393 396
+396 397
+397 398
+393 399
+399 400
+400 401
+401 402
+400 403
+403 404
+404 405
+399 406
+406 407
+399 408
+408 409
+409 410
+408 411
+411 412
+412 413
+399 414
+414 415
+415 416
+414 417
+417 418
+418 419
+399 420
+420 421
+421 422
+399 423
+423 424
+424 425
+392 426
+426 427
+392 428
+428 429
+429 430
+2 431
+431 432
+432 433
+433 434
+434 435
+435 436
+436 437
+435 438
+438 439
+439 440
+435 441
+441 442
+442 443
+443 444
+441 445
+445 446
+446 447
+445 448
+448 449
+449 450
+441 451
+451 452
+452 453
+434 454
+454 455
+434 456
+456 457
+457 458
+2 459
+459 460
+460 461
+460 462
+462 463
+463 464
+460 465
+465 466
+466 467
+465 468
+468 469
+469 470
+465 471
+471 472
+472 473
+473 474
+2 475
+475 476
+476 477
+477 478
+476 479
+479 480
+480 481
+476 482
+482 483
+483 484
+484 485
+483 486
+486 487
+487 488
+482 489
+489 490
+490 491
+482 492
+492 493
+493 494
+2 495
+495 496
+496 497
+497 498
+498 499
+499 500
+500 501
+499 502
+502 503
+503 504
+499 505
+505 506
+506 507
+507 508
+505 509
+509 510
+498 511
+511 512
+498 513
+513 514
+514 515
+2 516
+516 517
+517 518
+518 519
+517 520
+520 521
+521 522
+517 523
+523 524
+524 525
+525 526
+524 527
+527 528
+528 529
+523 530
+530 531
+531 532
+2 533
+533 534
+534 535
+535 536
+536 537
+537 538
+538 539
+537 540
+540 541
+541 542
+537 543
+543 544
+544 545
+543 546
+546 547
+547 548
+543 549
+549 550
+550 551
+543 552
+552 553
+553 554
+536 555
+555 556
+536 557
+557 558
+558 559
+2 560
+560 561
+561 562
+562 563
+561 564
+564 565
+565 566
+561 567
+567 568
+568 569
+569 570
+568 571
+571 572
+572 573
+568 574
+574 575
+575 576
+2 577
+577 578
+578 579
+578 580
+580 581
+581 582
+578 583
+583 584
+584 585
+583 586
+586 587
+587 588
+583 589
+589 590
+590 591
+591 592
+590 593
+593 594
+594 595
+589 596
+596 597
+597 598
+589 599
+599 600
+600 601
+2 602
+602 603
+603 604
+604 605
+603 606
+606 607
+607 608
+603 609
+609 610
+610 611
+611 612
+610 613
+613 614
+614 615
+610 616
+616 617
+617 618
+2 619
+619 620
+620 621
+621 622
+620 623
+623 624
+624 625
+620 626
+626 627
+627 628
+628 629
+627 630
+630 631
+631 632
+626 633
+633 634
+634 635
+2 636
+636 637
+637 638
+638 639
+637 640
+640 641
+641 642
+637 643
+643 644
+644 645
+645 646
+2 647
+647 648
+648 649
+649 650
+648 651
+651 652
+652 653
+648 654
+654 655
+655 656
+656 657
+655 658
+658 659
+659 660
+655 661
+661 662
+662 663
+2 664
+664 665
+665 666
+666 667
+665 668
+668 669
+669 670
+665 671
+671 672
+672 673
+673 674
+2 675
+675 676
+676 677
+676 678
+678 679
+679 680
+676 681
+681 682
+682 683
+681 684
+684 685
+685 686
+681 687
+687 688
+688 689
+689 690
+688 691
+691 692
+692 693
+687 694
+694 695
+695 696
+694 697
+697 698
+698 699
+2 700
+700 701
+701 702
+702 703
+701 704
+704 705
+705 706
+701 707
+707 708
+708 709
+709 710
+708 711
+711 712
+712 713
+707 714
+714 715
+715 716
+2 717
+717 718
+718 719
+719 720
+718 721
+721 722
+722 723
+718 724
+724 725
+725 726
+726 727
+725 728
+728 729
+729 730
+725 731
+731 732
+732 733
+2 734
+734 735
+735 736
+736 737
+737 738
+738 739
+739 740
+738 741
+741 742
+742 743
+738 744
+744 745
+745 746
+746 747
+744 748
+748 749
+749 750
+737 751
+751 752
+737 753
+753 754
+754 755
+2 756
+756 757
+757 758
+758 759
+757 760
+760 761
+761 762
+757 763
+763 764
+764 765
+765 766
+764 767
+767 768
+768 769
+764 770
+770 771
+771 772
+2 773
+773 774
+774 775
+774 776
+776 777
+777 778
+774 779
+779 780
+780 781
+779 782
+782 783
+783 784
+779 785
+785 786
+786 787
+787 788
+786 789
+789 790
+790 791
+785 792
+792 793
+793 794
+785 795
+795 796
+796 797
+2 798
+798 799
+799 800
+800 801
+799 802
+802 803
+803 804
+799 805
+805 806
+806 807
+807 808
+806 809
+809 810
+810 811
+805 812
+812 813
+813 814
+2 815
+815 816
+816 817
+817 818
+816 819
+819 820
+820 821
+816 822
+822 823
+823 824
+824 825
+823 826
+826 827
+827 828
+823 829
+829 830
+830 831
+2 832
+832 833
+833 834
+834 835
+835 836
+836 837
+837 838
+836 839
+839 840
+840 841
+836 842
+842 843
+843 844
+844 845
+843 846
+846 847
+847 848
+842 849
+849 850
+850 851
+851 852
+849 853
+853 854
+854 855
+835 856
+856 857
+835 858
+858 859
+859 860
+2 861
+861 862
+862 863
+863 864
+862 865
+865 866
+866 867
+862 868
+868 869
+869 870
+870 871
+869 872
+872 873
+873 874
+868 875
+875 876
+876 877
+868 878
+878 879
+879 880
+868 881
+881 882
+882 883
+2 884
+884 885
+885 886
+886 887
+885 888
+888 889
+889 890
+885 891
+891 892
+892 893
+893 894
+892 895
+895 896
+896 897
+891 898
+898 899
+899 900
+2 901
+901 902
+902 903
+903 904
+902 905
+905 906
+906 907
+902 908
+908 909
+909 910
+910 911
+909 912
+912 913
+913 914
+909 915
+915 916
+916 917
+2 918
+918 919
+919 920
+920 921
+919 922
+922 923
+923 924
+919 925
+925 926
+926 927
+927 928
+925 929
+929 930
+930 931
+929 932
+932 933
+933 934
+2 935
+935 936
+936 937
+937 938
+936 939
+939 940
+940 941
+936 942
+942 943
+943 944
+944 945
+943 946
+946 947
+947 948
+943 949
+949 950
+950 951
+2 952
+952 953
+953 954
+954 955
+953 956
+956 957
+957 958
+953 959
+959 960
+960 961
+961 962
+960 963
+963 964
+964 965
+959 966
+966 967
+967 968
+2 969
+969 970
+970 971
+971 972
+970 973
+973 974
+974 975
+970 976
+976 977
+977 978
+978 979
+2 980
+980 981
+981 982
+982 983
+981 984
+984 985
+985 986
+981 987
+987 988
+988 989
+989 990
+988 991
+991 992
+992 993
+987 994
+994 995
+995 996
+987 997
+997 998
+998 999
+2 1000
+1000 1001
+1001 1002
+1002 1003
+1001 1004
+1004 1005
+1005 1006
+1001 1007
+1007 1008
+1008 1009
+1009 1010
+1007 1011
+1011 1012
+1012 1013
+1011 1014
+1014 1015
+1015 1016
+1011 1017
+1017 1018
+1018 1019
+1007 1020
+1020 1021
+1007 1022
+1022 1023
+2 1024
+1024 1025
+1025 1026
+1026 1027
+1025 1028
+1028 1029
+1029 1030
+1025 1031
+1031 1032
+1032 1033
+1033 1034
+1032 1035
+1035 1036
+1036 1037
+1031 1038
+1038 1039
+1039 1040
+2 1041
+1041 1042
+1042 1043
+1043 1044
+1042 1045
+1045 1046
+1046 1047
+1042 1048
+1048 1049
+1049 1050
+1050 1051
+1049 1052
+1052 1053
+1053 1054
+1049 1055
+1055 1056
+1056 1057
+2 1058
+1058 1059
+1059 1060
+1059 1061
+1061 1062
+1062 1063
+1059 1064
+1064 1065
+1065 1066
+1064 1067
+1067 1068
+1068 1069
+1064 1070
+1070 1071
+1071 1072
+1072 1073
+1070 1074
+1074 1075
+2 1076
+1076 1077
+1077 1078
+1077 1079
+1079 1080
+1080 1081
+1077 1082
+1082 1083
+1083 1084
+1082 1085
+1085 1086
+1086 1087
+1082 1088
+1088 1089
+1089 1090
+1090 1091
+1088 1092
+1092 1093
+1093 1094
+1088 1095
+1095 1096
+1096 1097
+1095 1098
+1098 1099
+1099 1100
+2 1101
+1101 1102
+1102 1103
+1103 1104
+1102 1105
+1105 1106
+1106 1107
+1102 1108
+1108 1109
+1109 1110
+1110 1111
+1109 1112
+1112 1113
+1113 1114
+1108 1115
+1115 1116
+1116 1117
+2 1118
+1118 1119
+1119 1120
+1120 1121
+1121 1122
+1122 1123
+1123 1124
+1122 1125
+1125 1126
+1126 1127
+1122 1128
+1128 1129
+1129 1130
+1121 1131
+1131 1132
+1121 1133
+1133 1134
+2 1135
+1135 1136
+1136 1137
+1137 1138
+1136 1139
+1139 1140
+1140 1141
+1136 1142
+1142 1143
+1143 1144
+1144 1145
+2 1146
+1146 1147
+1147 1148
+1148 1149
+1147 1150
+1150 1151
+1151 1152
+1147 1153
+1153 1154
+1154 1155
+1155 1156
+1154 1157
+1157 1158
+1158 1159
+2 1160
+1160 1161
+1161 1162
+1162 1163
+1161 1164
+1164 1165
+1165 1166
+1166 1167
+1165 1168
+1168 1169
+1169 1170
+2 1171
+1171 1172
+1172 1173
+1173 1174
+1172 1175
+1175 1176
+1176 1177
+1172 1178
+1178 1179
+1179 1180
+1178 1181
+1181 1182
+1182 1183
+2 1184
+1184 1185
+1185 1186
+1186 1187
+1185 1188
+1188 1189
+1189 1190
+1185 1191
+1191 1192
+1192 1193
+1191 1194
+1194 1195
+1195 1196
+2 1197
+1197 1198
+1198 1199
+1199 1200
+1198 1201
+1201 1202
+1202 1203
+1198 1204
+1204 1205
+1205 1206
+1204 1207
+1207 1208
+1208 1209
+0 1210
+0 1211
+1211 1212
+0 1213
+1213 1214
+1214 1215
+1215 1216
+
+See testcase #6 in BESBillingFactorCombinations.xlsx

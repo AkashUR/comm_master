@@ -1,0 +1,106 @@
+52
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (ConditionalExpr)
+7 condition (BinaryExpr)
+8 operator='NOT_EQUALS'
+9 left (NameExpr)
+10 name (SimpleName)
+11 identifier='classLdr'
+12 right (NullLiteralExpr)
+13 elseExpr (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='detectClassLoader'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='U'
+19 arguments
+20 argument (ClassExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='GridCacheDeploymentManager'
+24 thenExpr (NameExpr)
+25 name (SimpleName)
+26 identifier='classLdr'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (NameExpr)
+31 name (SimpleName)
+32 identifier='p2pExclude'
+33 value (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getPeerClassLoadingLocalClassPathExclude'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='gridConfig'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='cctx'
+42 name (SimpleName)
+43 identifier='CacheClassLoader'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='classLdr'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='ClassLoader'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+6 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+22 23
+6 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+28 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+
+Sets context class loader. If user's class loader is null then will be used default class loader.

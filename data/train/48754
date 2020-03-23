@@ -1,0 +1,308 @@
+153
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='ACTION_SEND'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='Intent'
+18 name (SimpleName)
+19 identifier='intent'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Intent'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setType'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='intent'
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='text/plain'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='putExtra'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='intent'
+40 arguments
+41 argument (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='EXTRA_EMAIL'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='Intent'
+47 argument (ArrayCreationExpr)
+48 elementType (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 initializer (ArrayInitializerExpr)
+52 values
+53 value (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='getString'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='context'
+59 arguments
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='feedback_email'
+63 scope (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='string'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='R'
+69 levels
+70 level (ArrayCreationLevel)
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='putExtra'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='intent'
+78 arguments
+79 argument (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='EXTRA_SUBJECT'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='Intent'
+85 argument (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getString'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='context'
+91 arguments
+92 argument (FieldAccessExpr)
+93 name (SimpleName)
+94 identifier='feedback_idea_subject'
+95 scope (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='string'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='R'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='putExtra'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='intent'
+108 arguments
+109 argument (FieldAccessExpr)
+110 name (SimpleName)
+111 identifier='EXTRA_TEXT'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='Intent'
+115 argument (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='getString'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='context'
+121 arguments
+122 argument (FieldAccessExpr)
+123 name (SimpleName)
+124 identifier='feedback_idea_message'
+125 scope (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='string'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='R'
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='sendIntent'
+135 arguments
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='context'
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='intent'
+142 type (VoidType)
+143 name (SimpleName)
+144 identifier='sendIdeaEmail'
+145 parameters
+146 parameter (Parameter)
+147 isVarArgs='false'
+148 name (SimpleName)
+149 identifier='context'
+150 type (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='Context'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+40 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+47 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+78 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+108 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+125 128
+128 129
+129 130
+2 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+137 138
+135 139
+139 140
+140 141
+0 142
+0 143
+143 144
+0 145
+145 146
+146 147
+146 148
+148 149
+146 150
+150 151
+151 152
+
+Sends a suggestion or idea in an email

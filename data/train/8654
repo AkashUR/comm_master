@@ -1,0 +1,486 @@
+242
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mArtistName'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='artistName'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='mClientKey'
+18 value (NameExpr)
+19 name (SimpleName)
+20 identifier='clientId'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='mIsClosed'
+27 value (BooleanLiteralExpr)
+28 value='false'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (NameExpr)
+33 name (SimpleName)
+34 identifier='mRequestSignatorInterceptor'
+35 value (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='RequestSignatorInterceptor'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='mClientKey'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (NameExpr)
+47 name (SimpleName)
+48 identifier='mHttpLoggingInterceptor'
+49 value (ObjectCreationExpr)
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='HttpLoggingInterceptor'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='setLevel'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='mHttpLoggingInterceptor'
+60 arguments
+61 argument (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='NONE'
+64 scope (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='Level'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='HttpLoggingInterceptor'
+70 statement (ExpressionStmt)
+71 expression (AssignExpr)
+72 operator='ASSIGN'
+73 target (NameExpr)
+74 name (SimpleName)
+75 identifier='mApplicationContext'
+76 value (ObjectCreationExpr)
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='WeakReference'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='applicationContext'
+84 statement (ExpressionStmt)
+85 expression (AssignExpr)
+86 operator='ASSIGN'
+87 target (NameExpr)
+88 name (SimpleName)
+89 identifier='mOffliner'
+90 value (ObjectCreationExpr)
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='Offliner'
+94 arguments
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='getContext'
+98 argument (BooleanLiteralExpr)
+99 value='false'
+100 statement (ExpressionStmt)
+101 expression (AssignExpr)
+102 operator='ASSIGN'
+103 target (NameExpr)
+104 name (SimpleName)
+105 identifier='mRetrofit'
+106 value (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='build'
+109 scope (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='client'
+112 scope (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='addCallAdapterFactory'
+115 scope (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='addConverterFactory'
+118 scope (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='addConverterFactory'
+121 scope (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='baseUrl'
+124 scope (ObjectCreationExpr)
+125 type (ClassOrInterfaceType)
+126 name (SimpleName)
+127 identifier='Builder'
+128 scope (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='Retrofit'
+131 arguments
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='SOUND_CLOUD_API'
+135 arguments
+136 argument (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='create'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='StringConverterFactory'
+142 arguments
+143 argument (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='create'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='GsonConverterFactory'
+149 arguments
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='create'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='RxJavaCallAdapterFactory'
+156 arguments
+157 argument (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='build'
+160 scope (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='addInterceptor'
+163 scope (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='addInterceptor'
+166 scope (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='addInterceptor'
+169 scope (ObjectCreationExpr)
+170 type (ClassOrInterfaceType)
+171 name (SimpleName)
+172 identifier='Builder'
+173 scope (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='OkHttpClient'
+176 arguments
+177 argument (NameExpr)
+178 name (SimpleName)
+179 identifier='mRequestSignatorInterceptor'
+180 arguments
+181 argument (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='getInterceptor'
+184 scope (NameExpr)
+185 name (SimpleName)
+186 identifier='mOffliner'
+187 arguments
+188 argument (NameExpr)
+189 name (SimpleName)
+190 identifier='mHttpLoggingInterceptor'
+191 statement (ExpressionStmt)
+192 expression (AssignExpr)
+193 operator='ASSIGN'
+194 target (NameExpr)
+195 name (SimpleName)
+196 identifier='mRetrofitService'
+197 value (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='create'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='mRetrofit'
+203 arguments
+204 argument (ClassExpr)
+205 type (ClassOrInterfaceType)
+206 name (SimpleName)
+207 identifier='RetrofitService'
+208 statement (ExpressionStmt)
+209 expression (AssignExpr)
+210 operator='ASSIGN'
+211 target (NameExpr)
+212 name (SimpleName)
+213 identifier='mCacheRam'
+214 value (ObjectCreationExpr)
+215 type (ClassOrInterfaceType)
+216 name (SimpleName)
+217 identifier='CacheRam'
+218 name (SimpleName)
+219 identifier='CheerleaderClient'
+220 parameters
+221 parameter (Parameter)
+222 isVarArgs='false'
+223 name (SimpleName)
+224 identifier='applicationContext'
+225 type (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='Context'
+228 parameter (Parameter)
+229 isVarArgs='false'
+230 name (SimpleName)
+231 identifier='clientId'
+232 type (ClassOrInterfaceType)
+233 name (SimpleName)
+234 identifier='String'
+235 parameter (Parameter)
+236 isVarArgs='false'
+237 name (SimpleName)
+238 identifier='artistName'
+239 type (ClassOrInterfaceType)
+240 name (SimpleName)
+241 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+44 49
+49 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+64 67
+67 68
+68 69
+2 70
+70 71
+71 72
+71 73
+73 74
+74 75
+71 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+82 83
+2 84
+84 85
+85 86
+85 87
+87 88
+88 89
+85 90
+90 91
+91 92
+92 93
+90 94
+94 95
+95 96
+96 97
+94 98
+98 99
+2 100
+100 101
+101 102
+101 103
+103 104
+104 105
+101 106
+106 107
+107 108
+106 109
+109 110
+110 111
+109 112
+112 113
+113 114
+112 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+122 123
+121 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+121 131
+131 132
+132 133
+133 134
+118 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+115 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+112 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+109 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+160 163
+163 164
+164 165
+163 166
+166 167
+167 168
+166 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+166 176
+176 177
+177 178
+178 179
+163 180
+180 181
+181 182
+182 183
+181 184
+184 185
+185 186
+160 187
+187 188
+188 189
+189 190
+2 191
+191 192
+192 193
+192 194
+194 195
+195 196
+192 197
+197 198
+198 199
+197 200
+200 201
+201 202
+197 203
+203 204
+204 205
+205 206
+206 207
+2 208
+208 209
+209 210
+209 211
+211 212
+212 213
+209 214
+214 215
+215 216
+216 217
+0 218
+218 219
+0 220
+220 221
+221 222
+221 223
+223 224
+221 225
+225 226
+226 227
+220 228
+228 229
+228 230
+230 231
+228 232
+232 233
+233 234
+220 235
+235 236
+235 237
+237 238
+235 239
+239 240
+240 241
+
+Singleton pattern.

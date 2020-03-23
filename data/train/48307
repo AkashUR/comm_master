@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mThreadId'
+9 value (NullLiteralExpr)
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='detachFromThread'
+13 annotations
+14 annotation (SingleMemberAnnotationExpr)
+15 memberValue (StringLiteralExpr)
+16 value='CHROMIUM_SYNCHRONIZED_METHOD'
+17 name (Name)
+18 identifier='SuppressFBWarnings'
+19 annotation (MarkerAnnotationExpr)
+20 name (Name)
+21 identifier='VisibleForTesting'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+0 10
+0 11
+11 12
+0 13
+13 14
+14 15
+15 16
+14 17
+17 18
+13 19
+19 20
+20 21
+
+Changes the thread that is checked for in CalledOnValidThread. This may be useful when an object may be created on one thread and then used exclusively on another thread.

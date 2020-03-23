@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='ABCDEFGHIJ'
+9 name (SimpleName)
+10 identifier='abcdefghij'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='substring'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='abcdefghij'
+24 arguments
+25 argument (IntegerLiteralExpr)
+26 value='2'
+27 argument (IntegerLiteralExpr)
+28 value='7'
+29 name (SimpleName)
+30 identifier='cdefg'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='assertSame'
+38 arguments
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getBackingArray'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='abcdefghij'
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getBackingArray'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='cdefg'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='testSubstringSharesBackingArray'
+56 thrownExceptions
+57 thrownException (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='IllegalAccessException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+24 27
+27 28
+17 29
+29 30
+17 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+38 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+58 59
+
+Tests a widely assumed performance characteristic of String.substring(): that it reuses the original's backing array. Although behaviour should be correct even if this test fails, many applications may suffer significant performance degradation.

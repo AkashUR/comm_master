@@ -1,0 +1,60 @@
+29
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='clearBeanInfoCache'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getContext'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='ThreadGroupContext'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='clear'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='declaredMethodCache'
+23 expression (NameExpr)
+24 name (SimpleName)
+25 identifier='declaredMethodCache'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='flushCaches'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+5 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+3 23
+23 24
+24 25
+0 26
+0 27
+27 28
+
+Flush all of the Introspector's internal caches.  This method is not normally required.  It is normally only needed by advanced tools that update existing "Class" objects in-place and need to make the Introspector re-analyze existing Class objects.

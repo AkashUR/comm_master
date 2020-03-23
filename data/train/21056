@@ -1,0 +1,22 @@
+10
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='requestCredentials'
+7 type (VoidType)
+8 name (SimpleName)
+9 identifier='loadCredentialsClicked'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+0 7
+0 8
+8 9
+
+Called when the Load Credentials button is clicked. Attempts to read the user's saved Credentials from the Credentials API.  This may show UX, such as a credential picker or an account picker. <b>Note:</b> in a normal application loading credentials should happen without explicit user action, this is only connected to a 'Load Credentials' button for easier demonstration in this sample.  Make sure not to load credentials automatically if the user has clicked a "sign out" button in your application in order to avoid a sign-in loop. You can do this with the function <code>Auth.CredentialsApi.disableAuthSignIn(...)</code>.

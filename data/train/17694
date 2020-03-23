@@ -1,0 +1,504 @@
+251
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='d'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Log'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='LOGTAG'
+14 argument (StringLiteralExpr)
+15 value='Creating new SQL database'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='execSQL'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='db'
+23 arguments
+24 argument (BinaryExpr)
+25 operator='PLUS'
+26 left (BinaryExpr)
+27 operator='PLUS'
+28 left (BinaryExpr)
+29 operator='PLUS'
+30 left (BinaryExpr)
+31 operator='PLUS'
+32 left (BinaryExpr)
+33 operator='PLUS'
+34 left (BinaryExpr)
+35 operator='PLUS'
+36 left (BinaryExpr)
+37 operator='PLUS'
+38 left (BinaryExpr)
+39 operator='PLUS'
+40 left (BinaryExpr)
+41 operator='PLUS'
+42 left (BinaryExpr)
+43 operator='PLUS'
+44 left (BinaryExpr)
+45 operator='PLUS'
+46 left (BinaryExpr)
+47 operator='PLUS'
+48 left (BinaryExpr)
+49 operator='PLUS'
+50 left (BinaryExpr)
+51 operator='PLUS'
+52 left (BinaryExpr)
+53 operator='PLUS'
+54 left (BinaryExpr)
+55 operator='PLUS'
+56 left (StringLiteralExpr)
+57 value='CREATE TABLE '
+58 right (NameExpr)
+59 name (SimpleName)
+60 identifier='ROLL_TABLE'
+61 right (StringLiteralExpr)
+62 value=' ( '
+63 right (NameExpr)
+64 name (SimpleName)
+65 identifier='COLUMN_PRIMARY'
+66 right (StringLiteralExpr)
+67 value=' INTEGER PRIMARY KEY,'
+68 right (NameExpr)
+69 name (SimpleName)
+70 identifier='ROLL_COLUMN_TIMESTAMP'
+71 right (StringLiteralExpr)
+72 value=' DATETIME,'
+73 right (NameExpr)
+74 name (SimpleName)
+75 identifier='ROLL_COLUMN_FIRST_SERIAL'
+76 right (StringLiteralExpr)
+77 value=' INTEGER,'
+78 right (NameExpr)
+79 name (SimpleName)
+80 identifier='ROLL_COLUMN_NUM_IMAGES'
+81 right (StringLiteralExpr)
+82 value=' INTEGER,'
+83 right (NameExpr)
+84 name (SimpleName)
+85 identifier='ROLL_COLUMN_FORMAT'
+86 right (StringLiteralExpr)
+87 value=' VARCHAR(8),'
+88 right (NameExpr)
+89 name (SimpleName)
+90 identifier='ROLL_COLUMN_CAPTURE_MODE'
+91 right (StringLiteralExpr)
+92 value=' VARCHAR(16),'
+93 right (NameExpr)
+94 name (SimpleName)
+95 identifier='ROLL_COLUMN_CAPTURE_PARAMS'
+96 right (StringLiteralExpr)
+97 value=' VARCHAR(128))'
+98 statement (ExpressionStmt)
+99 expression (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='execSQL'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='db'
+105 arguments
+106 argument (BinaryExpr)
+107 operator='PLUS'
+108 left (BinaryExpr)
+109 operator='PLUS'
+110 left (BinaryExpr)
+111 operator='PLUS'
+112 left (BinaryExpr)
+113 operator='PLUS'
+114 left (BinaryExpr)
+115 operator='PLUS'
+116 left (BinaryExpr)
+117 operator='PLUS'
+118 left (BinaryExpr)
+119 operator='PLUS'
+120 left (BinaryExpr)
+121 operator='PLUS'
+122 left (StringLiteralExpr)
+123 value='CREATE TABLE '
+124 right (NameExpr)
+125 name (SimpleName)
+126 identifier='EXPORT_TABLE'
+127 right (StringLiteralExpr)
+128 value=' ( '
+129 right (NameExpr)
+130 name (SimpleName)
+131 identifier='COLUMN_PRIMARY'
+132 right (StringLiteralExpr)
+133 value=' INTEGER PRIMARY KEY,'
+134 right (NameExpr)
+135 name (SimpleName)
+136 identifier='EXPORT_COLUMN_ROLL'
+137 right (StringLiteralExpr)
+138 value=' INTEGER,'
+139 right (NameExpr)
+140 name (SimpleName)
+141 identifier='EXPORT_COLUMN_IMAGE'
+142 right (StringLiteralExpr)
+143 value=' INTEGER)'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='execSQL'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='db'
+151 arguments
+152 argument (BinaryExpr)
+153 operator='PLUS'
+154 left (BinaryExpr)
+155 operator='PLUS'
+156 left (BinaryExpr)
+157 operator='PLUS'
+158 left (BinaryExpr)
+159 operator='PLUS'
+160 left (BinaryExpr)
+161 operator='PLUS'
+162 left (BinaryExpr)
+163 operator='PLUS'
+164 left (BinaryExpr)
+165 operator='PLUS'
+166 left (BinaryExpr)
+167 operator='PLUS'
+168 left (StringLiteralExpr)
+169 value='CREATE TABLE '
+170 right (NameExpr)
+171 name (SimpleName)
+172 identifier='SETTINGS_TABLE'
+173 right (StringLiteralExpr)
+174 value=' ( '
+175 right (NameExpr)
+176 name (SimpleName)
+177 identifier='COLUMN_PRIMARY'
+178 right (StringLiteralExpr)
+179 value=' INTEGER PRIMARY KEY,'
+180 right (NameExpr)
+181 name (SimpleName)
+182 identifier='SETTINGS_COLUMN_KEY'
+183 right (StringLiteralExpr)
+184 value=' VARCHAR(128),'
+185 right (NameExpr)
+186 name (SimpleName)
+187 identifier='SETTINGS_COLUMN_VALUE'
+188 right (StringLiteralExpr)
+189 value=' TEXT)'
+190 statement (ExpressionStmt)
+191 expression (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='execSQL'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='db'
+197 arguments
+198 argument (BinaryExpr)
+199 operator='PLUS'
+200 left (BinaryExpr)
+201 operator='PLUS'
+202 left (BinaryExpr)
+203 operator='PLUS'
+204 left (BinaryExpr)
+205 operator='PLUS'
+206 left (BinaryExpr)
+207 operator='PLUS'
+208 left (BinaryExpr)
+209 operator='PLUS'
+210 left (BinaryExpr)
+211 operator='PLUS'
+212 left (BinaryExpr)
+213 operator='PLUS'
+214 left (StringLiteralExpr)
+215 value='INSERT INTO '
+216 right (NameExpr)
+217 name (SimpleName)
+218 identifier='SETTINGS_TABLE'
+219 right (StringLiteralExpr)
+220 value=' ('
+221 right (NameExpr)
+222 name (SimpleName)
+223 identifier='SETTINGS_COLUMN_KEY'
+224 right (StringLiteralExpr)
+225 value=','
+226 right (NameExpr)
+227 name (SimpleName)
+228 identifier='SETTINGS_COLUMN_VALUE'
+229 right (StringLiteralExpr)
+230 value=') VALUES (\'db_version\',\''
+231 right (NameExpr)
+232 name (SimpleName)
+233 identifier='DB_VERSION'
+234 right (StringLiteralExpr)
+235 value='\')'
+236 type (VoidType)
+237 name (SimpleName)
+238 identifier='onCreate'
+239 parameters
+240 parameter (Parameter)
+241 isVarArgs='false'
+242 name (SimpleName)
+243 identifier='db'
+244 type (ClassOrInterfaceType)
+245 name (SimpleName)
+246 identifier='SQLiteDatabase'
+247 annotations
+248 annotation (MarkerAnnotationExpr)
+249 name (Name)
+250 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+24 26
+26 27
+26 28
+28 29
+28 30
+30 31
+30 32
+32 33
+32 34
+34 35
+34 36
+36 37
+36 38
+38 39
+38 40
+40 41
+40 42
+42 43
+42 44
+44 45
+44 46
+46 47
+46 48
+48 49
+48 50
+50 51
+50 52
+52 53
+52 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+52 61
+61 62
+50 63
+63 64
+64 65
+48 66
+66 67
+46 68
+68 69
+69 70
+44 71
+71 72
+42 73
+73 74
+74 75
+40 76
+76 77
+38 78
+78 79
+79 80
+36 81
+81 82
+34 83
+83 84
+84 85
+32 86
+86 87
+30 88
+88 89
+89 90
+28 91
+91 92
+26 93
+93 94
+94 95
+24 96
+96 97
+2 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+106 108
+108 109
+108 110
+110 111
+110 112
+112 113
+112 114
+114 115
+114 116
+116 117
+116 118
+118 119
+118 120
+120 121
+120 122
+122 123
+120 124
+124 125
+125 126
+118 127
+127 128
+116 129
+129 130
+130 131
+114 132
+132 133
+112 134
+134 135
+135 136
+110 137
+137 138
+108 139
+139 140
+140 141
+106 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+145 151
+151 152
+152 153
+152 154
+154 155
+154 156
+156 157
+156 158
+158 159
+158 160
+160 161
+160 162
+162 163
+162 164
+164 165
+164 166
+166 167
+166 168
+168 169
+166 170
+170 171
+171 172
+164 173
+173 174
+162 175
+175 176
+176 177
+160 178
+178 179
+158 180
+180 181
+181 182
+156 183
+183 184
+154 185
+185 186
+186 187
+152 188
+188 189
+2 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+191 197
+197 198
+198 199
+198 200
+200 201
+200 202
+202 203
+202 204
+204 205
+204 206
+206 207
+206 208
+208 209
+208 210
+210 211
+210 212
+212 213
+212 214
+214 215
+212 216
+216 217
+217 218
+210 219
+219 220
+208 221
+221 222
+222 223
+206 224
+224 225
+204 226
+226 227
+227 228
+202 229
+229 230
+200 231
+231 232
+232 233
+198 234
+234 235
+0 236
+0 237
+237 238
+0 239
+239 240
+240 241
+240 242
+242 243
+240 244
+244 245
+245 246
+0 247
+247 248
+248 249
+249 250
+
+Callback when the database is created the first time. <p> This function is invoked automatically if there is no database present and a new one should be created. </p>

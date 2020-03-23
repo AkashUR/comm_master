@@ -1,0 +1,80 @@
+39
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='initPipe'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='pipeSize'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='connect'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='src'
+19 name (SimpleName)
+20 identifier='PipedInputStream'
+21 parameters
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='src'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='PipedOutputStream'
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='pipeSize'
+33 type (PrimitiveType)
+34 type='INT'
+35 thrownExceptions
+36 thrownException (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+0 19
+19 20
+0 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+21 29
+29 30
+29 31
+31 32
+29 33
+33 34
+0 35
+35 36
+36 37
+37 38
+
+Creates a <code>PipedInputStream</code> so that it is connected to the piped output stream <code>src</code> and uses the specified pipe size for the pipe's buffer. Data bytes written to <code>src</code> will then be available as input from this stream.

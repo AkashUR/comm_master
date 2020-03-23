@@ -1,0 +1,238 @@
+118
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='handleResults'
+7 arguments
+8 argument (ObjectCreationExpr)
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='CrashedDummyResult'
+12 arguments
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='mCurrentlyRunningTest'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='w'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='Log'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='LOG_TAG'
+27 argument (BinaryExpr)
+28 operator='PLUS'
+29 left (BinaryExpr)
+30 operator='PLUS'
+31 left (BinaryExpr)
+32 operator='PLUS'
+33 left (BinaryExpr)
+34 operator='PLUS'
+35 left (StringLiteralExpr)
+36 value='onTestCrashed(): '
+37 right (NameExpr)
+38 name (SimpleName)
+39 identifier='mCurrentlyRunningTest'
+40 right (StringLiteralExpr)
+41 value=' ('
+42 right (NameExpr)
+43 name (SimpleName)
+44 identifier='mCurrentlyRunningTestIndex'
+45 right (StringLiteralExpr)
+46 value=')'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (ObjectCreationExpr)
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Intent'
+55 arguments
+56 argument (ThisExpr)
+57 argument (ClassExpr)
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='TestsListActivity'
+61 name (SimpleName)
+62 identifier='intent'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Intent'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='setAction'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='intent'
+73 arguments
+74 argument (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='ACTION_REBOOT'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='Intent'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='addFlags'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='intent'
+87 arguments
+88 argument (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='FLAG_ACTIVITY_NEW_TASK'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='Intent'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='putExtra'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='intent'
+101 arguments
+102 argument (StringLiteralExpr)
+103 value='crashedTestIndex'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='mCurrentlyRunningTestIndex'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='startActivity'
+111 arguments
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='intent'
+115 type (VoidType)
+116 name (SimpleName)
+117 identifier='onTestCrashed'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+23 27
+27 28
+27 29
+29 30
+29 31
+31 32
+31 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+31 40
+40 41
+29 42
+42 43
+43 44
+27 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+51 55
+55 56
+55 57
+57 58
+58 59
+59 60
+50 61
+61 62
+50 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+67 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+101 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+113 114
+0 115
+0 116
+116 117
+
+This sends an intent to TestsListActivity to restart LayoutTestsExecutor. The more detailed description of the flow is in the comment of onNewIntent method in TestsListActivity.

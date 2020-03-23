@@ -1,0 +1,148 @@
+73
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='messageListener'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='retryTemplate'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='recoveryCallback'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='notNull'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='Assert'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='messageListener'
+26 argument (StringLiteralExpr)
+27 value='\'messageListener\' cannot be null'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='delegate'
+34 scope (ThisExpr)
+35 value (NameExpr)
+36 name (SimpleName)
+37 identifier='messageListener'
+38 name (SimpleName)
+39 identifier='RetryingAcknowledgingMessageListenerAdapter'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='messageListener'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='AcknowledgingMessageListener'
+48 typeArguments
+49 typeArgument (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='K'
+52 typeArgument (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='V'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='retryTemplate'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='RetryTemplate'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='recoveryCallback'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='RecoveryCallback'
+69 typeArguments
+70 typeArgument (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Void'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+24 25
+22 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+31 34
+29 35
+35 36
+36 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+40 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+40 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+
+Construct an instance with the provided template, callback and delegate.

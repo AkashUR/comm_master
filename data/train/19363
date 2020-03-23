@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='visitReferenceExpression'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='expression'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='PsiReferenceExpression'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+
+PsiReferenceExpression is PsiReferenceElement and PsiExpression at the same time. If we'd call both visitReferenceElement and visitExpression in default implementation of this method we can easily stuck with exponential algorithm if the derived visitor extends visitElement() and accepts children there. PsiRecursiveElement visitor works that around and implements this method accordingly. All other visitor must decide themselves what implementation (visitReferenceElement() or visitExpression() or none or LOG.error()) is appropriate for them.

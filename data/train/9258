@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (ArrayAccessExpr)
+7 index (NameExpr)
+8 name (SimpleName)
+9 identifier='id'
+10 name (NameExpr)
+11 name (SimpleName)
+12 identifier='specializedScans'
+13 value (NameExpr)
+14 name (SimpleName)
+15 identifier='specializedScanClass'
+16 type (VoidType)
+17 name (SimpleName)
+18 identifier='registerSpecializedScan'
+19 parameters
+20 parameter (Parameter)
+21 isVarArgs='false'
+22 name (SimpleName)
+23 identifier='id'
+24 type (PrimitiveType)
+25 type='INT'
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='specializedScanClass'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='Class'
+33 typeArguments
+34 typeArgument (WildcardType)
+35 annotations
+36 annotation (MarkerAnnotationExpr)
+37 name (Name)
+38 identifier='Interruptible'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+8 9
+6 10
+10 11
+11 12
+4 13
+13 14
+14 15
+0 16
+0 17
+17 18
+0 19
+19 20
+20 21
+20 22
+22 23
+20 24
+24 25
+19 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+30 33
+33 34
+0 35
+35 36
+36 37
+37 38
+
+A transitive closure has been created that is designed to work with a specialized scan method. We must register it here so the specializer can return the class when queried.

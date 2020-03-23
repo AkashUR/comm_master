@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkCursor'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='setDeleted'
+11 scope (EnclosedExpr)
+12 inner (CastExpr)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getCurrentRow'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Row'
+19 statement (ExpressionStmt)
+20 expression (UnaryExpr)
+21 operator='PREFIX_INCREMENT'
+22 expression (NameExpr)
+23 name (SimpleName)
+24 identifier='numDeleted'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='notifyRowChanged'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='deleteRow'
+32 thrownExceptions
+33 thrownException (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+34 35
+
+Deletes the current row from this <code>CachedRowSetImpl</code> object and notifies listeners registered with this rowset that a row has changed. This method cannot be called when the cursor is on the insert row. <P> This method marks the current row as deleted, but it does not delete the row from the underlying data source.  The method <code>acceptChanges</code> must be called to delete the row in the data source.

@@ -1,0 +1,72 @@
+35
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addAll'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='unnamedParams'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='collect'
+14 scope (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='filter'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='stream'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='rawArgs'
+23 arguments
+24 argument (NullLiteralExpr)
+25 arguments
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='toList'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='Collectors'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='computeUnnamedParams'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+14 23
+23 24
+11 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+0 32
+0 33
+33 34
+
+This method computes the list of unnamed parameters, by filtering the list of raw arguments, stripping out the named parameters.

@@ -1,0 +1,162 @@
+80
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='LongAdder'
+11 name (SimpleName)
+12 identifier='counter'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='LongAdder'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='current'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='ThreadLocalRandom'
+26 name (SimpleName)
+27 identifier='r'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='ThreadLocalRandom'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (IntegerLiteralExpr)
+36 value='100'
+37 name (SimpleName)
+38 identifier='size'
+39 type (PrimitiveType)
+40 type='LONG'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='forEach'
+45 scope (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='parallel'
+48 scope (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='limit'
+51 scope (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='ints'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='r'
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='size'
+61 arguments
+62 argument (NullLiteralExpr)
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='assertEquals'
+67 arguments
+68 argument (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='sum'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='counter'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='size'
+77 type (VoidType)
+78 name (SimpleName)
+79 identifier='testUnsizedIntsCount'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+19 26
+26 27
+19 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+34 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+48 57
+57 58
+58 59
+59 60
+42 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+67 74
+74 75
+75 76
+0 77
+0 78
+78 79
+
+A parallel unsized stream of ints generates at least 100 values

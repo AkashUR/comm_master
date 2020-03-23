@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mFReal'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='FormatReal'
+13 arguments
+14 argument (IntegerLiteralExpr)
+15 value='2'
+16 argument (IntegerLiteralExpr)
+17 value='2'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (NameExpr)
+22 name (SimpleName)
+23 identifier='mStr'
+24 value (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='toString'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='format'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='mFReal'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='mStrBuff'
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='POSITIVE_INFINITY'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='Float'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='assertEquals'
+47 arguments
+48 argument (StringLiteralExpr)
+49 value='Should be Infinity'
+50 argument (StringLiteralExpr)
+51 value='#Infinity#'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='mStr'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='testFormatInfinityDP'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+13 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+47 52
+52 53
+53 54
+0 55
+0 56
+56 57
+
+Tests format method with Pos/Neg Infinities Is Infinity argument legal?

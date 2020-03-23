@@ -1,0 +1,68 @@
+33
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='broken'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='generation'
+12 value (BooleanLiteralExpr)
+13 value='true'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (NameExpr)
+18 name (SimpleName)
+19 identifier='count'
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='parties'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='signalAll'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='trip'
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='breakBarrier'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+0 30
+0 31
+31 32
+
+Sets current barrier generation as broken and wakes up everyone. Called only while holding lock.

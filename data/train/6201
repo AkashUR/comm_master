@@ -1,0 +1,180 @@
+89
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='log'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getRoot'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='LogService'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='FINE'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Level'
+20 argument (StringLiteralExpr)
+21 value='com.rapidminer.example.set.Partition.creating_new_partition_using'
+22 argument (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getName'
+25 scope (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getClass'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='builder'
+31 statement (ExpressionStmt)
+32 expression (AssignExpr)
+33 operator='ASSIGN'
+34 target (NameExpr)
+35 name (SimpleName)
+36 identifier='elements'
+37 value (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='createPartition'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='builder'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='ratio'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='size'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='init'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='elements'
+58 argument (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='length'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='ratio'
+64 type (VoidType)
+65 name (SimpleName)
+66 identifier='init'
+67 parameters
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='ratio'
+72 type (ArrayType)
+73 origin='TYPE'
+74 componentType (PrimitiveType)
+75 type='DOUBLE'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='size'
+80 type (PrimitiveType)
+81 type='INT'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='builder'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='PartitionBuilder'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+13 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+2 31
+31 32
+32 33
+32 34
+34 35
+35 36
+32 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+58 61
+61 62
+62 63
+0 64
+0 65
+65 66
+0 67
+67 68
+68 69
+68 70
+70 71
+68 72
+72 73
+72 74
+74 75
+67 76
+76 77
+76 78
+78 79
+76 80
+80 81
+67 82
+82 83
+82 84
+84 85
+82 86
+86 87
+87 88
+
+Creates a partition from the given ratios. The partition builder is used for creation.

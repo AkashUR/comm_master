@@ -1,0 +1,194 @@
+96
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createRegisterRequestIntent'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='mApplicationContext'
+14 argument (BooleanLiteralExpr)
+15 value='false'
+16 name (SimpleName)
+17 identifier='registerIntent'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Intent'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getService'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='PendingIntent'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='mApplicationContext'
+35 argument (IntegerLiteralExpr)
+36 value='0'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='registerIntent'
+40 argument (IntegerLiteralExpr)
+41 value='0'
+42 name (SimpleName)
+43 identifier='pIntent'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='PendingIntent'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (CastExpr)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getSystemService'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='mApplicationContext'
+58 arguments
+59 argument (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='ALARM_SERVICE'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='Context'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='AlarmManager'
+68 name (SimpleName)
+69 identifier='am'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='AlarmManager'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='setAlarm'
+77 arguments
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='am'
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='pIntent'
+84 argument (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='RTC'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='AlarmManager'
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='mTimestampForNewRequest'
+93 type (VoidType)
+94 name (SimpleName)
+95 identifier='scheduleRepeatingAlarm'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+31 35
+35 36
+31 37
+37 38
+38 39
+31 40
+40 41
+24 42
+42 43
+24 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+51 65
+65 66
+66 67
+50 68
+68 69
+50 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+79 80
+77 81
+81 82
+82 83
+77 84
+84 85
+85 86
+84 87
+87 88
+88 89
+77 90
+90 91
+91 92
+0 93
+0 94
+94 95
+
+Sets a repeating alarm that fires request registration Intents. Setting the alarm overwrites whatever alarm is already there, and rebooting clears whatever alarms are currently set.

@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='grow'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='PLUS'
+10 left (NameExpr)
+11 name (SimpleName)
+12 identifier='bucketOrd'
+13 right (IntegerLiteralExpr)
+14 value='1'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='collectExistingBucket'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='subCollector'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='doc'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='bucketOrd'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='collectBucket'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='subCollector'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='LeafBucketCollector'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='doc'
+44 type (PrimitiveType)
+45 type='INT'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='bucketOrd'
+50 type (PrimitiveType)
+51 type='LONG'
+52 thrownExceptions
+53 thrownException (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+19 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+32 40
+40 41
+40 42
+42 43
+40 44
+44 45
+32 46
+46 47
+46 48
+48 49
+46 50
+50 51
+0 52
+52 53
+53 54
+54 55
+
+Utility method to collect the given doc in the given bucket (identified by the bucket ordinal)

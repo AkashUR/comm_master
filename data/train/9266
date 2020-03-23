@@ -1,0 +1,288 @@
+143
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='HashMap'
+11 typeArguments
+12 typeArgument (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='String'
+15 typeArgument (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='String'
+18 name (SimpleName)
+19 identifier='queryParams'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Map'
+23 typeArguments
+24 typeArgument (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='String'
+27 typeArgument (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='String'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='invokeAPI'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='client'
+40 arguments
+41 argument (StringLiteralExpr)
+42 value='/mockResponses/complexResponseWithExample'
+43 argument (StringLiteralExpr)
+44 value='GET'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='queryParams'
+48 argument (NullLiteralExpr)
+49 argument (ObjectCreationExpr)
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='HashMap'
+53 typeArguments
+54 typeArgument (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+57 typeArgument (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 argument (NullLiteralExpr)
+61 argument (StringLiteralExpr)
+62 value='application/json'
+63 argument (NullLiteralExpr)
+64 argument (ArrayCreationExpr)
+65 elementType (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='String'
+68 levels
+69 level (ArrayCreationLevel)
+70 dimension (IntegerLiteralExpr)
+71 value='0'
+72 name (SimpleName)
+73 identifier='str'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='String'
+77 statement (ExpressionStmt)
+78 expression (VariableDeclarationExpr)
+79 variables
+80 variable (VariableDeclarator)
+81 initializer (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='configure'
+84 scope (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='mapper'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='Json'
+90 arguments
+91 argument (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='ORDER_MAP_ENTRIES_BY_KEYS'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='SerializationFeature'
+97 argument (BooleanLiteralExpr)
+98 value='true'
+99 name (SimpleName)
+100 identifier='mapper'
+101 type (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='ObjectMapper'
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='assertEquals'
+108 arguments
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='readValue'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='mapper'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='str'
+119 argument (ClassExpr)
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='JsonNode'
+123 argument (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='readValue'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='mapper'
+129 arguments
+130 argument (StringLiteralExpr)
+131 value='{\n  \"foo\":\"bar\"\n}\n'
+132 argument (ClassExpr)
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='JsonNode'
+136 type (VoidType)
+137 name (SimpleName)
+138 identifier='verifyGetComplexResponseWithExample'
+139 thrownExceptions
+140 thrownException (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+40 43
+43 44
+40 45
+45 46
+46 47
+40 48
+40 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+55 56
+53 57
+57 58
+58 59
+40 60
+40 61
+61 62
+40 63
+40 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+70 71
+33 72
+72 73
+33 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+84 87
+87 88
+88 89
+81 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+90 97
+97 98
+80 99
+99 100
+80 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+115 119
+119 120
+120 121
+121 122
+108 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+129 132
+132 133
+133 134
+134 135
+0 136
+0 137
+137 138
+0 139
+139 140
+140 141
+141 142
+
+verifies that the return value uses the schema example

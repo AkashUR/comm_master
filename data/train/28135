@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='elements'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='x'
+13 name (SimpleName)
+14 identifier='elements'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Enumeration'
+18 statement (WhileStmt)
+19 body (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='put'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='nextElement'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='elements'
+30 condition (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='hasMoreElements'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='elements'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='union'
+39 parameters
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='x'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='Set'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+18 30
+30 31
+31 32
+30 33
+33 34
+34 35
+0 36
+0 37
+37 38
+0 39
+39 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+
+Destructively modify this so that it becomes the union of itself with x.  We iterate over the elements in x, adding to this any that are not in x.

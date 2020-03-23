@@ -1,0 +1,94 @@
+46
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='ip'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='invalidIP'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='set'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getGPRs'
+19 arguments
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='value'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='FRAME_POINTER'
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='toWord'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getCallerFramePointer'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='Magic'
+35 arguments
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getInnermostFramePointer'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='unwindStackFrame'
+42 annotations
+43 annotation (MarkerAnnotationExpr)
+44 name (Name)
+45 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+19 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+44 45
+
+Update the machine state to unwind the deepest stackframe.

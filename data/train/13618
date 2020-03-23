@@ -1,0 +1,136 @@
+67
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkArgument'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Assertions'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='EQUALS'
+13 left (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='length'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='buffer'
+19 right (NameExpr)
+20 name (SimpleName)
+21 identifier='bufferLength'
+22 statement (ExpressionStmt)
+23 expression (UnaryExpr)
+24 operator='POSTFIX_DECREMENT'
+25 expression (NameExpr)
+26 name (SimpleName)
+27 identifier='allocatedBufferCount'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='ensureRecycledBufferCapacity'
+32 arguments
+33 argument (BinaryExpr)
+34 operator='PLUS'
+35 left (NameExpr)
+36 name (SimpleName)
+37 identifier='recycledBufferCount'
+38 right (IntegerLiteralExpr)
+39 value='1'
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='ASSIGN'
+43 target (ArrayAccessExpr)
+44 index (UnaryExpr)
+45 operator='POSTFIX_INCREMENT'
+46 expression (NameExpr)
+47 name (SimpleName)
+48 identifier='recycledBufferCount'
+49 name (NameExpr)
+50 name (SimpleName)
+51 identifier='recycledBuffers'
+52 value (NameExpr)
+53 name (SimpleName)
+54 identifier='buffer'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='releaseDirect'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='buffer'
+63 type (ArrayType)
+64 origin='TYPE'
+65 componentType (PrimitiveType)
+66 type='BYTE'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+13 16
+16 17
+17 18
+11 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+2 40
+40 41
+41 42
+41 43
+43 44
+44 45
+44 46
+46 47
+47 48
+43 49
+49 50
+50 51
+41 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+63 65
+65 66
+
+Return a single buffer to the pool.

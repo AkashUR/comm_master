@@ -1,0 +1,50 @@
+24
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rollback'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='conn'
+10 statement (ExpressionStmt)
+11 expression (AssignExpr)
+12 operator='ASSIGN'
+13 target (NameExpr)
+14 name (SimpleName)
+15 identifier='rs'
+16 value (NullLiteralExpr)
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='rollback'
+20 thrownExceptions
+21 thrownException (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+22 23
+
+Rolls back all the updates in this <code>JdbcRowSet</code> object by wrapping the internal <code>Connection</code> object and calling its <code>rollback</code> method. This method sets this <code>JdbcRowSet</code> object's private field <code>rs</code> to <code>null</code> after saving its value to another object. (The field <code>rs</code> is this <code>JdbcRowSet</code> object's internal <code>ResultSet</code> object.)

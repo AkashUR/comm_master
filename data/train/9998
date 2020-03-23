@@ -1,0 +1,144 @@
+71
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='s'
+9 statement (ExpressionStmt)
+10 expression (VariableDeclarationExpr)
+11 variables
+12 variable (VariableDeclarator)
+13 name (SimpleName)
+14 identifier='coords'
+15 type (ArrayType)
+16 origin='NAME'
+17 componentType (PrimitiveType)
+18 type='INT'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (NameExpr)
+23 name (SimpleName)
+24 identifier='coords'
+25 value (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getCsvInts'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='s'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='LOCATION_S'
+35 argument (IntegerLiteralExpr)
+36 value='2'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='loc'
+43 scope (ThisExpr)
+44 value (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Coord'
+48 arguments
+49 argument (ArrayAccessExpr)
+50 index (IntegerLiteralExpr)
+51 value='0'
+52 name (NameExpr)
+53 name (SimpleName)
+54 identifier='coords'
+55 argument (ArrayAccessExpr)
+56 index (IntegerLiteralExpr)
+57 value='1'
+58 name (NameExpr)
+59 name (SimpleName)
+60 identifier='coords'
+61 name (SimpleName)
+62 identifier='StationaryMovement'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='s'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Settings'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+12 13
+13 14
+12 15
+15 16
+15 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+31 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+40 43
+38 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+48 55
+55 56
+56 57
+55 58
+58 59
+59 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+
+Creates a new movement model based on a Settings object's settings.

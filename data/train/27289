@@ -1,0 +1,228 @@
+113
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='acquire'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='mWakeLock'
+13 statement (ExpressionStmt)
+14 expression (UnaryExpr)
+15 operator='POSTFIX_INCREMENT'
+16 expression (NameExpr)
+17 name (SimpleName)
+18 identifier='mRequestMessagesPending'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='removeMessages'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='mSender'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='EVENT_WAKE_LOCK_TIMEOUT'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='obtainMessage'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='mSender'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='EVENT_WAKE_LOCK_TIMEOUT'
+44 name (SimpleName)
+45 identifier='msg'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Message'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='sendMessageDelayed'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='mSender'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='msg'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='mWakeLockTimeout'
+63 expression (NameExpr)
+64 name (SimpleName)
+65 identifier='mWakeLock'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='acquireWakeLock'
+69 annotations
+70 annotation (SingleMemberAnnotationExpr)
+71 memberValue (StringLiteralExpr)
+72 value='Private Method'
+73 name (Name)
+74 identifier='DSComment'
+75 annotation (SingleMemberAnnotationExpr)
+76 memberValue (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='PRIVATE_METHOD'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='DSCat'
+82 name (Name)
+83 identifier='DSBan'
+84 annotation (NormalAnnotationExpr)
+85 name (Name)
+86 identifier='DSGenerator'
+87 pairs
+88 pair (MemberValuePair)
+89 name (SimpleName)
+90 identifier='tool_name'
+91 value (StringLiteralExpr)
+92 value='Doppelganger'
+93 pair (MemberValuePair)
+94 name (SimpleName)
+95 identifier='tool_version'
+96 value (StringLiteralExpr)
+97 value='2.0'
+98 pair (MemberValuePair)
+99 name (SimpleName)
+100 identifier='generated_on'
+101 value (StringLiteralExpr)
+102 value='2013-12-30 12:59:14.410 -0500'
+103 pair (MemberValuePair)
+104 name (SimpleName)
+105 identifier='hash_original_method'
+106 value (StringLiteralExpr)
+107 value='80B68145386C06F39CF9C77A11CB4F6E'
+108 pair (MemberValuePair)
+109 name (SimpleName)
+110 identifier='hash_generated_method'
+111 value (StringLiteralExpr)
+112 value='8224FCD3C213FD53AFC8DB9EB6ED1691'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+5 13
+13 14
+14 15
+14 16
+16 17
+17 18
+5 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+5 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+42 43
+33 44
+44 45
+33 46
+46 47
+47 48
+5 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+3 63
+63 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+71 72
+70 73
+73 74
+69 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+75 82
+82 83
+69 84
+84 85
+85 86
+84 87
+87 88
+88 89
+89 90
+88 91
+91 92
+87 93
+93 94
+94 95
+93 96
+96 97
+87 98
+98 99
+99 100
+98 101
+101 102
+87 103
+103 104
+104 105
+103 106
+106 107
+87 108
+108 109
+109 110
+108 111
+111 112
+
+Holds a PARTIAL_WAKE_LOCK whenever a) There is outstanding RIL request sent to RIL deamon and no replied b) There is a request pending to be sent out. There is a WAKE_LOCK_TIMEOUT to release the lock, though it shouldn't happen often.

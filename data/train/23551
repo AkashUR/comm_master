@@ -1,0 +1,88 @@
+43
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='wrapContentAgain'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='subTreeRoot'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='relayoutAllNodes'
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='UNSPECIFIED'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='MeasureSpec'
+20 argument (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='UNSPECIFIED'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='MeasureSpec'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='wrapContentAgain'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='subTreeRoot'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='ViewGroup'
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='relayoutAllNodes'
+41 type (PrimitiveType)
+42 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+14 17
+17 18
+18 19
+7 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+29 37
+37 38
+37 39
+39 40
+37 41
+41 42
+
+Same but allows re-layout of all views, not only those with "wrap_content". Necessary for "center", "right", "bottom",...

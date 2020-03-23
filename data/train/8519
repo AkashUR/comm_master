@@ -1,0 +1,62 @@
+30
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (UnaryExpr)
+8 operator='POSTFIX_INCREMENT'
+9 expression (NameExpr)
+10 name (SimpleName)
+11 identifier='refreshDefer'
+12 expression (NameExpr)
+13 name (SimpleName)
+14 identifier='refreshLock'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='onBeforeUpdatePendingChanges'
+18 parameters
+19 parameter (Parameter)
+20 isVarArgs='false'
+21 name (SimpleName)
+22 identifier='event'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='PendingChangeCacheEvent'
+26 annotations
+27 annotation (MarkerAnnotationExpr)
+28 name (Name)
+29 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+3 12
+12 13
+13 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+19 21
+21 22
+19 23
+23 24
+24 25
+0 26
+26 27
+27 28
+28 29
+
+Hook to batch up pending change notifications - we don't notify the LabelDecorator of changes until onAfterUpdatePendingChanges...

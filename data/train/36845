@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='writeByteDirect'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='PROTOCOL_ID'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='writeByteDirect'
+15 arguments
+16 argument (BinaryExpr)
+17 operator='BINARY_OR'
+18 left (EnclosedExpr)
+19 inner (BinaryExpr)
+20 operator='BINARY_AND'
+21 left (NameExpr)
+22 name (SimpleName)
+23 identifier='VERSION'
+24 right (NameExpr)
+25 name (SimpleName)
+26 identifier='VERSION_MASK'
+27 right (EnclosedExpr)
+28 inner (BinaryExpr)
+29 operator='BINARY_AND'
+30 left (EnclosedExpr)
+31 inner (BinaryExpr)
+32 operator='LEFT_SHIFT'
+33 left (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='type'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='message'
+39 right (NameExpr)
+40 name (SimpleName)
+41 identifier='TYPE_SHIFT_AMOUNT'
+42 right (NameExpr)
+43 name (SimpleName)
+44 identifier='TYPE_MASK'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='writeVarint32'
+49 arguments
+50 argument (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='seqid'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='message'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='writeString'
+60 arguments
+61 argument (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='name'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='message'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='writeMessageBegin'
+70 parameters
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='message'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='TMessage'
+78 thrownExceptions
+79 thrownException (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='TException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+16 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+25 26
+16 27
+27 28
+28 29
+28 30
+30 31
+31 32
+31 33
+33 34
+34 35
+33 36
+36 37
+37 38
+31 39
+39 40
+40 41
+28 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+0 78
+78 79
+79 80
+80 81
+
+Write a message header to the wire. Compact Protocol messages contain the protocol version so we can migrate forwards in the future if need be.

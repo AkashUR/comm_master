@@ -1,0 +1,260 @@
+129
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='resourceName'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='String'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (NullLiteralExpr)
+17 name (SimpleName)
+18 identifier='platform'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='String'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (StringLiteralExpr)
+27 value='so'
+28 name (SimpleName)
+29 identifier='fileExtension'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='String'
+33 statement (SwitchStmt)
+34 selector (NameExpr)
+35 name (SimpleName)
+36 identifier='osArch'
+37 entries
+38 entrie (SwitchEntryStmt)
+39 label (StringLiteralExpr)
+40 value='amd64'
+41 entrie (SwitchEntryStmt)
+42 label (StringLiteralExpr)
+43 value='x86_64'
+44 statements
+45 statement (ExpressionStmt)
+46 expression (AssignExpr)
+47 operator='ASSIGN'
+48 target (NameExpr)
+49 name (SimpleName)
+50 identifier='platform'
+51 value (StringLiteralExpr)
+52 value='linux-x64'
+53 statement (BreakStmt)
+54 entrie (SwitchEntryStmt)
+55 statements
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='unsupportedPlatform'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='osName'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='osArch'
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='resourceName'
+73 value (BinaryExpr)
+74 operator='PLUS'
+75 left (BinaryExpr)
+76 operator='PLUS'
+77 left (BinaryExpr)
+78 operator='PLUS'
+79 left (BinaryExpr)
+80 operator='PLUS'
+81 left (BinaryExpr)
+82 operator='PLUS'
+83 left (StringLiteralExpr)
+84 value='/'
+85 right (NameExpr)
+86 name (SimpleName)
+87 identifier='platform'
+88 right (StringLiteralExpr)
+89 value='/'
+90 right (NameExpr)
+91 name (SimpleName)
+92 identifier='library'
+93 right (StringLiteralExpr)
+94 value='.'
+95 right (NameExpr)
+96 name (SimpleName)
+97 identifier='fileExtension'
+98 statement (ReturnStmt)
+99 expression (NameExpr)
+100 name (SimpleName)
+101 identifier='resourceName'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='String'
+105 name (SimpleName)
+106 identifier='determineLinuxLibrary'
+107 parameters
+108 parameter (Parameter)
+109 isVarArgs='false'
+110 name (SimpleName)
+111 identifier='library'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='String'
+115 parameter (Parameter)
+116 isVarArgs='false'
+117 name (SimpleName)
+118 identifier='osName'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='String'
+122 parameter (Parameter)
+123 isVarArgs='false'
+124 name (SimpleName)
+125 identifier='osArch'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+15 17
+17 18
+15 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+25 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+39 40
+37 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+46 48
+48 49
+49 50
+46 51
+51 52
+44 53
+37 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+73 75
+75 76
+75 77
+77 78
+77 79
+79 80
+79 81
+81 82
+81 83
+83 84
+81 85
+85 86
+86 87
+79 88
+88 89
+77 90
+90 91
+91 92
+75 93
+93 94
+73 95
+95 96
+96 97
+2 98
+98 99
+99 100
+100 101
+0 102
+102 103
+103 104
+0 105
+105 106
+0 107
+107 108
+108 109
+108 110
+110 111
+108 112
+112 113
+113 114
+107 115
+115 116
+115 117
+117 118
+115 119
+119 120
+120 121
+107 122
+122 123
+122 124
+124 125
+122 126
+126 127
+127 128
+
+Determine the right linux library depending on the architecture.

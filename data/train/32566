@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getNode'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='INSTANCE'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='ConfigurationScope'
+16 arguments
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='ID'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='Activator'
+23 scope (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='net'
+26 scope (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='internal'
+29 scope (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='core'
+32 scope (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='eclipse'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='org'
+38 name (SimpleName)
+39 identifier='rootNode'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Preferences'
+43 scope (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='prefs'
+46 scope (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='service'
+49 scope (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='osgi'
+52 scope (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='org'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='logNodeProperties'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='rootNode'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='logProxyPreferences'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+6 38
+38 39
+6 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+0 63
+0 64
+64 65
+
+Logs the proxy preferences. Since verinice uses the proxy settings from RCP bundles "org.eclipse.ui.net" and "org.eclipse.core.net" the preferences a loaded from "org.eclipse.core.net" preference node.

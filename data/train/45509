@@ -1,0 +1,188 @@
+93
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='trace'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='addCert({})'
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='keyId'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='findKey'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='keyId'
+27 name (SimpleName)
+28 identifier='key'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Key'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Cert'
+40 arguments
+41 argument (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='randomId'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='SignerUtil'
+47 name (SimpleName)
+48 identifier='cert'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Cert'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='setCertificate'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='cert'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='certBytes'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='addCert'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='key'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='cert'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='addCert'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='keyId'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='String'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='certBytes'
+89 type (ArrayType)
+90 origin='TYPE'
+91 componentType (PrimitiveType)
+92 type='BYTE'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+19 27
+27 28
+19 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+35 47
+47 48
+35 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+77 85
+85 86
+85 87
+87 88
+85 89
+89 90
+89 91
+91 92
+
+Adds a certificate to a key. Throws exception, if key cannot be found.

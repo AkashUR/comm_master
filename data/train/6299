@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='testClass'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='fixture'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='testMethodName'
+19 scope (ThisExpr)
+20 value (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getName'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='method'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='initWithoutJUnitForFixture'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='fixture'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Class'
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='method'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='Method'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+29 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+
+Initializes MatsimTestUtils without requiring the method of a class to be a JUnit test. This should be used for "fixtures" only that provide a scenario common to several test cases.

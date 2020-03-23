@@ -1,0 +1,390 @@
+194
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addAndCreateSourceEntry'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='javaProjectA'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='SRC_DIR_NAME'
+14 argument (NullLiteralExpr)
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='addAndCreateSourceEntry'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='javaProjectB'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='SRC_DIR_NAME'
+26 argument (NullLiteralExpr)
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='addRawClassPathEntry'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='JavaProjectUtilities'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='javaProjectA'
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='newProjectEntry'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='JavaCore'
+44 arguments
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getFullPath'
+48 scope (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getProject'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='javaProjectB'
+54 argument (BooleanLiteralExpr)
+55 value='true'
+56 statement (ExpressionStmt)
+57 expression (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 initializer (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getListOfFiles'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='computeClasspath'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='GWTCompileRunner'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='javaProjectA'
+74 name (SimpleName)
+75 identifier='actualCp'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='List'
+79 typeArguments
+80 typeArgument (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='File'
+83 statement (ExpressionStmt)
+84 expression (VariableDeclarationExpr)
+85 variables
+86 variable (VariableDeclarator)
+87 initializer (ObjectCreationExpr)
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='ArrayList'
+91 typeArguments
+92 typeArgument (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='File'
+95 name (SimpleName)
+96 identifier='expectedCp'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='List'
+100 typeArguments
+101 typeArgument (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='File'
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='add'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='expectedCp'
+111 arguments
+112 argument (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getFile'
+115 arguments
+116 argument (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='getProject'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='javaProjectA'
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='SRC_DIR_NAME'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='add'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='expectedCp'
+132 arguments
+133 argument (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getFile'
+136 arguments
+137 argument (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='getProject'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='javaProjectB'
+143 argument (NameExpr)
+144 name (SimpleName)
+145 identifier='SRC_DIR_NAME'
+146 statement (ExpressionStmt)
+147 expression (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='add'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='expectedCp'
+153 arguments
+154 argument (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='getOutputOfProject'
+157 arguments
+158 argument (NameExpr)
+159 name (SimpleName)
+160 identifier='javaProjectA'
+161 statement (ExpressionStmt)
+162 expression (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='add'
+165 scope (NameExpr)
+166 name (SimpleName)
+167 identifier='expectedCp'
+168 arguments
+169 argument (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='getOutputOfProject'
+172 arguments
+173 argument (NameExpr)
+174 name (SimpleName)
+175 identifier='javaProjectB'
+176 statement (ExpressionStmt)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='assertEquals'
+180 arguments
+181 argument (NameExpr)
+182 name (SimpleName)
+183 identifier='expectedCp'
+184 argument (NameExpr)
+185 name (SimpleName)
+186 identifier='actualCp'
+187 type (VoidType)
+188 name (SimpleName)
+189 identifier='testComputeClasspathForDependentProject'
+190 thrownExceptions
+191 thrownException (ClassOrInterfaceType)
+192 name (SimpleName)
+193 identifier='CoreException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+19 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+44 54
+54 55
+2 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+59 74
+74 75
+59 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+86 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+93 94
+86 95
+95 96
+86 97
+97 98
+98 99
+97 100
+100 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+105 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+115 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+136 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+147 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+162 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+174 175
+2 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+182 183
+180 184
+184 185
+185 186
+0 187
+0 188
+188 189
+0 190
+190 191
+191 192
+192 193
+
+Tests computing the classpath for dependent projects.

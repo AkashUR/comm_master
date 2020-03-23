@@ -1,0 +1,60 @@
+29
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addConnectionListener'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='connection'
+10 arguments
+11 argument (ThisExpr)
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='addPacketListener'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='connection'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='listener'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='filter'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='init'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+0 26
+0 27
+27 28
+
+Initializes the listeners to detect received room invitations and to detect when the connection gets closed. As soon as a room invitation is received the invitations listeners will be fired. When the connection gets closed the monitor will remove his listeners on the connection.

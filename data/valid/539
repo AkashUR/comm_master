@@ -1,0 +1,202 @@
+100
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='thenReturn'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='when'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='connect'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='service'
+17 arguments
+18 argument (BooleanLiteralExpr)
+19 value='false'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='withMaxDuration'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='retryWhen'
+30 scope (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='RetryPolicy'
+34 arguments
+35 argument (BooleanLiteralExpr)
+36 value='false'
+37 arguments
+38 argument (IntegerLiteralExpr)
+39 value='100'
+40 argument (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='MILLISECONDS'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='TimeUnit'
+46 name (SimpleName)
+47 identifier='retryPolicy'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='RetryPolicy'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='assertEquals'
+55 arguments
+56 argument (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='get'
+59 scope (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='onFailure'
+62 scope (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='with'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='Failsafe'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='retryPolicy'
+72 arguments
+73 argument (NullLiteralExpr)
+74 arguments
+75 argument (NullLiteralExpr)
+76 argument (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='FALSE'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='Boolean'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='connect'
+86 scope (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='verify'
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='service'
+93 type (VoidType)
+94 name (SimpleName)
+95 identifier='shouldCompleteWhenMaxDurationExceeded'
+96 thrownExceptions
+97 thrownException (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+4 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+27 34
+34 35
+35 36
+24 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+23 46
+46 47
+23 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+59 72
+72 73
+56 74
+74 75
+55 76
+76 77
+77 78
+76 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+86 89
+89 90
+90 91
+91 92
+0 93
+0 94
+94 95
+0 96
+96 97
+97 98
+98 99
+
+Asserts that an execution is failed when the max duration is exceeded.

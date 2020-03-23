@@ -1,0 +1,170 @@
+84
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='readFinishedBits'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='access'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='state'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='FINISHED_BITS_TAG'
+21 name (SimpleName)
+22 identifier='finishedSet'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='FinishedTriggers'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='invokeClear'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='rootTrigger'
+33 arguments
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='base'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='contextFactory'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='window'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='timers'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='rootTrigger'
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='finishedSet'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='clearState'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='window'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='W'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='timers'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Timers'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='state'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='StateAccessor'
+78 typeArguments
+79 typeArgument (WildcardType)
+80 thrownExceptions
+81 thrownException (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+40 47
+47 48
+48 49
+40 50
+50 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+56 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+56 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+75 78
+78 79
+0 80
+80 81
+81 82
+82 83
+
+Clear the state used for executing triggers, but leave the finished set to indicate the window is closed.

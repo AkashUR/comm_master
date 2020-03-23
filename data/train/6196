@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='isNominated'
+9 scope (ThisExpr)
+10 value (BooleanLiteralExpr)
+11 value='true'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='firePairPropertyChange'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getParentStream'
+19 scope (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getParentComponent'
+22 arguments
+23 argument (ThisExpr)
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='PROPERTY_PAIR_NOMINATED'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='IceMediaStream'
+30 argument (BooleanLiteralExpr)
+31 value='false'
+32 argument (BooleanLiteralExpr)
+33 value='true'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='nominate'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+13 22
+22 23
+22 24
+24 25
+25 26
+24 27
+27 28
+28 29
+22 30
+30 31
+22 32
+32 33
+0 34
+0 35
+35 36
+
+Sets this pair's nominated flag to <tt>true</tt>. If a valid candidate pair has its nominated flag set, it means that it may be selected by ICE for sending and receiving media.

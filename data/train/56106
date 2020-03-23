@@ -1,0 +1,274 @@
+136
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='mapper'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='registerModule'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='mapper'
+23 arguments
+24 argument (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='MyModule'
+28 arguments
+29 argument (ClassExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='PolymorphicBeanBase'
+33 argument (ObjectCreationExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='PolymorphicBeanInstantiator'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (BinaryExpr)
+42 operator='PLUS'
+43 left (BinaryExpr)
+44 operator='PLUS'
+45 left (StringLiteralExpr)
+46 value='{\"type\":'
+47 right (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='quote'
+50 arguments
+51 argument (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getName'
+54 scope (ClassExpr)
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='PolymorphicBean'
+58 right (StringLiteralExpr)
+59 value=',\"name\":\"Axel\"}'
+60 name (SimpleName)
+61 identifier='JSON'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='readValue'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='mapper'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='JSON'
+79 argument (ClassExpr)
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='PolymorphicBeanBase'
+83 name (SimpleName)
+84 identifier='result'
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='PolymorphicBeanBase'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='assertNotNull'
+92 arguments
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='result'
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='assertSame'
+100 arguments
+101 argument (ClassExpr)
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='PolymorphicBean'
+105 argument (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='getClass'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='result'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='assertEquals'
+115 arguments
+116 argument (StringLiteralExpr)
+117 value='Axel'
+118 argument (FieldAccessExpr)
+119 name (SimpleName)
+120 identifier='name'
+121 scope (EnclosedExpr)
+122 inner (CastExpr)
+123 expression (NameExpr)
+124 name (SimpleName)
+125 identifier='result'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='PolymorphicBean'
+129 type (VoidType)
+130 name (SimpleName)
+131 identifier='testPolymorphicCreatorBean'
+132 thrownExceptions
+133 thrownException (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+31 32
+28 33
+33 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+41 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+41 58
+58 59
+40 60
+60 61
+40 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+81 82
+68 83
+83 84
+68 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+102 103
+103 104
+100 105
+105 106
+106 107
+105 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+122 123
+123 124
+124 125
+122 126
+126 127
+127 128
+0 129
+0 130
+130 131
+0 132
+132 133
+133 134
+134 135
+
+Beyond basic features, it should be possible to even implement polymorphic handling...

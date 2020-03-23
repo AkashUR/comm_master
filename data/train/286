@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='cancel'
+7 statement (ExpressionStmt)
+8 expression (AssignExpr)
+9 operator='ASSIGN'
+10 target (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='task'
+13 scope (ThisExpr)
+14 value (NameExpr)
+15 name (SimpleName)
+16 identifier='task'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='taskHandler'
+23 value (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='handle'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='backgroundWorker'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='task'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='execute'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='taskHandler'
+40 type (VoidType)
+41 name (SimpleName)
+42 identifier='restart'
+43 parameters
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='task'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='BackgroundTask'
+51 typeArguments
+52 typeArgument (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='T'
+55 typeArgument (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='V'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+10 13
+8 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+0 40
+0 41
+41 42
+0 43
+43 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+48 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+
+Cancel running task if there is at the moment. Launch new task specified as parameter.

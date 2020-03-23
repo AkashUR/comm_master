@@ -1,0 +1,314 @@
+156
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='execute'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='runner'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getOutGraph'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='runner'
+20 name (SimpleName)
+21 identifier='graph'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Graph'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='circleLayout'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='GraphUtils'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='graph'
+36 argument (IntegerLiteralExpr)
+37 value='200'
+38 argument (IntegerLiteralExpr)
+39 value='200'
+40 argument (IntegerLiteralExpr)
+41 value='150'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='fruchtermanReingoldLayout'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='GraphUtils'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='graph'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='setGraph'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='workbench'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='graph'
+64 statement (ExpressionStmt)
+65 expression (VariableDeclarationExpr)
+66 variables
+67 variable (VariableDeclarator)
+68 initializer (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='getResult'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='runner'
+74 name (SimpleName)
+75 identifier='report'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='RegressionResult'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='setText'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='reportText'
+86 arguments
+87 argument (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='toString'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='report'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='removeAll'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='textWithTable'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='setLayout'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='textWithTable'
+107 arguments
+108 argument (ObjectCreationExpr)
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='BorderLayout'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='add'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='textWithTable'
+119 arguments
+120 argument (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='component'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='TextWithTable'
+126 arguments
+127 argument (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='getPreamble'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='report'
+133 argument (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getResultsTable'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='report'
+139 statement (ExpressionStmt)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='revalidate'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='textWithTable'
+146 statement (ExpressionStmt)
+147 expression (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='repaint'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='textWithTable'
+153 type (VoidType)
+154 name (SimpleName)
+155 identifier='runRegression'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+13 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+32 36
+36 37
+32 38
+38 39
+32 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+67 74
+74 75
+67 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+126 133
+133 134
+134 135
+133 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+0 153
+0 154
+154 155
+
+Runs the regression, resetting the text output and graph output.

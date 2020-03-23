@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkMatrix'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='2'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='scale'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='matrix'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='s'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='scale'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='s'
+29 type (PrimitiveType)
+30 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+0 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+
+( begin auto-generated from PShape_scale.xml ) Increases or decreases the size of a shape by expanding and contracting vertices. Shapes always scale from the relative origin of their bounding box. Scale values are specified as decimal percentages. For example, the method call <b>scale(2.0)</b> increases the dimension of a shape by 200%. Subsequent calls to the method multiply the effect. For example, calling <b>scale(2.0)</b> and then <b>scale(1.5)</b> is the same as <b>scale(3.0)</b>. This transformation is applied directly to the shape, it's not refreshed each time <b>draw()</b> is run. <br /><br /> Using this method with the <b>z</b> parameter requires using the P3D parameter in combination with size. ( end auto-generated )

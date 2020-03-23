@@ -1,0 +1,94 @@
+46
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (TryStmt)
+4 finallyBlock (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='unlock'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='readLock'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='lock'
+16 tryBlock (BlockStmt)
+17 statements
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='lock'
+22 scope (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='readLock'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='lock'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='run'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='operation'
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='read'
+38 parameters
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='operation'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='Runnable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+3 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+25 26
+26 27
+17 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+0 35
+0 36
+36 37
+0 38
+38 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+
+Obtain a read lock, perform the operation, and release the lock.

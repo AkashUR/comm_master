@@ -1,0 +1,84 @@
+41
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='certs'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='DERTaggedObject'
+15 arguments
+16 argument (BooleanLiteralExpr)
+17 value='false'
+18 argument (IntegerLiteralExpr)
+19 value='2'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='toASN1Structure'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='attrCert'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='addAttributeCertificate'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='attrCert'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='X509AttributeCertificateHolder'
+37 thrownExceptions
+38 thrownException (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='CMSException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+15 18
+18 19
+15 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+0 37
+37 38
+38 39
+39 40
+
+Add the attribute certificates in attrStore to the certificate set to be included with the generated SignedData message.

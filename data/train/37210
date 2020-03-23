@@ -1,0 +1,224 @@
+111
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='currentTimeMillis'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='System'
+15 right (NameExpr)
+16 name (SimpleName)
+17 identifier='ONE_YEAR_MILLIS'
+18 name (SimpleName)
+19 identifier='expiresAfterMillis'
+20 type (PrimitiveType)
+21 type='LONG'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='setHeader'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='response'
+29 arguments
+30 argument (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='HTTP_PRAGMA'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='ServletConstants'
+36 argument (StringLiteralExpr)
+37 value=''
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='setDateHeader'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='response'
+45 arguments
+46 argument (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='HTTP_EXPIRES'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='ServletConstants'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='expiresAfterMillis'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='setHeader'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='response'
+62 arguments
+63 argument (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='HTTP_CACHE_CONTROL'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='ServletConstants'
+69 argument (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='HTTP_CACHE_CONTROL_PRIVATE'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='ServletConstants'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='addHeader'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='response'
+82 arguments
+83 argument (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='HTTP_CACHE_CONTROL'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='ServletConstants'
+89 argument (BinaryExpr)
+90 operator='PLUS'
+91 left (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='HTTP_CACHE_CONTROL_MAX_AGE'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='ServletConstants'
+97 right (NameExpr)
+98 name (SimpleName)
+99 identifier='ONE_YEAR_MILLIS'
+100 type (VoidType)
+101 name (SimpleName)
+102 identifier='markCacheableForever'
+103 parameters
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='response'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='HttpServletResponse'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+12 13
+13 14
+7 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+29 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+45 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+62 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+82 89
+89 90
+89 91
+91 92
+92 93
+91 94
+94 95
+95 96
+89 97
+97 98
+98 99
+0 100
+0 101
+101 102
+0 103
+103 104
+104 105
+104 106
+106 107
+104 108
+108 109
+109 110
+
+Marks the resource returned to a web client to be stored in cache for a very long time. The resource is marked to be cached privately, i.e. on the client only, not in intermediate caches like proxies.

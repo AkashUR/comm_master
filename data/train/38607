@@ -1,0 +1,152 @@
+75
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='idxList'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='ArrayList'
+13 typeArguments
+14 typeArgument (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='Integer'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='valList'
+23 value (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='ArrayList'
+27 typeArguments
+28 typeArgument (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Float'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='addFeature'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='fIdxList'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='fValueList'
+42 name (SimpleName)
+43 identifier='FeatureVectorBuffer'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='fIdxList'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='List'
+52 typeArguments
+53 typeArgument (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Integer'
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='fValueList'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='List'
+63 typeArguments
+64 typeArgument (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='T'
+67 typeParameters
+68 typeParameter (TypeParameter)
+69 name (SimpleName)
+70 identifier='T'
+71 typeBound
+72 typeBoun (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Number'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+44 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+0 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+
+Construct a feature buffer by indices and values list. Note that we do not validate the feature indices here.

@@ -1,0 +1,246 @@
+122
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='get'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='objects'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='storage'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='bucketName'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='objectName'
+23 name (SimpleName)
+24 identifier='getObject'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Get'
+28 scope (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Objects'
+31 scope (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Storage'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='setContentRange'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='setDirectDownloadEnabled'
+41 scope (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getMediaHttpDownloader'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='getObject'
+47 arguments
+48 argument (UnaryExpr)
+49 operator='LOGICAL_COMPLEMENT'
+50 expression (NameExpr)
+51 name (SimpleName)
+52 identifier='IS_APP_ENGINE'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='firstBytePos'
+57 argument (CastExpr)
+58 expression (NameExpr)
+59 name (SimpleName)
+60 identifier='lastBytePos'
+61 type (PrimitiveType)
+62 type='INT'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='executeMediaAndDownloadTo'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='getObject'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='data'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='downloadRangeToOutputStream'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='storage'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='Storage'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='bucketName'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='String'
+92 parameter (Parameter)
+93 isVarArgs='false'
+94 name (SimpleName)
+95 identifier='objectName'
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='String'
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='firstBytePos'
+103 type (PrimitiveType)
+104 type='LONG'
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='lastBytePos'
+109 type (PrimitiveType)
+110 type='LONG'
+111 parameter (Parameter)
+112 isVarArgs='false'
+113 name (SimpleName)
+114 identifier='data'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='OutputStream'
+118 thrownExceptions
+119 thrownException (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+6 23
+23 24
+6 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+38 47
+47 48
+48 49
+48 50
+50 51
+51 52
+35 53
+53 54
+54 55
+55 56
+53 57
+57 58
+58 59
+59 60
+57 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+77 85
+85 86
+85 87
+87 88
+85 89
+89 90
+90 91
+77 92
+92 93
+92 94
+94 95
+92 96
+96 97
+97 98
+77 99
+99 100
+99 101
+101 102
+99 103
+103 104
+77 105
+105 106
+105 107
+107 108
+105 109
+109 110
+77 111
+111 112
+111 113
+113 114
+111 115
+115 116
+116 117
+0 118
+118 119
+119 120
+120 121
+
+This shows how to download a portion of an object. Especially useful for resuming after a download fails, but can also be used to download in parallel.

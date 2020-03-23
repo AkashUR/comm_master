@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='flush'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 type (VoidType)
+14 name (SimpleName)
+15 identifier='publishInfoMessage'
+16 parameters
+17 parameter (Parameter)
+18 isVarArgs='false'
+19 name (SimpleName)
+20 identifier='asynchMsgId'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='String'
+24 parameter (Parameter)
+25 isVarArgs='true'
+26 name (SimpleName)
+27 identifier='values'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+0 13
+0 14
+14 15
+0 16
+16 17
+17 18
+17 19
+19 20
+17 21
+21 22
+22 23
+16 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+
+Publish an informational notifications message. Caller provides id and values which is different from the other code in this class. This method does not do System.exit and will not fail the process if the notification fails to publish.

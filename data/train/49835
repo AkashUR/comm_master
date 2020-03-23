@@ -1,0 +1,660 @@
+329
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Resource'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='TestJmsServer'
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='JMS_SERVER'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='WebLogicConfigurationEntryType'
+20 name (SimpleName)
+21 identifier='jmsServer'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Resource'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='Resource'
+33 arguments
+34 argument (StringLiteralExpr)
+35 value='TestJmsModule'
+36 argument (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='JMS_MODULE'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='WebLogicConfigurationEntryType'
+42 name (SimpleName)
+43 identifier='jmsModule'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='Resource'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (ObjectCreationExpr)
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Resource'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='TestJmsSubdeployment'
+58 argument (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='JMS_SUBDEPLOYMENT'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='WebLogicConfigurationEntryType'
+64 name (SimpleName)
+65 identifier='jmsSubdeployment'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='Resource'
+69 statement (ExpressionStmt)
+70 expression (VariableDeclarationExpr)
+71 variables
+72 variable (VariableDeclarator)
+73 initializer (ObjectCreationExpr)
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='Resource'
+77 arguments
+78 argument (StringLiteralExpr)
+79 value='jms/queue/REQUEST'
+80 argument (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='JMS_QUEUE'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='WebLogicConfigurationEntryType'
+86 name (SimpleName)
+87 identifier='jmsQueue'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='Resource'
+91 statement (ExpressionStmt)
+92 expression (VariableDeclarationExpr)
+93 variables
+94 variable (VariableDeclarator)
+95 initializer (ObjectCreationExpr)
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='Resource'
+99 arguments
+100 argument (StringLiteralExpr)
+101 value='jms/cf/REQUEST'
+102 argument (FieldAccessExpr)
+103 name (SimpleName)
+104 identifier='JMS_CONNECTION_FACTORY'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='WebLogicConfigurationEntryType'
+108 name (SimpleName)
+109 identifier='jmsConnectionFactory'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='Resource'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='addResource'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='configuration'
+120 arguments
+121 argument (NameExpr)
+122 name (SimpleName)
+123 identifier='jmsSubdeployment'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='addResource'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='configuration'
+131 arguments
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='jmsQueue'
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='addResource'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='configuration'
+142 arguments
+143 argument (NameExpr)
+144 name (SimpleName)
+145 identifier='jmsModule'
+146 statement (ExpressionStmt)
+147 expression (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='addResource'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='configuration'
+153 arguments
+154 argument (NameExpr)
+155 name (SimpleName)
+156 identifier='jmsServer'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='addResource'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='configuration'
+164 arguments
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='jmsConnectionFactory'
+168 statement (ExpressionStmt)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='sortResources'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='configuration'
+175 statement (ExpressionStmt)
+176 expression (VariableDeclarationExpr)
+177 variables
+178 variable (VariableDeclarator)
+179 initializer (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='getResources'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='configuration'
+185 name (SimpleName)
+186 identifier='resources'
+187 type (ClassOrInterfaceType)
+188 name (SimpleName)
+189 identifier='List'
+190 typeArguments
+191 typeArgument (ClassOrInterfaceType)
+192 name (SimpleName)
+193 identifier='Resource'
+194 statement (ExpressionStmt)
+195 expression (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='assertEquals'
+198 arguments
+199 argument (IntegerLiteralExpr)
+200 value='5'
+201 argument (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='size'
+204 scope (NameExpr)
+205 name (SimpleName)
+206 identifier='resources'
+207 statement (ExpressionStmt)
+208 expression (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='assertEquals'
+211 arguments
+212 argument (FieldAccessExpr)
+213 name (SimpleName)
+214 identifier='JMS_SERVER'
+215 scope (NameExpr)
+216 name (SimpleName)
+217 identifier='WebLogicConfigurationEntryType'
+218 argument (MethodCallExpr)
+219 name (SimpleName)
+220 identifier='getType'
+221 scope (MethodCallExpr)
+222 name (SimpleName)
+223 identifier='get'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='resources'
+227 arguments
+228 argument (IntegerLiteralExpr)
+229 value='0'
+230 statement (ExpressionStmt)
+231 expression (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='assertEquals'
+234 arguments
+235 argument (FieldAccessExpr)
+236 name (SimpleName)
+237 identifier='JMS_MODULE'
+238 scope (NameExpr)
+239 name (SimpleName)
+240 identifier='WebLogicConfigurationEntryType'
+241 argument (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='getType'
+244 scope (MethodCallExpr)
+245 name (SimpleName)
+246 identifier='get'
+247 scope (NameExpr)
+248 name (SimpleName)
+249 identifier='resources'
+250 arguments
+251 argument (IntegerLiteralExpr)
+252 value='1'
+253 statement (ExpressionStmt)
+254 expression (MethodCallExpr)
+255 name (SimpleName)
+256 identifier='assertEquals'
+257 arguments
+258 argument (FieldAccessExpr)
+259 name (SimpleName)
+260 identifier='JMS_SUBDEPLOYMENT'
+261 scope (NameExpr)
+262 name (SimpleName)
+263 identifier='WebLogicConfigurationEntryType'
+264 argument (MethodCallExpr)
+265 name (SimpleName)
+266 identifier='getType'
+267 scope (MethodCallExpr)
+268 name (SimpleName)
+269 identifier='get'
+270 scope (NameExpr)
+271 name (SimpleName)
+272 identifier='resources'
+273 arguments
+274 argument (IntegerLiteralExpr)
+275 value='2'
+276 statement (ExpressionStmt)
+277 expression (MethodCallExpr)
+278 name (SimpleName)
+279 identifier='assertEquals'
+280 arguments
+281 argument (FieldAccessExpr)
+282 name (SimpleName)
+283 identifier='JMS_CONNECTION_FACTORY'
+284 scope (NameExpr)
+285 name (SimpleName)
+286 identifier='WebLogicConfigurationEntryType'
+287 argument (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='getType'
+290 scope (MethodCallExpr)
+291 name (SimpleName)
+292 identifier='get'
+293 scope (NameExpr)
+294 name (SimpleName)
+295 identifier='resources'
+296 arguments
+297 argument (IntegerLiteralExpr)
+298 value='3'
+299 statement (ExpressionStmt)
+300 expression (MethodCallExpr)
+301 name (SimpleName)
+302 identifier='assertEquals'
+303 arguments
+304 argument (FieldAccessExpr)
+305 name (SimpleName)
+306 identifier='JMS_QUEUE'
+307 scope (NameExpr)
+308 name (SimpleName)
+309 identifier='WebLogicConfigurationEntryType'
+310 argument (MethodCallExpr)
+311 name (SimpleName)
+312 identifier='getType'
+313 scope (MethodCallExpr)
+314 name (SimpleName)
+315 identifier='get'
+316 scope (NameExpr)
+317 name (SimpleName)
+318 identifier='resources'
+319 arguments
+320 argument (IntegerLiteralExpr)
+321 value='4'
+322 type (VoidType)
+323 name (SimpleName)
+324 identifier='testSortResources'
+325 thrownExceptions
+326 thrownException (ClassOrInterfaceType)
+327 name (SimpleName)
+328 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+28 42
+42 43
+28 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+50 64
+64 65
+50 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+72 73
+73 74
+74 75
+75 76
+73 77
+77 78
+78 79
+77 80
+80 81
+81 82
+80 83
+83 84
+84 85
+72 86
+86 87
+72 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+99 102
+102 103
+103 104
+102 105
+105 106
+106 107
+94 108
+108 109
+94 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+133 134
+2 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+136 142
+142 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+147 153
+153 154
+154 155
+155 156
+2 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+158 164
+164 165
+165 166
+166 167
+2 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+2 175
+175 176
+176 177
+177 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+178 185
+185 186
+178 187
+187 188
+188 189
+187 190
+190 191
+191 192
+192 193
+2 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+201 204
+204 205
+205 206
+2 207
+207 208
+208 209
+209 210
+208 211
+211 212
+212 213
+213 214
+212 215
+215 216
+216 217
+211 218
+218 219
+219 220
+218 221
+221 222
+222 223
+221 224
+224 225
+225 226
+221 227
+227 228
+228 229
+2 230
+230 231
+231 232
+232 233
+231 234
+234 235
+235 236
+236 237
+235 238
+238 239
+239 240
+234 241
+241 242
+242 243
+241 244
+244 245
+245 246
+244 247
+247 248
+248 249
+244 250
+250 251
+251 252
+2 253
+253 254
+254 255
+255 256
+254 257
+257 258
+258 259
+259 260
+258 261
+261 262
+262 263
+257 264
+264 265
+265 266
+264 267
+267 268
+268 269
+267 270
+270 271
+271 272
+267 273
+273 274
+274 275
+2 276
+276 277
+277 278
+278 279
+277 280
+280 281
+281 282
+282 283
+281 284
+284 285
+285 286
+280 287
+287 288
+288 289
+287 290
+290 291
+291 292
+290 293
+293 294
+294 295
+290 296
+296 297
+297 298
+2 299
+299 300
+300 301
+301 302
+300 303
+303 304
+304 305
+305 306
+304 307
+307 308
+308 309
+303 310
+310 311
+311 312
+310 313
+313 314
+314 315
+313 316
+316 317
+317 318
+313 319
+319 320
+320 321
+0 322
+0 323
+323 324
+0 325
+325 326
+326 327
+327 328
+
+Test sorting of resources. Resources should be sorted according to their priority set in properties.

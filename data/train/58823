@@ -1,0 +1,124 @@
+61
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='current'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='TextComponent'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='current'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='original'
+20 statement (ForeachStmt)
+21 body (BlockStmt)
+22 statements
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='add'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='parts'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='duplicate'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='baseComponent'
+37 iterable (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='parts'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='original'
+43 variable (VariableDeclarationExpr)
+44 variables
+45 variable (VariableDeclarator)
+46 name (SimpleName)
+47 identifier='baseComponent'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='BaseComponent'
+51 name (SimpleName)
+52 identifier='ComponentBuilder'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='original'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='ComponentBuilder'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+20 37
+37 38
+38 39
+37 40
+40 41
+41 42
+20 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+Creates a ComponentBuilder from the other given ComponentBuilder to clone it.

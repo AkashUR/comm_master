@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='PSSParameterSpec'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='SHA-1'
+14 argument (StringLiteralExpr)
+15 value='MGF1'
+16 argument (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='SHA1'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='MGF1ParameterSpec'
+22 argument (IntegerLiteralExpr)
+23 value='20'
+24 argument (IntegerLiteralExpr)
+25 value='1'
+26 name (SimpleName)
+27 identifier='pssps'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='PSSParameterSpec'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='assertEquals'
+35 arguments
+36 argument (StringLiteralExpr)
+37 value='MGF1'
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getMGFAlgorithm'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='pssps'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='testGetMGFAlgorithm'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+11 16
+16 17
+17 18
+16 19
+19 20
+20 21
+11 22
+22 23
+11 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+0 44
+0 45
+45 46
+
+Test for <code>getMGFAlgorithm()</code> method Assertion: returns mask generation function algorithm name

@@ -1,0 +1,140 @@
+69
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (ObjectCreationExpr)
+7 type (ClassOrInterfaceType)
+8 name (SimpleName)
+9 identifier='RedisQueueCodec'
+10 argument (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='CommandSyncService'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='connectionManager'
+18 argument (ConditionalExpr)
+19 condition (BinaryExpr)
+20 operator='OR'
+21 left (BinaryExpr)
+22 operator='EQUALS'
+23 left (NullLiteralExpr)
+24 right (NameExpr)
+25 name (SimpleName)
+26 identifier='name'
+27 right (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='isEmpty'
+30 scope (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='trim'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='name'
+36 elseExpr (NameExpr)
+37 name (SimpleName)
+38 identifier='name'
+39 thenExpr (NameExpr)
+40 name (SimpleName)
+41 identifier='DEFAULT_NAME'
+42 statement (ExpressionStmt)
+43 expression (AssignExpr)
+44 operator='ASSIGN'
+45 target (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='connectionManager'
+48 scope (ThisExpr)
+49 value (NameExpr)
+50 name (SimpleName)
+51 identifier='connectionManager'
+52 name (SimpleName)
+53 identifier='RedisQueue'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='connectionManager'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='ConnectionManager'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='name'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='String'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+8 9
+5 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+5 18
+18 19
+19 20
+19 21
+21 22
+21 23
+21 24
+24 25
+25 26
+19 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+18 36
+36 37
+37 38
+18 39
+39 40
+40 41
+2 42
+42 43
+43 44
+43 45
+45 46
+46 47
+45 48
+43 49
+49 50
+50 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+
+Instantiate a new Redis-backed queue using the provided connection manager and name.

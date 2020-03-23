@@ -1,0 +1,118 @@
+58
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='parent'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='controlStyle'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='setLayout'
+16 arguments
+17 argument (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='FillLayout'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='browser'
+27 value (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Browser'
+31 arguments
+32 argument (ThisExpr)
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='browserStyle'
+36 name (SimpleName)
+37 identifier='FullFeaturedBrowser'
+38 parameters
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='parent'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='Composite'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='controlStyle'
+50 type (PrimitiveType)
+51 type='INT'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='browserStyle'
+56 type (PrimitiveType)
+57 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+29 30
+27 31
+31 32
+31 33
+33 34
+34 35
+0 36
+36 37
+0 38
+38 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+38 46
+46 47
+46 48
+48 49
+46 50
+50 51
+38 52
+52 53
+52 54
+54 55
+52 56
+56 57
+
+Browser style bits can be set separately because they can differ wildly from other SWT style bits in how they work (border looks different when IE paints them vs. SWT, browser style can be set, etc.).

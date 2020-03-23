@@ -1,0 +1,424 @@
+211
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value=''
+9 name (SimpleName)
+10 identifier='url'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (StringLiteralExpr)
+19 value=''
+20 name (SimpleName)
+21 identifier='filename'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='String'
+25 statement (SwitchStmt)
+26 selector (NameExpr)
+27 name (SimpleName)
+28 identifier='type'
+29 entries
+30 entrie (SwitchEntryStmt)
+31 label (NameExpr)
+32 name (SimpleName)
+33 identifier='FANART'
+34 entrie (SwitchEntryStmt)
+35 label (NameExpr)
+36 name (SimpleName)
+37 identifier='POSTER'
+38 entrie (SwitchEntryStmt)
+39 label (NameExpr)
+40 name (SimpleName)
+41 identifier='BANNER'
+42 entrie (SwitchEntryStmt)
+43 label (NameExpr)
+44 name (SimpleName)
+45 identifier='EXTRAFANART'
+46 entrie (SwitchEntryStmt)
+47 label (NameExpr)
+48 name (SimpleName)
+49 identifier='EXTRATHUMB'
+50 entrie (SwitchEntryStmt)
+51 label (NameExpr)
+52 name (SimpleName)
+53 identifier='LOGO'
+54 entrie (SwitchEntryStmt)
+55 label (NameExpr)
+56 name (SimpleName)
+57 identifier='CLEARLOGO'
+58 entrie (SwitchEntryStmt)
+59 label (NameExpr)
+60 name (SimpleName)
+61 identifier='CLEARART'
+62 entrie (SwitchEntryStmt)
+63 label (NameExpr)
+64 name (SimpleName)
+65 identifier='THUMB'
+66 statements
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='url'
+73 value (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getArtworkUrl'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='show'
+79 arguments
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='type'
+83 statement (ExpressionStmt)
+84 expression (AssignExpr)
+85 operator='ASSIGN'
+86 target (NameExpr)
+87 name (SimpleName)
+88 identifier='filename'
+89 value (BinaryExpr)
+90 operator='PLUS'
+91 left (BinaryExpr)
+92 operator='PLUS'
+93 left (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='toLowerCase'
+96 scope (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='name'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='type'
+102 right (StringLiteralExpr)
+103 value='.'
+104 right (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='getExtension'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='FilenameUtils'
+110 arguments
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='url'
+114 statement (BreakStmt)
+115 entrie (SwitchEntryStmt)
+116 statements
+117 statement (BreakStmt)
+118 statement (IfStmt)
+119 condition (BinaryExpr)
+120 operator='OR'
+121 left (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='isBlank'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='StringUtils'
+127 arguments
+128 argument (NameExpr)
+129 name (SimpleName)
+130 identifier='url'
+131 right (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='isBlank'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='StringUtils'
+137 arguments
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='filename'
+141 thenStmt (BlockStmt)
+142 statements
+143 statement (ReturnStmt)
+144 statement (ExpressionStmt)
+145 expression (VariableDeclarationExpr)
+146 variables
+147 variable (VariableDeclarator)
+148 initializer (ObjectCreationExpr)
+149 type (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='MediaEntityImageFetcherTask'
+152 arguments
+153 argument (NameExpr)
+154 name (SimpleName)
+155 identifier='show'
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='url'
+159 argument (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='getMediaArtworkType'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='MediaFileType'
+165 arguments
+166 argument (NameExpr)
+167 name (SimpleName)
+168 identifier='type'
+169 argument (NameExpr)
+170 name (SimpleName)
+171 identifier='filename'
+172 argument (BooleanLiteralExpr)
+173 value='true'
+174 name (SimpleName)
+175 identifier='task'
+176 type (ClassOrInterfaceType)
+177 name (SimpleName)
+178 identifier='MediaEntityImageFetcherTask'
+179 statement (ExpressionStmt)
+180 expression (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='addImageDownloadTask'
+183 scope (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='getInstance'
+186 scope (NameExpr)
+187 name (SimpleName)
+188 identifier='TmmTaskManager'
+189 arguments
+190 argument (NameExpr)
+191 name (SimpleName)
+192 identifier='task'
+193 type (VoidType)
+194 name (SimpleName)
+195 identifier='downloadArtwork'
+196 parameters
+197 parameter (Parameter)
+198 isVarArgs='false'
+199 name (SimpleName)
+200 identifier='show'
+201 type (ClassOrInterfaceType)
+202 name (SimpleName)
+203 identifier='TvShow'
+204 parameter (Parameter)
+205 isVarArgs='false'
+206 name (SimpleName)
+207 identifier='type'
+208 type (ClassOrInterfaceType)
+209 name (SimpleName)
+210 identifier='MediaFileType'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+17 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+31 32
+32 33
+29 34
+34 35
+35 36
+36 37
+29 38
+38 39
+39 40
+40 41
+29 42
+42 43
+43 44
+44 45
+29 46
+46 47
+47 48
+48 49
+29 50
+50 51
+51 52
+52 53
+29 54
+54 55
+55 56
+56 57
+29 58
+58 59
+59 60
+60 61
+29 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+66 83
+83 84
+84 85
+84 86
+86 87
+87 88
+84 89
+89 90
+89 91
+91 92
+91 93
+93 94
+94 95
+93 96
+96 97
+97 98
+96 99
+99 100
+100 101
+91 102
+102 103
+89 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+112 113
+66 114
+29 115
+115 116
+116 117
+2 118
+118 119
+119 120
+119 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+129 130
+119 131
+131 132
+132 133
+131 134
+134 135
+135 136
+131 137
+137 138
+138 139
+139 140
+118 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+147 148
+148 149
+149 150
+150 151
+148 152
+152 153
+153 154
+154 155
+152 156
+156 157
+157 158
+152 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+167 168
+152 169
+169 170
+170 171
+152 172
+172 173
+147 174
+174 175
+147 176
+176 177
+177 178
+2 179
+179 180
+180 181
+181 182
+180 183
+183 184
+184 185
+183 186
+186 187
+187 188
+180 189
+189 190
+190 191
+191 192
+0 193
+0 194
+194 195
+0 196
+196 197
+197 198
+197 199
+199 200
+197 201
+201 202
+202 203
+196 204
+204 205
+204 206
+206 207
+204 208
+208 209
+209 210
+
+Manage downloading of the chosen artwork type

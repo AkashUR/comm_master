@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TIntIntHashMap'
+11 arguments
+12 argument (IntegerLiteralExpr)
+13 value='50'
+14 argument (DoubleLiteralExpr)
+15 value='0.5f'
+16 argument (UnaryExpr)
+17 operator='MINUS'
+18 expression (IntegerLiteralExpr)
+19 value='1'
+20 argument (UnaryExpr)
+21 operator='MINUS'
+22 expression (IntegerLiteralExpr)
+23 value='1'
+24 name (SimpleName)
+25 identifier='bestStopOnPattern'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='TIntIntMap'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='forEachEntry'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='timesToReachedStops'
+36 arguments
+37 argument (NullLiteralExpr)
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='retainEntries'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='timesToReachedStops'
+45 arguments
+46 argument (NullLiteralExpr)
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='retainClosestStopsOnPatterns'
+50 parameters
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='timesToReachedStops'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='TIntIntMap'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+11 16
+16 17
+16 18
+18 19
+11 20
+20 21
+20 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+
+Filter down a map from target stop indexes to distances so it only includes those stops that are the closest on some pattern. This is technically incorrect (think of transfers to a U shaped metro from a bus line running across the legs of the U, a situation which actually exists in Washington, DC with the red line and the Q4) but anecdotally it speeds up computation by up to 40 percent. We may want to look into other ways to optimize transfers (or why the transfers are making routing so much slower) if this turns out to affect results.

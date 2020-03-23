@@ -1,0 +1,186 @@
+92
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='create'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='igfsSecondary'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='paths'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='DIR'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='SUBDIR'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='SUBSUBDIR'
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='paths'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='FILE'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='create'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='igfs'
+39 argument (NullLiteralExpr)
+40 argument (NullLiteralExpr)
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='delete'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='igfs'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='SUBDIR'
+52 argument (BooleanLiteralExpr)
+53 value='true'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='checkExist'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='igfs'
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='DIR'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='checkNotExist'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='igfs'
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='igfsSecondary'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='SUBDIR'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='SUBSUBDIR'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='FILE'
+85 type (VoidType)
+86 name (SimpleName)
+87 identifier='testDeletePathMissing'
+88 thrownExceptions
+89 thrownException (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+14 21
+21 22
+22 23
+7 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+35 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+48 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+69 76
+76 77
+77 78
+69 79
+79 80
+80 81
+69 82
+82 83
+83 84
+0 85
+0 86
+86 87
+0 88
+88 89
+89 90
+90 91
+
+Test delete in case parent exists remotely, but no parents exist locally.

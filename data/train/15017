@@ -1,0 +1,120 @@
+59
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='info'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='logger'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='deleting all sources & buffers...'
+13 statement (WhileStmt)
+14 body (BlockStmt)
+15 statements
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='deleteSource'
+20 arguments
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='get'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='sources'
+27 arguments
+28 argument (IntegerLiteralExpr)
+29 value='0'
+30 argument (BooleanLiteralExpr)
+31 value='true'
+32 condition (BinaryExpr)
+33 operator='GREATER'
+34 left (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='size'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='sources'
+40 right (IntegerLiteralExpr)
+41 value='0'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='clear'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='sources'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='clear'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='buffers'
+56 type (VoidType)
+57 name (SimpleName)
+58 identifier='deleteAll'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+20 30
+30 31
+13 32
+32 33
+32 34
+34 35
+35 36
+34 37
+37 38
+38 39
+32 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+0 56
+0 57
+57 58
+
+Deletes & releases all sources and buffers created via this class.

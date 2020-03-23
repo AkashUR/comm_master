@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='writeTrips'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='TripWriter'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getTrips'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='tripHandler'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='outputFile'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='writeTrips'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='tripHandler'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='TripEventHandler'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='outputFile'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+23 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+
+Creates a text file containing all trips based on a given events file. The inputs are: - tripData: A TripHandler containing the trips read from an events file - network: The network used for the simulation - outFile: Path to the File where the trips will be stored IMPORTANT: outFile will be overwritten if already existing. The output format is: agentId, tripStartTime, tripStartLink, tripStartLinkXCoord, tripStartLinkYCoord, tripEndLink, tripEndLinkXCoord, tripEndLinkYCoord, mainMode, tripPurpose. If the agent is stuck, "stuck" is assigned to the trip purpose, end link and end time are taken from the stuckAndAbort event. If a pt trip only contains transit_walk legs, the main mode is transit walk.

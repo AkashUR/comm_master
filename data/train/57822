@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onPageStarted'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='view'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='url'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='favicon'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (NameExpr)
+22 name (SimpleName)
+23 identifier='isCurrentlyLoading'
+24 value (BooleanLiteralExpr)
+25 value='true'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='reset'
+30 scope (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='bridge'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='parentEngine'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='onPageStarted'
+40 scope (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='client'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='parentEngine'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='url'
+50 type (VoidType)
+51 name (SimpleName)
+52 identifier='onPageStarted'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='view'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='WebView'
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='url'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='String'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='favicon'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Bitmap'
+75 annotations
+76 annotation (MarkerAnnotationExpr)
+77 name (Name)
+78 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+8 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+37 46
+46 47
+47 48
+48 49
+0 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+53 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+53 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+0 75
+75 76
+76 77
+77 78
+
+Notify the host application that a page has started loading. This method is called once for each main frame load so a page with iframes or framesets will call onPageStarted one time for the main frame. This also means that onPageStarted will not be called when the contents of an embedded frame changes, i.e. clicking a link whose target is an iframe.

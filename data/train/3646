@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getPackageName'
+10 name (SimpleName)
+11 identifier='packageName'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='String'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Intent'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='ACTION_VIEW'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Intent'
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='parse'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='Uri'
+36 arguments
+37 argument (BinaryExpr)
+38 operator='PLUS'
+39 left (StringLiteralExpr)
+40 value='market://details?id='
+41 right (NameExpr)
+42 name (SimpleName)
+43 identifier='packageName'
+44 name (SimpleName)
+45 identifier='i'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Intent'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='startActivity'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='i'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='editSubscriptions'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+18 44
+44 45
+18 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+55 56
+0 57
+0 58
+58 59
+
+List subscriptions for this package in Google Play This allows users to unsubscribe from this apps subscriptions. Subscriptions are listed on the Google Play app detail page, so this should only be called if subscriptions are known to be present.

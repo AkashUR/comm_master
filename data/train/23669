@@ -1,0 +1,80 @@
+39
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='name'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='numUser'
+15 scope (ThisExpr)
+16 value (NameExpr)
+17 name (SimpleName)
+18 identifier='numUser'
+19 name (SimpleName)
+20 identifier='CloudSimShutdown'
+21 parameters
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='name'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='String'
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='numUser'
+33 type (PrimitiveType)
+34 type='INT'
+35 thrownExceptions
+36 thrownException (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+12 15
+10 16
+16 17
+17 18
+0 19
+19 20
+0 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+21 29
+29 30
+29 31
+31 32
+29 33
+33 34
+0 35
+35 36
+36 37
+37 38
+
+Instantiates a new CloudSimShutdown object. <p/> The total number of cloud user entities plays an important role to determine whether all hostList' should be shut down or not. If one or more users are still not finished, then the hostList's will not be shut down. Therefore, it is important to give a correct number of total cloud user entities. Otherwise, CloudSim program will hang or encounter a weird behaviour.

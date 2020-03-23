@@ -1,0 +1,50 @@
+24
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='invokeAndBlock'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='r'
+11 argument (BooleanLiteralExpr)
+12 value='false'
+13 type (VoidType)
+14 name (SimpleName)
+15 identifier='invokeAndBlock'
+16 parameters
+17 parameter (Parameter)
+18 isVarArgs='false'
+19 name (SimpleName)
+20 identifier='r'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Runnable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+0 13
+0 14
+14 15
+0 16
+16 17
+17 18
+17 19
+19 20
+17 21
+21 22
+22 23
+
+Invokes runnable and blocks the current thread, if the current thread is the EDT it will still be blocked in a way that doesn't break event dispatch . <b>Important:</b> calling this method spawns a new thread that shouldn't access the UI!<br /> See <a href="https://www.codenameone.com/manual/edt.html#_invoke_and_block"> this section</a> in the developer guide for further information.

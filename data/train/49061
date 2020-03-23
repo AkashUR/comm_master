@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newHashSet'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Sets'
+13 name (SimpleName)
+14 identifier='files'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Set'
+18 typeArguments
+19 typeArgument (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='File'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='addRelatedFiles'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='source'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='files'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='setCached'
+37 arguments
+38 argument (BinaryExpr)
+39 operator='PLUS'
+40 left (StringLiteralExpr)
+41 value='LESS:'
+42 right (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getAbsolutePath'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='source'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='files'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='cacheRelatedFiles'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='source'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='LessSource'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+42 45
+45 46
+46 47
+37 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+
+Caches all related files for this LESS source. This includes the LESS file and all imports.

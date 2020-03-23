@@ -1,0 +1,326 @@
+162
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='dm'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getDistributionManager'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='dlock'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getCancelCriterion'
+23 scope (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='dm'
+26 scope (ThisExpr)
+27 name (SimpleName)
+28 identifier='stopper'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='CancelCriterion'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='whileInitializing'
+38 scope (ThisExpr)
+39 value (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='StoppableCountDownLatch'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='stopper'
+47 argument (IntegerLiteralExpr)
+48 value='1'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='untilDestroyed'
+55 scope (ThisExpr)
+56 value (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='StoppableCountDownLatch'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='stopper'
+64 argument (IntegerLiteralExpr)
+65 value='1'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='dlock'
+72 scope (ThisExpr)
+73 value (NameExpr)
+74 name (SimpleName)
+75 identifier='dlock'
+76 statement (ExpressionStmt)
+77 expression (AssignExpr)
+78 operator='ASSIGN'
+79 target (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='destroyLock'
+82 scope (ThisExpr)
+83 value (ObjectCreationExpr)
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='StoppableReentrantReadWriteLock'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='stopper'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='set'
+95 scope (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='versionId'
+98 scope (ThisExpr)
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='vId'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='addMembershipListener'
+107 scope (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='dm'
+110 scope (ThisExpr)
+111 arguments
+112 argument (FieldAccessExpr)
+113 name (SimpleName)
+114 identifier='membershipListener'
+115 scope (ThisExpr)
+116 statement (ExpressionStmt)
+117 expression (AssignExpr)
+118 operator='ASSIGN'
+119 target (FieldAccessExpr)
+120 name (SimpleName)
+121 identifier='thread'
+122 scope (ThisExpr)
+123 value (ObjectCreationExpr)
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='DLockGrantorThread'
+127 arguments
+128 argument (ThisExpr)
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='stopper'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='incGrantors'
+136 scope (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='getStats'
+139 scope (FieldAccessExpr)
+140 name (SimpleName)
+141 identifier='dlock'
+142 scope (ThisExpr)
+143 arguments
+144 argument (IntegerLiteralExpr)
+145 value='1'
+146 name (SimpleName)
+147 identifier='DLockGrantor'
+148 parameters
+149 parameter (Parameter)
+150 isVarArgs='false'
+151 name (SimpleName)
+152 identifier='dlock'
+153 type (ClassOrInterfaceType)
+154 name (SimpleName)
+155 identifier='DLockService'
+156 parameter (Parameter)
+157 isVarArgs='false'
+158 name (SimpleName)
+159 identifier='vId'
+160 type (PrimitiveType)
+161 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+19 27
+27 28
+19 29
+29 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+35 38
+33 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+45 46
+43 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+52 55
+50 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+62 63
+60 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+69 72
+67 73
+73 74
+74 75
+2 76
+76 77
+77 78
+77 79
+79 80
+80 81
+79 82
+77 83
+83 84
+84 85
+85 86
+83 87
+87 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+92 99
+99 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+104 111
+111 112
+112 113
+113 114
+112 115
+2 116
+116 117
+117 118
+117 119
+119 120
+120 121
+119 122
+117 123
+123 124
+124 125
+125 126
+123 127
+127 128
+127 129
+129 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+136 139
+139 140
+140 141
+139 142
+133 143
+143 144
+144 145
+0 146
+146 147
+0 148
+148 149
+149 150
+149 151
+151 152
+149 153
+153 154
+154 155
+148 156
+156 157
+156 158
+158 159
+156 160
+160 161
+
+Creates instance of grantor for the lock service.

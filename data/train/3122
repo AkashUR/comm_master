@@ -1,0 +1,262 @@
+130
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 statement (ExpressionStmt)
+6 expression (AssignExpr)
+7 operator='ASSIGN'
+8 target (NameExpr)
+9 name (SimpleName)
+10 identifier='chronology'
+11 value (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='withUTC'
+14 scope (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getChronology'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='DateTimeUtils'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='chronology'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 initializer (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getDateTimeMillis'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='chronology'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='year'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='monthOfYear'
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='dayOfMonth'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='hourOfDay'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='minuteOfHour'
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='secondOfMinute'
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='millisOfSecond'
+56 name (SimpleName)
+57 identifier='instant'
+58 type (PrimitiveType)
+59 type='LONG'
+60 statement (ExpressionStmt)
+61 expression (AssignExpr)
+62 operator='ASSIGN'
+63 target (NameExpr)
+64 name (SimpleName)
+65 identifier='iChronology'
+66 value (NameExpr)
+67 name (SimpleName)
+68 identifier='chronology'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (NameExpr)
+73 name (SimpleName)
+74 identifier='iLocalMillis'
+75 value (NameExpr)
+76 name (SimpleName)
+77 identifier='instant'
+78 name (SimpleName)
+79 identifier='LocalDateTime'
+80 parameters
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='year'
+85 type (PrimitiveType)
+86 type='INT'
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='monthOfYear'
+91 type (PrimitiveType)
+92 type='INT'
+93 parameter (Parameter)
+94 isVarArgs='false'
+95 name (SimpleName)
+96 identifier='dayOfMonth'
+97 type (PrimitiveType)
+98 type='INT'
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='hourOfDay'
+103 type (PrimitiveType)
+104 type='INT'
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='minuteOfHour'
+109 type (PrimitiveType)
+110 type='INT'
+111 parameter (Parameter)
+112 isVarArgs='false'
+113 name (SimpleName)
+114 identifier='secondOfMinute'
+115 type (PrimitiveType)
+116 type='INT'
+117 parameter (Parameter)
+118 isVarArgs='false'
+119 name (SimpleName)
+120 identifier='millisOfSecond'
+121 type (PrimitiveType)
+122 type='INT'
+123 parameter (Parameter)
+124 isVarArgs='false'
+125 name (SimpleName)
+126 identifier='chronology'
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='Chronology'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+6 8
+8 9
+9 10
+6 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+34 41
+41 42
+42 43
+34 44
+44 45
+45 46
+34 47
+47 48
+48 49
+34 50
+50 51
+51 52
+34 53
+53 54
+54 55
+27 56
+56 57
+27 58
+58 59
+2 60
+60 61
+61 62
+61 63
+63 64
+64 65
+61 66
+66 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+70 75
+75 76
+76 77
+0 78
+78 79
+0 80
+80 81
+81 82
+81 83
+83 84
+81 85
+85 86
+80 87
+87 88
+87 89
+89 90
+87 91
+91 92
+80 93
+93 94
+93 95
+95 96
+93 97
+97 98
+80 99
+99 100
+99 101
+101 102
+99 103
+103 104
+80 105
+105 106
+105 107
+107 108
+105 109
+109 110
+80 111
+111 112
+111 113
+113 114
+111 115
+115 116
+80 117
+117 118
+117 119
+119 120
+117 121
+121 122
+80 123
+123 124
+123 125
+125 126
+123 127
+127 128
+128 129
+
+Constructs an instance set to the specified date and time using the specified chronology, whose zone is ignored. <p> If the chronology is null, <code>ISOChronology</code> is used.

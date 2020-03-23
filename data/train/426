@@ -1,0 +1,340 @@
+169
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createFactory'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='PoolManager'
+13 name (SimpleName)
+14 identifier='pf'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='PoolFactory'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='addServer'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='pf'
+25 arguments
+26 argument (StringLiteralExpr)
+27 value='localhost'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='PORT'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='setMinConnections'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='pf'
+38 arguments
+39 argument (IntegerLiteralExpr)
+40 value='0'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='setPingInterval'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='pf'
+48 arguments
+49 argument (IntegerLiteralExpr)
+50 value='10000'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setThreadLocalConnections'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='pf'
+58 arguments
+59 argument (BooleanLiteralExpr)
+60 value='true'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='setReadTimeout'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='pf'
+68 arguments
+69 argument (IntegerLiteralExpr)
+70 value='2000'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='setSocketBufferSize'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='pf'
+78 arguments
+79 argument (IntegerLiteralExpr)
+80 value='32768'
+81 statement (ExpressionStmt)
+82 expression (AssignExpr)
+83 operator='ASSIGN'
+84 target (NameExpr)
+85 name (SimpleName)
+86 identifier='proxy'
+87 value (CastExpr)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='create'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='pf'
+94 arguments
+95 argument (StringLiteralExpr)
+96 value='junitPool'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='PoolImpl'
+100 statement (ExpressionStmt)
+101 expression (VariableDeclarationExpr)
+102 variables
+103 variable (VariableDeclarator)
+104 initializer (ObjectCreationExpr)
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='AttributesFactory'
+108 name (SimpleName)
+109 identifier='factory'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='AttributesFactory'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='setScope'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='factory'
+120 arguments
+121 argument (FieldAccessExpr)
+122 name (SimpleName)
+123 identifier='DISTRIBUTED_ACK'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='Scope'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='setPoolName'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='factory'
+134 arguments
+135 argument (StringLiteralExpr)
+136 value='junitPool'
+137 statement (ExpressionStmt)
+138 expression (VariableDeclarationExpr)
+139 variables
+140 variable (VariableDeclarator)
+141 initializer (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='createRegionAttributes'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='factory'
+147 name (SimpleName)
+148 identifier='attrs'
+149 type (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='RegionAttributes'
+152 statement (ExpressionStmt)
+153 expression (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='createVMRegion'
+156 scope (NameExpr)
+157 name (SimpleName)
+158 identifier='cache'
+159 arguments
+160 argument (NameExpr)
+161 name (SimpleName)
+162 identifier='regionName'
+163 argument (NameExpr)
+164 name (SimpleName)
+165 identifier='attrs'
+166 type (VoidType)
+167 name (SimpleName)
+168 identifier='createProxyAndRegionForClient'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+25 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+2 81
+81 82
+82 83
+82 84
+84 85
+85 86
+82 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+87 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+103 108
+108 109
+103 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+135 136
+2 137
+137 138
+138 139
+139 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+140 147
+147 148
+140 149
+149 150
+150 151
+2 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+153 159
+159 160
+160 161
+161 162
+159 163
+163 164
+164 165
+0 166
+0 167
+167 168
+
+Initializes proxy object and creates region for client

@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertQ'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='Collated RangeQ: '
+10 argument (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='req'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='fl'
+16 argument (StringLiteralExpr)
+17 value='id'
+18 argument (StringLiteralExpr)
+19 value='q'
+20 argument (StringLiteralExpr)
+21 value='sort_ar:[\u062F TO \u0698]'
+22 argument (StringLiteralExpr)
+23 value='sort'
+24 argument (StringLiteralExpr)
+25 value='id asc'
+26 argument (StringLiteralExpr)
+27 value='//*[@numFound=\'0\']'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='testNegativeRangeQuery'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+13 18
+18 19
+13 20
+20 21
+13 22
+22 23
+13 24
+24 25
+7 26
+26 27
+0 28
+0 29
+29 30
+
+Test rangequery again with an Arabic collator. Binary order would normally order U+0633 in this range.

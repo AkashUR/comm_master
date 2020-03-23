@@ -1,0 +1,468 @@
+233
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NameExpr)
+8 name (SimpleName)
+9 identifier='dest'
+10 name (SimpleName)
+11 identifier='r'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='CSRPointer'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='nanoTime'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='System'
+25 name (SimpleName)
+26 identifier='t0'
+27 type (PrimitiveType)
+28 type='LONG'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='nnz'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='r'
+38 value (NameExpr)
+39 name (SimpleName)
+40 identifier='nnz'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='cudaMemcpy'
+45 arguments
+46 argument (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='rowPtr'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='r'
+52 argument (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='to'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='Pointer'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='rowPtr'
+62 argument (BinaryExpr)
+63 operator='MULTIPLY'
+64 left (EnclosedExpr)
+65 inner (BinaryExpr)
+66 operator='PLUS'
+67 left (NameExpr)
+68 name (SimpleName)
+69 identifier='rows'
+70 right (IntegerLiteralExpr)
+71 value='1'
+72 right (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='INT'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='Sizeof'
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='cudaMemcpyHostToDevice'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='cudaMemcpy'
+85 arguments
+86 argument (FieldAccessExpr)
+87 name (SimpleName)
+88 identifier='colInd'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='r'
+92 argument (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='to'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='Pointer'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='colInd'
+102 argument (BinaryExpr)
+103 operator='MULTIPLY'
+104 left (NameExpr)
+105 name (SimpleName)
+106 identifier='nnz'
+107 right (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='INT'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='Sizeof'
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='cudaMemcpyHostToDevice'
+116 statement (ExpressionStmt)
+117 expression (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='cudaMemcpy'
+120 arguments
+121 argument (FieldAccessExpr)
+122 name (SimpleName)
+123 identifier='val'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='r'
+127 argument (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='to'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='Pointer'
+133 arguments
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='values'
+137 argument (BinaryExpr)
+138 operator='MULTIPLY'
+139 left (NameExpr)
+140 name (SimpleName)
+141 identifier='nnz'
+142 right (FieldAccessExpr)
+143 name (SimpleName)
+144 identifier='DOUBLE'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='Sizeof'
+148 argument (NameExpr)
+149 name (SimpleName)
+150 identifier='cudaMemcpyHostToDevice'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='addAndGet'
+155 scope (FieldAccessExpr)
+156 name (SimpleName)
+157 identifier='cudaToDevTime'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='Statistics'
+161 arguments
+162 argument (BinaryExpr)
+163 operator='MINUS'
+164 left (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='nanoTime'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='System'
+170 right (NameExpr)
+171 name (SimpleName)
+172 identifier='t0'
+173 statement (ExpressionStmt)
+174 expression (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='addAndGet'
+177 scope (FieldAccessExpr)
+178 name (SimpleName)
+179 identifier='cudaToDevCount'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='Statistics'
+183 arguments
+184 argument (IntegerLiteralExpr)
+185 value='3'
+186 type (VoidType)
+187 name (SimpleName)
+188 identifier='copyToDevice'
+189 parameters
+190 parameter (Parameter)
+191 isVarArgs='false'
+192 name (SimpleName)
+193 identifier='dest'
+194 type (ClassOrInterfaceType)
+195 name (SimpleName)
+196 identifier='CSRPointer'
+197 parameter (Parameter)
+198 isVarArgs='false'
+199 name (SimpleName)
+200 identifier='rows'
+201 type (PrimitiveType)
+202 type='INT'
+203 parameter (Parameter)
+204 isVarArgs='false'
+205 name (SimpleName)
+206 identifier='nnz'
+207 type (PrimitiveType)
+208 type='LONG'
+209 parameter (Parameter)
+210 isVarArgs='false'
+211 name (SimpleName)
+212 identifier='rowPtr'
+213 type (ArrayType)
+214 origin='TYPE'
+215 componentType (PrimitiveType)
+216 type='INT'
+217 parameter (Parameter)
+218 isVarArgs='false'
+219 name (SimpleName)
+220 identifier='colInd'
+221 type (ArrayType)
+222 origin='TYPE'
+223 componentType (PrimitiveType)
+224 type='INT'
+225 parameter (Parameter)
+226 isVarArgs='false'
+227 name (SimpleName)
+228 identifier='values'
+229 type (ArrayType)
+230 origin='TYPE'
+231 componentType (PrimitiveType)
+232 type='DOUBLE'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+18 25
+25 26
+18 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+32 35
+35 36
+36 37
+30 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+45 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+45 62
+62 63
+62 64
+64 65
+65 66
+65 67
+67 68
+68 69
+65 70
+70 71
+62 72
+72 73
+73 74
+72 75
+75 76
+76 77
+45 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+85 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+100 101
+85 102
+102 103
+102 104
+104 105
+105 106
+102 107
+107 108
+108 109
+107 110
+110 111
+111 112
+85 113
+113 114
+114 115
+2 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+120 127
+127 128
+128 129
+127 130
+130 131
+131 132
+127 133
+133 134
+134 135
+135 136
+120 137
+137 138
+137 139
+139 140
+140 141
+137 142
+142 143
+143 144
+142 145
+145 146
+146 147
+120 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+155 158
+158 159
+159 160
+152 161
+161 162
+162 163
+162 164
+164 165
+165 166
+164 167
+167 168
+168 169
+162 170
+170 171
+171 172
+2 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+177 180
+180 181
+181 182
+174 183
+183 184
+184 185
+0 186
+0 187
+187 188
+0 189
+189 190
+190 191
+190 192
+192 193
+190 194
+194 195
+195 196
+189 197
+197 198
+197 199
+199 200
+197 201
+201 202
+189 203
+203 204
+203 205
+205 206
+203 207
+207 208
+189 209
+209 210
+209 211
+211 212
+209 213
+213 214
+213 215
+215 216
+189 217
+217 218
+217 219
+219 220
+217 221
+221 222
+221 223
+223 224
+189 225
+225 226
+225 227
+227 228
+225 229
+229 230
+229 231
+231 232
+
+Static method to copy a CSR sparse matrix from Host to Device

@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='endMillis'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='currentTimeMillis'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='System'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='PLUS'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='totalFilterMillis'
+21 value (EnclosedExpr)
+22 inner (BinaryExpr)
+23 operator='MINUS'
+24 left (NameExpr)
+25 name (SimpleName)
+26 identifier='endMillis'
+27 right (NameExpr)
+28 name (SimpleName)
+29 identifier='intervalStartMillis'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='state'
+36 value (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='other'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='TaskState'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='endFilterInterval'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+36 39
+39 40
+40 41
+0 42
+0 43
+43 44
+
+Add time for a filter operation interval.

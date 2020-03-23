@@ -1,0 +1,342 @@
+170
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='title'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='xAxisLabel'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='yAxisLabel'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='dataset'
+21 scope (ThisExpr)
+22 value (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='DefaultCategoryDataset'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='chart'
+32 scope (ThisExpr)
+33 value (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='createChart'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='title'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='xAxisLabel'
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='yAxisLabel'
+46 argument (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='dataset'
+49 scope (ThisExpr)
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='plot'
+56 scope (ThisExpr)
+57 value (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getCategoryPlot'
+60 scope (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='chart'
+63 scope (ThisExpr)
+64 statement (ExpressionStmt)
+65 expression (AssignExpr)
+66 operator='ASSIGN'
+67 target (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='categories'
+70 scope (ThisExpr)
+71 value (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='clone'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='categories'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='addDefaultFormatting'
+81 statement (ExpressionStmt)
+82 expression (VariableDeclarationExpr)
+83 variables
+84 variable (VariableDeclarator)
+85 initializer (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getDomainAxis'
+88 scope (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='plot'
+91 scope (ThisExpr)
+92 name (SimpleName)
+93 identifier='axis1'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='CategoryAxis'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='setCategoryMargin'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='axis1'
+104 arguments
+105 argument (DoubleLiteralExpr)
+106 value='0.20'
+107 statement (ExpressionStmt)
+108 expression (VariableDeclarationExpr)
+109 variables
+110 variable (VariableDeclarator)
+111 initializer (CastExpr)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getRenderer'
+115 scope (FieldAccessExpr)
+116 name (SimpleName)
+117 identifier='plot'
+118 scope (ThisExpr)
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='BarRenderer'
+122 name (SimpleName)
+123 identifier='renderer'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='BarRenderer'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='setItemMargin'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='renderer'
+134 arguments
+135 argument (DoubleLiteralExpr)
+136 value='0.10'
+137 name (SimpleName)
+138 identifier='StackedBarChart'
+139 parameters
+140 parameter (Parameter)
+141 isVarArgs='false'
+142 name (SimpleName)
+143 identifier='title'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='String'
+147 parameter (Parameter)
+148 isVarArgs='false'
+149 name (SimpleName)
+150 identifier='xAxisLabel'
+151 type (ClassOrInterfaceType)
+152 name (SimpleName)
+153 identifier='String'
+154 parameter (Parameter)
+155 isVarArgs='false'
+156 name (SimpleName)
+157 identifier='yAxisLabel'
+158 type (ClassOrInterfaceType)
+159 name (SimpleName)
+160 identifier='String'
+161 parameter (Parameter)
+162 isVarArgs='false'
+163 name (SimpleName)
+164 identifier='categories'
+165 type (ArrayType)
+166 origin='TYPE'
+167 componentType (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='String'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+18 21
+16 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+29 32
+27 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+36 43
+43 44
+44 45
+36 46
+46 47
+47 48
+46 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+53 56
+51 57
+57 58
+58 59
+57 60
+60 61
+61 62
+60 63
+2 64
+64 65
+65 66
+65 67
+67 68
+68 69
+67 70
+65 71
+71 72
+72 73
+71 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+84 92
+92 93
+84 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+110 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+115 118
+111 119
+119 120
+120 121
+110 122
+122 123
+110 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+135 136
+0 137
+137 138
+0 139
+139 140
+140 141
+140 142
+142 143
+140 144
+144 145
+145 146
+139 147
+147 148
+147 149
+149 150
+147 151
+151 152
+152 153
+139 154
+154 155
+154 156
+156 157
+154 158
+158 159
+159 160
+139 161
+161 162
+161 163
+163 164
+161 165
+165 166
+165 167
+167 168
+168 169
+
+Creates a new BarChart with the specified category-labels.

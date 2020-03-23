@@ -1,0 +1,170 @@
+84
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='subscribe'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='doOnError'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='doOnNext'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='flatMap'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='observeOn'
+19 scope (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='searchTermObservable'
+22 arguments
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='io'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='Schedulers'
+29 arguments
+30 argument (NullLiteralExpr)
+31 arguments
+32 argument (NullLiteralExpr)
+33 arguments
+34 argument (NullLiteralExpr)
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='imagesBus'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='subscribe'
+43 scope (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='observeOn'
+46 scope (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='filter'
+49 scope (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='debounce'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='imagesBus'
+55 arguments
+56 argument (IntegerLiteralExpr)
+57 value='50'
+58 argument (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='MILLISECONDS'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='TimeUnit'
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='computation'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='Schedulers'
+70 arguments
+71 argument (NullLiteralExpr)
+72 arguments
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='mainThread'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='AndroidSchedulers'
+79 arguments
+80 argument (NullLiteralExpr)
+81 type (VoidType)
+82 name (SimpleName)
+83 identifier='initSubs'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+13 29
+29 30
+10 31
+31 32
+7 33
+33 34
+4 35
+35 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+55 64
+64 65
+65 66
+64 67
+67 68
+68 69
+46 70
+70 71
+43 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+40 79
+79 80
+0 81
+0 82
+82 83
+
+on search term change request images subscribe with imagesBus <p> images become available -> emit to imagesBus <p> on emit to imagesBus -> try to add new rows <p> NOTE: imagesBus drops events followed by another event within 300ms

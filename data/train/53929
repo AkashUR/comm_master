@@ -1,0 +1,120 @@
+59
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='emitByte'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='opc_invokestatic'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='emitShort'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='methodIndex'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setStack'
+23 arguments
+24 argument (BinaryExpr)
+25 operator='PLUS'
+26 left (BinaryExpr)
+27 operator='MINUS'
+28 left (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getStack'
+31 right (NameExpr)
+32 name (SimpleName)
+33 identifier='numArgs'
+34 right (NameExpr)
+35 name (SimpleName)
+36 identifier='numReturnValues'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='opc_invokestatic'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='methodIndex'
+45 type (PrimitiveType)
+46 type='SHORT'
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='numArgs'
+51 type (PrimitiveType)
+52 type='INT'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='numReturnValues'
+57 type (PrimitiveType)
+58 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+24 26
+26 27
+26 28
+28 29
+29 30
+26 31
+31 32
+32 33
+24 34
+34 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+40 47
+47 48
+47 49
+49 50
+47 51
+51 52
+40 53
+53 54
+53 55
+55 56
+53 57
+57 58
+
+Long and double arguments and return types count as 2 arguments; other values count as 1.

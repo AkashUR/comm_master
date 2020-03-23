@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='handleStateChange'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getWorld'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='event'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getBlock'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='event'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='event'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='event'
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getNewState'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='event'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='onBlockForm'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='event'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='BlockFormEvent'
+43 annotations
+44 annotation (NormalAnnotationExpr)
+45 name (Name)
+46 identifier='EventHandler'
+47 pairs
+48 pair (MemberValuePair)
+49 name (SimpleName)
+50 identifier='priority'
+51 value (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='HIGH'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='EventPriority'
+57 pair (MemberValuePair)
+58 name (SimpleName)
+59 identifier='ignoreCancelled'
+60 value (BooleanLiteralExpr)
+61 value='true'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+14 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+24 25
+7 26
+26 27
+27 28
+26 29
+29 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+0 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+47 57
+57 58
+58 59
+57 60
+60 61
+
+Filters BlockFormEvent, like endermen placing down blocks or falling sand entity converting to block. <p>If new block is air, it will filter as block removing else it will filter as block placing </p> <p>Applies to: block, block place and block break<p/>

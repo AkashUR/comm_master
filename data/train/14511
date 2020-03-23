@@ -1,0 +1,238 @@
+118
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ArrayCreationExpr)
+8 elementType (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='String'
+11 initializer (ArrayInitializerExpr)
+12 values
+13 value (StringLiteralExpr)
+14 value='dot'
+15 value (StringLiteralExpr)
+16 value='-Tpng'
+17 value (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getAbsolutePath'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='dotFile'
+23 value (StringLiteralExpr)
+24 value='-o'
+25 value (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getAbsolutePath'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='pngFile'
+31 levels
+32 level (ArrayCreationLevel)
+33 name (SimpleName)
+34 identifier='cmd'
+35 type (ArrayType)
+36 origin='TYPE'
+37 componentType (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='println'
+44 scope (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='out'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='System'
+50 arguments
+51 argument (BinaryExpr)
+52 operator='PLUS'
+53 left (BinaryExpr)
+54 operator='PLUS'
+55 left (BinaryExpr)
+56 operator='PLUS'
+57 left (StringLiteralExpr)
+58 value='Printing dotFile: '
+59 right (NameExpr)
+60 name (SimpleName)
+61 identifier='dotFile'
+62 right (StringLiteralExpr)
+63 value=' to loc: '
+64 right (NameExpr)
+65 name (SimpleName)
+66 identifier='pngFile'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='flush'
+71 scope (FieldAccessExpr)
+72 name (SimpleName)
+73 identifier='out'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='System'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='execute'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='ExecUtil'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='cmd'
+88 argument (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='out'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='System'
+94 argument (FieldAccessExpr)
+95 name (SimpleName)
+96 identifier='err'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='System'
+100 type (VoidType)
+101 name (SimpleName)
+102 identifier='execDotToPng'
+103 parameters
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='dotFile'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='File'
+111 parameter (Parameter)
+112 isVarArgs='false'
+113 name (SimpleName)
+114 identifier='pngFile'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='File'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+12 17
+17 18
+18 19
+17 20
+20 21
+21 22
+12 23
+23 24
+12 25
+25 26
+26 27
+25 28
+28 29
+29 30
+7 31
+31 32
+6 33
+33 34
+6 35
+35 36
+35 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+41 50
+50 51
+51 52
+51 53
+53 54
+53 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+53 62
+62 63
+51 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+88 91
+91 92
+92 93
+84 94
+94 95
+95 96
+94 97
+97 98
+98 99
+0 100
+0 101
+101 102
+0 103
+103 104
+104 105
+104 106
+106 107
+104 108
+108 109
+109 110
+103 111
+111 112
+111 113
+113 114
+111 115
+115 116
+116 117
+
+Converts the given dot file to a png file at the specified location.  This method calls the program "dot" from Runtime.exec and will fail if "dot" is not on your class path.

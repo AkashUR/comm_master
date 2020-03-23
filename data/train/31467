@@ -1,0 +1,526 @@
+262
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createMemoryModel'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='JenaUtil'
+13 name (SimpleName)
+14 identifier='dataModel'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Model'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='read'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='dataModel'
+25 arguments
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getResourceAsStream'
+29 scope (ClassExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='ValidationExample'
+33 arguments
+34 argument (StringLiteralExpr)
+35 value='/sh/tests/core/property/class-001.test.ttl'
+36 argument (StringLiteralExpr)
+37 value='urn:dummy'
+38 argument (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='langTurtle'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='FileUtils'
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getSHACLModel'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='SHACLSystemModel'
+54 name (SimpleName)
+55 identifier='shaclModel'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='Model'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (ObjectCreationExpr)
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='MultiUnion'
+67 arguments
+68 argument (ArrayCreationExpr)
+69 elementType (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Graph'
+72 initializer (ArrayInitializerExpr)
+73 values
+74 value (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='getGraph'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='shaclModel'
+80 value (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getGraph'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='dataModel'
+86 levels
+87 level (ArrayCreationLevel)
+88 name (SimpleName)
+89 identifier='unionGraph'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='MultiUnion'
+93 statement (ExpressionStmt)
+94 expression (VariableDeclarationExpr)
+95 variables
+96 variable (VariableDeclarator)
+97 initializer (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='createModelForGraph'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='ModelFactory'
+103 arguments
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='unionGraph'
+107 name (SimpleName)
+108 identifier='shapesModel'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='Model'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='registerFunctions'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='SHACLFunctions'
+119 arguments
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='shapesModel'
+123 statement (ExpressionStmt)
+124 expression (VariableDeclarationExpr)
+125 variables
+126 variable (VariableDeclarator)
+127 initializer (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='create'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='URI'
+133 arguments
+134 argument (BinaryExpr)
+135 operator='PLUS'
+136 left (StringLiteralExpr)
+137 value='urn:x-shacl-shapes-graph:'
+138 right (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='toString'
+141 scope (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='randomUUID'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='UUID'
+147 name (SimpleName)
+148 identifier='shapesGraphURI'
+149 type (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='URI'
+152 statement (ExpressionStmt)
+153 expression (VariableDeclarationExpr)
+154 variables
+155 variable (VariableDeclarator)
+156 initializer (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='getDataset'
+159 scope (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='get'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='ARQFactory'
+165 arguments
+166 argument (NameExpr)
+167 name (SimpleName)
+168 identifier='dataModel'
+169 name (SimpleName)
+170 identifier='dataset'
+171 type (ClassOrInterfaceType)
+172 name (SimpleName)
+173 identifier='Dataset'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='addNamedModel'
+178 scope (NameExpr)
+179 name (SimpleName)
+180 identifier='dataset'
+181 arguments
+182 argument (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='toString'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='shapesGraphURI'
+188 argument (NameExpr)
+189 name (SimpleName)
+190 identifier='shapesModel'
+191 statement (ExpressionStmt)
+192 expression (VariableDeclarationExpr)
+193 variables
+194 variable (VariableDeclarator)
+195 initializer (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='validateModel'
+198 scope (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='get'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='ModelConstraintValidator'
+204 arguments
+205 argument (NameExpr)
+206 name (SimpleName)
+207 identifier='dataset'
+208 argument (NameExpr)
+209 name (SimpleName)
+210 identifier='shapesGraphURI'
+211 argument (NullLiteralExpr)
+212 argument (BooleanLiteralExpr)
+213 value='true'
+214 argument (NullLiteralExpr)
+215 argument (NullLiteralExpr)
+216 name (SimpleName)
+217 identifier='results'
+218 type (ClassOrInterfaceType)
+219 name (SimpleName)
+220 identifier='Model'
+221 statement (ExpressionStmt)
+222 expression (MethodCallExpr)
+223 name (SimpleName)
+224 identifier='println'
+225 scope (FieldAccessExpr)
+226 name (SimpleName)
+227 identifier='out'
+228 scope (NameExpr)
+229 name (SimpleName)
+230 identifier='System'
+231 arguments
+232 argument (MethodCallExpr)
+233 name (SimpleName)
+234 identifier='print'
+235 scope (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='get'
+238 scope (NameExpr)
+239 name (SimpleName)
+240 identifier='ModelPrinter'
+241 arguments
+242 argument (NameExpr)
+243 name (SimpleName)
+244 identifier='results'
+245 type (VoidType)
+246 name (SimpleName)
+247 identifier='main'
+248 parameters
+249 parameter (Parameter)
+250 isVarArgs='false'
+251 name (SimpleName)
+252 identifier='args'
+253 type (ArrayType)
+254 origin='TYPE'
+255 componentType (ClassOrInterfaceType)
+256 name (SimpleName)
+257 identifier='String'
+258 thrownExceptions
+259 thrownException (ClassOrInterfaceType)
+260 name (SimpleName)
+261 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+26 33
+33 34
+34 35
+25 36
+36 37
+25 38
+38 39
+39 40
+38 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+47 54
+54 55
+47 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+73 80
+80 81
+81 82
+80 83
+83 84
+84 85
+68 86
+86 87
+62 88
+88 89
+62 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+105 106
+96 107
+107 108
+96 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+127 133
+133 134
+134 135
+134 136
+136 137
+134 138
+138 139
+139 140
+138 141
+141 142
+142 143
+141 144
+144 145
+145 146
+126 147
+147 148
+126 149
+149 150
+150 151
+2 152
+152 153
+153 154
+154 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+159 162
+162 163
+163 164
+156 165
+165 166
+166 167
+167 168
+155 169
+169 170
+155 171
+171 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+175 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+181 188
+188 189
+189 190
+2 191
+191 192
+192 193
+193 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+195 204
+204 205
+205 206
+206 207
+204 208
+208 209
+209 210
+204 211
+204 212
+212 213
+204 214
+204 215
+194 216
+216 217
+194 218
+218 219
+219 220
+2 221
+221 222
+222 223
+223 224
+222 225
+225 226
+226 227
+225 228
+228 229
+229 230
+222 231
+231 232
+232 233
+233 234
+232 235
+235 236
+236 237
+235 238
+238 239
+239 240
+232 241
+241 242
+242 243
+243 244
+0 245
+0 246
+246 247
+0 248
+248 249
+249 250
+249 251
+251 252
+249 253
+253 254
+253 255
+255 256
+256 257
+0 258
+258 259
+259 260
+260 261
+
+Loads an example SHACL file and validates all constraints. This file can also be used as a starting point for your own custom applications.

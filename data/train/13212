@@ -1,0 +1,178 @@
+88
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='PointGenerator'
+11 name (SimpleName)
+12 identifier='pg'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='PointGenerator'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setGeometryFactory'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='pg'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='geometryFactory'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setBoundingBox'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='pg'
+34 arguments
+35 argument (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Envelope'
+39 arguments
+40 argument (IntegerLiteralExpr)
+41 value='0'
+42 argument (IntegerLiteralExpr)
+43 value='10'
+44 argument (IntegerLiteralExpr)
+45 value='0'
+46 argument (IntegerLiteralExpr)
+47 value='10'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 initializer (CastExpr)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='create'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='pg'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Point'
+62 name (SimpleName)
+63 identifier='pt'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Point'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='checkRoundTrip'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='pt'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='testSinglePointRoundTrip'
+78 thrownExceptions
+79 thrownException (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='SAXException'
+82 thrownException (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='IOException'
+85 thrownException (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='ParserConfigurationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+39 44
+44 45
+39 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+52 59
+59 60
+60 61
+51 62
+62 63
+51 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+0 75
+0 76
+76 77
+0 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+78 85
+85 86
+86 87
+
+Round Trip test for a single point

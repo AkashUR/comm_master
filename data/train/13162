@@ -1,0 +1,176 @@
+87
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getUID'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='world'
+13 name (SimpleName)
+14 identifier='worldUUID'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='UUID'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='putLong'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='compound'
+25 arguments
+26 argument (StringLiteralExpr)
+27 value='WorldUUIDMost'
+28 argument (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getMostSignificantBits'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='worldUUID'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='putLong'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='compound'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='WorldUUIDLeast'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getLeastSignificantBits'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='worldUUID'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='putInt'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='compound'
+57 arguments
+58 argument (StringLiteralExpr)
+59 value='Dimension'
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getId'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getEnvironment'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='world'
+69 type (VoidType)
+70 name (SimpleName)
+71 identifier='writeWorld'
+72 parameters
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='world'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='World'
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='compound'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='CompoundTag'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+57 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+0 69
+0 70
+70 71
+0 72
+72 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+72 80
+80 81
+80 82
+82 83
+80 84
+84 85
+85 86
+
+Save world identifiers (UUID and dimension) to a compound tag for later lookup.

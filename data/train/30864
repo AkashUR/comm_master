@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForeachStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='setInputValue'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='neuron'
+13 arguments
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 iterable (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getFlatNeuronList'
+19 scope (ThisExpr)
+20 variable (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 name (SimpleName)
+24 identifier='neuron'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Neuron'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='clearInputs'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+3 16
+16 17
+17 18
+16 19
+3 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+0 28
+0 29
+29 30
+
+Clears out input values of network nodes, which otherwise linger and cause problems.

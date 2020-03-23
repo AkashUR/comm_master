@@ -1,0 +1,604 @@
+301
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='build'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='newBuilder'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='FooRequest'
+16 name (SimpleName)
+17 identifier='fooRequest'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='FooRequest'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='build'
+28 scope (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='newBuilder'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='BarRequest'
+34 name (SimpleName)
+35 identifier='barRequest'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='BarRequest'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='MockCallback'
+47 typeArguments
+48 typeArgument (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='FooResponse'
+51 name (SimpleName)
+52 identifier='fooCallback'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='MockCallback'
+56 typeArguments
+57 typeArgument (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='FooResponse'
+60 statement (ExpressionStmt)
+61 expression (VariableDeclarationExpr)
+62 variables
+63 variable (VariableDeclarator)
+64 initializer (ObjectCreationExpr)
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='MockCallback'
+68 typeArguments
+69 typeArgument (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='BarResponse'
+72 name (SimpleName)
+73 identifier='barCallback'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='MockCallback'
+77 typeArguments
+78 typeArgument (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='BarResponse'
+81 statement (ExpressionStmt)
+82 expression (VariableDeclarationExpr)
+83 variables
+84 variable (VariableDeclarator)
+85 initializer (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='createMock'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='control'
+91 arguments
+92 argument (ClassExpr)
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='RpcChannel'
+96 name (SimpleName)
+97 identifier='mockChannel'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='RpcChannel'
+101 statement (ExpressionStmt)
+102 expression (VariableDeclarationExpr)
+103 variables
+104 variable (VariableDeclarator)
+105 initializer (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='newStub'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='TestService'
+111 arguments
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='mockChannel'
+115 name (SimpleName)
+116 identifier='stub'
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='TestService'
+120 statement (ExpressionStmt)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='callMethod'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='mockChannel'
+127 arguments
+128 argument (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='same'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='EasyMock'
+134 arguments
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='fooDescriptor'
+138 argument (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='same'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='EasyMock'
+144 arguments
+145 argument (NameExpr)
+146 name (SimpleName)
+147 identifier='mockController'
+148 argument (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='same'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='EasyMock'
+154 arguments
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='fooRequest'
+158 argument (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='same'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='EasyMock'
+164 arguments
+165 argument (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='getDefaultInstance'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='FooResponse'
+171 argument (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='wrapsCallback'
+174 scope (ThisExpr)
+175 arguments
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='fooCallback'
+179 typeArguments
+180 typeArgument (ClassOrInterfaceType)
+181 name (SimpleName)
+182 identifier='Message'
+183 statement (ExpressionStmt)
+184 expression (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='callMethod'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='mockChannel'
+190 arguments
+191 argument (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='same'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='EasyMock'
+197 arguments
+198 argument (NameExpr)
+199 name (SimpleName)
+200 identifier='barDescriptor'
+201 argument (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='same'
+204 scope (NameExpr)
+205 name (SimpleName)
+206 identifier='EasyMock'
+207 arguments
+208 argument (NameExpr)
+209 name (SimpleName)
+210 identifier='mockController'
+211 argument (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='same'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='EasyMock'
+217 arguments
+218 argument (NameExpr)
+219 name (SimpleName)
+220 identifier='barRequest'
+221 argument (MethodCallExpr)
+222 name (SimpleName)
+223 identifier='same'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='EasyMock'
+227 arguments
+228 argument (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='getDefaultInstance'
+231 scope (NameExpr)
+232 name (SimpleName)
+233 identifier='BarResponse'
+234 argument (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='wrapsCallback'
+237 scope (ThisExpr)
+238 arguments
+239 argument (NameExpr)
+240 name (SimpleName)
+241 identifier='barCallback'
+242 typeArguments
+243 typeArgument (ClassOrInterfaceType)
+244 name (SimpleName)
+245 identifier='Message'
+246 statement (ExpressionStmt)
+247 expression (MethodCallExpr)
+248 name (SimpleName)
+249 identifier='replay'
+250 scope (NameExpr)
+251 name (SimpleName)
+252 identifier='control'
+253 statement (ExpressionStmt)
+254 expression (MethodCallExpr)
+255 name (SimpleName)
+256 identifier='foo'
+257 scope (NameExpr)
+258 name (SimpleName)
+259 identifier='stub'
+260 arguments
+261 argument (NameExpr)
+262 name (SimpleName)
+263 identifier='mockController'
+264 argument (NameExpr)
+265 name (SimpleName)
+266 identifier='fooRequest'
+267 argument (NameExpr)
+268 name (SimpleName)
+269 identifier='fooCallback'
+270 statement (ExpressionStmt)
+271 expression (MethodCallExpr)
+272 name (SimpleName)
+273 identifier='bar'
+274 scope (NameExpr)
+275 name (SimpleName)
+276 identifier='stub'
+277 arguments
+278 argument (NameExpr)
+279 name (SimpleName)
+280 identifier='mockController'
+281 argument (NameExpr)
+282 name (SimpleName)
+283 identifier='barRequest'
+284 argument (NameExpr)
+285 name (SimpleName)
+286 identifier='barCallback'
+287 statement (ExpressionStmt)
+288 expression (MethodCallExpr)
+289 name (SimpleName)
+290 identifier='verify'
+291 scope (NameExpr)
+292 name (SimpleName)
+293 identifier='control'
+294 type (VoidType)
+295 name (SimpleName)
+296 identifier='testStub'
+297 thrownExceptions
+298 thrownException (ClassOrInterfaceType)
+299 name (SimpleName)
+300 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+24 34
+34 35
+24 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+42 51
+51 52
+42 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+63 72
+72 73
+63 74
+74 75
+75 76
+74 77
+77 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+94 95
+84 96
+96 97
+84 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+105 111
+111 112
+112 113
+113 114
+104 115
+115 116
+104 117
+117 118
+118 119
+2 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+135 136
+136 137
+127 138
+138 139
+139 140
+138 141
+141 142
+142 143
+138 144
+144 145
+145 146
+146 147
+127 148
+148 149
+149 150
+148 151
+151 152
+152 153
+148 154
+154 155
+155 156
+156 157
+127 158
+158 159
+159 160
+158 161
+161 162
+162 163
+158 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+127 171
+171 172
+172 173
+171 174
+171 175
+175 176
+176 177
+177 178
+171 179
+179 180
+180 181
+181 182
+2 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+184 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+191 197
+197 198
+198 199
+199 200
+190 201
+201 202
+202 203
+201 204
+204 205
+205 206
+201 207
+207 208
+208 209
+209 210
+190 211
+211 212
+212 213
+211 214
+214 215
+215 216
+211 217
+217 218
+218 219
+219 220
+190 221
+221 222
+222 223
+221 224
+224 225
+225 226
+221 227
+227 228
+228 229
+229 230
+228 231
+231 232
+232 233
+190 234
+234 235
+235 236
+234 237
+234 238
+238 239
+239 240
+240 241
+234 242
+242 243
+243 244
+244 245
+2 246
+246 247
+247 248
+248 249
+247 250
+250 251
+251 252
+2 253
+253 254
+254 255
+255 256
+254 257
+257 258
+258 259
+254 260
+260 261
+261 262
+262 263
+260 264
+264 265
+265 266
+260 267
+267 268
+268 269
+2 270
+270 271
+271 272
+272 273
+271 274
+274 275
+275 276
+271 277
+277 278
+278 279
+279 280
+277 281
+281 282
+282 283
+277 284
+284 285
+285 286
+2 287
+287 288
+288 289
+289 290
+288 291
+291 292
+292 293
+0 294
+0 295
+295 296
+0 297
+297 298
+298 299
+299 300
+
+Tests generated stubs.

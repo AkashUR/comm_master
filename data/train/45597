@@ -1,0 +1,138 @@
+68
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='source'
+9 argument (ConditionalExpr)
+10 condition (EnclosedExpr)
+11 inner (BinaryExpr)
+12 operator='EQUALS'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='path'
+16 right (NullLiteralExpr)
+17 elseExpr (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='TreePath'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='path'
+25 thenExpr (NullLiteralExpr)
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='childIndices'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='children'
+32 name (SimpleName)
+33 identifier='TreeModelEvent'
+34 parameters
+35 parameter (Parameter)
+36 isVarArgs='false'
+37 name (SimpleName)
+38 identifier='source'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Object'
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='path'
+46 type (ArrayType)
+47 origin='TYPE'
+48 componentType (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Object'
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='childIndices'
+55 type (ArrayType)
+56 origin='TYPE'
+57 componentType (PrimitiveType)
+58 type='INT'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='children'
+63 type (ArrayType)
+64 origin='TYPE'
+65 componentType (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+9 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+23 24
+9 25
+5 26
+26 27
+27 28
+5 29
+29 30
+30 31
+0 32
+32 33
+0 34
+34 35
+35 36
+35 37
+37 38
+35 39
+39 40
+40 41
+34 42
+42 43
+42 44
+44 45
+42 46
+46 47
+46 48
+48 49
+49 50
+34 51
+51 52
+51 53
+53 54
+51 55
+55 56
+55 57
+57 58
+34 59
+59 60
+59 61
+61 62
+59 63
+63 64
+63 65
+65 66
+66 67
+
+Used to create an event when nodes have been changed, inserted, or removed, identifying the path to the parent of the modified items as an array of Objects. All of the modified objects are siblings which are direct descendents (not grandchildren) of the specified parent. The positions at which the inserts, deletes, or changes occurred are specified by an array of <code>int</code>. The indexes in that array must be in order, from lowest to highest. <p> For changes, the indexes in the model correspond exactly to the indexes of items currently displayed in the UI. As a result, it is not really critical if the indexes are not in their exact order. But after multiple inserts or deletes, the items currently in the UI no longer correspond to the items in the model. It is therefore critical to specify the indexes properly for inserts and deletes. <p> For inserts, the indexes represent the <i>final</i> state of the tree, after the inserts have occurred. Since the indexes must be specified in order, the most natural processing methodology is to do the inserts starting at the lowest index and working towards the highest. Accumulate a Vector of <code>Integer</code> objects that specify the insert-locations as you go, then convert the Vector to an array of <code>int</code> to create the event. When the postition-index equals zero, the node is inserted at the beginning of the list. When the position index equals the size of the list, the node is "inserted" at (appended to) the end of the list. <p> For deletes, the indexes represent the <i>initial</i> state of the tree, before the deletes have occurred. Since the indexes must be specified in order, the most natural processing methodology is to use a delete-counter. Start by initializing the counter to zero and start work through the list from lowest to highest. Every time you do a delete, add the current value of the delete-counter to the index-position where the delete occurred, and append the result to a Vector of delete-locations, using <code>addElement()</code>. Then increment the delete-counter. The index positions stored in the Vector therefore reflect the effects of all previous deletes, so they represent each object's position in the initial tree. (You could also start at the highest index and working back towards the lowest, accumulating a Vector of delete-locations as you go using the <code>insertElementAt(Integer, 0)</code>.) However you produce the Vector of initial-positions, you then need to convert the Vector of <code>Integer</code> objects to an array of <code>int</code> to create the event. <p> <b>Notes:</b><ul style="list-style-type:none"> <li>Like the <code>insertNodeInto</code> method in the <code>DefaultTreeModel</code> class, <code>insertElementAt</code> appends to the <code>Vector</code> when the index matches the size of the vector. So you can use <code>insertElementAt(Integer, 0)</code> even when the vector is empty.</li> <li>To create a node changed event for the root node, specify the parent and the child indices as <code>null</code>.</li> </ul>

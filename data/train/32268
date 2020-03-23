@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (ArrayAccessExpr)
+7 index (NameExpr)
+8 name (SimpleName)
+9 identifier='putIndex'
+10 name (NameExpr)
+11 name (SimpleName)
+12 identifier='items'
+13 value (NameExpr)
+14 name (SimpleName)
+15 identifier='x'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='putIndex'
+22 value (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='inc'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='putIndex'
+29 statement (ExpressionStmt)
+30 expression (UnaryExpr)
+31 operator='PREFIX_INCREMENT'
+32 expression (NameExpr)
+33 name (SimpleName)
+34 identifier='count'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='signal'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='notEmpty'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='insert'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='x'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='E'
+53 annotations
+54 annotation (SingleMemberAnnotationExpr)
+55 memberValue (StringLiteralExpr)
+56 value='Private Method'
+57 name (Name)
+58 identifier='DSComment'
+59 annotation (SingleMemberAnnotationExpr)
+60 memberValue (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='PRIVATE_METHOD'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='DSCat'
+66 name (Name)
+67 identifier='DSBan'
+68 annotation (NormalAnnotationExpr)
+69 name (Name)
+70 identifier='DSGenerator'
+71 pairs
+72 pair (MemberValuePair)
+73 name (SimpleName)
+74 identifier='tool_name'
+75 value (StringLiteralExpr)
+76 value='Doppelganger'
+77 pair (MemberValuePair)
+78 name (SimpleName)
+79 identifier='tool_version'
+80 value (StringLiteralExpr)
+81 value='2.0'
+82 pair (MemberValuePair)
+83 name (SimpleName)
+84 identifier='generated_on'
+85 value (StringLiteralExpr)
+86 value='2013-12-30 12:57:18.795 -0500'
+87 pair (MemberValuePair)
+88 name (SimpleName)
+89 identifier='hash_original_method'
+90 value (StringLiteralExpr)
+91 value='7F66A086F3C39CFEE464DF3F42EF745A'
+92 pair (MemberValuePair)
+93 name (SimpleName)
+94 identifier='hash_generated_method'
+95 value (StringLiteralExpr)
+96 value='152ACD5881167BAF4D8198736BB8899F'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+8 9
+6 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+0 53
+53 54
+54 55
+55 56
+54 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+59 66
+66 67
+53 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+72 75
+75 76
+71 77
+77 78
+78 79
+77 80
+80 81
+71 82
+82 83
+83 84
+82 85
+85 86
+71 87
+87 88
+88 89
+87 90
+90 91
+71 92
+92 93
+93 94
+92 95
+95 96
+
+Inserts element at current put position, advances, and signals. Call only when holding lock.

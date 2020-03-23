@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (UnaryExpr)
+5 operator='POSTFIX_INCREMENT'
+6 expression (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='total'
+9 scope (ThisExpr)
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='incrementSynchronizedMethod'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+0 10
+0 11
+11 12
+
+Cannot fail, since this method can only be run once at a time. This is the second best method in this case after AtomicInteger, because it is the least verbose and very lightweight.

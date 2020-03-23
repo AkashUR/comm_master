@@ -1,0 +1,380 @@
+189
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='uploadConfigSet'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='cluster'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='resolve'
+14 scope (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='resolve'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='TEST_PATH'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='SolrTestCaseJ4'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='collection1'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='conf'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='CONF_NAME'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='checkCreateCollection'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='cluster'
+40 argument (StringLiteralExpr)
+41 value='first_collection'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='checkClusterJettys'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='cluster'
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='sslConfig'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='stopJettySolrRunner'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='cluster'
+63 arguments
+64 argument (IntegerLiteralExpr)
+65 value='0'
+66 name (SimpleName)
+67 identifier='stoppedServer'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='JettySolrRunner'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='assertTrue'
+75 arguments
+76 argument (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='isStopped'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='stoppedServer'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='assertEquals'
+86 arguments
+87 argument (BinaryExpr)
+88 operator='MINUS'
+89 left (NameExpr)
+90 name (SimpleName)
+91 identifier='NUM_SERVERS'
+92 right (IntegerLiteralExpr)
+93 value='1'
+94 argument (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='size'
+97 scope (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getJettySolrRunners'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='cluster'
+103 statement (ExpressionStmt)
+104 expression (VariableDeclarationExpr)
+105 variables
+106 variable (VariableDeclarator)
+107 initializer (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='startJettySolrRunner'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='cluster'
+113 name (SimpleName)
+114 identifier='startedServer'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='JettySolrRunner'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='assertTrue'
+122 arguments
+123 argument (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='isRunning'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='startedServer'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='assertEquals'
+133 arguments
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='NUM_SERVERS'
+137 argument (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='size'
+140 scope (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='getJettySolrRunners'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='cluster'
+146 statement (ExpressionStmt)
+147 expression (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='checkClusterJettys'
+150 arguments
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='cluster'
+154 argument (NameExpr)
+155 name (SimpleName)
+156 identifier='sslConfig'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='checkCreateCollection'
+161 arguments
+162 argument (NameExpr)
+163 name (SimpleName)
+164 identifier='cluster'
+165 argument (StringLiteralExpr)
+166 value='second_collection'
+167 type (VoidType)
+168 name (SimpleName)
+169 identifier='checkClusterWithCollectionCreations'
+170 parameters
+171 parameter (Parameter)
+172 isVarArgs='false'
+173 name (SimpleName)
+174 identifier='cluster'
+175 type (ClassOrInterfaceType)
+176 name (SimpleName)
+177 identifier='MiniSolrCloudCluster'
+178 parameter (Parameter)
+179 isVarArgs='false'
+180 name (SimpleName)
+181 identifier='sslConfig'
+182 type (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='SSLTestConfig'
+185 thrownExceptions
+186 thrownException (ClassOrInterfaceType)
+187 name (SimpleName)
+188 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+14 23
+23 24
+24 25
+11 26
+26 27
+27 28
+10 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+36 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+48 49
+46 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+56 66
+66 67
+56 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+87 89
+89 90
+90 91
+87 92
+92 93
+86 94
+94 95
+95 96
+94 97
+97 98
+98 99
+97 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+106 113
+113 114
+106 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+135 136
+133 137
+137 138
+138 139
+137 140
+140 141
+141 142
+140 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+152 153
+150 154
+154 155
+155 156
+2 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+163 164
+161 165
+165 166
+0 167
+0 168
+168 169
+0 170
+170 171
+171 172
+171 173
+173 174
+171 175
+175 176
+176 177
+170 178
+178 179
+178 180
+180 181
+178 182
+182 183
+183 184
+0 185
+185 186
+186 187
+187 188
+
+General purpose cluster sanity check... <ol> <li>Upload a config set</li> <li>verifies a collection can be created</li> <li>verifies many things that should succeed/fail when communicating with the cluster according to the specified sslConfig</li> <li>shutdown a server &amp; startup a new one in it's place</li> <li>repeat the verifications of ssl / no-ssl communication</li> <li>create a second collection</li> </ol>

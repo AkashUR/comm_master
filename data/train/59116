@@ -1,0 +1,120 @@
+59
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='store'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='operation'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='user'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='iteratorSettings'
+18 name (SimpleName)
+19 identifier='AccumuloSingleIDRetriever'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='store'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='AccumuloStore'
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='operation'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='GetOperation'
+35 typeArguments
+36 typeArgument (WildcardType)
+37 extendedType (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='ElementSeed'
+40 typeArgument (WildcardType)
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='user'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='User'
+48 parameter (Parameter)
+49 isVarArgs='true'
+50 name (SimpleName)
+51 identifier='iteratorSettings'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='IteratorSetting'
+55 thrownExceptions
+56 thrownException (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='StoreException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+5 15
+15 16
+16 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+20 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+38 39
+35 40
+20 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+20 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+0 55
+55 56
+56 57
+57 58
+
+Use of the varargs parameter here will mean the usual default iterators wont be applied, (Edge Direction,Edge/Entity TypeDefinition and View Filtering) To apply them pass them directly to the varargs via calling your keyPackage.getIteratorFactory() and either getElementFilterIteratorSetting and/Or getEdgeEntityDirectionFilterIteratorSetting

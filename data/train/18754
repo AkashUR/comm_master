@@ -1,0 +1,160 @@
+79
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='exampleSet'
+9 argument (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Partition'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='numberOfSubsets'
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='size'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='exampleSet'
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='createPartitionBuilder'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='exampleSet'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='samplingType'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='useLocalRandomSeed'
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='seed'
+39 argument (BooleanLiteralExpr)
+40 value='true'
+41 name (SimpleName)
+42 identifier='SplittedExampleSet'
+43 parameters
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='exampleSet'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='ExampleSet'
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='numberOfSubsets'
+55 type (PrimitiveType)
+56 type='INT'
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='samplingType'
+61 type (PrimitiveType)
+62 type='INT'
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='useLocalRandomSeed'
+67 type (PrimitiveType)
+68 type='BOOLEAN'
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='seed'
+73 type (PrimitiveType)
+74 type='INT'
+75 thrownExceptions
+76 thrownException (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='UserError'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+13 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+26 33
+33 34
+34 35
+26 36
+36 37
+37 38
+26 39
+39 40
+0 41
+41 42
+0 43
+43 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+43 51
+51 52
+51 53
+53 54
+51 55
+55 56
+43 57
+57 58
+57 59
+59 60
+57 61
+61 62
+43 63
+63 64
+63 65
+65 66
+63 67
+67 68
+43 69
+69 70
+69 71
+71 72
+69 73
+73 74
+0 75
+75 76
+76 77
+77 78
+
+Creates an example set that is splitted into <i>numberOfSubsets</i> parts with the given sampling type.

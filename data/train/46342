@@ -1,0 +1,714 @@
+356
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='element'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Element'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='attribute1'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Attr'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='attribute2'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Attr'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 name (SimpleName)
+44 identifier='newAttribute1'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Attr'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 name (SimpleName)
+53 identifier='newAttribute2'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Attr'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 name (SimpleName)
+62 identifier='attribute'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Attr'
+66 statement (ExpressionStmt)
+67 expression (VariableDeclarationExpr)
+68 variables
+69 variable (VariableDeclarator)
+70 name (SimpleName)
+71 identifier='attrValue'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='String'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 name (SimpleName)
+80 identifier='attrName'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='String'
+84 statement (ExpressionStmt)
+85 expression (VariableDeclarationExpr)
+86 variables
+87 variable (VariableDeclarator)
+88 name (SimpleName)
+89 identifier='attNodeName'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='String'
+93 statement (ExpressionStmt)
+94 expression (VariableDeclarationExpr)
+95 variables
+96 variable (VariableDeclarator)
+97 name (SimpleName)
+98 identifier='attrLocalName'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='String'
+102 statement (ExpressionStmt)
+103 expression (VariableDeclarationExpr)
+104 variables
+105 variable (VariableDeclarator)
+106 name (SimpleName)
+107 identifier='attrNS'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='String'
+111 statement (ExpressionStmt)
+112 expression (AssignExpr)
+113 operator='ASSIGN'
+114 target (NameExpr)
+115 name (SimpleName)
+116 identifier='doc'
+117 value (CastExpr)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='load'
+121 arguments
+122 argument (StringLiteralExpr)
+123 value='staffNS'
+124 argument (BooleanLiteralExpr)
+125 value='false'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='Document'
+129 statement (ExpressionStmt)
+130 expression (AssignExpr)
+131 operator='ASSIGN'
+132 target (NameExpr)
+133 name (SimpleName)
+134 identifier='element'
+135 value (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='createElementNS'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='doc'
+141 arguments
+142 argument (StringLiteralExpr)
+143 value='namespaceURI'
+144 argument (StringLiteralExpr)
+145 value='root'
+146 statement (ExpressionStmt)
+147 expression (AssignExpr)
+148 operator='ASSIGN'
+149 target (NameExpr)
+150 name (SimpleName)
+151 identifier='attribute1'
+152 value (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='createAttributeNS'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='doc'
+158 arguments
+159 argument (StringLiteralExpr)
+160 value='http://www.w3.org/DOM/Level2'
+161 argument (StringLiteralExpr)
+162 value='l2:att'
+163 statement (ExpressionStmt)
+164 expression (AssignExpr)
+165 operator='ASSIGN'
+166 target (NameExpr)
+167 name (SimpleName)
+168 identifier='newAttribute1'
+169 value (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='setAttributeNodeNS'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='element'
+175 arguments
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='attribute1'
+179 statement (ExpressionStmt)
+180 expression (AssignExpr)
+181 operator='ASSIGN'
+182 target (NameExpr)
+183 name (SimpleName)
+184 identifier='attribute2'
+185 value (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='createAttributeNS'
+188 scope (NameExpr)
+189 name (SimpleName)
+190 identifier='doc'
+191 arguments
+192 argument (StringLiteralExpr)
+193 value='http://www.w3.org/DOM/Level1'
+194 argument (StringLiteralExpr)
+195 value='att'
+196 statement (ExpressionStmt)
+197 expression (AssignExpr)
+198 operator='ASSIGN'
+199 target (NameExpr)
+200 name (SimpleName)
+201 identifier='newAttribute2'
+202 value (MethodCallExpr)
+203 name (SimpleName)
+204 identifier='setAttributeNodeNS'
+205 scope (NameExpr)
+206 name (SimpleName)
+207 identifier='element'
+208 arguments
+209 argument (NameExpr)
+210 name (SimpleName)
+211 identifier='attribute2'
+212 statement (ExpressionStmt)
+213 expression (AssignExpr)
+214 operator='ASSIGN'
+215 target (NameExpr)
+216 name (SimpleName)
+217 identifier='attribute'
+218 value (MethodCallExpr)
+219 name (SimpleName)
+220 identifier='getAttributeNodeNS'
+221 scope (NameExpr)
+222 name (SimpleName)
+223 identifier='element'
+224 arguments
+225 argument (StringLiteralExpr)
+226 value='http://www.w3.org/DOM/Level2'
+227 argument (StringLiteralExpr)
+228 value='att'
+229 statement (ExpressionStmt)
+230 expression (AssignExpr)
+231 operator='ASSIGN'
+232 target (NameExpr)
+233 name (SimpleName)
+234 identifier='attrValue'
+235 value (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='getNodeValue'
+238 scope (NameExpr)
+239 name (SimpleName)
+240 identifier='attribute'
+241 statement (ExpressionStmt)
+242 expression (AssignExpr)
+243 operator='ASSIGN'
+244 target (NameExpr)
+245 name (SimpleName)
+246 identifier='attrName'
+247 value (MethodCallExpr)
+248 name (SimpleName)
+249 identifier='getName'
+250 scope (NameExpr)
+251 name (SimpleName)
+252 identifier='attribute'
+253 statement (ExpressionStmt)
+254 expression (AssignExpr)
+255 operator='ASSIGN'
+256 target (NameExpr)
+257 name (SimpleName)
+258 identifier='attNodeName'
+259 value (MethodCallExpr)
+260 name (SimpleName)
+261 identifier='getNodeName'
+262 scope (NameExpr)
+263 name (SimpleName)
+264 identifier='attribute'
+265 statement (ExpressionStmt)
+266 expression (AssignExpr)
+267 operator='ASSIGN'
+268 target (NameExpr)
+269 name (SimpleName)
+270 identifier='attrLocalName'
+271 value (MethodCallExpr)
+272 name (SimpleName)
+273 identifier='getLocalName'
+274 scope (NameExpr)
+275 name (SimpleName)
+276 identifier='attribute'
+277 statement (ExpressionStmt)
+278 expression (AssignExpr)
+279 operator='ASSIGN'
+280 target (NameExpr)
+281 name (SimpleName)
+282 identifier='attrNS'
+283 value (MethodCallExpr)
+284 name (SimpleName)
+285 identifier='getNamespaceURI'
+286 scope (NameExpr)
+287 name (SimpleName)
+288 identifier='attribute'
+289 statement (ExpressionStmt)
+290 expression (MethodCallExpr)
+291 name (SimpleName)
+292 identifier='assertEquals'
+293 arguments
+294 argument (StringLiteralExpr)
+295 value='elementgetattributenodens01_attrValue'
+296 argument (StringLiteralExpr)
+297 value=''
+298 argument (NameExpr)
+299 name (SimpleName)
+300 identifier='attrValue'
+301 statement (ExpressionStmt)
+302 expression (MethodCallExpr)
+303 name (SimpleName)
+304 identifier='assertEquals'
+305 arguments
+306 argument (StringLiteralExpr)
+307 value='elementgetattributenodens01_attrName'
+308 argument (StringLiteralExpr)
+309 value='l2:att'
+310 argument (NameExpr)
+311 name (SimpleName)
+312 identifier='attrName'
+313 statement (ExpressionStmt)
+314 expression (MethodCallExpr)
+315 name (SimpleName)
+316 identifier='assertEquals'
+317 arguments
+318 argument (StringLiteralExpr)
+319 value='elementgetattributenodens01_attrNodeName'
+320 argument (StringLiteralExpr)
+321 value='l2:att'
+322 argument (NameExpr)
+323 name (SimpleName)
+324 identifier='attNodeName'
+325 statement (ExpressionStmt)
+326 expression (MethodCallExpr)
+327 name (SimpleName)
+328 identifier='assertEquals'
+329 arguments
+330 argument (StringLiteralExpr)
+331 value='elementgetattributenodens01_attrLocalName'
+332 argument (StringLiteralExpr)
+333 value='att'
+334 argument (NameExpr)
+335 name (SimpleName)
+336 identifier='attrLocalName'
+337 statement (ExpressionStmt)
+338 expression (MethodCallExpr)
+339 name (SimpleName)
+340 identifier='assertEquals'
+341 arguments
+342 argument (StringLiteralExpr)
+343 value='elementgetattributenodens01_attrNs'
+344 argument (StringLiteralExpr)
+345 value='http://www.w3.org/DOM/Level2'
+346 argument (NameExpr)
+347 name (SimpleName)
+348 identifier='attrNS'
+349 type (VoidType)
+350 name (SimpleName)
+351 identifier='runTest'
+352 thrownExceptions
+353 thrownException (ClassOrInterfaceType)
+354 name (SimpleName)
+355 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+2 111
+111 112
+112 113
+112 114
+114 115
+115 116
+112 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+121 124
+124 125
+117 126
+126 127
+127 128
+2 129
+129 130
+130 131
+130 132
+132 133
+133 134
+130 135
+135 136
+136 137
+135 138
+138 139
+139 140
+135 141
+141 142
+142 143
+141 144
+144 145
+2 146
+146 147
+147 148
+147 149
+149 150
+150 151
+147 152
+152 153
+153 154
+152 155
+155 156
+156 157
+152 158
+158 159
+159 160
+158 161
+161 162
+2 163
+163 164
+164 165
+164 166
+166 167
+167 168
+164 169
+169 170
+170 171
+169 172
+172 173
+173 174
+169 175
+175 176
+176 177
+177 178
+2 179
+179 180
+180 181
+180 182
+182 183
+183 184
+180 185
+185 186
+186 187
+185 188
+188 189
+189 190
+185 191
+191 192
+192 193
+191 194
+194 195
+2 196
+196 197
+197 198
+197 199
+199 200
+200 201
+197 202
+202 203
+203 204
+202 205
+205 206
+206 207
+202 208
+208 209
+209 210
+210 211
+2 212
+212 213
+213 214
+213 215
+215 216
+216 217
+213 218
+218 219
+219 220
+218 221
+221 222
+222 223
+218 224
+224 225
+225 226
+224 227
+227 228
+2 229
+229 230
+230 231
+230 232
+232 233
+233 234
+230 235
+235 236
+236 237
+235 238
+238 239
+239 240
+2 241
+241 242
+242 243
+242 244
+244 245
+245 246
+242 247
+247 248
+248 249
+247 250
+250 251
+251 252
+2 253
+253 254
+254 255
+254 256
+256 257
+257 258
+254 259
+259 260
+260 261
+259 262
+262 263
+263 264
+2 265
+265 266
+266 267
+266 268
+268 269
+269 270
+266 271
+271 272
+272 273
+271 274
+274 275
+275 276
+2 277
+277 278
+278 279
+278 280
+280 281
+281 282
+278 283
+283 284
+284 285
+283 286
+286 287
+287 288
+2 289
+289 290
+290 291
+291 292
+290 293
+293 294
+294 295
+293 296
+296 297
+293 298
+298 299
+299 300
+2 301
+301 302
+302 303
+303 304
+302 305
+305 306
+306 307
+305 308
+308 309
+305 310
+310 311
+311 312
+2 313
+313 314
+314 315
+315 316
+314 317
+317 318
+318 319
+317 320
+320 321
+317 322
+322 323
+323 324
+2 325
+325 326
+326 327
+327 328
+326 329
+329 330
+330 331
+329 332
+332 333
+329 334
+334 335
+335 336
+2 337
+337 338
+338 339
+339 340
+338 341
+341 342
+342 343
+341 344
+344 345
+341 346
+346 347
+347 348
+0 349
+0 350
+350 351
+0 352
+352 353
+353 354
+354 355
+
+Runs the test case.

@@ -1,0 +1,354 @@
+176
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='n'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='numVertices'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='capacity'
+18 value (ArrayCreationExpr)
+19 elementType (PrimitiveType)
+20 type='INT'
+21 levels
+22 level (ArrayCreationLevel)
+23 dimension (NameExpr)
+24 name (SimpleName)
+25 identifier='n'
+26 level (ArrayCreationLevel)
+27 dimension (NameExpr)
+28 name (SimpleName)
+29 identifier='n'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='flow'
+36 value (ArrayCreationExpr)
+37 elementType (PrimitiveType)
+38 type='INT'
+39 levels
+40 level (ArrayCreationLevel)
+41 dimension (NameExpr)
+42 name (SimpleName)
+43 identifier='n'
+44 level (ArrayCreationLevel)
+45 dimension (NameExpr)
+46 name (SimpleName)
+47 identifier='n'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (NameExpr)
+52 name (SimpleName)
+53 identifier='previous'
+54 value (ArrayCreationExpr)
+55 elementType (PrimitiveType)
+56 type='INT'
+57 levels
+58 level (ArrayCreationLevel)
+59 dimension (NameExpr)
+60 name (SimpleName)
+61 identifier='n'
+62 statement (ExpressionStmt)
+63 expression (AssignExpr)
+64 operator='ASSIGN'
+65 target (NameExpr)
+66 name (SimpleName)
+67 identifier='visited'
+68 value (ArrayCreationExpr)
+69 elementType (PrimitiveType)
+70 type='INT'
+71 levels
+72 level (ArrayCreationLevel)
+73 dimension (NameExpr)
+74 name (SimpleName)
+75 identifier='n'
+76 statement (ExpressionStmt)
+77 expression (AssignExpr)
+78 operator='ASSIGN'
+79 target (NameExpr)
+80 name (SimpleName)
+81 identifier='source'
+82 value (NameExpr)
+83 name (SimpleName)
+84 identifier='srcIndex'
+85 statement (ExpressionStmt)
+86 expression (AssignExpr)
+87 operator='ASSIGN'
+88 target (NameExpr)
+89 name (SimpleName)
+90 identifier='sink'
+91 value (NameExpr)
+92 name (SimpleName)
+93 identifier='sinkIndex'
+94 statement (WhileStmt)
+95 body (BlockStmt)
+96 statements
+97 statement (ExpressionStmt)
+98 expression (VariableDeclarationExpr)
+99 variables
+100 variable (VariableDeclarator)
+101 initializer (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='next'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='edges'
+107 name (SimpleName)
+108 identifier='ei'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='EdgeInfo'
+112 statement (ExpressionStmt)
+113 expression (AssignExpr)
+114 operator='ASSIGN'
+115 target (ArrayAccessExpr)
+116 index (FieldAccessExpr)
+117 name (SimpleName)
+118 identifier='end'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='ei'
+122 name (ArrayAccessExpr)
+123 index (FieldAccessExpr)
+124 name (SimpleName)
+125 identifier='start'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='ei'
+129 name (NameExpr)
+130 name (SimpleName)
+131 identifier='capacity'
+132 value (FieldAccessExpr)
+133 name (SimpleName)
+134 identifier='capacity'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='ei'
+138 condition (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='hasNext'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='edges'
+144 name (SimpleName)
+145 identifier='OptimizedFlowNetwork'
+146 parameters
+147 parameter (Parameter)
+148 isVarArgs='false'
+149 name (SimpleName)
+150 identifier='numVertices'
+151 type (PrimitiveType)
+152 type='INT'
+153 parameter (Parameter)
+154 isVarArgs='false'
+155 name (SimpleName)
+156 identifier='srcIndex'
+157 type (PrimitiveType)
+158 type='INT'
+159 parameter (Parameter)
+160 isVarArgs='false'
+161 name (SimpleName)
+162 identifier='sinkIndex'
+163 type (PrimitiveType)
+164 type='INT'
+165 parameter (Parameter)
+166 isVarArgs='false'
+167 name (SimpleName)
+168 identifier='edges'
+169 type (ClassOrInterfaceType)
+170 name (SimpleName)
+171 identifier='Iterator'
+172 typeArguments
+173 typeArgument (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='EdgeInfo'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+18 21
+21 22
+22 23
+23 24
+24 25
+21 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+42 43
+39 44
+44 45
+45 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+49 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+60 61
+2 62
+62 63
+63 64
+63 65
+65 66
+66 67
+63 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+74 75
+2 76
+76 77
+77 78
+77 79
+79 80
+80 81
+77 82
+82 83
+83 84
+2 85
+85 86
+86 87
+86 88
+88 89
+89 90
+86 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+97 98
+98 99
+99 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+100 107
+107 108
+100 109
+109 110
+110 111
+96 112
+112 113
+113 114
+113 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+115 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+122 129
+129 130
+130 131
+113 132
+132 133
+133 134
+132 135
+135 136
+136 137
+94 138
+138 139
+139 140
+138 141
+141 142
+142 143
+0 144
+144 145
+0 146
+146 147
+147 148
+147 149
+149 150
+147 151
+151 152
+146 153
+153 154
+153 155
+155 156
+153 157
+157 158
+146 159
+159 160
+159 161
+161 162
+159 163
+163 164
+146 165
+165 166
+165 167
+167 168
+165 169
+169 170
+170 171
+169 172
+172 173
+173 174
+174 175
+
+Construct an instance of the FlowNetwork problem using optimized array structure to solve problem. <p> We use the same input representation so we can properly compare the performance of this implementation.

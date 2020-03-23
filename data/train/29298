@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='pktStat'
+9 value (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='COMPLEMENT'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='PacketStatus'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='writeChar'
+19 arguments
+20 argument (CastExpr)
+21 expression (UnaryExpr)
+22 operator='BITWISE_COMPLEMENT'
+23 expression (NameExpr)
+24 name (SimpleName)
+25 identifier='lastByte'
+26 type (PrimitiveType)
+27 type='CHAR'
+28 argument (BooleanLiteralExpr)
+29 value='true'
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='confirmByte'
+33 parameters
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='lastByte'
+38 type (PrimitiveType)
+39 type='CHAR'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+21 23
+23 24
+24 25
+20 26
+26 27
+19 28
+28 29
+0 30
+0 31
+31 32
+0 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+
+confirm reception of last byte by sending complement of it back

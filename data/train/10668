@@ -1,0 +1,276 @@
+137
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getConnection'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='DriverManager'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (NameExpr)
+17 name (SimpleName)
+18 identifier='url'
+19 right (StringLiteralExpr)
+20 value='postgres'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='databaseProperties'
+24 name (SimpleName)
+25 identifier='connection'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Connection'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='execute'
+33 scope (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='prepareStatement'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='connection'
+39 arguments
+40 argument (StringLiteralExpr)
+41 value='DROP DATABASE IF EXISTS test_disassembly'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='execute'
+46 scope (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='prepareStatement'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='connection'
+52 arguments
+53 argument (StringLiteralExpr)
+54 value='DROP DATABASE IF EXISTS test_import'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='execute'
+59 scope (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='prepareStatement'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='connection'
+65 arguments
+66 argument (StringLiteralExpr)
+67 value='DROP DATABASE IF EXISTS test_empty'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='execute'
+72 scope (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='prepareStatement'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='connection'
+78 arguments
+79 argument (StringLiteralExpr)
+80 value='CREATE DATABASE test_disassembly'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='execute'
+85 scope (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='prepareStatement'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='connection'
+91 arguments
+92 argument (StringLiteralExpr)
+93 value='CREATE DATABASE test_import'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='execute'
+98 scope (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='prepareStatement'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='connection'
+104 arguments
+105 argument (StringLiteralExpr)
+106 value='CREATE DATABASE test_empty'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='close'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='connection'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='createDatabase'
+118 arguments
+119 argument (NameExpr)
+120 name (SimpleName)
+121 identifier='TEST_IMPORT'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='createDatabase'
+126 arguments
+127 argument (NameExpr)
+128 name (SimpleName)
+129 identifier='TEST_DISASSEMBLY'
+130 type (VoidType)
+131 name (SimpleName)
+132 identifier='createIntegrationTestDatabase'
+133 thrownExceptions
+134 thrownException (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+13 21
+21 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+128 129
+0 130
+0 131
+131 132
+0 133
+133 134
+134 135
+135 136
+
+Drops and recreates the databases needed for the integration tests.

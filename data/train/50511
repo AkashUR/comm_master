@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (ArrayAccessExpr)
+7 index (NameExpr)
+8 name (SimpleName)
+9 identifier='index'
+10 name (NameExpr)
+11 name (SimpleName)
+12 identifier='args'
+13 value (NameExpr)
+14 name (SimpleName)
+15 identifier='newArg'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='mutation'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='__replaceArg'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='index'
+28 type (PrimitiveType)
+29 type='INT'
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='newArg'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='BOp'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+8 9
+6 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+23 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+
+Effectively overwrites the specified argument with the provided value.<p> WARNING: this method could break logic of the code, which relies on immutability of the arguments list. It is introduced while fixing issues with deferred IV resolution and intended to be used only before IV resolution completed. This method triggers mutation notification.

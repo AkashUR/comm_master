@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='docCounts'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='grow'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='bigArrays'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='docCounts'
+19 argument (BinaryExpr)
+20 operator='PLUS'
+21 left (NameExpr)
+22 name (SimpleName)
+23 identifier='bucketOrd'
+24 right (IntegerLiteralExpr)
+25 value='1'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='increment'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='docCounts'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='bucketOrd'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='inc'
+40 type (VoidType)
+41 name (SimpleName)
+42 identifier='incrementBucketDocCount'
+43 parameters
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='bucketOrd'
+48 type (PrimitiveType)
+49 type='LONG'
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='inc'
+54 type (PrimitiveType)
+55 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+15 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+0 40
+0 41
+41 42
+0 43
+43 44
+44 45
+44 46
+46 47
+44 48
+48 49
+43 50
+50 51
+50 52
+52 53
+50 54
+54 55
+
+Utility method to increment the doc counts of the given bucket (identified by the bucket ordinal)

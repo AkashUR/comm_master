@@ -1,0 +1,362 @@
+180
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='STATUS_COMPONENT'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='StatusComponent'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='_centerComponent'
+19 value (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='JLabel'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='_centerPanel'
+29 value (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='JPanel'
+33 arguments
+34 argument (ObjectCreationExpr)
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='GridBagLayout'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='setOpaque'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='_centerPanel'
+45 arguments
+46 argument (BooleanLiteralExpr)
+47 value='false'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='setProgressPreferredSize'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='STATUS_COMPONENT'
+55 arguments
+56 argument (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Dimension'
+60 arguments
+61 argument (IntegerLiteralExpr)
+62 value='250'
+63 argument (IntegerLiteralExpr)
+64 value='20'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (ObjectCreationExpr)
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='GridBagConstraints'
+73 name (SimpleName)
+74 identifier='gbc'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='GridBagConstraints'
+78 statement (ExpressionStmt)
+79 expression (AssignExpr)
+80 operator='ASSIGN'
+81 target (FieldAccessExpr)
+82 name (SimpleName)
+83 identifier='gridx'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='gbc'
+87 value (IntegerLiteralExpr)
+88 value='0'
+89 statement (ExpressionStmt)
+90 expression (AssignExpr)
+91 operator='ASSIGN'
+92 target (FieldAccessExpr)
+93 name (SimpleName)
+94 identifier='gridy'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='gbc'
+98 value (IntegerLiteralExpr)
+99 value='0'
+100 statement (ExpressionStmt)
+101 expression (AssignExpr)
+102 operator='ASSIGN'
+103 target (FieldAccessExpr)
+104 name (SimpleName)
+105 identifier='weightx'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='gbc'
+109 value (IntegerLiteralExpr)
+110 value='1'
+111 statement (ExpressionStmt)
+112 expression (AssignExpr)
+113 operator='ASSIGN'
+114 target (FieldAccessExpr)
+115 name (SimpleName)
+116 identifier='fill'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='gbc'
+120 value (FieldAccessExpr)
+121 name (SimpleName)
+122 identifier='NONE'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='GridBagConstraints'
+126 statement (ExpressionStmt)
+127 expression (AssignExpr)
+128 operator='ASSIGN'
+129 target (FieldAccessExpr)
+130 name (SimpleName)
+131 identifier='anchor'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='gbc'
+135 value (FieldAccessExpr)
+136 name (SimpleName)
+137 identifier='CENTER'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='GridBagConstraints'
+141 statement (ExpressionStmt)
+142 expression (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='add'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='_centerPanel'
+148 arguments
+149 argument (NameExpr)
+150 name (SimpleName)
+151 identifier='STATUS_COMPONENT'
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='gbc'
+155 statement (ExpressionStmt)
+156 expression (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='addMouseListener'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='_centerPanel'
+162 arguments
+163 argument (NameExpr)
+164 name (SimpleName)
+165 identifier='STATUS_BAR_LISTENER'
+166 statement (ExpressionStmt)
+167 expression (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='addMouseListener'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='STATUS_COMPONENT'
+173 arguments
+174 argument (NameExpr)
+175 name (SimpleName)
+176 identifier='STATUS_BAR_LISTENER'
+177 type (VoidType)
+178 name (SimpleName)
+179 identifier='createCenterPanel'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+60 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+71 72
+68 73
+73 74
+68 75
+75 76
+76 77
+2 78
+78 79
+79 80
+79 81
+81 82
+82 83
+81 84
+84 85
+85 86
+79 87
+87 88
+2 89
+89 90
+90 91
+90 92
+92 93
+93 94
+92 95
+95 96
+96 97
+90 98
+98 99
+2 100
+100 101
+101 102
+101 103
+103 104
+104 105
+103 106
+106 107
+107 108
+101 109
+109 110
+2 111
+111 112
+112 113
+112 114
+114 115
+115 116
+114 117
+117 118
+118 119
+112 120
+120 121
+121 122
+120 123
+123 124
+124 125
+2 126
+126 127
+127 128
+127 129
+129 130
+130 131
+129 132
+132 133
+133 134
+127 135
+135 136
+136 137
+135 138
+138 139
+139 140
+2 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+150 151
+148 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+156 162
+162 163
+163 164
+164 165
+2 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+167 173
+173 174
+174 175
+175 176
+0 177
+0 178
+178 179
+
+Sets up the center panel.

@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='prepareStatement'
+7 scope (ThisExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='sql'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='specifyTypeAndConcur'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='resultSetType'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='resultSetConcurrency'
+21 argument (UnaryExpr)
+22 operator='MINUS'
+23 expression (IntegerLiteralExpr)
+24 value='1'
+25 argument (UnaryExpr)
+26 operator='MINUS'
+27 expression (IntegerLiteralExpr)
+28 value='1'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='prepareStatement'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='sql'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='specifyTypeAndConcur'
+44 type (PrimitiveType)
+45 type='BOOLEAN'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='resultSetType'
+50 type (PrimitiveType)
+51 type='INT'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='resultSetConcurrency'
+56 type (PrimitiveType)
+57 type='INT'
+58 thrownExceptions
+59 thrownException (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='GenericDataSourceException'
+62 thrownException (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='GenericEntityException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+8 15
+15 16
+16 17
+8 18
+18 19
+19 20
+8 21
+21 22
+21 23
+23 24
+8 25
+25 26
+25 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+32 40
+40 41
+40 42
+42 43
+40 44
+44 45
+32 46
+46 47
+46 48
+48 49
+46 50
+50 51
+32 52
+52 53
+52 54
+54 55
+52 56
+56 57
+0 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+
+Prepare a statement. In case no connection has been given, allocate a new one.

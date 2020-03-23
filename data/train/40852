@@ -1,0 +1,556 @@
+277
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='width'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='width'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='height'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='height'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='glName'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='glName'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='glTarget'
+39 scope (ThisExpr)
+40 value (NameExpr)
+41 name (SimpleName)
+42 identifier='glTarget'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='glFormat'
+49 scope (ThisExpr)
+50 value (NameExpr)
+51 name (SimpleName)
+52 identifier='glFormat'
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='glWidth'
+59 scope (ThisExpr)
+60 value (NameExpr)
+61 name (SimpleName)
+62 identifier='glWidth'
+63 statement (ExpressionStmt)
+64 expression (AssignExpr)
+65 operator='ASSIGN'
+66 target (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='glHeight'
+69 scope (ThisExpr)
+70 value (NameExpr)
+71 name (SimpleName)
+72 identifier='glHeight'
+73 statement (ExpressionStmt)
+74 expression (AssignExpr)
+75 operator='ASSIGN'
+76 target (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='glMinFilter'
+79 scope (ThisExpr)
+80 value (NameExpr)
+81 name (SimpleName)
+82 identifier='glMinFilter'
+83 statement (ExpressionStmt)
+84 expression (AssignExpr)
+85 operator='ASSIGN'
+86 target (FieldAccessExpr)
+87 name (SimpleName)
+88 identifier='glMagFilter'
+89 scope (ThisExpr)
+90 value (NameExpr)
+91 name (SimpleName)
+92 identifier='glMagFilter'
+93 statement (ExpressionStmt)
+94 expression (AssignExpr)
+95 operator='ASSIGN'
+96 target (FieldAccessExpr)
+97 name (SimpleName)
+98 identifier='glWrapS'
+99 scope (ThisExpr)
+100 value (NameExpr)
+101 name (SimpleName)
+102 identifier='glWrapS'
+103 statement (ExpressionStmt)
+104 expression (AssignExpr)
+105 operator='ASSIGN'
+106 target (FieldAccessExpr)
+107 name (SimpleName)
+108 identifier='glWrapT'
+109 scope (ThisExpr)
+110 value (NameExpr)
+111 name (SimpleName)
+112 identifier='glWrapT'
+113 statement (ExpressionStmt)
+114 expression (AssignExpr)
+115 operator='ASSIGN'
+116 target (NameExpr)
+117 name (SimpleName)
+118 identifier='maxTexcoordU'
+119 value (BinaryExpr)
+120 operator='DIVIDE'
+121 left (CastExpr)
+122 expression (NameExpr)
+123 name (SimpleName)
+124 identifier='width'
+125 type (PrimitiveType)
+126 type='FLOAT'
+127 right (NameExpr)
+128 name (SimpleName)
+129 identifier='glWidth'
+130 statement (ExpressionStmt)
+131 expression (AssignExpr)
+132 operator='ASSIGN'
+133 target (NameExpr)
+134 name (SimpleName)
+135 identifier='maxTexcoordV'
+136 value (BinaryExpr)
+137 operator='DIVIDE'
+138 left (CastExpr)
+139 expression (NameExpr)
+140 name (SimpleName)
+141 identifier='height'
+142 type (PrimitiveType)
+143 type='FLOAT'
+144 right (NameExpr)
+145 name (SimpleName)
+146 identifier='glHeight'
+147 statement (ExpressionStmt)
+148 expression (AssignExpr)
+149 operator='ASSIGN'
+150 target (NameExpr)
+151 name (SimpleName)
+152 identifier='usingMipmaps'
+153 value (BinaryExpr)
+154 operator='OR'
+155 left (BinaryExpr)
+156 operator='EQUALS'
+157 left (NameExpr)
+158 name (SimpleName)
+159 identifier='glMinFilter'
+160 right (FieldAccessExpr)
+161 name (SimpleName)
+162 identifier='LINEAR_MIPMAP_NEAREST'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='PGL'
+166 right (BinaryExpr)
+167 operator='EQUALS'
+168 left (NameExpr)
+169 name (SimpleName)
+170 identifier='glMinFilter'
+171 right (FieldAccessExpr)
+172 name (SimpleName)
+173 identifier='LINEAR_MIPMAP_LINEAR'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='PGL'
+177 statement (ExpressionStmt)
+178 expression (AssignExpr)
+179 operator='ASSIGN'
+180 target (NameExpr)
+181 name (SimpleName)
+182 identifier='usingRepeat'
+183 value (BinaryExpr)
+184 operator='OR'
+185 left (BinaryExpr)
+186 operator='EQUALS'
+187 left (NameExpr)
+188 name (SimpleName)
+189 identifier='glWrapS'
+190 right (FieldAccessExpr)
+191 name (SimpleName)
+192 identifier='REPEAT'
+193 scope (NameExpr)
+194 name (SimpleName)
+195 identifier='PGL'
+196 right (BinaryExpr)
+197 operator='EQUALS'
+198 left (NameExpr)
+199 name (SimpleName)
+200 identifier='glWrapT'
+201 right (FieldAccessExpr)
+202 name (SimpleName)
+203 identifier='REPEAT'
+204 scope (NameExpr)
+205 name (SimpleName)
+206 identifier='PGL'
+207 type (VoidType)
+208 name (SimpleName)
+209 identifier='init'
+210 parameters
+211 parameter (Parameter)
+212 isVarArgs='false'
+213 name (SimpleName)
+214 identifier='width'
+215 type (PrimitiveType)
+216 type='INT'
+217 parameter (Parameter)
+218 isVarArgs='false'
+219 name (SimpleName)
+220 identifier='height'
+221 type (PrimitiveType)
+222 type='INT'
+223 parameter (Parameter)
+224 isVarArgs='false'
+225 name (SimpleName)
+226 identifier='glName'
+227 type (PrimitiveType)
+228 type='INT'
+229 parameter (Parameter)
+230 isVarArgs='false'
+231 name (SimpleName)
+232 identifier='glTarget'
+233 type (PrimitiveType)
+234 type='INT'
+235 parameter (Parameter)
+236 isVarArgs='false'
+237 name (SimpleName)
+238 identifier='glFormat'
+239 type (PrimitiveType)
+240 type='INT'
+241 parameter (Parameter)
+242 isVarArgs='false'
+243 name (SimpleName)
+244 identifier='glWidth'
+245 type (PrimitiveType)
+246 type='INT'
+247 parameter (Parameter)
+248 isVarArgs='false'
+249 name (SimpleName)
+250 identifier='glHeight'
+251 type (PrimitiveType)
+252 type='INT'
+253 parameter (Parameter)
+254 isVarArgs='false'
+255 name (SimpleName)
+256 identifier='glMinFilter'
+257 type (PrimitiveType)
+258 type='INT'
+259 parameter (Parameter)
+260 isVarArgs='false'
+261 name (SimpleName)
+262 identifier='glMagFilter'
+263 type (PrimitiveType)
+264 type='INT'
+265 parameter (Parameter)
+266 isVarArgs='false'
+267 name (SimpleName)
+268 identifier='glWrapS'
+269 type (PrimitiveType)
+270 type='INT'
+271 parameter (Parameter)
+272 isVarArgs='false'
+273 name (SimpleName)
+274 identifier='glWrapT'
+275 type (PrimitiveType)
+276 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+56 59
+54 60
+60 61
+61 62
+2 63
+63 64
+64 65
+64 66
+66 67
+67 68
+66 69
+64 70
+70 71
+71 72
+2 73
+73 74
+74 75
+74 76
+76 77
+77 78
+76 79
+74 80
+80 81
+81 82
+2 83
+83 84
+84 85
+84 86
+86 87
+87 88
+86 89
+84 90
+90 91
+91 92
+2 93
+93 94
+94 95
+94 96
+96 97
+97 98
+96 99
+94 100
+100 101
+101 102
+2 103
+103 104
+104 105
+104 106
+106 107
+107 108
+106 109
+104 110
+110 111
+111 112
+2 113
+113 114
+114 115
+114 116
+116 117
+117 118
+114 119
+119 120
+119 121
+121 122
+122 123
+123 124
+121 125
+125 126
+119 127
+127 128
+128 129
+2 130
+130 131
+131 132
+131 133
+133 134
+134 135
+131 136
+136 137
+136 138
+138 139
+139 140
+140 141
+138 142
+142 143
+136 144
+144 145
+145 146
+2 147
+147 148
+148 149
+148 150
+150 151
+151 152
+148 153
+153 154
+153 155
+155 156
+155 157
+157 158
+158 159
+155 160
+160 161
+161 162
+160 163
+163 164
+164 165
+153 166
+166 167
+166 168
+168 169
+169 170
+166 171
+171 172
+172 173
+171 174
+174 175
+175 176
+2 177
+177 178
+178 179
+178 180
+180 181
+181 182
+178 183
+183 184
+183 185
+185 186
+185 187
+187 188
+188 189
+185 190
+190 191
+191 192
+190 193
+193 194
+194 195
+183 196
+196 197
+196 198
+198 199
+199 200
+196 201
+201 202
+202 203
+201 204
+204 205
+205 206
+0 207
+0 208
+208 209
+0 210
+210 211
+211 212
+211 213
+213 214
+211 215
+215 216
+210 217
+217 218
+217 219
+219 220
+217 221
+221 222
+210 223
+223 224
+223 225
+225 226
+223 227
+227 228
+210 229
+229 230
+229 231
+231 232
+229 233
+233 234
+210 235
+235 236
+235 237
+237 238
+235 239
+239 240
+210 241
+241 242
+241 243
+243 244
+241 245
+245 246
+210 247
+247 248
+247 249
+249 250
+247 251
+251 252
+210 253
+253 254
+253 255
+255 256
+253 257
+257 258
+210 259
+259 260
+259 261
+261 262
+259 263
+263 264
+210 265
+265 266
+265 267
+267 268
+265 269
+269 270
+210 271
+271 272
+271 273
+273 274
+271 275
+275 276
+
+Initializes the texture using GL parameters

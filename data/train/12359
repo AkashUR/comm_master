@@ -1,0 +1,346 @@
+172
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getWritableDatabase'
+10 name (SimpleName)
+11 identifier='db'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='SQLiteDatabase'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='toHtml'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='Html'
+25 arguments
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getSpannable'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='note'
+32 name (SimpleName)
+33 identifier='spannableAsHtml'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='String'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='format'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='dt'
+47 arguments
+48 argument (ObjectCreationExpr)
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Date'
+52 name (SimpleName)
+53 identifier='date'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (ObjectCreationExpr)
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='ContentValues'
+65 name (SimpleName)
+66 identifier='values'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='ContentValues'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='put'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='values'
+77 arguments
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='KEY_SPANNABLE_NOTE'
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='spannableAsHtml'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='put'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='values'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='KEY_NOTE_TITLE'
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='getTitle'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='note'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='put'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='values'
+108 arguments
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='KEY_IMAGE'
+112 argument (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getBytes'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='BitmapConverter'
+118 arguments
+119 argument (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='getImage'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='note'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='put'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='values'
+132 arguments
+133 argument (NameExpr)
+134 name (SimpleName)
+135 identifier='KEY_DATE_UPDATED'
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='date'
+139 statement (ExpressionStmt)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='insert'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='db'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='TABLE_NOTES'
+150 argument (NullLiteralExpr)
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='values'
+154 statement (ExpressionStmt)
+155 expression (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='close'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='db'
+161 type (VoidType)
+162 name (SimpleName)
+163 identifier='createNote'
+164 parameters
+165 parameter (Parameter)
+166 isVarArgs='false'
+167 name (SimpleName)
+168 identifier='note'
+169 type (ClassOrInterfaceType)
+170 name (SimpleName)
+171 identifier='Note'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+18 32
+32 33
+18 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+50 51
+40 52
+52 53
+40 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+60 65
+65 66
+60 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+71 77
+77 78
+78 79
+79 80
+77 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+91 95
+95 96
+96 97
+95 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+108 112
+112 113
+113 114
+112 115
+115 116
+116 117
+112 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+134 135
+132 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+146 150
+146 151
+151 152
+152 153
+2 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+0 161
+0 162
+162 163
+0 164
+164 165
+165 166
+165 167
+167 168
+165 169
+169 170
+170 171
+
+Method used to put Note object into Database

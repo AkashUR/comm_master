@@ -1,0 +1,194 @@
+96
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='host'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='port'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='xmppDomain'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='proxy'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='setSASLAuthenticationEnabled'
+22 arguments
+23 argument (BooleanLiteralExpr)
+24 value='true'
+25 statement (ExpressionStmt)
+26 expression (AssignExpr)
+27 operator='ASSIGN'
+28 target (NameExpr)
+29 name (SimpleName)
+30 identifier='ssl'
+31 value (NameExpr)
+32 name (SimpleName)
+33 identifier='https'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='file'
+40 value (EnclosedExpr)
+41 inner (ConditionalExpr)
+42 condition (BinaryExpr)
+43 operator='NOT_EQUALS'
+44 left (NameExpr)
+45 name (SimpleName)
+46 identifier='filePath'
+47 right (NullLiteralExpr)
+48 elseExpr (StringLiteralExpr)
+49 value='/'
+50 thenExpr (NameExpr)
+51 name (SimpleName)
+52 identifier='filePath'
+53 name (SimpleName)
+54 identifier='BOSHConfiguration'
+55 parameters
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='https'
+60 type (PrimitiveType)
+61 type='BOOLEAN'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='host'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='String'
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='port'
+73 type (PrimitiveType)
+74 type='INT'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='filePath'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='String'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='proxy'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='ProxyInfo'
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='xmppDomain'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='String'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+5 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+26 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+41 48
+48 49
+41 50
+50 51
+51 52
+0 53
+53 54
+0 55
+55 56
+56 57
+56 58
+58 59
+56 60
+60 61
+55 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+55 69
+69 70
+69 71
+71 72
+69 73
+73 74
+55 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+55 82
+82 83
+82 84
+84 85
+82 86
+86 87
+87 88
+55 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+
+Create a HTTP Binding configuration.

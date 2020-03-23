@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='makePath'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='path'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='data'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='createMode'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='watcher'
+20 argument (BooleanLiteralExpr)
+21 value='true'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='retryOnConnLoss'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='makePath'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='path'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='String'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='data'
+40 type (ArrayType)
+41 origin='TYPE'
+42 componentType (PrimitiveType)
+43 type='BYTE'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='createMode'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='CreateMode'
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='watcher'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='Watcher'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='retryOnConnLoss'
+62 type (PrimitiveType)
+63 type='BOOLEAN'
+64 thrownExceptions
+65 thrownException (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='KeeperException'
+68 thrownException (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='InterruptedException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+7 22
+22 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+28 36
+36 37
+36 38
+38 39
+36 40
+40 41
+40 42
+42 43
+28 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+28 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+28 58
+58 59
+58 60
+60 61
+58 62
+62 63
+0 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+
+Creates the path in ZooKeeper, creating each node as necessary. e.g. If <code>path=/solr/group/node</code> and none of the nodes, solr, group, node exist, each will be created.

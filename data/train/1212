@@ -1,0 +1,194 @@
+96
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='makeSubKey'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='value'
+14 name (SimpleName)
+15 identifier='subKey'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Key'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='put'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='client'
+26 arguments
+27 argument (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='policy'
+30 scope (ThisExpr)
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='subKey'
+34 argument (ObjectCreationExpr)
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Bin'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='ListElementBinName'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='value'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='operate'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='client'
+52 arguments
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='policy'
+56 scope (ThisExpr)
+57 argument (FieldAccessExpr)
+58 name (SimpleName)
+59 identifier='key'
+60 scope (ThisExpr)
+61 argument (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='append'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='ListOperation'
+67 arguments
+68 argument (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='binNameString'
+71 scope (ThisExpr)
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='get'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='Value'
+78 arguments
+79 argument (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='digest'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='subKey'
+85 type (VoidType)
+86 name (SimpleName)
+87 identifier='add'
+88 parameters
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='value'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Value'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+26 31
+31 32
+32 33
+26 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+53 56
+52 57
+57 58
+58 59
+57 60
+52 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+68 71
+67 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+0 85
+0 86
+86 87
+0 88
+88 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+
+Add value to list. Fail if value's key exists and list is configured for unique keys. If value is a map, the key is identified by "key" entry.  Otherwise, the value is the key. If large list does not exist, create it. <p>

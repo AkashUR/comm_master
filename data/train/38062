@@ -1,0 +1,42 @@
+20
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clearCache'
+7 statement (ExpressionStmt)
+8 expression (AssignExpr)
+9 operator='ASSIGN'
+10 target (NameExpr)
+11 name (SimpleName)
+12 identifier='m_ClassCache'
+13 value (ObjectCreationExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='ClassCache'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='clearClassCache'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+14 15
+15 16
+0 17
+0 18
+18 19
+
+Calls clearCache() and resets the cache of classes on the classpath (i.e. forces a rescan of the classpath).

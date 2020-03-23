@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='stopForeground'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getImpl'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='FileDownloadServiceProxy'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='removeNotification'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='stopForeground'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='removeNotification'
+25 type (PrimitiveType)
+26 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+
+Remove the downloader service from the foreground state, allowing it to be killed if more memory is needed.

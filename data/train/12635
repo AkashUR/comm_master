@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createInstanceAndCallStaticMethod'
+7 arguments
+8 argument (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='TWO_JAR'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='Configuration'
+14 argument (StringLiteralExpr)
+15 value='test.TestMethods'
+16 argument (StringLiteralExpr)
+17 value='test_diff_getResourceAsStream'
+18 type (VoidType)
+19 name (SimpleName)
+20 identifier='test_twoJar_diff_getResourceAsStream'
+21 thrownExceptions
+22 thrownException (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+7 16
+16 17
+0 18
+0 19
+19 20
+0 21
+21 22
+22 23
+23 24
+
+Check that a resource in a jar file can be retrieved from a class within the other jar file.

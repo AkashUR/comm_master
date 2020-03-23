@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='resetDatabase'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='db'
+11 type (VoidType)
+12 name (SimpleName)
+13 identifier='onUpgrade'
+14 parameters
+15 parameter (Parameter)
+16 isVarArgs='false'
+17 name (SimpleName)
+18 identifier='db'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='SQLiteDatabase'
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='connectionSource'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='ConnectionSource'
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='oldVersion'
+33 type (PrimitiveType)
+34 type='INT'
+35 parameter (Parameter)
+36 isVarArgs='false'
+37 name (SimpleName)
+38 identifier='newVersion'
+39 type (PrimitiveType)
+40 type='INT'
+41 annotations
+42 annotation (MarkerAnnotationExpr)
+43 name (Name)
+44 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+0 11
+0 12
+12 13
+0 14
+14 15
+15 16
+15 17
+17 18
+15 19
+19 20
+20 21
+14 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+14 29
+29 30
+29 31
+31 32
+29 33
+33 34
+14 35
+35 36
+35 37
+37 38
+35 39
+39 40
+0 41
+41 42
+42 43
+43 44
+
+This is called when your application is upgraded and it has a higher version number. This allows you to adjust the various data to match the new version number.

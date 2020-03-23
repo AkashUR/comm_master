@@ -1,0 +1,198 @@
+98
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='StandardQueryParser'
+11 name (SimpleName)
+12 identifier='qp'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='StandardQueryParser'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setAnalyzer'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='qp'
+23 arguments
+24 argument (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='MockAnalyzer'
+28 arguments
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='random'
+32 argument (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='WHITESPACE'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='MockTokenizer'
+38 argument (BooleanLiteralExpr)
+39 value='false'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='parse'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='qp'
+50 arguments
+51 argument (StringLiteralExpr)
+52 value='A AND B OR C AND D'
+53 argument (StringLiteralExpr)
+54 value='field'
+55 name (SimpleName)
+56 identifier='query1'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Query'
+60 statement (ExpressionStmt)
+61 expression (VariableDeclarationExpr)
+62 variables
+63 variable (VariableDeclarator)
+64 initializer (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='parse'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='qp'
+70 arguments
+71 argument (StringLiteralExpr)
+72 value='+A +B +C +D'
+73 argument (StringLiteralExpr)
+74 value='field'
+75 name (SimpleName)
+76 identifier='query2'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Query'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='assertEquals'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='query1'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='query2'
+91 type (VoidType)
+92 name (SimpleName)
+93 identifier='testPrecedence'
+94 thrownExceptions
+95 thrownException (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+32 35
+35 36
+36 37
+28 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+50 53
+53 54
+43 55
+55 56
+43 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+70 73
+73 74
+63 75
+75 76
+63 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+0 91
+0 92
+92 93
+0 94
+94 95
+95 96
+96 97
+
+This test differs from TestPrecedenceQueryParser

@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clear'
+7 scope (SuperExpr)
+8 statement (ExpressionStmt)
+9 expression (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='firePvChanged'
+12 arguments
+13 argument (ObjectCreationExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='PvChangeEvent'
+17 arguments
+18 argument (ThisExpr)
+19 argument (NullLiteralExpr)
+20 argument (NullLiteralExpr)
+21 argument (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='PV_CLEARED'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='PvChangeEvent'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='clear'
+30 annotations
+31 annotation (MarkerAnnotationExpr)
+32 name (Name)
+33 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+15 16
+13 17
+17 18
+17 19
+17 20
+17 21
+21 22
+22 23
+21 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+32 33
+
+remove all attributes from process var overridden clear method to allow notification of process var changes

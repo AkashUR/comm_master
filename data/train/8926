@@ -1,0 +1,774 @@
+386
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='RandomIndexWriter'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='random'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='dir'
+30 name (SimpleName)
+31 identifier='iw'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='RandomIndexWriter'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Document'
+43 name (SimpleName)
+44 identifier='doc'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Document'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='addDocument'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='iw'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='doc'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='doc'
+65 value (ObjectCreationExpr)
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='Document'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='add'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='doc'
+76 arguments
+77 argument (ObjectCreationExpr)
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='LatLonDocValuesField'
+81 arguments
+82 argument (StringLiteralExpr)
+83 value='location'
+84 argument (DoubleLiteralExpr)
+85 value='40.718266'
+86 argument (UnaryExpr)
+87 operator='MINUS'
+88 expression (DoubleLiteralExpr)
+89 value='74.007819'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='addDocument'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='iw'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='doc'
+101 statement (ExpressionStmt)
+102 expression (AssignExpr)
+103 operator='ASSIGN'
+104 target (NameExpr)
+105 name (SimpleName)
+106 identifier='doc'
+107 value (ObjectCreationExpr)
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='Document'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='add'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='doc'
+118 arguments
+119 argument (ObjectCreationExpr)
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='LatLonDocValuesField'
+123 arguments
+124 argument (StringLiteralExpr)
+125 value='location'
+126 argument (DoubleLiteralExpr)
+127 value='40.7051157'
+128 argument (UnaryExpr)
+129 operator='MINUS'
+130 expression (DoubleLiteralExpr)
+131 value='74.0088305'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='addDocument'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='iw'
+139 arguments
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='doc'
+143 statement (ExpressionStmt)
+144 expression (VariableDeclarationExpr)
+145 variables
+146 variable (VariableDeclarator)
+147 initializer (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='getReader'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='iw'
+153 name (SimpleName)
+154 identifier='reader'
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='IndexReader'
+158 statement (ExpressionStmt)
+159 expression (VariableDeclarationExpr)
+160 variables
+161 variable (VariableDeclarator)
+162 initializer (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='newSearcher'
+165 arguments
+166 argument (NameExpr)
+167 name (SimpleName)
+168 identifier='reader'
+169 name (SimpleName)
+170 identifier='searcher'
+171 type (ClassOrInterfaceType)
+172 name (SimpleName)
+173 identifier='IndexSearcher'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='close'
+178 scope (NameExpr)
+179 name (SimpleName)
+180 identifier='iw'
+181 statement (ExpressionStmt)
+182 expression (VariableDeclarationExpr)
+183 variables
+184 variable (VariableDeclarator)
+185 initializer (ObjectCreationExpr)
+186 type (ClassOrInterfaceType)
+187 name (SimpleName)
+188 identifier='Sort'
+189 arguments
+190 argument (MethodCallExpr)
+191 name (SimpleName)
+192 identifier='newDistanceSort'
+193 scope (NameExpr)
+194 name (SimpleName)
+195 identifier='LatLonDocValuesField'
+196 arguments
+197 argument (StringLiteralExpr)
+198 value='location'
+199 argument (DoubleLiteralExpr)
+200 value='40.7143528'
+201 argument (UnaryExpr)
+202 operator='MINUS'
+203 expression (DoubleLiteralExpr)
+204 value='74.0059731'
+205 name (SimpleName)
+206 identifier='sort'
+207 type (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='Sort'
+210 statement (ExpressionStmt)
+211 expression (VariableDeclarationExpr)
+212 variables
+213 variable (VariableDeclarator)
+214 initializer (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='search'
+217 scope (NameExpr)
+218 name (SimpleName)
+219 identifier='searcher'
+220 arguments
+221 argument (ObjectCreationExpr)
+222 type (ClassOrInterfaceType)
+223 name (SimpleName)
+224 identifier='MatchAllDocsQuery'
+225 argument (IntegerLiteralExpr)
+226 value='3'
+227 argument (NameExpr)
+228 name (SimpleName)
+229 identifier='sort'
+230 name (SimpleName)
+231 identifier='td'
+232 type (ClassOrInterfaceType)
+233 name (SimpleName)
+234 identifier='TopDocs'
+235 statement (ExpressionStmt)
+236 expression (VariableDeclarationExpr)
+237 variables
+238 variable (VariableDeclarator)
+239 initializer (CastExpr)
+240 expression (ArrayAccessExpr)
+241 index (IntegerLiteralExpr)
+242 value='0'
+243 name (FieldAccessExpr)
+244 name (SimpleName)
+245 identifier='scoreDocs'
+246 scope (NameExpr)
+247 name (SimpleName)
+248 identifier='td'
+249 type (ClassOrInterfaceType)
+250 name (SimpleName)
+251 identifier='FieldDoc'
+252 name (SimpleName)
+253 identifier='d'
+254 type (ClassOrInterfaceType)
+255 name (SimpleName)
+256 identifier='FieldDoc'
+257 statement (ExpressionStmt)
+258 expression (MethodCallExpr)
+259 name (SimpleName)
+260 identifier='assertEquals'
+261 arguments
+262 argument (DoubleLiteralExpr)
+263 value='462.1028401330431D'
+264 argument (CastExpr)
+265 expression (ArrayAccessExpr)
+266 index (IntegerLiteralExpr)
+267 value='0'
+268 name (FieldAccessExpr)
+269 name (SimpleName)
+270 identifier='fields'
+271 scope (NameExpr)
+272 name (SimpleName)
+273 identifier='d'
+274 type (ClassOrInterfaceType)
+275 name (SimpleName)
+276 identifier='Double'
+277 argument (DoubleLiteralExpr)
+278 value='0.0D'
+279 statement (ExpressionStmt)
+280 expression (AssignExpr)
+281 operator='ASSIGN'
+282 target (NameExpr)
+283 name (SimpleName)
+284 identifier='d'
+285 value (CastExpr)
+286 expression (ArrayAccessExpr)
+287 index (IntegerLiteralExpr)
+288 value='1'
+289 name (FieldAccessExpr)
+290 name (SimpleName)
+291 identifier='scoreDocs'
+292 scope (NameExpr)
+293 name (SimpleName)
+294 identifier='td'
+295 type (ClassOrInterfaceType)
+296 name (SimpleName)
+297 identifier='FieldDoc'
+298 statement (ExpressionStmt)
+299 expression (MethodCallExpr)
+300 name (SimpleName)
+301 identifier='assertEquals'
+302 arguments
+303 argument (DoubleLiteralExpr)
+304 value='1054.9842850974826'
+305 argument (CastExpr)
+306 expression (ArrayAccessExpr)
+307 index (IntegerLiteralExpr)
+308 value='0'
+309 name (FieldAccessExpr)
+310 name (SimpleName)
+311 identifier='fields'
+312 scope (NameExpr)
+313 name (SimpleName)
+314 identifier='d'
+315 type (ClassOrInterfaceType)
+316 name (SimpleName)
+317 identifier='Double'
+318 argument (DoubleLiteralExpr)
+319 value='0.0D'
+320 statement (ExpressionStmt)
+321 expression (AssignExpr)
+322 operator='ASSIGN'
+323 target (NameExpr)
+324 name (SimpleName)
+325 identifier='d'
+326 value (CastExpr)
+327 expression (ArrayAccessExpr)
+328 index (IntegerLiteralExpr)
+329 value='2'
+330 name (FieldAccessExpr)
+331 name (SimpleName)
+332 identifier='scoreDocs'
+333 scope (NameExpr)
+334 name (SimpleName)
+335 identifier='td'
+336 type (ClassOrInterfaceType)
+337 name (SimpleName)
+338 identifier='FieldDoc'
+339 statement (ExpressionStmt)
+340 expression (MethodCallExpr)
+341 name (SimpleName)
+342 identifier='assertEquals'
+343 arguments
+344 argument (FieldAccessExpr)
+345 name (SimpleName)
+346 identifier='POSITIVE_INFINITY'
+347 scope (NameExpr)
+348 name (SimpleName)
+349 identifier='Double'
+350 argument (CastExpr)
+351 expression (ArrayAccessExpr)
+352 index (IntegerLiteralExpr)
+353 value='0'
+354 name (FieldAccessExpr)
+355 name (SimpleName)
+356 identifier='fields'
+357 scope (NameExpr)
+358 name (SimpleName)
+359 identifier='d'
+360 type (ClassOrInterfaceType)
+361 name (SimpleName)
+362 identifier='Double'
+363 argument (DoubleLiteralExpr)
+364 value='0.0D'
+365 statement (ExpressionStmt)
+366 expression (MethodCallExpr)
+367 name (SimpleName)
+368 identifier='close'
+369 scope (NameExpr)
+370 name (SimpleName)
+371 identifier='reader'
+372 statement (ExpressionStmt)
+373 expression (MethodCallExpr)
+374 name (SimpleName)
+375 identifier='close'
+376 scope (NameExpr)
+377 name (SimpleName)
+378 identifier='dir'
+379 type (VoidType)
+380 name (SimpleName)
+381 identifier='testMissingLast'
+382 thrownExceptions
+383 thrownException (ClassOrInterfaceType)
+384 name (SimpleName)
+385 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+18 30
+30 31
+18 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+38 43
+43 44
+38 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+79 80
+77 81
+81 82
+82 83
+81 84
+84 85
+81 86
+86 87
+86 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+2 101
+101 102
+102 103
+102 104
+104 105
+105 106
+102 107
+107 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+112 118
+118 119
+119 120
+120 121
+121 122
+119 123
+123 124
+124 125
+123 126
+126 127
+123 128
+128 129
+128 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+146 153
+153 154
+146 155
+155 156
+156 157
+2 158
+158 159
+159 160
+160 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+167 168
+161 169
+169 170
+161 171
+171 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+2 181
+181 182
+182 183
+183 184
+184 185
+185 186
+186 187
+187 188
+185 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+190 196
+196 197
+197 198
+196 199
+199 200
+196 201
+201 202
+201 203
+203 204
+184 205
+205 206
+184 207
+207 208
+208 209
+2 210
+210 211
+211 212
+212 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+214 220
+220 221
+221 222
+222 223
+223 224
+220 225
+225 226
+220 227
+227 228
+228 229
+213 230
+230 231
+213 232
+232 233
+233 234
+2 235
+235 236
+236 237
+237 238
+238 239
+239 240
+240 241
+241 242
+240 243
+243 244
+244 245
+243 246
+246 247
+247 248
+239 249
+249 250
+250 251
+238 252
+252 253
+238 254
+254 255
+255 256
+2 257
+257 258
+258 259
+259 260
+258 261
+261 262
+262 263
+261 264
+264 265
+265 266
+266 267
+265 268
+268 269
+269 270
+268 271
+271 272
+272 273
+264 274
+274 275
+275 276
+261 277
+277 278
+2 279
+279 280
+280 281
+280 282
+282 283
+283 284
+280 285
+285 286
+286 287
+287 288
+286 289
+289 290
+290 291
+289 292
+292 293
+293 294
+285 295
+295 296
+296 297
+2 298
+298 299
+299 300
+300 301
+299 302
+302 303
+303 304
+302 305
+305 306
+306 307
+307 308
+306 309
+309 310
+310 311
+309 312
+312 313
+313 314
+305 315
+315 316
+316 317
+302 318
+318 319
+2 320
+320 321
+321 322
+321 323
+323 324
+324 325
+321 326
+326 327
+327 328
+328 329
+327 330
+330 331
+331 332
+330 333
+333 334
+334 335
+326 336
+336 337
+337 338
+2 339
+339 340
+340 341
+341 342
+340 343
+343 344
+344 345
+345 346
+344 347
+347 348
+348 349
+343 350
+350 351
+351 352
+352 353
+351 354
+354 355
+355 356
+354 357
+357 358
+358 359
+350 360
+360 361
+361 362
+343 363
+363 364
+2 365
+365 366
+366 367
+367 368
+366 369
+369 370
+370 371
+2 372
+372 373
+373 374
+374 375
+373 376
+376 377
+377 378
+0 379
+0 380
+380 381
+0 382
+382 383
+383 384
+384 385
+
+Add two points (one doc missing) and sort by distance

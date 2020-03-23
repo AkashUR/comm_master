@@ -1,0 +1,320 @@
+159
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='load'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getDefault'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='InstanceManager'
+13 arguments
+14 argument (ClassExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='ConfigureManager'
+18 arguments
+19 argument (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='File'
+23 scope (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='io'
+26 scope (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='java'
+29 arguments
+30 argument (StringLiteralExpr)
+31 value='java/test/jmri/configurexml/load/LoadFileTest.xml'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='assertNotNull'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='Assert'
+39 arguments
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getSensor'
+43 scope (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='sensorManagerInstance'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='InstanceManager'
+49 arguments
+50 argument (StringLiteralExpr)
+51 value='IS1'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='assertNull'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='Assert'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getSensor'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='sensorManagerInstance'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='InstanceManager'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='no sensor'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='assertNotNull'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='Assert'
+79 arguments
+80 argument (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getTurnout'
+83 scope (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='turnoutManagerInstance'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='InstanceManager'
+89 arguments
+90 argument (StringLiteralExpr)
+91 value='IT1'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='assertNull'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='Assert'
+99 arguments
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='getTurnout'
+103 scope (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='turnoutManagerInstance'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='InstanceManager'
+109 arguments
+110 argument (StringLiteralExpr)
+111 value='no sensor'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='assertNotNull'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='Assert'
+119 arguments
+120 argument (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='getMemory'
+123 scope (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='memoryManagerInstance'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='InstanceManager'
+129 arguments
+130 argument (StringLiteralExpr)
+131 value='IM1'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='assertNull'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='Assert'
+139 arguments
+140 argument (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='getMemory'
+143 scope (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='memoryManagerInstance'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='InstanceManager'
+149 arguments
+150 argument (StringLiteralExpr)
+151 value='no memory'
+152 type (VoidType)
+153 name (SimpleName)
+154 identifier='testLoadFileTest'
+155 thrownExceptions
+156 thrownException (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+16 17
+4 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+19 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+40 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+60 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+83 86
+86 87
+87 88
+80 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+106 107
+107 108
+100 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+123 126
+126 127
+127 128
+120 129
+129 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+143 146
+146 147
+147 148
+140 149
+149 150
+150 151
+0 152
+0 153
+153 154
+0 155
+155 156
+156 157
+157 158
+
+Test a file with current schema.

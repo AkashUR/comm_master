@@ -1,0 +1,426 @@
+212
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getDocumentProvider'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='editor'
+13 name (SimpleName)
+14 identifier='documentProvider'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='IDocumentProvider'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getEditorInput'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='editor'
+28 name (SimpleName)
+29 identifier='input'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='IEditorInput'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getDocument'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='documentProvider'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='input'
+47 name (SimpleName)
+48 identifier='document'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='IDocument'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getEditorInputTypeRoot'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='JavaUI'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='input'
+66 name (SimpleName)
+67 identifier='typeRoot'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='ITypeRoot'
+71 statement (ExpressionStmt)
+72 expression (VariableDeclarationExpr)
+73 variables
+74 variable (VariableDeclarator)
+75 initializer (CastExpr)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='getAdapter'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='typeRoot'
+82 arguments
+83 argument (ClassExpr)
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='ICompilationUnit'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='ICompilationUnit'
+90 name (SimpleName)
+91 identifier='icu'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='ICompilationUnit'
+95 statement (ExpressionStmt)
+96 expression (VariableDeclarationExpr)
+97 variables
+98 variable (VariableDeclarator)
+99 initializer (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='newParser'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='ASTParser'
+105 arguments
+106 argument (FieldAccessExpr)
+107 name (SimpleName)
+108 identifier='JLS4'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='AST'
+112 name (SimpleName)
+113 identifier='parser'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='ASTParser'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='setSource'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='parser'
+124 arguments
+125 argument (NameExpr)
+126 name (SimpleName)
+127 identifier='icu'
+128 statement (ExpressionStmt)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='setKind'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='parser'
+135 arguments
+136 argument (FieldAccessExpr)
+137 name (SimpleName)
+138 identifier='K_COMPILATION_UNIT'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='ASTParser'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='setResolveBindings'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='parser'
+149 arguments
+150 argument (BooleanLiteralExpr)
+151 value='true'
+152 statement (ExpressionStmt)
+153 expression (VariableDeclarationExpr)
+154 variables
+155 variable (VariableDeclarator)
+156 initializer (CastExpr)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='createAST'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='parser'
+163 arguments
+164 argument (NullLiteralExpr)
+165 type (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='CompilationUnit'
+168 name (SimpleName)
+169 identifier='cu'
+170 type (ClassOrInterfaceType)
+171 name (SimpleName)
+172 identifier='CompilationUnit'
+173 statement (ExpressionStmt)
+174 expression (VariableDeclarationExpr)
+175 variables
+176 variable (VariableDeclarator)
+177 initializer (ObjectCreationExpr)
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='DroidsafeTextMarkerVisitor'
+181 arguments
+182 argument (NameExpr)
+183 name (SimpleName)
+184 identifier='document'
+185 name (SimpleName)
+186 identifier='visitor'
+187 type (ClassOrInterfaceType)
+188 name (SimpleName)
+189 identifier='DroidsafeTextMarkerVisitor'
+190 statement (ExpressionStmt)
+191 expression (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='accept'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='cu'
+197 arguments
+198 argument (NameExpr)
+199 name (SimpleName)
+200 identifier='visitor'
+201 type (VoidType)
+202 name (SimpleName)
+203 identifier='computeDroidsafeTextMarkerInfo'
+204 parameters
+205 parameter (Parameter)
+206 isVarArgs='false'
+207 name (SimpleName)
+208 identifier='editor'
+209 type (ClassOrInterfaceType)
+210 name (SimpleName)
+211 identifier='ITextEditor'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+21 28
+28 29
+21 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+36 47
+47 48
+36 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+55 66
+66 67
+55 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+74 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+85 86
+75 87
+87 88
+88 89
+74 90
+90 91
+74 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+98 112
+112 113
+98 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+126 127
+2 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+129 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+143 149
+149 150
+150 151
+2 152
+152 153
+153 154
+154 155
+155 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+157 163
+163 164
+156 165
+165 166
+166 167
+155 168
+168 169
+155 170
+170 171
+171 172
+2 173
+173 174
+174 175
+175 176
+176 177
+177 178
+178 179
+179 180
+177 181
+181 182
+182 183
+183 184
+176 185
+185 186
+176 187
+187 188
+188 189
+2 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+191 197
+197 198
+198 199
+199 200
+0 201
+0 202
+202 203
+0 204
+204 205
+205 206
+205 207
+207 208
+205 209
+209 210
+210 211
+
+Given a Java editor, visits the AST representation of the associated Java source file to compute info on the taint markers and dead code markers for the file. The results are stored in the fields fTaintSourcesMap (map from tainted data positions to sets of  taint sources) and fDeadCodePositions (set of dead code positions)

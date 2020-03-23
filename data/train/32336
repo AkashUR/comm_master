@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='hybridsortDesc'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='a'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='b'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='tmpa'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='tmpb'
+20 argument (IntegerLiteralExpr)
+21 value='0'
+22 argument (BinaryExpr)
+23 operator='MINUS'
+24 left (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='length'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='a'
+30 right (IntegerLiteralExpr)
+31 value='1'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='sortDesc'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='a'
+40 type (ArrayType)
+41 origin='TYPE'
+42 componentType (PrimitiveType)
+43 type='LONG'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='b'
+48 type (ArrayType)
+49 origin='TYPE'
+50 componentType (PrimitiveType)
+51 type='INT'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='tmpa'
+56 type (ArrayType)
+57 origin='TYPE'
+58 componentType (PrimitiveType)
+59 type='LONG'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='tmpb'
+64 type (ArrayType)
+65 origin='TYPE'
+66 componentType (PrimitiveType)
+67 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+7 22
+22 23
+22 24
+24 25
+25 26
+24 27
+27 28
+28 29
+22 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+40 42
+42 43
+35 44
+44 45
+44 46
+46 47
+44 48
+48 49
+48 50
+50 51
+35 52
+52 53
+52 54
+54 55
+52 56
+56 57
+56 58
+58 59
+35 60
+60 61
+60 62
+62 63
+60 64
+64 65
+64 66
+66 67
+
+Sorts the keys in an decreasing order. Elements key[i] and values[i] are always swapped together in the corresponding arrays. <p> A mixture of several sorting algorithms is used: <p> A radix sort performs better on the numeric data we sort, but requires additional storage to perform the sorting. Therefore only the not-very-large parts produced by a quick sort are sorted with radix sort. An insertion sort is used to sort the smallest arrays, where the the overhead of the radix sort is also bigger <p> This version of the method allows the temporarily needed arrays for the radix sort to be provided externally - tempa and tempb. This saves unnecessary array creation and cleanup

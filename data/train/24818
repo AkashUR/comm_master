@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='projection'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getProjection'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='event'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='values'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='graphics'
+25 name (SimpleName)
+26 identifier='values'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Collection'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='iterator'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='values'
+40 name (SimpleName)
+41 identifier='iter'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Iterator'
+45 statement (WhileStmt)
+46 body (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='generate'
+50 scope (EnclosedExpr)
+51 inner (CastExpr)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='next'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='iter'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='OMGraphic'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='projection'
+65 condition (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='hasNext'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='iter'
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='projectionChanged'
+74 parameters
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='event'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='ProjectionEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+18 25
+25 26
+18 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+33 40
+40 41
+33 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+51 58
+58 59
+59 60
+47 61
+61 62
+62 63
+63 64
+45 65
+65 66
+66 67
+65 68
+68 69
+69 70
+0 71
+0 72
+72 73
+0 74
+74 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+
+Implement ProjectionListener method inherited from Layer.

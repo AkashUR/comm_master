@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='info'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='PLUS'
+10 left (BinaryExpr)
+11 operator='PLUS'
+12 left (StringLiteralExpr)
+13 value='COMMITting Solr index changes to '
+14 right (NameExpr)
+15 name (SimpleName)
+16 identifier='solrUrl'
+17 right (StringLiteralExpr)
+18 value='...'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='doGet'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='appendParam'
+27 arguments
+28 argument (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='toString'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='solrUrl'
+34 argument (StringLiteralExpr)
+35 value='commit=true'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='commit'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+10 12
+12 13
+10 14
+14 15
+15 16
+8 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+27 34
+34 35
+0 36
+0 37
+37 38
+
+Does a simple commit operation

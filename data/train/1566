@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='postInit'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='properties'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Properties'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+
+Override the default SystemProperties code; insert the command-line arguments. <p> The following are set by the "runrvm" script before we go into the C bootloader, by passing them as command-line args with the -D flag: <p> os.name, os.arch, os.version user.name, user.home, user.dir gnu.classpath.vm.shortname, gnu.classpath.home.url, java.home, <p> We can look at them here via CommandLineArgs.getEnvironmentArg(). <p> They will be automatically set for us by CommandLineArgs.lateProcessCommandLineArguments() if we do not handle them here.  That won't occur until the VM is fully booted.  That's too late for some classes, such as java.util.TimeZone, which will already be initialized. <p> In any case, this function isn't used in Jikes RVM.  Our boot sequence is already handling this OK.

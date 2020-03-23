@@ -1,0 +1,806 @@
+402
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='MinimalTSC'
+11 name (SimpleName)
+12 identifier='tsc'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='MinimalTSC'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='_createVariableDefinition'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='v1'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='TYPE_INTEGER'
+29 argument (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='s_scope'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='tsc'
+35 name (SimpleName)
+36 identifier='v1'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='VariableDefinition'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='_createEntryAction'
+47 arguments
+48 argument (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='s1'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='tsc'
+54 name (SimpleName)
+55 identifier='lr'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='LocalReaction'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='_createRegularEventSpec'
+63 arguments
+64 argument (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='e1'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='tsc'
+70 argument (CastExpr)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getTrigger'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='lr'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='ReactionTrigger'
+80 statement (ExpressionStmt)
+81 expression (VariableDeclarationExpr)
+82 variables
+83 variable (VariableDeclarator)
+84 initializer (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='_createReactionEffect'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='lr'
+91 name (SimpleName)
+92 identifier='lr_eff'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='ReactionEffect'
+96 statement (ExpressionStmt)
+97 expression (VariableDeclarationExpr)
+98 variables
+99 variable (VariableDeclarator)
+100 initializer (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='_createVariableAssignment'
+103 arguments
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='v1'
+107 argument (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='ASSIGN'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='AssignmentOperator'
+113 argument (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='_createValue'
+116 arguments
+117 argument (IntegerLiteralExpr)
+118 value='42'
+119 argument (NameExpr)
+120 name (SimpleName)
+121 identifier='lr_eff'
+122 name (SimpleName)
+123 identifier='assign1'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='AssignmentExpression'
+127 statement (ExpressionStmt)
+128 expression (VariableDeclarationExpr)
+129 variables
+130 variable (VariableDeclarator)
+131 initializer (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='transform'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='sequencer'
+137 arguments
+138 argument (FieldAccessExpr)
+139 name (SimpleName)
+140 identifier='sc'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='tsc'
+144 name (SimpleName)
+145 identifier='flow'
+146 type (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='ExecutionFlow'
+149 statement (ExpressionStmt)
+150 expression (VariableDeclarationExpr)
+151 variables
+152 variable (VariableDeclarator)
+153 initializer (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='get'
+156 scope (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='getStates'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='flow'
+162 arguments
+163 argument (IntegerLiteralExpr)
+164 value='0'
+165 name (SimpleName)
+166 identifier='s1'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='ExecutionState'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='assertEquals'
+174 arguments
+175 argument (IntegerLiteralExpr)
+176 value='1'
+177 argument (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='size'
+180 scope (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='getReactions'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='s1'
+186 statement (ExpressionStmt)
+187 expression (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='assertNotNull'
+190 arguments
+191 argument (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='getReactSequence'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='s1'
+197 statement (ExpressionStmt)
+198 expression (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='assertEquals'
+201 arguments
+202 argument (IntegerLiteralExpr)
+203 value='1'
+204 argument (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='size'
+207 scope (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='getSteps'
+210 scope (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='getReactSequence'
+213 scope (NameExpr)
+214 name (SimpleName)
+215 identifier='s1'
+216 statement (ExpressionStmt)
+217 expression (VariableDeclarationExpr)
+218 variables
+219 variable (VariableDeclarator)
+220 initializer (CastExpr)
+221 expression (MethodCallExpr)
+222 name (SimpleName)
+223 identifier='get'
+224 scope (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='getSteps'
+227 scope (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='getReactSequence'
+230 scope (NameExpr)
+231 name (SimpleName)
+232 identifier='s1'
+233 arguments
+234 argument (IntegerLiteralExpr)
+235 value='0'
+236 type (ClassOrInterfaceType)
+237 name (SimpleName)
+238 identifier='Sequence'
+239 name (SimpleName)
+240 identifier='_seq'
+241 type (ClassOrInterfaceType)
+242 name (SimpleName)
+243 identifier='Sequence'
+244 statement (ExpressionStmt)
+245 expression (VariableDeclarationExpr)
+246 variables
+247 variable (VariableDeclarator)
+248 initializer (CastExpr)
+249 expression (MethodCallExpr)
+250 name (SimpleName)
+251 identifier='get'
+252 scope (MethodCallExpr)
+253 name (SimpleName)
+254 identifier='getSteps'
+255 scope (MethodCallExpr)
+256 name (SimpleName)
+257 identifier='assertedSequence'
+258 arguments
+259 argument (MethodCallExpr)
+260 name (SimpleName)
+261 identifier='get'
+262 scope (MethodCallExpr)
+263 name (SimpleName)
+264 identifier='getSteps'
+265 scope (MethodCallExpr)
+266 name (SimpleName)
+267 identifier='assertedSequence'
+268 arguments
+269 argument (MethodCallExpr)
+270 name (SimpleName)
+271 identifier='get'
+272 scope (MethodCallExpr)
+273 name (SimpleName)
+274 identifier='getSteps'
+275 scope (NameExpr)
+276 name (SimpleName)
+277 identifier='_seq'
+278 arguments
+279 argument (IntegerLiteralExpr)
+280 value='0'
+281 arguments
+282 argument (IntegerLiteralExpr)
+283 value='0'
+284 arguments
+285 argument (IntegerLiteralExpr)
+286 value='0'
+287 type (ClassOrInterfaceType)
+288 name (SimpleName)
+289 identifier='If'
+290 name (SimpleName)
+291 identifier='_lr1'
+292 type (ClassOrInterfaceType)
+293 name (SimpleName)
+294 identifier='If'
+295 statement (ExpressionStmt)
+296 expression (MethodCallExpr)
+297 name (SimpleName)
+298 identifier='assertClass'
+299 arguments
+300 argument (ClassExpr)
+301 type (ClassOrInterfaceType)
+302 name (SimpleName)
+303 identifier='ElementReferenceExpression'
+304 argument (MethodCallExpr)
+305 name (SimpleName)
+306 identifier='getCondition'
+307 scope (MethodCallExpr)
+308 name (SimpleName)
+309 identifier='getCheck'
+310 scope (NameExpr)
+311 name (SimpleName)
+312 identifier='_lr1'
+313 statement (ExpressionStmt)
+314 expression (MethodCallExpr)
+315 name (SimpleName)
+316 identifier='assertSame'
+317 arguments
+318 argument (MethodCallExpr)
+319 name (SimpleName)
+320 identifier='getCondition'
+321 scope (MethodCallExpr)
+322 name (SimpleName)
+323 identifier='getCheck'
+324 scope (MethodCallExpr)
+325 name (SimpleName)
+326 identifier='get'
+327 scope (MethodCallExpr)
+328 name (SimpleName)
+329 identifier='getReactions'
+330 scope (NameExpr)
+331 name (SimpleName)
+332 identifier='s1'
+333 arguments
+334 argument (IntegerLiteralExpr)
+335 value='0'
+336 argument (MethodCallExpr)
+337 name (SimpleName)
+338 identifier='getCondition'
+339 scope (MethodCallExpr)
+340 name (SimpleName)
+341 identifier='getCheck'
+342 scope (NameExpr)
+343 name (SimpleName)
+344 identifier='_lr1'
+345 statement (ExpressionStmt)
+346 expression (VariableDeclarationExpr)
+347 variables
+348 variable (VariableDeclarator)
+349 initializer (CastExpr)
+350 expression (MethodCallExpr)
+351 name (SimpleName)
+352 identifier='getThenStep'
+353 scope (NameExpr)
+354 name (SimpleName)
+355 identifier='_lr1'
+356 type (ClassOrInterfaceType)
+357 name (SimpleName)
+358 identifier='Call'
+359 name (SimpleName)
+360 identifier='_lr1_eff_call'
+361 type (ClassOrInterfaceType)
+362 name (SimpleName)
+363 identifier='Call'
+364 statement (ExpressionStmt)
+365 expression (MethodCallExpr)
+366 name (SimpleName)
+367 identifier='assertSame'
+368 arguments
+369 argument (MethodCallExpr)
+370 name (SimpleName)
+371 identifier='getEffect'
+372 scope (MethodCallExpr)
+373 name (SimpleName)
+374 identifier='get'
+375 scope (MethodCallExpr)
+376 name (SimpleName)
+377 identifier='getReactions'
+378 scope (NameExpr)
+379 name (SimpleName)
+380 identifier='s1'
+381 arguments
+382 argument (IntegerLiteralExpr)
+383 value='0'
+384 argument (MethodCallExpr)
+385 name (SimpleName)
+386 identifier='getStep'
+387 scope (NameExpr)
+388 name (SimpleName)
+389 identifier='_lr1_eff_call'
+390 type (VoidType)
+391 name (SimpleName)
+392 identifier='testStateCycle_LocalReactionWithMixedRegularAndEntryTrigger'
+393 annotations
+394 annotation (SingleMemberAnnotationExpr)
+395 memberValue (StringLiteralExpr)
+396 value='unused'
+397 name (Name)
+398 identifier='SuppressWarnings'
+399 annotation (MarkerAnnotationExpr)
+400 name (Name)
+401 identifier='Test'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+29 32
+32 33
+33 34
+19 35
+35 36
+19 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+43 54
+54 55
+43 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+63 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+70 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+89 90
+83 91
+91 92
+83 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+105 106
+103 107
+107 108
+108 109
+107 110
+110 111
+111 112
+103 113
+113 114
+114 115
+113 116
+116 117
+117 118
+103 119
+119 120
+120 121
+99 122
+122 123
+99 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+131 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+130 144
+144 145
+130 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+156 159
+159 160
+160 161
+153 162
+162 163
+163 164
+152 165
+165 166
+152 167
+167 168
+168 169
+2 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+174 177
+177 178
+178 179
+177 180
+180 181
+181 182
+180 183
+183 184
+184 185
+2 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+2 197
+197 198
+198 199
+199 200
+198 201
+201 202
+202 203
+201 204
+204 205
+205 206
+204 207
+207 208
+208 209
+207 210
+210 211
+211 212
+210 213
+213 214
+214 215
+2 216
+216 217
+217 218
+218 219
+219 220
+220 221
+221 222
+222 223
+221 224
+224 225
+225 226
+224 227
+227 228
+228 229
+227 230
+230 231
+231 232
+221 233
+233 234
+234 235
+220 236
+236 237
+237 238
+219 239
+239 240
+219 241
+241 242
+242 243
+2 244
+244 245
+245 246
+246 247
+247 248
+248 249
+249 250
+250 251
+249 252
+252 253
+253 254
+252 255
+255 256
+256 257
+255 258
+258 259
+259 260
+260 261
+259 262
+262 263
+263 264
+262 265
+265 266
+266 267
+265 268
+268 269
+269 270
+270 271
+269 272
+272 273
+273 274
+272 275
+275 276
+276 277
+269 278
+278 279
+279 280
+259 281
+281 282
+282 283
+249 284
+284 285
+285 286
+248 287
+287 288
+288 289
+247 290
+290 291
+247 292
+292 293
+293 294
+2 295
+295 296
+296 297
+297 298
+296 299
+299 300
+300 301
+301 302
+302 303
+299 304
+304 305
+305 306
+304 307
+307 308
+308 309
+307 310
+310 311
+311 312
+2 313
+313 314
+314 315
+315 316
+314 317
+317 318
+318 319
+319 320
+318 321
+321 322
+322 323
+321 324
+324 325
+325 326
+324 327
+327 328
+328 329
+327 330
+330 331
+331 332
+324 333
+333 334
+334 335
+317 336
+336 337
+337 338
+336 339
+339 340
+340 341
+339 342
+342 343
+343 344
+2 345
+345 346
+346 347
+347 348
+348 349
+349 350
+350 351
+351 352
+350 353
+353 354
+354 355
+349 356
+356 357
+357 358
+348 359
+359 360
+348 361
+361 362
+362 363
+2 364
+364 365
+365 366
+366 367
+365 368
+368 369
+369 370
+370 371
+369 372
+372 373
+373 374
+372 375
+375 376
+376 377
+375 378
+378 379
+379 380
+372 381
+381 382
+382 383
+368 384
+384 385
+385 386
+384 387
+387 388
+388 389
+0 390
+0 391
+391 392
+0 393
+393 394
+394 395
+395 396
+394 397
+397 398
+393 399
+399 400
+400 401
+
+Local reactions that define regular and entry triggers side by side must also be part of the cycle steps.

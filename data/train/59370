@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkState'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='EQUALS'
+10 left (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='delegate'
+13 scope (ThisExpr)
+14 right (NullLiteralExpr)
+15 argument (StringLiteralExpr)
+16 value='delegate already initialized'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='delegate'
+23 scope (ThisExpr)
+24 value (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='checkNotNull'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='delegate'
+31 argument (StringLiteralExpr)
+32 value='delegate'
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='initializeDelegate'
+36 parameters
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='delegate'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='MembersInjector'
+44 typeArguments
+45 typeArgument (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='T'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+10 13
+8 14
+7 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+18 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+27 31
+31 32
+0 33
+0 34
+34 35
+0 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+
+Sets the actual members injector.

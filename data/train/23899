@@ -1,0 +1,108 @@
+53
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setSelectedPosition'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mListUtil'
+10 arguments
+11 argument (IntegerLiteralExpr)
+12 value='3'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='sendKeys'
+17 arguments
+18 argument (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='KEYCODE_DPAD_DOWN'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='KeyEvent'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='assertEquals'
+28 arguments
+29 argument (StringLiteralExpr)
+30 value='selected item position'
+31 argument (IntegerLiteralExpr)
+32 value='4'
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getSelectedItemPosition'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='mListView'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='assertSelectedViewFocus'
+43 arguments
+44 argument (BooleanLiteralExpr)
+45 value='false'
+46 type (VoidType)
+47 name (SimpleName)
+48 identifier='testGoingDownFromFocusableToUnfocusableWhenFocusableIsBelow'
+49 annotations
+50 annotation (MarkerAnnotationExpr)
+51 name (Name)
+52 identifier='MediumTest'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+28 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+0 46
+0 47
+47 48
+0 49
+49 50
+50 51
+51 52
+
+Go down from a focusable when there is a focusable below, but it is more than one item away; make sure it won't give that item focus because it is too far away.

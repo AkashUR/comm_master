@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='ACTION_PASSWORD_REQUIREMENTS_CHANGED'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='DeviceAdminReceiver'
+18 name (SimpleName)
+19 identifier='changedIntent'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Intent'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setComponent'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='changedIntent'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getAdmin'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='sendBroadcast'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getActivity'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='changedIntent'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='sendPasswordRequirementsChanged'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+0 45
+0 46
+46 47
+
+Notify the admin receiver that something about the password has changed - in this context, a minimum password requirement policy. This has to be sent manually because the system server only sends broadcasts for changes to the actual password, not any of the constraints related it it. <p>May trigger a show/hide of the notification warning to change the password through Settings.

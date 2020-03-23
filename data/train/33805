@@ -1,0 +1,386 @@
+192
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='CircuitBreaker'
+11 name (SimpleName)
+12 identifier='breaker'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='CircuitBreaker'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='halfOpen'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='breaker'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='stateFor'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Testing'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='breaker'
+37 name (SimpleName)
+38 identifier='state'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='HalfOpenState'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='withSuccessThreshold'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='breaker'
+49 arguments
+50 argument (IntegerLiteralExpr)
+51 value='2'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='recordSuccess'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='state'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='assertTrue'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='isHalfOpen'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='breaker'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='recordSuccess'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='state'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='assertTrue'
+81 arguments
+82 argument (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='isClosed'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='breaker'
+88 statement (ExpressionStmt)
+89 expression (AssignExpr)
+90 operator='ASSIGN'
+91 target (NameExpr)
+92 name (SimpleName)
+93 identifier='breaker'
+94 value (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='withFailureThreshold'
+97 scope (ObjectCreationExpr)
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='CircuitBreaker'
+101 arguments
+102 argument (IntegerLiteralExpr)
+103 value='3'
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='halfOpen'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='breaker'
+111 statement (ExpressionStmt)
+112 expression (AssignExpr)
+113 operator='ASSIGN'
+114 target (NameExpr)
+115 name (SimpleName)
+116 identifier='state'
+117 value (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='stateFor'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='Testing'
+123 arguments
+124 argument (NameExpr)
+125 name (SimpleName)
+126 identifier='breaker'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='recordFailure'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='state'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='recordFailure'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='state'
+141 statement (ExpressionStmt)
+142 expression (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='withSuccessThreshold'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='breaker'
+148 arguments
+149 argument (IntegerLiteralExpr)
+150 value='2'
+151 argument (IntegerLiteralExpr)
+152 value='4'
+153 statement (ExpressionStmt)
+154 expression (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='recordSuccess'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='state'
+160 statement (ExpressionStmt)
+161 expression (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='assertTrue'
+164 arguments
+165 argument (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='isHalfOpen'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='breaker'
+171 statement (ExpressionStmt)
+172 expression (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='recordSuccess'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='state'
+178 statement (ExpressionStmt)
+179 expression (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='assertTrue'
+182 arguments
+183 argument (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='isClosed'
+186 scope (NameExpr)
+187 name (SimpleName)
+188 identifier='breaker'
+189 type (VoidType)
+190 name (SimpleName)
+191 identifier='shouldHandleLateSetSucessRatio'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+26 37
+37 38
+26 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+2 88
+88 89
+89 90
+89 91
+91 92
+92 93
+89 94
+94 95
+95 96
+94 97
+97 98
+98 99
+99 100
+94 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+2 111
+111 112
+112 113
+112 114
+114 115
+115 116
+112 117
+117 118
+118 119
+117 120
+120 121
+121 122
+117 123
+123 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+2 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+148 151
+151 152
+2 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+2 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+2 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+2 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+0 189
+0 190
+190 191
+
+Asserts that the late configuration of a success ratio is handled by resetting the state's internal tracking. Also asserts that executions from prior configurations are carried over to a new configuration.

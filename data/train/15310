@@ -1,0 +1,122 @@
+60
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getAndAdd'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='defaultGen'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='MULTIPLY'
+16 left (IntegerLiteralExpr)
+17 value='2'
+18 right (NameExpr)
+19 name (SimpleName)
+20 identifier='GOLDEN_GAMMA'
+21 name (SimpleName)
+22 identifier='s'
+23 type (PrimitiveType)
+24 type='LONG'
+25 statement (ExpressionStmt)
+26 expression (AssignExpr)
+27 operator='ASSIGN'
+28 target (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='seed'
+31 scope (ThisExpr)
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='mix64'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='s'
+39 statement (ExpressionStmt)
+40 expression (AssignExpr)
+41 operator='ASSIGN'
+42 target (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='gamma'
+45 scope (ThisExpr)
+46 value (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='mixGamma'
+49 arguments
+50 argument (BinaryExpr)
+51 operator='PLUS'
+52 left (NameExpr)
+53 name (SimpleName)
+54 identifier='s'
+55 right (NameExpr)
+56 name (SimpleName)
+57 identifier='GOLDEN_GAMMA'
+58 name (SimpleName)
+59 identifier='SplittableRandom'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+14 16
+16 17
+14 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+28 31
+26 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+2 39
+39 40
+40 41
+40 42
+42 43
+43 44
+42 45
+40 46
+46 47
+47 48
+46 49
+49 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+56 57
+0 58
+58 59
+
+Creates a new SplittableRandom instance that is likely to generate sequences of values that are statistically independent of those of any other instances in the current program; and may, and typically does, vary across program invocations.

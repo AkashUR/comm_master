@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='configureBlocking'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='channel1'
+10 scope (ThisExpr)
+11 arguments
+12 argument (BooleanLiteralExpr)
+13 value='false'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='assertFalse'
+18 arguments
+19 argument (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='isConnected'
+22 scope (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='channel1'
+25 scope (ThisExpr)
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='allocateDirect'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='ByteBuffer'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='CAPACITY_NORMAL'
+40 name (SimpleName)
+41 identifier='dst'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='ByteBuffer'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='assertNull'
+49 arguments
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='receive'
+53 scope (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='channel1'
+56 scope (ThisExpr)
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='dst'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='testReceive_UnconnectedBufEmpty'
+64 thrownExceptions
+65 thrownException (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+4 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+29 40
+40 41
+29 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+50 57
+57 58
+58 59
+59 60
+0 61
+0 62
+62 63
+0 64
+64 65
+65 66
+66 67
+
+Test method for 'DatagramChannelImpl.receive(ByteBuffer)'

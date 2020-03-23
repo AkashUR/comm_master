@@ -1,0 +1,84 @@
+41
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='detach'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mSelectBehavior'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='detach'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='root'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='removeBranchGraph'
+21 scope (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getLocale'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='universe'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='root'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='stopRenderer'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='canvas'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='destroySceneGraph'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+18 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+0 38
+0 39
+39 40
+
+Eliminates the existing scene graph.  This ought to be called when starting a simulation prior to creating any new Portrayal3Ds.  The reason is simple: if the Portrayal3Ds use shared geometry objects underneath, then creating them may create new shared geometry objects, which isn't permitted if there are existing shared geometry objects in a live scene graph.  So destroy the scene graph, create the new objects, and recreate the scene graph, and you're set.

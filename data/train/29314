@@ -1,0 +1,164 @@
+81
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NullLiteralExpr)
+8 name (SimpleName)
+9 identifier='e'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Exception'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='createLinkFailureMessageBasedOnHeuristics'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='SQLError'
+23 arguments
+24 argument (CastExpr)
+25 expression (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='conn'
+28 scope (ThisExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='MySQLConnection'
+32 argument (BinaryExpr)
+33 operator='MINUS'
+34 left (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='currentTimeMillis'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='System'
+40 right (IntegerLiteralExpr)
+41 value='1000'
+42 argument (BinaryExpr)
+43 operator='MINUS'
+44 left (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='currentTimeMillis'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='System'
+50 right (IntegerLiteralExpr)
+51 value='2000'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='e'
+55 name (SimpleName)
+56 identifier='msg'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='assertTrue'
+64 arguments
+65 argument (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='containsMessage'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='msg'
+72 argument (StringLiteralExpr)
+73 value='CommunicationsException.ServerPacketTimingInfo'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='testBug44587'
+77 thrownExceptions
+78 thrownException (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+26 27
+25 28
+24 29
+29 30
+30 31
+23 32
+32 33
+32 34
+34 35
+35 36
+34 37
+37 38
+38 39
+32 40
+40 41
+23 42
+42 43
+42 44
+44 45
+45 46
+44 47
+47 48
+48 49
+42 50
+50 51
+23 52
+52 53
+53 54
+16 55
+55 56
+16 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+68 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+79 80
+
+Tests fix for BUG#44587, provide last packet sent/received timing in all connection failure errors.

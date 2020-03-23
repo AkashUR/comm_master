@@ -1,0 +1,194 @@
+96
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkState'
+7 arguments
+8 argument (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='detached'
+11 scope (ThisExpr)
+12 argument (StringLiteralExpr)
+13 value='Cannot reuse while still in use'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='start'
+20 scope (ThisExpr)
+21 value (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='checkNotNull'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='start'
+28 argument (StringLiteralExpr)
+29 value='start'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='end'
+36 scope (ThisExpr)
+37 value (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='sub'
+40 scope (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='add'
+43 scope (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='start'
+46 scope (ThisExpr)
+47 arguments
+48 argument (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='size'
+51 scope (ThisExpr)
+52 arguments
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='ONE'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='Vector3i'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='fill'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='Arrays'
+66 arguments
+67 argument (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='biomes'
+70 scope (ThisExpr)
+71 argument (CastExpr)
+72 expression (IntegerLiteralExpr)
+73 value='0'
+74 type (PrimitiveType)
+75 type='BYTE'
+76 statement (ExpressionStmt)
+77 expression (AssignExpr)
+78 operator='ASSIGN'
+79 target (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='detached'
+82 scope (ThisExpr)
+83 value (BooleanLiteralExpr)
+84 value='false'
+85 type (VoidType)
+86 name (SimpleName)
+87 identifier='reuse'
+88 parameters
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='start'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Vector3i'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+7 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+17 20
+15 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+24 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+33 36
+31 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+40 47
+47 48
+48 49
+49 50
+48 51
+37 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+67 70
+66 71
+71 72
+72 73
+71 74
+74 75
+2 76
+76 77
+77 78
+77 79
+79 80
+80 81
+79 82
+77 83
+83 84
+0 85
+0 86
+86 87
+0 88
+88 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+
+Changes the bounds of this biome volume, so that it can be reused for another chunk.

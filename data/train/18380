@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='NBTTagCompound'
+11 name (SimpleName)
+12 identifier='toSend'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='NBTTagCompound'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setString'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='toSend'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='oreType'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='oreType'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='sendMessage'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='FMLInterModComms'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='ThermalExpansion'
+39 argument (StringLiteralExpr)
+40 value='SmelterBlastOreType'
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='toSend'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='addSmelterBlastOre'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='oreType'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+36 39
+39 40
+36 41
+41 42
+42 43
+0 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+
+Use this to register an Ore TYPE as a "Blast" recipe - it will require Pyrotheum Dust to smelt. Do not add the prefix. This is an opt-in for ores which do NOT have vanilla furnace recipes. Ex: "Steel" or "ElectrumFlux", not "dustSteel" or "dustElectrumFlux"

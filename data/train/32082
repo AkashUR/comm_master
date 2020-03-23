@@ -1,0 +1,240 @@
+119
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setVisibility'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mDeviceIcon'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='VISIBLE'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='View'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='setImageResource'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='mDeviceIcon'
+24 arguments
+25 argument (ConditionalExpr)
+26 condition (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='isTablet'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='DeviceFormFactor'
+32 arguments
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getContext'
+36 elseExpr (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='recent_phone'
+39 scope (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='drawable'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='R'
+45 thenExpr (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='recent_tablet'
+48 scope (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='drawable'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='R'
+54 statement (ExpressionStmt)
+55 expression (VariableDeclarationExpr)
+56 variables
+57 variable (VariableDeclarator)
+58 initializer (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='getString'
+61 scope (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getResources'
+64 arguments
+65 argument (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='recent_tabs_this_device'
+68 scope (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='string'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='R'
+74 name (SimpleName)
+75 identifier='title'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='String'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='setText'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='mDeviceLabel'
+86 arguments
+87 argument (NameExpr)
+88 name (SimpleName)
+89 identifier='title'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='setTimeLabelVisibility'
+94 arguments
+95 argument (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='GONE'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='View'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='configureExpandedCollapsed'
+105 arguments
+106 argument (NameExpr)
+107 name (SimpleName)
+108 identifier='isExpanded'
+109 type (VoidType)
+110 name (SimpleName)
+111 identifier='configureForCurrentlyOpenTabs'
+112 parameters
+113 parameter (Parameter)
+114 isVarArgs='false'
+115 name (SimpleName)
+116 identifier='isExpanded'
+117 type (PrimitiveType)
+118 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+25 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+42 43
+43 44
+25 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+58 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+57 74
+74 75
+57 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+107 108
+0 109
+0 110
+110 111
+0 112
+112 113
+113 114
+113 115
+115 116
+113 117
+117 118
+
+Configures the view for currently open tabs.

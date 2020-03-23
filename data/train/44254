@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkIntersection'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='LINESTRING (305690.0434123494 254176.46578338774, 305601.9999843455 254243.19999846347)'
+10 argument (StringLiteralExpr)
+11 value='LINESTRING (305689.6153764265 254177.33102743194, 305692.4999844298 254171.4999983967)'
+12 argument (IntegerLiteralExpr)
+13 value='1'
+14 argument (StringLiteralExpr)
+15 value='POINT (305690.0434123494 254176.46578338774)'
+16 argument (IntegerLiteralExpr)
+17 value='0'
+18 type (VoidType)
+19 name (SimpleName)
+20 identifier='testLeduc_1'
+21 thrownExceptions
+22 thrownException (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='ParseException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+7 12
+12 13
+7 14
+14 15
+7 16
+16 17
+0 18
+0 19
+19 20
+0 21
+21 22
+22 23
+23 24
+
+Test involving two non-almost-parallel lines. Does not seem to cause problems with basic line intersection algorithm.

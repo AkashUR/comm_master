@@ -1,0 +1,450 @@
+224
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='elementList'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='NodeList'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='employeeNode'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Node'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='childList'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='NodeList'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (NullLiteralExpr)
+44 name (SimpleName)
+45 identifier='refChild'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Node'
+49 statement (ExpressionStmt)
+50 expression (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 name (SimpleName)
+54 identifier='newChild'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='Node'
+58 statement (ExpressionStmt)
+59 expression (VariableDeclarationExpr)
+60 variables
+61 variable (VariableDeclarator)
+62 name (SimpleName)
+63 identifier='child'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Node'
+67 statement (ExpressionStmt)
+68 expression (VariableDeclarationExpr)
+69 variables
+70 variable (VariableDeclarator)
+71 name (SimpleName)
+72 identifier='childName'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='String'
+76 statement (ExpressionStmt)
+77 expression (VariableDeclarationExpr)
+78 variables
+79 variable (VariableDeclarator)
+80 name (SimpleName)
+81 identifier='insertedNode'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='Node'
+85 statement (ExpressionStmt)
+86 expression (AssignExpr)
+87 operator='ASSIGN'
+88 target (NameExpr)
+89 name (SimpleName)
+90 identifier='doc'
+91 value (CastExpr)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='load'
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='hc_staff'
+98 argument (BooleanLiteralExpr)
+99 value='true'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='Document'
+103 statement (ExpressionStmt)
+104 expression (AssignExpr)
+105 operator='ASSIGN'
+106 target (NameExpr)
+107 name (SimpleName)
+108 identifier='elementList'
+109 value (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='getElementsByTagName'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='doc'
+115 arguments
+116 argument (StringLiteralExpr)
+117 value='p'
+118 statement (ExpressionStmt)
+119 expression (AssignExpr)
+120 operator='ASSIGN'
+121 target (NameExpr)
+122 name (SimpleName)
+123 identifier='employeeNode'
+124 value (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='item'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='elementList'
+130 arguments
+131 argument (IntegerLiteralExpr)
+132 value='1'
+133 statement (ExpressionStmt)
+134 expression (AssignExpr)
+135 operator='ASSIGN'
+136 target (NameExpr)
+137 name (SimpleName)
+138 identifier='childList'
+139 value (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='getChildNodes'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='employeeNode'
+145 statement (ExpressionStmt)
+146 expression (AssignExpr)
+147 operator='ASSIGN'
+148 target (NameExpr)
+149 name (SimpleName)
+150 identifier='newChild'
+151 value (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='createElement'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='doc'
+157 arguments
+158 argument (StringLiteralExpr)
+159 value='br'
+160 statement (ExpressionStmt)
+161 expression (AssignExpr)
+162 operator='ASSIGN'
+163 target (NameExpr)
+164 name (SimpleName)
+165 identifier='insertedNode'
+166 value (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='insertBefore'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='employeeNode'
+172 arguments
+173 argument (NameExpr)
+174 name (SimpleName)
+175 identifier='newChild'
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='refChild'
+179 statement (ExpressionStmt)
+180 expression (AssignExpr)
+181 operator='ASSIGN'
+182 target (NameExpr)
+183 name (SimpleName)
+184 identifier='child'
+185 value (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='getLastChild'
+188 scope (NameExpr)
+189 name (SimpleName)
+190 identifier='employeeNode'
+191 statement (ExpressionStmt)
+192 expression (AssignExpr)
+193 operator='ASSIGN'
+194 target (NameExpr)
+195 name (SimpleName)
+196 identifier='childName'
+197 value (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='getNodeName'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='child'
+203 statement (ExpressionStmt)
+204 expression (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='assertEqualsAutoCase'
+207 arguments
+208 argument (StringLiteralExpr)
+209 value='element'
+210 argument (StringLiteralExpr)
+211 value='nodeName'
+212 argument (StringLiteralExpr)
+213 value='br'
+214 argument (NameExpr)
+215 name (SimpleName)
+216 identifier='childName'
+217 type (VoidType)
+218 name (SimpleName)
+219 identifier='runTest'
+220 thrownExceptions
+221 thrownException (ClassOrInterfaceType)
+222 name (SimpleName)
+223 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+2 85
+85 86
+86 87
+86 88
+88 89
+89 90
+86 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+91 100
+100 101
+101 102
+2 103
+103 104
+104 105
+104 106
+106 107
+107 108
+104 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+2 118
+118 119
+119 120
+119 121
+121 122
+122 123
+119 124
+124 125
+125 126
+124 127
+127 128
+128 129
+124 130
+130 131
+131 132
+2 133
+133 134
+134 135
+134 136
+136 137
+137 138
+134 139
+139 140
+140 141
+139 142
+142 143
+143 144
+2 145
+145 146
+146 147
+146 148
+148 149
+149 150
+146 151
+151 152
+152 153
+151 154
+154 155
+155 156
+151 157
+157 158
+158 159
+2 160
+160 161
+161 162
+161 163
+163 164
+164 165
+161 166
+166 167
+167 168
+166 169
+169 170
+170 171
+166 172
+172 173
+173 174
+174 175
+172 176
+176 177
+177 178
+2 179
+179 180
+180 181
+180 182
+182 183
+183 184
+180 185
+185 186
+186 187
+185 188
+188 189
+189 190
+2 191
+191 192
+192 193
+192 194
+194 195
+195 196
+192 197
+197 198
+198 199
+197 200
+200 201
+201 202
+2 203
+203 204
+204 205
+205 206
+204 207
+207 208
+208 209
+207 210
+210 211
+207 212
+212 213
+207 214
+214 215
+215 216
+0 217
+0 218
+218 219
+0 220
+220 221
+221 222
+222 223
+
+Runs the test case.

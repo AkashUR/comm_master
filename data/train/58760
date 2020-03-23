@@ -1,0 +1,654 @@
+326
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TokenBuffer'
+11 arguments
+12 argument (NullLiteralExpr)
+13 name (SimpleName)
+14 identifier='buf1'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='TokenBuffer'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='writeStartArray'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='buf1'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='TokenBuffer'
+33 arguments
+34 argument (NullLiteralExpr)
+35 name (SimpleName)
+36 identifier='buf2'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='TokenBuffer'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='writeString'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='buf2'
+47 arguments
+48 argument (StringLiteralExpr)
+49 value='a'
+50 statement (ExpressionStmt)
+51 expression (VariableDeclarationExpr)
+52 variables
+53 variable (VariableDeclarator)
+54 initializer (ObjectCreationExpr)
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='TokenBuffer'
+58 arguments
+59 argument (NullLiteralExpr)
+60 name (SimpleName)
+61 identifier='buf3'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='TokenBuffer'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='writeNumber'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='buf3'
+72 arguments
+73 argument (IntegerLiteralExpr)
+74 value='13'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 initializer (ObjectCreationExpr)
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='TokenBuffer'
+83 arguments
+84 argument (NullLiteralExpr)
+85 name (SimpleName)
+86 identifier='buf4'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='TokenBuffer'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='writeEndArray'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='buf4'
+97 statement (ExpressionStmt)
+98 expression (VariableDeclarationExpr)
+99 variables
+100 variable (VariableDeclarator)
+101 initializer (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='createFlattened'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='JsonParserSequence'
+107 arguments
+108 argument (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='asParser'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='buf1'
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='asParser'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='buf2'
+120 name (SimpleName)
+121 identifier='seq1'
+122 type (ClassOrInterfaceType)
+123 name (SimpleName)
+124 identifier='JsonParserSequence'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='assertEquals'
+129 arguments
+130 argument (IntegerLiteralExpr)
+131 value='2'
+132 argument (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='containedParsersCount'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='seq1'
+138 statement (ExpressionStmt)
+139 expression (VariableDeclarationExpr)
+140 variables
+141 variable (VariableDeclarator)
+142 initializer (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='createFlattened'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='JsonParserSequence'
+148 arguments
+149 argument (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='asParser'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='buf3'
+155 argument (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='asParser'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='buf4'
+161 name (SimpleName)
+162 identifier='seq2'
+163 type (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='JsonParserSequence'
+166 statement (ExpressionStmt)
+167 expression (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='assertEquals'
+170 arguments
+171 argument (IntegerLiteralExpr)
+172 value='2'
+173 argument (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='containedParsersCount'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='seq2'
+179 statement (ExpressionStmt)
+180 expression (VariableDeclarationExpr)
+181 variables
+182 variable (VariableDeclarator)
+183 initializer (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='createFlattened'
+186 scope (NameExpr)
+187 name (SimpleName)
+188 identifier='JsonParserSequence'
+189 arguments
+190 argument (NameExpr)
+191 name (SimpleName)
+192 identifier='seq1'
+193 argument (NameExpr)
+194 name (SimpleName)
+195 identifier='seq2'
+196 name (SimpleName)
+197 identifier='combo'
+198 type (ClassOrInterfaceType)
+199 name (SimpleName)
+200 identifier='JsonParserSequence'
+201 statement (ExpressionStmt)
+202 expression (MethodCallExpr)
+203 name (SimpleName)
+204 identifier='assertEquals'
+205 arguments
+206 argument (IntegerLiteralExpr)
+207 value='4'
+208 argument (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='containedParsersCount'
+211 scope (NameExpr)
+212 name (SimpleName)
+213 identifier='combo'
+214 statement (ExpressionStmt)
+215 expression (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='assertToken'
+218 arguments
+219 argument (FieldAccessExpr)
+220 name (SimpleName)
+221 identifier='START_ARRAY'
+222 scope (NameExpr)
+223 name (SimpleName)
+224 identifier='JsonToken'
+225 argument (MethodCallExpr)
+226 name (SimpleName)
+227 identifier='nextToken'
+228 scope (NameExpr)
+229 name (SimpleName)
+230 identifier='combo'
+231 statement (ExpressionStmt)
+232 expression (MethodCallExpr)
+233 name (SimpleName)
+234 identifier='assertToken'
+235 arguments
+236 argument (FieldAccessExpr)
+237 name (SimpleName)
+238 identifier='VALUE_STRING'
+239 scope (NameExpr)
+240 name (SimpleName)
+241 identifier='JsonToken'
+242 argument (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='nextToken'
+245 scope (NameExpr)
+246 name (SimpleName)
+247 identifier='combo'
+248 statement (ExpressionStmt)
+249 expression (MethodCallExpr)
+250 name (SimpleName)
+251 identifier='assertEquals'
+252 arguments
+253 argument (StringLiteralExpr)
+254 value='a'
+255 argument (MethodCallExpr)
+256 name (SimpleName)
+257 identifier='getText'
+258 scope (NameExpr)
+259 name (SimpleName)
+260 identifier='combo'
+261 statement (ExpressionStmt)
+262 expression (MethodCallExpr)
+263 name (SimpleName)
+264 identifier='assertToken'
+265 arguments
+266 argument (FieldAccessExpr)
+267 name (SimpleName)
+268 identifier='VALUE_NUMBER_INT'
+269 scope (NameExpr)
+270 name (SimpleName)
+271 identifier='JsonToken'
+272 argument (MethodCallExpr)
+273 name (SimpleName)
+274 identifier='nextToken'
+275 scope (NameExpr)
+276 name (SimpleName)
+277 identifier='combo'
+278 statement (ExpressionStmt)
+279 expression (MethodCallExpr)
+280 name (SimpleName)
+281 identifier='assertEquals'
+282 arguments
+283 argument (IntegerLiteralExpr)
+284 value='13'
+285 argument (MethodCallExpr)
+286 name (SimpleName)
+287 identifier='getIntValue'
+288 scope (NameExpr)
+289 name (SimpleName)
+290 identifier='combo'
+291 statement (ExpressionStmt)
+292 expression (MethodCallExpr)
+293 name (SimpleName)
+294 identifier='assertToken'
+295 arguments
+296 argument (FieldAccessExpr)
+297 name (SimpleName)
+298 identifier='END_ARRAY'
+299 scope (NameExpr)
+300 name (SimpleName)
+301 identifier='JsonToken'
+302 argument (MethodCallExpr)
+303 name (SimpleName)
+304 identifier='nextToken'
+305 scope (NameExpr)
+306 name (SimpleName)
+307 identifier='combo'
+308 statement (ExpressionStmt)
+309 expression (MethodCallExpr)
+310 name (SimpleName)
+311 identifier='assertNull'
+312 arguments
+313 argument (MethodCallExpr)
+314 name (SimpleName)
+315 identifier='nextToken'
+316 scope (NameExpr)
+317 name (SimpleName)
+318 identifier='combo'
+319 type (VoidType)
+320 name (SimpleName)
+321 identifier='testFlattening'
+322 thrownExceptions
+323 thrownException (ClassOrInterfaceType)
+324 name (SimpleName)
+325 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+29 33
+33 34
+28 35
+35 36
+28 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+54 58
+58 59
+53 60
+60 61
+53 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+81 82
+79 83
+83 84
+78 85
+85 86
+78 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+107 114
+114 115
+115 116
+114 117
+117 118
+118 119
+100 120
+120 121
+100 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+133 134
+132 135
+135 136
+136 137
+2 138
+138 139
+139 140
+140 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+148 155
+155 156
+156 157
+155 158
+158 159
+159 160
+141 161
+161 162
+141 163
+163 164
+164 165
+2 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+170 173
+173 174
+174 175
+173 176
+176 177
+177 178
+2 179
+179 180
+180 181
+181 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+183 189
+189 190
+190 191
+191 192
+189 193
+193 194
+194 195
+182 196
+196 197
+182 198
+198 199
+199 200
+2 201
+201 202
+202 203
+203 204
+202 205
+205 206
+206 207
+205 208
+208 209
+209 210
+208 211
+211 212
+212 213
+2 214
+214 215
+215 216
+216 217
+215 218
+218 219
+219 220
+220 221
+219 222
+222 223
+223 224
+218 225
+225 226
+226 227
+225 228
+228 229
+229 230
+2 231
+231 232
+232 233
+233 234
+232 235
+235 236
+236 237
+237 238
+236 239
+239 240
+240 241
+235 242
+242 243
+243 244
+242 245
+245 246
+246 247
+2 248
+248 249
+249 250
+250 251
+249 252
+252 253
+253 254
+252 255
+255 256
+256 257
+255 258
+258 259
+259 260
+2 261
+261 262
+262 263
+263 264
+262 265
+265 266
+266 267
+267 268
+266 269
+269 270
+270 271
+265 272
+272 273
+273 274
+272 275
+275 276
+276 277
+2 278
+278 279
+279 280
+280 281
+279 282
+282 283
+283 284
+282 285
+285 286
+286 287
+285 288
+288 289
+289 290
+2 291
+291 292
+292 293
+293 294
+292 295
+295 296
+296 297
+297 298
+296 299
+299 300
+300 301
+295 302
+302 303
+303 304
+302 305
+305 306
+306 307
+2 308
+308 309
+309 310
+310 311
+309 312
+312 313
+313 314
+314 315
+313 316
+316 317
+317 318
+0 319
+0 320
+320 321
+0 322
+322 323
+323 324
+324 325
+
+Test to verify that sequences get flattened, to minimize depth of nesting (to reduce call chaining)

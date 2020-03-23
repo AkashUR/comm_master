@@ -1,0 +1,274 @@
+136
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getHost'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='uri'
+17 right (StringLiteralExpr)
+18 value=':'
+19 right (EnclosedExpr)
+20 inner (ConditionalExpr)
+21 condition (BinaryExpr)
+22 operator='EQUALS'
+23 left (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getPort'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='uri'
+29 right (UnaryExpr)
+30 operator='MINUS'
+31 expression (IntegerLiteralExpr)
+32 value='1'
+33 elseExpr (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getPort'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='uri'
+39 thenExpr (IntegerLiteralExpr)
+40 value='2181'
+41 name (SimpleName)
+42 identifier='connectString'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='String'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (ArrayAccessExpr)
+51 index (IntegerLiteralExpr)
+52 value='1'
+53 name (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='split'
+56 scope (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getPath'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='uri'
+62 arguments
+63 argument (StringLiteralExpr)
+64 value='/'
+65 argument (IntegerLiteralExpr)
+66 value='2'
+67 name (SimpleName)
+68 identifier='serviceName'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='String'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (NameExpr)
+76 name (SimpleName)
+77 identifier='client'
+78 value (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='newClient'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='CuratorFrameworkFactory'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='connectString'
+88 argument (ObjectCreationExpr)
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='RetryOneTime'
+92 arguments
+93 argument (IntegerLiteralExpr)
+94 value='1000'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='start'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='client'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='add'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='shutdownFunctions'
+109 arguments
+110 argument (NullLiteralExpr)
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='initProvider'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='client'
+119 argument (NameExpr)
+120 name (SimpleName)
+121 identifier='serviceName'
+122 name (SimpleName)
+123 identifier='ZookeeperConfigProvider'
+124 parameters
+125 parameter (Parameter)
+126 isVarArgs='false'
+127 name (SimpleName)
+128 identifier='uri'
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='URI'
+132 thrownExceptions
+133 thrownException (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+12 13
+11 14
+14 15
+15 16
+9 17
+17 18
+7 19
+19 20
+20 21
+21 22
+21 23
+23 24
+24 25
+23 26
+26 27
+27 28
+21 29
+29 30
+29 31
+31 32
+20 33
+33 34
+34 35
+33 36
+36 37
+37 38
+20 39
+39 40
+6 41
+41 42
+6 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+53 62
+62 63
+63 64
+62 65
+65 66
+49 67
+67 68
+49 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+90 91
+88 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+103 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+117 118
+115 119
+119 120
+120 121
+0 122
+122 123
+0 124
+124 125
+125 126
+125 127
+127 128
+125 129
+129 130
+130 131
+0 132
+132 133
+133 134
+134 135
+
+Instantiates a new Zookeeper config provider.

@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='configure'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='configuration'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='container'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='readTextFile'
+21 scope (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getFileHandler'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='configuration'
+27 arguments
+28 argument (BinaryExpr)
+29 operator='PLUS'
+30 left (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getHome'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='configuration'
+36 right (StringLiteralExpr)
+37 value='/config.xml'
+38 argument (StringLiteralExpr)
+39 value='UTF-8'
+40 name (SimpleName)
+41 identifier='config'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='String'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='assertXpathEvaluatesTo'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='XMLAssert'
+52 arguments
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='getPropertyValue'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='configuration'
+59 arguments
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='PORT'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='ServletPropertySet'
+66 argument (StringLiteralExpr)
+67 value='//Server/@ListenPort'
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='config'
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='testDoConfigureSetsDefaultPort'
+74 thrownExceptions
+75 thrownException (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+18 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+33 34
+34 35
+28 36
+36 37
+27 38
+38 39
+17 40
+40 41
+17 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+52 66
+66 67
+52 68
+68 69
+69 70
+0 71
+0 72
+72 73
+0 74
+74 75
+75 76
+76 77
+
+Test default port.

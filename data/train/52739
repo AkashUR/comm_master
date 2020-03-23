@@ -1,0 +1,400 @@
+199
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='JsonFactory'
+11 name (SimpleName)
+12 identifier='jsonF'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='JsonFactory'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='DataFormatDetector'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='jsonF'
+28 name (SimpleName)
+29 identifier='detector'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='DataFormatDetector'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (StringLiteralExpr)
+38 value='\"JSON!\"'
+39 name (SimpleName)
+40 identifier='JSON'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='String'
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='findFormat'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='detector'
+54 arguments
+55 argument (ObjectCreationExpr)
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='ByteArrayInputStream'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getBytes'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='JSON'
+66 arguments
+67 argument (StringLiteralExpr)
+68 value='UTF-8'
+69 name (SimpleName)
+70 identifier='matcher'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='DataFormatMatcher'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='assertTrue'
+78 arguments
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='hasMatch'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='matcher'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='assertEquals'
+89 arguments
+90 argument (StringLiteralExpr)
+91 value='JSON'
+92 argument (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='getMatchedFormatName'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='matcher'
+98 statement (ExpressionStmt)
+99 expression (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='assertSame'
+102 arguments
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='jsonF'
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='getMatch'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='matcher'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='assertEquals'
+116 arguments
+117 argument (FieldAccessExpr)
+118 name (SimpleName)
+119 identifier='WEAK_MATCH'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='MatchStrength'
+123 argument (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='getMatchStrength'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='matcher'
+129 statement (ExpressionStmt)
+130 expression (VariableDeclarationExpr)
+131 variables
+132 variable (VariableDeclarator)
+133 initializer (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='createParserWithMatch'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='matcher'
+139 name (SimpleName)
+140 identifier='jp'
+141 type (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='JsonParser'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='assertToken'
+148 arguments
+149 argument (FieldAccessExpr)
+150 name (SimpleName)
+151 identifier='VALUE_STRING'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='JsonToken'
+155 argument (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='nextToken'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='jp'
+161 statement (ExpressionStmt)
+162 expression (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='assertEquals'
+165 arguments
+166 argument (StringLiteralExpr)
+167 value='JSON!'
+168 argument (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='getText'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='jp'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='assertNull'
+178 arguments
+179 argument (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='nextToken'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='jp'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='close'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='jp'
+192 type (VoidType)
+193 name (SimpleName)
+194 identifier='testSimpleValidString'
+195 thrownExceptions
+196 thrownException (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+26 27
+19 28
+28 29
+19 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+36 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+47 69
+69 70
+47 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+89 92
+92 93
+93 94
+92 95
+95 96
+96 97
+2 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+104 105
+102 106
+106 107
+107 108
+106 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+116 123
+123 124
+124 125
+123 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+132 139
+139 140
+132 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+148 155
+155 156
+156 157
+155 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+165 168
+168 169
+169 170
+168 171
+171 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+0 192
+0 193
+193 194
+0 195
+195 196
+196 197
+197 198
+
+While JSON String is not a strong match alone, it should be detected unless some better match is available

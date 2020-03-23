@@ -1,0 +1,248 @@
+123
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='waitType'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='thread'
+12 value (NameExpr)
+13 name (SimpleName)
+14 identifier='waitType'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='waitId'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='thread'
+24 value (NameExpr)
+25 name (SimpleName)
+26 identifier='waitId'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='waitStateChecker'
+33 scope (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='wait'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='thread'
+39 value (NameExpr)
+40 name (SimpleName)
+41 identifier='waitStateChecker'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='hleKernelThreadWait'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='thread'
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='micros'
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='forever'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='hleChangeThreadState'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='thread'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='PSP_THREAD_WAITING'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='hleRescheduleCurrentThread'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='callbacks'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='hleKernelThreadEnterWaitState'
+78 parameters
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='thread'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='SceKernelThreadInfo'
+86 parameter (Parameter)
+87 isVarArgs='false'
+88 name (SimpleName)
+89 identifier='waitType'
+90 type (PrimitiveType)
+91 type='INT'
+92 parameter (Parameter)
+93 isVarArgs='false'
+94 name (SimpleName)
+95 identifier='waitId'
+96 type (PrimitiveType)
+97 type='INT'
+98 parameter (Parameter)
+99 isVarArgs='false'
+100 name (SimpleName)
+101 identifier='waitStateChecker'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='IWaitStateChecker'
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='micros'
+109 type (PrimitiveType)
+110 type='INT'
+111 parameter (Parameter)
+112 isVarArgs='false'
+113 name (SimpleName)
+114 identifier='forever'
+115 type (PrimitiveType)
+116 type='BOOLEAN'
+117 parameter (Parameter)
+118 isVarArgs='false'
+119 name (SimpleName)
+120 identifier='callbacks'
+121 type (PrimitiveType)
+122 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+18 21
+21 22
+22 23
+16 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+28 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+48 49
+46 50
+50 51
+51 52
+46 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+0 75
+0 76
+76 77
+0 78
+78 79
+79 80
+79 81
+81 82
+79 83
+83 84
+84 85
+78 86
+86 87
+86 88
+88 89
+86 90
+90 91
+78 92
+92 93
+92 94
+94 95
+92 96
+96 97
+78 98
+98 99
+98 100
+100 101
+98 102
+102 103
+103 104
+78 105
+105 106
+105 107
+107 108
+105 109
+109 110
+78 111
+111 112
+111 113
+113 114
+111 115
+115 116
+78 117
+117 118
+117 119
+119 120
+117 121
+121 122
+
+Enter a thread in a wait state.

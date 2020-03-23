@@ -1,0 +1,102 @@
+50
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='text'
+9 argument (EnclosedExpr)
+10 inner (ConditionalExpr)
+11 condition (NameExpr)
+12 name (SimpleName)
+13 identifier='delimsAreTokens'
+14 elseExpr (NameExpr)
+15 name (SimpleName)
+16 identifier='delims'
+17 thenExpr (NullLiteralExpr)
+18 argument (EnclosedExpr)
+19 inner (ConditionalExpr)
+20 condition (NameExpr)
+21 name (SimpleName)
+22 identifier='delimsAreTokens'
+23 elseExpr (NullLiteralExpr)
+24 thenExpr (NameExpr)
+25 name (SimpleName)
+26 identifier='delims'
+27 name (SimpleName)
+28 identifier='StringOwnTokenizer'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='text'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='String'
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='delims'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='String'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='delimsAreTokens'
+48 type (PrimitiveType)
+49 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+5 18
+18 19
+19 20
+20 21
+21 22
+19 23
+19 24
+24 25
+25 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+29 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+29 44
+44 45
+44 46
+46 47
+44 48
+48 49
+
+Constructs a string tokenizer for the specified string. Either token or nontoken delimiters are specified. <p> Is equivalent to: <ul> <li> If the third parameter is <code>false</code> -- <code>StringTokenizer(text,delims, null)</code> <li> If the third parameter is <code>true</code> -- <code>StringTokenizer(text, null ,delims)</code> </ul>

@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addPermission'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='amazonSqsToBeExtended'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='queueUrl'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='label'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='aWSAccountIds'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='actions'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='addPermission'
+26 parameters
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='queueUrl'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='label'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='String'
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='aWSAccountIds'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='List'
+48 typeArguments
+49 typeArgument (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='actions'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='List'
+59 typeArguments
+60 typeArgument (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='String'
+63 thrownExceptions
+64 thrownException (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='AmazonServiceException'
+67 thrownException (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='AmazonClientException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+0 23
+0 24
+24 25
+0 26
+26 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+26 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+26 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+26 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+0 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+
+<p> Adds a permission to a queue for a specific <a href="http://docs.aws.amazon.com/general/latest/gr/glos-chap.html#P"> principal </a> . This allows for sharing access to the queue. </p> <p> When you create a queue, you have full control access rights for the queue. Only you (as owner of the queue) can grant or deny permissions to the queue. For more information about these permissions, see <a href= "http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/acp-overview.html" > Shared Queues </a> in the <i>Amazon SQS Developer Guide</i> . </p> <p> <b>NOTE:</b> AddPermission writes an Amazon SQS-generated policy. If you want to write your own policy, use SetQueueAttributes to upload your policy. For more information about writing your own policy, see Using The Access Policy Language in the Amazon SQS Developer Guide. </p> <p> <b>NOTE:</b>Some API actions take lists of parameters. These lists are specified using the param.n notation. Values of n are integers starting from 1. For example, a parameter list with two elements looks like this: </p> <p> <code>&Attribute.1=this</code> </p> <p> <code>&Attribute.2=that</code> </p>

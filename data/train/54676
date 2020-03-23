@@ -1,0 +1,638 @@
+318
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='clientgui'
+9 statement (ExpressionStmt)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='addGameListener'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getGame'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getClient'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='clientgui'
+22 arguments
+23 argument (ThisExpr)
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='addBoardViewListener'
+28 scope (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getBoardView'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='clientgui'
+34 arguments
+35 argument (ThisExpr)
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='setupStatusBar'
+40 arguments
+41 argument (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getString'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='Messages'
+47 arguments
+48 argument (StringLiteralExpr)
+49 value='SelectArtyAutoHitHexDisplay.waitingArtillery'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (NameExpr)
+54 name (SimpleName)
+55 identifier='p'
+56 value (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getLocalPlayer'
+59 scope (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='getClient'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='clientgui'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='setPlayerID'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='artyAutoHitHexes'
+72 arguments
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getId'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='p'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='buttons'
+85 value (ObjectCreationExpr)
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='HashMap'
+89 typeArguments
+90 typeArgument (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='ArtyAutoHitCommand'
+93 typeArgument (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='MegamekButton'
+96 arguments
+97 argument (CastExpr)
+98 expression (EnclosedExpr)
+99 inner (BinaryExpr)
+100 operator='PLUS'
+101 left (BinaryExpr)
+102 operator='MULTIPLY'
+103 left (FieldAccessExpr)
+104 name (SimpleName)
+105 identifier='length'
+106 scope (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='values'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='ArtyAutoHitCommand'
+112 right (DoubleLiteralExpr)
+113 value='1.25'
+114 right (DoubleLiteralExpr)
+115 value='0.5'
+116 type (PrimitiveType)
+117 type='INT'
+118 statement (ForeachStmt)
+119 body (BlockStmt)
+120 statements
+121 statement (ExpressionStmt)
+122 expression (VariableDeclarationExpr)
+123 variables
+124 variable (VariableDeclarator)
+125 initializer (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='getString'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='Messages'
+131 arguments
+132 argument (BinaryExpr)
+133 operator='PLUS'
+134 left (StringLiteralExpr)
+135 value='SelectArtyAutoHitHexDisplay.'
+136 right (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='getCmd'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='cmd'
+142 name (SimpleName)
+143 identifier='title'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='String'
+147 statement (ExpressionStmt)
+148 expression (VariableDeclarationExpr)
+149 variables
+150 variable (VariableDeclarator)
+151 initializer (ObjectCreationExpr)
+152 type (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='MegamekButton'
+155 arguments
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='title'
+159 argument (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='getComp'
+162 scope (FieldAccessExpr)
+163 name (SimpleName)
+164 identifier='PhaseDisplayButton'
+165 scope (FieldAccessExpr)
+166 name (SimpleName)
+167 identifier='UIComponents'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='SkinSpecification'
+171 name (SimpleName)
+172 identifier='newButton'
+173 type (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='MegamekButton'
+176 statement (ExpressionStmt)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='addActionListener'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='newButton'
+183 arguments
+184 argument (ThisExpr)
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='setActionCommand'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='newButton'
+192 arguments
+193 argument (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='getCmd'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='cmd'
+199 statement (ExpressionStmt)
+200 expression (MethodCallExpr)
+201 name (SimpleName)
+202 identifier='setEnabled'
+203 scope (NameExpr)
+204 name (SimpleName)
+205 identifier='newButton'
+206 arguments
+207 argument (BooleanLiteralExpr)
+208 value='false'
+209 statement (ExpressionStmt)
+210 expression (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='put'
+213 scope (NameExpr)
+214 name (SimpleName)
+215 identifier='buttons'
+216 arguments
+217 argument (NameExpr)
+218 name (SimpleName)
+219 identifier='cmd'
+220 argument (NameExpr)
+221 name (SimpleName)
+222 identifier='newButton'
+223 iterable (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='values'
+226 scope (NameExpr)
+227 name (SimpleName)
+228 identifier='ArtyAutoHitCommand'
+229 variable (VariableDeclarationExpr)
+230 variables
+231 variable (VariableDeclarator)
+232 name (SimpleName)
+233 identifier='cmd'
+234 type (ClassOrInterfaceType)
+235 name (SimpleName)
+236 identifier='ArtyAutoHitCommand'
+237 statement (ExpressionStmt)
+238 expression (AssignExpr)
+239 operator='ASSIGN'
+240 target (NameExpr)
+241 name (SimpleName)
+242 identifier='numButtonGroups'
+243 value (CastExpr)
+244 expression (MethodCallExpr)
+245 name (SimpleName)
+246 identifier='ceil'
+247 scope (NameExpr)
+248 name (SimpleName)
+249 identifier='Math'
+250 arguments
+251 argument (BinaryExpr)
+252 operator='DIVIDE'
+253 left (EnclosedExpr)
+254 inner (BinaryExpr)
+255 operator='PLUS'
+256 left (MethodCallExpr)
+257 name (SimpleName)
+258 identifier='size'
+259 scope (NameExpr)
+260 name (SimpleName)
+261 identifier='buttons'
+262 right (DoubleLiteralExpr)
+263 value='0.0'
+264 right (NameExpr)
+265 name (SimpleName)
+266 identifier='buttonsPerGroup'
+267 type (PrimitiveType)
+268 type='INT'
+269 statement (ExpressionStmt)
+270 expression (MethodCallExpr)
+271 name (SimpleName)
+272 identifier='setText'
+273 scope (NameExpr)
+274 name (SimpleName)
+275 identifier='butDone'
+276 arguments
+277 argument (MethodCallExpr)
+278 name (SimpleName)
+279 identifier='getString'
+280 scope (NameExpr)
+281 name (SimpleName)
+282 identifier='Messages'
+283 arguments
+284 argument (StringLiteralExpr)
+285 value='SelectArtyAutoHitHexDisplay.Done'
+286 statement (ExpressionStmt)
+287 expression (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='setEnabled'
+290 scope (NameExpr)
+291 name (SimpleName)
+292 identifier='butDone'
+293 arguments
+294 argument (BooleanLiteralExpr)
+295 value='false'
+296 statement (ExpressionStmt)
+297 expression (MethodCallExpr)
+298 name (SimpleName)
+299 identifier='layoutScreen'
+300 statement (ExpressionStmt)
+301 expression (MethodCallExpr)
+302 name (SimpleName)
+303 identifier='setupButtonPanel'
+304 statement (ExpressionStmt)
+305 expression (MethodCallExpr)
+306 name (SimpleName)
+307 identifier='registerKeyCommands'
+308 name (SimpleName)
+309 identifier='SelectArtyAutoHitHexDisplay'
+310 parameters
+311 parameter (Parameter)
+312 isVarArgs='false'
+313 name (SimpleName)
+314 identifier='clientgui'
+315 type (ClassOrInterfaceType)
+316 name (SimpleName)
+317 identifier='ClientGUI'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+10 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+25 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+85 96
+96 97
+97 98
+98 99
+99 100
+99 101
+101 102
+101 103
+103 104
+104 105
+103 106
+106 107
+107 108
+106 109
+109 110
+110 111
+101 112
+112 113
+99 114
+114 115
+97 116
+116 117
+2 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+132 134
+134 135
+132 136
+136 137
+137 138
+136 139
+139 140
+140 141
+124 142
+142 143
+124 144
+144 145
+145 146
+120 147
+147 148
+148 149
+149 150
+150 151
+151 152
+152 153
+153 154
+151 155
+155 156
+156 157
+157 158
+155 159
+159 160
+160 161
+159 162
+162 163
+163 164
+162 165
+165 166
+166 167
+165 168
+168 169
+169 170
+150 171
+171 172
+150 173
+173 174
+174 175
+120 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+120 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+186 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+120 199
+199 200
+200 201
+201 202
+200 203
+203 204
+204 205
+200 206
+206 207
+207 208
+120 209
+209 210
+210 211
+211 212
+210 213
+213 214
+214 215
+210 216
+216 217
+217 218
+218 219
+216 220
+220 221
+221 222
+118 223
+223 224
+224 225
+223 226
+226 227
+227 228
+118 229
+229 230
+230 231
+231 232
+232 233
+231 234
+234 235
+235 236
+2 237
+237 238
+238 239
+238 240
+240 241
+241 242
+238 243
+243 244
+244 245
+245 246
+244 247
+247 248
+248 249
+244 250
+250 251
+251 252
+251 253
+253 254
+254 255
+254 256
+256 257
+257 258
+256 259
+259 260
+260 261
+254 262
+262 263
+251 264
+264 265
+265 266
+243 267
+267 268
+2 269
+269 270
+270 271
+271 272
+270 273
+273 274
+274 275
+270 276
+276 277
+277 278
+278 279
+277 280
+280 281
+281 282
+277 283
+283 284
+284 285
+2 286
+286 287
+287 288
+288 289
+287 290
+290 291
+291 292
+287 293
+293 294
+294 295
+2 296
+296 297
+297 298
+298 299
+2 300
+300 301
+301 302
+302 303
+2 304
+304 305
+305 306
+306 307
+0 308
+308 309
+0 310
+310 311
+311 312
+311 313
+313 314
+311 315
+315 316
+316 317
+
+Creates and lays out a new select designated hex phase display for the specified clientgui.getClient().

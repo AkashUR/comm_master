@@ -1,0 +1,440 @@
+219
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ReplicateFilter'
+11 name (SimpleName)
+12 identifier='rf'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ReplicateFilter'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setTungstenSchema'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='rf'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='tungsten_foo'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='setFilePrefix'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='rf'
+33 arguments
+34 argument (StringLiteralExpr)
+35 value='filter/testRowHandlingWithFile'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='setFilter'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='filterHelper'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='rf'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (ArrayInitializerExpr)
+52 values
+53 value (StringLiteralExpr)
+54 value='id'
+55 name (SimpleName)
+56 identifier='names'
+57 type (ArrayType)
+58 origin='NAME'
+59 componentType (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+62 statement (ExpressionStmt)
+63 expression (VariableDeclarationExpr)
+64 variables
+65 variable (VariableDeclarator)
+66 initializer (ArrayInitializerExpr)
+67 values
+68 value (ObjectCreationExpr)
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Long'
+72 arguments
+73 argument (IntegerLiteralExpr)
+74 value='99'
+75 name (SimpleName)
+76 identifier='values'
+77 type (ArrayType)
+78 origin='NAME'
+79 componentType (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Long'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='verifyRowAccept'
+86 arguments
+87 argument (NameExpr)
+88 name (SimpleName)
+89 identifier='filterHelper'
+90 argument (IntegerLiteralExpr)
+91 value='0'
+92 argument (StringLiteralExpr)
+93 value='foobar1'
+94 argument (StringLiteralExpr)
+95 value='foobar2'
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='names'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='values'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='verifyRowAccept'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='filterHelper'
+110 argument (IntegerLiteralExpr)
+111 value='1'
+112 argument (StringLiteralExpr)
+113 value='bar2'
+114 argument (StringLiteralExpr)
+115 value='foo'
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='names'
+119 argument (NameExpr)
+120 name (SimpleName)
+121 identifier='values'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='verifyRowAccept'
+126 arguments
+127 argument (NameExpr)
+128 name (SimpleName)
+129 identifier='filterHelper'
+130 argument (IntegerLiteralExpr)
+131 value='2'
+132 argument (StringLiteralExpr)
+133 value='foo'
+134 argument (StringLiteralExpr)
+135 value='test2'
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='names'
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='values'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='verifyRowIgnore'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='filterHelper'
+150 argument (IntegerLiteralExpr)
+151 value='3'
+152 argument (StringLiteralExpr)
+153 value='foo'
+154 argument (StringLiteralExpr)
+155 value='test'
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='names'
+159 argument (NameExpr)
+160 name (SimpleName)
+161 identifier='values'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='verifyRowIgnore'
+166 arguments
+167 argument (NameExpr)
+168 name (SimpleName)
+169 identifier='filterHelper'
+170 argument (IntegerLiteralExpr)
+171 value='4'
+172 argument (StringLiteralExpr)
+173 value='foobar2'
+174 argument (StringLiteralExpr)
+175 value='foobar1'
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='names'
+179 argument (NameExpr)
+180 name (SimpleName)
+181 identifier='values'
+182 statement (ExpressionStmt)
+183 expression (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='verifyRowIgnore'
+186 arguments
+187 argument (NameExpr)
+188 name (SimpleName)
+189 identifier='filterHelper'
+190 argument (IntegerLiteralExpr)
+191 value='5'
+192 argument (StringLiteralExpr)
+193 value='bar234'
+194 argument (StringLiteralExpr)
+195 value='foobar1'
+196 argument (NameExpr)
+197 name (SimpleName)
+198 identifier='names'
+199 argument (NameExpr)
+200 name (SimpleName)
+201 identifier='values'
+202 statement (ExpressionStmt)
+203 expression (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='done'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='filterHelper'
+209 type (VoidType)
+210 name (SimpleName)
+211 identifier='testRowHandlingWithFile'
+212 thrownExceptions
+213 thrownException (ClassOrInterfaceType)
+214 name (SimpleName)
+215 identifier='ReplicatorException'
+216 thrownException (ClassOrInterfaceType)
+217 name (SimpleName)
+218 identifier='InterruptedException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+50 55
+55 56
+50 57
+57 58
+57 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+65 75
+75 76
+65 77
+77 78
+77 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+88 89
+86 90
+90 91
+86 92
+92 93
+86 94
+94 95
+86 96
+96 97
+97 98
+86 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+108 109
+106 110
+110 111
+106 112
+112 113
+106 114
+114 115
+106 116
+116 117
+117 118
+106 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+128 129
+126 130
+130 131
+126 132
+132 133
+126 134
+134 135
+126 136
+136 137
+137 138
+126 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+146 150
+150 151
+146 152
+152 153
+146 154
+154 155
+146 156
+156 157
+157 158
+146 159
+159 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+168 169
+166 170
+170 171
+166 172
+172 173
+166 174
+174 175
+166 176
+176 177
+177 178
+166 179
+179 180
+180 181
+2 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+188 189
+186 190
+190 191
+186 192
+192 193
+186 194
+194 195
+186 196
+196 197
+197 198
+186 199
+199 200
+200 201
+2 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+0 209
+0 210
+210 211
+0 212
+212 213
+213 214
+214 215
+212 216
+216 217
+217 218
+
+Verify that we accept and ignore databases appropriately when using row updates.

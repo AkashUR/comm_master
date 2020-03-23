@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='readMySqlCharsetSystemVariables'
+10 arguments
+11 argument (NullLiteralExpr)
+12 name (SimpleName)
+13 identifier='variables'
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='Map'
+17 typeArguments
+18 typeArgument (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='String'
+21 typeArgument (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='String'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 initializer (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setStatementFor'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='variables'
+35 name (SimpleName)
+36 identifier='ddlStatement'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='applyDdl'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='dbSchema'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='source'
+51 argument (StringLiteralExpr)
+52 value=''
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='ddlStatement'
+56 argument (NullLiteralExpr)
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='initializeHistory'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+6 12
+12 13
+6 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+27 35
+35 36
+27 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+47 51
+51 52
+47 53
+53 54
+54 55
+47 56
+0 57
+0 58
+58 59
+
+Initialize the database history with any server-specific information. This should be done only upon connector startup when the connector has no prior history.

@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='cancelA11yHint'
+7 statement (ExpressionStmt)
+8 expression (AssignExpr)
+9 operator='ASSIGN'
+10 target (NameExpr)
+11 name (SimpleName)
+12 identifier='mPendingHint'
+13 value (NameExpr)
+14 name (SimpleName)
+15 identifier='hint'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='addUtteranceCompleteAction'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='mSpeechController'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='peekNextUtteranceId'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='mSpeechController'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='mA11yHintRunnable'
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='postA11yHintRunnable'
+36 parameters
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='hint'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+31 32
+0 33
+0 34
+34 35
+0 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+
+Starts the hint timeout. Call this for every event that triggers a hint.

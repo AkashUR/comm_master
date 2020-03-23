@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mode'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='DUAL_SYNC'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='pathModes'
+16 arguments
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='t'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='F'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='/dir1'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='PRIMARY'
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='t'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='F'
+35 arguments
+36 argument (StringLiteralExpr)
+37 value='/dir2'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='DUAL_SYNC'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='startUp'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='checkMode'
+49 arguments
+50 argument (StringLiteralExpr)
+51 value='/dir'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='PRIMARY'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='checkMode'
+59 arguments
+60 argument (StringLiteralExpr)
+61 value='/dir1'
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='PRIMARY'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='checkMode'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='/dir2'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='PRIMARY'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='testPathModeSwitchToPrimary'
+78 thrownExceptions
+79 thrownException (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+27 28
+16 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+35 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+73 74
+0 75
+0 76
+76 77
+0 78
+78 79
+79 80
+80 81
+
+Ensure that path modes switch to PRIMARY in case secondary FS config is not provided.

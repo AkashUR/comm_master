@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ConnectionRequest'
+11 name (SimpleName)
+12 identifier='req'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ConnectionRequest'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setPost'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='req'
+23 arguments
+24 argument (BooleanLiteralExpr)
+25 value='false'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='setUrl'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='req'
+33 arguments
+34 argument (BinaryExpr)
+35 operator='PLUS'
+36 left (BinaryExpr)
+37 operator='PLUS'
+38 left (BinaryExpr)
+39 operator='PLUS'
+40 left (StringLiteralExpr)
+41 value='https://www.facebook.com/logout.php?access_token='
+42 right (NameExpr)
+43 name (SimpleName)
+44 identifier='token'
+45 right (StringLiteralExpr)
+46 value='&confirm=1&next='
+47 right (NameExpr)
+48 name (SimpleName)
+49 identifier='redirectURI'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='addToQueueAndWait'
+54 scope (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getInstance'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='NetworkManager'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='req'
+64 statement (ExpressionStmt)
+65 expression (AssignExpr)
+66 operator='ASSIGN'
+67 target (NameExpr)
+68 name (SimpleName)
+69 identifier='token'
+70 value (NullLiteralExpr)
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='logOut'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+34 36
+36 37
+36 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+36 45
+45 46
+34 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+51 60
+60 61
+61 62
+62 63
+2 64
+64 65
+65 66
+65 67
+67 68
+68 69
+65 70
+0 71
+0 72
+72 73
+
+log out the current user

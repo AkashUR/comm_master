@@ -1,0 +1,230 @@
+114
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='test_ChooseClientAlias_KeyType'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='RSA'
+10 argument (StringLiteralExpr)
+11 value='RSA'
+12 argument (StringLiteralExpr)
+13 value='RSA'
+14 argument (BooleanLiteralExpr)
+15 value='true'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='test_ChooseClientAlias_KeyType'
+20 arguments
+21 argument (StringLiteralExpr)
+22 value='RSA'
+23 argument (StringLiteralExpr)
+24 value='EC'
+25 argument (StringLiteralExpr)
+26 value='RSA'
+27 argument (BooleanLiteralExpr)
+28 value='true'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='test_ChooseClientAlias_KeyType'
+33 arguments
+34 argument (StringLiteralExpr)
+35 value='RSA'
+36 argument (StringLiteralExpr)
+37 value='EC'
+38 argument (StringLiteralExpr)
+39 value='EC'
+40 argument (BooleanLiteralExpr)
+41 value='false'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='test_ChooseClientAlias_KeyType'
+46 arguments
+47 argument (StringLiteralExpr)
+48 value='EC'
+49 argument (StringLiteralExpr)
+50 value='RSA'
+51 argument (StringLiteralExpr)
+52 value='EC_RSA'
+53 argument (BooleanLiteralExpr)
+54 value='true'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='test_ChooseClientAlias_KeyType'
+59 arguments
+60 argument (StringLiteralExpr)
+61 value='EC'
+62 argument (StringLiteralExpr)
+63 value='EC'
+64 argument (StringLiteralExpr)
+65 value='EC_RSA'
+66 argument (BooleanLiteralExpr)
+67 value='false'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='test_ChooseClientAlias_KeyType'
+72 arguments
+73 argument (StringLiteralExpr)
+74 value='EC'
+75 argument (StringLiteralExpr)
+76 value='EC'
+77 argument (StringLiteralExpr)
+78 value='EC_EC'
+79 argument (BooleanLiteralExpr)
+80 value='true'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='test_ChooseClientAlias_KeyType'
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='EC'
+88 argument (StringLiteralExpr)
+89 value='RSA'
+90 argument (StringLiteralExpr)
+91 value='EC_EC'
+92 argument (BooleanLiteralExpr)
+93 value='false'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='test_ChooseClientAlias_KeyType'
+98 arguments
+99 argument (StringLiteralExpr)
+100 value='EC'
+101 argument (StringLiteralExpr)
+102 value='RSA'
+103 argument (StringLiteralExpr)
+104 value='RSA'
+105 argument (BooleanLiteralExpr)
+106 value='false'
+107 type (VoidType)
+108 name (SimpleName)
+109 identifier='testChooseClientAlias_Combinations'
+110 thrownExceptions
+111 thrownException (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+7 12
+12 13
+7 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+20 25
+25 26
+20 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+33 38
+38 39
+33 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+46 51
+51 52
+46 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+59 64
+64 65
+59 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+72 77
+77 78
+72 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+85 90
+90 91
+85 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+98 103
+103 104
+98 105
+105 106
+0 107
+0 108
+108 109
+0 110
+110 111
+111 112
+112 113
+
+Tests whether the key manager will select the right key when the CA is of one key type and the client is of a possibly different key type. <p>There was a bug where EC was being interpreted as EC_EC and only accepting EC signatures when it should accept any signature type.

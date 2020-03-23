@@ -1,0 +1,74 @@
+36
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='file'
+9 argument (NullLiteralExpr)
+10 argument (NameExpr)
+11 name (SimpleName)
+12 identifier='processAppDirectory'
+13 name (SimpleName)
+14 identifier='AppPackage'
+15 parameters
+16 parameter (Parameter)
+17 isVarArgs='false'
+18 name (SimpleName)
+19 identifier='file'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='File'
+23 parameter (Parameter)
+24 isVarArgs='false'
+25 name (SimpleName)
+26 identifier='processAppDirectory'
+27 type (PrimitiveType)
+28 type='BOOLEAN'
+29 thrownExceptions
+30 thrownException (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='IOException'
+33 thrownException (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='ZipException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+5 10
+10 11
+11 12
+0 13
+13 14
+0 15
+15 16
+16 17
+16 18
+18 19
+16 20
+20 21
+21 22
+15 23
+23 24
+23 25
+25 26
+23 27
+27 28
+0 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+
+Creates an App Package object. If app directory is to be processed, there may be resource leak in the class loader. Only pass true for short-lived applications Files in app package will be extracted to tmp folder and will be cleaned on close() The close() method could be explicitly called or implicitly called by GC finalize()

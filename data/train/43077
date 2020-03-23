@@ -1,0 +1,854 @@
+426
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='JFrame'
+11 name (SimpleName)
+12 identifier='f'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='JFrame'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setUndecorated'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='f'
+23 arguments
+24 argument (BooleanLiteralExpr)
+25 value='true'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='JLabel'
+34 arguments
+35 argument (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='ImageIcon'
+39 arguments
+40 argument (StringLiteralExpr)
+41 value='resources/icons/redTransparentBox.gif'
+42 name (SimpleName)
+43 identifier='wIcon'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='JLabel'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='setOpaque'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='wIcon'
+54 arguments
+55 argument (BooleanLiteralExpr)
+56 value='true'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='setBackground'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='wIcon'
+64 arguments
+65 argument (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='blue'
+68 scope (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='Color'
+71 scope (FieldAccessExpr)
+72 name (SimpleName)
+73 identifier='awt'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='java'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='add'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='f'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='wIcon'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='pack'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='f'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='flushAWT'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='assertEquals'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='Assert'
+106 arguments
+107 argument (StringLiteralExpr)
+108 value='icon size'
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='toString'
+112 scope (ObjectCreationExpr)
+113 type (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='Dimension'
+116 arguments
+117 argument (IntegerLiteralExpr)
+118 value='13'
+119 argument (IntegerLiteralExpr)
+120 value='13'
+121 argument (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='toString'
+124 scope (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='getSize'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='wIcon'
+130 statement (ExpressionStmt)
+131 expression (VariableDeclarationExpr)
+132 variables
+133 variable (VariableDeclarator)
+134 initializer (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='getDisplayedContent'
+137 arguments
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='wIcon'
+141 argument (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='getSize'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='wIcon'
+147 argument (ObjectCreationExpr)
+148 type (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='Point'
+151 arguments
+152 argument (IntegerLiteralExpr)
+153 value='0'
+154 argument (IntegerLiteralExpr)
+155 value='0'
+156 name (SimpleName)
+157 identifier='val'
+158 type (ArrayType)
+159 origin='TYPE'
+160 componentType (PrimitiveType)
+161 type='INT'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='assertEquals'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='Assert'
+169 arguments
+170 argument (StringLiteralExpr)
+171 value='icon arraylength'
+172 argument (BinaryExpr)
+173 operator='MULTIPLY'
+174 left (IntegerLiteralExpr)
+175 value='13'
+176 right (IntegerLiteralExpr)
+177 value='13'
+178 argument (FieldAccessExpr)
+179 name (SimpleName)
+180 identifier='length'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='val'
+184 statement (ExpressionStmt)
+185 expression (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='assertPixel'
+188 arguments
+189 argument (StringLiteralExpr)
+190 value='icon first'
+191 argument (FieldAccessExpr)
+192 name (SimpleName)
+193 identifier='RED'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='Pixel'
+197 argument (ArrayAccessExpr)
+198 index (IntegerLiteralExpr)
+199 value='0'
+200 name (NameExpr)
+201 name (SimpleName)
+202 identifier='val'
+203 statement (ExpressionStmt)
+204 expression (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='assertPixel'
+207 arguments
+208 argument (StringLiteralExpr)
+209 value='icon middle'
+210 argument (FieldAccessExpr)
+211 name (SimpleName)
+212 identifier='BLUE'
+213 scope (NameExpr)
+214 name (SimpleName)
+215 identifier='Pixel'
+216 argument (ArrayAccessExpr)
+217 index (BinaryExpr)
+218 operator='MINUS'
+219 left (BinaryExpr)
+220 operator='PLUS'
+221 left (BinaryExpr)
+222 operator='MULTIPLY'
+223 left (CastExpr)
+224 expression (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='floor'
+227 scope (NameExpr)
+228 name (SimpleName)
+229 identifier='Math'
+230 arguments
+231 argument (BinaryExpr)
+232 operator='DIVIDE'
+233 left (FieldAccessExpr)
+234 name (SimpleName)
+235 identifier='height'
+236 scope (MethodCallExpr)
+237 name (SimpleName)
+238 identifier='getSize'
+239 scope (NameExpr)
+240 name (SimpleName)
+241 identifier='wIcon'
+242 right (IntegerLiteralExpr)
+243 value='2'
+244 type (PrimitiveType)
+245 type='INT'
+246 right (FieldAccessExpr)
+247 name (SimpleName)
+248 identifier='width'
+249 scope (MethodCallExpr)
+250 name (SimpleName)
+251 identifier='getSize'
+252 scope (NameExpr)
+253 name (SimpleName)
+254 identifier='wIcon'
+255 right (CastExpr)
+256 expression (MethodCallExpr)
+257 name (SimpleName)
+258 identifier='floor'
+259 scope (NameExpr)
+260 name (SimpleName)
+261 identifier='Math'
+262 arguments
+263 argument (BinaryExpr)
+264 operator='DIVIDE'
+265 left (FieldAccessExpr)
+266 name (SimpleName)
+267 identifier='width'
+268 scope (MethodCallExpr)
+269 name (SimpleName)
+270 identifier='getSize'
+271 scope (NameExpr)
+272 name (SimpleName)
+273 identifier='wIcon'
+274 right (IntegerLiteralExpr)
+275 value='2'
+276 type (PrimitiveType)
+277 type='INT'
+278 right (IntegerLiteralExpr)
+279 value='1'
+280 name (NameExpr)
+281 name (SimpleName)
+282 identifier='val'
+283 statement (ExpressionStmt)
+284 expression (MethodCallExpr)
+285 name (SimpleName)
+286 identifier='assertPixel'
+287 arguments
+288 argument (StringLiteralExpr)
+289 value='icon last'
+290 argument (FieldAccessExpr)
+291 name (SimpleName)
+292 identifier='RED'
+293 scope (NameExpr)
+294 name (SimpleName)
+295 identifier='Pixel'
+296 argument (ArrayAccessExpr)
+297 index (BinaryExpr)
+298 operator='MINUS'
+299 left (BinaryExpr)
+300 operator='MULTIPLY'
+301 left (FieldAccessExpr)
+302 name (SimpleName)
+303 identifier='height'
+304 scope (MethodCallExpr)
+305 name (SimpleName)
+306 identifier='getSize'
+307 scope (NameExpr)
+308 name (SimpleName)
+309 identifier='wIcon'
+310 right (FieldAccessExpr)
+311 name (SimpleName)
+312 identifier='width'
+313 scope (MethodCallExpr)
+314 name (SimpleName)
+315 identifier='getSize'
+316 scope (NameExpr)
+317 name (SimpleName)
+318 identifier='wIcon'
+319 right (IntegerLiteralExpr)
+320 value='1'
+321 name (NameExpr)
+322 name (SimpleName)
+323 identifier='val'
+324 statement (ExpressionStmt)
+325 expression (MethodCallExpr)
+326 name (SimpleName)
+327 identifier='assertEquals'
+328 scope (NameExpr)
+329 name (SimpleName)
+330 identifier='Assert'
+331 arguments
+332 argument (StringLiteralExpr)
+333 value='icon first'
+334 argument (StringLiteralExpr)
+335 value='0xffff0000'
+336 argument (MethodCallExpr)
+337 name (SimpleName)
+338 identifier='formatPixel'
+339 arguments
+340 argument (ArrayAccessExpr)
+341 index (IntegerLiteralExpr)
+342 value='0'
+343 name (NameExpr)
+344 name (SimpleName)
+345 identifier='val'
+346 statement (ExpressionStmt)
+347 expression (MethodCallExpr)
+348 name (SimpleName)
+349 identifier='assertImageNinePoints'
+350 arguments
+351 argument (StringLiteralExpr)
+352 value='icon'
+353 argument (NameExpr)
+354 name (SimpleName)
+355 identifier='val'
+356 argument (MethodCallExpr)
+357 name (SimpleName)
+358 identifier='getSize'
+359 scope (NameExpr)
+360 name (SimpleName)
+361 identifier='wIcon'
+362 argument (FieldAccessExpr)
+363 name (SimpleName)
+364 identifier='RED'
+365 scope (NameExpr)
+366 name (SimpleName)
+367 identifier='Pixel'
+368 argument (FieldAccessExpr)
+369 name (SimpleName)
+370 identifier='RED'
+371 scope (NameExpr)
+372 name (SimpleName)
+373 identifier='Pixel'
+374 argument (FieldAccessExpr)
+375 name (SimpleName)
+376 identifier='RED'
+377 scope (NameExpr)
+378 name (SimpleName)
+379 identifier='Pixel'
+380 argument (FieldAccessExpr)
+381 name (SimpleName)
+382 identifier='RED'
+383 scope (NameExpr)
+384 name (SimpleName)
+385 identifier='Pixel'
+386 argument (FieldAccessExpr)
+387 name (SimpleName)
+388 identifier='BLUE'
+389 scope (NameExpr)
+390 name (SimpleName)
+391 identifier='Pixel'
+392 argument (FieldAccessExpr)
+393 name (SimpleName)
+394 identifier='RED'
+395 scope (NameExpr)
+396 name (SimpleName)
+397 identifier='Pixel'
+398 argument (FieldAccessExpr)
+399 name (SimpleName)
+400 identifier='RED'
+401 scope (NameExpr)
+402 name (SimpleName)
+403 identifier='Pixel'
+404 argument (FieldAccessExpr)
+405 name (SimpleName)
+406 identifier='RED'
+407 scope (NameExpr)
+408 name (SimpleName)
+409 identifier='Pixel'
+410 argument (FieldAccessExpr)
+411 name (SimpleName)
+412 identifier='RED'
+413 scope (NameExpr)
+414 name (SimpleName)
+415 identifier='Pixel'
+416 statement (ExpressionStmt)
+417 expression (MethodCallExpr)
+418 name (SimpleName)
+419 identifier='dispose'
+420 scope (NameExpr)
+421 name (SimpleName)
+422 identifier='f'
+423 type (VoidType)
+424 name (SimpleName)
+425 identifier='testGetDisplayedContentRedTransparentBkg'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+29 42
+42 43
+29 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+58 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+106 109
+109 110
+110 111
+109 112
+112 113
+113 114
+114 115
+112 116
+116 117
+117 118
+116 119
+119 120
+106 121
+121 122
+122 123
+121 124
+124 125
+125 126
+124 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+139 140
+137 141
+141 142
+142 143
+141 144
+144 145
+145 146
+137 147
+147 148
+148 149
+149 150
+147 151
+151 152
+152 153
+151 154
+154 155
+133 156
+156 157
+133 158
+158 159
+158 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+163 169
+169 170
+170 171
+169 172
+172 173
+172 174
+174 175
+172 176
+176 177
+169 178
+178 179
+179 180
+178 181
+181 182
+182 183
+2 184
+184 185
+185 186
+186 187
+185 188
+188 189
+189 190
+188 191
+191 192
+192 193
+191 194
+194 195
+195 196
+188 197
+197 198
+198 199
+197 200
+200 201
+201 202
+2 203
+203 204
+204 205
+205 206
+204 207
+207 208
+208 209
+207 210
+210 211
+211 212
+210 213
+213 214
+214 215
+207 216
+216 217
+217 218
+217 219
+219 220
+219 221
+221 222
+221 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+224 230
+230 231
+231 232
+231 233
+233 234
+234 235
+233 236
+236 237
+237 238
+236 239
+239 240
+240 241
+231 242
+242 243
+223 244
+244 245
+221 246
+246 247
+247 248
+246 249
+249 250
+250 251
+249 252
+252 253
+253 254
+219 255
+255 256
+256 257
+257 258
+256 259
+259 260
+260 261
+256 262
+262 263
+263 264
+263 265
+265 266
+266 267
+265 268
+268 269
+269 270
+268 271
+271 272
+272 273
+263 274
+274 275
+255 276
+276 277
+217 278
+278 279
+216 280
+280 281
+281 282
+2 283
+283 284
+284 285
+285 286
+284 287
+287 288
+288 289
+287 290
+290 291
+291 292
+290 293
+293 294
+294 295
+287 296
+296 297
+297 298
+297 299
+299 300
+299 301
+301 302
+302 303
+301 304
+304 305
+305 306
+304 307
+307 308
+308 309
+299 310
+310 311
+311 312
+310 313
+313 314
+314 315
+313 316
+316 317
+317 318
+297 319
+319 320
+296 321
+321 322
+322 323
+2 324
+324 325
+325 326
+326 327
+325 328
+328 329
+329 330
+325 331
+331 332
+332 333
+331 334
+334 335
+331 336
+336 337
+337 338
+336 339
+339 340
+340 341
+341 342
+340 343
+343 344
+344 345
+2 346
+346 347
+347 348
+348 349
+347 350
+350 351
+351 352
+350 353
+353 354
+354 355
+350 356
+356 357
+357 358
+356 359
+359 360
+360 361
+350 362
+362 363
+363 364
+362 365
+365 366
+366 367
+350 368
+368 369
+369 370
+368 371
+371 372
+372 373
+350 374
+374 375
+375 376
+374 377
+377 378
+378 379
+350 380
+380 381
+381 382
+380 383
+383 384
+384 385
+350 386
+386 387
+387 388
+386 389
+389 390
+390 391
+350 392
+392 393
+393 394
+392 395
+395 396
+396 397
+350 398
+398 399
+399 400
+398 401
+401 402
+402 403
+350 404
+404 405
+405 406
+404 407
+407 408
+408 409
+350 410
+410 411
+411 412
+410 413
+413 414
+414 415
+2 416
+416 417
+417 418
+418 419
+417 420
+420 421
+421 422
+0 423
+0 424
+424 425
+
+Confirm methodology to test transparent pixels in a JLabel

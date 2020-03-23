@@ -1,0 +1,180 @@
+89
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='CanMessage'
+11 arguments
+12 argument (IntegerLiteralExpr)
+13 value='2'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getCanid'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='tc'
+20 name (SimpleName)
+21 identifier='msg'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='CanMessage'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='setOpCode'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='msg'
+32 arguments
+33 argument (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='CBUS_KLOC'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='CbusConstants'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='setElement'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='msg'
+46 arguments
+47 argument (IntegerLiteralExpr)
+48 value='1'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='handle'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='debug'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='log'
+59 arguments
+60 argument (BinaryExpr)
+61 operator='PLUS'
+62 left (StringLiteralExpr)
+63 value='Release session handle '
+64 right (NameExpr)
+65 name (SimpleName)
+66 identifier='handle'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='sendCanMessage'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='tc'
+74 arguments
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='msg'
+78 argument (NullLiteralExpr)
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='releaseSession'
+82 parameters
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='handle'
+87 type (PrimitiveType)
+88 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+46 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+68 74
+74 75
+75 76
+76 77
+74 78
+0 79
+0 80
+80 81
+0 82
+82 83
+83 84
+83 85
+85 86
+83 87
+87 88
+
+Release a session freeing up the slot for reuse

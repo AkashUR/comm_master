@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='updateUserPassword'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='userService'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getCurrentUser'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getPassword'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='userDto'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getOldPassword'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='userDto'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='updateUserPassword'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='userDto'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='UserUpdatePasswordCommandDto'
+37 annotations
+38 annotation (MarkerAnnotationExpr)
+39 name (Name)
+40 identifier='RequestBody'
+41 annotations
+42 annotation (SingleMemberAnnotationExpr)
+43 memberValue (StringLiteralExpr)
+44 value='isAuthenticated()'
+45 name (Name)
+46 identifier='PreAuthorize'
+47 annotation (NormalAnnotationExpr)
+48 name (Name)
+49 identifier='RequestMapping'
+50 pairs
+51 pair (MemberValuePair)
+52 name (SimpleName)
+53 identifier='value'
+54 value (StringLiteralExpr)
+55 value='/password'
+56 pair (MemberValuePair)
+57 name (SimpleName)
+58 identifier='method'
+59 value (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='PUT'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='RequestMethod'
+65 annotation (SingleMemberAnnotationExpr)
+66 memberValue (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='OK'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='HttpStatus'
+72 name (Name)
+73 identifier='ResponseStatus'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+18 19
+10 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+30 37
+37 38
+38 39
+39 40
+0 41
+41 42
+42 43
+43 44
+42 45
+45 46
+41 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+51 54
+54 55
+50 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+41 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+65 72
+72 73
+
+used to update current user password

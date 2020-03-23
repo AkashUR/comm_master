@@ -1,0 +1,298 @@
+148
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertNotNull'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='jobDefinition'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='assertEquals'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='TEST_ACTIVITI_NAMESPACE_CD'
+19 argument (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getNamespace'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='jobDefinition'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='assertEquals'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='TEST_ACTIVITI_JOB_NAME'
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getJobName'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='jobDefinition'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='assertEquals'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='JOB_DESCRIPTION'
+47 argument (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getDescription'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='jobDefinition'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='assertTrue'
+57 arguments
+58 argument (BinaryExpr)
+59 operator='EQUALS'
+60 left (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='size'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getParameters'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='jobDefinition'
+69 right (IntegerLiteralExpr)
+70 value='1'
+71 statement (ExpressionStmt)
+72 expression (VariableDeclarationExpr)
+73 variables
+74 variable (VariableDeclarator)
+75 initializer (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='get'
+78 scope (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='getParameters'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='jobDefinition'
+84 arguments
+85 argument (IntegerLiteralExpr)
+86 value='0'
+87 name (SimpleName)
+88 identifier='parameter'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Parameter'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='assertEquals'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='ATTRIBUTE_NAME_1_MIXED_CASE'
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='getName'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='parameter'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='assertEquals'
+110 arguments
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='ATTRIBUTE_VALUE_1'
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='getValue'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='parameter'
+120 statement (ExpressionStmt)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='assertEquals'
+124 arguments
+125 argument (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='SYSTEM_USER'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='HerdDaoSecurityHelper'
+131 argument (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='getLastUpdatedByUserId'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='jobDefinition'
+137 type (VoidType)
+138 name (SimpleName)
+139 identifier='validateJobDefinition'
+140 parameters
+141 parameter (Parameter)
+142 isVarArgs='false'
+143 name (SimpleName)
+144 identifier='jobDefinition'
+145 type (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='JobDefinition'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+58 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+58 69
+69 70
+2 71
+71 72
+72 73
+73 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+75 84
+84 85
+85 86
+74 87
+87 88
+74 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+98 99
+96 100
+100 101
+101 102
+100 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+112 113
+110 114
+114 115
+115 116
+114 117
+117 118
+118 119
+2 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+124 131
+131 132
+132 133
+131 134
+134 135
+135 136
+0 137
+0 138
+138 139
+0 140
+140 141
+141 142
+141 143
+143 144
+141 145
+145 146
+146 147
+
+Validates a standard job definition.

@@ -1,0 +1,884 @@
+441
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ArrayList'
+11 typeArguments
+12 typeArgument (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='URLCrawlDatum'
+15 name (SimpleName)
+16 identifier='list'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='ArrayList'
+20 typeArguments
+21 typeArgument (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='URLCrawlDatum'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='add'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='list'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='createURLCrawlDatum'
+35 arguments
+36 argument (StringLiteralExpr)
+37 value='http://a.example.com/index.html'
+38 argument (IntegerLiteralExpr)
+39 value='1'
+40 argument (IntegerLiteralExpr)
+41 value='1'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='add'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='list'
+49 arguments
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='createURLCrawlDatum'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='http://b.example.com/index.html'
+56 argument (IntegerLiteralExpr)
+57 value='1'
+58 argument (IntegerLiteralExpr)
+59 value='1'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='add'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='list'
+67 arguments
+68 argument (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='createURLCrawlDatum'
+71 arguments
+72 argument (StringLiteralExpr)
+73 value='http://c.example.com/index.html'
+74 argument (IntegerLiteralExpr)
+75 value='1'
+76 argument (IntegerLiteralExpr)
+77 value='1'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='createCrawlDB'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='list'
+86 statement (ExpressionStmt)
+87 expression (VariableDeclarationExpr)
+88 variables
+89 variable (VariableDeclarator)
+90 initializer (ObjectCreationExpr)
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='Configuration'
+94 arguments
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='conf'
+98 name (SimpleName)
+99 identifier='myConfiguration'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='Configuration'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='setInt'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='myConfiguration'
+110 arguments
+111 argument (FieldAccessExpr)
+112 name (SimpleName)
+113 identifier='GENERATOR_MAX_COUNT'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='Generator'
+117 argument (IntegerLiteralExpr)
+118 value='2'
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='set'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='myConfiguration'
+126 arguments
+127 argument (FieldAccessExpr)
+128 name (SimpleName)
+129 identifier='GENERATOR_COUNT_MODE'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='Generator'
+133 argument (FieldAccessExpr)
+134 name (SimpleName)
+135 identifier='GENERATOR_COUNT_VALUE_DOMAIN'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='Generator'
+139 statement (ExpressionStmt)
+140 expression (VariableDeclarationExpr)
+141 variables
+142 variable (VariableDeclarator)
+143 initializer (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='generateFetchlist'
+146 arguments
+147 argument (FieldAccessExpr)
+148 name (SimpleName)
+149 identifier='MAX_VALUE'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='Integer'
+153 argument (NameExpr)
+154 name (SimpleName)
+155 identifier='myConfiguration'
+156 argument (BooleanLiteralExpr)
+157 value='false'
+158 name (SimpleName)
+159 identifier='generatedSegment'
+160 type (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='Path'
+163 statement (ExpressionStmt)
+164 expression (VariableDeclarationExpr)
+165 variables
+166 variable (VariableDeclarator)
+167 initializer (ObjectCreationExpr)
+168 type (ClassOrInterfaceType)
+169 name (SimpleName)
+170 identifier='Path'
+171 arguments
+172 argument (ObjectCreationExpr)
+173 type (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='Path'
+176 arguments
+177 argument (NameExpr)
+178 name (SimpleName)
+179 identifier='generatedSegment'
+180 argument (FieldAccessExpr)
+181 name (SimpleName)
+182 identifier='GENERATE_DIR_NAME'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='CrawlDatum'
+186 argument (StringLiteralExpr)
+187 value='part-00000'
+188 name (SimpleName)
+189 identifier='fetchlistPath'
+190 type (ClassOrInterfaceType)
+191 name (SimpleName)
+192 identifier='Path'
+193 statement (ExpressionStmt)
+194 expression (VariableDeclarationExpr)
+195 variables
+196 variable (VariableDeclarator)
+197 initializer (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='readContents'
+200 arguments
+201 argument (NameExpr)
+202 name (SimpleName)
+203 identifier='fetchlistPath'
+204 name (SimpleName)
+205 identifier='fetchList'
+206 type (ClassOrInterfaceType)
+207 name (SimpleName)
+208 identifier='ArrayList'
+209 typeArguments
+210 typeArgument (ClassOrInterfaceType)
+211 name (SimpleName)
+212 identifier='URLCrawlDatum'
+213 statement (ExpressionStmt)
+214 expression (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='assertEquals'
+217 arguments
+218 argument (IntegerLiteralExpr)
+219 value='1'
+220 argument (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='size'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='fetchList'
+226 statement (ExpressionStmt)
+227 expression (AssignExpr)
+228 operator='ASSIGN'
+229 target (NameExpr)
+230 name (SimpleName)
+231 identifier='myConfiguration'
+232 value (ObjectCreationExpr)
+233 type (ClassOrInterfaceType)
+234 name (SimpleName)
+235 identifier='Configuration'
+236 arguments
+237 argument (NameExpr)
+238 name (SimpleName)
+239 identifier='myConfiguration'
+240 statement (ExpressionStmt)
+241 expression (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='setInt'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='myConfiguration'
+247 arguments
+248 argument (FieldAccessExpr)
+249 name (SimpleName)
+250 identifier='GENERATOR_MAX_COUNT'
+251 scope (NameExpr)
+252 name (SimpleName)
+253 identifier='Generator'
+254 argument (IntegerLiteralExpr)
+255 value='3'
+256 statement (ExpressionStmt)
+257 expression (AssignExpr)
+258 operator='ASSIGN'
+259 target (NameExpr)
+260 name (SimpleName)
+261 identifier='generatedSegment'
+262 value (MethodCallExpr)
+263 name (SimpleName)
+264 identifier='generateFetchlist'
+265 arguments
+266 argument (FieldAccessExpr)
+267 name (SimpleName)
+268 identifier='MAX_VALUE'
+269 scope (NameExpr)
+270 name (SimpleName)
+271 identifier='Integer'
+272 argument (NameExpr)
+273 name (SimpleName)
+274 identifier='myConfiguration'
+275 argument (BooleanLiteralExpr)
+276 value='false'
+277 statement (ExpressionStmt)
+278 expression (AssignExpr)
+279 operator='ASSIGN'
+280 target (NameExpr)
+281 name (SimpleName)
+282 identifier='fetchlistPath'
+283 value (ObjectCreationExpr)
+284 type (ClassOrInterfaceType)
+285 name (SimpleName)
+286 identifier='Path'
+287 arguments
+288 argument (ObjectCreationExpr)
+289 type (ClassOrInterfaceType)
+290 name (SimpleName)
+291 identifier='Path'
+292 arguments
+293 argument (NameExpr)
+294 name (SimpleName)
+295 identifier='generatedSegment'
+296 argument (FieldAccessExpr)
+297 name (SimpleName)
+298 identifier='GENERATE_DIR_NAME'
+299 scope (NameExpr)
+300 name (SimpleName)
+301 identifier='CrawlDatum'
+302 argument (StringLiteralExpr)
+303 value='part-00000'
+304 statement (ExpressionStmt)
+305 expression (AssignExpr)
+306 operator='ASSIGN'
+307 target (NameExpr)
+308 name (SimpleName)
+309 identifier='fetchList'
+310 value (MethodCallExpr)
+311 name (SimpleName)
+312 identifier='readContents'
+313 arguments
+314 argument (NameExpr)
+315 name (SimpleName)
+316 identifier='fetchlistPath'
+317 statement (ExpressionStmt)
+318 expression (MethodCallExpr)
+319 name (SimpleName)
+320 identifier='assertEquals'
+321 arguments
+322 argument (IntegerLiteralExpr)
+323 value='2'
+324 argument (MethodCallExpr)
+325 name (SimpleName)
+326 identifier='size'
+327 scope (NameExpr)
+328 name (SimpleName)
+329 identifier='fetchList'
+330 statement (ExpressionStmt)
+331 expression (AssignExpr)
+332 operator='ASSIGN'
+333 target (NameExpr)
+334 name (SimpleName)
+335 identifier='myConfiguration'
+336 value (ObjectCreationExpr)
+337 type (ClassOrInterfaceType)
+338 name (SimpleName)
+339 identifier='Configuration'
+340 arguments
+341 argument (NameExpr)
+342 name (SimpleName)
+343 identifier='myConfiguration'
+344 statement (ExpressionStmt)
+345 expression (MethodCallExpr)
+346 name (SimpleName)
+347 identifier='setInt'
+348 scope (NameExpr)
+349 name (SimpleName)
+350 identifier='myConfiguration'
+351 arguments
+352 argument (FieldAccessExpr)
+353 name (SimpleName)
+354 identifier='GENERATOR_MAX_COUNT'
+355 scope (NameExpr)
+356 name (SimpleName)
+357 identifier='Generator'
+358 argument (IntegerLiteralExpr)
+359 value='4'
+360 statement (ExpressionStmt)
+361 expression (AssignExpr)
+362 operator='ASSIGN'
+363 target (NameExpr)
+364 name (SimpleName)
+365 identifier='generatedSegment'
+366 value (MethodCallExpr)
+367 name (SimpleName)
+368 identifier='generateFetchlist'
+369 arguments
+370 argument (FieldAccessExpr)
+371 name (SimpleName)
+372 identifier='MAX_VALUE'
+373 scope (NameExpr)
+374 name (SimpleName)
+375 identifier='Integer'
+376 argument (NameExpr)
+377 name (SimpleName)
+378 identifier='myConfiguration'
+379 argument (BooleanLiteralExpr)
+380 value='false'
+381 statement (ExpressionStmt)
+382 expression (AssignExpr)
+383 operator='ASSIGN'
+384 target (NameExpr)
+385 name (SimpleName)
+386 identifier='fetchlistPath'
+387 value (ObjectCreationExpr)
+388 type (ClassOrInterfaceType)
+389 name (SimpleName)
+390 identifier='Path'
+391 arguments
+392 argument (ObjectCreationExpr)
+393 type (ClassOrInterfaceType)
+394 name (SimpleName)
+395 identifier='Path'
+396 arguments
+397 argument (NameExpr)
+398 name (SimpleName)
+399 identifier='generatedSegment'
+400 argument (FieldAccessExpr)
+401 name (SimpleName)
+402 identifier='GENERATE_DIR_NAME'
+403 scope (NameExpr)
+404 name (SimpleName)
+405 identifier='CrawlDatum'
+406 argument (StringLiteralExpr)
+407 value='part-00000'
+408 statement (ExpressionStmt)
+409 expression (AssignExpr)
+410 operator='ASSIGN'
+411 target (NameExpr)
+412 name (SimpleName)
+413 identifier='fetchList'
+414 value (MethodCallExpr)
+415 name (SimpleName)
+416 identifier='readContents'
+417 arguments
+418 argument (NameExpr)
+419 name (SimpleName)
+420 identifier='fetchlistPath'
+421 statement (ExpressionStmt)
+422 expression (MethodCallExpr)
+423 name (SimpleName)
+424 identifier='assertEquals'
+425 arguments
+426 argument (IntegerLiteralExpr)
+427 value='3'
+428 argument (MethodCallExpr)
+429 name (SimpleName)
+430 identifier='size'
+431 scope (NameExpr)
+432 name (SimpleName)
+433 identifier='fetchList'
+434 type (VoidType)
+435 name (SimpleName)
+436 identifier='testGenerateDomainLimit'
+437 thrownExceptions
+438 thrownException (ClassOrInterfaceType)
+439 name (SimpleName)
+440 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+35 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+53 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+71 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+89 90
+90 91
+91 92
+92 93
+90 94
+94 95
+95 96
+96 97
+89 98
+98 99
+89 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+110 117
+117 118
+2 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+126 133
+133 134
+134 135
+133 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+146 153
+153 154
+154 155
+146 156
+156 157
+142 158
+158 159
+142 160
+160 161
+161 162
+2 163
+163 164
+164 165
+165 166
+166 167
+167 168
+168 169
+169 170
+167 171
+171 172
+172 173
+173 174
+174 175
+172 176
+176 177
+177 178
+178 179
+176 180
+180 181
+181 182
+180 183
+183 184
+184 185
+171 186
+186 187
+166 188
+188 189
+166 190
+190 191
+191 192
+2 193
+193 194
+194 195
+195 196
+196 197
+197 198
+198 199
+197 200
+200 201
+201 202
+202 203
+196 204
+204 205
+196 206
+206 207
+207 208
+206 209
+209 210
+210 211
+211 212
+2 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+217 220
+220 221
+221 222
+220 223
+223 224
+224 225
+2 226
+226 227
+227 228
+227 229
+229 230
+230 231
+227 232
+232 233
+233 234
+234 235
+232 236
+236 237
+237 238
+238 239
+2 240
+240 241
+241 242
+242 243
+241 244
+244 245
+245 246
+241 247
+247 248
+248 249
+249 250
+248 251
+251 252
+252 253
+247 254
+254 255
+2 256
+256 257
+257 258
+257 259
+259 260
+260 261
+257 262
+262 263
+263 264
+262 265
+265 266
+266 267
+267 268
+266 269
+269 270
+270 271
+265 272
+272 273
+273 274
+265 275
+275 276
+2 277
+277 278
+278 279
+278 280
+280 281
+281 282
+278 283
+283 284
+284 285
+285 286
+283 287
+287 288
+288 289
+289 290
+290 291
+288 292
+292 293
+293 294
+294 295
+292 296
+296 297
+297 298
+296 299
+299 300
+300 301
+287 302
+302 303
+2 304
+304 305
+305 306
+305 307
+307 308
+308 309
+305 310
+310 311
+311 312
+310 313
+313 314
+314 315
+315 316
+2 317
+317 318
+318 319
+319 320
+318 321
+321 322
+322 323
+321 324
+324 325
+325 326
+324 327
+327 328
+328 329
+2 330
+330 331
+331 332
+331 333
+333 334
+334 335
+331 336
+336 337
+337 338
+338 339
+336 340
+340 341
+341 342
+342 343
+2 344
+344 345
+345 346
+346 347
+345 348
+348 349
+349 350
+345 351
+351 352
+352 353
+353 354
+352 355
+355 356
+356 357
+351 358
+358 359
+2 360
+360 361
+361 362
+361 363
+363 364
+364 365
+361 366
+366 367
+367 368
+366 369
+369 370
+370 371
+371 372
+370 373
+373 374
+374 375
+369 376
+376 377
+377 378
+369 379
+379 380
+2 381
+381 382
+382 383
+382 384
+384 385
+385 386
+382 387
+387 388
+388 389
+389 390
+387 391
+391 392
+392 393
+393 394
+394 395
+392 396
+396 397
+397 398
+398 399
+396 400
+400 401
+401 402
+400 403
+403 404
+404 405
+391 406
+406 407
+2 408
+408 409
+409 410
+409 411
+411 412
+412 413
+409 414
+414 415
+415 416
+414 417
+417 418
+418 419
+419 420
+2 421
+421 422
+422 423
+423 424
+422 425
+425 426
+426 427
+425 428
+428 429
+429 430
+428 431
+431 432
+432 433
+0 434
+0 435
+435 436
+0 437
+437 438
+438 439
+439 440
+
+Test that generator obeys the property "generator.max.count" and "generator.count.per.domain".

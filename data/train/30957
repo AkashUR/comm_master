@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='containerVmDeallocateAll'
+7 statement (ForeachStmt)
+8 body (BlockStmt)
+9 statements
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='setHost'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='containerVm'
+17 arguments
+18 argument (NullLiteralExpr)
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setStorage'
+23 arguments
+24 argument (BinaryExpr)
+25 operator='PLUS'
+26 left (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getStorage'
+29 right (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getSize'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='containerVm'
+35 iterable (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getVmList'
+38 variable (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 name (SimpleName)
+42 identifier='containerVm'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='ContainerVm'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='clear'
+50 scope (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getVmList'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='containerVmDestroyAll'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+9 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+29 32
+32 33
+33 34
+7 35
+35 36
+36 37
+7 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+0 53
+0 54
+54 55
+
+Destroys all VMs running in the host.

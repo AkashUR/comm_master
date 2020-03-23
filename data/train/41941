@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ContentValues'
+11 name (SimpleName)
+12 identifier='values'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ContentValues'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='put'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='values'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='_ID'
+27 argument (IntegerLiteralExpr)
+28 value='1'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='put'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='values'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='RMQ_ID'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='rmqId'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='insert'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='resolver'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='CONTENT_URI'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='values'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='saveLastRmqId'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='resolver'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='ContentResolver'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='rmqId'
+72 type (PrimitiveType)
+73 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+23 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+60 68
+68 69
+68 70
+70 71
+68 72
+72 73
+
+saveLastRmqId saves the rmqId to the lastRmqId table. This will override the existing row if any, as we only keep one row of data in this table.

@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='compose'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='sroot'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getComposeState'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='sroot'
+22 name (SimpleName)
+23 identifier='cstate'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='ComposeState'
+27 scope (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='StylesheetRoot'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='fixupVariables'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='m_selectExpression'
+37 arguments
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getVariableNames'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='cstate'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getGlobalsSize'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='cstate'
+50 type (VoidType)
+51 name (SimpleName)
+52 identifier='compose'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='sroot'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='StylesheetRoot'
+61 thrownExceptions
+62 thrownException (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='TransformerException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+15 22
+22 23
+15 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+37 44
+44 45
+45 46
+44 47
+47 48
+48 49
+0 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+0 61
+61 62
+62 63
+63 64
+
+This function is called after everything else has been recomposed, and allows the template to set remaining values that may be based on some other property that depends on recomposition.

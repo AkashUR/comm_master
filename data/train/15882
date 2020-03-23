@@ -1,0 +1,104 @@
+51
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='isDelegable'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='isDelegable'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='delegateTo'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='delegateTo'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='actAsToken'
+29 scope (ThisExpr)
+30 value (NullLiteralExpr)
+31 statement (AssertStmt)
+32 check (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='invariantRespected'
+35 name (SimpleName)
+36 identifier='DelegationSpec'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='isDelegable'
+42 type (PrimitiveType)
+43 type='BOOLEAN'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='delegateTo'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+2 31
+31 32
+32 33
+33 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+37 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+
+Creates a delegation specification. The expected format for <code>delegateTo</code> parameter value is as follows: <ul> <li>UPN formatted string for remote users</li> <li>just the user name for local SSO users</li> </ul> *

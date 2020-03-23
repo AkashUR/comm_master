@@ -1,0 +1,174 @@
+86
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='collapse'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='collapser'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='master'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='picked'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='erase'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='fireCollapseChanged'
+24 arguments
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='singleton'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='Collections'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getCollapseData'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='collapser'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='master'
+42 argument (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='EMPTY_LIST'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='CollapseData'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='author'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='collapse'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='master'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='GraphNode'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='picked'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='Collection'
+69 typeArguments
+70 typeArgument (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='GraphNode'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='erase'
+77 type (PrimitiveType)
+78 type='BOOLEAN'
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='author'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+24 42
+42 43
+43 44
+42 45
+45 46
+46 47
+24 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+54 73
+73 74
+73 75
+75 76
+73 77
+77 78
+54 79
+79 80
+79 81
+81 82
+79 83
+83 84
+84 85
+
+Collapse a set of nodes under a specific master node.

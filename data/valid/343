@@ -1,0 +1,62 @@
+30
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='in'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='System'
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='out'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='System'
+18 argument (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='defaultCharset'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='Charset'
+24 name (SimpleName)
+25 identifier='UnixTerminal'
+26 thrownExceptions
+27 thrownException (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+5 12
+12 13
+13 14
+12 15
+15 16
+16 17
+5 18
+18 19
+19 20
+18 21
+21 22
+22 23
+0 24
+24 25
+0 26
+26 27
+27 28
+28 29
+
+Creates a UnixTerminal with default settings, using System.in and System.out for input/output, using the default character set on the system as the encoding and trap ctrl+c signal instead of killing the application.

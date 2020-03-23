@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (VariableDeclarationExpr)
+8 variables
+9 variable (VariableDeclarator)
+10 initializer (CastExpr)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='next'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='it'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='DirectedEdge'
+20 name (SimpleName)
+21 identifier='de'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='DirectedEdge'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getLabel'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='de'
+35 name (SimpleName)
+36 identifier='label'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Label'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='merge'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='label'
+47 arguments
+48 argument (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getLabel'
+51 scope (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getSym'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='de'
+57 compare (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='hasNext'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='it'
+63 initialization
+64 initializatio (VariableDeclarationExpr)
+65 variables
+66 variable (VariableDeclarator)
+67 initializer (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='iterator'
+70 name (SimpleName)
+71 identifier='it'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Iterator'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='mergeSymLabels'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+9 20
+20 21
+9 22
+22 23
+23 24
+5 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+28 35
+35 36
+28 37
+37 38
+38 39
+5 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+3 57
+57 58
+58 59
+57 60
+60 61
+61 62
+3 63
+63 64
+64 65
+65 66
+66 67
+67 68
+68 69
+66 70
+70 71
+66 72
+72 73
+73 74
+0 75
+0 76
+76 77
+
+For each dirEdge in the star, merge the label from the sym dirEdge into the label

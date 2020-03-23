@@ -1,0 +1,48 @@
+23
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='onInsertRow'
+9 value (BooleanLiteralExpr)
+10 value='true'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='moveToInsertRow'
+15 scope (SuperExpr)
+16 type (VoidType)
+17 name (SimpleName)
+18 identifier='moveToInsertRow'
+19 thrownExceptions
+20 thrownException (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+0 16
+0 17
+17 18
+0 19
+19 20
+20 21
+21 22
+
+Moves the cursor for this <code>CachedRowSetImpl</code> object to the insert row.  The current row in the rowset is remembered while the cursor is on the insert row. <P> The insert row is a special row associated with an updatable rowset.  It is essentially a buffer where a new row may be constructed by calling the appropriate <code>updateXXX</code> methods to assign a value to each column in the row.  A complete row must be constructed; that is, every column that is not nullable must be assigned a value.  In order for the new row to become part of this rowset, the method <code>insertRow</code> must be called before the cursor is moved back to the rowset. <P> Only certain methods may be invoked while the cursor is on the insert row; many methods throw an exception if they are called while the cursor is there.  In addition to the <code>updateXXX</code> and <code>insertRow</code> methods, only the <code>getXXX</code> methods may be called when the cursor is on the insert row.  A <code>getXXX</code> method should be called on a column only after an <code>updateXXX</code> method has been called on that column; otherwise, the value returned is undetermined.

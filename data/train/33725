@@ -1,0 +1,60 @@
+29
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='push'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='m_disableOutputEscapingStates'
+10 arguments
+11 argument (BooleanLiteralExpr)
+12 value='true'
+13 type (VoidType)
+14 name (SimpleName)
+15 identifier='startNonEscaping'
+16 thrownExceptions
+17 thrownException (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='SAXException'
+20 scope (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='sax'
+23 scope (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='xml'
+26 scope (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='org'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+0 13
+0 14
+14 15
+0 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+
+Starts an un-escaping section. All characters printed within an un- escaping section are printed as is, without escaping special characters into entity references. Only XML and HTML serializers need to support this method. <p> The contents of the un-escaping section will be delivered through the regular <tt>characters</tt> event.

@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Properties'
+11 name (SimpleName)
+12 identifier='inner'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Properties'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setProperty'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='inner'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='baz'
+26 argument (StringLiteralExpr)
+27 value='blorple;zot'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='assertEquals'
+32 arguments
+33 argument (StringLiteralExpr)
+34 value='baz=blorple\\;zot'
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='joinOnSemicolon'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='PropertyUtils'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='toMap'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='PropertyUtils'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='inner'
+52 type (VoidType)
+53 name (SimpleName)
+54 identifier='testJoinEscapesSemicolons'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+0 52
+0 53
+53 54
+
+Test join of escaped semicolons.

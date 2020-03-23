@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='HashSet'
+11 typeArguments
+12 typeArgument (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Object'
+15 name (SimpleName)
+16 identifier='definedVariables'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='HashSet'
+20 typeArguments
+21 typeArgument (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Object'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='verifyUseFollowsDef'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='where'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='definedVariables'
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='entry'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='cfg'
+41 argument (ObjectCreationExpr)
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='BitVector'
+45 arguments
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='numberOfNodes'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='cfg'
+52 argument (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='ArrayList'
+56 typeArguments
+57 typeArgument (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='BasicBlock'
+60 argument (IntegerLiteralExpr)
+61 value='5'
+62 argument (BooleanLiteralExpr)
+63 value='true'
+64 type (VoidType)
+65 name (SimpleName)
+66 identifier='verifyUseFollowsDef'
+67 parameters
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='where'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+28 35
+35 36
+36 37
+35 38
+38 39
+39 40
+28 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+28 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+28 60
+60 61
+28 62
+62 63
+0 64
+0 65
+65 66
+0 67
+67 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+
+Checks whether uses follow definitions and that in SSA form variables aren't multiply defined

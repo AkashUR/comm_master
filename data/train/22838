@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='d'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Log'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='LOG_TAG'
+14 argument (StringLiteralExpr)
+15 value='onGcmUpdate'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='sendEventStreamAction'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='context'
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='GCM_STATUS_UPDATE'
+27 scope (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='StreamAction'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='EventStreamService'
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='onGcmUpdate'
+36 parameters
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='context'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='Context'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+0 33
+0 34
+34 35
+0 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+
+Warn the events stream that there was a GCM status update.

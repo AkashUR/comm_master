@@ -1,0 +1,234 @@
+116
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='rects'
+9 scope (ThisExpr)
+10 value (ArrayCreationExpr)
+11 elementType (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='Rectangle'
+14 levels
+15 level (ArrayCreationLevel)
+16 dimension (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='size'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='rects'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='iterator'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='rects'
+32 name (SimpleName)
+33 identifier='i'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Iterator'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (IntegerLiteralExpr)
+42 value='0'
+43 name (SimpleName)
+44 identifier='j'
+45 type (PrimitiveType)
+46 type='INT'
+47 statement (WhileStmt)
+48 body (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (ArrayAccessExpr)
+52 index (UnaryExpr)
+53 operator='POSTFIX_INCREMENT'
+54 expression (NameExpr)
+55 name (SimpleName)
+56 identifier='j'
+57 name (FieldAccessExpr)
+58 name (SimpleName)
+59 identifier='rects'
+60 scope (ThisExpr)
+61 value (CastExpr)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='next'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='i'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Rectangle'
+71 condition (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='hasNext'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='i'
+77 statement (ExpressionStmt)
+78 expression (AssignExpr)
+79 operator='ASSIGN'
+80 target (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='size'
+83 scope (ThisExpr)
+84 value (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='length'
+87 scope (FieldAccessExpr)
+88 name (SimpleName)
+89 identifier='rects'
+90 scope (ThisExpr)
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='sort'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='Arrays'
+98 arguments
+99 argument (FieldAccessExpr)
+100 name (SimpleName)
+101 identifier='rects'
+102 scope (ThisExpr)
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='comparator'
+106 name (SimpleName)
+107 identifier='RectListManager'
+108 parameters
+109 parameter (Parameter)
+110 isVarArgs='false'
+111 name (SimpleName)
+112 identifier='rects'
+113 type (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='Collection'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+25 32
+32 33
+25 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+40 45
+45 46
+2 47
+47 48
+48 49
+49 50
+49 51
+51 52
+52 53
+52 54
+54 55
+55 56
+51 57
+57 58
+58 59
+57 60
+49 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+61 68
+68 69
+69 70
+47 71
+71 72
+72 73
+71 74
+74 75
+75 76
+2 77
+77 78
+78 79
+78 80
+80 81
+81 82
+80 83
+78 84
+84 85
+85 86
+84 87
+87 88
+88 89
+87 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+100 101
+99 102
+98 103
+103 104
+104 105
+0 106
+106 107
+0 108
+108 109
+109 110
+109 111
+111 112
+109 113
+113 114
+114 115
+
+Construct a <tt>RectListManager</tt> from a Collection of Rectangles

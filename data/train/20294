@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validateTargetUri'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='targetUri'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='validate'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='Credential'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='credentials'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='writeLine'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='Trace'
+29 arguments
+30 argument (StringLiteralExpr)
+31 value='SecretStore::writeCredentials'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getTargetName'
+39 scope (ThisExpr)
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='targetUri'
+44 name (SimpleName)
+45 identifier='targetName'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='String'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='writeCredential'
+53 scope (ThisExpr)
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='targetName'
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='credentials'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='writeCredentials'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='_credentialCache'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='targetUri'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='credentials'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='writeCredentials'
+78 parameters
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='targetUri'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='URI'
+86 parameter (Parameter)
+87 isVarArgs='false'
+88 name (SimpleName)
+89 identifier='credentials'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='Credential'
+93 annotations
+94 annotation (MarkerAnnotationExpr)
+95 name (Name)
+96 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+12 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+36 40
+40 41
+41 42
+42 43
+35 44
+44 45
+35 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+50 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+0 75
+0 76
+76 77
+0 78
+78 79
+79 80
+79 81
+81 82
+79 83
+83 84
+84 85
+78 86
+86 87
+86 88
+88 89
+86 90
+90 91
+91 92
+0 93
+93 94
+94 95
+95 96
+
+Writes credentials for a target URI to the credential store

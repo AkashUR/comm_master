@@ -1,0 +1,238 @@
+118
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (StringLiteralExpr)
+12 value='INSERT INTO reached_achievement '
+13 right (StringLiteralExpr)
+14 value='(charname, achievement_id) VALUES'
+15 right (StringLiteralExpr)
+16 value='(\'[charname]\',\'[achievement_id]\');'
+17 name (SimpleName)
+18 identifier='query'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='String'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='HashMap'
+30 typeArguments
+31 typeArgument (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+34 typeArgument (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Object'
+37 name (SimpleName)
+38 identifier='parameters'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Map'
+42 typeArguments
+43 typeArgument (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='String'
+46 typeArgument (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Object'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='put'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='parameters'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='charname'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='playerName'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='put'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='parameters'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='achievement_id'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='achievementId'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='execute'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='transaction'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='query'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='parameters'
+89 type (VoidType)
+90 name (SimpleName)
+91 identifier='saveReachedAchievement'
+92 parameters
+93 parameter (Parameter)
+94 isVarArgs='false'
+95 name (SimpleName)
+96 identifier='transaction'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='DBTransaction'
+100 parameter (Parameter)
+101 isVarArgs='false'
+102 name (SimpleName)
+103 identifier='achievementId'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='Integer'
+107 parameter (Parameter)
+108 isVarArgs='false'
+109 name (SimpleName)
+110 identifier='playerName'
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='String'
+114 thrownExceptions
+115 thrownException (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+9 13
+13 14
+7 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+25 37
+37 38
+25 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+42 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+56 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+82 86
+86 87
+87 88
+0 89
+0 90
+90 91
+0 92
+92 93
+93 94
+93 95
+95 96
+93 97
+97 98
+98 99
+92 100
+100 101
+100 102
+102 103
+100 104
+104 105
+105 106
+92 107
+107 108
+107 109
+109 110
+107 111
+111 112
+112 113
+0 114
+114 115
+115 116
+116 117
+
+logs a reached achievement into the database

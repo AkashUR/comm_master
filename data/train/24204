@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='discoverTree'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='root'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getUriQuery'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getRequestOptions'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='exchange'
+23 name (SimpleName)
+24 identifier='tree'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='String'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='respond'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='exchange'
+35 arguments
+36 argument (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='CONTENT'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='ResponseCode'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='tree'
+45 argument (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='APPLICATION_LINK_FORMAT'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='MediaTypeRegistry'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='handleGET'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='exchange'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='CoapExchange'
+62 annotations
+63 annotation (MarkerAnnotationExpr)
+64 name (Name)
+65 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+6 23
+23 24
+6 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+35 42
+42 43
+43 44
+35 45
+45 46
+46 47
+45 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+0 62
+62 63
+63 64
+64 65
+
+Responds with a list of all resources of the server, i.e. links.

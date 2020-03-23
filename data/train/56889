@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='sysWrite'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='VM'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value=' STATUS='
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='sysWriteHex'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='VM'
+20 arguments
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='toAddress'
+24 scope (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getWordAtOffset'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Magic'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='ref'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='STATUS_OFFSET'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='dumpHeader'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='ref'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+
+For low level debugging of GC subsystem. Dump the header word(s) of the given object reference.

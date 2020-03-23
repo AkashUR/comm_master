@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkRequiredFields'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='user'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='checkRoot'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='user'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='createTmpUser'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='userDao'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='user'
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='createTmpUser'
+33 parameters
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='user'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='User'
+41 thrownExceptions
+42 thrownException (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='RequiredFieldMissingException'
+45 thrownException (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='RootNotModifiableException'
+48 thrownException (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='EmailNotSentException'
+51 annotations
+52 annotation (NormalAnnotationExpr)
+53 name (Name)
+54 identifier='Transactional'
+55 pairs
+56 pair (MemberValuePair)
+57 name (SimpleName)
+58 identifier='readOnly'
+59 value (BooleanLiteralExpr)
+60 value='false'
+61 pair (MemberValuePair)
+62 name (SimpleName)
+63 identifier='propagation'
+64 value (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='REQUIRED'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='Propagation'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+0 30
+0 31
+31 32
+0 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+0 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+41 48
+48 49
+49 50
+0 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+56 59
+59 60
+55 61
+61 62
+62 63
+61 64
+64 65
+65 66
+64 67
+67 68
+68 69
+
+Create given User as temporary User, after checking required fields.

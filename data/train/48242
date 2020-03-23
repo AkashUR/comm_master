@@ -1,0 +1,280 @@
+139
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='root'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Element'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='rpsfile'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='doc'
+22 value (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='newDocument'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='root'
+29 argument (BinaryExpr)
+30 operator='PLUS'
+31 left (NameExpr)
+32 name (SimpleName)
+33 identifier='dtdLocation'
+34 right (StringLiteralExpr)
+35 value='rpsroster-2-3-8.dtd'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (ObjectCreationExpr)
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='HashMap'
+44 scope (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='util'
+47 scope (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='java'
+50 typeArguments
+51 typeArgument (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='String'
+54 typeArgument (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+57 name (SimpleName)
+58 identifier='m'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Map'
+62 scope (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='util'
+65 scope (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='java'
+68 typeArguments
+69 typeArgument (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='String'
+72 typeArgument (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='String'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='put'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='m'
+82 arguments
+83 argument (StringLiteralExpr)
+84 value='type'
+85 argument (StringLiteralExpr)
+86 value='text/xsl'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='put'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='m'
+94 arguments
+95 argument (StringLiteralExpr)
+96 value='href'
+97 argument (BinaryExpr)
+98 operator='PLUS'
+99 left (NameExpr)
+100 name (SimpleName)
+101 identifier='xsltLocation'
+102 right (StringLiteralExpr)
+103 value='rpsroster.xsl'
+104 statement (ExpressionStmt)
+105 expression (VariableDeclarationExpr)
+106 variables
+107 variable (VariableDeclarator)
+108 initializer (ObjectCreationExpr)
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='ProcessingInstruction'
+112 arguments
+113 argument (StringLiteralExpr)
+114 value='xml-stylesheet'
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='m'
+118 name (SimpleName)
+119 identifier='p'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='ProcessingInstruction'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='addContent'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='doc'
+130 arguments
+131 argument (IntegerLiteralExpr)
+132 value='0'
+133 argument (NameExpr)
+134 name (SimpleName)
+135 identifier='p'
+136 type (VoidType)
+137 name (SimpleName)
+138 identifier='prepare'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+25 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+41 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+39 57
+57 58
+39 59
+59 60
+60 61
+59 62
+62 63
+63 64
+62 65
+65 66
+66 67
+59 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+82 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+94 97
+97 98
+97 99
+99 100
+100 101
+97 102
+102 103
+2 104
+104 105
+105 106
+106 107
+107 108
+108 109
+109 110
+110 111
+108 112
+112 113
+113 114
+112 115
+115 116
+116 117
+107 118
+118 119
+107 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+124 130
+130 131
+131 132
+130 133
+133 134
+134 135
+0 136
+0 137
+137 138
+
+Initialize for writing information. <P> This is followed by multiple "set" calls, then a "store"

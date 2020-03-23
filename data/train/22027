@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='isEqualTo'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='assertThat'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='importBucketName'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='reader'
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='import-bucket'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='isEqualTo'
+24 scope (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='assertThat'
+27 arguments
+28 argument (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='importFileName'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='reader'
+34 arguments
+35 argument (StringLiteralExpr)
+36 value='escrow-file.xml'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='assertImportBucketAndFilename'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='reader'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='RdeContactReader'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+4 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+21 34
+34 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+
+Verifies the configured import bucket and file names.

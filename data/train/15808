@@ -1,0 +1,206 @@
+102
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Builder'
+11 scope (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='BooleanQuery'
+14 name (SimpleName)
+15 identifier='expected'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Builder'
+19 scope (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='BooleanQuery'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='add'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='expected'
+29 arguments
+30 argument (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='TermQuery'
+34 arguments
+35 argument (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Term'
+39 arguments
+40 argument (StringLiteralExpr)
+41 value='field'
+42 argument (StringLiteralExpr)
+43 value='foo'
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='MUST'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='Occur'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='add'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='expected'
+57 arguments
+58 argument (ObjectCreationExpr)
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='TermQuery'
+62 arguments
+63 argument (ObjectCreationExpr)
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Term'
+67 arguments
+68 argument (StringLiteralExpr)
+69 value='field'
+70 argument (StringLiteralExpr)
+71 value='bar'
+72 argument (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='MUST'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='Occur'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='assertEquals'
+82 arguments
+83 argument (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='build'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='expected'
+89 argument (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='parse'
+92 arguments
+93 argument (StringLiteralExpr)
+94 value='foo+bar'
+95 type (VoidType)
+96 name (SimpleName)
+97 identifier='testAND'
+98 thrownExceptions
+99 thrownException (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+29 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+67 70
+70 71
+57 72
+72 73
+73 74
+72 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+82 89
+89 90
+90 91
+89 92
+92 93
+93 94
+0 95
+0 96
+96 97
+0 98
+98 99
+99 100
+100 101
+
+test some AND'd terms using '+' operator

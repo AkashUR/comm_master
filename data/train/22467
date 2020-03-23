@@ -1,0 +1,74 @@
+36
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='reconfigure'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='dataResultSet'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='reconfigure'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='readerOperator'
+19 name (SimpleName)
+20 identifier='DataResultSetTranslationConfiguration'
+21 parameters
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='readerOperator'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='AbstractDataResultSetReader'
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='dataResultSet'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='DataResultSet'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+0 19
+19 20
+0 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+21 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+
+Creates the configuration based on the parameter values stored in the given reader. If these parameters aren't present they are derived from the data result set delivered and everything will just be passed. This means, names are identically as delivered from the underlying result set, value type will be the one fitting, everything is selected, no roles are defined.

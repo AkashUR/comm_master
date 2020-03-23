@@ -1,0 +1,54 @@
+26
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addBaseTimelineException'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getTime'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='date'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='addBaseTimelineException'
+18 parameters
+19 parameter (Parameter)
+20 isVarArgs='false'
+21 name (SimpleName)
+22 identifier='date'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Date'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+19 21
+21 22
+19 23
+23 24
+24 25
+
+Adds a segment relative to the baseTimeline as an exception. An exception segment is defined as a segment to exclude from what would otherwise be considered a valid segment of the timeline.  An exception segment can not be contained inside an already excluded segment. If so, no action will occure (the proposed exception segment will be discarded). <p> The segment is identified by a domainValue into any part of the segment. Therefore the segmentStart &lt;= domainValue &lt;= segmentEnd.

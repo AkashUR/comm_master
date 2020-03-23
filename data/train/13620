@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='training started...'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='X'
+22 scope (ThisExpr)
+23 value (NameExpr)
+24 name (SimpleName)
+25 identifier='X'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='logtheta'
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='minimize'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='logtheta0'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='iterations'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='X'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='y'
+48 type (VoidType)
+49 name (SimpleName)
+50 identifier='train'
+51 parameters
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='X'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='Matrix'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='y'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Matrix'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='logtheta0'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Matrix'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='iterations'
+77 type (PrimitiveType)
+78 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+35 42
+42 43
+43 44
+35 45
+45 46
+46 47
+0 48
+0 49
+49 50
+0 51
+51 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+51 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+51 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+51 73
+73 74
+73 75
+75 76
+73 77
+77 78
+
+Trains the GP Hyperparameters maximizing the marginal likelihood. By default the algorithm performs 100 iterations.

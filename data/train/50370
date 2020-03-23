@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='delete'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getContentResolver'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='context'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='CONTENT_URI'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Impl'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='QUERY_WHERE_CLAUSE'
+23 argument (ArrayCreationExpr)
+24 elementType (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='String'
+27 initializer (ArrayInitializerExpr)
+28 values
+29 value (NameExpr)
+30 name (SimpleName)
+31 identifier='notification_package'
+32 value (NameExpr)
+33 name (SimpleName)
+34 identifier='notification_class'
+35 levels
+36 level (ArrayCreationLevel)
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='removeAllDownloadsByPackage'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='context'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Context'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='notification_package'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='notification_class'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+13 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+23 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+40 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+40 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+
+Delete all the downloads for a package/class pair.

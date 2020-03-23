@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createTable'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='PERSON'
+10 argument (StringLiteralExpr)
+11 value='(NAME VARCHAR(32), PERID VARCHAR(32))'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='pstmt'
+18 scope (ThisExpr)
+19 value (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='prepareStatement'
+22 scope (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='conn'
+25 scope (ThisExpr)
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='SELECT NAME AS name2749_0_, PERID AS perid2749_0_ FROM PERSON WHERE PERID=? /*FOR UPDATE*/'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='testCommentParsing'
+32 thrownExceptions
+33 thrownException (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+15 18
+13 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+19 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+34 35
+
+Tests error with slash-star comment at EOL

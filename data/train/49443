@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='cacheMode'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='PARTITIONED'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='nearEnabled'
+18 value (BooleanLiteralExpr)
+19 value='true'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='check'
+24 type (VoidType)
+25 name (SimpleName)
+26 identifier='testPartitioned'
+27 thrownExceptions
+28 thrownException (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+2 20
+20 21
+21 22
+22 23
+0 24
+0 25
+25 26
+0 27
+27 28
+28 29
+29 30
+
+Ensure that PARTITIONED cache is correctly initialized.

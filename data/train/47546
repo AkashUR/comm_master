@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='formatAndLog'
+7 arguments
+8 argument (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='INFO'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='Log'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='format'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='arg'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='info'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='format'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='String'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='arg'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+23 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+
+Log a message at level INFO according to the specified format and argument. <p> This form avoids superfluous object creation when the logger is disabled for the INFO level. </p>

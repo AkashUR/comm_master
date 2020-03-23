@@ -1,0 +1,228 @@
+113
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='doTag'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='ForHtmlAttributeTag'
+24 name (SimpleName)
+25 identifier='instance'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='ForHtmlAttributeTag'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (StringLiteralExpr)
+34 value='<div>'
+35 name (SimpleName)
+36 identifier='value'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (StringLiteralExpr)
+45 value='&lt;div>'
+46 name (SimpleName)
+47 identifier='expected'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setJspContext'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='instance'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='_pageContext'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='setValue'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='instance'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='value'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='doTag'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='instance'
+80 statement (ExpressionStmt)
+81 expression (VariableDeclarationExpr)
+82 variables
+83 variable (VariableDeclarator)
+84 initializer (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='getContentAsString'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='_response'
+90 name (SimpleName)
+91 identifier='results'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='String'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='assertEquals'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='expected'
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='results'
+106 type (VoidType)
+107 name (SimpleName)
+108 identifier='testDoTag'
+109 thrownExceptions
+110 thrownException (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+19 24
+24 25
+19 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+32 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+43 46
+46 47
+43 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+83 90
+90 91
+83 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+99 103
+103 104
+104 105
+0 106
+0 107
+107 108
+0 109
+109 110
+110 111
+111 112
+
+Test of doTag method, of class ForHtmlAttributeTag. This is a very simple test that doesn't fully excersize/test the encoder - only that the tag itself works.

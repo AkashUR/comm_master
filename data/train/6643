@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkMatrix'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='2'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='rotate'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='matrix'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='angle'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='rotate'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='angle'
+29 type (PrimitiveType)
+30 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+0 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+
+( begin auto-generated from PShape_rotate.xml ) Rotates a shape the amount specified by the <b>angle</b> parameter. Angles should be specified in radians (values from 0 to TWO_PI) or converted to radians with the <b>radians()</b> method. <br /><br /> Shapes are always rotated around the upper-left corner of their bounding box. Positive numbers rotate objects in a clockwise direction. Transformations apply to everything that happens after and subsequent calls to the method accumulates the effect. For example, calling <b>rotate(HALF_PI)</b> and then <b>rotate(HALF_PI)</b> is the same as <b>rotate(PI)</b>. This transformation is applied directly to the shape, it's not refreshed each time <b>draw()</b> is run. ( end auto-generated )

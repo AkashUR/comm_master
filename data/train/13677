@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='findTypes'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='prefix'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='findMembers'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='camelCaseMatch'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='searchFor'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='storage'
+23 argument (NullLiteralExpr)
+24 type (VoidType)
+25 name (SimpleName)
+26 identifier='findTypes'
+27 parameters
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='prefix'
+32 type (ArrayType)
+33 origin='TYPE'
+34 componentType (PrimitiveType)
+35 type='CHAR'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='findMembers'
+40 type (PrimitiveType)
+41 type='BOOLEAN'
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='camelCaseMatch'
+46 type (PrimitiveType)
+47 type='BOOLEAN'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='searchFor'
+52 type (PrimitiveType)
+53 type='INT'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='storage'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='ISearchRequestor'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+0 24
+0 25
+25 26
+0 27
+27 28
+28 29
+28 30
+30 31
+28 32
+32 33
+32 34
+34 35
+27 36
+36 37
+36 38
+38 39
+36 40
+40 41
+27 42
+42 43
+42 44
+44 45
+42 46
+46 47
+27 48
+48 49
+48 50
+50 51
+48 52
+52 53
+27 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+Find the top-level types that are defined in the current environment and whose name starts with the given prefix. The prefix is a qualified name separated by periods or a simple name (ex. java.util.V or V). The types found are passed to one of the following methods (if additional information is known about the types): ISearchRequestor.acceptType(char[][] packageName, char[] typeName) ISearchRequestor.acceptClass(char[][] packageName, char[] typeName, int modifiers) ISearchRequestor.acceptInterface(char[][] packageName, char[] typeName, int modifiers) This method can not be used to find member types... member types are found relative to their enclosing type.

@@ -1,0 +1,164 @@
+81
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='impl'
+9 scope (ThisExpr)
+10 value (ConditionalExpr)
+11 condition (BinaryExpr)
+12 operator='NOT_EQUALS'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='factory'
+16 right (NullLiteralExpr)
+17 elseExpr (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='PlainSocketImpl'
+21 thenExpr (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='createSocketImpl'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='factory'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='proxy'
+33 scope (ThisExpr)
+34 value (NullLiteralExpr)
+35 name (SimpleName)
+36 identifier='Socket'
+37 annotations
+38 annotation (SingleMemberAnnotationExpr)
+39 memberValue (StringLiteralExpr)
+40 value='constructor'
+41 name (Name)
+42 identifier='DSComment'
+43 annotation (SingleMemberAnnotationExpr)
+44 memberValue (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='SAFE_OTHERS'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='DSCat'
+50 name (Name)
+51 identifier='DSSafe'
+52 annotation (NormalAnnotationExpr)
+53 name (Name)
+54 identifier='DSGenerator'
+55 pairs
+56 pair (MemberValuePair)
+57 name (SimpleName)
+58 identifier='tool_name'
+59 value (StringLiteralExpr)
+60 value='Doppelganger'
+61 pair (MemberValuePair)
+62 name (SimpleName)
+63 identifier='tool_version'
+64 value (StringLiteralExpr)
+65 value='2.0'
+66 pair (MemberValuePair)
+67 name (SimpleName)
+68 identifier='generated_on'
+69 value (StringLiteralExpr)
+70 value='2013-12-30 12:58:06.729 -0500'
+71 pair (MemberValuePair)
+72 name (SimpleName)
+73 identifier='hash_original_method'
+74 value (StringLiteralExpr)
+75 value='DE6B6B5588954C6A35AB00A23B1617FE'
+76 pair (MemberValuePair)
+77 name (SimpleName)
+78 identifier='hash_generated_method'
+79 value (StringLiteralExpr)
+80 value='24D8AF97881FC81FD7824F1A915C2F48'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+10 17
+17 18
+18 19
+19 20
+10 21
+21 22
+22 23
+21 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+28 34
+0 35
+35 36
+0 37
+37 38
+38 39
+39 40
+38 41
+41 42
+37 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+43 50
+50 51
+37 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+56 59
+59 60
+55 61
+61 62
+62 63
+61 64
+64 65
+55 66
+66 67
+67 68
+66 69
+69 70
+55 71
+71 72
+72 73
+71 74
+74 75
+55 76
+76 77
+77 78
+76 79
+79 80
+
+Creates a new unconnected socket. When a SocketImplFactory is defined it creates the internal socket implementation, otherwise the default socket implementation will be used for this socket.

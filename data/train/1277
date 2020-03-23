@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='DepGraphEdge'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='op'
+15 argument (ThisExpr)
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='node'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='REG_TRUE'
+22 name (SimpleName)
+23 identifier='e'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='DepGraphEdge'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='appendOutEdge'
+31 scope (ThisExpr)
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='e'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='appendInEdge'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='node'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='e'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='insertRegTrueOutEdge'
+50 parameters
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='node'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='DepGraphNode'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='op'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='RegisterOperand'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+11 16
+16 17
+17 18
+11 19
+19 20
+20 21
+6 22
+22 23
+6 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+28 32
+32 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+50 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+
+Add an out edge this node to the given node because of a register true dependence of a given operand.

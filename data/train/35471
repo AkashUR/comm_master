@@ -1,0 +1,198 @@
+98
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='create'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='setDatabaseVersion'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='setDatabaseName'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='setSqlParser'
+19 scope (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Builder'
+23 scope (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Configuration'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getContext'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='SQL_PARSER_DELIMITED'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='Configuration'
+37 arguments
+38 argument (StringLiteralExpr)
+39 value='migration.db'
+40 arguments
+41 argument (IntegerLiteralExpr)
+42 value='2'
+43 name (SimpleName)
+44 identifier='configuration'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Configuration'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 initializer (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='DatabaseHelper'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='configuration'
+60 name (SimpleName)
+61 identifier='helper'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='DatabaseHelper'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getWritableDatabase'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='helper'
+75 name (SimpleName)
+76 identifier='db'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='SQLiteDatabase'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='onUpgrade'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='helper'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='db'
+91 argument (IntegerLiteralExpr)
+92 value='1'
+93 argument (IntegerLiteralExpr)
+94 value='2'
+95 type (VoidType)
+96 name (SimpleName)
+97 identifier='testDelimitedMigration'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+19 26
+26 27
+27 28
+28 29
+16 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+13 37
+37 38
+38 39
+10 40
+40 41
+41 42
+6 43
+43 44
+6 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+58 59
+51 60
+60 61
+51 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+68 75
+75 76
+68 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+87 91
+91 92
+87 93
+93 94
+0 95
+0 96
+96 97
+
+Should use the new parser if configured to do so.

@@ -1,0 +1,176 @@
+87
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (MethodCallExpr)
+7 name (SimpleName)
+8 identifier='getSource'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='img'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='x'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='y'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='w'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='h'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='pix'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='off'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='scansize'
+33 name (SimpleName)
+34 identifier='PixelGrabber'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='img'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Image'
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='x'
+47 type (PrimitiveType)
+48 type='INT'
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='y'
+53 type (PrimitiveType)
+54 type='INT'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='w'
+59 type (PrimitiveType)
+60 type='INT'
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='h'
+65 type (PrimitiveType)
+66 type='INT'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='pix'
+71 type (ArrayType)
+72 origin='TYPE'
+73 componentType (PrimitiveType)
+74 type='INT'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='off'
+79 type (PrimitiveType)
+80 type='INT'
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='scansize'
+85 type (PrimitiveType)
+86 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+5 12
+12 13
+13 14
+5 15
+15 16
+16 17
+5 18
+18 19
+19 20
+5 21
+21 22
+22 23
+5 24
+24 25
+25 26
+5 27
+27 28
+28 29
+5 30
+30 31
+31 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+35 43
+43 44
+43 45
+45 46
+43 47
+47 48
+35 49
+49 50
+49 51
+51 52
+49 53
+53 54
+35 55
+55 56
+55 57
+57 58
+55 59
+59 60
+35 61
+61 62
+61 63
+63 64
+61 65
+65 66
+35 67
+67 68
+67 69
+69 70
+67 71
+71 72
+71 73
+73 74
+35 75
+75 76
+75 77
+77 78
+75 79
+79 80
+35 81
+81 82
+81 83
+83 84
+81 85
+85 86
+
+Create a PixelGrabber object to grab the (x, y, w, h) rectangular section of pixels from the specified image into the given array. The pixels are stored into the array in the default RGB ColorModel. The RGB data for pixel (i, j) where (i, j) is inside the rectangle (x, y, w, h) is stored in the array at <tt>pix[(j - y) * scansize + (i - x) + off]</tt>.

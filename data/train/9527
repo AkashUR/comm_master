@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='cliprgn'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='state'
+12 value (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getClipBounds'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='g'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='push'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='stack'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='state'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (NameExpr)
+33 name (SimpleName)
+34 identifier='state'
+35 value (CastExpr)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='clone'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='state'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='GraphicsState'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='push'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+13 14
+12 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+35 42
+42 43
+43 44
+0 45
+0 46
+46 47
+
+push the current graphics state onto the stack.  Continue working with the current object; calling pop() restores the state of this object to its state when push() was called.

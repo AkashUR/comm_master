@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertQ'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='Index analysis: '
+10 argument (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='req'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='fl'
+16 argument (StringLiteralExpr)
+17 value='id'
+18 argument (StringLiteralExpr)
+19 value='q'
+20 argument (StringLiteralExpr)
+21 value='content2:aab'
+22 argument (StringLiteralExpr)
+23 value='sort'
+24 argument (StringLiteralExpr)
+25 value='id asc'
+26 argument (StringLiteralExpr)
+27 value='//*[@numFound=\'1\']'
+28 argument (StringLiteralExpr)
+29 value='//result/doc[1]/int[@name=\'id\'][.=3]'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='assertQ'
+34 arguments
+35 argument (StringLiteralExpr)
+36 value='Index analysis: '
+37 argument (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='req'
+40 arguments
+41 argument (StringLiteralExpr)
+42 value='fl'
+43 argument (StringLiteralExpr)
+44 value='id'
+45 argument (StringLiteralExpr)
+46 value='q'
+47 argument (StringLiteralExpr)
+48 value='content2:aabaa'
+49 argument (StringLiteralExpr)
+50 value='sort'
+51 argument (StringLiteralExpr)
+52 value='id asc'
+53 argument (StringLiteralExpr)
+54 value='//*[@numFound=\'1\']'
+55 argument (StringLiteralExpr)
+56 value='//result/doc[1]/int[@name=\'id\'][.=4]'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='testIndexAnalysis'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+13 18
+18 19
+13 20
+20 21
+13 22
+22 23
+13 24
+24 25
+7 26
+26 27
+7 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+40 45
+45 46
+40 47
+47 48
+40 49
+49 50
+40 51
+51 52
+34 53
+53 54
+34 55
+55 56
+0 57
+0 58
+58 59
+
+Test index analysis: at indextime MockCharFilter will double the 'a', so ab -> aab, and aba -> aabaa We run the test twice to make sure reuse is working

@@ -1,0 +1,236 @@
+117
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getCurrency'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='principal'
+13 name (SimpleName)
+14 identifier='currency'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='MonetaryCurrency'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='principalPortion'
+24 scope (ThisExpr)
+25 value (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='defaultToNullIfZero'
+28 arguments
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getAmount'
+32 scope (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='plus'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getPrincipalPortion'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='currency'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='principal'
+46 statement (ExpressionStmt)
+47 expression (AssignExpr)
+48 operator='ASSIGN'
+49 target (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='interestPortion'
+52 scope (ThisExpr)
+53 value (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='defaultToNullIfZero'
+56 arguments
+57 argument (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getAmount'
+60 scope (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='plus'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getInterestPortion'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='currency'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='interest'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='updateChargesComponents'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='feeCharges'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='penaltyCharges'
+85 type (VoidType)
+86 name (SimpleName)
+87 identifier='updateComponents'
+88 parameters
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='principal'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Money'
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='interest'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='Money'
+103 parameter (Parameter)
+104 isVarArgs='false'
+105 name (SimpleName)
+106 identifier='feeCharges'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='Money'
+110 parameter (Parameter)
+111 isVarArgs='false'
+112 name (SimpleName)
+113 identifier='penaltyCharges'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='Money'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+21 24
+19 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+32 42
+42 43
+43 44
+44 45
+2 46
+46 47
+47 48
+47 49
+49 50
+50 51
+49 52
+47 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+68 69
+60 70
+70 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+0 85
+0 86
+86 87
+0 88
+88 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+88 96
+96 97
+96 98
+98 99
+96 100
+100 101
+101 102
+88 103
+103 104
+103 105
+105 106
+103 107
+107 108
+108 109
+88 110
+110 111
+110 112
+112 113
+110 114
+114 115
+115 116
+
+This updates the derived fields of a loan transaction for the principal, interest and interest waived portions. This accumulates the values passed to the already existent values for each of the portions.

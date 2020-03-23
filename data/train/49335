@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='mapOutputHelper'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='taskID'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='out'
+14 argument (NullLiteralExpr)
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='agents'
+18 type (VoidType)
+19 name (SimpleName)
+20 identifier='mapOutputTransformationMetadata'
+21 parameters
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='out'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='OutputCollector'
+29 typeArguments
+30 typeArgument (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='IntWritable'
+33 typeArgument (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='DistinctValue'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='taskID'
+40 type (PrimitiveType)
+41 type='INT'
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='agents'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='TfUtils'
+49 thrownExceptions
+50 thrownException (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='IOException'
+53 annotations
+54 annotation (MarkerAnnotationExpr)
+55 name (Name)
+56 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+7 15
+15 16
+16 17
+0 18
+0 19
+19 20
+0 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+21 36
+36 37
+36 38
+38 39
+36 40
+40 41
+21 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+0 49
+49 50
+50 51
+51 52
+0 53
+53 54
+54 55
+55 56
+
+Method to output transformation metadata from the mappers.  This information is collected and merged by the reducers.

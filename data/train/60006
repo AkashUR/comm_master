@@ -1,0 +1,136 @@
+67
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='reason'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='SQLState'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='cause'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='println'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='DriverManager'
+22 arguments
+23 argument (BinaryExpr)
+24 operator='PLUS'
+25 left (BinaryExpr)
+26 operator='PLUS'
+27 left (BinaryExpr)
+28 operator='PLUS'
+29 left (BinaryExpr)
+30 operator='PLUS'
+31 left (StringLiteralExpr)
+32 value='SQLWarning: reason('
+33 right (NameExpr)
+34 name (SimpleName)
+35 identifier='reason'
+36 right (StringLiteralExpr)
+37 value=') SQLState('
+38 right (NameExpr)
+39 name (SimpleName)
+40 identifier='SQLState'
+41 right (StringLiteralExpr)
+42 value=')'
+43 name (SimpleName)
+44 identifier='SQLWarning'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='reason'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='String'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='SQLState'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='cause'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+23 25
+25 26
+25 27
+27 28
+27 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+27 36
+36 37
+25 38
+38 39
+39 40
+23 41
+41 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+45 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+45 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+
+Constructs a <code>SQLWarning</code> object with a given <code>reason</code>, <code>SQLState</code> and  <code>cause</code>. The vendor code is initialized to 0. <p>

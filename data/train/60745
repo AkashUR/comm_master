@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='loca'
+9 scope (ThisExpr)
+10 value (NullLiteralExpr)
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='setModelChanged'
+15 scope (ThisExpr)
+16 arguments
+17 argument (BooleanLiteralExpr)
+18 value='false'
+19 type (VoidType)
+20 name (SimpleName)
+21 identifier='revert'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+2 11
+11 12
+12 13
+13 14
+12 15
+12 16
+16 17
+17 18
+0 19
+0 20
+20 21
+
+Revert the loca table builder to the state contained in the last raw data set on the builder. That raw data may be that read from a font file when the font builder was created, that set by a user of the loca table builder, or null data if this builder was created as a new empty builder.

@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getSharedPreferences'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='MobileAssistant'
+13 argument (IntegerLiteralExpr)
+14 value='0'
+15 name (SimpleName)
+16 identifier='settings'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='SharedPreferences'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='setSelectedAccountName'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='credential'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='accountName'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='edit'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='settings'
+41 name (SimpleName)
+42 identifier='editor'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='Editor'
+46 scope (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='SharedPreferences'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='putString'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='editor'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='ACCOUNT_NAME_SETTING_NAME'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='accountName'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='apply'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='editor'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='startMainActivity'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='onSignedIn'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='accountName'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+34 41
+41 42
+34 43
+43 44
+44 45
+43 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+
+Called when the user selected an account. The account name is stored in the application preferences and set in the credential object.

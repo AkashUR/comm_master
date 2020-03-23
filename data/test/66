@@ -1,0 +1,198 @@
+98
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='setBuildTimeGCByte'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='get'
+13 scope (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='Plan'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='Selected'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='ref'
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='fromObject'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='ObjectReference'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='tib'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='size'
+36 name (SimpleName)
+37 identifier='status'
+38 type (PrimitiveType)
+39 type='BYTE'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='writeAvailableByte'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='JavaHeader'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='bootImage'
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='ref'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='status'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='initializeHeader'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='bootImage'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='BootImageInterface'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='ref'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Address'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='tib'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='TIB'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='size'
+86 type (PrimitiveType)
+87 type='INT'
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='isScalar'
+92 type (PrimitiveType)
+93 type='BOOLEAN'
+94 annotations
+95 annotation (MarkerAnnotationExpr)
+96 name (Name)
+97 identifier='Interruptible'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+7 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+19 33
+33 34
+34 35
+6 36
+36 37
+6 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+47 54
+54 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+60 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+60 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+60 82
+82 83
+82 84
+84 85
+82 86
+86 87
+60 88
+88 89
+88 90
+90 91
+88 92
+92 93
+0 94
+94 95
+95 96
+96 97
+
+Override the boot-time initialization method here, so that the core MMTk code doesn't need to know about the BootImageInterface type.

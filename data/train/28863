@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='set'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='PLUS'
+10 left (NameExpr)
+11 name (SimpleName)
+12 identifier='prefix'
+13 right (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='CLASS_NAME_KEY'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='CimConstants'
+19 argument (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getClassName'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='instance'
+25 statement (ForeachStmt)
+26 body (BlockStmt)
+27 statements
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='processProperty'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='prefix'
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='p'
+39 iterable (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getProperties'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='instance'
+45 variable (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 name (SimpleName)
+49 identifier='p'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='CIMProperty'
+53 typeArguments
+54 typeArgument (WildcardType)
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='processInstance'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='prefix'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='String'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='instance'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='CIMInstance'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+14 15
+13 16
+16 17
+17 18
+7 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+32 36
+36 37
+37 38
+25 39
+39 40
+40 41
+39 42
+42 43
+43 44
+25 45
+45 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+58 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+
+Adds name-value pairs for the given CIM object instance. A pair is created for the CIM class. Then each property is processed to create more name-value pairs. Example: (logged instance) SourceInstance = instance of Clar_FrontEndFCPort { CreationClassName = "Clar_FrontEndFCPort"; DeviceID = "CLARiiON+FNM00083700232+SP_B+0"; }; ; (name-value pairs with prefix "SourceInstance") SourceInstanceClassName|Clar_FrontEndFCPort SourceInstanceCreationClassName|Clar_FrontEndFCPort SourceInstanceDeviceID|CLARiiON+FNM00083700232+SP_B+0

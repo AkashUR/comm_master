@@ -1,0 +1,434 @@
+216
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='registerService'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='socketRpcServer'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='failsWithError'
+14 scope (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='FakeServiceImpl'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='REQUEST'
+22 arguments
+23 argument (StringLiteralExpr)
+24 value='Error'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='withRequest'
+32 scope (ObjectCreationExpr)
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='FakeSocket'
+36 arguments
+37 argument (BooleanLiteralExpr)
+38 value='false'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='RPC_REQUEST'
+43 name (SimpleName)
+44 identifier='socket'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='FakeSocket'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='runHandler'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='socket'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='assertFalse'
+60 arguments
+61 argument (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getCallback'
+64 scope (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getResponse'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='socket'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='assertEquals'
+74 arguments
+75 argument (StringLiteralExpr)
+76 value='Error'
+77 argument (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='getError'
+80 scope (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getResponse'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='socket'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='assertEquals'
+90 arguments
+91 argument (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='RPC_FAILED'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='ErrorReason'
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getErrorReason'
+100 scope (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='getResponse'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='socket'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='registerBlockingService'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='socketRpcServer'
+113 arguments
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='toBlockingService'
+117 scope (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='failsWithError'
+120 scope (ObjectCreationExpr)
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='FakeServiceImpl'
+124 arguments
+125 argument (NameExpr)
+126 name (SimpleName)
+127 identifier='REQUEST'
+128 arguments
+129 argument (StringLiteralExpr)
+130 value='New Error'
+131 statement (ExpressionStmt)
+132 expression (AssignExpr)
+133 operator='ASSIGN'
+134 target (NameExpr)
+135 name (SimpleName)
+136 identifier='socket'
+137 value (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='withRequest'
+140 scope (ObjectCreationExpr)
+141 type (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='FakeSocket'
+144 arguments
+145 argument (BooleanLiteralExpr)
+146 value='false'
+147 arguments
+148 argument (NameExpr)
+149 name (SimpleName)
+150 identifier='RPC_REQUEST'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='runHandler'
+155 arguments
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='socket'
+159 statement (ExpressionStmt)
+160 expression (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='assertFalse'
+163 arguments
+164 argument (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='getCallback'
+167 scope (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='getResponse'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='socket'
+173 statement (ExpressionStmt)
+174 expression (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='assertEquals'
+177 arguments
+178 argument (StringLiteralExpr)
+179 value='New Error'
+180 argument (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='getError'
+183 scope (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='getResponse'
+186 scope (NameExpr)
+187 name (SimpleName)
+188 identifier='socket'
+189 statement (ExpressionStmt)
+190 expression (MethodCallExpr)
+191 name (SimpleName)
+192 identifier='assertEquals'
+193 arguments
+194 argument (FieldAccessExpr)
+195 name (SimpleName)
+196 identifier='RPC_FAILED'
+197 scope (NameExpr)
+198 name (SimpleName)
+199 identifier='ErrorReason'
+200 argument (MethodCallExpr)
+201 name (SimpleName)
+202 identifier='getErrorReason'
+203 scope (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='getResponse'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='socket'
+209 type (VoidType)
+210 name (SimpleName)
+211 identifier='testRPCFailed'
+212 thrownExceptions
+213 thrownException (ClassOrInterfaceType)
+214 name (SimpleName)
+215 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+11 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+32 36
+36 37
+37 38
+29 39
+39 40
+40 41
+41 42
+28 43
+43 44
+28 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+64 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+74 77
+77 78
+78 79
+77 80
+80 81
+81 82
+80 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+90 97
+97 98
+98 99
+97 100
+100 101
+101 102
+100 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+117 120
+120 121
+121 122
+122 123
+120 124
+124 125
+125 126
+126 127
+117 128
+128 129
+129 130
+2 131
+131 132
+132 133
+132 134
+134 135
+135 136
+132 137
+137 138
+138 139
+137 140
+140 141
+141 142
+142 143
+140 144
+144 145
+145 146
+137 147
+147 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+157 158
+2 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+167 170
+170 171
+171 172
+2 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+177 180
+180 181
+181 182
+180 183
+183 184
+184 185
+183 186
+186 187
+187 188
+2 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+193 200
+200 201
+201 202
+200 203
+203 204
+204 205
+203 206
+206 207
+207 208
+0 209
+0 210
+210 211
+0 212
+212 213
+213 214
+214 215
+
+RPC fails.

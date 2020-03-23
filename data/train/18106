@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='fourn'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='FFT'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='fft'
+13 scope (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='nr'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='com'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='data'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='nn'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='isign'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='fourn'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='data'
+37 type (ArrayType)
+38 origin='TYPE'
+39 componentType (PrimitiveType)
+40 type='DOUBLE'
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='nn'
+45 type (ArrayType)
+46 origin='TYPE'
+47 componentType (PrimitiveType)
+48 type='INT'
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='isign'
+53 type (PrimitiveType)
+54 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+4 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+19 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+37 39
+39 40
+32 41
+41 42
+41 43
+43 44
+41 45
+45 46
+45 47
+47 48
+32 49
+49 50
+49 51
+51 52
+49 53
+53 54
+
+Replaces data by its ndim-dimensional discrete Fourier transform, if isign is input as 1. nn[0..ndim-1] is an integer array containing the lengths of each dimension (number of com- plex values), which must all be powers of 2. data is a real array of length twice the product of these lengths, in which the data are stored as in a multidimensional complex array: real and imaginary parts of each element are in consecutive locations, and the rightmost index of the array increases most rapidly as one proceeds along data. For a two-dimensional array, this is equivalent to storing the array by rows. If isign is input as 1, data is replaced by its inverse transform times the product of the lengths of all dimensions.

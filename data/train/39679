@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='toLowerCase'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getConnectionName'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='connection'
+16 name (SimpleName)
+17 identifier='key'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='String'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='put'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='_connections'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='key'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='connection'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='info'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='s_logger'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='Registered {}'
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getConnectionName'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='connection'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='register'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='connection'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='CimConnection'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+
+Registers a CIM connection with the listener. This allows the listener to match incoming indications from that connection's subscriptions. This assumes that the subscriptions are set up to include the connection name in the destination URL.

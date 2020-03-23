@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Phaser'
+11 arguments
+12 argument (IntegerLiteralExpr)
+13 value='1'
+14 name (SimpleName)
+15 identifier='phaser'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Phaser'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='assertEquals'
+23 arguments
+24 argument (IntegerLiteralExpr)
+25 value='0'
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='arrive'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='phaser'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='assertEquals'
+36 arguments
+37 argument (IntegerLiteralExpr)
+38 value='1'
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='register'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='phaser'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='assertEquals'
+49 arguments
+50 argument (IntegerLiteralExpr)
+51 value='1'
+52 argument (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='arrive'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='phaser'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='assertState'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='phaser'
+66 argument (IntegerLiteralExpr)
+67 value='1'
+68 argument (IntegerLiteralExpr)
+69 value='2'
+70 argument (IntegerLiteralExpr)
+71 value='1'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='testRegister4'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+52 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+62 66
+66 67
+62 68
+68 69
+62 70
+70 71
+0 72
+0 73
+73 74
+
+register causes the next arrive to not increment the phase rather retain the phase number

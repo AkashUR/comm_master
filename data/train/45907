@@ -1,0 +1,232 @@
+115
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (NameExpr)
+5 name (SimpleName)
+6 identifier='type'
+7 entries
+8 entrie (SwitchEntryStmt)
+9 label (NameExpr)
+10 name (SimpleName)
+11 identifier='SHAPE_TYPE_POINT'
+12 statements
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='_list'
+19 value (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='EsriPointList'
+23 statement (BreakStmt)
+24 entrie (SwitchEntryStmt)
+25 label (NameExpr)
+26 name (SimpleName)
+27 identifier='SHAPE_TYPE_POLYGON'
+28 statements
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (NameExpr)
+33 name (SimpleName)
+34 identifier='_list'
+35 value (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='EsriPolygonList'
+39 statement (BreakStmt)
+40 entrie (SwitchEntryStmt)
+41 label (NameExpr)
+42 name (SimpleName)
+43 identifier='SHAPE_TYPE_POLYLINE'
+44 statements
+45 statement (ExpressionStmt)
+46 expression (AssignExpr)
+47 operator='ASSIGN'
+48 target (NameExpr)
+49 name (SimpleName)
+50 identifier='_list'
+51 value (ObjectCreationExpr)
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='EsriPolylineList'
+55 statement (BreakStmt)
+56 entrie (SwitchEntryStmt)
+57 statements
+58 statement (ExpressionStmt)
+59 expression (AssignExpr)
+60 operator='ASSIGN'
+61 target (NameExpr)
+62 name (SimpleName)
+63 identifier='_list'
+64 value (NullLiteralExpr)
+65 statement (ExpressionStmt)
+66 expression (AssignExpr)
+67 operator='ASSIGN'
+68 target (NameExpr)
+69 name (SimpleName)
+70 identifier='_model'
+71 value (ObjectCreationExpr)
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='DbfTableModel'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='columnCount'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='name'
+85 scope (ThisExpr)
+86 value (NameExpr)
+87 name (SimpleName)
+88 identifier='name'
+89 name (SimpleName)
+90 identifier='EsriPlugIn'
+91 parameters
+92 parameter (Parameter)
+93 isVarArgs='false'
+94 name (SimpleName)
+95 identifier='name'
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='String'
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='type'
+103 type (PrimitiveType)
+104 type='INT'
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='columnCount'
+109 type (PrimitiveType)
+110 type='INT'
+111 thrownExceptions
+112 thrownException (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+3 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+21 22
+12 23
+7 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+37 38
+28 39
+7 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+46 47
+46 48
+48 49
+49 50
+46 51
+51 52
+52 53
+53 54
+44 55
+7 56
+56 57
+57 58
+58 59
+59 60
+59 61
+61 62
+62 63
+59 64
+2 65
+65 66
+66 67
+66 68
+68 69
+69 70
+66 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+82 85
+80 86
+86 87
+87 88
+0 89
+89 90
+0 91
+91 92
+92 93
+92 94
+94 95
+92 96
+96 97
+97 98
+91 99
+99 100
+99 101
+101 102
+99 103
+103 104
+91 105
+105 106
+105 107
+107 108
+105 109
+109 110
+0 111
+111 112
+112 113
+113 114
+
+Creates an empty EsriPlugIn, usable for adding features at run-time.

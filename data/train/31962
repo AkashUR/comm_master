@@ -1,0 +1,180 @@
+89
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='loadHelpers'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='LinkedList'
+13 typeArguments
+14 typeArgument (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='ClassLoadHelper'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='add'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='loadHelpers'
+24 arguments
+25 argument (ObjectCreationExpr)
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='LoadingLoaderClassLoadHelper'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='add'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='loadHelpers'
+36 arguments
+37 argument (ObjectCreationExpr)
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='SimpleClassLoadHelper'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='add'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='loadHelpers'
+48 arguments
+49 argument (ObjectCreationExpr)
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='ThreadContextClassLoadHelper'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='add'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='loadHelpers'
+60 arguments
+61 argument (ObjectCreationExpr)
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='InitThreadContextClassLoadHelper'
+65 statement (ForeachStmt)
+66 body (BlockStmt)
+67 statements
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='initialize'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='loadHelper'
+75 iterable (NameExpr)
+76 name (SimpleName)
+77 identifier='loadHelpers'
+78 variable (VariableDeclarationExpr)
+79 variables
+80 variable (VariableDeclarator)
+81 name (SimpleName)
+82 identifier='loadHelper'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='ClassLoadHelper'
+86 type (VoidType)
+87 name (SimpleName)
+88 identifier='initialize'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+65 75
+75 76
+76 77
+65 78
+78 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+0 86
+0 87
+87 88
+
+Called to give the ClassLoadHelper a chance to initialize itself, including the opportunity to "steal" the class loader off of the calling thread, which is the thread that is initializing Quartz.

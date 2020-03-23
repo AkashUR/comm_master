@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkDeadlocksRepeat'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='5'
+10 argument (IntegerLiteralExpr)
+11 value='2'
+12 argument (IntegerLiteralExpr)
+13 value='2'
+14 argument (IntegerLiteralExpr)
+15 value='2'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='RENAME_CNT'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='DELETE_CNT'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='UPDATE_CNT'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='MKDIRS_CNT'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='CREATE_CNT'
+31 type (VoidType)
+32 name (SimpleName)
+33 identifier='testDeadlocks'
+34 thrownExceptions
+35 thrownException (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+7 12
+12 13
+7 14
+14 15
+7 16
+16 17
+17 18
+7 19
+19 20
+20 21
+7 22
+22 23
+23 24
+7 25
+25 26
+26 27
+7 28
+28 29
+29 30
+0 31
+0 32
+32 33
+0 34
+34 35
+35 36
+36 37
+
+Ensure that deadlocks do not occur during concurrent operations of various types.

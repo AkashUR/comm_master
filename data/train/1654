@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='info'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='LOGGER'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (StringLiteralExpr)
+16 value='*********  '
+17 right (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getMethodName'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='name'
+23 right (StringLiteralExpr)
+24 value='  *********'
+25 statement (ExpressionStmt)
+26 expression (AssignExpr)
+27 operator='ASSIGN'
+28 target (NameExpr)
+29 name (SimpleName)
+30 identifier='latch'
+31 value (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='CountDownLatch'
+35 arguments
+36 argument (IntegerLiteralExpr)
+37 value='1'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='clear'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='completedSessionIds'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='clear'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='failedSessionIds'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='register'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='bus'
+59 arguments
+60 argument (ThisExpr)
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='before'
+64 annotations
+65 annotation (MarkerAnnotationExpr)
+66 name (Name)
+67 identifier='Before'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+13 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+11 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+26 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+0 61
+0 62
+62 63
+0 64
+64 65
+65 66
+66 67
+
+Clears the session ID caches. Registers the test to the event bus.

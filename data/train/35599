@@ -1,0 +1,240 @@
+119
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='MAX_VALUE'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='Integer'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='u'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='String'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='message'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='RSSMessage'
+30 statement (ForeachStmt)
+31 body (BlockStmt)
+32 statements
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='u'
+39 value (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='toNormalform'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='uri'
+45 arguments
+46 argument (BooleanLiteralExpr)
+47 value='true'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (NameExpr)
+52 name (SimpleName)
+53 identifier='message'
+54 value (ObjectCreationExpr)
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='RSSMessage'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='u'
+62 argument (StringLiteralExpr)
+63 value=''
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='u'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='setAuthor'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='message'
+74 arguments
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='source'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='addMessage'
+82 scope (ThisExpr)
+83 arguments
+84 argument (NameExpr)
+85 name (SimpleName)
+86 identifier='message'
+87 iterable (NameExpr)
+88 name (SimpleName)
+89 identifier='links'
+90 variable (VariableDeclarationExpr)
+91 variables
+92 variable (VariableDeclarator)
+93 name (SimpleName)
+94 identifier='uri'
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='MultiProtocolURL'
+98 name (SimpleName)
+99 identifier='RSSFeed'
+100 parameters
+101 parameter (Parameter)
+102 isVarArgs='false'
+103 name (SimpleName)
+104 identifier='links'
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='Set'
+108 typeArguments
+109 typeArgument (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='MultiProtocolURL'
+112 parameter (Parameter)
+113 isVarArgs='false'
+114 name (SimpleName)
+115 identifier='source'
+116 type (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='String'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+32 48
+48 49
+49 50
+49 51
+51 52
+52 53
+49 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+60 61
+58 62
+62 63
+58 64
+64 65
+65 66
+32 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+68 74
+74 75
+75 76
+76 77
+32 78
+78 79
+79 80
+80 81
+79 82
+79 83
+83 84
+84 85
+85 86
+30 87
+87 88
+88 89
+30 90
+90 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+0 98
+98 99
+0 100
+100 101
+101 102
+101 103
+103 104
+101 105
+105 106
+106 107
+105 108
+108 109
+109 110
+110 111
+100 112
+112 113
+112 114
+114 115
+112 116
+116 117
+117 118
+
+make a RSS feed using a set of urls the source string is assigned to all messages as author to mark the messages' origin

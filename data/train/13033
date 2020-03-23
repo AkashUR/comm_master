@@ -1,0 +1,218 @@
+108
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='image'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='createAcceleratedImage'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='ImageUtil'
+15 arguments
+16 argument (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='width'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='bounds'
+22 argument (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='height'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='bounds'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getGraphics'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='image'
+38 name (SimpleName)
+39 identifier='graph'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Graphics'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='drawImage'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='graph'
+50 arguments
+51 argument (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='imageFor'
+54 scope (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='tileManager'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='bv'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='entity'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='facing'
+67 argument (UnaryExpr)
+68 operator='MINUS'
+69 expression (IntegerLiteralExpr)
+70 value='1'
+71 argument (IntegerLiteralExpr)
+72 value='0'
+73 argument (IntegerLiteralExpr)
+74 value='0'
+75 argument (ThisExpr)
+76 statement (ExpressionStmt)
+77 expression (AssignExpr)
+78 operator='ASSIGN'
+79 target (NameExpr)
+80 name (SimpleName)
+81 identifier='image'
+82 value (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='getScaledImage'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='bv'
+88 arguments
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='image'
+92 argument (BooleanLiteralExpr)
+93 value='false'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='dispose'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='graph'
+101 type (VoidType)
+102 name (SimpleName)
+103 identifier='prepare'
+104 annotations
+105 annotation (MarkerAnnotationExpr)
+106 name (Name)
+107 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+15 22
+22 23
+23 24
+22 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+31 38
+38 39
+31 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+51 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+60 67
+67 68
+67 69
+69 70
+50 71
+71 72
+50 73
+73 74
+50 75
+2 76
+76 77
+77 78
+77 79
+79 80
+80 81
+77 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+90 91
+88 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+0 101
+0 102
+102 103
+0 104
+104 105
+105 106
+106 107
+
+Creates the sprite for this entity. It is an extra pain to create transparent images in AWT.

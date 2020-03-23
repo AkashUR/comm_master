@@ -1,0 +1,116 @@
+57
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='isTrue'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Assert'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='AND'
+13 left (BinaryExpr)
+14 operator='NOT_EQUALS'
+15 left (NameExpr)
+16 name (SimpleName)
+17 identifier='legalLineDelimiters'
+18 right (NullLiteralExpr)
+19 right (BinaryExpr)
+20 operator='GREATER'
+21 left (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='length'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='legalLineDelimiters'
+27 right (IntegerLiteralExpr)
+28 value='0'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (NameExpr)
+33 name (SimpleName)
+34 identifier='fDelimiters'
+35 value (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='copy'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='TextUtilities'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='legalLineDelimiters'
+45 name (SimpleName)
+46 identifier='ConfigurableLineTracker'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='legalLineDelimiters'
+52 type (ArrayType)
+53 origin='TYPE'
+54 componentType (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+13 15
+15 16
+16 17
+13 18
+11 19
+19 20
+19 21
+21 22
+22 23
+21 24
+24 25
+25 26
+19 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+52 54
+54 55
+55 56
+
+Creates a standard line tracker for the given line delimiters.

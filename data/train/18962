@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='decayAccelerationLevel'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='min'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='Math'
+16 arguments
+17 argument (BinaryExpr)
+18 operator='PLUS'
+19 left (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='decayAccelerationLevel'
+22 scope (ThisExpr)
+23 right (NameExpr)
+24 name (SimpleName)
+25 identifier='acceleration'
+26 argument (DoubleLiteralExpr)
+27 value='40.0F'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='addDecayAcceleration'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='acceleration'
+36 type (PrimitiveType)
+37 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+16 26
+26 27
+0 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+
+Adds decay acceleration (once >= 4 is accumulated the decay level is increased by one)

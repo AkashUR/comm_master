@@ -1,0 +1,196 @@
+97
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validatePersistenceArguments'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='primaryPersistence'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='secondaryPersistence'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='additionalPersistences'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='primaryPersistence'
+23 scope (ThisExpr)
+24 value (NameExpr)
+25 name (SimpleName)
+26 identifier='primaryPersistence'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='secondaryPersistence'
+33 scope (ThisExpr)
+34 value (NameExpr)
+35 name (SimpleName)
+36 identifier='secondaryPersistence'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='additionalPersistences'
+43 scope (ThisExpr)
+44 value (NameExpr)
+45 name (SimpleName)
+46 identifier='additionalPersistences'
+47 name (SimpleName)
+48 identifier='CompositePersistence'
+49 parameters
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='primaryPersistence'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Persistence'
+57 typeArguments
+58 typeArgument (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='O'
+61 typeArgument (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='A'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='secondaryPersistence'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Persistence'
+71 typeArguments
+72 typeArgument (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='O'
+75 typeArgument (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='A'
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='additionalPersistences'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='List'
+85 typeArguments
+86 typeArgument (WildcardType)
+87 extendedType (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='Persistence'
+90 typeArguments
+91 typeArgument (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='O'
+94 typeArgument (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='A'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+18 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+28 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+40 43
+38 44
+44 45
+45 46
+0 47
+47 48
+0 49
+49 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+49 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+49 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+82 85
+85 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+92 93
+90 94
+94 95
+95 96
+
+Creates a CompositePersistence wrapping two or more backing persistences. <b>The collection itself will be persisted to the primary persistence.</b>

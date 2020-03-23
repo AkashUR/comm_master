@@ -1,0 +1,326 @@
+162
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setVisibility'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mDeviceIcon'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='VISIBLE'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='View'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='setText'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='mDeviceLabel'
+24 arguments
+25 argument (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='name'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='session'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='setTimeLabelVisibility'
+35 arguments
+36 argument (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='VISIBLE'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='View'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='setText'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='mTimeLabel'
+49 arguments
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getTimeString'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='session'
+57 statement (SwitchStmt)
+58 selector (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='deviceType'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='session'
+64 entries
+65 entrie (SwitchEntryStmt)
+66 label (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='DEVICE_TYPE_PHONE'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='ForeignSession'
+72 statements
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='setImageResource'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='mDeviceIcon'
+80 arguments
+81 argument (FieldAccessExpr)
+82 name (SimpleName)
+83 identifier='recent_phone'
+84 scope (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='drawable'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='R'
+90 statement (BreakStmt)
+91 entrie (SwitchEntryStmt)
+92 label (FieldAccessExpr)
+93 name (SimpleName)
+94 identifier='DEVICE_TYPE_TABLET'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='ForeignSession'
+98 statements
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='setImageResource'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='mDeviceIcon'
+106 arguments
+107 argument (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='recent_tablet'
+110 scope (FieldAccessExpr)
+111 name (SimpleName)
+112 identifier='drawable'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='R'
+116 statement (BreakStmt)
+117 entrie (SwitchEntryStmt)
+118 statements
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='setImageResource'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='mDeviceIcon'
+126 arguments
+127 argument (FieldAccessExpr)
+128 name (SimpleName)
+129 identifier='recent_laptop'
+130 scope (FieldAccessExpr)
+131 name (SimpleName)
+132 identifier='drawable'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='R'
+136 statement (BreakStmt)
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='configureExpandedCollapsed'
+141 arguments
+142 argument (NameExpr)
+143 name (SimpleName)
+144 identifier='isExpanded'
+145 type (VoidType)
+146 name (SimpleName)
+147 identifier='configureForForeignSession'
+148 parameters
+149 parameter (Parameter)
+150 isVarArgs='false'
+151 name (SimpleName)
+152 identifier='session'
+153 type (ClassOrInterfaceType)
+154 name (SimpleName)
+155 identifier='ForeignSession'
+156 parameter (Parameter)
+157 isVarArgs='false'
+158 name (SimpleName)
+159 identifier='isExpanded'
+160 type (PrimitiveType)
+161 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+57 64
+64 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+65 72
+72 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+84 87
+87 88
+88 89
+72 90
+64 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+91 98
+98 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+110 113
+113 114
+114 115
+98 116
+64 117
+117 118
+118 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+130 133
+133 134
+134 135
+118 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+143 144
+0 145
+0 146
+146 147
+0 148
+148 149
+149 150
+149 151
+151 152
+149 153
+153 154
+154 155
+148 156
+156 157
+156 158
+158 159
+156 160
+160 161
+
+Configures the view for a foreign session.

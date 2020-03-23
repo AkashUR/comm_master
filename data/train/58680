@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='root'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='createElement'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='doc'
+15 arguments
+16 argument (StringLiteralExpr)
+17 value='TaggedPDF-doc'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='appendChild'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='doc'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='root'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='traverseContentTree'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='structTreeRootObj'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='buildTree'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='structTreeRootObj'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='PdfObject'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+
+scan down PDF struct object, creating XML tree

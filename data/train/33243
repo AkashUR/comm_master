@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='d'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Log'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='TAG'
+14 argument (StringLiteralExpr)
+15 value='Stopping monitoring compass accuracy'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='started'
+22 value (BooleanLiteralExpr)
+23 value='false'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (NameExpr)
+28 name (SimpleName)
+29 identifier='hasReading'
+30 value (BooleanLiteralExpr)
+31 value='false'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='unregisterListener'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='sensorManager'
+39 arguments
+40 argument (ThisExpr)
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='stop'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+0 41
+0 42
+42 43
+
+Stops monitoring.  It's important this is called to disconnect from the sensors and ensure the app does not needlessly consume power when in the background.

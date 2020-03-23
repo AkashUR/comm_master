@@ -1,0 +1,262 @@
+130
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ArrayList'
+11 typeArguments
+12 typeArgument (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='StoragePool'
+15 arguments
+16 argument (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='values'
+19 scope (EnclosedExpr)
+20 inner (CastExpr)
+21 expression (NameExpr)
+22 name (SimpleName)
+23 identifier='systemPools'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Map'
+27 typeArguments
+28 typeArgument (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='URI'
+31 typeArgument (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='StoragePool'
+34 name (SimpleName)
+35 identifier='modifiedPools'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='List'
+39 typeArguments
+40 typeArgument (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='StoragePool'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (ObjectCreationExpr)
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='StringBuffer'
+51 name (SimpleName)
+52 identifier='errorMessage'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='StringBuffer'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='matchModifiedStoragePoolsWithAllVpool'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='modifiedPools'
+64 argument (CastExpr)
+65 expression (NameExpr)
+66 name (SimpleName)
+67 identifier='dbClient'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='DbClient'
+71 argument (CastExpr)
+72 expression (NameExpr)
+73 name (SimpleName)
+74 identifier='coordinator'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='CoordinatorClient'
+78 argument (CastExpr)
+79 expression (NameExpr)
+80 name (SimpleName)
+81 identifier='systemId'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='URI'
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='errorMessage'
+88 type (VoidType)
+89 name (SimpleName)
+90 identifier='matchBlockSystemPools'
+91 parameters
+92 parameter (Parameter)
+93 isVarArgs='false'
+94 name (SimpleName)
+95 identifier='systemPools'
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='Object'
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='dbClient'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='Object'
+106 parameter (Parameter)
+107 isVarArgs='false'
+108 name (SimpleName)
+109 identifier='coordinator'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='Object'
+113 parameter (Parameter)
+114 isVarArgs='false'
+115 name (SimpleName)
+116 identifier='systemId'
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='Object'
+120 thrownExceptions
+121 thrownException (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='Exception'
+124 annotations
+125 annotation (SingleMemberAnnotationExpr)
+126 memberValue (StringLiteralExpr)
+127 value='unchecked'
+128 name (Name)
+129 identifier='SuppressWarnings'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+7 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+6 34
+34 35
+6 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+46 51
+51 52
+46 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+60 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+60 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+60 85
+85 86
+86 87
+0 88
+0 89
+89 90
+0 91
+91 92
+92 93
+92 94
+94 95
+92 96
+96 97
+97 98
+91 99
+99 100
+99 101
+101 102
+99 103
+103 104
+104 105
+91 106
+106 107
+106 108
+108 109
+106 110
+110 111
+111 112
+91 113
+113 114
+113 115
+115 116
+113 117
+117 118
+118 119
+0 120
+120 121
+121 122
+122 123
+0 124
+124 125
+125 126
+126 127
+125 128
+128 129
+
+Match block system pools with all VirtualPool. This method will be invoked only for block storage systems. This method is written as per the plugin design.

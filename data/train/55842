@@ -1,0 +1,708 @@
+353
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='RemoteViews'
+11 arguments
+12 argument (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getPackageName'
+15 argument (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='notification'
+18 scope (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='layout'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='R'
+24 name (SimpleName)
+25 identifier='notificationView'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='RemoteViews'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='setContent'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='setShowWhen'
+39 scope (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='setSmallIcon'
+42 scope (ObjectCreationExpr)
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='Builder'
+46 scope (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='NotificationCompat'
+49 arguments
+50 argument (ThisExpr)
+51 arguments
+52 argument (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='ic_notification'
+55 scope (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='drawable'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='R'
+61 arguments
+62 argument (BooleanLiteralExpr)
+63 value='false'
+64 arguments
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='notificationView'
+68 name (SimpleName)
+69 identifier='builder'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Builder'
+73 scope (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='NotificationCompat'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='setImageViewResource'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='notificationView'
+83 arguments
+84 argument (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='streamIcon'
+87 scope (FieldAccessExpr)
+88 name (SimpleName)
+89 identifier='id'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='R'
+93 argument (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='getSmallImgRes'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='currentStream'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='setTextViewText'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='notificationView'
+106 arguments
+107 argument (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='titleTxt'
+110 scope (FieldAccessExpr)
+111 name (SimpleName)
+112 identifier='id'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='R'
+116 argument (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='getString'
+119 arguments
+120 argument (FieldAccessExpr)
+121 name (SimpleName)
+122 identifier='app_name'
+123 scope (FieldAccessExpr)
+124 name (SimpleName)
+125 identifier='string'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='R'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='setTextViewText'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='notificationView'
+136 arguments
+137 argument (FieldAccessExpr)
+138 name (SimpleName)
+139 identifier='descTxt'
+140 scope (FieldAccessExpr)
+141 name (SimpleName)
+142 identifier='id'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='R'
+146 argument (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='getTitle'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='currentStream'
+152 statement (ExpressionStmt)
+153 expression (VariableDeclarationExpr)
+154 variables
+155 variable (VariableDeclarator)
+156 initializer (ObjectCreationExpr)
+157 type (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='Intent'
+160 arguments
+161 argument (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='getApplicationContext'
+164 argument (ClassExpr)
+165 type (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='StreamService'
+168 name (SimpleName)
+169 identifier='closeIntent'
+170 type (ClassOrInterfaceType)
+171 name (SimpleName)
+172 identifier='Intent'
+173 statement (ExpressionStmt)
+174 expression (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='setAction'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='closeIntent'
+180 arguments
+181 argument (NameExpr)
+182 name (SimpleName)
+183 identifier='ACTION_STOP'
+184 statement (ExpressionStmt)
+185 expression (VariableDeclarationExpr)
+186 variables
+187 variable (VariableDeclarator)
+188 initializer (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='getService'
+191 scope (NameExpr)
+192 name (SimpleName)
+193 identifier='PendingIntent'
+194 arguments
+195 argument (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='getApplicationContext'
+198 argument (IntegerLiteralExpr)
+199 value='1'
+200 argument (NameExpr)
+201 name (SimpleName)
+202 identifier='closeIntent'
+203 argument (IntegerLiteralExpr)
+204 value='0'
+205 name (SimpleName)
+206 identifier='pendingCloseIntent'
+207 type (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='PendingIntent'
+210 statement (ExpressionStmt)
+211 expression (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='setOnClickPendingIntent'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='notificationView'
+217 arguments
+218 argument (FieldAccessExpr)
+219 name (SimpleName)
+220 identifier='closeStream'
+221 scope (FieldAccessExpr)
+222 name (SimpleName)
+223 identifier='id'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='R'
+227 argument (NameExpr)
+228 name (SimpleName)
+229 identifier='pendingCloseIntent'
+230 statement (ExpressionStmt)
+231 expression (VariableDeclarationExpr)
+232 variables
+233 variable (VariableDeclarator)
+234 initializer (ObjectCreationExpr)
+235 type (ClassOrInterfaceType)
+236 name (SimpleName)
+237 identifier='Intent'
+238 arguments
+239 argument (ThisExpr)
+240 argument (ClassExpr)
+241 type (ClassOrInterfaceType)
+242 name (SimpleName)
+243 identifier='MainActivity'
+244 name (SimpleName)
+245 identifier='resultIntent'
+246 type (ClassOrInterfaceType)
+247 name (SimpleName)
+248 identifier='Intent'
+249 statement (ExpressionStmt)
+250 expression (VariableDeclarationExpr)
+251 variables
+252 variable (VariableDeclarator)
+253 initializer (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='create'
+256 scope (NameExpr)
+257 name (SimpleName)
+258 identifier='TaskStackBuilder'
+259 arguments
+260 argument (ThisExpr)
+261 name (SimpleName)
+262 identifier='stackBuilder'
+263 type (ClassOrInterfaceType)
+264 name (SimpleName)
+265 identifier='TaskStackBuilder'
+266 statement (ExpressionStmt)
+267 expression (MethodCallExpr)
+268 name (SimpleName)
+269 identifier='addParentStack'
+270 scope (NameExpr)
+271 name (SimpleName)
+272 identifier='stackBuilder'
+273 arguments
+274 argument (ClassExpr)
+275 type (ClassOrInterfaceType)
+276 name (SimpleName)
+277 identifier='MainActivity'
+278 statement (ExpressionStmt)
+279 expression (MethodCallExpr)
+280 name (SimpleName)
+281 identifier='addNextIntent'
+282 scope (NameExpr)
+283 name (SimpleName)
+284 identifier='stackBuilder'
+285 arguments
+286 argument (NameExpr)
+287 name (SimpleName)
+288 identifier='resultIntent'
+289 statement (ExpressionStmt)
+290 expression (VariableDeclarationExpr)
+291 variables
+292 variable (VariableDeclarator)
+293 initializer (MethodCallExpr)
+294 name (SimpleName)
+295 identifier='getPendingIntent'
+296 scope (NameExpr)
+297 name (SimpleName)
+298 identifier='stackBuilder'
+299 arguments
+300 argument (IntegerLiteralExpr)
+301 value='0'
+302 argument (FieldAccessExpr)
+303 name (SimpleName)
+304 identifier='FLAG_ONE_SHOT'
+305 scope (NameExpr)
+306 name (SimpleName)
+307 identifier='PendingIntent'
+308 name (SimpleName)
+309 identifier='resultPendingIntent'
+310 type (ClassOrInterfaceType)
+311 name (SimpleName)
+312 identifier='PendingIntent'
+313 statement (ExpressionStmt)
+314 expression (MethodCallExpr)
+315 name (SimpleName)
+316 identifier='setContentIntent'
+317 scope (NameExpr)
+318 name (SimpleName)
+319 identifier='builder'
+320 arguments
+321 argument (NameExpr)
+322 name (SimpleName)
+323 identifier='resultPendingIntent'
+324 statement (ExpressionStmt)
+325 expression (VariableDeclarationExpr)
+326 variables
+327 variable (VariableDeclarator)
+328 initializer (MethodCallExpr)
+329 name (SimpleName)
+330 identifier='build'
+331 scope (NameExpr)
+332 name (SimpleName)
+333 identifier='builder'
+334 name (SimpleName)
+335 identifier='notification'
+336 type (ClassOrInterfaceType)
+337 name (SimpleName)
+338 identifier='Notification'
+339 statement (ExpressionStmt)
+340 expression (MethodCallExpr)
+341 name (SimpleName)
+342 identifier='startForeground'
+343 arguments
+344 argument (NameExpr)
+345 name (SimpleName)
+346 identifier='NOTIFY_ID'
+347 argument (NameExpr)
+348 name (SimpleName)
+349 identifier='notification'
+350 type (VoidType)
+351 name (SimpleName)
+352 identifier='toForeground'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+15 18
+18 19
+19 20
+18 21
+21 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+42 49
+49 50
+39 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+55 58
+58 59
+59 60
+36 61
+61 62
+62 63
+33 64
+64 65
+65 66
+66 67
+32 68
+68 69
+32 70
+70 71
+71 72
+70 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+77 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+87 90
+90 91
+91 92
+83 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+110 113
+113 114
+114 115
+106 116
+116 117
+117 118
+116 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+123 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+140 143
+143 144
+144 145
+136 146
+146 147
+147 148
+146 149
+149 150
+150 151
+2 152
+152 153
+153 154
+154 155
+155 156
+156 157
+157 158
+158 159
+156 160
+160 161
+161 162
+162 163
+160 164
+164 165
+165 166
+166 167
+155 168
+168 169
+155 170
+170 171
+171 172
+2 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+174 180
+180 181
+181 182
+182 183
+2 184
+184 185
+185 186
+186 187
+187 188
+188 189
+189 190
+188 191
+191 192
+192 193
+188 194
+194 195
+195 196
+196 197
+194 198
+198 199
+194 200
+200 201
+201 202
+194 203
+203 204
+187 205
+205 206
+187 207
+207 208
+208 209
+2 210
+210 211
+211 212
+212 213
+211 214
+214 215
+215 216
+211 217
+217 218
+218 219
+219 220
+218 221
+221 222
+222 223
+221 224
+224 225
+225 226
+217 227
+227 228
+228 229
+2 230
+230 231
+231 232
+232 233
+233 234
+234 235
+235 236
+236 237
+234 238
+238 239
+238 240
+240 241
+241 242
+242 243
+233 244
+244 245
+233 246
+246 247
+247 248
+2 249
+249 250
+250 251
+251 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+253 259
+259 260
+252 261
+261 262
+252 263
+263 264
+264 265
+2 266
+266 267
+267 268
+268 269
+267 270
+270 271
+271 272
+267 273
+273 274
+274 275
+275 276
+276 277
+2 278
+278 279
+279 280
+280 281
+279 282
+282 283
+283 284
+279 285
+285 286
+286 287
+287 288
+2 289
+289 290
+290 291
+291 292
+292 293
+293 294
+294 295
+293 296
+296 297
+297 298
+293 299
+299 300
+300 301
+299 302
+302 303
+303 304
+302 305
+305 306
+306 307
+292 308
+308 309
+292 310
+310 311
+311 312
+2 313
+313 314
+314 315
+315 316
+314 317
+317 318
+318 319
+314 320
+320 321
+321 322
+322 323
+2 324
+324 325
+325 326
+326 327
+327 328
+328 329
+329 330
+328 331
+331 332
+332 333
+327 334
+334 335
+327 336
+336 337
+337 338
+2 339
+339 340
+340 341
+341 342
+340 343
+343 344
+344 345
+345 346
+343 347
+347 348
+348 349
+0 350
+0 351
+351 352
+
+Run the service in the foreground and show a notification

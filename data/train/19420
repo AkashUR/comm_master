@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='flushBuffer'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='flush'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='m_os'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='flush'
+17 thrownExceptions
+18 thrownException (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='IOException'
+21 scope (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='io'
+24 scope (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='java'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+
+Flush the stream.  If the stream has saved any characters from the various write() methods in a buffer, write them immediately to their intended destination.  Then, if that destination is another character or byte stream, flush it.  Thus one flush() invocation will flush all the buffers in a chain of Writers and OutputStreams.

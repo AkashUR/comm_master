@@ -1,0 +1,136 @@
+67
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (MethodCallExpr)
+7 name (SimpleName)
+8 identifier='getColumnTypes'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='source'
+12 statement (ForStmt)
+13 body (BlockStmt)
+14 statements
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='add'
+19 arguments
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getRecord'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='source'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='rowIndex'
+30 compare (BinaryExpr)
+31 operator='LESS'
+32 left (NameExpr)
+33 name (SimpleName)
+34 identifier='rowIndex'
+35 right (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getRowCount'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='source'
+41 initialization
+42 initializatio (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (IntegerLiteralExpr)
+46 value='0'
+47 name (SimpleName)
+48 identifier='rowIndex'
+49 type (PrimitiveType)
+50 type='INT'
+51 update
+52 updat (UnaryExpr)
+53 operator='POSTFIX_INCREMENT'
+54 expression (NameExpr)
+55 name (SimpleName)
+56 identifier='rowIndex'
+57 name (SimpleName)
+58 identifier='DataTable'
+59 parameters
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='source'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='DataSource'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+12 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+35 38
+38 39
+39 40
+12 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+44 49
+49 50
+12 51
+51 52
+52 53
+52 54
+54 55
+55 56
+0 57
+57 58
+0 59
+59 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+
+Initializes a new instance with the column types, and data of another data source.

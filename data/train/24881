@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getHeader'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='request'
+14 arguments
+15 argument (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='NAME'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='ViaHeader'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='ViaHeader'
+24 name (SimpleName)
+25 identifier='viaHeader'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='ViaHeader'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='removeParameter'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='viaHeader'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='branch'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='removeBranchID'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='request'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Request'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+7 21
+21 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+
+Removes all via headers from <tt>request</tt> and replaces them with a new one, equal to the one that was top most.

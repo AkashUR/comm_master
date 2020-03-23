@@ -1,0 +1,208 @@
+103
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='zzReader'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='reader'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='zzAtBOL'
+18 value (BooleanLiteralExpr)
+19 value='true'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='zzAtEOF'
+26 value (BooleanLiteralExpr)
+27 value='false'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='zzEndRead'
+34 value (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='zzStartRead'
+39 value (IntegerLiteralExpr)
+40 value='0'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (NameExpr)
+45 name (SimpleName)
+46 identifier='zzCurrentPos'
+47 value (AssignExpr)
+48 operator='ASSIGN'
+49 target (NameExpr)
+50 name (SimpleName)
+51 identifier='zzMarkedPos'
+52 value (AssignExpr)
+53 operator='ASSIGN'
+54 target (NameExpr)
+55 name (SimpleName)
+56 identifier='zzPushbackPos'
+57 value (IntegerLiteralExpr)
+58 value='0'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='yyline'
+65 value (AssignExpr)
+66 operator='ASSIGN'
+67 target (NameExpr)
+68 name (SimpleName)
+69 identifier='yychar'
+70 value (AssignExpr)
+71 operator='ASSIGN'
+72 target (NameExpr)
+73 name (SimpleName)
+74 identifier='yycolumn'
+75 value (IntegerLiteralExpr)
+76 value='0'
+77 statement (ExpressionStmt)
+78 expression (AssignExpr)
+79 operator='ASSIGN'
+80 target (NameExpr)
+81 name (SimpleName)
+82 identifier='zzLexicalState'
+83 value (NameExpr)
+84 name (SimpleName)
+85 identifier='YYINITIAL'
+86 type (VoidType)
+87 name (SimpleName)
+88 identifier='yyreset'
+89 parameters
+90 parameter (Parameter)
+91 isVarArgs='false'
+92 name (SimpleName)
+93 identifier='reader'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='Reader'
+97 scope (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='io'
+100 scope (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='java'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+47 49
+49 50
+50 51
+47 52
+52 53
+52 54
+54 55
+55 56
+52 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+65 67
+67 68
+68 69
+65 70
+70 71
+70 72
+72 73
+73 74
+70 75
+75 76
+2 77
+77 78
+78 79
+78 80
+80 81
+81 82
+78 83
+83 84
+84 85
+0 86
+0 87
+87 88
+0 89
+89 90
+90 91
+90 92
+92 93
+90 94
+94 95
+95 96
+94 97
+97 98
+98 99
+97 100
+100 101
+101 102
+
+Resets the scanner to read from a new input stream. Does not close the old reader. All internal variables are reset, the old input stream  <b>cannot</b> be reused (internal buffer is discarded and lost). Lexical state is set to <tt>ZZ_INITIAL</tt>.

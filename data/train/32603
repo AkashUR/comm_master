@@ -1,0 +1,42 @@
+20
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='flagForRenewal'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='MyJDBCConnection'
+13 expression (ClassExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='MyJDBCConnection'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='closeCoreDBConnections'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+3 13
+13 14
+14 15
+15 16
+0 17
+0 18
+18 19
+
+Mark the database connections held by Ade for closure.  This    method should be invoked if the database has gone away, but the    JVM holding the connection continues running.                    

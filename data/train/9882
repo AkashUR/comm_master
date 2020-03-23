@@ -1,0 +1,50 @@
+24
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='beginShape'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='g'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='kind'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='beginShape'
+17 parameters
+18 parameter (Parameter)
+19 isVarArgs='false'
+20 name (SimpleName)
+21 identifier='kind'
+22 type (PrimitiveType)
+23 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+18 20
+20 21
+18 22
+22 23
+
+Start a new shape. <p/> <B>Differences between beginShape() and line() and point() methods.</B> <p/> beginShape() is intended to be more flexible at the expense of being a little more complicated to use. it handles more complicated shapes that can consist of many connected lines (so you get joins) or lines mixed with curves. <p/> The line() and point() command are for the far more common cases (particularly for our audience) that simply need to draw a line or a point on the screen. <p/> From the code side of things, line() may or may not call beginShape() to do the drawing. In the beta code, they do, but in the alpha code, they did not. they might be implemented one way or the other depending on tradeoffs of runtime efficiency vs. implementation efficiency &mdash meaning the speed that things run at vs. the speed it takes me to write the code and maintain it. for beta, the latter is most important so that's how things are implemented.

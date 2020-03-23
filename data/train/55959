@@ -1,0 +1,844 @@
+421
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getHost'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Host'
+13 arguments
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 name (SimpleName)
+17 identifier='host'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Host'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getVM'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='host'
+31 arguments
+32 argument (IntegerLiteralExpr)
+33 value='0'
+34 name (SimpleName)
+35 identifier='vm0'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='VM'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getVM'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='host'
+49 arguments
+50 argument (IntegerLiteralExpr)
+51 value='1'
+52 name (SimpleName)
+53 identifier='vm1'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='VM'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getVM'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='host'
+67 arguments
+68 argument (IntegerLiteralExpr)
+69 value='2'
+70 name (SimpleName)
+71 identifier='vm2'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='VM'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='createPR'
+79 arguments
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='vm0'
+83 argument (IntegerLiteralExpr)
+84 value='1'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='createPR'
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='vm1'
+93 argument (IntegerLiteralExpr)
+94 value='1'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='createData'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='vm0'
+103 argument (IntegerLiteralExpr)
+104 value='0'
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='NUM_BUCKETS'
+108 argument (StringLiteralExpr)
+109 value='a'
+110 statement (ExpressionStmt)
+111 expression (VariableDeclarationExpr)
+112 variables
+113 variable (VariableDeclarator)
+114 initializer (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='getBucketList'
+117 arguments
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='vm0'
+121 name (SimpleName)
+122 identifier='vm0Buckets'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='Set'
+126 typeArguments
+127 typeArgument (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='Integer'
+130 statement (ExpressionStmt)
+131 expression (VariableDeclarationExpr)
+132 variables
+133 variable (VariableDeclarator)
+134 initializer (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='getBucketList'
+137 arguments
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='vm1'
+141 name (SimpleName)
+142 identifier='vm1Buckets'
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='Set'
+146 typeArguments
+147 typeArgument (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='Integer'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='assertEquals'
+154 arguments
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='vm0Buckets'
+158 argument (NameExpr)
+159 name (SimpleName)
+160 identifier='vm1Buckets'
+161 statement (ExpressionStmt)
+162 expression (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='assertEquals'
+165 arguments
+166 argument (NameExpr)
+167 name (SimpleName)
+168 identifier='NUM_BUCKETS'
+169 argument (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='size'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='vm0Buckets'
+175 statement (ExpressionStmt)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='closeCache'
+179 arguments
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='vm1'
+183 statement (ExpressionStmt)
+184 expression (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='createPR'
+187 arguments
+188 argument (NameExpr)
+189 name (SimpleName)
+190 identifier='vm2'
+191 argument (IntegerLiteralExpr)
+192 value='1'
+193 statement (ExpressionStmt)
+194 expression (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='checkData'
+197 arguments
+198 argument (NameExpr)
+199 name (SimpleName)
+200 identifier='vm0'
+201 argument (IntegerLiteralExpr)
+202 value='0'
+203 argument (NameExpr)
+204 name (SimpleName)
+205 identifier='NUM_BUCKETS'
+206 argument (StringLiteralExpr)
+207 value='a'
+208 statement (ExpressionStmt)
+209 expression (AssignExpr)
+210 operator='ASSIGN'
+211 target (NameExpr)
+212 name (SimpleName)
+213 identifier='vm0Buckets'
+214 value (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='getBucketList'
+217 arguments
+218 argument (NameExpr)
+219 name (SimpleName)
+220 identifier='vm0'
+221 statement (ExpressionStmt)
+222 expression (VariableDeclarationExpr)
+223 variables
+224 variable (VariableDeclarator)
+225 initializer (MethodCallExpr)
+226 name (SimpleName)
+227 identifier='getBucketList'
+228 arguments
+229 argument (NameExpr)
+230 name (SimpleName)
+231 identifier='vm2'
+232 name (SimpleName)
+233 identifier='vm2Buckets'
+234 type (ClassOrInterfaceType)
+235 name (SimpleName)
+236 identifier='Set'
+237 typeArguments
+238 typeArgument (ClassOrInterfaceType)
+239 name (SimpleName)
+240 identifier='Integer'
+241 statement (ExpressionStmt)
+242 expression (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='assertEquals'
+245 arguments
+246 argument (NameExpr)
+247 name (SimpleName)
+248 identifier='vm0Buckets'
+249 argument (NameExpr)
+250 name (SimpleName)
+251 identifier='vm2Buckets'
+252 statement (ExpressionStmt)
+253 expression (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='assertEquals'
+256 arguments
+257 argument (NameExpr)
+258 name (SimpleName)
+259 identifier='NUM_BUCKETS'
+260 argument (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='size'
+263 scope (NameExpr)
+264 name (SimpleName)
+265 identifier='vm0Buckets'
+266 statement (ExpressionStmt)
+267 expression (MethodCallExpr)
+268 name (SimpleName)
+269 identifier='createPR'
+270 arguments
+271 argument (NameExpr)
+272 name (SimpleName)
+273 identifier='vm1'
+274 argument (IntegerLiteralExpr)
+275 value='1'
+276 statement (ExpressionStmt)
+277 expression (MethodCallExpr)
+278 name (SimpleName)
+279 identifier='assertEquals'
+280 arguments
+281 argument (MethodCallExpr)
+282 name (SimpleName)
+283 identifier='emptySet'
+284 scope (NameExpr)
+285 name (SimpleName)
+286 identifier='Collections'
+287 argument (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='getBucketList'
+290 arguments
+291 argument (NameExpr)
+292 name (SimpleName)
+293 identifier='vm1'
+294 statement (ExpressionStmt)
+295 expression (MethodCallExpr)
+296 name (SimpleName)
+297 identifier='closeCache'
+298 arguments
+299 argument (NameExpr)
+300 name (SimpleName)
+301 identifier='vm0'
+302 statement (ExpressionStmt)
+303 expression (MethodCallExpr)
+304 name (SimpleName)
+305 identifier='closeCache'
+306 arguments
+307 argument (NameExpr)
+308 name (SimpleName)
+309 identifier='vm1'
+310 statement (ExpressionStmt)
+311 expression (MethodCallExpr)
+312 name (SimpleName)
+313 identifier='closeCache'
+314 arguments
+315 argument (NameExpr)
+316 name (SimpleName)
+317 identifier='vm2'
+318 statement (ExpressionStmt)
+319 expression (MethodCallExpr)
+320 name (SimpleName)
+321 identifier='createPR'
+322 arguments
+323 argument (NameExpr)
+324 name (SimpleName)
+325 identifier='vm0'
+326 argument (IntegerLiteralExpr)
+327 value='1'
+328 statement (ExpressionStmt)
+329 expression (MethodCallExpr)
+330 name (SimpleName)
+331 identifier='createPR'
+332 arguments
+333 argument (NameExpr)
+334 name (SimpleName)
+335 identifier='vm1'
+336 argument (IntegerLiteralExpr)
+337 value='1'
+338 statement (ExpressionStmt)
+339 expression (MethodCallExpr)
+340 name (SimpleName)
+341 identifier='createPR'
+342 arguments
+343 argument (NameExpr)
+344 name (SimpleName)
+345 identifier='vm2'
+346 argument (IntegerLiteralExpr)
+347 value='1'
+348 statement (ExpressionStmt)
+349 expression (MethodCallExpr)
+350 name (SimpleName)
+351 identifier='assertEquals'
+352 arguments
+353 argument (NameExpr)
+354 name (SimpleName)
+355 identifier='vm0Buckets'
+356 argument (MethodCallExpr)
+357 name (SimpleName)
+358 identifier='getBucketList'
+359 arguments
+360 argument (NameExpr)
+361 name (SimpleName)
+362 identifier='vm0'
+363 statement (ExpressionStmt)
+364 expression (MethodCallExpr)
+365 name (SimpleName)
+366 identifier='assertEquals'
+367 arguments
+368 argument (MethodCallExpr)
+369 name (SimpleName)
+370 identifier='emptySet'
+371 scope (NameExpr)
+372 name (SimpleName)
+373 identifier='Collections'
+374 argument (MethodCallExpr)
+375 name (SimpleName)
+376 identifier='getBucketList'
+377 arguments
+378 argument (NameExpr)
+379 name (SimpleName)
+380 identifier='vm1'
+381 statement (ExpressionStmt)
+382 expression (MethodCallExpr)
+383 name (SimpleName)
+384 identifier='assertEquals'
+385 arguments
+386 argument (NameExpr)
+387 name (SimpleName)
+388 identifier='vm2Buckets'
+389 argument (MethodCallExpr)
+390 name (SimpleName)
+391 identifier='getBucketList'
+392 arguments
+393 argument (NameExpr)
+394 name (SimpleName)
+395 identifier='vm2'
+396 statement (ExpressionStmt)
+397 expression (MethodCallExpr)
+398 name (SimpleName)
+399 identifier='checkData'
+400 arguments
+401 argument (NameExpr)
+402 name (SimpleName)
+403 identifier='vm0'
+404 argument (IntegerLiteralExpr)
+405 value='0'
+406 argument (NameExpr)
+407 name (SimpleName)
+408 identifier='NUM_BUCKETS'
+409 argument (StringLiteralExpr)
+410 value='a'
+411 type (VoidType)
+412 name (SimpleName)
+413 identifier='testThrowAwayUneededBucket'
+414 annotations
+415 annotation (MarkerAnnotationExpr)
+416 name (Name)
+417 identifier='Ignore'
+418 annotation (MarkerAnnotationExpr)
+419 name (Name)
+420 identifier='Test'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+24 34
+34 35
+24 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+42 52
+52 53
+42 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+60 70
+70 71
+60 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+79 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+91 92
+89 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+99 103
+103 104
+99 105
+105 106
+106 107
+99 108
+108 109
+2 110
+110 111
+111 112
+112 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+119 120
+113 121
+121 122
+113 123
+123 124
+124 125
+123 126
+126 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+139 140
+133 141
+141 142
+133 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+156 157
+154 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+167 168
+165 169
+169 170
+170 171
+169 172
+172 173
+173 174
+2 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+181 182
+2 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+189 190
+187 191
+191 192
+2 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+199 200
+197 201
+201 202
+197 203
+203 204
+204 205
+197 206
+206 207
+2 208
+208 209
+209 210
+209 211
+211 212
+212 213
+209 214
+214 215
+215 216
+214 217
+217 218
+218 219
+219 220
+2 221
+221 222
+222 223
+223 224
+224 225
+225 226
+226 227
+225 228
+228 229
+229 230
+230 231
+224 232
+232 233
+224 234
+234 235
+235 236
+234 237
+237 238
+238 239
+239 240
+2 241
+241 242
+242 243
+243 244
+242 245
+245 246
+246 247
+247 248
+245 249
+249 250
+250 251
+2 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+258 259
+256 260
+260 261
+261 262
+260 263
+263 264
+264 265
+2 266
+266 267
+267 268
+268 269
+267 270
+270 271
+271 272
+272 273
+270 274
+274 275
+2 276
+276 277
+277 278
+278 279
+277 280
+280 281
+281 282
+282 283
+281 284
+284 285
+285 286
+280 287
+287 288
+288 289
+287 290
+290 291
+291 292
+292 293
+2 294
+294 295
+295 296
+296 297
+295 298
+298 299
+299 300
+300 301
+2 302
+302 303
+303 304
+304 305
+303 306
+306 307
+307 308
+308 309
+2 310
+310 311
+311 312
+312 313
+311 314
+314 315
+315 316
+316 317
+2 318
+318 319
+319 320
+320 321
+319 322
+322 323
+323 324
+324 325
+322 326
+326 327
+2 328
+328 329
+329 330
+330 331
+329 332
+332 333
+333 334
+334 335
+332 336
+336 337
+2 338
+338 339
+339 340
+340 341
+339 342
+342 343
+343 344
+344 345
+342 346
+346 347
+2 348
+348 349
+349 350
+350 351
+349 352
+352 353
+353 354
+354 355
+352 356
+356 357
+357 358
+356 359
+359 360
+360 361
+361 362
+2 363
+363 364
+364 365
+365 366
+364 367
+367 368
+368 369
+369 370
+368 371
+371 372
+372 373
+367 374
+374 375
+375 376
+374 377
+377 378
+378 379
+379 380
+2 381
+381 382
+382 383
+383 384
+382 385
+385 386
+386 387
+387 388
+385 389
+389 390
+390 391
+389 392
+392 393
+393 394
+394 395
+2 396
+396 397
+397 398
+398 399
+397 400
+400 401
+401 402
+402 403
+400 404
+404 405
+400 406
+406 407
+407 408
+400 409
+409 410
+0 411
+0 412
+412 413
+0 414
+414 415
+415 416
+416 417
+414 418
+418 419
+419 420
+
+Test that we throw away a bucket if we restored redundancy while that bucket was offline.

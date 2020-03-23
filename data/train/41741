@@ -1,0 +1,322 @@
+160
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='original'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='original'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='override'
+19 scope (ThisExpr)
+20 value (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='TRSROverride'
+24 arguments
+25 argument (ThisExpr)
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='faceOffset'
+32 scope (ThisExpr)
+33 value (BinaryExpr)
+34 operator='MINUS'
+35 left (BinaryExpr)
+36 operator='PLUS'
+37 left (IntegerLiteralExpr)
+38 value='4'
+39 right (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getHorizontalIndex'
+42 scope (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='NORTH'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='EnumFacing'
+48 right (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getHorizontalIndex'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='facing'
+54 statement (ExpressionStmt)
+55 expression (VariableDeclarationExpr)
+56 variables
+57 variable (VariableDeclarator)
+58 initializer (BinaryExpr)
+59 operator='DIVIDE'
+60 left (BinaryExpr)
+61 operator='MULTIPLY'
+62 left (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='PI'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='Math'
+68 right (EnclosedExpr)
+69 inner (BinaryExpr)
+70 operator='MINUS'
+71 left (IntegerLiteralExpr)
+72 value='360'
+73 right (BinaryExpr)
+74 operator='MULTIPLY'
+75 left (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='getHorizontalIndex'
+78 scope (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='getOpposite'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='facing'
+84 right (IntegerLiteralExpr)
+85 value='90'
+86 right (DoubleLiteralExpr)
+87 value='180d'
+88 name (SimpleName)
+89 identifier='r'
+90 type (PrimitiveType)
+91 type='DOUBLE'
+92 statement (ExpressionStmt)
+93 expression (VariableDeclarationExpr)
+94 variables
+95 variable (VariableDeclarator)
+96 initializer (ObjectCreationExpr)
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='TRSRTransformation'
+100 arguments
+101 argument (NullLiteralExpr)
+102 argument (NullLiteralExpr)
+103 argument (NullLiteralExpr)
+104 argument (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='quatFromXYZ'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='TRSRTransformation'
+110 arguments
+111 argument (IntegerLiteralExpr)
+112 value='0'
+113 argument (CastExpr)
+114 expression (NameExpr)
+115 name (SimpleName)
+116 identifier='r'
+117 type (PrimitiveType)
+118 type='FLOAT'
+119 argument (IntegerLiteralExpr)
+120 value='0'
+121 name (SimpleName)
+122 identifier='t'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='TRSRTransformation'
+126 statement (ExpressionStmt)
+127 expression (AssignExpr)
+128 operator='ASSIGN'
+129 target (FieldAccessExpr)
+130 name (SimpleName)
+131 identifier='transformation'
+132 scope (ThisExpr)
+133 value (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='blockCenterToCorner'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='TRSRTransformation'
+139 arguments
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='t'
+143 name (SimpleName)
+144 identifier='BakedModelTRSR'
+145 parameters
+146 parameter (Parameter)
+147 isVarArgs='false'
+148 name (SimpleName)
+149 identifier='original'
+150 type (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='IBakedModel'
+153 parameter (Parameter)
+154 isVarArgs='false'
+155 name (SimpleName)
+156 identifier='facing'
+157 type (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='EnumFacing'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+22 23
+20 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+29 32
+27 33
+33 34
+33 35
+35 36
+35 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+33 48
+48 49
+49 50
+48 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+57 58
+58 59
+58 60
+60 61
+60 62
+62 63
+63 64
+62 65
+65 66
+66 67
+60 68
+68 69
+69 70
+69 71
+71 72
+69 73
+73 74
+73 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+73 84
+84 85
+58 86
+86 87
+57 88
+88 89
+57 90
+90 91
+2 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 99
+96 100
+100 101
+100 102
+100 103
+100 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+110 113
+113 114
+114 115
+115 116
+113 117
+117 118
+110 119
+119 120
+95 121
+121 122
+95 123
+123 124
+124 125
+2 126
+126 127
+127 128
+127 129
+129 130
+130 131
+129 132
+127 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+141 142
+0 143
+143 144
+0 145
+145 146
+146 147
+146 148
+148 149
+146 150
+150 151
+151 152
+145 153
+153 154
+153 155
+155 156
+153 157
+157 158
+158 159
+
+Rotates around the Y axis and adjusts culling appropriately. South is default.

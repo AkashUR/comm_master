@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='registerInput'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='varName'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='mapToPair'
+14 scope (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='toJavaRDD'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='rdd'
+20 arguments
+21 argument (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='ConvertStringToLongTextPair'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='format'
+28 argument (UnaryExpr)
+29 operator='MINUS'
+30 expression (IntegerLiteralExpr)
+31 value='1'
+32 argument (UnaryExpr)
+33 operator='MINUS'
+34 expression (IntegerLiteralExpr)
+35 value='1'
+36 argument (UnaryExpr)
+37 operator='MINUS'
+38 expression (IntegerLiteralExpr)
+39 value='1'
+40 argument (NullLiteralExpr)
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='registerInput'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='varName'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='rdd'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='RDD'
+59 typeArguments
+60 typeArgument (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='String'
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='format'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='String'
+70 thrownExceptions
+71 thrownException (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='DMLRuntimeException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+11 20
+20 21
+21 22
+22 23
+23 24
+7 25
+25 26
+26 27
+7 28
+28 29
+28 30
+30 31
+7 32
+32 33
+32 34
+34 35
+7 36
+36 37
+36 38
+38 39
+7 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+44 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+44 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+Register CSV/Text as inputs: Convenience method without dimensions and nnz. It uses default file properties (example: delim, fill, ..) <p> Marks the variable in the DML script as input variable. Note that this expects a "varName = read(...)" statement in the DML script which through non-MLContext invocation would have been created by reading a HDFS file.

@@ -1,0 +1,206 @@
+102
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='ACTION_DISAPPEARED'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='BluetoothDevice'
+18 name (SimpleName)
+19 identifier='intent'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Intent'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='putExtra'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='intent'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='EXTRA_DEVICE'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='BluetoothDevice'
+37 argument (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getRemoteDevice'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='mAdapter'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='address'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='sendBroadcast'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='mContext'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='intent'
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='BLUETOOTH_PERM'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='onDeviceDisappeared'
+64 parameters
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='address'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='String'
+72 annotations
+73 annotation (NormalAnnotationExpr)
+74 name (Name)
+75 identifier='DSGenerator'
+76 pairs
+77 pair (MemberValuePair)
+78 name (SimpleName)
+79 identifier='tool_name'
+80 value (StringLiteralExpr)
+81 value='Doppelganger'
+82 pair (MemberValuePair)
+83 name (SimpleName)
+84 identifier='tool_version'
+85 value (StringLiteralExpr)
+86 value='2.0'
+87 pair (MemberValuePair)
+88 name (SimpleName)
+89 identifier='generated_on'
+90 value (StringLiteralExpr)
+91 value='2014-03-24 16:07:23.773 -0400'
+92 pair (MemberValuePair)
+93 name (SimpleName)
+94 identifier='hash_original_method'
+95 value (StringLiteralExpr)
+96 value='B16C5D9D64AA8FA72E850F62C51D59E8'
+97 pair (MemberValuePair)
+98 name (SimpleName)
+99 identifier='hash_generated_method'
+100 value (StringLiteralExpr)
+101 value='AA82A7700C9928612B83A82845811489'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+0 61
+0 62
+62 63
+0 64
+64 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+0 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+78 79
+77 80
+80 81
+76 82
+82 83
+83 84
+82 85
+85 86
+76 87
+87 88
+88 89
+87 90
+90 91
+76 92
+92 93
+93 94
+92 95
+95 96
+76 97
+97 98
+98 99
+97 100
+100 101
+
+Called by native code on a DeviceDisappeared signal from org.bluez.Adapter.

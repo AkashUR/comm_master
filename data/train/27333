@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setVisible'
+7 arguments
+8 argument (BooleanLiteralExpr)
+9 value='false'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='setSelectionVisible'
+14 arguments
+15 argument (BinaryExpr)
+16 operator='OR'
+17 left (NameExpr)
+18 name (SimpleName)
+19 identifier='ownsSelection'
+20 right (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='isTemporary'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='e'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='focusLost'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='e'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='FocusEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+
+Called when the component containing the caret loses focus.  This is implemented to set the caret to visibility to false.

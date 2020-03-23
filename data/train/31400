@@ -1,0 +1,300 @@
+149
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='attribute'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Attr'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (NullLiteralExpr)
+26 name (SimpleName)
+27 identifier='namespaceURI'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='String'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (StringLiteralExpr)
+36 value='test'
+37 name (SimpleName)
+38 identifier='qualifiedName'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='String'
+42 statement (ExpressionStmt)
+43 expression (VariableDeclarationExpr)
+44 variables
+45 variable (VariableDeclarator)
+46 name (SimpleName)
+47 identifier='name'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 statement (ExpressionStmt)
+52 expression (VariableDeclarationExpr)
+53 variables
+54 variable (VariableDeclarator)
+55 name (SimpleName)
+56 identifier='nodeName'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 statement (ExpressionStmt)
+61 expression (VariableDeclarationExpr)
+62 variables
+63 variable (VariableDeclarator)
+64 name (SimpleName)
+65 identifier='nodeValue'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='String'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (NameExpr)
+73 name (SimpleName)
+74 identifier='doc'
+75 value (CastExpr)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='load'
+79 arguments
+80 argument (StringLiteralExpr)
+81 value='staffNS'
+82 argument (BooleanLiteralExpr)
+83 value='false'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Document'
+87 statement (ExpressionStmt)
+88 expression (AssignExpr)
+89 operator='ASSIGN'
+90 target (NameExpr)
+91 name (SimpleName)
+92 identifier='attribute'
+93 value (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='createAttributeNS'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='doc'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='namespaceURI'
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='qualifiedName'
+106 statement (ExpressionStmt)
+107 expression (AssignExpr)
+108 operator='ASSIGN'
+109 target (NameExpr)
+110 name (SimpleName)
+111 identifier='nodeName'
+112 value (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getNodeName'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='attribute'
+118 statement (ExpressionStmt)
+119 expression (AssignExpr)
+120 operator='ASSIGN'
+121 target (NameExpr)
+122 name (SimpleName)
+123 identifier='nodeValue'
+124 value (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='getNodeValue'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='attribute'
+130 statement (ExpressionStmt)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='assertEquals'
+134 arguments
+135 argument (StringLiteralExpr)
+136 value='documentcreateattributeNS01'
+137 argument (StringLiteralExpr)
+138 value='test'
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='nodeName'
+142 type (VoidType)
+143 name (SimpleName)
+144 identifier='runTest'
+145 thrownExceptions
+146 thrownException (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+34 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+70 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+79 82
+82 83
+75 84
+84 85
+85 86
+2 87
+87 88
+88 89
+88 90
+90 91
+91 92
+88 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+101 102
+99 103
+103 104
+104 105
+2 106
+106 107
+107 108
+107 109
+109 110
+110 111
+107 112
+112 113
+113 114
+112 115
+115 116
+116 117
+2 118
+118 119
+119 120
+119 121
+121 122
+122 123
+119 124
+124 125
+125 126
+124 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+134 137
+137 138
+134 139
+139 140
+140 141
+0 142
+0 143
+143 144
+0 145
+145 146
+146 147
+147 148
+
+Runs the test case.

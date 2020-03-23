@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='ensureOpen'
+7 statement (WhileStmt)
+8 body (EmptyStmt)
+9 condition (BinaryExpr)
+10 operator='NOT_EQUALS'
+11 left (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='read'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='tmpbuf'
+18 argument (IntegerLiteralExpr)
+19 value='0'
+20 argument (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='length'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='tmpbuf'
+26 right (UnaryExpr)
+27 operator='MINUS'
+28 expression (IntegerLiteralExpr)
+29 value='1'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='entryEOF'
+36 value (BooleanLiteralExpr)
+37 value='true'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='closeEntry'
+41 thrownExceptions
+42 thrownException (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+7 9
+9 10
+9 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+9 26
+26 27
+26 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+43 44
+
+Closes the current ZIP entry and positions the stream for reading the next entry.

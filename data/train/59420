@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='currentSize'
+9 value (BinaryExpr)
+10 operator='MULTIPLY'
+11 left (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getValue'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='slider'
+17 right (IntegerLiteralExpr)
+18 value='25'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='start'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='transition'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='stateChanged'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='ce'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='ChangeEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+11 14
+14 15
+15 16
+9 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+
+This method handles changes in slider state, which can come from either mouse manipulation of the slider or right/left keyboard events. This event changes the current thumbnail size and starts the transition. We will then receive a callback to setupNextScreen() where we set up the GUI according to this new thumbnail size.

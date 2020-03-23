@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='declare'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='declarer'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Fields'
+15 arguments
+16 argument (StringLiteralExpr)
+17 value='entity'
+18 argument (StringLiteralExpr)
+19 value='profile'
+20 argument (StringLiteralExpr)
+21 value='message'
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='declareOutputFields'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='declarer'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='OutputFieldsDeclarer'
+33 annotations
+34 annotation (MarkerAnnotationExpr)
+35 name (Name)
+36 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+15 18
+18 19
+15 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+0 33
+33 34
+34 35
+35 36
+
+Each emitted tuple contains the following fields. <p><ol> <li> entity - The name of the entity.  The actual result of executing the Stellar expression. <li> profile - The profile definition that the message needs applied to. <li> message - The message containing JSON-formatted data that needs applied to a profile. </ol></p>

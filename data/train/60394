@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='activate'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='BooleanFieldEditor'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='KERBEROS_STATUS'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='PreferenceConstants'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='KerberosPreferencePage_2'
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getFieldEditorParent'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='aDServiceName'
+32 value (ObjectCreationExpr)
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='StringFieldEditor'
+36 arguments
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='VERINICEPRO_SERVICE_NAME'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='PreferenceConstants'
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='KerberosPreferencePage_3'
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getFieldEditorParent'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='setEnabled'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='aDServiceName'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='initialKerberosStatus'
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getFieldEditorParent'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='addField'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='activate'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='addField'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='aDServiceName'
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='createFieldEditors'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+13 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+34 35
+32 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+36 43
+43 44
+44 45
+36 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+0 79
+0 80
+80 81
+
+Creates the field editors. Field editors are abstractions of the common GUI blocks needed to manipulate various types of preferences. Each field editor knows how to save and restore itself.

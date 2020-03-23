@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value=''
+9 name (SimpleName)
+10 identifier='initState'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (SwitchStmt)
+15 selector (NameExpr)
+16 name (SimpleName)
+17 identifier='state'
+18 entries
+19 entrie (SwitchEntryStmt)
+20 label (NameExpr)
+21 name (SimpleName)
+22 identifier='UNINITIALIZED'
+23 statements
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (NameExpr)
+28 name (SimpleName)
+29 identifier='initState'
+30 value (StringLiteralExpr)
+31 value='<not initialized>'
+32 statement (BreakStmt)
+33 entrie (SwitchEntryStmt)
+34 label (NameExpr)
+35 name (SimpleName)
+36 identifier='VERIFY'
+37 statements
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (NameExpr)
+42 name (SimpleName)
+43 identifier='initState'
+44 value (StringLiteralExpr)
+45 value='<initialized for verifying>'
+46 statement (BreakStmt)
+47 entrie (SwitchEntryStmt)
+48 label (NameExpr)
+49 name (SimpleName)
+50 identifier='SIGN'
+51 statements
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (NameExpr)
+56 name (SimpleName)
+57 identifier='initState'
+58 value (StringLiteralExpr)
+59 value='<initialized for signing>'
+60 statement (BreakStmt)
+61 statement (ReturnStmt)
+62 expression (BinaryExpr)
+63 operator='PLUS'
+64 left (BinaryExpr)
+65 operator='PLUS'
+66 left (StringLiteralExpr)
+67 value='Signature object: '
+68 right (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='getAlgorithm'
+71 right (NameExpr)
+72 name (SimpleName)
+73 identifier='initState'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='String'
+77 name (SimpleName)
+78 identifier='toString'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+23 32
+18 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+37 46
+18 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+53 54
+53 55
+55 56
+56 57
+53 58
+58 59
+51 60
+2 61
+61 62
+62 63
+62 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+62 71
+71 72
+72 73
+0 74
+74 75
+75 76
+0 77
+77 78
+
+Returns a string representation of this signature object, providing information that includes the state of the object and the name of the algorithm used.

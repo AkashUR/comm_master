@@ -1,0 +1,60 @@
+29
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='testIms'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ServerApiUtils'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='scheduleCapabilityOperation'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='mCapabilityService'
+17 arguments
+18 argument (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='AllCapabilitiesRequester'
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='requestAllContactsCapabilities'
+25 thrownExceptions
+26 thrownException (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='RemoteException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+27 28
+
+Requests capabilities for all contacts existing in the local address book. This method initiates in background new capability requests for each contact of the address book by sending SIP OPTIONS. The result of a capability request is sent asynchronously via callback method of the capabilities listener. A capability refresh is only sent if the timestamp associated to the capability has expired (the expiration value is fixed via MNO provisioning). The result of the capability refresh request is provided to all the clients that have registered the listener for this event.

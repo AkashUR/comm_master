@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='store'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='toAddress'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='object'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='zero'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Address'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='FORWARDING_POINTER_OFFSET'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='clearForwardingPointer'
+26 parameters
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='object'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='ObjectReference'
+34 annotations
+35 annotation (MarkerAnnotationExpr)
+36 name (Name)
+37 identifier='Inline'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+0 23
+0 24
+24 25
+0 26
+26 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+0 34
+34 35
+35 36
+36 37
+
+Non-atomic clear of forwarding pointer word (assumption, thread doing the set has done attempt to forward and owns the right to copy the object)

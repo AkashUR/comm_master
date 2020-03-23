@@ -1,0 +1,928 @@
+463
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='devicePolicyManager'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='DevicePolicyManager'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='demoDeviceAdmin'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='ComponentName'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getResources'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='context'
+31 name (SimpleName)
+32 identifier='resources'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Resources'
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (NameExpr)
+40 name (SimpleName)
+41 identifier='devicePolicyManager'
+42 value (CastExpr)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getSystemService'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='context'
+49 arguments
+50 argument (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='DEVICE_POLICY_SERVICE'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='Context'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='DevicePolicyManager'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='demoDeviceAdmin'
+65 value (ObjectCreationExpr)
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='ComponentName'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='context'
+73 argument (ClassExpr)
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='AgentDeviceAdminReceiver'
+77 statement (ExpressionStmt)
+78 expression (VariableDeclarationExpr)
+79 variables
+80 variable (VariableDeclarator)
+81 initializer (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getSharedPreferences'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='context'
+87 arguments
+88 argument (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='getString'
+91 scope (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='getResources'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='context'
+97 arguments
+98 argument (FieldAccessExpr)
+99 name (SimpleName)
+100 identifier='shared_pref_package'
+101 scope (FieldAccessExpr)
+102 name (SimpleName)
+103 identifier='string'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='R'
+107 argument (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='MODE_PRIVATE'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='Context'
+113 name (SimpleName)
+114 identifier='mainPref'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='SharedPreferences'
+118 statement (ExpressionStmt)
+119 expression (VariableDeclarationExpr)
+120 variables
+121 variable (VariableDeclarator)
+122 initializer (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='edit'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='mainPref'
+128 name (SimpleName)
+129 identifier='editor'
+130 type (ClassOrInterfaceType)
+131 name (SimpleName)
+132 identifier='Editor'
+133 statement (ExpressionStmt)
+134 expression (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='putString'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='editor'
+140 arguments
+141 argument (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='getString'
+144 scope (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='getResources'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='context'
+150 arguments
+151 argument (FieldAccessExpr)
+152 name (SimpleName)
+153 identifier='shared_pref_policy'
+154 scope (FieldAccessExpr)
+155 name (SimpleName)
+156 identifier='string'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='R'
+160 argument (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='getString'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='resources'
+166 arguments
+167 argument (FieldAccessExpr)
+168 name (SimpleName)
+169 identifier='shared_pref_default_string'
+170 scope (FieldAccessExpr)
+171 name (SimpleName)
+172 identifier='string'
+173 scope (NameExpr)
+174 name (SimpleName)
+175 identifier='R'
+176 statement (ExpressionStmt)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='putString'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='editor'
+183 arguments
+184 argument (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='getString'
+187 scope (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='getResources'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='context'
+193 arguments
+194 argument (FieldAccessExpr)
+195 name (SimpleName)
+196 identifier='shared_pref_isagreed'
+197 scope (FieldAccessExpr)
+198 name (SimpleName)
+199 identifier='string'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='R'
+203 argument (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='getString'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='resources'
+209 arguments
+210 argument (FieldAccessExpr)
+211 name (SimpleName)
+212 identifier='shared_pref_device_active'
+213 scope (FieldAccessExpr)
+214 name (SimpleName)
+215 identifier='string'
+216 scope (NameExpr)
+217 name (SimpleName)
+218 identifier='R'
+219 statement (ExpressionStmt)
+220 expression (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='putString'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='editor'
+226 arguments
+227 argument (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='getString'
+230 scope (MethodCallExpr)
+231 name (SimpleName)
+232 identifier='getResources'
+233 scope (NameExpr)
+234 name (SimpleName)
+235 identifier='context'
+236 arguments
+237 argument (FieldAccessExpr)
+238 name (SimpleName)
+239 identifier='shared_pref_regId'
+240 scope (FieldAccessExpr)
+241 name (SimpleName)
+242 identifier='string'
+243 scope (NameExpr)
+244 name (SimpleName)
+245 identifier='R'
+246 argument (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='getString'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='resources'
+252 arguments
+253 argument (FieldAccessExpr)
+254 name (SimpleName)
+255 identifier='shared_pref_default_string'
+256 scope (FieldAccessExpr)
+257 name (SimpleName)
+258 identifier='string'
+259 scope (NameExpr)
+260 name (SimpleName)
+261 identifier='R'
+262 statement (ExpressionStmt)
+263 expression (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='putString'
+266 scope (NameExpr)
+267 name (SimpleName)
+268 identifier='editor'
+269 arguments
+270 argument (MethodCallExpr)
+271 name (SimpleName)
+272 identifier='getString'
+273 scope (MethodCallExpr)
+274 name (SimpleName)
+275 identifier='getResources'
+276 scope (NameExpr)
+277 name (SimpleName)
+278 identifier='context'
+279 arguments
+280 argument (FieldAccessExpr)
+281 name (SimpleName)
+282 identifier='shared_pref_registered'
+283 scope (FieldAccessExpr)
+284 name (SimpleName)
+285 identifier='string'
+286 scope (NameExpr)
+287 name (SimpleName)
+288 identifier='R'
+289 argument (MethodCallExpr)
+290 name (SimpleName)
+291 identifier='getString'
+292 scope (NameExpr)
+293 name (SimpleName)
+294 identifier='resources'
+295 arguments
+296 argument (FieldAccessExpr)
+297 name (SimpleName)
+298 identifier='shared_pref_device_active'
+299 scope (FieldAccessExpr)
+300 name (SimpleName)
+301 identifier='string'
+302 scope (NameExpr)
+303 name (SimpleName)
+304 identifier='R'
+305 statement (ExpressionStmt)
+306 expression (MethodCallExpr)
+307 name (SimpleName)
+308 identifier='putString'
+309 scope (NameExpr)
+310 name (SimpleName)
+311 identifier='editor'
+312 arguments
+313 argument (MethodCallExpr)
+314 name (SimpleName)
+315 identifier='getString'
+316 scope (MethodCallExpr)
+317 name (SimpleName)
+318 identifier='getResources'
+319 scope (NameExpr)
+320 name (SimpleName)
+321 identifier='context'
+322 arguments
+323 argument (FieldAccessExpr)
+324 name (SimpleName)
+325 identifier='shared_pref_ip'
+326 scope (FieldAccessExpr)
+327 name (SimpleName)
+328 identifier='string'
+329 scope (NameExpr)
+330 name (SimpleName)
+331 identifier='R'
+332 argument (MethodCallExpr)
+333 name (SimpleName)
+334 identifier='getString'
+335 scope (NameExpr)
+336 name (SimpleName)
+337 identifier='resources'
+338 arguments
+339 argument (FieldAccessExpr)
+340 name (SimpleName)
+341 identifier='shared_pref_default_string'
+342 scope (FieldAccessExpr)
+343 name (SimpleName)
+344 identifier='string'
+345 scope (NameExpr)
+346 name (SimpleName)
+347 identifier='R'
+348 statement (ExpressionStmt)
+349 expression (MethodCallExpr)
+350 name (SimpleName)
+351 identifier='putString'
+352 scope (NameExpr)
+353 name (SimpleName)
+354 identifier='editor'
+355 arguments
+356 argument (MethodCallExpr)
+357 name (SimpleName)
+358 identifier='getString'
+359 scope (MethodCallExpr)
+360 name (SimpleName)
+361 identifier='getResources'
+362 scope (NameExpr)
+363 name (SimpleName)
+364 identifier='context'
+365 arguments
+366 argument (FieldAccessExpr)
+367 name (SimpleName)
+368 identifier='shared_pref_sender_id'
+369 scope (FieldAccessExpr)
+370 name (SimpleName)
+371 identifier='string'
+372 scope (NameExpr)
+373 name (SimpleName)
+374 identifier='R'
+375 argument (MethodCallExpr)
+376 name (SimpleName)
+377 identifier='getString'
+378 scope (NameExpr)
+379 name (SimpleName)
+380 identifier='resources'
+381 arguments
+382 argument (FieldAccessExpr)
+383 name (SimpleName)
+384 identifier='shared_pref_default_string'
+385 scope (FieldAccessExpr)
+386 name (SimpleName)
+387 identifier='string'
+388 scope (NameExpr)
+389 name (SimpleName)
+390 identifier='R'
+391 statement (ExpressionStmt)
+392 expression (MethodCallExpr)
+393 name (SimpleName)
+394 identifier='putString'
+395 scope (NameExpr)
+396 name (SimpleName)
+397 identifier='editor'
+398 arguments
+399 argument (MethodCallExpr)
+400 name (SimpleName)
+401 identifier='getString'
+402 scope (MethodCallExpr)
+403 name (SimpleName)
+404 identifier='getResources'
+405 scope (NameExpr)
+406 name (SimpleName)
+407 identifier='context'
+408 arguments
+409 argument (FieldAccessExpr)
+410 name (SimpleName)
+411 identifier='shared_pref_eula'
+412 scope (FieldAccessExpr)
+413 name (SimpleName)
+414 identifier='string'
+415 scope (NameExpr)
+416 name (SimpleName)
+417 identifier='R'
+418 argument (MethodCallExpr)
+419 name (SimpleName)
+420 identifier='getString'
+421 scope (NameExpr)
+422 name (SimpleName)
+423 identifier='resources'
+424 arguments
+425 argument (FieldAccessExpr)
+426 name (SimpleName)
+427 identifier='shared_pref_default_string'
+428 scope (FieldAccessExpr)
+429 name (SimpleName)
+430 identifier='string'
+431 scope (NameExpr)
+432 name (SimpleName)
+433 identifier='R'
+434 statement (ExpressionStmt)
+435 expression (MethodCallExpr)
+436 name (SimpleName)
+437 identifier='commit'
+438 scope (NameExpr)
+439 name (SimpleName)
+440 identifier='editor'
+441 statement (ExpressionStmt)
+442 expression (MethodCallExpr)
+443 name (SimpleName)
+444 identifier='removeActiveAdmin'
+445 scope (NameExpr)
+446 name (SimpleName)
+447 identifier='devicePolicyManager'
+448 arguments
+449 argument (NameExpr)
+450 name (SimpleName)
+451 identifier='demoDeviceAdmin'
+452 type (VoidType)
+453 name (SimpleName)
+454 identifier='clearAppData'
+455 parameters
+456 parameter (Parameter)
+457 isVarArgs='false'
+458 name (SimpleName)
+459 identifier='context'
+460 type (ClassOrInterfaceType)
+461 name (SimpleName)
+462 identifier='Context'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+24 31
+31 32
+24 33
+33 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+37 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+42 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+88 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+101 104
+104 105
+105 106
+87 107
+107 108
+108 109
+107 110
+110 111
+111 112
+80 113
+113 114
+80 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+121 128
+128 129
+121 130
+130 131
+131 132
+2 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+134 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+144 147
+147 148
+148 149
+141 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+154 157
+157 158
+158 159
+140 160
+160 161
+161 162
+160 163
+163 164
+164 165
+160 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+170 173
+173 174
+174 175
+2 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+187 190
+190 191
+191 192
+184 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+201 202
+183 203
+203 204
+204 205
+203 206
+206 207
+207 208
+203 209
+209 210
+210 211
+211 212
+210 213
+213 214
+214 215
+213 216
+216 217
+217 218
+2 219
+219 220
+220 221
+221 222
+220 223
+223 224
+224 225
+220 226
+226 227
+227 228
+228 229
+227 230
+230 231
+231 232
+230 233
+233 234
+234 235
+227 236
+236 237
+237 238
+238 239
+237 240
+240 241
+241 242
+240 243
+243 244
+244 245
+226 246
+246 247
+247 248
+246 249
+249 250
+250 251
+246 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+256 259
+259 260
+260 261
+2 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+263 269
+269 270
+270 271
+271 272
+270 273
+273 274
+274 275
+273 276
+276 277
+277 278
+270 279
+279 280
+280 281
+281 282
+280 283
+283 284
+284 285
+283 286
+286 287
+287 288
+269 289
+289 290
+290 291
+289 292
+292 293
+293 294
+289 295
+295 296
+296 297
+297 298
+296 299
+299 300
+300 301
+299 302
+302 303
+303 304
+2 305
+305 306
+306 307
+307 308
+306 309
+309 310
+310 311
+306 312
+312 313
+313 314
+314 315
+313 316
+316 317
+317 318
+316 319
+319 320
+320 321
+313 322
+322 323
+323 324
+324 325
+323 326
+326 327
+327 328
+326 329
+329 330
+330 331
+312 332
+332 333
+333 334
+332 335
+335 336
+336 337
+332 338
+338 339
+339 340
+340 341
+339 342
+342 343
+343 344
+342 345
+345 346
+346 347
+2 348
+348 349
+349 350
+350 351
+349 352
+352 353
+353 354
+349 355
+355 356
+356 357
+357 358
+356 359
+359 360
+360 361
+359 362
+362 363
+363 364
+356 365
+365 366
+366 367
+367 368
+366 369
+369 370
+370 371
+369 372
+372 373
+373 374
+355 375
+375 376
+376 377
+375 378
+378 379
+379 380
+375 381
+381 382
+382 383
+383 384
+382 385
+385 386
+386 387
+385 388
+388 389
+389 390
+2 391
+391 392
+392 393
+393 394
+392 395
+395 396
+396 397
+392 398
+398 399
+399 400
+400 401
+399 402
+402 403
+403 404
+402 405
+405 406
+406 407
+399 408
+408 409
+409 410
+410 411
+409 412
+412 413
+413 414
+412 415
+415 416
+416 417
+398 418
+418 419
+419 420
+418 421
+421 422
+422 423
+418 424
+424 425
+425 426
+426 427
+425 428
+428 429
+429 430
+428 431
+431 432
+432 433
+2 434
+434 435
+435 436
+436 437
+435 438
+438 439
+439 440
+2 441
+441 442
+442 443
+443 444
+442 445
+445 446
+446 447
+442 448
+448 449
+449 450
+450 451
+0 452
+0 453
+453 454
+0 455
+455 456
+456 457
+456 458
+458 459
+456 460
+460 461
+461 462
+
+Clear application data.

@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getApplicationContext'
+10 name (SimpleName)
+11 identifier='context'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Context'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='createCameraSource'
+18 parameters
+19 parameter (Parameter)
+20 isVarArgs='false'
+21 name (SimpleName)
+22 identifier='autoFocus'
+23 type (PrimitiveType)
+24 type='BOOLEAN'
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='useFlash'
+29 type (PrimitiveType)
+30 type='BOOLEAN'
+31 annotations
+32 annotation (SingleMemberAnnotationExpr)
+33 memberValue (StringLiteralExpr)
+34 value='InlinedApi'
+35 name (Name)
+36 identifier='SuppressLint'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+19 21
+21 22
+19 23
+23 24
+18 25
+25 26
+25 27
+27 28
+25 29
+29 30
+0 31
+31 32
+32 33
+33 34
+32 35
+35 36
+
+Creates and starts the camera.  Note that this uses a higher resolution in comparison to other detection examples to enable the ocr detector to detect small text samples at long distances. Suppressing InlinedApi since there is a check that the minimum version is met before using the constant.

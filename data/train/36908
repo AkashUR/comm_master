@@ -1,0 +1,26 @@
+12
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='addContrast'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='value'
+10 type (PrimitiveType)
+11 type='BYTE'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+
+Increase the contrast of the bitmap font for rendering on top of a surface whose color is darker. This is useful when drawing anti-aliased bitmap fonts using a light color (e.g. white) on top of a dark surface (e.g. black), the font often breaks down if its contrast is not increased due to the way alpha blending appears to the eye. <p>Notice that this method only works in one way, contrast cannot be decreased properly in a font and it should be cleared and reloaed with a Look and Feel switch.

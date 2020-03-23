@@ -1,0 +1,210 @@
+104
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NullLiteralExpr)
+8 name (SimpleName)
+9 identifier='handler'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='CompletionHandler'
+13 scope (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Operation'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setCompletion'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='setReferer'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='createDelete'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='Operation'
+32 arguments
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='buildUri'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='UriUtils'
+39 arguments
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getHost'
+43 argument (BinaryExpr)
+44 operator='PLUS'
+45 left (BinaryExpr)
+46 operator='PLUS'
+47 left (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='SELF_LINK'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='DatastoreServiceFactory'
+53 right (StringLiteralExpr)
+54 value='/'
+55 right (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='datastoreId'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='current'
+61 arguments
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='buildUri'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='UriUtils'
+68 arguments
+69 argument (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getHost'
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getSelfLink'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='handler'
+79 name (SimpleName)
+80 identifier='deleteOperation'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Operation'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='sendRequest'
+88 scope (ThisExpr)
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='deleteOperation'
+93 type (VoidType)
+94 name (SimpleName)
+95 identifier='deleteDatastore'
+96 parameters
+97 parameter (Parameter)
+98 isVarArgs='false'
+99 name (SimpleName)
+100 identifier='current'
+101 type (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='State'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+39 43
+43 44
+43 45
+45 46
+45 47
+47 48
+48 49
+47 50
+50 51
+51 52
+45 53
+53 54
+43 55
+55 56
+56 57
+55 58
+58 59
+59 60
+23 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+20 75
+75 76
+76 77
+77 78
+19 79
+79 80
+19 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+85 89
+89 90
+90 91
+91 92
+0 93
+0 94
+94 95
+0 96
+96 97
+97 98
+97 99
+99 100
+97 101
+101 102
+102 103
+
+Deletes the datastore with the id datastoreId.

@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rangeCheck'
+7 arguments
+8 argument (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='length'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='a'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='fromIndex'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='toIndex'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='quickSort1'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='a'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='fromIndex'
+31 argument (BinaryExpr)
+32 operator='MINUS'
+33 left (NameExpr)
+34 name (SimpleName)
+35 identifier='toIndex'
+36 right (NameExpr)
+37 name (SimpleName)
+38 identifier='fromIndex'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='c'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='quickSort'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='a'
+50 type (ArrayType)
+51 origin='TYPE'
+52 componentType (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Object'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='fromIndex'
+59 type (PrimitiveType)
+60 type='INT'
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='toIndex'
+65 type (PrimitiveType)
+66 type='INT'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='c'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='Comparator'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+24 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+24 39
+39 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+50 52
+52 53
+53 54
+45 55
+55 56
+55 57
+57 58
+55 59
+59 60
+45 61
+61 62
+61 63
+63 64
+61 65
+65 66
+45 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+
+Sorts the specified range of the specified array according to the order induced by the specified comparator.  All elements in the range must be <i>mutually comparable</i> by the specified comparator (that is, <tt>c.compare(e1, e2)</tt> must not throw a <tt>ClassCastException</tt> for any elements <tt>e1</tt> and <tt>e2</tt> in the range).<p> The sorting algorithm is a tuned quicksort, adapted from Jon L. Bentley and M. Douglas McIlroy's "Engineering a Sort Function", Software-Practice and Experience, Vol. 23(11) P. 1249-1265 (November 1993).  This algorithm offers n*log(n) performance on many data sets that cause other quicksorts to degrade to quadratic performance.

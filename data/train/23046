@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkEqualsWithScaleOfTen'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value=''
+10 argument (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='BigDecimal'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='expected'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='actual'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='checkEquals'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='expected'
+29 type (PrimitiveType)
+30 type='DOUBLE'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='actual'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='BigDecimal'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+7 18
+18 19
+19 20
+0 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+24 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+
+Compares expected value as double with the actual value. The expected value is converted into a BigDecimal.The fractional part of both values will rounded with a precision of ten digits.<br> e.g. <br> checkEquals(30.00000000001 , 30.0) == true <br>

@@ -1,0 +1,450 @@
+224
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='algorithm'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='algo'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='salt'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='salt'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='itereationCount'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='iterationCount'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='keySize'
+39 scope (ThisExpr)
+40 value (NameExpr)
+41 name (SimpleName)
+42 identifier='keySize'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='pass'
+49 scope (ThisExpr)
+50 value (NameExpr)
+51 name (SimpleName)
+52 identifier='passPhrase'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (ObjectCreationExpr)
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='PBEKeySpec'
+61 arguments
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='toCharArray'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='passPhrase'
+68 argument (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='salt'
+71 scope (ThisExpr)
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='iterationCount'
+75 argument (FieldAccessExpr)
+76 name (SimpleName)
+77 identifier='keySize'
+78 scope (ThisExpr)
+79 name (SimpleName)
+80 identifier='spec'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='PBEKeySpec'
+84 statement (ExpressionStmt)
+85 expression (VariableDeclarationExpr)
+86 variables
+87 variable (VariableDeclarator)
+88 initializer (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='getInstance'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='SecretKeyFactory'
+94 arguments
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='algo'
+98 name (SimpleName)
+99 identifier='keyFactory'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='SecretKeyFactory'
+103 statement (ExpressionStmt)
+104 expression (VariableDeclarationExpr)
+105 variables
+106 variable (VariableDeclarator)
+107 initializer (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='generateSecret'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='keyFactory'
+113 arguments
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='spec'
+117 name (SimpleName)
+118 identifier='realKey'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='SecretKey'
+122 statement (ExpressionStmt)
+123 expression (AssignExpr)
+124 operator='ASSIGN'
+125 target (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='keyLength'
+128 scope (ThisExpr)
+129 value (FieldAccessExpr)
+130 name (SimpleName)
+131 identifier='length'
+132 scope (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getEncoded'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='realKey'
+138 statement (ExpressionStmt)
+139 expression (AssignExpr)
+140 operator='ASSIGN'
+141 target (FieldAccessExpr)
+142 name (SimpleName)
+143 identifier='key'
+144 scope (ThisExpr)
+145 value (ArrayCreationExpr)
+146 elementType (PrimitiveType)
+147 type='BYTE'
+148 levels
+149 level (ArrayCreationLevel)
+150 dimension (FieldAccessExpr)
+151 name (SimpleName)
+152 identifier='keyLength'
+153 scope (ThisExpr)
+154 statement (ExpressionStmt)
+155 expression (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='arraycopy'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='System'
+161 arguments
+162 argument (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='getEncoded'
+165 scope (NameExpr)
+166 name (SimpleName)
+167 identifier='realKey'
+168 argument (IntegerLiteralExpr)
+169 value='0'
+170 argument (FieldAccessExpr)
+171 name (SimpleName)
+172 identifier='key'
+173 scope (ThisExpr)
+174 argument (IntegerLiteralExpr)
+175 value='0'
+176 argument (FieldAccessExpr)
+177 name (SimpleName)
+178 identifier='keyLength'
+179 scope (ThisExpr)
+180 name (SimpleName)
+181 identifier='MyPBKDF2SecretKey'
+182 parameters
+183 parameter (Parameter)
+184 isVarArgs='false'
+185 name (SimpleName)
+186 identifier='passPhrase'
+187 type (ClassOrInterfaceType)
+188 name (SimpleName)
+189 identifier='String'
+190 parameter (Parameter)
+191 isVarArgs='false'
+192 name (SimpleName)
+193 identifier='algo'
+194 type (ClassOrInterfaceType)
+195 name (SimpleName)
+196 identifier='String'
+197 parameter (Parameter)
+198 isVarArgs='false'
+199 name (SimpleName)
+200 identifier='salt'
+201 type (ArrayType)
+202 origin='TYPE'
+203 componentType (PrimitiveType)
+204 type='BYTE'
+205 parameter (Parameter)
+206 isVarArgs='false'
+207 name (SimpleName)
+208 identifier='iterationCount'
+209 type (PrimitiveType)
+210 type='INT'
+211 parameter (Parameter)
+212 isVarArgs='false'
+213 name (SimpleName)
+214 identifier='keySize'
+215 type (PrimitiveType)
+216 type='INT'
+217 thrownExceptions
+218 thrownException (ClassOrInterfaceType)
+219 name (SimpleName)
+220 identifier='InvalidKeySpecException'
+221 thrownException (ClassOrInterfaceType)
+222 name (SimpleName)
+223 identifier='NoSuchAlgorithmException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+61 68
+68 69
+69 70
+68 71
+61 72
+72 73
+73 74
+61 75
+75 76
+76 77
+75 78
+56 79
+79 80
+56 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+87 98
+98 99
+87 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+115 116
+106 117
+117 118
+106 119
+119 120
+120 121
+2 122
+122 123
+123 124
+123 125
+125 126
+126 127
+125 128
+123 129
+129 130
+130 131
+129 132
+132 133
+133 134
+132 135
+135 136
+136 137
+2 138
+138 139
+139 140
+139 141
+141 142
+142 143
+141 144
+139 145
+145 146
+146 147
+145 148
+148 149
+149 150
+150 151
+151 152
+150 153
+2 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+155 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+161 168
+168 169
+161 170
+170 171
+171 172
+170 173
+161 174
+174 175
+161 176
+176 177
+177 178
+176 179
+0 180
+180 181
+0 182
+182 183
+183 184
+183 185
+185 186
+183 187
+187 188
+188 189
+182 190
+190 191
+190 192
+192 193
+190 194
+194 195
+195 196
+182 197
+197 198
+197 199
+199 200
+197 201
+201 202
+201 203
+203 204
+182 205
+205 206
+205 207
+207 208
+205 209
+209 210
+182 211
+211 212
+211 213
+213 214
+211 215
+215 216
+0 217
+217 218
+218 219
+219 220
+217 221
+221 222
+222 223
+
+The key is generating by SecretKeyFactory and its value just copying in the key field of MySecretKey class. So, this is real key derived using the given algorithm.

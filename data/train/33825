@@ -1,0 +1,600 @@
+299
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ActiveMQConnectionFactory'
+11 arguments
+12 argument (BinaryExpr)
+13 operator='PLUS'
+14 left (NameExpr)
+15 name (SimpleName)
+16 identifier='BROKER_B_TRANSPORT_URL'
+17 right (StringLiteralExpr)
+18 value='?jms.prefetchPolicy.queuePrefetch=0'
+19 name (SimpleName)
+20 identifier='bConnFactory'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='ActiveMQConnectionFactory'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 initializer (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='createConnection'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='bConnFactory'
+34 name (SimpleName)
+35 identifier='bConn'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Connection'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='start'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='bConn'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='createSession'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='bConn'
+56 arguments
+57 argument (BooleanLiteralExpr)
+58 value='false'
+59 argument (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='AUTO_ACKNOWLEDGE'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='Session'
+65 name (SimpleName)
+66 identifier='bSession'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='Session'
+70 statement (ExpressionStmt)
+71 expression (VariableDeclarationExpr)
+72 variables
+73 variable (VariableDeclarator)
+74 initializer (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='createConsumer'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='bSession'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='queue'
+84 name (SimpleName)
+85 identifier='bSessionConsumer'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='MessageConsumer'
+89 statement (ExpressionStmt)
+90 expression (VariableDeclarationExpr)
+91 variables
+92 variable (VariableDeclarator)
+93 initializer (ObjectCreationExpr)
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='ActiveMQConnectionFactory'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='BROKER_A_TRANSPORT_URL'
+101 name (SimpleName)
+102 identifier='aConnFactory'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='ActiveMQConnectionFactory'
+106 statement (ExpressionStmt)
+107 expression (VariableDeclarationExpr)
+108 variables
+109 variable (VariableDeclarator)
+110 initializer (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='createConnection'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='aConnFactory'
+116 name (SimpleName)
+117 identifier='aProducerConn'
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='Connection'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='start'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='aProducerConn'
+128 statement (ExpressionStmt)
+129 expression (VariableDeclarationExpr)
+130 variables
+131 variable (VariableDeclarator)
+132 initializer (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='createSession'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='aProducerConn'
+138 arguments
+139 argument (BooleanLiteralExpr)
+140 value='false'
+141 argument (FieldAccessExpr)
+142 name (SimpleName)
+143 identifier='AUTO_ACKNOWLEDGE'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='Session'
+147 name (SimpleName)
+148 identifier='aProducerSession'
+149 type (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='Session'
+152 statement (ExpressionStmt)
+153 expression (VariableDeclarationExpr)
+154 variables
+155 variable (VariableDeclarator)
+156 initializer (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='createProducer'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='aProducerSession'
+162 arguments
+163 argument (NameExpr)
+164 name (SimpleName)
+165 identifier='topic'
+166 name (SimpleName)
+167 identifier='producer'
+168 type (ClassOrInterfaceType)
+169 name (SimpleName)
+170 identifier='MessageProducer'
+171 statement (ExpressionStmt)
+172 expression (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='produce'
+175 arguments
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='producer'
+179 argument (NameExpr)
+180 name (SimpleName)
+181 identifier='aProducerSession'
+182 argument (IntegerLiteralExpr)
+183 value='5'
+184 statement (ExpressionStmt)
+185 expression (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='sleep'
+188 statement (ExpressionStmt)
+189 expression (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='close'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='bSessionConsumer'
+195 statement (ExpressionStmt)
+196 expression (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='close'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='bSession'
+202 statement (ExpressionStmt)
+203 expression (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='close'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='bConn'
+209 statement (ExpressionStmt)
+210 expression (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='sleep'
+213 statement (ExpressionStmt)
+214 expression (VariableDeclarationExpr)
+215 variables
+216 variable (VariableDeclarator)
+217 initializer (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='createConnection'
+220 scope (NameExpr)
+221 name (SimpleName)
+222 identifier='aConnFactory'
+223 name (SimpleName)
+224 identifier='aConsumerConn'
+225 type (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='Connection'
+228 statement (ExpressionStmt)
+229 expression (MethodCallExpr)
+230 name (SimpleName)
+231 identifier='start'
+232 scope (NameExpr)
+233 name (SimpleName)
+234 identifier='aConsumerConn'
+235 statement (ExpressionStmt)
+236 expression (VariableDeclarationExpr)
+237 variables
+238 variable (VariableDeclarator)
+239 initializer (MethodCallExpr)
+240 name (SimpleName)
+241 identifier='createSession'
+242 scope (NameExpr)
+243 name (SimpleName)
+244 identifier='aConsumerConn'
+245 arguments
+246 argument (BooleanLiteralExpr)
+247 value='false'
+248 argument (FieldAccessExpr)
+249 name (SimpleName)
+250 identifier='AUTO_ACKNOWLEDGE'
+251 scope (NameExpr)
+252 name (SimpleName)
+253 identifier='Session'
+254 name (SimpleName)
+255 identifier='aConsumerSession'
+256 type (ClassOrInterfaceType)
+257 name (SimpleName)
+258 identifier='Session'
+259 statement (ExpressionStmt)
+260 expression (VariableDeclarationExpr)
+261 variables
+262 variable (VariableDeclarator)
+263 initializer (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='createConsumer'
+266 scope (NameExpr)
+267 name (SimpleName)
+268 identifier='aConsumerSession'
+269 arguments
+270 argument (NameExpr)
+271 name (SimpleName)
+272 identifier='queue'
+273 name (SimpleName)
+274 identifier='aSessionConsumer'
+275 type (ClassOrInterfaceType)
+276 name (SimpleName)
+277 identifier='MessageConsumer'
+278 statement (ExpressionStmt)
+279 expression (MethodCallExpr)
+280 name (SimpleName)
+281 identifier='sleep'
+282 statement (ExpressionStmt)
+283 expression (MethodCallExpr)
+284 name (SimpleName)
+285 identifier='consume'
+286 arguments
+287 argument (NameExpr)
+288 name (SimpleName)
+289 identifier='aSessionConsumer'
+290 argument (IntegerLiteralExpr)
+291 value='5'
+292 type (VoidType)
+293 name (SimpleName)
+294 identifier='testDurableSubReconnectFromAtoB'
+295 thrownExceptions
+296 thrownException (ClassOrInterfaceType)
+297 name (SimpleName)
+298 identifier='JMSException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+27 34
+34 35
+27 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+49 65
+65 66
+49 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+73 84
+84 85
+73 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+92 93
+93 94
+94 95
+95 96
+93 97
+97 98
+98 99
+99 100
+92 101
+101 102
+92 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+109 116
+116 117
+109 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+2 128
+128 129
+129 130
+130 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+132 138
+138 139
+139 140
+138 141
+141 142
+142 143
+141 144
+144 145
+145 146
+131 147
+147 148
+131 149
+149 150
+150 151
+2 152
+152 153
+153 154
+154 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+156 162
+162 163
+163 164
+164 165
+155 166
+166 167
+155 168
+168 169
+169 170
+2 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+177 178
+175 179
+179 180
+180 181
+175 182
+182 183
+2 184
+184 185
+185 186
+186 187
+2 188
+188 189
+189 190
+190 191
+189 192
+192 193
+193 194
+2 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+2 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+2 209
+209 210
+210 211
+211 212
+2 213
+213 214
+214 215
+215 216
+216 217
+217 218
+218 219
+217 220
+220 221
+221 222
+216 223
+223 224
+216 225
+225 226
+226 227
+2 228
+228 229
+229 230
+230 231
+229 232
+232 233
+233 234
+2 235
+235 236
+236 237
+237 238
+238 239
+239 240
+240 241
+239 242
+242 243
+243 244
+239 245
+245 246
+246 247
+245 248
+248 249
+249 250
+248 251
+251 252
+252 253
+238 254
+254 255
+238 256
+256 257
+257 258
+2 259
+259 260
+260 261
+261 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+263 269
+269 270
+270 271
+271 272
+262 273
+273 274
+262 275
+275 276
+276 277
+2 278
+278 279
+279 280
+280 281
+2 282
+282 283
+283 284
+284 285
+283 286
+286 287
+287 288
+288 289
+286 290
+290 291
+0 292
+0 293
+293 294
+0 295
+295 296
+296 297
+297 298
+
+This test shows how to use pub/sub to mimic durable subscribers in a network of brokers. When using durable subscribers in a broker cluster, you can encounter a situation where a subscription gets orphaned on a broker when the client disconnects and reattaches to another broker in the cluster. Since the clientID/durableName only need to be unique within a single broker, it's possible to have a durable sub on multiple brokers in a cluster. FOR EXAMPLE: Broker A and B are networked together in both directions to form a full mesh. If durable subscriber 'foo' subscribes to failover(A,B) and ends up on B, and a producer on A, messages will be demand forwarded from A to B. But if the durable sub 'foo' disconnects from B, then reconnects to failover(A,B) but this time gets connected to A, the subscription on B will still be there are continue to receive messages (and possibly have missed messages sent there while gone) We can avoid all of this mess with virtual topics as seen below:

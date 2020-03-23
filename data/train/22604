@@ -1,0 +1,334 @@
+166
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='from'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='from'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='to'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='to'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='edgeDirection'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='edgeDirection'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='p0'
+39 value (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getCoordinate'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='from'
+45 statement (ExpressionStmt)
+46 expression (AssignExpr)
+47 operator='ASSIGN'
+48 target (NameExpr)
+49 name (SimpleName)
+50 identifier='p1'
+51 value (NameExpr)
+52 name (SimpleName)
+53 identifier='directionPt'
+54 statement (ExpressionStmt)
+55 expression (VariableDeclarationExpr)
+56 variables
+57 variable (VariableDeclarator)
+58 initializer (BinaryExpr)
+59 operator='MINUS'
+60 left (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='x'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='p1'
+66 right (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='x'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='p0'
+72 name (SimpleName)
+73 identifier='dx'
+74 type (PrimitiveType)
+75 type='DOUBLE'
+76 statement (ExpressionStmt)
+77 expression (VariableDeclarationExpr)
+78 variables
+79 variable (VariableDeclarator)
+80 initializer (BinaryExpr)
+81 operator='MINUS'
+82 left (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='y'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='p1'
+88 right (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='y'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='p0'
+94 name (SimpleName)
+95 identifier='dy'
+96 type (PrimitiveType)
+97 type='DOUBLE'
+98 statement (ExpressionStmt)
+99 expression (AssignExpr)
+100 operator='ASSIGN'
+101 target (NameExpr)
+102 name (SimpleName)
+103 identifier='quadrant'
+104 value (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='quadrant'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='Quadrant'
+110 arguments
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='dx'
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='dy'
+117 statement (ExpressionStmt)
+118 expression (AssignExpr)
+119 operator='ASSIGN'
+120 target (NameExpr)
+121 name (SimpleName)
+122 identifier='angle'
+123 value (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='atan2'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='Math'
+129 arguments
+130 argument (NameExpr)
+131 name (SimpleName)
+132 identifier='dy'
+133 argument (NameExpr)
+134 name (SimpleName)
+135 identifier='dx'
+136 name (SimpleName)
+137 identifier='DirectedEdge'
+138 parameters
+139 parameter (Parameter)
+140 isVarArgs='false'
+141 name (SimpleName)
+142 identifier='from'
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='Node'
+146 parameter (Parameter)
+147 isVarArgs='false'
+148 name (SimpleName)
+149 identifier='to'
+150 type (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='Node'
+153 parameter (Parameter)
+154 isVarArgs='false'
+155 name (SimpleName)
+156 identifier='directionPt'
+157 type (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='Coordinate'
+160 parameter (Parameter)
+161 isVarArgs='false'
+162 name (SimpleName)
+163 identifier='edgeDirection'
+164 type (PrimitiveType)
+165 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+46 48
+48 49
+49 50
+46 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+57 58
+58 59
+58 60
+60 61
+61 62
+60 63
+63 64
+64 65
+58 66
+66 67
+67 68
+66 69
+69 70
+70 71
+57 72
+72 73
+57 74
+74 75
+2 76
+76 77
+77 78
+78 79
+79 80
+80 81
+80 82
+82 83
+83 84
+82 85
+85 86
+86 87
+80 88
+88 89
+89 90
+88 91
+91 92
+92 93
+79 94
+94 95
+79 96
+96 97
+2 98
+98 99
+99 100
+99 101
+101 102
+102 103
+99 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+112 113
+110 114
+114 115
+115 116
+2 117
+117 118
+118 119
+118 120
+120 121
+121 122
+118 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+131 132
+129 133
+133 134
+134 135
+0 136
+136 137
+0 138
+138 139
+139 140
+139 141
+141 142
+139 143
+143 144
+144 145
+138 146
+146 147
+146 148
+148 149
+146 150
+150 151
+151 152
+138 153
+153 154
+153 155
+155 156
+153 157
+157 158
+158 159
+138 160
+160 161
+160 162
+162 163
+160 164
+164 165
+
+Constructs a DirectedEdge connecting the <code>from</code> node to the <code>to</code> node.

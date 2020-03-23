@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setCanGrabGraphic'
+7 arguments
+8 argument (BooleanLiteralExpr)
+9 value='false'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='setStateMachine'
+14 arguments
+15 argument (ObjectCreationExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='TextStateMachine'
+19 arguments
+20 argument (ThisExpr)
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='gPoints'
+27 value (ArrayCreationExpr)
+28 elementType (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='GrabPoint'
+31 levels
+32 level (ArrayCreationLevel)
+33 dimension (IntegerLiteralExpr)
+34 value='2'
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='init'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+17 18
+15 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+33 34
+0 35
+0 36
+36 37
+
+Create and initialize the state machine that interprets the modifying gestures/commands, as well as initialize the grab points. Also allocates the grab point array needed by the EditableOMText.

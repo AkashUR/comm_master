@@ -1,0 +1,162 @@
+80
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (VariableDeclarationExpr)
+8 variables
+9 variable (VariableDeclarator)
+10 initializer (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='next'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='iterator'
+16 name (SimpleName)
+17 identifier='closeable'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Closeable'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='closeQuietly'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='CloseableRequestResources'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='closeable'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='remove'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='iterator'
+39 compare (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='hasNext'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='iterator'
+45 initialization
+46 initializatio (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='iterator'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='groupResources'
+55 name (SimpleName)
+56 identifier='iterator'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Iterator'
+60 typeArguments
+61 typeArgument (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='Closeable'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='remove'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='requestResources'
+71 arguments
+72 argument (ThisExpr)
+73 type (VoidType)
+74 name (SimpleName)
+75 identifier='close'
+76 annotations
+77 annotation (MarkerAnnotationExpr)
+78 name (Name)
+79 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+9 16
+16 17
+9 18
+18 19
+19 20
+5 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+5 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+3 39
+39 40
+40 41
+39 42
+42 43
+43 44
+3 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+48 55
+55 56
+48 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+0 73
+0 74
+74 75
+0 76
+76 77
+77 78
+78 79
+
+Closes all resources in this group, and then removes the group from the request resources.

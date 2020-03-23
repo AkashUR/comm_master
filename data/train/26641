@@ -1,0 +1,352 @@
+175
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='http://www.nist.gov'
+9 name (SimpleName)
+10 identifier='namespaceURI'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (StringLiteralExpr)
+19 value='domestic'
+20 name (SimpleName)
+21 identifier='localName'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='String'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 name (SimpleName)
+30 identifier='doc'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Document'
+34 statement (ExpressionStmt)
+35 expression (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 name (SimpleName)
+39 identifier='elementList'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='NodeList'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 name (SimpleName)
+48 identifier='testAddr'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Element'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 name (SimpleName)
+57 identifier='attrValue'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='String'
+61 statement (ExpressionStmt)
+62 expression (AssignExpr)
+63 operator='ASSIGN'
+64 target (NameExpr)
+65 name (SimpleName)
+66 identifier='doc'
+67 value (CastExpr)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='load'
+71 arguments
+72 argument (StringLiteralExpr)
+73 value='staffNS'
+74 argument (BooleanLiteralExpr)
+75 value='true'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='Document'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='elementList'
+85 value (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getElementsByTagName'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='doc'
+91 arguments
+92 argument (StringLiteralExpr)
+93 value='emp:address'
+94 statement (ExpressionStmt)
+95 expression (AssignExpr)
+96 operator='ASSIGN'
+97 target (NameExpr)
+98 name (SimpleName)
+99 identifier='testAddr'
+100 value (CastExpr)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='item'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='elementList'
+107 arguments
+108 argument (IntegerLiteralExpr)
+109 value='0'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='Element'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='assertNotNull'
+117 arguments
+118 argument (StringLiteralExpr)
+119 value='empAddrNotNull'
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='testAddr'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='removeAttributeNS'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='testAddr'
+130 arguments
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='namespaceURI'
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='localName'
+137 statement (ExpressionStmt)
+138 expression (AssignExpr)
+139 operator='ASSIGN'
+140 target (NameExpr)
+141 name (SimpleName)
+142 identifier='attrValue'
+143 value (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='getAttributeNS'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='testAddr'
+149 arguments
+150 argument (NameExpr)
+151 name (SimpleName)
+152 identifier='namespaceURI'
+153 argument (NameExpr)
+154 name (SimpleName)
+155 identifier='localName'
+156 statement (ExpressionStmt)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='assertEquals'
+160 arguments
+161 argument (StringLiteralExpr)
+162 value='throw_Equals'
+163 argument (StringLiteralExpr)
+164 value=''
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='attrValue'
+168 type (VoidType)
+169 name (SimpleName)
+170 identifier='runTest'
+171 thrownExceptions
+172 thrownException (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+17 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+2 61
+61 62
+62 63
+62 64
+64 65
+65 66
+62 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+67 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+2 94
+94 95
+95 96
+95 97
+97 98
+98 99
+95 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+100 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+117 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+124 130
+130 131
+131 132
+132 133
+130 134
+134 135
+135 136
+2 137
+137 138
+138 139
+138 140
+140 141
+141 142
+138 143
+143 144
+144 145
+143 146
+146 147
+147 148
+143 149
+149 150
+150 151
+151 152
+149 153
+153 154
+154 155
+2 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+160 163
+163 164
+160 165
+165 166
+166 167
+0 168
+0 169
+169 170
+0 171
+171 172
+172 173
+173 174
+
+Runs the test case.

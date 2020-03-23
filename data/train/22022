@@ -1,0 +1,128 @@
+63
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='write'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mOutputStream'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='makeIvfFrameHeader'
+14 arguments
+15 argument (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='length'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='frame'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='timeStamp'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='write'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='mOutputStream'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='frame'
+35 statement (ExpressionStmt)
+36 expression (UnaryExpr)
+37 operator='POSTFIX_INCREMENT'
+38 expression (NameExpr)
+39 name (SimpleName)
+40 identifier='mFrameCount'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='writeFrame'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='frame'
+49 type (ArrayType)
+50 origin='TYPE'
+51 componentType (PrimitiveType)
+52 type='BYTE'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='timeStamp'
+57 type (PrimitiveType)
+58 type='LONG'
+59 thrownExceptions
+60 thrownException (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+14 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+36 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+49 51
+51 52
+44 53
+53 54
+53 55
+55 56
+53 57
+57 58
+0 59
+59 60
+60 61
+61 62
+
+Writes a single encoded VP8 frame with its frame header.

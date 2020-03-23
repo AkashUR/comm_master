@@ -1,0 +1,230 @@
+114
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='info'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getEvoLogger'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='LoggingUtils'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (StringLiteralExpr)
+17 value='* Failure: '
+18 right (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getMessage'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='failure'
+24 statement (ForeachStmt)
+25 body (BlockStmt)
+26 statements
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='info'
+31 scope (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getEvoLogger'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='LoggingUtils'
+37 arguments
+38 argument (BinaryExpr)
+39 operator='PLUS'
+40 left (StringLiteralExpr)
+41 value='   '
+42 right (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='toString'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='s'
+48 iterable (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getStackTrace'
+51 scope (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getException'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='failure'
+57 variable (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 name (SimpleName)
+61 identifier='s'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='StackTraceElement'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='setSuccessful'
+69 scope (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='testResult'
+72 scope (ThisExpr)
+73 arguments
+74 argument (BooleanLiteralExpr)
+75 value='false'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='setTrace'
+80 scope (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='testResult'
+83 scope (ThisExpr)
+84 arguments
+85 argument (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getTrace'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='failure'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='incrementFailureCount'
+95 scope (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='testResult'
+98 scope (ThisExpr)
+99 type (VoidType)
+100 name (SimpleName)
+101 identifier='testFailure'
+102 parameters
+103 parameter (Parameter)
+104 isVarArgs='false'
+105 name (SimpleName)
+106 identifier='failure'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='Failure'
+110 annotations
+111 annotation (MarkerAnnotationExpr)
+112 name (Name)
+113 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+14 16
+16 17
+14 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+28 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+42 45
+45 46
+46 47
+24 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+24 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+66 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+80 83
+77 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+0 99
+0 100
+100 101
+0 102
+102 103
+103 104
+103 105
+105 106
+103 107
+107 108
+108 109
+0 110
+110 111
+111 112
+112 113
+
+Called when an atomic test fails

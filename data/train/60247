@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ByteArrayOutputStream'
+11 name (SimpleName)
+12 identifier='bs'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ByteArrayOutputStream'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='printStackTrace'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='t'
+23 arguments
+24 argument (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='PrintStream'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='bs'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='warning'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='logger'
+39 arguments
+40 argument (BinaryExpr)
+41 operator='PLUS'
+42 left (NameExpr)
+43 name (SimpleName)
+44 identifier='logPrefix'
+45 right (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='toString'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='bs'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='logWarning'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='t'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+46 47
+45 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+
+Logs a warning message, created by reading the stack trace of the passed <code>Throwable</code>, using the logger of this interpreter.

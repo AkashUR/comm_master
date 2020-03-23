@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='consumeProcessOutputStream'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='self'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='output'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='consumeProcessErrorStream'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='self'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='error'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='consumeProcessOutput'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='self'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Process'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='output'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Appendable'
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='error'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Appendable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+28 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+28 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+
+Gets the output and error streams from a process and reads them to keep the process from blocking due to a full output buffer. The processed stream data is appended to the supplied Appendable. For this, two Threads are started, so this method will return immediately. The threads will not be join()ed, even if waitFor() is called. To wait for the output to be fully consumed call waitForProcessOutput().

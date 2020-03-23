@@ -1,0 +1,162 @@
+80
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TransferEntropyCalculatorKraskov'
+11 name (SimpleName)
+12 identifier='teCalc'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TransferEntropyCalculatorKraskov'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (StringLiteralExpr)
+21 value='4'
+22 name (SimpleName)
+23 identifier='kraskov_K'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='String'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setProperty'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='teCalc'
+34 arguments
+35 argument (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='PROP_KRASKOV_ALG_NUM'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='TransferEntropyCalculatorMultiVariateKraskov'
+41 argument (StringLiteralExpr)
+42 value='2'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='setProperty'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='teCalc'
+50 arguments
+51 argument (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='PROP_K'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='MutualInfoCalculatorMultiVariateKraskov'
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='kraskov_K'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='testComputeSignificanceDoesntAlterAverage'
+64 scope (SuperExpr)
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='teCalc'
+69 argument (IntegerLiteralExpr)
+70 value='100'
+71 argument (IntegerLiteralExpr)
+72 value='1'
+73 type (VoidType)
+74 name (SimpleName)
+75 identifier='testComputeSignificanceDoesntAlterAverage'
+76 thrownExceptions
+77 thrownException (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+19 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+34 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+50 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+61 65
+65 66
+66 67
+67 68
+65 69
+69 70
+65 71
+71 72
+0 73
+0 74
+74 75
+0 76
+76 77
+77 78
+78 79
+
+Confirm that significance testing doesn't alter the average that would be returned.

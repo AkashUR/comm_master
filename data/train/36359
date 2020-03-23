@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='instanceOf'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Predicates'
+13 arguments
+14 argument (ClassExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Integer'
+18 name (SimpleName)
+19 identifier='isInteger'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Predicate'
+23 typeArguments
+24 typeArgument (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Object'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='assertTrue'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='test'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='isInteger'
+38 arguments
+39 argument (IntegerLiteralExpr)
+40 value='1'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='assertFalse'
+45 arguments
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='test'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='isInteger'
+52 arguments
+53 argument (DoubleLiteralExpr)
+54 value='2.0f'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='assertFalse'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='test'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='isInteger'
+66 arguments
+67 argument (StringLiteralExpr)
+68 value=''
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='assertFalse'
+73 arguments
+74 argument (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='test'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='isInteger'
+80 arguments
+81 argument (NullLiteralExpr)
+82 type (VoidType)
+83 name (SimpleName)
+84 identifier='testIsInstanceOf_apply'
+85 annotations
+86 annotation (SingleMemberAnnotationExpr)
+87 memberValue (StringLiteralExpr)
+88 value='Predicates.instanceOf'
+89 name (Name)
+90 identifier='GwtIncompatible'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+0 82
+0 83
+83 84
+0 85
+85 86
+86 87
+87 88
+86 89
+89 90
+
+Tests for Predicates.instanceOf(x). TODO: Fix the comment style after fixing annotation stripper to remove comments properly.  Currently, all tests before the comments are removed as well.

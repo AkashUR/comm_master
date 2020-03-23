@@ -1,0 +1,194 @@
+96
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='extensionId'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='NetscapeCertType_Id'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='critical'
+19 scope (ThisExpr)
+20 value (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='booleanValue'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='critical'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='extensionValue'
+32 scope (ThisExpr)
+33 value (CastExpr)
+34 expression (NameExpr)
+35 name (SimpleName)
+36 identifier='value'
+37 type (ArrayType)
+38 origin='TYPE'
+39 componentType (PrimitiveType)
+40 type='BYTE'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='DerValue'
+49 arguments
+50 argument (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='extensionValue'
+53 scope (ThisExpr)
+54 name (SimpleName)
+55 identifier='val'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='DerValue'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='bitString'
+65 scope (ThisExpr)
+66 value (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='toBooleanArray'
+69 scope (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getUnalignedBitString'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='val'
+75 name (SimpleName)
+76 identifier='NetscapeCertTypeExtension'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='critical'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='Boolean'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='value'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Object'
+92 thrownExceptions
+93 thrownException (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+29 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+37 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+51 52
+50 53
+44 54
+54 55
+44 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+62 65
+60 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+73 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+77 85
+85 86
+85 87
+87 88
+85 89
+89 90
+90 91
+0 92
+92 93
+93 94
+94 95
+
+Create the extension from the passed DER encoded value of the same.

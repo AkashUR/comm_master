@@ -1,0 +1,294 @@
+146
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='resetSecuritySystemProperties'
+7 statement (ExpressionStmt)
+8 expression (VariableDeclarationExpr)
+9 variables
+10 variable (VariableDeclarator)
+11 initializer (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='loadAuthenticationInformation'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='SecurityHelper'
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='sample.security.properties'
+20 name (SimpleName)
+21 identifier='authInfo'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='AuthenticationInfo'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='assertNotNull'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='authInfo'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (NullLiteralExpr)
+38 name (SimpleName)
+39 identifier='systemProperty'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='String'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (NameExpr)
+47 name (SimpleName)
+48 identifier='systemProperty'
+49 value (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getProperty'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='System'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='javax.net.ssl.keyStore'
+58 argument (NullLiteralExpr)
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='assertNotNull'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='systemProperty'
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='systemProperty'
+73 value (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getProperty'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='System'
+79 arguments
+80 argument (StringLiteralExpr)
+81 value='javax.net.ssl.keyStorePassword'
+82 argument (NullLiteralExpr)
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='assertNotNull'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='systemProperty'
+91 statement (ExpressionStmt)
+92 expression (AssignExpr)
+93 operator='ASSIGN'
+94 target (NameExpr)
+95 name (SimpleName)
+96 identifier='systemProperty'
+97 value (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getProperty'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='System'
+103 arguments
+104 argument (StringLiteralExpr)
+105 value='javax.net.ssl.trustStore'
+106 argument (NullLiteralExpr)
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='assertNotNull'
+111 arguments
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='systemProperty'
+115 statement (ExpressionStmt)
+116 expression (AssignExpr)
+117 operator='ASSIGN'
+118 target (NameExpr)
+119 name (SimpleName)
+120 identifier='systemProperty'
+121 value (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='getProperty'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='System'
+127 arguments
+128 argument (StringLiteralExpr)
+129 value='javax.net.ssl.trustStorePassword'
+130 argument (NullLiteralExpr)
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='assertNotNull'
+135 arguments
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='systemProperty'
+139 type (VoidType)
+140 name (SimpleName)
+141 identifier='testloadAuthenticationInformation_and_setSystemProperties'
+142 thrownExceptions
+143 thrownException (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='ConfigurationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+10 20
+20 21
+10 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+44 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+55 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+79 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+89 90
+2 91
+91 92
+92 93
+92 94
+94 95
+95 96
+92 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+103 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+113 114
+2 115
+115 116
+116 117
+116 118
+118 119
+119 120
+116 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+127 130
+2 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+137 138
+0 139
+0 140
+140 141
+0 142
+142 143
+143 144
+144 145
+
+Confirm that once we have loaded the security information, it becomes available in system properties

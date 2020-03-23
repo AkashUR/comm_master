@@ -1,0 +1,182 @@
+90
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getAll'
+10 name (SimpleName)
+11 identifier='toReadd'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Collection'
+15 typeArguments
+16 typeArgument (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='T'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='cuttoffDistance'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='root'
+28 value (UnaryExpr)
+29 operator='MINUS'
+30 expression (IntegerLiteralExpr)
+31 value='1'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='far'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='root'
+41 value (NullLiteralExpr)
+42 statement (ExpressionStmt)
+43 expression (AssignExpr)
+44 operator='ASSIGN'
+45 target (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='close'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='root'
+51 value (NullLiteralExpr)
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='coordinate'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='root'
+61 value (NullLiteralExpr)
+62 statement (ExpressionStmt)
+63 expression (AssignExpr)
+64 operator='ASSIGN'
+65 target (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='value'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='root'
+71 value (NullLiteralExpr)
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='recomputeSize'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='root'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='add'
+83 arguments
+84 argument (NameExpr)
+85 name (SimpleName)
+86 identifier='toReadd'
+87 type (VoidType)
+88 name (SimpleName)
+89 identifier='rebuild'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+22 25
+25 26
+26 27
+20 28
+28 29
+28 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+35 38
+38 39
+39 40
+33 41
+2 42
+42 43
+43 44
+43 45
+45 46
+46 47
+45 48
+48 49
+49 50
+43 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+55 58
+58 59
+59 60
+53 61
+2 62
+62 63
+63 64
+63 65
+65 66
+66 67
+65 68
+68 69
+69 70
+63 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+85 86
+0 87
+0 88
+88 89
+
+rebuilds the full tree. Might help to rebalance a tree imbalanced by removals, or make a tree with lots of invalidated values smaller.

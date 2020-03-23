@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='MyCertificate'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='TEST_TYPE'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='testEncoding'
+17 name (SimpleName)
+18 identifier='c1'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Certificate'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='MyCertificate'
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='TEST_TYPE'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='testEncoding'
+36 name (SimpleName)
+37 identifier='c2'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Certificate'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='assertTrue'
+45 arguments
+46 argument (BinaryExpr)
+47 operator='AND'
+48 left (EnclosedExpr)
+49 inner (BinaryExpr)
+50 operator='EQUALS'
+51 left (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='hashCode'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='c1'
+57 right (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='hashCode'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='c2'
+63 right (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='equals'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='c1'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='c2'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='assertFalse'
+77 arguments
+78 argument (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='equals'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='cert'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='c1'
+88 type (VoidType)
+89 name (SimpleName)
+90 identifier='testHashCodeEqualsObject'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+30 33
+33 34
+34 35
+25 36
+36 37
+25 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+46 48
+48 49
+49 50
+49 51
+51 52
+52 53
+51 54
+54 55
+55 56
+49 57
+57 58
+58 59
+57 60
+60 61
+61 62
+46 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+0 88
+0 89
+89 90
+
+Test for <code>hashCode()</code> method<br> Assertion: hash code of equal objects should be the same

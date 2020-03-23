@@ -1,0 +1,220 @@
+109
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (VariableDeclarationExpr)
+8 variables
+9 variable (VariableDeclarator)
+10 initializer (CastExpr)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='next'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='nodeIt'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Node'
+20 name (SimpleName)
+21 identifier='graphNode'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Node'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='addNode'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='nodes'
+35 arguments
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getCoordinate'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='graphNode'
+42 name (SimpleName)
+43 identifier='newNode'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='Node'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='setLabel'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='newNode'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='argIndex'
+58 argument (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='getLocation'
+61 scope (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getLabel'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='graphNode'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='argIndex'
+71 compare (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='hasNext'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='nodeIt'
+77 initialization
+78 initializatio (VariableDeclarationExpr)
+79 variables
+80 variable (VariableDeclarator)
+81 initializer (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getNodeIterator'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='geomGraph'
+87 name (SimpleName)
+88 identifier='nodeIt'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Iterator'
+92 type (VoidType)
+93 name (SimpleName)
+94 identifier='copyNodesAndLabels'
+95 parameters
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='geomGraph'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='GeometryGraph'
+103 parameter (Parameter)
+104 isVarArgs='false'
+105 name (SimpleName)
+106 identifier='argIndex'
+107 type (PrimitiveType)
+108 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+9 20
+20 21
+9 22
+22 23
+23 24
+5 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+28 42
+42 43
+28 44
+44 45
+45 46
+5 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+58 61
+61 62
+62 63
+61 64
+64 65
+65 66
+58 67
+67 68
+68 69
+69 70
+3 71
+71 72
+72 73
+71 74
+74 75
+75 76
+3 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+80 87
+87 88
+80 89
+89 90
+90 91
+0 92
+0 93
+93 94
+0 95
+95 96
+96 97
+96 98
+98 99
+96 100
+100 101
+101 102
+95 103
+103 104
+103 105
+105 106
+103 107
+107 108
+
+Copy all nodes from an arg geometry into this graph. The node label in the arg geometry overrides any previously computed label for that argIndex. (E.g. a node may be an intersection node with a computed label of BOUNDARY, but in the original arg Geometry it is actually in the interior due to the Boundary Determination Rule)

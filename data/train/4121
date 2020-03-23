@@ -1,0 +1,286 @@
+142
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clearTemporaryRegisters'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='m_taintedRegs'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='clearTemporaryRegisters'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='m_newlyTaintedRegs'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='clearTemporaryRegisters'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='m_untaintedRegs'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='clearTemporaryRegisters'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='m_readRegs'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='clearTemporaryRegisters'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='m_updatedRegs'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (NameExpr)
+47 name (SimpleName)
+48 identifier='m_nativeNewlyTaintedRegs'
+49 value (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='copyOf'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='ImmutableSet'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='m_newlyTaintedRegs'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='m_nativeUntaintedRegs'
+65 value (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='copyOf'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='ImmutableSet'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='m_untaintedRegs'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='ASSIGN'
+78 target (NameExpr)
+79 name (SimpleName)
+80 identifier='m_nativeReadRegs'
+81 value (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='copyOf'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='ImmutableSet'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='m_readRegs'
+91 statement (ExpressionStmt)
+92 expression (AssignExpr)
+93 operator='ASSIGN'
+94 target (NameExpr)
+95 name (SimpleName)
+96 identifier='m_nativeUpdatedRegs'
+97 value (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='copyOf'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='ImmutableSet'
+103 arguments
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='m_updatedRegs'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='clear'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='m_newlyTaintedRegs'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='clear'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='m_untaintedRegs'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='clear'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='m_readRegs'
+128 statement (ExpressionStmt)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='clear'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='m_updatedRegs'
+135 type (VoidType)
+136 name (SimpleName)
+137 identifier='onInstructionExit'
+138 annotations
+139 annotation (MarkerAnnotationExpr)
+140 name (Name)
+141 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+44 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+73 74
+2 75
+75 76
+76 77
+76 78
+78 79
+79 80
+76 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+2 91
+91 92
+92 93
+92 94
+94 95
+95 96
+92 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+2 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+0 135
+0 136
+136 137
+0 138
+138 139
+139 140
+140 141
+
+Function to be called if a native instruction exit edge is traversed. Moves all internal state to the external visible native state. Also clears the temporary registers from all of the sets to prevent tracking REIL temporary registers past native instruction boundaries.

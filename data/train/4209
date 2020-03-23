@@ -1,0 +1,278 @@
+138
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='instructionsRV'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='RecyclerView'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='instructionsAdapter'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Adapter'
+21 scope (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='RecyclerView'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 name (SimpleName)
+29 identifier='instructionsLayoutManager'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='LayoutManager'
+33 scope (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='RecyclerView'
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (NameExpr)
+40 name (SimpleName)
+41 identifier='instructionsRV'
+42 value (CastExpr)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='findViewById'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='activity'
+49 arguments
+50 argument (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='nav_instruction_recycler_view'
+53 scope (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='id'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='R'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='RecyclerView'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='setHasFixedSize'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='instructionsRV'
+69 arguments
+70 argument (BooleanLiteralExpr)
+71 value='true'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (NameExpr)
+76 name (SimpleName)
+77 identifier='instructionsLayoutManager'
+78 value (ObjectCreationExpr)
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='LinearLayoutManager'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='activity'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='setLayoutManager'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='instructionsRV'
+93 arguments
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='instructionsLayoutManager'
+97 statement (ExpressionStmt)
+98 expression (AssignExpr)
+99 operator='ASSIGN'
+100 target (NameExpr)
+101 name (SimpleName)
+102 identifier='instructionsAdapter'
+103 value (ObjectCreationExpr)
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='InstructionAdapter'
+107 arguments
+108 argument (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='getInstructions'
+111 scope (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='getGhResponse'
+114 scope (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='getNavigator'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='Navigator'
+120 statement (ExpressionStmt)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='setAdapter'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='instructionsRV'
+127 arguments
+128 argument (NameExpr)
+129 name (SimpleName)
+130 identifier='instructionsAdapter'
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='initNavListView'
+135 type (VoidType)
+136 name (SimpleName)
+137 identifier='activeDirections'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+37 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+42 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+87 93
+93 94
+94 95
+95 96
+2 97
+97 98
+98 99
+98 100
+100 101
+101 102
+98 103
+103 104
+104 105
+105 106
+103 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+111 114
+114 115
+115 116
+114 117
+117 118
+118 119
+2 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+129 130
+2 131
+131 132
+132 133
+133 134
+0 135
+0 136
+136 137
+
+active directions, and directions view

@@ -1,0 +1,508 @@
+253
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='element'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Node'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='ownerElement'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Element'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='parentElement'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Element'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 name (SimpleName)
+44 identifier='elementList'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='NodeList'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 name (SimpleName)
+53 identifier='ownerElementName'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 name (SimpleName)
+62 identifier='attr'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Attr'
+66 statement (ExpressionStmt)
+67 expression (VariableDeclarationExpr)
+68 variables
+69 variable (VariableDeclarator)
+70 name (SimpleName)
+71 identifier='removedChild'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Node'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 name (SimpleName)
+80 identifier='nodeMap'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='NamedNodeMap'
+84 statement (ExpressionStmt)
+85 expression (VariableDeclarationExpr)
+86 variables
+87 variable (VariableDeclarator)
+88 initializer (NullLiteralExpr)
+89 name (SimpleName)
+90 identifier='nullNS'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='String'
+94 statement (ExpressionStmt)
+95 expression (AssignExpr)
+96 operator='ASSIGN'
+97 target (NameExpr)
+98 name (SimpleName)
+99 identifier='doc'
+100 value (CastExpr)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='load'
+104 arguments
+105 argument (StringLiteralExpr)
+106 value='staffNS'
+107 argument (BooleanLiteralExpr)
+108 value='true'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='Document'
+112 statement (ExpressionStmt)
+113 expression (AssignExpr)
+114 operator='ASSIGN'
+115 target (NameExpr)
+116 name (SimpleName)
+117 identifier='elementList'
+118 value (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='getElementsByTagNameNS'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='doc'
+124 arguments
+125 argument (StringLiteralExpr)
+126 value='*'
+127 argument (StringLiteralExpr)
+128 value='address'
+129 statement (ExpressionStmt)
+130 expression (AssignExpr)
+131 operator='ASSIGN'
+132 target (NameExpr)
+133 name (SimpleName)
+134 identifier='element'
+135 value (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='item'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='elementList'
+141 arguments
+142 argument (IntegerLiteralExpr)
+143 value='1'
+144 statement (ExpressionStmt)
+145 expression (AssignExpr)
+146 operator='ASSIGN'
+147 target (NameExpr)
+148 name (SimpleName)
+149 identifier='parentElement'
+150 value (CastExpr)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='getParentNode'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='element'
+157 type (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='Element'
+160 statement (ExpressionStmt)
+161 expression (AssignExpr)
+162 operator='ASSIGN'
+163 target (NameExpr)
+164 name (SimpleName)
+165 identifier='nodeMap'
+166 value (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='getAttributes'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='element'
+172 statement (ExpressionStmt)
+173 expression (AssignExpr)
+174 operator='ASSIGN'
+175 target (NameExpr)
+176 name (SimpleName)
+177 identifier='removedChild'
+178 value (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='removeChild'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='parentElement'
+184 arguments
+185 argument (NameExpr)
+186 name (SimpleName)
+187 identifier='element'
+188 statement (ExpressionStmt)
+189 expression (AssignExpr)
+190 operator='ASSIGN'
+191 target (NameExpr)
+192 name (SimpleName)
+193 identifier='attr'
+194 value (CastExpr)
+195 expression (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='getNamedItemNS'
+198 scope (NameExpr)
+199 name (SimpleName)
+200 identifier='nodeMap'
+201 arguments
+202 argument (NameExpr)
+203 name (SimpleName)
+204 identifier='nullNS'
+205 argument (StringLiteralExpr)
+206 value='street'
+207 type (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='Attr'
+210 statement (ExpressionStmt)
+211 expression (AssignExpr)
+212 operator='ASSIGN'
+213 target (NameExpr)
+214 name (SimpleName)
+215 identifier='ownerElement'
+216 value (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='getOwnerElement'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='attr'
+222 statement (ExpressionStmt)
+223 expression (AssignExpr)
+224 operator='ASSIGN'
+225 target (NameExpr)
+226 name (SimpleName)
+227 identifier='ownerElementName'
+228 value (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='getNodeName'
+231 scope (NameExpr)
+232 name (SimpleName)
+233 identifier='ownerElement'
+234 statement (ExpressionStmt)
+235 expression (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='assertEquals'
+238 arguments
+239 argument (StringLiteralExpr)
+240 value='attrgetownerelement05'
+241 argument (StringLiteralExpr)
+242 value='address'
+243 argument (NameExpr)
+244 name (SimpleName)
+245 identifier='ownerElementName'
+246 type (VoidType)
+247 name (SimpleName)
+248 identifier='runTest'
+249 thrownExceptions
+250 thrownException (ClassOrInterfaceType)
+251 name (SimpleName)
+252 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+2 94
+94 95
+95 96
+95 97
+97 98
+98 99
+95 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+104 107
+107 108
+100 109
+109 110
+110 111
+2 112
+112 113
+113 114
+113 115
+115 116
+116 117
+113 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+124 127
+127 128
+2 129
+129 130
+130 131
+130 132
+132 133
+133 134
+130 135
+135 136
+136 137
+135 138
+138 139
+139 140
+135 141
+141 142
+142 143
+2 144
+144 145
+145 146
+145 147
+147 148
+148 149
+145 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+150 157
+157 158
+158 159
+2 160
+160 161
+161 162
+161 163
+163 164
+164 165
+161 166
+166 167
+167 168
+166 169
+169 170
+170 171
+2 172
+172 173
+173 174
+173 175
+175 176
+176 177
+173 178
+178 179
+179 180
+178 181
+181 182
+182 183
+178 184
+184 185
+185 186
+186 187
+2 188
+188 189
+189 190
+189 191
+191 192
+192 193
+189 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+195 201
+201 202
+202 203
+203 204
+201 205
+205 206
+194 207
+207 208
+208 209
+2 210
+210 211
+211 212
+211 213
+213 214
+214 215
+211 216
+216 217
+217 218
+216 219
+219 220
+220 221
+2 222
+222 223
+223 224
+223 225
+225 226
+226 227
+223 228
+228 229
+229 230
+228 231
+231 232
+232 233
+2 234
+234 235
+235 236
+236 237
+235 238
+238 239
+239 240
+238 241
+241 242
+238 243
+243 244
+244 245
+0 246
+0 247
+247 248
+0 249
+249 250
+250 251
+251 252
+
+Runs the test case.

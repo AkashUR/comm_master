@@ -1,0 +1,100 @@
+49
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='accountRepository'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='accountRepository'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='info'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='logger'
+20 arguments
+21 argument (BinaryExpr)
+22 operator='PLUS'
+23 left (BinaryExpr)
+24 operator='PLUS'
+25 left (StringLiteralExpr)
+26 value='AccountRepository says system has '
+27 right (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='countAccounts'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='accountRepository'
+33 right (StringLiteralExpr)
+34 value=' accounts'
+35 name (SimpleName)
+36 identifier='AccountsController'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='accountRepository'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='AccountRepository'
+45 annotations
+46 annotation (MarkerAnnotationExpr)
+47 name (Name)
+48 identifier='Autowired'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+21 23
+23 24
+23 25
+25 26
+23 27
+27 28
+28 29
+27 30
+30 31
+31 32
+21 33
+33 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+0 45
+45 46
+46 47
+47 48
+
+Create an instance plugging in the respository of Accounts.

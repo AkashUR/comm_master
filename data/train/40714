@@ -1,0 +1,360 @@
+179
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='singletonList'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Collections'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='shard'
+17 name (SimpleName)
+18 identifier='singleton'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='List'
+22 typeArguments
+23 typeArgument (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='ShardRouting'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='shardId'
+32 scope (ThisExpr)
+33 value (NameExpr)
+34 name (SimpleName)
+35 identifier='shardId'
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='shards'
+42 scope (ThisExpr)
+43 value (NameExpr)
+44 name (SimpleName)
+45 identifier='singleton'
+46 statement (ExpressionStmt)
+47 expression (AssignExpr)
+48 operator='ASSIGN'
+49 target (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='allShardsStarted'
+52 scope (ThisExpr)
+53 value (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='started'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='shard'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='primary'
+65 scope (ThisExpr)
+66 value (NameExpr)
+67 name (SimpleName)
+68 identifier='shard'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='primaryAsList'
+75 scope (ThisExpr)
+76 value (NameExpr)
+77 name (SimpleName)
+78 identifier='singleton'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='replicas'
+85 scope (ThisExpr)
+86 value (NameExpr)
+87 name (SimpleName)
+88 identifier='EMPTY_LIST'
+89 statement (ExpressionStmt)
+90 expression (AssignExpr)
+91 operator='ASSIGN'
+92 target (FieldAccessExpr)
+93 name (SimpleName)
+94 identifier='activeShards'
+95 scope (ThisExpr)
+96 value (ConditionalExpr)
+97 condition (EnclosedExpr)
+98 inner (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='active'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='shard'
+104 elseExpr (NameExpr)
+105 name (SimpleName)
+106 identifier='EMPTY_LIST'
+107 thenExpr (NameExpr)
+108 name (SimpleName)
+109 identifier='singleton'
+110 statement (ExpressionStmt)
+111 expression (AssignExpr)
+112 operator='ASSIGN'
+113 target (FieldAccessExpr)
+114 name (SimpleName)
+115 identifier='allInitializingShards'
+116 scope (ThisExpr)
+117 value (ConditionalExpr)
+118 condition (EnclosedExpr)
+119 inner (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='initializing'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='shard'
+125 elseExpr (NameExpr)
+126 name (SimpleName)
+127 identifier='EMPTY_LIST'
+128 thenExpr (NameExpr)
+129 name (SimpleName)
+130 identifier='singleton'
+131 statement (ExpressionStmt)
+132 expression (AssignExpr)
+133 operator='ASSIGN'
+134 target (FieldAccessExpr)
+135 name (SimpleName)
+136 identifier='assignedShards'
+137 scope (ThisExpr)
+138 value (ConditionalExpr)
+139 condition (EnclosedExpr)
+140 inner (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='assignedToNode'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='shard'
+146 elseExpr (NameExpr)
+147 name (SimpleName)
+148 identifier='EMPTY_LIST'
+149 thenExpr (NameExpr)
+150 name (SimpleName)
+151 identifier='singleton'
+152 statement (ExpressionStmt)
+153 expression (AssignExpr)
+154 operator='ASSIGN'
+155 target (FieldAccessExpr)
+156 name (SimpleName)
+157 identifier='shuffler'
+158 scope (ThisExpr)
+159 value (NameExpr)
+160 name (SimpleName)
+161 identifier='DUMMY_SHARD_SHUFFLER'
+162 name (SimpleName)
+163 identifier='IndexShardRoutingTable'
+164 parameters
+165 parameter (Parameter)
+166 isVarArgs='false'
+167 name (SimpleName)
+168 identifier='shardId'
+169 type (ClassOrInterfaceType)
+170 name (SimpleName)
+171 identifier='ShardId'
+172 parameter (Parameter)
+173 isVarArgs='false'
+174 name (SimpleName)
+175 identifier='shard'
+176 type (ClassOrInterfaceType)
+177 name (SimpleName)
+178 identifier='ShardRouting'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+29 32
+27 33
+33 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+39 42
+37 43
+43 44
+44 45
+2 46
+46 47
+47 48
+47 49
+49 50
+50 51
+49 52
+47 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+62 65
+60 66
+66 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+72 75
+70 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+82 85
+80 86
+86 87
+87 88
+2 89
+89 90
+90 91
+90 92
+92 93
+93 94
+92 95
+90 96
+96 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+96 104
+104 105
+105 106
+96 107
+107 108
+108 109
+2 110
+110 111
+111 112
+111 113
+113 114
+114 115
+113 116
+111 117
+117 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+117 125
+125 126
+126 127
+117 128
+128 129
+129 130
+2 131
+131 132
+132 133
+132 134
+134 135
+135 136
+134 137
+132 138
+138 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+138 146
+146 147
+147 148
+138 149
+149 150
+150 151
+2 152
+152 153
+153 154
+153 155
+155 156
+156 157
+155 158
+153 159
+159 160
+160 161
+0 162
+162 163
+0 164
+164 165
+165 166
+165 167
+167 168
+165 169
+169 170
+170 171
+164 172
+172 173
+172 174
+174 175
+172 176
+176 177
+177 178
+
+Elassandra default ctor for single primary shard IndexShardRoutingTable

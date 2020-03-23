@@ -1,0 +1,120 @@
+59
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='extensionId'
+9 scope (ThisExpr)
+10 value (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='ReasonCode_Id'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='PKIXExtensions'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='critical'
+22 scope (ThisExpr)
+23 value (NameExpr)
+24 name (SimpleName)
+25 identifier='critical'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='reasonCode'
+32 scope (ThisExpr)
+33 value (NameExpr)
+34 name (SimpleName)
+35 identifier='reason'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='encodeThis'
+40 name (SimpleName)
+41 identifier='CRLReasonCodeExtension'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='critical'
+47 type (PrimitiveType)
+48 type='BOOLEAN'
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='reason'
+53 type (PrimitiveType)
+54 type='INT'
+55 thrownExceptions
+56 thrownException (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+29 32
+27 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+42 49
+49 50
+49 51
+51 52
+49 53
+53 54
+0 55
+55 56
+56 57
+57 58
+
+Create a CRLReasonCodeExtension with the passed in reason.

@@ -1,0 +1,66 @@
+32
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertIsMutable'
+7 statement (ExpressionStmt)
+8 expression (AssignExpr)
+9 operator='ASSIGN'
+10 target (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='originalDbValues'
+13 scope (ThisExpr)
+14 value (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='unmodifiableMap'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Collections'
+20 arguments
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getAllFields'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='clearChanged'
+28 scope (ThisExpr)
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='synchronizedWithDatasource'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+10 13
+8 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+0 29
+0 30
+30 31
+
+Flags this object as being synchronized with the data source. The entity engine will call this method immediately after populating this object with data from the data source.

@@ -1,0 +1,212 @@
+105
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rotateM'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Matrix'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='modelCube'
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='TIME_DELTA'
+19 argument (DoubleLiteralExpr)
+20 value='0.5f'
+21 argument (DoubleLiteralExpr)
+22 value='0.5f'
+23 argument (DoubleLiteralExpr)
+24 value='1.0f'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='setLookAtM'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='Matrix'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='camera'
+36 argument (IntegerLiteralExpr)
+37 value='0'
+38 argument (DoubleLiteralExpr)
+39 value='0.0f'
+40 argument (DoubleLiteralExpr)
+41 value='0.0f'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='CAMERA_Z'
+45 argument (DoubleLiteralExpr)
+46 value='0.0f'
+47 argument (DoubleLiteralExpr)
+48 value='0.0f'
+49 argument (DoubleLiteralExpr)
+50 value='0.0f'
+51 argument (DoubleLiteralExpr)
+52 value='0.0f'
+53 argument (DoubleLiteralExpr)
+54 value='1.0f'
+55 argument (DoubleLiteralExpr)
+56 value='0.0f'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='getHeadView'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='headTransform'
+64 arguments
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='headView'
+68 argument (IntegerLiteralExpr)
+69 value='0'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getQuaternion'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='headTransform'
+77 arguments
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='headRotation'
+81 argument (IntegerLiteralExpr)
+82 value='0'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='checkGLError'
+87 arguments
+88 argument (StringLiteralExpr)
+89 value='onReadyToDraw'
+90 type (VoidType)
+91 name (SimpleName)
+92 identifier='onNewFrame'
+93 parameters
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='headTransform'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='HeadTransform'
+101 annotations
+102 annotation (MarkerAnnotationExpr)
+103 name (Name)
+104 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+10 16
+16 17
+17 18
+10 19
+19 20
+10 21
+21 22
+10 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+32 36
+36 37
+32 38
+38 39
+32 40
+40 41
+32 42
+42 43
+43 44
+32 45
+45 46
+32 47
+47 48
+32 49
+49 50
+32 51
+51 52
+32 53
+53 54
+32 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+58 64
+64 65
+65 66
+66 67
+64 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+71 77
+77 78
+78 79
+79 80
+77 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+0 90
+0 91
+91 92
+0 93
+93 94
+94 95
+94 96
+96 97
+94 98
+98 99
+99 100
+0 101
+101 102
+102 103
+103 104
+
+Prepares OpenGL ES before we draw a frame.

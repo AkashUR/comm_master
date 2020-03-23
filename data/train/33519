@@ -1,0 +1,214 @@
+106
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='StringReader'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='ridding of some stemming'
+14 name (SimpleName)
+15 identifier='reader'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Reader'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='whitespaceMockTokenizer'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='reader'
+30 name (SimpleName)
+31 identifier='stream'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='TokenStream'
+35 statement (ExpressionStmt)
+36 expression (AssignExpr)
+37 operator='ASSIGN'
+38 target (NameExpr)
+39 name (SimpleName)
+40 identifier='stream'
+41 value (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='create'
+44 scope (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='tokenFilterFactory'
+47 arguments
+48 argument (StringLiteralExpr)
+49 value='SnowballPorter'
+50 argument (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='LATEST'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='Version'
+56 argument (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='StringMockResourceLoader'
+60 arguments
+61 argument (StringLiteralExpr)
+62 value='ridding'
+63 argument (StringLiteralExpr)
+64 value='protected'
+65 argument (StringLiteralExpr)
+66 value='protwords.txt'
+67 argument (StringLiteralExpr)
+68 value='language'
+69 argument (StringLiteralExpr)
+70 value='English'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='stream'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='assertTokenStreamContents'
+79 arguments
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='stream'
+83 argument (ArrayCreationExpr)
+84 elementType (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='String'
+87 initializer (ArrayInitializerExpr)
+88 values
+89 value (StringLiteralExpr)
+90 value='ridding'
+91 value (StringLiteralExpr)
+92 value='of'
+93 value (StringLiteralExpr)
+94 value='some'
+95 value (StringLiteralExpr)
+96 value='stem'
+97 levels
+98 level (ArrayCreationLevel)
+99 type (VoidType)
+100 name (SimpleName)
+101 identifier='testProtected'
+102 thrownExceptions
+103 thrownException (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+22 30
+30 31
+22 32
+32 33
+33 34
+2 35
+35 36
+36 37
+36 38
+38 39
+39 40
+36 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+54 55
+47 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+47 63
+63 64
+47 65
+65 66
+47 67
+67 68
+47 69
+69 70
+41 71
+71 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+79 83
+83 84
+84 85
+85 86
+83 87
+87 88
+88 89
+89 90
+88 91
+91 92
+88 93
+93 94
+88 95
+95 96
+83 97
+97 98
+0 99
+0 100
+100 101
+0 102
+102 103
+103 104
+104 105
+
+Test the protected words mechanism of SnowballPorterFilterFactory

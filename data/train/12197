@@ -1,0 +1,222 @@
+110
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getInstance'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='DataReductionProxySettings'
+13 name (SimpleName)
+14 identifier='config'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='DataReductionProxySettings'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (CastExpr)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='findPreference'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getPreferenceScreen'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='PREF_DATA_REDUCTION_STATS'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='DataReductionStatsPreference'
+36 name (SimpleName)
+37 identifier='statsPref'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='DataReductionStatsPreference'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getOriginalNetworkStatsHistory'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='config'
+51 name (SimpleName)
+52 identifier='original'
+53 type (ArrayType)
+54 origin='NAME'
+55 componentType (PrimitiveType)
+56 type='LONG'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getReceivedNetworkStatsHistory'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='config'
+67 name (SimpleName)
+68 identifier='received'
+69 type (ArrayType)
+70 origin='NAME'
+71 componentType (PrimitiveType)
+72 type='LONG'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='setReductionStats'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='statsPref'
+80 arguments
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getDataReductionLastUpdateTime'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='config'
+87 argument (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='getNetworkStatsHistory'
+90 arguments
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='original'
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='DAYS_IN_CHART'
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getNetworkStatsHistory'
+100 arguments
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='received'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='DAYS_IN_CHART'
+107 type (VoidType)
+108 name (SimpleName)
+109 identifier='updateReductionStatistics'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+22 33
+33 34
+34 35
+21 36
+36 37
+21 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+44 51
+51 52
+44 53
+53 54
+53 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+60 67
+67 68
+60 69
+69 70
+69 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+80 87
+87 88
+88 89
+87 90
+90 91
+91 92
+92 93
+90 94
+94 95
+95 96
+80 97
+97 98
+98 99
+97 100
+100 101
+101 102
+102 103
+100 104
+104 105
+105 106
+0 107
+0 108
+108 109
+
+Updates the preference screen to convey current statistics on data reduction.

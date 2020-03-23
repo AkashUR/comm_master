@@ -1,0 +1,42 @@
+20
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='reportSimUnlocked'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getDefaultSubscription'
+11 scope (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getDefault'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='MSimTelephonyManager'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='reportSimUnlocked'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+15 16
+0 17
+0 18
+18 19
+
+Report that the user successfully entered the SIM PIN or PUK/SIM PIN so we have the information earlier than waiting for the intent broadcast from the telephony code. NOTE: Because handleSimStateChange() invokes callbacks immediately without going through mHandler, this *must* be called from the UI thread.

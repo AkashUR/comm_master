@@ -1,0 +1,180 @@
+89
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='XYShapeRenderer'
+11 name (SimpleName)
+12 identifier='r1'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='XYShapeRenderer'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (CastExpr)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='clone'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='r1'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='XYShapeRenderer'
+30 name (SimpleName)
+31 identifier='r2'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='XYShapeRenderer'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='assertTrue'
+39 arguments
+40 argument (BinaryExpr)
+41 operator='NOT_EQUALS'
+42 left (NameExpr)
+43 name (SimpleName)
+44 identifier='r1'
+45 right (NameExpr)
+46 name (SimpleName)
+47 identifier='r2'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='assertTrue'
+52 arguments
+53 argument (BinaryExpr)
+54 operator='EQUALS'
+55 left (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='getClass'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='r1'
+61 right (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getClass'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='r2'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='assertTrue'
+71 arguments
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='equals'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='r1'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='r2'
+82 type (VoidType)
+83 name (SimpleName)
+84 identifier='testCloning'
+85 thrownExceptions
+86 thrownException (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='CloneNotSupportedException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+20 27
+27 28
+28 29
+19 30
+30 31
+19 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+53 55
+55 56
+56 57
+55 58
+58 59
+59 60
+53 61
+61 62
+62 63
+61 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+0 82
+0 83
+83 84
+0 85
+85 86
+86 87
+87 88
+
+Confirm that cloning works.

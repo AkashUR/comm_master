@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='deleteMessage'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='amazonSqsToBeExtended'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='deleteMessageRequest'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='deleteMessage'
+17 parameters
+18 parameter (Parameter)
+19 isVarArgs='false'
+20 name (SimpleName)
+21 identifier='deleteMessageRequest'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='DeleteMessageRequest'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+18 20
+20 21
+18 22
+22 23
+23 24
+
+<p> Deletes the specified message from the specified queue. You specify the message by using the message's <code>receipt handle</code> and not the <code>message ID</code> you received when you sent the message. Even if the message is locked by another reader due to the visibility timeout setting, it is still deleted from the queue. If you leave a message in the queue for longer than the queue's configured retention period, Amazon SQS automatically deletes it. </p> <p> <b>NOTE:</b> The receipt handle is associated with a specific instance of receiving the message. If you receive a message more than once, the receipt handle you get each time you receive the message is different. When you request DeleteMessage, if you don't provide the most recently received receipt handle for the message, the request will still succeed, but the message might not be deleted. </p> <p> <b>IMPORTANT:</b> It is possible you will receive a message even after you have deleted it. This might happen on rare occasions if one of the servers storing a copy of the message is unavailable when you request to delete the message. The copy remains on the server and might be returned to you again on a subsequent receive request. You should create your system to be idempotent so that receiving a particular message more than once is not a problem. </p>

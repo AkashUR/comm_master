@@ -1,0 +1,484 @@
+241
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Debug'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='put'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='Debug'
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='Lambert'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (NullLiteralExpr)
+25 name (SimpleName)
+26 identifier='proj'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='LambertConformal'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='proj'
+36 value (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='LambertConformal'
+40 arguments
+41 argument (ObjectCreationExpr)
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Double'
+45 scope (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='LatLonPoint'
+48 arguments
+49 argument (DoubleLiteralExpr)
+50 value='50.679572292f'
+51 argument (DoubleLiteralExpr)
+52 value='5.807370150f'
+53 argument (DoubleLiteralExpr)
+54 value='100000.0f'
+55 argument (IntegerLiteralExpr)
+56 value='620'
+57 argument (IntegerLiteralExpr)
+58 value='480'
+59 argument (DoubleLiteralExpr)
+60 value='4.3569395237f'
+61 argument (UnaryExpr)
+62 operator='MINUS'
+63 expression (DoubleLiteralExpr)
+64 value='49.833333109f'
+65 argument (UnaryExpr)
+66 operator='MINUS'
+67 expression (DoubleLiteralExpr)
+68 value='51.166666321f'
+69 argument (DoubleLiteralExpr)
+70 value='90.0f'
+71 argument (DoubleLiteralExpr)
+72 value='150000.01f'
+73 argument (DoubleLiteralExpr)
+74 value='5400088.44f'
+75 argument (FieldAccessExpr)
+76 name (SimpleName)
+77 identifier='WGS_84'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='Ellipsoid'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='message'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='Debug'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='Lambert'
+91 argument (BinaryExpr)
+92 operator='PLUS'
+93 left (StringLiteralExpr)
+94 value='(1)'
+95 right (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='inverse'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='proj'
+101 arguments
+102 argument (IntegerLiteralExpr)
+103 value='310'
+104 argument (IntegerLiteralExpr)
+105 value='240'
+106 statement (ExpressionStmt)
+107 expression (VariableDeclarationExpr)
+108 variables
+109 variable (VariableDeclarator)
+110 initializer (ObjectCreationExpr)
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='Double'
+114 scope (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='LatLonPoint'
+117 arguments
+118 argument (DoubleLiteralExpr)
+119 value='0.0f'
+120 argument (DoubleLiteralExpr)
+121 value='0.0f'
+122 name (SimpleName)
+123 identifier='llp'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='LatLonPoint'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='message'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='Debug'
+134 arguments
+135 argument (StringLiteralExpr)
+136 value='Lambert'
+137 argument (BinaryExpr)
+138 operator='PLUS'
+139 left (StringLiteralExpr)
+140 value='(2)'
+141 right (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='worldToLL'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='proj'
+147 arguments
+148 argument (DoubleLiteralExpr)
+149 value='251763.20f'
+150 argument (DoubleLiteralExpr)
+151 value='153034.13f'
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='llp'
+155 statement (ExpressionStmt)
+156 expression (VariableDeclarationExpr)
+157 variables
+158 variable (VariableDeclarator)
+159 initializer (ObjectCreationExpr)
+160 type (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='Double'
+163 scope (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='LatLonPoint'
+166 arguments
+167 argument (DoubleLiteralExpr)
+168 value='50.679572292f'
+169 argument (DoubleLiteralExpr)
+170 value='5.807370150f'
+171 name (SimpleName)
+172 identifier='pt'
+173 type (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='LatLonPoint'
+176 statement (ExpressionStmt)
+177 expression (VariableDeclarationExpr)
+178 variables
+179 variable (VariableDeclarator)
+180 initializer (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='LLToWorld'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='proj'
+186 arguments
+187 argument (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='getY'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='pt'
+193 argument (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='getX'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='pt'
+199 argument (ObjectCreationExpr)
+200 type (ClassOrInterfaceType)
+201 name (SimpleName)
+202 identifier='Double'
+203 scope (ClassOrInterfaceType)
+204 name (SimpleName)
+205 identifier='Point2D'
+206 name (SimpleName)
+207 identifier='lp'
+208 type (ClassOrInterfaceType)
+209 name (SimpleName)
+210 identifier='Point2D'
+211 statement (ExpressionStmt)
+212 expression (MethodCallExpr)
+213 name (SimpleName)
+214 identifier='message'
+215 scope (NameExpr)
+216 name (SimpleName)
+217 identifier='Debug'
+218 arguments
+219 argument (StringLiteralExpr)
+220 value='Lambert'
+221 argument (BinaryExpr)
+222 operator='PLUS'
+223 left (StringLiteralExpr)
+224 value='(3)'
+225 right (NameExpr)
+226 name (SimpleName)
+227 identifier='lp'
+228 type (VoidType)
+229 name (SimpleName)
+230 identifier='main'
+231 parameters
+232 parameter (Parameter)
+233 isVarArgs='false'
+234 name (SimpleName)
+235 identifier='argv'
+236 type (ArrayType)
+237 origin='NAME'
+238 componentType (ClassOrInterfaceType)
+239 name (SimpleName)
+240 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+23 25
+25 26
+23 27
+27 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+41 48
+48 49
+49 50
+48 51
+51 52
+40 53
+53 54
+40 55
+55 56
+40 57
+57 58
+40 59
+59 60
+40 61
+61 62
+61 63
+63 64
+40 65
+65 66
+65 67
+67 68
+40 69
+69 70
+40 71
+71 72
+40 73
+73 74
+40 75
+75 76
+76 77
+75 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+88 91
+91 92
+91 93
+93 94
+91 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+101 104
+104 105
+2 106
+106 107
+107 108
+108 109
+109 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+110 117
+117 118
+118 119
+117 120
+120 121
+109 122
+122 123
+109 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+135 136
+134 137
+137 138
+137 139
+139 140
+137 141
+141 142
+142 143
+141 144
+144 145
+145 146
+141 147
+147 148
+148 149
+147 150
+150 151
+147 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+158 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+159 166
+166 167
+167 168
+166 169
+169 170
+158 171
+171 172
+158 173
+173 174
+174 175
+2 176
+176 177
+177 178
+178 179
+179 180
+180 181
+181 182
+180 183
+183 184
+184 185
+180 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+186 193
+193 194
+194 195
+193 196
+196 197
+197 198
+186 199
+199 200
+200 201
+201 202
+200 203
+203 204
+204 205
+179 206
+206 207
+179 208
+208 209
+209 210
+2 211
+211 212
+212 213
+213 214
+212 215
+215 216
+216 217
+212 218
+218 219
+219 220
+218 221
+221 222
+221 223
+223 224
+221 225
+225 226
+226 227
+0 228
+0 229
+229 230
+0 231
+231 232
+232 233
+232 234
+234 235
+232 236
+236 237
+236 238
+238 239
+239 240
+
+test method

@@ -1,0 +1,156 @@
+77
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='filters'
+9 scope (ThisExpr)
+10 value (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='Hashtable'
+14 typeArguments
+15 typeArgument (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='String'
+18 typeArgument (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='ExampleFileFilter'
+21 arguments
+22 argument (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='length'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='filters'
+28 statement (ForeachStmt)
+29 body (BlockStmt)
+30 statements
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='addExtension'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='filter'
+39 iterable (NameExpr)
+40 name (SimpleName)
+41 identifier='filters'
+42 variable (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 name (SimpleName)
+46 identifier='filter'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='String'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='setDescription'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='description'
+58 name (SimpleName)
+59 identifier='ExampleFileFilter'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='filters'
+65 type (ArrayType)
+66 origin='TYPE'
+67 componentType (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='String'
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='description'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+10 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+28 39
+39 40
+40 41
+28 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+65 67
+67 68
+68 69
+60 70
+70 71
+70 72
+72 73
+70 74
+74 75
+75 76
+
+Creates a file filter from the given string array and description. Example: new ExampleFileFilter(String {"gif", "jpg"}, "Gif and JPG Images"); Note that the "." before the extension is not needed and will be ignored.

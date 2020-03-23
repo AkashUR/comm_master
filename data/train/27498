@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NullLiteralExpr)
+8 name (SimpleName)
+9 identifier='handler'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='CompletionHandler'
+13 scope (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Operation'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='buildChildServiceTaskStatusQuerySpec'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='QueryTaskUtils'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getSelfLink'
+30 scope (ThisExpr)
+31 argument (ClassExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='State'
+35 scope (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='ImageDatastoreSweeperService'
+38 argument (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='FINISHED'
+41 scope (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='TaskStage'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='TaskState'
+47 name (SimpleName)
+48 identifier='spec'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='QuerySpecification'
+52 scope (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='QueryTask'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='sendQuery'
+59 scope (ThisExpr)
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='spec'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='handler'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='checkFinishedCount'
+70 parameters
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='current'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='State'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+26 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+26 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+19 47
+47 48
+19 49
+49 50
+50 51
+49 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+56 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+
+Triggers a query to retrieve the "child" ImageDatastoreSweeperService instances in FINISHED state.

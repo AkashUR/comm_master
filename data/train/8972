@@ -1,0 +1,104 @@
+51
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='removeFromTo'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='elements'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='from'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='to'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='MINUS'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='size'
+23 value (BinaryExpr)
+24 operator='PLUS'
+25 left (BinaryExpr)
+26 operator='MINUS'
+27 left (NameExpr)
+28 name (SimpleName)
+29 identifier='to'
+30 right (NameExpr)
+31 name (SimpleName)
+32 identifier='from'
+33 right (IntegerLiteralExpr)
+34 value='1'
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='removeFromTo'
+38 parameters
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='from'
+43 type (PrimitiveType)
+44 type='INT'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='to'
+49 type (PrimitiveType)
+50 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+23 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+31 32
+23 33
+33 34
+0 35
+0 36
+36 37
+0 38
+38 39
+39 40
+39 41
+41 42
+39 43
+43 44
+38 45
+45 46
+45 47
+47 48
+45 49
+49 50
+
+Removes from the receiver all elements whose index is between <code>from</code>, inclusive and <code>to</code>, inclusive.  Shifts any succeeding elements to the left (reduces their index). This call shortens the list by <tt>(to - from + 1)</tt> elements.

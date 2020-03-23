@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='format'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='String'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='%s/%s/suspend'
+16 argument (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getBasePath'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='vmId'
+22 name (SimpleName)
+23 identifier='path'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='String'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='createObjectAsync'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='path'
+35 argument (NullLiteralExpr)
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='responseCallback'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='performSuspendOperationAsync'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='vmId'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='String'
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='responseCallback'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='FutureCallback'
+57 typeArguments
+58 typeArgument (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='Task'
+61 thrownExceptions
+62 thrownException (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+6 22
+22 23
+6 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+31 35
+31 36
+36 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+42 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+0 61
+61 62
+62 63
+63 64
+
+Perform a VM Suspend Operation on specified vm.

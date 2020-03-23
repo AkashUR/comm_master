@@ -1,0 +1,174 @@
+86
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='connect'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='srcContext'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='srcHandler'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getName'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getPackage'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='klass'
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getName'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='klass'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='connect'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='srcContext'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Context'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='srcHandler'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='Handler'
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='klass'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Class'
+54 typeArguments
+55 typeArgument (WildcardType)
+56 annotations
+57 annotation (NormalAnnotationExpr)
+58 name (Name)
+59 identifier='DSGenerator'
+60 pairs
+61 pair (MemberValuePair)
+62 name (SimpleName)
+63 identifier='tool_name'
+64 value (StringLiteralExpr)
+65 value='Doppelganger'
+66 pair (MemberValuePair)
+67 name (SimpleName)
+68 identifier='tool_version'
+69 value (StringLiteralExpr)
+70 value='2.0'
+71 pair (MemberValuePair)
+72 name (SimpleName)
+73 identifier='generated_on'
+74 value (StringLiteralExpr)
+75 value='2013-12-30 12:59:45.498 -0500'
+76 pair (MemberValuePair)
+77 name (SimpleName)
+78 identifier='hash_original_method'
+79 value (StringLiteralExpr)
+80 value='EF115B092B0444968DFDE421B1D070CE'
+81 pair (MemberValuePair)
+82 name (SimpleName)
+83 identifier='hash_generated_method'
+84 value (StringLiteralExpr)
+85 value='C7D761A604DCC217929B7918AB961994'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+7 23
+23 24
+24 25
+23 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+32 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+32 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+51 54
+54 55
+0 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+61 64
+64 65
+60 66
+66 67
+67 68
+66 69
+69 70
+60 71
+71 72
+72 73
+71 74
+74 75
+60 76
+76 77
+77 78
+76 79
+79 80
+60 81
+81 82
+82 83
+81 84
+84 85
+
+Connect handler to a class Sends a CMD_CHANNEL_HALF_CONNECTED message to srcHandler when complete. msg.arg1 = status msg.obj = the AsyncChannel

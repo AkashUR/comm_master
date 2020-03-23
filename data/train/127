@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='beforeRerunningIndexCreationQuery'
+0 1
+0 2
+0 3
+3 4
+
+Asif : Called just before IndexManager executes the function rerunIndexCreationQuery. After this function gets invoked, IndexManager will iterate over all the indexes of the region making the data maps null & re running the index creation query on the region. The method of Index Manager gets executed from the clear function of the Region

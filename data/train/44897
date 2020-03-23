@@ -1,0 +1,170 @@
+84
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='prefix'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getScopedPropertyPrefix'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='PropUtils'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='prefix'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='init'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getLayers'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='prefix'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='props'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='setSynchronous'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getListeners'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='booleanFromProperties'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='PropUtils'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='props'
+52 argument (BinaryExpr)
+53 operator='PLUS'
+54 left (NameExpr)
+55 name (SimpleName)
+56 identifier='prefix'
+57 right (NameExpr)
+58 name (SimpleName)
+59 identifier='SynchronousThreadingProperty'
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='isSynchronous'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getListeners'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='init'
+69 parameters
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='prefix'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='String'
+77 parameter (Parameter)
+78 isVarArgs='false'
+79 name (SimpleName)
+80 identifier='props'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Properties'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+48 52
+52 53
+52 54
+54 55
+55 56
+52 57
+57 58
+58 59
+48 60
+60 61
+61 62
+60 63
+63 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+70 72
+72 73
+70 74
+74 75
+75 76
+69 77
+77 78
+77 79
+79 80
+77 81
+81 82
+82 83
+
+Initialize the LayerHandler by having it construct it's layers from a properties object. The properties should be created from an openmap.properties file.

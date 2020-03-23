@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='newTasksMayBeScheduled'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='thread'
+15 value (BooleanLiteralExpr)
+16 value='false'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='clear'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='queue'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='notify'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='queue'
+31 expression (NameExpr)
+32 name (SimpleName)
+33 identifier='queue'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='cancel'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+12 13
+13 14
+7 15
+15 16
+5 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+5 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+3 31
+31 32
+32 33
+0 34
+0 35
+35 36
+
+Terminates this timer, discarding any currently scheduled tasks. Does not interfere with a currently executing task (if it exists). Once a timer has been terminated, its execution thread terminates gracefully, and no more tasks may be scheduled on it. <p>Note that calling this method from within the run method of a timer task that was invoked by this timer absolutely guarantees that the ongoing task execution is the last task execution that will ever be performed by this timer. <p>This method may be called repeatedly; the second and subsequent calls have no effect.

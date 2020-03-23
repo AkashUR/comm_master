@@ -1,0 +1,472 @@
+235
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Properties'
+11 name (SimpleName)
+12 identifier='config'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Properties'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='put'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='config'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='APPLICATION_ID_CONFIG'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='StreamsConfig'
+30 argument (StringLiteralExpr)
+31 value='exclamation-kafka-streams'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='put'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='config'
+39 arguments
+40 argument (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='BOOTSTRAP_SERVERS_CONFIG'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='StreamsConfig'
+46 argument (StringLiteralExpr)
+47 value='localhost:9092'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='put'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='config'
+55 arguments
+56 argument (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='ZOOKEEPER_CONNECT_CONFIG'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='StreamsConfig'
+62 argument (StringLiteralExpr)
+63 value='localhost:2181'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='put'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='config'
+71 arguments
+72 argument (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='KEY_SERDE_CLASS_CONFIG'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='StreamsConfig'
+78 argument (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='getName'
+81 scope (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getClass'
+84 scope (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='ByteArray'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='Serdes'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='put'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='config'
+97 arguments
+98 argument (FieldAccessExpr)
+99 name (SimpleName)
+100 identifier='VALUE_SERDE_CLASS_CONFIG'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='StreamsConfig'
+104 argument (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='getName'
+107 scope (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='getClass'
+110 scope (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='String'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='Serdes'
+116 statement (ExpressionStmt)
+117 expression (VariableDeclarationExpr)
+118 variables
+119 variable (VariableDeclarator)
+120 initializer (ObjectCreationExpr)
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='KStreamBuilder'
+124 name (SimpleName)
+125 identifier='builder'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='KStreamBuilder'
+129 statement (ExpressionStmt)
+130 expression (VariableDeclarationExpr)
+131 variables
+132 variable (VariableDeclarator)
+133 initializer (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='stream'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='builder'
+139 arguments
+140 argument (StringLiteralExpr)
+141 value='console'
+142 name (SimpleName)
+143 identifier='text'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='KStream'
+147 typeArguments
+148 typeArgument (ArrayType)
+149 origin='TYPE'
+150 componentType (PrimitiveType)
+151 type='BYTE'
+152 typeArgument (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='String'
+155 statement (ExpressionStmt)
+156 expression (VariableDeclarationExpr)
+157 variables
+158 variable (VariableDeclarator)
+159 initializer (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='mapValues'
+162 scope (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='mapValues'
+165 scope (NameExpr)
+166 name (SimpleName)
+167 identifier='text'
+168 arguments
+169 argument (NullLiteralExpr)
+170 arguments
+171 argument (NullLiteralExpr)
+172 name (SimpleName)
+173 identifier='exclamation'
+174 type (ClassOrInterfaceType)
+175 name (SimpleName)
+176 identifier='KStream'
+177 typeArguments
+178 typeArgument (ArrayType)
+179 origin='TYPE'
+180 componentType (PrimitiveType)
+181 type='BYTE'
+182 typeArgument (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='String'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='to'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='exclamation'
+192 arguments
+193 argument (StringLiteralExpr)
+194 value='exclamated'
+195 statement (ExpressionStmt)
+196 expression (VariableDeclarationExpr)
+197 variables
+198 variable (VariableDeclarator)
+199 initializer (ObjectCreationExpr)
+200 type (ClassOrInterfaceType)
+201 name (SimpleName)
+202 identifier='KafkaStreams'
+203 arguments
+204 argument (NameExpr)
+205 name (SimpleName)
+206 identifier='builder'
+207 argument (NameExpr)
+208 name (SimpleName)
+209 identifier='config'
+210 name (SimpleName)
+211 identifier='streams'
+212 type (ClassOrInterfaceType)
+213 name (SimpleName)
+214 identifier='KafkaStreams'
+215 statement (ExpressionStmt)
+216 expression (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='start'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='streams'
+222 type (VoidType)
+223 name (SimpleName)
+224 identifier='main'
+225 parameters
+226 parameter (Parameter)
+227 isVarArgs='false'
+228 name (SimpleName)
+229 identifier='args'
+230 type (ArrayType)
+231 origin='TYPE'
+232 componentType (ClassOrInterfaceType)
+233 name (SimpleName)
+234 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+55 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+71 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+97 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+110 111
+111 112
+110 113
+113 114
+114 115
+2 116
+116 117
+117 118
+118 119
+119 120
+120 121
+121 122
+122 123
+119 124
+124 125
+119 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+132 142
+142 143
+132 144
+144 145
+145 146
+144 147
+147 148
+148 149
+148 150
+150 151
+147 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+162 165
+165 166
+166 167
+162 168
+168 169
+159 170
+170 171
+158 172
+172 173
+158 174
+174 175
+175 176
+174 177
+177 178
+178 179
+178 180
+180 181
+177 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+186 192
+192 193
+193 194
+2 195
+195 196
+196 197
+197 198
+198 199
+199 200
+200 201
+201 202
+199 203
+203 204
+204 205
+205 206
+203 207
+207 208
+208 209
+198 210
+210 211
+198 212
+212 213
+213 214
+2 215
+215 216
+216 217
+217 218
+216 219
+219 220
+220 221
+0 222
+0 223
+223 224
+0 225
+225 226
+226 227
+226 228
+228 229
+226 230
+230 231
+230 232
+232 233
+233 234
+
+Connects the topic "console" with the topic "exclaimed", adding two exclamation points to the input values.

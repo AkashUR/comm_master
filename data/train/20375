@@ -1,0 +1,500 @@
+249
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='CargoTask'
+11 name (SimpleName)
+12 identifier='task'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='CargoTask'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setContainerId'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='task'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='resin2x'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='setType'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='task'
+33 arguments
+34 argument (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='INSTALLED'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='ContainerType'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='createConfiguration'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='task'
+50 name (SimpleName)
+51 identifier='configurationElement'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='ConfigurationElement'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='setType'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='configurationElement'
+62 arguments
+63 argument (StringLiteralExpr)
+64 value='standalone'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (ObjectCreationExpr)
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='DeployableElement'
+73 name (SimpleName)
+74 identifier='warElement'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='DeployableElement'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='setType'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='warElement'
+85 arguments
+86 argument (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='getType'
+89 scope (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='WAR'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='DeployableType'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='setFile'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='warElement'
+102 arguments
+103 argument (StringLiteralExpr)
+104 value='some/war'
+105 statement (ExpressionStmt)
+106 expression (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='addConfiguredDeployable'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='configurationElement'
+112 arguments
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='warElement'
+116 statement (ExpressionStmt)
+117 expression (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='setHome'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='configurationElement'
+123 arguments
+124 argument (StringLiteralExpr)
+125 value='somewhere'
+126 statement (ExpressionStmt)
+127 expression (VariableDeclarationExpr)
+128 variables
+129 variable (VariableDeclarator)
+130 initializer (CastExpr)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='makeContainer'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='task'
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='LocalContainer'
+140 name (SimpleName)
+141 identifier='container'
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='LocalContainer'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='assertEquals'
+149 arguments
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='getName'
+153 scope (ClassExpr)
+154 type (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='Resin2xStandaloneLocalConfiguration'
+157 argument (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='getName'
+160 scope (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='getClass'
+163 scope (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='getConfiguration'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='container'
+169 statement (ExpressionStmt)
+170 expression (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='assertEquals'
+173 arguments
+174 argument (IntegerLiteralExpr)
+175 value='1'
+176 argument (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='size'
+179 scope (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='getDeployables'
+182 scope (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='getConfiguration'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='container'
+188 statement (ExpressionStmt)
+189 expression (VariableDeclarationExpr)
+190 variables
+191 variable (VariableDeclarator)
+192 initializer (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='get'
+195 scope (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='getDeployables'
+198 scope (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='getConfiguration'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='container'
+204 arguments
+205 argument (IntegerLiteralExpr)
+206 value='0'
+207 name (SimpleName)
+208 identifier='deployable'
+209 type (ClassOrInterfaceType)
+210 name (SimpleName)
+211 identifier='Deployable'
+212 statement (ExpressionStmt)
+213 expression (MethodCallExpr)
+214 name (SimpleName)
+215 identifier='assertEquals'
+216 arguments
+217 argument (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='getName'
+220 scope (ClassExpr)
+221 type (ClassOrInterfaceType)
+222 name (SimpleName)
+223 identifier='WAR'
+224 argument (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='getName'
+227 scope (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='getClass'
+230 scope (NameExpr)
+231 name (SimpleName)
+232 identifier='deployable'
+233 statement (ExpressionStmt)
+234 expression (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='assertEquals'
+237 arguments
+238 argument (StringLiteralExpr)
+239 value='some/war'
+240 argument (MethodCallExpr)
+241 name (SimpleName)
+242 identifier='getFile'
+243 scope (NameExpr)
+244 name (SimpleName)
+245 identifier='deployable'
+246 type (VoidType)
+247 name (SimpleName)
+248 identifier='testMakeContainerWithOneDeployable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+43 50
+50 51
+43 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+71 72
+68 73
+73 74
+68 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+89 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+2 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+114 115
+2 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+117 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+129 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+130 137
+137 138
+138 139
+129 140
+140 141
+129 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+155 156
+149 157
+157 158
+158 159
+157 160
+160 161
+161 162
+160 163
+163 164
+164 165
+163 166
+166 167
+167 168
+2 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+173 176
+176 177
+177 178
+176 179
+179 180
+180 181
+179 182
+182 183
+183 184
+182 185
+185 186
+186 187
+2 188
+188 189
+189 190
+190 191
+191 192
+192 193
+193 194
+192 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+192 204
+204 205
+205 206
+191 207
+207 208
+191 209
+209 210
+210 211
+2 212
+212 213
+213 214
+214 215
+213 216
+216 217
+217 218
+218 219
+217 220
+220 221
+221 222
+222 223
+216 224
+224 225
+225 226
+224 227
+227 228
+228 229
+227 230
+230 231
+231 232
+2 233
+233 234
+234 235
+235 236
+234 237
+237 238
+238 239
+237 240
+240 241
+241 242
+240 243
+243 244
+244 245
+0 246
+0 247
+247 248
+
+Test the creation of a container with one deployable.

@@ -1,0 +1,120 @@
+59
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='mapper'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='readValue'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='mapper'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='\"JACKSON\"'
+29 argument (ClassExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='AnnotatedTestEnum'
+33 name (SimpleName)
+34 identifier='e'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='AnnotatedTestEnum'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='assertEquals'
+42 arguments
+43 argument (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='OK'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='AnnotatedTestEnum'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='e'
+52 type (VoidType)
+53 name (SimpleName)
+54 identifier='testAnnotated'
+55 thrownExceptions
+56 thrownException (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+19 33
+33 34
+19 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+42 49
+49 50
+50 51
+0 52
+0 53
+53 54
+0 55
+55 56
+56 57
+57 58
+
+Testing to see that annotation override works

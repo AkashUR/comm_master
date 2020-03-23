@@ -1,0 +1,578 @@
+288
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='context'
+15 argument (ClassExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='WallPostIntentService'
+19 name (SimpleName)
+20 identifier='intent'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Intent'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='setAction'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='intent'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='ACTION_POST'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='putExtra'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='intent'
+42 arguments
+43 argument (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='UPDATE_POST'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='HttpConstants'
+49 argument (BooleanLiteralExpr)
+50 value='true'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='putExtra'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='intent'
+58 arguments
+59 argument (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='WALL_ID'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='HttpConstants'
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='mWallId'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='putExtra'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='intent'
+75 arguments
+76 argument (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='POST_MESSAGE'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='HttpConstants'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='message'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='putExtra'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='intent'
+92 arguments
+93 argument (FieldAccessExpr)
+94 name (SimpleName)
+95 identifier='POST_LATITUDE'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='HttpConstants'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='latitude'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='putExtra'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='intent'
+109 arguments
+110 argument (FieldAccessExpr)
+111 name (SimpleName)
+112 identifier='POST_LONGITUDE'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='HttpConstants'
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='longitude'
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='putExtra'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='intent'
+126 arguments
+127 argument (FieldAccessExpr)
+128 name (SimpleName)
+129 identifier='POST_TAG_ID'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='HttpConstants'
+133 argument (NameExpr)
+134 name (SimpleName)
+135 identifier='tagIdSelected'
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='putExtra'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='intent'
+143 arguments
+144 argument (FieldAccessExpr)
+145 name (SimpleName)
+146 identifier='POST_CITY'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='HttpConstants'
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='trim'
+153 scope (ArrayAccessExpr)
+154 index (BinaryExpr)
+155 operator='MINUS'
+156 left (FieldAccessExpr)
+157 name (SimpleName)
+158 identifier='length'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='address'
+162 right (IntegerLiteralExpr)
+163 value='3'
+164 name (NameExpr)
+165 name (SimpleName)
+166 identifier='address'
+167 statement (ExpressionStmt)
+168 expression (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='putExtra'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='intent'
+174 arguments
+175 argument (FieldAccessExpr)
+176 name (SimpleName)
+177 identifier='POST_COUNTRY'
+178 scope (NameExpr)
+179 name (SimpleName)
+180 identifier='HttpConstants'
+181 argument (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='trim'
+184 scope (ArrayAccessExpr)
+185 index (BinaryExpr)
+186 operator='MINUS'
+187 left (FieldAccessExpr)
+188 name (SimpleName)
+189 identifier='length'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='address'
+193 right (IntegerLiteralExpr)
+194 value='1'
+195 name (NameExpr)
+196 name (SimpleName)
+197 identifier='address'
+198 statement (ExpressionStmt)
+199 expression (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='putExtra'
+202 scope (NameExpr)
+203 name (SimpleName)
+204 identifier='intent'
+205 arguments
+206 argument (FieldAccessExpr)
+207 name (SimpleName)
+208 identifier='WALL_IMAGE_NAME'
+209 scope (NameExpr)
+210 name (SimpleName)
+211 identifier='AppConstants'
+212 argument (NameExpr)
+213 name (SimpleName)
+214 identifier='imagepath'
+215 statement (ExpressionStmt)
+216 expression (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='startService'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='context'
+222 arguments
+223 argument (NameExpr)
+224 name (SimpleName)
+225 identifier='intent'
+226 statement (ExpressionStmt)
+227 expression (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='finish'
+230 scope (MethodCallExpr)
+231 name (SimpleName)
+232 identifier='getActivity'
+233 type (VoidType)
+234 name (SimpleName)
+235 identifier='postOnWallWithImage'
+236 parameters
+237 parameter (Parameter)
+238 isVarArgs='false'
+239 name (SimpleName)
+240 identifier='context'
+241 type (ClassOrInterfaceType)
+242 name (SimpleName)
+243 identifier='Context'
+244 parameter (Parameter)
+245 isVarArgs='false'
+246 name (SimpleName)
+247 identifier='tagIdSelected'
+248 type (ClassOrInterfaceType)
+249 name (SimpleName)
+250 identifier='String'
+251 parameter (Parameter)
+252 isVarArgs='false'
+253 name (SimpleName)
+254 identifier='latitude'
+255 type (ClassOrInterfaceType)
+256 name (SimpleName)
+257 identifier='String'
+258 parameter (Parameter)
+259 isVarArgs='false'
+260 name (SimpleName)
+261 identifier='longitude'
+262 type (ClassOrInterfaceType)
+263 name (SimpleName)
+264 identifier='String'
+265 parameter (Parameter)
+266 isVarArgs='false'
+267 name (SimpleName)
+268 identifier='address'
+269 type (ArrayType)
+270 origin='TYPE'
+271 componentType (ClassOrInterfaceType)
+272 name (SimpleName)
+273 identifier='String'
+274 parameter (Parameter)
+275 isVarArgs='false'
+276 name (SimpleName)
+277 identifier='message'
+278 type (ClassOrInterfaceType)
+279 name (SimpleName)
+280 identifier='String'
+281 parameter (Parameter)
+282 isVarArgs='false'
+283 name (SimpleName)
+284 identifier='imagepath'
+285 type (ClassOrInterfaceType)
+286 name (SimpleName)
+287 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+42 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+58 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+75 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+86 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+92 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+103 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+109 116
+116 117
+117 118
+2 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+126 133
+133 134
+134 135
+2 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+137 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+143 150
+150 151
+151 152
+150 153
+153 154
+154 155
+154 156
+156 157
+157 158
+156 159
+159 160
+160 161
+154 162
+162 163
+153 164
+164 165
+165 166
+2 167
+167 168
+168 169
+169 170
+168 171
+171 172
+172 173
+168 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+174 181
+181 182
+182 183
+181 184
+184 185
+185 186
+185 187
+187 188
+188 189
+187 190
+190 191
+191 192
+185 193
+193 194
+184 195
+195 196
+196 197
+2 198
+198 199
+199 200
+200 201
+199 202
+202 203
+203 204
+199 205
+205 206
+206 207
+207 208
+206 209
+209 210
+210 211
+205 212
+212 213
+213 214
+2 215
+215 216
+216 217
+217 218
+216 219
+219 220
+220 221
+216 222
+222 223
+223 224
+224 225
+2 226
+226 227
+227 228
+228 229
+227 230
+230 231
+231 232
+0 233
+0 234
+234 235
+0 236
+236 237
+237 238
+237 239
+239 240
+237 241
+241 242
+242 243
+236 244
+244 245
+244 246
+246 247
+244 248
+248 249
+249 250
+236 251
+251 252
+251 253
+253 254
+251 255
+255 256
+256 257
+236 258
+258 259
+258 260
+260 261
+258 262
+262 263
+263 264
+236 265
+265 266
+265 267
+267 268
+265 269
+269 270
+269 271
+271 272
+272 273
+236 274
+274 275
+274 276
+276 277
+274 278
+278 279
+279 280
+236 281
+281 282
+281 283
+283 284
+281 285
+285 286
+286 287
+
+Starts this service to perform action Foo with the given parameters. If the service is already performing a task this action will be queued.

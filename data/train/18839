@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='put'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='statementEventListeners'
+13 scope (ThisExpr)
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='listener'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='listener'
+21 expression (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='statementEventListeners'
+24 scope (ThisExpr)
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='addStatementEventListener'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='listener'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='StatementEventListener'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+7 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+3 21
+21 22
+22 23
+21 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+
+Registers a <code>StatementEventListener</code> with this <code>PooledConnection</code> object. Components that wish to be notified when <code>PreparedStatement</code>s created by the connection are closed or are detected to be invalid may use this method to register a <code>StatementEventListener</code> with this <code>PooledConnection</code> object.

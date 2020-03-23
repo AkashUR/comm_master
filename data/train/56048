@@ -1,0 +1,772 @@
+385
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='File'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='merged_codebase_7'
+14 name (SimpleName)
+15 identifier='mergedCodebaseLocation'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='File'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='andReturn'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='expect'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getTemporaryDirectory'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='fileSystem'
+33 arguments
+34 argument (StringLiteralExpr)
+35 value='merged_codebase_'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='mergedCodebaseLocation'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='File'
+48 arguments
+49 argument (StringLiteralExpr)
+50 value='orig/foo'
+51 name (SimpleName)
+52 identifier='origFile'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='File'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='andReturn'
+60 scope (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='expect'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getFile'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='orig'
+70 arguments
+71 argument (StringLiteralExpr)
+72 value='foo'
+73 arguments
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='origFile'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='anyTimes'
+81 scope (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='andReturn'
+84 scope (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='expect'
+87 arguments
+88 argument (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='exists'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='fileSystem'
+94 arguments
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='origFile'
+98 arguments
+99 argument (BooleanLiteralExpr)
+100 value='true'
+101 statement (ExpressionStmt)
+102 expression (VariableDeclarationExpr)
+103 variables
+104 variable (VariableDeclarator)
+105 initializer (ObjectCreationExpr)
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='File'
+109 arguments
+110 argument (StringLiteralExpr)
+111 value='dest/foo'
+112 name (SimpleName)
+113 identifier='destFile'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='File'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='andReturn'
+121 scope (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='expect'
+124 arguments
+125 argument (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='getFile'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='dest'
+131 arguments
+132 argument (StringLiteralExpr)
+133 value='foo'
+134 arguments
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='destFile'
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='andReturn'
+142 scope (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='expect'
+145 arguments
+146 argument (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='exists'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='fileSystem'
+152 arguments
+153 argument (NameExpr)
+154 name (SimpleName)
+155 identifier='destFile'
+156 arguments
+157 argument (BooleanLiteralExpr)
+158 value='false'
+159 statement (ExpressionStmt)
+160 expression (AssignExpr)
+161 operator='ASSIGN'
+162 target (NameExpr)
+163 name (SimpleName)
+164 identifier='destFile'
+165 value (ObjectCreationExpr)
+166 type (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='File'
+169 arguments
+170 argument (StringLiteralExpr)
+171 value='/dev/null'
+172 statement (ExpressionStmt)
+173 expression (VariableDeclarationExpr)
+174 variables
+175 variable (VariableDeclarator)
+176 initializer (ObjectCreationExpr)
+177 type (ClassOrInterfaceType)
+178 name (SimpleName)
+179 identifier='File'
+180 arguments
+181 argument (StringLiteralExpr)
+182 value='mod/foo'
+183 name (SimpleName)
+184 identifier='modFile'
+185 type (ClassOrInterfaceType)
+186 name (SimpleName)
+187 identifier='File'
+188 statement (ExpressionStmt)
+189 expression (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='andReturn'
+192 scope (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='expect'
+195 arguments
+196 argument (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='getFile'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='mod'
+202 arguments
+203 argument (StringLiteralExpr)
+204 value='foo'
+205 arguments
+206 argument (NameExpr)
+207 name (SimpleName)
+208 identifier='modFile'
+209 statement (ExpressionStmt)
+210 expression (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='anyTimes'
+213 scope (MethodCallExpr)
+214 name (SimpleName)
+215 identifier='andReturn'
+216 scope (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='expect'
+219 arguments
+220 argument (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='exists'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='fileSystem'
+226 arguments
+227 argument (NameExpr)
+228 name (SimpleName)
+229 identifier='modFile'
+230 arguments
+231 argument (BooleanLiteralExpr)
+232 value='true'
+233 statement (ExpressionStmt)
+234 expression (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='andReturn'
+237 scope (MethodCallExpr)
+238 name (SimpleName)
+239 identifier='expect'
+240 arguments
+241 argument (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='isExecutable'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='fileSystem'
+247 arguments
+248 argument (NameExpr)
+249 name (SimpleName)
+250 identifier='origFile'
+251 arguments
+252 argument (BooleanLiteralExpr)
+253 value='false'
+254 statement (ExpressionStmt)
+255 expression (MethodCallExpr)
+256 name (SimpleName)
+257 identifier='andReturn'
+258 scope (MethodCallExpr)
+259 name (SimpleName)
+260 identifier='expect'
+261 arguments
+262 argument (MethodCallExpr)
+263 name (SimpleName)
+264 identifier='isExecutable'
+265 scope (NameExpr)
+266 name (SimpleName)
+267 identifier='fileSystem'
+268 arguments
+269 argument (NameExpr)
+270 name (SimpleName)
+271 identifier='modFile'
+272 arguments
+273 argument (BooleanLiteralExpr)
+274 value='false'
+275 statement (ExpressionStmt)
+276 expression (MethodCallExpr)
+277 name (SimpleName)
+278 identifier='andReturn'
+279 scope (MethodCallExpr)
+280 name (SimpleName)
+281 identifier='expect'
+282 arguments
+283 argument (MethodCallExpr)
+284 name (SimpleName)
+285 identifier='runCommand'
+286 scope (NameExpr)
+287 name (SimpleName)
+288 identifier='cmd'
+289 arguments
+290 argument (StringLiteralExpr)
+291 value='diff'
+292 argument (MethodCallExpr)
+293 name (SimpleName)
+294 identifier='of'
+295 scope (NameExpr)
+296 name (SimpleName)
+297 identifier='ImmutableList'
+298 arguments
+299 argument (StringLiteralExpr)
+300 value='-N'
+301 argument (StringLiteralExpr)
+302 value='-u'
+303 argument (MethodCallExpr)
+304 name (SimpleName)
+305 identifier='getAbsolutePath'
+306 scope (NameExpr)
+307 name (SimpleName)
+308 identifier='origFile'
+309 argument (MethodCallExpr)
+310 name (SimpleName)
+311 identifier='getAbsolutePath'
+312 scope (NameExpr)
+313 name (SimpleName)
+314 identifier='modFile'
+315 argument (StringLiteralExpr)
+316 value=''
+317 arguments
+318 argument (NullLiteralExpr)
+319 statement (ExpressionStmt)
+320 expression (MethodCallExpr)
+321 name (SimpleName)
+322 identifier='replay'
+323 scope (NameExpr)
+324 name (SimpleName)
+325 identifier='control'
+326 statement (ExpressionStmt)
+327 expression (VariableDeclarationExpr)
+328 variables
+329 variable (VariableDeclarator)
+330 initializer (ObjectCreationExpr)
+331 type (ClassOrInterfaceType)
+332 name (SimpleName)
+333 identifier='CodebaseMerger'
+334 arguments
+335 argument (NameExpr)
+336 name (SimpleName)
+337 identifier='ui'
+338 argument (NameExpr)
+339 name (SimpleName)
+340 identifier='fileSystem'
+341 argument (NameExpr)
+342 name (SimpleName)
+343 identifier='cmd'
+344 argument (NameExpr)
+345 name (SimpleName)
+346 identifier='fileDiffer'
+347 argument (NameExpr)
+348 name (SimpleName)
+349 identifier='orig'
+350 argument (NameExpr)
+351 name (SimpleName)
+352 identifier='mod'
+353 argument (NameExpr)
+354 name (SimpleName)
+355 identifier='dest'
+356 name (SimpleName)
+357 identifier='merger'
+358 type (ClassOrInterfaceType)
+359 name (SimpleName)
+360 identifier='CodebaseMerger'
+361 statement (ExpressionStmt)
+362 expression (MethodCallExpr)
+363 name (SimpleName)
+364 identifier='generateMergedFile'
+365 scope (NameExpr)
+366 name (SimpleName)
+367 identifier='merger'
+368 arguments
+369 argument (StringLiteralExpr)
+370 value='foo'
+371 statement (ExpressionStmt)
+372 expression (MethodCallExpr)
+373 name (SimpleName)
+374 identifier='verify'
+375 scope (NameExpr)
+376 name (SimpleName)
+377 identifier='control'
+378 type (VoidType)
+379 name (SimpleName)
+380 identifier='testGenerateMergedFileDestDelete'
+381 thrownExceptions
+382 thrownException (ClassOrInterfaceType)
+383 name (SimpleName)
+384 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+20 36
+36 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+43 51
+51 52
+43 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+57 73
+73 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+84 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+81 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+107 108
+105 109
+109 110
+110 111
+104 112
+112 113
+104 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+121 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+118 134
+134 135
+135 136
+136 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+142 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+146 152
+152 153
+153 154
+154 155
+139 156
+156 157
+157 158
+2 159
+159 160
+160 161
+160 162
+162 163
+163 164
+160 165
+165 166
+166 167
+167 168
+165 169
+169 170
+170 171
+2 172
+172 173
+173 174
+174 175
+175 176
+176 177
+177 178
+178 179
+176 180
+180 181
+181 182
+175 183
+183 184
+175 185
+185 186
+186 187
+2 188
+188 189
+189 190
+190 191
+189 192
+192 193
+193 194
+192 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+196 202
+202 203
+203 204
+189 205
+205 206
+206 207
+207 208
+2 209
+209 210
+210 211
+211 212
+210 213
+213 214
+214 215
+213 216
+216 217
+217 218
+216 219
+219 220
+220 221
+221 222
+220 223
+223 224
+224 225
+220 226
+226 227
+227 228
+228 229
+213 230
+230 231
+231 232
+2 233
+233 234
+234 235
+235 236
+234 237
+237 238
+238 239
+237 240
+240 241
+241 242
+242 243
+241 244
+244 245
+245 246
+241 247
+247 248
+248 249
+249 250
+234 251
+251 252
+252 253
+2 254
+254 255
+255 256
+256 257
+255 258
+258 259
+259 260
+258 261
+261 262
+262 263
+263 264
+262 265
+265 266
+266 267
+262 268
+268 269
+269 270
+270 271
+255 272
+272 273
+273 274
+2 275
+275 276
+276 277
+277 278
+276 279
+279 280
+280 281
+279 282
+282 283
+283 284
+284 285
+283 286
+286 287
+287 288
+283 289
+289 290
+290 291
+289 292
+292 293
+293 294
+292 295
+295 296
+296 297
+292 298
+298 299
+299 300
+298 301
+301 302
+298 303
+303 304
+304 305
+303 306
+306 307
+307 308
+298 309
+309 310
+310 311
+309 312
+312 313
+313 314
+289 315
+315 316
+276 317
+317 318
+2 319
+319 320
+320 321
+321 322
+320 323
+323 324
+324 325
+2 326
+326 327
+327 328
+328 329
+329 330
+330 331
+331 332
+332 333
+330 334
+334 335
+335 336
+336 337
+334 338
+338 339
+339 340
+334 341
+341 342
+342 343
+334 344
+344 345
+345 346
+334 347
+347 348
+348 349
+334 350
+350 351
+351 352
+334 353
+353 354
+354 355
+329 356
+356 357
+329 358
+358 359
+359 360
+2 361
+361 362
+362 363
+363 364
+362 365
+365 366
+366 367
+362 368
+368 369
+369 370
+2 371
+371 372
+372 373
+373 374
+372 375
+375 376
+376 377
+0 378
+0 379
+379 380
+0 381
+381 382
+382 383
+383 384
+
+Test generateMergedFile(...) in the case where the file exists in orig and mod but not dest. In this case, the file is unchanged in orig and mod, so the file is not placed in the merged codebase.

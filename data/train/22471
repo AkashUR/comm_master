@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='applyLinearImpulse'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getBody'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='impulse'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='point'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='wake'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='applyBodyLinearImpulse'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='impulse'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Vec2'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='point'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Vec2'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='wake'
+42 type (PrimitiveType)
+43 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+23 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+23 38
+38 39
+38 40
+40 41
+38 42
+42 43
+
+Apply an impulse at a point. This immediately modifies the velocity. It also modifies the angular velocity if the point of application is not at the center of mass. This wakes up the body.

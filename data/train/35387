@@ -1,0 +1,32 @@
+15
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='set'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='tcontext'
+10 arguments
+11 argument (NullLiteralExpr)
+12 type (VoidType)
+13 name (SimpleName)
+14 identifier='threadDetach'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+0 12
+0 13
+13 14
+
+<p> Detach the transaction context bound to the current thread. This method is normally called in a server environment. By default,  a transaction context will be created and bound to a thread if need be, every time a new transaction is requested. So when  HyperGraph is embedded in a client application, there is no need to explicitly attach/detach contexts to threads.  </p> <p> <strong>IMPORTANT NOTE:</strong> when managing transaction contexts explicitly, you are responsible for closing all pending transactions in the context before disposing of it. This is done by invoking the <code>HGTransactionContext.endAll</code> method.  </p>

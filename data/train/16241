@@ -1,0 +1,84 @@
+41
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='d'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Log'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='LOG_TAG'
+14 argument (StringLiteralExpr)
+15 value='onTokenRefresh'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='refreshPushToken'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getSharedGcmRegistrationManager'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getInstance'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='Matrix'
+29 arguments
+30 argument (ThisExpr)
+31 arguments
+32 argument (ThisExpr)
+33 argument (NullLiteralExpr)
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='onTokenRefresh'
+37 annotations
+38 annotation (MarkerAnnotationExpr)
+39 name (Name)
+40 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+17 31
+31 32
+31 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+39 40
+
+Called if InstanceID token is updated. This may occur if the security of the previous token had been compromised. This call is initiated by the InstanceID provider.

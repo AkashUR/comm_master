@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getEventType'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='subscriber'
+14 name (SimpleName)
+15 identifier='eventType'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Class'
+19 typeArguments
+20 typeArgument (WildcardType)
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='doSubscribe'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='subscriber'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='eventType'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='subscribe'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='subscriber'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='EventSubscriber'
+43 typeArguments
+44 typeArgument (WildcardType)
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+16 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+40 43
+43 44
+
+Subscribe event listener. The event to subscribe to is inferred by checking the generic type arguments of the given subscriber.

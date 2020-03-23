@@ -1,0 +1,216 @@
+107
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ListDomainsRequest'
+11 name (SimpleName)
+12 identifier='request'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ListDomainsRequest'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setRegistrationStatus'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='request'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='REGISTERED'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='listDomains'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='swf'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='request'
+40 name (SimpleName)
+41 identifier='domains'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='DomainInfos'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='println'
+49 scope (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='out'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='System'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='Current Domains:'
+58 statement (ForeachStmt)
+59 body (BlockStmt)
+60 statements
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='println'
+65 scope (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='out'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='System'
+71 arguments
+72 argument (BinaryExpr)
+73 operator='PLUS'
+74 left (StringLiteralExpr)
+75 value=' * '
+76 right (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='getName'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='di'
+82 iterable (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='getDomainInfos'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='domains'
+88 variable (VariableDeclarationExpr)
+89 variables
+90 variable (VariableDeclarator)
+91 name (SimpleName)
+92 identifier='di'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='DomainInfo'
+96 type (VoidType)
+97 name (SimpleName)
+98 identifier='listSwfDomains'
+99 parameters
+100 parameter (Parameter)
+101 isVarArgs='false'
+102 name (SimpleName)
+103 identifier='swf'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='AmazonSimpleWorkflow'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+29 40
+40 41
+29 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+46 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+65 68
+68 69
+69 70
+62 71
+71 72
+72 73
+72 74
+74 75
+72 76
+76 77
+77 78
+76 79
+79 80
+80 81
+58 82
+82 83
+83 84
+82 85
+85 86
+86 87
+58 88
+88 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+0 96
+0 97
+97 98
+0 99
+99 100
+100 101
+100 102
+102 103
+100 104
+104 105
+105 106
+
+List the domains for the provided SWF client.

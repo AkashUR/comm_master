@@ -1,0 +1,996 @@
+497
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TimeControl'
+11 name (SimpleName)
+12 identifier='tc'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TimeControl'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='TimeControlData'
+24 name (SimpleName)
+25 identifier='tcData'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='TimeControlData'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='setTimeControl'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='tcData'
+36 arguments
+37 argument (BinaryExpr)
+38 operator='MULTIPLY'
+39 left (BinaryExpr)
+40 operator='MULTIPLY'
+41 left (IntegerLiteralExpr)
+42 value='2'
+43 right (IntegerLiteralExpr)
+44 value='60'
+45 right (IntegerLiteralExpr)
+46 value='1000'
+47 argument (IntegerLiteralExpr)
+48 value='40'
+49 argument (IntegerLiteralExpr)
+50 value='0'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setTimeControl'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='tc'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='tcData'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='setCurrentMove'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='tc'
+69 arguments
+70 argument (IntegerLiteralExpr)
+71 value='1'
+72 argument (BooleanLiteralExpr)
+73 value='true'
+74 argument (IntegerLiteralExpr)
+75 value='0'
+76 argument (IntegerLiteralExpr)
+77 value='0'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='assertEquals'
+82 arguments
+83 argument (IntegerLiteralExpr)
+84 value='40'
+85 argument (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getMovesToTC'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='tc'
+91 arguments
+92 argument (BooleanLiteralExpr)
+93 value='true'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='assertEquals'
+98 arguments
+99 argument (IntegerLiteralExpr)
+100 value='40'
+101 argument (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='getMovesToTC'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='tc'
+107 arguments
+108 argument (BooleanLiteralExpr)
+109 value='false'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='setCurrentMove'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='tc'
+117 arguments
+118 argument (IntegerLiteralExpr)
+119 value='1'
+120 argument (BooleanLiteralExpr)
+121 value='false'
+122 argument (IntegerLiteralExpr)
+123 value='0'
+124 argument (IntegerLiteralExpr)
+125 value='0'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='assertEquals'
+130 arguments
+131 argument (IntegerLiteralExpr)
+132 value='39'
+133 argument (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getMovesToTC'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='tc'
+139 arguments
+140 argument (BooleanLiteralExpr)
+141 value='true'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='assertEquals'
+146 arguments
+147 argument (IntegerLiteralExpr)
+148 value='40'
+149 argument (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='getMovesToTC'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='tc'
+155 arguments
+156 argument (BooleanLiteralExpr)
+157 value='false'
+158 statement (ExpressionStmt)
+159 expression (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='setCurrentMove'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='tc'
+165 arguments
+166 argument (IntegerLiteralExpr)
+167 value='2'
+168 argument (BooleanLiteralExpr)
+169 value='true'
+170 argument (IntegerLiteralExpr)
+171 value='0'
+172 argument (IntegerLiteralExpr)
+173 value='0'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='assertEquals'
+178 arguments
+179 argument (IntegerLiteralExpr)
+180 value='39'
+181 argument (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='getMovesToTC'
+184 scope (NameExpr)
+185 name (SimpleName)
+186 identifier='tc'
+187 arguments
+188 argument (BooleanLiteralExpr)
+189 value='true'
+190 statement (ExpressionStmt)
+191 expression (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='assertEquals'
+194 arguments
+195 argument (IntegerLiteralExpr)
+196 value='39'
+197 argument (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='getMovesToTC'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='tc'
+203 arguments
+204 argument (BooleanLiteralExpr)
+205 value='false'
+206 statement (ExpressionStmt)
+207 expression (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='setCurrentMove'
+210 scope (NameExpr)
+211 name (SimpleName)
+212 identifier='tc'
+213 arguments
+214 argument (IntegerLiteralExpr)
+215 value='40'
+216 argument (BooleanLiteralExpr)
+217 value='true'
+218 argument (IntegerLiteralExpr)
+219 value='0'
+220 argument (IntegerLiteralExpr)
+221 value='0'
+222 statement (ExpressionStmt)
+223 expression (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='assertEquals'
+226 arguments
+227 argument (IntegerLiteralExpr)
+228 value='1'
+229 argument (MethodCallExpr)
+230 name (SimpleName)
+231 identifier='getMovesToTC'
+232 scope (NameExpr)
+233 name (SimpleName)
+234 identifier='tc'
+235 arguments
+236 argument (BooleanLiteralExpr)
+237 value='true'
+238 statement (ExpressionStmt)
+239 expression (MethodCallExpr)
+240 name (SimpleName)
+241 identifier='assertEquals'
+242 arguments
+243 argument (IntegerLiteralExpr)
+244 value='1'
+245 argument (MethodCallExpr)
+246 name (SimpleName)
+247 identifier='getMovesToTC'
+248 scope (NameExpr)
+249 name (SimpleName)
+250 identifier='tc'
+251 arguments
+252 argument (BooleanLiteralExpr)
+253 value='false'
+254 statement (ExpressionStmt)
+255 expression (MethodCallExpr)
+256 name (SimpleName)
+257 identifier='setCurrentMove'
+258 scope (NameExpr)
+259 name (SimpleName)
+260 identifier='tc'
+261 arguments
+262 argument (IntegerLiteralExpr)
+263 value='40'
+264 argument (BooleanLiteralExpr)
+265 value='false'
+266 argument (IntegerLiteralExpr)
+267 value='0'
+268 argument (IntegerLiteralExpr)
+269 value='0'
+270 statement (ExpressionStmt)
+271 expression (MethodCallExpr)
+272 name (SimpleName)
+273 identifier='assertEquals'
+274 arguments
+275 argument (IntegerLiteralExpr)
+276 value='40'
+277 argument (MethodCallExpr)
+278 name (SimpleName)
+279 identifier='getMovesToTC'
+280 scope (NameExpr)
+281 name (SimpleName)
+282 identifier='tc'
+283 arguments
+284 argument (BooleanLiteralExpr)
+285 value='true'
+286 statement (ExpressionStmt)
+287 expression (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='assertEquals'
+290 arguments
+291 argument (IntegerLiteralExpr)
+292 value='1'
+293 argument (MethodCallExpr)
+294 name (SimpleName)
+295 identifier='getMovesToTC'
+296 scope (NameExpr)
+297 name (SimpleName)
+298 identifier='tc'
+299 arguments
+300 argument (BooleanLiteralExpr)
+301 value='false'
+302 statement (ExpressionStmt)
+303 expression (MethodCallExpr)
+304 name (SimpleName)
+305 identifier='setCurrentMove'
+306 scope (NameExpr)
+307 name (SimpleName)
+308 identifier='tc'
+309 arguments
+310 argument (IntegerLiteralExpr)
+311 value='41'
+312 argument (BooleanLiteralExpr)
+313 value='true'
+314 argument (IntegerLiteralExpr)
+315 value='0'
+316 argument (IntegerLiteralExpr)
+317 value='0'
+318 statement (ExpressionStmt)
+319 expression (MethodCallExpr)
+320 name (SimpleName)
+321 identifier='assertEquals'
+322 arguments
+323 argument (IntegerLiteralExpr)
+324 value='40'
+325 argument (MethodCallExpr)
+326 name (SimpleName)
+327 identifier='getMovesToTC'
+328 scope (NameExpr)
+329 name (SimpleName)
+330 identifier='tc'
+331 arguments
+332 argument (BooleanLiteralExpr)
+333 value='true'
+334 statement (ExpressionStmt)
+335 expression (MethodCallExpr)
+336 name (SimpleName)
+337 identifier='assertEquals'
+338 arguments
+339 argument (IntegerLiteralExpr)
+340 value='40'
+341 argument (MethodCallExpr)
+342 name (SimpleName)
+343 identifier='getMovesToTC'
+344 scope (NameExpr)
+345 name (SimpleName)
+346 identifier='tc'
+347 arguments
+348 argument (BooleanLiteralExpr)
+349 value='false'
+350 statement (ExpressionStmt)
+351 expression (MethodCallExpr)
+352 name (SimpleName)
+353 identifier='setCurrentMove'
+354 scope (NameExpr)
+355 name (SimpleName)
+356 identifier='tc'
+357 arguments
+358 argument (IntegerLiteralExpr)
+359 value='80'
+360 argument (BooleanLiteralExpr)
+361 value='true'
+362 argument (IntegerLiteralExpr)
+363 value='0'
+364 argument (IntegerLiteralExpr)
+365 value='0'
+366 statement (ExpressionStmt)
+367 expression (MethodCallExpr)
+368 name (SimpleName)
+369 identifier='assertEquals'
+370 arguments
+371 argument (IntegerLiteralExpr)
+372 value='1'
+373 argument (MethodCallExpr)
+374 name (SimpleName)
+375 identifier='getMovesToTC'
+376 scope (NameExpr)
+377 name (SimpleName)
+378 identifier='tc'
+379 arguments
+380 argument (BooleanLiteralExpr)
+381 value='true'
+382 statement (ExpressionStmt)
+383 expression (MethodCallExpr)
+384 name (SimpleName)
+385 identifier='assertEquals'
+386 arguments
+387 argument (IntegerLiteralExpr)
+388 value='1'
+389 argument (MethodCallExpr)
+390 name (SimpleName)
+391 identifier='getMovesToTC'
+392 scope (NameExpr)
+393 name (SimpleName)
+394 identifier='tc'
+395 arguments
+396 argument (BooleanLiteralExpr)
+397 value='false'
+398 statement (ExpressionStmt)
+399 expression (MethodCallExpr)
+400 name (SimpleName)
+401 identifier='setCurrentMove'
+402 scope (NameExpr)
+403 name (SimpleName)
+404 identifier='tc'
+405 arguments
+406 argument (IntegerLiteralExpr)
+407 value='80'
+408 argument (BooleanLiteralExpr)
+409 value='false'
+410 argument (IntegerLiteralExpr)
+411 value='0'
+412 argument (IntegerLiteralExpr)
+413 value='0'
+414 statement (ExpressionStmt)
+415 expression (MethodCallExpr)
+416 name (SimpleName)
+417 identifier='assertEquals'
+418 arguments
+419 argument (IntegerLiteralExpr)
+420 value='40'
+421 argument (MethodCallExpr)
+422 name (SimpleName)
+423 identifier='getMovesToTC'
+424 scope (NameExpr)
+425 name (SimpleName)
+426 identifier='tc'
+427 arguments
+428 argument (BooleanLiteralExpr)
+429 value='true'
+430 statement (ExpressionStmt)
+431 expression (MethodCallExpr)
+432 name (SimpleName)
+433 identifier='assertEquals'
+434 arguments
+435 argument (IntegerLiteralExpr)
+436 value='1'
+437 argument (MethodCallExpr)
+438 name (SimpleName)
+439 identifier='getMovesToTC'
+440 scope (NameExpr)
+441 name (SimpleName)
+442 identifier='tc'
+443 arguments
+444 argument (BooleanLiteralExpr)
+445 value='false'
+446 statement (ExpressionStmt)
+447 expression (MethodCallExpr)
+448 name (SimpleName)
+449 identifier='setCurrentMove'
+450 scope (NameExpr)
+451 name (SimpleName)
+452 identifier='tc'
+453 arguments
+454 argument (IntegerLiteralExpr)
+455 value='81'
+456 argument (BooleanLiteralExpr)
+457 value='true'
+458 argument (IntegerLiteralExpr)
+459 value='0'
+460 argument (IntegerLiteralExpr)
+461 value='0'
+462 statement (ExpressionStmt)
+463 expression (MethodCallExpr)
+464 name (SimpleName)
+465 identifier='assertEquals'
+466 arguments
+467 argument (IntegerLiteralExpr)
+468 value='40'
+469 argument (MethodCallExpr)
+470 name (SimpleName)
+471 identifier='getMovesToTC'
+472 scope (NameExpr)
+473 name (SimpleName)
+474 identifier='tc'
+475 arguments
+476 argument (BooleanLiteralExpr)
+477 value='true'
+478 statement (ExpressionStmt)
+479 expression (MethodCallExpr)
+480 name (SimpleName)
+481 identifier='assertEquals'
+482 arguments
+483 argument (IntegerLiteralExpr)
+484 value='40'
+485 argument (MethodCallExpr)
+486 name (SimpleName)
+487 identifier='getMovesToTC'
+488 scope (NameExpr)
+489 name (SimpleName)
+490 identifier='tc'
+491 arguments
+492 argument (BooleanLiteralExpr)
+493 value='false'
+494 type (VoidType)
+495 name (SimpleName)
+496 identifier='testTimeControl'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+19 24
+24 25
+19 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+37 39
+39 40
+39 41
+41 42
+39 43
+43 44
+37 45
+45 46
+36 47
+47 48
+36 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+69 72
+72 73
+69 74
+74 75
+69 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+117 120
+120 121
+117 122
+122 123
+117 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+130 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+146 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+2 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+165 168
+168 169
+165 170
+170 171
+165 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+178 181
+181 182
+182 183
+181 184
+184 185
+185 186
+181 187
+187 188
+188 189
+2 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+201 202
+197 203
+203 204
+204 205
+2 206
+206 207
+207 208
+208 209
+207 210
+210 211
+211 212
+207 213
+213 214
+214 215
+213 216
+216 217
+213 218
+218 219
+213 220
+220 221
+2 222
+222 223
+223 224
+224 225
+223 226
+226 227
+227 228
+226 229
+229 230
+230 231
+229 232
+232 233
+233 234
+229 235
+235 236
+236 237
+2 238
+238 239
+239 240
+240 241
+239 242
+242 243
+243 244
+242 245
+245 246
+246 247
+245 248
+248 249
+249 250
+245 251
+251 252
+252 253
+2 254
+254 255
+255 256
+256 257
+255 258
+258 259
+259 260
+255 261
+261 262
+262 263
+261 264
+264 265
+261 266
+266 267
+261 268
+268 269
+2 270
+270 271
+271 272
+272 273
+271 274
+274 275
+275 276
+274 277
+277 278
+278 279
+277 280
+280 281
+281 282
+277 283
+283 284
+284 285
+2 286
+286 287
+287 288
+288 289
+287 290
+290 291
+291 292
+290 293
+293 294
+294 295
+293 296
+296 297
+297 298
+293 299
+299 300
+300 301
+2 302
+302 303
+303 304
+304 305
+303 306
+306 307
+307 308
+303 309
+309 310
+310 311
+309 312
+312 313
+309 314
+314 315
+309 316
+316 317
+2 318
+318 319
+319 320
+320 321
+319 322
+322 323
+323 324
+322 325
+325 326
+326 327
+325 328
+328 329
+329 330
+325 331
+331 332
+332 333
+2 334
+334 335
+335 336
+336 337
+335 338
+338 339
+339 340
+338 341
+341 342
+342 343
+341 344
+344 345
+345 346
+341 347
+347 348
+348 349
+2 350
+350 351
+351 352
+352 353
+351 354
+354 355
+355 356
+351 357
+357 358
+358 359
+357 360
+360 361
+357 362
+362 363
+357 364
+364 365
+2 366
+366 367
+367 368
+368 369
+367 370
+370 371
+371 372
+370 373
+373 374
+374 375
+373 376
+376 377
+377 378
+373 379
+379 380
+380 381
+2 382
+382 383
+383 384
+384 385
+383 386
+386 387
+387 388
+386 389
+389 390
+390 391
+389 392
+392 393
+393 394
+389 395
+395 396
+396 397
+2 398
+398 399
+399 400
+400 401
+399 402
+402 403
+403 404
+399 405
+405 406
+406 407
+405 408
+408 409
+405 410
+410 411
+405 412
+412 413
+2 414
+414 415
+415 416
+416 417
+415 418
+418 419
+419 420
+418 421
+421 422
+422 423
+421 424
+424 425
+425 426
+421 427
+427 428
+428 429
+2 430
+430 431
+431 432
+432 433
+431 434
+434 435
+435 436
+434 437
+437 438
+438 439
+437 440
+440 441
+441 442
+437 443
+443 444
+444 445
+2 446
+446 447
+447 448
+448 449
+447 450
+450 451
+451 452
+447 453
+453 454
+454 455
+453 456
+456 457
+453 458
+458 459
+453 460
+460 461
+2 462
+462 463
+463 464
+464 465
+463 466
+466 467
+467 468
+466 469
+469 470
+470 471
+469 472
+472 473
+473 474
+469 475
+475 476
+476 477
+2 478
+478 479
+479 480
+480 481
+479 482
+482 483
+483 484
+482 485
+485 486
+486 487
+485 488
+488 489
+489 490
+485 491
+491 492
+492 493
+0 494
+0 495
+495 496
+
+Test getMovesToTC

@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='ensureCapacity'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='2'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='byteBuffer'
+17 scope (ThisExpr)
+18 name (SimpleName)
+19 identifier='b'
+20 type (ArrayType)
+21 origin='TYPE'
+22 componentType (PrimitiveType)
+23 type='BYTE'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (ArrayAccessExpr)
+28 index (UnaryExpr)
+29 operator='POSTFIX_INCREMENT'
+30 expression (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='position'
+33 scope (ThisExpr)
+34 name (NameExpr)
+35 name (SimpleName)
+36 identifier='b'
+37 value (CastExpr)
+38 expression (EnclosedExpr)
+39 inner (BinaryExpr)
+40 operator='BINARY_AND'
+41 left (NameExpr)
+42 name (SimpleName)
+43 identifier='i'
+44 right (IntegerLiteralExpr)
+45 value='0xff'
+46 type (PrimitiveType)
+47 type='BYTE'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (ArrayAccessExpr)
+52 index (UnaryExpr)
+53 operator='POSTFIX_INCREMENT'
+54 expression (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='position'
+57 scope (ThisExpr)
+58 name (NameExpr)
+59 name (SimpleName)
+60 identifier='b'
+61 value (CastExpr)
+62 expression (EnclosedExpr)
+63 inner (BinaryExpr)
+64 operator='UNSIGNED_RIGHT_SHIFT'
+65 left (NameExpr)
+66 name (SimpleName)
+67 identifier='i'
+68 right (IntegerLiteralExpr)
+69 value='8'
+70 type (PrimitiveType)
+71 type='BYTE'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='putInt16'
+75 parameters
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='i'
+80 type (PrimitiveType)
+81 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+14 17
+13 18
+18 19
+13 20
+20 21
+20 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+27 34
+34 35
+35 36
+25 37
+37 38
+38 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+37 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+52 54
+54 55
+55 56
+54 57
+51 58
+58 59
+59 60
+49 61
+61 62
+62 63
+63 64
+63 65
+65 66
+66 67
+63 68
+68 69
+61 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+76 78
+78 79
+76 80
+80 81
+
+Put an integer in the buffer.

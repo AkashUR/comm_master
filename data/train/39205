@@ -1,0 +1,218 @@
+108
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='PolygonGenerator'
+11 name (SimpleName)
+12 identifier='pg'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='PolygonGenerator'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setGeometryFactory'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='pg'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='geometryFactory'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setBoundingBox'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='pg'
+34 arguments
+35 argument (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Envelope'
+39 arguments
+40 argument (IntegerLiteralExpr)
+41 value='0'
+42 argument (IntegerLiteralExpr)
+43 value='10'
+44 argument (IntegerLiteralExpr)
+45 value='0'
+46 argument (IntegerLiteralExpr)
+47 value='10'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='setNumberPoints'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='pg'
+55 arguments
+56 argument (IntegerLiteralExpr)
+57 value='10'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='setNumberHoles'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='pg'
+65 arguments
+66 argument (IntegerLiteralExpr)
+67 value='4'
+68 statement (ExpressionStmt)
+69 expression (VariableDeclarationExpr)
+70 variables
+71 variable (VariableDeclarator)
+72 initializer (CastExpr)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='create'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='pg'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Polygon'
+82 name (SimpleName)
+83 identifier='pt'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Polygon'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='checkRoundTrip'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='pt'
+95 type (VoidType)
+96 name (SimpleName)
+97 identifier='testSinglePolygonHolesRoundTrip'
+98 thrownExceptions
+99 thrownException (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='SAXException'
+102 thrownException (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='IOException'
+105 thrownException (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='ParserConfigurationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+39 44
+44 45
+39 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+71 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+72 79
+79 80
+80 81
+71 82
+82 83
+71 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+93 94
+0 95
+0 96
+96 97
+0 98
+98 99
+99 100
+100 101
+98 102
+102 103
+103 104
+98 105
+105 106
+106 107
+
+Round Trip test for a single polygon

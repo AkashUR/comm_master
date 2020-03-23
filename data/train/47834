@@ -1,0 +1,356 @@
+177
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='renderArgs'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='dataTable'
+13 argument (ObjectCreationExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='ShareACLDataTable'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='put'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='renderArgs'
+24 arguments
+25 argument (StringLiteralExpr)
+26 value='snapshotId'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='uri'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='snapshotId'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='put'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='renderArgs'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='shareName'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='shareName'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='put'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='renderArgs'
+54 arguments
+55 argument (StringLiteralExpr)
+56 value='aclURL'
+57 argument (BinaryExpr)
+58 operator='PLUS'
+59 left (BinaryExpr)
+60 operator='PLUS'
+61 left (BinaryExpr)
+62 operator='PLUS'
+63 left (BinaryExpr)
+64 operator='PLUS'
+65 left (StringLiteralExpr)
+66 value='/file/snapshots/'
+67 right (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='uri'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='snapshotId'
+74 right (StringLiteralExpr)
+75 value='/shares/'
+76 right (NameExpr)
+77 name (SimpleName)
+78 identifier='shareName'
+79 right (StringLiteralExpr)
+80 value='/acl'
+81 statement (ExpressionStmt)
+82 expression (VariableDeclarationExpr)
+83 variables
+84 variable (VariableDeclarator)
+85 initializer (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getViprClient'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='BourneUtil'
+91 name (SimpleName)
+92 identifier='client'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='ViPRCoreClient'
+96 statement (ExpressionStmt)
+97 expression (VariableDeclarationExpr)
+98 variables
+99 variable (VariableDeclarator)
+100 initializer (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='get'
+103 scope (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='fileSnapshots'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='client'
+109 arguments
+110 argument (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='uri'
+113 arguments
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='snapshotId'
+117 name (SimpleName)
+118 identifier='restRep'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='FileSnapshotRestRep'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='put'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='renderArgs'
+129 arguments
+130 argument (StringLiteralExpr)
+131 value='snapshotName'
+132 argument (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getName'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='restRep'
+138 statement (ExpressionStmt)
+139 expression (VariableDeclarationExpr)
+140 variables
+141 variable (VariableDeclarator)
+142 initializer (ObjectCreationExpr)
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='SnapshotShareACLForm'
+146 name (SimpleName)
+147 identifier='shareACL'
+148 type (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='SnapshotShareACLForm'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='render'
+155 arguments
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='shareACL'
+159 type (VoidType)
+160 name (SimpleName)
+161 identifier='listSnapshotAcl'
+162 parameters
+163 parameter (Parameter)
+164 isVarArgs='false'
+165 name (SimpleName)
+166 identifier='snapshotId'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='String'
+170 parameter (Parameter)
+171 isVarArgs='false'
+172 name (SimpleName)
+173 identifier='shareName'
+174 type (ClassOrInterfaceType)
+175 name (SimpleName)
+176 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+41 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+54 57
+57 58
+57 59
+59 60
+59 61
+61 62
+61 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+67 70
+70 71
+71 72
+72 73
+61 74
+74 75
+59 76
+76 77
+77 78
+57 79
+79 80
+2 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+84 91
+91 92
+84 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+106 107
+107 108
+100 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+115 116
+99 117
+117 118
+99 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+129 132
+132 133
+133 134
+132 135
+135 136
+136 137
+2 138
+138 139
+139 140
+140 141
+141 142
+142 143
+143 144
+144 145
+141 146
+146 147
+141 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+157 158
+0 159
+0 160
+160 161
+0 162
+162 163
+163 164
+163 165
+165 166
+163 167
+167 168
+168 169
+162 170
+170 171
+170 172
+172 173
+170 174
+174 175
+175 176
+
+This method called when Access Control List page is loaded.

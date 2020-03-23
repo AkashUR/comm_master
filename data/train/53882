@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mFirstHour'
+9 value (BinaryExpr)
+10 operator='DIVIDE'
+11 left (EnclosedExpr)
+12 inner (BinaryExpr)
+13 operator='MINUS'
+14 left (BinaryExpr)
+15 operator='PLUS'
+16 left (BinaryExpr)
+17 operator='PLUS'
+18 left (NameExpr)
+19 name (SimpleName)
+20 identifier='mViewStartY'
+21 right (NameExpr)
+22 name (SimpleName)
+23 identifier='mCellHeight'
+24 right (NameExpr)
+25 name (SimpleName)
+26 identifier='HOUR_GAP'
+27 right (IntegerLiteralExpr)
+28 value='1'
+29 right (EnclosedExpr)
+30 inner (BinaryExpr)
+31 operator='PLUS'
+32 left (NameExpr)
+33 name (SimpleName)
+34 identifier='mCellHeight'
+35 right (NameExpr)
+36 name (SimpleName)
+37 identifier='HOUR_GAP'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (NameExpr)
+42 name (SimpleName)
+43 identifier='mFirstHourOffset'
+44 value (BinaryExpr)
+45 operator='MINUS'
+46 left (BinaryExpr)
+47 operator='MULTIPLY'
+48 left (NameExpr)
+49 name (SimpleName)
+50 identifier='mFirstHour'
+51 right (EnclosedExpr)
+52 inner (BinaryExpr)
+53 operator='PLUS'
+54 left (NameExpr)
+55 name (SimpleName)
+56 identifier='mCellHeight'
+57 right (NameExpr)
+58 name (SimpleName)
+59 identifier='HOUR_GAP'
+60 right (NameExpr)
+61 name (SimpleName)
+62 identifier='mViewStartY'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='computeFirstHour'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+12 14
+14 15
+14 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+14 24
+24 25
+25 26
+12 27
+27 28
+9 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+44 46
+46 47
+46 48
+48 49
+49 50
+46 51
+51 52
+52 53
+52 54
+54 55
+55 56
+52 57
+57 58
+58 59
+44 60
+60 61
+61 62
+0 63
+0 64
+64 65
+
+Recomputes the first full hour that is visible on screen after the screen is scrolled.

@@ -1,0 +1,54 @@
+26
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='stopped'
+9 value (BooleanLiteralExpr)
+10 value='false'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='ignoreCallback'
+17 value (BooleanLiteralExpr)
+18 value='false'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='zeroPathCallbacks'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='prepareConcolicExecution'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+2 19
+19 20
+20 21
+21 22
+0 23
+0 24
+24 25
+
+Dsc calls this method just before invoking the current entry method.

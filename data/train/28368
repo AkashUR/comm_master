@@ -1,0 +1,54 @@
+26
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='signOut'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getTfsModel'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='model'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='setVsoSelected'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='model'
+20 arguments
+21 argument (BooleanLiteralExpr)
+22 value='false'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='gotoEnterVsoURL'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+0 23
+0 24
+24 25
+
+This method is specifically here for the case where the user is on the VSO tab, but needs to switch to the TFS tab in order to enter the URL directly. - We need to sign out on the TFS tab - And then take the user to that tab

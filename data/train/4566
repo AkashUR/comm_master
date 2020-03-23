@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='startUserTransaction'
+10 name (SimpleName)
+11 identifier='userTransaction'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='UserTransaction'
+15 statement (TryStmt)
+16 finallyBlock (BlockStmt)
+17 statements
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='resolveUserTransaction'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='userTransaction'
+26 tryBlock (BlockStmt)
+27 statements
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='start'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='userTransaction'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='start'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+15 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+0 36
+0 37
+37 38
+
+Based on the value of <em>wrapInUserTransaction</em>, wraps the call to start(UserTransaction) in a UserTransaction.

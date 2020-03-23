@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='grow'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='length'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='length'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='ref'
+20 value (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='UTF8toUTF16'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='UnicodeUtil'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='bytes'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='offset'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='length'
+36 argument (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='chars'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='ref'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='copyUTF8Bytes'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='bytes'
+50 type (ArrayType)
+51 origin='TYPE'
+52 componentType (PrimitiveType)
+53 type='BYTE'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='offset'
+58 type (PrimitiveType)
+59 type='INT'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='length'
+64 type (PrimitiveType)
+65 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+14 17
+17 18
+18 19
+12 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+26 33
+33 34
+34 35
+26 36
+36 37
+37 38
+36 39
+39 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+50 52
+52 53
+45 54
+54 55
+54 56
+56 57
+54 58
+58 59
+45 60
+60 61
+60 62
+62 63
+60 64
+64 65
+
+Copy the provided bytes, interpreted as UTF-8 bytes.

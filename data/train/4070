@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='recordEnumeratedHistogram'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='RecordHistogram'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='Search.ContextualSearchResultsSeen'
+13 argument (ConditionalExpr)
+14 condition (NameExpr)
+15 name (SimpleName)
+16 identifier='wasPanelSeen'
+17 elseExpr (NameExpr)
+18 name (SimpleName)
+19 identifier='RESULTS_NOT_SEEN'
+20 thenExpr (NameExpr)
+21 name (SimpleName)
+22 identifier='RESULTS_SEEN'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='RESULTS_SEEN_BOUNDARY'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='logHistogramByGesture'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='wasPanelSeen'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='wasTap'
+37 argument (StringLiteralExpr)
+38 value='Search.ContextualSearchResultsSeenByGesture'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='logResultsSeen'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='wasPanelSeen'
+47 type (PrimitiveType)
+48 type='BOOLEAN'
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='wasTap'
+53 type (PrimitiveType)
+54 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+13 20
+20 21
+21 22
+10 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+30 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+42 49
+49 50
+49 51
+51 52
+49 53
+53 54
+
+Logs whether search results were seen. Logs multiple histograms; with and without the original triggering gesture.

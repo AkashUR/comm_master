@@ -1,0 +1,212 @@
+105
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='buffer'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='signature'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='put'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='buffer'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='version'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='put'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='buffer'
+32 arguments
+33 argument (CastExpr)
+34 expression (EnclosedExpr)
+35 inner (BinaryExpr)
+36 operator='PLUS'
+37 left (BinaryExpr)
+38 operator='MULTIPLY'
+39 left (NameExpr)
+40 name (SimpleName)
+41 identifier='FLV_HEADER_FLAG_HAS_AUDIO'
+42 right (EnclosedExpr)
+43 inner (ConditionalExpr)
+44 condition (NameExpr)
+45 name (SimpleName)
+46 identifier='flagAudio'
+47 elseExpr (IntegerLiteralExpr)
+48 value='0'
+49 thenExpr (IntegerLiteralExpr)
+50 value='1'
+51 right (BinaryExpr)
+52 operator='MULTIPLY'
+53 left (NameExpr)
+54 name (SimpleName)
+55 identifier='FLV_HEADER_FLAG_HAS_VIDEO'
+56 right (EnclosedExpr)
+57 inner (ConditionalExpr)
+58 condition (NameExpr)
+59 name (SimpleName)
+60 identifier='flagVideo'
+61 elseExpr (IntegerLiteralExpr)
+62 value='0'
+63 thenExpr (IntegerLiteralExpr)
+64 value='1'
+65 type (PrimitiveType)
+66 type='BYTE'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='putInt'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='buffer'
+74 arguments
+75 argument (IntegerLiteralExpr)
+76 value='9'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='putInt'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='buffer'
+84 arguments
+85 argument (IntegerLiteralExpr)
+86 value='0'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='flip'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='buffer'
+94 type (VoidType)
+95 name (SimpleName)
+96 identifier='write'
+97 parameters
+98 parameter (Parameter)
+99 isVarArgs='false'
+100 name (SimpleName)
+101 identifier='buffer'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='IoBuffer'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+35 36
+35 37
+37 38
+37 39
+39 40
+40 41
+37 42
+42 43
+43 44
+44 45
+45 46
+43 47
+47 48
+43 49
+49 50
+35 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+57 58
+58 59
+59 60
+57 61
+61 62
+57 63
+63 64
+33 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+68 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+0 94
+0 95
+95 96
+0 97
+97 98
+98 99
+98 100
+100 101
+98 102
+102 103
+103 104
+
+Writes the FLVHeader to IoBuffer.

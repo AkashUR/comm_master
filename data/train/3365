@@ -1,0 +1,220 @@
+109
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='GregorianCalendar'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='AMERICA_SAO_PAULO'
+15 name (SimpleName)
+16 identifier='calendar'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Calendar'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='set'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='calendar'
+27 arguments
+28 argument (IntegerLiteralExpr)
+29 value='2011'
+30 argument (IntegerLiteralExpr)
+31 value='9'
+32 argument (IntegerLiteralExpr)
+33 value='15'
+34 argument (IntegerLiteralExpr)
+35 value='0'
+36 argument (IntegerLiteralExpr)
+37 value='0'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='hoursSinceEpoch'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='calendar'
+49 name (SimpleName)
+50 identifier='hoursSinceEpoch'
+51 type (PrimitiveType)
+52 type='DOUBLE'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='add'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='calendar'
+60 arguments
+61 argument (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='DATE'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='Calendar'
+67 argument (IntegerLiteralExpr)
+68 value='1'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='assertEquals'
+73 arguments
+74 argument (DoubleLiteralExpr)
+75 value='24.0'
+76 argument (BinaryExpr)
+77 operator='MINUS'
+78 left (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='hoursSinceEpoch'
+81 arguments
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='calendar'
+85 right (NameExpr)
+86 name (SimpleName)
+87 identifier='hoursSinceEpoch'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='assertCalendarEquals'
+92 arguments
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='calendar'
+96 argument (IntegerLiteralExpr)
+97 value='2011'
+98 argument (IntegerLiteralExpr)
+99 value='9'
+100 argument (IntegerLiteralExpr)
+101 value='16'
+102 argument (IntegerLiteralExpr)
+103 value='1'
+104 argument (IntegerLiteralExpr)
+105 value='0'
+106 type (VoidType)
+107 name (SimpleName)
+108 identifier='testAddOneDayOverDstForwardAdds24HoursAt0000'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+27 30
+30 31
+27 32
+32 33
+27 34
+34 35
+27 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+41 49
+49 50
+41 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+60 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+73 76
+76 77
+76 78
+78 79
+79 80
+78 81
+81 82
+82 83
+83 84
+76 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+92 96
+96 97
+92 98
+98 99
+92 100
+100 101
+92 102
+102 103
+92 104
+104 105
+0 106
+0 107
+107 108
+
+At their daylight savings time switch, Sao Paulo changes from "00:00 GMT-3" to "01:00 GMT-2". When adding time across this boundary, drop an hour to keep the hour+minute constant unless that prevents the date field from being incremented. http://code.google.com/p/android/issues/detail?id=17502

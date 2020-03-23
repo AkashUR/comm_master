@@ -1,0 +1,1126 @@
+562
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createTable'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='testSetNClob'
+10 argument (StringLiteralExpr)
+11 value='(c1 NATIONAL CHARACTER(10), c2 NATIONAL CHARACTER(10), c3 NATIONAL CHARACTER(10)) ENGINE=InnoDB'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (ObjectCreationExpr)
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Properties'
+20 name (SimpleName)
+21 identifier='props1'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Properties'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='put'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='props1'
+32 arguments
+33 argument (StringLiteralExpr)
+34 value='useServerPrepStmts'
+35 argument (StringLiteralExpr)
+36 value='false'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='put'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='props1'
+44 arguments
+45 argument (StringLiteralExpr)
+46 value='useUnicode'
+47 argument (StringLiteralExpr)
+48 value='true'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='put'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='props1'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='characterEncoding'
+59 argument (StringLiteralExpr)
+60 value='latin1'
+61 statement (ExpressionStmt)
+62 expression (VariableDeclarationExpr)
+63 variables
+64 variable (VariableDeclarator)
+65 initializer (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getConnectionWithProps'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='props1'
+72 name (SimpleName)
+73 identifier='conn1'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='Connection'
+77 statement (ExpressionStmt)
+78 expression (VariableDeclarationExpr)
+79 variables
+80 variable (VariableDeclarator)
+81 initializer (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='prepareStatement'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='conn1'
+87 arguments
+88 argument (StringLiteralExpr)
+89 value='INSERT INTO testSetNClob (c1, c2, c3) VALUES (?, ?, ?)'
+90 name (SimpleName)
+91 identifier='pstmt1'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='PreparedStatement'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='setNClob'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='pstmt1'
+102 arguments
+103 argument (IntegerLiteralExpr)
+104 value='1'
+105 argument (CastExpr)
+106 expression (NullLiteralExpr)
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='NClob'
+110 statement (ExpressionStmt)
+111 expression (VariableDeclarationExpr)
+112 variables
+113 variable (VariableDeclarator)
+114 initializer (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='createNClob'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='conn1'
+120 name (SimpleName)
+121 identifier='nclob2'
+122 type (ClassOrInterfaceType)
+123 name (SimpleName)
+124 identifier='NClob'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='setString'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='nclob2'
+132 arguments
+133 argument (IntegerLiteralExpr)
+134 value='1'
+135 argument (StringLiteralExpr)
+136 value='aaa'
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='setNClob'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='pstmt1'
+144 arguments
+145 argument (IntegerLiteralExpr)
+146 value='2'
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='nclob2'
+150 statement (ExpressionStmt)
+151 expression (VariableDeclarationExpr)
+152 variables
+153 variable (VariableDeclarator)
+154 initializer (ObjectCreationExpr)
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='StringReader'
+158 arguments
+159 argument (StringLiteralExpr)
+160 value='\\'aaa\\''
+161 name (SimpleName)
+162 identifier='reader3'
+163 type (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='Reader'
+166 statement (ExpressionStmt)
+167 expression (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='setNClob'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='pstmt1'
+173 arguments
+174 argument (IntegerLiteralExpr)
+175 value='3'
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='reader3'
+179 argument (IntegerLiteralExpr)
+180 value='5'
+181 statement (ExpressionStmt)
+182 expression (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='execute'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='pstmt1'
+188 statement (ExpressionStmt)
+189 expression (VariableDeclarationExpr)
+190 variables
+191 variable (VariableDeclarator)
+192 initializer (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='executeQuery'
+195 scope (FieldAccessExpr)
+196 name (SimpleName)
+197 identifier='stmt'
+198 scope (ThisExpr)
+199 arguments
+200 argument (StringLiteralExpr)
+201 value='SELECT c1, c2, c3 FROM testSetNClob'
+202 name (SimpleName)
+203 identifier='rs1'
+204 type (ClassOrInterfaceType)
+205 name (SimpleName)
+206 identifier='ResultSet'
+207 statement (ExpressionStmt)
+208 expression (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='next'
+211 scope (NameExpr)
+212 name (SimpleName)
+213 identifier='rs1'
+214 statement (ExpressionStmt)
+215 expression (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='assertEquals'
+218 arguments
+219 argument (NullLiteralExpr)
+220 argument (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='getString'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='rs1'
+226 arguments
+227 argument (IntegerLiteralExpr)
+228 value='1'
+229 statement (ExpressionStmt)
+230 expression (MethodCallExpr)
+231 name (SimpleName)
+232 identifier='assertEquals'
+233 arguments
+234 argument (StringLiteralExpr)
+235 value='aaa'
+236 argument (MethodCallExpr)
+237 name (SimpleName)
+238 identifier='getString'
+239 scope (NameExpr)
+240 name (SimpleName)
+241 identifier='rs1'
+242 arguments
+243 argument (IntegerLiteralExpr)
+244 value='2'
+245 statement (ExpressionStmt)
+246 expression (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='assertEquals'
+249 arguments
+250 argument (StringLiteralExpr)
+251 value='\\'aaa\\''
+252 argument (MethodCallExpr)
+253 name (SimpleName)
+254 identifier='getString'
+255 scope (NameExpr)
+256 name (SimpleName)
+257 identifier='rs1'
+258 arguments
+259 argument (IntegerLiteralExpr)
+260 value='3'
+261 statement (ExpressionStmt)
+262 expression (MethodCallExpr)
+263 name (SimpleName)
+264 identifier='close'
+265 scope (NameExpr)
+266 name (SimpleName)
+267 identifier='rs1'
+268 statement (ExpressionStmt)
+269 expression (MethodCallExpr)
+270 name (SimpleName)
+271 identifier='close'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='pstmt1'
+275 statement (ExpressionStmt)
+276 expression (MethodCallExpr)
+277 name (SimpleName)
+278 identifier='close'
+279 scope (NameExpr)
+280 name (SimpleName)
+281 identifier='conn1'
+282 statement (ExpressionStmt)
+283 expression (MethodCallExpr)
+284 name (SimpleName)
+285 identifier='createTable'
+286 arguments
+287 argument (StringLiteralExpr)
+288 value='testSetNClob'
+289 argument (StringLiteralExpr)
+290 value='(c1 NATIONAL CHARACTER(10), c2 NATIONAL CHARACTER(10), c3 NATIONAL CHARACTER(10)) ENGINE=InnoDB'
+291 statement (ExpressionStmt)
+292 expression (VariableDeclarationExpr)
+293 variables
+294 variable (VariableDeclarator)
+295 initializer (ObjectCreationExpr)
+296 type (ClassOrInterfaceType)
+297 name (SimpleName)
+298 identifier='Properties'
+299 name (SimpleName)
+300 identifier='props2'
+301 type (ClassOrInterfaceType)
+302 name (SimpleName)
+303 identifier='Properties'
+304 statement (ExpressionStmt)
+305 expression (MethodCallExpr)
+306 name (SimpleName)
+307 identifier='put'
+308 scope (NameExpr)
+309 name (SimpleName)
+310 identifier='props2'
+311 arguments
+312 argument (StringLiteralExpr)
+313 value='useServerPrepStmts'
+314 argument (StringLiteralExpr)
+315 value='false'
+316 statement (ExpressionStmt)
+317 expression (MethodCallExpr)
+318 name (SimpleName)
+319 identifier='put'
+320 scope (NameExpr)
+321 name (SimpleName)
+322 identifier='props2'
+323 arguments
+324 argument (StringLiteralExpr)
+325 value='useUnicode'
+326 argument (StringLiteralExpr)
+327 value='true'
+328 statement (ExpressionStmt)
+329 expression (MethodCallExpr)
+330 name (SimpleName)
+331 identifier='put'
+332 scope (NameExpr)
+333 name (SimpleName)
+334 identifier='props2'
+335 arguments
+336 argument (StringLiteralExpr)
+337 value='characterEncoding'
+338 argument (StringLiteralExpr)
+339 value='UTF-8'
+340 statement (ExpressionStmt)
+341 expression (VariableDeclarationExpr)
+342 variables
+343 variable (VariableDeclarator)
+344 initializer (MethodCallExpr)
+345 name (SimpleName)
+346 identifier='getConnectionWithProps'
+347 arguments
+348 argument (NameExpr)
+349 name (SimpleName)
+350 identifier='props2'
+351 name (SimpleName)
+352 identifier='conn2'
+353 type (ClassOrInterfaceType)
+354 name (SimpleName)
+355 identifier='Connection'
+356 statement (ExpressionStmt)
+357 expression (VariableDeclarationExpr)
+358 variables
+359 variable (VariableDeclarator)
+360 initializer (MethodCallExpr)
+361 name (SimpleName)
+362 identifier='prepareStatement'
+363 scope (NameExpr)
+364 name (SimpleName)
+365 identifier='conn2'
+366 arguments
+367 argument (StringLiteralExpr)
+368 value='INSERT INTO testSetNClob (c1, c2, c3) VALUES (?, ?, ?)'
+369 name (SimpleName)
+370 identifier='pstmt2'
+371 type (ClassOrInterfaceType)
+372 name (SimpleName)
+373 identifier='PreparedStatement'
+374 statement (ExpressionStmt)
+375 expression (MethodCallExpr)
+376 name (SimpleName)
+377 identifier='setNClob'
+378 scope (NameExpr)
+379 name (SimpleName)
+380 identifier='pstmt2'
+381 arguments
+382 argument (IntegerLiteralExpr)
+383 value='1'
+384 argument (CastExpr)
+385 expression (NullLiteralExpr)
+386 type (ClassOrInterfaceType)
+387 name (SimpleName)
+388 identifier='NClob'
+389 statement (ExpressionStmt)
+390 expression (AssignExpr)
+391 operator='ASSIGN'
+392 target (NameExpr)
+393 name (SimpleName)
+394 identifier='nclob2'
+395 value (MethodCallExpr)
+396 name (SimpleName)
+397 identifier='createNClob'
+398 scope (NameExpr)
+399 name (SimpleName)
+400 identifier='conn2'
+401 statement (ExpressionStmt)
+402 expression (MethodCallExpr)
+403 name (SimpleName)
+404 identifier='setString'
+405 scope (NameExpr)
+406 name (SimpleName)
+407 identifier='nclob2'
+408 arguments
+409 argument (IntegerLiteralExpr)
+410 value='1'
+411 argument (StringLiteralExpr)
+412 value='aaa'
+413 statement (ExpressionStmt)
+414 expression (MethodCallExpr)
+415 name (SimpleName)
+416 identifier='setNClob'
+417 scope (NameExpr)
+418 name (SimpleName)
+419 identifier='pstmt2'
+420 arguments
+421 argument (IntegerLiteralExpr)
+422 value='2'
+423 argument (NameExpr)
+424 name (SimpleName)
+425 identifier='nclob2'
+426 statement (ExpressionStmt)
+427 expression (AssignExpr)
+428 operator='ASSIGN'
+429 target (NameExpr)
+430 name (SimpleName)
+431 identifier='reader3'
+432 value (ObjectCreationExpr)
+433 type (ClassOrInterfaceType)
+434 name (SimpleName)
+435 identifier='StringReader'
+436 arguments
+437 argument (StringLiteralExpr)
+438 value='\\'aaa\\''
+439 statement (ExpressionStmt)
+440 expression (MethodCallExpr)
+441 name (SimpleName)
+442 identifier='setNClob'
+443 scope (NameExpr)
+444 name (SimpleName)
+445 identifier='pstmt2'
+446 arguments
+447 argument (IntegerLiteralExpr)
+448 value='3'
+449 argument (NameExpr)
+450 name (SimpleName)
+451 identifier='reader3'
+452 argument (IntegerLiteralExpr)
+453 value='5'
+454 statement (ExpressionStmt)
+455 expression (MethodCallExpr)
+456 name (SimpleName)
+457 identifier='execute'
+458 scope (NameExpr)
+459 name (SimpleName)
+460 identifier='pstmt2'
+461 statement (ExpressionStmt)
+462 expression (VariableDeclarationExpr)
+463 variables
+464 variable (VariableDeclarator)
+465 initializer (MethodCallExpr)
+466 name (SimpleName)
+467 identifier='executeQuery'
+468 scope (FieldAccessExpr)
+469 name (SimpleName)
+470 identifier='stmt'
+471 scope (ThisExpr)
+472 arguments
+473 argument (StringLiteralExpr)
+474 value='SELECT c1, c2, c3 FROM testSetNClob'
+475 name (SimpleName)
+476 identifier='rs2'
+477 type (ClassOrInterfaceType)
+478 name (SimpleName)
+479 identifier='ResultSet'
+480 statement (ExpressionStmt)
+481 expression (MethodCallExpr)
+482 name (SimpleName)
+483 identifier='next'
+484 scope (NameExpr)
+485 name (SimpleName)
+486 identifier='rs2'
+487 statement (ExpressionStmt)
+488 expression (MethodCallExpr)
+489 name (SimpleName)
+490 identifier='assertEquals'
+491 arguments
+492 argument (NullLiteralExpr)
+493 argument (MethodCallExpr)
+494 name (SimpleName)
+495 identifier='getString'
+496 scope (NameExpr)
+497 name (SimpleName)
+498 identifier='rs2'
+499 arguments
+500 argument (IntegerLiteralExpr)
+501 value='1'
+502 statement (ExpressionStmt)
+503 expression (MethodCallExpr)
+504 name (SimpleName)
+505 identifier='assertEquals'
+506 arguments
+507 argument (StringLiteralExpr)
+508 value='aaa'
+509 argument (MethodCallExpr)
+510 name (SimpleName)
+511 identifier='getString'
+512 scope (NameExpr)
+513 name (SimpleName)
+514 identifier='rs2'
+515 arguments
+516 argument (IntegerLiteralExpr)
+517 value='2'
+518 statement (ExpressionStmt)
+519 expression (MethodCallExpr)
+520 name (SimpleName)
+521 identifier='assertEquals'
+522 arguments
+523 argument (StringLiteralExpr)
+524 value='\\'aaa\\''
+525 argument (MethodCallExpr)
+526 name (SimpleName)
+527 identifier='getString'
+528 scope (NameExpr)
+529 name (SimpleName)
+530 identifier='rs2'
+531 arguments
+532 argument (IntegerLiteralExpr)
+533 value='3'
+534 statement (ExpressionStmt)
+535 expression (MethodCallExpr)
+536 name (SimpleName)
+537 identifier='close'
+538 scope (NameExpr)
+539 name (SimpleName)
+540 identifier='rs2'
+541 statement (ExpressionStmt)
+542 expression (MethodCallExpr)
+543 name (SimpleName)
+544 identifier='close'
+545 scope (NameExpr)
+546 name (SimpleName)
+547 identifier='pstmt2'
+548 statement (ExpressionStmt)
+549 expression (MethodCallExpr)
+550 name (SimpleName)
+551 identifier='close'
+552 scope (NameExpr)
+553 name (SimpleName)
+554 identifier='conn2'
+555 type (VoidType)
+556 name (SimpleName)
+557 identifier='testSetNClob'
+558 thrownExceptions
+559 thrownException (ClassOrInterfaceType)
+560 name (SimpleName)
+561 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+15 20
+20 21
+15 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+32 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+44 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+56 59
+59 60
+2 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+64 72
+72 73
+64 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+80 90
+90 91
+80 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+102 105
+105 106
+105 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+113 120
+120 121
+113 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+132 135
+135 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+138 144
+144 145
+145 146
+144 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+153 154
+154 155
+155 156
+156 157
+154 158
+158 159
+159 160
+153 161
+161 162
+153 163
+163 164
+164 165
+2 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+167 173
+173 174
+174 175
+173 176
+176 177
+177 178
+173 179
+179 180
+2 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+2 188
+188 189
+189 190
+190 191
+191 192
+192 193
+193 194
+192 195
+195 196
+196 197
+195 198
+192 199
+199 200
+200 201
+191 202
+202 203
+191 204
+204 205
+205 206
+2 207
+207 208
+208 209
+209 210
+208 211
+211 212
+212 213
+2 214
+214 215
+215 216
+216 217
+215 218
+218 219
+218 220
+220 221
+221 222
+220 223
+223 224
+224 225
+220 226
+226 227
+227 228
+2 229
+229 230
+230 231
+231 232
+230 233
+233 234
+234 235
+233 236
+236 237
+237 238
+236 239
+239 240
+240 241
+236 242
+242 243
+243 244
+2 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+249 252
+252 253
+253 254
+252 255
+255 256
+256 257
+252 258
+258 259
+259 260
+2 261
+261 262
+262 263
+263 264
+262 265
+265 266
+266 267
+2 268
+268 269
+269 270
+270 271
+269 272
+272 273
+273 274
+2 275
+275 276
+276 277
+277 278
+276 279
+279 280
+280 281
+2 282
+282 283
+283 284
+284 285
+283 286
+286 287
+287 288
+286 289
+289 290
+2 291
+291 292
+292 293
+293 294
+294 295
+295 296
+296 297
+297 298
+294 299
+299 300
+294 301
+301 302
+302 303
+2 304
+304 305
+305 306
+306 307
+305 308
+308 309
+309 310
+305 311
+311 312
+312 313
+311 314
+314 315
+2 316
+316 317
+317 318
+318 319
+317 320
+320 321
+321 322
+317 323
+323 324
+324 325
+323 326
+326 327
+2 328
+328 329
+329 330
+330 331
+329 332
+332 333
+333 334
+329 335
+335 336
+336 337
+335 338
+338 339
+2 340
+340 341
+341 342
+342 343
+343 344
+344 345
+345 346
+344 347
+347 348
+348 349
+349 350
+343 351
+351 352
+343 353
+353 354
+354 355
+2 356
+356 357
+357 358
+358 359
+359 360
+360 361
+361 362
+360 363
+363 364
+364 365
+360 366
+366 367
+367 368
+359 369
+369 370
+359 371
+371 372
+372 373
+2 374
+374 375
+375 376
+376 377
+375 378
+378 379
+379 380
+375 381
+381 382
+382 383
+381 384
+384 385
+384 386
+386 387
+387 388
+2 389
+389 390
+390 391
+390 392
+392 393
+393 394
+390 395
+395 396
+396 397
+395 398
+398 399
+399 400
+2 401
+401 402
+402 403
+403 404
+402 405
+405 406
+406 407
+402 408
+408 409
+409 410
+408 411
+411 412
+2 413
+413 414
+414 415
+415 416
+414 417
+417 418
+418 419
+414 420
+420 421
+421 422
+420 423
+423 424
+424 425
+2 426
+426 427
+427 428
+427 429
+429 430
+430 431
+427 432
+432 433
+433 434
+434 435
+432 436
+436 437
+437 438
+2 439
+439 440
+440 441
+441 442
+440 443
+443 444
+444 445
+440 446
+446 447
+447 448
+446 449
+449 450
+450 451
+446 452
+452 453
+2 454
+454 455
+455 456
+456 457
+455 458
+458 459
+459 460
+2 461
+461 462
+462 463
+463 464
+464 465
+465 466
+466 467
+465 468
+468 469
+469 470
+468 471
+465 472
+472 473
+473 474
+464 475
+475 476
+464 477
+477 478
+478 479
+2 480
+480 481
+481 482
+482 483
+481 484
+484 485
+485 486
+2 487
+487 488
+488 489
+489 490
+488 491
+491 492
+491 493
+493 494
+494 495
+493 496
+496 497
+497 498
+493 499
+499 500
+500 501
+2 502
+502 503
+503 504
+504 505
+503 506
+506 507
+507 508
+506 509
+509 510
+510 511
+509 512
+512 513
+513 514
+509 515
+515 516
+516 517
+2 518
+518 519
+519 520
+520 521
+519 522
+522 523
+523 524
+522 525
+525 526
+526 527
+525 528
+528 529
+529 530
+525 531
+531 532
+532 533
+2 534
+534 535
+535 536
+536 537
+535 538
+538 539
+539 540
+2 541
+541 542
+542 543
+543 544
+542 545
+545 546
+546 547
+2 548
+548 549
+549 550
+550 551
+549 552
+552 553
+553 554
+0 555
+0 556
+556 557
+0 558
+558 559
+559 560
+560 561
+
+Tests for PreparedStatement.setNClob()

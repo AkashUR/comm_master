@@ -1,0 +1,128 @@
+63
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='processFinished'
+7 scope (SuperExpr)
+8 statement (ExpressionStmt)
+9 expression (VariableDeclarationExpr)
+10 variables
+11 variable (VariableDeclarator)
+12 initializer (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='iterator'
+15 scope (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getListenerListCopy'
+18 name (SimpleName)
+19 identifier='i'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Iterator'
+23 statement (WhileStmt)
+24 body (BlockStmt)
+25 statements
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='processEnded'
+30 scope (EnclosedExpr)
+31 inner (CastExpr)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='next'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='i'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='ProcessListener'
+41 arguments
+42 argument (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='process'
+45 scope (ThisExpr)
+46 condition (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='hasNext'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='i'
+52 type (VoidType)
+53 name (SimpleName)
+54 identifier='processFinished'
+55 thrownExceptions
+56 thrownException (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='OperatorException'
+59 annotations
+60 annotation (MarkerAnnotationExpr)
+61 name (Name)
+62 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+11 18
+18 19
+11 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+31 38
+38 39
+39 40
+27 41
+41 42
+42 43
+43 44
+42 45
+23 46
+46 47
+47 48
+46 49
+49 50
+50 51
+0 52
+0 53
+53 54
+0 55
+55 56
+56 57
+57 58
+0 59
+59 60
+60 61
+61 62
+
+Called at the end of the process. Notifies all listeners and the children operators (super method).

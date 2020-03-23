@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rotateToVector'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='rotation'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='vector'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='rotateToVector'
+17 parameters
+18 parameter (Parameter)
+19 isVarArgs='false'
+20 name (SimpleName)
+21 identifier='vector'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Point2D'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+18 20
+20 21
+18 22
+22 23
+23 24
+
+Set absolute rotation of the entity view to angle between vector and positive X axis. This is useful for projectiles (bullets, arrows, etc) which rotate depending on their current velocity. Note, this assumes that at 0 angle rotation the scene view is facing right.

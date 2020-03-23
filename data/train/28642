@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rlft3'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='FFT'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='fft'
+13 scope (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='nr'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='com'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='data'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='speq'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='isign'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='nn1'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='nn2'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='nn3'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='rlft3'
+41 parameters
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='data'
+46 type (ArrayType)
+47 origin='TYPE'
+48 componentType (PrimitiveType)
+49 type='DOUBLE'
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='speq'
+54 type (ArrayType)
+55 origin='TYPE'
+56 componentType (PrimitiveType)
+57 type='DOUBLE'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='isign'
+62 type (PrimitiveType)
+63 type='INT'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='nn1'
+68 type (PrimitiveType)
+69 type='INT'
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='nn2'
+74 type (PrimitiveType)
+75 type='INT'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='nn3'
+80 type (PrimitiveType)
+81 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+4 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+19 26
+26 27
+27 28
+19 29
+29 30
+30 31
+19 32
+32 33
+33 34
+19 35
+35 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+46 48
+48 49
+41 50
+50 51
+50 52
+52 53
+50 54
+54 55
+54 56
+56 57
+41 58
+58 59
+58 60
+60 61
+58 62
+62 63
+41 64
+64 65
+64 66
+66 67
+64 68
+68 69
+41 70
+70 71
+70 72
+72 73
+70 74
+74 75
+41 76
+76 77
+76 78
+78 79
+76 80
+80 81
+
+Given a three-dimensional real array data[0..nn1-1][0..nn2-1][0..nn3-1] (where nn1 D 1 for the case of a logically two-dimensional array), this routine returns (for isign=1) the complex fast Fourier transform as two complex arrays: On output, data contains the zero and positive frequency values of the third frequency component, while speq[0..nn1-1][0..2*nn2-1] con- tains the Nyquist critical frequency values of the third frequency component. First (and sec- ond) frequency components are stored for zero, positive, and negative frequencies, in standard wraparound order. See text for description of how complex values are arranged. For isign=-1, the inverse transform (times nn1*nn2*nn3/2 as a constant multiplicative factor) is performed, with output data (viewed as a real array) deriving from input data (viewed as complex) and speq. For inverse transforms on data not generated first by a forward transform, make sure the complex input data array satisfies property (12.6.2). The dimensions nn1, nn2, nn3 must always be integer powers of 2.

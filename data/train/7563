@@ -1,0 +1,334 @@
+166
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (NameExpr)
+18 name (SimpleName)
+19 identifier='WEBAPP_TEST_HEADER'
+20 right (StringLiteralExpr)
+21 value='  <context-param>'
+22 right (StringLiteralExpr)
+23 value='    <param-name>param1</param-name>'
+24 right (StringLiteralExpr)
+25 value='    <param-value>value1</param-value>'
+26 right (StringLiteralExpr)
+27 value='  </context-param>'
+28 right (StringLiteralExpr)
+29 value='</web-app>'
+30 name (SimpleName)
+31 identifier='xml'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='String'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='build'
+39 scope (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='builder'
+42 scope (ThisExpr)
+43 arguments
+44 argument (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='ByteArrayInputStream'
+48 arguments
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getBytes'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='xml'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='UTF-8'
+58 statement (ExpressionStmt)
+59 expression (VariableDeclarationExpr)
+60 variables
+61 variable (VariableDeclarator)
+62 initializer (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='parseWebXml'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='WebXmlIo'
+68 arguments
+69 argument (ObjectCreationExpr)
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='ByteArrayInputStream'
+73 arguments
+74 argument (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='getBytes'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='xml'
+80 arguments
+81 argument (StringLiteralExpr)
+82 value='UTF-8'
+83 argument (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getEntityResolver'
+86 name (SimpleName)
+87 identifier='webXml'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='WebXml'
+91 statement (ExpressionStmt)
+92 expression (VariableDeclarationExpr)
+93 variables
+94 variable (VariableDeclarator)
+95 initializer (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='createContextParamElement'
+98 arguments
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getDescriptorType'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='webXml'
+105 argument (StringLiteralExpr)
+106 value='param2'
+107 argument (StringLiteralExpr)
+108 value='value2'
+109 name (SimpleName)
+110 identifier='contextParamElement'
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='WebXmlElement'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='addTag'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='webXml'
+121 arguments
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='contextParamElement'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='assertTrue'
+129 arguments
+130 argument (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='hasContextParam'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='WebXmlUtils'
+136 arguments
+137 argument (NameExpr)
+138 name (SimpleName)
+139 identifier='webXml'
+140 argument (StringLiteralExpr)
+141 value='param1'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='assertTrue'
+146 arguments
+147 argument (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='hasContextParam'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='WebXmlUtils'
+153 arguments
+154 argument (NameExpr)
+155 name (SimpleName)
+156 identifier='webXml'
+157 argument (StringLiteralExpr)
+158 value='param2'
+159 type (VoidType)
+160 name (SimpleName)
+161 identifier='testAddContextParamToDocumentWithAnotherContextParam'
+162 thrownExceptions
+163 thrownException (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+13 22
+22 23
+11 24
+24 25
+9 26
+26 27
+7 28
+28 29
+6 30
+30 31
+6 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+36 43
+43 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+68 83
+83 84
+84 85
+61 86
+86 87
+61 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+98 105
+105 106
+98 107
+107 108
+94 109
+109 110
+94 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+137 138
+138 139
+136 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+147 153
+153 154
+154 155
+155 156
+153 157
+157 158
+0 159
+0 160
+160 161
+0 162
+162 163
+163 164
+164 165
+
+Tests whether a single context param is correctly inserted into a descriptor that already contains an other context param definition.

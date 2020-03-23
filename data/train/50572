@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='root'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='VFolder'
+13 arguments
+14 argument (NullLiteralExpr)
+15 argument (NullLiteralExpr)
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getWorkingDirPath'
+23 name (SimpleName)
+24 identifier='workingDir'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='String'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='createFolder'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='workingDir'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='createFolder'
+40 arguments
+41 argument (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getTmpFolderPath'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='clear'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='accessedFiles'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='init'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+13 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+19 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+0 51
+0 52
+52 53
+
+Initialize the virtual file system with the current directory the JVM was started from

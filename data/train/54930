@@ -1,0 +1,106 @@
+52
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='base'
+9 argument (NullLiteralExpr)
+10 statement (ExpressionStmt)
+11 expression (AssignExpr)
+12 operator='ASSIGN'
+13 target (NameExpr)
+14 name (SimpleName)
+15 identifier='iLowerLimit'
+16 value (NameExpr)
+17 name (SimpleName)
+18 identifier='lowerLimit'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (NameExpr)
+23 name (SimpleName)
+24 identifier='iUpperLimit'
+25 value (NameExpr)
+26 name (SimpleName)
+27 identifier='upperLimit'
+28 name (SimpleName)
+29 identifier='LimitChronology'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='base'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Chronology'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='lowerLimit'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='DateTime'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='upperLimit'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='DateTime'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+2 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+16 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+26 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+30 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+30 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+
+Wraps another chronology, with datetime limits. When withUTC or withZone is called, the returned LimitChronology instance has the same limits, except they are time zone adjusted.

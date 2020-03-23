@@ -1,0 +1,128 @@
+63
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='build'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='mergeFrom'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='newBuilder'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='DynamicMessage'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='MERGE_DEST'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='build'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='newBuilder'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='DynamicMessage'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='MERGE_SOURCE'
+37 name (SimpleName)
+38 identifier='result'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='DynamicMessage'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='assertEquals'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='MERGE_RESULT_TEXT'
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='toString'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='result'
+56 type (VoidType)
+57 name (SimpleName)
+58 identifier='testDynamicMergeFrom'
+59 thrownExceptions
+60 thrownException (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+10 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+6 37
+37 38
+6 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+48 49
+46 50
+50 51
+51 52
+50 53
+53 54
+54 55
+0 56
+0 57
+57 58
+0 59
+59 60
+60 61
+61 62
+
+Test merging two DynamicMessages.

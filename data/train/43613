@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='iterator'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='sessions'
+13 name (SimpleName)
+14 identifier='it'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Iterator'
+18 typeArguments
+19 typeArgument (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='MessageConsumerSession'
+22 statement (WhileStmt)
+23 body (BlockStmt)
+24 statements
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (CastExpr)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='next'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='it'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='MessageConsumerSession'
+39 name (SimpleName)
+40 identifier='s'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='MessageConsumerSession'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='stopListening'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='s'
+51 condition (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='hasNext'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='it'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='stop'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+29 36
+36 37
+37 38
+28 39
+39 40
+28 41
+41 42
+42 43
+24 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+22 51
+51 52
+52 53
+51 54
+54 55
+55 56
+0 57
+0 58
+58 59
+
+Stop listening for messages. If <b>notifyListenerOnClose</b> is set then calling this method will notify the listener by calling its onMessage method with a null argument (and also without transaction context). This method will wait for all active receive operations to unblock, which may take up to <b>receiveTimeout</b> seconds per active thread.

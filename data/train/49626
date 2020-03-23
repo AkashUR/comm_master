@@ -1,0 +1,108 @@
+53
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='[ac]*a[ac]{50,200}'
+9 name (SimpleName)
+10 identifier='source'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='expectThrows'
+21 arguments
+22 argument (ClassExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='TooComplexToDeterminizeException'
+26 argument (NullLiteralExpr)
+27 name (SimpleName)
+28 identifier='expected'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='TooComplexToDeterminizeException'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='assertTrue'
+36 arguments
+37 argument (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='contains'
+40 scope (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getMessage'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='expected'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='source'
+50 type (VoidType)
+51 name (SimpleName)
+52 identifier='testDeterminizeTooManyStates'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+23 24
+24 25
+21 26
+17 27
+27 28
+17 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+37 46
+46 47
+47 48
+48 49
+0 50
+0 51
+51 52
+
+Compiles a regular expression that is prohibitively expensive to determinize and expexts to catch an exception for it.

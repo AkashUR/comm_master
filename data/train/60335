@@ -1,0 +1,400 @@
+199
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='HadoopSerializationWrapper'
+11 arguments
+12 argument (ObjectCreationExpr)
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='WritableSerialization'
+16 argument (ClassExpr)
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='IntWritable'
+20 name (SimpleName)
+21 identifier='ser'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='HadoopSerialization'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='ByteArrayOutputStream'
+33 name (SimpleName)
+34 identifier='buf'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='ByteArrayOutputStream'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (ObjectCreationExpr)
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='DataOutputStream'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='buf'
+50 name (SimpleName)
+51 identifier='out'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='DataOutput'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='write'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='ser'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='out'
+66 argument (ObjectCreationExpr)
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='IntWritable'
+70 arguments
+71 argument (IntegerLiteralExpr)
+72 value='3'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='write'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='ser'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='out'
+84 argument (ObjectCreationExpr)
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='IntWritable'
+88 arguments
+89 argument (UnaryExpr)
+90 operator='MINUS'
+91 expression (IntegerLiteralExpr)
+92 value='5'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='assertEquals'
+97 arguments
+98 argument (StringLiteralExpr)
+99 value='[0, 0, 0, 3, -1, -1, -1, -5]'
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='toString'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='Arrays'
+106 arguments
+107 argument (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='toByteArray'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='buf'
+113 statement (ExpressionStmt)
+114 expression (VariableDeclarationExpr)
+115 variables
+116 variable (VariableDeclarator)
+117 initializer (ObjectCreationExpr)
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='DataInputStream'
+121 arguments
+122 argument (ObjectCreationExpr)
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='ByteArrayInputStream'
+126 arguments
+127 argument (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='toByteArray'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='buf'
+133 name (SimpleName)
+134 identifier='in'
+135 type (ClassOrInterfaceType)
+136 name (SimpleName)
+137 identifier='DataInput'
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='assertEquals'
+142 arguments
+143 argument (IntegerLiteralExpr)
+144 value='3'
+145 argument (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='get'
+148 scope (EnclosedExpr)
+149 inner (CastExpr)
+150 expression (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='read'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='ser'
+156 arguments
+157 argument (NameExpr)
+158 name (SimpleName)
+159 identifier='in'
+160 argument (NullLiteralExpr)
+161 type (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='IntWritable'
+164 statement (ExpressionStmt)
+165 expression (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='assertEquals'
+168 arguments
+169 argument (UnaryExpr)
+170 operator='MINUS'
+171 expression (IntegerLiteralExpr)
+172 value='5'
+173 argument (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='get'
+176 scope (EnclosedExpr)
+177 inner (CastExpr)
+178 expression (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='read'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='ser'
+184 arguments
+185 argument (NameExpr)
+186 name (SimpleName)
+187 identifier='in'
+188 argument (NullLiteralExpr)
+189 type (ClassOrInterfaceType)
+190 name (SimpleName)
+191 identifier='IntWritable'
+192 type (VoidType)
+193 name (SimpleName)
+194 identifier='testIntWritableSerialization'
+195 thrownExceptions
+196 thrownException (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+14 15
+11 16
+16 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+28 33
+33 34
+28 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+42 46
+46 47
+47 48
+48 49
+41 50
+50 51
+41 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+68 69
+66 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+80 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+89 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+97 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+116 117
+117 118
+118 119
+119 120
+117 121
+121 122
+122 123
+123 124
+124 125
+122 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+116 133
+133 134
+116 135
+135 136
+136 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+142 145
+145 146
+146 147
+145 148
+148 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+150 156
+156 157
+157 158
+158 159
+156 160
+149 161
+161 162
+162 163
+2 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+169 171
+171 172
+168 173
+173 174
+174 175
+173 176
+176 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+178 184
+184 185
+185 186
+186 187
+184 188
+177 189
+189 190
+190 191
+0 192
+0 193
+193 194
+0 195
+195 196
+196 197
+197 198
+
+Tests read/write of IntWritable via native WritableSerialization.

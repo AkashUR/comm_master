@@ -1,0 +1,430 @@
+214
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getDB'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='mongoResource'
+13 name (SimpleName)
+14 identifier='db'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='DB'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (NameExpr)
+22 name (SimpleName)
+23 identifier='entitiesCollection'
+24 value (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getCollection'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='db'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='entitiesCollectionName'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='relationsCollection'
+40 value (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getCollection'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='db'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='relationsCollectionName'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (NameExpr)
+54 name (SimpleName)
+55 identifier='documentsCollection'
+56 value (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getCollection'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='db'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='documentsCollectionName'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='createIndex'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='documentsCollection'
+73 arguments
+74 argument (ObjectCreationExpr)
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='BasicDBObject'
+78 arguments
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getExternalId'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='fields'
+85 argument (IntegerLiteralExpr)
+86 value='1'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='createIndex'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='entitiesCollection'
+94 arguments
+95 argument (ObjectCreationExpr)
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='BasicDBObject'
+99 arguments
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='getExternalId'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='fields'
+106 argument (IntegerLiteralExpr)
+107 value='1'
+108 statement (ExpressionStmt)
+109 expression (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='createIndex'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='relationsCollection'
+115 arguments
+116 argument (ObjectCreationExpr)
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='BasicDBObject'
+120 arguments
+121 argument (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='getExternalId'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='fields'
+127 argument (IntegerLiteralExpr)
+128 value='1'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='createIndex'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='relationsCollection'
+136 arguments
+137 argument (ObjectCreationExpr)
+138 type (ClassOrInterfaceType)
+139 name (SimpleName)
+140 identifier='BasicDBObject'
+141 arguments
+142 argument (NameExpr)
+143 name (SimpleName)
+144 identifier='FIELD_DOCUMENT_ID'
+145 argument (IntegerLiteralExpr)
+146 value='1'
+147 statement (ExpressionStmt)
+148 expression (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='createIndex'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='entitiesCollection'
+154 arguments
+155 argument (ObjectCreationExpr)
+156 type (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='BasicDBObject'
+159 arguments
+160 argument (NameExpr)
+161 name (SimpleName)
+162 identifier='FIELD_DOCUMENT_ID'
+163 argument (IntegerLiteralExpr)
+164 value='1'
+165 statement (ExpressionStmt)
+166 expression (AssignExpr)
+167 operator='ASSIGN'
+168 target (NameExpr)
+169 name (SimpleName)
+170 identifier='stopFeatures'
+171 value (ObjectCreationExpr)
+172 type (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='HashSet'
+175 statement (ExpressionStmt)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='add'
+179 scope (NameExpr)
+180 name (SimpleName)
+181 identifier='stopFeatures'
+182 arguments
+183 argument (StringLiteralExpr)
+184 value='uima.cas.AnnotationBase:sofa'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='add'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='stopFeatures'
+192 arguments
+193 argument (StringLiteralExpr)
+194 value='uk.gov.dstl.baleen.types.BaleenAnnotation:internalId'
+195 type (VoidType)
+196 name (SimpleName)
+197 identifier='doInitialize'
+198 parameters
+199 parameter (Parameter)
+200 isVarArgs='false'
+201 name (SimpleName)
+202 identifier='aContext'
+203 type (ClassOrInterfaceType)
+204 name (SimpleName)
+205 identifier='UimaContext'
+206 thrownExceptions
+207 thrownException (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='ResourceInitializationException'
+210 annotations
+211 annotation (MarkerAnnotationExpr)
+212 name (Name)
+213 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+67 73
+73 74
+74 75
+75 76
+76 77
+74 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+78 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+99 106
+106 107
+2 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+118 119
+116 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+120 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+137 138
+138 139
+139 140
+137 141
+141 142
+142 143
+143 144
+141 145
+145 146
+2 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+148 154
+154 155
+155 156
+156 157
+157 158
+155 159
+159 160
+160 161
+161 162
+159 163
+163 164
+2 165
+165 166
+166 167
+166 168
+168 169
+169 170
+166 171
+171 172
+172 173
+173 174
+2 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+176 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+186 192
+192 193
+193 194
+0 195
+0 196
+196 197
+0 198
+198 199
+199 200
+199 201
+201 202
+199 203
+203 204
+204 205
+0 206
+206 207
+207 208
+208 209
+0 210
+210 211
+211 212
+212 213
+
+Get the mongo db, collection and create some indexes

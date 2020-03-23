@@ -1,0 +1,212 @@
+105
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getBounds'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='tipWindow'
+13 name (SimpleName)
+14 identifier='r'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Rectangle'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getLocation'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='r'
+28 name (SimpleName)
+29 identifier='p'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='Point'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='convertPointFromScreen'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='SwingUtilities'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='p'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='textArea'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='setLocation'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='r'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='p'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='setBounds'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='tipVisibleBounds'
+65 arguments
+66 argument (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='x'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='r'
+72 argument (BinaryExpr)
+73 operator='MINUS'
+74 left (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='y'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='r'
+80 right (IntegerLiteralExpr)
+81 value='15'
+82 argument (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='width'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='r'
+88 argument (BinaryExpr)
+89 operator='PLUS'
+90 left (FieldAccessExpr)
+91 name (SimpleName)
+92 identifier='height'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='r'
+96 right (BinaryExpr)
+97 operator='MULTIPLY'
+98 left (IntegerLiteralExpr)
+99 value='15'
+100 right (IntegerLiteralExpr)
+101 value='2'
+102 type (VoidType)
+103 name (SimpleName)
+104 identifier='computeTipVisibleBounds'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+21 28
+28 29
+21 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+65 72
+72 73
+72 74
+74 75
+75 76
+74 77
+77 78
+78 79
+72 80
+80 81
+65 82
+82 83
+83 84
+82 85
+85 86
+86 87
+65 88
+88 89
+88 90
+90 91
+91 92
+90 93
+93 94
+94 95
+88 96
+96 97
+96 98
+98 99
+96 100
+100 101
+0 102
+0 103
+103 104
+
+Compute the bounds in which the user can move the mouse without the tip window disappearing.

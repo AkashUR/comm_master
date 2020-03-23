@@ -1,0 +1,32 @@
+15
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='lastDepth'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='BIG'
+12 type (VoidType)
+13 name (SimpleName)
+14 identifier='reset'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+0 12
+0 13
+13 14
+
+Resets the pool so that the next call to matchNext looks at all regular expressions in the pool.  match(s); is equivalent to reset(); matchNext(s); <p><b>Multithreading note:</b> reset/nextMatch leave state in the regular expression pool.  If multiple threads could be using this pool this way, they should be syncronized to avoid race hazards. match() was done in such a way that there are no such race hazards: multiple threads can be matching in the same pool simultaneously.

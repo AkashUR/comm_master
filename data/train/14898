@@ -1,0 +1,214 @@
+106
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (NameExpr)
+10 name (SimpleName)
+11 identifier='WEBAPP_TEST_HEADER'
+12 right (StringLiteralExpr)
+13 value='</web-app>'
+14 name (SimpleName)
+15 identifier='xml'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='String'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='parseWebXml'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='WebXmlIo'
+29 arguments
+30 argument (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='ByteArrayInputStream'
+34 arguments
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getBytes'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='xml'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='UTF-8'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getEntityResolver'
+47 name (SimpleName)
+48 identifier='webXml'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='WebXml'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='setLoginConfig'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='WebXmlUtils'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='webXml'
+63 argument (StringLiteralExpr)
+64 value='BASIC'
+65 argument (StringLiteralExpr)
+66 value='Test Realm'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='assertTrue'
+71 arguments
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='hasLoginConfig'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='WebXmlUtils'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='webXml'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='assertEquals'
+86 arguments
+87 argument (StringLiteralExpr)
+88 value='BASIC'
+89 argument (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='getLoginConfigAuthMethod'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='WebXmlUtils'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='webXml'
+99 type (VoidType)
+100 name (SimpleName)
+101 identifier='testSetLoginConfigAdding'
+102 thrownExceptions
+103 thrownException (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+29 44
+44 45
+45 46
+22 47
+47 48
+22 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+59 63
+63 64
+59 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+86 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+0 99
+0 100
+100 101
+0 102
+102 103
+103 104
+104 105
+
+Tests retrieving the authentication method from a descriptor.

@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setRotationAngle'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mChart'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='MINUS'
+13 left (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getAngleForPoint'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='mChart'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='x'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='y'
+26 right (NameExpr)
+27 name (SimpleName)
+28 identifier='mStartAngle'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='updateGestureRotation'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='x'
+37 type (PrimitiveType)
+38 type='FLOAT'
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='y'
+43 type (PrimitiveType)
+44 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+11 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+32 39
+39 40
+39 41
+41 42
+39 43
+43 44
+
+updates the view rotation depending on the given touch position, also takes the starting angle into consideration

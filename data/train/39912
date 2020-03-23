@@ -1,0 +1,36 @@
+17
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='BINARY_AND'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='flags2'
+9 value (UnaryExpr)
+10 operator='BITWISE_COMPLEMENT'
+11 expression (NameExpr)
+12 name (SimpleName)
+13 identifier='TAKEN'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='clearTaken'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+0 14
+0 15
+15 16
+
+Clear this from being a guard operand from a taken branch

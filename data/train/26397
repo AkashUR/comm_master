@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='ACTION_MEDIA_SCANNER_SCAN_FILE'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='Intent'
+18 name (SimpleName)
+19 identifier='mediaScanIntent'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Intent'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='fromFile'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Uri'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='file'
+37 name (SimpleName)
+38 identifier='contentUri'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Uri'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='setData'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='mediaScanIntent'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='contentUri'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='sendBroadcast'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='context'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='mediaScanIntent'
+64 type (VoidType)
+65 name (SimpleName)
+66 identifier='galleryAddPic'
+67 parameters
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='context'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Context'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='file'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='File'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+26 37
+37 38
+26 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+0 64
+0 65
+65 66
+0 67
+67 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+67 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+
+Add file photo to gallery after capture from camera or downloaded.

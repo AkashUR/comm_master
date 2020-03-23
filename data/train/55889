@@ -1,0 +1,254 @@
+126
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='MobileDeviceParser'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='receiver'
+15 name (SimpleName)
+16 identifier='parser'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='MobileDeviceParser'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='constructGetUrl'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='mDomoticzUrls'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='CLEAN_MOBILE_DEVICE'
+34 scope (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='Request'
+37 scope (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='Url'
+40 scope (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='Json'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='DomoticzValues'
+46 name (SimpleName)
+47 identifier='url'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 statement (ExpressionStmt)
+52 expression (AssignExpr)
+53 operator='PLUS'
+54 target (NameExpr)
+55 name (SimpleName)
+56 identifier='url'
+57 value (BinaryExpr)
+58 operator='PLUS'
+59 left (StringLiteralExpr)
+60 value='&uuid='
+61 right (NameExpr)
+62 name (SimpleName)
+63 identifier='DeviceId'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='makeJsonGetRequest'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='RequestUtil'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='parser'
+75 argument (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='getUserCredentials'
+78 arguments
+79 argument (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='USERNAME'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='Authentication'
+85 argument (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getUserCredentials'
+88 arguments
+89 argument (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='PASSWORD'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='Authentication'
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='url'
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='mSessionUtil'
+101 argument (BooleanLiteralExpr)
+102 value='false'
+103 argument (IntegerLiteralExpr)
+104 value='1'
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='queue'
+108 type (VoidType)
+109 name (SimpleName)
+110 identifier='CleanMobileDevice'
+111 parameters
+112 parameter (Parameter)
+113 isVarArgs='false'
+114 name (SimpleName)
+115 identifier='DeviceId'
+116 type (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='String'
+119 parameter (Parameter)
+120 isVarArgs='false'
+121 name (SimpleName)
+122 identifier='receiver'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='MobileDeviceReceiver'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+23 46
+46 47
+23 48
+48 49
+49 50
+2 51
+51 52
+52 53
+52 54
+54 55
+55 56
+52 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+71 85
+85 86
+86 87
+85 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+71 95
+95 96
+96 97
+71 98
+98 99
+99 100
+71 101
+101 102
+71 103
+103 104
+71 105
+105 106
+106 107
+0 108
+0 109
+109 110
+0 111
+111 112
+112 113
+112 114
+114 115
+112 116
+116 117
+117 118
+111 119
+119 120
+119 121
+121 122
+119 123
+123 124
+124 125
+
+Clean previous sender id's on Domoticz

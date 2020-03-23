@@ -1,0 +1,164 @@
+81
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='fine'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='logger'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='adding layer listener'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='add'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='listeners'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='ll'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='setLayers'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='ll'
+31 arguments
+32 argument (ObjectCreationExpr)
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='LayerEvent'
+36 arguments
+37 argument (ThisExpr)
+38 argument (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='ALL'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='LayerEvent'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getLayers'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='setLayers'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='ll'
+54 arguments
+55 argument (ObjectCreationExpr)
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='LayerEvent'
+59 arguments
+60 argument (ThisExpr)
+61 argument (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='ADD'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='LayerEvent'
+67 argument (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='getMapLayers'
+70 type (VoidType)
+71 name (SimpleName)
+72 identifier='addLayerListener'
+73 parameters
+74 parameter (Parameter)
+75 isVarArgs='false'
+76 name (SimpleName)
+77 identifier='ll'
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='LayerListener'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+34 35
+32 36
+36 37
+36 38
+38 39
+39 40
+38 41
+41 42
+42 43
+36 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+57 58
+55 59
+59 60
+59 61
+61 62
+62 63
+61 64
+64 65
+65 66
+59 67
+67 68
+68 69
+0 70
+0 71
+71 72
+0 73
+73 74
+74 75
+74 76
+76 77
+74 78
+78 79
+79 80
+
+Add a LayerListener to the LayerHandler, in order to be told about layers that need to be added to the map. The new LayerListener will receive two events, one telling it all the layers available, and one telling it which layers are active (visible).

@@ -1,0 +1,62 @@
+30
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='updateNull'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='findColumn'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='columnName'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='updateNull'
+18 parameters
+19 parameter (Parameter)
+20 isVarArgs='false'
+21 name (SimpleName)
+22 identifier='columnName'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='String'
+26 thrownExceptions
+27 thrownException (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+19 21
+21 22
+19 23
+23 24
+24 25
+0 26
+26 27
+27 28
+28 29
+
+Updates the designated column with a <code>null</code> value. The <code>updateXXX</code> methods are used to update column values in the current row or the insert row.  The <code>updateXXX</code> methods do not update the underlying database; instead the <code>updateRow</code> or <code>insertRow</code> methods are called to update the database.

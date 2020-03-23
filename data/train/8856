@@ -1,0 +1,30 @@
+14
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='firstTime'
+9 value (BooleanLiteralExpr)
+10 value='true'
+11 type (VoidType)
+12 name (SimpleName)
+13 identifier='reset'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+0 11
+0 12
+12 13
+
+Resets the "first time" state of this EqualSizeTableLayout. If called after this layout has been invoked for the first time to lay out the Table's columns, the next invocation to lay out the columns will perform the same layout as the first time. This method is generally only useful when the first layout occurs at the wrong time - such as under linux/gtk when a table is added to a non-visible tab in a TabFolder.

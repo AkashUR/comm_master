@@ -1,0 +1,394 @@
+196
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='<web-app></web-app>'
+9 name (SimpleName)
+10 identifier='srcXml'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='parseWebXml'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='WebXmlIo'
+24 arguments
+25 argument (ObjectCreationExpr)
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='ByteArrayInputStream'
+29 arguments
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getBytes'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='srcXml'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='UTF-8'
+39 argument (NullLiteralExpr)
+40 name (SimpleName)
+41 identifier='srcWebXml'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='WebXml'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (BinaryExpr)
+50 operator='PLUS'
+51 left (BinaryExpr)
+52 operator='PLUS'
+53 left (BinaryExpr)
+54 operator='PLUS'
+55 left (BinaryExpr)
+56 operator='PLUS'
+57 left (BinaryExpr)
+58 operator='PLUS'
+59 left (BinaryExpr)
+60 operator='PLUS'
+61 left (BinaryExpr)
+62 operator='PLUS'
+63 left (BinaryExpr)
+64 operator='PLUS'
+65 left (BinaryExpr)
+66 operator='PLUS'
+67 left (BinaryExpr)
+68 operator='PLUS'
+69 left (StringLiteralExpr)
+70 value='<web-app>'
+71 right (StringLiteralExpr)
+72 value='  <security-constraint>'
+73 right (StringLiteralExpr)
+74 value='    <web-resource-collection>'
+75 right (StringLiteralExpr)
+76 value='      <web-resource-name>resource1</web-resource-name>'
+77 right (StringLiteralExpr)
+78 value='      <url-pattern>/s1/*</url-pattern>'
+79 right (StringLiteralExpr)
+80 value='    </web-resource-collection>'
+81 right (StringLiteralExpr)
+82 value='    <auth-constraint>'
+83 right (StringLiteralExpr)
+84 value='      <role-name>role1</role-name>'
+85 right (StringLiteralExpr)
+86 value='    </auth-constraint>'
+87 right (StringLiteralExpr)
+88 value='  </security-constraint>'
+89 right (StringLiteralExpr)
+90 value='</web-app>'
+91 name (SimpleName)
+92 identifier='mergeXml'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='String'
+96 statement (ExpressionStmt)
+97 expression (VariableDeclarationExpr)
+98 variables
+99 variable (VariableDeclarator)
+100 initializer (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='parseWebXml'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='WebXmlIo'
+106 arguments
+107 argument (ObjectCreationExpr)
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='ByteArrayInputStream'
+111 arguments
+112 argument (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getBytes'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='mergeXml'
+118 arguments
+119 argument (StringLiteralExpr)
+120 value='UTF-8'
+121 argument (NullLiteralExpr)
+122 name (SimpleName)
+123 identifier='mergeWebXml'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='WebXml'
+127 statement (ExpressionStmt)
+128 expression (VariableDeclarationExpr)
+129 variables
+130 variable (VariableDeclarator)
+131 initializer (ObjectCreationExpr)
+132 type (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='WebXmlMerger'
+135 arguments
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='srcWebXml'
+139 name (SimpleName)
+140 identifier='merger'
+141 type (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='WebXmlMerger'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='merge'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='merger'
+151 arguments
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='mergeWebXml'
+155 statement (ExpressionStmt)
+156 expression (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='assertNotNull'
+159 arguments
+160 argument (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='getSecurityConstraint'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='WebXmlUtils'
+166 arguments
+167 argument (NameExpr)
+168 name (SimpleName)
+169 identifier='srcWebXml'
+170 argument (StringLiteralExpr)
+171 value='/s1/*'
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='assertNull'
+176 arguments
+177 argument (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='getSecurityConstraint'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='WebXmlUtils'
+183 arguments
+184 argument (NameExpr)
+185 name (SimpleName)
+186 identifier='srcWebXml'
+187 argument (StringLiteralExpr)
+188 value='/s2/*'
+189 type (VoidType)
+190 name (SimpleName)
+191 identifier='testMergeOneSecurityConstraintIntoEmptyDocument'
+192 thrownExceptions
+193 thrownException (ClassOrInterfaceType)
+194 name (SimpleName)
+195 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+24 39
+17 40
+40 41
+17 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+49 51
+51 52
+51 53
+53 54
+53 55
+55 56
+55 57
+57 58
+57 59
+59 60
+59 61
+61 62
+61 63
+63 64
+63 65
+65 66
+65 67
+67 68
+67 69
+69 70
+67 71
+71 72
+65 73
+73 74
+63 75
+75 76
+61 77
+77 78
+59 79
+79 80
+57 81
+81 82
+55 83
+83 84
+53 85
+85 86
+51 87
+87 88
+49 89
+89 90
+48 91
+91 92
+48 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+109 110
+107 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+112 118
+118 119
+119 120
+106 121
+99 122
+122 123
+99 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+130 131
+131 132
+132 133
+133 134
+131 135
+135 136
+136 137
+137 138
+130 139
+139 140
+130 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+145 151
+151 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+160 166
+166 167
+167 168
+168 169
+166 170
+170 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+185 186
+183 187
+187 188
+0 189
+0 190
+190 191
+0 192
+192 193
+193 194
+194 195
+
+Tests whether a single security constraint is correctly merged into an empty descriptor.

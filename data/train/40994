@@ -1,0 +1,192 @@
+95
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='DefaultCategoryDataset'
+11 name (SimpleName)
+12 identifier='d'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='DefaultCategoryDataset'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='addValue'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='d'
+23 arguments
+24 argument (DoubleLiteralExpr)
+25 value='1.0'
+26 argument (StringLiteralExpr)
+27 value='R1'
+28 argument (StringLiteralExpr)
+29 value='C1'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='addValue'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='d'
+37 arguments
+38 argument (DoubleLiteralExpr)
+39 value='2.0'
+40 argument (StringLiteralExpr)
+41 value='R2'
+42 argument (StringLiteralExpr)
+43 value='C2'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='removeColumn'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='d'
+51 arguments
+52 argument (StringLiteralExpr)
+53 value='C2'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='addValue'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='d'
+61 arguments
+62 argument (DoubleLiteralExpr)
+63 value='3.0'
+64 argument (StringLiteralExpr)
+65 value='R2'
+66 argument (StringLiteralExpr)
+67 value='C2'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='assertEquals'
+72 arguments
+73 argument (DoubleLiteralExpr)
+74 value='3.0'
+75 argument (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='doubleValue'
+78 scope (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='getValue'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='d'
+84 arguments
+85 argument (StringLiteralExpr)
+86 value='R2'
+87 argument (StringLiteralExpr)
+88 value='C2'
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='EPSILON'
+92 type (VoidType)
+93 name (SimpleName)
+94 identifier='testBug1835955'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+23 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+37 40
+40 41
+37 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+61 64
+64 65
+61 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+84 87
+87 88
+72 89
+89 90
+90 91
+0 92
+0 93
+93 94
+
+A test for bug 1835955.

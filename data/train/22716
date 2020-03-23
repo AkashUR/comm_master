@@ -1,0 +1,108 @@
+53
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='BINARY_AND'
+9 left (NameExpr)
+10 name (SimpleName)
+11 identifier='bit'
+12 right (NameExpr)
+13 name (SimpleName)
+14 identifier='LOW_MASK'
+15 name (SimpleName)
+16 identifier='shiftBits'
+17 type (PrimitiveType)
+18 type='INT'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='BINARY_AND'
+22 target (ArrayAccessExpr)
+23 index (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='subscript'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='bit'
+30 name (NameExpr)
+31 name (SimpleName)
+32 identifier='bits'
+33 value (UnaryExpr)
+34 operator='BITWISE_COMPLEMENT'
+35 expression (EnclosedExpr)
+36 inner (BinaryExpr)
+37 operator='LEFT_SHIFT'
+38 left (IntegerLiteralExpr)
+39 value='1'
+40 right (NameExpr)
+41 name (SimpleName)
+42 identifier='shiftBits'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='clear'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='bit'
+51 type (PrimitiveType)
+52 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+22 30
+30 31
+31 32
+20 33
+33 34
+33 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+
+Clears a bit.

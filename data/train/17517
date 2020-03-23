@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='findAndUndo'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='next'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='it'
+17 compare (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='hasNext'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='it'
+23 initialization
+24 initializatio (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='iterator'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='bcme'
+33 name (SimpleName)
+34 identifier='it'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Iterator'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='childrenRemoved'
+41 parameters
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='bcme'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='BeanContextMembershipEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+3 17
+17 18
+18 19
+17 20
+20 21
+21 22
+3 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+26 35
+35 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+
+BeanContextMembership interface method. Called by BeanContext when children are being removed. Unhooks itself from the objects that are being removed if they are contained within the Frame.

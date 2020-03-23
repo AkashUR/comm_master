@@ -1,0 +1,50 @@
+24
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (ObjectCreationExpr)
+7 type (ClassOrInterfaceType)
+8 name (SimpleName)
+9 identifier='SimpleFSDirectory'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='File'
+15 arguments
+16 argument (StringLiteralExpr)
+17 value='./searchDirectory'
+18 name (SimpleName)
+19 identifier='LuceneService'
+20 thrownExceptions
+21 thrownException (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+0 18
+18 19
+0 20
+20 21
+21 22
+22 23
+
+Initializes the attributes of the instance of the class. Right now it uses the searchDirectory as the default search index location. TODO: Fetch the search index location from the tank configuration file.

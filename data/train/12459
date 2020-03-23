@@ -1,0 +1,140 @@
+69
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='indexFieldName'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getDimConfig'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='config'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='dim'
+20 name (SimpleName)
+21 identifier='indexedField'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='String'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='add'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='dim'
+33 argument (ObjectCreationExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='TermQuery'
+37 arguments
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='term'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='indexedField'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='dim'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='path'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='add'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='dim'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+62 parameter (Parameter)
+63 isVarArgs='true'
+64 name (SimpleName)
+65 identifier='path'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+41 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+
+Adds one dimension of drill downs; if you pass the same dimension more than once it is OR'd with the previous cofnstraints on that dimension, and all dimensions are AND'd against each other and the base query.

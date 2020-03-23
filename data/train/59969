@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='findAndInit'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='obj'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Object'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+
+This method is called by the findAndInit(Iterator) method, once for every object inside the iterator. It's here to allow subclasses a way to receive objects and still let the super classes have a shot at the object. So, you can override this method can call super.findAndInit(obj), or override the findAndInit(Iterator) method and call super.findAndInit(obj). Whatever.

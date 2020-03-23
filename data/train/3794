@@ -1,0 +1,32 @@
+15
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (WhileStmt)
+4 body (BlockStmt)
+5 condition (MethodCallExpr)
+6 name (SimpleName)
+7 identifier='incrementToken'
+8 type (VoidType)
+9 name (SimpleName)
+10 identifier='consumeAllTokens'
+11 thrownExceptions
+12 thrownException (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+0 8
+0 9
+9 10
+0 11
+11 12
+12 13
+13 14
+
+<code>TeeSinkTokenFilter</code> passes all tokens to the added sinks when itself is consumed. To be sure that all tokens from the input stream are passed to the sinks, you can call this methods. This instance is exhausted after this method returns, but all sinks are instant available.

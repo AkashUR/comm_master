@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getUserAgent'
+10 name (SimpleName)
+11 identifier='ua'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='UserAgent'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getBridgeExtensions'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='document'
+26 name (SimpleName)
+27 identifier='ext'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='List'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='iterator'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='ext'
+41 name (SimpleName)
+42 identifier='iter'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='Iterator'
+46 statement (WhileStmt)
+47 body (BlockStmt)
+48 statements
+49 statement (ExpressionStmt)
+50 expression (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 initializer (CastExpr)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='next'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='iter'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='BridgeExtension'
+63 name (SimpleName)
+64 identifier='be'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='BridgeExtension'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='registerTags'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='be'
+75 arguments
+76 argument (ThisExpr)
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='registerExtension'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='ua'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='be'
+88 condition (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='hasNext'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='iter'
+94 type (VoidType)
+95 name (SimpleName)
+96 identifier='registerSVGBridges'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+18 26
+26 27
+18 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+34 41
+41 42
+34 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+53 60
+60 61
+61 62
+52 63
+63 64
+52 65
+65 66
+66 67
+48 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+48 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+46 88
+88 89
+89 90
+88 91
+91 92
+92 93
+0 94
+0 95
+95 96
+
+Registers the bridges to handle SVG 1.0 elements.

@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getInstance'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='CertPathValidator'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='PKIX'
+16 name (SimpleName)
+17 identifier='validator'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='CertPathValidator'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='validate'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='validator'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='path'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='params'
+38 name (SimpleName)
+39 identifier='cpvr'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='CertPathValidatorResult'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='validate'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='path'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='CertPath'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='params'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='PKIXParameters'
+61 thrownExceptions
+62 thrownException (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+24 38
+38 39
+24 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+46 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+0 61
+61 62
+62 63
+63 64
+
+Perform a PKIX validation. On success, print the CertPathValidatorResult on System.out. On failure, throw an exception.

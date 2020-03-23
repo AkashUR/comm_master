@@ -1,0 +1,752 @@
+375
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getOutputDirectory'
+12 right (StringLiteralExpr)
+13 value='events.xml'
+14 name (SimpleName)
+15 identifier='eventsFilename'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='String'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getBufferedWriter'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='IOUtils'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='eventsFilename'
+33 name (SimpleName)
+34 identifier='writer'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='BufferedWriter'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='write'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='writer'
+45 arguments
+46 argument (StringLiteralExpr)
+47 value='<?xml version=\"1.0\" encoding=\"utf-8\"?>'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='write'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='writer'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='<events version=\"1.0\">'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='write'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='writer'
+65 arguments
+66 argument (StringLiteralExpr)
+67 value='<event time=\"25200.0\" type=\"agentMoney\" amount=\"2.34\" person=\"1\"  />'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='write'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='writer'
+75 arguments
+76 argument (StringLiteralExpr)
+77 value='<event time=\"30600.0\" type=\"agentMoney\" amount=\"-3.45\" person=\"2\"  />'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='write'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='writer'
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='</events>'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='close'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='writer'
+95 statement (ExpressionStmt)
+96 expression (VariableDeclarationExpr)
+97 variables
+98 variable (VariableDeclarator)
+99 initializer (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='createEventsManager'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='EventsUtils'
+105 name (SimpleName)
+106 identifier='readEvents'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='EventsManager'
+110 statement (ExpressionStmt)
+111 expression (VariableDeclarationExpr)
+112 variables
+113 variable (VariableDeclarator)
+114 initializer (ObjectCreationExpr)
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='EventsCollector'
+118 name (SimpleName)
+119 identifier='collector'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='EventsCollector'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='addHandler'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='readEvents'
+130 arguments
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='collector'
+134 statement (ExpressionStmt)
+135 expression (VariableDeclarationExpr)
+136 variables
+137 variable (VariableDeclarator)
+138 initializer (ObjectCreationExpr)
+139 type (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='MatsimEventsReader'
+142 arguments
+143 argument (NameExpr)
+144 name (SimpleName)
+145 identifier='readEvents'
+146 name (SimpleName)
+147 identifier='reader'
+148 type (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='MatsimEventsReader'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='readFile'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='reader'
+158 arguments
+159 argument (NameExpr)
+160 name (SimpleName)
+161 identifier='eventsFilename'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='assertEquals'
+166 arguments
+167 argument (IntegerLiteralExpr)
+168 value='2'
+169 argument (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='size'
+172 scope (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='getEvents'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='collector'
+178 statement (ExpressionStmt)
+179 expression (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='assertTrue'
+182 arguments
+183 argument (InstanceOfExpr)
+184 expression (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='get'
+187 scope (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='getEvents'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='collector'
+193 arguments
+194 argument (IntegerLiteralExpr)
+195 value='0'
+196 type (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='PersonMoneyEvent'
+199 statement (ExpressionStmt)
+200 expression (VariableDeclarationExpr)
+201 variables
+202 variable (VariableDeclarator)
+203 initializer (CastExpr)
+204 expression (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='get'
+207 scope (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='getEvents'
+210 scope (NameExpr)
+211 name (SimpleName)
+212 identifier='collector'
+213 arguments
+214 argument (IntegerLiteralExpr)
+215 value='0'
+216 type (ClassOrInterfaceType)
+217 name (SimpleName)
+218 identifier='PersonMoneyEvent'
+219 name (SimpleName)
+220 identifier='e1'
+221 type (ClassOrInterfaceType)
+222 name (SimpleName)
+223 identifier='PersonMoneyEvent'
+224 statement (ExpressionStmt)
+225 expression (MethodCallExpr)
+226 name (SimpleName)
+227 identifier='assertEquals'
+228 arguments
+229 argument (DoubleLiteralExpr)
+230 value='25200.0'
+231 argument (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='getTime'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='e1'
+237 argument (NameExpr)
+238 name (SimpleName)
+239 identifier='EPSILON'
+240 statement (ExpressionStmt)
+241 expression (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='assertEquals'
+244 arguments
+245 argument (StringLiteralExpr)
+246 value='1'
+247 argument (MethodCallExpr)
+248 name (SimpleName)
+249 identifier='toString'
+250 scope (MethodCallExpr)
+251 name (SimpleName)
+252 identifier='getPersonId'
+253 scope (NameExpr)
+254 name (SimpleName)
+255 identifier='e1'
+256 statement (ExpressionStmt)
+257 expression (MethodCallExpr)
+258 name (SimpleName)
+259 identifier='assertEquals'
+260 arguments
+261 argument (DoubleLiteralExpr)
+262 value='2.34'
+263 argument (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='getAmount'
+266 scope (NameExpr)
+267 name (SimpleName)
+268 identifier='e1'
+269 argument (NameExpr)
+270 name (SimpleName)
+271 identifier='EPSILON'
+272 statement (ExpressionStmt)
+273 expression (MethodCallExpr)
+274 name (SimpleName)
+275 identifier='assertTrue'
+276 arguments
+277 argument (InstanceOfExpr)
+278 expression (MethodCallExpr)
+279 name (SimpleName)
+280 identifier='get'
+281 scope (MethodCallExpr)
+282 name (SimpleName)
+283 identifier='getEvents'
+284 scope (NameExpr)
+285 name (SimpleName)
+286 identifier='collector'
+287 arguments
+288 argument (IntegerLiteralExpr)
+289 value='1'
+290 type (ClassOrInterfaceType)
+291 name (SimpleName)
+292 identifier='PersonMoneyEvent'
+293 statement (ExpressionStmt)
+294 expression (VariableDeclarationExpr)
+295 variables
+296 variable (VariableDeclarator)
+297 initializer (CastExpr)
+298 expression (MethodCallExpr)
+299 name (SimpleName)
+300 identifier='get'
+301 scope (MethodCallExpr)
+302 name (SimpleName)
+303 identifier='getEvents'
+304 scope (NameExpr)
+305 name (SimpleName)
+306 identifier='collector'
+307 arguments
+308 argument (IntegerLiteralExpr)
+309 value='1'
+310 type (ClassOrInterfaceType)
+311 name (SimpleName)
+312 identifier='PersonMoneyEvent'
+313 name (SimpleName)
+314 identifier='e2'
+315 type (ClassOrInterfaceType)
+316 name (SimpleName)
+317 identifier='PersonMoneyEvent'
+318 statement (ExpressionStmt)
+319 expression (MethodCallExpr)
+320 name (SimpleName)
+321 identifier='assertEquals'
+322 arguments
+323 argument (DoubleLiteralExpr)
+324 value='30600.0'
+325 argument (MethodCallExpr)
+326 name (SimpleName)
+327 identifier='getTime'
+328 scope (NameExpr)
+329 name (SimpleName)
+330 identifier='e2'
+331 argument (NameExpr)
+332 name (SimpleName)
+333 identifier='EPSILON'
+334 statement (ExpressionStmt)
+335 expression (MethodCallExpr)
+336 name (SimpleName)
+337 identifier='assertEquals'
+338 arguments
+339 argument (StringLiteralExpr)
+340 value='2'
+341 argument (MethodCallExpr)
+342 name (SimpleName)
+343 identifier='toString'
+344 scope (MethodCallExpr)
+345 name (SimpleName)
+346 identifier='getPersonId'
+347 scope (NameExpr)
+348 name (SimpleName)
+349 identifier='e2'
+350 statement (ExpressionStmt)
+351 expression (MethodCallExpr)
+352 name (SimpleName)
+353 identifier='assertEquals'
+354 arguments
+355 argument (UnaryExpr)
+356 operator='MINUS'
+357 expression (DoubleLiteralExpr)
+358 value='3.45'
+359 argument (MethodCallExpr)
+360 name (SimpleName)
+361 identifier='getAmount'
+362 scope (NameExpr)
+363 name (SimpleName)
+364 identifier='e2'
+365 argument (NameExpr)
+366 name (SimpleName)
+367 identifier='EPSILON'
+368 type (VoidType)
+369 name (SimpleName)
+370 identifier='testWriteReadXml_oldName'
+371 thrownExceptions
+372 thrownException (ClassOrInterfaceType)
+373 name (SimpleName)
+374 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+22 33
+33 34
+22 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+98 105
+105 106
+98 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+113 114
+114 115
+115 116
+116 117
+113 118
+118 119
+113 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+124 130
+130 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+137 138
+138 139
+139 140
+140 141
+138 142
+142 143
+143 144
+144 145
+137 146
+146 147
+137 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+152 158
+158 159
+159 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+166 169
+169 170
+170 171
+169 172
+172 173
+173 174
+172 175
+175 176
+176 177
+2 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+187 190
+190 191
+191 192
+184 193
+193 194
+194 195
+183 196
+196 197
+197 198
+2 199
+199 200
+200 201
+201 202
+202 203
+203 204
+204 205
+205 206
+204 207
+207 208
+208 209
+207 210
+210 211
+211 212
+204 213
+213 214
+214 215
+203 216
+216 217
+217 218
+202 219
+219 220
+202 221
+221 222
+222 223
+2 224
+224 225
+225 226
+226 227
+225 228
+228 229
+229 230
+228 231
+231 232
+232 233
+231 234
+234 235
+235 236
+228 237
+237 238
+238 239
+2 240
+240 241
+241 242
+242 243
+241 244
+244 245
+245 246
+244 247
+247 248
+248 249
+247 250
+250 251
+251 252
+250 253
+253 254
+254 255
+2 256
+256 257
+257 258
+258 259
+257 260
+260 261
+261 262
+260 263
+263 264
+264 265
+263 266
+266 267
+267 268
+260 269
+269 270
+270 271
+2 272
+272 273
+273 274
+274 275
+273 276
+276 277
+277 278
+278 279
+279 280
+278 281
+281 282
+282 283
+281 284
+284 285
+285 286
+278 287
+287 288
+288 289
+277 290
+290 291
+291 292
+2 293
+293 294
+294 295
+295 296
+296 297
+297 298
+298 299
+299 300
+298 301
+301 302
+302 303
+301 304
+304 305
+305 306
+298 307
+307 308
+308 309
+297 310
+310 311
+311 312
+296 313
+313 314
+296 315
+315 316
+316 317
+2 318
+318 319
+319 320
+320 321
+319 322
+322 323
+323 324
+322 325
+325 326
+326 327
+325 328
+328 329
+329 330
+322 331
+331 332
+332 333
+2 334
+334 335
+335 336
+336 337
+335 338
+338 339
+339 340
+338 341
+341 342
+342 343
+341 344
+344 345
+345 346
+344 347
+347 348
+348 349
+2 350
+350 351
+351 352
+352 353
+351 354
+354 355
+355 356
+355 357
+357 358
+354 359
+359 360
+360 361
+359 362
+362 363
+363 364
+354 365
+365 366
+366 367
+0 368
+0 369
+369 370
+0 371
+371 372
+372 373
+373 374
+
+Originally, the events were called AgentMoneyEvents and not PersonMoneyEvents (before Oct'13). This test checks that old event files can still be parsed.

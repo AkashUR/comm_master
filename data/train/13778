@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='MyTestTransactionListener'
+11 name (SimpleName)
+12 identifier='listener'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='MyTestTransactionListener'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='addListener'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getCacheTransactionManager'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getCache'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='listener'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='setWriter'
+34 scope (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getCacheTransactionManager'
+37 scope (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getCache'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='listener'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='addPoisonedTransactionListeners'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+17 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+31 40
+40 41
+41 42
+42 43
+0 44
+0 45
+45 46
+
+add a listener and writer that will throw an exception when invoked if events are for internal regions

@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='RegionEventImpl'
+11 arguments
+12 argument (ThisExpr)
+13 argument (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='REGION_DESTROY'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='Operation'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='aCallbackArgument'
+22 argument (BooleanLiteralExpr)
+23 value='true'
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getMyId'
+27 name (SimpleName)
+28 identifier='event'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='RegionEventImpl'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='basicDestroyRegion'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='event'
+40 argument (BooleanLiteralExpr)
+41 value='true'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='destroyRegion'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='aCallbackArgument'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='Object'
+53 thrownExceptions
+54 thrownException (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='CacheWriterException'
+57 thrownException (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='TimeoutException'
+60 annotations
+61 annotation (MarkerAnnotationExpr)
+62 name (Name)
+63 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+11 13
+13 14
+14 15
+13 16
+16 17
+17 18
+11 19
+19 20
+20 21
+11 22
+22 23
+11 24
+24 25
+25 26
+6 27
+27 28
+6 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+36 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+0 53
+53 54
+54 55
+55 56
+53 57
+57 58
+58 59
+0 60
+60 61
+61 62
+62 63
+
+This method is overriden so as to make isOriginRemote true always so that the operation is never propagated to other nodes

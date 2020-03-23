@@ -1,0 +1,260 @@
+129
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='MULTIPLY'
+9 left (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getSizeBytes'
+12 scope (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='mElement'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='mType'
+18 right (NameExpr)
+19 name (SimpleName)
+20 identifier='count'
+21 name (SimpleName)
+22 identifier='dataSize'
+23 type (PrimitiveType)
+24 type='INT'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='data1DChecks'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='off'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='count'
+36 argument (BinaryExpr)
+37 operator='MULTIPLY'
+38 left (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='length'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='d'
+44 right (IntegerLiteralExpr)
+45 value='4'
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='dataSize'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='nAllocationData1D'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='mRS'
+56 arguments
+57 argument (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getIDSafe'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='off'
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='mSelectedLOD'
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='count'
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='d'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='dataSize'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='copy1DRangeFromUnchecked'
+78 parameters
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='off'
+83 type (PrimitiveType)
+84 type='INT'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='count'
+89 type (PrimitiveType)
+90 type='INT'
+91 parameter (Parameter)
+92 isVarArgs='false'
+93 name (SimpleName)
+94 identifier='d'
+95 type (ArrayType)
+96 origin='TYPE'
+97 componentType (PrimitiveType)
+98 type='FLOAT'
+99 annotations
+100 annotation (NormalAnnotationExpr)
+101 name (Name)
+102 identifier='DSGenerator'
+103 pairs
+104 pair (MemberValuePair)
+105 name (SimpleName)
+106 identifier='tool_name'
+107 value (StringLiteralExpr)
+108 value='Doppelganger'
+109 pair (MemberValuePair)
+110 name (SimpleName)
+111 identifier='tool_version'
+112 value (StringLiteralExpr)
+113 value='2.0'
+114 pair (MemberValuePair)
+115 name (SimpleName)
+116 identifier='generated_on'
+117 value (StringLiteralExpr)
+118 value='2013-12-30 12:31:09.114 -0500'
+119 pair (MemberValuePair)
+120 name (SimpleName)
+121 identifier='hash_original_method'
+122 value (StringLiteralExpr)
+123 value='0F7A0E2393C34E90AEC2D039DA3C1483'
+124 pair (MemberValuePair)
+125 name (SimpleName)
+126 identifier='hash_generated_method'
+127 value (StringLiteralExpr)
+128 value='AA78817369B857462D1EED8199A1A4E2'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+7 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+29 36
+36 37
+36 38
+38 39
+39 40
+38 41
+41 42
+42 43
+36 44
+44 45
+29 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+56 63
+63 64
+64 65
+56 66
+66 67
+67 68
+56 69
+69 70
+70 71
+56 72
+72 73
+73 74
+0 75
+0 76
+76 77
+0 78
+78 79
+79 80
+79 81
+81 82
+79 83
+83 84
+78 85
+85 86
+85 87
+87 88
+85 89
+89 90
+78 91
+91 92
+91 93
+93 94
+91 95
+95 96
+95 97
+97 98
+0 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+105 106
+104 107
+107 108
+103 109
+109 110
+110 111
+109 112
+112 113
+103 114
+114 115
+115 116
+114 117
+117 118
+103 119
+119 120
+120 121
+119 122
+122 123
+103 124
+124 125
+125 126
+124 127
+127 128
+
+Copy part of an allocation from an array.  This variant is not type checked which allows an application to fill in structured data from an array.

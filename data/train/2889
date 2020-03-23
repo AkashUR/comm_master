@@ -1,0 +1,240 @@
+119
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='sendEvent'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='lifecycleManager'
+10 scope (ThisExpr)
+11 arguments
+12 argument (ObjectCreationExpr)
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='SpecRenameEvent'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='spec'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='newName'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='remove'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='specStorage'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getName'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='spec'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='projectRename'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='ResourceHelper'
+47 arguments
+48 argument (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getProject'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='spec'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='newName'
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='aMonitor'
+60 name (SimpleName)
+61 identifier='project'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='IProject'
+65 statement (ExpressionStmt)
+66 expression (AssignExpr)
+67 operator='ASSIGN'
+68 target (NameExpr)
+69 name (SimpleName)
+70 identifier='spec'
+71 value (ObjectCreationExpr)
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Spec'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='project'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='setLastModified'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='spec'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='addSpec'
+90 arguments
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='spec'
+94 type (VoidType)
+95 name (SimpleName)
+96 identifier='renameSpec'
+97 parameters
+98 parameter (Parameter)
+99 isVarArgs='false'
+100 name (SimpleName)
+101 identifier='spec'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='Spec'
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='newName'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='String'
+112 parameter (Parameter)
+113 isVarArgs='false'
+114 name (SimpleName)
+115 identifier='aMonitor'
+116 type (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='IProgressMonitor'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+4 11
+11 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+47 54
+54 55
+55 56
+47 57
+57 58
+58 59
+40 60
+60 61
+40 62
+62 63
+63 64
+2 65
+65 66
+66 67
+66 68
+68 69
+69 70
+66 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+92 93
+0 94
+0 95
+95 96
+0 97
+97 98
+98 99
+98 100
+100 101
+98 102
+102 103
+103 104
+97 105
+105 106
+105 107
+107 108
+105 109
+109 110
+110 111
+97 112
+112 113
+112 114
+114 115
+112 116
+116 117
+117 118
+
+Renames the given spec to the given name

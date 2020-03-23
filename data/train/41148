@@ -1,0 +1,62 @@
+30
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setLinkIndex'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='PLUS'
+10 left (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getLinkIndex'
+13 right (IntegerLiteralExpr)
+14 value='1'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='setCurrentLinkId'
+19 arguments
+20 argument (ArrayAccessExpr)
+21 index (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getLinkIndex'
+24 name (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getCurrentLinkRoute'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='moveToNextLinkInLeg'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+0 27
+0 28
+28 29
+
+updates both the currentLink and link index variables with the next link in the link route of the current leg attention: only applicable, if isCurrentLegFinished==false

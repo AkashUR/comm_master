@@ -1,0 +1,182 @@
+90
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='toString'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='routing'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='statusCode'
+24 scope (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='assertThat'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='then'
+30 scope (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='put'
+33 scope (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='body'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='given'
+39 arguments
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='toString'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='routing'
+46 arguments
+47 argument (BinaryExpr)
+48 operator='PLUS'
+49 left (BinaryExpr)
+50 operator='PLUS'
+51 left (BinaryExpr)
+52 operator='PLUS'
+53 left (StringLiteralExpr)
+54 value='http://localhost:'
+55 right (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='MAIN_PORT'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='AbstractTest'
+61 right (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='SERVER_ROOT'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='AbstractTest'
+67 right (StringLiteralExpr)
+68 value='/admin/v1/routing/rules'
+69 arguments
+70 argument (IntegerLiteralExpr)
+71 value='200'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='waitSomeTime'
+76 arguments
+77 argument (IntegerLiteralExpr)
+78 value='3'
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='putRoutingRules'
+82 parameters
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='routing'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='JsonObject'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+30 46
+46 47
+47 48
+47 49
+49 50
+49 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+55 58
+58 59
+59 60
+49 61
+61 62
+62 63
+61 64
+64 65
+65 66
+47 67
+67 68
+21 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+0 79
+0 80
+80 81
+0 82
+82 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+
+Puts the given routing on the server and waits a few seconds.

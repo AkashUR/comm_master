@@ -1,0 +1,834 @@
+416
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setTitle'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='localizeMessage'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='s_logger'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='guiHelpTitle'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='ArrayList'
+25 typeArguments
+26 typeArgument (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Image'
+29 name (SimpleName)
+30 identifier='images'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='ArrayList'
+34 typeArguments
+35 typeArgument (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Image'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='add'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='images'
+45 arguments
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getImage'
+49 arguments
+50 argument (StringLiteralExpr)
+51 value='AD16.png'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='add'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='images'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getImage'
+63 arguments
+64 argument (StringLiteralExpr)
+65 value='AD32.png'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='setIconImages'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='images'
+74 statement (ExpressionStmt)
+75 expression (VariableDeclarationExpr)
+76 variables
+77 variable (VariableDeclarator)
+78 initializer (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='getContentPane'
+81 name (SimpleName)
+82 identifier='pane'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='Container'
+86 statement (ExpressionStmt)
+87 expression (VariableDeclarationExpr)
+88 variables
+89 variable (VariableDeclarator)
+90 initializer (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='getDefault'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='Locale'
+96 name (SimpleName)
+97 identifier='locale'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='Locale'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='setComponentOrientation'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='pane'
+108 arguments
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='getOrientation'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='ComponentOrientation'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='locale'
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='setLayout'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='pane'
+126 arguments
+127 argument (ObjectCreationExpr)
+128 type (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='GridBagLayout'
+131 statement (ExpressionStmt)
+132 expression (VariableDeclarationExpr)
+133 variables
+134 variable (VariableDeclarator)
+135 initializer (ObjectCreationExpr)
+136 type (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='JEditorPane'
+139 name (SimpleName)
+140 identifier='info'
+141 type (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='JEditorPane'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='setEditable'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='info'
+151 arguments
+152 argument (BooleanLiteralExpr)
+153 value='false'
+154 statement (ExpressionStmt)
+155 expression (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='setContentType'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='info'
+161 arguments
+162 argument (StringLiteralExpr)
+163 value='text/html'
+164 statement (ExpressionStmt)
+165 expression (VariableDeclarationExpr)
+166 variables
+167 variable (VariableDeclarator)
+168 initializer (CastExpr)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='createDefaultDocument'
+172 scope (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='getEditorKit'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='info'
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='HTMLDocument'
+181 name (SimpleName)
+182 identifier='htmlDoc'
+183 type (ClassOrInterfaceType)
+184 name (SimpleName)
+185 identifier='HTMLDocument'
+186 statement (ExpressionStmt)
+187 expression (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='setDocument'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='info'
+193 arguments
+194 argument (NameExpr)
+195 name (SimpleName)
+196 identifier='htmlDoc'
+197 statement (ExpressionStmt)
+198 expression (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='setText'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='info'
+204 arguments
+205 argument (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='getHelpText'
+208 statement (ExpressionStmt)
+209 expression (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='setCaretPosition'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='info'
+215 arguments
+216 argument (IntegerLiteralExpr)
+217 value='0'
+218 statement (ExpressionStmt)
+219 expression (VariableDeclarationExpr)
+220 variables
+221 variable (VariableDeclarator)
+222 initializer (ObjectCreationExpr)
+223 type (ClassOrInterfaceType)
+224 name (SimpleName)
+225 identifier='JScrollPane'
+226 name (SimpleName)
+227 identifier='infoPane'
+228 type (ClassOrInterfaceType)
+229 name (SimpleName)
+230 identifier='JScrollPane'
+231 statement (ExpressionStmt)
+232 expression (MethodCallExpr)
+233 name (SimpleName)
+234 identifier='setBorder'
+235 scope (NameExpr)
+236 name (SimpleName)
+237 identifier='infoPane'
+238 arguments
+239 argument (MethodCallExpr)
+240 name (SimpleName)
+241 identifier='createLoweredBevelBorder'
+242 scope (NameExpr)
+243 name (SimpleName)
+244 identifier='BorderFactory'
+245 statement (ExpressionStmt)
+246 expression (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='setPreferredSize'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='infoPane'
+252 arguments
+253 argument (ObjectCreationExpr)
+254 type (ClassOrInterfaceType)
+255 name (SimpleName)
+256 identifier='Dimension'
+257 arguments
+258 argument (IntegerLiteralExpr)
+259 value='500'
+260 argument (IntegerLiteralExpr)
+261 value='400'
+262 statement (ExpressionStmt)
+263 expression (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='add'
+266 scope (MethodCallExpr)
+267 name (SimpleName)
+268 identifier='getViewport'
+269 scope (NameExpr)
+270 name (SimpleName)
+271 identifier='infoPane'
+272 arguments
+273 argument (NameExpr)
+274 name (SimpleName)
+275 identifier='info'
+276 argument (NullLiteralExpr)
+277 statement (ExpressionStmt)
+278 expression (MethodCallExpr)
+279 name (SimpleName)
+280 identifier='add'
+281 scope (NameExpr)
+282 name (SimpleName)
+283 identifier='pane'
+284 arguments
+285 argument (NameExpr)
+286 name (SimpleName)
+287 identifier='infoPane'
+288 argument (MethodCallExpr)
+289 name (SimpleName)
+290 identifier='getInfoPaneConstraints'
+291 statement (ExpressionStmt)
+292 expression (AssignExpr)
+293 operator='ASSIGN'
+294 target (NameExpr)
+295 name (SimpleName)
+296 identifier='m_buttonClose'
+297 value (ObjectCreationExpr)
+298 type (ClassOrInterfaceType)
+299 name (SimpleName)
+300 identifier='JButton'
+301 arguments
+302 argument (MethodCallExpr)
+303 name (SimpleName)
+304 identifier='localizeMessage'
+305 scope (NameExpr)
+306 name (SimpleName)
+307 identifier='s_logger'
+308 arguments
+309 argument (StringLiteralExpr)
+310 value='guiButtonClose'
+311 statement (ExpressionStmt)
+312 expression (MethodCallExpr)
+313 name (SimpleName)
+314 identifier='setMnemonic'
+315 scope (NameExpr)
+316 name (SimpleName)
+317 identifier='m_buttonClose'
+318 arguments
+319 argument (ObjectCreationExpr)
+320 type (ClassOrInterfaceType)
+321 name (SimpleName)
+322 identifier='Integer'
+323 arguments
+324 argument (MethodCallExpr)
+325 name (SimpleName)
+326 identifier='localizeMessage'
+327 scope (NameExpr)
+328 name (SimpleName)
+329 identifier='s_logger'
+330 arguments
+331 argument (StringLiteralExpr)
+332 value='guiButtonCloseMnemonic'
+333 statement (ExpressionStmt)
+334 expression (MethodCallExpr)
+335 name (SimpleName)
+336 identifier='setIcon'
+337 scope (NameExpr)
+338 name (SimpleName)
+339 identifier='m_buttonClose'
+340 arguments
+341 argument (ObjectCreationExpr)
+342 type (ClassOrInterfaceType)
+343 name (SimpleName)
+344 identifier='ImageIcon'
+345 arguments
+346 argument (MethodCallExpr)
+347 name (SimpleName)
+348 identifier='getImage'
+349 arguments
+350 argument (StringLiteralExpr)
+351 value='Cancel16.png'
+352 statement (ExpressionStmt)
+353 expression (MethodCallExpr)
+354 name (SimpleName)
+355 identifier='addActionListener'
+356 scope (NameExpr)
+357 name (SimpleName)
+358 identifier='m_buttonClose'
+359 arguments
+360 argument (ThisExpr)
+361 statement (ExpressionStmt)
+362 expression (MethodCallExpr)
+363 name (SimpleName)
+364 identifier='add'
+365 scope (NameExpr)
+366 name (SimpleName)
+367 identifier='pane'
+368 arguments
+369 argument (NameExpr)
+370 name (SimpleName)
+371 identifier='m_buttonClose'
+372 argument (MethodCallExpr)
+373 name (SimpleName)
+374 identifier='getCloseConstraints'
+375 statement (ExpressionStmt)
+376 expression (MethodCallExpr)
+377 name (SimpleName)
+378 identifier='pack'
+379 statement (ExpressionStmt)
+380 expression (MethodCallExpr)
+381 name (SimpleName)
+382 identifier='validate'
+383 statement (ExpressionStmt)
+384 expression (MethodCallExpr)
+385 name (SimpleName)
+386 identifier='requestFocusInWindow'
+387 scope (NameExpr)
+388 name (SimpleName)
+389 identifier='m_buttonClose'
+390 statement (ExpressionStmt)
+391 expression (MethodCallExpr)
+392 name (SimpleName)
+393 identifier='setLocationRelativeTo'
+394 arguments
+395 argument (NameExpr)
+396 name (SimpleName)
+397 identifier='component'
+398 statement (ExpressionStmt)
+399 expression (MethodCallExpr)
+400 name (SimpleName)
+401 identifier='setVisible'
+402 arguments
+403 argument (BooleanLiteralExpr)
+404 value='true'
+405 type (VoidType)
+406 name (SimpleName)
+407 identifier='createAndShowGui'
+408 parameters
+409 parameter (Parameter)
+410 isVarArgs='false'
+411 name (SimpleName)
+412 identifier='component'
+413 type (ClassOrInterfaceType)
+414 name (SimpleName)
+415 identifier='Component'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+20 29
+29 30
+20 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+77 78
+78 79
+79 80
+77 81
+81 82
+77 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+89 96
+96 97
+89 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+2 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+128 129
+129 130
+2 131
+131 132
+132 133
+133 134
+134 135
+135 136
+136 137
+137 138
+134 139
+139 140
+134 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+145 151
+151 152
+152 153
+2 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+155 161
+161 162
+162 163
+2 164
+164 165
+165 166
+166 167
+167 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+172 175
+175 176
+176 177
+168 178
+178 179
+179 180
+167 181
+181 182
+167 183
+183 184
+184 185
+2 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+187 193
+193 194
+194 195
+195 196
+2 197
+197 198
+198 199
+199 200
+198 201
+201 202
+202 203
+198 204
+204 205
+205 206
+206 207
+2 208
+208 209
+209 210
+210 211
+209 212
+212 213
+213 214
+209 215
+215 216
+216 217
+2 218
+218 219
+219 220
+220 221
+221 222
+222 223
+223 224
+224 225
+221 226
+226 227
+221 228
+228 229
+229 230
+2 231
+231 232
+232 233
+233 234
+232 235
+235 236
+236 237
+232 238
+238 239
+239 240
+240 241
+239 242
+242 243
+243 244
+2 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+246 252
+252 253
+253 254
+254 255
+255 256
+253 257
+257 258
+258 259
+257 260
+260 261
+2 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+266 269
+269 270
+270 271
+263 272
+272 273
+273 274
+274 275
+272 276
+2 277
+277 278
+278 279
+279 280
+278 281
+281 282
+282 283
+278 284
+284 285
+285 286
+286 287
+284 288
+288 289
+289 290
+2 291
+291 292
+292 293
+292 294
+294 295
+295 296
+292 297
+297 298
+298 299
+299 300
+297 301
+301 302
+302 303
+303 304
+302 305
+305 306
+306 307
+302 308
+308 309
+309 310
+2 311
+311 312
+312 313
+313 314
+312 315
+315 316
+316 317
+312 318
+318 319
+319 320
+320 321
+321 322
+319 323
+323 324
+324 325
+325 326
+324 327
+327 328
+328 329
+324 330
+330 331
+331 332
+2 333
+333 334
+334 335
+335 336
+334 337
+337 338
+338 339
+334 340
+340 341
+341 342
+342 343
+343 344
+341 345
+345 346
+346 347
+347 348
+346 349
+349 350
+350 351
+2 352
+352 353
+353 354
+354 355
+353 356
+356 357
+357 358
+353 359
+359 360
+2 361
+361 362
+362 363
+363 364
+362 365
+365 366
+366 367
+362 368
+368 369
+369 370
+370 371
+368 372
+372 373
+373 374
+2 375
+375 376
+376 377
+377 378
+2 379
+379 380
+380 381
+381 382
+2 383
+383 384
+384 385
+385 386
+384 387
+387 388
+388 389
+2 390
+390 391
+391 392
+392 393
+391 394
+394 395
+395 396
+396 397
+2 398
+398 399
+399 400
+400 401
+399 402
+402 403
+403 404
+0 405
+0 406
+406 407
+0 408
+408 409
+409 410
+409 411
+411 412
+409 413
+413 414
+414 415
+
+Create the GUI and show it

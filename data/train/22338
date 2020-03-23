@@ -1,0 +1,194 @@
+96
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getRequiredMaintenanceType'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='currDS'
+13 name (SimpleName)
+14 identifier='newMaintenanceType'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='MaintenanceType'
+18 statement (SwitchStmt)
+19 selector (NameExpr)
+20 name (SimpleName)
+21 identifier='reqMaintenanceType'
+22 entries
+23 entrie (SwitchEntryStmt)
+24 label (NameExpr)
+25 name (SimpleName)
+26 identifier='NONE'
+27 statements
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='reqMaintenanceType'
+34 value (NameExpr)
+35 name (SimpleName)
+36 identifier='newMaintenanceType'
+37 statement (BreakStmt)
+38 entrie (SwitchEntryStmt)
+39 label (NameExpr)
+40 name (SimpleName)
+41 identifier='PATCH_EPG_HOLES'
+42 statements
+43 statement (IfStmt)
+44 condition (BinaryExpr)
+45 operator='NOT_EQUALS'
+46 left (NameExpr)
+47 name (SimpleName)
+48 identifier='newMaintenanceType'
+49 right (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='FULL'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='MaintenanceType'
+55 thenStmt (BlockStmt)
+56 statements
+57 statement (ExpressionStmt)
+58 expression (AssignExpr)
+59 operator='ASSIGN'
+60 target (NameExpr)
+61 name (SimpleName)
+62 identifier='reqMaintenanceType'
+63 value (NameExpr)
+64 name (SimpleName)
+65 identifier='newMaintenanceType'
+66 statement (BreakStmt)
+67 entrie (SwitchEntryStmt)
+68 label (NameExpr)
+69 name (SimpleName)
+70 identifier='FULL'
+71 statements
+72 statement (BreakStmt)
+73 statement (ReturnStmt)
+74 expression (NameExpr)
+75 name (SimpleName)
+76 identifier='reqMaintenanceType'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='MaintenanceType'
+80 scope (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Wizard'
+83 name (SimpleName)
+84 identifier='checkEpgDsMaintenanceType'
+85 parameters
+86 parameter (Parameter)
+87 isVarArgs='false'
+88 name (SimpleName)
+89 identifier='reqMaintenanceType'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='MaintenanceType'
+93 scope (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Wizard'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+35 36
+27 37
+22 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+44 45
+44 46
+46 47
+47 48
+44 49
+49 50
+50 51
+49 52
+52 53
+53 54
+43 55
+55 56
+56 57
+57 58
+58 59
+58 60
+60 61
+61 62
+58 63
+63 64
+64 65
+42 66
+22 67
+67 68
+68 69
+69 70
+67 71
+71 72
+2 73
+73 74
+74 75
+75 76
+0 77
+77 78
+78 79
+77 80
+80 81
+81 82
+0 83
+83 84
+0 85
+85 86
+86 87
+86 88
+88 89
+86 90
+90 91
+91 92
+90 93
+93 94
+94 95
+
+Update required maintenance type based on what this DS is suggesting

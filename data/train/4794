@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='SearchRecentSuggestions'
+11 arguments
+12 argument (ThisExpr)
+13 argument (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='AUTHORITY'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='SearchSuggestionSampleProvider'
+19 argument (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='MODE'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='SearchSuggestionSampleProvider'
+25 name (SimpleName)
+26 identifier='suggestions'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='SearchRecentSuggestions'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='clearHistory'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='suggestions'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='clearSearchHistory'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+11 13
+13 14
+14 15
+13 16
+16 17
+17 18
+11 19
+19 20
+20 21
+19 22
+22 23
+23 24
+6 25
+25 26
+6 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+0 37
+0 38
+38 39
+
+Any application that implements search suggestions based on previous actions (such as recent queries, page/items viewed, etc.) should provide a way for the user to clear the history.  This gives the user a measure of privacy, if they do not wish for their recent searches to be replayed by other users of the device (via suggestions). This example shows how to clear the search history for apps that use  android.provider.SearchRecentSuggestions.  If you have developed a custom suggestions provider, you'll need to provide a similar API for clearing history. In this sample app we call this method from a "Clear History" menu item.  You could also  implement the UI in your preferences, or any other logical place in your UI.

@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='closeQuietly'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='IOUtils'
+10 arguments
+11 argument (ThisExpr)
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='deleteContents'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='directory'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='delete'
+23 thrownExceptions
+24 thrownException (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+25 26
+
+Closes the cache and deletes all of its stored values. This will delete all files in the cache directory including files that weren't created by the cache.

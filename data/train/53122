@@ -1,0 +1,50 @@
+24
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='cleanRCSRawContactsInAB'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='cleanEntriesInRcsContactProvider'
+14 expression (NameExpr)
+15 name (SimpleName)
+16 identifier='mContactInfoCache'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='cleanRCSEntries'
+20 thrownExceptions
+21 thrownException (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='ContactManagerException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+5 10
+10 11
+11 12
+12 13
+3 14
+14 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+22 23
+
+Clean the RCS entries <br> This removes the RCS entries that are associated to numbers not present in the address book anymore <br> This also creates a RCS raw contact for numbers that are present, have RCS raw contact but not on all raw contacts (typical example: a RCS number is present in the address book and another contact is created using the same number)

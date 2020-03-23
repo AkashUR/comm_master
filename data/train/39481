@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getEditor'
+10 arguments
+11 argument (IntegerLiteralExpr)
+12 value='0'
+13 name (SimpleName)
+14 identifier='editor'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='IEditorPart'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='doSaveAs'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='editor'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='setPageText'
+29 arguments
+30 argument (IntegerLiteralExpr)
+31 value='0'
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getTitle'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='editor'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='setInput'
+42 arguments
+43 argument (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getEditorInput'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='editor'
+49 type (VoidType)
+50 name (SimpleName)
+51 identifier='doSaveAs'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+0 49
+0 50
+50 51
+
+Saves the multi-page editor's document as another file. Also updates the text for page 0's tab, and updates this multi-page editor's input to correspond to the nested editor's.

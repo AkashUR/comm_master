@@ -1,0 +1,424 @@
+211
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onCreate'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='savedInstanceState'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='setContentView'
+16 arguments
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='activity_ptr_list_fragment'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='layout'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='R'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='mPullRefreshListFragment'
+32 value (CastExpr)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='findFragmentById'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getSupportFragmentManager'
+39 arguments
+40 argument (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='frag_ptr_list'
+43 scope (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='id'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='R'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='PullToRefreshListFragment'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (NameExpr)
+56 name (SimpleName)
+57 identifier='mPullRefreshListView'
+58 value (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='getPullToRefreshListView'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='mPullRefreshListFragment'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='setOnRefreshListener'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='mPullRefreshListView'
+71 arguments
+72 argument (ThisExpr)
+73 statement (ExpressionStmt)
+74 expression (VariableDeclarationExpr)
+75 variables
+76 variable (VariableDeclarator)
+77 initializer (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='getRefreshableView'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='mPullRefreshListView'
+83 name (SimpleName)
+84 identifier='actualListView'
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='ListView'
+88 statement (ExpressionStmt)
+89 expression (AssignExpr)
+90 operator='ASSIGN'
+91 target (NameExpr)
+92 name (SimpleName)
+93 identifier='mListItems'
+94 value (ObjectCreationExpr)
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='LinkedList'
+98 typeArguments
+99 typeArgument (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='String'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='addAll'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='mListItems'
+109 arguments
+110 argument (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='asList'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='Arrays'
+116 arguments
+117 argument (NameExpr)
+118 name (SimpleName)
+119 identifier='mStrings'
+120 statement (ExpressionStmt)
+121 expression (AssignExpr)
+122 operator='ASSIGN'
+123 target (NameExpr)
+124 name (SimpleName)
+125 identifier='mAdapter'
+126 value (ObjectCreationExpr)
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='ArrayAdapter'
+130 typeArguments
+131 typeArgument (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='String'
+134 arguments
+135 argument (ThisExpr)
+136 argument (FieldAccessExpr)
+137 name (SimpleName)
+138 identifier='simple_list_item_1'
+139 scope (FieldAccessExpr)
+140 name (SimpleName)
+141 identifier='layout'
+142 scope (FieldAccessExpr)
+143 name (SimpleName)
+144 identifier='R'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='android'
+148 argument (NameExpr)
+149 name (SimpleName)
+150 identifier='mListItems'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='setAdapter'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='actualListView'
+158 arguments
+159 argument (NameExpr)
+160 name (SimpleName)
+161 identifier='mAdapter'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='setListShown'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='mPullRefreshListFragment'
+169 arguments
+170 argument (BooleanLiteralExpr)
+171 value='true'
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='initBackTitle'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='ActionBarManager'
+179 arguments
+180 argument (ThisExpr)
+181 argument (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='getActionBar'
+184 argument (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='getSimpleName'
+187 scope (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='getClass'
+190 scope (ThisExpr)
+191 type (VoidType)
+192 name (SimpleName)
+193 identifier='onCreate'
+194 parameters
+195 parameter (Parameter)
+196 isVarArgs='false'
+197 name (SimpleName)
+198 identifier='savedInstanceState'
+199 type (ClassOrInterfaceType)
+200 name (SimpleName)
+201 identifier='Bundle'
+202 annotations
+203 annotation (SingleMemberAnnotationExpr)
+204 memberValue (StringLiteralExpr)
+205 value='NewApi'
+206 name (Name)
+207 identifier='SuppressLint'
+208 annotation (MarkerAnnotationExpr)
+209 name (Name)
+210 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+32 49
+49 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+53 58
+58 59
+59 60
+58 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+2 73
+73 74
+74 75
+75 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+76 83
+83 84
+76 85
+85 86
+86 87
+2 88
+88 89
+89 90
+89 91
+91 92
+92 93
+89 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+103 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+110 116
+116 117
+117 118
+118 119
+2 120
+120 121
+121 122
+121 123
+123 124
+124 125
+121 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+132 133
+126 134
+134 135
+134 136
+136 137
+137 138
+136 139
+139 140
+140 141
+139 142
+142 143
+143 144
+142 145
+145 146
+146 147
+134 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+152 158
+158 159
+159 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+163 169
+169 170
+170 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+173 179
+179 180
+179 181
+181 182
+182 183
+179 184
+184 185
+185 186
+184 187
+187 188
+188 189
+187 190
+0 191
+0 192
+192 193
+0 194
+194 195
+195 196
+195 197
+197 198
+195 199
+199 200
+200 201
+0 202
+202 203
+203 204
+204 205
+203 206
+206 207
+202 208
+208 209
+209 210
+
+Called when the activity is first created.

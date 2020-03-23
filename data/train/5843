@@ -1,0 +1,202 @@
+100
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='VarDecl'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='name'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='className'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='line'
+21 name (SimpleName)
+22 identifier='ref'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='VarDecl'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='put'
+30 scope (EnclosedExpr)
+31 inner (ConditionalExpr)
+32 condition (BinaryExpr)
+33 operator='NOT_EQUALS'
+34 left (NameExpr)
+35 name (SimpleName)
+36 identifier='varDecls'
+37 right (NullLiteralExpr)
+38 elseExpr (EnclosedExpr)
+39 inner (AssignExpr)
+40 operator='ASSIGN'
+41 target (NameExpr)
+42 name (SimpleName)
+43 identifier='varDecls'
+44 value (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='LinkedHashMap'
+48 typeArguments
+49 typeArgument (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+52 typeArgument (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='VarDecl'
+55 thenExpr (NameExpr)
+56 name (SimpleName)
+57 identifier='varDecls'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='name'
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='ref'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='addImportName'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='className'
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='line'
+76 type (VoidType)
+77 name (SimpleName)
+78 identifier='addVarDecl'
+79 parameters
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='name'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='String'
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='className'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='String'
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='line'
+98 type (PrimitiveType)
+99 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+11 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+32 34
+34 35
+35 36
+32 37
+31 38
+38 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+31 55
+55 56
+56 57
+27 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+0 76
+0 77
+77 78
+0 79
+79 80
+80 81
+80 82
+82 83
+80 84
+84 85
+85 86
+79 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+79 94
+94 95
+94 96
+96 97
+94 98
+98 99
+
+add name -> className mapping. <br>This set is built as InterfaceCompiler.InterfaceAnalyzer traverses the DOM, collecting items needed to generate the public signature of the class to be generated.

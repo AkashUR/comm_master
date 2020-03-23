@@ -1,0 +1,204 @@
+101
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='emitLAddrToc'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='asm'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='S0'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getOffset'
+17 scope (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='reflectiveMethodInvokerInstructionsField'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='ArchEntrypoints'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='peekAddr'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='T0'
+31 argument (IntegerLiteralExpr)
+32 value='4'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='emitMTCTR'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='asm'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='S0'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='peekAddr'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='T1'
+52 argument (IntegerLiteralExpr)
+53 value='3'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='peekAddr'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='T2'
+62 argument (IntegerLiteralExpr)
+63 value='2'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='peekAddr'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='T3'
+72 argument (IntegerLiteralExpr)
+73 value='1'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='peekAddr'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='T4'
+82 argument (IntegerLiteralExpr)
+83 value='0'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='emitBCCTRL'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='asm'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='discardSlots'
+95 arguments
+96 argument (IntegerLiteralExpr)
+97 value='5'
+98 type (VoidType)
+99 name (SimpleName)
+100 identifier='generateMethodInvocation'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+27 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+48 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+60 61
+58 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+68 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+78 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+0 98
+0 99
+99 100
+
+Generate code to invoke arbitrary method with arbitrary parameters/return value. We generate inline code that calls "OutOfLineMachineCode.reflectiveMethodInvokerInstructions" which, at runtime, will create a new stackframe with an appropriately sized spill area (but no register save area, locals, or operand stack), load up the specified fpr's and gpr's, call the specified method, pop the stackframe, and return a value.

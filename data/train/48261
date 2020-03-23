@@ -1,0 +1,198 @@
+98
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='zoom'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='transformer'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='factor'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='focusX'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='focusY'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='paintPreview'
+24 arguments
+25 argument (CastExpr)
+26 expression (EnclosedExpr)
+27 inner (BinaryExpr)
+28 operator='MULTIPLY'
+29 left (EnclosedExpr)
+30 inner (BinaryExpr)
+31 operator='MINUS'
+32 left (IntegerLiteralExpr)
+33 value='1'
+34 right (NameExpr)
+35 name (SimpleName)
+36 identifier='factor'
+37 right (NameExpr)
+38 name (SimpleName)
+39 identifier='focusX'
+40 type (PrimitiveType)
+41 type='INT'
+42 argument (CastExpr)
+43 expression (EnclosedExpr)
+44 inner (BinaryExpr)
+45 operator='MULTIPLY'
+46 left (EnclosedExpr)
+47 inner (BinaryExpr)
+48 operator='MINUS'
+49 left (IntegerLiteralExpr)
+50 value='1'
+51 right (NameExpr)
+52 name (SimpleName)
+53 identifier='factor'
+54 right (NameExpr)
+55 name (SimpleName)
+56 identifier='focusY'
+57 type (PrimitiveType)
+58 type='INT'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='factor'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='viewChanged'
+66 arguments
+67 argument (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='ZOOM'
+70 scope (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='Type'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='MapViewEvent'
+76 type (VoidType)
+77 name (SimpleName)
+78 identifier='zoom'
+79 parameters
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='factor'
+84 type (PrimitiveType)
+85 type='FLOAT'
+86 parameter (Parameter)
+87 isVarArgs='false'
+88 name (SimpleName)
+89 identifier='focusX'
+90 type (PrimitiveType)
+91 type='INT'
+92 parameter (Parameter)
+93 isVarArgs='false'
+94 name (SimpleName)
+95 identifier='focusY'
+96 type (PrimitiveType)
+97 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+27 28
+27 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+27 37
+37 38
+38 39
+25 40
+40 41
+24 42
+42 43
+43 44
+44 45
+44 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+44 54
+54 55
+55 56
+42 57
+57 58
+24 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+73 74
+74 75
+0 76
+0 77
+77 78
+0 79
+79 80
+80 81
+80 82
+82 83
+80 84
+84 85
+79 86
+86 87
+86 88
+88 89
+86 90
+90 91
+79 92
+92 93
+92 94
+94 95
+92 96
+96 97
+
+Multiples the current scale with the specified factor and adjusts the view so that the objects shown at the specified view focus keep at their position.

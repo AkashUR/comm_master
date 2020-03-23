@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='makeDocumentWithFields'
+10 name (SimpleName)
+11 identifier='doc'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Document'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='assertEquals'
+19 arguments
+20 argument (IntegerLiteralExpr)
+21 value='10'
+22 argument (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='size'
+25 scope (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getFields'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='doc'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getFields'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='doc'
+41 name (SimpleName)
+42 identifier='fields'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='List'
+46 typeArguments
+47 typeArgument (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='IndexableField'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='expectThrows'
+54 arguments
+55 argument (ClassExpr)
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='UnsupportedOperationException'
+59 argument (NullLiteralExpr)
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='expectThrows'
+64 arguments
+65 argument (ClassExpr)
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='UnsupportedOperationException'
+69 argument (NullLiteralExpr)
+70 type (VoidType)
+71 name (SimpleName)
+72 identifier='testGetFieldsImmutable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+34 41
+41 42
+34 43
+43 44
+44 45
+43 46
+46 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+57 58
+54 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+67 68
+64 69
+0 70
+0 71
+71 72
+
+test that Document.getFields() actually returns an immutable list

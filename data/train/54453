@@ -1,0 +1,580 @@
+289
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='StringBuilder'
+11 name (SimpleName)
+12 identifier='sb'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='StringBuilder'
+16 statement (SwitchStmt)
+17 selector (NameExpr)
+18 name (SimpleName)
+19 identifier='resType'
+20 entries
+21 entrie (SwitchEntryStmt)
+22 label (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='cudaResourceTypeArray'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='cudaResourceType'
+28 statements
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='append'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='sb'
+36 arguments
+37 argument (BinaryExpr)
+38 operator='PLUS'
+39 left (BinaryExpr)
+40 operator='PLUS'
+41 left (StringLiteralExpr)
+42 value='array='
+43 right (NameExpr)
+44 name (SimpleName)
+45 identifier='array_array'
+46 right (NameExpr)
+47 name (SimpleName)
+48 identifier='f'
+49 statement (BreakStmt)
+50 entrie (SwitchEntryStmt)
+51 label (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='cudaResourceTypeMipmappedArray'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='cudaResourceType'
+57 statements
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='append'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='sb'
+65 arguments
+66 argument (BinaryExpr)
+67 operator='PLUS'
+68 left (BinaryExpr)
+69 operator='PLUS'
+70 left (StringLiteralExpr)
+71 value='mipmap='
+72 right (NameExpr)
+73 name (SimpleName)
+74 identifier='mipmap_mipmap'
+75 right (NameExpr)
+76 name (SimpleName)
+77 identifier='f'
+78 statement (BreakStmt)
+79 entrie (SwitchEntryStmt)
+80 label (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='cudaResourceTypeLinear'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='cudaResourceType'
+86 statements
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='append'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='sb'
+94 arguments
+95 argument (BinaryExpr)
+96 operator='PLUS'
+97 left (BinaryExpr)
+98 operator='PLUS'
+99 left (StringLiteralExpr)
+100 value='devPtr='
+101 right (NameExpr)
+102 name (SimpleName)
+103 identifier='linear_devPtr'
+104 right (NameExpr)
+105 name (SimpleName)
+106 identifier='f'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='append'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='sb'
+114 arguments
+115 argument (BinaryExpr)
+116 operator='PLUS'
+117 left (BinaryExpr)
+118 operator='PLUS'
+119 left (StringLiteralExpr)
+120 value='format='
+121 right (NameExpr)
+122 name (SimpleName)
+123 identifier='linear_desc'
+124 right (NameExpr)
+125 name (SimpleName)
+126 identifier='f'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='append'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='sb'
+134 arguments
+135 argument (BinaryExpr)
+136 operator='PLUS'
+137 left (BinaryExpr)
+138 operator='PLUS'
+139 left (StringLiteralExpr)
+140 value='sizeInBytes='
+141 right (NameExpr)
+142 name (SimpleName)
+143 identifier='linear_sizeInBytes'
+144 right (NameExpr)
+145 name (SimpleName)
+146 identifier='f'
+147 statement (BreakStmt)
+148 entrie (SwitchEntryStmt)
+149 label (FieldAccessExpr)
+150 name (SimpleName)
+151 identifier='cudaResourceTypePitch2D'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='cudaResourceType'
+155 statements
+156 statement (ExpressionStmt)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='append'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='sb'
+163 arguments
+164 argument (BinaryExpr)
+165 operator='PLUS'
+166 left (BinaryExpr)
+167 operator='PLUS'
+168 left (StringLiteralExpr)
+169 value='devPtr='
+170 right (NameExpr)
+171 name (SimpleName)
+172 identifier='pitch2D_devPtr'
+173 right (NameExpr)
+174 name (SimpleName)
+175 identifier='f'
+176 statement (ExpressionStmt)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='append'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='sb'
+183 arguments
+184 argument (BinaryExpr)
+185 operator='PLUS'
+186 left (BinaryExpr)
+187 operator='PLUS'
+188 left (StringLiteralExpr)
+189 value='format='
+190 right (NameExpr)
+191 name (SimpleName)
+192 identifier='pitch2D_desc'
+193 right (NameExpr)
+194 name (SimpleName)
+195 identifier='f'
+196 statement (ExpressionStmt)
+197 expression (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='append'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='sb'
+203 arguments
+204 argument (BinaryExpr)
+205 operator='PLUS'
+206 left (BinaryExpr)
+207 operator='PLUS'
+208 left (StringLiteralExpr)
+209 value='width='
+210 right (NameExpr)
+211 name (SimpleName)
+212 identifier='pitch2D_width'
+213 right (NameExpr)
+214 name (SimpleName)
+215 identifier='f'
+216 statement (ExpressionStmt)
+217 expression (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='append'
+220 scope (NameExpr)
+221 name (SimpleName)
+222 identifier='sb'
+223 arguments
+224 argument (BinaryExpr)
+225 operator='PLUS'
+226 left (BinaryExpr)
+227 operator='PLUS'
+228 left (StringLiteralExpr)
+229 value='height='
+230 right (NameExpr)
+231 name (SimpleName)
+232 identifier='pitch2D_height'
+233 right (NameExpr)
+234 name (SimpleName)
+235 identifier='f'
+236 statement (ExpressionStmt)
+237 expression (MethodCallExpr)
+238 name (SimpleName)
+239 identifier='append'
+240 scope (NameExpr)
+241 name (SimpleName)
+242 identifier='sb'
+243 arguments
+244 argument (BinaryExpr)
+245 operator='PLUS'
+246 left (BinaryExpr)
+247 operator='PLUS'
+248 left (StringLiteralExpr)
+249 value='pitchInBytes='
+250 right (NameExpr)
+251 name (SimpleName)
+252 identifier='pitch2D_pitchInBytes'
+253 right (NameExpr)
+254 name (SimpleName)
+255 identifier='f'
+256 statement (BreakStmt)
+257 entrie (SwitchEntryStmt)
+258 statements
+259 statement (ExpressionStmt)
+260 expression (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='append'
+263 scope (NameExpr)
+264 name (SimpleName)
+265 identifier='sb'
+266 arguments
+267 argument (StringLiteralExpr)
+268 value='INVALID'
+269 statement (ReturnStmt)
+270 expression (MethodCallExpr)
+271 name (SimpleName)
+272 identifier='toString'
+273 scope (NameExpr)
+274 name (SimpleName)
+275 identifier='sb'
+276 type (ClassOrInterfaceType)
+277 name (SimpleName)
+278 identifier='String'
+279 name (SimpleName)
+280 identifier='createString'
+281 parameters
+282 parameter (Parameter)
+283 isVarArgs='false'
+284 name (SimpleName)
+285 identifier='f'
+286 type (ClassOrInterfaceType)
+287 name (SimpleName)
+288 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+21 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+37 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+37 46
+46 47
+47 48
+28 49
+20 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+50 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+66 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+66 75
+75 76
+76 77
+57 78
+20 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+79 86
+86 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+95 97
+97 98
+97 99
+99 100
+97 101
+101 102
+102 103
+95 104
+104 105
+105 106
+86 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+115 117
+117 118
+117 119
+119 120
+117 121
+121 122
+122 123
+115 124
+124 125
+125 126
+86 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+135 136
+135 137
+137 138
+137 139
+139 140
+137 141
+141 142
+142 143
+135 144
+144 145
+145 146
+86 147
+20 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+148 155
+155 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+157 163
+163 164
+164 165
+164 166
+166 167
+166 168
+168 169
+166 170
+170 171
+171 172
+164 173
+173 174
+174 175
+155 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+184 186
+186 187
+186 188
+188 189
+186 190
+190 191
+191 192
+184 193
+193 194
+194 195
+155 196
+196 197
+197 198
+198 199
+197 200
+200 201
+201 202
+197 203
+203 204
+204 205
+204 206
+206 207
+206 208
+208 209
+206 210
+210 211
+211 212
+204 213
+213 214
+214 215
+155 216
+216 217
+217 218
+218 219
+217 220
+220 221
+221 222
+217 223
+223 224
+224 225
+224 226
+226 227
+226 228
+228 229
+226 230
+230 231
+231 232
+224 233
+233 234
+234 235
+155 236
+236 237
+237 238
+238 239
+237 240
+240 241
+241 242
+237 243
+243 244
+244 245
+244 246
+246 247
+246 248
+248 249
+246 250
+250 251
+251 252
+244 253
+253 254
+254 255
+155 256
+20 257
+257 258
+258 259
+259 260
+260 261
+261 262
+260 263
+263 264
+264 265
+260 266
+266 267
+267 268
+2 269
+269 270
+270 271
+271 272
+270 273
+273 274
+274 275
+0 276
+276 277
+277 278
+0 279
+279 280
+0 281
+281 282
+282 283
+282 284
+284 285
+282 286
+286 287
+287 288
+
+Creates and returns a string representation of this object, using the given separator for the fields

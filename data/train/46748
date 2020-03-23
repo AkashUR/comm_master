@@ -1,0 +1,94 @@
+46
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 arguments
+8 argument (BooleanLiteralExpr)
+9 value='false'
+10 argument (NameExpr)
+11 name (SimpleName)
+12 identifier='buf'
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='off'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='end'
+19 name (SimpleName)
+20 identifier='TextDecl'
+21 parameters
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='buf'
+26 type (ArrayType)
+27 origin='TYPE'
+28 componentType (PrimitiveType)
+29 type='CHAR'
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='off'
+34 type (PrimitiveType)
+35 type='INT'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='end'
+40 type (PrimitiveType)
+41 type='INT'
+42 thrownExceptions
+43 thrownException (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='InvalidTokenException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+7 16
+16 17
+17 18
+0 19
+19 20
+0 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+26 28
+28 29
+21 30
+30 31
+30 32
+32 33
+30 34
+34 35
+21 36
+36 37
+36 38
+38 39
+36 40
+40 41
+0 42
+42 43
+43 44
+44 45
+
+Creates a <code>TextDecl</code> from the specified char subarray. The char subarray should be a <code>TOK_XML_DECL</code> token returned from Tokenizer.tokenizeProlog or Tokenizer.tokenizeContent, starting with <code>&lt;?</code> and ending with <code>?&gt;</code>.

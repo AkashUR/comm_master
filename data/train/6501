@@ -1,0 +1,144 @@
+71
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (StringLiteralExpr)
+7 value='Building workspace'
+8 statement (ExpressionStmt)
+9 expression (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='checkState'
+12 arguments
+13 argument (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='isRunning'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='Platform'
+19 argument (StringLiteralExpr)
+20 value='This job requires a running platform'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='configs'
+27 scope (ThisExpr)
+28 value (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='checkNotNull'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='configs'
+35 argument (StringLiteralExpr)
+36 value='configs'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='setSystem'
+41 arguments
+42 argument (BooleanLiteralExpr)
+43 value='false'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='setUser'
+48 arguments
+49 argument (BooleanLiteralExpr)
+50 value='true'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setRule'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='BUILD_RULE'
+59 name (SimpleName)
+60 identifier='RebuildWorkspaceProjectsJob'
+61 parameters
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='configs'
+66 type (ArrayType)
+67 origin='TYPE'
+68 componentType (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='IBuildConfiguration'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+2 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+12 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+24 27
+22 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+31 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+0 59
+59 60
+0 61
+61 62
+62 63
+62 64
+64 65
+62 66
+66 67
+66 68
+68 69
+69 70
+
+Creates a new job with the already ordered configurations to builder.

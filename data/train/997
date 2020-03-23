@@ -1,0 +1,306 @@
+152
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='configuration'
+9 argument (StringLiteralExpr)
+10 value='MySQL'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='serverHostName'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='serverStartTimeMillis'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='configuration'
+23 scope (ThisExpr)
+24 value (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='checkNotNull'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Preconditions'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='configuration'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='countLimit'
+40 scope (ThisExpr)
+41 value (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getInt'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='configuration'
+47 arguments
+48 argument (StringLiteralExpr)
+49 value='MYSQL_COUNT_LIMIT'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='numDbPerQueue'
+56 scope (ThisExpr)
+57 value (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getInt'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='configuration'
+63 arguments
+64 argument (StringLiteralExpr)
+65 value='MYSQL_NUM_DB_PER_QUEUE'
+66 argument (IntegerLiteralExpr)
+67 value='1'
+68 statement (ExpressionStmt)
+69 expression (AssignExpr)
+70 operator='ASSIGN'
+71 target (FieldAccessExpr)
+72 name (SimpleName)
+73 identifier='mySQLHealthMonitor'
+74 scope (ThisExpr)
+75 value (ObjectCreationExpr)
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='MySQLHealthMonitor'
+79 arguments
+80 argument (ObjectCreationExpr)
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='HashSet'
+84 typeArguments
+85 typeArgument (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='String'
+88 statement (ExpressionStmt)
+89 expression (AssignExpr)
+90 operator='ASSIGN'
+91 target (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='queueMonitorService'
+94 scope (ThisExpr)
+95 value (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='newSingleThreadScheduledExecutor'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='Executors'
+101 arguments
+102 argument (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='build'
+105 scope (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='setNameFormat'
+108 scope (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='setDaemon'
+111 scope (ObjectCreationExpr)
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='ThreadFactoryBuilder'
+115 arguments
+116 argument (BooleanLiteralExpr)
+117 value='true'
+118 arguments
+119 argument (StringLiteralExpr)
+120 value='MySQLJobQueueMonitor-%d'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='initialize'
+125 name (SimpleName)
+126 identifier='PinLaterMySQLBackend'
+127 parameters
+128 parameter (Parameter)
+129 isVarArgs='false'
+130 name (SimpleName)
+131 identifier='configuration'
+132 type (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='PropertiesConfiguration'
+135 parameter (Parameter)
+136 isVarArgs='false'
+137 name (SimpleName)
+138 identifier='serverHostName'
+139 type (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='String'
+142 parameter (Parameter)
+143 isVarArgs='false'
+144 name (SimpleName)
+145 identifier='serverStartTimeMillis'
+146 type (PrimitiveType)
+147 type='LONG'
+148 thrownExceptions
+149 thrownException (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+5 11
+11 12
+12 13
+5 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+18 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+37 40
+35 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+53 56
+51 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+63 66
+66 67
+2 68
+68 69
+69 70
+69 71
+71 72
+72 73
+71 74
+69 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+86 87
+2 88
+88 89
+89 90
+89 91
+91 92
+92 93
+91 94
+89 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+105 108
+108 109
+109 110
+108 111
+111 112
+112 113
+113 114
+108 115
+115 116
+116 117
+105 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+0 125
+125 126
+0 127
+127 128
+128 129
+128 130
+130 131
+128 132
+132 133
+133 134
+127 135
+135 136
+135 137
+137 138
+135 139
+139 140
+140 141
+127 142
+142 143
+142 144
+144 145
+142 146
+146 147
+0 148
+148 149
+149 150
+150 151
+
+Creates an instance of the PinLaterMySQLBackend.

@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='execute'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='statement'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (StringLiteralExpr)
+16 value='DELETE FROM '
+17 right (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='FKSTRICT_TABLE'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='DatabaseCreator'
+23 right (StringLiteralExpr)
+24 value=' WHERE name_id = 1;'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='execute'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='statement'
+32 arguments
+33 argument (BinaryExpr)
+34 operator='PLUS'
+35 left (BinaryExpr)
+36 operator='PLUS'
+37 left (StringLiteralExpr)
+38 value='DELETE FROM '
+39 right (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='FKSTRICT_TABLE'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='DatabaseCreator'
+45 right (StringLiteralExpr)
+46 value=' WHERE id = 1;'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='testDelete3'
+50 thrownExceptions
+51 thrownException (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+13 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+11 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+33 35
+35 36
+35 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+43 44
+33 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+52 53
+
+DeleteFunctionalityTest#testDelete3(). Deletes all referencing rows and then deletes referenced one

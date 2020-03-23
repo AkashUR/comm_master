@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='-//BEA Systems, Inc.//DTD Web Application 6.1//EN'
+9 name (SimpleName)
+10 identifier='pId'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (StringLiteralExpr)
+19 value='http://www.bea.com/servers/wls610/dtd/weblogic610-web-jar.dtd'
+20 name (SimpleName)
+21 identifier='sId'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='String'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='XmlEntityResolver'
+33 name (SimpleName)
+34 identifier='resolver'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='XmlEntityResolver'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getDtdFileName'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='resolver'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='pId'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='sId'
+55 name (SimpleName)
+56 identifier='file'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='assertEquals'
+64 arguments
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='file'
+68 argument (StringLiteralExpr)
+69 value='weblogic610-web-jar.dtd'
+70 type (VoidType)
+71 name (SimpleName)
+72 identifier='testGetUnknownFileName'
+73 thrownExceptions
+74 thrownException (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+17 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+28 33
+33 34
+28 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+41 55
+55 56
+41 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+64 68
+68 69
+0 70
+0 71
+71 72
+0 73
+73 74
+74 75
+75 76
+
+Verifies that the method <code>getDtdFileName()</code> works with unknown filename.

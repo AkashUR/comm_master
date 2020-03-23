@@ -1,0 +1,574 @@
+286
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mWorld'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='World'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='gravity'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='setAllowSleep'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='mWorld'
+24 arguments
+25 argument (BooleanLiteralExpr)
+26 value='false'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setSleepingAllowed'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='mWorld'
+34 arguments
+35 argument (BooleanLiteralExpr)
+36 value='false'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='setAutoClearForces'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='mWorld'
+44 arguments
+45 argument (BooleanLiteralExpr)
+46 value='true'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (ObjectCreationExpr)
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='BodyDef'
+55 name (SimpleName)
+56 identifier='groundBodyDef'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='BodyDef'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='set'
+64 scope (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='position'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='groundBodyDef'
+70 arguments
+71 argument (ObjectCreationExpr)
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Vec2'
+75 arguments
+76 argument (DoubleLiteralExpr)
+77 value='5.0f'
+78 argument (UnaryExpr)
+79 operator='MINUS'
+80 expression (DoubleLiteralExpr)
+81 value='2.0f'
+82 statement (ExpressionStmt)
+83 expression (VariableDeclarationExpr)
+84 variables
+85 variable (VariableDeclarator)
+86 initializer (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='createBody'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='mWorld'
+92 arguments
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='groundBodyDef'
+96 name (SimpleName)
+97 identifier='groundBody'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='Body'
+101 statement (ExpressionStmt)
+102 expression (VariableDeclarationExpr)
+103 variables
+104 variable (VariableDeclarator)
+105 initializer (ObjectCreationExpr)
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='PolygonShape'
+109 name (SimpleName)
+110 identifier='polygonShape'
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='PolygonShape'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='set'
+118 scope (FieldAccessExpr)
+119 name (SimpleName)
+120 identifier='position'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='groundBodyDef'
+124 arguments
+125 argument (ObjectCreationExpr)
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='Vec2'
+129 arguments
+130 argument (DoubleLiteralExpr)
+131 value='5.0f'
+132 argument (DoubleLiteralExpr)
+133 value='32.0f'
+134 statement (ExpressionStmt)
+135 expression (AssignExpr)
+136 operator='ASSIGN'
+137 target (NameExpr)
+138 name (SimpleName)
+139 identifier='groundBody'
+140 value (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='createBody'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='mWorld'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='groundBodyDef'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='createFixture'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='groundBody'
+157 arguments
+158 argument (NameExpr)
+159 name (SimpleName)
+160 identifier='polygonShape'
+161 argument (DoubleLiteralExpr)
+162 value='1.0f'
+163 statement (ExpressionStmt)
+164 expression (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='setAsBox'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='polygonShape'
+170 arguments
+171 argument (DoubleLiteralExpr)
+172 value='2.0f'
+173 argument (DoubleLiteralExpr)
+174 value='18.0f'
+175 statement (ExpressionStmt)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='set'
+179 scope (FieldAccessExpr)
+180 name (SimpleName)
+181 identifier='position'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='groundBodyDef'
+185 arguments
+186 argument (ObjectCreationExpr)
+187 type (ClassOrInterfaceType)
+188 name (SimpleName)
+189 identifier='Vec2'
+190 arguments
+191 argument (UnaryExpr)
+192 operator='MINUS'
+193 expression (DoubleLiteralExpr)
+194 value='2.0f'
+195 argument (DoubleLiteralExpr)
+196 value='16.0f'
+197 statement (ExpressionStmt)
+198 expression (AssignExpr)
+199 operator='ASSIGN'
+200 target (NameExpr)
+201 name (SimpleName)
+202 identifier='groundBody'
+203 value (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='createBody'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='mWorld'
+209 arguments
+210 argument (NameExpr)
+211 name (SimpleName)
+212 identifier='groundBodyDef'
+213 statement (ExpressionStmt)
+214 expression (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='createFixture'
+217 scope (NameExpr)
+218 name (SimpleName)
+219 identifier='groundBody'
+220 arguments
+221 argument (NameExpr)
+222 name (SimpleName)
+223 identifier='polygonShape'
+224 argument (DoubleLiteralExpr)
+225 value='1.0f'
+226 statement (ExpressionStmt)
+227 expression (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='set'
+230 scope (FieldAccessExpr)
+231 name (SimpleName)
+232 identifier='position'
+233 scope (NameExpr)
+234 name (SimpleName)
+235 identifier='groundBodyDef'
+236 arguments
+237 argument (ObjectCreationExpr)
+238 type (ClassOrInterfaceType)
+239 name (SimpleName)
+240 identifier='Vec2'
+241 arguments
+242 argument (DoubleLiteralExpr)
+243 value='12.0f'
+244 argument (DoubleLiteralExpr)
+245 value='16.0f'
+246 statement (ExpressionStmt)
+247 expression (AssignExpr)
+248 operator='ASSIGN'
+249 target (NameExpr)
+250 name (SimpleName)
+251 identifier='groundBody'
+252 value (MethodCallExpr)
+253 name (SimpleName)
+254 identifier='createBody'
+255 scope (NameExpr)
+256 name (SimpleName)
+257 identifier='mWorld'
+258 arguments
+259 argument (NameExpr)
+260 name (SimpleName)
+261 identifier='groundBodyDef'
+262 statement (ExpressionStmt)
+263 expression (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='createFixture'
+266 scope (NameExpr)
+267 name (SimpleName)
+268 identifier='groundBody'
+269 arguments
+270 argument (NameExpr)
+271 name (SimpleName)
+272 identifier='polygonShape'
+273 argument (DoubleLiteralExpr)
+274 value='1.0f'
+275 type (VoidType)
+276 name (SimpleName)
+277 identifier='create'
+278 parameters
+279 parameter (Parameter)
+280 isVarArgs='false'
+281 name (SimpleName)
+282 identifier='gravity'
+283 type (ClassOrInterfaceType)
+284 name (SimpleName)
+285 identifier='Vec2'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+50 55
+55 56
+50 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+64 67
+67 68
+68 69
+61 70
+70 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+75 78
+78 79
+78 80
+80 81
+2 82
+82 83
+83 84
+84 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+86 92
+92 93
+93 94
+94 95
+85 96
+96 97
+85 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+107 108
+104 109
+109 110
+104 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+122 123
+115 124
+124 125
+125 126
+126 127
+127 128
+125 129
+129 130
+130 131
+129 132
+132 133
+2 134
+134 135
+135 136
+135 137
+137 138
+138 139
+135 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+151 157
+157 158
+158 159
+159 160
+157 161
+161 162
+2 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+164 170
+170 171
+171 172
+170 173
+173 174
+2 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+179 182
+182 183
+183 184
+176 185
+185 186
+186 187
+187 188
+188 189
+186 190
+190 191
+191 192
+191 193
+193 194
+190 195
+195 196
+2 197
+197 198
+198 199
+198 200
+200 201
+201 202
+198 203
+203 204
+204 205
+203 206
+206 207
+207 208
+203 209
+209 210
+210 211
+211 212
+2 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+214 220
+220 221
+221 222
+222 223
+220 224
+224 225
+2 226
+226 227
+227 228
+228 229
+227 230
+230 231
+231 232
+230 233
+233 234
+234 235
+227 236
+236 237
+237 238
+238 239
+239 240
+237 241
+241 242
+242 243
+241 244
+244 245
+2 246
+246 247
+247 248
+247 249
+249 250
+250 251
+247 252
+252 253
+253 254
+252 255
+255 256
+256 257
+252 258
+258 259
+259 260
+260 261
+2 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+263 269
+269 270
+270 271
+271 272
+269 273
+273 274
+0 275
+0 276
+276 277
+0 278
+278 279
+279 280
+279 281
+281 282
+279 283
+283 284
+284 285
+
+Create the physics world and draws the boundries

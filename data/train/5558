@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addAll'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='controls'
+10 scope (ThisExpr)
+11 arguments
+12 argument (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='copyOf'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='ImmutableList'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='controls'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='updateEnabledStateOfTargetControls'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='enables'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='true'
+32 name (SimpleName)
+33 identifier='controls'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Control'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+4 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+12 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+
+Enables the given controls when the enabling button becomes selected, otherwise disables them. When the button is selected, the button also receives the focus. At the time the controls are registered with this enabler, their enabled state is updated based on the current selection state of the button.

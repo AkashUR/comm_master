@@ -1,0 +1,328 @@
+163
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='m_componentName'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='component'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='m_componentId'
+18 value (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='addWord'
+21 scope (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getComponentIdDictionary'
+24 scope (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getDictionaries'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getAdeImpl'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='AdeInternal'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='component'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='m_updateDataStore'
+43 value (NameExpr)
+44 name (SimpleName)
+45 identifier='updateDataStore'
+46 statement (ExpressionStmt)
+47 expression (AssignExpr)
+48 operator='ASSIGN'
+49 target (NameExpr)
+50 name (SimpleName)
+51 identifier='m_clustersData'
+52 value (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='LinkedList'
+56 typeArguments
+57 typeArgument (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='TextClusterData'
+60 statement (ExpressionStmt)
+61 expression (AssignExpr)
+62 operator='ASSIGN'
+63 target (NameExpr)
+64 name (SimpleName)
+65 identifier='m_parentModel'
+66 value (NameExpr)
+67 name (SimpleName)
+68 identifier='textClusteringComponentModel'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (NameExpr)
+73 name (SimpleName)
+74 identifier='m_dsTextClustering'
+75 value (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='textClustering'
+78 scope (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='getDataStore'
+81 scope (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getAdeImpl'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='AdeInternal'
+87 statement (ExpressionStmt)
+88 expression (AssignExpr)
+89 operator='ASSIGN'
+90 target (NameExpr)
+91 name (SimpleName)
+92 identifier='m_maxClusterId'
+93 value (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='refreshClustersFromDataStore'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='m_dsTextClustering'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='m_componentId'
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='m_maxClusterId'
+106 argument (NameExpr)
+107 name (SimpleName)
+108 identifier='m_clustersData'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='setMaxClusterId'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='m_parentModel'
+116 arguments
+117 argument (NameExpr)
+118 name (SimpleName)
+119 identifier='m_maxClusterId'
+120 statement (ExpressionStmt)
+121 expression (AssignExpr)
+122 operator='ASSIGN'
+123 target (NameExpr)
+124 name (SimpleName)
+125 identifier='m_thresholdSetter'
+126 value (NameExpr)
+127 name (SimpleName)
+128 identifier='thresholdSetter'
+129 name (SimpleName)
+130 identifier='TextClusteringModel'
+131 parameters
+132 parameter (Parameter)
+133 isVarArgs='false'
+134 name (SimpleName)
+135 identifier='component'
+136 type (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='String'
+139 parameter (Parameter)
+140 isVarArgs='false'
+141 name (SimpleName)
+142 identifier='updateDataStore'
+143 type (PrimitiveType)
+144 type='BOOLEAN'
+145 parameter (Parameter)
+146 isVarArgs='false'
+147 name (SimpleName)
+148 identifier='textClusteringComponentModel'
+149 type (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='TextClusteringComponentModel'
+152 parameter (Parameter)
+153 isVarArgs='false'
+154 name (SimpleName)
+155 identifier='thresholdSetter'
+156 type (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='IThresholdSetter'
+159 thrownExceptions
+160 thrownException (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='AdeException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+18 33
+33 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+2 46
+46 47
+47 48
+47 49
+49 50
+50 51
+47 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+2 60
+60 61
+61 62
+61 63
+63 64
+64 65
+61 66
+66 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+70 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+2 87
+87 88
+88 89
+88 90
+90 91
+91 92
+88 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+101 102
+99 103
+103 104
+104 105
+99 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+110 116
+116 117
+117 118
+118 119
+2 120
+120 121
+121 122
+121 123
+123 124
+124 125
+121 126
+126 127
+127 128
+0 129
+129 130
+0 131
+131 132
+132 133
+132 134
+134 135
+132 136
+136 137
+137 138
+131 139
+139 140
+139 141
+141 142
+139 143
+143 144
+131 145
+145 146
+145 147
+147 148
+145 149
+149 150
+150 151
+131 152
+152 153
+152 154
+154 155
+152 156
+156 157
+157 158
+0 159
+159 160
+160 161
+161 162
+
+Creates a new text clustering model which is associated with the given component.

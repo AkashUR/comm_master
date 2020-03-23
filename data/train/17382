@@ -1,0 +1,190 @@
+94
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (NameExpr)
+5 name (SimpleName)
+6 identifier='structure'
+7 entries
+8 entrie (SwitchEntryStmt)
+9 label (NameExpr)
+10 name (SimpleName)
+11 identifier='ANY_DAG'
+12 statements
+13 statement (BreakStmt)
+14 entrie (SwitchEntryStmt)
+15 statements
+16 statement (ThrowStmt)
+17 expression (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='IllegalArgumentException'
+21 arguments
+22 argument (StringLiteralExpr)
+23 value='Unrecognized structure.'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='structure'
+30 scope (ThisExpr)
+31 value (NameExpr)
+32 name (SimpleName)
+33 identifier='structure'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='numNodes'
+40 scope (ThisExpr)
+41 value (IntegerLiteralExpr)
+42 value='4'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='minEdges'
+49 scope (ThisExpr)
+50 value (IntegerLiteralExpr)
+51 value='0'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='maxEdges'
+58 scope (ThisExpr)
+59 value (BinaryExpr)
+60 operator='MINUS'
+61 left (NameExpr)
+62 name (SimpleName)
+63 identifier='numNodes'
+64 right (IntegerLiteralExpr)
+65 value='1'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='numIterations'
+72 scope (ThisExpr)
+73 value (BinaryExpr)
+74 operator='MULTIPLY'
+75 left (BinaryExpr)
+76 operator='MULTIPLY'
+77 left (IntegerLiteralExpr)
+78 value='6'
+79 right (NameExpr)
+80 name (SimpleName)
+81 identifier='numNodes'
+82 right (NameExpr)
+83 name (SimpleName)
+84 identifier='numNodes'
+85 name (SimpleName)
+86 identifier='GraphGeneratorRandomNumEdges'
+87 parameters
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='structure'
+92 type (PrimitiveType)
+93 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+3 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+7 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+27 30
+25 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+37 40
+35 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+55 58
+53 59
+59 60
+59 61
+61 62
+62 63
+59 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+69 72
+67 73
+73 74
+73 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+73 82
+82 83
+83 84
+0 85
+85 86
+0 87
+87 88
+88 89
+88 90
+90 91
+88 92
+92 93
+
+Constructs a random graph generator for the given structure.

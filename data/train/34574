@@ -1,0 +1,38 @@
+18
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='url'
+9 scope (ThisExpr)
+10 value (StringLiteralExpr)
+11 value='jdbc:h2:mem:account_patch_reviews;DB_CLOSE_DELAY=-1'
+12 name (SimpleName)
+13 identifier='H2AccountPatchReviewStore'
+14 annotations
+15 annotation (MarkerAnnotationExpr)
+16 name (Name)
+17 identifier='VisibleForTesting'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+0 12
+12 13
+0 14
+14 15
+15 16
+16 17
+
+Creates an in-memory H2 database to store the reviewed flags. This should be used for tests only.

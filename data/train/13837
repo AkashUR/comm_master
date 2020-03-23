@@ -1,0 +1,1278 @@
+638
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setLayout'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='pubPanel'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='BorderLayout'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='topic'
+21 value (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='JComboBox'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='setEditable'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='topic'
+32 arguments
+33 argument (BooleanLiteralExpr)
+34 value='true'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='setMaximumSize'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='topic'
+42 arguments
+43 argument (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='TEXT_FIELD_DIMENSION'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='MQTTFrame'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='setMaximumRowCount'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='topic'
+56 arguments
+57 argument (IntegerLiteralExpr)
+58 value='5'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='qosList'
+65 value (ObjectCreationExpr)
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='JComboBox'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='qos'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='setSelectedIndex'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='qosList'
+80 arguments
+81 argument (IntegerLiteralExpr)
+82 value='0'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='setMaximumSize'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='qosList'
+90 arguments
+91 argument (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='DROP_DOWN_DIMENSION'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='MQTTFrame'
+97 statement (ExpressionStmt)
+98 expression (AssignExpr)
+99 operator='ASSIGN'
+100 target (NameExpr)
+101 name (SimpleName)
+102 identifier='pubData'
+103 value (ObjectCreationExpr)
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='JTextArea'
+107 arguments
+108 argument (IntegerLiteralExpr)
+109 value='3'
+110 argument (IntegerLiteralExpr)
+111 value='30'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='setBorder'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='pubData'
+119 arguments
+120 argument (ObjectCreationExpr)
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='BevelBorder'
+124 arguments
+125 argument (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='LOWERED'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='BevelBorder'
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='setMargin'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='pubData'
+138 arguments
+139 argument (FieldAccessExpr)
+140 name (SimpleName)
+141 identifier='TEXT_MARGINS'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='MQTTFrame'
+145 statement (ExpressionStmt)
+146 expression (AssignExpr)
+147 operator='ASSIGN'
+148 target (NameExpr)
+149 name (SimpleName)
+150 identifier='retained'
+151 value (ObjectCreationExpr)
+152 type (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='JCheckBox'
+155 statement (ExpressionStmt)
+156 expression (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='setSelected'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='retained'
+162 arguments
+163 argument (BooleanLiteralExpr)
+164 value='false'
+165 statement (ExpressionStmt)
+166 expression (AssignExpr)
+167 operator='ASSIGN'
+168 target (NameExpr)
+169 name (SimpleName)
+170 identifier='pubLabel'
+171 value (ObjectCreationExpr)
+172 type (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='JLabel'
+175 arguments
+176 argument (BinaryExpr)
+177 operator='PLUS'
+178 left (NameExpr)
+179 name (SimpleName)
+180 identifier='PANEL_TITLE'
+181 right (StringLiteralExpr)
+182 value=' - text display'
+183 statement (ExpressionStmt)
+184 expression (VariableDeclarationExpr)
+185 variables
+186 variable (VariableDeclarator)
+187 initializer (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='getFont'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='pubLabel'
+193 name (SimpleName)
+194 identifier='f'
+195 type (ClassOrInterfaceType)
+196 name (SimpleName)
+197 identifier='Font'
+198 statement (ExpressionStmt)
+199 expression (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='setFont'
+202 scope (NameExpr)
+203 name (SimpleName)
+204 identifier='pubLabel'
+205 arguments
+206 argument (ObjectCreationExpr)
+207 type (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='Font'
+210 arguments
+211 argument (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='getName'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='f'
+217 argument (FieldAccessExpr)
+218 name (SimpleName)
+219 identifier='BOLD'
+220 scope (NameExpr)
+221 name (SimpleName)
+222 identifier='Font'
+223 argument (BinaryExpr)
+224 operator='PLUS'
+225 left (MethodCallExpr)
+226 name (SimpleName)
+227 identifier='getSize'
+228 scope (NameExpr)
+229 name (SimpleName)
+230 identifier='f'
+231 right (IntegerLiteralExpr)
+232 value='1'
+233 statement (ExpressionStmt)
+234 expression (VariableDeclarationExpr)
+235 variables
+236 variable (VariableDeclarator)
+237 initializer (ObjectCreationExpr)
+238 type (ClassOrInterfaceType)
+239 name (SimpleName)
+240 identifier='JPanel'
+241 name (SimpleName)
+242 identifier='topicBox'
+243 type (ClassOrInterfaceType)
+244 name (SimpleName)
+245 identifier='JPanel'
+246 statement (ExpressionStmt)
+247 expression (MethodCallExpr)
+248 name (SimpleName)
+249 identifier='setLayout'
+250 scope (NameExpr)
+251 name (SimpleName)
+252 identifier='topicBox'
+253 arguments
+254 argument (ObjectCreationExpr)
+255 type (ClassOrInterfaceType)
+256 name (SimpleName)
+257 identifier='BoxLayout'
+258 arguments
+259 argument (NameExpr)
+260 name (SimpleName)
+261 identifier='topicBox'
+262 argument (FieldAccessExpr)
+263 name (SimpleName)
+264 identifier='X_AXIS'
+265 scope (NameExpr)
+266 name (SimpleName)
+267 identifier='BoxLayout'
+268 statement (ExpressionStmt)
+269 expression (MethodCallExpr)
+270 name (SimpleName)
+271 identifier='add'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='topicBox'
+275 arguments
+276 argument (ObjectCreationExpr)
+277 type (ClassOrInterfaceType)
+278 name (SimpleName)
+279 identifier='JLabel'
+280 arguments
+281 argument (StringLiteralExpr)
+282 value=' Topic:'
+283 statement (ExpressionStmt)
+284 expression (MethodCallExpr)
+285 name (SimpleName)
+286 identifier='add'
+287 scope (NameExpr)
+288 name (SimpleName)
+289 identifier='topicBox'
+290 arguments
+291 argument (NameExpr)
+292 name (SimpleName)
+293 identifier='topic'
+294 statement (ExpressionStmt)
+295 expression (MethodCallExpr)
+296 name (SimpleName)
+297 identifier='add'
+298 scope (NameExpr)
+299 name (SimpleName)
+300 identifier='topicBox'
+301 arguments
+302 argument (ObjectCreationExpr)
+303 type (ClassOrInterfaceType)
+304 name (SimpleName)
+305 identifier='JLabel'
+306 arguments
+307 argument (StringLiteralExpr)
+308 value=' QoS:'
+309 statement (ExpressionStmt)
+310 expression (MethodCallExpr)
+311 name (SimpleName)
+312 identifier='add'
+313 scope (NameExpr)
+314 name (SimpleName)
+315 identifier='topicBox'
+316 arguments
+317 argument (NameExpr)
+318 name (SimpleName)
+319 identifier='qosList'
+320 statement (ExpressionStmt)
+321 expression (MethodCallExpr)
+322 name (SimpleName)
+323 identifier='add'
+324 scope (NameExpr)
+325 name (SimpleName)
+326 identifier='topicBox'
+327 arguments
+328 argument (ObjectCreationExpr)
+329 type (ClassOrInterfaceType)
+330 name (SimpleName)
+331 identifier='JLabel'
+332 arguments
+333 argument (StringLiteralExpr)
+334 value=' Retained:'
+335 statement (ExpressionStmt)
+336 expression (MethodCallExpr)
+337 name (SimpleName)
+338 identifier='add'
+339 scope (NameExpr)
+340 name (SimpleName)
+341 identifier='topicBox'
+342 arguments
+343 argument (NameExpr)
+344 name (SimpleName)
+345 identifier='retained'
+346 statement (ExpressionStmt)
+347 expression (VariableDeclarationExpr)
+348 variables
+349 variable (VariableDeclarator)
+350 initializer (ObjectCreationExpr)
+351 type (ClassOrInterfaceType)
+352 name (SimpleName)
+353 identifier='JPanel'
+354 name (SimpleName)
+355 identifier='titleAndTopic'
+356 type (ClassOrInterfaceType)
+357 name (SimpleName)
+358 identifier='JPanel'
+359 statement (ExpressionStmt)
+360 expression (MethodCallExpr)
+361 name (SimpleName)
+362 identifier='setLayout'
+363 scope (NameExpr)
+364 name (SimpleName)
+365 identifier='titleAndTopic'
+366 arguments
+367 argument (ObjectCreationExpr)
+368 type (ClassOrInterfaceType)
+369 name (SimpleName)
+370 identifier='GridLayout'
+371 arguments
+372 argument (IntegerLiteralExpr)
+373 value='2'
+374 argument (IntegerLiteralExpr)
+375 value='1'
+376 statement (ExpressionStmt)
+377 expression (MethodCallExpr)
+378 name (SimpleName)
+379 identifier='add'
+380 scope (NameExpr)
+381 name (SimpleName)
+382 identifier='titleAndTopic'
+383 arguments
+384 argument (NameExpr)
+385 name (SimpleName)
+386 identifier='pubLabel'
+387 statement (ExpressionStmt)
+388 expression (MethodCallExpr)
+389 name (SimpleName)
+390 identifier='add'
+391 scope (NameExpr)
+392 name (SimpleName)
+393 identifier='titleAndTopic'
+394 arguments
+395 argument (NameExpr)
+396 name (SimpleName)
+397 identifier='topicBox'
+398 statement (ExpressionStmt)
+399 expression (AssignExpr)
+400 operator='ASSIGN'
+401 target (NameExpr)
+402 name (SimpleName)
+403 identifier='hexDisplay'
+404 value (BooleanLiteralExpr)
+405 value='false'
+406 statement (ExpressionStmt)
+407 expression (AssignExpr)
+408 operator='ASSIGN'
+409 target (NameExpr)
+410 name (SimpleName)
+411 identifier='hexButton'
+412 value (ObjectCreationExpr)
+413 type (ClassOrInterfaceType)
+414 name (SimpleName)
+415 identifier='JButton'
+416 arguments
+417 argument (StringLiteralExpr)
+418 value='Hex'
+419 statement (ExpressionStmt)
+420 expression (MethodCallExpr)
+421 name (SimpleName)
+422 identifier='addActionListener'
+423 scope (NameExpr)
+424 name (SimpleName)
+425 identifier='hexButton'
+426 arguments
+427 argument (ThisExpr)
+428 statement (ExpressionStmt)
+429 expression (AssignExpr)
+430 operator='ASSIGN'
+431 target (NameExpr)
+432 name (SimpleName)
+433 identifier='fileButton'
+434 value (ObjectCreationExpr)
+435 type (ClassOrInterfaceType)
+436 name (SimpleName)
+437 identifier='JButton'
+438 arguments
+439 argument (StringLiteralExpr)
+440 value='File...'
+441 statement (ExpressionStmt)
+442 expression (MethodCallExpr)
+443 name (SimpleName)
+444 identifier='setEnabled'
+445 scope (NameExpr)
+446 name (SimpleName)
+447 identifier='fileButton'
+448 arguments
+449 argument (BooleanLiteralExpr)
+450 value='true'
+451 statement (ExpressionStmt)
+452 expression (MethodCallExpr)
+453 name (SimpleName)
+454 identifier='addActionListener'
+455 scope (NameExpr)
+456 name (SimpleName)
+457 identifier='fileButton'
+458 arguments
+459 argument (ThisExpr)
+460 statement (ExpressionStmt)
+461 expression (AssignExpr)
+462 operator='ASSIGN'
+463 target (NameExpr)
+464 name (SimpleName)
+465 identifier='pubButton'
+466 value (ObjectCreationExpr)
+467 type (ClassOrInterfaceType)
+468 name (SimpleName)
+469 identifier='JButton'
+470 arguments
+471 argument (StringLiteralExpr)
+472 value='Publish'
+473 statement (ExpressionStmt)
+474 expression (MethodCallExpr)
+475 name (SimpleName)
+476 identifier='setEnabled'
+477 scope (NameExpr)
+478 name (SimpleName)
+479 identifier='pubButton'
+480 arguments
+481 argument (BooleanLiteralExpr)
+482 value='false'
+483 statement (ExpressionStmt)
+484 expression (MethodCallExpr)
+485 name (SimpleName)
+486 identifier='addActionListener'
+487 scope (NameExpr)
+488 name (SimpleName)
+489 identifier='pubButton'
+490 arguments
+491 argument (ThisExpr)
+492 statement (ExpressionStmt)
+493 expression (VariableDeclarationExpr)
+494 variables
+495 variable (VariableDeclarator)
+496 initializer (ObjectCreationExpr)
+497 type (ClassOrInterfaceType)
+498 name (SimpleName)
+499 identifier='JPanel'
+500 name (SimpleName)
+501 identifier='buttons'
+502 type (ClassOrInterfaceType)
+503 name (SimpleName)
+504 identifier='JPanel'
+505 statement (ExpressionStmt)
+506 expression (MethodCallExpr)
+507 name (SimpleName)
+508 identifier='setLayout'
+509 scope (NameExpr)
+510 name (SimpleName)
+511 identifier='buttons'
+512 arguments
+513 argument (ObjectCreationExpr)
+514 type (ClassOrInterfaceType)
+515 name (SimpleName)
+516 identifier='GridLayout'
+517 arguments
+518 argument (IntegerLiteralExpr)
+519 value='3'
+520 argument (IntegerLiteralExpr)
+521 value='1'
+522 statement (ExpressionStmt)
+523 expression (MethodCallExpr)
+524 name (SimpleName)
+525 identifier='add'
+526 scope (NameExpr)
+527 name (SimpleName)
+528 identifier='buttons'
+529 arguments
+530 argument (NameExpr)
+531 name (SimpleName)
+532 identifier='pubButton'
+533 statement (ExpressionStmt)
+534 expression (MethodCallExpr)
+535 name (SimpleName)
+536 identifier='add'
+537 scope (NameExpr)
+538 name (SimpleName)
+539 identifier='buttons'
+540 arguments
+541 argument (NameExpr)
+542 name (SimpleName)
+543 identifier='fileButton'
+544 statement (ExpressionStmt)
+545 expression (MethodCallExpr)
+546 name (SimpleName)
+547 identifier='add'
+548 scope (NameExpr)
+549 name (SimpleName)
+550 identifier='buttons'
+551 arguments
+552 argument (NameExpr)
+553 name (SimpleName)
+554 identifier='hexButton'
+555 statement (ExpressionStmt)
+556 expression (VariableDeclarationExpr)
+557 variables
+558 variable (VariableDeclarator)
+559 initializer (ObjectCreationExpr)
+560 type (ClassOrInterfaceType)
+561 name (SimpleName)
+562 identifier='JPanel'
+563 name (SimpleName)
+564 identifier='buttonLayout'
+565 type (ClassOrInterfaceType)
+566 name (SimpleName)
+567 identifier='JPanel'
+568 statement (ExpressionStmt)
+569 expression (MethodCallExpr)
+570 name (SimpleName)
+571 identifier='add'
+572 scope (NameExpr)
+573 name (SimpleName)
+574 identifier='buttonLayout'
+575 arguments
+576 argument (NameExpr)
+577 name (SimpleName)
+578 identifier='buttons'
+579 statement (ExpressionStmt)
+580 expression (MethodCallExpr)
+581 name (SimpleName)
+582 identifier='add'
+583 scope (NameExpr)
+584 name (SimpleName)
+585 identifier='pubPanel'
+586 arguments
+587 argument (NameExpr)
+588 name (SimpleName)
+589 identifier='titleAndTopic'
+590 argument (FieldAccessExpr)
+591 name (SimpleName)
+592 identifier='NORTH'
+593 scope (NameExpr)
+594 name (SimpleName)
+595 identifier='BorderLayout'
+596 statement (ExpressionStmt)
+597 expression (MethodCallExpr)
+598 name (SimpleName)
+599 identifier='add'
+600 scope (NameExpr)
+601 name (SimpleName)
+602 identifier='pubPanel'
+603 arguments
+604 argument (ObjectCreationExpr)
+605 type (ClassOrInterfaceType)
+606 name (SimpleName)
+607 identifier='JScrollPane'
+608 arguments
+609 argument (NameExpr)
+610 name (SimpleName)
+611 identifier='pubData'
+612 argument (FieldAccessExpr)
+613 name (SimpleName)
+614 identifier='CENTER'
+615 scope (NameExpr)
+616 name (SimpleName)
+617 identifier='BorderLayout'
+618 statement (ExpressionStmt)
+619 expression (MethodCallExpr)
+620 name (SimpleName)
+621 identifier='add'
+622 scope (NameExpr)
+623 name (SimpleName)
+624 identifier='pubPanel'
+625 arguments
+626 argument (NameExpr)
+627 name (SimpleName)
+628 identifier='buttonLayout'
+629 argument (FieldAccessExpr)
+630 name (SimpleName)
+631 identifier='EAST'
+632 scope (NameExpr)
+633 name (SimpleName)
+634 identifier='BorderLayout'
+635 type (VoidType)
+636 name (SimpleName)
+637 identifier='init'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+98 100
+100 101
+101 102
+98 103
+103 104
+104 105
+105 106
+103 107
+107 108
+108 109
+107 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+122 123
+120 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+2 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+132 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+2 145
+145 146
+146 147
+146 148
+148 149
+149 150
+146 151
+151 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+156 162
+162 163
+163 164
+2 165
+165 166
+166 167
+166 168
+168 169
+169 170
+166 171
+171 172
+172 173
+173 174
+171 175
+175 176
+176 177
+176 178
+178 179
+179 180
+176 181
+181 182
+2 183
+183 184
+184 185
+185 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+186 193
+193 194
+186 195
+195 196
+196 197
+2 198
+198 199
+199 200
+200 201
+199 202
+202 203
+203 204
+199 205
+205 206
+206 207
+207 208
+208 209
+206 210
+210 211
+211 212
+212 213
+211 214
+214 215
+215 216
+210 217
+217 218
+218 219
+217 220
+220 221
+221 222
+210 223
+223 224
+223 225
+225 226
+226 227
+225 228
+228 229
+229 230
+223 231
+231 232
+2 233
+233 234
+234 235
+235 236
+236 237
+237 238
+238 239
+239 240
+236 241
+241 242
+236 243
+243 244
+244 245
+2 246
+246 247
+247 248
+248 249
+247 250
+250 251
+251 252
+247 253
+253 254
+254 255
+255 256
+256 257
+254 258
+258 259
+259 260
+260 261
+258 262
+262 263
+263 264
+262 265
+265 266
+266 267
+2 268
+268 269
+269 270
+270 271
+269 272
+272 273
+273 274
+269 275
+275 276
+276 277
+277 278
+278 279
+276 280
+280 281
+281 282
+2 283
+283 284
+284 285
+285 286
+284 287
+287 288
+288 289
+284 290
+290 291
+291 292
+292 293
+2 294
+294 295
+295 296
+296 297
+295 298
+298 299
+299 300
+295 301
+301 302
+302 303
+303 304
+304 305
+302 306
+306 307
+307 308
+2 309
+309 310
+310 311
+311 312
+310 313
+313 314
+314 315
+310 316
+316 317
+317 318
+318 319
+2 320
+320 321
+321 322
+322 323
+321 324
+324 325
+325 326
+321 327
+327 328
+328 329
+329 330
+330 331
+328 332
+332 333
+333 334
+2 335
+335 336
+336 337
+337 338
+336 339
+339 340
+340 341
+336 342
+342 343
+343 344
+344 345
+2 346
+346 347
+347 348
+348 349
+349 350
+350 351
+351 352
+352 353
+349 354
+354 355
+349 356
+356 357
+357 358
+2 359
+359 360
+360 361
+361 362
+360 363
+363 364
+364 365
+360 366
+366 367
+367 368
+368 369
+369 370
+367 371
+371 372
+372 373
+371 374
+374 375
+2 376
+376 377
+377 378
+378 379
+377 380
+380 381
+381 382
+377 383
+383 384
+384 385
+385 386
+2 387
+387 388
+388 389
+389 390
+388 391
+391 392
+392 393
+388 394
+394 395
+395 396
+396 397
+2 398
+398 399
+399 400
+399 401
+401 402
+402 403
+399 404
+404 405
+2 406
+406 407
+407 408
+407 409
+409 410
+410 411
+407 412
+412 413
+413 414
+414 415
+412 416
+416 417
+417 418
+2 419
+419 420
+420 421
+421 422
+420 423
+423 424
+424 425
+420 426
+426 427
+2 428
+428 429
+429 430
+429 431
+431 432
+432 433
+429 434
+434 435
+435 436
+436 437
+434 438
+438 439
+439 440
+2 441
+441 442
+442 443
+443 444
+442 445
+445 446
+446 447
+442 448
+448 449
+449 450
+2 451
+451 452
+452 453
+453 454
+452 455
+455 456
+456 457
+452 458
+458 459
+2 460
+460 461
+461 462
+461 463
+463 464
+464 465
+461 466
+466 467
+467 468
+468 469
+466 470
+470 471
+471 472
+2 473
+473 474
+474 475
+475 476
+474 477
+477 478
+478 479
+474 480
+480 481
+481 482
+2 483
+483 484
+484 485
+485 486
+484 487
+487 488
+488 489
+484 490
+490 491
+2 492
+492 493
+493 494
+494 495
+495 496
+496 497
+497 498
+498 499
+495 500
+500 501
+495 502
+502 503
+503 504
+2 505
+505 506
+506 507
+507 508
+506 509
+509 510
+510 511
+506 512
+512 513
+513 514
+514 515
+515 516
+513 517
+517 518
+518 519
+517 520
+520 521
+2 522
+522 523
+523 524
+524 525
+523 526
+526 527
+527 528
+523 529
+529 530
+530 531
+531 532
+2 533
+533 534
+534 535
+535 536
+534 537
+537 538
+538 539
+534 540
+540 541
+541 542
+542 543
+2 544
+544 545
+545 546
+546 547
+545 548
+548 549
+549 550
+545 551
+551 552
+552 553
+553 554
+2 555
+555 556
+556 557
+557 558
+558 559
+559 560
+560 561
+561 562
+558 563
+563 564
+558 565
+565 566
+566 567
+2 568
+568 569
+569 570
+570 571
+569 572
+572 573
+573 574
+569 575
+575 576
+576 577
+577 578
+2 579
+579 580
+580 581
+581 582
+580 583
+583 584
+584 585
+580 586
+586 587
+587 588
+588 589
+586 590
+590 591
+591 592
+590 593
+593 594
+594 595
+2 596
+596 597
+597 598
+598 599
+597 600
+600 601
+601 602
+597 603
+603 604
+604 605
+605 606
+606 607
+604 608
+608 609
+609 610
+610 611
+603 612
+612 613
+613 614
+612 615
+615 616
+616 617
+2 618
+618 619
+619 620
+620 621
+619 622
+622 623
+623 624
+619 625
+625 626
+626 627
+627 628
+625 629
+629 630
+630 631
+629 632
+632 633
+633 634
+0 635
+0 636
+636 637
+
+The init method builds all the required components and adds them to the publication panel. Different layout managers are used throughout to ensure that the components resize correctly as the window resizes.

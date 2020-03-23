@@ -1,0 +1,86 @@
+42
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addStateValueAsString'
+7 arguments
+8 argument (NullLiteralExpr)
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='name'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='value'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='escapeValue'
+18 type (VoidType)
+19 name (SimpleName)
+20 identifier='addStateValueAsString'
+21 parameters
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='name'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='String'
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='value'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='String'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='escapeValue'
+40 type (PrimitiveType)
+41 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+13 14
+7 15
+15 16
+16 17
+0 18
+0 19
+19 20
+0 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+21 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+21 36
+36 37
+36 38
+38 39
+36 40
+40 41
+
+Adds a new StateObject with the specified <code>name</code> and String <code>value</code>. The new StateObject is placed beneath the document root. If a StateObject with this name already exists, a new one is still created. If <code>escapeValue</code> is true, the text in <code>value</code> is escaped in a CDATA section. Otherwise, no special processing is performed on <code>value</code>. Once <code>value</code> has been escaped and added, it can be extracted exactly like any other String value.

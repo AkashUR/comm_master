@@ -1,0 +1,26 @@
+12
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='notifyObservers'
+7 arguments
+8 argument (NullLiteralExpr)
+9 type (VoidType)
+10 name (SimpleName)
+11 identifier='notifyObservers'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+0 9
+0 10
+10 11
+
+If this object has changed, as indicated by the <code>hasChanged</code> method, then notify all of its observers and then call the <code>clearChanged</code> method to indicate that this object has no longer changed. <p> Each observer has its <code>update</code> method called with two arguments: this observable object and <code>null</code>. In other words, this method is equivalent to: <blockquote><tt> notifyObservers(null)</tt></blockquote>

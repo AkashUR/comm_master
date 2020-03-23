@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ConditionalExpr)
+8 condition (NameExpr)
+9 name (SimpleName)
+10 identifier='ifNotExists'
+11 elseExpr (StringLiteralExpr)
+12 value=''
+13 thenExpr (StringLiteralExpr)
+14 value='IF NOT EXISTS '
+15 name (SimpleName)
+16 identifier='constraint'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='String'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='execSQL'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='db'
+27 arguments
+28 argument (BinaryExpr)
+29 operator='PLUS'
+30 left (BinaryExpr)
+31 operator='PLUS'
+32 left (BinaryExpr)
+33 operator='PLUS'
+34 left (BinaryExpr)
+35 operator='PLUS'
+36 left (BinaryExpr)
+37 operator='PLUS'
+38 left (BinaryExpr)
+39 operator='PLUS'
+40 left (BinaryExpr)
+41 operator='PLUS'
+42 left (StringLiteralExpr)
+43 value='CREATE TABLE '
+44 right (NameExpr)
+45 name (SimpleName)
+46 identifier='constraint'
+47 right (StringLiteralExpr)
+48 value='\'USER\' ('
+49 right (StringLiteralExpr)
+50 value='\'USER_ID\' TEXT PRIMARY KEY NOT NULL ,'
+51 right (StringLiteralExpr)
+52 value='\'NAME\' TEXT,'
+53 right (StringLiteralExpr)
+54 value='\'PORTRAIT_URI\' TEXT,'
+55 right (StringLiteralExpr)
+56 value='\'TOKEN\' TEXT NOT NULL ,'
+57 right (StringLiteralExpr)
+58 value='\'IS_FIRST_LOGIN\' INTEGER);'
+59 type (VoidType)
+60 name (SimpleName)
+61 identifier='createTable'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='db'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='SQLiteDatabase'
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='ifNotExists'
+74 type (PrimitiveType)
+75 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+7 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+28 30
+30 31
+30 32
+32 33
+32 34
+34 35
+34 36
+36 37
+36 38
+38 39
+38 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+38 47
+47 48
+36 49
+49 50
+34 51
+51 52
+32 53
+53 54
+30 55
+55 56
+28 57
+57 58
+0 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+62 70
+70 71
+70 72
+72 73
+70 74
+74 75
+
+Creates the underlying database table.

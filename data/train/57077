@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='detach'
+7 scope (SuperExpr)
+8 statement (ExpressionStmt)
+9 expression (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='unbindFile'
+12 scope (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getFilesModule'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='modules'
+18 arguments
+19 argument (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getFileId'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='location'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='callback'
+28 argument (BooleanLiteralExpr)
+29 value='false'
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='detach'
+33 annotations
+34 annotation (MarkerAnnotationExpr)
+35 name (Name)
+36 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+9 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+18 25
+25 26
+26 27
+18 28
+28 29
+0 30
+0 31
+31 32
+0 33
+33 34
+34 35
+35 36
+
+Detach FileVM from Messenger. Don't use object after detaching.

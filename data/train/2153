@@ -1,0 +1,384 @@
+191
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='addressList'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='NodeList'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='testNode'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Node'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='attributes'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='NamedNodeMap'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 name (SimpleName)
+44 identifier='streetAttr'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Attr'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 name (SimpleName)
+53 identifier='name'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+57 statement (ExpressionStmt)
+58 expression (AssignExpr)
+59 operator='ASSIGN'
+60 target (NameExpr)
+61 name (SimpleName)
+62 identifier='doc'
+63 value (CastExpr)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='load'
+67 arguments
+68 argument (StringLiteralExpr)
+69 value='staff'
+70 argument (BooleanLiteralExpr)
+71 value='false'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Document'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='ASSIGN'
+78 target (NameExpr)
+79 name (SimpleName)
+80 identifier='addressList'
+81 value (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getElementsByTagName'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='doc'
+87 arguments
+88 argument (StringLiteralExpr)
+89 value='address'
+90 statement (ExpressionStmt)
+91 expression (AssignExpr)
+92 operator='ASSIGN'
+93 target (NameExpr)
+94 name (SimpleName)
+95 identifier='testNode'
+96 value (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='item'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='addressList'
+102 arguments
+103 argument (IntegerLiteralExpr)
+104 value='1'
+105 statement (ExpressionStmt)
+106 expression (AssignExpr)
+107 operator='ASSIGN'
+108 target (NameExpr)
+109 name (SimpleName)
+110 identifier='attributes'
+111 value (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='getAttributes'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='testNode'
+117 statement (ExpressionStmt)
+118 expression (AssignExpr)
+119 operator='ASSIGN'
+120 target (NameExpr)
+121 name (SimpleName)
+122 identifier='streetAttr'
+123 value (CastExpr)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='getNamedItem'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='attributes'
+130 arguments
+131 argument (StringLiteralExpr)
+132 value='street'
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='Attr'
+136 statement (ExpressionStmt)
+137 expression (AssignExpr)
+138 operator='ASSIGN'
+139 target (NameExpr)
+140 name (SimpleName)
+141 identifier='name'
+142 value (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='getNodeName'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='streetAttr'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='assertEquals'
+152 arguments
+153 argument (StringLiteralExpr)
+154 value='nodeName'
+155 argument (StringLiteralExpr)
+156 value='street'
+157 argument (NameExpr)
+158 name (SimpleName)
+159 identifier='name'
+160 statement (ExpressionStmt)
+161 expression (AssignExpr)
+162 operator='ASSIGN'
+163 target (NameExpr)
+164 name (SimpleName)
+165 identifier='name'
+166 value (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='getName'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='streetAttr'
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='assertEquals'
+176 arguments
+177 argument (StringLiteralExpr)
+178 value='name'
+179 argument (StringLiteralExpr)
+180 value='street'
+181 argument (NameExpr)
+182 name (SimpleName)
+183 identifier='name'
+184 type (VoidType)
+185 name (SimpleName)
+186 identifier='runTest'
+187 thrownExceptions
+188 thrownException (ClassOrInterfaceType)
+189 name (SimpleName)
+190 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+2 57
+57 58
+58 59
+58 60
+60 61
+61 62
+58 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+63 72
+72 73
+73 74
+2 75
+75 76
+76 77
+76 78
+78 79
+79 80
+76 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+2 90
+90 91
+91 92
+91 93
+93 94
+94 95
+91 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+2 105
+105 106
+106 107
+106 108
+108 109
+109 110
+106 111
+111 112
+112 113
+111 114
+114 115
+115 116
+2 117
+117 118
+118 119
+118 120
+120 121
+121 122
+118 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+124 130
+130 131
+131 132
+123 133
+133 134
+134 135
+2 136
+136 137
+137 138
+137 139
+139 140
+140 141
+137 142
+142 143
+143 144
+142 145
+145 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+152 155
+155 156
+152 157
+157 158
+158 159
+2 160
+160 161
+161 162
+161 163
+163 164
+164 165
+161 166
+166 167
+167 168
+166 169
+169 170
+170 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+176 179
+179 180
+176 181
+181 182
+182 183
+0 184
+0 185
+185 186
+0 187
+187 188
+188 189
+189 190
+
+Runs the test case.

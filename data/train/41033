@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Notification'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='CLIENT_JOINED'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='JMXNotificationType'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='serverSource'
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='next'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='SequenceNumber'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='currentTimeMillis'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='System'
+33 argument (BinaryExpr)
+34 operator='PLUS'
+35 left (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='CLIENT_JOINED_PREFIX'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='ManagementConstants'
+41 right (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getMemberId'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='event'
+47 name (SimpleName)
+48 identifier='notification'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Notification'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='sendNotification'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='serverLevelNotifEmitter'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='notification'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='sendNotification'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='memberLevelNotifEmitter'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='notification'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='memberJoined'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='event'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='ClientMembershipEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+11 18
+18 19
+19 20
+11 21
+21 22
+22 23
+21 24
+24 25
+25 26
+11 27
+27 28
+28 29
+27 30
+30 31
+31 32
+11 33
+33 34
+33 35
+35 36
+36 37
+35 38
+38 39
+39 40
+33 41
+41 42
+42 43
+41 44
+44 45
+45 46
+6 47
+47 48
+6 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+
+Invoked when a client has connected to this process or when this process has connected to a CacheServer.

@@ -1,0 +1,314 @@
+156
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='Response Data'
+9 name (SimpleName)
+10 identifier='resdata'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='buildPartial'
+21 scope (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='newBuilder'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='Request'
+27 name (SimpleName)
+28 identifier='request'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Request'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='build'
+39 scope (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='setStrData'
+42 scope (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='newBuilder'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='Response'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='resdata'
+52 name (SimpleName)
+53 identifier='response'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Response'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='withResponseProto'
+64 scope (ObjectCreationExpr)
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='FakeSocket'
+68 arguments
+69 argument (BooleanLiteralExpr)
+70 value='false'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='response'
+75 name (SimpleName)
+76 identifier='socket'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='FakeSocket'
+80 statement (ExpressionStmt)
+81 expression (VariableDeclarationExpr)
+82 variables
+83 variable (VariableDeclarator)
+84 initializer (ObjectCreationExpr)
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='SocketRpcChannel'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='host'
+91 argument (UnaryExpr)
+92 operator='MINUS'
+93 expression (IntegerLiteralExpr)
+94 value='1'
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='returnsSocket'
+98 scope (ObjectCreationExpr)
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='FakeSocketFactory'
+102 arguments
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='socket'
+106 name (SimpleName)
+107 identifier='rpcChannel'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='SocketRpcChannel'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='callAsync'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='rpcChannel'
+119 argument (NameExpr)
+120 name (SimpleName)
+121 identifier='request'
+122 argument (FieldAccessExpr)
+123 name (SimpleName)
+124 identifier='INVALID_REQUEST_PROTO'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='ErrorReason'
+128 statement (ExpressionStmt)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='assertNull'
+132 arguments
+133 argument (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='callSync'
+136 arguments
+137 argument (NameExpr)
+138 name (SimpleName)
+139 identifier='rpcChannel'
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='request'
+143 argument (FieldAccessExpr)
+144 name (SimpleName)
+145 identifier='INVALID_REQUEST_PROTO'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='ErrorReason'
+149 type (VoidType)
+150 name (SimpleName)
+151 identifier='testIncompleteRequest'
+152 thrownExceptions
+153 thrownException (ClassOrInterfaceType)
+154 name (SimpleName)
+155 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+17 27
+27 28
+17 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+39 48
+48 49
+49 50
+50 51
+35 52
+52 53
+35 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+61 71
+71 72
+72 73
+73 74
+60 75
+75 76
+60 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+88 91
+91 92
+91 93
+93 94
+88 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+95 102
+102 103
+103 104
+104 105
+83 106
+106 107
+83 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+117 118
+115 119
+119 120
+120 121
+115 122
+122 123
+123 124
+122 125
+125 126
+126 127
+2 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+138 139
+136 140
+140 141
+141 142
+136 143
+143 144
+144 145
+143 146
+146 147
+147 148
+0 149
+0 150
+150 151
+0 152
+152 153
+153 154
+154 155
+
+Rpc called with incomplete request proto

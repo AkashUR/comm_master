@@ -1,0 +1,254 @@
+126
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setTo'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='message'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='room'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='MUCUser'
+22 name (SimpleName)
+23 identifier='mucUser'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='MUCUser'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='Invite'
+35 scope (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='MUCUser'
+38 name (SimpleName)
+39 identifier='invite'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Invite'
+43 scope (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='MUCUser'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setTo'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='invite'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='user'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='setReason'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='invite'
+64 arguments
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='reason'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='setInvite'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='mucUser'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='invite'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='addExtension'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='message'
+86 arguments
+87 argument (NameExpr)
+88 name (SimpleName)
+89 identifier='mucUser'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='sendPacket'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='connection'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='message'
+101 type (VoidType)
+102 name (SimpleName)
+103 identifier='invite'
+104 parameters
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='message'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='Message'
+112 parameter (Parameter)
+113 isVarArgs='false'
+114 name (SimpleName)
+115 identifier='user'
+116 type (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='String'
+119 parameter (Parameter)
+120 isVarArgs='false'
+121 name (SimpleName)
+122 identifier='reason'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+17 22
+22 23
+17 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+30 38
+38 39
+30 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+58 64
+64 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+0 101
+0 102
+102 103
+0 104
+104 105
+105 106
+105 107
+107 108
+105 109
+109 110
+110 111
+104 112
+112 113
+112 114
+114 115
+112 116
+116 117
+117 118
+104 119
+119 120
+119 121
+121 122
+119 123
+123 124
+124 125
+
+Invites another user to the room in which one is an occupant using a given Message. The invitation will be sent to the room which in turn will forward the invitation to the invitee.<p> If the room is password-protected, the invitee will receive a password to use to join the room. If the room is members-only, the the invitee may be added to the member list.

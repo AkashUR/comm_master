@@ -1,0 +1,308 @@
+153
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='viewGraph'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='buildGraphView'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='viewInfo'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='updateExposedGraph'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (NameExpr)
+23 name (SimpleName)
+24 identifier='hierarchies'
+25 value (ObjectCreationExpr)
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='HierarchyCache'
+29 typeArguments
+30 typeArgument (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='NodeDisplayProperty'
+33 arguments
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getNodeDisplayPropertyProvider'
+37 argument (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getViewGraph'
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='ASSIGN'
+43 target (NameExpr)
+44 name (SimpleName)
+45 identifier='relationSetChoices'
+46 value (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='buildViewChoices'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='viewInfo'
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (NameExpr)
+57 name (SimpleName)
+58 identifier='elementKindChoices'
+59 value (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='buildViewChoices'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='ElementKindDescriptors'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='viewInfo'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (NameExpr)
+73 name (SimpleName)
+74 identifier='edgeMatcherChoices'
+75 value (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='buildViewChoices'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='GraphEdgeMatcherDescriptors'
+81 arguments
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='viewInfo'
+85 statement (ExpressionStmt)
+86 expression (VariableDeclarationExpr)
+87 variables
+88 variable (VariableDeclarator)
+89 initializer (ObjectCreationExpr)
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='ElementKindStats'
+93 arguments
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='elementKindChoices'
+97 name (SimpleName)
+98 identifier='stats'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='ElementKindStats'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='incrStats'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='stats'
+109 arguments
+110 argument (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='getViewNodes'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='viewInfo'
+116 statement (ExpressionStmt)
+117 expression (AssignExpr)
+118 operator='ASSIGN'
+119 target (NameExpr)
+120 name (SimpleName)
+121 identifier='elementKindStats'
+122 value (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='createStats'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='stats'
+128 statement (ExpressionStmt)
+129 expression (AssignExpr)
+130 operator='ASSIGN'
+131 target (NameExpr)
+132 name (SimpleName)
+133 identifier='jungGraph'
+134 value (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='buildJungGraph'
+137 statement (ExpressionStmt)
+138 expression (AssignExpr)
+139 operator='ASSIGN'
+140 target (NameExpr)
+141 name (SimpleName)
+142 identifier='ranking'
+143 value (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='rankGraph'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='jungGraph'
+150 type (VoidType)
+151 name (SimpleName)
+152 identifier='deriveDetails'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+25 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+2 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+54 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+70 75
+75 76
+76 77
+75 78
+78 79
+79 80
+75 81
+81 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+88 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+95 96
+88 97
+97 98
+88 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+103 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+2 116
+116 117
+117 118
+117 119
+119 120
+120 121
+117 122
+122 123
+123 124
+122 125
+125 126
+126 127
+2 128
+128 129
+129 130
+129 131
+131 132
+132 133
+129 134
+134 135
+135 136
+2 137
+137 138
+138 139
+138 140
+140 141
+141 142
+138 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+0 150
+0 151
+151 152
+
+Derive a number of alternative presentations and details from the newly open graph view.

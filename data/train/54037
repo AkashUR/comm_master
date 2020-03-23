@@ -1,0 +1,180 @@
+89
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='WRAP_ID'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='Krb5Token'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='context'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='is'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='prop'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='is'
+27 scope (ThisExpr)
+28 value (NameExpr)
+29 name (SimpleName)
+30 identifier='is'
+31 statement (ExpressionStmt)
+32 expression (AssignExpr)
+33 operator='ASSIGN'
+34 target (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='privacy'
+37 scope (ThisExpr)
+38 value (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getPrivacy'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='prop'
+44 statement (ExpressionStmt)
+45 expression (AssignExpr)
+46 operator='ASSIGN'
+47 target (NameExpr)
+48 name (SimpleName)
+49 identifier='dataSize'
+50 value (BinaryExpr)
+51 operator='MINUS'
+52 left (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getMechTokenLength'
+55 scope (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='getGSSHeader'
+58 right (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='getTokenSize'
+61 name (SimpleName)
+62 identifier='WrapToken'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='context'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Krb5Context'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='is'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='InputStream'
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='prop'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='MessageProp'
+85 thrownExceptions
+86 thrownException (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='GSSException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+5 12
+12 13
+13 14
+5 15
+15 16
+16 17
+5 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+24 27
+22 28
+28 29
+29 30
+2 31
+31 32
+32 33
+32 34
+34 35
+35 36
+34 37
+32 38
+38 39
+39 40
+38 41
+41 42
+42 43
+2 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+50 52
+52 53
+53 54
+52 55
+55 56
+56 57
+50 58
+58 59
+59 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+63 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+63 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+0 85
+85 86
+86 87
+87 88
+
+Constructs a WrapToken from token bytes read on the fly from an InputStream.

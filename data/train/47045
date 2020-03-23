@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkMembers'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='method_depends_on_normal_method(self)'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='assertThat'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='Assert'
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='Method dependencies failed'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getErrorMemberNames'
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='containsInAnyOrder'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='Matchers'
+29 arguments
+30 argument (StringLiteralExpr)
+31 value='normal_method(self)'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='testMethodMemberDependencies'
+35 thrownExceptions
+36 thrownException (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+37 38
+
+Checks method depends on another class field

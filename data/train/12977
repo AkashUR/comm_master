@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mController'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='onRefreshRequested'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='mController'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='SyncFailedEvent'
+25 name (SimpleName)
+26 identifier='event'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='SyncFinishedEvent'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='post'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='mFakeEventBus'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='event'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='showRefreshError'
+45 scope (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='verify'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='mMockUi'
+52 type (VoidType)
+53 name (SimpleName)
+54 identifier='testForcedSyncFailure_DisplaysSyncError'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+20 25
+25 26
+20 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+0 52
+0 53
+53 54
+
+Tests that the failure of a requested sync results in an error being displayed.

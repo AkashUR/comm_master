@@ -1,0 +1,128 @@
+63
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='name'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='threads'
+15 scope (ThisExpr)
+16 value (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getAvailableProcessors'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setExecutor'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='newFixedThreadPool'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Executors'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='threads'
+34 argument (ObjectCreationExpr)
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='NamedThreadFactory'
+38 scope (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Utils'
+41 arguments
+42 argument (BinaryExpr)
+43 operator='PLUS'
+44 left (BinaryExpr)
+45 operator='PLUS'
+46 left (StringLiteralExpr)
+47 value='ConcurrentCoapResource-'
+48 right (NameExpr)
+49 name (SimpleName)
+50 identifier='name'
+51 right (CharLiteralExpr)
+52 value='#'
+53 name (SimpleName)
+54 identifier='ConcurrentCoapResource'
+55 parameters
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='name'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='String'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+12 15
+10 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+34 41
+41 42
+42 43
+42 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+42 51
+51 52
+0 53
+53 54
+0 55
+55 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+
+Constructs a new resource that uses an executor with as many threads as there are processors available.

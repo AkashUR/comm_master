@@ -1,0 +1,82 @@
+40
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mSharedReference'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='checkNotNull'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='Preconditions'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='sharedReference'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='addReference'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='sharedReference'
+26 name (SimpleName)
+27 identifier='CloseableReference'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='sharedReference'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='SharedReference'
+36 typeArguments
+37 typeArgument (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='T'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+
+The caller should guarantee that reference count of sharedReference is not decreased to zero, so that the reference is valid during execution of this method.

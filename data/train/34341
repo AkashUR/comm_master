@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkState'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='checkTypeConcurrency'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='updateNull'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='rs'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='columnIndex'
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='updateNull'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='columnIndex'
+30 type (PrimitiveType)
+31 type='INT'
+32 thrownExceptions
+33 thrownException (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+12 18
+18 19
+19 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+0 32
+32 33
+33 34
+34 35
+
+Gives a nullable column a null value. The <code>updateXXX</code> methods are used to update column values in the current row or the insert row.  The <code>updateXXX</code> methods do not update the underlying database; instead the <code>updateRow</code> or <code>insertRow</code> methods are called to update the database.

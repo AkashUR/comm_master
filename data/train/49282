@@ -1,0 +1,278 @@
+138
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (ArrayAccessExpr)
+7 index (NameExpr)
+8 name (SimpleName)
+9 identifier='offset'
+10 name (NameExpr)
+11 name (SimpleName)
+12 identifier='dest'
+13 value (CastExpr)
+14 expression (EnclosedExpr)
+15 inner (BinaryExpr)
+16 operator='BINARY_AND'
+17 left (NameExpr)
+18 name (SimpleName)
+19 identifier='value'
+20 right (IntegerLiteralExpr)
+21 value='0x000000FF'
+22 type (PrimitiveType)
+23 type='BYTE'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (ArrayAccessExpr)
+28 index (BinaryExpr)
+29 operator='PLUS'
+30 left (NameExpr)
+31 name (SimpleName)
+32 identifier='offset'
+33 right (IntegerLiteralExpr)
+34 value='1'
+35 name (NameExpr)
+36 name (SimpleName)
+37 identifier='dest'
+38 value (CastExpr)
+39 expression (EnclosedExpr)
+40 inner (BinaryExpr)
+41 operator='SIGNED_RIGHT_SHIFT'
+42 left (EnclosedExpr)
+43 inner (BinaryExpr)
+44 operator='BINARY_AND'
+45 left (NameExpr)
+46 name (SimpleName)
+47 identifier='value'
+48 right (IntegerLiteralExpr)
+49 value='0x0000FF00'
+50 right (IntegerLiteralExpr)
+51 value='8'
+52 type (PrimitiveType)
+53 type='BYTE'
+54 statement (ExpressionStmt)
+55 expression (AssignExpr)
+56 operator='ASSIGN'
+57 target (ArrayAccessExpr)
+58 index (BinaryExpr)
+59 operator='PLUS'
+60 left (NameExpr)
+61 name (SimpleName)
+62 identifier='offset'
+63 right (IntegerLiteralExpr)
+64 value='2'
+65 name (NameExpr)
+66 name (SimpleName)
+67 identifier='dest'
+68 value (CastExpr)
+69 expression (EnclosedExpr)
+70 inner (BinaryExpr)
+71 operator='SIGNED_RIGHT_SHIFT'
+72 left (EnclosedExpr)
+73 inner (BinaryExpr)
+74 operator='BINARY_AND'
+75 left (NameExpr)
+76 name (SimpleName)
+77 identifier='value'
+78 right (IntegerLiteralExpr)
+79 value='0x00FF0000'
+80 right (IntegerLiteralExpr)
+81 value='16'
+82 type (PrimitiveType)
+83 type='BYTE'
+84 statement (ExpressionStmt)
+85 expression (AssignExpr)
+86 operator='ASSIGN'
+87 target (ArrayAccessExpr)
+88 index (BinaryExpr)
+89 operator='PLUS'
+90 left (NameExpr)
+91 name (SimpleName)
+92 identifier='offset'
+93 right (IntegerLiteralExpr)
+94 value='3'
+95 name (NameExpr)
+96 name (SimpleName)
+97 identifier='dest'
+98 value (CastExpr)
+99 expression (EnclosedExpr)
+100 inner (BinaryExpr)
+101 operator='SIGNED_RIGHT_SHIFT'
+102 left (EnclosedExpr)
+103 inner (BinaryExpr)
+104 operator='BINARY_AND'
+105 left (NameExpr)
+106 name (SimpleName)
+107 identifier='value'
+108 right (IntegerLiteralExpr)
+109 value='0xFF000000'
+110 right (IntegerLiteralExpr)
+111 value='24'
+112 type (PrimitiveType)
+113 type='BYTE'
+114 type (VoidType)
+115 name (SimpleName)
+116 identifier='swap32bitsToArray'
+117 parameters
+118 parameter (Parameter)
+119 isVarArgs='false'
+120 name (SimpleName)
+121 identifier='value'
+122 type (PrimitiveType)
+123 type='INT'
+124 parameter (Parameter)
+125 isVarArgs='false'
+126 name (SimpleName)
+127 identifier='dest'
+128 type (ArrayType)
+129 origin='TYPE'
+130 componentType (PrimitiveType)
+131 type='BYTE'
+132 parameter (Parameter)
+133 isVarArgs='false'
+134 name (SimpleName)
+135 identifier='offset'
+136 type (PrimitiveType)
+137 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+8 9
+6 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+13 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+28 30
+30 31
+31 32
+28 33
+33 34
+27 35
+35 36
+36 37
+25 38
+38 39
+39 40
+40 41
+40 42
+42 43
+43 44
+43 45
+45 46
+46 47
+43 48
+48 49
+40 50
+50 51
+38 52
+52 53
+2 54
+54 55
+55 56
+55 57
+57 58
+58 59
+58 60
+60 61
+61 62
+58 63
+63 64
+57 65
+65 66
+66 67
+55 68
+68 69
+69 70
+70 71
+70 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+70 80
+80 81
+68 82
+82 83
+2 84
+84 85
+85 86
+85 87
+87 88
+88 89
+88 90
+90 91
+91 92
+88 93
+93 94
+87 95
+95 96
+96 97
+85 98
+98 99
+99 100
+100 101
+100 102
+102 103
+103 104
+103 105
+105 106
+106 107
+103 108
+108 109
+100 110
+110 111
+98 112
+112 113
+0 114
+0 115
+115 116
+0 117
+117 118
+118 119
+118 120
+120 121
+118 122
+122 123
+117 124
+124 125
+124 126
+126 127
+124 128
+128 129
+128 130
+130 131
+117 132
+132 133
+132 134
+134 135
+132 136
+136 137
+
+Swaps an unsigned value around, and puts the result in an array that can be sent to a device.

@@ -1,0 +1,204 @@
+101
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='elems'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='ensureCapacity'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='ArrayUtils'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='elems'
+19 argument (BinaryExpr)
+20 operator='PLUS'
+21 left (NameExpr)
+22 name (SimpleName)
+23 identifier='length'
+24 right (IntegerLiteralExpr)
+25 value='1'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (ArrayAccessExpr)
+30 index (NameExpr)
+31 name (SimpleName)
+32 identifier='length'
+33 name (NameExpr)
+34 name (SimpleName)
+35 identifier='elems'
+36 value (CastExpr)
+37 expression (EnclosedExpr)
+38 inner (BinaryExpr)
+39 operator='BINARY_AND'
+40 left (EnclosedExpr)
+41 inner (BinaryExpr)
+42 operator='SIGNED_RIGHT_SHIFT'
+43 left (NameExpr)
+44 name (SimpleName)
+45 identifier='x'
+46 right (IntegerLiteralExpr)
+47 value='8'
+48 right (IntegerLiteralExpr)
+49 value='0xFF'
+50 type (PrimitiveType)
+51 type='BYTE'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (ArrayAccessExpr)
+56 index (BinaryExpr)
+57 operator='PLUS'
+58 left (NameExpr)
+59 name (SimpleName)
+60 identifier='length'
+61 right (IntegerLiteralExpr)
+62 value='1'
+63 name (NameExpr)
+64 name (SimpleName)
+65 identifier='elems'
+66 value (CastExpr)
+67 expression (EnclosedExpr)
+68 inner (BinaryExpr)
+69 operator='BINARY_AND'
+70 left (EnclosedExpr)
+71 inner (NameExpr)
+72 name (SimpleName)
+73 identifier='x'
+74 right (IntegerLiteralExpr)
+75 value='0xFF'
+76 type (PrimitiveType)
+77 type='BYTE'
+78 statement (ExpressionStmt)
+79 expression (AssignExpr)
+80 operator='ASSIGN'
+81 target (NameExpr)
+82 name (SimpleName)
+83 identifier='length'
+84 value (BinaryExpr)
+85 operator='PLUS'
+86 left (NameExpr)
+87 name (SimpleName)
+88 identifier='length'
+89 right (IntegerLiteralExpr)
+90 value='2'
+91 type (VoidType)
+92 name (SimpleName)
+93 identifier='appendChar'
+94 parameters
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='x'
+99 type (PrimitiveType)
+100 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+15 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+27 36
+36 37
+37 38
+38 39
+38 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+38 48
+48 49
+36 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+56 58
+58 59
+59 60
+56 61
+61 62
+55 63
+63 64
+64 65
+53 66
+66 67
+67 68
+68 69
+68 70
+70 71
+71 72
+72 73
+68 74
+74 75
+66 76
+76 77
+2 78
+78 79
+79 80
+79 81
+81 82
+82 83
+79 84
+84 85
+84 86
+86 87
+87 88
+84 89
+89 90
+0 91
+0 92
+92 93
+0 94
+94 95
+95 96
+95 97
+97 98
+95 99
+99 100
+
+Append a character as a two byte number.

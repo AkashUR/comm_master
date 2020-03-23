@@ -1,0 +1,84 @@
+41
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='is'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='DataInputStream'
+13 arguments
+14 argument (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='ByteArrayInputStream'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='pcap'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='readGlobalHeader'
+26 name (SimpleName)
+27 identifier='PcapByteInputStream'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='pcap'
+33 type (ArrayType)
+34 origin='TYPE'
+35 componentType (PrimitiveType)
+36 type='BYTE'
+37 thrownExceptions
+38 thrownException (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+33 35
+35 36
+0 37
+37 38
+38 39
+39 40
+
+Opens pcap file input stream.

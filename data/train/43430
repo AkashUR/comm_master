@@ -1,0 +1,118 @@
+58
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='randomAccessFile'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='RandomAccessFile'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='file'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='mode'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='readonly'
+26 value (UnaryExpr)
+27 operator='LOGICAL_COMPLEMENT'
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='contains'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='mode'
+34 arguments
+35 argument (StringLiteralExpr)
+36 value='w'
+37 name (SimpleName)
+38 identifier='LocalSageFile'
+39 parameters
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='file'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='File'
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='mode'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='String'
+54 thrownExceptions
+55 thrownException (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+26 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+0 37
+37 38
+0 39
+39 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+39 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+0 54
+54 55
+55 56
+56 57
+
+Create a local instance of <code>SageFileSource</code>. <p/> Using this implementation as <code>RandomAccessFile</code> may result in sub-par performance.

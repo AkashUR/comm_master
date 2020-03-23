@@ -1,0 +1,46 @@
+22
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='copyAnnotations'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='copyAnnotations'
+13 name (SimpleName)
+14 identifier='AnnotatedTypeCopier'
+15 parameters
+16 parameter (Parameter)
+17 isVarArgs='false'
+18 name (SimpleName)
+19 identifier='copyAnnotations'
+20 type (PrimitiveType)
+21 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+0 13
+13 14
+0 15
+15 16
+16 17
+16 18
+18 19
+16 20
+20 21
+
+Creates an AnnotatedTypeCopier that may or may not copyAnnotations By default AnnotatedTypeCopier provides two major properties in its copies: 1) Structure preservation - the exact structure of the original AnnotatedTypeMirror is preserved in the copy including all component types. 2) Annotation preservation - All of the annotations from the original AnnotatedTypeMirror and its components have been copied to the new type. If copyAnnotations is set to false, the second property, annotation preservation, is removed.  This is useful for cases in which the user may want to copy the structure of a type exactly but NOT its annotations.

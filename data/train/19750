@@ -1,0 +1,322 @@
+160
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='defaultEncoding'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='defaultEncoding'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='BOMInputStream'
+21 arguments
+22 argument (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='BufferedInputStream'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='is'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='BUFFER_SIZE'
+33 argument (BooleanLiteralExpr)
+34 value='false'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='BOMS'
+38 name (SimpleName)
+39 identifier='bom'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='BOMInputStream'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (ObjectCreationExpr)
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='BOMInputStream'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='bom'
+55 argument (BooleanLiteralExpr)
+56 value='true'
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='XML_GUESS_BYTES'
+60 name (SimpleName)
+61 identifier='pis'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='BOMInputStream'
+65 statement (ExpressionStmt)
+66 expression (AssignExpr)
+67 operator='ASSIGN'
+68 target (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='encoding'
+71 scope (ThisExpr)
+72 value (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='doRawStream'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='bom'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='pis'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='lenient'
+85 statement (ExpressionStmt)
+86 expression (AssignExpr)
+87 operator='ASSIGN'
+88 target (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='reader'
+91 scope (ThisExpr)
+92 value (ObjectCreationExpr)
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='InputStreamReader'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='pis'
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='encoding'
+103 name (SimpleName)
+104 identifier='XmlStreamReader'
+105 parameters
+106 parameter (Parameter)
+107 isVarArgs='false'
+108 name (SimpleName)
+109 identifier='is'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='InputStream'
+113 parameter (Parameter)
+114 isVarArgs='false'
+115 name (SimpleName)
+116 identifier='lenient'
+117 type (PrimitiveType)
+118 type='BOOLEAN'
+119 parameter (Parameter)
+120 isVarArgs='false'
+121 name (SimpleName)
+122 identifier='defaultEncoding'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='String'
+126 thrownExceptions
+127 thrownException (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='IOException'
+130 annotations
+131 annotation (NormalAnnotationExpr)
+132 name (Name)
+133 identifier='DSGenerator'
+134 pairs
+135 pair (MemberValuePair)
+136 name (SimpleName)
+137 identifier='tool_name'
+138 value (StringLiteralExpr)
+139 value='Doppelganger'
+140 pair (MemberValuePair)
+141 name (SimpleName)
+142 identifier='tool_version'
+143 value (StringLiteralExpr)
+144 value='2.0'
+145 pair (MemberValuePair)
+146 name (SimpleName)
+147 identifier='generated_on'
+148 value (StringLiteralExpr)
+149 value='2014-09-03 14:59:53.178 -0400'
+150 pair (MemberValuePair)
+151 name (SimpleName)
+152 identifier='hash_original_method'
+153 value (StringLiteralExpr)
+154 value='5C48388612DBB8741549449AC63D1729'
+155 pair (MemberValuePair)
+156 name (SimpleName)
+157 identifier='hash_generated_method'
+158 value (StringLiteralExpr)
+159 value='91B7CC3233998FC6E1FD77B51E745BDC'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+21 33
+33 34
+21 35
+35 36
+36 37
+16 38
+38 39
+16 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+53 54
+51 55
+55 56
+51 57
+57 58
+58 59
+46 60
+60 61
+46 62
+62 63
+63 64
+2 65
+65 66
+66 67
+66 68
+68 69
+69 70
+68 71
+66 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+75 82
+82 83
+83 84
+2 85
+85 86
+86 87
+86 88
+88 89
+89 90
+88 91
+86 92
+92 93
+93 94
+94 95
+92 96
+96 97
+97 98
+98 99
+96 100
+100 101
+101 102
+0 103
+103 104
+0 105
+105 106
+106 107
+106 108
+108 109
+106 110
+110 111
+111 112
+105 113
+113 114
+113 115
+115 116
+113 117
+117 118
+105 119
+119 120
+119 121
+121 122
+119 123
+123 124
+124 125
+0 126
+126 127
+127 128
+128 129
+0 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+136 137
+135 138
+138 139
+134 140
+140 141
+141 142
+140 143
+143 144
+134 145
+145 146
+146 147
+145 148
+148 149
+134 150
+150 151
+151 152
+150 153
+153 154
+134 155
+155 156
+156 157
+155 158
+158 159
+
+Creates a Reader for a raw InputStream. <p> It follows the same logic used for files. <p> If lenient detection is indicated and the detection above fails as per specifications it then attempts the following: <p> If the content type was 'text/html' it replaces it with 'text/xml' and tries the detection again. <p> Else if the XML prolog had a charset encoding that encoding is used. <p> Else if the content type had a charset encoding that encoding is used. <p> Else 'UTF-8' is used. <p> If lenient detection is indicated an XmlStreamReaderException is never thrown.

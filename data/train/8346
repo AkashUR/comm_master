@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='finalize'
+0 1
+0 2
+0 3
+3 4
+
+Graphics has a finalize method that automatically calls dispose() for subclasses.  For SunGraphics2D we do not need to be finalized so that method simply causes us to be enqueued on the Finalizer queues for no good reason.  Unfortunately, that method and implementation are now considered part of the public contract of that base class so we can not remove or gut the method. We override it here with an empty method and the VM is smart enough to know that if our override is empty then it should not mark us as finalizeable.

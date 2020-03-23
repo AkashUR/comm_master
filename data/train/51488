@@ -1,0 +1,170 @@
+84
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='FileInputStream'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='pFileName'
+15 name (SimpleName)
+16 identifier='inFile'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='InputStream'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='mInputReader'
+26 value (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='LineNumberReader'
+30 arguments
+31 argument (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='InputStreamReader'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='inFile'
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='UTF_8'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='StandardCharsets'
+45 statement (ExpressionStmt)
+46 expression (AssignExpr)
+47 operator='ASSIGN'
+48 target (NameExpr)
+49 name (SimpleName)
+50 identifier='mSourceName'
+51 value (NameExpr)
+52 name (SimpleName)
+53 identifier='pFileName'
+54 statement (ExpressionStmt)
+55 expression (AssignExpr)
+56 operator='ASSIGN'
+57 target (NameExpr)
+58 name (SimpleName)
+59 identifier='mCloseReader'
+60 value (BooleanLiteralExpr)
+61 value='true'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='advanceChar'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='advanceToken'
+70 name (SimpleName)
+71 identifier='NumberFileParser'
+72 parameters
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='pFileName'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='String'
+80 thrownExceptions
+81 thrownException (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+46 48
+48 49
+49 50
+46 51
+51 52
+52 53
+2 54
+54 55
+55 56
+55 57
+57 58
+58 59
+55 60
+60 61
+2 62
+62 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+0 70
+70 71
+0 72
+72 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+0 80
+80 81
+81 82
+82 83
+
+Open the specified file name for parsing

@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clear'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='peerEventListeners'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='clearEventListeners'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+
+Removes all event listeners simultaneously. Note that this includes listeners added internally by the framework so it's generally not advised to use this - it exists for special purposes only.

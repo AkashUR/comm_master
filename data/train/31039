@@ -1,0 +1,214 @@
+106
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='HashSet'
+11 typeArguments
+12 typeArgument (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Integer'
+15 name (SimpleName)
+16 identifier='pageIDs'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Set'
+20 typeArguments
+21 typeArgument (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Integer'
+24 statement (WhileStmt)
+25 body (BlockStmt)
+26 statements
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='add'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='pageIDs'
+34 arguments
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getPageId'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='next'
+41 scope (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='iterator'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='categories'
+47 condition (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='hasNext'
+50 scope (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='iterator'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='categories'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='constructCategoryGraph'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='pWiki'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='pageIDs'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='filterList'
+70 name (SimpleName)
+71 identifier='CategoryGraph'
+72 parameters
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='pWiki'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Wikipedia'
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='categories'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Iterable'
+87 typeArguments
+88 typeArgument (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='Category'
+91 parameter (Parameter)
+92 isVarArgs='false'
+93 name (SimpleName)
+94 identifier='filterList'
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='List'
+98 typeArguments
+99 typeArgument (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='String'
+102 thrownExceptions
+103 thrownException (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='WikiApiException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+24 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+60 67
+67 68
+68 69
+0 70
+70 71
+0 72
+72 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+72 80
+80 81
+80 82
+82 83
+80 84
+84 85
+85 86
+84 87
+87 88
+88 89
+89 90
+72 91
+91 92
+91 93
+93 94
+91 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+0 102
+102 103
+103 104
+104 105
+
+Creates a CategoryGraph object using the categories given by the iterable, but filters all categories starting with strings contained in the filterList

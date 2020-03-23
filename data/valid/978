@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='lock'
+7 scope (SuperExpr)
+8 statement (WhileStmt)
+9 body (BlockStmt)
+10 statements
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='awaitUninterruptibly'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='backupDone'
+18 condition (BinaryExpr)
+19 operator='AND'
+20 left (BinaryExpr)
+21 operator='AND'
+22 left (NameExpr)
+23 name (SimpleName)
+24 identifier='isBackingUp'
+25 right (NameExpr)
+26 name (SimpleName)
+27 identifier='waitForBackup'
+28 right (UnaryExpr)
+29 operator='LOGICAL_COMPLEMENT'
+30 expression (EnclosedExpr)
+31 inner (BinaryExpr)
+32 operator='EQUALS'
+33 left (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='currentThread'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='Thread'
+39 right (NameExpr)
+40 name (SimpleName)
+41 identifier='backupThread'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='lock'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='waitForBackup'
+50 type (PrimitiveType)
+51 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+8 18
+18 19
+18 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+26 27
+18 28
+28 29
+28 30
+30 31
+31 32
+31 33
+33 34
+34 35
+33 36
+36 37
+37 38
+31 39
+39 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+
+Acquire this lock, Optionally waiting for a backup to finish the first phase. Any operations that update metadata related to the distributed system state should pass true for this flag, because we need to make sure we get a point in time snapshot of the init files across members to for metadata consistentency. Updates which update only record changes to the local state on this member(eg, switching oplogs), do not need to wait for the backup.

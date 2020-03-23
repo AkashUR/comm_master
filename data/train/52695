@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 arguments
+8 argument (CastExpr)
+9 expression (EnclosedExpr)
+10 inner (BinaryExpr)
+11 operator='BINARY_AND'
+12 left (NameExpr)
+13 name (SimpleName)
+14 identifier='int16'
+15 right (IntegerLiteralExpr)
+16 value='0xFF'
+17 type (PrimitiveType)
+18 type='BYTE'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='put'
+23 arguments
+24 argument (CastExpr)
+25 expression (EnclosedExpr)
+26 inner (BinaryExpr)
+27 operator='BINARY_AND'
+28 left (EnclosedExpr)
+29 inner (BinaryExpr)
+30 operator='SIGNED_RIGHT_SHIFT'
+31 left (NameExpr)
+32 name (SimpleName)
+33 identifier='int16'
+34 right (IntegerLiteralExpr)
+35 value='8'
+36 right (IntegerLiteralExpr)
+37 value='0xFF'
+38 type (PrimitiveType)
+39 type='BYTE'
+40 type (VoidType)
+41 name (SimpleName)
+42 identifier='putINT16'
+43 parameters
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='int16'
+48 type (PrimitiveType)
+49 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+10 11
+10 12
+12 13
+13 14
+10 15
+15 16
+8 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+26 27
+26 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+26 36
+36 37
+24 38
+38 39
+0 40
+0 41
+41 42
+0 43
+43 44
+44 45
+44 46
+46 47
+44 48
+48 49
+
+Writes a signed little-endian int16 to this ByteBuffer, starting at the current position. Advances the current position by 2.

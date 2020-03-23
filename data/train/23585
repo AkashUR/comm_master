@@ -1,0 +1,140 @@
+69
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='config'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='logger'
+10 scope (ThisExpr)
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='LonerDistributionmanager_CHANGING_PORT_FROM_TO'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='LocalizedStrings'
+18 argument (ArrayCreationExpr)
+19 elementType (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Object'
+22 initializer (ArrayInitializerExpr)
+23 values
+24 value (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='lonerPort'
+27 scope (ThisExpr)
+28 value (NameExpr)
+29 name (SimpleName)
+30 identifier='newPort'
+31 value (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getId'
+34 levels
+35 level (ArrayCreationLevel)
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='lonerPort'
+42 scope (ThisExpr)
+43 value (NameExpr)
+44 name (SimpleName)
+45 identifier='newPort'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setPort'
+50 scope (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getId'
+53 scope (ThisExpr)
+54 arguments
+55 argument (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='lonerPort'
+58 scope (ThisExpr)
+59 type (VoidType)
+60 name (SimpleName)
+61 identifier='updateLonerPort'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='newPort'
+67 type (PrimitiveType)
+68 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+4 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+11 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+24 25
+25 26
+24 27
+23 28
+28 29
+29 30
+23 31
+31 32
+32 33
+18 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+39 42
+37 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+47 54
+54 55
+55 56
+56 57
+55 58
+0 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+
+update the loner port with an integer that may be more unique than the default port (zero). This updates the ID in place and establishes new default settings for the manufacture of new IDs.

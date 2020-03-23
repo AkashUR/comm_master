@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='evaluate'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='tag'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='evaluate'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='tag'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='libTag'
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='evaluate'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='tag'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='Tag'
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='libTag'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='TagLibTag'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='flibs'
+44 type (ArrayType)
+45 origin='TYPE'
+46 componentType (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='FunctionLib'
+49 thrownExceptions
+50 thrownException (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='EvaluatorException'
+53 annotations
+54 annotation (MarkerAnnotationExpr)
+55 name (Name)
+56 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+25 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+25 40
+40 41
+40 42
+42 43
+40 44
+44 45
+44 46
+46 47
+47 48
+0 49
+49 50
+50 51
+51 52
+0 53
+53 54
+54 55
+55 56
+
+Die Methode evaluate wird aufgerufen, wenn der Context eines Tags geprueft werden soll. Diese Methode ueberschreibt, jene des Interface Evaluator. Falls diese Methode durch eine Implementation nicht ueberschrieben wird, ruft sie wiederere,  allenfalls implementierte evaluate Methoden auf. Mit Hilfe dieses Konstrukt ist es moeglich drei evaluate methoden anzubieten.

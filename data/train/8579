@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='resetGzipStream'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='put'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='offsetMap'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='key'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='totalLength'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='writeHeader'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='addOffset'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='key'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Long'
+36 thrownExceptions
+37 thrownException (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+0 36
+36 37
+37 38
+38 39
+
+Invoking this method will flush all data into stream. It will insert new entry into metadata  for specified key and current byte location in stream. After that, it will write new header in compressed file with metadata information.

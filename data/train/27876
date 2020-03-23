@@ -1,0 +1,20 @@
+9
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='testPhaseListenerRegistration'
+5 thrownExceptions
+6 thrownException (ClassOrInterfaceType)
+7 name (SimpleName)
+8 identifier='Exception'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+7 8
+
+Added for issue 1202.  Ensure duplicate phase listeners aren't registered when using f:phaseListener and partial state saving is enabled (which is the default for systest).

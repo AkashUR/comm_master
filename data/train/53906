@@ -1,0 +1,752 @@
+375
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (StringLiteralExpr)
+14 value='<weblogic-web-app>'
+15 right (StringLiteralExpr)
+16 value='  <run-as-role-assignment/>'
+17 right (StringLiteralExpr)
+18 value='  <session-descriptor/>'
+19 right (StringLiteralExpr)
+20 value='</weblogic-web-app>'
+21 name (SimpleName)
+22 identifier='xml'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='String'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='parseWeblogicXml'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='WeblogicXmlIo'
+36 arguments
+37 argument (ObjectCreationExpr)
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='ByteArrayInputStream'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getBytes'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='xml'
+48 arguments
+49 argument (StringLiteralExpr)
+50 value='UTF-8'
+51 name (SimpleName)
+52 identifier='descr'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='WeblogicXml'
+56 statement (ExpressionStmt)
+57 expression (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 initializer (ObjectCreationExpr)
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='EjbRef'
+64 name (SimpleName)
+65 identifier='ref'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='EjbRef'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='setName'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='ref'
+76 arguments
+77 argument (StringLiteralExpr)
+78 value='foo'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='setJndiName'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='ref'
+86 arguments
+87 argument (StringLiteralExpr)
+88 value='fee'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='addEjbReference'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='descr'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='ref'
+100 statement (ExpressionStmt)
+101 expression (VariableDeclarationExpr)
+102 variables
+103 variable (VariableDeclarator)
+104 initializer (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='getAllElements'
+107 arguments
+108 argument (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='getRootElement'
+111 scope (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='getDocument'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='descr'
+117 name (SimpleName)
+118 identifier='elements'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='List'
+122 typeArguments
+123 typeArgument (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='Element'
+126 statement (ExpressionStmt)
+127 expression (VariableDeclarationExpr)
+128 variables
+129 variable (VariableDeclarator)
+130 initializer (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='get'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='elements'
+136 arguments
+137 argument (IntegerLiteralExpr)
+138 value='0'
+139 name (SimpleName)
+140 identifier='n'
+141 type (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='Element'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='assertEquals'
+148 arguments
+149 argument (StringLiteralExpr)
+150 value='run-as-role-assignment'
+151 argument (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='getName'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='n'
+157 statement (ExpressionStmt)
+158 expression (AssignExpr)
+159 operator='ASSIGN'
+160 target (NameExpr)
+161 name (SimpleName)
+162 identifier='n'
+163 value (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='get'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='elements'
+169 arguments
+170 argument (IntegerLiteralExpr)
+171 value='2'
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='assertEquals'
+176 arguments
+177 argument (StringLiteralExpr)
+178 value='session-descriptor'
+179 argument (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='getName'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='n'
+185 statement (ExpressionStmt)
+186 expression (AssignExpr)
+187 operator='ASSIGN'
+188 target (NameExpr)
+189 name (SimpleName)
+190 identifier='n'
+191 value (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='get'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='elements'
+197 arguments
+198 argument (IntegerLiteralExpr)
+199 value='1'
+200 statement (ExpressionStmt)
+201 expression (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='assertEquals'
+204 arguments
+205 argument (StringLiteralExpr)
+206 value='reference-descriptor'
+207 argument (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='getName'
+210 scope (NameExpr)
+211 name (SimpleName)
+212 identifier='n'
+213 statement (ExpressionStmt)
+214 expression (AssignExpr)
+215 operator='ASSIGN'
+216 target (NameExpr)
+217 name (SimpleName)
+218 identifier='n'
+219 value (CastExpr)
+220 expression (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='get'
+223 scope (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='getChildren'
+226 scope (NameExpr)
+227 name (SimpleName)
+228 identifier='n'
+229 arguments
+230 argument (FieldAccessExpr)
+231 name (SimpleName)
+232 identifier='EJB_REFERENCE_DESCRIPTION'
+233 scope (NameExpr)
+234 name (SimpleName)
+235 identifier='WeblogicXmlTag'
+236 arguments
+237 argument (IntegerLiteralExpr)
+238 value='0'
+239 type (ClassOrInterfaceType)
+240 name (SimpleName)
+241 identifier='Element'
+242 statement (ExpressionStmt)
+243 expression (MethodCallExpr)
+244 name (SimpleName)
+245 identifier='assertEquals'
+246 arguments
+247 argument (StringLiteralExpr)
+248 value='ejb-reference-description'
+249 argument (MethodCallExpr)
+250 name (SimpleName)
+251 identifier='getName'
+252 scope (NameExpr)
+253 name (SimpleName)
+254 identifier='n'
+255 statement (ExpressionStmt)
+256 expression (VariableDeclarationExpr)
+257 variables
+258 variable (VariableDeclarator)
+259 initializer (CastExpr)
+260 expression (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='get'
+263 scope (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='getChildren'
+266 scope (NameExpr)
+267 name (SimpleName)
+268 identifier='n'
+269 arguments
+270 argument (FieldAccessExpr)
+271 name (SimpleName)
+272 identifier='EJB_REF_NAME'
+273 scope (NameExpr)
+274 name (SimpleName)
+275 identifier='WeblogicXmlTag'
+276 arguments
+277 argument (IntegerLiteralExpr)
+278 value='0'
+279 type (ClassOrInterfaceType)
+280 name (SimpleName)
+281 identifier='Element'
+282 name (SimpleName)
+283 identifier='m'
+284 type (ClassOrInterfaceType)
+285 name (SimpleName)
+286 identifier='Element'
+287 statement (ExpressionStmt)
+288 expression (MethodCallExpr)
+289 name (SimpleName)
+290 identifier='assertEquals'
+291 arguments
+292 argument (StringLiteralExpr)
+293 value='ejb-ref-name'
+294 argument (MethodCallExpr)
+295 name (SimpleName)
+296 identifier='getName'
+297 scope (NameExpr)
+298 name (SimpleName)
+299 identifier='m'
+300 statement (ExpressionStmt)
+301 expression (MethodCallExpr)
+302 name (SimpleName)
+303 identifier='assertEquals'
+304 arguments
+305 argument (StringLiteralExpr)
+306 value='foo'
+307 argument (MethodCallExpr)
+308 name (SimpleName)
+309 identifier='getValue'
+310 scope (NameExpr)
+311 name (SimpleName)
+312 identifier='m'
+313 statement (ExpressionStmt)
+314 expression (AssignExpr)
+315 operator='ASSIGN'
+316 target (NameExpr)
+317 name (SimpleName)
+318 identifier='m'
+319 value (CastExpr)
+320 expression (MethodCallExpr)
+321 name (SimpleName)
+322 identifier='get'
+323 scope (MethodCallExpr)
+324 name (SimpleName)
+325 identifier='getChildren'
+326 scope (NameExpr)
+327 name (SimpleName)
+328 identifier='n'
+329 arguments
+330 argument (FieldAccessExpr)
+331 name (SimpleName)
+332 identifier='JNDI_NAME'
+333 scope (NameExpr)
+334 name (SimpleName)
+335 identifier='WeblogicXmlTag'
+336 arguments
+337 argument (IntegerLiteralExpr)
+338 value='0'
+339 type (ClassOrInterfaceType)
+340 name (SimpleName)
+341 identifier='Element'
+342 statement (ExpressionStmt)
+343 expression (MethodCallExpr)
+344 name (SimpleName)
+345 identifier='assertEquals'
+346 arguments
+347 argument (StringLiteralExpr)
+348 value='jndi-name'
+349 argument (MethodCallExpr)
+350 name (SimpleName)
+351 identifier='getName'
+352 scope (NameExpr)
+353 name (SimpleName)
+354 identifier='m'
+355 statement (ExpressionStmt)
+356 expression (MethodCallExpr)
+357 name (SimpleName)
+358 identifier='assertEquals'
+359 arguments
+360 argument (StringLiteralExpr)
+361 value='fee'
+362 argument (MethodCallExpr)
+363 name (SimpleName)
+364 identifier='getValue'
+365 scope (NameExpr)
+366 name (SimpleName)
+367 identifier='m'
+368 type (VoidType)
+369 name (SimpleName)
+370 identifier='testAddEjbReferenceDescriptionWithNoReferenceDescriptor'
+371 thrownExceptions
+372 thrownException (ClassOrInterfaceType)
+373 name (SimpleName)
+374 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+11 15
+15 16
+9 17
+17 18
+7 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+39 40
+37 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+29 51
+51 52
+29 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+59 64
+64 65
+59 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+111 114
+114 115
+115 116
+103 117
+117 118
+103 119
+119 120
+120 121
+119 122
+122 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+137 138
+129 139
+139 140
+129 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+148 151
+151 152
+152 153
+151 154
+154 155
+155 156
+2 157
+157 158
+158 159
+158 160
+160 161
+161 162
+158 163
+163 164
+164 165
+163 166
+166 167
+167 168
+163 169
+169 170
+170 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+176 179
+179 180
+180 181
+179 182
+182 183
+183 184
+2 185
+185 186
+186 187
+186 188
+188 189
+189 190
+186 191
+191 192
+192 193
+191 194
+194 195
+195 196
+191 197
+197 198
+198 199
+2 200
+200 201
+201 202
+202 203
+201 204
+204 205
+205 206
+204 207
+207 208
+208 209
+207 210
+210 211
+211 212
+2 213
+213 214
+214 215
+214 216
+216 217
+217 218
+214 219
+219 220
+220 221
+221 222
+220 223
+223 224
+224 225
+223 226
+226 227
+227 228
+223 229
+229 230
+230 231
+231 232
+230 233
+233 234
+234 235
+220 236
+236 237
+237 238
+219 239
+239 240
+240 241
+2 242
+242 243
+243 244
+244 245
+243 246
+246 247
+247 248
+246 249
+249 250
+250 251
+249 252
+252 253
+253 254
+2 255
+255 256
+256 257
+257 258
+258 259
+259 260
+260 261
+261 262
+260 263
+263 264
+264 265
+263 266
+266 267
+267 268
+263 269
+269 270
+270 271
+271 272
+270 273
+273 274
+274 275
+260 276
+276 277
+277 278
+259 279
+279 280
+280 281
+258 282
+282 283
+258 284
+284 285
+285 286
+2 287
+287 288
+288 289
+289 290
+288 291
+291 292
+292 293
+291 294
+294 295
+295 296
+294 297
+297 298
+298 299
+2 300
+300 301
+301 302
+302 303
+301 304
+304 305
+305 306
+304 307
+307 308
+308 309
+307 310
+310 311
+311 312
+2 313
+313 314
+314 315
+314 316
+316 317
+317 318
+314 319
+319 320
+320 321
+321 322
+320 323
+323 324
+324 325
+323 326
+326 327
+327 328
+323 329
+329 330
+330 331
+331 332
+330 333
+333 334
+334 335
+320 336
+336 337
+337 338
+319 339
+339 340
+340 341
+2 342
+342 343
+343 344
+344 345
+343 346
+346 347
+347 348
+346 349
+349 350
+350 351
+349 352
+352 353
+353 354
+2 355
+355 356
+356 357
+357 358
+356 359
+359 360
+360 361
+359 362
+362 363
+363 364
+362 365
+365 366
+366 367
+0 368
+0 369
+369 370
+0 371
+371 372
+372 373
+373 374
+
+Tests that a ejb reference description can be added

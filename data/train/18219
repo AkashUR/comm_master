@@ -1,0 +1,340 @@
+169
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value=''
+9 name (SimpleName)
+10 identifier='cmdText'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (SwitchStmt)
+15 selector (NameExpr)
+16 name (SimpleName)
+17 identifier='cmd'
+18 entries
+19 entrie (SwitchEntryStmt)
+20 label (NameExpr)
+21 name (SimpleName)
+22 identifier='CMD_ON'
+23 statements
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (NameExpr)
+28 name (SimpleName)
+29 identifier='cmdText'
+30 value (StringLiteralExpr)
+31 value='ON'
+32 statement (BreakStmt)
+33 entrie (SwitchEntryStmt)
+34 label (NameExpr)
+35 name (SimpleName)
+36 identifier='CMD_OFF'
+37 statements
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (NameExpr)
+42 name (SimpleName)
+43 identifier='cmdText'
+44 value (StringLiteralExpr)
+45 value='OFF'
+46 statement (BreakStmt)
+47 entrie (SwitchEntryStmt)
+48 label (NameExpr)
+49 name (SimpleName)
+50 identifier='CMD_DIM_R'
+51 statements
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (NameExpr)
+56 name (SimpleName)
+57 identifier='cmdText'
+58 value (StringLiteralExpr)
+59 value='recvDIM'
+60 statement (ExpressionStmt)
+61 expression (AssignExpr)
+62 operator='ASSIGN'
+63 target (NameExpr)
+64 name (SimpleName)
+65 identifier='cmdText'
+66 value (BinaryExpr)
+67 operator='PLUS'
+68 left (NameExpr)
+69 name (SimpleName)
+70 identifier='cmdText'
+71 right (StringLiteralExpr)
+72 value=' '
+73 statement (BreakStmt)
+74 entrie (SwitchEntryStmt)
+75 label (NameExpr)
+76 name (SimpleName)
+77 identifier='CMD_DIM_S'
+78 statements
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='cmdText'
+85 value (StringLiteralExpr)
+86 value='sendDIM'
+87 statement (ExpressionStmt)
+88 expression (VariableDeclarationExpr)
+89 variables
+90 variable (VariableDeclarator)
+91 initializer (BinaryExpr)
+92 operator='DIVIDE'
+93 left (EnclosedExpr)
+94 inner (BinaryExpr)
+95 operator='MULTIPLY'
+96 left (NameExpr)
+97 name (SimpleName)
+98 identifier='level'
+99 right (IntegerLiteralExpr)
+100 value='100'
+101 right (IntegerLiteralExpr)
+102 value='16'
+103 name (SimpleName)
+104 identifier='v2'
+105 type (PrimitiveType)
+106 type='INT'
+107 statement (ExpressionStmt)
+108 expression (AssignExpr)
+109 operator='ASSIGN'
+110 target (NameExpr)
+111 name (SimpleName)
+112 identifier='cmdText'
+113 value (BinaryExpr)
+114 operator='PLUS'
+115 left (BinaryExpr)
+116 operator='PLUS'
+117 left (BinaryExpr)
+118 operator='PLUS'
+119 left (NameExpr)
+120 name (SimpleName)
+121 identifier='cmdText'
+122 right (StringLiteralExpr)
+123 value=' '
+124 right (NameExpr)
+125 name (SimpleName)
+126 identifier='v2'
+127 right (StringLiteralExpr)
+128 value='%'
+129 statement (BreakStmt)
+130 entrie (SwitchEntryStmt)
+131 statements
+132 statement (ExpressionStmt)
+133 expression (AssignExpr)
+134 operator='ASSIGN'
+135 target (NameExpr)
+136 name (SimpleName)
+137 identifier='cmdText'
+138 value (BinaryExpr)
+139 operator='PLUS'
+140 left (StringLiteralExpr)
+141 value='Unk Cmd: '
+142 right (NameExpr)
+143 name (SimpleName)
+144 identifier='cmd'
+145 statement (BreakStmt)
+146 statement (ReturnStmt)
+147 expression (EnclosedExpr)
+148 inner (NameExpr)
+149 name (SimpleName)
+150 identifier='cmdText'
+151 type (ClassOrInterfaceType)
+152 name (SimpleName)
+153 identifier='String'
+154 name (SimpleName)
+155 identifier='commandToText'
+156 parameters
+157 parameter (Parameter)
+158 isVarArgs='false'
+159 name (SimpleName)
+160 identifier='cmd'
+161 type (PrimitiveType)
+162 type='INT'
+163 parameter (Parameter)
+164 isVarArgs='false'
+165 name (SimpleName)
+166 identifier='level'
+167 type (PrimitiveType)
+168 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+23 32
+18 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+37 46
+18 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+53 54
+53 55
+55 56
+56 57
+53 58
+58 59
+51 60
+60 61
+61 62
+61 63
+63 64
+64 65
+61 66
+66 67
+66 68
+68 69
+69 70
+66 71
+71 72
+51 73
+18 74
+74 75
+75 76
+76 77
+74 78
+78 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+78 87
+87 88
+88 89
+89 90
+90 91
+91 92
+91 93
+93 94
+94 95
+94 96
+96 97
+97 98
+94 99
+99 100
+91 101
+101 102
+90 103
+103 104
+90 105
+105 106
+78 107
+107 108
+108 109
+108 110
+110 111
+111 112
+108 113
+113 114
+113 115
+115 116
+115 117
+117 118
+117 119
+119 120
+120 121
+117 122
+122 123
+115 124
+124 125
+125 126
+113 127
+127 128
+78 129
+18 130
+130 131
+131 132
+132 133
+133 134
+133 135
+135 136
+136 137
+133 138
+138 139
+138 140
+140 141
+138 142
+142 143
+143 144
+131 145
+2 146
+146 147
+147 148
+148 149
+149 150
+0 151
+151 152
+152 153
+0 154
+154 155
+0 156
+156 157
+157 158
+157 159
+159 160
+157 161
+161 162
+156 163
+163 164
+163 165
+165 166
+163 167
+167 168
+
+Translate Function to Text

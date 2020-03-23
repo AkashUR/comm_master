@@ -1,0 +1,260 @@
+129
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='append'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='append'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='append'
+16 scope (ObjectCreationExpr)
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='StringBuffer'
+20 arguments
+21 argument (StringLiteralExpr)
+22 value='WHERE '
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='generateEQTokenField'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='DBUtils'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='UDOC_FIELD'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='udoc'
+37 arguments
+38 argument (StringLiteralExpr)
+39 value=' AND '
+40 arguments
+41 argument (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='generateEQTokenField'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='DBUtils'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='UINSTALACION_RELACION_FIELD'
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='uinstalacion'
+54 name (SimpleName)
+55 identifier='qual'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='StringBuffer'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='singletonMap'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='Collections'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='POS_UDOC_FIELD'
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='valueOf'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='String'
+79 arguments
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='posicion'
+83 name (SimpleName)
+84 identifier='colToUpdate'
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='Map'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='updateFields'
+92 arguments
+93 argument (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='toString'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='qual'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='colToUpdate'
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='TABLE_NAME'
+105 type (VoidType)
+106 name (SimpleName)
+107 identifier='updatePosicionEnCaja'
+108 parameters
+109 parameter (Parameter)
+110 isVarArgs='false'
+111 name (SimpleName)
+112 identifier='udoc'
+113 type (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='String'
+116 parameter (Parameter)
+117 isVarArgs='false'
+118 name (SimpleName)
+119 identifier='uinstalacion'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='String'
+123 parameter (Parameter)
+124 isVarArgs='false'
+125 name (SimpleName)
+126 identifier='posicion'
+127 type (PrimitiveType)
+128 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+13 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+10 37
+37 38
+38 39
+7 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+6 54
+54 55
+6 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+62 83
+83 84
+62 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+92 99
+99 100
+100 101
+92 102
+102 103
+103 104
+0 105
+0 106
+106 107
+0 108
+108 109
+109 110
+109 111
+111 112
+109 113
+113 114
+114 115
+108 116
+116 117
+116 118
+118 119
+116 120
+120 121
+121 122
+108 123
+123 124
+123 125
+125 126
+123 127
+127 128
+
+Actualiza en la base de datos la posicion que ocupa una unidad documental dentro de una unidad de instalacion

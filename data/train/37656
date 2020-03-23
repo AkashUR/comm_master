@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='visitMethodInsn'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mv'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='INVOKEVIRTUAL'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getClassInternalName'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='BytecodeHelper'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='sourceType'
+24 argument (BinaryExpr)
+25 operator='PLUS'
+26 left (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getName'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='targetType'
+32 right (StringLiteralExpr)
+33 value='Value'
+34 argument (BinaryExpr)
+35 operator='PLUS'
+36 left (StringLiteralExpr)
+37 value='()'
+38 right (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getTypeDescription'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='BytecodeHelper'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='targetType'
+48 argument (BooleanLiteralExpr)
+49 value='false'
+50 type (VoidType)
+51 name (SimpleName)
+52 identifier='doCastToPrimitive'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='mv'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='MethodVisitor'
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='sourceType'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='ClassNode'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='targetType'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='ClassNode'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+10 24
+24 25
+24 26
+26 27
+27 28
+26 29
+29 30
+30 31
+24 32
+32 33
+10 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+10 48
+48 49
+0 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+53 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+53 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+
+Given a wrapped number type (Byte, Integer, Short, ...), generates bytecode to convert it to a primitive number (int, long, double) using calls to wrapped.[targetType]Value()

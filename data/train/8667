@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='emitDirect'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='delegate'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='taskId'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='streamId'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='tuple'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='messageId'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='emitDirect'
+26 parameters
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='taskId'
+31 type (PrimitiveType)
+32 type='INT'
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='streamId'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='tuple'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='List'
+47 typeArguments
+48 typeArgument (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Object'
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='messageId'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+0 23
+0 24
+24 25
+0 26
+26 27
+27 28
+27 29
+29 30
+27 31
+31 32
+26 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+26 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+26 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+
+Emits a tuple to the specified task on the specified output stream. This output stream must have been declared as a direct stream, and the specified task must use a direct grouping on this stream to receive the message. The emitted values must be immutable.

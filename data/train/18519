@@ -1,0 +1,128 @@
+63
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='lock'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='lock'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='state'
+13 statement (TryStmt)
+14 finallyBlock (BlockStmt)
+15 statements
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='unlock'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='lock'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='state'
+26 tryBlock (BlockStmt)
+27 statements
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='signal'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='committed'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='setCommitTime'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='state'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='commitTime'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setRunState'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='state'
+53 arguments
+54 argument (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='Committed'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='RunState'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='run'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+13 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+27 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+44 45
+27 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+0 60
+0 61
+61 62
+
+Method runs when the "committed" barrier breaks. At this point the transaction is fully committed on the participating data services.

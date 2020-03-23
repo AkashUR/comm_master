@@ -1,0 +1,190 @@
+94
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NullLiteralExpr)
+7 statement (ExpressionStmt)
+8 expression (VariableDeclarationExpr)
+9 variables
+10 variable (VariableDeclarator)
+11 initializer (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='createTempFile'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='DefaultFilepaths'
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='tmpattach'
+20 argument (NullLiteralExpr)
+21 name (SimpleName)
+22 identifier='tempFile'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Path'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='channel'
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='newByteChannel'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='Files'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='tempFile'
+42 argument (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='CREATE'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='StandardOpenOption'
+48 argument (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='WRITE'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='StandardOpenOption'
+54 argument (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='TRUNCATE_EXISTING'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='StandardOpenOption'
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='READ'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='StandardOpenOption'
+66 argument (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='DELETE_ON_CLOSE'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='StandardOpenOption'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (NameExpr)
+76 name (SimpleName)
+77 identifier='out'
+78 value (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='newOutputStream'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='Channels'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='channel'
+88 name (SimpleName)
+89 identifier='CachingStream'
+90 thrownExceptions
+91 thrownException (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+2 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+17 20
+10 21
+21 22
+10 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+42 45
+45 46
+46 47
+38 48
+48 49
+49 50
+48 51
+51 52
+52 53
+38 54
+54 55
+55 56
+54 57
+57 58
+58 59
+38 60
+60 61
+61 62
+60 63
+63 64
+64 65
+38 66
+66 67
+67 68
+66 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+0 88
+88 89
+0 90
+90 91
+91 92
+92 93
+
+Constructs a new caching stream that caches data in a temporary file.

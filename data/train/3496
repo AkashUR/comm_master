@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='initLogging'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getProperty'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='System'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='jmri.log'
+17 argument (StringLiteralExpr)
+18 value='default.lcf'
+19 type (VoidType)
+20 name (SimpleName)
+21 identifier='initLogging'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+14 17
+17 18
+0 19
+0 20
+20 21
+
+Initialize logging from a default control file. <p> Primary functions: <ul> <li>Initialize the JMRI system console <li>Set up the slf4j j.u.logging to log4J bridge <li>Start log4j <li>Initialize some default exception handlers (to feed the logs?) </ul>

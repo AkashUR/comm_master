@@ -1,0 +1,116 @@
+57
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='sessionId'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='properties'
+15 scope (ThisExpr)
+16 value (ConditionalExpr)
+17 condition (BinaryExpr)
+18 operator='EQUALS'
+19 left (NullLiteralExpr)
+20 right (NameExpr)
+21 name (SimpleName)
+22 identifier='properties'
+23 elseExpr (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='copyOf'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='properties'
+30 thenExpr (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='emptyMap'
+33 name (SimpleName)
+34 identifier='SessionStartedEvent'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='sessionId'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='String'
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='properties'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Map'
+50 typeArguments
+51 typeArgument (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='String'
+54 typeArgument (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+12 15
+10 16
+16 17
+17 18
+17 19
+17 20
+20 21
+21 22
+16 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+16 30
+30 31
+31 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+35 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+
+Creates a new session started even instance with the given arguments.

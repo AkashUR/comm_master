@@ -1,0 +1,312 @@
+155
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='query'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='PhraseQuery'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='field'
+16 argument (StringLiteralExpr)
+17 value='four'
+18 argument (StringLiteralExpr)
+19 value='five'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='scoreDocs'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='search'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='searcher'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='query'
+37 argument (IntegerLiteralExpr)
+38 value='1000'
+39 name (SimpleName)
+40 identifier='hits'
+41 type (ArrayType)
+42 origin='TYPE'
+43 componentType (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='ScoreDoc'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='assertEquals'
+50 arguments
+51 argument (StringLiteralExpr)
+52 value='exact match'
+53 argument (IntegerLiteralExpr)
+54 value='1'
+55 argument (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='length'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='hits'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='check'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='QueryUtils'
+68 arguments
+69 argument (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='random'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='query'
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='searcher'
+78 statement (ExpressionStmt)
+79 expression (AssignExpr)
+80 operator='ASSIGN'
+81 target (NameExpr)
+82 name (SimpleName)
+83 identifier='query'
+84 value (ObjectCreationExpr)
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='PhraseQuery'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='field'
+91 argument (StringLiteralExpr)
+92 value='two'
+93 argument (StringLiteralExpr)
+94 value='one'
+95 statement (ExpressionStmt)
+96 expression (AssignExpr)
+97 operator='ASSIGN'
+98 target (NameExpr)
+99 name (SimpleName)
+100 identifier='hits'
+101 value (FieldAccessExpr)
+102 name (SimpleName)
+103 identifier='scoreDocs'
+104 scope (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='search'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='searcher'
+110 arguments
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='query'
+114 argument (IntegerLiteralExpr)
+115 value='1000'
+116 statement (ExpressionStmt)
+117 expression (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='assertEquals'
+120 arguments
+121 argument (StringLiteralExpr)
+122 value='reverse not exact'
+123 argument (IntegerLiteralExpr)
+124 value='0'
+125 argument (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='length'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='hits'
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='check'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='QueryUtils'
+138 arguments
+139 argument (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='random'
+142 argument (NameExpr)
+143 name (SimpleName)
+144 identifier='query'
+145 argument (NameExpr)
+146 name (SimpleName)
+147 identifier='searcher'
+148 type (VoidType)
+149 name (SimpleName)
+150 identifier='testExact'
+151 thrownExceptions
+152 thrownException (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+13 16
+16 17
+13 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+23 39
+39 40
+23 41
+41 42
+41 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+50 55
+55 56
+56 57
+55 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+68 75
+75 76
+76 77
+2 78
+78 79
+79 80
+79 81
+81 82
+82 83
+79 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+88 91
+91 92
+88 93
+93 94
+2 95
+95 96
+96 97
+96 98
+98 99
+99 100
+96 101
+101 102
+102 103
+101 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+112 113
+110 114
+114 115
+2 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+120 123
+123 124
+120 125
+125 126
+126 127
+125 128
+128 129
+129 130
+2 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+132 138
+138 139
+139 140
+140 141
+138 142
+142 143
+143 144
+138 145
+145 146
+146 147
+0 148
+0 149
+149 150
+0 151
+151 152
+152 153
+153 154
+
+Ensures slop of 0 works for exact matches, but not reversed

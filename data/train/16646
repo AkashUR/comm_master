@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Type'
+11 arguments
+12 argument (ObjectCreationExpr)
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Decimal'
+16 arguments
+17 argument (StringLiteralExpr)
+18 value='1.5'
+19 argument (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Boolean'
+23 arguments
+24 argument (BooleanLiteralExpr)
+25 value='true'
+26 name (SimpleName)
+27 identifier='value'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Type'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (BinaryExpr)
+36 operator='PLUS'
+37 left (BinaryExpr)
+38 operator='PLUS'
+39 left (BinaryExpr)
+40 operator='PLUS'
+41 left (BinaryExpr)
+42 operator='PLUS'
+43 left (BinaryExpr)
+44 operator='PLUS'
+45 left (StringLiteralExpr)
+46 value=''
+47 right (StringLiteralExpr)
+48 value='<type>\n'
+49 right (StringLiteralExpr)
+50 value='  <decimal>1.5</decimal>\n'
+51 right (StringLiteralExpr)
+52 value='  <boolean>true</boolean>\n'
+53 right (StringLiteralExpr)
+54 value='  <agreement>yes</agreement>\n'
+55 right (StringLiteralExpr)
+56 value='</type>'
+57 name (SimpleName)
+58 identifier='expected'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='assertBothWays'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='value'
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='expected'
+73 type (VoidType)
+74 name (SimpleName)
+75 identifier='testSameConverterWithDifferentType'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+11 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+35 37
+37 38
+37 39
+39 40
+39 41
+41 42
+41 43
+43 44
+43 45
+45 46
+43 47
+47 48
+41 49
+49 50
+39 51
+51 52
+37 53
+53 54
+35 55
+55 56
+34 57
+57 58
+34 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+68 69
+66 70
+70 71
+71 72
+0 73
+0 74
+74 75
+
+Tests three field-level XStreamConverter annotations for different types, which guarantees the internal converterCache on AnnotationMapper is functioning properly.

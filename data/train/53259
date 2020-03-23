@@ -1,0 +1,118 @@
+58
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (AssertStmt)
+4 check (BinaryExpr)
+5 operator='NOT_EQUALS'
+6 left (NameExpr)
+7 name (SimpleName)
+8 identifier='spriteFrameName'
+9 right (NullLiteralExpr)
+10 message (StringLiteralExpr)
+11 value='Invalid spriteFrameName for sprite'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getSpriteFrame'
+19 scope (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='sharedSpriteFrameCache'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='CCSpriteFrameCache'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='spriteFrameName'
+29 name (SimpleName)
+30 identifier='frame'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='CCSpriteFrame'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='init'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='frame'
+42 name (SimpleName)
+43 identifier='CCSprite'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='spriteFrameName'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='isFrame'
+56 type (PrimitiveType)
+57 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+3 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+16 25
+25 26
+26 27
+27 28
+15 29
+29 30
+15 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+44 52
+52 53
+52 54
+54 55
+52 56
+56 57
+
+Initializes an sprite with an sprite frame name. An CCSpriteFrame will be fetched from the CCSpriteFrameCache by name. If the CCSpriteFrame doesn't exist it will raise an exception.

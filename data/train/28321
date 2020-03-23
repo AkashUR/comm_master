@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='registerSubtileModel'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='subTileName'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='model'
+14 argument (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='ModelResourceLocation'
+18 arguments
+19 argument (BinaryExpr)
+20 operator='PLUS'
+21 left (BinaryExpr)
+22 operator='PLUS'
+23 left (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getResourceDomain'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='model'
+29 right (StringLiteralExpr)
+30 value=':'
+31 right (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getResourcePath'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='model'
+37 argument (StringLiteralExpr)
+38 value='inventory'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='registerSubtileModel'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='subTileName'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='String'
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='model'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='ModelResourceLocation'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+19 21
+21 22
+21 23
+23 24
+24 25
+23 26
+26 27
+27 28
+21 29
+29 30
+19 31
+31 32
+32 33
+31 34
+34 35
+35 36
+18 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+42 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+
+Register your model for the given subtile class here. Call this DURING PREINIT. Your model json must specify key "tintindex" in all the faces it wants tint applied. Tint is applied whenever a player recolors the flower using floral dye

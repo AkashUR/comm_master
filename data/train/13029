@@ -1,0 +1,294 @@
+146
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onCreate'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='savedInstanceState'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='setContentView'
+16 arguments
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='backup_restore'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='layout'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='R'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='mFillingGroup'
+32 value (CastExpr)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='findViewById'
+36 arguments
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='filling_group'
+40 scope (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='id'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='R'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='RadioGroup'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (NameExpr)
+53 name (SimpleName)
+54 identifier='mAddMayoCheckbox'
+55 value (CastExpr)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='findViewById'
+59 arguments
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='mayo'
+63 scope (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='id'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='R'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='CheckBox'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (NameExpr)
+76 name (SimpleName)
+77 identifier='mAddTomatoCheckbox'
+78 value (CastExpr)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='findViewById'
+82 arguments
+83 argument (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='tomato'
+86 scope (FieldAccessExpr)
+87 name (SimpleName)
+88 identifier='id'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='R'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='CheckBox'
+95 statement (ExpressionStmt)
+96 expression (AssignExpr)
+97 operator='ASSIGN'
+98 target (NameExpr)
+99 name (SimpleName)
+100 identifier='mDataFile'
+101 value (ObjectCreationExpr)
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='File'
+105 arguments
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='getFilesDir'
+109 argument (FieldAccessExpr)
+110 name (SimpleName)
+111 identifier='DATA_FILE_NAME'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='HugeBackupActivity'
+115 statement (ExpressionStmt)
+116 expression (AssignExpr)
+117 operator='ASSIGN'
+118 target (NameExpr)
+119 name (SimpleName)
+120 identifier='mBackupManager'
+121 value (ObjectCreationExpr)
+122 type (ClassOrInterfaceType)
+123 name (SimpleName)
+124 identifier='BackupManager'
+125 arguments
+126 argument (ThisExpr)
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='populateUI'
+131 type (VoidType)
+132 name (SimpleName)
+133 identifier='onCreate'
+134 parameters
+135 parameter (Parameter)
+136 isVarArgs='false'
+137 name (SimpleName)
+138 identifier='savedInstanceState'
+139 type (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='Bundle'
+142 annotations
+143 annotation (MarkerAnnotationExpr)
+144 name (Name)
+145 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+32 46
+46 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+55 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+86 89
+89 90
+90 91
+78 92
+92 93
+93 94
+2 95
+95 96
+96 97
+96 98
+98 99
+99 100
+96 101
+101 102
+102 103
+103 104
+101 105
+105 106
+106 107
+107 108
+105 109
+109 110
+110 111
+109 112
+112 113
+113 114
+2 115
+115 116
+116 117
+116 118
+118 119
+119 120
+116 121
+121 122
+122 123
+123 124
+121 125
+125 126
+2 127
+127 128
+128 129
+129 130
+0 131
+0 132
+132 133
+0 134
+134 135
+135 136
+135 137
+137 138
+135 139
+139 140
+140 141
+0 142
+142 143
+143 144
+144 145
+
+Set up the activity and populate its UI from the persistent data.

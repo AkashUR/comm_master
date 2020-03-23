@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mergedLineStrings'
+9 value (NullLiteralExpr)
+10 statement (ForStmt)
+11 body (BlockStmt)
+12 statements
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (CastExpr)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='next'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='i'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Geometry'
+27 name (SimpleName)
+28 identifier='geometry'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Geometry'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='add'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='geometry'
+40 compare (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='hasNext'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='i'
+46 initialization
+47 initializatio (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='iterator'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='geometries'
+56 name (SimpleName)
+57 identifier='i'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='Iterator'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='add'
+64 parameters
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='geometries'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Collection'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+17 24
+24 25
+25 26
+16 27
+27 28
+16 29
+29 30
+30 31
+12 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+10 40
+40 41
+41 42
+40 43
+43 44
+44 45
+10 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+49 56
+56 57
+49 58
+58 59
+59 60
+0 61
+0 62
+62 63
+0 64
+64 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+
+Adds a collection of Geometries to be processed. May be called multiple times. Any dimension of Geometry may be added; the constituent linework will be extracted.

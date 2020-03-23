@@ -1,0 +1,274 @@
+136
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ConstraintImplementation'
+11 arguments
+12 argument (BooleanLiteralExpr)
+13 value='true'
+14 name (SimpleName)
+15 identifier='constraint1'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Constraint'
+19 typeArguments
+20 typeArgument (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Object'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='ConstraintImplementation'
+31 arguments
+32 argument (BooleanLiteralExpr)
+33 value='false'
+34 name (SimpleName)
+35 identifier='constraint2'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Constraint'
+39 typeArguments
+40 typeArgument (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Object'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (ArrayCreationExpr)
+48 elementType (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Constraint'
+51 levels
+52 level (ArrayCreationLevel)
+53 dimension (IntegerLiteralExpr)
+54 value='2'
+55 name (SimpleName)
+56 identifier='constraints'
+57 type (ArrayType)
+58 origin='TYPE'
+59 componentType (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Constraint'
+62 typeArguments
+63 typeArgument (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Object'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (ArrayAccessExpr)
+70 index (IntegerLiteralExpr)
+71 value='0'
+72 name (NameExpr)
+73 name (SimpleName)
+74 identifier='constraints'
+75 value (NameExpr)
+76 name (SimpleName)
+77 identifier='constraint1'
+78 statement (ExpressionStmt)
+79 expression (AssignExpr)
+80 operator='ASSIGN'
+81 target (ArrayAccessExpr)
+82 index (IntegerLiteralExpr)
+83 value='1'
+84 name (NameExpr)
+85 name (SimpleName)
+86 identifier='constraints'
+87 value (NameExpr)
+88 name (SimpleName)
+89 identifier='constraint2'
+90 statement (ExpressionStmt)
+91 expression (VariableDeclarationExpr)
+92 variables
+93 variable (VariableDeclarator)
+94 initializer (ObjectCreationExpr)
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='DisjunctiveConstraint'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='constraints'
+102 name (SimpleName)
+103 identifier='disjunctiveConstraint'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='DisjunctiveConstraint'
+107 typeArguments
+108 typeArgument (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='Object'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='assertTrue'
+115 arguments
+116 argument (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='isSatisfied'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='disjunctiveConstraint'
+122 arguments
+123 argument (ObjectCreationExpr)
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='Object'
+127 type (VoidType)
+128 name (SimpleName)
+129 identifier='testIsSatisfiedWhenNotAllConstraintsAreSatisfied'
+130 annotations
+131 annotation (SingleMemberAnnotationExpr)
+132 memberValue (StringLiteralExpr)
+133 value='unchecked'
+134 name (Name)
+135 identifier='SuppressWarnings'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+26 34
+34 35
+26 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+53 54
+46 55
+55 56
+46 57
+57 58
+57 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+69 72
+72 73
+73 74
+67 75
+75 76
+76 77
+2 78
+78 79
+79 80
+79 81
+81 82
+82 83
+81 84
+84 85
+85 86
+79 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+94 98
+98 99
+99 100
+100 101
+93 102
+102 103
+93 104
+104 105
+105 106
+104 107
+107 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+124 125
+125 126
+0 127
+0 128
+128 129
+0 130
+130 131
+131 132
+132 133
+131 134
+134 135
+
+Tests the functionality of the isSatisfied-method, if not all constraints are satisfied.

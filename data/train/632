@@ -1,0 +1,54 @@
+26
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (ClassOrInterfaceType)
+3 name (SimpleName)
+4 identifier='CLKernel'
+5 name (SimpleName)
+6 identifier='createKernel'
+7 parameters
+8 parameter (Parameter)
+9 isVarArgs='false'
+10 name (SimpleName)
+11 identifier='name'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='String'
+15 parameter (Parameter)
+16 isVarArgs='true'
+17 name (SimpleName)
+18 identifier='args'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Object'
+22 thrownExceptions
+23 thrownException (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='CLBuildException'
+0 1
+0 2
+2 3
+3 4
+0 5
+5 6
+0 7
+7 8
+8 9
+8 10
+10 11
+8 12
+12 13
+13 14
+7 15
+15 16
+15 17
+17 18
+15 19
+19 20
+20 21
+0 22
+22 23
+23 24
+24 25
+
+#documentCallsFunction("clCreateKernel") Find a kernel by its functionName, and optionally bind some arguments to it.

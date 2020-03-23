@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='to'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='from'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='ftp://rider@localhost:21000/order?password=secret'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='jms:incomingOrders'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='to'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='from'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='cxf:bean:orderEndpoint'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='jms:incomingOrders'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='to'
+33 scope (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='from'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='jms:incomingOrders'
+39 arguments
+40 argument (StringLiteralExpr)
+41 value='log:camelinaction.order'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='configure'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+17 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+30 39
+39 40
+40 41
+0 42
+0 43
+43 44
+
+Lets configure the Camel routing rules using Java code...

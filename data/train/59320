@@ -1,0 +1,304 @@
+151
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (BinaryExpr)
+7 operator='PLUS'
+8 left (BinaryExpr)
+9 operator='PLUS'
+10 left (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getSystemPrefix'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='memo'
+16 right (StringLiteralExpr)
+17 value='t'
+18 right (NameExpr)
+19 name (SimpleName)
+20 identifier='number'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='_number'
+27 value (NameExpr)
+28 name (SimpleName)
+29 identifier='number'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='tc'
+36 value (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getJMRIClientTrafficController'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='memo'
+42 statement (ExpressionStmt)
+43 expression (AssignExpr)
+44 operator='ASSIGN'
+45 target (NameExpr)
+46 name (SimpleName)
+47 identifier='prefix'
+48 value (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getSystemPrefix'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='memo'
+54 statement (ExpressionStmt)
+55 expression (AssignExpr)
+56 operator='ASSIGN'
+57 target (NameExpr)
+58 name (SimpleName)
+59 identifier='transmitName'
+60 value (BinaryExpr)
+61 operator='PLUS'
+62 left (BinaryExpr)
+63 operator='PLUS'
+64 left (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getTransmitPrefix'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='memo'
+70 right (StringLiteralExpr)
+71 value='T'
+72 right (NameExpr)
+73 name (SimpleName)
+74 identifier='number'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='BINARY_OR'
+78 target (NameExpr)
+79 name (SimpleName)
+80 identifier='_validFeedbackTypes'
+81 value (NameExpr)
+82 name (SimpleName)
+83 identifier='MONITORING'
+84 statement (ExpressionStmt)
+85 expression (AssignExpr)
+86 operator='ASSIGN'
+87 target (NameExpr)
+88 name (SimpleName)
+89 identifier='_activeFeedbackType'
+90 value (NameExpr)
+91 name (SimpleName)
+92 identifier='MONITORING'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='setModeInformation'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='_validFeedbackNames'
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='_validFeedbackModes'
+104 statement (ExpressionStmt)
+105 expression (AssignExpr)
+106 operator='ASSIGN'
+107 target (NameExpr)
+108 name (SimpleName)
+109 identifier='_validFeedbackNames'
+110 value (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='getModeNames'
+113 statement (ExpressionStmt)
+114 expression (AssignExpr)
+115 operator='ASSIGN'
+116 target (NameExpr)
+117 name (SimpleName)
+118 identifier='_validFeedbackModes'
+119 value (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='getModeValues'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='addJMRIClientListener'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='tc'
+129 arguments
+130 argument (ThisExpr)
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='requestUpdateFromLayout'
+135 name (SimpleName)
+136 identifier='JMRIClientTurnout'
+137 parameters
+138 parameter (Parameter)
+139 isVarArgs='false'
+140 name (SimpleName)
+141 identifier='number'
+142 type (PrimitiveType)
+143 type='INT'
+144 parameter (Parameter)
+145 isVarArgs='false'
+146 name (SimpleName)
+147 identifier='memo'
+148 type (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='JMRIClientSystemConnectionMemo'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+6 8
+8 9
+8 10
+10 11
+11 12
+10 13
+13 14
+14 15
+8 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+36 39
+39 40
+40 41
+2 42
+42 43
+43 44
+43 45
+45 46
+46 47
+43 48
+48 49
+49 50
+48 51
+51 52
+52 53
+2 54
+54 55
+55 56
+55 57
+57 58
+58 59
+55 60
+60 61
+60 62
+62 63
+62 64
+64 65
+65 66
+64 67
+67 68
+68 69
+62 70
+70 71
+60 72
+72 73
+73 74
+2 75
+75 76
+76 77
+76 78
+78 79
+79 80
+76 81
+81 82
+82 83
+2 84
+84 85
+85 86
+85 87
+87 88
+88 89
+85 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+99 100
+97 101
+101 102
+102 103
+2 104
+104 105
+105 106
+105 107
+107 108
+108 109
+105 110
+110 111
+111 112
+2 113
+113 114
+114 115
+114 116
+116 117
+117 118
+114 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+2 131
+131 132
+132 133
+133 134
+0 135
+135 136
+0 137
+137 138
+138 139
+138 140
+140 141
+138 142
+142 143
+137 144
+144 145
+144 146
+146 147
+144 148
+148 149
+149 150
+
+JMRIClient turnouts use the turnout number on the remote host.

@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='PLUS'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mLoopFrequency'
+9 value (BinaryExpr)
+10 operator='MULTIPLY'
+11 left (NameExpr)
+12 name (SimpleName)
+13 identifier='mBetaGain'
+14 right (NameExpr)
+15 name (SimpleName)
+16 identifier='phase_error'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='PLUS'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='mLoopPhase'
+23 value (BinaryExpr)
+24 operator='PLUS'
+25 left (NameExpr)
+26 name (SimpleName)
+27 identifier='mLoopFrequency'
+28 right (BinaryExpr)
+29 operator='MULTIPLY'
+30 left (NameExpr)
+31 name (SimpleName)
+32 identifier='mAlphaGain'
+33 right (NameExpr)
+34 name (SimpleName)
+35 identifier='phase_error'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='unwrapPhase'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='limitFrequency'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='adjust'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='phase_error'
+52 type (PrimitiveType)
+53 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+9 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+28 30
+30 31
+31 32
+28 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+0 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+
+Updates the costas loop frequency and phase to adjust for the phase error value

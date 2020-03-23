@@ -1,0 +1,88 @@
+43
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='program'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='programBytes'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='parse'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='programBytes'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='creationTimeSeconds'
+26 value (IntegerLiteralExpr)
+27 value='0'
+28 name (SimpleName)
+29 identifier='Script'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='programBytes'
+35 type (ArrayType)
+36 origin='TYPE'
+37 componentType (PrimitiveType)
+38 type='BYTE'
+39 thrownExceptions
+40 thrownException (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='ScriptException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+35 37
+37 38
+0 39
+39 40
+40 41
+41 42
+
+Construct a Script that copies and wraps the programBytes array. The array is parsed and checked for syntactic validity.

@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='i'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Log'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='TAG'
+14 argument (StringLiteralExpr)
+15 value='onSurfaceCreated'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='glClearColor'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='GLES20'
+23 arguments
+24 argument (DoubleLiteralExpr)
+25 value='1f'
+26 argument (DoubleLiteralExpr)
+27 value='1f'
+28 argument (DoubleLiteralExpr)
+29 value='0f'
+30 argument (DoubleLiteralExpr)
+31 value='1f'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (NameExpr)
+36 name (SimpleName)
+37 identifier='mSphere'
+38 value (ObjectCreationExpr)
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Sphere'
+42 arguments
+43 argument (ThisExpr)
+44 argument (IntegerLiteralExpr)
+45 value='50'
+46 argument (DoubleLiteralExpr)
+47 value='5f'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='loadTexture'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='mSphere'
+55 arguments
+56 argument (ThisExpr)
+57 argument (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getPhotoIndex'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='checkGLError'
+64 arguments
+65 argument (StringLiteralExpr)
+66 value='onSurfaceCreated'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='onSurfaceCreated'
+70 parameters
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='config'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='EGLConfig'
+78 annotations
+79 annotation (MarkerAnnotationExpr)
+80 name (Name)
+81 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+23 28
+28 29
+23 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+39 40
+40 41
+38 42
+42 43
+42 44
+44 45
+42 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+55 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+0 78
+78 79
+79 80
+80 81
+
+Creates the buffers we use to store information about the 3D world. <p/> <p>OpenGL doesn't use Java arrays, but rather needs data in a format it can understand. Hence we use ByteBuffers.

@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='append'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='src'
+11 argument (IntegerLiteralExpr)
+12 value='0'
+13 argument (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='length'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='src'
+19 type (VoidType)
+20 name (SimpleName)
+21 identifier='append'
+22 parameters
+23 parameter (Parameter)
+24 isVarArgs='false'
+25 name (SimpleName)
+26 identifier='src'
+27 type (ArrayType)
+28 origin='TYPE'
+29 componentType (PrimitiveType)
+30 type='BYTE'
+31 annotations
+32 annotation (NormalAnnotationExpr)
+33 name (Name)
+34 identifier='DSGenerator'
+35 pairs
+36 pair (MemberValuePair)
+37 name (SimpleName)
+38 identifier='tool_name'
+39 value (StringLiteralExpr)
+40 value='Doppelganger'
+41 pair (MemberValuePair)
+42 name (SimpleName)
+43 identifier='tool_version'
+44 value (StringLiteralExpr)
+45 value='2.0'
+46 pair (MemberValuePair)
+47 name (SimpleName)
+48 identifier='generated_on'
+49 value (StringLiteralExpr)
+50 value='2013-12-30 13:01:13.414 -0500'
+51 pair (MemberValuePair)
+52 name (SimpleName)
+53 identifier='hash_original_method'
+54 value (StringLiteralExpr)
+55 value='AF6CB8DBEC021FC7528B8ED3F8431D0F'
+56 pair (MemberValuePair)
+57 name (SimpleName)
+58 identifier='hash_generated_method'
+59 value (StringLiteralExpr)
+60 value='3F30D4B06EC9993AD7D54869C3336761'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+7 13
+13 14
+14 15
+13 16
+16 17
+17 18
+0 19
+0 20
+20 21
+0 22
+22 23
+23 24
+23 25
+25 26
+23 27
+27 28
+27 29
+29 30
+0 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+36 39
+39 40
+35 41
+41 42
+42 43
+41 44
+44 45
+35 46
+46 47
+47 48
+46 49
+49 50
+35 51
+51 52
+52 53
+51 54
+54 55
+35 56
+56 57
+57 58
+56 59
+59 60
+
+Appends the income data to be read by handshake protocol. The attempts to overflow the buffer by means of this methods seem to be futile because of: 1. The SSL protocol specifies the maximum size of the record and record protocol does not pass huge messages. (see TLS v1 specification http://www.ietf.org/rfc/rfc2246.txt , p 6.2) 2. After each call of this method, handshake protocol should start (and starts) the operations on received data and recognize the fake data if such was provided (to check the size of certificate for example).

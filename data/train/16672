@@ -1,0 +1,512 @@
+255
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='acronymList'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='NodeList'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='testNode'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Node'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='attributes'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='NamedNodeMap'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 name (SimpleName)
+44 identifier='titleAttr'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Attr'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 name (SimpleName)
+53 identifier='value'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 name (SimpleName)
+62 identifier='textNode'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Text'
+66 statement (ExpressionStmt)
+67 expression (VariableDeclarationExpr)
+68 variables
+69 variable (VariableDeclarator)
+70 name (SimpleName)
+71 identifier='otherChild'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Node'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='ASSIGN'
+78 target (NameExpr)
+79 name (SimpleName)
+80 identifier='doc'
+81 value (CastExpr)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='load'
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='hc_staff'
+88 argument (BooleanLiteralExpr)
+89 value='true'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='Document'
+93 statement (ExpressionStmt)
+94 expression (AssignExpr)
+95 operator='ASSIGN'
+96 target (NameExpr)
+97 name (SimpleName)
+98 identifier='acronymList'
+99 value (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getElementsByTagName'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='doc'
+105 arguments
+106 argument (StringLiteralExpr)
+107 value='acronym'
+108 statement (ExpressionStmt)
+109 expression (AssignExpr)
+110 operator='ASSIGN'
+111 target (NameExpr)
+112 name (SimpleName)
+113 identifier='testNode'
+114 value (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='item'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='acronymList'
+120 arguments
+121 argument (IntegerLiteralExpr)
+122 value='3'
+123 statement (ExpressionStmt)
+124 expression (AssignExpr)
+125 operator='ASSIGN'
+126 target (NameExpr)
+127 name (SimpleName)
+128 identifier='attributes'
+129 value (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='getAttributes'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='testNode'
+135 statement (ExpressionStmt)
+136 expression (AssignExpr)
+137 operator='ASSIGN'
+138 target (NameExpr)
+139 name (SimpleName)
+140 identifier='titleAttr'
+141 value (CastExpr)
+142 expression (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='getNamedItem'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='attributes'
+148 arguments
+149 argument (StringLiteralExpr)
+150 value='title'
+151 type (ClassOrInterfaceType)
+152 name (SimpleName)
+153 identifier='Attr'
+154 statement (ExpressionStmt)
+155 expression (AssignExpr)
+156 operator='ASSIGN'
+157 target (NameExpr)
+158 name (SimpleName)
+159 identifier='textNode'
+160 value (CastExpr)
+161 expression (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='getFirstChild'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='titleAttr'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='Text'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='assertNotNull'
+174 arguments
+175 argument (StringLiteralExpr)
+176 value='textNodeNotNull'
+177 argument (NameExpr)
+178 name (SimpleName)
+179 identifier='textNode'
+180 statement (ExpressionStmt)
+181 expression (AssignExpr)
+182 operator='ASSIGN'
+183 target (NameExpr)
+184 name (SimpleName)
+185 identifier='value'
+186 value (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='getNodeValue'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='textNode'
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='assertEquals'
+196 arguments
+197 argument (StringLiteralExpr)
+198 value='child1IsYes'
+199 argument (StringLiteralExpr)
+200 value='Yes'
+201 argument (NameExpr)
+202 name (SimpleName)
+203 identifier='value'
+204 statement (ExpressionStmt)
+205 expression (AssignExpr)
+206 operator='ASSIGN'
+207 target (NameExpr)
+208 name (SimpleName)
+209 identifier='otherChild'
+210 value (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='getNextSibling'
+213 scope (NameExpr)
+214 name (SimpleName)
+215 identifier='textNode'
+216 statement (ExpressionStmt)
+217 expression (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='assertNull'
+220 arguments
+221 argument (StringLiteralExpr)
+222 value='nextSiblingIsNull'
+223 argument (NameExpr)
+224 name (SimpleName)
+225 identifier='otherChild'
+226 statement (ExpressionStmt)
+227 expression (AssignExpr)
+228 operator='ASSIGN'
+229 target (NameExpr)
+230 name (SimpleName)
+231 identifier='otherChild'
+232 value (MethodCallExpr)
+233 name (SimpleName)
+234 identifier='getPreviousSibling'
+235 scope (NameExpr)
+236 name (SimpleName)
+237 identifier='textNode'
+238 statement (ExpressionStmt)
+239 expression (MethodCallExpr)
+240 name (SimpleName)
+241 identifier='assertNull'
+242 arguments
+243 argument (StringLiteralExpr)
+244 value='previousSiblingIsNull'
+245 argument (NameExpr)
+246 name (SimpleName)
+247 identifier='otherChild'
+248 type (VoidType)
+249 name (SimpleName)
+250 identifier='runTest'
+251 thrownExceptions
+252 thrownException (ClassOrInterfaceType)
+253 name (SimpleName)
+254 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+76 78
+78 79
+79 80
+76 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+81 90
+90 91
+91 92
+2 93
+93 94
+94 95
+94 96
+96 97
+97 98
+94 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+2 108
+108 109
+109 110
+109 111
+111 112
+112 113
+109 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+2 123
+123 124
+124 125
+124 126
+126 127
+127 128
+124 129
+129 130
+130 131
+129 132
+132 133
+133 134
+2 135
+135 136
+136 137
+136 138
+138 139
+139 140
+136 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+141 151
+151 152
+152 153
+2 154
+154 155
+155 156
+155 157
+157 158
+158 159
+155 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+160 167
+167 168
+168 169
+2 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+174 177
+177 178
+178 179
+2 180
+180 181
+181 182
+181 183
+183 184
+184 185
+181 186
+186 187
+187 188
+186 189
+189 190
+190 191
+2 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+196 199
+199 200
+196 201
+201 202
+202 203
+2 204
+204 205
+205 206
+205 207
+207 208
+208 209
+205 210
+210 211
+211 212
+210 213
+213 214
+214 215
+2 216
+216 217
+217 218
+218 219
+217 220
+220 221
+221 222
+220 223
+223 224
+224 225
+2 226
+226 227
+227 228
+227 229
+229 230
+230 231
+227 232
+232 233
+233 234
+232 235
+235 236
+236 237
+2 238
+238 239
+239 240
+240 241
+239 242
+242 243
+243 244
+242 245
+245 246
+246 247
+0 248
+0 249
+249 250
+0 251
+251 252
+252 253
+253 254
+
+Runs the test case.

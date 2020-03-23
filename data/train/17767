@@ -1,0 +1,60 @@
+29
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='invokeInEveryVM'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Invoke'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='connectDistributedSystem'
+13 argument (NullLiteralExpr)
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='connectDistributedSystem'
+18 type (VoidType)
+19 name (SimpleName)
+20 identifier='postSetUp'
+21 thrownExceptions
+22 thrownException (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Exception'
+25 annotations
+26 annotation (MarkerAnnotationExpr)
+27 name (Name)
+28 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+2 14
+14 15
+15 16
+16 17
+0 18
+0 19
+19 20
+0 21
+21 22
+22 23
+23 24
+0 25
+25 26
+26 27
+27 28
+
+Returns a previously created (or new, if this is the first time this method is called in this VM) distributed system which is somewhat configurable via hydra test parameters.

@@ -1,0 +1,162 @@
+80
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='info'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='logger'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='Initializing webServlets...'
+13 statement (ForeachStmt)
+14 body (BlockStmt)
+15 statements
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='info'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='logger'
+23 arguments
+24 argument (BinaryExpr)
+25 operator='PLUS'
+26 left (StringLiteralExpr)
+27 value=' - webServlet : '
+28 right (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getName'
+31 scope (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getClass'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='webServlet'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='install'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='server'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='webServlet'
+48 iterable (NameExpr)
+49 name (SimpleName)
+50 identifier='registeredClass'
+51 variable (VariableDeclarationExpr)
+52 variables
+53 variable (VariableDeclarator)
+54 name (SimpleName)
+55 identifier='webServlet'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='WebServlet'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='info'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='logger'
+66 arguments
+67 argument (StringLiteralExpr)
+68 value='WebServlets initialized.'
+69 type (VoidType)
+70 name (SimpleName)
+71 identifier='installAll'
+72 parameters
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='server'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='TomcatServer'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+15 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+13 48
+48 49
+49 50
+13 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+0 69
+0 70
+70 71
+0 72
+72 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+
+Install all registered WebServices in Server.

@@ -1,0 +1,246 @@
+122
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 statement (ExpressionStmt)
+6 expression (AssignExpr)
+7 operator='ASSIGN'
+8 target (NameExpr)
+9 name (SimpleName)
+10 identifier='iChronology'
+11 value (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='checkChronology'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='chronology'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getDateTimeMillis'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='iChronology'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='year'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='monthOfYear'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='dayOfMonth'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='hourOfDay'
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='minuteOfHour'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='secondOfMinute'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='millisOfSecond'
+50 name (SimpleName)
+51 identifier='instant'
+52 type (PrimitiveType)
+53 type='LONG'
+54 statement (ExpressionStmt)
+55 expression (AssignExpr)
+56 operator='ASSIGN'
+57 target (NameExpr)
+58 name (SimpleName)
+59 identifier='iMillis'
+60 value (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='checkInstant'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='instant'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='iChronology'
+70 name (SimpleName)
+71 identifier='BaseDateTime'
+72 parameters
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='year'
+77 type (PrimitiveType)
+78 type='INT'
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='monthOfYear'
+83 type (PrimitiveType)
+84 type='INT'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='dayOfMonth'
+89 type (PrimitiveType)
+90 type='INT'
+91 parameter (Parameter)
+92 isVarArgs='false'
+93 name (SimpleName)
+94 identifier='hourOfDay'
+95 type (PrimitiveType)
+96 type='INT'
+97 parameter (Parameter)
+98 isVarArgs='false'
+99 name (SimpleName)
+100 identifier='minuteOfHour'
+101 type (PrimitiveType)
+102 type='INT'
+103 parameter (Parameter)
+104 isVarArgs='false'
+105 name (SimpleName)
+106 identifier='secondOfMinute'
+107 type (PrimitiveType)
+108 type='INT'
+109 parameter (Parameter)
+110 isVarArgs='false'
+111 name (SimpleName)
+112 identifier='millisOfSecond'
+113 type (PrimitiveType)
+114 type='INT'
+115 parameter (Parameter)
+116 isVarArgs='false'
+117 name (SimpleName)
+118 identifier='chronology'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='Chronology'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+6 8
+8 9
+9 10
+6 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+28 35
+35 36
+36 37
+28 38
+38 39
+39 40
+28 41
+41 42
+42 43
+28 44
+44 45
+45 46
+28 47
+47 48
+48 49
+21 50
+50 51
+21 52
+52 53
+2 54
+54 55
+55 56
+55 57
+57 58
+58 59
+55 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+0 70
+70 71
+0 72
+72 73
+73 74
+73 75
+75 76
+73 77
+77 78
+72 79
+79 80
+79 81
+81 82
+79 83
+83 84
+72 85
+85 86
+85 87
+87 88
+85 89
+89 90
+72 91
+91 92
+91 93
+93 94
+91 95
+95 96
+72 97
+97 98
+97 99
+99 100
+97 101
+101 102
+72 103
+103 104
+103 105
+105 106
+103 107
+107 108
+72 109
+109 110
+109 111
+111 112
+109 113
+113 114
+72 115
+115 116
+115 117
+117 118
+115 119
+119 120
+120 121
+
+Constructs an instance from datetime field values using the specified chronology. <p/> If the chronology is null, <code>ISOChronology</code> in the default time zone is used.

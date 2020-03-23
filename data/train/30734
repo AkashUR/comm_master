@@ -1,0 +1,254 @@
+126
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='updateCursorCounter'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ipBox'
+10 statement (ExpressionStmt)
+11 expression (AssignExpr)
+12 operator='ASSIGN'
+13 target (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='displayString'
+16 scope (EnclosedExpr)
+17 inner (CastExpr)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='get'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='buttonList'
+24 arguments
+25 argument (IntegerLiteralExpr)
+26 value='0'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='GuiButton'
+30 value (ConditionalExpr)
+31 condition (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='isRunning'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='state'
+37 elseExpr (StringLiteralExpr)
+38 value='Search'
+39 thenExpr (StringLiteralExpr)
+40 value='Cancel'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='setEnabled'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='ipBox'
+48 arguments
+49 argument (UnaryExpr)
+50 operator='LOGICAL_COMPLEMENT'
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='isRunning'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='state'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='setEnabled'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='maxThreadsBox'
+64 arguments
+65 argument (UnaryExpr)
+66 operator='LOGICAL_COMPLEMENT'
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='isRunning'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='state'
+73 statement (ExpressionStmt)
+74 expression (AssignExpr)
+75 operator='ASSIGN'
+76 target (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='enabled'
+79 scope (EnclosedExpr)
+80 inner (CastExpr)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='get'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='buttonList'
+87 arguments
+88 argument (IntegerLiteralExpr)
+89 value='0'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='GuiButton'
+93 value (BinaryExpr)
+94 operator='AND'
+95 left (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='isInteger'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='MiscUtils'
+101 arguments
+102 argument (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='getText'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='maxThreadsBox'
+108 right (UnaryExpr)
+109 operator='LOGICAL_COMPLEMENT'
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='isEmpty'
+113 scope (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='getText'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='ipBox'
+119 type (VoidType)
+120 name (SimpleName)
+121 identifier='updateScreen'
+122 annotations
+123 annotation (MarkerAnnotationExpr)
+124 name (Name)
+125 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+11 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+17 27
+27 28
+28 29
+11 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+30 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+49 51
+51 52
+52 53
+51 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+58 64
+64 65
+65 66
+65 67
+67 68
+68 69
+67 70
+70 71
+71 72
+2 73
+73 74
+74 75
+74 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+80 90
+90 91
+91 92
+74 93
+93 94
+93 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+93 108
+108 109
+108 110
+110 111
+111 112
+110 113
+113 114
+114 115
+113 116
+116 117
+117 118
+0 119
+0 120
+120 121
+0 122
+122 123
+123 124
+124 125
+
+Called from the main game loop to update the screen.

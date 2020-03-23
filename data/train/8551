@@ -1,0 +1,904 @@
+451
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='run'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='SiteImpl'
+24 name (SimpleName)
+25 identifier='mockSite'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Site'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (ObjectCreationExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='PageImpl'
+37 name (SimpleName)
+38 identifier='mockPage1'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Page'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='setURL'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='mockPage1'
+49 arguments
+50 argument (StringLiteralExpr)
+51 value='http://my.testUrl1.org'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='PageImpl'
+60 name (SimpleName)
+61 identifier='mockPage2'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='Page'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='setURL'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='mockPage2'
+72 arguments
+73 argument (StringLiteralExpr)
+74 value='http://my.testUrl2.org'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='addChild'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='mockSite'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='mockPage1'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='addChild'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='mockSite'
+93 arguments
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='mockPage2'
+97 statement (ExpressionStmt)
+98 expression (VariableDeclarationExpr)
+99 variables
+100 variable (VariableDeclarator)
+101 initializer (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='createMock'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='EasyMock'
+107 arguments
+108 argument (ClassExpr)
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='ContentDataService'
+112 name (SimpleName)
+113 identifier='mockContentDataService'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='ContentDataService'
+117 statement (ExpressionStmt)
+118 expression (VariableDeclarationExpr)
+119 variables
+120 variable (VariableDeclarator)
+121 initializer (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='createMock'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='EasyMock'
+127 arguments
+128 argument (ClassExpr)
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='SSP'
+132 name (SimpleName)
+133 identifier='mockSSP'
+134 type (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='SSP'
+137 statement (ExpressionStmt)
+138 expression (VariableDeclarationExpr)
+139 variables
+140 variable (VariableDeclarator)
+141 initializer (ObjectCreationExpr)
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='Date'
+145 name (SimpleName)
+146 identifier='date'
+147 type (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='Date'
+150 statement (ExpressionStmt)
+151 expression (VariableDeclarationExpr)
+152 variables
+153 variable (VariableDeclarator)
+154 initializer (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='createMock'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='EasyMock'
+160 arguments
+161 argument (ClassExpr)
+162 type (ClassOrInterfaceType)
+163 name (SimpleName)
+164 identifier='DateFactory'
+165 name (SimpleName)
+166 identifier='mockDateFactory'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='DateFactory'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='times'
+174 scope (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='andReturn'
+177 scope (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='expect'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='EasyMock'
+183 arguments
+184 argument (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='createDate'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='mockDateFactory'
+190 arguments
+191 argument (NameExpr)
+192 name (SimpleName)
+193 identifier='date'
+194 arguments
+195 argument (IntegerLiteralExpr)
+196 value='2'
+197 statement (ExpressionStmt)
+198 expression (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='once'
+201 scope (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='andReturn'
+204 scope (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='expect'
+207 scope (NameExpr)
+208 name (SimpleName)
+209 identifier='EasyMock'
+210 arguments
+211 argument (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='getSSP'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='mockContentDataService'
+217 arguments
+218 argument (NameExpr)
+219 name (SimpleName)
+220 identifier='date'
+221 argument (StringLiteralExpr)
+222 value='http://my.testUrl1.org'
+223 argument (StringLiteralExpr)
+224 value='My Page Content 1'
+225 argument (NameExpr)
+226 name (SimpleName)
+227 identifier='mockPage1'
+228 argument (FieldAccessExpr)
+229 name (SimpleName)
+230 identifier='SC_OK'
+231 scope (NameExpr)
+232 name (SimpleName)
+233 identifier='HttpStatus'
+234 arguments
+235 argument (NameExpr)
+236 name (SimpleName)
+237 identifier='mockSSP'
+238 statement (ExpressionStmt)
+239 expression (MethodCallExpr)
+240 name (SimpleName)
+241 identifier='once'
+242 scope (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='andReturn'
+245 scope (MethodCallExpr)
+246 name (SimpleName)
+247 identifier='expect'
+248 scope (NameExpr)
+249 name (SimpleName)
+250 identifier='EasyMock'
+251 arguments
+252 argument (MethodCallExpr)
+253 name (SimpleName)
+254 identifier='getSSP'
+255 scope (NameExpr)
+256 name (SimpleName)
+257 identifier='mockContentDataService'
+258 arguments
+259 argument (NameExpr)
+260 name (SimpleName)
+261 identifier='date'
+262 argument (StringLiteralExpr)
+263 value='http://my.testUrl2.org'
+264 argument (StringLiteralExpr)
+265 value='My Page Content 2'
+266 argument (NameExpr)
+267 name (SimpleName)
+268 identifier='mockPage2'
+269 argument (FieldAccessExpr)
+270 name (SimpleName)
+271 identifier='SC_OK'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='HttpStatus'
+275 arguments
+276 argument (NameExpr)
+277 name (SimpleName)
+278 identifier='mockSSP'
+279 statement (ExpressionStmt)
+280 expression (VariableDeclarationExpr)
+281 variables
+282 variable (VariableDeclarator)
+283 initializer (ObjectCreationExpr)
+284 type (ClassOrInterfaceType)
+285 name (SimpleName)
+286 identifier='HashMap'
+287 name (SimpleName)
+288 identifier='fileMap'
+289 type (ClassOrInterfaceType)
+290 name (SimpleName)
+291 identifier='Map'
+292 typeArguments
+293 typeArgument (ClassOrInterfaceType)
+294 name (SimpleName)
+295 identifier='String'
+296 typeArgument (ClassOrInterfaceType)
+297 name (SimpleName)
+298 identifier='String'
+299 statement (ExpressionStmt)
+300 expression (MethodCallExpr)
+301 name (SimpleName)
+302 identifier='put'
+303 scope (NameExpr)
+304 name (SimpleName)
+305 identifier='fileMap'
+306 arguments
+307 argument (StringLiteralExpr)
+308 value='http://my.testUrl1.org'
+309 argument (StringLiteralExpr)
+310 value='My Page Content 1'
+311 statement (ExpressionStmt)
+312 expression (MethodCallExpr)
+313 name (SimpleName)
+314 identifier='put'
+315 scope (NameExpr)
+316 name (SimpleName)
+317 identifier='fileMap'
+318 arguments
+319 argument (StringLiteralExpr)
+320 value='http://my.testUrl2.org'
+321 argument (StringLiteralExpr)
+322 value='My Page Content 2'
+323 statement (ExpressionStmt)
+324 expression (MethodCallExpr)
+325 name (SimpleName)
+326 identifier='replay'
+327 scope (NameExpr)
+328 name (SimpleName)
+329 identifier='EasyMock'
+330 arguments
+331 argument (NameExpr)
+332 name (SimpleName)
+333 identifier='mockSSP'
+334 statement (ExpressionStmt)
+335 expression (MethodCallExpr)
+336 name (SimpleName)
+337 identifier='replay'
+338 scope (NameExpr)
+339 name (SimpleName)
+340 identifier='EasyMock'
+341 arguments
+342 argument (NameExpr)
+343 name (SimpleName)
+344 identifier='mockContentDataService'
+345 statement (ExpressionStmt)
+346 expression (MethodCallExpr)
+347 name (SimpleName)
+348 identifier='replay'
+349 scope (NameExpr)
+350 name (SimpleName)
+351 identifier='EasyMock'
+352 arguments
+353 argument (NameExpr)
+354 name (SimpleName)
+355 identifier='mockDateFactory'
+356 statement (ExpressionStmt)
+357 expression (VariableDeclarationExpr)
+358 variables
+359 variable (VariableDeclarator)
+360 initializer (ObjectCreationExpr)
+361 type (ClassOrInterfaceType)
+362 name (SimpleName)
+363 identifier='FileContentLoaderImpl'
+364 arguments
+365 argument (NameExpr)
+366 name (SimpleName)
+367 identifier='mockContentDataService'
+368 argument (NameExpr)
+369 name (SimpleName)
+370 identifier='fileMap'
+371 argument (NameExpr)
+372 name (SimpleName)
+373 identifier='mockDateFactory'
+374 name (SimpleName)
+375 identifier='instance'
+376 type (ClassOrInterfaceType)
+377 name (SimpleName)
+378 identifier='FileContentLoaderImpl'
+379 statement (ExpressionStmt)
+380 expression (MethodCallExpr)
+381 name (SimpleName)
+382 identifier='setWebResource'
+383 scope (NameExpr)
+384 name (SimpleName)
+385 identifier='instance'
+386 arguments
+387 argument (NameExpr)
+388 name (SimpleName)
+389 identifier='mockSite'
+390 statement (ExpressionStmt)
+391 expression (MethodCallExpr)
+392 name (SimpleName)
+393 identifier='run'
+394 scope (NameExpr)
+395 name (SimpleName)
+396 identifier='instance'
+397 statement (ExpressionStmt)
+398 expression (MethodCallExpr)
+399 name (SimpleName)
+400 identifier='assertTrue'
+401 arguments
+402 argument (MethodCallExpr)
+403 name (SimpleName)
+404 identifier='contains'
+405 scope (MethodCallExpr)
+406 name (SimpleName)
+407 identifier='getResult'
+408 scope (NameExpr)
+409 name (SimpleName)
+410 identifier='instance'
+411 arguments
+412 argument (NameExpr)
+413 name (SimpleName)
+414 identifier='mockSSP'
+415 statement (ExpressionStmt)
+416 expression (MethodCallExpr)
+417 name (SimpleName)
+418 identifier='verify'
+419 scope (NameExpr)
+420 name (SimpleName)
+421 identifier='EasyMock'
+422 arguments
+423 argument (NameExpr)
+424 name (SimpleName)
+425 identifier='mockSSP'
+426 statement (ExpressionStmt)
+427 expression (MethodCallExpr)
+428 name (SimpleName)
+429 identifier='verify'
+430 scope (NameExpr)
+431 name (SimpleName)
+432 identifier='EasyMock'
+433 arguments
+434 argument (NameExpr)
+435 name (SimpleName)
+436 identifier='mockContentDataService'
+437 statement (ExpressionStmt)
+438 expression (MethodCallExpr)
+439 name (SimpleName)
+440 identifier='verify'
+441 scope (NameExpr)
+442 name (SimpleName)
+443 identifier='EasyMock'
+444 arguments
+445 argument (NameExpr)
+446 name (SimpleName)
+447 identifier='mockDateFactory'
+448 type (VoidType)
+449 name (SimpleName)
+450 identifier='testRun1'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+19 24
+24 25
+19 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+32 37
+37 38
+32 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+55 60
+60 61
+55 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+87 93
+93 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+109 110
+110 111
+100 112
+112 113
+100 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+129 130
+130 131
+120 132
+132 133
+120 134
+134 135
+135 136
+2 137
+137 138
+138 139
+139 140
+140 141
+141 142
+142 143
+143 144
+140 145
+145 146
+140 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+154 160
+160 161
+161 162
+162 163
+163 164
+153 165
+165 166
+153 167
+167 168
+168 169
+2 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+174 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+174 190
+190 191
+191 192
+192 193
+171 194
+194 195
+195 196
+2 197
+197 198
+198 199
+199 200
+198 201
+201 202
+202 203
+201 204
+204 205
+205 206
+204 207
+207 208
+208 209
+204 210
+210 211
+211 212
+212 213
+211 214
+214 215
+215 216
+211 217
+217 218
+218 219
+219 220
+217 221
+221 222
+217 223
+223 224
+217 225
+225 226
+226 227
+217 228
+228 229
+229 230
+228 231
+231 232
+232 233
+201 234
+234 235
+235 236
+236 237
+2 238
+238 239
+239 240
+240 241
+239 242
+242 243
+243 244
+242 245
+245 246
+246 247
+245 248
+248 249
+249 250
+245 251
+251 252
+252 253
+253 254
+252 255
+255 256
+256 257
+252 258
+258 259
+259 260
+260 261
+258 262
+262 263
+258 264
+264 265
+258 266
+266 267
+267 268
+258 269
+269 270
+270 271
+269 272
+272 273
+273 274
+242 275
+275 276
+276 277
+277 278
+2 279
+279 280
+280 281
+281 282
+282 283
+283 284
+284 285
+285 286
+282 287
+287 288
+282 289
+289 290
+290 291
+289 292
+292 293
+293 294
+294 295
+292 296
+296 297
+297 298
+2 299
+299 300
+300 301
+301 302
+300 303
+303 304
+304 305
+300 306
+306 307
+307 308
+306 309
+309 310
+2 311
+311 312
+312 313
+313 314
+312 315
+315 316
+316 317
+312 318
+318 319
+319 320
+318 321
+321 322
+2 323
+323 324
+324 325
+325 326
+324 327
+327 328
+328 329
+324 330
+330 331
+331 332
+332 333
+2 334
+334 335
+335 336
+336 337
+335 338
+338 339
+339 340
+335 341
+341 342
+342 343
+343 344
+2 345
+345 346
+346 347
+347 348
+346 349
+349 350
+350 351
+346 352
+352 353
+353 354
+354 355
+2 356
+356 357
+357 358
+358 359
+359 360
+360 361
+361 362
+362 363
+360 364
+364 365
+365 366
+366 367
+364 368
+368 369
+369 370
+364 371
+371 372
+372 373
+359 374
+374 375
+359 376
+376 377
+377 378
+2 379
+379 380
+380 381
+381 382
+380 383
+383 384
+384 385
+380 386
+386 387
+387 388
+388 389
+2 390
+390 391
+391 392
+392 393
+391 394
+394 395
+395 396
+2 397
+397 398
+398 399
+399 400
+398 401
+401 402
+402 403
+403 404
+402 405
+405 406
+406 407
+405 408
+408 409
+409 410
+402 411
+411 412
+412 413
+413 414
+2 415
+415 416
+416 417
+417 418
+416 419
+419 420
+420 421
+416 422
+422 423
+423 424
+424 425
+2 426
+426 427
+427 428
+428 429
+427 430
+430 431
+431 432
+427 433
+433 434
+434 435
+435 436
+2 437
+437 438
+438 439
+439 440
+438 441
+441 442
+442 443
+438 444
+444 445
+445 446
+446 447
+0 448
+0 449
+449 450
+
+Test of run method, of class FileContentLoaderImpl.

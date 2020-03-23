@@ -1,0 +1,214 @@
+106
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addCylinder'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='x'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='y'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='z'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='radius'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='length'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='segments'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='baseScale'
+29 argument (DoubleLiteralExpr)
+30 value='0.0F'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='baseDirection'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='textureCircleDiameterW'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='textureCircleDiameterH'
+40 argument (IntegerLiteralExpr)
+41 value='1'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='addCone'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='x'
+50 type (PrimitiveType)
+51 type='FLOAT'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='y'
+56 type (PrimitiveType)
+57 type='FLOAT'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='z'
+62 type (PrimitiveType)
+63 type='FLOAT'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='radius'
+68 type (PrimitiveType)
+69 type='FLOAT'
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='length'
+74 type (PrimitiveType)
+75 type='FLOAT'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='segments'
+80 type (PrimitiveType)
+81 type='INT'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='baseScale'
+86 type (PrimitiveType)
+87 type='FLOAT'
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='baseDirection'
+92 type (PrimitiveType)
+93 type='INT'
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='textureCircleDiameterW'
+98 type (PrimitiveType)
+99 type='INT'
+100 parameter (Parameter)
+101 isVarArgs='false'
+102 name (SimpleName)
+103 identifier='textureCircleDiameterH'
+104 type (PrimitiveType)
+105 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+24 25
+7 26
+26 27
+27 28
+7 29
+29 30
+7 31
+31 32
+32 33
+7 34
+34 35
+35 36
+7 37
+37 38
+38 39
+7 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+45 52
+52 53
+52 54
+54 55
+52 56
+56 57
+45 58
+58 59
+58 60
+60 61
+58 62
+62 63
+45 64
+64 65
+64 66
+66 67
+64 68
+68 69
+45 70
+70 71
+70 72
+72 73
+70 74
+74 75
+45 76
+76 77
+76 78
+78 79
+76 80
+80 81
+45 82
+82 83
+82 84
+84 85
+82 86
+86 87
+45 88
+88 89
+88 90
+90 91
+88 92
+92 93
+45 94
+94 95
+94 96
+96 97
+94 98
+98 99
+45 100
+100 101
+100 102
+102 103
+100 104
+104 105
+
+Adds a cone. baseScale cannot be zero. If it is, it will automatically be set to 1F. Setting the baseDirection to either MR_LEFT, MR_BOTTOM or MR_BACK will result in the top being placed at the (x,y,z). The textures for the sides are placed next to each other.

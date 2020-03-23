@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='write'
+7 scope (ThisExpr)
+8 classExpr (NameExpr)
+9 name (SimpleName)
+10 identifier='CompressibleRatingPreferencesFormat'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='prefData'
+15 argument (ObjectCreationExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='FileOutputStream'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='up'
+23 argument (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='FileOutputStream'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='ip'
+31 type (VoidType)
+32 name (SimpleName)
+33 identifier='write'
+34 parameters
+35 parameter (Parameter)
+36 isVarArgs='false'
+37 name (SimpleName)
+38 identifier='prefData'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='FastPreferenceData'
+42 typeArguments
+43 typeArgument (WildcardType)
+44 typeArgument (WildcardType)
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='up'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='ip'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+59 thrownExceptions
+60 thrownException (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='FileNotFoundException'
+63 thrownException (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+4 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+21 22
+11 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+29 30
+0 31
+0 32
+32 33
+0 34
+34 35
+35 36
+35 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+42 44
+34 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+34 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+0 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+
+Saves a PreferenceData instance in two files for user and item preferences, respectively. The format of the user preferences file consists on one list per line, starting with the identifier of the user followed by the identifier-rating pairs of the items related to that. The item preferences file follows the same format by swapping the roles of users and items.

@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (ArrayAccessExpr)
+7 index (NameExpr)
+8 name (SimpleName)
+9 identifier='mBufferIn'
+10 name (NameExpr)
+11 name (SimpleName)
+12 identifier='mTimestamps'
+13 value (NameExpr)
+14 name (SimpleName)
+15 identifier='timestamp'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setLong'
+20 arguments
+21 argument (ArrayAccessExpr)
+22 index (NameExpr)
+23 name (SimpleName)
+24 identifier='mBufferIn'
+25 name (NameExpr)
+26 name (SimpleName)
+27 identifier='mBuffers'
+28 argument (BinaryExpr)
+29 operator='DIVIDE'
+30 left (BinaryExpr)
+31 operator='MULTIPLY'
+32 left (EnclosedExpr)
+33 inner (BinaryExpr)
+34 operator='DIVIDE'
+35 left (NameExpr)
+36 name (SimpleName)
+37 identifier='timestamp'
+38 right (LongLiteralExpr)
+39 value='100L'
+40 right (EnclosedExpr)
+41 inner (BinaryExpr)
+42 operator='DIVIDE'
+43 left (NameExpr)
+44 name (SimpleName)
+45 identifier='mClock'
+46 right (LongLiteralExpr)
+47 value='1000L'
+48 right (LongLiteralExpr)
+49 value='10000L'
+50 argument (IntegerLiteralExpr)
+51 value='4'
+52 argument (IntegerLiteralExpr)
+53 value='8'
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='updateTimestamp'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='timestamp'
+62 type (PrimitiveType)
+63 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+8 9
+6 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+20 28
+28 29
+28 30
+30 31
+30 32
+32 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+30 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+28 48
+48 49
+20 50
+50 51
+20 52
+52 53
+0 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+
+Overwrites the timestamp in the packet.

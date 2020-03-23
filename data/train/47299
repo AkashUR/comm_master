@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='MINUS'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='m_firstFree'
+9 value (IntegerLiteralExpr)
+10 value='2'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (ArrayAccessExpr)
+15 index (NameExpr)
+16 name (SimpleName)
+17 identifier='m_firstFree'
+18 name (NameExpr)
+19 name (SimpleName)
+20 identifier='m_map'
+21 value (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='NULL'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='DTM'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (ArrayAccessExpr)
+31 index (BinaryExpr)
+32 operator='PLUS'
+33 left (NameExpr)
+34 name (SimpleName)
+35 identifier='m_firstFree'
+36 right (IntegerLiteralExpr)
+37 value='1'
+38 name (NameExpr)
+39 name (SimpleName)
+40 identifier='m_map'
+41 value (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='NULL'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='DTM'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='popPair'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+12 21
+21 22
+22 23
+21 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+30 38
+38 39
+39 40
+28 41
+41 42
+42 43
+41 44
+44 45
+45 46
+0 47
+0 48
+48 49
+
+Pop a pair of nodes from the tail of the stack. Special purpose method for TransformerImpl, pushElemTemplateElement. Performance critical.

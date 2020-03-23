@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='write'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='os'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='QUOTE'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='ParameterWriter'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='write'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='os'
+24 arguments
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='dateToByte'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='formatMicroseconds'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='ParameterWriter'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='os'
+39 argument (BinaryExpr)
+40 operator='DIVIDE'
+41 left (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getNanos'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='ts'
+47 right (IntegerLiteralExpr)
+48 value='1000'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='fractionalSeconds'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='write'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='os'
+59 arguments
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='QUOTE'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='ParameterWriter'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='writeTo'
+69 parameters
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='os'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='PacketOutputStream'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+35 39
+39 40
+39 41
+41 42
+42 43
+41 44
+44 45
+45 46
+39 47
+47 48
+35 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+70 72
+72 73
+70 74
+74 75
+75 76
+
+Write timestamps to outputStream.

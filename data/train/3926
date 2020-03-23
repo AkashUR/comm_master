@@ -1,0 +1,760 @@
+379
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='clientgui'
+9 statement (ExpressionStmt)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='addGameListener'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getGame'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getClient'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='clientgui'
+22 arguments
+23 argument (ThisExpr)
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='addBoardViewListener'
+28 scope (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getBoardView'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='clientgui'
+34 arguments
+35 argument (ThisExpr)
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (NameExpr)
+40 name (SimpleName)
+41 identifier='shiftheld'
+42 value (BooleanLiteralExpr)
+43 value='false'
+44 statement (ExpressionStmt)
+45 expression (AssignExpr)
+46 operator='ASSIGN'
+47 target (NameExpr)
+48 name (SimpleName)
+49 identifier='attacks'
+50 value (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Vector'
+54 typeArguments
+55 typeArgument (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='AbstractEntityAction'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='setupStatusBar'
+62 arguments
+63 argument (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getString'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='Messages'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='FiringDisplay.waitingForFiringPhase'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (NameExpr)
+76 name (SimpleName)
+77 identifier='buttons'
+78 value (ObjectCreationExpr)
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='HashMap'
+82 typeArguments
+83 typeArgument (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='FiringCommand'
+86 typeArgument (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='MegamekButton'
+89 arguments
+90 argument (CastExpr)
+91 expression (EnclosedExpr)
+92 inner (BinaryExpr)
+93 operator='PLUS'
+94 left (BinaryExpr)
+95 operator='MULTIPLY'
+96 left (FieldAccessExpr)
+97 name (SimpleName)
+98 identifier='length'
+99 scope (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='values'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='FiringCommand'
+105 right (DoubleLiteralExpr)
+106 value='1.25'
+107 right (DoubleLiteralExpr)
+108 value='0.5'
+109 type (PrimitiveType)
+110 type='INT'
+111 statement (ForeachStmt)
+112 body (BlockStmt)
+113 statements
+114 statement (ExpressionStmt)
+115 expression (VariableDeclarationExpr)
+116 variables
+117 variable (VariableDeclarator)
+118 initializer (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='getString'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='Messages'
+124 arguments
+125 argument (BinaryExpr)
+126 operator='PLUS'
+127 left (StringLiteralExpr)
+128 value='FiringDisplay.'
+129 right (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='getCmd'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='cmd'
+135 name (SimpleName)
+136 identifier='title'
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='String'
+140 statement (ExpressionStmt)
+141 expression (VariableDeclarationExpr)
+142 variables
+143 variable (VariableDeclarator)
+144 initializer (ObjectCreationExpr)
+145 type (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='MegamekButton'
+148 arguments
+149 argument (NameExpr)
+150 name (SimpleName)
+151 identifier='title'
+152 argument (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='getComp'
+155 scope (FieldAccessExpr)
+156 name (SimpleName)
+157 identifier='PhaseDisplayButton'
+158 scope (FieldAccessExpr)
+159 name (SimpleName)
+160 identifier='UIComponents'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='SkinSpecification'
+164 name (SimpleName)
+165 identifier='newButton'
+166 type (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='MegamekButton'
+169 statement (ExpressionStmt)
+170 expression (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='addActionListener'
+173 scope (NameExpr)
+174 name (SimpleName)
+175 identifier='newButton'
+176 arguments
+177 argument (ThisExpr)
+178 statement (ExpressionStmt)
+179 expression (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='setActionCommand'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='newButton'
+185 arguments
+186 argument (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='getCmd'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='cmd'
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='setEnabled'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='newButton'
+199 arguments
+200 argument (BooleanLiteralExpr)
+201 value='false'
+202 statement (ExpressionStmt)
+203 expression (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='put'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='buttons'
+209 arguments
+210 argument (NameExpr)
+211 name (SimpleName)
+212 identifier='cmd'
+213 argument (NameExpr)
+214 name (SimpleName)
+215 identifier='newButton'
+216 iterable (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='values'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='FiringCommand'
+222 variable (VariableDeclarationExpr)
+223 variables
+224 variable (VariableDeclarator)
+225 name (SimpleName)
+226 identifier='cmd'
+227 type (ClassOrInterfaceType)
+228 name (SimpleName)
+229 identifier='FiringCommand'
+230 statement (ExpressionStmt)
+231 expression (AssignExpr)
+232 operator='ASSIGN'
+233 target (NameExpr)
+234 name (SimpleName)
+235 identifier='numButtonGroups'
+236 value (CastExpr)
+237 expression (MethodCallExpr)
+238 name (SimpleName)
+239 identifier='ceil'
+240 scope (NameExpr)
+241 name (SimpleName)
+242 identifier='Math'
+243 arguments
+244 argument (BinaryExpr)
+245 operator='DIVIDE'
+246 left (EnclosedExpr)
+247 inner (BinaryExpr)
+248 operator='PLUS'
+249 left (MethodCallExpr)
+250 name (SimpleName)
+251 identifier='size'
+252 scope (NameExpr)
+253 name (SimpleName)
+254 identifier='buttons'
+255 right (DoubleLiteralExpr)
+256 value='0.0'
+257 right (NameExpr)
+258 name (SimpleName)
+259 identifier='buttonsPerGroup'
+260 type (PrimitiveType)
+261 type='INT'
+262 statement (ExpressionStmt)
+263 expression (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='setText'
+266 scope (NameExpr)
+267 name (SimpleName)
+268 identifier='butDone'
+269 arguments
+270 argument (BinaryExpr)
+271 operator='PLUS'
+272 left (BinaryExpr)
+273 operator='PLUS'
+274 left (StringLiteralExpr)
+275 value='<html><b>'
+276 right (MethodCallExpr)
+277 name (SimpleName)
+278 identifier='getString'
+279 scope (NameExpr)
+280 name (SimpleName)
+281 identifier='Messages'
+282 arguments
+283 argument (StringLiteralExpr)
+284 value='FiringDisplay.Done'
+285 right (StringLiteralExpr)
+286 value='</b></html>'
+287 statement (ExpressionStmt)
+288 expression (MethodCallExpr)
+289 name (SimpleName)
+290 identifier='setEnabled'
+291 scope (NameExpr)
+292 name (SimpleName)
+293 identifier='butDone'
+294 arguments
+295 argument (BooleanLiteralExpr)
+296 value='false'
+297 statement (ExpressionStmt)
+298 expression (MethodCallExpr)
+299 name (SimpleName)
+300 identifier='layoutScreen'
+301 statement (ExpressionStmt)
+302 expression (MethodCallExpr)
+303 name (SimpleName)
+304 identifier='setupButtonPanel'
+305 statement (ExpressionStmt)
+306 expression (MethodCallExpr)
+307 name (SimpleName)
+308 identifier='addKeyListener'
+309 scope (FieldAccessExpr)
+310 name (SimpleName)
+311 identifier='bv'
+312 scope (NameExpr)
+313 name (SimpleName)
+314 identifier='clientgui'
+315 arguments
+316 argument (ThisExpr)
+317 statement (ExpressionStmt)
+318 expression (MethodCallExpr)
+319 name (SimpleName)
+320 identifier='addListSelectionListener'
+321 scope (FieldAccessExpr)
+322 name (SimpleName)
+323 identifier='weaponList'
+324 scope (FieldAccessExpr)
+325 name (SimpleName)
+326 identifier='wPan'
+327 scope (FieldAccessExpr)
+328 name (SimpleName)
+329 identifier='mechD'
+330 scope (NameExpr)
+331 name (SimpleName)
+332 identifier='clientgui'
+333 arguments
+334 argument (ThisExpr)
+335 statement (ExpressionStmt)
+336 expression (MethodCallExpr)
+337 name (SimpleName)
+338 identifier='addKeyListener'
+339 scope (FieldAccessExpr)
+340 name (SimpleName)
+341 identifier='weaponList'
+342 scope (FieldAccessExpr)
+343 name (SimpleName)
+344 identifier='wPan'
+345 scope (FieldAccessExpr)
+346 name (SimpleName)
+347 identifier='mechD'
+348 scope (NameExpr)
+349 name (SimpleName)
+350 identifier='clientgui'
+351 arguments
+352 argument (ThisExpr)
+353 statement (ExpressionStmt)
+354 expression (AssignExpr)
+355 operator='ASSIGN'
+356 target (NameExpr)
+357 name (SimpleName)
+358 identifier='ash'
+359 value (ObjectCreationExpr)
+360 type (ClassOrInterfaceType)
+361 name (SimpleName)
+362 identifier='AimedShotHandler'
+363 arguments
+364 argument (ThisExpr)
+365 statement (ExpressionStmt)
+366 expression (MethodCallExpr)
+367 name (SimpleName)
+368 identifier='registerKeyCommands'
+369 name (SimpleName)
+370 identifier='FiringDisplay'
+371 parameters
+372 parameter (Parameter)
+373 isVarArgs='false'
+374 name (SimpleName)
+375 identifier='clientgui'
+376 type (ClassOrInterfaceType)
+377 name (SimpleName)
+378 identifier='ClientGUI'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+10 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+25 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+37 42
+42 43
+2 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+82 86
+86 87
+87 88
+78 89
+89 90
+90 91
+91 92
+92 93
+92 94
+94 95
+94 96
+96 97
+97 98
+96 99
+99 100
+100 101
+99 102
+102 103
+103 104
+94 105
+105 106
+92 107
+107 108
+90 109
+109 110
+2 111
+111 112
+112 113
+113 114
+114 115
+115 116
+116 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+125 127
+127 128
+125 129
+129 130
+130 131
+129 132
+132 133
+133 134
+117 135
+135 136
+117 137
+137 138
+138 139
+113 140
+140 141
+141 142
+142 143
+143 144
+144 145
+145 146
+146 147
+144 148
+148 149
+149 150
+150 151
+148 152
+152 153
+153 154
+152 155
+155 156
+156 157
+155 158
+158 159
+159 160
+158 161
+161 162
+162 163
+143 164
+164 165
+143 166
+166 167
+167 168
+113 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+170 176
+176 177
+113 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+179 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+113 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+193 199
+199 200
+200 201
+113 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+203 209
+209 210
+210 211
+211 212
+209 213
+213 214
+214 215
+111 216
+216 217
+217 218
+216 219
+219 220
+220 221
+111 222
+222 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+2 230
+230 231
+231 232
+231 233
+233 234
+234 235
+231 236
+236 237
+237 238
+238 239
+237 240
+240 241
+241 242
+237 243
+243 244
+244 245
+244 246
+246 247
+247 248
+247 249
+249 250
+250 251
+249 252
+252 253
+253 254
+247 255
+255 256
+244 257
+257 258
+258 259
+236 260
+260 261
+2 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+263 269
+269 270
+270 271
+270 272
+272 273
+272 274
+274 275
+272 276
+276 277
+277 278
+276 279
+279 280
+280 281
+276 282
+282 283
+283 284
+270 285
+285 286
+2 287
+287 288
+288 289
+289 290
+288 291
+291 292
+292 293
+288 294
+294 295
+295 296
+2 297
+297 298
+298 299
+299 300
+2 301
+301 302
+302 303
+303 304
+2 305
+305 306
+306 307
+307 308
+306 309
+309 310
+310 311
+309 312
+312 313
+313 314
+306 315
+315 316
+2 317
+317 318
+318 319
+319 320
+318 321
+321 322
+322 323
+321 324
+324 325
+325 326
+324 327
+327 328
+328 329
+327 330
+330 331
+331 332
+318 333
+333 334
+2 335
+335 336
+336 337
+337 338
+336 339
+339 340
+340 341
+339 342
+342 343
+343 344
+342 345
+345 346
+346 347
+345 348
+348 349
+349 350
+336 351
+351 352
+2 353
+353 354
+354 355
+354 356
+356 357
+357 358
+354 359
+359 360
+360 361
+361 362
+359 363
+363 364
+2 365
+365 366
+366 367
+367 368
+0 369
+369 370
+0 371
+371 372
+372 373
+372 374
+374 375
+372 376
+376 377
+377 378
+
+Creates and lays out a new firing phase display for the specified clientgui.getClient().

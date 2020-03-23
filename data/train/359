@@ -1,0 +1,194 @@
+96
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='variable'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='create'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='Template'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='variable'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='templateValue'
+26 scope (ThisExpr)
+27 value (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='create'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Template'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='value'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='groundValue'
+43 value (ConditionalExpr)
+44 condition (EnclosedExpr)
+45 inner (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='isUnderspecified'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='templateValue'
+51 elseExpr (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='create'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='ValueFactory'
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='value'
+61 thenExpr (NullLiteralExpr)
+62 statement (ExpressionStmt)
+63 expression (AssignExpr)
+64 operator='ASSIGN'
+65 target (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='relation'
+68 scope (ThisExpr)
+69 value (NameExpr)
+70 name (SimpleName)
+71 identifier='relation'
+72 name (SimpleName)
+73 identifier='BasicCondition'
+74 parameters
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='variable'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='String'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='value'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='String'
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='relation'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Relation'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+23 26
+21 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+43 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+59 60
+43 61
+2 62
+62 63
+63 64
+63 65
+65 66
+66 67
+65 68
+63 69
+69 70
+70 71
+0 72
+72 73
+0 74
+74 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+74 82
+82 83
+82 84
+84 85
+82 86
+86 87
+87 88
+74 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+
+Creates a new basic condition, given a variable label, an expected value, and a relation to hold between the variable and its value

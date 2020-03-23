@@ -1,0 +1,164 @@
+81
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='metricWriter'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='writeInterval'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='threadFactory'
+15 argument (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getDefault'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='MetricRegistryImpl'
+21 argument (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='ArrayBlockingQueue'
+25 typeArguments
+26 typeArgument (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Optional'
+29 typeArguments
+30 typeArgument (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='ImmutableList'
+33 typeArguments
+34 typeArgument (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='MetricPoint'
+37 typeArguments
+38 typeArgument (WildcardType)
+39 arguments
+40 argument (IntegerLiteralExpr)
+41 value='1000'
+42 name (SimpleName)
+43 identifier='MetricReporter'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='metricWriter'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='MetricWriter'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='writeInterval'
+56 type (PrimitiveType)
+57 type='LONG'
+58 annotations
+59 annotation (SingleMemberAnnotationExpr)
+60 memberValue (StringLiteralExpr)
+61 value='metricsWriteInterval'
+62 name (Name)
+63 identifier='Named'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='threadFactory'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='ThreadFactory'
+71 annotations
+72 annotation (SingleMemberAnnotationExpr)
+73 memberValue (StringLiteralExpr)
+74 value='metricsBackgroundThreadFactory'
+75 name (Name)
+76 identifier='Named'
+77 annotations
+78 annotation (MarkerAnnotationExpr)
+79 name (Name)
+80 identifier='Inject'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+5 15
+15 16
+16 17
+15 18
+18 19
+19 20
+5 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+35 36
+34 37
+37 38
+21 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+44 52
+52 53
+52 54
+54 55
+52 56
+56 57
+52 58
+58 59
+59 60
+60 61
+59 62
+62 63
+44 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+64 71
+71 72
+72 73
+73 74
+72 75
+75 76
+0 77
+77 78
+78 79
+79 80
+
+Returns a new MetricReporter.

@@ -1,0 +1,462 @@
+230
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='docType'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='DocumentType'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='entities'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='NamedNodeMap'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='notations'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='NamedNodeMap'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 name (SimpleName)
+44 identifier='entity'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Entity'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 name (SimpleName)
+53 identifier='notation'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Notation'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 name (SimpleName)
+62 identifier='entityName'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='String'
+66 statement (ExpressionStmt)
+67 expression (VariableDeclarationExpr)
+68 variables
+69 variable (VariableDeclarator)
+70 name (SimpleName)
+71 identifier='notationName'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='String'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 initializer (NullLiteralExpr)
+80 name (SimpleName)
+81 identifier='nullNS'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='String'
+85 statement (ExpressionStmt)
+86 expression (AssignExpr)
+87 operator='ASSIGN'
+88 target (NameExpr)
+89 name (SimpleName)
+90 identifier='doc'
+91 value (CastExpr)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='load'
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='staffNS'
+98 argument (BooleanLiteralExpr)
+99 value='false'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='Document'
+103 statement (ExpressionStmt)
+104 expression (AssignExpr)
+105 operator='ASSIGN'
+106 target (NameExpr)
+107 name (SimpleName)
+108 identifier='docType'
+109 value (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='getDoctype'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='doc'
+115 statement (ExpressionStmt)
+116 expression (AssignExpr)
+117 operator='ASSIGN'
+118 target (NameExpr)
+119 name (SimpleName)
+120 identifier='entities'
+121 value (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='getEntities'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='docType'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='assertNotNull'
+131 arguments
+132 argument (StringLiteralExpr)
+133 value='entitiesNotNull'
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='entities'
+137 statement (ExpressionStmt)
+138 expression (AssignExpr)
+139 operator='ASSIGN'
+140 target (NameExpr)
+141 name (SimpleName)
+142 identifier='notations'
+143 value (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='getNotations'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='docType'
+149 statement (ExpressionStmt)
+150 expression (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='assertNotNull'
+153 arguments
+154 argument (StringLiteralExpr)
+155 value='notationsNotNull'
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='notations'
+159 statement (ExpressionStmt)
+160 expression (AssignExpr)
+161 operator='ASSIGN'
+162 target (NameExpr)
+163 name (SimpleName)
+164 identifier='entity'
+165 value (CastExpr)
+166 expression (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='getNamedItemNS'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='entities'
+172 arguments
+173 argument (NameExpr)
+174 name (SimpleName)
+175 identifier='nullNS'
+176 argument (StringLiteralExpr)
+177 value='ent1'
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='Entity'
+181 statement (ExpressionStmt)
+182 expression (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='assertNull'
+185 arguments
+186 argument (StringLiteralExpr)
+187 value='entityNull'
+188 argument (NameExpr)
+189 name (SimpleName)
+190 identifier='entity'
+191 statement (ExpressionStmt)
+192 expression (AssignExpr)
+193 operator='ASSIGN'
+194 target (NameExpr)
+195 name (SimpleName)
+196 identifier='notation'
+197 value (CastExpr)
+198 expression (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='getNamedItemNS'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='notations'
+204 arguments
+205 argument (NameExpr)
+206 name (SimpleName)
+207 identifier='nullNS'
+208 argument (StringLiteralExpr)
+209 value='notation1'
+210 type (ClassOrInterfaceType)
+211 name (SimpleName)
+212 identifier='Notation'
+213 statement (ExpressionStmt)
+214 expression (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='assertNull'
+217 arguments
+218 argument (StringLiteralExpr)
+219 value='notationNull'
+220 argument (NameExpr)
+221 name (SimpleName)
+222 identifier='notation'
+223 type (VoidType)
+224 name (SimpleName)
+225 identifier='runTest'
+226 thrownExceptions
+227 thrownException (ClassOrInterfaceType)
+228 name (SimpleName)
+229 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+2 85
+85 86
+86 87
+86 88
+88 89
+89 90
+86 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+91 100
+100 101
+101 102
+2 103
+103 104
+104 105
+104 106
+106 107
+107 108
+104 109
+109 110
+110 111
+109 112
+112 113
+113 114
+2 115
+115 116
+116 117
+116 118
+118 119
+119 120
+116 121
+121 122
+122 123
+121 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+131 134
+134 135
+135 136
+2 137
+137 138
+138 139
+138 140
+140 141
+141 142
+138 143
+143 144
+144 145
+143 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+153 156
+156 157
+157 158
+2 159
+159 160
+160 161
+160 162
+162 163
+163 164
+160 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+166 172
+172 173
+173 174
+174 175
+172 176
+176 177
+165 178
+178 179
+179 180
+2 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+185 188
+188 189
+189 190
+2 191
+191 192
+192 193
+192 194
+194 195
+195 196
+192 197
+197 198
+198 199
+199 200
+198 201
+201 202
+202 203
+198 204
+204 205
+205 206
+206 207
+204 208
+208 209
+197 210
+210 211
+211 212
+2 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+217 220
+220 221
+221 222
+0 223
+0 224
+224 225
+0 226
+226 227
+227 228
+228 229
+
+Runs the test case.

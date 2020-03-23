@@ -1,0 +1,818 @@
+408
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='iterator'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='selectNodes'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='XMLUtil'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='document'
+20 argument (StringLiteralExpr)
+21 value='/BugCollection/BugInstance'
+22 name (SimpleName)
+23 identifier='elementIter'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Iterator'
+27 typeArguments
+28 typeArgument (WildcardType)
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='iterator'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='bugCollection'
+39 name (SimpleName)
+40 identifier='bugInstanceIter'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='Iterator'
+44 typeArguments
+45 typeArgument (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='BugInstance'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 initializer (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='HashSet'
+56 typeArguments
+57 typeArgument (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 name (SimpleName)
+61 identifier='bugTypeSet'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='Set'
+65 typeArguments
+66 typeArgument (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='String'
+69 statement (ExpressionStmt)
+70 expression (VariableDeclarationExpr)
+71 variables
+72 variable (VariableDeclarator)
+73 initializer (ObjectCreationExpr)
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='HashSet'
+77 typeArguments
+78 typeArgument (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='String'
+81 name (SimpleName)
+82 identifier='bugCategorySet'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='Set'
+86 typeArguments
+87 typeArgument (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='String'
+90 statement (ExpressionStmt)
+91 expression (VariableDeclarationExpr)
+92 variables
+93 variable (VariableDeclarator)
+94 initializer (ObjectCreationExpr)
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='HashSet'
+98 typeArguments
+99 typeArgument (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='String'
+102 name (SimpleName)
+103 identifier='bugCodeSet'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='Set'
+107 typeArguments
+108 typeArgument (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='String'
+111 statement (WhileStmt)
+112 body (BlockStmt)
+113 statements
+114 statement (ExpressionStmt)
+115 expression (VariableDeclarationExpr)
+116 variables
+117 variable (VariableDeclarator)
+118 initializer (CastExpr)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='next'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='elementIter'
+125 type (ClassOrInterfaceType)
+126 name (SimpleName)
+127 identifier='Element'
+128 name (SimpleName)
+129 identifier='element'
+130 type (ClassOrInterfaceType)
+131 name (SimpleName)
+132 identifier='Element'
+133 statement (ExpressionStmt)
+134 expression (VariableDeclarationExpr)
+135 variables
+136 variable (VariableDeclarator)
+137 initializer (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='next'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='bugInstanceIter'
+143 name (SimpleName)
+144 identifier='bugInstance'
+145 type (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='BugInstance'
+148 statement (ExpressionStmt)
+149 expression (VariableDeclarationExpr)
+150 variables
+151 variable (VariableDeclarator)
+152 initializer (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='getType'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='bugInstance'
+158 name (SimpleName)
+159 identifier='bugType'
+160 type (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='String'
+163 statement (ExpressionStmt)
+164 expression (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='add'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='bugTypeSet'
+170 arguments
+171 argument (NameExpr)
+172 name (SimpleName)
+173 identifier='bugType'
+174 statement (ExpressionStmt)
+175 expression (VariableDeclarationExpr)
+176 variables
+177 variable (VariableDeclarator)
+178 initializer (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='getBugPattern'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='bugInstance'
+184 name (SimpleName)
+185 identifier='bugPattern'
+186 type (ClassOrInterfaceType)
+187 name (SimpleName)
+188 identifier='BugPattern'
+189 statement (ExpressionStmt)
+190 expression (MethodCallExpr)
+191 name (SimpleName)
+192 identifier='add'
+193 scope (NameExpr)
+194 name (SimpleName)
+195 identifier='bugCategorySet'
+196 arguments
+197 argument (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='getCategory'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='bugPattern'
+203 statement (ExpressionStmt)
+204 expression (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='add'
+207 scope (NameExpr)
+208 name (SimpleName)
+209 identifier='bugCodeSet'
+210 arguments
+211 argument (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='getAbbrev'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='bugPattern'
+217 statement (ExpressionStmt)
+218 expression (MethodCallExpr)
+219 name (SimpleName)
+220 identifier='addText'
+221 scope (MethodCallExpr)
+222 name (SimpleName)
+223 identifier='addElement'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='element'
+227 arguments
+228 argument (StringLiteralExpr)
+229 value='ShortMessage'
+230 arguments
+231 argument (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='getShortDescription'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='bugPattern'
+237 statement (ExpressionStmt)
+238 expression (MethodCallExpr)
+239 name (SimpleName)
+240 identifier='addText'
+241 scope (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='addElement'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='element'
+247 arguments
+248 argument (StringLiteralExpr)
+249 value='LongMessage'
+250 arguments
+251 argument (MethodCallExpr)
+252 name (SimpleName)
+253 identifier='getMessage'
+254 scope (NameExpr)
+255 name (SimpleName)
+256 identifier='bugInstance'
+257 statement (ExpressionStmt)
+258 expression (VariableDeclarationExpr)
+259 variables
+260 variable (VariableDeclarator)
+261 initializer (MethodCallExpr)
+262 name (SimpleName)
+263 identifier='iterator'
+264 scope (MethodCallExpr)
+265 name (SimpleName)
+266 identifier='elements'
+267 scope (NameExpr)
+268 name (SimpleName)
+269 identifier='element'
+270 name (SimpleName)
+271 identifier='annElementIter'
+272 type (ClassOrInterfaceType)
+273 name (SimpleName)
+274 identifier='Iterator'
+275 typeArguments
+276 typeArgument (WildcardType)
+277 statement (ExpressionStmt)
+278 expression (VariableDeclarationExpr)
+279 variables
+280 variable (VariableDeclarator)
+281 initializer (MethodCallExpr)
+282 name (SimpleName)
+283 identifier='annotationIterator'
+284 scope (NameExpr)
+285 name (SimpleName)
+286 identifier='bugInstance'
+287 name (SimpleName)
+288 identifier='annIter'
+289 type (ClassOrInterfaceType)
+290 name (SimpleName)
+291 identifier='Iterator'
+292 typeArguments
+293 typeArgument (ClassOrInterfaceType)
+294 name (SimpleName)
+295 identifier='BugAnnotation'
+296 statement (WhileStmt)
+297 body (BlockStmt)
+298 statements
+299 statement (ExpressionStmt)
+300 expression (VariableDeclarationExpr)
+301 variables
+302 variable (VariableDeclarator)
+303 initializer (CastExpr)
+304 expression (MethodCallExpr)
+305 name (SimpleName)
+306 identifier='next'
+307 scope (NameExpr)
+308 name (SimpleName)
+309 identifier='annElementIter'
+310 type (ClassOrInterfaceType)
+311 name (SimpleName)
+312 identifier='Element'
+313 name (SimpleName)
+314 identifier='annElement'
+315 type (ClassOrInterfaceType)
+316 name (SimpleName)
+317 identifier='Element'
+318 statement (ExpressionStmt)
+319 expression (VariableDeclarationExpr)
+320 variables
+321 variable (VariableDeclarator)
+322 initializer (MethodCallExpr)
+323 name (SimpleName)
+324 identifier='next'
+325 scope (NameExpr)
+326 name (SimpleName)
+327 identifier='annIter'
+328 name (SimpleName)
+329 identifier='ann'
+330 type (ClassOrInterfaceType)
+331 name (SimpleName)
+332 identifier='BugAnnotation'
+333 statement (ExpressionStmt)
+334 expression (MethodCallExpr)
+335 name (SimpleName)
+336 identifier='addText'
+337 scope (MethodCallExpr)
+338 name (SimpleName)
+339 identifier='addElement'
+340 scope (NameExpr)
+341 name (SimpleName)
+342 identifier='annElement'
+343 arguments
+344 argument (StringLiteralExpr)
+345 value='Message'
+346 arguments
+347 argument (MethodCallExpr)
+348 name (SimpleName)
+349 identifier='toString'
+350 scope (NameExpr)
+351 name (SimpleName)
+352 identifier='ann'
+353 condition (BinaryExpr)
+354 operator='AND'
+355 left (MethodCallExpr)
+356 name (SimpleName)
+357 identifier='hasNext'
+358 scope (NameExpr)
+359 name (SimpleName)
+360 identifier='annElementIter'
+361 right (MethodCallExpr)
+362 name (SimpleName)
+363 identifier='hasNext'
+364 scope (NameExpr)
+365 name (SimpleName)
+366 identifier='annIter'
+367 condition (BinaryExpr)
+368 operator='AND'
+369 left (MethodCallExpr)
+370 name (SimpleName)
+371 identifier='hasNext'
+372 scope (NameExpr)
+373 name (SimpleName)
+374 identifier='elementIter'
+375 right (MethodCallExpr)
+376 name (SimpleName)
+377 identifier='hasNext'
+378 scope (NameExpr)
+379 name (SimpleName)
+380 identifier='bugInstanceIter'
+381 statement (ExpressionStmt)
+382 expression (MethodCallExpr)
+383 name (SimpleName)
+384 identifier='addBugCategories'
+385 arguments
+386 argument (NameExpr)
+387 name (SimpleName)
+388 identifier='bugCategorySet'
+389 statement (ExpressionStmt)
+390 expression (MethodCallExpr)
+391 name (SimpleName)
+392 identifier='addBugPatterns'
+393 arguments
+394 argument (NameExpr)
+395 name (SimpleName)
+396 identifier='bugTypeSet'
+397 statement (ExpressionStmt)
+398 expression (MethodCallExpr)
+399 name (SimpleName)
+400 identifier='addBugCodes'
+401 arguments
+402 argument (NameExpr)
+403 name (SimpleName)
+404 identifier='bugCodeSet'
+405 type (VoidType)
+406 name (SimpleName)
+407 identifier='execute'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+18 19
+16 20
+20 21
+6 22
+22 23
+6 24
+24 25
+25 26
+24 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+32 39
+39 40
+32 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+51 60
+60 61
+51 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+72 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+79 80
+72 81
+81 82
+72 83
+83 84
+84 85
+83 86
+86 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+93 102
+102 103
+93 104
+104 105
+105 106
+104 107
+107 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+114 115
+115 116
+116 117
+117 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+118 125
+125 126
+126 127
+117 128
+128 129
+117 130
+130 131
+131 132
+113 133
+133 134
+134 135
+135 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+136 143
+143 144
+136 145
+145 146
+146 147
+113 148
+148 149
+149 150
+150 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+151 158
+158 159
+151 160
+160 161
+161 162
+113 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+164 170
+170 171
+171 172
+172 173
+113 174
+174 175
+175 176
+176 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+177 184
+184 185
+177 186
+186 187
+187 188
+113 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+190 196
+196 197
+197 198
+198 199
+197 200
+200 201
+201 202
+113 203
+203 204
+204 205
+205 206
+204 207
+207 208
+208 209
+204 210
+210 211
+211 212
+212 213
+211 214
+214 215
+215 216
+113 217
+217 218
+218 219
+219 220
+218 221
+221 222
+222 223
+221 224
+224 225
+225 226
+221 227
+227 228
+228 229
+218 230
+230 231
+231 232
+232 233
+231 234
+234 235
+235 236
+113 237
+237 238
+238 239
+239 240
+238 241
+241 242
+242 243
+241 244
+244 245
+245 246
+241 247
+247 248
+248 249
+238 250
+250 251
+251 252
+252 253
+251 254
+254 255
+255 256
+113 257
+257 258
+258 259
+259 260
+260 261
+261 262
+262 263
+261 264
+264 265
+265 266
+264 267
+267 268
+268 269
+260 270
+270 271
+260 272
+272 273
+273 274
+272 275
+275 276
+113 277
+277 278
+278 279
+279 280
+280 281
+281 282
+282 283
+281 284
+284 285
+285 286
+280 287
+287 288
+280 289
+289 290
+290 291
+289 292
+292 293
+293 294
+294 295
+113 296
+296 297
+297 298
+298 299
+299 300
+300 301
+301 302
+302 303
+303 304
+304 305
+305 306
+304 307
+307 308
+308 309
+303 310
+310 311
+311 312
+302 313
+313 314
+302 315
+315 316
+316 317
+298 318
+318 319
+319 320
+320 321
+321 322
+322 323
+323 324
+322 325
+325 326
+326 327
+321 328
+328 329
+321 330
+330 331
+331 332
+298 333
+333 334
+334 335
+335 336
+334 337
+337 338
+338 339
+337 340
+340 341
+341 342
+337 343
+343 344
+344 345
+334 346
+346 347
+347 348
+348 349
+347 350
+350 351
+351 352
+296 353
+353 354
+353 355
+355 356
+356 357
+355 358
+358 359
+359 360
+353 361
+361 362
+362 363
+361 364
+364 365
+365 366
+111 367
+367 368
+367 369
+369 370
+370 371
+369 372
+372 373
+373 374
+367 375
+375 376
+376 377
+375 378
+378 379
+379 380
+2 381
+381 382
+382 383
+383 384
+382 385
+385 386
+386 387
+387 388
+2 389
+389 390
+390 391
+391 392
+390 393
+393 394
+394 395
+395 396
+2 397
+397 398
+398 399
+399 400
+398 401
+401 402
+402 403
+403 404
+0 405
+0 406
+406 407
+
+Add messages to the dom4j tree.

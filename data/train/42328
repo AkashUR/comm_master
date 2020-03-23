@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='readValue'
+10 scope (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='ObjectMapper'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='{\"value\" : \"abc\"}'
+17 argument (ClassExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='WasNumberBean'
+21 name (SimpleName)
+22 identifier='bean'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='WasNumberBean'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='assertNotNull'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='bean'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='assertEquals'
+38 arguments
+39 argument (StringLiteralExpr)
+40 value='abc'
+41 argument (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='value'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='bean'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='testOverride'
+50 thrownExceptions
+51 thrownException (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+7 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+52 53
+
+As per [JACKSON-255], should also allow more general overriding, as long as there are no in-class conflicts.

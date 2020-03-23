@@ -1,0 +1,562 @@
+280
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createTable'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='testBug19615'
+10 argument (StringLiteralExpr)
+11 value='(field1 DECIMAL(19, 12))'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (ObjectCreationExpr)
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='BigDecimal'
+20 arguments
+21 argument (StringLiteralExpr)
+22 value='1.234567'
+23 name (SimpleName)
+24 identifier='dec'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='BigDecimal'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='pstmt'
+34 scope (ThisExpr)
+35 value (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='prepareStatement'
+38 scope (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='conn'
+41 scope (ThisExpr)
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='INSERT INTO testBug19615 VALUES (?)'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='setObject'
+49 scope (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='pstmt'
+52 scope (ThisExpr)
+53 arguments
+54 argument (IntegerLiteralExpr)
+55 value='1'
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='dec'
+59 argument (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='DECIMAL'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='Types'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='executeUpdate'
+69 scope (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='pstmt'
+72 scope (ThisExpr)
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='close'
+77 scope (FieldAccessExpr)
+78 name (SimpleName)
+79 identifier='pstmt'
+80 scope (ThisExpr)
+81 statement (ExpressionStmt)
+82 expression (AssignExpr)
+83 operator='ASSIGN'
+84 target (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='rs'
+87 scope (ThisExpr)
+88 value (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='executeQuery'
+91 scope (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='stmt'
+94 scope (ThisExpr)
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='SELECT field1 FROM testBug19615'
+98 statement (ExpressionStmt)
+99 expression (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='next'
+102 scope (FieldAccessExpr)
+103 name (SimpleName)
+104 identifier='rs'
+105 scope (ThisExpr)
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='assertEquals'
+110 arguments
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='dec'
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='setScale'
+117 scope (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='getBigDecimal'
+120 scope (FieldAccessExpr)
+121 name (SimpleName)
+122 identifier='rs'
+123 scope (ThisExpr)
+124 arguments
+125 argument (IntegerLiteralExpr)
+126 value='1'
+127 arguments
+128 argument (IntegerLiteralExpr)
+129 value='6'
+130 statement (ExpressionStmt)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='close'
+134 scope (FieldAccessExpr)
+135 name (SimpleName)
+136 identifier='rs'
+137 scope (ThisExpr)
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='executeUpdate'
+142 scope (FieldAccessExpr)
+143 name (SimpleName)
+144 identifier='stmt'
+145 scope (ThisExpr)
+146 arguments
+147 argument (StringLiteralExpr)
+148 value='TRUNCATE TABLE testBug19615'
+149 statement (ExpressionStmt)
+150 expression (AssignExpr)
+151 operator='ASSIGN'
+152 target (FieldAccessExpr)
+153 name (SimpleName)
+154 identifier='pstmt'
+155 scope (ThisExpr)
+156 value (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='clientPrepareStatement'
+159 scope (EnclosedExpr)
+160 inner (CastExpr)
+161 expression (FieldAccessExpr)
+162 name (SimpleName)
+163 identifier='conn'
+164 scope (ThisExpr)
+165 type (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='Connection'
+168 scope (ClassOrInterfaceType)
+169 name (SimpleName)
+170 identifier='jdbc'
+171 scope (ClassOrInterfaceType)
+172 name (SimpleName)
+173 identifier='mysql'
+174 scope (ClassOrInterfaceType)
+175 name (SimpleName)
+176 identifier='com'
+177 arguments
+178 argument (StringLiteralExpr)
+179 value='INSERT INTO testBug19615 VALUES (?)'
+180 statement (ExpressionStmt)
+181 expression (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='setObject'
+184 scope (FieldAccessExpr)
+185 name (SimpleName)
+186 identifier='pstmt'
+187 scope (ThisExpr)
+188 arguments
+189 argument (IntegerLiteralExpr)
+190 value='1'
+191 argument (NameExpr)
+192 name (SimpleName)
+193 identifier='dec'
+194 argument (FieldAccessExpr)
+195 name (SimpleName)
+196 identifier='DECIMAL'
+197 scope (NameExpr)
+198 name (SimpleName)
+199 identifier='Types'
+200 statement (ExpressionStmt)
+201 expression (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='executeUpdate'
+204 scope (FieldAccessExpr)
+205 name (SimpleName)
+206 identifier='pstmt'
+207 scope (ThisExpr)
+208 statement (ExpressionStmt)
+209 expression (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='close'
+212 scope (FieldAccessExpr)
+213 name (SimpleName)
+214 identifier='pstmt'
+215 scope (ThisExpr)
+216 statement (ExpressionStmt)
+217 expression (AssignExpr)
+218 operator='ASSIGN'
+219 target (FieldAccessExpr)
+220 name (SimpleName)
+221 identifier='rs'
+222 scope (ThisExpr)
+223 value (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='executeQuery'
+226 scope (FieldAccessExpr)
+227 name (SimpleName)
+228 identifier='stmt'
+229 scope (ThisExpr)
+230 arguments
+231 argument (StringLiteralExpr)
+232 value='SELECT field1 FROM testBug19615'
+233 statement (ExpressionStmt)
+234 expression (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='next'
+237 scope (FieldAccessExpr)
+238 name (SimpleName)
+239 identifier='rs'
+240 scope (ThisExpr)
+241 statement (ExpressionStmt)
+242 expression (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='assertEquals'
+245 arguments
+246 argument (NameExpr)
+247 name (SimpleName)
+248 identifier='dec'
+249 argument (MethodCallExpr)
+250 name (SimpleName)
+251 identifier='setScale'
+252 scope (MethodCallExpr)
+253 name (SimpleName)
+254 identifier='getBigDecimal'
+255 scope (FieldAccessExpr)
+256 name (SimpleName)
+257 identifier='rs'
+258 scope (ThisExpr)
+259 arguments
+260 argument (IntegerLiteralExpr)
+261 value='1'
+262 arguments
+263 argument (IntegerLiteralExpr)
+264 value='6'
+265 statement (ExpressionStmt)
+266 expression (MethodCallExpr)
+267 name (SimpleName)
+268 identifier='close'
+269 scope (FieldAccessExpr)
+270 name (SimpleName)
+271 identifier='rs'
+272 scope (ThisExpr)
+273 type (VoidType)
+274 name (SimpleName)
+275 identifier='testBug19615'
+276 thrownExceptions
+277 thrownException (ClassOrInterfaceType)
+278 name (SimpleName)
+279 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+15 23
+23 24
+15 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+31 34
+29 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+35 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+46 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+59 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+77 80
+2 81
+81 82
+82 83
+82 84
+84 85
+85 86
+84 87
+82 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+88 95
+95 96
+96 97
+2 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+102 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+112 113
+110 114
+114 115
+115 116
+114 117
+117 118
+118 119
+117 120
+120 121
+121 122
+120 123
+117 124
+124 125
+125 126
+114 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+134 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+142 145
+139 146
+146 147
+147 148
+2 149
+149 150
+150 151
+150 152
+152 153
+153 154
+152 155
+150 156
+156 157
+157 158
+156 159
+159 160
+160 161
+161 162
+162 163
+161 164
+160 165
+165 166
+166 167
+165 168
+168 169
+169 170
+168 171
+171 172
+172 173
+171 174
+174 175
+175 176
+156 177
+177 178
+178 179
+2 180
+180 181
+181 182
+182 183
+181 184
+184 185
+185 186
+184 187
+181 188
+188 189
+189 190
+188 191
+191 192
+192 193
+188 194
+194 195
+195 196
+194 197
+197 198
+198 199
+2 200
+200 201
+201 202
+202 203
+201 204
+204 205
+205 206
+204 207
+2 208
+208 209
+209 210
+210 211
+209 212
+212 213
+213 214
+212 215
+2 216
+216 217
+217 218
+217 219
+219 220
+220 221
+219 222
+217 223
+223 224
+224 225
+223 226
+226 227
+227 228
+226 229
+223 230
+230 231
+231 232
+2 233
+233 234
+234 235
+235 236
+234 237
+237 238
+238 239
+237 240
+2 241
+241 242
+242 243
+243 244
+242 245
+245 246
+246 247
+247 248
+245 249
+249 250
+250 251
+249 252
+252 253
+253 254
+252 255
+255 256
+256 257
+255 258
+252 259
+259 260
+260 261
+249 262
+262 263
+263 264
+2 265
+265 266
+266 267
+267 268
+266 269
+269 270
+270 271
+269 272
+0 273
+0 274
+274 275
+0 276
+276 277
+277 278
+278 279
+
+Tests fix for BUG#19615, PreparedStatement.setObject(int, Object, int) doesn't respect scale of BigDecimals.

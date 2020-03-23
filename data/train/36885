@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mCursor'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='query'
+12 scope (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getContentResolver'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='mContext'
+18 arguments
+19 argument (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='CONTENT_URI'
+22 scope (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='Bookmarks'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='Settings'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='sProjection'
+31 argument (NullLiteralExpr)
+32 argument (NullLiteralExpr)
+33 argument (NullLiteralExpr)
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='registerContentObserver'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='mCursor'
+41 arguments
+42 argument (ThisExpr)
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='updateShortcuts'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='observe'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+9 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+25 26
+26 27
+18 28
+28 29
+29 30
+18 31
+18 32
+18 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+2 43
+43 44
+44 45
+45 46
+0 47
+0 48
+48 49
+
+Observes the provider of shortcut+intents

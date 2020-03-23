@@ -1,0 +1,588 @@
+293
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='clientgui'
+9 statement (ExpressionStmt)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='addGameListener'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getGame'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getClient'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='clientgui'
+22 arguments
+23 argument (ThisExpr)
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='addBoardViewListener'
+28 scope (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getBoardView'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='clientgui'
+34 arguments
+35 argument (ThisExpr)
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='setupStatusBar'
+40 arguments
+41 argument (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getString'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='Messages'
+47 arguments
+48 argument (StringLiteralExpr)
+49 value='DeploymentDisplay.waitingForDeploymentPhase'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (NameExpr)
+54 name (SimpleName)
+55 identifier='buttons'
+56 value (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='HashMap'
+60 typeArguments
+61 typeArgument (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='DeployCommand'
+64 typeArgument (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='MegamekButton'
+67 arguments
+68 argument (CastExpr)
+69 expression (EnclosedExpr)
+70 inner (BinaryExpr)
+71 operator='PLUS'
+72 left (BinaryExpr)
+73 operator='MULTIPLY'
+74 left (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='length'
+77 scope (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='values'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='DeployCommand'
+83 right (DoubleLiteralExpr)
+84 value='1.25'
+85 right (DoubleLiteralExpr)
+86 value='0.5'
+87 type (PrimitiveType)
+88 type='INT'
+89 statement (ForeachStmt)
+90 body (BlockStmt)
+91 statements
+92 statement (ExpressionStmt)
+93 expression (VariableDeclarationExpr)
+94 variables
+95 variable (VariableDeclarator)
+96 initializer (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='getString'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='Messages'
+102 arguments
+103 argument (BinaryExpr)
+104 operator='PLUS'
+105 left (StringLiteralExpr)
+106 value='DeploymentDisplay.'
+107 right (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='getCmd'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='cmd'
+113 name (SimpleName)
+114 identifier='title'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='String'
+118 statement (ExpressionStmt)
+119 expression (VariableDeclarationExpr)
+120 variables
+121 variable (VariableDeclarator)
+122 initializer (ObjectCreationExpr)
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='MegamekButton'
+126 arguments
+127 argument (NameExpr)
+128 name (SimpleName)
+129 identifier='title'
+130 argument (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='getComp'
+133 scope (FieldAccessExpr)
+134 name (SimpleName)
+135 identifier='PhaseDisplayButton'
+136 scope (FieldAccessExpr)
+137 name (SimpleName)
+138 identifier='UIComponents'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='SkinSpecification'
+142 name (SimpleName)
+143 identifier='newButton'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='MegamekButton'
+147 statement (ExpressionStmt)
+148 expression (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='addActionListener'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='newButton'
+154 arguments
+155 argument (ThisExpr)
+156 statement (ExpressionStmt)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='setActionCommand'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='newButton'
+163 arguments
+164 argument (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='getCmd'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='cmd'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='setEnabled'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='newButton'
+177 arguments
+178 argument (BooleanLiteralExpr)
+179 value='false'
+180 statement (ExpressionStmt)
+181 expression (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='put'
+184 scope (NameExpr)
+185 name (SimpleName)
+186 identifier='buttons'
+187 arguments
+188 argument (NameExpr)
+189 name (SimpleName)
+190 identifier='cmd'
+191 argument (NameExpr)
+192 name (SimpleName)
+193 identifier='newButton'
+194 iterable (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='values'
+197 scope (NameExpr)
+198 name (SimpleName)
+199 identifier='DeployCommand'
+200 variable (VariableDeclarationExpr)
+201 variables
+202 variable (VariableDeclarator)
+203 name (SimpleName)
+204 identifier='cmd'
+205 type (ClassOrInterfaceType)
+206 name (SimpleName)
+207 identifier='DeployCommand'
+208 statement (ExpressionStmt)
+209 expression (AssignExpr)
+210 operator='ASSIGN'
+211 target (NameExpr)
+212 name (SimpleName)
+213 identifier='numButtonGroups'
+214 value (CastExpr)
+215 expression (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='ceil'
+218 scope (NameExpr)
+219 name (SimpleName)
+220 identifier='Math'
+221 arguments
+222 argument (BinaryExpr)
+223 operator='DIVIDE'
+224 left (EnclosedExpr)
+225 inner (BinaryExpr)
+226 operator='PLUS'
+227 left (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='size'
+230 scope (NameExpr)
+231 name (SimpleName)
+232 identifier='buttons'
+233 right (DoubleLiteralExpr)
+234 value='0.0'
+235 right (NameExpr)
+236 name (SimpleName)
+237 identifier='buttonsPerGroup'
+238 type (PrimitiveType)
+239 type='INT'
+240 statement (ExpressionStmt)
+241 expression (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='setText'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='butDone'
+247 arguments
+248 argument (BinaryExpr)
+249 operator='PLUS'
+250 left (BinaryExpr)
+251 operator='PLUS'
+252 left (StringLiteralExpr)
+253 value='<html><b>'
+254 right (MethodCallExpr)
+255 name (SimpleName)
+256 identifier='getString'
+257 scope (NameExpr)
+258 name (SimpleName)
+259 identifier='Messages'
+260 arguments
+261 argument (StringLiteralExpr)
+262 value='DeploymentDisplay.Deploy'
+263 right (StringLiteralExpr)
+264 value='</b></html>'
+265 statement (ExpressionStmt)
+266 expression (MethodCallExpr)
+267 name (SimpleName)
+268 identifier='setEnabled'
+269 scope (NameExpr)
+270 name (SimpleName)
+271 identifier='butDone'
+272 arguments
+273 argument (BooleanLiteralExpr)
+274 value='false'
+275 statement (ExpressionStmt)
+276 expression (MethodCallExpr)
+277 name (SimpleName)
+278 identifier='layoutScreen'
+279 statement (ExpressionStmt)
+280 expression (MethodCallExpr)
+281 name (SimpleName)
+282 identifier='setupButtonPanel'
+283 name (SimpleName)
+284 identifier='DeploymentDisplay'
+285 parameters
+286 parameter (Parameter)
+287 isVarArgs='false'
+288 name (SimpleName)
+289 identifier='clientgui'
+290 type (ClassOrInterfaceType)
+291 name (SimpleName)
+292 identifier='ClientGUI'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+10 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+25 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+56 67
+67 68
+68 69
+69 70
+70 71
+70 72
+72 73
+72 74
+74 75
+75 76
+74 77
+77 78
+78 79
+77 80
+80 81
+81 82
+72 83
+83 84
+70 85
+85 86
+68 87
+87 88
+2 89
+89 90
+90 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+103 105
+105 106
+103 107
+107 108
+108 109
+107 110
+110 111
+111 112
+95 113
+113 114
+95 115
+115 116
+116 117
+91 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+124 125
+122 126
+126 127
+127 128
+128 129
+126 130
+130 131
+131 132
+130 133
+133 134
+134 135
+133 136
+136 137
+137 138
+136 139
+139 140
+140 141
+121 142
+142 143
+121 144
+144 145
+145 146
+91 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+148 154
+154 155
+91 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+157 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+91 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+171 177
+177 178
+178 179
+91 180
+180 181
+181 182
+182 183
+181 184
+184 185
+185 186
+181 187
+187 188
+188 189
+189 190
+187 191
+191 192
+192 193
+89 194
+194 195
+195 196
+194 197
+197 198
+198 199
+89 200
+200 201
+201 202
+202 203
+203 204
+202 205
+205 206
+206 207
+2 208
+208 209
+209 210
+209 211
+211 212
+212 213
+209 214
+214 215
+215 216
+216 217
+215 218
+218 219
+219 220
+215 221
+221 222
+222 223
+222 224
+224 225
+225 226
+225 227
+227 228
+228 229
+227 230
+230 231
+231 232
+225 233
+233 234
+222 235
+235 236
+236 237
+214 238
+238 239
+2 240
+240 241
+241 242
+242 243
+241 244
+244 245
+245 246
+241 247
+247 248
+248 249
+248 250
+250 251
+250 252
+252 253
+250 254
+254 255
+255 256
+254 257
+257 258
+258 259
+254 260
+260 261
+261 262
+248 263
+263 264
+2 265
+265 266
+266 267
+267 268
+266 269
+269 270
+270 271
+266 272
+272 273
+273 274
+2 275
+275 276
+276 277
+277 278
+2 279
+279 280
+280 281
+281 282
+0 283
+283 284
+0 285
+285 286
+286 287
+286 288
+288 289
+286 290
+290 291
+291 292
+
+Creates and lays out a new deployment phase display for the specified client.

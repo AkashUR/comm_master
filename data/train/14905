@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='startActivity'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='mStartIntent'
+11 argument (NullLiteralExpr)
+12 argument (NullLiteralExpr)
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='mButton'
+19 value (CastExpr)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='findViewById'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getActivity'
+26 arguments
+27 argument (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='go'
+30 scope (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='id'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='R'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Button'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='assertNotNull'
+43 arguments
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getActivity'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='assertNotNull'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='mButton'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='testPreconditions'
+58 annotations
+59 annotation (MarkerAnnotationExpr)
+60 name (Name)
+61 identifier='MediumTest'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+7 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+19 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+60 61
+
+The name 'test preconditions' is a convention to signal that if this test doesn't pass, the test case was not set up properly and it might explain any and all failures in other tests.  This is not guaranteed to run before other tests, as junit uses reflection to find the tests.

@@ -1,0 +1,502 @@
+250
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (FieldAccessExpr)
+5 name (SimpleName)
+6 identifier='networkCreationStage'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='context'
+10 entries
+11 entrie (SwitchEntryStmt)
+12 label (NameExpr)
+13 name (SimpleName)
+14 identifier='CLIENT'
+15 statements
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getAWSAsyncClient'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='context'
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='GET_REMOTE_VPC'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='AWSNetworkCreationStage'
+30 statement (BreakStmt)
+31 entrie (SwitchEntryStmt)
+32 label (NameExpr)
+33 name (SimpleName)
+34 identifier='GET_REMOTE_VPC'
+35 statements
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='refreshVPCInformation'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='context'
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='GET_LOCAL_NETWORK_STATES'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='AWSNetworkCreationStage'
+50 statement (BreakStmt)
+51 entrie (SwitchEntryStmt)
+52 label (NameExpr)
+53 name (SimpleName)
+54 identifier='GET_LOCAL_NETWORK_STATES'
+55 statements
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getLocalNetworkStates'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='context'
+64 argument (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='GET_SUBNETS'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='AWSNetworkCreationStage'
+70 statement (BreakStmt)
+71 entrie (SwitchEntryStmt)
+72 label (NameExpr)
+73 name (SimpleName)
+74 identifier='GET_SUBNETS'
+75 statements
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='getSubnetInformation'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='context'
+84 argument (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='GET_INTERNET_GATEWAY'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='AWSNetworkCreationStage'
+90 statement (BreakStmt)
+91 entrie (SwitchEntryStmt)
+92 label (NameExpr)
+93 name (SimpleName)
+94 identifier='GET_INTERNET_GATEWAY'
+95 statements
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getInternetGatewayInformation'
+100 arguments
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='context'
+104 argument (FieldAccessExpr)
+105 name (SimpleName)
+106 identifier='GET_MAIN_ROUTE_TABLE'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='AWSNetworkCreationStage'
+110 statement (BreakStmt)
+111 entrie (SwitchEntryStmt)
+112 label (NameExpr)
+113 name (SimpleName)
+114 identifier='GET_MAIN_ROUTE_TABLE'
+115 statements
+116 statement (ExpressionStmt)
+117 expression (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='getMainRouteTableInformation'
+120 arguments
+121 argument (NameExpr)
+122 name (SimpleName)
+123 identifier='context'
+124 argument (FieldAccessExpr)
+125 name (SimpleName)
+126 identifier='CREATE_NETWORKSTATE'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='AWSNetworkCreationStage'
+130 statement (BreakStmt)
+131 entrie (SwitchEntryStmt)
+132 label (NameExpr)
+133 name (SimpleName)
+134 identifier='CREATE_NETWORKSTATE'
+135 statements
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='createNetworkStateOperations'
+140 arguments
+141 argument (NameExpr)
+142 name (SimpleName)
+143 identifier='context'
+144 argument (FieldAccessExpr)
+145 name (SimpleName)
+146 identifier='SIGNAL_COMPLETION'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='AWSNetworkCreationStage'
+150 statement (BreakStmt)
+151 entrie (SwitchEntryStmt)
+152 label (NameExpr)
+153 name (SimpleName)
+154 identifier='SIGNAL_COMPLETION'
+155 statements
+156 statement (ExpressionStmt)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='setOperationDurationStat'
+160 arguments
+161 argument (FieldAccessExpr)
+162 name (SimpleName)
+163 identifier='awsAdapterOperation'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='context'
+167 statement (ExpressionStmt)
+168 expression (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='setBody'
+171 scope (FieldAccessExpr)
+172 name (SimpleName)
+173 identifier='awsAdapterOperation'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='context'
+177 arguments
+178 argument (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='createResponse'
+181 arguments
+182 argument (NameExpr)
+183 name (SimpleName)
+184 identifier='context'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='complete'
+189 scope (FieldAccessExpr)
+190 name (SimpleName)
+191 identifier='awsAdapterOperation'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='context'
+195 statement (BreakStmt)
+196 entrie (SwitchEntryStmt)
+197 statements
+198 statement (ExpressionStmt)
+199 expression (VariableDeclarationExpr)
+200 variables
+201 variable (VariableDeclarator)
+202 initializer (ObjectCreationExpr)
+203 type (ClassOrInterfaceType)
+204 name (SimpleName)
+205 identifier='IllegalArgumentException'
+206 arguments
+207 argument (StringLiteralExpr)
+208 value='Unknown AWS enumeration:network state creation stage'
+209 name (SimpleName)
+210 identifier='t'
+211 type (ClassOrInterfaceType)
+212 name (SimpleName)
+213 identifier='Throwable'
+214 statement (ExpressionStmt)
+215 expression (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='sendFailurePatchToEnumerationTask'
+218 scope (NameExpr)
+219 name (SimpleName)
+220 identifier='AdapterUtils'
+221 arguments
+222 argument (ThisExpr)
+223 argument (FieldAccessExpr)
+224 name (SimpleName)
+225 identifier='taskReference'
+226 scope (FieldAccessExpr)
+227 name (SimpleName)
+228 identifier='enumerationRequest'
+229 scope (FieldAccessExpr)
+230 name (SimpleName)
+231 identifier='networkRequest'
+232 scope (NameExpr)
+233 name (SimpleName)
+234 identifier='context'
+235 argument (NameExpr)
+236 name (SimpleName)
+237 identifier='t'
+238 statement (BreakStmt)
+239 type (VoidType)
+240 name (SimpleName)
+241 identifier='handleNetworkStateChanges'
+242 parameters
+243 parameter (Parameter)
+244 isVarArgs='false'
+245 name (SimpleName)
+246 identifier='context'
+247 type (ClassOrInterfaceType)
+248 name (SimpleName)
+249 identifier='AWSNetworkServiceCreationContext'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+3 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+24 27
+27 28
+28 29
+15 30
+10 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+44 47
+47 48
+48 49
+35 50
+10 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+64 67
+67 68
+68 69
+55 70
+10 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+82 83
+80 84
+84 85
+85 86
+84 87
+87 88
+88 89
+75 90
+10 91
+91 92
+92 93
+93 94
+91 95
+95 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+102 103
+100 104
+104 105
+105 106
+104 107
+107 108
+108 109
+95 110
+10 111
+111 112
+112 113
+113 114
+111 115
+115 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+122 123
+120 124
+124 125
+125 126
+124 127
+127 128
+128 129
+115 130
+10 131
+131 132
+132 133
+133 134
+131 135
+135 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+142 143
+140 144
+144 145
+145 146
+144 147
+147 148
+148 149
+135 150
+10 151
+151 152
+152 153
+153 154
+151 155
+155 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+155 167
+167 168
+168 169
+169 170
+168 171
+171 172
+172 173
+171 174
+174 175
+175 176
+168 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+183 184
+155 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+189 192
+192 193
+193 194
+155 195
+10 196
+196 197
+197 198
+198 199
+199 200
+200 201
+201 202
+202 203
+203 204
+204 205
+202 206
+206 207
+207 208
+201 209
+209 210
+201 211
+211 212
+212 213
+197 214
+214 215
+215 216
+216 217
+215 218
+218 219
+219 220
+215 221
+221 222
+221 223
+223 224
+224 225
+223 226
+226 227
+227 228
+226 229
+229 230
+230 231
+229 232
+232 233
+233 234
+221 235
+235 236
+236 237
+197 238
+0 239
+0 240
+240 241
+0 242
+242 243
+243 244
+243 245
+245 246
+243 247
+247 248
+248 249
+
+Handles the process to create and EC2 Async client and get all the VPC related information from AWS. At the very least it gets the CIDR block information for the VPC, the connected internet gateway (if any) and the main route table information for the VPC.

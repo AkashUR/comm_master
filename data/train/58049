@@ -1,0 +1,60 @@
+29
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mLastResponse'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='response'
+12 type (VoidType)
+13 name (SimpleName)
+14 identifier='processServerResponse'
+15 parameters
+16 parameter (Parameter)
+17 isVarArgs='false'
+18 name (SimpleName)
+19 identifier='response'
+20 type (PrimitiveType)
+21 type='INT'
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='rawData'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='ResponseData'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+0 12
+0 13
+13 14
+0 15
+15 16
+16 17
+16 18
+18 19
+16 20
+20 21
+15 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+
+Process a new response from the license server. Since we aren't performing any caching, this equates to reading the LicenseResponse. Any ResponseData provided is ignored.

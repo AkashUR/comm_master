@@ -1,0 +1,460 @@
+229
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setVariable'
+7 scope (SuperExpr)
+8 arguments
+9 argument (StringLiteralExpr)
+10 value='request'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='request'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='setVariable'
+18 scope (SuperExpr)
+19 arguments
+20 argument (StringLiteralExpr)
+21 value='response'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='response'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='setVariable'
+29 scope (SuperExpr)
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='context'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='context'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='setVariable'
+40 scope (SuperExpr)
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='application'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='context'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='setVariable'
+51 scope (SuperExpr)
+52 arguments
+53 argument (StringLiteralExpr)
+54 value='session'
+55 argument (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='getSession'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='request'
+61 arguments
+62 argument (BooleanLiteralExpr)
+63 value='false'
+64 statement (ExpressionStmt)
+65 expression (VariableDeclarationExpr)
+66 variables
+67 variable (VariableDeclarator)
+68 initializer (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='collectParams'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='request'
+75 name (SimpleName)
+76 identifier='params'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Map'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='setVariable'
+84 scope (SuperExpr)
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='params'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='params'
+91 statement (ExpressionStmt)
+92 expression (VariableDeclarationExpr)
+93 variables
+94 variable (VariableDeclarator)
+95 initializer (ObjectCreationExpr)
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='LinkedHashMap'
+99 typeArguments
+100 typeArgument (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='String'
+103 typeArgument (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='String'
+106 name (SimpleName)
+107 identifier='headers'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='Map'
+111 typeArguments
+112 typeArgument (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='String'
+115 typeArgument (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='String'
+118 statement (ForStmt)
+119 body (BlockStmt)
+120 statements
+121 statement (ExpressionStmt)
+122 expression (VariableDeclarationExpr)
+123 variables
+124 variable (VariableDeclarator)
+125 initializer (CastExpr)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='nextElement'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='names'
+132 type (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='String'
+135 name (SimpleName)
+136 identifier='headerName'
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='String'
+140 statement (ExpressionStmt)
+141 expression (VariableDeclarationExpr)
+142 variables
+143 variable (VariableDeclarator)
+144 initializer (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='getHeader'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='request'
+150 arguments
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='headerName'
+154 name (SimpleName)
+155 identifier='headerValue'
+156 type (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='String'
+159 statement (ExpressionStmt)
+160 expression (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='put'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='headers'
+166 arguments
+167 argument (NameExpr)
+168 name (SimpleName)
+169 identifier='headerName'
+170 argument (NameExpr)
+171 name (SimpleName)
+172 identifier='headerValue'
+173 compare (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='hasMoreElements'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='names'
+179 initialization
+180 initializatio (VariableDeclarationExpr)
+181 variables
+182 variable (VariableDeclarator)
+183 initializer (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='getHeaderNames'
+186 scope (NameExpr)
+187 name (SimpleName)
+188 identifier='request'
+189 name (SimpleName)
+190 identifier='names'
+191 type (ClassOrInterfaceType)
+192 name (SimpleName)
+193 identifier='Enumeration'
+194 statement (ExpressionStmt)
+195 expression (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='setVariable'
+198 scope (SuperExpr)
+199 arguments
+200 argument (StringLiteralExpr)
+201 value='headers'
+202 argument (NameExpr)
+203 name (SimpleName)
+204 identifier='headers'
+205 name (SimpleName)
+206 identifier='ServletBinding'
+207 parameters
+208 parameter (Parameter)
+209 isVarArgs='false'
+210 name (SimpleName)
+211 identifier='request'
+212 type (ClassOrInterfaceType)
+213 name (SimpleName)
+214 identifier='HttpServletRequest'
+215 parameter (Parameter)
+216 isVarArgs='false'
+217 name (SimpleName)
+218 identifier='response'
+219 type (ClassOrInterfaceType)
+220 name (SimpleName)
+221 identifier='HttpServletResponse'
+222 parameter (Parameter)
+223 isVarArgs='false'
+224 name (SimpleName)
+225 identifier='context'
+226 type (ClassOrInterfaceType)
+227 name (SimpleName)
+228 identifier='ServletContext'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+8 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+15 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+26 30
+30 31
+31 32
+30 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+37 41
+41 42
+42 43
+41 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+48 52
+52 53
+53 54
+52 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+67 75
+75 76
+67 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+81 85
+85 86
+86 87
+85 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+99 103
+103 104
+104 105
+94 106
+106 107
+94 108
+108 109
+109 110
+108 111
+111 112
+112 113
+113 114
+111 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+125 132
+132 133
+133 134
+124 135
+135 136
+124 137
+137 138
+138 139
+120 140
+140 141
+141 142
+142 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+152 153
+143 154
+154 155
+143 156
+156 157
+157 158
+120 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+160 166
+166 167
+167 168
+168 169
+166 170
+170 171
+171 172
+118 173
+173 174
+174 175
+173 176
+176 177
+177 178
+118 179
+179 180
+180 181
+181 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+182 189
+189 190
+182 191
+191 192
+192 193
+2 194
+194 195
+195 196
+196 197
+195 198
+195 199
+199 200
+200 201
+199 202
+202 203
+203 204
+0 205
+205 206
+0 207
+207 208
+208 209
+208 210
+210 211
+208 212
+212 213
+213 214
+207 215
+215 216
+215 217
+217 218
+215 219
+219 220
+220 221
+207 222
+222 223
+222 224
+224 225
+222 226
+226 227
+227 228
+
+Initializes a servlet binding.

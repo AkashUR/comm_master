@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='apkAssets'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='ZipBackedNode'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='apkFile'
+17 argument (StringLiteralExpr)
+18 value='assets/'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='mount'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='root'
+26 arguments
+27 argument (BinaryExpr)
+28 operator='PLUS'
+29 left (StringLiteralExpr)
+30 value='/data/'
+31 right (NameExpr)
+32 name (SimpleName)
+33 identifier='pkgName'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='apkAssets'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='loadApk'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='pkgName'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='String'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='apkFile'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='ZipFile'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+26 34
+34 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+40 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+
+Load an apk file to the emulated file system. By spec, the apk file would be located at /data/app/[package_name].apk; Its data would be accessible at /data/data/[package_name]/;

@@ -1,0 +1,316 @@
+157
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ClientSequencer'
+11 arguments
+12 argument (ObjectCreationExpr)
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ClientSessionState'
+16 arguments
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='randomUUID'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='UUID'
+23 name (SimpleName)
+24 identifier='sequencer'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='ClientSequencer'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='build'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='withPreviousIndex'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='withEventIndex'
+41 scope (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='withSession'
+44 scope (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='builder'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='PublishRequest'
+50 arguments
+51 argument (IntegerLiteralExpr)
+52 value='1'
+53 arguments
+54 argument (IntegerLiteralExpr)
+55 value='2'
+56 arguments
+57 argument (IntegerLiteralExpr)
+58 value='0'
+59 name (SimpleName)
+60 identifier='request1'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='PublishRequest'
+64 statement (ExpressionStmt)
+65 expression (VariableDeclarationExpr)
+66 variables
+67 variable (VariableDeclarator)
+68 initializer (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='build'
+71 scope (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='withPreviousIndex'
+74 scope (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='withEventIndex'
+77 scope (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='withSession'
+80 scope (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='builder'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='PublishRequest'
+86 arguments
+87 argument (IntegerLiteralExpr)
+88 value='1'
+89 arguments
+90 argument (IntegerLiteralExpr)
+91 value='3'
+92 arguments
+93 argument (IntegerLiteralExpr)
+94 value='2'
+95 name (SimpleName)
+96 identifier='request2'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='PublishRequest'
+100 statement (ExpressionStmt)
+101 expression (VariableDeclarationExpr)
+102 variables
+103 variable (VariableDeclarator)
+104 initializer (ObjectCreationExpr)
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='AtomicInteger'
+108 name (SimpleName)
+109 identifier='run'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='AtomicInteger'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='sequenceEvent'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='sequencer'
+120 arguments
+121 argument (NameExpr)
+122 name (SimpleName)
+123 identifier='request1'
+124 argument (NullLiteralExpr)
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='sequenceEvent'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='sequencer'
+132 arguments
+133 argument (NameExpr)
+134 name (SimpleName)
+135 identifier='request2'
+136 argument (NullLiteralExpr)
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='assertEquals'
+141 arguments
+142 argument (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='get'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='run'
+148 argument (IntegerLiteralExpr)
+149 value='2'
+150 type (VoidType)
+151 name (SimpleName)
+152 identifier='testSequenceEventAbsentCommand'
+153 thrownExceptions
+154 thrownException (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+6 23
+23 24
+6 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+41 50
+50 51
+51 52
+38 53
+53 54
+54 55
+35 56
+56 57
+57 58
+31 59
+59 60
+31 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+74 77
+77 78
+78 79
+77 80
+80 81
+81 82
+80 83
+83 84
+84 85
+77 86
+86 87
+87 88
+74 89
+89 90
+90 91
+71 92
+92 93
+93 94
+67 95
+95 96
+67 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+103 108
+108 109
+103 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+122 123
+120 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+134 135
+132 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+141 148
+148 149
+0 150
+0 151
+151 152
+0 153
+153 154
+154 155
+155 156
+
+Tests sequencing an event that arrives before a command response.

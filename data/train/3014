@@ -1,0 +1,414 @@
+206
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getIndexStore'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='field'
+13 argument (ArrayCreationExpr)
+14 elementType (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='String'
+17 initializer (ArrayInitializerExpr)
+18 values
+19 value (StringLiteralExpr)
+20 value='prefix'
+21 value (StringLiteralExpr)
+22 value='prefixx'
+23 levels
+24 level (ArrayCreationLevel)
+25 name (SimpleName)
+26 identifier='indexStore'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Directory'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='open'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='DirectoryReader'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='indexStore'
+44 name (SimpleName)
+45 identifier='reader'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='IndexReader'
+49 statement (ExpressionStmt)
+50 expression (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 initializer (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='newSearcher'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='reader'
+60 name (SimpleName)
+61 identifier='searcher'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='IndexSearcher'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (ObjectCreationExpr)
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='WildcardQuery'
+73 arguments
+74 argument (ObjectCreationExpr)
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Term'
+78 arguments
+79 argument (StringLiteralExpr)
+80 value='field'
+81 argument (StringLiteralExpr)
+82 value='prefix*'
+83 name (SimpleName)
+84 identifier='wq'
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='MultiTermQuery'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='assertMatches'
+92 arguments
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='searcher'
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='wq'
+99 argument (IntegerLiteralExpr)
+100 value='2'
+101 statement (ExpressionStmt)
+102 expression (AssignExpr)
+103 operator='ASSIGN'
+104 target (NameExpr)
+105 name (SimpleName)
+106 identifier='wq'
+107 value (ObjectCreationExpr)
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='WildcardQuery'
+111 arguments
+112 argument (ObjectCreationExpr)
+113 type (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='Term'
+116 arguments
+117 argument (StringLiteralExpr)
+118 value='field'
+119 argument (StringLiteralExpr)
+120 value='*'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='assertMatches'
+125 arguments
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='searcher'
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='wq'
+132 argument (IntegerLiteralExpr)
+133 value='2'
+134 statement (ExpressionStmt)
+135 expression (VariableDeclarationExpr)
+136 variables
+137 variable (VariableDeclarator)
+138 initializer (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='getTerms'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='MultiFields'
+144 arguments
+145 argument (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='getIndexReader'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='searcher'
+151 argument (StringLiteralExpr)
+152 value='field'
+153 name (SimpleName)
+154 identifier='terms'
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='Terms'
+158 statement (ExpressionStmt)
+159 expression (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='assertFalse'
+162 arguments
+163 argument (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='contains'
+166 scope (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='getSimpleName'
+169 scope (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='getClass'
+172 scope (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='getTermsEnum'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='wq'
+178 arguments
+179 argument (NameExpr)
+180 name (SimpleName)
+181 identifier='terms'
+182 arguments
+183 argument (StringLiteralExpr)
+184 value='AutomatonTermsEnum'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='close'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='reader'
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='close'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='indexStore'
+199 type (VoidType)
+200 name (SimpleName)
+201 identifier='testPrefixTerm'
+202 thrownExceptions
+203 thrownException (ClassOrInterfaceType)
+204 name (SimpleName)
+205 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+19 20
+18 21
+21 22
+13 23
+23 24
+6 25
+25 26
+6 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+42 43
+33 44
+44 45
+33 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+52 60
+60 61
+52 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+75 76
+76 77
+74 78
+78 79
+79 80
+78 81
+81 82
+68 83
+83 84
+68 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+92 96
+96 97
+97 98
+92 99
+99 100
+2 101
+101 102
+102 103
+102 104
+104 105
+105 106
+102 107
+107 108
+108 109
+109 110
+107 111
+111 112
+112 113
+113 114
+114 115
+112 116
+116 117
+117 118
+116 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+127 128
+125 129
+129 130
+130 131
+125 132
+132 133
+2 134
+134 135
+135 136
+136 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+138 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+144 151
+151 152
+137 153
+153 154
+137 155
+155 156
+156 157
+2 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+166 169
+169 170
+170 171
+169 172
+172 173
+173 174
+172 175
+175 176
+176 177
+172 178
+178 179
+179 180
+180 181
+163 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+2 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+0 199
+0 200
+200 201
+0 202
+202 203
+203 204
+204 205
+
+Tests if a WildcardQuery that has only a trailing * in the term is rewritten to a single PrefixQuery. The boost and rewriteMethod should be preserved.

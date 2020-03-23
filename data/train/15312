@@ -1,0 +1,190 @@
+94
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getSourceLocation'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='project'
+14 name (SimpleName)
+15 identifier='root'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='IPath'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='fromOSString'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='Path'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='relativePath'
+33 name (SimpleName)
+34 identifier='path'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='IPath'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='checkArgument'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='Preconditions'
+45 arguments
+46 argument (UnaryExpr)
+47 operator='LOGICAL_COMPLEMENT'
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='isAbsolute'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='path'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='touch'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='PathTestUtil'
+61 arguments
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='append'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='root'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='path'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='createFile'
+75 parameters
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='project'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='IProject'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='relativePath'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='String'
+90 thrownExceptions
+91 thrownException (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+22 33
+33 34
+22 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+46 48
+48 49
+49 50
+48 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+75 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+0 90
+90 91
+91 92
+92 93
+
+Creates a file relative to the project's "src" folder. Files created this way become visible after the next refresh operation.

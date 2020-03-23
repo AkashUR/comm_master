@@ -1,0 +1,228 @@
+113
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (NameExpr)
+18 name (SimpleName)
+19 identifier='WEBAPP_TEST_HEADER'
+20 right (StringLiteralExpr)
+21 value=''
+22 right (StringLiteralExpr)
+23 value='  <login-config>'
+24 right (StringLiteralExpr)
+25 value='    <auth-method>BASIC</auth-method>'
+26 right (StringLiteralExpr)
+27 value='  </login-config>'
+28 right (StringLiteralExpr)
+29 value='</web-app>'
+30 name (SimpleName)
+31 identifier='xml'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='String'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='build'
+39 scope (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='builder'
+42 scope (ThisExpr)
+43 arguments
+44 argument (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='ByteArrayInputStream'
+48 arguments
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getBytes'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='xml'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='UTF-8'
+58 statement (ExpressionStmt)
+59 expression (VariableDeclarationExpr)
+60 variables
+61 variable (VariableDeclarator)
+62 initializer (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='parseWebXml'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='WebXmlIo'
+68 arguments
+69 argument (ObjectCreationExpr)
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='ByteArrayInputStream'
+73 arguments
+74 argument (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='getBytes'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='xml'
+80 arguments
+81 argument (StringLiteralExpr)
+82 value='UTF-8'
+83 argument (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getEntityResolver'
+86 name (SimpleName)
+87 identifier='webXml'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='WebXml'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='assertTrue'
+95 arguments
+96 argument (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='hasLoginConfig'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='WebXmlUtils'
+102 arguments
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='webXml'
+106 type (VoidType)
+107 name (SimpleName)
+108 identifier='testHasLoginConfig'
+109 thrownExceptions
+110 thrownException (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+13 22
+22 23
+11 24
+24 25
+9 26
+26 27
+7 28
+28 29
+6 30
+30 31
+6 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+36 43
+43 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+68 83
+83 84
+84 85
+61 86
+86 87
+61 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+0 106
+0 107
+107 108
+0 109
+109 110
+110 111
+111 112
+
+Tests whether checking a descriptor with a login configuration for a login configuration results in <code>true</code>.

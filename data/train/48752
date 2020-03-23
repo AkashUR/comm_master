@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (ClassOrInterfaceType)
+3 name (SimpleName)
+4 identifier='ResponseEntity'
+5 typeArguments
+6 typeArgument (WildcardType)
+7 name (SimpleName)
+8 identifier='createUser'
+9 parameters
+10 parameter (Parameter)
+11 isVarArgs='false'
+12 name (SimpleName)
+13 identifier='managedUserDTO'
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='ManagedUserDTO'
+17 annotations
+18 annotation (MarkerAnnotationExpr)
+19 name (Name)
+20 identifier='RequestBody'
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='request'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='HttpServletRequest'
+28 thrownExceptions
+29 thrownException (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='URISyntaxException'
+32 annotations
+33 annotation (NormalAnnotationExpr)
+34 name (Name)
+35 identifier='RequestMapping'
+36 pairs
+37 pair (MemberValuePair)
+38 name (SimpleName)
+39 identifier='value'
+40 value (StringLiteralExpr)
+41 value='/users'
+42 pair (MemberValuePair)
+43 name (SimpleName)
+44 identifier='method'
+45 value (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='POST'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='RequestMethod'
+51 pair (MemberValuePair)
+52 name (SimpleName)
+53 identifier='produces'
+54 value (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='APPLICATION_JSON_VALUE'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='MediaType'
+60 annotation (MarkerAnnotationExpr)
+61 name (Name)
+62 identifier='Timed'
+63 annotation (SingleMemberAnnotationExpr)
+64 memberValue (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='ADMIN'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='AuthoritiesConstants'
+70 name (Name)
+71 identifier='Secured'
+0 1
+0 2
+2 3
+3 4
+2 5
+5 6
+0 7
+7 8
+0 9
+9 10
+10 11
+10 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+19 20
+9 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+0 28
+28 29
+29 30
+30 31
+0 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+37 40
+40 41
+36 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+36 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+32 60
+60 61
+61 62
+32 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+63 70
+70 71
+
+POST  /users  : Creates a new user. <p> Creates a new user if the login and email are not already used, and sends an mail with an activation link. The user needs to be activated on creation. </p>

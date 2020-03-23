@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='activeAssembler'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getAssembler'
+12 arguments
+13 argument (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getTimestamp'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='buffer'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='put'
+23 scope (ArrayAccessExpr)
+24 index (NameExpr)
+25 name (SimpleName)
+26 identifier='activeAssembler'
+27 name (NameExpr)
+28 name (SimpleName)
+29 identifier='assemblers'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='buffer'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='put'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='buffer'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Buffer'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+20 30
+30 31
+31 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+
+Add the buffer (which contains a fragment) to the right assembler.

@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='realInverseFull'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='a'
+11 argument (IntegerLiteralExpr)
+12 value='0'
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='scale'
+16 type (VoidType)
+17 name (SimpleName)
+18 identifier='realInverseFull'
+19 parameters
+20 parameter (Parameter)
+21 isVarArgs='false'
+22 name (SimpleName)
+23 identifier='a'
+24 type (ArrayType)
+25 origin='TYPE'
+26 componentType (PrimitiveType)
+27 type='DOUBLE'
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='scale'
+32 type (PrimitiveType)
+33 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+7 13
+13 14
+14 15
+0 16
+0 17
+17 18
+0 19
+19 20
+20 21
+20 22
+22 23
+20 24
+24 25
+24 26
+26 27
+19 28
+28 29
+28 30
+30 31
+28 32
+32 33
+
+Computes 1D inverse DFT of real data leaving the result in <code>a</code> . This method computes the full real inverse transform, i.e. you will get the same result as from <code>complexInverse</code> called with all imaginary part equal 0. Because the result is stored in <code>a</code>, the size of the input array must greater or equal 2*n, with only the first n elements filled with real data.

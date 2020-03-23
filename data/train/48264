@@ -1,0 +1,146 @@
+72
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='bitString'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='toBooleanArray'
+13 scope (ObjectCreationExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='BitArray'
+17 arguments
+18 argument (BinaryExpr)
+19 operator='MULTIPLY'
+20 left (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='length'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='bitString'
+26 right (IntegerLiteralExpr)
+27 value='8'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='bitString'
+31 statement (ExpressionStmt)
+32 expression (AssignExpr)
+33 operator='ASSIGN'
+34 target (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='extensionId'
+37 scope (ThisExpr)
+38 value (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='KeyUsage_Id'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='PKIXExtensions'
+44 statement (ExpressionStmt)
+45 expression (AssignExpr)
+46 operator='ASSIGN'
+47 target (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='critical'
+50 scope (ThisExpr)
+51 value (BooleanLiteralExpr)
+52 value='true'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='encodeThis'
+57 name (SimpleName)
+58 identifier='KeyUsageExtension'
+59 parameters
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='bitString'
+64 type (ArrayType)
+65 origin='TYPE'
+66 componentType (PrimitiveType)
+67 type='BYTE'
+68 thrownExceptions
+69 thrownException (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+23 24
+24 25
+18 26
+26 27
+17 28
+28 29
+29 30
+2 31
+31 32
+32 33
+32 34
+34 35
+35 36
+34 37
+32 38
+38 39
+39 40
+38 41
+41 42
+42 43
+2 44
+44 45
+45 46
+45 47
+47 48
+48 49
+47 50
+45 51
+51 52
+2 53
+53 54
+54 55
+55 56
+0 57
+57 58
+0 59
+59 60
+60 61
+60 62
+62 63
+60 64
+64 65
+64 66
+66 67
+0 68
+68 69
+69 70
+70 71
+
+Create a KeyUsageExtension with the passed bit settings. The criticality is set to true.

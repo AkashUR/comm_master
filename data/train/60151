@@ -1,0 +1,574 @@
+286
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='info'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (BinaryExpr)
+18 operator='PLUS'
+19 left (BinaryExpr)
+20 operator='PLUS'
+21 left (BinaryExpr)
+22 operator='PLUS'
+23 left (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getContextPath'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='request'
+29 right (StringLiteralExpr)
+30 value=' ('
+31 right (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getRemoteAddr'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='request'
+37 right (StringLiteralExpr)
+38 value=' - '
+39 right (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getLocale'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='request'
+45 right (StringLiteralExpr)
+46 value=') #'
+47 right (NameExpr)
+48 name (SimpleName)
+49 identifier='counter'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (NameExpr)
+54 name (SimpleName)
+55 identifier='ctx'
+56 value (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Properties'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='setLanguage'
+64 arguments
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='request'
+68 statement (ExpressionStmt)
+69 expression (VariableDeclarationExpr)
+70 variables
+71 variable (VariableDeclarator)
+72 initializer (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getSession'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='request'
+78 arguments
+79 argument (BooleanLiteralExpr)
+80 value='false'
+81 name (SimpleName)
+82 identifier='session'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='HttpSession'
+86 statement (ExpressionStmt)
+87 expression (VariableDeclarationExpr)
+88 variables
+89 variable (VariableDeclarator)
+90 initializer (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='getServletContext'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='session'
+96 name (SimpleName)
+97 identifier='sc'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='ServletContext'
+101 statement (ExpressionStmt)
+102 expression (VariableDeclarationExpr)
+103 variables
+104 variable (VariableDeclarator)
+105 initializer (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='getInitParameterNames'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='sc'
+111 name (SimpleName)
+112 identifier='en'
+113 type (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='Enumeration'
+116 statement (WhileStmt)
+117 body (BlockStmt)
+118 statements
+119 statement (ExpressionStmt)
+120 expression (VariableDeclarationExpr)
+121 variables
+122 variable (VariableDeclarator)
+123 initializer (CastExpr)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='nextElement'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='en'
+130 type (ClassOrInterfaceType)
+131 name (SimpleName)
+132 identifier='String'
+133 name (SimpleName)
+134 identifier='key'
+135 type (ClassOrInterfaceType)
+136 name (SimpleName)
+137 identifier='String'
+138 statement (ExpressionStmt)
+139 expression (VariableDeclarationExpr)
+140 variables
+141 variable (VariableDeclarator)
+142 initializer (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='getInitParameter'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='sc'
+148 arguments
+149 argument (NameExpr)
+150 name (SimpleName)
+151 identifier='key'
+152 name (SimpleName)
+153 identifier='value'
+154 type (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='String'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='setProperty'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='ctx'
+164 arguments
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='key'
+168 argument (NameExpr)
+169 name (SimpleName)
+170 identifier='value'
+171 statement (ExpressionStmt)
+172 expression (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='config'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='log'
+178 arguments
+179 argument (BinaryExpr)
+180 operator='PLUS'
+181 left (BinaryExpr)
+182 operator='PLUS'
+183 left (NameExpr)
+184 name (SimpleName)
+185 identifier='key'
+186 right (StringLiteralExpr)
+187 value='='
+188 right (NameExpr)
+189 name (SimpleName)
+190 identifier='value'
+191 condition (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='hasMoreElements'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='en'
+197 statement (ExpressionStmt)
+198 expression (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='setWStore'
+201 arguments
+202 argument (NameExpr)
+203 name (SimpleName)
+204 identifier='W_Store_ID'
+205 statement (ExpressionStmt)
+206 expression (AssignExpr)
+207 operator='ASSIGN'
+208 target (NameExpr)
+209 name (SimpleName)
+210 identifier='ctx'
+211 value (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='getDefaults'
+214 statement (ExpressionStmt)
+215 expression (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='put'
+218 scope (NameExpr)
+219 name (SimpleName)
+220 identifier='ctx'
+221 arguments
+222 argument (NameExpr)
+223 name (SimpleName)
+224 identifier='CTX_SERVER_CONTEXT'
+225 argument (BinaryExpr)
+226 operator='PLUS'
+227 left (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='getServerName'
+230 scope (NameExpr)
+231 name (SimpleName)
+232 identifier='request'
+233 right (MethodCallExpr)
+234 name (SimpleName)
+235 identifier='getContextPath'
+236 scope (NameExpr)
+237 name (SimpleName)
+238 identifier='request'
+239 statement (ExpressionStmt)
+240 expression (MethodCallExpr)
+241 name (SimpleName)
+242 identifier='setAttribute'
+243 scope (NameExpr)
+244 name (SimpleName)
+245 identifier='session'
+246 arguments
+247 argument (StringLiteralExpr)
+248 value='ctx'
+249 argument (NameExpr)
+250 name (SimpleName)
+251 identifier='ctx'
+252 statement (ExpressionStmt)
+253 expression (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='fine'
+256 scope (NameExpr)
+257 name (SimpleName)
+258 identifier='log'
+259 arguments
+260 argument (BinaryExpr)
+261 operator='PLUS'
+262 left (StringLiteralExpr)
+263 value='#'
+264 right (MethodCallExpr)
+265 name (SimpleName)
+266 identifier='size'
+267 scope (NameExpr)
+268 name (SimpleName)
+269 identifier='ctx'
+270 name (SimpleName)
+271 identifier='MobileSessionCtx'
+272 parameters
+273 parameter (Parameter)
+274 isVarArgs='false'
+275 name (SimpleName)
+276 identifier='request'
+277 type (ClassOrInterfaceType)
+278 name (SimpleName)
+279 identifier='HttpServletRequest'
+280 parameter (Parameter)
+281 isVarArgs='false'
+282 name (SimpleName)
+283 identifier='W_Store_ID'
+284 type (PrimitiveType)
+285 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+17 19
+19 20
+19 21
+21 22
+21 23
+23 24
+24 25
+23 26
+26 27
+27 28
+21 29
+29 30
+19 31
+31 32
+32 33
+31 34
+34 35
+35 36
+17 37
+37 38
+15 39
+39 40
+40 41
+39 42
+42 43
+43 44
+13 45
+45 46
+11 47
+47 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+71 81
+81 82
+71 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+89 96
+96 97
+89 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+104 111
+111 112
+104 113
+113 114
+114 115
+2 116
+116 117
+117 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+123 130
+130 131
+131 132
+122 133
+133 134
+122 135
+135 136
+136 137
+118 138
+138 139
+139 140
+140 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+150 151
+141 152
+152 153
+141 154
+154 155
+155 156
+118 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+158 164
+164 165
+165 166
+166 167
+164 168
+168 169
+169 170
+118 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+172 178
+178 179
+179 180
+179 181
+181 182
+181 183
+183 184
+184 185
+181 186
+186 187
+179 188
+188 189
+189 190
+116 191
+191 192
+192 193
+191 194
+194 195
+195 196
+2 197
+197 198
+198 199
+199 200
+198 201
+201 202
+202 203
+203 204
+2 205
+205 206
+206 207
+206 208
+208 209
+209 210
+206 211
+211 212
+212 213
+2 214
+214 215
+215 216
+216 217
+215 218
+218 219
+219 220
+215 221
+221 222
+222 223
+223 224
+221 225
+225 226
+225 227
+227 228
+228 229
+227 230
+230 231
+231 232
+225 233
+233 234
+234 235
+233 236
+236 237
+237 238
+2 239
+239 240
+240 241
+241 242
+240 243
+243 244
+244 245
+240 246
+246 247
+247 248
+246 249
+249 250
+250 251
+2 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+253 259
+259 260
+260 261
+260 262
+262 263
+260 264
+264 265
+265 266
+264 267
+267 268
+268 269
+0 270
+270 271
+0 272
+272 273
+273 274
+273 275
+275 276
+273 277
+277 278
+278 279
+272 280
+280 281
+280 282
+282 283
+280 284
+284 285
+
+Web Session Context

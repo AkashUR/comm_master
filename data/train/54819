@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='info'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getEvoLogger'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='LoggingUtils'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='* Search Budget:'
+16 statement (ForeachStmt)
+17 body (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='info'
+21 scope (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getEvoLogger'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='LoggingUtils'
+27 arguments
+28 argument (BinaryExpr)
+29 operator='PLUS'
+30 left (StringLiteralExpr)
+31 value='\t- '
+32 right (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='toString'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='sc'
+38 iterable (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getStoppingConditions'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='algorithm'
+44 variable (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 name (SimpleName)
+48 identifier='sc'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='StoppingCondition'
+52 type (VoidType)
+53 name (SimpleName)
+54 identifier='printBudget'
+55 parameters
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='algorithm'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='GeneticAlgorithm'
+63 typeArguments
+64 typeArgument (WildcardType)
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+18 27
+27 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+32 35
+35 36
+36 37
+16 38
+38 39
+39 40
+38 41
+41 42
+42 43
+16 44
+44 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+0 52
+0 53
+53 54
+0 55
+55 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+60 63
+63 64
+
+Prints out all information regarding this GAs stopping conditions So far only used for testing purposes in TestSuiteGenerator

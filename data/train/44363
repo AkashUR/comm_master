@@ -1,0 +1,282 @@
+140
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='docType'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='DocumentType'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='entities'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='NamedNodeMap'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='entity'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Entity'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (NullLiteralExpr)
+44 name (SimpleName)
+45 identifier='nullNS'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='String'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (NameExpr)
+53 name (SimpleName)
+54 identifier='doc'
+55 value (CastExpr)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='load'
+59 arguments
+60 argument (StringLiteralExpr)
+61 value='staffNS'
+62 argument (BooleanLiteralExpr)
+63 value='false'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Document'
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='docType'
+73 value (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getDoctype'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='doc'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='entities'
+85 value (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getEntities'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='docType'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='assertNotNull'
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='entitiesNotNull'
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='entities'
+101 statement (ExpressionStmt)
+102 expression (AssignExpr)
+103 operator='ASSIGN'
+104 target (NameExpr)
+105 name (SimpleName)
+106 identifier='entity'
+107 value (CastExpr)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='getNamedItemNS'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='entities'
+114 arguments
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='nullNS'
+118 argument (StringLiteralExpr)
+119 value='ent1'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='Entity'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='assertNull'
+127 arguments
+128 argument (StringLiteralExpr)
+129 value='entityNull'
+130 argument (NameExpr)
+131 name (SimpleName)
+132 identifier='entity'
+133 type (VoidType)
+134 name (SimpleName)
+135 identifier='runTest'
+136 thrownExceptions
+137 thrownException (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+55 64
+64 65
+65 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+85 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+99 100
+2 101
+101 102
+102 103
+102 104
+104 105
+105 106
+102 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+116 117
+114 118
+118 119
+107 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+127 130
+130 131
+131 132
+0 133
+0 134
+134 135
+0 136
+136 137
+137 138
+138 139
+
+Runs the test case.

@@ -1,0 +1,34 @@
+16
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='execute'
+7 arguments
+8 argument (NullLiteralExpr)
+9 type (VoidType)
+10 name (SimpleName)
+11 identifier='execute'
+12 thrownExceptions
+13 thrownException (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+0 9
+0 10
+10 11
+0 12
+12 13
+13 14
+14 15
+
+Populates this <code>CachedRowSetImpl</code> object with data. This form of the method uses the rowset's user, password, and url or data source name properties to create a database connection.  If properties that are needed have not been set, this method will throw an exception. <P> Another form of this method uses an existing JDBC <code>Connection</code> object instead of creating a new one; therefore, it ignores the properties used for establishing a new connection. <P> The query specified by the command property is executed to create a <code>ResultSet</code> object from which to retrieve data. The current contents of the rowset are discarded, and the rowset's metadata is also (re)set.  If there are outstanding updates, they are also ignored. <P> The method <code>execute</code> closes any database connections that it creates.

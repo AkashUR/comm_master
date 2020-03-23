@@ -1,0 +1,216 @@
+107
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onCreate'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='savedInstanceState'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='setContentView'
+16 arguments
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='playback_controls'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='layout'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='R'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='loadViews'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='setupCallbacks'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='mSession'
+40 value (ObjectCreationExpr)
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='MediaSession'
+44 arguments
+45 argument (ThisExpr)
+46 argument (StringLiteralExpr)
+47 value='LeanbackSampleApp'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='setCallback'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='mSession'
+55 arguments
+56 argument (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='MediaSessionCallback'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='setFlags'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='mSession'
+67 arguments
+68 argument (BinaryExpr)
+69 operator='BINARY_OR'
+70 left (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='FLAG_HANDLES_MEDIA_BUTTONS'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='MediaSession'
+76 right (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='FLAG_HANDLES_TRANSPORT_CONTROLS'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='MediaSession'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='setActive'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='mSession'
+89 arguments
+90 argument (BooleanLiteralExpr)
+91 value='true'
+92 type (VoidType)
+93 name (SimpleName)
+94 identifier='onCreate'
+95 parameters
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='savedInstanceState'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='Bundle'
+103 annotations
+104 annotation (MarkerAnnotationExpr)
+105 name (Name)
+106 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+41 42
+42 43
+40 44
+44 45
+44 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+68 70
+70 71
+71 72
+70 73
+73 74
+74 75
+68 76
+76 77
+77 78
+76 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+0 92
+0 93
+93 94
+0 95
+95 96
+96 97
+96 98
+98 99
+96 100
+100 101
+101 102
+0 103
+103 104
+104 105
+105 106
+
+Called when the activity is first created.

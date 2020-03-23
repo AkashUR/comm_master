@@ -1,0 +1,148 @@
+73
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertMacApp'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='FileMisc'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='installationRoot'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='requireNonNull'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='Objects'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='installationRoot'
+25 statement (ExpressionStmt)
+26 expression (AssignExpr)
+27 operator='ASSIGN'
+28 target (NameExpr)
+29 name (SimpleName)
+30 identifier='eclipseIni'
+31 value (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='parseFrom'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='EclipseIni'
+37 arguments
+38 argument (ObjectCreationExpr)
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='File'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='installationRoot'
+46 argument (BinaryExpr)
+47 operator='PLUS'
+48 left (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='macContentsEclipse'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='FileMisc'
+54 right (StringLiteralExpr)
+55 value='eclipse.ini'
+56 name (SimpleName)
+57 identifier='EclipseIniLauncher'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='installationRoot'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='File'
+66 thrownExceptions
+67 thrownException (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='FileNotFoundException'
+70 thrownException (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+26 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+44 45
+42 46
+46 47
+46 48
+48 49
+49 50
+48 51
+51 52
+52 53
+46 54
+54 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+0 66
+66 67
+67 68
+68 69
+66 70
+70 71
+71 72
+
+Wraps a directory of jars in the launcher API, and ensures the the directory contains the plugins required to run a barebones equinox instance.

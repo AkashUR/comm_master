@@ -1,0 +1,762 @@
+380
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setLayout'
+7 arguments
+8 argument (ObjectCreationExpr)
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='BorderLayout'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='frame'
+18 scope (ThisExpr)
+19 value (NameExpr)
+20 name (SimpleName)
+21 identifier='frame'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='listModel'
+28 value (ObjectCreationExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='DomainFilesModel'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='JList'
+40 typeArguments
+41 typeArgument (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='String'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='listModel'
+48 name (SimpleName)
+49 identifier='listBox'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='JList'
+53 typeArguments
+54 typeArgument (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='setSelectionMode'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='listBox'
+64 arguments
+65 argument (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='SINGLE_SELECTION'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='ListSelectionModel'
+71 statement (ExpressionStmt)
+72 expression (VariableDeclarationExpr)
+73 variables
+74 variable (VariableDeclarator)
+75 initializer (ObjectCreationExpr)
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='ListListener'
+79 name (SimpleName)
+80 identifier='listener'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='ListListener'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='addListSelectionListener'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='listBox'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='listener'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='setBorder'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='listBox'
+102 arguments
+103 argument (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='createTitledBorder'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='BorderFactory'
+109 arguments
+110 argument (StringLiteralExpr)
+111 value='XML File(s):'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='addMouseListener'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='listBox'
+119 arguments
+120 argument (ObjectCreationExpr)
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='frame'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='ClickListener'
+127 statement (ExpressionStmt)
+128 expression (AssignExpr)
+129 operator='ASSIGN'
+130 target (NameExpr)
+131 name (SimpleName)
+132 identifier='editor'
+133 value (ObjectCreationExpr)
+134 type (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='JEditorPane'
+137 statement (ExpressionStmt)
+138 expression (VariableDeclarationExpr)
+139 variables
+140 variable (VariableDeclarator)
+141 initializer (ObjectCreationExpr)
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='DomainEditorKit'
+145 name (SimpleName)
+146 identifier='kit'
+147 type (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='DomainEditorKit'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='setEditorKit'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='editor'
+157 arguments
+158 argument (NameExpr)
+159 name (SimpleName)
+160 identifier='kit'
+161 statement (ExpressionStmt)
+162 expression (VariableDeclarationExpr)
+163 variables
+164 variable (VariableDeclarator)
+165 initializer (ObjectCreationExpr)
+166 type (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='JScrollPane'
+169 arguments
+170 argument (NameExpr)
+171 name (SimpleName)
+172 identifier='editor'
+173 name (SimpleName)
+174 identifier='scroller'
+175 type (ClassOrInterfaceType)
+176 name (SimpleName)
+177 identifier='JScrollPane'
+178 statement (ExpressionStmt)
+179 expression (VariableDeclarationExpr)
+180 variables
+181 variable (VariableDeclarator)
+182 initializer (ObjectCreationExpr)
+183 type (ClassOrInterfaceType)
+184 name (SimpleName)
+185 identifier='JSplitPane'
+186 arguments
+187 argument (FieldAccessExpr)
+188 name (SimpleName)
+189 identifier='HORIZONTAL_SPLIT'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='JSplitPane'
+193 argument (NameExpr)
+194 name (SimpleName)
+195 identifier='listBox'
+196 argument (NameExpr)
+197 name (SimpleName)
+198 identifier='scroller'
+199 name (SimpleName)
+200 identifier='topPanel'
+201 type (ClassOrInterfaceType)
+202 name (SimpleName)
+203 identifier='JSplitPane'
+204 statement (ExpressionStmt)
+205 expression (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='setDividerLocation'
+208 scope (NameExpr)
+209 name (SimpleName)
+210 identifier='topPanel'
+211 arguments
+212 argument (IntegerLiteralExpr)
+213 value='200'
+214 statement (ExpressionStmt)
+215 expression (VariableDeclarationExpr)
+216 variables
+217 variable (VariableDeclarator)
+218 initializer (ObjectCreationExpr)
+219 type (ClassOrInterfaceType)
+220 name (SimpleName)
+221 identifier='UndoRedoAction'
+222 name (SimpleName)
+223 identifier='undoredo'
+224 type (ClassOrInterfaceType)
+225 name (SimpleName)
+226 identifier='Action'
+227 statement (ExpressionStmt)
+228 expression (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='put'
+231 scope (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='getActionMap'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='editor'
+237 arguments
+238 argument (StringLiteralExpr)
+239 value='Undo'
+240 argument (NameExpr)
+241 name (SimpleName)
+242 identifier='undoredo'
+243 statement (ExpressionStmt)
+244 expression (MethodCallExpr)
+245 name (SimpleName)
+246 identifier='put'
+247 scope (MethodCallExpr)
+248 name (SimpleName)
+249 identifier='getActionMap'
+250 scope (NameExpr)
+251 name (SimpleName)
+252 identifier='editor'
+253 arguments
+254 argument (StringLiteralExpr)
+255 value='Redo'
+256 argument (NameExpr)
+257 name (SimpleName)
+258 identifier='undoredo'
+259 statement (ExpressionStmt)
+260 expression (VariableDeclarationExpr)
+261 variables
+262 variable (VariableDeclarator)
+263 initializer (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='getMenuShortcutKeyMask'
+266 scope (MethodCallExpr)
+267 name (SimpleName)
+268 identifier='getDefaultToolkit'
+269 scope (NameExpr)
+270 name (SimpleName)
+271 identifier='Toolkit'
+272 name (SimpleName)
+273 identifier='mask'
+274 type (PrimitiveType)
+275 type='INT'
+276 statement (ExpressionStmt)
+277 expression (VariableDeclarationExpr)
+278 variables
+279 variable (VariableDeclarator)
+280 initializer (MethodCallExpr)
+281 name (SimpleName)
+282 identifier='getKeyStroke'
+283 scope (NameExpr)
+284 name (SimpleName)
+285 identifier='KeyStroke'
+286 arguments
+287 argument (FieldAccessExpr)
+288 name (SimpleName)
+289 identifier='VK_Z'
+290 scope (NameExpr)
+291 name (SimpleName)
+292 identifier='KeyEvent'
+293 argument (NameExpr)
+294 name (SimpleName)
+295 identifier='mask'
+296 name (SimpleName)
+297 identifier='undoKey'
+298 type (ClassOrInterfaceType)
+299 name (SimpleName)
+300 identifier='KeyStroke'
+301 statement (ExpressionStmt)
+302 expression (VariableDeclarationExpr)
+303 variables
+304 variable (VariableDeclarator)
+305 initializer (MethodCallExpr)
+306 name (SimpleName)
+307 identifier='getKeyStroke'
+308 scope (NameExpr)
+309 name (SimpleName)
+310 identifier='KeyStroke'
+311 arguments
+312 argument (FieldAccessExpr)
+313 name (SimpleName)
+314 identifier='VK_Y'
+315 scope (NameExpr)
+316 name (SimpleName)
+317 identifier='KeyEvent'
+318 argument (NameExpr)
+319 name (SimpleName)
+320 identifier='mask'
+321 name (SimpleName)
+322 identifier='redoKey'
+323 type (ClassOrInterfaceType)
+324 name (SimpleName)
+325 identifier='KeyStroke'
+326 statement (ExpressionStmt)
+327 expression (MethodCallExpr)
+328 name (SimpleName)
+329 identifier='put'
+330 scope (MethodCallExpr)
+331 name (SimpleName)
+332 identifier='getInputMap'
+333 scope (NameExpr)
+334 name (SimpleName)
+335 identifier='editor'
+336 arguments
+337 argument (NameExpr)
+338 name (SimpleName)
+339 identifier='undoKey'
+340 argument (StringLiteralExpr)
+341 value='Undo'
+342 statement (ExpressionStmt)
+343 expression (MethodCallExpr)
+344 name (SimpleName)
+345 identifier='put'
+346 scope (MethodCallExpr)
+347 name (SimpleName)
+348 identifier='getInputMap'
+349 scope (NameExpr)
+350 name (SimpleName)
+351 identifier='editor'
+352 arguments
+353 argument (NameExpr)
+354 name (SimpleName)
+355 identifier='redoKey'
+356 argument (StringLiteralExpr)
+357 value='Redo'
+358 statement (ExpressionStmt)
+359 expression (MethodCallExpr)
+360 name (SimpleName)
+361 identifier='add'
+362 arguments
+363 argument (NameExpr)
+364 name (SimpleName)
+365 identifier='topPanel'
+366 statement (ExpressionStmt)
+367 expression (MethodCallExpr)
+368 name (SimpleName)
+369 identifier='refresh'
+370 name (SimpleName)
+371 identifier='EditorTab'
+372 parameters
+373 parameter (Parameter)
+374 isVarArgs='false'
+375 name (SimpleName)
+376 identifier='frame'
+377 type (ClassOrInterfaceType)
+378 name (SimpleName)
+379 identifier='GUIFrame'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+15 18
+13 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+36 44
+44 45
+45 46
+46 47
+35 48
+48 49
+35 50
+50 51
+51 52
+50 53
+53 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+58 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+74 75
+75 76
+76 77
+77 78
+74 79
+79 80
+74 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+103 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+122 123
+120 124
+124 125
+125 126
+2 127
+127 128
+128 129
+128 130
+130 131
+131 132
+128 133
+133 134
+134 135
+135 136
+2 137
+137 138
+138 139
+139 140
+140 141
+141 142
+142 143
+143 144
+140 145
+145 146
+140 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+151 157
+157 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+164 165
+165 166
+166 167
+167 168
+165 169
+169 170
+170 171
+171 172
+164 173
+173 174
+164 175
+175 176
+176 177
+2 178
+178 179
+179 180
+180 181
+181 182
+182 183
+183 184
+184 185
+182 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+186 193
+193 194
+194 195
+186 196
+196 197
+197 198
+181 199
+199 200
+181 201
+201 202
+202 203
+2 204
+204 205
+205 206
+206 207
+205 208
+208 209
+209 210
+205 211
+211 212
+212 213
+2 214
+214 215
+215 216
+216 217
+217 218
+218 219
+219 220
+220 221
+217 222
+222 223
+217 224
+224 225
+225 226
+2 227
+227 228
+228 229
+229 230
+228 231
+231 232
+232 233
+231 234
+234 235
+235 236
+228 237
+237 238
+238 239
+237 240
+240 241
+241 242
+2 243
+243 244
+244 245
+245 246
+244 247
+247 248
+248 249
+247 250
+250 251
+251 252
+244 253
+253 254
+254 255
+253 256
+256 257
+257 258
+2 259
+259 260
+260 261
+261 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+266 269
+269 270
+270 271
+262 272
+272 273
+262 274
+274 275
+2 276
+276 277
+277 278
+278 279
+279 280
+280 281
+281 282
+280 283
+283 284
+284 285
+280 286
+286 287
+287 288
+288 289
+287 290
+290 291
+291 292
+286 293
+293 294
+294 295
+279 296
+296 297
+279 298
+298 299
+299 300
+2 301
+301 302
+302 303
+303 304
+304 305
+305 306
+306 307
+305 308
+308 309
+309 310
+305 311
+311 312
+312 313
+313 314
+312 315
+315 316
+316 317
+311 318
+318 319
+319 320
+304 321
+321 322
+304 323
+323 324
+324 325
+2 326
+326 327
+327 328
+328 329
+327 330
+330 331
+331 332
+330 333
+333 334
+334 335
+327 336
+336 337
+337 338
+338 339
+336 340
+340 341
+2 342
+342 343
+343 344
+344 345
+343 346
+346 347
+347 348
+346 349
+349 350
+350 351
+343 352
+352 353
+353 354
+354 355
+352 356
+356 357
+2 358
+358 359
+359 360
+360 361
+359 362
+362 363
+363 364
+364 365
+2 366
+366 367
+367 368
+368 369
+0 370
+370 371
+0 372
+372 373
+373 374
+373 375
+375 376
+373 377
+377 378
+378 379
+
+Creates the editor tab inside the given frame. The tab contains a small column with the XML files associated with the domain. At the center of the window is an editor panel to modify the domain.

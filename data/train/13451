@@ -1,0 +1,352 @@
+175
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TextLayout'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='aci'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='fontRenderContext'
+18 name (SimpleName)
+19 identifier='layout'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='TextLayout'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getAdvance'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='layout'
+33 name (SimpleName)
+34 identifier='advance'
+35 type (PrimitiveType)
+36 type='FLOAT'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (IntegerLiteralExpr)
+42 value='0'
+43 name (SimpleName)
+44 identifier='tx'
+45 type (PrimitiveType)
+46 type='FLOAT'
+47 statement (SwitchStmt)
+48 selector (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getType'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='anchor'
+54 entries
+55 entrie (SwitchEntryStmt)
+56 label (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='ANCHOR_MIDDLE'
+59 scope (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='Anchor'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='TextNode'
+65 statements
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (NameExpr)
+70 name (SimpleName)
+71 identifier='tx'
+72 value (BinaryExpr)
+73 operator='DIVIDE'
+74 left (UnaryExpr)
+75 operator='MINUS'
+76 expression (NameExpr)
+77 name (SimpleName)
+78 identifier='advance'
+79 right (IntegerLiteralExpr)
+80 value='2'
+81 statement (BreakStmt)
+82 entrie (SwitchEntryStmt)
+83 label (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='ANCHOR_END'
+86 scope (FieldAccessExpr)
+87 name (SimpleName)
+88 identifier='Anchor'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='TextNode'
+92 statements
+93 statement (ExpressionStmt)
+94 expression (AssignExpr)
+95 operator='ASSIGN'
+96 target (NameExpr)
+97 name (SimpleName)
+98 identifier='tx'
+99 value (UnaryExpr)
+100 operator='MINUS'
+101 expression (NameExpr)
+102 name (SimpleName)
+103 identifier='advance'
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='draw'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='layout'
+111 arguments
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='g2d'
+115 argument (CastExpr)
+116 expression (EnclosedExpr)
+117 inner (BinaryExpr)
+118 operator='PLUS'
+119 left (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='getX'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='location'
+125 right (NameExpr)
+126 name (SimpleName)
+127 identifier='tx'
+128 type (PrimitiveType)
+129 type='FLOAT'
+130 argument (CastExpr)
+131 expression (EnclosedExpr)
+132 inner (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getY'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='location'
+138 type (PrimitiveType)
+139 type='FLOAT'
+140 type (VoidType)
+141 name (SimpleName)
+142 identifier='paint'
+143 parameters
+144 parameter (Parameter)
+145 isVarArgs='false'
+146 name (SimpleName)
+147 identifier='aci'
+148 type (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='AttributedCharacterIterator'
+151 parameter (Parameter)
+152 isVarArgs='false'
+153 name (SimpleName)
+154 identifier='location'
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='Point2D'
+158 parameter (Parameter)
+159 isVarArgs='false'
+160 name (SimpleName)
+161 identifier='anchor'
+162 type (ClassOrInterfaceType)
+163 name (SimpleName)
+164 identifier='Anchor'
+165 scope (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='TextNode'
+168 parameter (Parameter)
+169 isVarArgs='false'
+170 name (SimpleName)
+171 identifier='g2d'
+172 type (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='Graphics2D'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+26 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+40 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+47 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+55 65
+65 66
+66 67
+67 68
+67 69
+69 70
+70 71
+67 72
+72 73
+72 74
+74 75
+74 76
+76 77
+77 78
+72 79
+79 80
+65 81
+54 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+86 89
+89 90
+90 91
+82 92
+92 93
+93 94
+94 95
+94 96
+96 97
+97 98
+94 99
+99 100
+99 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+105 111
+111 112
+112 113
+113 114
+111 115
+115 116
+116 117
+117 118
+117 119
+119 120
+120 121
+119 122
+122 123
+123 124
+117 125
+125 126
+126 127
+115 128
+128 129
+111 130
+130 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+130 138
+138 139
+0 140
+0 141
+141 142
+0 143
+143 144
+144 145
+144 146
+146 147
+144 148
+148 149
+149 150
+143 151
+151 152
+151 153
+153 154
+151 155
+155 156
+156 157
+143 158
+158 159
+158 160
+160 161
+158 162
+162 163
+163 164
+162 165
+165 166
+166 167
+143 168
+168 169
+168 170
+170 171
+168 172
+172 173
+173 174
+
+Paints the specified attributed character iterator using the specified Graphics2D and context and font context.

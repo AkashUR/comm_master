@@ -1,0 +1,360 @@
+179
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='CSVConfig'
+11 name (SimpleName)
+12 identifier='expected'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='CSVConfig'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setDelimiter'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='expected'
+23 arguments
+24 argument (CharLiteralExpr)
+25 value=';'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='setValueDelimiter'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='expected'
+33 arguments
+34 argument (CharLiteralExpr)
+35 value=' '
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='setFill'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='expected'
+43 arguments
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='FILLRIGHT'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='CSVConfig'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='setIgnoreValueDelimiter'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='expected'
+57 arguments
+58 argument (BooleanLiteralExpr)
+59 value='false'
+60 statement (ExpressionStmt)
+61 expression (VariableDeclarationExpr)
+62 variables
+63 variable (VariableDeclarator)
+64 initializer (ObjectCreationExpr)
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='StringBuilder'
+68 name (SimpleName)
+69 identifier='sb'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='StringBuilder'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='append'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='sb'
+80 arguments
+81 argument (StringLiteralExpr)
+82 value='1,2,3,4\n'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='append'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='sb'
+90 arguments
+91 argument (StringLiteralExpr)
+92 value='abcd,1234,abcd,1234'
+93 statement (ExpressionStmt)
+94 expression (VariableDeclarationExpr)
+95 variables
+96 variable (VariableDeclarator)
+97 initializer (ObjectCreationExpr)
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='ByteArrayInputStream'
+101 arguments
+102 argument (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='getBytes'
+105 scope (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='toString'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='sb'
+111 arguments
+112 argument (FieldAccessExpr)
+113 name (SimpleName)
+114 identifier='UTF_8'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='StandardCharsets'
+118 name (SimpleName)
+119 identifier='in'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='ByteArrayInputStream'
+123 statement (ExpressionStmt)
+124 expression (VariableDeclarationExpr)
+125 variables
+126 variable (VariableDeclarator)
+127 initializer (ObjectCreationExpr)
+128 type (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='CSVConfigGuesser'
+131 arguments
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='in'
+135 name (SimpleName)
+136 identifier='guesser'
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='CSVConfigGuesser'
+140 statement (ExpressionStmt)
+141 expression (VariableDeclarationExpr)
+142 variables
+143 variable (VariableDeclarator)
+144 initializer (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='guess'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='guesser'
+150 name (SimpleName)
+151 identifier='guessed'
+152 type (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='CSVConfig'
+155 statement (ExpressionStmt)
+156 expression (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='assertEquals'
+159 arguments
+160 argument (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='isFixedWidth'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='expected'
+166 argument (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='isFixedWidth'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='guessed'
+172 type (VoidType)
+173 name (SimpleName)
+174 identifier='testConfigGuess2'
+175 thrownExceptions
+176 thrownException (ClassOrInterfaceType)
+177 name (SimpleName)
+178 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+63 68
+68 69
+63 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 99
+99 100
+97 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+105 108
+108 109
+109 110
+102 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+96 118
+118 119
+96 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+126 127
+127 128
+128 129
+129 130
+127 131
+131 132
+132 133
+133 134
+126 135
+135 136
+126 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+143 150
+150 151
+143 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+159 166
+166 167
+167 168
+166 169
+169 170
+170 171
+0 172
+0 173
+173 174
+0 175
+175 176
+176 177
+177 178
+
+Test a format like 1234,123123,12312312,213123 1,2,3,4

@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='unitToRead'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='HashMap'
+13 typeArguments
+14 typeArgument (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='Unit'
+17 typeArgument (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='RWSet'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='unitToWrite'
+26 value (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='HashMap'
+30 typeArguments
+31 typeArgument (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Unit'
+34 typeArgument (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='RWSet'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='localToReachingObjects'
+43 value (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='HashMap'
+47 typeArguments
+48 typeArgument (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Local'
+51 typeArgument (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='PointsToSet'
+54 statement (ExpressionStmt)
+55 expression (AssignExpr)
+56 operator='ASSIGN'
+57 target (NameExpr)
+58 name (SimpleName)
+59 identifier='currentMethod'
+60 value (NameExpr)
+61 name (SimpleName)
+62 identifier='m'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='findNTRWSets'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='sea'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='currentMethod'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='newMethod'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='m'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='SootMethod'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+2 54
+54 55
+55 56
+55 57
+57 58
+58 59
+55 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+
+Call this when starting to analyze a new method to setup the cache.

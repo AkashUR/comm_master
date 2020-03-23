@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForeachStmt)
+4 body (ExpressionStmt)
+5 expression (MethodCallExpr)
+6 name (SimpleName)
+7 identifier='addPatchResource'
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='resource'
+12 iterable (NameExpr)
+13 name (SimpleName)
+14 identifier='resources'
+15 variable (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 name (SimpleName)
+19 identifier='resource'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Resource'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='addPatchResources'
+26 parameters
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='resources'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Collection'
+34 typeArguments
+35 typeArgument (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Resource'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+5 8
+8 9
+9 10
+10 11
+3 12
+12 13
+13 14
+3 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+0 23
+0 24
+24 25
+0 26
+26 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+
+Adds the given HTML patch resources such that they will apply to the Guacamole UI. The patches will be applied by the JavaScript side of the web application in the order provided.

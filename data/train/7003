@@ -1,0 +1,188 @@
+93
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getStatTime'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='DistributionStats'
+13 name (SimpleName)
+14 identifier='ts'
+15 type (PrimitiveType)
+16 type='LONG'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='incInt'
+21 scope (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='stats'
+24 scope (ThisExpr)
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='batchesDistributedId'
+29 argument (IntegerLiteralExpr)
+30 value='1'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='incInt'
+35 scope (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='stats'
+38 scope (ThisExpr)
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='eventsDistributedId'
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='numberOfEvents'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (BinaryExpr)
+51 operator='MINUS'
+52 left (NameExpr)
+53 name (SimpleName)
+54 identifier='ts'
+55 right (NameExpr)
+56 name (SimpleName)
+57 identifier='start'
+58 name (SimpleName)
+59 identifier='elapsed'
+60 type (PrimitiveType)
+61 type='LONG'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='incLong'
+66 scope (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='stats'
+69 scope (ThisExpr)
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='batchDistributionTimeId'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='elapsed'
+77 type (VoidType)
+78 name (SimpleName)
+79 identifier='endBatch'
+80 parameters
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='start'
+85 type (PrimitiveType)
+86 type='LONG'
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='numberOfEvents'
+91 type (PrimitiveType)
+92 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+18 25
+25 26
+26 27
+27 28
+25 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+32 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+56 57
+49 58
+58 59
+49 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+66 69
+63 70
+70 71
+71 72
+72 73
+70 74
+74 75
+75 76
+0 77
+0 78
+78 79
+0 80
+80 81
+81 82
+81 83
+83 84
+81 85
+85 86
+80 87
+87 88
+87 89
+89 90
+87 91
+91 92
+
+Increments the "eventsDistributed" and "batchDistributionTime" stats.

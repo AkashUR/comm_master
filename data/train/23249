@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setParent'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='namespace'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='ths'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='namespace'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='declaringInterpreter'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='ths'
+26 value (NameExpr)
+27 name (SimpleName)
+28 identifier='declaringInterpreter'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='bind'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='ths'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='This'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='namespace'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='NameSpace'
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='declaringInterpreter'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Interpreter'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+23 24
+24 25
+18 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+32 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+32 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+
+Bind a This reference to a parent's namespace with the specified declaring interpreter.  Also re-init the callstack.  It's necessary  to bind a This reference before it can be used after deserialization. This is used by the bsh load() command. <p> This is a static utility method because it's used by a bsh command bind() and the interpreter doesn't currently allow access to direct  methods of This objects (small hack)

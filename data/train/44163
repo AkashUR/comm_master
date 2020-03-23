@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (NameExpr)
+10 name (SimpleName)
+11 identifier='m_targetStep'
+12 value (NameExpr)
+13 name (SimpleName)
+14 identifier='LAST_STEP'
+15 expression (NameExpr)
+16 name (SimpleName)
+17 identifier='m_mutex'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='goToTarget'
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='walkToLastStep'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+13 14
+3 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+0 22
+0 23
+23 24
+
+This method blocks until the last step is reached, unless this method is called from the swing event thread.

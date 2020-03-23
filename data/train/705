@@ -1,0 +1,296 @@
+147
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='mock'
+10 arguments
+11 argument (ClassExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='HttpURLConnection'
+15 name (SimpleName)
+16 identifier='logInConn'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='HttpURLConnection'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='setupResponseCodeAndOutputStream'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='logInConn'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='createWebCloudClient'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='logInConn'
+39 name (SimpleName)
+40 identifier='cloud'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='MockWebCloudClient'
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='mock'
+51 arguments
+52 argument (ClassExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='WebCloudNetworkClient'
+56 name (SimpleName)
+57 identifier='networkClient'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='WebCloudNetworkClient'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='setNetworkClient'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='cloud'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='networkClient'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='thenReturn'
+76 scope (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='when'
+79 arguments
+80 argument (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='initialize'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='networkClient'
+86 arguments
+87 argument (BooleanLiteralExpr)
+88 value='false'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='assertEquals'
+93 arguments
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='UNAUTHENTICATED'
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getSigninState'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='cloud'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='initialize'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='cloud'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='assertEquals'
+114 arguments
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='UNAUTHENTICATED'
+118 argument (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='getSigninState'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='cloud'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='assertEquals'
+128 arguments
+129 argument (IntegerLiteralExpr)
+130 value='0'
+131 argument (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='size'
+134 scope (FieldAccessExpr)
+135 name (SimpleName)
+136 identifier='urlsRequested'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='cloud'
+140 type (VoidType)
+141 name (SimpleName)
+142 identifier='testSoftSignInFailSilently'
+143 thrownExceptions
+144 thrownException (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+31 39
+39 40
+31 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+53 54
+54 55
+47 56
+56 57
+47 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+73 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+95 96
+93 97
+97 98
+98 99
+97 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+116 117
+114 118
+118 119
+119 120
+118 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+128 131
+131 132
+132 133
+131 134
+134 135
+135 136
+134 137
+137 138
+138 139
+0 140
+0 141
+141 142
+0 143
+143 144
+144 145
+145 146
+
+soft sign-in should try to sign in with an existing session ID, then fail silently

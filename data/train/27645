@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (UnaryExpr)
+5 operator='POSTFIX_INCREMENT'
+6 expression (NameExpr)
+7 name (SimpleName)
+8 identifier='modCount'
+9 statement (ExpressionStmt)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='ensureCapacityHelper'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (NameExpr)
+17 name (SimpleName)
+18 identifier='elementCount'
+19 right (IntegerLiteralExpr)
+20 value='1'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (ArrayAccessExpr)
+25 index (UnaryExpr)
+26 operator='POSTFIX_INCREMENT'
+27 expression (NameExpr)
+28 name (SimpleName)
+29 identifier='elementCount'
+30 name (NameExpr)
+31 name (SimpleName)
+32 identifier='elementData'
+33 value (NameExpr)
+34 name (SimpleName)
+35 identifier='obj'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='addElement'
+39 parameters
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='obj'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+25 27
+27 28
+28 29
+24 30
+30 31
+31 32
+22 33
+33 34
+34 35
+0 36
+0 37
+37 38
+0 39
+39 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+
+Adds the specified component to the end of this vector, increasing its size by one. The capacity of this vector is increased if its size becomes greater than its capacity. <p> This method is identical in functionality to the add(Object) method (which is part of the List interface).

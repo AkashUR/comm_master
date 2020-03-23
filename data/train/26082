@@ -1,0 +1,294 @@
+146
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='newDoc'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Document'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (NullLiteralExpr)
+26 name (SimpleName)
+27 identifier='docType'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='DocumentType'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 name (SimpleName)
+36 identifier='domImpl'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='DOMImplementation'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 name (SimpleName)
+45 identifier='childList'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='NodeList'
+49 statement (ExpressionStmt)
+50 expression (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 initializer (NullLiteralExpr)
+54 name (SimpleName)
+55 identifier='nullNS'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='doc'
+65 value (CastExpr)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='load'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='staffNS'
+72 argument (BooleanLiteralExpr)
+73 value='false'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='Document'
+77 statement (ExpressionStmt)
+78 expression (AssignExpr)
+79 operator='ASSIGN'
+80 target (NameExpr)
+81 name (SimpleName)
+82 identifier='domImpl'
+83 value (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getImplementation'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='doc'
+89 statement (ExpressionStmt)
+90 expression (AssignExpr)
+91 operator='ASSIGN'
+92 target (NameExpr)
+93 name (SimpleName)
+94 identifier='newDoc'
+95 value (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='createDocument'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='domImpl'
+101 arguments
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='nullNS'
+105 argument (StringLiteralExpr)
+106 value='root'
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='docType'
+110 statement (ExpressionStmt)
+111 expression (AssignExpr)
+112 operator='ASSIGN'
+113 target (NameExpr)
+114 name (SimpleName)
+115 identifier='childList'
+116 value (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='getElementsByTagNameNS'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='newDoc'
+122 arguments
+123 argument (StringLiteralExpr)
+124 value='*'
+125 argument (StringLiteralExpr)
+126 value='*'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='assertSize'
+131 arguments
+132 argument (StringLiteralExpr)
+133 value='documentgetelementsbytagnameNS01'
+134 argument (IntegerLiteralExpr)
+135 value='1'
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='childList'
+139 type (VoidType)
+140 name (SimpleName)
+141 identifier='runTest'
+142 thrownExceptions
+143 thrownException (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+65 74
+74 75
+75 76
+2 77
+77 78
+78 79
+78 80
+80 81
+81 82
+78 83
+83 84
+84 85
+83 86
+86 87
+87 88
+2 89
+89 90
+90 91
+90 92
+92 93
+93 94
+90 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+103 104
+101 105
+105 106
+101 107
+107 108
+108 109
+2 110
+110 111
+111 112
+111 113
+113 114
+114 115
+111 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+122 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+131 134
+134 135
+131 136
+136 137
+137 138
+0 139
+0 140
+140 141
+0 142
+142 143
+143 144
+144 145
+
+Runs the test case.

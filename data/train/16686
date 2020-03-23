@@ -1,0 +1,176 @@
+87
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='get'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='pred'
+14 arguments
+15 argument (IntegerLiteralExpr)
+16 value='2'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Constant'
+20 name (SimpleName)
+21 identifier='c'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Constant'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (CastExpr)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='get'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='c'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='TermId'
+39 name (SimpleName)
+40 identifier='tId'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='TermId'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='assertEquals'
+48 arguments
+49 argument (StringLiteralExpr)
+50 value='type'
+51 argument (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getName'
+54 scope (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getVar'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='c'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='assertEquals'
+64 arguments
+65 argument (StringLiteralExpr)
+66 value='http://bigdata.com#Person'
+67 argument (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='toString'
+70 scope (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='getValue'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='tId'
+76 type (VoidType)
+77 name (SimpleName)
+78 identifier='assertPredicateUsesConstant_01'
+79 parameters
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='pred'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='SPOPredicate'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+7 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+29 36
+36 37
+37 38
+28 39
+39 40
+28 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+73 74
+74 75
+0 76
+0 77
+77 78
+0 79
+79 80
+80 81
+80 82
+82 83
+80 84
+84 85
+85 86
+
+Make sure the passed predicate uses constant http://bigdata.com#Person in its third position (with shadowed variable ?type)

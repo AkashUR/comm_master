@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='ensureCapacity'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='PLUS'
+10 left (NameExpr)
+11 name (SimpleName)
+12 identifier='count'
+13 right (IntegerLiteralExpr)
+14 value='1'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (ArrayAccessExpr)
+19 index (UnaryExpr)
+20 operator='POSTFIX_INCREMENT'
+21 expression (NameExpr)
+22 name (SimpleName)
+23 identifier='count'
+24 name (NameExpr)
+25 name (SimpleName)
+26 identifier='buf'
+27 value (NameExpr)
+28 name (SimpleName)
+29 identifier='c'
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='append'
+33 parameters
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='c'
+38 type (PrimitiveType)
+39 type='CHAR'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+19 21
+21 22
+22 23
+18 24
+24 25
+25 26
+16 27
+27 28
+28 29
+0 30
+0 31
+31 32
+0 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+
+This will add a <code>char</code> to the end of the buffer. The buffer will not overflow with repeated uses of the  <code>append</code>, it uses an <code>ensureCapacity</code> method which will allow the buffer to dynamically grow in  size to accomodate more characters.

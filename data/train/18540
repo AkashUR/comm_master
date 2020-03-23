@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validateIsFloat32'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='validate'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='mRS'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='nAllocationRead'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='mRS'
+21 arguments
+22 argument (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getID'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='d'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='copyTo'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='d'
+36 type (ArrayType)
+37 origin='TYPE'
+38 componentType (PrimitiveType)
+39 type='FLOAT'
+40 annotations
+41 annotation (NormalAnnotationExpr)
+42 name (Name)
+43 identifier='DSGenerator'
+44 pairs
+45 pair (MemberValuePair)
+46 name (SimpleName)
+47 identifier='tool_name'
+48 value (StringLiteralExpr)
+49 value='Doppelganger'
+50 pair (MemberValuePair)
+51 name (SimpleName)
+52 identifier='tool_version'
+53 value (StringLiteralExpr)
+54 value='2.0'
+55 pair (MemberValuePair)
+56 name (SimpleName)
+57 identifier='generated_on'
+58 value (StringLiteralExpr)
+59 value='2013-12-30 12:31:09.153 -0500'
+60 pair (MemberValuePair)
+61 name (SimpleName)
+62 identifier='hash_original_method'
+63 value (StringLiteralExpr)
+64 value='5FBBCE58245F93A1688AB0878EC30A26'
+65 pair (MemberValuePair)
+66 name (SimpleName)
+67 identifier='hash_generated_method'
+68 value (StringLiteralExpr)
+69 value='51415E5A51F0E7D9AA4DDAE20BA0A283'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+0 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+36 38
+38 39
+0 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+45 48
+48 49
+44 50
+50 51
+51 52
+50 53
+53 54
+44 55
+55 56
+56 57
+55 58
+58 59
+44 60
+60 61
+61 62
+60 63
+63 64
+44 65
+65 66
+66 67
+65 68
+68 69
+
+Copy from the Allocation into a float array.  The array must be at least as large as the Allocation.  The allocation must be of an 32 bit float elemental type.

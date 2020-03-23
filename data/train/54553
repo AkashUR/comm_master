@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setTime'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='scheduleService'
+10 arguments
+11 argument (IntegerLiteralExpr)
+12 value='0'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='startGuard'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='guard'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='assertEquals'
+24 arguments
+25 argument (IntegerLiteralExpr)
+26 value='0'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getAndResetQuitCounter'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='quitable'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='setTime'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='scheduleService'
+40 arguments
+41 argument (IntegerLiteralExpr)
+42 value='1000'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='evaluateSchedule'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='SupportSchedulingServiceImpl'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='scheduleService'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='assertEquals'
+58 arguments
+59 argument (IntegerLiteralExpr)
+60 value='1'
+61 argument (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getAndResetQuitCounter'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='quitable'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='testStartAndTrigger'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+61 64
+64 65
+65 66
+0 67
+0 68
+68 69
+
+Make sure the timer calls guardQuit after the set time period

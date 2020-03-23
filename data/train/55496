@@ -1,0 +1,186 @@
+92
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getStyle'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getSharedContext'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='c'
+16 arguments
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getDocumentElement'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='doc'
+23 name (SimpleName)
+24 identifier='style'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='CalculatedStyle'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getDirection'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='style'
+38 name (SimpleName)
+39 identifier='direction'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='IdentValue'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (ObjectCreationExpr)
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Paragraph'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='direction'
+55 name (SimpleName)
+56 identifier='parent'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Paragraph'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='splitParagraphs'
+64 arguments
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='c'
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='doc'
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='parent'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='splitRoot'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='c'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='LayoutContext'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='doc'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Document'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+6 23
+23 24
+6 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+31 38
+38 39
+31 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+53 54
+46 55
+55 56
+46 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+64 71
+71 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+77 85
+85 86
+85 87
+87 88
+85 89
+89 90
+90 91
+
+This starts everything by recursively dividing the document into paragraphs.

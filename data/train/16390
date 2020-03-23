@@ -1,0 +1,170 @@
+84
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='a => 1'
+9 name (SimpleName)
+10 identifier='testFile'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='MockAnalyzer'
+22 arguments
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='random'
+26 argument (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='SIMPLE'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='MockTokenizer'
+32 argument (BooleanLiteralExpr)
+33 value='false'
+34 name (SimpleName)
+35 identifier='analyzer'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Analyzer'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='SolrSynonymParser'
+47 arguments
+48 argument (BooleanLiteralExpr)
+49 value='true'
+50 argument (BooleanLiteralExpr)
+51 value='true'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='analyzer'
+55 name (SimpleName)
+56 identifier='parser'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='SolrSynonymParser'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='expectThrows'
+64 arguments
+65 argument (ClassExpr)
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='ParseException'
+69 argument (NullLiteralExpr)
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='close'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='analyzer'
+77 type (VoidType)
+78 name (SimpleName)
+79 identifier='testInvalidAnalyzesToNothingOutput'
+80 thrownExceptions
+81 thrownException (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+26 29
+29 30
+30 31
+22 32
+32 33
+17 34
+34 35
+17 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+47 50
+50 51
+47 52
+52 53
+53 54
+42 55
+55 56
+42 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+67 68
+64 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+0 77
+0 78
+78 79
+0 80
+80 81
+81 82
+82 83
+
+parse a syn file with bad syntax

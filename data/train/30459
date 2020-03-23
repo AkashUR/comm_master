@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='process'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ProcessCtl'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='parent'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='WindowNo'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='parameter'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='pi'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='trx'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='process'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='parent'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='ASyncProcess'
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='WindowNo'
+41 type (PrimitiveType)
+42 type='INT'
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='parameter'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='IProcessParameter'
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='pi'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='ProcessInfo'
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='trx'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='Trx'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+10 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+29 37
+37 38
+37 39
+39 40
+37 41
+41 42
+29 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+29 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+29 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+
+Async Process - Do it all. <code> - Get Instance ID - Get Parameters - execute (lock - start process - unlock) </code> Creates a ProcessCtl instance, which calls lockUI and unlockUI if parent is a ASyncProcess <br> Called from ProcessDialog.actionPerformed

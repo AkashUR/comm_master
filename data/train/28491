@@ -1,0 +1,66 @@
+32
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='skipBytes'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='dataInput'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='DIVIDE'
+13 left (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='SIZE'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='Integer'
+19 right (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='SIZE'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='Byte'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='skipBlockSize'
+28 thrownExceptions
+29 thrownException (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+13 16
+16 17
+17 18
+11 19
+19 20
+20 21
+19 22
+22 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+30 31
+
+Skip the "block size" bytes, since we just don't care.

@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ArrayCreationExpr)
+8 elementType (PrimitiveType)
+9 type='CHAR'
+10 initializer (ArrayInitializerExpr)
+11 values
+12 value (CharLiteralExpr)
+13 value='-'
+14 levels
+15 level (ArrayCreationLevel)
+16 name (SimpleName)
+17 identifier='allowedCharacters'
+18 type (ArrayType)
+19 origin='TYPE'
+20 componentType (PrimitiveType)
+21 type='CHAR'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='LetterOrNumberValidator'
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='foo'
+33 argument (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='CASE_INSENSITIVE'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='Case'
+39 argument (BooleanLiteralExpr)
+40 value='false'
+41 name (SimpleName)
+42 identifier='characterOrNumberValidator'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='LetterOrNumberValidator'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setAllowedCharacters'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='characterOrNumberValidator'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='allowedCharacters'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='assertEquals'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='allowedCharacters'
+65 argument (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getAllowedCharacters'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='characterOrNumberValidator'
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='testSetAllowedCharacters'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+7 14
+14 15
+6 16
+16 17
+6 18
+18 19
+18 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+30 39
+39 40
+25 41
+41 42
+25 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+63 64
+61 65
+65 66
+66 67
+65 68
+68 69
+69 70
+0 71
+0 72
+72 73
+
+Tests the functionality of the method, which allows to set the allowed characters.

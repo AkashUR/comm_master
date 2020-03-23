@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validateUserGroupBaseParam'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='param'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='checkFieldNotEmpty'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='ArgValidator'
+18 arguments
+19 argument (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getAttributes'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='param'
+25 argument (StringLiteralExpr)
+26 value='attributes'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='validateUserAttributeParam'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getAttributes'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='param'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='validateUserGroupCreateParam'
+41 parameters
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='param'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='UserGroupCreateParam'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+12 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+18 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+
+Validates if UserGroupCreateParam of the create api contains all the valid payload that is expected.

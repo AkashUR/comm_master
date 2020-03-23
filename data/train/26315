@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (ObjectCreationExpr)
+5 type (ClassOrInterfaceType)
+6 name (SimpleName)
+7 identifier='UpdateTestHelper'
+8 arguments
+9 argument (StringLiteralExpr)
+10 value='ticket_1105_quads_update3'
+11 argument (StringLiteralExpr)
+12 value='ticket_1105_update3.rq'
+13 argument (StringLiteralExpr)
+14 value='ticket_1105.trig'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='test_ticket_1105_quads_update3'
+18 thrownExceptions
+19 thrownException (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+4 8
+8 9
+9 10
+8 11
+11 12
+8 13
+13 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+20 21
+
+Query:  <code> INSERT  { <http://example/s>  <http://example/p> <http://example/o> } WHERE { GRAPH ?g  { <http://example/s1>  <http://example/p1> <http://example/o1> }  } </code> is parsed successfully in quads mode.

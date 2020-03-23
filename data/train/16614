@@ -1,0 +1,460 @@
+229
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='format'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='String'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getString'
+17 arguments
+18 argument (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='media_notif_ticker'
+21 scope (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='string'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='R'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getString'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='app_name'
+34 scope (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='string'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='R'
+40 name (SimpleName)
+41 identifier='ticker'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='String'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (ObjectCreationExpr)
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='Intent'
+53 arguments
+54 argument (ThisExpr)
+55 argument (ClassExpr)
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='FileDisplayActivity'
+59 name (SimpleName)
+60 identifier='showDetailsIntent'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='Intent'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='putExtra'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='showDetailsIntent'
+71 arguments
+72 argument (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='EXTRA_FILE'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='FileActivity'
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='mFile'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='putExtra'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='showDetailsIntent'
+88 arguments
+89 argument (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='EXTRA_ACCOUNT'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='FileActivity'
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='mAccount'
+98 statement (ExpressionStmt)
+99 expression (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='setFlags'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='showDetailsIntent'
+105 arguments
+106 argument (FieldAccessExpr)
+107 name (SimpleName)
+108 identifier='FLAG_ACTIVITY_CLEAR_TOP'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='Intent'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='setContentIntent'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='mNotificationBuilder'
+119 arguments
+120 argument (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='getActivity'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='PendingIntent'
+126 arguments
+127 argument (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='getApplicationContext'
+130 argument (CastExpr)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='currentTimeMillis'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='System'
+137 type (PrimitiveType)
+138 type='INT'
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='showDetailsIntent'
+142 argument (FieldAccessExpr)
+143 name (SimpleName)
+144 identifier='FLAG_UPDATE_CURRENT'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='PendingIntent'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='setWhen'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='mNotificationBuilder'
+155 arguments
+156 argument (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='currentTimeMillis'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='System'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='setTicker'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='mNotificationBuilder'
+169 arguments
+170 argument (NameExpr)
+171 name (SimpleName)
+172 identifier='ticker'
+173 statement (ExpressionStmt)
+174 expression (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='setContentTitle'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='mNotificationBuilder'
+180 arguments
+181 argument (NameExpr)
+182 name (SimpleName)
+183 identifier='ticker'
+184 statement (ExpressionStmt)
+185 expression (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='setContentText'
+188 scope (NameExpr)
+189 name (SimpleName)
+190 identifier='mNotificationBuilder'
+191 arguments
+192 argument (NameExpr)
+193 name (SimpleName)
+194 identifier='content'
+195 statement (ExpressionStmt)
+196 expression (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='notify'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='mNotificationManager'
+202 arguments
+203 argument (FieldAccessExpr)
+204 name (SimpleName)
+205 identifier='media_notif_ticker'
+206 scope (FieldAccessExpr)
+207 name (SimpleName)
+208 identifier='string'
+209 scope (NameExpr)
+210 name (SimpleName)
+211 identifier='R'
+212 argument (MethodCallExpr)
+213 name (SimpleName)
+214 identifier='build'
+215 scope (NameExpr)
+216 name (SimpleName)
+217 identifier='mNotificationBuilder'
+218 type (VoidType)
+219 name (SimpleName)
+220 identifier='updateNotification'
+221 parameters
+222 parameter (Parameter)
+223 isVarArgs='false'
+224 name (SimpleName)
+225 identifier='content'
+226 type (ClassOrInterfaceType)
+227 name (SimpleName)
+228 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+13 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+6 40
+40 41
+6 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+49 53
+53 54
+53 55
+55 56
+56 57
+57 58
+48 59
+59 60
+48 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+71 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+88 95
+95 96
+96 97
+2 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+128 129
+126 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+130 137
+137 138
+126 139
+139 140
+140 141
+126 142
+142 143
+143 144
+142 145
+145 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+163 169
+169 170
+170 171
+171 172
+2 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+174 180
+180 181
+181 182
+182 183
+2 184
+184 185
+185 186
+186 187
+185 188
+188 189
+189 190
+185 191
+191 192
+192 193
+193 194
+2 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+196 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+206 209
+209 210
+210 211
+202 212
+212 213
+213 214
+212 215
+215 216
+216 217
+0 218
+0 219
+219 220
+0 221
+221 222
+222 223
+222 224
+224 225
+222 226
+226 227
+227 228
+
+Updates the status notification

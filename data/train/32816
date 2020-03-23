@@ -1,0 +1,148 @@
+73
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='id'
+9 statement (AssertStmt)
+10 check (BinaryExpr)
+11 operator='OR'
+12 left (BinaryExpr)
+13 operator='OR'
+14 left (BinaryExpr)
+15 operator='OR'
+16 left (EnclosedExpr)
+17 inner (BinaryExpr)
+18 operator='EQUALS'
+19 left (NameExpr)
+20 name (SimpleName)
+21 identifier='dataTypeSize'
+22 right (IntegerLiteralExpr)
+23 value='1'
+24 right (EnclosedExpr)
+25 inner (BinaryExpr)
+26 operator='EQUALS'
+27 left (NameExpr)
+28 name (SimpleName)
+29 identifier='dataTypeSize'
+30 right (IntegerLiteralExpr)
+31 value='2'
+32 right (EnclosedExpr)
+33 inner (BinaryExpr)
+34 operator='EQUALS'
+35 left (NameExpr)
+36 name (SimpleName)
+37 identifier='dataTypeSize'
+38 right (IntegerLiteralExpr)
+39 value='4'
+40 right (EnclosedExpr)
+41 inner (BinaryExpr)
+42 operator='EQUALS'
+43 left (NameExpr)
+44 name (SimpleName)
+45 identifier='dataTypeSize'
+46 right (IntegerLiteralExpr)
+47 value='8'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='dataTypeSize'
+54 scope (ThisExpr)
+55 value (NameExpr)
+56 name (SimpleName)
+57 identifier='dataTypeSize'
+58 name (SimpleName)
+59 identifier='OFBasicVendorId'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='id'
+65 type (PrimitiveType)
+66 type='INT'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='dataTypeSize'
+71 type (PrimitiveType)
+72 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+12 14
+14 15
+14 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+14 24
+24 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+12 32
+32 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+10 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+51 54
+49 55
+55 56
+56 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+60 67
+67 68
+67 69
+69 70
+67 71
+71 72
+
+Construct an OFVendorId that where the vendor data begins with a data type value whose size is dataTypeSize.

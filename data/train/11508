@@ -1,0 +1,654 @@
+326
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='needToRegenerate'
+9 value (BooleanLiteralExpr)
+10 value='false'
+11 statement (SwitchStmt)
+12 selector (NameExpr)
+13 name (SimpleName)
+14 identifier='renderType'
+15 entries
+16 entrie (SwitchEntryStmt)
+17 label (NameExpr)
+18 name (SimpleName)
+19 identifier='RENDERTYPE_XY'
+20 statements
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='point1'
+27 value (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Point'
+31 arguments
+32 argument (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='x'
+35 scope (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='p1'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='eunit'
+41 argument (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='y'
+44 scope (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='p1'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='eunit'
+50 statement (BreakStmt)
+51 entrie (SwitchEntryStmt)
+52 label (NameExpr)
+53 name (SimpleName)
+54 identifier='RENDERTYPE_OFFSET'
+55 statements
+56 statement (ExpressionStmt)
+57 expression (AssignExpr)
+58 operator='ASSIGN'
+59 target (NameExpr)
+60 name (SimpleName)
+61 identifier='point1'
+62 value (CastExpr)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='forward'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='proj'
+69 arguments
+70 argument (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='lat'
+73 scope (FieldAccessExpr)
+74 name (SimpleName)
+75 identifier='ll1'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='eunit'
+79 argument (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='lon'
+82 scope (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='ll1'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='eunit'
+88 argument (ObjectCreationExpr)
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Point'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='Point'
+95 statement (ExpressionStmt)
+96 expression (AssignExpr)
+97 operator='PLUS'
+98 target (FieldAccessExpr)
+99 name (SimpleName)
+100 identifier='x'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='point1'
+104 value (FieldAccessExpr)
+105 name (SimpleName)
+106 identifier='x'
+107 scope (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='p1'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='eunit'
+113 statement (ExpressionStmt)
+114 expression (AssignExpr)
+115 operator='PLUS'
+116 target (FieldAccessExpr)
+117 name (SimpleName)
+118 identifier='y'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='point1'
+122 value (FieldAccessExpr)
+123 name (SimpleName)
+124 identifier='y'
+125 scope (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='p1'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='eunit'
+131 statement (BreakStmt)
+132 entrie (SwitchEntryStmt)
+133 label (NameExpr)
+134 name (SimpleName)
+135 identifier='RENDERTYPE_LATLON'
+136 statements
+137 statement (ExpressionStmt)
+138 expression (AssignExpr)
+139 operator='ASSIGN'
+140 target (NameExpr)
+141 name (SimpleName)
+142 identifier='point1'
+143 value (CastExpr)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='forward'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='proj'
+150 arguments
+151 argument (FieldAccessExpr)
+152 name (SimpleName)
+153 identifier='lat'
+154 scope (FieldAccessExpr)
+155 name (SimpleName)
+156 identifier='ll1'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='eunit'
+160 argument (FieldAccessExpr)
+161 name (SimpleName)
+162 identifier='lon'
+163 scope (FieldAccessExpr)
+164 name (SimpleName)
+165 identifier='ll1'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='eunit'
+169 argument (ObjectCreationExpr)
+170 type (ClassOrInterfaceType)
+171 name (SimpleName)
+172 identifier='Point'
+173 type (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='Point'
+176 statement (BreakStmt)
+177 entrie (SwitchEntryStmt)
+178 label (NameExpr)
+179 name (SimpleName)
+180 identifier='RENDERTYPE_UNKNOWN'
+181 statements
+182 statement (ExpressionStmt)
+183 expression (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='println'
+186 scope (FieldAccessExpr)
+187 name (SimpleName)
+188 identifier='err'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='System'
+192 arguments
+193 argument (StringLiteralExpr)
+194 value='JUnit.generate: invalid RenderType'
+195 statement (ReturnStmt)
+196 expression (BooleanLiteralExpr)
+197 value='false'
+198 statement (ExpressionStmt)
+199 expression (VariableDeclarationExpr)
+200 variables
+201 variable (VariableDeclarator)
+202 initializer (StringLiteralExpr)
+203 value='fmsymbols/'
+204 name (SimpleName)
+205 identifier='image_path'
+206 type (ClassOrInterfaceType)
+207 name (SimpleName)
+208 identifier='String'
+209 statement (ExpressionStmt)
+210 expression (AssignExpr)
+211 operator='PLUS'
+212 target (NameExpr)
+213 name (SimpleName)
+214 identifier='image_path'
+215 value (FieldAccessExpr)
+216 name (SimpleName)
+217 identifier='group'
+218 scope (NameExpr)
+219 name (SimpleName)
+220 identifier='eunit'
+221 statement (ExpressionStmt)
+222 expression (AssignExpr)
+223 operator='PLUS'
+224 target (NameExpr)
+225 name (SimpleName)
+226 identifier='image_path'
+227 value (StringLiteralExpr)
+228 value='/'
+229 statement (ExpressionStmt)
+230 expression (AssignExpr)
+231 operator='PLUS'
+232 target (NameExpr)
+233 name (SimpleName)
+234 identifier='image_path'
+235 value (FieldAccessExpr)
+236 name (SimpleName)
+237 identifier='symbol'
+238 scope (NameExpr)
+239 name (SimpleName)
+240 identifier='eunit'
+241 statement (ExpressionStmt)
+242 expression (AssignExpr)
+243 operator='PLUS'
+244 target (NameExpr)
+245 name (SimpleName)
+246 identifier='image_path'
+247 value (StringLiteralExpr)
+248 value='.xbm'
+249 statement (ExpressionStmt)
+250 expression (AssignExpr)
+251 operator='ASSIGN'
+252 target (NameExpr)
+253 name (SimpleName)
+254 identifier='symbol_'
+255 value (ObjectCreationExpr)
+256 type (ClassOrInterfaceType)
+257 name (SimpleName)
+258 identifier='ImageIcon'
+259 arguments
+260 argument (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='toLowerCase'
+263 scope (NameExpr)
+264 name (SimpleName)
+265 identifier='image_path'
+266 statement (ExpressionStmt)
+267 expression (AssignExpr)
+268 operator='ASSIGN'
+269 target (NameExpr)
+270 name (SimpleName)
+271 identifier='image_path'
+272 value (StringLiteralExpr)
+273 value='fmsymbols/echelons/'
+274 statement (ExpressionStmt)
+275 expression (AssignExpr)
+276 operator='PLUS'
+277 target (NameExpr)
+278 name (SimpleName)
+279 identifier='image_path'
+280 value (FieldAccessExpr)
+281 name (SimpleName)
+282 identifier='echelon'
+283 scope (NameExpr)
+284 name (SimpleName)
+285 identifier='eunit'
+286 statement (ExpressionStmt)
+287 expression (AssignExpr)
+288 operator='PLUS'
+289 target (NameExpr)
+290 name (SimpleName)
+291 identifier='image_path'
+292 value (StringLiteralExpr)
+293 value='.xbm'
+294 statement (ExpressionStmt)
+295 expression (AssignExpr)
+296 operator='ASSIGN'
+297 target (NameExpr)
+298 name (SimpleName)
+299 identifier='echelon_'
+300 value (ObjectCreationExpr)
+301 type (ClassOrInterfaceType)
+302 name (SimpleName)
+303 identifier='ImageIcon'
+304 arguments
+305 argument (MethodCallExpr)
+306 name (SimpleName)
+307 identifier='toLowerCase'
+308 scope (NameExpr)
+309 name (SimpleName)
+310 identifier='image_path'
+311 statement (ReturnStmt)
+312 expression (BooleanLiteralExpr)
+313 value='true'
+314 type (PrimitiveType)
+315 type='BOOLEAN'
+316 name (SimpleName)
+317 identifier='generate'
+318 parameters
+319 parameter (Parameter)
+320 isVarArgs='false'
+321 name (SimpleName)
+322 identifier='proj'
+323 type (ClassOrInterfaceType)
+324 name (SimpleName)
+325 identifier='Projection'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+31 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+20 50
+15 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+57 58
+57 59
+59 60
+60 61
+57 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+73 76
+76 77
+77 78
+69 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+69 88
+88 89
+89 90
+90 91
+62 92
+92 93
+93 94
+55 95
+95 96
+96 97
+96 98
+98 99
+99 100
+98 101
+101 102
+102 103
+96 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+110 111
+111 112
+55 113
+113 114
+114 115
+114 116
+116 117
+117 118
+116 119
+119 120
+120 121
+114 122
+122 123
+123 124
+122 125
+125 126
+126 127
+125 128
+128 129
+129 130
+55 131
+15 132
+132 133
+133 134
+134 135
+132 136
+136 137
+137 138
+138 139
+138 140
+140 141
+141 142
+138 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+154 157
+157 158
+158 159
+150 160
+160 161
+161 162
+160 163
+163 164
+164 165
+163 166
+166 167
+167 168
+150 169
+169 170
+170 171
+171 172
+143 173
+173 174
+174 175
+136 176
+15 177
+177 178
+178 179
+179 180
+177 181
+181 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+186 189
+189 190
+190 191
+183 192
+192 193
+193 194
+181 195
+195 196
+196 197
+2 198
+198 199
+199 200
+200 201
+201 202
+202 203
+201 204
+204 205
+201 206
+206 207
+207 208
+2 209
+209 210
+210 211
+210 212
+212 213
+213 214
+210 215
+215 216
+216 217
+215 218
+218 219
+219 220
+2 221
+221 222
+222 223
+222 224
+224 225
+225 226
+222 227
+227 228
+2 229
+229 230
+230 231
+230 232
+232 233
+233 234
+230 235
+235 236
+236 237
+235 238
+238 239
+239 240
+2 241
+241 242
+242 243
+242 244
+244 245
+245 246
+242 247
+247 248
+2 249
+249 250
+250 251
+250 252
+252 253
+253 254
+250 255
+255 256
+256 257
+257 258
+255 259
+259 260
+260 261
+261 262
+260 263
+263 264
+264 265
+2 266
+266 267
+267 268
+267 269
+269 270
+270 271
+267 272
+272 273
+2 274
+274 275
+275 276
+275 277
+277 278
+278 279
+275 280
+280 281
+281 282
+280 283
+283 284
+284 285
+2 286
+286 287
+287 288
+287 289
+289 290
+290 291
+287 292
+292 293
+2 294
+294 295
+295 296
+295 297
+297 298
+298 299
+295 300
+300 301
+301 302
+302 303
+300 304
+304 305
+305 306
+306 307
+305 308
+308 309
+309 310
+2 311
+311 312
+312 313
+0 314
+314 315
+0 316
+316 317
+0 318
+318 319
+319 320
+319 321
+321 322
+319 323
+323 324
+324 325
+
+generate() - prepares the graphics for rendering.

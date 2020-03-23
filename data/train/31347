@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='isDebug'
+9 value (ConditionalExpr)
+10 condition (EnclosedExpr)
+11 inner (BinaryExpr)
+12 operator='EQUALS'
+13 left (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getInitParameter'
+16 arguments
+17 argument (StringLiteralExpr)
+18 value='debug'
+19 right (NullLiteralExpr)
+20 elseExpr (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='valueOf'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='Boolean'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getInitParameter'
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='debug'
+33 thenExpr (BooleanLiteralExpr)
+34 value='false'
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='init'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+11 13
+13 14
+14 15
+13 16
+16 17
+17 18
+11 19
+9 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+9 33
+33 34
+0 35
+0 36
+36 37
+
+Initialize the mailet <p/> initializes the DEBUG flag

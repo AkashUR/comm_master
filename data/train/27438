@@ -1,0 +1,194 @@
+96
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getFlagConfig'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='FlagConfig'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='args'
+17 name (SimpleName)
+18 identifier='flagConfig'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='FlagConfig'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='args'
+28 value (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='remainingArgs'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='flagConfig'
+34 statement (ExpressionStmt)
+35 expression (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 initializer (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getSearchResultVectors'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='Search'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='flagConfig'
+48 name (SimpleName)
+49 identifier='resultsVectors'
+50 type (ArrayType)
+51 origin='TYPE'
+52 componentType (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='ObjectVector'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (ObjectCreationExpr)
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='PrincipalComponents'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='resultsVectors'
+67 name (SimpleName)
+68 identifier='pcs'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='PrincipalComponents'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='plotVectors'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='pcs'
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='main'
+82 parameters
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='args'
+87 type (ArrayType)
+88 origin='TYPE'
+89 componentType (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='String'
+92 thrownExceptions
+93 thrownException (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='ZeroVectorException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+28 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+37 48
+48 49
+37 50
+50 51
+50 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+65 66
+58 67
+67 68
+58 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+0 79
+0 80
+80 81
+0 82
+82 83
+83 84
+83 85
+85 86
+83 87
+87 88
+87 89
+89 90
+90 91
+0 92
+92 93
+93 94
+94 95
+
+Main function gathers search results for a particular query, performs svd, and plots results.

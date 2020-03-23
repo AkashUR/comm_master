@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='create'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='igfs'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='paths'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='DIR'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='SUBDIR'
+21 argument (NullLiteralExpr)
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='create'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='igfs'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='FILE'
+36 argument (BooleanLiteralExpr)
+37 value='true'
+38 name (SimpleName)
+39 identifier='os'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='IgfsOutputStream'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='write'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='os'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='chunk'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='stop'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='igfs'
+61 arguments
+62 argument (BooleanLiteralExpr)
+63 value='true'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='afterTestsStopped'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='beforeTestsStarted'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='testStop'
+75 thrownExceptions
+76 thrownException (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+7 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+32 36
+36 37
+25 38
+38 39
+25 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+77 78
+
+Ensure that IGFS is able to stop in case not closed output stream exist.

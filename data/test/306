@@ -1,0 +1,576 @@
+287
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validateBusinessObjectData'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='expectedBusinessObjectDataId'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='expectedNamespace'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='expectedBusinessObjectDefinitionName'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='expectedBusinessObjectFormatUsage'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='expectedBusinessObjectFormatFileType'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='expectedBusinessObjectFormatVersion'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='expectedBusinessObjectDataPartitionValue'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='expectedBusinessObjectDataSubPartitionValues'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='expectedBusinessObjectDataVersion'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='expectedLatestVersion'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='expectedStatusCode'
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='actualBusinessObjectData'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='assertEquals'
+48 arguments
+49 argument (IntegerLiteralExpr)
+50 value='1'
+51 argument (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='size'
+54 scope (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getStorageUnits'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='actualBusinessObjectData'
+60 statement (ExpressionStmt)
+61 expression (VariableDeclarationExpr)
+62 variables
+63 variable (VariableDeclarator)
+64 initializer (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='get'
+67 scope (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='getStorageUnits'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='actualBusinessObjectData'
+73 arguments
+74 argument (IntegerLiteralExpr)
+75 value='0'
+76 name (SimpleName)
+77 identifier='actualStorageUnit'
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='StorageUnit'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='assertEquals'
+85 arguments
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='expectedStorageName'
+89 argument (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='getName'
+92 scope (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='getStorage'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='actualStorageUnit'
+98 statement (ExpressionStmt)
+99 expression (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='assertEquals'
+102 arguments
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='expectedStorageDirectoryPath'
+106 argument (ConditionalExpr)
+107 condition (BinaryExpr)
+108 operator='NOT_EQUALS'
+109 left (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='getStorageDirectory'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='actualStorageUnit'
+115 right (NullLiteralExpr)
+116 elseExpr (NullLiteralExpr)
+117 thenExpr (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='getDirectoryPath'
+120 scope (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='getStorageDirectory'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='actualStorageUnit'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='assertEqualsIgnoreOrder'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='AbstractServiceTest'
+133 arguments
+134 argument (StringLiteralExpr)
+135 value='storage files'
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='expectedStorageFiles'
+139 argument (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='getStorageFiles'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='actualStorageUnit'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='assertEquals'
+149 arguments
+150 argument (NameExpr)
+151 name (SimpleName)
+152 identifier='expectedAttributes'
+153 argument (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='getAttributes'
+156 scope (NameExpr)
+157 name (SimpleName)
+158 identifier='actualBusinessObjectData'
+159 type (VoidType)
+160 name (SimpleName)
+161 identifier='validateBusinessObjectData'
+162 parameters
+163 parameter (Parameter)
+164 isVarArgs='false'
+165 name (SimpleName)
+166 identifier='expectedBusinessObjectDataId'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='Integer'
+170 parameter (Parameter)
+171 isVarArgs='false'
+172 name (SimpleName)
+173 identifier='expectedNamespace'
+174 type (ClassOrInterfaceType)
+175 name (SimpleName)
+176 identifier='String'
+177 parameter (Parameter)
+178 isVarArgs='false'
+179 name (SimpleName)
+180 identifier='expectedBusinessObjectDefinitionName'
+181 type (ClassOrInterfaceType)
+182 name (SimpleName)
+183 identifier='String'
+184 parameter (Parameter)
+185 isVarArgs='false'
+186 name (SimpleName)
+187 identifier='expectedBusinessObjectFormatUsage'
+188 type (ClassOrInterfaceType)
+189 name (SimpleName)
+190 identifier='String'
+191 parameter (Parameter)
+192 isVarArgs='false'
+193 name (SimpleName)
+194 identifier='expectedBusinessObjectFormatFileType'
+195 type (ClassOrInterfaceType)
+196 name (SimpleName)
+197 identifier='String'
+198 parameter (Parameter)
+199 isVarArgs='false'
+200 name (SimpleName)
+201 identifier='expectedBusinessObjectFormatVersion'
+202 type (ClassOrInterfaceType)
+203 name (SimpleName)
+204 identifier='Integer'
+205 parameter (Parameter)
+206 isVarArgs='false'
+207 name (SimpleName)
+208 identifier='expectedBusinessObjectDataPartitionValue'
+209 type (ClassOrInterfaceType)
+210 name (SimpleName)
+211 identifier='String'
+212 parameter (Parameter)
+213 isVarArgs='false'
+214 name (SimpleName)
+215 identifier='expectedBusinessObjectDataSubPartitionValues'
+216 type (ClassOrInterfaceType)
+217 name (SimpleName)
+218 identifier='List'
+219 typeArguments
+220 typeArgument (ClassOrInterfaceType)
+221 name (SimpleName)
+222 identifier='String'
+223 parameter (Parameter)
+224 isVarArgs='false'
+225 name (SimpleName)
+226 identifier='expectedBusinessObjectDataVersion'
+227 type (ClassOrInterfaceType)
+228 name (SimpleName)
+229 identifier='Integer'
+230 parameter (Parameter)
+231 isVarArgs='false'
+232 name (SimpleName)
+233 identifier='expectedLatestVersion'
+234 type (ClassOrInterfaceType)
+235 name (SimpleName)
+236 identifier='Boolean'
+237 parameter (Parameter)
+238 isVarArgs='false'
+239 name (SimpleName)
+240 identifier='expectedStatusCode'
+241 type (ClassOrInterfaceType)
+242 name (SimpleName)
+243 identifier='String'
+244 parameter (Parameter)
+245 isVarArgs='false'
+246 name (SimpleName)
+247 identifier='expectedStorageName'
+248 type (ClassOrInterfaceType)
+249 name (SimpleName)
+250 identifier='String'
+251 parameter (Parameter)
+252 isVarArgs='false'
+253 name (SimpleName)
+254 identifier='expectedStorageDirectoryPath'
+255 type (ClassOrInterfaceType)
+256 name (SimpleName)
+257 identifier='String'
+258 parameter (Parameter)
+259 isVarArgs='false'
+260 name (SimpleName)
+261 identifier='expectedStorageFiles'
+262 type (ClassOrInterfaceType)
+263 name (SimpleName)
+264 identifier='List'
+265 typeArguments
+266 typeArgument (ClassOrInterfaceType)
+267 name (SimpleName)
+268 identifier='StorageFile'
+269 parameter (Parameter)
+270 isVarArgs='false'
+271 name (SimpleName)
+272 identifier='expectedAttributes'
+273 type (ClassOrInterfaceType)
+274 name (SimpleName)
+275 identifier='List'
+276 typeArguments
+277 typeArgument (ClassOrInterfaceType)
+278 name (SimpleName)
+279 identifier='Attribute'
+280 parameter (Parameter)
+281 isVarArgs='false'
+282 name (SimpleName)
+283 identifier='actualBusinessObjectData'
+284 type (ClassOrInterfaceType)
+285 name (SimpleName)
+286 identifier='BusinessObjectData'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+24 25
+7 26
+26 27
+27 28
+7 29
+29 30
+30 31
+7 32
+32 33
+33 34
+7 35
+35 36
+36 37
+7 38
+38 39
+39 40
+7 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+64 73
+73 74
+74 75
+63 76
+76 77
+63 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+87 88
+85 89
+89 90
+90 91
+89 92
+92 93
+93 94
+92 95
+95 96
+96 97
+2 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+104 105
+102 106
+106 107
+107 108
+107 109
+109 110
+110 111
+109 112
+112 113
+113 114
+107 115
+106 116
+106 117
+117 118
+118 119
+117 120
+120 121
+121 122
+120 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+127 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+139 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+151 152
+149 153
+153 154
+154 155
+153 156
+156 157
+157 158
+0 159
+0 160
+160 161
+0 162
+162 163
+163 164
+163 165
+165 166
+163 167
+167 168
+168 169
+162 170
+170 171
+170 172
+172 173
+170 174
+174 175
+175 176
+162 177
+177 178
+177 179
+179 180
+177 181
+181 182
+182 183
+162 184
+184 185
+184 186
+186 187
+184 188
+188 189
+189 190
+162 191
+191 192
+191 193
+193 194
+191 195
+195 196
+196 197
+162 198
+198 199
+198 200
+200 201
+198 202
+202 203
+203 204
+162 205
+205 206
+205 207
+207 208
+205 209
+209 210
+210 211
+162 212
+212 213
+212 214
+214 215
+212 216
+216 217
+217 218
+216 219
+219 220
+220 221
+221 222
+162 223
+223 224
+223 225
+225 226
+223 227
+227 228
+228 229
+162 230
+230 231
+230 232
+232 233
+230 234
+234 235
+235 236
+162 237
+237 238
+237 239
+239 240
+237 241
+241 242
+242 243
+162 244
+244 245
+244 246
+246 247
+244 248
+248 249
+249 250
+162 251
+251 252
+251 253
+253 254
+251 255
+255 256
+256 257
+162 258
+258 259
+258 260
+260 261
+258 262
+262 263
+263 264
+262 265
+265 266
+266 267
+267 268
+162 269
+269 270
+269 271
+271 272
+269 273
+273 274
+274 275
+273 276
+276 277
+277 278
+278 279
+162 280
+280 281
+280 282
+282 283
+280 284
+284 285
+285 286
+
+Validates business object data against specified arguments and expected (hard coded) test values.

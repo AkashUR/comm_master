@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='processTab'
+0 1
+0 2
+0 3
+3 4
+
+Process a tab (Control-I) character. We don't insert a tab character into the StyledText widget. Instead, we move the cursor forward to the next tab stop, without altering any of the text. Tab stops are every 8 columns. The cursor will never move past the rightmost column.

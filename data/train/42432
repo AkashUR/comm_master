@@ -1,0 +1,72 @@
+35
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='oid'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='value'
+14 name (SimpleName)
+15 identifier='PKCS9Attribute'
+16 parameters
+17 parameter (Parameter)
+18 isVarArgs='false'
+19 name (SimpleName)
+20 identifier='oid'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='ObjectIdentifier'
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='value'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Object'
+31 thrownExceptions
+32 thrownException (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='IllegalArgumentException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+0 14
+14 15
+0 16
+16 17
+17 18
+17 19
+19 20
+17 21
+21 22
+22 23
+16 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+0 31
+31 32
+32 33
+33 34
+
+Construct an attribute object from the attribute's OID and value.  If the attribute is single-valued, provide only one value.  If the attribute is multi-valued, provide an array containing all the values. Arrays of length zero are accepted, though probably useless. <P> The <a href=#classTable>table</a> gives the class that <code>value</code> must have for a given attribute.

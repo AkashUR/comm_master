@@ -1,0 +1,84 @@
+41
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='currentSection'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Section'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='NO_NS'
+17 argument (NullLiteralExpr)
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='addChildMode'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='currentSection'
+25 arguments
+26 argument (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='ModeUsage'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='startMode'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='startMode'
+37 argument (NullLiteralExpr)
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='initCurrentSection'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+25 37
+0 38
+0 39
+39 40
+
+Initializes the current session. Creates a section for a dummy namespace (differnet of "", that is no namespace). Adds as child mode usage for this a mode usage with start mode as current mode  and that uses start mode. No content handler is set on addChildMode.

@@ -1,0 +1,176 @@
+87
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='generateDelayBranchInternal'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='instructions'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='baseOffset'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='conditionSize'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='conditionOperand'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='targetSize'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='targetOperand'
+26 argument (ArrayCreationExpr)
+27 elementType (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='String'
+30 initializer (ArrayInitializerExpr)
+31 values
+32 value (StringLiteralExpr)
+33 value='branch_delay'
+34 value (StringLiteralExpr)
+35 value='true'
+36 levels
+37 level (ArrayCreationLevel)
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='generateDelayBranch'
+41 parameters
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='instructions'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='List'
+49 typeArguments
+50 typeArgument (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='ReilInstruction'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='baseOffset'
+57 type (PrimitiveType)
+58 type='LONG'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='conditionSize'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='OperandSize'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='conditionOperand'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='String'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='targetSize'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='OperandSize'
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='targetOperand'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='IOperandTreeNode'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+24 25
+7 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+31 34
+34 35
+26 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+41 53
+53 54
+53 55
+55 56
+53 57
+57 58
+41 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+41 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+41 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+41 80
+80 81
+80 82
+82 83
+80 84
+84 85
+85 86
+
+generates the REIL instructions for a branch with a delay slot as found in the MIPS32 architecture.

@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='cancel'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='streamAllocation'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='cancel'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+
+Immediately closes the socket connection if it's currently held by this engine. Use this to interrupt an in-flight request from any thread. It's the caller's responsibility to close the request body and response body streams; otherwise resources may be leaked. <p>This method is safe to be called concurrently, but provides limited guarantees. If a transport layer connection has been established (such as a HTTP/2 stream) that is terminated. Otherwise if a socket connection is being established, that is terminated.

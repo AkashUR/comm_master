@@ -1,0 +1,42 @@
+20
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='startUp'
+7 statement (AssertStmt)
+8 check (UnaryExpr)
+9 operator='LOGICAL_COMPLEMENT'
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='logEnabled'
+13 type (VoidType)
+14 name (SimpleName)
+15 identifier='testLoggingDisabledSamplingNotSet'
+16 thrownExceptions
+17 thrownException (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+0 13
+0 14
+14 15
+0 16
+16 17
+17 18
+18 19
+
+When logging is disabled and sampling is not set no-op logger must be used.

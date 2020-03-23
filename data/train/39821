@@ -1,0 +1,262 @@
+130
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='updateRasterUbo'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='glEnable'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='GL_DEPTH_TEST'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='glUseProgram'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='rasterProgram'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='glBindBufferBase'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='GL_UNIFORM_BUFFER'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='rasterUboBinding'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='ubo'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='glBindFramebuffer'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='GL_FRAMEBUFFER'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='fbo'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='glClear'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='GL_DEPTH_BUFFER_BIT'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='glBindVertexArray'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='vaoScene'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='glDrawArraysInstanced'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='GL_TRIANGLES'
+72 argument (IntegerLiteralExpr)
+73 value='0'
+74 argument (BinaryExpr)
+75 operator='MULTIPLY'
+76 left (IntegerLiteralExpr)
+77 value='6'
+78 right (IntegerLiteralExpr)
+79 value='6'
+80 argument (BinaryExpr)
+81 operator='DIVIDE'
+82 left (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='length'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='boxes'
+88 right (IntegerLiteralExpr)
+89 value='2'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='glBindVertexArray'
+94 arguments
+95 argument (IntegerLiteralExpr)
+96 value='0'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='glBindFramebuffer'
+101 arguments
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='GL_FRAMEBUFFER'
+105 argument (IntegerLiteralExpr)
+106 value='0'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='glBindBufferBase'
+111 arguments
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='GL_UNIFORM_BUFFER'
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='rasterUboBinding'
+118 argument (IntegerLiteralExpr)
+119 value='0'
+120 statement (ExpressionStmt)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='glUseProgram'
+124 arguments
+125 argument (IntegerLiteralExpr)
+126 value='0'
+127 type (VoidType)
+128 name (SimpleName)
+129 identifier='raster'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+27 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+68 72
+72 73
+68 74
+74 75
+74 76
+76 77
+74 78
+78 79
+68 80
+80 81
+80 82
+82 83
+83 84
+82 85
+85 86
+86 87
+80 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+103 104
+101 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+113 114
+111 115
+115 116
+116 117
+111 118
+118 119
+2 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+0 127
+0 128
+128 129
+
+Rasterize the scene and write depth and position data into framebuffer textures.

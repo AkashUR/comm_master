@@ -1,0 +1,462 @@
+230
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='updateTexImage'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='VideoSurfaceTexture'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getTransformMatrix'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='VideoSurfaceTexture'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='videoTextureTransform'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='glUseProgram'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='GLES20'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='shaderProgram'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='glActiveTexture'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='GLES20'
+39 arguments
+40 argument (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='GL_TEXTURE0'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='GLES20'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='glBindTexture'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='GLES20'
+53 arguments
+54 argument (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='GL_TEXTURE_EXTERNAL_OES'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='GLES11Ext'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='videoTextureID'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='glUniformMatrix4fv'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='GLES20'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='textureTranformParam'
+74 argument (IntegerLiteralExpr)
+75 value='1'
+76 argument (BooleanLiteralExpr)
+77 value='false'
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='videoTextureTransform'
+81 argument (IntegerLiteralExpr)
+82 value='0'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='glUniformMatrix4fv'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='GLES20'
+90 arguments
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='MVPParam'
+94 argument (IntegerLiteralExpr)
+95 value='1'
+96 argument (BooleanLiteralExpr)
+97 value='false'
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='MVPMatrix'
+101 argument (IntegerLiteralExpr)
+102 value='0'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='glEnableVertexAttribArray'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='GLES20'
+110 arguments
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='vertexCoordsParam'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='glVertexAttribPointer'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='GLES20'
+121 arguments
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='vertexCoordsParam'
+125 argument (IntegerLiteralExpr)
+126 value='3'
+127 argument (FieldAccessExpr)
+128 name (SimpleName)
+129 identifier='GL_FLOAT'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='GLES20'
+133 argument (BooleanLiteralExpr)
+134 value='false'
+135 argument (IntegerLiteralExpr)
+136 value='0'
+137 argument (NameExpr)
+138 name (SimpleName)
+139 identifier='screenVetrexCoordsBuffer'
+140 statement (ExpressionStmt)
+141 expression (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='glEnableVertexAttribArray'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='GLES20'
+147 arguments
+148 argument (NameExpr)
+149 name (SimpleName)
+150 identifier='textureCoordsParam'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='glVertexAttribPointer'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='GLES20'
+158 arguments
+159 argument (NameExpr)
+160 name (SimpleName)
+161 identifier='textureCoordsParam'
+162 argument (IntegerLiteralExpr)
+163 value='4'
+164 argument (FieldAccessExpr)
+165 name (SimpleName)
+166 identifier='GL_FLOAT'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='GLES20'
+170 argument (BooleanLiteralExpr)
+171 value='false'
+172 argument (IntegerLiteralExpr)
+173 value='0'
+174 argument (ArrayAccessExpr)
+175 index (NameExpr)
+176 name (SimpleName)
+177 identifier='eye'
+178 name (NameExpr)
+179 name (SimpleName)
+180 identifier='textureCoordsBuffer'
+181 statement (ExpressionStmt)
+182 expression (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='glDrawElements'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='GLES20'
+188 arguments
+189 argument (FieldAccessExpr)
+190 name (SimpleName)
+191 identifier='GL_TRIANGLES'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='GLES20'
+195 argument (FieldAccessExpr)
+196 name (SimpleName)
+197 identifier='length'
+198 scope (NameExpr)
+199 name (SimpleName)
+200 identifier='virtualScreenVetrexIndicies'
+201 argument (FieldAccessExpr)
+202 name (SimpleName)
+203 identifier='GL_UNSIGNED_SHORT'
+204 scope (NameExpr)
+205 name (SimpleName)
+206 identifier='GLES20'
+207 argument (NameExpr)
+208 name (SimpleName)
+209 identifier='screenVetrexIndiciesBuffer'
+210 statement (ExpressionStmt)
+211 expression (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='checkGLError'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='parentMainActivity'
+217 arguments
+218 argument (StringLiteralExpr)
+219 value='render'
+220 type (VoidType)
+221 name (SimpleName)
+222 identifier='render'
+223 parameters
+224 parameter (Parameter)
+225 isVarArgs='false'
+226 name (SimpleName)
+227 identifier='eye'
+228 type (PrimitiveType)
+229 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+53 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+70 74
+74 75
+70 76
+76 77
+70 78
+78 79
+79 80
+70 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+91 92
+92 93
+90 94
+94 95
+90 96
+96 97
+90 98
+98 99
+99 100
+90 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+123 124
+121 125
+125 126
+121 127
+127 128
+128 129
+127 130
+130 131
+131 132
+121 133
+133 134
+121 135
+135 136
+121 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+141 147
+147 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+152 158
+158 159
+159 160
+160 161
+158 162
+162 163
+158 164
+164 165
+165 166
+164 167
+167 168
+168 169
+158 170
+170 171
+158 172
+172 173
+158 174
+174 175
+175 176
+176 177
+174 178
+178 179
+179 180
+2 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+182 188
+188 189
+189 190
+190 191
+189 192
+192 193
+193 194
+188 195
+195 196
+196 197
+195 198
+198 199
+199 200
+188 201
+201 202
+202 203
+201 204
+204 205
+205 206
+188 207
+207 208
+208 209
+2 210
+210 211
+211 212
+212 213
+211 214
+214 215
+215 216
+211 217
+217 218
+218 219
+0 220
+0 221
+221 222
+0 223
+223 224
+224 225
+224 226
+226 227
+224 228
+228 229
+
+Render stereo video for one eye.

@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mFile'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='createObbFile'
+12 arguments
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='OBB_FILE_3_BAD_PACKAGENAME'
+16 argument (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='obb_file3_bad_packagename'
+19 scope (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='raw'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='R'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getAbsolutePath'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='mFile'
+35 name (SimpleName)
+36 identifier='filePath'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='mountObb'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='filePath'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='OBB_FILE_3_BAD_PACKAGENAME'
+51 argument (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='ERROR_PERMISSION_DENIED'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='OnObbStateChangeListener'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='testMountBadPackageNameObb'
+60 annotations
+61 annotation (MarkerAnnotationExpr)
+62 name (Name)
+63 identifier='LargeTest'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+28 35
+35 36
+28 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+44 51
+51 52
+52 53
+51 54
+54 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+62 63
+
+Tests mounting a single OBB that is signed with a different package.

@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkIntersection'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='LINESTRING ( 2089426.5233462777 1180182.3877339689, 2085646.6891757075 1195618.7333999649 )'
+10 argument (StringLiteralExpr)
+11 value='LINESTRING ( 1889281.8148903656 1997547.0560044837, 2259977.3672235999 483675.17050843034 )'
+12 argument (IntegerLiteralExpr)
+13 value='1'
+14 argument (ArrayCreationExpr)
+15 elementType (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Coordinate'
+18 initializer (ArrayInitializerExpr)
+19 values
+20 value (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Coordinate'
+24 arguments
+25 argument (DoubleLiteralExpr)
+26 value='2087536.6062609926'
+27 argument (DoubleLiteralExpr)
+28 value='1187900.560566967'
+29 levels
+30 level (ArrayCreationLevel)
+31 argument (IntegerLiteralExpr)
+32 value='0'
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='testDaveSkeaCase'
+36 thrownExceptions
+37 thrownException (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='ParseException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+7 12
+12 13
+7 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+24 27
+27 28
+14 29
+29 30
+7 31
+31 32
+0 33
+0 34
+34 35
+0 36
+36 37
+37 38
+38 39
+
+This used to be a failure case (exception), but apparently works now. Possibly normalization has fixed this?

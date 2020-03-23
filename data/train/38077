@@ -1,0 +1,398 @@
+198
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='errorMessage'
+9 name (SimpleName)
+10 identifier='errorMessage'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='CharSequence'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='AbstractValidatorImplementation'
+22 arguments
+23 argument (StringLiteralExpr)
+24 value='foo'
+25 argument (BooleanLiteralExpr)
+26 value='true'
+27 name (SimpleName)
+28 identifier='validator1'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Validator'
+32 typeArguments
+33 typeArgument (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Object'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (ObjectCreationExpr)
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='AbstractValidatorImplementation'
+44 arguments
+45 argument (StringLiteralExpr)
+46 value='bar'
+47 argument (BooleanLiteralExpr)
+48 value='true'
+49 name (SimpleName)
+50 identifier='validator2'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Validator'
+54 typeArguments
+55 typeArgument (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='Object'
+58 statement (ExpressionStmt)
+59 expression (VariableDeclarationExpr)
+60 variables
+61 variable (VariableDeclarator)
+62 initializer (ArrayCreationExpr)
+63 elementType (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Validator'
+66 levels
+67 level (ArrayCreationLevel)
+68 dimension (IntegerLiteralExpr)
+69 value='1'
+70 name (SimpleName)
+71 identifier='validators1'
+72 type (ArrayType)
+73 origin='TYPE'
+74 componentType (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='Validator'
+77 typeArguments
+78 typeArgument (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='Object'
+81 statement (ExpressionStmt)
+82 expression (AssignExpr)
+83 operator='ASSIGN'
+84 target (ArrayAccessExpr)
+85 index (IntegerLiteralExpr)
+86 value='0'
+87 name (NameExpr)
+88 name (SimpleName)
+89 identifier='validators1'
+90 value (NameExpr)
+91 name (SimpleName)
+92 identifier='validator1'
+93 statement (ExpressionStmt)
+94 expression (VariableDeclarationExpr)
+95 variables
+96 variable (VariableDeclarator)
+97 initializer (ArrayCreationExpr)
+98 elementType (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='Validator'
+101 levels
+102 level (ArrayCreationLevel)
+103 dimension (IntegerLiteralExpr)
+104 value='2'
+105 name (SimpleName)
+106 identifier='validators2'
+107 type (ArrayType)
+108 origin='TYPE'
+109 componentType (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='Validator'
+112 typeArguments
+113 typeArgument (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='Object'
+116 statement (ExpressionStmt)
+117 expression (AssignExpr)
+118 operator='ASSIGN'
+119 target (ArrayAccessExpr)
+120 index (IntegerLiteralExpr)
+121 value='0'
+122 name (NameExpr)
+123 name (SimpleName)
+124 identifier='validators2'
+125 value (NameExpr)
+126 name (SimpleName)
+127 identifier='validator1'
+128 statement (ExpressionStmt)
+129 expression (AssignExpr)
+130 operator='ASSIGN'
+131 target (ArrayAccessExpr)
+132 index (IntegerLiteralExpr)
+133 value='1'
+134 name (NameExpr)
+135 name (SimpleName)
+136 identifier='validators2'
+137 value (NameExpr)
+138 name (SimpleName)
+139 identifier='validator2'
+140 statement (ExpressionStmt)
+141 expression (VariableDeclarationExpr)
+142 variables
+143 variable (VariableDeclarator)
+144 initializer (ObjectCreationExpr)
+145 type (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='ConjunctiveValidator'
+148 arguments
+149 argument (NameExpr)
+150 name (SimpleName)
+151 identifier='errorMessage'
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='validators1'
+155 name (SimpleName)
+156 identifier='conjunctiveValidator'
+157 type (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='ConjunctiveValidator'
+160 typeArguments
+161 typeArgument (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='Object'
+164 statement (ExpressionStmt)
+165 expression (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='setValidators'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='conjunctiveValidator'
+171 arguments
+172 argument (NameExpr)
+173 name (SimpleName)
+174 identifier='validators2'
+175 statement (ExpressionStmt)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='assertEquals'
+179 arguments
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='validators2'
+183 argument (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='getValidators'
+186 scope (NameExpr)
+187 name (SimpleName)
+188 identifier='conjunctiveValidator'
+189 type (VoidType)
+190 name (SimpleName)
+191 identifier='testSetValidators'
+192 annotations
+193 annotation (SingleMemberAnnotationExpr)
+194 memberValue (StringLiteralExpr)
+195 value='unchecked'
+196 name (Name)
+197 identifier='SuppressWarnings'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+22 25
+25 26
+17 27
+27 28
+17 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+44 47
+47 48
+39 49
+49 50
+39 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+68 69
+61 70
+70 71
+61 72
+72 73
+72 74
+74 75
+75 76
+74 77
+77 78
+78 79
+79 80
+2 81
+81 82
+82 83
+82 84
+84 85
+85 86
+84 87
+87 88
+88 89
+82 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 99
+99 100
+97 101
+101 102
+102 103
+103 104
+96 105
+105 106
+96 107
+107 108
+107 109
+109 110
+110 111
+109 112
+112 113
+113 114
+114 115
+2 116
+116 117
+117 118
+117 119
+119 120
+120 121
+119 122
+122 123
+123 124
+117 125
+125 126
+126 127
+2 128
+128 129
+129 130
+129 131
+131 132
+132 133
+131 134
+134 135
+135 136
+129 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+143 144
+144 145
+145 146
+146 147
+144 148
+148 149
+149 150
+150 151
+148 152
+152 153
+153 154
+143 155
+155 156
+143 157
+157 158
+158 159
+157 160
+160 161
+161 162
+162 163
+2 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+165 171
+171 172
+172 173
+173 174
+2 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+181 182
+179 183
+183 184
+184 185
+183 186
+186 187
+187 188
+0 189
+0 190
+190 191
+0 192
+192 193
+193 194
+194 195
+193 196
+196 197
+
+Tests the functionality of the method, which allows to set the validators.

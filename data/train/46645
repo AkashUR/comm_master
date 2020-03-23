@@ -1,0 +1,458 @@
+228
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 statement (ExpressionStmt)
+6 expression (AssignExpr)
+7 operator='ASSIGN'
+8 target (NameExpr)
+9 name (SimpleName)
+10 identifier='name'
+11 value (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='normalizeFileName'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='name'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='preserveLeadingSlashes'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='endsWith'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='name'
+31 arguments
+32 argument (StringLiteralExpr)
+33 value='/'
+34 name (SimpleName)
+35 identifier='isDir'
+36 type (PrimitiveType)
+37 type='BOOLEAN'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='devMajor'
+44 scope (ThisExpr)
+45 value (IntegerLiteralExpr)
+46 value='0'
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='devMinor'
+53 scope (ThisExpr)
+54 value (IntegerLiteralExpr)
+55 value='0'
+56 statement (ExpressionStmt)
+57 expression (AssignExpr)
+58 operator='ASSIGN'
+59 target (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='name'
+62 scope (ThisExpr)
+63 value (ObjectCreationExpr)
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='StringBuffer'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='name'
+71 statement (ExpressionStmt)
+72 expression (AssignExpr)
+73 operator='ASSIGN'
+74 target (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='mode'
+77 scope (ThisExpr)
+78 value (ConditionalExpr)
+79 condition (NameExpr)
+80 name (SimpleName)
+81 identifier='isDir'
+82 elseExpr (NameExpr)
+83 name (SimpleName)
+84 identifier='DEFAULT_FILE_MODE'
+85 thenExpr (NameExpr)
+86 name (SimpleName)
+87 identifier='DEFAULT_DIR_MODE'
+88 statement (ExpressionStmt)
+89 expression (AssignExpr)
+90 operator='ASSIGN'
+91 target (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='linkFlag'
+94 scope (ThisExpr)
+95 value (ConditionalExpr)
+96 condition (NameExpr)
+97 name (SimpleName)
+98 identifier='isDir'
+99 elseExpr (NameExpr)
+100 name (SimpleName)
+101 identifier='LF_NORMAL'
+102 thenExpr (NameExpr)
+103 name (SimpleName)
+104 identifier='LF_DIR'
+105 statement (ExpressionStmt)
+106 expression (AssignExpr)
+107 operator='ASSIGN'
+108 target (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='userId'
+111 scope (ThisExpr)
+112 value (IntegerLiteralExpr)
+113 value='0'
+114 statement (ExpressionStmt)
+115 expression (AssignExpr)
+116 operator='ASSIGN'
+117 target (FieldAccessExpr)
+118 name (SimpleName)
+119 identifier='groupId'
+120 scope (ThisExpr)
+121 value (IntegerLiteralExpr)
+122 value='0'
+123 statement (ExpressionStmt)
+124 expression (AssignExpr)
+125 operator='ASSIGN'
+126 target (FieldAccessExpr)
+127 name (SimpleName)
+128 identifier='size'
+129 scope (ThisExpr)
+130 value (IntegerLiteralExpr)
+131 value='0'
+132 statement (ExpressionStmt)
+133 expression (AssignExpr)
+134 operator='ASSIGN'
+135 target (FieldAccessExpr)
+136 name (SimpleName)
+137 identifier='modTime'
+138 scope (ThisExpr)
+139 value (BinaryExpr)
+140 operator='DIVIDE'
+141 left (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='getTime'
+144 scope (EnclosedExpr)
+145 inner (ObjectCreationExpr)
+146 type (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='Date'
+149 right (NameExpr)
+150 name (SimpleName)
+151 identifier='MILLIS_PER_SECOND'
+152 statement (ExpressionStmt)
+153 expression (AssignExpr)
+154 operator='ASSIGN'
+155 target (FieldAccessExpr)
+156 name (SimpleName)
+157 identifier='linkName'
+158 scope (ThisExpr)
+159 value (ObjectCreationExpr)
+160 type (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='StringBuffer'
+163 arguments
+164 argument (StringLiteralExpr)
+165 value=''
+166 statement (ExpressionStmt)
+167 expression (AssignExpr)
+168 operator='ASSIGN'
+169 target (FieldAccessExpr)
+170 name (SimpleName)
+171 identifier='userName'
+172 scope (ThisExpr)
+173 value (ObjectCreationExpr)
+174 type (ClassOrInterfaceType)
+175 name (SimpleName)
+176 identifier='StringBuffer'
+177 arguments
+178 argument (StringLiteralExpr)
+179 value=''
+180 statement (ExpressionStmt)
+181 expression (AssignExpr)
+182 operator='ASSIGN'
+183 target (FieldAccessExpr)
+184 name (SimpleName)
+185 identifier='groupName'
+186 scope (ThisExpr)
+187 value (ObjectCreationExpr)
+188 type (ClassOrInterfaceType)
+189 name (SimpleName)
+190 identifier='StringBuffer'
+191 arguments
+192 argument (StringLiteralExpr)
+193 value=''
+194 statement (ExpressionStmt)
+195 expression (AssignExpr)
+196 operator='ASSIGN'
+197 target (FieldAccessExpr)
+198 name (SimpleName)
+199 identifier='devMajor'
+200 scope (ThisExpr)
+201 value (IntegerLiteralExpr)
+202 value='0'
+203 statement (ExpressionStmt)
+204 expression (AssignExpr)
+205 operator='ASSIGN'
+206 target (FieldAccessExpr)
+207 name (SimpleName)
+208 identifier='devMinor'
+209 scope (ThisExpr)
+210 value (IntegerLiteralExpr)
+211 value='0'
+212 name (SimpleName)
+213 identifier='TarEntry'
+214 parameters
+215 parameter (Parameter)
+216 isVarArgs='false'
+217 name (SimpleName)
+218 identifier='name'
+219 type (ClassOrInterfaceType)
+220 name (SimpleName)
+221 identifier='String'
+222 parameter (Parameter)
+223 isVarArgs='false'
+224 name (SimpleName)
+225 identifier='preserveLeadingSlashes'
+226 type (PrimitiveType)
+227 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+6 8
+8 9
+9 10
+6 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+24 34
+34 35
+24 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+41 44
+39 45
+45 46
+2 47
+47 48
+48 49
+48 50
+50 51
+51 52
+50 53
+48 54
+54 55
+2 56
+56 57
+57 58
+57 59
+59 60
+60 61
+59 62
+57 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+69 70
+2 71
+71 72
+72 73
+72 74
+74 75
+75 76
+74 77
+72 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+78 85
+85 86
+86 87
+2 88
+88 89
+89 90
+89 91
+91 92
+92 93
+91 94
+89 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+95 102
+102 103
+103 104
+2 105
+105 106
+106 107
+106 108
+108 109
+109 110
+108 111
+106 112
+112 113
+2 114
+114 115
+115 116
+115 117
+117 118
+118 119
+117 120
+115 121
+121 122
+2 123
+123 124
+124 125
+124 126
+126 127
+127 128
+126 129
+124 130
+130 131
+2 132
+132 133
+133 134
+133 135
+135 136
+136 137
+135 138
+133 139
+139 140
+139 141
+141 142
+142 143
+141 144
+144 145
+145 146
+146 147
+147 148
+139 149
+149 150
+150 151
+2 152
+152 153
+153 154
+153 155
+155 156
+156 157
+155 158
+153 159
+159 160
+160 161
+161 162
+159 163
+163 164
+164 165
+2 166
+166 167
+167 168
+167 169
+169 170
+170 171
+169 172
+167 173
+173 174
+174 175
+175 176
+173 177
+177 178
+178 179
+2 180
+180 181
+181 182
+181 183
+183 184
+184 185
+183 186
+181 187
+187 188
+188 189
+189 190
+187 191
+191 192
+192 193
+2 194
+194 195
+195 196
+195 197
+197 198
+198 199
+197 200
+195 201
+201 202
+2 203
+203 204
+204 205
+204 206
+206 207
+207 208
+206 209
+204 210
+210 211
+0 212
+212 213
+0 214
+214 215
+215 216
+215 217
+217 218
+215 219
+219 220
+220 221
+214 222
+222 223
+222 224
+224 225
+222 226
+226 227
+
+Construct an entry with only a name. This allows the programmer to construct the entry's header "by hand". File is set to null.

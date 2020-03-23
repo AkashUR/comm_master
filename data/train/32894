@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getItemsInReadingOrder'
+10 name (SimpleName)
+11 identifier='views'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='ArrayList'
+15 typeArguments
+16 typeArgument (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='View'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='arrangeChildren'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='mContent'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='views'
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='max'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='Math'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='itemCount'
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='size'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='views'
+46 statement (ExpressionStmt)
+47 expression (AssignExpr)
+48 operator='ASSIGN'
+49 target (NameExpr)
+50 name (SimpleName)
+51 identifier='mItemsInvalidated'
+52 value (BooleanLiteralExpr)
+53 value='true'
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='rearrangeChildren'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='itemCount'
+62 type (PrimitiveType)
+63 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+47 49
+49 50
+50 51
+47 52
+52 53
+0 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+
+Rearranges the children based on their rank.

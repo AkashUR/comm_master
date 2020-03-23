@@ -1,0 +1,88 @@
+43
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='getEventType'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='event'
+10 entries
+11 entrie (SwitchEntryStmt)
+12 label (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='TYPE_WINDOW_STATE_CHANGED'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='AccessibilityEvent'
+18 statements
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (NameExpr)
+23 name (SimpleName)
+24 identifier='mLastNodeWasScrollable'
+25 value (BooleanLiteralExpr)
+26 value='false'
+27 statement (BreakStmt)
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='onAccessibilityEvent'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='event'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='AccessibilityEvent'
+39 annotations
+40 annotation (MarkerAnnotationExpr)
+41 name (Name)
+42 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+3 10
+10 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+11 18
+18 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+18 27
+0 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+37 38
+0 39
+39 40
+40 41
+41 42
+
+Resets cached scrollable state when touch exploration after window state changes.

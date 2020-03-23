@@ -1,0 +1,226 @@
+112
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TriggerProcess'
+11 name (SimpleName)
+12 identifier='tp'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TriggerProcess'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setTriggerProcessIdentifiers'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='tp'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='identifiers'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getIdentifierValuesForName'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='tp'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='name'
+41 name (SimpleName)
+42 identifier='ids'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='List'
+46 typeArguments
+47 typeArgument (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='TriggerProcessIdentifier'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='assertEquals'
+54 arguments
+55 argument (IntegerLiteralExpr)
+56 value='1'
+57 argument (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='size'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='ids'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='assertEquals'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='expectedValue'
+71 argument (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getValue'
+74 scope (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='get'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='ids'
+80 arguments
+81 argument (IntegerLiteralExpr)
+82 value='0'
+83 type (VoidType)
+84 name (SimpleName)
+85 identifier='validateSingleParam'
+86 parameters
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='identifiers'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='List'
+94 typeArguments
+95 typeArgument (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='TriggerProcessIdentifier'
+98 parameter (Parameter)
+99 isVarArgs='false'
+100 name (SimpleName)
+101 identifier='name'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='TriggerProcessIdentifierName'
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='expectedValue'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+30 41
+41 42
+30 43
+43 44
+44 45
+43 46
+46 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+69 70
+67 71
+71 72
+72 73
+71 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+0 83
+0 84
+84 85
+0 86
+86 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+91 94
+94 95
+95 96
+96 97
+86 98
+98 99
+98 100
+100 101
+98 102
+102 103
+103 104
+86 105
+105 106
+105 107
+107 108
+105 109
+109 110
+110 111
+
+Validates that the only value existing for the given name among the available identifiers has the specified value.

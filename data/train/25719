@@ -1,0 +1,120 @@
+59
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (AssertStmt)
+4 check (BinaryExpr)
+5 operator='NOT_EQUALS'
+6 left (NameExpr)
+7 name (SimpleName)
+8 identifier='states'
+9 right (NullLiteralExpr)
+10 statement (ExpressionStmt)
+11 expression (AssignExpr)
+12 operator='ASSIGN'
+13 target (NameExpr)
+14 name (SimpleName)
+15 identifier='term'
+16 value (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='requireNonNull'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='Objects'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='t'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='perReaderTermState'
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='requireNonNull'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='Objects'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='states'
+42 name (SimpleName)
+43 identifier='TermQuery'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='t'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Term'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='states'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='TermContext'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+2 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+44 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+
+Expert: constructs a TermQuery that will use the provided docFreq instead of looking up the docFreq against the searcher.

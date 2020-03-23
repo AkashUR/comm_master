@@ -1,0 +1,194 @@
+96
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='size'
+9 value (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='length'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='intArray'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (CastExpr)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='min'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='Math'
+26 arguments
+27 argument (BinaryExpr)
+28 operator='DIVIDE'
+29 left (BinaryExpr)
+30 operator='MULTIPLY'
+31 left (NameExpr)
+32 name (SimpleName)
+33 identifier='size'
+34 right (LongLiteralExpr)
+35 value='110L'
+36 right (IntegerLiteralExpr)
+37 value='100'
+38 argument (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='MAX_VALUE'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='Integer'
+44 type (PrimitiveType)
+45 type='INT'
+46 name (SimpleName)
+47 identifier='capacity'
+48 type (PrimitiveType)
+49 type='INT'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (NameExpr)
+54 name (SimpleName)
+55 identifier='data'
+56 value (ArrayCreationExpr)
+57 elementType (PrimitiveType)
+58 type='INT'
+59 levels
+60 level (ArrayCreationLevel)
+61 dimension (NameExpr)
+62 name (SimpleName)
+63 identifier='capacity'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='arraycopy'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='System'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='intArray'
+75 argument (IntegerLiteralExpr)
+76 value='0'
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='data'
+80 argument (IntegerLiteralExpr)
+81 value='0'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='size'
+85 name (SimpleName)
+86 identifier='DynamicIntArray'
+87 parameters
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='intArray'
+92 type (ArrayType)
+93 origin='TYPE'
+94 componentType (PrimitiveType)
+95 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+27 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+27 36
+36 37
+26 38
+38 39
+39 40
+38 41
+41 42
+42 43
+19 44
+44 45
+18 46
+46 47
+18 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+73 74
+71 75
+75 76
+71 77
+77 78
+78 79
+71 80
+80 81
+71 82
+82 83
+83 84
+0 85
+85 86
+0 87
+87 88
+88 89
+88 90
+90 91
+88 92
+92 93
+92 94
+94 95
+
+Constructs a new array object from the given int array. The resulting <code>DynamicIntArray</code> will have an initial capacity of 110% the size of the array.

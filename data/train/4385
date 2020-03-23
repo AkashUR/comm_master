@@ -1,0 +1,172 @@
+85
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='convertToDocument'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='XMLConverter'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='response'
+17 argument (BooleanLiteralExpr)
+18 value='true'
+19 name (SimpleName)
+20 identifier='responseDoc'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Document'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='processingResult'
+30 scope (ThisExpr)
+31 value (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getNodeTextContentByXPath'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='XMLConverter'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='responseDoc'
+41 argument (StringLiteralExpr)
+42 value='/Response/Transaction/Processing/Result'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='processingReturnCode'
+49 scope (ThisExpr)
+50 value (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getNodeTextContentByXPath'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='XMLConverter'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='responseDoc'
+60 argument (StringLiteralExpr)
+61 value='/Response/Transaction/Processing/Return'
+62 name (SimpleName)
+63 identifier='HeidelpayResponse'
+64 parameters
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='response'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='String'
+72 thrownExceptions
+73 thrownException (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='ParserConfigurationException'
+76 thrownException (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='SAXException'
+79 thrownException (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='IOException'
+82 thrownException (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='XPathExpressionException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+27 30
+25 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+37 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+56 60
+60 61
+0 62
+62 63
+0 64
+64 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+0 72
+72 73
+73 74
+74 75
+72 76
+76 77
+77 78
+72 79
+79 80
+80 81
+72 82
+82 83
+83 84
+
+Reads the result document and identifies the result related information. The object will be initialized with them.

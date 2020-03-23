@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='AbstractValidatorImplementation'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='foo'
+14 argument (BooleanLiteralExpr)
+15 value='true'
+16 name (SimpleName)
+17 identifier='validator'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Validator'
+21 typeArguments
+22 typeArgument (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Object'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='NegateValidator'
+33 arguments
+34 argument (StringLiteralExpr)
+35 value='foo'
+36 argument (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='AbstractValidatorImplementation'
+40 arguments
+41 argument (StringLiteralExpr)
+42 value='bar'
+43 argument (BooleanLiteralExpr)
+44 value='false'
+45 name (SimpleName)
+46 identifier='negateValidator'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='NegateValidator'
+50 typeArguments
+51 typeArgument (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Object'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='setValidator'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='negateValidator'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='validator'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='assertEquals'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='validator'
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getValidator'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='negateValidator'
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='testSetValidator'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+18 21
+21 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+40 43
+43 44
+28 45
+45 46
+28 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+73 76
+76 77
+77 78
+0 79
+0 80
+80 81
+
+Tests the functionality of the method, which allows to set a validator.

@@ -1,0 +1,498 @@
+248
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (BinaryExpr)
+18 operator='PLUS'
+19 left (BinaryExpr)
+20 operator='PLUS'
+21 left (BinaryExpr)
+22 operator='PLUS'
+23 left (BinaryExpr)
+24 operator='PLUS'
+25 left (BinaryExpr)
+26 operator='PLUS'
+27 left (BinaryExpr)
+28 operator='PLUS'
+29 left (BinaryExpr)
+30 operator='PLUS'
+31 left (BinaryExpr)
+32 operator='PLUS'
+33 left (BinaryExpr)
+34 operator='PLUS'
+35 left (BinaryExpr)
+36 operator='PLUS'
+37 left (BinaryExpr)
+38 operator='PLUS'
+39 left (BinaryExpr)
+40 operator='PLUS'
+41 left (BinaryExpr)
+42 operator='PLUS'
+43 left (BinaryExpr)
+44 operator='PLUS'
+45 left (BinaryExpr)
+46 operator='PLUS'
+47 left (NameExpr)
+48 name (SimpleName)
+49 identifier='WEBAPP_TEST_HEADER'
+50 right (StringLiteralExpr)
+51 value=''
+52 right (StringLiteralExpr)
+53 value='  <security-constraint>'
+54 right (StringLiteralExpr)
+55 value='    <web-resource-collection>'
+56 right (StringLiteralExpr)
+57 value='      <web-resource-name>wr1</web-resource-name>'
+58 right (StringLiteralExpr)
+59 value='      <url-pattern>/url1</url-pattern>'
+60 right (StringLiteralExpr)
+61 value='    </web-resource-collection>'
+62 right (StringLiteralExpr)
+63 value='  </security-constraint>'
+64 right (StringLiteralExpr)
+65 value='  <security-constraint>'
+66 right (StringLiteralExpr)
+67 value='    <web-resource-collection>'
+68 right (StringLiteralExpr)
+69 value='      <web-resource-name>wr2</web-resource-name>'
+70 right (StringLiteralExpr)
+71 value='      <url-pattern>/url2</url-pattern>'
+72 right (StringLiteralExpr)
+73 value='    </web-resource-collection>'
+74 right (StringLiteralExpr)
+75 value='  </security-constraint>'
+76 right (StringLiteralExpr)
+77 value='  <security-constraint>'
+78 right (StringLiteralExpr)
+79 value='    <web-resource-collection>'
+80 right (StringLiteralExpr)
+81 value='      <web-resource-name>wr3</web-resource-name>'
+82 right (StringLiteralExpr)
+83 value='      <url-pattern>/url3</url-pattern>'
+84 right (StringLiteralExpr)
+85 value='    </web-resource-collection>'
+86 right (StringLiteralExpr)
+87 value='  </security-constraint>'
+88 right (StringLiteralExpr)
+89 value='</web-app>'
+90 name (SimpleName)
+91 identifier='xml'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='String'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='build'
+99 scope (FieldAccessExpr)
+100 name (SimpleName)
+101 identifier='builder'
+102 scope (ThisExpr)
+103 arguments
+104 argument (ObjectCreationExpr)
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='ByteArrayInputStream'
+108 arguments
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='getBytes'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='xml'
+115 arguments
+116 argument (StringLiteralExpr)
+117 value='UTF-8'
+118 statement (ExpressionStmt)
+119 expression (VariableDeclarationExpr)
+120 variables
+121 variable (VariableDeclarator)
+122 initializer (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='parseWebXml'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='WebXmlIo'
+128 arguments
+129 argument (ObjectCreationExpr)
+130 type (ClassOrInterfaceType)
+131 name (SimpleName)
+132 identifier='ByteArrayInputStream'
+133 arguments
+134 argument (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='getBytes'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='xml'
+140 arguments
+141 argument (StringLiteralExpr)
+142 value='UTF-8'
+143 argument (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='getEntityResolver'
+146 name (SimpleName)
+147 identifier='webXml'
+148 type (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='WebXml'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='assertTrue'
+155 arguments
+156 argument (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='hasSecurityConstraint'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='WebXmlUtils'
+162 arguments
+163 argument (NameExpr)
+164 name (SimpleName)
+165 identifier='webXml'
+166 argument (StringLiteralExpr)
+167 value='/url1'
+168 statement (ExpressionStmt)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='assertTrue'
+172 arguments
+173 argument (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='hasSecurityConstraint'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='WebXmlUtils'
+179 arguments
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='webXml'
+183 argument (StringLiteralExpr)
+184 value='/url2'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='assertTrue'
+189 arguments
+190 argument (MethodCallExpr)
+191 name (SimpleName)
+192 identifier='hasSecurityConstraint'
+193 scope (NameExpr)
+194 name (SimpleName)
+195 identifier='WebXmlUtils'
+196 arguments
+197 argument (NameExpr)
+198 name (SimpleName)
+199 identifier='webXml'
+200 argument (StringLiteralExpr)
+201 value='/url3'
+202 statement (ExpressionStmt)
+203 expression (VariableDeclarationExpr)
+204 variables
+205 variable (VariableDeclarator)
+206 initializer (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='getTags'
+209 scope (NameExpr)
+210 name (SimpleName)
+211 identifier='webXml'
+212 arguments
+213 argument (FieldAccessExpr)
+214 name (SimpleName)
+215 identifier='SECURITY_CONSTRAINT'
+216 scope (NameExpr)
+217 name (SimpleName)
+218 identifier='WebXmlType'
+219 name (SimpleName)
+220 identifier='securityConstraints'
+221 type (ClassOrInterfaceType)
+222 name (SimpleName)
+223 identifier='List'
+224 typeArguments
+225 typeArgument (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='Element'
+228 statement (ExpressionStmt)
+229 expression (MethodCallExpr)
+230 name (SimpleName)
+231 identifier='assertEquals'
+232 arguments
+233 argument (IntegerLiteralExpr)
+234 value='3'
+235 argument (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='size'
+238 scope (NameExpr)
+239 name (SimpleName)
+240 identifier='securityConstraints'
+241 type (VoidType)
+242 name (SimpleName)
+243 identifier='testGetMutlipleSecurityConstraints'
+244 thrownExceptions
+245 thrownException (ClassOrInterfaceType)
+246 name (SimpleName)
+247 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+17 19
+19 20
+19 21
+21 22
+21 23
+23 24
+23 25
+25 26
+25 27
+27 28
+27 29
+29 30
+29 31
+31 32
+31 33
+33 34
+33 35
+35 36
+35 37
+37 38
+37 39
+39 40
+39 41
+41 42
+41 43
+43 44
+43 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+43 52
+52 53
+41 54
+54 55
+39 56
+56 57
+37 58
+58 59
+35 60
+60 61
+33 62
+62 63
+31 64
+64 65
+29 66
+66 67
+27 68
+68 69
+25 70
+70 71
+23 72
+72 73
+21 74
+74 75
+19 76
+76 77
+17 78
+78 79
+15 80
+80 81
+13 82
+82 83
+11 84
+84 85
+9 86
+86 87
+7 88
+88 89
+6 90
+90 91
+6 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+99 102
+96 103
+103 104
+104 105
+105 106
+106 107
+104 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+122 128
+128 129
+129 130
+130 131
+131 132
+129 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+134 140
+140 141
+141 142
+128 143
+143 144
+144 145
+121 146
+146 147
+121 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+156 162
+162 163
+163 164
+164 165
+162 166
+166 167
+2 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+173 179
+179 180
+180 181
+181 182
+179 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+190 196
+196 197
+197 198
+198 199
+196 200
+200 201
+2 202
+202 203
+203 204
+204 205
+205 206
+206 207
+207 208
+206 209
+209 210
+210 211
+206 212
+212 213
+213 214
+214 215
+213 216
+216 217
+217 218
+205 219
+219 220
+205 221
+221 222
+222 223
+221 224
+224 225
+225 226
+226 227
+2 228
+228 229
+229 230
+230 231
+229 232
+232 233
+233 234
+232 235
+235 236
+236 237
+235 238
+238 239
+239 240
+0 241
+0 242
+242 243
+0 244
+244 245
+245 246
+246 247
+
+Tests whether multiple security-constraint elements are returned in the expected order.

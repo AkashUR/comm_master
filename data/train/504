@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='quit'
+0 1
+0 2
+0 3
+3 4
+
+Called by the Console when the user is quitting the SimState.  A good place to stick stuff that you'd ordinarily put in a finalizer -- finalizers are tenuous at best. So here you'd put things like the code that closes the relevant display windows etc.

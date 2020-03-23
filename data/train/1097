@@ -1,0 +1,170 @@
+84
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='CronExpression'
+11 scope (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='Time'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='cronExprStr'
+18 name (SimpleName)
+19 identifier='cronExpression'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='CronExpression'
+23 scope (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Time'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getNextValidTimeAfter'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='cronExpression'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='startTime'
+40 name (SimpleName)
+41 identifier='nextTime'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Date'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='updateNextRun'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='etlJobId'
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='nextTime'
+56 type (VoidType)
+57 name (SimpleName)
+58 identifier='updateNextRun'
+59 parameters
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='etlJobId'
+64 type (PrimitiveType)
+65 type='INT'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='cronExprStr'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='String'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='startTime'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Date'
+80 thrownExceptions
+81 thrownException (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+29 40
+40 41
+29 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+0 56
+0 57
+57 58
+0 59
+59 60
+60 61
+60 62
+62 63
+60 64
+64 65
+59 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+59 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+0 80
+80 81
+81 82
+82 83
+
+Update the next run time for the etl job using Quartz cron expression

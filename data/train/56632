@@ -1,0 +1,324 @@
+161
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setNativeId'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='volume'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getNativeId'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='deviceClone'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='setWWN'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='volume'
+24 arguments
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getWwn'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='deviceClone'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='setDeviceLabel'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='volume'
+38 arguments
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getDeviceLabel'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='deviceClone'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='setNativeGuid'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='volume'
+52 arguments
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='generateNativeGuid'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='NativeGUIDGenerator'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='dbClient'
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='volume'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='setReplicaState'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='volume'
+73 arguments
+74 argument (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='name'
+77 scope (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='getReplicationState'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='deviceClone'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='setProvisionedCapacity'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='volume'
+90 arguments
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='getProvisionedCapacity'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='deviceClone'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='setAllocatedCapacity'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='volume'
+104 arguments
+105 argument (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='getAllocatedCapacity'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='deviceClone'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='setInactive'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='volume'
+118 arguments
+119 argument (BooleanLiteralExpr)
+120 value='false'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='updateObject'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='dbClient'
+128 arguments
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='volume'
+132 type (VoidType)
+133 name (SimpleName)
+134 identifier='updateNewlyCreatedClone'
+135 parameters
+136 parameter (Parameter)
+137 isVarArgs='false'
+138 name (SimpleName)
+139 identifier='volume'
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='Volume'
+143 parameter (Parameter)
+144 isVarArgs='false'
+145 name (SimpleName)
+146 identifier='deviceClone'
+147 type (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='VolumeClone'
+150 parameter (Parameter)
+151 isVarArgs='false'
+152 name (SimpleName)
+153 identifier='dbClient'
+154 type (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='DbClient'
+157 thrownExceptions
+158 thrownException (ClassOrInterfaceType)
+159 name (SimpleName)
+160 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+67 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+77 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+112 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+122 128
+128 129
+129 130
+130 131
+0 132
+0 133
+133 134
+0 135
+135 136
+136 137
+136 138
+138 139
+136 140
+140 141
+141 142
+135 143
+143 144
+143 145
+145 146
+143 147
+147 148
+148 149
+135 150
+150 151
+150 152
+152 153
+150 154
+154 155
+155 156
+0 157
+157 158
+158 159
+159 160
+
+Updates the ViPR volume from the passed, newly created external device clone.

@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='workerReachedBlock'
+9 value (BooleanLiteralExpr)
+10 value='true'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='timeBlockReached'
+17 value (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='currentTimeMillis'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='System'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setWorking'
+27 scope (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='worker'
+30 scope (ThisExpr)
+31 arguments
+32 argument (BooleanLiteralExpr)
+33 value='true'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='adaptItem'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='worker'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getMaterial'
+45 scope (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getBlock'
+48 scope (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getBlockState'
+51 scope (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='worldObj'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='worker'
+57 arguments
+58 argument (ObjectCreationExpr)
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='BlockPos'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='posX'
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='posY'
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='posZ'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='onReachedTaskBlock'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+24 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+48 57
+57 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+62 69
+69 70
+70 71
+0 72
+0 73
+73 74
+
+Called when a worker comes within accessing range of the Block. Commences animation, sets starting time, stops movement.

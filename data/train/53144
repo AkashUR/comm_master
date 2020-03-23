@@ -1,0 +1,750 @@
+374
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='getStatus'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='descriptor'
+10 entries
+11 entrie (SwitchEntryStmt)
+12 label (NameExpr)
+13 name (SimpleName)
+14 identifier='SUCCESSFUL'
+15 statements
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='isBuildInProgress'
+22 value (BooleanLiteralExpr)
+23 value='false'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='stopCheckingStatus'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='stopCheckingOutput'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='setStatus'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='notification'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='FINISHED'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='setType'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='notification'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='INFO'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='setMessage'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='notification'
+61 arguments
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='buildFinished'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='constant'
+68 arguments
+69 argument (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getName'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='activeProject'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='setCurrentBuilderStatus'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='console'
+82 arguments
+83 argument (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='DONE'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='BuilderStatus'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='print'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='console'
+96 arguments
+97 argument (BinaryExpr)
+98 operator='PLUS'
+99 left (StringLiteralExpr)
+100 value='[INFO] '
+101 right (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='getMessage'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='notification'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='print'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='console'
+114 arguments
+115 argument (BinaryExpr)
+116 operator='PLUS'
+117 left (StringLiteralExpr)
+118 value='[MAVEN] '
+119 right (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='getTargetFolderURL'
+122 arguments
+123 argument (NameExpr)
+124 name (SimpleName)
+125 identifier='descriptor'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='setBuilding'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='buildContext'
+133 arguments
+134 argument (BooleanLiteralExpr)
+135 value='false'
+136 statement (BreakStmt)
+137 entrie (SwitchEntryStmt)
+138 label (NameExpr)
+139 name (SimpleName)
+140 identifier='FAILED'
+141 statements
+142 statement (ExpressionStmt)
+143 expression (AssignExpr)
+144 operator='ASSIGN'
+145 target (NameExpr)
+146 name (SimpleName)
+147 identifier='isBuildInProgress'
+148 value (BooleanLiteralExpr)
+149 value='false'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='stopCheckingStatus'
+154 statement (ExpressionStmt)
+155 expression (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='stopCheckingOutput'
+158 statement (ExpressionStmt)
+159 expression (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='setStatus'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='notification'
+165 arguments
+166 argument (NameExpr)
+167 name (SimpleName)
+168 identifier='FINISHED'
+169 statement (ExpressionStmt)
+170 expression (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='setType'
+173 scope (NameExpr)
+174 name (SimpleName)
+175 identifier='notification'
+176 arguments
+177 argument (NameExpr)
+178 name (SimpleName)
+179 identifier='ERROR'
+180 statement (ExpressionStmt)
+181 expression (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='setMessage'
+184 scope (NameExpr)
+185 name (SimpleName)
+186 identifier='notification'
+187 arguments
+188 argument (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='buildFailed'
+191 scope (NameExpr)
+192 name (SimpleName)
+193 identifier='constant'
+194 statement (ExpressionStmt)
+195 expression (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='setCurrentBuilderStatus'
+198 scope (NameExpr)
+199 name (SimpleName)
+200 identifier='console'
+201 arguments
+202 argument (FieldAccessExpr)
+203 name (SimpleName)
+204 identifier='FAILED'
+205 scope (NameExpr)
+206 name (SimpleName)
+207 identifier='BuilderStatus'
+208 statement (ExpressionStmt)
+209 expression (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='print'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='console'
+215 arguments
+216 argument (BinaryExpr)
+217 operator='PLUS'
+218 left (StringLiteralExpr)
+219 value='[ERROR] '
+220 right (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='getMessage'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='notification'
+226 statement (ExpressionStmt)
+227 expression (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='print'
+230 scope (NameExpr)
+231 name (SimpleName)
+232 identifier='console'
+233 arguments
+234 argument (BinaryExpr)
+235 operator='PLUS'
+236 left (StringLiteralExpr)
+237 value='[MAVEN] '
+238 right (MethodCallExpr)
+239 name (SimpleName)
+240 identifier='getTargetFolderURL'
+241 arguments
+242 argument (NameExpr)
+243 name (SimpleName)
+244 identifier='descriptor'
+245 statement (ExpressionStmt)
+246 expression (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='setBuilding'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='buildContext'
+252 arguments
+253 argument (BooleanLiteralExpr)
+254 value='false'
+255 statement (BreakStmt)
+256 entrie (SwitchEntryStmt)
+257 label (NameExpr)
+258 name (SimpleName)
+259 identifier='CANCELLED'
+260 statements
+261 statement (ExpressionStmt)
+262 expression (AssignExpr)
+263 operator='ASSIGN'
+264 target (NameExpr)
+265 name (SimpleName)
+266 identifier='isBuildInProgress'
+267 value (BooleanLiteralExpr)
+268 value='false'
+269 statement (ExpressionStmt)
+270 expression (MethodCallExpr)
+271 name (SimpleName)
+272 identifier='stopCheckingStatus'
+273 statement (ExpressionStmt)
+274 expression (MethodCallExpr)
+275 name (SimpleName)
+276 identifier='stopCheckingOutput'
+277 statement (ExpressionStmt)
+278 expression (MethodCallExpr)
+279 name (SimpleName)
+280 identifier='setStatus'
+281 scope (NameExpr)
+282 name (SimpleName)
+283 identifier='notification'
+284 arguments
+285 argument (NameExpr)
+286 name (SimpleName)
+287 identifier='FINISHED'
+288 statement (ExpressionStmt)
+289 expression (MethodCallExpr)
+290 name (SimpleName)
+291 identifier='setType'
+292 scope (NameExpr)
+293 name (SimpleName)
+294 identifier='notification'
+295 arguments
+296 argument (NameExpr)
+297 name (SimpleName)
+298 identifier='ERROR'
+299 statement (ExpressionStmt)
+300 expression (MethodCallExpr)
+301 name (SimpleName)
+302 identifier='setMessage'
+303 scope (NameExpr)
+304 name (SimpleName)
+305 identifier='notification'
+306 arguments
+307 argument (MethodCallExpr)
+308 name (SimpleName)
+309 identifier='buildCanceled'
+310 scope (NameExpr)
+311 name (SimpleName)
+312 identifier='constant'
+313 arguments
+314 argument (MethodCallExpr)
+315 name (SimpleName)
+316 identifier='getName'
+317 scope (NameExpr)
+318 name (SimpleName)
+319 identifier='activeProject'
+320 statement (ExpressionStmt)
+321 expression (MethodCallExpr)
+322 name (SimpleName)
+323 identifier='setCurrentBuilderStatus'
+324 scope (NameExpr)
+325 name (SimpleName)
+326 identifier='console'
+327 arguments
+328 argument (FieldAccessExpr)
+329 name (SimpleName)
+330 identifier='FAILED'
+331 scope (NameExpr)
+332 name (SimpleName)
+333 identifier='BuilderStatus'
+334 statement (ExpressionStmt)
+335 expression (MethodCallExpr)
+336 name (SimpleName)
+337 identifier='print'
+338 scope (NameExpr)
+339 name (SimpleName)
+340 identifier='console'
+341 arguments
+342 argument (BinaryExpr)
+343 operator='PLUS'
+344 left (StringLiteralExpr)
+345 value='[ERROR] '
+346 right (MethodCallExpr)
+347 name (SimpleName)
+348 identifier='getMessage'
+349 scope (NameExpr)
+350 name (SimpleName)
+351 identifier='notification'
+352 statement (ExpressionStmt)
+353 expression (MethodCallExpr)
+354 name (SimpleName)
+355 identifier='setBuilding'
+356 scope (NameExpr)
+357 name (SimpleName)
+358 identifier='buildContext'
+359 arguments
+360 argument (BooleanLiteralExpr)
+361 value='false'
+362 statement (BreakStmt)
+363 type (VoidType)
+364 name (SimpleName)
+365 identifier='onBuildStatusUpdated'
+366 parameters
+367 parameter (Parameter)
+368 isVarArgs='false'
+369 name (SimpleName)
+370 identifier='descriptor'
+371 type (ClassOrInterfaceType)
+372 name (SimpleName)
+373 identifier='BuildTaskDescriptor'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+3 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+15 24
+24 25
+25 26
+26 27
+15 28
+28 29
+29 30
+30 31
+15 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+15 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+15 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+15 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+15 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+97 99
+99 100
+97 101
+101 102
+102 103
+101 104
+104 105
+105 106
+15 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+115 117
+117 118
+115 119
+119 120
+120 121
+119 122
+122 123
+123 124
+124 125
+15 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+127 133
+133 134
+134 135
+15 136
+10 137
+137 138
+138 139
+139 140
+137 141
+141 142
+142 143
+143 144
+143 145
+145 146
+146 147
+143 148
+148 149
+141 150
+150 151
+151 152
+152 153
+141 154
+154 155
+155 156
+156 157
+141 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+167 168
+141 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+170 176
+176 177
+177 178
+178 179
+141 180
+180 181
+181 182
+182 183
+181 184
+184 185
+185 186
+181 187
+187 188
+188 189
+189 190
+188 191
+191 192
+192 193
+141 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+195 201
+201 202
+202 203
+203 204
+202 205
+205 206
+206 207
+141 208
+208 209
+209 210
+210 211
+209 212
+212 213
+213 214
+209 215
+215 216
+216 217
+216 218
+218 219
+216 220
+220 221
+221 222
+220 223
+223 224
+224 225
+141 226
+226 227
+227 228
+228 229
+227 230
+230 231
+231 232
+227 233
+233 234
+234 235
+234 236
+236 237
+234 238
+238 239
+239 240
+238 241
+241 242
+242 243
+243 244
+141 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+246 252
+252 253
+253 254
+141 255
+10 256
+256 257
+257 258
+258 259
+256 260
+260 261
+261 262
+262 263
+262 264
+264 265
+265 266
+262 267
+267 268
+260 269
+269 270
+270 271
+271 272
+260 273
+273 274
+274 275
+275 276
+260 277
+277 278
+278 279
+279 280
+278 281
+281 282
+282 283
+278 284
+284 285
+285 286
+286 287
+260 288
+288 289
+289 290
+290 291
+289 292
+292 293
+293 294
+289 295
+295 296
+296 297
+297 298
+260 299
+299 300
+300 301
+301 302
+300 303
+303 304
+304 305
+300 306
+306 307
+307 308
+308 309
+307 310
+310 311
+311 312
+307 313
+313 314
+314 315
+315 316
+314 317
+317 318
+318 319
+260 320
+320 321
+321 322
+322 323
+321 324
+324 325
+325 326
+321 327
+327 328
+328 329
+329 330
+328 331
+331 332
+332 333
+260 334
+334 335
+335 336
+336 337
+335 338
+338 339
+339 340
+335 341
+341 342
+342 343
+342 344
+344 345
+342 346
+346 347
+347 348
+346 349
+349 350
+350 351
+260 352
+352 353
+353 354
+354 355
+353 356
+356 357
+357 358
+353 359
+359 360
+360 361
+260 362
+0 363
+0 364
+364 365
+0 366
+366 367
+367 368
+367 369
+369 370
+367 371
+371 372
+372 373
+
+Process changing build status.

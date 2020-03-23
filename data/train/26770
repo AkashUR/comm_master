@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='camera'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='cameraX'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='cameraY'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='cameraZ'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='cameraX'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='cameraY'
+23 argument (IntegerLiteralExpr)
+24 value='0'
+25 argument (IntegerLiteralExpr)
+26 value='0'
+27 argument (IntegerLiteralExpr)
+28 value='1'
+29 argument (IntegerLiteralExpr)
+30 value='0'
+31 type (VoidType)
+32 name (SimpleName)
+33 identifier='camera'
+34 annotations
+35 annotation (MarkerAnnotationExpr)
+36 name (Name)
+37 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+7 23
+23 24
+7 25
+25 26
+7 27
+27 28
+7 29
+29 30
+0 31
+0 32
+32 33
+0 34
+34 35
+35 36
+36 37
+
+Set camera to the default settings. <P> Processing camera behavior: <P> Camera behavior can be split into two separate components, camera transformation, and projection. The transformation corresponds to the physical location, orientation, and scale of the camera. In a physical camera metaphor, this is what can manipulated by handling the camera body (with the exception of scale, which doesn't really have a physcial analog). The projection corresponds to what can be changed by manipulating the lens. <P> We maintain separate matrices to represent the camera transform and projection. An important distinction between the two is that the camera transform should be invertible, where the projection matrix should not, since it serves to map three dimensions to two. It is possible to bake the two matrices into a single one just by multiplying them together, but it isn't a good idea, since lighting, z-ordering, and z-buffering all demand a true camera z coordinate after modelview and camera transforms have been applied but before projection. If the camera transform and projection are combined there is no way to recover a good camera-space z-coordinate from a model coordinate. <P> Fortunately, there are no functions that manipulate both camera transformation and projection. <P> camera() sets the camera position, orientation, and center of the scene. It replaces the camera transform with a new one. <P> The transformation functions are the same ones used to manipulate the modelview matrix (scale, translate, rotate, etc.). But they are bracketed with beginCamera(), endCamera() to indicate that they should apply (in inverse), to the camera transformation matrix.

@@ -1,0 +1,322 @@
+160
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='m'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='enable'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='m'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='USE_BIG_DECIMAL_FOR_FLOATS'
+27 scope (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='Feature'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='DeserializationConfig'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (ObjectCreationExpr)
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='BigDecimal'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='0.1'
+44 name (SimpleName)
+45 identifier='dec'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='BigDecimal'
+49 statement (ExpressionStmt)
+50 expression (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 initializer (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='readValue'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='m'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='toString'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='dec'
+66 argument (ClassExpr)
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='Number'
+70 name (SimpleName)
+71 identifier='result'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Number'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='assertEquals'
+79 arguments
+80 argument (ClassExpr)
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='BigDecimal'
+84 argument (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='getClass'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='result'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='assertEquals'
+94 arguments
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='dec'
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='result'
+101 statement (ExpressionStmt)
+102 expression (VariableDeclarationExpr)
+103 variables
+104 variable (VariableDeclarator)
+105 initializer (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='readValue'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='m'
+111 arguments
+112 argument (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='toString'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='dec'
+118 argument (ClassExpr)
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='Object'
+122 name (SimpleName)
+123 identifier='value'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='Object'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='assertEquals'
+131 arguments
+132 argument (ClassExpr)
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='BigDecimal'
+136 argument (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='getClass'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='result'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='assertEquals'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='dec'
+150 argument (NameExpr)
+151 name (SimpleName)
+152 identifier='value'
+153 type (VoidType)
+154 name (SimpleName)
+155 identifier='testFpTypeOverrideSimple'
+156 thrownExceptions
+157 thrownException (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+37 41
+41 42
+42 43
+36 44
+44 45
+36 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+59 66
+66 67
+67 68
+68 69
+52 70
+70 71
+52 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+82 83
+79 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+96 97
+94 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+105 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+111 118
+118 119
+119 120
+120 121
+104 122
+122 123
+104 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+133 134
+134 135
+131 136
+136 137
+137 138
+136 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+146 150
+150 151
+151 152
+0 153
+0 154
+154 155
+0 156
+156 157
+157 158
+158 159
+
+Test for verifying [JACKSON-72].

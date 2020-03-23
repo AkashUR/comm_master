@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addLine'
+7 arguments
+8 argument (ObjectCreationExpr)
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='TextMessage'
+12 arguments
+13 argument (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='currentTimeMillis'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='System'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='line'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='action'
+25 statement (ExpressionStmt)
+26 expression (UnaryExpr)
+27 operator='POSTFIX_INCREMENT'
+28 expression (NameExpr)
+29 name (SimpleName)
+30 identifier='numberOfMessages'
+31 statement (ExpressionStmt)
+32 expression (AssignExpr)
+33 operator='ASSIGN'
+34 target (NameExpr)
+35 name (SimpleName)
+36 identifier='lastMessage'
+37 value (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='currentTimeMillis'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='System'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='addMessage'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='line'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='String'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='action'
+58 type (PrimitiveType)
+59 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+12 19
+19 20
+20 21
+12 22
+22 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+2 31
+31 32
+32 33
+32 34
+34 35
+35 36
+32 37
+37 38
+38 39
+37 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+46 54
+54 55
+54 56
+56 57
+54 58
+58 59
+
+Adds a single chatmessage with the current time.

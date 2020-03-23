@@ -1,0 +1,460 @@
+229
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='toDate'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='now'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='DateTime'
+16 name (SimpleName)
+17 identifier='now'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Date'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='get'
+28 scope (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='steps'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='taskServiceState'
+34 arguments
+35 argument (BinaryExpr)
+36 operator='MINUS'
+37 left (NameExpr)
+38 name (SimpleName)
+39 identifier='nextStepSequence'
+40 right (IntegerLiteralExpr)
+41 value='1'
+42 name (SimpleName)
+43 identifier='currentStep'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='Step'
+47 scope (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='State'
+50 scope (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='TaskService'
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='state'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='currentStep'
+62 value (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='COMPLETED'
+65 scope (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='StepState'
+68 scope (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='State'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='TaskService'
+74 statement (ExpressionStmt)
+75 expression (AssignExpr)
+76 operator='ASSIGN'
+77 target (FieldAccessExpr)
+78 name (SimpleName)
+79 identifier='endTime'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='currentStep'
+83 value (NameExpr)
+84 name (SimpleName)
+85 identifier='now'
+86 statement (ExpressionStmt)
+87 expression (VariableDeclarationExpr)
+88 variables
+89 variable (VariableDeclarator)
+90 initializer (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='get'
+93 scope (FieldAccessExpr)
+94 name (SimpleName)
+95 identifier='steps'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='taskServiceState'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='nextStepSequence'
+103 name (SimpleName)
+104 identifier='nextStep'
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='Step'
+108 scope (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='State'
+111 scope (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='TaskService'
+114 statement (ExpressionStmt)
+115 expression (AssignExpr)
+116 operator='ASSIGN'
+117 target (FieldAccessExpr)
+118 name (SimpleName)
+119 identifier='state'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='nextStep'
+123 value (FieldAccessExpr)
+124 name (SimpleName)
+125 identifier='STARTED'
+126 scope (FieldAccessExpr)
+127 name (SimpleName)
+128 identifier='StepState'
+129 scope (FieldAccessExpr)
+130 name (SimpleName)
+131 identifier='State'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='TaskService'
+135 statement (ExpressionStmt)
+136 expression (AssignExpr)
+137 operator='ASSIGN'
+138 target (FieldAccessExpr)
+139 name (SimpleName)
+140 identifier='startedTime'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='nextStep'
+144 value (NameExpr)
+145 name (SimpleName)
+146 identifier='now'
+147 statement (ExpressionStmt)
+148 expression (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='sendWith'
+151 scope (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='setCompletion'
+154 scope (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='setBody'
+157 scope (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='createPatch'
+160 scope (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='getCloudStoreHelper'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='ServiceHostUtils'
+166 arguments
+167 argument (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='getHost'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='service'
+173 arguments
+174 argument (FieldAccessExpr)
+175 name (SimpleName)
+176 identifier='documentSelfLink'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='taskServiceState'
+180 arguments
+181 argument (NameExpr)
+182 name (SimpleName)
+183 identifier='taskServiceState'
+184 arguments
+185 argument (NameExpr)
+186 name (SimpleName)
+187 identifier='handler'
+188 arguments
+189 argument (NameExpr)
+190 name (SimpleName)
+191 identifier='service'
+192 type (VoidType)
+193 name (SimpleName)
+194 identifier='progress'
+195 parameters
+196 parameter (Parameter)
+197 isVarArgs='false'
+198 name (SimpleName)
+199 identifier='service'
+200 type (ClassOrInterfaceType)
+201 name (SimpleName)
+202 identifier='Service'
+203 parameter (Parameter)
+204 isVarArgs='false'
+205 name (SimpleName)
+206 identifier='taskServiceState'
+207 type (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='State'
+210 scope (ClassOrInterfaceType)
+211 name (SimpleName)
+212 identifier='TaskService'
+213 parameter (Parameter)
+214 isVarArgs='false'
+215 name (SimpleName)
+216 identifier='nextStepSequence'
+217 type (PrimitiveType)
+218 type='INT'
+219 parameter (Parameter)
+220 isVarArgs='false'
+221 name (SimpleName)
+222 identifier='handler'
+223 type (ClassOrInterfaceType)
+224 name (SimpleName)
+225 identifier='CompletionHandler'
+226 scope (ClassOrInterfaceType)
+227 name (SimpleName)
+228 identifier='Operation'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+25 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+24 42
+42 43
+24 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+56 59
+59 60
+60 61
+54 62
+62 63
+63 64
+62 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+2 74
+74 75
+75 76
+75 77
+77 78
+78 79
+77 80
+80 81
+81 82
+75 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+93 96
+96 97
+97 98
+90 99
+99 100
+100 101
+101 102
+89 103
+103 104
+89 105
+105 106
+106 107
+105 108
+108 109
+109 110
+108 111
+111 112
+112 113
+2 114
+114 115
+115 116
+115 117
+117 118
+118 119
+117 120
+120 121
+121 122
+115 123
+123 124
+124 125
+123 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+133 134
+2 135
+135 136
+136 137
+136 138
+138 139
+139 140
+138 141
+141 142
+142 143
+136 144
+144 145
+145 146
+2 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+151 154
+154 155
+155 156
+154 157
+157 158
+158 159
+157 160
+160 161
+161 162
+160 163
+163 164
+164 165
+160 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+157 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+154 180
+180 181
+181 182
+182 183
+151 184
+184 185
+185 186
+186 187
+148 188
+188 189
+189 190
+190 191
+0 192
+0 193
+193 194
+0 195
+195 196
+196 197
+196 198
+198 199
+196 200
+200 201
+201 202
+195 203
+203 204
+203 205
+205 206
+203 207
+207 208
+208 209
+207 210
+210 211
+211 212
+195 213
+213 214
+213 215
+215 216
+213 217
+217 218
+195 219
+219 220
+219 221
+221 222
+219 223
+223 224
+224 225
+223 226
+226 227
+227 228
+
+Progresses the given TaskService.State entity in cloud-store, by marking the state of the current step as COMPLETED and marking the state of the next step as STARTED.

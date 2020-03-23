@@ -1,0 +1,218 @@
+108
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 statement (ExpressionStmt)
+6 expression (VariableDeclarationExpr)
+7 variables
+8 variable (VariableDeclarator)
+9 initializer (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='createObjectNode'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='objectMapper'
+15 name (SimpleName)
+16 identifier='item'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='ObjectNode'
+20 statement (SwitchStmt)
+21 selector (NameExpr)
+22 name (SimpleName)
+23 identifier='itemType'
+24 entries
+25 entrie (SwitchEntryStmt)
+26 label (NameExpr)
+27 name (SimpleName)
+28 identifier='TYPE_PLAYLIST'
+29 statements
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='put'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='item'
+37 arguments
+38 argument (StringLiteralExpr)
+39 value='playlistid'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='itemId'
+43 statement (BreakStmt)
+44 entrie (SwitchEntryStmt)
+45 label (NameExpr)
+46 name (SimpleName)
+47 identifier='TYPE_CHANNEL'
+48 statements
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='put'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='item'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='channelid'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='itemId'
+62 statement (BreakStmt)
+63 entrie (SwitchEntryStmt)
+64 label (NameExpr)
+65 name (SimpleName)
+66 identifier='TYPE_RECORDING'
+67 statements
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='put'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='item'
+75 arguments
+76 argument (StringLiteralExpr)
+77 value='recordingid'
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='itemId'
+81 statement (BreakStmt)
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='addParameterToRequest'
+86 arguments
+87 argument (StringLiteralExpr)
+88 value='item'
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='item'
+92 name (SimpleName)
+93 identifier='Open'
+94 parameters
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='itemType'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='String'
+102 parameter (Parameter)
+103 isVarArgs='false'
+104 name (SimpleName)
+105 identifier='itemId'
+106 type (PrimitiveType)
+107 type='INT'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+8 15
+15 16
+8 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+37 40
+40 41
+41 42
+29 43
+24 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+56 59
+59 60
+60 61
+48 62
+24 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+75 78
+78 79
+79 80
+67 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+86 89
+89 90
+90 91
+0 92
+92 93
+0 94
+94 95
+95 96
+95 97
+97 98
+95 99
+99 100
+100 101
+94 102
+102 103
+102 104
+104 105
+102 106
+106 107
+
+Starts playing a playlist or channel

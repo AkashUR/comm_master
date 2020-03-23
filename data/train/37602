@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (ArrayAccessExpr)
+7 index (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='intValue'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='offset'
+13 name (NameExpr)
+14 name (SimpleName)
+15 identifier='buffer'
+16 value (NameExpr)
+17 name (SimpleName)
+18 identifier='val'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='add'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='offset'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getByteSize'
+30 scope (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='BYTE'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='Type'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='serializeByte'
+39 parameters
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='val'
+44 type (PrimitiveType)
+45 type='BYTE'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='buffer'
+50 type (ArrayType)
+51 origin='TYPE'
+52 componentType (PrimitiveType)
+53 type='BYTE'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='offset'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='MutableInt'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+14 15
+4 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+0 36
+0 37
+37 38
+0 39
+39 40
+40 41
+40 42
+42 43
+40 44
+44 45
+39 46
+46 47
+46 48
+48 49
+46 50
+50 51
+50 52
+52 53
+39 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+This method serializes the given byte to the given byte buffer to the given offset, the method also increments the offset appropriately.

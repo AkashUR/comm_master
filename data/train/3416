@@ -1,0 +1,146 @@
+72
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (ConditionalExpr)
+7 condition (EnclosedExpr)
+8 inner (BinaryExpr)
+9 operator='OR'
+10 left (EnclosedExpr)
+11 inner (BinaryExpr)
+12 operator='EQUALS'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='message'
+16 right (NullLiteralExpr)
+17 right (EnclosedExpr)
+18 inner (BinaryExpr)
+19 operator='EQUALS'
+20 left (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='length'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='message'
+26 right (IntegerLiteralExpr)
+27 value='0'
+28 elseExpr (NameExpr)
+29 name (SimpleName)
+30 identifier='message'
+31 thenExpr (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getMessage'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='e'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='containedException'
+43 scope (ThisExpr)
+44 value (NameExpr)
+45 name (SimpleName)
+46 identifier='e'
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='locator'
+53 scope (ThisExpr)
+54 value (NullLiteralExpr)
+55 name (SimpleName)
+56 identifier='DTMException'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='message'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='e'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+8 9
+8 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+8 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+23 24
+24 25
+18 26
+26 27
+6 28
+28 29
+29 30
+6 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+40 43
+38 44
+44 45
+45 46
+2 47
+47 48
+48 49
+48 50
+50 51
+51 52
+50 53
+48 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+57 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+
+Wrap an existing exception in a DTMException. <p>This is used for throwing processor exceptions before the processing has started.</p>

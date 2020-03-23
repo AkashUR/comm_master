@@ -1,0 +1,286 @@
+142
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='startGrid'
+10 arguments
+11 argument (IntegerLiteralExpr)
+12 value='0'
+13 name (SimpleName)
+14 identifier='ignite0'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Ignite'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='cache'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='ignite0'
+28 arguments
+29 argument (NullLiteralExpr)
+30 name (SimpleName)
+31 identifier='cache'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='IgniteCache'
+35 typeArguments
+36 typeArgument (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Integer'
+39 typeArgument (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Integer'
+42 statement (ExpressionStmt)
+43 expression (VariableDeclarationExpr)
+44 variables
+45 variable (VariableDeclarator)
+46 initializer (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='startGrid'
+49 arguments
+50 argument (IntegerLiteralExpr)
+51 value='1'
+52 name (SimpleName)
+53 identifier='ignite1'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Ignite'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (ConditionalExpr)
+62 condition (InstanceOfExpr)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getMarshaller'
+66 scope (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='configuration'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='ignite0'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='OptimizedMarshaller'
+75 elseExpr (IntegerLiteralExpr)
+76 value='7'
+77 thenExpr (IntegerLiteralExpr)
+78 value='2'
+79 name (SimpleName)
+80 identifier='key'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Integer'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='assertNull'
+88 arguments
+89 argument (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='getAndPut'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='cache'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='key'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='key'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='awaitPartitionMapExchange'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='assertTrue'
+110 arguments
+111 argument (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='isPrimary'
+114 scope (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='affinity'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='ignite0'
+120 arguments
+121 argument (NullLiteralExpr)
+122 arguments
+123 argument (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='localNode'
+126 scope (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='cluster'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='ignite1'
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='key'
+135 type (VoidType)
+136 name (SimpleName)
+137 identifier='testNearTx'
+138 thrownExceptions
+139 thrownException (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+21 30
+30 31
+21 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+45 52
+52 53
+45 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+66 69
+69 70
+70 71
+62 72
+72 73
+73 74
+61 75
+75 76
+61 77
+77 78
+60 79
+79 80
+60 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+111 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+126 129
+129 130
+130 131
+122 132
+132 133
+133 134
+0 135
+0 136
+136 137
+0 138
+138 139
+139 140
+140 141
+
+Test provokes scenario when primary node sends force key request to node started transaction.

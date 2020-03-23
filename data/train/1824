@@ -1,0 +1,444 @@
+221
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='Registering GZip Filter'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='addFilter'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='servletContext'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='gzipFilter'
+26 argument (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='GZipServletFilter'
+30 name (SimpleName)
+31 identifier='compressingFilter'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='Dynamic'
+35 scope (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='FilterRegistration'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (ObjectCreationExpr)
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='HashMap'
+46 name (SimpleName)
+47 identifier='parameters'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Map'
+51 typeArguments
+52 typeArgument (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+55 typeArgument (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='String'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='setInitParameters'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='compressingFilter'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='parameters'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='addMappingForUrlPatterns'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='compressingFilter'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='disps'
+80 argument (BooleanLiteralExpr)
+81 value='true'
+82 argument (StringLiteralExpr)
+83 value='*.css'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='addMappingForUrlPatterns'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='compressingFilter'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='disps'
+95 argument (BooleanLiteralExpr)
+96 value='true'
+97 argument (StringLiteralExpr)
+98 value='*.json'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='addMappingForUrlPatterns'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='compressingFilter'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='disps'
+110 argument (BooleanLiteralExpr)
+111 value='true'
+112 argument (StringLiteralExpr)
+113 value='*.html'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='addMappingForUrlPatterns'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='compressingFilter'
+121 arguments
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='disps'
+125 argument (BooleanLiteralExpr)
+126 value='true'
+127 argument (StringLiteralExpr)
+128 value='*.js'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='addMappingForUrlPatterns'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='compressingFilter'
+136 arguments
+137 argument (NameExpr)
+138 name (SimpleName)
+139 identifier='disps'
+140 argument (BooleanLiteralExpr)
+141 value='true'
+142 argument (StringLiteralExpr)
+143 value='*.svg'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='addMappingForUrlPatterns'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='compressingFilter'
+151 arguments
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='disps'
+155 argument (BooleanLiteralExpr)
+156 value='true'
+157 argument (StringLiteralExpr)
+158 value='*.ttf'
+159 statement (ExpressionStmt)
+160 expression (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='addMappingForUrlPatterns'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='compressingFilter'
+166 arguments
+167 argument (NameExpr)
+168 name (SimpleName)
+169 identifier='disps'
+170 argument (BooleanLiteralExpr)
+171 value='true'
+172 argument (StringLiteralExpr)
+173 value='/api/*'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='addMappingForUrlPatterns'
+178 scope (NameExpr)
+179 name (SimpleName)
+180 identifier='compressingFilter'
+181 arguments
+182 argument (NameExpr)
+183 name (SimpleName)
+184 identifier='disps'
+185 argument (BooleanLiteralExpr)
+186 value='true'
+187 argument (StringLiteralExpr)
+188 value='/metrics/*'
+189 statement (ExpressionStmt)
+190 expression (MethodCallExpr)
+191 name (SimpleName)
+192 identifier='setAsyncSupported'
+193 scope (NameExpr)
+194 name (SimpleName)
+195 identifier='compressingFilter'
+196 arguments
+197 argument (BooleanLiteralExpr)
+198 value='true'
+199 type (VoidType)
+200 name (SimpleName)
+201 identifier='initGzipFilter'
+202 parameters
+203 parameter (Parameter)
+204 isVarArgs='false'
+205 name (SimpleName)
+206 identifier='servletContext'
+207 type (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='ServletContext'
+210 parameter (Parameter)
+211 isVarArgs='false'
+212 name (SimpleName)
+213 identifier='disps'
+214 type (ClassOrInterfaceType)
+215 name (SimpleName)
+216 identifier='EnumSet'
+217 typeArguments
+218 typeArgument (ClassOrInterfaceType)
+219 name (SimpleName)
+220 identifier='DispatcherType'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+16 30
+30 31
+16 32
+32 33
+33 34
+32 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+41 46
+46 47
+41 48
+48 49
+49 50
+48 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+76 80
+80 81
+76 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+91 95
+95 96
+91 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+106 110
+110 111
+106 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+123 124
+121 125
+125 126
+121 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+137 138
+138 139
+136 140
+140 141
+136 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+145 151
+151 152
+152 153
+153 154
+151 155
+155 156
+151 157
+157 158
+2 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+160 166
+166 167
+167 168
+168 169
+166 170
+170 171
+166 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+175 181
+181 182
+182 183
+183 184
+181 185
+185 186
+181 187
+187 188
+2 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+190 196
+196 197
+197 198
+0 199
+0 200
+200 201
+0 202
+202 203
+203 204
+203 205
+205 206
+203 207
+207 208
+208 209
+202 210
+210 211
+210 212
+212 213
+210 214
+214 215
+215 216
+214 217
+217 218
+218 219
+219 220
+
+Initializes the GZip filter.

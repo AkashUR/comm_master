@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='LongAdder'
+11 name (SimpleName)
+12 identifier='counter'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='LongAdder'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Random'
+24 name (SimpleName)
+25 identifier='r'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Random'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (IntegerLiteralExpr)
+34 value='100'
+35 name (SimpleName)
+36 identifier='size'
+37 type (PrimitiveType)
+38 type='LONG'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='forEach'
+43 scope (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='parallel'
+46 scope (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='limit'
+49 scope (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='longs'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='r'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='size'
+59 arguments
+60 argument (NullLiteralExpr)
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='assertEquals'
+65 arguments
+66 argument (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='sum'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='counter'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='size'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='testUnsizedLongsCount'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+19 24
+24 25
+19 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+32 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+46 55
+55 56
+56 57
+57 58
+40 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+65 72
+72 73
+73 74
+0 75
+0 76
+76 77
+
+A parallel unsized stream of longs generates at least 100 values

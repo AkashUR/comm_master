@@ -1,0 +1,140 @@
+69
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getBytes'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='s'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='UTF_8'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='StandardCharsets'
+20 name (SimpleName)
+21 identifier='bytes'
+22 type (ArrayType)
+23 origin='TYPE'
+24 componentType (PrimitiveType)
+25 type='BYTE'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='writeVarInt'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='length'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='bytes'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='buff'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='put'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='buff'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='bytes'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='writeString'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='s'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='buff'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='ByteBuffer'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+22 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+
+Writes a String to a ByteBuffer. The length of the string is written as a varInt, and then the content of the string is written with the UTF-8 charset.

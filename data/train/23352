@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='JSONStringer'
+11 name (SimpleName)
+12 identifier='stringer'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='JSONStringer'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='array'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='stringer'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='value'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='stringer'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='MAX_VALUE'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='Long'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='value'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='stringer'
+44 arguments
+45 argument (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='MIN_VALUE'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='Double'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='endArray'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='stringer'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='assertEquals'
+62 arguments
+63 argument (StringLiteralExpr)
+64 value='[9223372036854775807,4.9E-324]'
+65 argument (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='toString'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='stringer'
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='testNumericRepresentations'
+74 thrownExceptions
+75 thrownException (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='JSONException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+62 65
+65 66
+66 67
+65 68
+68 69
+69 70
+0 71
+0 72
+72 73
+0 74
+74 75
+75 76
+76 77
+
+Test what happens when extreme values are emitted. Such values are likely to be rounded during parsing.

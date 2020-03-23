@@ -1,0 +1,236 @@
+117
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newScheduledThreadPool'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Executors'
+13 arguments
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 name (SimpleName)
+17 identifier='executor'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='ScheduledExecutorService'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='shutdownNow'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='executor'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (ObjectCreationExpr)
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Waiter'
+36 name (SimpleName)
+37 identifier='waiter'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Waiter'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 annotations
+44 annotation (SingleMemberAnnotationExpr)
+45 memberValue (StringLiteralExpr)
+46 value='unchecked'
+47 name (Name)
+48 identifier='SuppressWarnings'
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='run'
+54 scope (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='with'
+57 scope (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='with'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='Failsafe'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='retryOn'
+67 scope (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='retryWhen'
+70 scope (ObjectCreationExpr)
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='RetryPolicy'
+74 arguments
+75 argument (NullLiteralExpr)
+76 arguments
+77 argument (ClassExpr)
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='Exception'
+81 arguments
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='executor'
+85 arguments
+86 argument (NullLiteralExpr)
+87 name (SimpleName)
+88 identifier='future'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='FailsafeFuture'
+92 typeArguments
+93 typeArgument (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Void'
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='assertThrows'
+100 arguments
+101 argument (NullLiteralExpr)
+102 argument (ClassExpr)
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='ExecutionException'
+106 argument (ClassExpr)
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='RejectedExecutionException'
+110 type (VoidType)
+111 name (SimpleName)
+112 identifier='shouldHandleInitialSchedulingFailure'
+113 thrownExceptions
+114 thrownException (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+31 36
+36 37
+31 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+42 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+72 73
+67 74
+74 75
+64 76
+76 77
+77 78
+78 79
+79 80
+54 81
+81 82
+82 83
+83 84
+51 85
+85 86
+50 87
+87 88
+50 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+97 100
+100 101
+100 102
+102 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+0 110
+0 111
+111 112
+0 113
+113 114
+114 115
+115 116
+
+Asserts that Failsafe handles an initial scheduling failure.

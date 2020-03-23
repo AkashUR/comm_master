@@ -1,0 +1,674 @@
+336
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='startMeasurement'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Gbl'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='createConfig'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='ConfigUtils'
+20 name (SimpleName)
+21 identifier='config'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Config'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (StringLiteralExpr)
+30 value='examples/siouxfalls-2014/config_default.xml'
+31 name (SimpleName)
+32 identifier='configFilename'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='String'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='loadConfig'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='ConfigUtils'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='config'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='configFilename'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='setLastIteration'
+54 scope (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='controler'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='config'
+60 arguments
+61 argument (IntegerLiteralExpr)
+62 value='10'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='setNumberOfThreads'
+67 scope (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='qsim'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='config'
+73 arguments
+74 argument (IntegerLiteralExpr)
+75 value='1'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='setNumberOfThreads'
+80 scope (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='global'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='config'
+86 arguments
+87 argument (IntegerLiteralExpr)
+88 value='1'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='setNumberOfThreads'
+93 scope (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='parallelEventHandling'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='config'
+99 arguments
+100 argument (IntegerLiteralExpr)
+101 value='1'
+102 statement (ExpressionStmt)
+103 expression (VariableDeclarationExpr)
+104 variables
+105 variable (VariableDeclarator)
+106 initializer (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='loadScenario'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='ScenarioUtils'
+112 arguments
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='config'
+116 name (SimpleName)
+117 identifier='sc'
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='Scenario'
+121 statement (ExpressionStmt)
+122 expression (VariableDeclarationExpr)
+123 variables
+124 variable (VariableDeclarator)
+125 initializer (ObjectCreationExpr)
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='Controler'
+129 arguments
+130 argument (NameExpr)
+131 name (SimpleName)
+132 identifier='sc'
+133 name (SimpleName)
+134 identifier='controler'
+135 type (ClassOrInterfaceType)
+136 name (SimpleName)
+137 identifier='Controler'
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='run'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='controler'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='info'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='LOG'
+152 arguments
+153 argument (StringLiteralExpr)
+154 value='Single thread time:'
+155 statement (ExpressionStmt)
+156 expression (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='printElapsedTime'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='Gbl'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='deleteDirectory'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='IOUtils'
+169 arguments
+170 argument (ObjectCreationExpr)
+171 type (ClassOrInterfaceType)
+172 name (SimpleName)
+173 identifier='File'
+174 arguments
+175 argument (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='getOutputDirectory'
+178 scope (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='controler'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='config'
+184 statement (ExpressionStmt)
+185 expression (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='startMeasurement'
+188 scope (NameExpr)
+189 name (SimpleName)
+190 identifier='Gbl'
+191 statement (ExpressionStmt)
+192 expression (AssignExpr)
+193 operator='ASSIGN'
+194 target (NameExpr)
+195 name (SimpleName)
+196 identifier='config'
+197 value (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='createConfig'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='ConfigUtils'
+203 statement (ExpressionStmt)
+204 expression (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='loadConfig'
+207 scope (NameExpr)
+208 name (SimpleName)
+209 identifier='ConfigUtils'
+210 arguments
+211 argument (NameExpr)
+212 name (SimpleName)
+213 identifier='config'
+214 argument (NameExpr)
+215 name (SimpleName)
+216 identifier='configFilename'
+217 statement (ExpressionStmt)
+218 expression (MethodCallExpr)
+219 name (SimpleName)
+220 identifier='setLastIteration'
+221 scope (MethodCallExpr)
+222 name (SimpleName)
+223 identifier='controler'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='config'
+227 arguments
+228 argument (IntegerLiteralExpr)
+229 value='10'
+230 statement (ExpressionStmt)
+231 expression (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='setNumberOfThreads'
+234 scope (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='qsim'
+237 scope (NameExpr)
+238 name (SimpleName)
+239 identifier='config'
+240 arguments
+241 argument (IntegerLiteralExpr)
+242 value='2'
+243 statement (ExpressionStmt)
+244 expression (MethodCallExpr)
+245 name (SimpleName)
+246 identifier='setNumberOfThreads'
+247 scope (MethodCallExpr)
+248 name (SimpleName)
+249 identifier='global'
+250 scope (NameExpr)
+251 name (SimpleName)
+252 identifier='config'
+253 arguments
+254 argument (IntegerLiteralExpr)
+255 value='2'
+256 statement (ExpressionStmt)
+257 expression (MethodCallExpr)
+258 name (SimpleName)
+259 identifier='setNumberOfThreads'
+260 scope (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='parallelEventHandling'
+263 scope (NameExpr)
+264 name (SimpleName)
+265 identifier='config'
+266 arguments
+267 argument (IntegerLiteralExpr)
+268 value='2'
+269 statement (ExpressionStmt)
+270 expression (AssignExpr)
+271 operator='ASSIGN'
+272 target (NameExpr)
+273 name (SimpleName)
+274 identifier='sc'
+275 value (MethodCallExpr)
+276 name (SimpleName)
+277 identifier='loadScenario'
+278 scope (NameExpr)
+279 name (SimpleName)
+280 identifier='ScenarioUtils'
+281 arguments
+282 argument (NameExpr)
+283 name (SimpleName)
+284 identifier='config'
+285 statement (ExpressionStmt)
+286 expression (AssignExpr)
+287 operator='ASSIGN'
+288 target (NameExpr)
+289 name (SimpleName)
+290 identifier='controler'
+291 value (ObjectCreationExpr)
+292 type (ClassOrInterfaceType)
+293 name (SimpleName)
+294 identifier='Controler'
+295 arguments
+296 argument (NameExpr)
+297 name (SimpleName)
+298 identifier='sc'
+299 statement (ExpressionStmt)
+300 expression (MethodCallExpr)
+301 name (SimpleName)
+302 identifier='run'
+303 scope (NameExpr)
+304 name (SimpleName)
+305 identifier='controler'
+306 statement (ExpressionStmt)
+307 expression (MethodCallExpr)
+308 name (SimpleName)
+309 identifier='info'
+310 scope (NameExpr)
+311 name (SimpleName)
+312 identifier='LOG'
+313 arguments
+314 argument (StringLiteralExpr)
+315 value='Multi-threaded time:'
+316 statement (ExpressionStmt)
+317 expression (MethodCallExpr)
+318 name (SimpleName)
+319 identifier='printElapsedTime'
+320 scope (NameExpr)
+321 name (SimpleName)
+322 identifier='Gbl'
+323 type (VoidType)
+324 name (SimpleName)
+325 identifier='main'
+326 parameters
+327 parameter (Parameter)
+328 isVarArgs='false'
+329 name (SimpleName)
+330 identifier='args'
+331 type (ArrayType)
+332 origin='TYPE'
+333 componentType (ClassOrInterfaceType)
+334 name (SimpleName)
+335 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+13 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+28 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+51 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+64 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+80 83
+83 84
+84 85
+77 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+93 96
+96 97
+97 98
+90 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+114 115
+105 116
+116 117
+105 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+125 129
+129 130
+130 131
+131 132
+124 133
+133 134
+124 135
+135 136
+136 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+146 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+163 169
+169 170
+170 171
+171 172
+172 173
+170 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+178 181
+181 182
+182 183
+2 184
+184 185
+185 186
+186 187
+185 188
+188 189
+189 190
+2 191
+191 192
+192 193
+192 194
+194 195
+195 196
+192 197
+197 198
+198 199
+197 200
+200 201
+201 202
+2 203
+203 204
+204 205
+205 206
+204 207
+207 208
+208 209
+204 210
+210 211
+211 212
+212 213
+210 214
+214 215
+215 216
+2 217
+217 218
+218 219
+219 220
+218 221
+221 222
+222 223
+221 224
+224 225
+225 226
+218 227
+227 228
+228 229
+2 230
+230 231
+231 232
+232 233
+231 234
+234 235
+235 236
+234 237
+237 238
+238 239
+231 240
+240 241
+241 242
+2 243
+243 244
+244 245
+245 246
+244 247
+247 248
+248 249
+247 250
+250 251
+251 252
+244 253
+253 254
+254 255
+2 256
+256 257
+257 258
+258 259
+257 260
+260 261
+261 262
+260 263
+263 264
+264 265
+257 266
+266 267
+267 268
+2 269
+269 270
+270 271
+270 272
+272 273
+273 274
+270 275
+275 276
+276 277
+275 278
+278 279
+279 280
+275 281
+281 282
+282 283
+283 284
+2 285
+285 286
+286 287
+286 288
+288 289
+289 290
+286 291
+291 292
+292 293
+293 294
+291 295
+295 296
+296 297
+297 298
+2 299
+299 300
+300 301
+301 302
+300 303
+303 304
+304 305
+2 306
+306 307
+307 308
+308 309
+307 310
+310 311
+311 312
+307 313
+313 314
+314 315
+2 316
+316 317
+317 318
+318 319
+317 320
+320 321
+321 322
+0 323
+0 324
+324 325
+0 326
+326 327
+327 328
+327 329
+329 330
+327 331
+331 332
+331 333
+333 334
+334 335
+
+Running the Sioux-Falls scenario, first with single thread, and then in parallel (for all modules allowing parallelisation: mobsim, replanning  and events handling).<br> Note: the purpose of the example is to show <i>how</i> multi-threaded behaviour is switched on. It may be, given your hardware setup, that this example runs longer under the multi-threaded setup ;-)

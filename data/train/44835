@@ -1,0 +1,236 @@
+117
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='mapper'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='SimpleModule'
+24 arguments
+25 argument (StringLiteralExpr)
+26 value='test'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='unknownVersion'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Version'
+33 name (SimpleName)
+34 identifier='module'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='SimpleModule'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='addSerializer'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='module'
+45 arguments
+46 argument (ClassExpr)
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='String'
+50 argument (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='AnnotatedContextualSerializer'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='registerModule'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='mapper'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='module'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (ObjectCreationExpr)
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='ContextualMapBean'
+73 name (SimpleName)
+74 identifier='map'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='ContextualMapBean'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='put'
+82 scope (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='beans'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='map'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='first'
+91 argument (StringLiteralExpr)
+92 value='In Map'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='assertEquals'
+97 arguments
+98 argument (StringLiteralExpr)
+99 value='{\"beans\":{\"first\":\"map->In Map\"}}'
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='writeValueAsString'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='mapper'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='map'
+110 type (VoidType)
+111 name (SimpleName)
+112 identifier='testMethodAnnotationInMap'
+113 thrownExceptions
+114 thrownException (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+19 33
+33 34
+19 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+48 49
+45 50
+50 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+71 72
+68 73
+73 74
+68 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+79 88
+88 89
+89 90
+88 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+97 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+0 110
+0 111
+111 112
+0 113
+113 114
+114 115
+115 116
+
+Serializer should get passed property context even if contained in a Collection.

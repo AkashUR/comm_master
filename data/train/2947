@@ -1,0 +1,518 @@
+258
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ConfigurationElement'
+11 name (SimpleName)
+12 identifier='configElement'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ConfigurationElement'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setType'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='configElement'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getType'
+27 scope (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='STANDALONE'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='ConfigurationType'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='setHome'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='configElement'
+40 arguments
+41 argument (StringLiteralExpr)
+42 value='somewhere'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (ObjectCreationExpr)
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='DeployableElement'
+51 name (SimpleName)
+52 identifier='warElement'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='DeployableElement'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='setType'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='warElement'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getType'
+67 scope (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='WAR'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='DeployableType'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='setFile'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='warElement'
+80 arguments
+81 argument (StringLiteralExpr)
+82 value='some/war/file'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='addConfiguredDeployable'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='configElement'
+90 arguments
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='warElement'
+94 statement (ExpressionStmt)
+95 expression (VariableDeclarationExpr)
+96 variables
+97 variable (VariableDeclarator)
+98 initializer (ObjectCreationExpr)
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='DeployableElement'
+102 name (SimpleName)
+103 identifier='earElement'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='DeployableElement'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='setType'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='earElement'
+114 arguments
+115 argument (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='getType'
+118 scope (FieldAccessExpr)
+119 name (SimpleName)
+120 identifier='EAR'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='DeployableType'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='setFile'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='earElement'
+131 arguments
+132 argument (StringLiteralExpr)
+133 value='some/ear/file'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='addConfiguredDeployable'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='configElement'
+141 arguments
+142 argument (NameExpr)
+143 name (SimpleName)
+144 identifier='earElement'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='setClass'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='configElement'
+152 arguments
+153 argument (ClassExpr)
+154 type (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='StandaloneLocalConfigurationStub'
+157 statement (ExpressionStmt)
+158 expression (VariableDeclarationExpr)
+159 variables
+160 variable (VariableDeclarator)
+161 initializer (CastExpr)
+162 expression (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='createConfiguration'
+165 scope (NameExpr)
+166 name (SimpleName)
+167 identifier='configElement'
+168 arguments
+169 argument (StringLiteralExpr)
+170 value='someContainerId'
+171 argument (FieldAccessExpr)
+172 name (SimpleName)
+173 identifier='INSTALLED'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='ContainerType'
+177 type (ClassOrInterfaceType)
+178 name (SimpleName)
+179 identifier='LocalConfiguration'
+180 name (SimpleName)
+181 identifier='configuration'
+182 type (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='LocalConfiguration'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='assertEquals'
+189 arguments
+190 argument (IntegerLiteralExpr)
+191 value='2'
+192 argument (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='size'
+195 scope (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='getDeployables'
+198 scope (NameExpr)
+199 name (SimpleName)
+200 identifier='configuration'
+201 statement (ExpressionStmt)
+202 expression (MethodCallExpr)
+203 name (SimpleName)
+204 identifier='assertEquals'
+205 arguments
+206 argument (StringLiteralExpr)
+207 value='some/war/file'
+208 argument (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='getFile'
+211 scope (EnclosedExpr)
+212 inner (CastExpr)
+213 expression (MethodCallExpr)
+214 name (SimpleName)
+215 identifier='get'
+216 scope (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='getDeployables'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='configuration'
+222 arguments
+223 argument (IntegerLiteralExpr)
+224 value='0'
+225 type (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='WAR'
+228 statement (ExpressionStmt)
+229 expression (MethodCallExpr)
+230 name (SimpleName)
+231 identifier='assertEquals'
+232 arguments
+233 argument (StringLiteralExpr)
+234 value='some/ear/file'
+235 argument (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='getFile'
+238 scope (EnclosedExpr)
+239 inner (CastExpr)
+240 expression (MethodCallExpr)
+241 name (SimpleName)
+242 identifier='get'
+243 scope (MethodCallExpr)
+244 name (SimpleName)
+245 identifier='getDeployables'
+246 scope (NameExpr)
+247 name (SimpleName)
+248 identifier='configuration'
+249 arguments
+250 argument (IntegerLiteralExpr)
+251 value='1'
+252 type (ClassOrInterfaceType)
+253 name (SimpleName)
+254 identifier='EAR'
+255 type (VoidType)
+256 name (SimpleName)
+257 identifier='testCreateStandaloneConfigurationWithDeployables'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+46 51
+51 52
+46 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+97 98
+98 99
+99 100
+100 101
+97 102
+102 103
+97 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+135 141
+141 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+146 152
+152 153
+153 154
+154 155
+155 156
+2 157
+157 158
+158 159
+159 160
+160 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+162 168
+168 169
+169 170
+168 171
+171 172
+172 173
+171 174
+174 175
+175 176
+161 177
+177 178
+178 179
+160 180
+180 181
+160 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+189 192
+192 193
+193 194
+192 195
+195 196
+196 197
+195 198
+198 199
+199 200
+2 201
+201 202
+202 203
+203 204
+202 205
+205 206
+206 207
+205 208
+208 209
+209 210
+208 211
+211 212
+212 213
+213 214
+214 215
+213 216
+216 217
+217 218
+216 219
+219 220
+220 221
+213 222
+222 223
+223 224
+212 225
+225 226
+226 227
+2 228
+228 229
+229 230
+230 231
+229 232
+232 233
+233 234
+232 235
+235 236
+236 237
+235 238
+238 239
+239 240
+240 241
+241 242
+240 243
+243 244
+244 245
+243 246
+246 247
+247 248
+240 249
+249 250
+250 251
+239 252
+252 253
+253 254
+0 255
+0 256
+256 257
+
+Test the creation of a standalone configuration with some deployables.

@@ -1,0 +1,620 @@
+309
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getInstance'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='GregorianCalendar'
+13 name (SimpleName)
+14 identifier='cal'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Calendar'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='add'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='cal'
+25 arguments
+26 argument (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='YEAR'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='Calendar'
+32 argument (UnaryExpr)
+33 operator='MINUS'
+34 expression (IntegerLiteralExpr)
+35 value='1'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getTime'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='cal'
+46 name (SimpleName)
+47 identifier='notBefore'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Date'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='add'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='cal'
+58 arguments
+59 argument (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='YEAR'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='Calendar'
+65 argument (IntegerLiteralExpr)
+66 value='2'
+67 statement (ExpressionStmt)
+68 expression (VariableDeclarationExpr)
+69 variables
+70 variable (VariableDeclarator)
+71 initializer (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getTime'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='cal'
+77 name (SimpleName)
+78 identifier='notAfter'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Date'
+82 statement (ExpressionStmt)
+83 expression (VariableDeclarationExpr)
+84 variables
+85 variable (VariableDeclarator)
+86 initializer (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='create'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='ClientId'
+92 arguments
+93 argument (StringLiteralExpr)
+94 value='FOO'
+95 argument (StringLiteralExpr)
+96 value='BAR'
+97 argument (StringLiteralExpr)
+98 value='BAZ'
+99 name (SimpleName)
+100 identifier='memberId'
+101 type (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='ClientId'
+104 statement (ExpressionStmt)
+105 expression (VariableDeclarationExpr)
+106 variables
+107 variable (VariableDeclarator)
+108 initializer (ObjectCreationExpr)
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='GenerateSelfSignedCert'
+112 arguments
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='keyId'
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='cn'
+119 argument (NameExpr)
+120 name (SimpleName)
+121 identifier='notBefore'
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='notAfter'
+125 argument (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='SIGNING'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='KeyUsageInfo'
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='memberId'
+134 name (SimpleName)
+135 identifier='request'
+136 type (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='GenerateSelfSignedCert'
+139 statement (ExpressionStmt)
+140 expression (VariableDeclarationExpr)
+141 variables
+142 variable (VariableDeclarator)
+143 initializer (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='execute'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='SignerClient'
+149 arguments
+150 argument (NameExpr)
+151 name (SimpleName)
+152 identifier='request'
+153 name (SimpleName)
+154 identifier='response'
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='GenerateSelfSignedCertResponse'
+158 statement (ExpressionStmt)
+159 expression (VariableDeclarationExpr)
+160 variables
+161 variable (VariableDeclarator)
+162 initializer (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='readCertificate'
+165 arguments
+166 argument (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='getCertificateBytes'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='response'
+172 name (SimpleName)
+173 identifier='cert'
+174 type (ClassOrInterfaceType)
+175 name (SimpleName)
+176 identifier='X509Certificate'
+177 statement (ExpressionStmt)
+178 expression (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='println'
+181 scope (FieldAccessExpr)
+182 name (SimpleName)
+183 identifier='out'
+184 scope (NameExpr)
+185 name (SimpleName)
+186 identifier='System'
+187 arguments
+188 argument (StringLiteralExpr)
+189 value='Certificate base64:'
+190 statement (ExpressionStmt)
+191 expression (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='println'
+194 scope (FieldAccessExpr)
+195 name (SimpleName)
+196 identifier='out'
+197 scope (NameExpr)
+198 name (SimpleName)
+199 identifier='System'
+200 arguments
+201 argument (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='encodeBase64'
+204 arguments
+205 argument (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='getEncoded'
+208 scope (NameExpr)
+209 name (SimpleName)
+210 identifier='cert'
+211 statement (ExpressionStmt)
+212 expression (MethodCallExpr)
+213 name (SimpleName)
+214 identifier='bytesToFile'
+215 arguments
+216 argument (BinaryExpr)
+217 operator='PLUS'
+218 left (NameExpr)
+219 name (SimpleName)
+220 identifier='keyId'
+221 right (StringLiteralExpr)
+222 value='.crt'
+223 argument (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='getEncoded'
+226 scope (NameExpr)
+227 name (SimpleName)
+228 identifier='cert'
+229 statement (ExpressionStmt)
+230 expression (MethodCallExpr)
+231 name (SimpleName)
+232 identifier='base64ToFile'
+233 arguments
+234 argument (BinaryExpr)
+235 operator='PLUS'
+236 left (NameExpr)
+237 name (SimpleName)
+238 identifier='keyId'
+239 right (StringLiteralExpr)
+240 value='.crt.b64'
+241 argument (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='getEncoded'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='cert'
+247 type (VoidType)
+248 name (SimpleName)
+249 identifier='dummyCert'
+250 parameters
+251 parameter (Parameter)
+252 isVarArgs='false'
+253 name (SimpleName)
+254 identifier='keyId'
+255 type (ClassOrInterfaceType)
+256 name (SimpleName)
+257 identifier='String'
+258 annotations
+259 annotation (NormalAnnotationExpr)
+260 name (Name)
+261 identifier='Param'
+262 pairs
+263 pair (MemberValuePair)
+264 name (SimpleName)
+265 identifier='name'
+266 value (StringLiteralExpr)
+267 value='keyId'
+268 pair (MemberValuePair)
+269 name (SimpleName)
+270 identifier='description'
+271 value (StringLiteralExpr)
+272 value='Key ID'
+273 parameter (Parameter)
+274 isVarArgs='false'
+275 name (SimpleName)
+276 identifier='cn'
+277 type (ClassOrInterfaceType)
+278 name (SimpleName)
+279 identifier='String'
+280 annotations
+281 annotation (NormalAnnotationExpr)
+282 name (Name)
+283 identifier='Param'
+284 pairs
+285 pair (MemberValuePair)
+286 name (SimpleName)
+287 identifier='name'
+288 value (StringLiteralExpr)
+289 value='cn'
+290 pair (MemberValuePair)
+291 name (SimpleName)
+292 identifier='description'
+293 value (StringLiteralExpr)
+294 value='Common name'
+295 thrownExceptions
+296 thrownException (ClassOrInterfaceType)
+297 name (SimpleName)
+298 identifier='Exception'
+299 annotations
+300 annotation (NormalAnnotationExpr)
+301 name (Name)
+302 identifier='Command'
+303 pairs
+304 pair (MemberValuePair)
+305 name (SimpleName)
+306 identifier='description'
+307 value (StringLiteralExpr)
+308 value='Create dummy public key certificate'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+25 32
+32 33
+32 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+39 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+58 65
+65 66
+2 67
+67 68
+68 69
+69 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+70 77
+77 78
+70 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+86 92
+92 93
+93 94
+92 95
+95 96
+92 97
+97 98
+85 99
+99 100
+85 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+107 108
+108 109
+109 110
+110 111
+108 112
+112 113
+113 114
+114 115
+112 116
+116 117
+117 118
+112 119
+119 120
+120 121
+112 122
+122 123
+123 124
+112 125
+125 126
+126 127
+125 128
+128 129
+129 130
+112 131
+131 132
+132 133
+107 134
+134 135
+107 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+143 149
+149 150
+150 151
+151 152
+142 153
+153 154
+142 155
+155 156
+156 157
+2 158
+158 159
+159 160
+160 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+161 172
+172 173
+161 174
+174 175
+175 176
+2 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+181 184
+184 185
+185 186
+178 187
+187 188
+188 189
+2 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+194 197
+197 198
+198 199
+191 200
+200 201
+201 202
+202 203
+201 204
+204 205
+205 206
+206 207
+205 208
+208 209
+209 210
+2 211
+211 212
+212 213
+213 214
+212 215
+215 216
+216 217
+216 218
+218 219
+219 220
+216 221
+221 222
+215 223
+223 224
+224 225
+223 226
+226 227
+227 228
+2 229
+229 230
+230 231
+231 232
+230 233
+233 234
+234 235
+234 236
+236 237
+237 238
+234 239
+239 240
+233 241
+241 242
+242 243
+241 244
+244 245
+245 246
+0 247
+0 248
+248 249
+0 250
+250 251
+251 252
+251 253
+253 254
+251 255
+255 256
+256 257
+251 258
+258 259
+259 260
+260 261
+259 262
+262 263
+263 264
+264 265
+263 266
+266 267
+262 268
+268 269
+269 270
+268 271
+271 272
+250 273
+273 274
+273 275
+275 276
+273 277
+277 278
+278 279
+273 280
+280 281
+281 282
+282 283
+281 284
+284 285
+285 286
+286 287
+285 288
+288 289
+284 290
+290 291
+291 292
+290 293
+293 294
+0 295
+295 296
+296 297
+297 298
+0 299
+299 300
+300 301
+301 302
+300 303
+303 304
+304 305
+305 306
+304 307
+307 308
+
+Create dummy public key certificate.

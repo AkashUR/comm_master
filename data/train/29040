@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rehash'
+7 arguments
+8 argument (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='table'
+11 scope (ThisExpr)
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='count'
+15 scope (ThisExpr)
+16 argument (BinaryExpr)
+17 operator='PLUS'
+18 left (BinaryExpr)
+19 operator='MULTIPLY'
+20 left (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='count'
+23 scope (ThisExpr)
+24 right (IntegerLiteralExpr)
+25 value='2'
+26 right (IntegerLiteralExpr)
+27 value='1'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='rehash'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+7 12
+12 13
+13 14
+12 15
+7 16
+16 17
+16 18
+18 19
+18 20
+20 21
+21 22
+20 23
+18 24
+24 25
+16 26
+26 27
+0 28
+0 29
+29 30
+
+Rehashes this map into a new map with a large number of buckets. It is called when the number of entries in the map exceeds the capacity and load factor.

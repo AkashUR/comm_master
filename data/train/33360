@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='notNull'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ArgumentValidator'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='reviewKey'
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='reviewKey'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getReference'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='dm'
+26 arguments
+27 argument (ClassExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='ProductReview'
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='longValue'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='reviewKey'
+37 name (SimpleName)
+38 identifier='review'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='ProductReview'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='deleteReviewInt'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='review'
+50 argument (BooleanLiteralExpr)
+51 value='false'
+52 argument (NullLiteralExpr)
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='deleteReview'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='reviewKey'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='Long'
+64 thrownExceptions
+65 thrownException (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='OperationNotPermittedException'
+68 thrownException (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='ObjectNotFoundException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+29 30
+26 31
+31 32
+32 33
+31 34
+34 35
+35 36
+19 37
+37 38
+19 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+48 49
+46 50
+50 51
+46 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+0 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+
+Deletes the specified review for a service. <p> Required role: any user role in an organization to delete one's own reviews; administrator of the organization to delete the reviews of other users

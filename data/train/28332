@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (ArrayAccessExpr)
+7 index (NameExpr)
+8 name (SimpleName)
+9 identifier='index'
+10 name (NameExpr)
+11 name (SimpleName)
+12 identifier='code'
+13 value (CastExpr)
+14 expression (EnclosedExpr)
+15 inner (BinaryExpr)
+16 operator='UNSIGNED_RIGHT_SHIFT'
+17 left (NameExpr)
+18 name (SimpleName)
+19 identifier='value'
+20 right (IntegerLiteralExpr)
+21 value='8'
+22 type (PrimitiveType)
+23 type='BYTE'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (ArrayAccessExpr)
+28 index (BinaryExpr)
+29 operator='PLUS'
+30 left (NameExpr)
+31 name (SimpleName)
+32 identifier='index'
+33 right (IntegerLiteralExpr)
+34 value='1'
+35 name (NameExpr)
+36 name (SimpleName)
+37 identifier='code'
+38 value (CastExpr)
+39 expression (NameExpr)
+40 name (SimpleName)
+41 identifier='value'
+42 type (PrimitiveType)
+43 type='BYTE'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='write16bit'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='value'
+52 type (PrimitiveType)
+53 type='INT'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='code'
+58 type (ArrayType)
+59 origin='TYPE'
+60 componentType (PrimitiveType)
+61 type='BYTE'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='index'
+66 type (PrimitiveType)
+67 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+8 9
+6 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+13 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+28 30
+30 31
+31 32
+28 33
+33 34
+27 35
+35 36
+36 37
+25 38
+38 39
+39 40
+40 41
+38 42
+42 43
+0 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+47 54
+54 55
+54 56
+56 57
+54 58
+58 59
+58 60
+60 61
+47 62
+62 63
+62 64
+64 65
+62 66
+66 67
+
+Writes a 16bit integer at the index.

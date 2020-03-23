@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setAddress'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='instruction'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='CAddress'
+15 arguments
+16 argument (BinaryExpr)
+17 operator='PLUS'
+18 left (BinaryExpr)
+19 operator='PLUS'
+20 left (NameExpr)
+21 name (SimpleName)
+22 identifier='baseAddress'
+23 right (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='size'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='instructions'
+29 right (NameExpr)
+30 name (SimpleName)
+31 identifier='delta'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='add'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='instructions'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='instruction'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='addInstructionWithDelta'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='instruction'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='ReilInstruction'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='delta'
+58 type (PrimitiveType)
+59 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+16 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+24 25
+23 26
+26 27
+27 28
+16 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+46 54
+54 55
+54 56
+56 57
+54 58
+58 59
+
+Adds an instruction with a given delta to this internal result. The delta is only needed because we don't have a proper system for using labels as a normal assembler would have.

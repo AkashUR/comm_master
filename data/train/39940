@@ -1,0 +1,66 @@
+32
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addPermission'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='amazonSqsToBeExtended'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='addPermissionRequest'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='addPermission'
+17 parameters
+18 parameter (Parameter)
+19 isVarArgs='false'
+20 name (SimpleName)
+21 identifier='addPermissionRequest'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='AddPermissionRequest'
+25 thrownExceptions
+26 thrownException (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='AmazonServiceException'
+29 thrownException (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='AmazonClientException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+18 20
+20 21
+18 22
+22 23
+23 24
+0 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+
+<p> Adds a permission to a queue for a specific <a href="http://docs.aws.amazon.com/general/latest/gr/glos-chap.html#P"> principal </a> . This allows for sharing access to the queue. </p> <p> When you create a queue, you have full control access rights for the queue. Only you (as owner of the queue) can grant or deny permissions to the queue. For more information about these permissions, see <a href= "http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/acp-overview.html" > Shared Queues </a> in the <i>Amazon SQS Developer Guide</i> . </p> <p> <b>NOTE:</b> AddPermission writes an Amazon SQS-generated policy. If you want to write your own policy, use SetQueueAttributes to upload your policy. For more information about writing your own policy, see Using The Access Policy Language in the Amazon SQS Developer Guide. </p> <p> <b>NOTE:</b>Some API actions take lists of parameters. These lists are specified using the param.n notation. Values of n are integers starting from 1. For example, a parameter list with two elements looks like this: </p> <p> <code>&Attribute.1=this</code> </p> <p> <code>&Attribute.2=that</code> </p>

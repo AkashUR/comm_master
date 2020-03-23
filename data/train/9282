@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='NodePortTuple'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='sw'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='port'
+18 name (SimpleName)
+19 identifier='npt'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='NodePortTuple'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='remove'
+27 scope (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='suppressLinkDiscovery'
+30 scope (ThisExpr)
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='npt'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='discover'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='npt'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='RemoveFromSuppressLLDPs'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='sw'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='DatapathId'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='port'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='OFPort'
+61 annotations
+62 annotation (MarkerAnnotationExpr)
+63 name (Name)
+64 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+24 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+46 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+0 61
+61 62
+62 63
+63 64
+
+Remove a switch port from the suppressed LLDP list. Discover links on that switchport.

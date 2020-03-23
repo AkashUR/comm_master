@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='connection_rollback'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='chain'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='connection'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='savePoint'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='connectionLog'
+22 arguments
+23 argument (BinaryExpr)
+24 operator='PLUS'
+25 left (BinaryExpr)
+26 operator='PLUS'
+27 left (BinaryExpr)
+28 operator='PLUS'
+29 left (StringLiteralExpr)
+30 value='{conn '
+31 right (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getId'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='connection'
+37 right (StringLiteralExpr)
+38 value='} rollback -> '
+39 right (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getSavepointId'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='savePoint'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='connection_rollback'
+48 parameters
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='chain'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='FilterChain'
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='connection'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='ConnectionProxy'
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='savePoint'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='Savepoint'
+70 thrownExceptions
+71 thrownException (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='SQLException'
+74 annotations
+75 annotation (MarkerAnnotationExpr)
+76 name (Name)
+77 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+8 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+23 25
+25 26
+25 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+31 34
+34 35
+35 36
+25 37
+37 38
+23 39
+39 40
+40 41
+39 42
+42 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+48 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+48 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+0 70
+70 71
+71 72
+72 73
+0 74
+74 75
+75 76
+76 77
+
+Description: <br>

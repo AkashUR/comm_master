@@ -1,0 +1,398 @@
+198
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='search'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='AdversarialSearch'
+12 typeArguments
+13 typeArgument (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TicTacToeState'
+16 typeArgument (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='XYLocation'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 name (SimpleName)
+24 identifier='action'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='XYLocation'
+28 statement (SwitchStmt)
+29 selector (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getSelectedIndex'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='strategyCombo'
+35 entries
+36 entrie (SwitchEntryStmt)
+37 label (IntegerLiteralExpr)
+38 value='0'
+39 statements
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='ASSIGN'
+43 target (NameExpr)
+44 name (SimpleName)
+45 identifier='search'
+46 value (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='createFor'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='MinimaxSearch'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='game'
+56 statement (BreakStmt)
+57 entrie (SwitchEntryStmt)
+58 label (IntegerLiteralExpr)
+59 value='1'
+60 statements
+61 statement (ExpressionStmt)
+62 expression (AssignExpr)
+63 operator='ASSIGN'
+64 target (NameExpr)
+65 name (SimpleName)
+66 identifier='search'
+67 value (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='createFor'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='AlphaBetaSearch'
+73 arguments
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='game'
+77 statement (BreakStmt)
+78 entrie (SwitchEntryStmt)
+79 label (IntegerLiteralExpr)
+80 value='2'
+81 statements
+82 statement (ExpressionStmt)
+83 expression (AssignExpr)
+84 operator='ASSIGN'
+85 target (NameExpr)
+86 name (SimpleName)
+87 identifier='search'
+88 value (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='createFor'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='IterativeDeepeningAlphaBetaSearch'
+94 arguments
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='game'
+98 argument (DoubleLiteralExpr)
+99 value='0.0'
+100 argument (DoubleLiteralExpr)
+101 value='1.0'
+102 argument (IntegerLiteralExpr)
+103 value='1000'
+104 statement (BreakStmt)
+105 entrie (SwitchEntryStmt)
+106 statements
+107 statement (ExpressionStmt)
+108 expression (AssignExpr)
+109 operator='ASSIGN'
+110 target (NameExpr)
+111 name (SimpleName)
+112 identifier='search'
+113 value (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='createFor'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='IterativeDeepeningAlphaBetaSearch'
+119 arguments
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='game'
+123 argument (DoubleLiteralExpr)
+124 value='0.0'
+125 argument (DoubleLiteralExpr)
+126 value='1.0'
+127 argument (IntegerLiteralExpr)
+128 value='1000'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='setLogEnabled'
+133 scope (EnclosedExpr)
+134 inner (CastExpr)
+135 expression (NameExpr)
+136 name (SimpleName)
+137 identifier='search'
+138 type (ClassOrInterfaceType)
+139 name (SimpleName)
+140 identifier='IterativeDeepeningAlphaBetaSearch'
+141 typeArguments
+142 typeArgument (WildcardType)
+143 typeArgument (WildcardType)
+144 typeArgument (WildcardType)
+145 arguments
+146 argument (BooleanLiteralExpr)
+147 value='true'
+148 statement (ExpressionStmt)
+149 expression (AssignExpr)
+150 operator='ASSIGN'
+151 target (NameExpr)
+152 name (SimpleName)
+153 identifier='action'
+154 value (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='makeDecision'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='search'
+160 arguments
+161 argument (NameExpr)
+162 name (SimpleName)
+163 identifier='currState'
+164 statement (ExpressionStmt)
+165 expression (AssignExpr)
+166 operator='ASSIGN'
+167 target (NameExpr)
+168 name (SimpleName)
+169 identifier='searchMetrics'
+170 value (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='getMetrics'
+173 scope (NameExpr)
+174 name (SimpleName)
+175 identifier='search'
+176 statement (ExpressionStmt)
+177 expression (AssignExpr)
+178 operator='ASSIGN'
+179 target (NameExpr)
+180 name (SimpleName)
+181 identifier='currState'
+182 value (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='getResult'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='game'
+188 arguments
+189 argument (NameExpr)
+190 name (SimpleName)
+191 identifier='currState'
+192 argument (NameExpr)
+193 name (SimpleName)
+194 identifier='action'
+195 type (VoidType)
+196 name (SimpleName)
+197 identifier='proposeMove'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+28 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+39 56
+35 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+62 64
+64 65
+65 66
+62 67
+67 68
+68 69
+67 70
+70 71
+71 72
+67 73
+73 74
+74 75
+75 76
+60 77
+35 78
+78 79
+79 80
+78 81
+81 82
+82 83
+83 84
+83 85
+85 86
+86 87
+83 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+94 98
+98 99
+94 100
+100 101
+94 102
+102 103
+81 104
+35 105
+105 106
+106 107
+107 108
+108 109
+108 110
+110 111
+111 112
+108 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+119 123
+123 124
+119 125
+125 126
+119 127
+127 128
+106 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+135 136
+136 137
+134 138
+138 139
+139 140
+138 141
+141 142
+141 143
+141 144
+130 145
+145 146
+146 147
+2 148
+148 149
+149 150
+149 151
+151 152
+152 153
+149 154
+154 155
+155 156
+154 157
+157 158
+158 159
+154 160
+160 161
+161 162
+162 163
+2 164
+164 165
+165 166
+165 167
+167 168
+168 169
+165 170
+170 171
+171 172
+170 173
+173 174
+174 175
+2 176
+176 177
+177 178
+177 179
+179 180
+180 181
+177 182
+182 183
+183 184
+182 185
+185 186
+186 187
+182 188
+188 189
+189 190
+190 191
+188 192
+192 193
+193 194
+0 195
+0 196
+196 197
+
+Uses adversarial search for selecting the next action.

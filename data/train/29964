@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='getSeverity'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='problem'
+10 entries
+11 entrie (SwitchEntryStmt)
+12 label (NameExpr)
+13 name (SimpleName)
+14 identifier='ERROR'
+15 statements
+16 statement (ExpressionStmt)
+17 expression (UnaryExpr)
+18 operator='POSTFIX_INCREMENT'
+19 expression (NameExpr)
+20 name (SimpleName)
+21 identifier='problemCount'
+22 statement (ExpressionStmt)
+23 expression (UnaryExpr)
+24 operator='POSTFIX_INCREMENT'
+25 expression (NameExpr)
+26 name (SimpleName)
+27 identifier='errorCount'
+28 statement (BreakStmt)
+29 entrie (SwitchEntryStmt)
+30 label (NameExpr)
+31 name (SimpleName)
+32 identifier='WARNING'
+33 statements
+34 statement (ExpressionStmt)
+35 expression (UnaryExpr)
+36 operator='POSTFIX_INCREMENT'
+37 expression (NameExpr)
+38 name (SimpleName)
+39 identifier='problemCount'
+40 statement (ExpressionStmt)
+41 expression (UnaryExpr)
+42 operator='POSTFIX_INCREMENT'
+43 expression (NameExpr)
+44 name (SimpleName)
+45 identifier='warningCount'
+46 statement (BreakStmt)
+47 entrie (SwitchEntryStmt)
+48 statements
+49 statement (ExpressionStmt)
+50 expression (UnaryExpr)
+51 operator='POSTFIX_INCREMENT'
+52 expression (NameExpr)
+53 name (SimpleName)
+54 identifier='problemCount'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='report'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='delegate'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='problem'
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='sourcePosition'
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='message'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='report'
+75 parameters
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='problem'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='JSweetProblem'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='sourcePosition'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='SourcePosition'
+90 parameter (Parameter)
+91 isVarArgs='false'
+92 name (SimpleName)
+93 identifier='message'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+3 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+17 19
+19 20
+20 21
+15 22
+22 23
+23 24
+23 25
+25 26
+26 27
+15 28
+10 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+35 36
+35 37
+37 38
+38 39
+33 40
+40 41
+41 42
+41 43
+43 44
+44 45
+33 46
+10 47
+47 48
+48 49
+49 50
+50 51
+50 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+62 69
+69 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+75 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+75 90
+90 91
+90 92
+92 93
+90 94
+94 95
+95 96
+
+Count the problems and delegates to the decorated transpilation handler.

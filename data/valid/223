@@ -1,0 +1,214 @@
+106
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setupRenderer'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='repaintManager'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='u2d'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='dbr'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='aoi'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='width'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='height'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='ArrayList'
+34 arguments
+35 argument (IntegerLiteralExpr)
+36 value='1'
+37 name (SimpleName)
+38 identifier='l'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='List'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='add'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='l'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='aoi'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='updateRendering'
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='l'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='cpt'
+64 type (VoidType)
+65 name (SimpleName)
+66 identifier='updateRendering'
+67 parameters
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='u2d'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='AffineTransform'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='dbr'
+79 type (PrimitiveType)
+80 type='BOOLEAN'
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='cpt'
+85 type (PrimitiveType)
+86 type='BOOLEAN'
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='aoi'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='Shape'
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='width'
+98 type (PrimitiveType)
+99 type='INT'
+100 parameter (Parameter)
+101 isVarArgs='false'
+102 name (SimpleName)
+103 identifier='height'
+104 type (PrimitiveType)
+105 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+10 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+29 37
+37 38
+29 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+0 64
+0 65
+65 66
+0 67
+67 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+67 75
+75 76
+75 77
+77 78
+75 79
+79 80
+67 81
+81 82
+81 83
+83 84
+81 85
+85 86
+67 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+67 94
+94 95
+94 96
+96 97
+94 98
+98 99
+67 100
+100 101
+100 102
+102 103
+100 104
+104 105
+
+Updates the rendering buffer.  Only to be called from the update thread.

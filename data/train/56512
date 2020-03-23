@@ -1,0 +1,330 @@
+164
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='address'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='deserializeAddress'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='deserializer'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='keyPair'
+23 scope (ThisExpr)
+24 value (ConditionalExpr)
+25 condition (BinaryExpr)
+26 operator='EQUALS'
+27 left (NullLiteralExpr)
+28 right (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getPublicKey'
+31 scope (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='address'
+34 scope (ThisExpr)
+35 elseExpr (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='KeyPair'
+39 arguments
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getPublicKey'
+43 scope (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='address'
+46 scope (ThisExpr)
+47 thenExpr (NullLiteralExpr)
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='balance'
+54 scope (ThisExpr)
+55 value (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='readFrom'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='Amount'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='deserializer'
+65 argument (StringLiteralExpr)
+66 value='balance'
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='vestedBalance'
+73 scope (ThisExpr)
+74 value (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='readFrom'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='Amount'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='deserializer'
+84 argument (StringLiteralExpr)
+85 value='vestedBalance'
+86 statement (ExpressionStmt)
+87 expression (AssignExpr)
+88 operator='ASSIGN'
+89 target (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='numHarvestedBlocks'
+92 scope (ThisExpr)
+93 value (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='readFrom'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='BlockAmount'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='deserializer'
+103 argument (StringLiteralExpr)
+104 value='harvestedBlocks'
+105 statement (ExpressionStmt)
+106 expression (AssignExpr)
+107 operator='ASSIGN'
+108 target (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='label'
+111 scope (ThisExpr)
+112 value (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='readOptionalString'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='deserializer'
+118 arguments
+119 argument (StringLiteralExpr)
+120 value='label'
+121 statement (ExpressionStmt)
+122 expression (AssignExpr)
+123 operator='ASSIGN'
+124 target (FieldAccessExpr)
+125 name (SimpleName)
+126 identifier='importance'
+127 scope (ThisExpr)
+128 value (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='readDouble'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='deserializer'
+134 arguments
+135 argument (StringLiteralExpr)
+136 value='importance'
+137 statement (ExpressionStmt)
+138 expression (AssignExpr)
+139 operator='ASSIGN'
+140 target (FieldAccessExpr)
+141 name (SimpleName)
+142 identifier='multisigInfo'
+143 scope (ThisExpr)
+144 value (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='readOptionalObject'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='deserializer'
+150 arguments
+151 argument (StringLiteralExpr)
+152 value='multisigInfo'
+153 argument (NullLiteralExpr)
+154 name (SimpleName)
+155 identifier='AccountInfo'
+156 parameters
+157 parameter (Parameter)
+158 isVarArgs='false'
+159 name (SimpleName)
+160 identifier='deserializer'
+161 type (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='Deserializer'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+18 24
+24 25
+25 26
+25 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+24 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+24 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+51 54
+49 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+61 65
+65 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+70 73
+68 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+80 84
+84 85
+2 86
+86 87
+87 88
+87 89
+89 90
+90 91
+89 92
+87 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+101 102
+99 103
+103 104
+2 105
+105 106
+106 107
+106 108
+108 109
+109 110
+108 111
+106 112
+112 113
+113 114
+112 115
+115 116
+116 117
+112 118
+118 119
+119 120
+2 121
+121 122
+122 123
+122 124
+124 125
+125 126
+124 127
+122 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+135 136
+2 137
+137 138
+138 139
+138 140
+140 141
+141 142
+140 143
+138 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+150 153
+0 154
+154 155
+0 156
+156 157
+157 158
+157 159
+159 160
+157 161
+161 162
+162 163
+
+Deserializes an account view model.

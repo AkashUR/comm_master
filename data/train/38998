@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='worldObj'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='world'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='worldObj'
+19 scope (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='camera'
+22 scope (ThisExpr)
+23 value (NameExpr)
+24 name (SimpleName)
+25 identifier='world'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='clearEffects'
+30 scope (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='effectRenderer'
+33 scope (ThisExpr)
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='world'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='setWorldAndLoadRenderers'
+42 scope (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='renderGlobal'
+45 scope (ThisExpr)
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='world'
+50 type (VoidType)
+51 name (SimpleName)
+52 identifier='replaceWorldObject'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='world'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='WorldClient'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+14 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+27 34
+34 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+39 46
+46 47
+47 48
+48 49
+0 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+This is a really complex bit. As we want to reuse the current client world when rendering, if possible, we need to handle when that world changes. We could simply destroy all the views pointing to the existing proxy world, but that would be annoying to mods using the API. Instead, we replace our proxy world with the new client world. This should only be called by LookingGlass, and only from the handling of the client world change detection.

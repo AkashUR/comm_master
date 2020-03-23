@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='cancelEmptyTouchAreaFeedback'
+7 statement (ExpressionStmt)
+8 expression (AssignExpr)
+9 operator='ASSIGN'
+10 target (NameExpr)
+11 name (SimpleName)
+12 identifier='mCachedTouchedNode'
+13 value (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='obtain'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='AccessibilityNodeInfoCompat'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='touchedNode'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='obtainMessage'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='EMPTY_TOUCH_AREA'
+34 name (SimpleName)
+35 identifier='msg'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Message'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='sendMessageDelayed'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='msg'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='EMPTY_TOUCH_AREA_DELAY'
+50 type (VoidType)
+51 name (SimpleName)
+52 identifier='sendEmptyTouchAreaFeedbackDelayed'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='touchedNode'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='AccessibilityNodeInfoCompat'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+26 34
+34 35
+26 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+0 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+Provides feedback indicating an empty or unfocusable area after a delay.

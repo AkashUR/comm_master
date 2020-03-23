@@ -1,0 +1,584 @@
+291
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='bridgeAllBrokers'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='startAllBrokers'
+11 statement (ExpressionStmt)
+12 expression (VariableDeclarationExpr)
+13 variables
+14 variable (VariableDeclarator)
+15 initializer (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='createDestination'
+18 arguments
+19 argument (StringLiteralExpr)
+20 value='TEST.FOO'
+21 argument (BooleanLiteralExpr)
+22 value='true'
+23 name (SimpleName)
+24 identifier='dest'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Destination'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='createConsumer'
+35 arguments
+36 argument (StringLiteralExpr)
+37 value='BrokerA'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='dest'
+41 name (SimpleName)
+42 identifier='clientA'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='MessageConsumer'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='createConsumer'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='BrokerB'
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='dest'
+59 name (SimpleName)
+60 identifier='clientB'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='MessageConsumer'
+64 statement (ExpressionStmt)
+65 expression (VariableDeclarationExpr)
+66 variables
+67 variable (VariableDeclarator)
+68 initializer (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='createConsumer'
+71 arguments
+72 argument (StringLiteralExpr)
+73 value='BrokerC'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='dest'
+77 name (SimpleName)
+78 identifier='clientC'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='MessageConsumer'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='sleep'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='Thread'
+89 arguments
+90 argument (IntegerLiteralExpr)
+91 value='2000'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='sendMessages'
+96 arguments
+97 argument (StringLiteralExpr)
+98 value='BrokerA'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='dest'
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='MESSAGE_COUNT'
+105 statement (ExpressionStmt)
+106 expression (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='sendMessages'
+109 arguments
+110 argument (StringLiteralExpr)
+111 value='BrokerB'
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='dest'
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='MESSAGE_COUNT'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='sendMessages'
+122 arguments
+123 argument (StringLiteralExpr)
+124 value='BrokerC'
+125 argument (NameExpr)
+126 name (SimpleName)
+127 identifier='dest'
+128 argument (NameExpr)
+129 name (SimpleName)
+130 identifier='MESSAGE_COUNT'
+131 statement (ExpressionStmt)
+132 expression (VariableDeclarationExpr)
+133 variables
+134 variable (VariableDeclarator)
+135 initializer (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='getConsumerMessages'
+138 arguments
+139 argument (StringLiteralExpr)
+140 value='BrokerA'
+141 argument (NameExpr)
+142 name (SimpleName)
+143 identifier='clientA'
+144 name (SimpleName)
+145 identifier='msgsA'
+146 type (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='MessageIdList'
+149 statement (ExpressionStmt)
+150 expression (VariableDeclarationExpr)
+151 variables
+152 variable (VariableDeclarator)
+153 initializer (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='getConsumerMessages'
+156 arguments
+157 argument (StringLiteralExpr)
+158 value='BrokerB'
+159 argument (NameExpr)
+160 name (SimpleName)
+161 identifier='clientB'
+162 name (SimpleName)
+163 identifier='msgsB'
+164 type (ClassOrInterfaceType)
+165 name (SimpleName)
+166 identifier='MessageIdList'
+167 statement (ExpressionStmt)
+168 expression (VariableDeclarationExpr)
+169 variables
+170 variable (VariableDeclarator)
+171 initializer (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='getConsumerMessages'
+174 arguments
+175 argument (StringLiteralExpr)
+176 value='BrokerC'
+177 argument (NameExpr)
+178 name (SimpleName)
+179 identifier='clientC'
+180 name (SimpleName)
+181 identifier='msgsC'
+182 type (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='MessageIdList'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='waitForMessagesToArrive'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='msgsA'
+192 arguments
+193 argument (BinaryExpr)
+194 operator='MULTIPLY'
+195 left (NameExpr)
+196 name (SimpleName)
+197 identifier='MESSAGE_COUNT'
+198 right (IntegerLiteralExpr)
+199 value='3'
+200 statement (ExpressionStmt)
+201 expression (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='waitForMessagesToArrive'
+204 scope (NameExpr)
+205 name (SimpleName)
+206 identifier='msgsB'
+207 arguments
+208 argument (BinaryExpr)
+209 operator='MULTIPLY'
+210 left (NameExpr)
+211 name (SimpleName)
+212 identifier='MESSAGE_COUNT'
+213 right (IntegerLiteralExpr)
+214 value='3'
+215 statement (ExpressionStmt)
+216 expression (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='waitForMessagesToArrive'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='msgsC'
+222 arguments
+223 argument (BinaryExpr)
+224 operator='MULTIPLY'
+225 left (NameExpr)
+226 name (SimpleName)
+227 identifier='MESSAGE_COUNT'
+228 right (IntegerLiteralExpr)
+229 value='3'
+230 statement (ExpressionStmt)
+231 expression (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='assertEquals'
+234 arguments
+235 argument (BinaryExpr)
+236 operator='MULTIPLY'
+237 left (NameExpr)
+238 name (SimpleName)
+239 identifier='MESSAGE_COUNT'
+240 right (IntegerLiteralExpr)
+241 value='3'
+242 argument (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='getMessageCount'
+245 scope (NameExpr)
+246 name (SimpleName)
+247 identifier='msgsA'
+248 statement (ExpressionStmt)
+249 expression (MethodCallExpr)
+250 name (SimpleName)
+251 identifier='assertEquals'
+252 arguments
+253 argument (BinaryExpr)
+254 operator='MULTIPLY'
+255 left (NameExpr)
+256 name (SimpleName)
+257 identifier='MESSAGE_COUNT'
+258 right (IntegerLiteralExpr)
+259 value='3'
+260 argument (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='getMessageCount'
+263 scope (NameExpr)
+264 name (SimpleName)
+265 identifier='msgsB'
+266 statement (ExpressionStmt)
+267 expression (MethodCallExpr)
+268 name (SimpleName)
+269 identifier='assertEquals'
+270 arguments
+271 argument (BinaryExpr)
+272 operator='MULTIPLY'
+273 left (NameExpr)
+274 name (SimpleName)
+275 identifier='MESSAGE_COUNT'
+276 right (IntegerLiteralExpr)
+277 value='3'
+278 argument (MethodCallExpr)
+279 name (SimpleName)
+280 identifier='getMessageCount'
+281 scope (NameExpr)
+282 name (SimpleName)
+283 identifier='msgsC'
+284 type (VoidType)
+285 name (SimpleName)
+286 identifier='testAllConnectedUsingMulticast'
+287 thrownExceptions
+288 thrownException (ClassOrInterfaceType)
+289 name (SimpleName)
+290 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+18 21
+21 22
+14 23
+23 24
+14 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+31 41
+41 42
+31 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+49 59
+59 60
+49 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+67 77
+77 78
+67 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+2 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+122 125
+125 126
+126 127
+122 128
+128 129
+129 130
+2 131
+131 132
+132 133
+133 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+138 141
+141 142
+142 143
+134 144
+144 145
+134 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+156 159
+159 160
+160 161
+152 162
+162 163
+152 164
+164 165
+165 166
+2 167
+167 168
+168 169
+169 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+174 177
+177 178
+178 179
+170 180
+180 181
+170 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+186 192
+192 193
+193 194
+193 195
+195 196
+196 197
+193 198
+198 199
+2 200
+200 201
+201 202
+202 203
+201 204
+204 205
+205 206
+201 207
+207 208
+208 209
+208 210
+210 211
+211 212
+208 213
+213 214
+2 215
+215 216
+216 217
+217 218
+216 219
+219 220
+220 221
+216 222
+222 223
+223 224
+223 225
+225 226
+226 227
+223 228
+228 229
+2 230
+230 231
+231 232
+232 233
+231 234
+234 235
+235 236
+235 237
+237 238
+238 239
+235 240
+240 241
+234 242
+242 243
+243 244
+242 245
+245 246
+246 247
+2 248
+248 249
+249 250
+250 251
+249 252
+252 253
+253 254
+253 255
+255 256
+256 257
+253 258
+258 259
+252 260
+260 261
+261 262
+260 263
+263 264
+264 265
+2 266
+266 267
+267 268
+268 269
+267 270
+270 271
+271 272
+271 273
+273 274
+274 275
+271 276
+276 277
+270 278
+278 279
+279 280
+278 281
+281 282
+282 283
+0 284
+0 285
+285 286
+0 287
+287 288
+288 289
+289 290
+
+BrokerA <-> BrokerB <-> BrokerC

@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='mbeanName'
+9 scope (ThisExpr)
+10 value (BinaryExpr)
+11 operator='PLUS'
+12 left (StringLiteralExpr)
+13 value='GemFire:type=DistributionLocator,id='
+14 right (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='makeCompliantMBeanNameProperty'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='MBeanUtil'
+20 arguments
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getId'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='objectName'
+30 scope (ThisExpr)
+31 value (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='createMBean'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='MBeanUtil'
+37 arguments
+38 argument (ThisExpr)
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='lookupManagedBean'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='MBeanUtil'
+45 arguments
+46 argument (ThisExpr)
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='initializeMBean'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+10 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+27 30
+25 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+37 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+0 47
+0 48
+48 49
+
+Create and register the MBean to manage this resource

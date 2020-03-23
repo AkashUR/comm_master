@@ -1,0 +1,224 @@
+111
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (ConditionalExpr)
+7 condition (EnclosedExpr)
+8 inner (BinaryExpr)
+9 operator='OR'
+10 left (EnclosedExpr)
+11 inner (BinaryExpr)
+12 operator='EQUALS'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='message'
+16 right (NullLiteralExpr)
+17 right (EnclosedExpr)
+18 inner (BinaryExpr)
+19 operator='EQUALS'
+20 left (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='length'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='message'
+26 right (IntegerLiteralExpr)
+27 value='0'
+28 elseExpr (NameExpr)
+29 name (SimpleName)
+30 identifier='message'
+31 thenExpr (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='toString'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='e'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='containedException'
+43 scope (ThisExpr)
+44 value (NameExpr)
+45 name (SimpleName)
+46 identifier='e'
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='locator'
+53 scope (ThisExpr)
+54 value (NullLiteralExpr)
+55 name (SimpleName)
+56 identifier='TransformerException'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='message'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='e'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Throwable'
+72 annotations
+73 annotation (SingleMemberAnnotationExpr)
+74 memberValue (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='SAFE_OTHERS'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='DSCat'
+80 name (Name)
+81 identifier='DSSafe'
+82 annotation (NormalAnnotationExpr)
+83 name (Name)
+84 identifier='DSGenerator'
+85 pairs
+86 pair (MemberValuePair)
+87 name (SimpleName)
+88 identifier='tool_name'
+89 value (StringLiteralExpr)
+90 value='Doppelganger'
+91 pair (MemberValuePair)
+92 name (SimpleName)
+93 identifier='tool_version'
+94 value (StringLiteralExpr)
+95 value='2.0'
+96 pair (MemberValuePair)
+97 name (SimpleName)
+98 identifier='generated_on'
+99 value (StringLiteralExpr)
+100 value='2013-12-30 13:01:59.414 -0500'
+101 pair (MemberValuePair)
+102 name (SimpleName)
+103 identifier='hash_original_method'
+104 value (StringLiteralExpr)
+105 value='D45FC511BA6A923B19FFB66FC049AAEB'
+106 pair (MemberValuePair)
+107 name (SimpleName)
+108 identifier='hash_generated_method'
+109 value (StringLiteralExpr)
+110 value='7756E00B3977CA5B64F45C943CD8A29B'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+8 9
+8 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+8 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+23 24
+24 25
+18 26
+26 27
+6 28
+28 29
+29 30
+6 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+40 43
+38 44
+44 45
+45 46
+2 47
+47 48
+48 49
+48 50
+50 51
+51 52
+50 53
+48 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+57 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+0 72
+72 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+73 80
+80 81
+72 82
+82 83
+83 84
+82 85
+85 86
+86 87
+87 88
+86 89
+89 90
+85 91
+91 92
+92 93
+91 94
+94 95
+85 96
+96 97
+97 98
+96 99
+99 100
+85 101
+101 102
+102 103
+101 104
+104 105
+85 106
+106 107
+107 108
+106 109
+109 110
+
+Wrap an existing exception in a TransformerException. <p>This is used for throwing processor exceptions before the processing has started.</p>

@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='sort'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Collections'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='sortedModel'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='fireContentsChanged'
+18 arguments
+19 argument (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='CONTENTS_CHANGED'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='ListDataEvent'
+25 argument (IntegerLiteralExpr)
+26 value='0'
+27 argument (BinaryExpr)
+28 operator='MINUS'
+29 left (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='size'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='sortedModel'
+35 right (IntegerLiteralExpr)
+36 value='1'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='unsortedContentsChanged'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='e'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='ListDataEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+18 25
+25 26
+18 27
+27 28
+27 29
+29 30
+30 31
+29 32
+32 33
+33 34
+27 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+
+Resort the sorted model if there are changes in the original  unsorted model. Let any listeners know about changes. Since I don't track specific changes, sort everywhere and redisplay all items.

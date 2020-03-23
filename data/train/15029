@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='changeSelection'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='clearMin'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='clearMax'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='setMin'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='setMax'
+20 argument (BooleanLiteralExpr)
+21 value='true'
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='changeSelection'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='clearMin'
+30 type (PrimitiveType)
+31 type='INT'
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='clearMax'
+36 type (PrimitiveType)
+37 type='INT'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='setMin'
+42 type (PrimitiveType)
+43 type='INT'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='setMax'
+48 type (PrimitiveType)
+49 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+25 32
+32 33
+32 34
+34 35
+32 36
+36 37
+25 38
+38 39
+38 40
+40 41
+38 42
+42 43
+25 44
+44 45
+44 46
+46 47
+44 48
+48 49
+
+Change the selection with the effect of first clearing the values in the inclusive range [clearMin, clearMax] then setting the values in the inclusive range [setMin, setMax]. Do this in one pass so that no values are cleared if they would later be set.

@@ -1,0 +1,10 @@
+4
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 name (SimpleName)
+3 identifier='CaseMapper'
+0 1
+0 2
+2 3
+
+Our current GC makes short-lived objects more expensive than we'd like. When that's fixed, this class should be changed so that you instantiate it with the String and its value, offset, and count fields.

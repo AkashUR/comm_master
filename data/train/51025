@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='emitDirect'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='taskId'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='tuple'
+14 argument (NullLiteralExpr)
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='emitDirect'
+18 parameters
+19 parameter (Parameter)
+20 isVarArgs='false'
+21 name (SimpleName)
+22 identifier='taskId'
+23 type (PrimitiveType)
+24 type='INT'
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='tuple'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='List'
+32 typeArguments
+33 typeArgument (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+19 21
+21 22
+19 23
+23 24
+18 25
+25 26
+25 27
+27 28
+25 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+
+Emits a tuple to the specified task on the default output stream. This output stream must have been declared as a direct stream, and the specified task must use a direct grouping on this stream to receive the message. The emitted values must be immutable. <p> <p> Because no message id is specified, Heron will not track this message so ack and fail will never be called for this tuple.</p>

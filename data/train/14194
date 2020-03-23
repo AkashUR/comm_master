@@ -1,0 +1,328 @@
+163
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='conState'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='DISCONNECTED'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='client'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='client'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='persistence'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='persistence'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='pingSender'
+39 scope (ThisExpr)
+40 value (NameExpr)
+41 name (SimpleName)
+42 identifier='pingSender'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='init'
+47 scope (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='pingSender'
+50 scope (ThisExpr)
+51 arguments
+52 argument (ThisExpr)
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='tokenStore'
+59 scope (ThisExpr)
+60 value (ObjectCreationExpr)
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='CommsTokenStore'
+64 arguments
+65 argument (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getClientId'
+68 scope (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='getClient'
+71 statement (ExpressionStmt)
+72 expression (AssignExpr)
+73 operator='ASSIGN'
+74 target (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='callback'
+77 scope (ThisExpr)
+78 value (ObjectCreationExpr)
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='CommsCallback'
+82 arguments
+83 argument (ThisExpr)
+84 statement (ExpressionStmt)
+85 expression (AssignExpr)
+86 operator='ASSIGN'
+87 target (FieldAccessExpr)
+88 name (SimpleName)
+89 identifier='clientState'
+90 scope (ThisExpr)
+91 value (ObjectCreationExpr)
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='ClientState'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='persistence'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='tokenStore'
+102 argument (FieldAccessExpr)
+103 name (SimpleName)
+104 identifier='callback'
+105 scope (ThisExpr)
+106 argument (ThisExpr)
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='pingSender'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='setClientState'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='callback'
+117 arguments
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='clientState'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='setResourceName'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='log'
+128 arguments
+129 argument (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='getClientId'
+132 scope (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getClient'
+135 name (SimpleName)
+136 identifier='ClientComms'
+137 parameters
+138 parameter (Parameter)
+139 isVarArgs='false'
+140 name (SimpleName)
+141 identifier='client'
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='IMqttAsyncClient'
+145 parameter (Parameter)
+146 isVarArgs='false'
+147 name (SimpleName)
+148 identifier='persistence'
+149 type (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='MqttClientPersistence'
+152 parameter (Parameter)
+153 isVarArgs='false'
+154 name (SimpleName)
+155 identifier='pingSender'
+156 type (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='MqttPingSender'
+159 thrownExceptions
+160 thrownException (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='MqttException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+44 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+56 59
+54 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+2 71
+71 72
+72 73
+72 74
+74 75
+75 76
+74 77
+72 78
+78 79
+79 80
+80 81
+78 82
+82 83
+2 84
+84 85
+85 86
+85 87
+87 88
+88 89
+87 90
+85 91
+91 92
+92 93
+93 94
+91 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+95 102
+102 103
+103 104
+102 105
+95 106
+95 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+122 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+0 135
+135 136
+0 137
+137 138
+138 139
+138 140
+140 141
+138 142
+142 143
+143 144
+137 145
+145 146
+145 147
+147 148
+145 149
+149 150
+150 151
+137 152
+152 153
+152 154
+154 155
+152 156
+156 157
+157 158
+0 159
+159 160
+160 161
+161 162
+
+Creates a new ClientComms object, using the specified module to handle the network calls.

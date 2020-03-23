@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='print'
+7 arguments
+8 argument (ObjectCreationExpr)
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='PrintWriter'
+12 arguments
+13 argument (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='out'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='System'
+19 argument (BooleanLiteralExpr)
+20 value='true'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='format'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='width'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='print'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='format'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='NumberFormat'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='width'
+42 type (PrimitiveType)
+43 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+12 19
+19 20
+7 21
+21 22
+22 23
+7 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+30 38
+38 39
+38 40
+40 41
+38 42
+42 43
+
+Print the matrix to stdout. Line the elements up in columns. Use the format object, and right justify within columns of width characters. Note that is the matrix is to be read back in, you probably will want to use a NumberFormat that is set to US Locale.

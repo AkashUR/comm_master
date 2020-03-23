@@ -1,0 +1,1182 @@
+590
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='SolrQueryResponse'
+11 name (SimpleName)
+12 identifier='rsp'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='SolrQueryResponse'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='add'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='rsp'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='CONTENT'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='RawResponseWriter'
+30 argument (StringLiteralExpr)
+31 value='test'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='add'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='rsp'
+39 arguments
+40 argument (StringLiteralExpr)
+41 value='foo'
+42 argument (StringLiteralExpr)
+43 value='bar'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='assertEquals'
+48 arguments
+49 argument (StringLiteralExpr)
+50 value='application/xml; charset=UTF-8'
+51 argument (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getContentType'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='writerNoBase'
+57 arguments
+58 argument (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='req'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='rsp'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='assertEquals'
+68 arguments
+69 argument (StringLiteralExpr)
+70 value='application/xml; charset=UTF-8'
+71 argument (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getContentType'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='writerXmlBase'
+77 arguments
+78 argument (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='req'
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='rsp'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='assertEquals'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='application/json; charset=UTF-8'
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='getContentType'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='writerJsonBase'
+97 arguments
+98 argument (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='req'
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='rsp'
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='assertEquals'
+108 arguments
+109 argument (StringLiteralExpr)
+110 value='application/octet-stream'
+111 argument (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='getContentType'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='writerBinBase'
+117 arguments
+118 argument (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='req'
+121 argument (NameExpr)
+122 name (SimpleName)
+123 identifier='rsp'
+124 statement (ExpressionStmt)
+125 expression (VariableDeclarationExpr)
+126 variables
+127 variable (VariableDeclarator)
+128 initializer (StringLiteralExpr)
+129 value='<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<response>\n<str name=\"content\">test</str><str name=\"foo\">bar</str>\n</response>\n'
+130 name (SimpleName)
+131 identifier='xml'
+132 type (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='String'
+135 statement (ExpressionStmt)
+136 expression (VariableDeclarationExpr)
+137 variables
+138 variable (VariableDeclarator)
+139 initializer (ObjectCreationExpr)
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='StringWriter'
+143 name (SimpleName)
+144 identifier='xmlSout'
+145 type (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='StringWriter'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='write'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='writerXmlBase'
+155 arguments
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='xmlSout'
+159 argument (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='req'
+162 argument (NameExpr)
+163 name (SimpleName)
+164 identifier='rsp'
+165 statement (ExpressionStmt)
+166 expression (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='assertEquals'
+169 arguments
+170 argument (NameExpr)
+171 name (SimpleName)
+172 identifier='xml'
+173 argument (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='toString'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='xmlSout'
+179 statement (ExpressionStmt)
+180 expression (VariableDeclarationExpr)
+181 variables
+182 variable (VariableDeclarator)
+183 initializer (ObjectCreationExpr)
+184 type (ClassOrInterfaceType)
+185 name (SimpleName)
+186 identifier='ByteArrayOutputStream'
+187 name (SimpleName)
+188 identifier='xmlBout'
+189 type (ClassOrInterfaceType)
+190 name (SimpleName)
+191 identifier='ByteArrayOutputStream'
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='write'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='writerXmlBase'
+199 arguments
+200 argument (NameExpr)
+201 name (SimpleName)
+202 identifier='xmlBout'
+203 argument (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='req'
+206 argument (NameExpr)
+207 name (SimpleName)
+208 identifier='rsp'
+209 statement (ExpressionStmt)
+210 expression (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='assertEquals'
+213 arguments
+214 argument (NameExpr)
+215 name (SimpleName)
+216 identifier='xml'
+217 argument (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='toString'
+220 scope (NameExpr)
+221 name (SimpleName)
+222 identifier='xmlBout'
+223 arguments
+224 argument (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='toString'
+227 scope (FieldAccessExpr)
+228 name (SimpleName)
+229 identifier='UTF_8'
+230 scope (NameExpr)
+231 name (SimpleName)
+232 identifier='StandardCharsets'
+233 statement (ExpressionStmt)
+234 expression (VariableDeclarationExpr)
+235 variables
+236 variable (VariableDeclarator)
+237 initializer (ObjectCreationExpr)
+238 type (ClassOrInterfaceType)
+239 name (SimpleName)
+240 identifier='StringWriter'
+241 name (SimpleName)
+242 identifier='noneSout'
+243 type (ClassOrInterfaceType)
+244 name (SimpleName)
+245 identifier='StringWriter'
+246 statement (ExpressionStmt)
+247 expression (MethodCallExpr)
+248 name (SimpleName)
+249 identifier='write'
+250 scope (NameExpr)
+251 name (SimpleName)
+252 identifier='writerNoBase'
+253 arguments
+254 argument (NameExpr)
+255 name (SimpleName)
+256 identifier='noneSout'
+257 argument (MethodCallExpr)
+258 name (SimpleName)
+259 identifier='req'
+260 argument (NameExpr)
+261 name (SimpleName)
+262 identifier='rsp'
+263 statement (ExpressionStmt)
+264 expression (MethodCallExpr)
+265 name (SimpleName)
+266 identifier='assertEquals'
+267 arguments
+268 argument (NameExpr)
+269 name (SimpleName)
+270 identifier='xml'
+271 argument (MethodCallExpr)
+272 name (SimpleName)
+273 identifier='toString'
+274 scope (NameExpr)
+275 name (SimpleName)
+276 identifier='noneSout'
+277 statement (ExpressionStmt)
+278 expression (VariableDeclarationExpr)
+279 variables
+280 variable (VariableDeclarator)
+281 initializer (ObjectCreationExpr)
+282 type (ClassOrInterfaceType)
+283 name (SimpleName)
+284 identifier='ByteArrayOutputStream'
+285 name (SimpleName)
+286 identifier='noneBout'
+287 type (ClassOrInterfaceType)
+288 name (SimpleName)
+289 identifier='ByteArrayOutputStream'
+290 statement (ExpressionStmt)
+291 expression (MethodCallExpr)
+292 name (SimpleName)
+293 identifier='write'
+294 scope (NameExpr)
+295 name (SimpleName)
+296 identifier='writerNoBase'
+297 arguments
+298 argument (NameExpr)
+299 name (SimpleName)
+300 identifier='noneBout'
+301 argument (MethodCallExpr)
+302 name (SimpleName)
+303 identifier='req'
+304 argument (NameExpr)
+305 name (SimpleName)
+306 identifier='rsp'
+307 statement (ExpressionStmt)
+308 expression (MethodCallExpr)
+309 name (SimpleName)
+310 identifier='assertEquals'
+311 arguments
+312 argument (NameExpr)
+313 name (SimpleName)
+314 identifier='xml'
+315 argument (MethodCallExpr)
+316 name (SimpleName)
+317 identifier='toString'
+318 scope (NameExpr)
+319 name (SimpleName)
+320 identifier='noneBout'
+321 arguments
+322 argument (MethodCallExpr)
+323 name (SimpleName)
+324 identifier='toString'
+325 scope (FieldAccessExpr)
+326 name (SimpleName)
+327 identifier='UTF_8'
+328 scope (NameExpr)
+329 name (SimpleName)
+330 identifier='StandardCharsets'
+331 statement (ExpressionStmt)
+332 expression (VariableDeclarationExpr)
+333 variables
+334 variable (VariableDeclarator)
+335 initializer (StringLiteralExpr)
+336 value='{\"content\":\"test\",\"foo\":\"bar\"}\n'
+337 name (SimpleName)
+338 identifier='json'
+339 type (ClassOrInterfaceType)
+340 name (SimpleName)
+341 identifier='String'
+342 statement (ExpressionStmt)
+343 expression (VariableDeclarationExpr)
+344 variables
+345 variable (VariableDeclarator)
+346 initializer (ObjectCreationExpr)
+347 type (ClassOrInterfaceType)
+348 name (SimpleName)
+349 identifier='StringWriter'
+350 name (SimpleName)
+351 identifier='jsonSout'
+352 type (ClassOrInterfaceType)
+353 name (SimpleName)
+354 identifier='StringWriter'
+355 statement (ExpressionStmt)
+356 expression (MethodCallExpr)
+357 name (SimpleName)
+358 identifier='write'
+359 scope (NameExpr)
+360 name (SimpleName)
+361 identifier='writerJsonBase'
+362 arguments
+363 argument (NameExpr)
+364 name (SimpleName)
+365 identifier='jsonSout'
+366 argument (MethodCallExpr)
+367 name (SimpleName)
+368 identifier='req'
+369 argument (NameExpr)
+370 name (SimpleName)
+371 identifier='rsp'
+372 statement (ExpressionStmt)
+373 expression (MethodCallExpr)
+374 name (SimpleName)
+375 identifier='assertEquals'
+376 arguments
+377 argument (NameExpr)
+378 name (SimpleName)
+379 identifier='json'
+380 argument (MethodCallExpr)
+381 name (SimpleName)
+382 identifier='toString'
+383 scope (NameExpr)
+384 name (SimpleName)
+385 identifier='jsonSout'
+386 statement (ExpressionStmt)
+387 expression (VariableDeclarationExpr)
+388 variables
+389 variable (VariableDeclarator)
+390 initializer (ObjectCreationExpr)
+391 type (ClassOrInterfaceType)
+392 name (SimpleName)
+393 identifier='ByteArrayOutputStream'
+394 name (SimpleName)
+395 identifier='jsonBout'
+396 type (ClassOrInterfaceType)
+397 name (SimpleName)
+398 identifier='ByteArrayOutputStream'
+399 statement (ExpressionStmt)
+400 expression (MethodCallExpr)
+401 name (SimpleName)
+402 identifier='write'
+403 scope (NameExpr)
+404 name (SimpleName)
+405 identifier='writerJsonBase'
+406 arguments
+407 argument (NameExpr)
+408 name (SimpleName)
+409 identifier='jsonBout'
+410 argument (MethodCallExpr)
+411 name (SimpleName)
+412 identifier='req'
+413 argument (NameExpr)
+414 name (SimpleName)
+415 identifier='rsp'
+416 statement (ExpressionStmt)
+417 expression (MethodCallExpr)
+418 name (SimpleName)
+419 identifier='assertEquals'
+420 arguments
+421 argument (NameExpr)
+422 name (SimpleName)
+423 identifier='json'
+424 argument (MethodCallExpr)
+425 name (SimpleName)
+426 identifier='toString'
+427 scope (NameExpr)
+428 name (SimpleName)
+429 identifier='jsonBout'
+430 arguments
+431 argument (MethodCallExpr)
+432 name (SimpleName)
+433 identifier='toString'
+434 scope (FieldAccessExpr)
+435 name (SimpleName)
+436 identifier='UTF_8'
+437 scope (NameExpr)
+438 name (SimpleName)
+439 identifier='StandardCharsets'
+440 statement (ExpressionStmt)
+441 expression (VariableDeclarationExpr)
+442 variables
+443 variable (VariableDeclarator)
+444 initializer (ObjectCreationExpr)
+445 type (ClassOrInterfaceType)
+446 name (SimpleName)
+447 identifier='ByteArrayOutputStream'
+448 name (SimpleName)
+449 identifier='bytes'
+450 type (ClassOrInterfaceType)
+451 name (SimpleName)
+452 identifier='ByteArrayOutputStream'
+453 statement (ExpressionStmt)
+454 expression (MethodCallExpr)
+455 name (SimpleName)
+456 identifier='write'
+457 scope (NameExpr)
+458 name (SimpleName)
+459 identifier='writerBinBase'
+460 arguments
+461 argument (NameExpr)
+462 name (SimpleName)
+463 identifier='bytes'
+464 argument (MethodCallExpr)
+465 name (SimpleName)
+466 identifier='req'
+467 argument (NameExpr)
+468 name (SimpleName)
+469 identifier='rsp'
+470 statement (ExpressionStmt)
+471 expression (VariableDeclarationExpr)
+472 variables
+473 variable (VariableDeclarator)
+474 initializer (ObjectCreationExpr)
+475 type (ClassOrInterfaceType)
+476 name (SimpleName)
+477 identifier='BinaryResponseParser'
+478 name (SimpleName)
+479 identifier='parser'
+480 type (ClassOrInterfaceType)
+481 name (SimpleName)
+482 identifier='BinaryResponseParser'
+483 statement (ExpressionStmt)
+484 expression (VariableDeclarationExpr)
+485 variables
+486 variable (VariableDeclarator)
+487 initializer (MethodCallExpr)
+488 name (SimpleName)
+489 identifier='processResponse'
+490 scope (NameExpr)
+491 name (SimpleName)
+492 identifier='parser'
+493 arguments
+494 argument (ObjectCreationExpr)
+495 type (ClassOrInterfaceType)
+496 name (SimpleName)
+497 identifier='ByteArrayInputStream'
+498 arguments
+499 argument (MethodCallExpr)
+500 name (SimpleName)
+501 identifier='toByteArray'
+502 scope (NameExpr)
+503 name (SimpleName)
+504 identifier='bytes'
+505 argument (NullLiteralExpr)
+506 name (SimpleName)
+507 identifier='out'
+508 type (ClassOrInterfaceType)
+509 name (SimpleName)
+510 identifier='NamedList'
+511 typeArguments
+512 typeArgument (ClassOrInterfaceType)
+513 name (SimpleName)
+514 identifier='Object'
+515 statement (ExpressionStmt)
+516 expression (MethodCallExpr)
+517 name (SimpleName)
+518 identifier='assertEquals'
+519 arguments
+520 argument (FieldAccessExpr)
+521 name (SimpleName)
+522 identifier='CONTENT'
+523 scope (NameExpr)
+524 name (SimpleName)
+525 identifier='RawResponseWriter'
+526 argument (MethodCallExpr)
+527 name (SimpleName)
+528 identifier='getName'
+529 scope (NameExpr)
+530 name (SimpleName)
+531 identifier='out'
+532 arguments
+533 argument (IntegerLiteralExpr)
+534 value='0'
+535 statement (ExpressionStmt)
+536 expression (MethodCallExpr)
+537 name (SimpleName)
+538 identifier='assertEquals'
+539 arguments
+540 argument (StringLiteralExpr)
+541 value='test'
+542 argument (MethodCallExpr)
+543 name (SimpleName)
+544 identifier='getVal'
+545 scope (NameExpr)
+546 name (SimpleName)
+547 identifier='out'
+548 arguments
+549 argument (IntegerLiteralExpr)
+550 value='0'
+551 statement (ExpressionStmt)
+552 expression (MethodCallExpr)
+553 name (SimpleName)
+554 identifier='assertEquals'
+555 arguments
+556 argument (StringLiteralExpr)
+557 value='foo'
+558 argument (MethodCallExpr)
+559 name (SimpleName)
+560 identifier='getName'
+561 scope (NameExpr)
+562 name (SimpleName)
+563 identifier='out'
+564 arguments
+565 argument (IntegerLiteralExpr)
+566 value='1'
+567 statement (ExpressionStmt)
+568 expression (MethodCallExpr)
+569 name (SimpleName)
+570 identifier='assertEquals'
+571 arguments
+572 argument (StringLiteralExpr)
+573 value='bar'
+574 argument (MethodCallExpr)
+575 name (SimpleName)
+576 identifier='getVal'
+577 scope (NameExpr)
+578 name (SimpleName)
+579 identifier='out'
+580 arguments
+581 argument (IntegerLiteralExpr)
+582 value='1'
+583 type (VoidType)
+584 name (SimpleName)
+585 identifier='testStructuredDataViaBaseWriters'
+586 thrownExceptions
+587 thrownException (ClassOrInterfaceType)
+588 name (SimpleName)
+589 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+39 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+71 77
+77 78
+78 79
+79 80
+77 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+97 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+108 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+119 120
+117 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+127 128
+128 129
+127 130
+130 131
+127 132
+132 133
+133 134
+2 135
+135 136
+136 137
+137 138
+138 139
+139 140
+140 141
+141 142
+138 143
+143 144
+138 145
+145 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+157 158
+155 159
+159 160
+160 161
+155 162
+162 163
+163 164
+2 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+171 172
+169 173
+173 174
+174 175
+173 176
+176 177
+177 178
+2 179
+179 180
+180 181
+181 182
+182 183
+183 184
+184 185
+185 186
+182 187
+187 188
+182 189
+189 190
+190 191
+2 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+193 199
+199 200
+200 201
+201 202
+199 203
+203 204
+204 205
+199 206
+206 207
+207 208
+2 209
+209 210
+210 211
+211 212
+210 213
+213 214
+214 215
+215 216
+213 217
+217 218
+218 219
+217 220
+220 221
+221 222
+217 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+227 230
+230 231
+231 232
+2 233
+233 234
+234 235
+235 236
+236 237
+237 238
+238 239
+239 240
+236 241
+241 242
+236 243
+243 244
+244 245
+2 246
+246 247
+247 248
+248 249
+247 250
+250 251
+251 252
+247 253
+253 254
+254 255
+255 256
+253 257
+257 258
+258 259
+253 260
+260 261
+261 262
+2 263
+263 264
+264 265
+265 266
+264 267
+267 268
+268 269
+269 270
+267 271
+271 272
+272 273
+271 274
+274 275
+275 276
+2 277
+277 278
+278 279
+279 280
+280 281
+281 282
+282 283
+283 284
+280 285
+285 286
+280 287
+287 288
+288 289
+2 290
+290 291
+291 292
+292 293
+291 294
+294 295
+295 296
+291 297
+297 298
+298 299
+299 300
+297 301
+301 302
+302 303
+297 304
+304 305
+305 306
+2 307
+307 308
+308 309
+309 310
+308 311
+311 312
+312 313
+313 314
+311 315
+315 316
+316 317
+315 318
+318 319
+319 320
+315 321
+321 322
+322 323
+323 324
+322 325
+325 326
+326 327
+325 328
+328 329
+329 330
+2 331
+331 332
+332 333
+333 334
+334 335
+335 336
+334 337
+337 338
+334 339
+339 340
+340 341
+2 342
+342 343
+343 344
+344 345
+345 346
+346 347
+347 348
+348 349
+345 350
+350 351
+345 352
+352 353
+353 354
+2 355
+355 356
+356 357
+357 358
+356 359
+359 360
+360 361
+356 362
+362 363
+363 364
+364 365
+362 366
+366 367
+367 368
+362 369
+369 370
+370 371
+2 372
+372 373
+373 374
+374 375
+373 376
+376 377
+377 378
+378 379
+376 380
+380 381
+381 382
+380 383
+383 384
+384 385
+2 386
+386 387
+387 388
+388 389
+389 390
+390 391
+391 392
+392 393
+389 394
+394 395
+389 396
+396 397
+397 398
+2 399
+399 400
+400 401
+401 402
+400 403
+403 404
+404 405
+400 406
+406 407
+407 408
+408 409
+406 410
+410 411
+411 412
+406 413
+413 414
+414 415
+2 416
+416 417
+417 418
+418 419
+417 420
+420 421
+421 422
+422 423
+420 424
+424 425
+425 426
+424 427
+427 428
+428 429
+424 430
+430 431
+431 432
+432 433
+431 434
+434 435
+435 436
+434 437
+437 438
+438 439
+2 440
+440 441
+441 442
+442 443
+443 444
+444 445
+445 446
+446 447
+443 448
+448 449
+443 450
+450 451
+451 452
+2 453
+453 454
+454 455
+455 456
+454 457
+457 458
+458 459
+454 460
+460 461
+461 462
+462 463
+460 464
+464 465
+465 466
+460 467
+467 468
+468 469
+2 470
+470 471
+471 472
+472 473
+473 474
+474 475
+475 476
+476 477
+473 478
+478 479
+473 480
+480 481
+481 482
+2 483
+483 484
+484 485
+485 486
+486 487
+487 488
+488 489
+487 490
+490 491
+491 492
+487 493
+493 494
+494 495
+495 496
+496 497
+494 498
+498 499
+499 500
+500 501
+499 502
+502 503
+503 504
+493 505
+486 506
+506 507
+486 508
+508 509
+509 510
+508 511
+511 512
+512 513
+513 514
+2 515
+515 516
+516 517
+517 518
+516 519
+519 520
+520 521
+521 522
+520 523
+523 524
+524 525
+519 526
+526 527
+527 528
+526 529
+529 530
+530 531
+526 532
+532 533
+533 534
+2 535
+535 536
+536 537
+537 538
+536 539
+539 540
+540 541
+539 542
+542 543
+543 544
+542 545
+545 546
+546 547
+542 548
+548 549
+549 550
+2 551
+551 552
+552 553
+553 554
+552 555
+555 556
+556 557
+555 558
+558 559
+559 560
+558 561
+561 562
+562 563
+558 564
+564 565
+565 566
+2 567
+567 568
+568 569
+569 570
+568 571
+571 572
+572 573
+571 574
+574 575
+575 576
+574 577
+577 578
+578 579
+574 580
+580 581
+581 582
+0 583
+0 584
+584 585
+0 586
+586 587
+587 588
+588 589
+
+When no real ContentStream is specified, each base writer should be used for formatting

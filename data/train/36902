@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getProteinsByIdRange'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='rawMatchDAO'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getBottomProtein'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='stepInstance'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getTopProtein'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='stepInstance'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='signatureLibraryRelease'
+29 name (SimpleName)
+30 identifier='rawMatches'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Set'
+34 typeArguments
+35 typeArgument (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='RawProtein'
+38 typeArguments
+39 typeArgument (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='TigrFamHmmer2RawMatch'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='persist'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='filteredMatchDAO'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='rawMatches'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='execute'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='stepInstance'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='StepInstance'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='temporaryFileDirectory'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='String'
+71 annotations
+72 annotation (MarkerAnnotationExpr)
+73 name (Name)
+74 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+20 23
+23 24
+24 25
+13 26
+26 27
+27 28
+6 29
+29 30
+6 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+56 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+0 71
+71 72
+72 73
+73 74
+
+This method is called to execute the action that the StepInstance must perform. <p/> If an error occurs that cannot be immediately recovered from, the implementation of this method MUST throw a suitable Exception, as the call to execute is performed within a transaction with the reply to the JMSBroker. <p/> Implementations of this method MAY call delayForNfs() before starting, if, for example, they are operating of file system resources.

@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addActivityListener'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='before'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='ScheduleAfterActivity'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='after'
+19 argument (BooleanLiteralExpr)
+20 value='true'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='_scheduleAfter'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='before'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Activity'
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='after'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Activity'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+15 19
+19 20
+0 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+30 31
+24 32
+32 33
+32 34
+34 35
+32 36
+36 37
+37 38
+
+Schedules an Activity to start immediately after another Activity. The second Activity will be scheduled to start immediately after the first one finishes, overwriting any previously set startTime. If the first Activity is cancelled, the second one will not run. This functionality is provided by using an ActivityListener to monitor the first Activity. The listener is removed upon completion or cancellation of the first Activity. This method does not effect the scheduling of the first Activity.

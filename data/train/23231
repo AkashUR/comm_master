@@ -1,0 +1,328 @@
+163
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getConsensus'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='executionManager'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getNumber'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='msg'
+20 name (SimpleName)
+21 identifier='consensus'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Consensus'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='lock'
+29 scope (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='lock'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='consensus'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getEpoch'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='consensus'
+45 arguments
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getEpoch'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='msg'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='controller'
+55 name (SimpleName)
+56 identifier='epoch'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Epoch'
+60 statement (SwitchStmt)
+61 selector (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getType'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='msg'
+67 entries
+68 entrie (SwitchEntryStmt)
+69 label (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='PROPOSE'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='MessageFactory'
+75 statements
+76 statement (BlockStmt)
+77 statements
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='proposeReceived'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='epoch'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='msg'
+89 statement (BreakStmt)
+90 entrie (SwitchEntryStmt)
+91 label (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='WRITE'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='MessageFactory'
+97 statements
+98 statement (BlockStmt)
+99 statements
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='writeReceived'
+104 arguments
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='epoch'
+108 argument (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='getSender'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='msg'
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='getValue'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='msg'
+120 statement (BreakStmt)
+121 entrie (SwitchEntryStmt)
+122 label (FieldAccessExpr)
+123 name (SimpleName)
+124 identifier='ACCEPT'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='MessageFactory'
+128 statements
+129 statement (BlockStmt)
+130 statements
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='acceptReceived'
+135 arguments
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='epoch'
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='msg'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='unlock'
+146 scope (FieldAccessExpr)
+147 name (SimpleName)
+148 identifier='lock'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='consensus'
+152 type (VoidType)
+153 name (SimpleName)
+154 identifier='processMessage'
+155 parameters
+156 parameter (Parameter)
+157 isVarArgs='false'
+158 name (SimpleName)
+159 identifier='msg'
+160 type (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='ConsensusMessage'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+45 52
+52 53
+53 54
+38 55
+55 56
+38 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+60 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+68 75
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+82 86
+86 87
+87 88
+75 89
+67 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+90 97
+97 98
+98 99
+99 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+106 107
+104 108
+108 109
+109 110
+108 111
+111 112
+112 113
+104 114
+114 115
+115 116
+114 117
+117 118
+118 119
+97 120
+67 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+121 128
+128 129
+129 130
+130 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+137 138
+135 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+146 149
+149 150
+150 151
+0 152
+0 153
+153 154
+0 155
+155 156
+156 157
+156 158
+158 159
+156 160
+160 161
+161 162
+
+Called when a Consensus message is received or when a out of context message must be processed. It processes the received message according to its type

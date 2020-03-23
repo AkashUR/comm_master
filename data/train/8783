@@ -1,0 +1,132 @@
+65
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (AssertStmt)
+4 check (BinaryExpr)
+5 operator='GREATER'
+6 left (MethodCallExpr)
+7 name (SimpleName)
+8 identifier='getComponentCount'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='qualifier'
+12 right (IntegerLiteralExpr)
+13 value='0'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (NameExpr)
+18 name (SimpleName)
+19 identifier='myQualifier'
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='qualifier'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='myResult'
+29 value (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='ArrayList'
+33 typeArguments
+34 typeArgument (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='PyExpression'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='mySeenNames'
+43 value (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='HashSet'
+47 typeArguments
+48 typeArgument (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 name (SimpleName)
+52 identifier='AssignmentCollectProcessor'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='qualifier'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='QualifiedName'
+61 annotations
+62 annotation (MarkerAnnotationExpr)
+63 name (Name)
+64 identifier='NotNull'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+54 61
+61 62
+62 63
+63 64
+
+Creates an instance to collect assignments of attributes to the object identified by 'qualifier'. E.g. if qualifier = {"foo", "bar"} then assignments like "foo.bar.baz = ..." will be considered.

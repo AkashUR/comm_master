@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='hideSoftInputFromWindow'
+7 scope (EnclosedExpr)
+8 inner (CastExpr)
+9 expression (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getSystemService'
+12 scope (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getContext'
+15 arguments
+16 argument (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='INPUT_METHOD_SERVICE'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='Context'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='InputMethodManager'
+25 arguments
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getWindowToken'
+29 argument (IntegerLiteralExpr)
+30 value='0'
+31 type (VoidType)
+32 name (SimpleName)
+33 identifier='closeSoftKeyboard'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+8 22
+22 23
+23 24
+4 25
+25 26
+26 27
+27 28
+25 29
+29 30
+0 31
+0 32
+32 33
+
+Attempt to close the soft keyboard. Will have no effect if the keyboard is not open.

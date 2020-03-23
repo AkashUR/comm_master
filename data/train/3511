@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='lastSenderReport'
+9 value (BinaryExpr)
+10 operator='UNSIGNED_RIGHT_SHIFT'
+11 left (EnclosedExpr)
+12 inner (BinaryExpr)
+13 operator='BINARY_AND'
+14 left (EnclosedExpr)
+15 inner (BinaryExpr)
+16 operator='BINARY_OR'
+17 left (EnclosedExpr)
+18 inner (BinaryExpr)
+19 operator='LEFT_SHIFT'
+20 left (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='ntptimestampmsw'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='srp'
+26 right (IntegerLiteralExpr)
+27 value='32'
+28 right (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='ntptimestamplsw'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='srp'
+34 right (LongLiteralExpr)
+35 value='0x0000ffffffff0000L'
+36 right (IntegerLiteralExpr)
+37 value='16'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='receivedSenderReport'
+41 parameters
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='srp'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='RtcpSenderReportPacket'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+12 14
+14 15
+15 16
+15 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+23 24
+24 25
+18 26
+26 27
+15 28
+28 29
+29 30
+28 31
+31 32
+32 33
+12 34
+34 35
+9 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+
+Updates the statistics related to Sender Reports. Should be invoked when a RTCP Sender Report is received.

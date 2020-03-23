@@ -1,0 +1,120 @@
+59
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='dispatcher'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='dispatcher'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='delegator'
+19 scope (ThisExpr)
+20 value (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getDelegator'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='dispatcher'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='logInfo'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Debug'
+33 arguments
+34 argument (BinaryExpr)
+35 operator='PLUS'
+36 left (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getName'
+39 scope (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getClass'
+42 scope (ThisExpr)
+43 right (StringLiteralExpr)
+44 value=' Authenticator initialized'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='module'
+48 type (VoidType)
+49 name (SimpleName)
+50 identifier='initialize'
+51 parameters
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='dispatcher'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='LocalDispatcher'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+34 43
+43 44
+33 45
+45 46
+46 47
+0 48
+0 49
+49 50
+0 51
+51 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+
+Method called when authenticator is first initialized (the delegator object can be obtained from the LocalDispatcher)

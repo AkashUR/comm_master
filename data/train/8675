@@ -1,0 +1,40 @@
+19
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='dispose'
+16 type (VoidType)
+17 name (SimpleName)
+18 identifier='dispose'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+0 16
+0 17
+17 18
+
+Disposes of this graphics context and releases any system resources that it is using. A <code>Graphics</code> object cannot be used after <code>dispose</code>has been called. <p> When a Java program runs, a large number of <code>Graphics</code> objects can be created within a short time frame. Although the finalization process of the garbage collector also disposes of the same system resources, it is preferable to manually free the associated resources by calling this method rather than to rely on a finalization process which may not run to completion for a long period of time. <p> Graphics objects which are provided as arguments to the <code>paint</code> and <code>update</code> methods of components are automatically released by the system when those methods return. For efficiency, programmers should call <code>dispose</code> when finished using a <code>Graphics</code> object only if it was created directly from a component or another <code>Graphics</code> object.

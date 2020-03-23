@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='bytes'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='b'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='curindex'
+18 value (CastExpr)
+19 expression (IntegerLiteralExpr)
+20 value='2'
+21 type (PrimitiveType)
+22 type='SHORT'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='length'
+29 value (CastExpr)
+30 expression (EnclosedExpr)
+31 inner (BinaryExpr)
+32 operator='PLUS'
+33 left (BinaryExpr)
+34 operator='PLUS'
+35 left (EnclosedExpr)
+36 inner (BinaryExpr)
+37 operator='LEFT_SHIFT'
+38 left (EnclosedExpr)
+39 inner (BinaryExpr)
+40 operator='BINARY_AND'
+41 left (EnclosedExpr)
+42 inner (EnclosedExpr)
+43 inner (ArrayAccessExpr)
+44 index (IntegerLiteralExpr)
+45 value='0'
+46 name (NameExpr)
+47 name (SimpleName)
+48 identifier='bytes'
+49 right (IntegerLiteralExpr)
+50 value='0xff'
+51 right (IntegerLiteralExpr)
+52 value='8'
+53 right (EnclosedExpr)
+54 inner (BinaryExpr)
+55 operator='BINARY_AND'
+56 left (EnclosedExpr)
+57 inner (EnclosedExpr)
+58 inner (ArrayAccessExpr)
+59 index (IntegerLiteralExpr)
+60 value='1'
+61 name (NameExpr)
+62 name (SimpleName)
+63 identifier='bytes'
+64 right (IntegerLiteralExpr)
+65 value='0xff'
+66 right (IntegerLiteralExpr)
+67 value='2'
+68 type (PrimitiveType)
+69 type='SHORT'
+70 type (VoidType)
+71 name (SimpleName)
+72 identifier='reset'
+73 parameters
+74 parameter (Parameter)
+75 isVarArgs='false'
+76 name (SimpleName)
+77 identifier='b'
+78 type (ArrayType)
+79 origin='NAME'
+80 componentType (PrimitiveType)
+81 type='BYTE'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+18 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+31 32
+31 33
+33 34
+33 35
+35 36
+36 37
+36 38
+38 39
+39 40
+39 41
+41 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+39 49
+49 50
+36 51
+51 52
+33 53
+53 54
+54 55
+54 56
+56 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+54 64
+64 65
+31 66
+66 67
+29 68
+68 69
+0 70
+0 71
+71 72
+0 73
+73 74
+74 75
+74 76
+76 77
+74 78
+78 79
+78 80
+80 81
+
+Resets this object to be an enumeration of the given Utf8 string.

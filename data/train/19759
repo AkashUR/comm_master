@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BooleanLiteralExpr)
+8 value='false'
+9 name (SimpleName)
+10 identifier='allowSpaces'
+11 type (PrimitiveType)
+12 type='BOOLEAN'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='LetterOrNumberValidator'
+21 arguments
+22 argument (StringLiteralExpr)
+23 value='foo'
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='CASE_INSENSITIVE'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Case'
+30 argument (BooleanLiteralExpr)
+31 value='true'
+32 name (SimpleName)
+33 identifier='characterOrNumberValidator'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='LetterOrNumberValidator'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='allowSpaces'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='characterOrNumberValidator'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='allowSpaces'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='assertEquals'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='allowSpaces'
+56 argument (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='areSpacesAllowed'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='characterOrNumberValidator'
+62 type (VoidType)
+63 name (SimpleName)
+64 identifier='testAllowSpaces'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+21 30
+30 31
+16 32
+32 33
+16 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+56 59
+59 60
+60 61
+0 62
+0 63
+63 64
+
+Tests the functionality of the method, which allows to set, whether spaces should be allowed, or not.

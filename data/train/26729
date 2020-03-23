@@ -1,0 +1,168 @@
+83
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='post'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mImDeleteOperationHandler'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='GroupChatMessageDeleteTask'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='mChatService'
+19 argument (ThisExpr)
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='mLocalContentResolver'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='chatId'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='post'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='mImDeleteOperationHandler'
+33 arguments
+34 argument (ObjectCreationExpr)
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='GroupFileTransferDeleteTask'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='mFileTransferService'
+42 argument (ThisExpr)
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='mLocalContentResolver'
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='chatId'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='post'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='mImDeleteOperationHandler'
+56 arguments
+57 argument (ObjectCreationExpr)
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='GroupChatDeleteTask'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='mChatService'
+65 argument (ThisExpr)
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='mLocalContentResolver'
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='chatId'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='tryToDeleteGroupChat'
+75 parameters
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='chatId'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+15 19
+15 20
+20 21
+21 22
+15 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+40 41
+38 42
+38 43
+43 44
+44 45
+38 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+63 64
+61 65
+61 66
+66 67
+67 68
+61 69
+69 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+
+Delete a group chat by its chat id from history and abort/reject any associated ongoing session if such exists.

@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='clearWarningsCalled'
+12 scope (ThisExpr)
+13 value (BooleanLiteralExpr)
+14 value='true'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='warningChain'
+21 scope (ThisExpr)
+22 value (NullLiteralExpr)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getConnectionMutex'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='checkClosed'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='clearWarnings'
+32 thrownExceptions
+33 thrownException (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+7 13
+13 14
+5 15
+15 16
+16 17
+16 18
+18 19
+19 20
+18 21
+16 22
+3 23
+23 24
+24 25
+23 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+34 35
+
+After this call, getWarnings returns null until a new warning is reported for this Statement.

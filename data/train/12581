@@ -1,0 +1,182 @@
+90
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='elements'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='RowAtom'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='elements'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='old'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='background'
+26 value (EnclosedExpr)
+27 inner (ConditionalExpr)
+28 condition (BinaryExpr)
+29 operator='EQUALS'
+30 left (NameExpr)
+31 name (SimpleName)
+32 identifier='bg'
+33 right (NullLiteralExpr)
+34 elseExpr (NameExpr)
+35 name (SimpleName)
+36 identifier='bg'
+37 thenExpr (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='background'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='old'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (NameExpr)
+47 name (SimpleName)
+48 identifier='color'
+49 value (EnclosedExpr)
+50 inner (ConditionalExpr)
+51 condition (BinaryExpr)
+52 operator='EQUALS'
+53 left (NameExpr)
+54 name (SimpleName)
+55 identifier='c'
+56 right (NullLiteralExpr)
+57 elseExpr (NameExpr)
+58 name (SimpleName)
+59 identifier='c'
+60 thenExpr (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='color'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='old'
+66 name (SimpleName)
+67 identifier='ColorAtom'
+68 parameters
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='bg'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='Color'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='c'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Color'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='old'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='ColorAtom'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+27 28
+28 29
+28 30
+30 31
+31 32
+28 33
+27 34
+34 35
+35 36
+27 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+44 49
+49 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+50 57
+57 58
+58 59
+50 60
+60 61
+61 62
+60 63
+63 64
+64 65
+0 66
+66 67
+0 68
+68 69
+69 70
+69 71
+71 72
+69 73
+73 74
+74 75
+68 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+68 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+
+Creates a ColorAtom that overrides the colors of the given ColorAtom if the given colors are not null. If they're null, the old values are used.

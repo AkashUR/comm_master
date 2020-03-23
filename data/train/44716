@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='treeNodesChanged'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='e'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='TreeModelEvent'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+
+<p>Invoked after a node (or a set of siblings) has changed in some way. The node(s) have not changed locations in the tree or altered their children arrays, but other attributes have changed and may affect presentation. Example: the name of a file has changed, but it is in the same location in the file system.</p> <p>To indicate the root has changed, childIndices and children will be null. </p> <p>Use <code>e.getPath()</code> to get the parent of the changed node(s). <code>e.getChildIndices()</code> returns the index(es) of the changed node(s).</p>

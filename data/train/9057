@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (NameExpr)
+5 name (SimpleName)
+6 identifier='mState'
+7 entries
+8 entrie (SwitchEntryStmt)
+9 label (NameExpr)
+10 name (SimpleName)
+11 identifier='STATE_STOPPED'
+12 entrie (SwitchEntryStmt)
+13 label (NameExpr)
+14 name (SimpleName)
+15 identifier='STATE_PAUSED'
+16 statements
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='play'
+21 statement (BreakStmt)
+22 entrie (SwitchEntryStmt)
+23 label (NameExpr)
+24 name (SimpleName)
+25 identifier='STATE_PLAYING'
+26 statements
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='pause'
+31 statement (BreakStmt)
+32 entrie (SwitchEntryStmt)
+33 statements
+34 statement (BreakStmt)
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='togglePlayback'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+3 7
+7 8
+8 9
+9 10
+10 11
+7 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+18 19
+19 20
+16 21
+7 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+28 29
+29 30
+26 31
+7 32
+32 33
+33 34
+0 35
+0 36
+36 37
+
+Toggle playback. <p/> Basically, pause the player if playing and play if paused.

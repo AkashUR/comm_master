@@ -1,0 +1,266 @@
+132
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='configureTimeout'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='schedule'
+12 scope (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getThreadContext'
+15 scope (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getContext'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='cluster'
+21 arguments
+22 argument (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getElectionTimeout'
+25 scope (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getContext'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='cluster'
+31 argument (NullLiteralExpr)
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='whenComplete'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='reconfigure'
+39 scope (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getAbstractState'
+42 scope (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getContext'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='cluster'
+48 arguments
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='build'
+52 scope (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='withMember'
+55 scope (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='withTerm'
+58 scope (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='withIndex'
+61 scope (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='builder'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='ReconfigureRequest'
+67 arguments
+68 argument (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='index'
+71 scope (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getConfiguration'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='cluster'
+77 arguments
+78 argument (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='term'
+81 scope (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getConfiguration'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='cluster'
+87 arguments
+88 argument (ObjectCreationExpr)
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='ServerMember'
+92 arguments
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='type'
+96 argument (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='serverAddress'
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='clientAddress'
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='updated'
+105 arguments
+106 argument (NullLiteralExpr)
+107 type (VoidType)
+108 name (SimpleName)
+109 identifier='configure'
+110 parameters
+111 parameter (Parameter)
+112 isVarArgs='false'
+113 name (SimpleName)
+114 identifier='type'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='Type'
+118 scope (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='Member'
+121 parameter (Parameter)
+122 isVarArgs='false'
+123 name (SimpleName)
+124 identifier='future'
+125 type (ClassOrInterfaceType)
+126 name (SimpleName)
+127 identifier='CompletableFuture'
+128 typeArguments
+129 typeArgument (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='Void'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+19 20
+9 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+21 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+36 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+52 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+61 64
+64 65
+65 66
+58 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+55 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+52 87
+87 88
+88 89
+89 90
+90 91
+88 92
+92 93
+93 94
+94 95
+92 96
+96 97
+97 98
+92 99
+99 100
+100 101
+92 102
+102 103
+103 104
+33 105
+105 106
+0 107
+0 108
+108 109
+0 110
+110 111
+111 112
+111 113
+113 114
+111 115
+115 116
+116 117
+115 118
+118 119
+119 120
+110 121
+121 122
+121 123
+123 124
+121 125
+125 126
+126 127
+125 128
+128 129
+129 130
+130 131
+
+Recursively reconfigures the cluster.

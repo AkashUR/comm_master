@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (TryStmt)
+4 finallyBlock (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='endTransaction'
+10 tryBlock (BlockStmt)
+11 statements
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='commit'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='transaction'
+19 type (VoidType)
+20 name (SimpleName)
+21 identifier='commit'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+3 10
+10 11
+11 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+0 19
+0 20
+20 21
+
+Commit the current transaction. If the statement was not a data definition statement, and if there are temporary tables that should be dropped or truncated at commit, this is done as well.

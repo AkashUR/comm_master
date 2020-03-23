@@ -1,0 +1,212 @@
+105
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='httpServer'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='create'
+12 scope (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='HttpServer'
+15 scope (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='httpserver'
+18 scope (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='net'
+21 scope (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='sun'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='com'
+27 arguments
+28 argument (ObjectCreationExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='InetSocketAddress'
+32 arguments
+33 argument (IntegerLiteralExpr)
+34 value='0'
+35 argument (IntegerLiteralExpr)
+36 value='0'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='httpHandler'
+43 value (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='MyHandler'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='createContext'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='httpServer'
+57 arguments
+58 argument (StringLiteralExpr)
+59 value='/test/'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='httpHandler'
+63 name (SimpleName)
+64 identifier='ctx'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='HttpContext'
+68 statement (ExpressionStmt)
+69 expression (AssignExpr)
+70 operator='ASSIGN'
+71 target (NameExpr)
+72 name (SimpleName)
+73 identifier='executorService'
+74 value (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='newCachedThreadPool'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='Executors'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='setExecutor'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='httpServer'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='executorService'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='start'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='httpServer'
+98 type (VoidType)
+99 name (SimpleName)
+100 identifier='startHttpServer'
+101 thrownExceptions
+102 thrownException (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+9 27
+27 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+27 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+57 60
+60 61
+61 62
+50 63
+63 64
+50 65
+65 66
+66 67
+2 68
+68 69
+69 70
+69 71
+71 72
+72 73
+69 74
+74 75
+75 76
+74 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+0 98
+0 99
+99 100
+0 101
+101 102
+102 103
+103 104
+
+Http Server

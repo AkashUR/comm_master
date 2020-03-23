@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='_is'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='is'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='_os'
+19 value (NameExpr)
+20 name (SimpleName)
+21 identifier='os'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='_flushOnNewline'
+28 value (BooleanLiteralExpr)
+29 value='false'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='_closeChildOnClose'
+36 value (BooleanLiteralExpr)
+37 value='true'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (NameExpr)
+42 name (SimpleName)
+43 identifier='_position'
+44 value (IntegerLiteralExpr)
+45 value='0'
+46 type (VoidType)
+47 name (SimpleName)
+48 identifier='init'
+49 parameters
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='is'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='InputStream'
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='os'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='OutputStream'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+0 46
+0 47
+47 48
+0 49
+49 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+49 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+
+Initializes a VfsStream with an input/output stream pair.  Before a read, the output will be flushed to avoid deadlocks.

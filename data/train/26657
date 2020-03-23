@@ -1,0 +1,244 @@
+121
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setCommandStationType'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getOptionState'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='option2Name'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='setTurnoutHandling'
+19 arguments
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getOptionState'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='option3Name'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='LnPr2Packetizer'
+35 scope (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='pr2'
+38 scope (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='loconet'
+41 scope (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='jmrix'
+44 scope (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='jmri'
+47 name (SimpleName)
+48 identifier='packets'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='LnPr2Packetizer'
+52 scope (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='pr2'
+55 scope (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='loconet'
+58 scope (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='jmrix'
+61 scope (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='jmri'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='connectPort'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='packets'
+71 arguments
+72 argument (ThisExpr)
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='setLnTrafficController'
+77 scope (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='getSystemConnectionMemo'
+80 scope (ThisExpr)
+81 arguments
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='packets'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='configureCommandStation'
+89 scope (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='getSystemConnectionMemo'
+92 scope (ThisExpr)
+93 arguments
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='commandStationType'
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='mTurnoutNoRetry'
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='mTurnoutExtraSpace'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='configureManagers'
+107 scope (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='getSystemConnectionMemo'
+110 scope (ThisExpr)
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='startThreads'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='packets'
+118 type (VoidType)
+119 name (SimpleName)
+120 identifier='configure'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+30 47
+47 48
+30 49
+49 50
+50 51
+49 52
+52 53
+53 54
+52 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+77 80
+74 81
+81 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+89 92
+86 93
+93 94
+94 95
+95 96
+93 97
+97 98
+98 99
+93 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+0 118
+0 119
+119 120
+
+Set up all of the other objects to operate with a PR2 connected to this port. This overrides the version in loconet.locobuffer, but it has to duplicate much of the functionality there, so the code is basically copied.

@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='insertTrack'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='providerUtils'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='track'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='bulkInsertTrackPoint'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='providerUtils'
+21 arguments
+22 argument (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='toArray'
+25 scope (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getLocations'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='track'
+31 arguments
+32 argument (ArrayCreationExpr)
+33 elementType (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Location'
+36 levels
+37 level (ArrayCreationLevel)
+38 dimension (IntegerLiteralExpr)
+39 value='0'
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='size'
+43 scope (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getLocations'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='track'
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getId'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='track'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='insertTrackWithLocations'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='track'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Track'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+22 31
+31 32
+32 33
+33 34
+34 35
+32 36
+36 37
+37 38
+38 39
+21 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+21 49
+49 50
+50 51
+49 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+
+Inserts a track with locations into the database.

@@ -1,0 +1,282 @@
+140
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Phaser'
+11 arguments
+12 argument (IntegerLiteralExpr)
+13 value='1'
+14 name (SimpleName)
+15 identifier='phaser'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Phaser'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='forceTermination'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='phaser'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='assertTerminated'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='phaser'
+34 argument (IntegerLiteralExpr)
+35 value='0'
+36 argument (IntegerLiteralExpr)
+37 value='1'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='assertEquals'
+42 arguments
+43 argument (IntegerLiteralExpr)
+44 value='0'
+45 argument (BinaryExpr)
+46 operator='PLUS'
+47 left (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getPhase'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='phaser'
+53 right (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='MIN_VALUE'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='Integer'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='assertTrue'
+63 arguments
+64 argument (BinaryExpr)
+65 operator='LESS'
+66 left (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='arrive'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='phaser'
+72 right (IntegerLiteralExpr)
+73 value='0'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='assertTrue'
+78 arguments
+79 argument (BinaryExpr)
+80 operator='LESS'
+81 left (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='register'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='phaser'
+87 right (IntegerLiteralExpr)
+88 value='0'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='assertTrue'
+93 arguments
+94 argument (BinaryExpr)
+95 operator='LESS'
+96 left (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='arriveAndDeregister'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='phaser'
+102 right (IntegerLiteralExpr)
+103 value='0'
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='assertTrue'
+108 arguments
+109 argument (BinaryExpr)
+110 operator='LESS'
+111 left (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='awaitAdvance'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='phaser'
+117 arguments
+118 argument (IntegerLiteralExpr)
+119 value='1'
+120 right (IntegerLiteralExpr)
+121 value='0'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='assertTrue'
+126 arguments
+127 argument (BinaryExpr)
+128 operator='LESS'
+129 left (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='getPhase'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='phaser'
+135 right (IntegerLiteralExpr)
+136 value='0'
+137 type (VoidType)
+138 name (SimpleName)
+139 identifier='testArrive3'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+30 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+45 47
+47 48
+48 49
+47 50
+50 51
+51 52
+45 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+64 66
+66 67
+67 68
+66 69
+69 70
+70 71
+64 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+79 81
+81 82
+82 83
+81 84
+84 85
+85 86
+79 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+94 96
+96 97
+97 98
+96 99
+99 100
+100 101
+94 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+109 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+109 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+127 129
+129 130
+130 131
+129 132
+132 133
+133 134
+127 135
+135 136
+0 137
+0 138
+138 139
+
+arrive() returns a negative number if the Phaser is terminated

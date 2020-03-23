@@ -1,0 +1,300 @@
+149
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='context'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='jniWriterKey'
+14 argument (ThisExpr)
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='fileManager'
+21 value (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='get'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='context'
+27 arguments
+28 argument (ClassExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='JavaFileManager'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (NameExpr)
+36 name (SimpleName)
+37 identifier='log'
+38 value (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='instance'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='Log'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='context'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 initializer (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='instance'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='Options'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='context'
+62 name (SimpleName)
+63 identifier='options'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Options'
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='verbose'
+73 value (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='isSet'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='options'
+79 arguments
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='VERBOSE'
+83 statement (ExpressionStmt)
+84 expression (AssignExpr)
+85 operator='ASSIGN'
+86 target (NameExpr)
+87 name (SimpleName)
+88 identifier='checkAll'
+89 value (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='isSet'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='options'
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='javah:full'
+98 statement (ExpressionStmt)
+99 expression (AssignExpr)
+100 operator='ASSIGN'
+101 target (FieldAccessExpr)
+102 name (SimpleName)
+103 identifier='context'
+104 scope (ThisExpr)
+105 value (NameExpr)
+106 name (SimpleName)
+107 identifier='context'
+108 statement (ExpressionStmt)
+109 expression (AssignExpr)
+110 operator='ASSIGN'
+111 target (NameExpr)
+112 name (SimpleName)
+113 identifier='syms'
+114 value (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='instance'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='Symtab'
+120 arguments
+121 argument (NameExpr)
+122 name (SimpleName)
+123 identifier='context'
+124 statement (ExpressionStmt)
+125 expression (AssignExpr)
+126 operator='ASSIGN'
+127 target (NameExpr)
+128 name (SimpleName)
+129 identifier='lineSep'
+130 value (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='getProperty'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='System'
+136 arguments
+137 argument (StringLiteralExpr)
+138 value='line.separator'
+139 name (SimpleName)
+140 identifier='JNIWriter'
+141 parameters
+142 parameter (Parameter)
+143 isVarArgs='false'
+144 name (SimpleName)
+145 identifier='context'
+146 type (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='Context'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+51 62
+62 63
+51 64
+64 65
+65 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+2 83
+83 84
+84 85
+84 86
+86 87
+87 88
+84 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+2 98
+98 99
+99 100
+99 101
+101 102
+102 103
+101 104
+99 105
+105 106
+106 107
+2 108
+108 109
+109 110
+109 111
+111 112
+112 113
+109 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+122 123
+2 124
+124 125
+125 126
+125 127
+127 128
+128 129
+125 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+137 138
+0 139
+139 140
+0 141
+141 142
+142 143
+142 144
+144 145
+142 146
+146 147
+147 148
+
+Construct a class writer, given an options table.

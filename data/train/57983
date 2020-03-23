@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='translate'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='canvas'
+10 arguments
+11 argument (UnaryExpr)
+12 operator='MINUS'
+13 expression (NameExpr)
+14 name (SimpleName)
+15 identifier='left'
+16 argument (UnaryExpr)
+17 operator='MINUS'
+18 expression (NameExpr)
+19 name (SimpleName)
+20 identifier='top'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='draw'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='view'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='canvas'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='translate'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='canvas'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='left'
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='top'
+46 type (VoidType)
+47 name (SimpleName)
+48 identifier='drawClippedView'
+49 parameters
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='view'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='View'
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='left'
+61 type (PrimitiveType)
+62 type='INT'
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='top'
+67 type (PrimitiveType)
+68 type='INT'
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='canvas'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='Canvas'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+10 16
+16 17
+16 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+0 46
+0 47
+47 48
+0 49
+49 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+49 57
+57 58
+57 59
+59 60
+57 61
+61 62
+49 63
+63 64
+63 65
+65 66
+63 67
+67 68
+49 69
+69 70
+69 71
+71 72
+69 73
+73 74
+74 75
+
+Draw a part of the view, in particular it returns a bitmap of dimensions <code>(right-left)*(bottom-top)</code>, with the rendering of the view starting from position (<code>left</code>, <code>top</code>). For well behaved views, calling this repeatedly shouldn't change the rendering, so it should it okay to render each tile one by one and combine it later.

@@ -1,0 +1,708 @@
+353
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='neuronTypeMap'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='neuronTypeMap'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='numNeuronsField'
+19 value (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='JTextField'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setColumns'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='numNeuronsField'
+30 arguments
+31 argument (IntegerLiteralExpr)
+32 value='2'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='setText'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='numNeuronsField'
+40 arguments
+41 argument (BinaryExpr)
+42 operator='PLUS'
+43 left (StringLiteralExpr)
+44 value=''
+45 right (NameExpr)
+46 name (SimpleName)
+47 identifier='numNeurons'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (NameExpr)
+52 name (SimpleName)
+53 identifier='neuronTypeComboBox'
+54 value (ObjectCreationExpr)
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='JComboBox'
+58 typeArguments
+59 typeArgument (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+62 arguments
+63 argument (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='toArray'
+66 scope (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='keySet'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='neuronTypeMap'
+72 arguments
+73 argument (ArrayCreationExpr)
+74 elementType (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='String'
+77 levels
+78 level (ArrayCreationLevel)
+79 dimension (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='size'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='neuronTypeMap'
+85 statement (ExpressionStmt)
+86 expression (VariableDeclarationExpr)
+87 variables
+88 variable (VariableDeclarator)
+89 initializer (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='createHorizontalBox'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='Box'
+95 name (SimpleName)
+96 identifier='component'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='Box'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='setAlignmentX'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='component'
+107 arguments
+108 argument (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='LEFT_ALIGNMENT'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='Box'
+114 statement (ExpressionStmt)
+115 expression (VariableDeclarationExpr)
+116 variables
+117 variable (VariableDeclarator)
+118 initializer (ObjectCreationExpr)
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='JLabel'
+122 arguments
+123 argument (NameExpr)
+124 name (SimpleName)
+125 identifier='label'
+126 name (SimpleName)
+127 identifier='firstLabel'
+128 type (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='JLabel'
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='setPreferredSize'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='firstLabel'
+138 arguments
+139 argument (ObjectCreationExpr)
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='Dimension'
+143 arguments
+144 argument (IntegerLiteralExpr)
+145 value='100'
+146 argument (IntegerLiteralExpr)
+147 value='10'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='add'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='component'
+155 arguments
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='firstLabel'
+159 statement (ExpressionStmt)
+160 expression (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='add'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='component'
+166 arguments
+167 argument (ObjectCreationExpr)
+168 type (ClassOrInterfaceType)
+169 name (SimpleName)
+170 identifier='JSeparator'
+171 arguments
+172 argument (FieldAccessExpr)
+173 name (SimpleName)
+174 identifier='VERTICAL'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='SwingConstants'
+178 statement (ExpressionStmt)
+179 expression (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='add'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='component'
+185 arguments
+186 argument (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='createHorizontalStrut'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='Box'
+192 arguments
+193 argument (IntegerLiteralExpr)
+194 value='20'
+195 statement (ExpressionStmt)
+196 expression (VariableDeclarationExpr)
+197 variables
+198 variable (VariableDeclarator)
+199 initializer (ObjectCreationExpr)
+200 type (ClassOrInterfaceType)
+201 name (SimpleName)
+202 identifier='JLabel'
+203 arguments
+204 argument (StringLiteralExpr)
+205 value='Number of neurons:'
+206 name (SimpleName)
+207 identifier='numNeuronsLabel'
+208 type (ClassOrInterfaceType)
+209 name (SimpleName)
+210 identifier='JLabel'
+211 statement (ExpressionStmt)
+212 expression (MethodCallExpr)
+213 name (SimpleName)
+214 identifier='add'
+215 scope (NameExpr)
+216 name (SimpleName)
+217 identifier='component'
+218 arguments
+219 argument (NameExpr)
+220 name (SimpleName)
+221 identifier='numNeuronsLabel'
+222 statement (ExpressionStmt)
+223 expression (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='setText'
+226 scope (NameExpr)
+227 name (SimpleName)
+228 identifier='numNeuronsField'
+229 arguments
+230 argument (StringLiteralExpr)
+231 value='5'
+232 statement (ExpressionStmt)
+233 expression (MethodCallExpr)
+234 name (SimpleName)
+235 identifier='add'
+236 scope (NameExpr)
+237 name (SimpleName)
+238 identifier='component'
+239 arguments
+240 argument (NameExpr)
+241 name (SimpleName)
+242 identifier='numNeuronsField'
+243 statement (ExpressionStmt)
+244 expression (MethodCallExpr)
+245 name (SimpleName)
+246 identifier='add'
+247 scope (NameExpr)
+248 name (SimpleName)
+249 identifier='component'
+250 arguments
+251 argument (MethodCallExpr)
+252 name (SimpleName)
+253 identifier='createHorizontalStrut'
+254 scope (NameExpr)
+255 name (SimpleName)
+256 identifier='Box'
+257 arguments
+258 argument (IntegerLiteralExpr)
+259 value='15'
+260 statement (ExpressionStmt)
+261 expression (VariableDeclarationExpr)
+262 variables
+263 variable (VariableDeclarator)
+264 initializer (ObjectCreationExpr)
+265 type (ClassOrInterfaceType)
+266 name (SimpleName)
+267 identifier='JLabel'
+268 arguments
+269 argument (StringLiteralExpr)
+270 value='Neuron type:'
+271 name (SimpleName)
+272 identifier='typeLabel'
+273 type (ClassOrInterfaceType)
+274 name (SimpleName)
+275 identifier='JLabel'
+276 statement (ExpressionStmt)
+277 expression (MethodCallExpr)
+278 name (SimpleName)
+279 identifier='add'
+280 scope (NameExpr)
+281 name (SimpleName)
+282 identifier='component'
+283 arguments
+284 argument (NameExpr)
+285 name (SimpleName)
+286 identifier='typeLabel'
+287 statement (ExpressionStmt)
+288 expression (MethodCallExpr)
+289 name (SimpleName)
+290 identifier='add'
+291 scope (NameExpr)
+292 name (SimpleName)
+293 identifier='component'
+294 arguments
+295 argument (NameExpr)
+296 name (SimpleName)
+297 identifier='neuronTypeComboBox'
+298 statement (ExpressionStmt)
+299 expression (MethodCallExpr)
+300 name (SimpleName)
+301 identifier='setLayout'
+302 scope (ThisExpr)
+303 arguments
+304 argument (ObjectCreationExpr)
+305 type (ClassOrInterfaceType)
+306 name (SimpleName)
+307 identifier='FlowLayout'
+308 arguments
+309 argument (FieldAccessExpr)
+310 name (SimpleName)
+311 identifier='LEFT'
+312 scope (NameExpr)
+313 name (SimpleName)
+314 identifier='FlowLayout'
+315 statement (ExpressionStmt)
+316 expression (MethodCallExpr)
+317 name (SimpleName)
+318 identifier='add'
+319 arguments
+320 argument (NameExpr)
+321 name (SimpleName)
+322 identifier='component'
+323 name (SimpleName)
+324 identifier='LayerCreationPanel'
+325 parameters
+326 parameter (Parameter)
+327 isVarArgs='false'
+328 name (SimpleName)
+329 identifier='neuronTypeMap'
+330 type (ClassOrInterfaceType)
+331 name (SimpleName)
+332 identifier='HashMap'
+333 typeArguments
+334 typeArgument (ClassOrInterfaceType)
+335 name (SimpleName)
+336 identifier='String'
+337 typeArgument (ClassOrInterfaceType)
+338 name (SimpleName)
+339 identifier='NeuronUpdateRule'
+340 parameter (Parameter)
+341 isVarArgs='false'
+342 name (SimpleName)
+343 identifier='label'
+344 type (ClassOrInterfaceType)
+345 name (SimpleName)
+346 identifier='String'
+347 parameter (Parameter)
+348 isVarArgs='false'
+349 name (SimpleName)
+350 identifier='numNeurons'
+351 type (PrimitiveType)
+352 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+49 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+60 61
+54 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+66 69
+69 70
+70 71
+63 72
+72 73
+73 74
+74 75
+75 76
+73 77
+77 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+88 95
+95 96
+88 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+117 118
+118 119
+119 120
+120 121
+118 122
+122 123
+123 124
+124 125
+117 126
+126 127
+117 128
+128 129
+129 130
+2 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+132 138
+138 139
+139 140
+140 141
+141 142
+139 143
+143 144
+144 145
+143 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+157 158
+2 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+160 166
+166 167
+167 168
+168 169
+169 170
+167 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+2 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+179 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+186 192
+192 193
+193 194
+2 195
+195 196
+196 197
+197 198
+198 199
+199 200
+200 201
+201 202
+199 203
+203 204
+204 205
+198 206
+206 207
+198 208
+208 209
+209 210
+2 211
+211 212
+212 213
+213 214
+212 215
+215 216
+216 217
+212 218
+218 219
+219 220
+220 221
+2 222
+222 223
+223 224
+224 225
+223 226
+226 227
+227 228
+223 229
+229 230
+230 231
+2 232
+232 233
+233 234
+234 235
+233 236
+236 237
+237 238
+233 239
+239 240
+240 241
+241 242
+2 243
+243 244
+244 245
+245 246
+244 247
+247 248
+248 249
+244 250
+250 251
+251 252
+252 253
+251 254
+254 255
+255 256
+251 257
+257 258
+258 259
+2 260
+260 261
+261 262
+262 263
+263 264
+264 265
+265 266
+266 267
+264 268
+268 269
+269 270
+263 271
+271 272
+263 273
+273 274
+274 275
+2 276
+276 277
+277 278
+278 279
+277 280
+280 281
+281 282
+277 283
+283 284
+284 285
+285 286
+2 287
+287 288
+288 289
+289 290
+288 291
+291 292
+292 293
+288 294
+294 295
+295 296
+296 297
+2 298
+298 299
+299 300
+300 301
+299 302
+299 303
+303 304
+304 305
+305 306
+306 307
+304 308
+308 309
+309 310
+310 311
+309 312
+312 313
+313 314
+2 315
+315 316
+316 317
+317 318
+316 319
+319 320
+320 321
+321 322
+0 323
+323 324
+0 325
+325 326
+326 327
+326 328
+328 329
+326 330
+330 331
+331 332
+330 333
+333 334
+334 335
+335 336
+333 337
+337 338
+338 339
+325 340
+340 341
+340 342
+342 343
+340 344
+344 345
+345 346
+325 347
+347 348
+347 349
+349 350
+347 351
+351 352
+
+Construct a layer creation panel.

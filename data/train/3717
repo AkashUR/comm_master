@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assignObjectTo'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='helper'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='returnVar'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getThreadObject'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='v'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='Environment'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='java_lang_Thread_currentThread'
+26 parameters
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='method'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='SootMethod'
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='thisVar'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='ReferenceVariable'
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='returnVar'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='ReferenceVariable'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='params'
+52 type (ArrayType)
+53 origin='NAME'
+54 componentType (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='ReferenceVariable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+0 23
+0 24
+24 25
+0 26
+26 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+26 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+26 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+26 48
+48 49
+48 50
+50 51
+48 52
+52 53
+52 54
+54 55
+55 56
+
+Returns the single variable pointing to all thread objects. This makes our analysis conservative on thread objects. public static native java.lang.Thread currentThread();

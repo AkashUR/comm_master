@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='errorMessage'
+9 name (SimpleName)
+10 identifier='errorMessage'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='CharSequence'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='AbstractValidatorImplementation'
+22 arguments
+23 argument (StringLiteralExpr)
+24 value='foo'
+25 name (SimpleName)
+26 identifier='abstractValidator'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='AbstractValidatorImplementation'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='setErrorMessage'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='abstractValidator'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='errorMessage'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='assertEquals'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='errorMessage'
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getErrorMessage'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='abstractValidator'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='testSetErrorMessageWithCharSequenceParameter'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+17 25
+25 26
+17 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+49 52
+52 53
+53 54
+0 55
+0 56
+56 57
+
+Tests the functionality of the method, which allows to set the validator's error message by passing a char sequence as a parameter.

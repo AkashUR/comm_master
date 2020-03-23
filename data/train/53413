@@ -1,0 +1,230 @@
+114
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mockEmrOperations'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='mock'
+12 arguments
+13 argument (ClassExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='EmrOperations'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='mockEc2Dao'
+23 value (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='mock'
+26 arguments
+27 argument (ClassExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Ec2Dao'
+31 statement (ExpressionStmt)
+32 expression (AssignExpr)
+33 operator='ASSIGN'
+34 target (NameExpr)
+35 name (SimpleName)
+36 identifier='originalEmrOperations'
+37 value (CastExpr)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getField'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='ReflectionTestUtils'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='emrDao'
+48 argument (StringLiteralExpr)
+49 value='emrOperations'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='EmrOperations'
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (NameExpr)
+57 name (SimpleName)
+58 identifier='originalEc2Dao'
+59 value (CastExpr)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getField'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='ReflectionTestUtils'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='emrDao'
+70 argument (StringLiteralExpr)
+71 value='ec2Dao'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Ec2Dao'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='setField'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='ReflectionTestUtils'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='emrDao'
+86 argument (StringLiteralExpr)
+87 value='emrOperations'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='mockEmrOperations'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='setField'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='ReflectionTestUtils'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='emrDao'
+102 argument (StringLiteralExpr)
+103 value='ec2Dao'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='mockEc2Dao'
+107 type (VoidType)
+108 name (SimpleName)
+109 identifier='before'
+110 annotations
+111 annotation (MarkerAnnotationExpr)
+112 name (Name)
+113 identifier='Before'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+32 34
+34 35
+35 36
+32 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+44 48
+48 49
+37 50
+50 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+54 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+66 70
+70 71
+59 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+82 86
+86 87
+82 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+100 101
+98 102
+102 103
+98 104
+104 105
+105 106
+0 107
+0 108
+108 109
+0 110
+110 111
+111 112
+112 113
+
+Intialize mocks and inject. Normally this would be handled by Spring's IOC, but at the moment other unit tests may be affected if we completely replace the mocked implementations.

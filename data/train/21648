@@ -1,0 +1,402 @@
+200
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='DefaultDeployableFactory'
+11 name (SimpleName)
+12 identifier='factory'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='DeployableFactory'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='createDeployable'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='factory'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='jonas4x'
+29 argument (StringLiteralExpr)
+30 value='/foo/bar.war'
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='WAR'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='DeployableType'
+37 name (SimpleName)
+38 identifier='deployable'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Deployable'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='assertEquals'
+46 arguments
+47 argument (StringLiteralExpr)
+48 value='foo.war'
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getRemoteFileName'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='deployer'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='deployable'
+59 argument (StringLiteralExpr)
+60 value='foo.pipo'
+61 argument (BooleanLiteralExpr)
+62 value='false'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='assertEquals'
+67 arguments
+68 argument (StringLiteralExpr)
+69 value='foo.war'
+70 argument (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='getRemoteFileName'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='deployer'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='deployable'
+80 argument (StringLiteralExpr)
+81 value='foo'
+82 argument (BooleanLiteralExpr)
+83 value='false'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='assertEquals'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='bar.war'
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='getRemoteFileName'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='deployer'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='deployable'
+101 argument (NullLiteralExpr)
+102 argument (BooleanLiteralExpr)
+103 value='false'
+104 statement (ExpressionStmt)
+105 expression (AssignExpr)
+106 operator='ASSIGN'
+107 target (NameExpr)
+108 name (SimpleName)
+109 identifier='deployable'
+110 value (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='createDeployable'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='factory'
+116 arguments
+117 argument (StringLiteralExpr)
+118 value='jonas4x'
+119 argument (StringLiteralExpr)
+120 value='/foo/bar.war'
+121 argument (FieldAccessExpr)
+122 name (SimpleName)
+123 identifier='WAR'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='DeployableType'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='setContext'
+131 scope (EnclosedExpr)
+132 inner (CastExpr)
+133 expression (NameExpr)
+134 name (SimpleName)
+135 identifier='deployable'
+136 type (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='WAR'
+139 arguments
+140 argument (StringLiteralExpr)
+141 value='/testContext'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='assertEquals'
+146 arguments
+147 argument (StringLiteralExpr)
+148 value='testContext.war'
+149 argument (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='getRemoteFileName'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='deployer'
+155 arguments
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='deployable'
+159 argument (NullLiteralExpr)
+160 argument (BooleanLiteralExpr)
+161 value='false'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='setContext'
+166 scope (EnclosedExpr)
+167 inner (CastExpr)
+168 expression (NameExpr)
+169 name (SimpleName)
+170 identifier='deployable'
+171 type (ClassOrInterfaceType)
+172 name (SimpleName)
+173 identifier='WAR'
+174 arguments
+175 argument (StringLiteralExpr)
+176 value='/'
+177 statement (ExpressionStmt)
+178 expression (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='assertEquals'
+181 arguments
+182 argument (StringLiteralExpr)
+183 value='rootContext.war'
+184 argument (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='getRemoteFileName'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='deployer'
+190 arguments
+191 argument (NameExpr)
+192 name (SimpleName)
+193 identifier='deployable'
+194 argument (NullLiteralExpr)
+195 argument (BooleanLiteralExpr)
+196 value='false'
+197 type (VoidType)
+198 name (SimpleName)
+199 identifier='testGetRemoteFileName'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+26 29
+29 30
+26 31
+31 32
+32 33
+31 34
+34 35
+35 36
+19 37
+37 38
+19 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+55 59
+59 60
+55 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+76 80
+80 81
+76 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+97 101
+97 102
+102 103
+2 104
+104 105
+105 106
+105 107
+107 108
+108 109
+105 110
+110 111
+111 112
+110 113
+113 114
+114 115
+110 116
+116 117
+117 118
+116 119
+119 120
+116 121
+121 122
+122 123
+121 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+133 134
+134 135
+132 136
+136 137
+137 138
+128 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+146 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+157 158
+155 159
+155 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+168 169
+169 170
+167 171
+171 172
+172 173
+163 174
+174 175
+175 176
+2 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+181 184
+184 185
+185 186
+184 187
+187 188
+188 189
+184 190
+190 191
+191 192
+192 193
+190 194
+190 195
+195 196
+0 197
+0 198
+198 199
+
+Test remote file name getter.

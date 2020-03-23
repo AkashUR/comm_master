@@ -1,0 +1,44 @@
+21
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkProofOfWork'
+7 arguments
+8 argument (BooleanLiteralExpr)
+9 value='true'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='checkTimestamp'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='verifyHeader'
+17 thrownExceptions
+18 thrownException (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='VerificationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+19 20
+
+Checks the block data to ensure it follows the rules laid out in the network parameters. Specifically, throws an exception if the proof of work is invalid, or if the timestamp is too far from what it should be. This is <b>not</b> everything that is required for a block to be valid, only what is checkable independent of the chain and without a transaction index.

@@ -1,0 +1,252 @@
+125
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='MULTIPLY'
+9 left (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getSizeBytes'
+12 scope (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='mElement'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='mType'
+18 right (NameExpr)
+19 name (SimpleName)
+20 identifier='count'
+21 name (SimpleName)
+22 identifier='dataSize'
+23 type (PrimitiveType)
+24 type='INT'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='data1DChecks'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='off'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='count'
+36 argument (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='length'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='d'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='dataSize'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='nAllocationData1D'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='mRS'
+52 arguments
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='getIDSafe'
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='off'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='mSelectedLOD'
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='count'
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='d'
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='dataSize'
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='copy1DRangeFromUnchecked'
+74 parameters
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='off'
+79 type (PrimitiveType)
+80 type='INT'
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='count'
+85 type (PrimitiveType)
+86 type='INT'
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='d'
+91 type (ArrayType)
+92 origin='TYPE'
+93 componentType (PrimitiveType)
+94 type='BYTE'
+95 annotations
+96 annotation (NormalAnnotationExpr)
+97 name (Name)
+98 identifier='DSGenerator'
+99 pairs
+100 pair (MemberValuePair)
+101 name (SimpleName)
+102 identifier='tool_name'
+103 value (StringLiteralExpr)
+104 value='Doppelganger'
+105 pair (MemberValuePair)
+106 name (SimpleName)
+107 identifier='tool_version'
+108 value (StringLiteralExpr)
+109 value='2.0'
+110 pair (MemberValuePair)
+111 name (SimpleName)
+112 identifier='generated_on'
+113 value (StringLiteralExpr)
+114 value='2013-12-30 12:31:09.112 -0500'
+115 pair (MemberValuePair)
+116 name (SimpleName)
+117 identifier='hash_original_method'
+118 value (StringLiteralExpr)
+119 value='C68391FBBAF4E4C2759F231D9BB3CE56'
+120 pair (MemberValuePair)
+121 name (SimpleName)
+122 identifier='hash_generated_method'
+123 value (StringLiteralExpr)
+124 value='F1671C54E611B4F570632F9FDA2E2EDC'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+7 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+29 36
+36 37
+37 38
+36 39
+39 40
+40 41
+29 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+52 59
+59 60
+60 61
+52 62
+62 63
+63 64
+52 65
+65 66
+66 67
+52 68
+68 69
+69 70
+0 71
+0 72
+72 73
+0 74
+74 75
+75 76
+75 77
+77 78
+75 79
+79 80
+74 81
+81 82
+81 83
+83 84
+81 85
+85 86
+74 87
+87 88
+87 89
+89 90
+87 91
+91 92
+91 93
+93 94
+0 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+100 103
+103 104
+99 105
+105 106
+106 107
+105 108
+108 109
+99 110
+110 111
+111 112
+110 113
+113 114
+99 115
+115 116
+116 117
+115 118
+118 119
+99 120
+120 121
+121 122
+120 123
+123 124
+
+Copy part of an allocation from an array.  This variant is not type checked which allows an application to fill in structured data from an array.

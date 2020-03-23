@@ -1,0 +1,198 @@
+98
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='extensionId'
+9 scope (ThisExpr)
+10 value (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='CertificateIssuer_Id'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='PKIXExtensions'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='critical'
+22 scope (ThisExpr)
+23 value (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='booleanValue'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='critical'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='extensionValue'
+35 scope (ThisExpr)
+36 value (CastExpr)
+37 expression (NameExpr)
+38 name (SimpleName)
+39 identifier='value'
+40 type (ArrayType)
+41 origin='TYPE'
+42 componentType (PrimitiveType)
+43 type='BYTE'
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (ObjectCreationExpr)
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='DerValue'
+52 arguments
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='extensionValue'
+56 scope (ThisExpr)
+57 name (SimpleName)
+58 identifier='val'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='DerValue'
+62 statement (ExpressionStmt)
+63 expression (AssignExpr)
+64 operator='ASSIGN'
+65 target (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='names'
+68 scope (ThisExpr)
+69 value (ObjectCreationExpr)
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='GeneralNames'
+73 arguments
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='val'
+77 name (SimpleName)
+78 identifier='CertificateIssuerExtension'
+79 parameters
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='critical'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Boolean'
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='value'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='Object'
+94 thrownExceptions
+95 thrownException (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+32 35
+30 36
+36 37
+37 38
+38 39
+36 40
+40 41
+40 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+54 55
+53 56
+47 57
+57 58
+47 59
+59 60
+60 61
+2 62
+62 63
+63 64
+63 65
+65 66
+66 67
+65 68
+63 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+75 76
+0 77
+77 78
+0 79
+79 80
+80 81
+80 82
+82 83
+80 84
+84 85
+85 86
+79 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+0 94
+94 95
+95 96
+96 97
+
+Create a CertificateIssuerExtension from the specified DER encoded value of the same.

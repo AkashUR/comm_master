@@ -1,0 +1,234 @@
+116
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (NameExpr)
+5 name (SimpleName)
+6 identifier='loaderID'
+7 entries
+8 entrie (SwitchEntryStmt)
+9 label (NameExpr)
+10 name (SimpleName)
+11 identifier='ACTIVITY_ID'
+12 statements
+13 statement (ExpressionStmt)
+14 expression (UnaryExpr)
+15 operator='POSTFIX_INCREMENT'
+16 expression (NameExpr)
+17 name (SimpleName)
+18 identifier='mRequeryInstanceCount'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (NameExpr)
+23 name (SimpleName)
+24 identifier='mWaitingForMediaScannerResult'
+25 value (BooleanLiteralExpr)
+26 value='false'
+27 statement (IfStmt)
+28 condition (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='debugEnabledSql'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='Global'
+34 thenStmt (BlockStmt)
+35 statements
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='i'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='Log'
+43 arguments
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='LOG_CONTEXT'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='Global'
+50 argument (BinaryExpr)
+51 operator='PLUS'
+52 left (BinaryExpr)
+53 operator='PLUS'
+54 left (BinaryExpr)
+55 operator='PLUS'
+56 left (BinaryExpr)
+57 operator='PLUS'
+58 left (NameExpr)
+59 name (SimpleName)
+60 identifier='mDebugPrefix'
+61 right (StringLiteralExpr)
+62 value=' onCreateLoader'
+63 right (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getDebugContext'
+66 right (StringLiteralExpr)
+67 value=' : query = '
+68 right (NameExpr)
+69 name (SimpleName)
+70 identifier='mGalleryContentQuery'
+71 statement (ReturnStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='createCursorLoader'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='FotoSql'
+78 arguments
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getApplicationContext'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='mGalleryContentQuery'
+85 entrie (SwitchEntryStmt)
+86 statements
+87 statement (ReturnStmt)
+88 expression (NullLiteralExpr)
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Loader'
+92 typeArguments
+93 typeArgument (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Cursor'
+96 name (SimpleName)
+97 identifier='onCreateLoader'
+98 parameters
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='loaderID'
+103 type (PrimitiveType)
+104 type='INT'
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='bundle'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='Bundle'
+112 annotations
+113 annotation (MarkerAnnotationExpr)
+114 name (Name)
+115 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+3 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+14 15
+14 16
+16 17
+17 18
+12 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+12 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+27 34
+34 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+43 50
+50 51
+50 52
+52 53
+52 54
+54 55
+54 56
+56 57
+56 58
+58 59
+59 60
+56 61
+61 62
+54 63
+63 64
+64 65
+52 66
+66 67
+50 68
+68 69
+69 70
+12 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+7 85
+85 86
+86 87
+87 88
+0 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+0 96
+96 97
+0 98
+98 99
+99 100
+99 101
+101 102
+99 103
+103 104
+98 105
+105 106
+105 107
+107 108
+105 109
+109 110
+110 111
+0 112
+112 113
+113 114
+114 115
+
+called by LoaderManager.getLoader(ACTIVITY_ID) to (re)create loader that attaches to last query/cursor if it still exist i.e. after rotation

@@ -1,0 +1,180 @@
+89
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='loadAuthenticationInformation'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='SecurityHelper'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='sample.security.properties'
+16 name (SimpleName)
+17 identifier='authInfo'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='AuthenticationInfo'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='assertNotNull'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='authInfo'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getAsTungstenProperties'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='authInfo'
+39 name (SimpleName)
+40 identifier='securityProp'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='TungstenProperties'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='assertNotNull'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='securityProp'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getBoolean'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='securityProp'
+62 arguments
+63 argument (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='SECURITY_JMX_USE_AUTHENTICATION'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='SecurityConf'
+69 name (SimpleName)
+70 identifier='useJmxAuthentication'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='Boolean'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='assertNotNull'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='useJmxAuthentication'
+82 type (VoidType)
+83 name (SimpleName)
+84 identifier='testRetrieveInformation'
+85 thrownExceptions
+86 thrownException (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='ConfigurationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+32 39
+39 40
+32 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+55 69
+69 70
+55 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+0 82
+0 83
+83 84
+0 85
+85 86
+86 87
+87 88
+
+Confirm that we can retrieve values from the security.properties file

@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='activityId'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='processInstanceId'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='createExecutionQuery'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='runtimeService'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='processInstanceId'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='signalTaskId'
+27 name (SimpleName)
+28 identifier='signalTaskQuery'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='ExecutionQuery'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='singleResult'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='signalTaskQuery'
+42 name (SimpleName)
+43 identifier='execution'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='Execution'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='signal'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='runtimeService'
+54 arguments
+55 argument (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='getId'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='execution'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='signal'
+64 parameters
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='processInstanceId'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='String'
+72 parameter (Parameter)
+73 isVarArgs='false'
+74 name (SimpleName)
+75 identifier='signalTaskId'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+10 19
+19 20
+20 21
+21 22
+7 23
+23 24
+24 25
+25 26
+6 27
+27 28
+6 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+35 42
+42 43
+35 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+0 61
+0 62
+62 63
+0 64
+64 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+64 72
+72 73
+72 74
+74 75
+72 76
+76 77
+77 78
+
+Signals a task by its process instance ID and the ID of the task to signal.

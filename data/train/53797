@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='deshadow'
+0 1
+0 2
+0 3
+3 4
+
+The transient bits will have been added to correctly, we now just need to restore the commit bits from the m_saveCommit, to allow re-allocation of non-committed storage.

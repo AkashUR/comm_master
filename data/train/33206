@@ -1,0 +1,182 @@
+90
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='registerService'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='socketRpcServer'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='withResponse'
+14 scope (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='FakeServiceImpl'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='REQUEST'
+22 arguments
+23 argument (NullLiteralExpr)
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 initializer (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='withRequest'
+31 scope (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='FakeSocket'
+35 arguments
+36 argument (BooleanLiteralExpr)
+37 value='false'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='RPC_REQUEST'
+42 name (SimpleName)
+43 identifier='socket'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='FakeSocket'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='runHandler'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='socket'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='assertTrue'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getCallback'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getResponse'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='socket'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='assertFalse'
+73 arguments
+74 argument (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='hasResponseProto'
+77 scope (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='getResponse'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='socket'
+83 type (VoidType)
+84 name (SimpleName)
+85 identifier='testNullCallBack'
+86 thrownExceptions
+87 thrownException (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+11 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+28 38
+38 39
+39 40
+40 41
+27 42
+42 43
+27 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+77 80
+80 81
+81 82
+0 83
+0 84
+84 85
+0 86
+86 87
+87 88
+88 89
+
+Successful RPC but callback is called with null.

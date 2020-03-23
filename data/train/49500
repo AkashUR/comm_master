@@ -1,0 +1,72 @@
+35
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='drawRenderedImage'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mGraphics'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='img'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='xform'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='drawRenderedImage'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='img'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='RenderedImage'
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='xform'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='AffineTransform'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+20 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+
+Draws an image, applying a transform from image space into user space before drawing. The transformation from user space into device space is done with the current transform in the Graphics2D. The given transformation is applied to the image before the transform attribute in the Graphics2D state is applied. The rendering attributes applied include the clip, transform, and composite attributes. Note that the result is undefined, if the given transform is noninvertible.

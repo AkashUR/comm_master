@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='copy'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='instance'
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='Instance'
+17 name (SimpleName)
+18 identifier='newInstance'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Instance'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='setDataset'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='newInstance'
+29 arguments
+30 argument (ThisExpr)
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='add'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='m_Instances'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='index'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='newInstance'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='add'
+48 parameters
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='index'
+53 type (PrimitiveType)
+54 type='INT'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='instance'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Instance'
+62 annotations
+63 annotation (MarkerAnnotationExpr)
+64 name (Name)
+65 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+49 51
+51 52
+49 53
+53 54
+48 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+0 62
+62 63
+63 64
+64 65
+
+Adds one instance at the given position in the list. Shallow copies instance before it is added. Increases the size of the dataset if it is not large enough. Does not check if the instance is compatible with the dataset. Note: String or relational values are not transferred.

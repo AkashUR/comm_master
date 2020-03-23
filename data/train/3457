@@ -1,0 +1,200 @@
+99
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (AssertStmt)
+4 check (BinaryExpr)
+5 operator='GREATER'
+6 left (NameExpr)
+7 name (SimpleName)
+8 identifier='density'
+9 right (IntegerLiteralExpr)
+10 value='0'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='mDisplayDensity'
+17 value (NameExpr)
+18 name (SimpleName)
+19 identifier='density'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='setDefaultZoomScale'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='density'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='mActualScale'
+34 value (NameExpr)
+35 name (SimpleName)
+36 identifier='density'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='mInvActualScale'
+43 value (BinaryExpr)
+44 operator='DIVIDE'
+45 left (IntegerLiteralExpr)
+46 value='1'
+47 right (NameExpr)
+48 name (SimpleName)
+49 identifier='density'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (NameExpr)
+54 name (SimpleName)
+55 identifier='mTextWrapScale'
+56 value (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getReadingLevelScale'
+59 type (VoidType)
+60 name (SimpleName)
+61 identifier='init'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='density'
+67 type (PrimitiveType)
+68 type='FLOAT'
+69 annotations
+70 annotation (NormalAnnotationExpr)
+71 name (Name)
+72 identifier='DSGenerator'
+73 pairs
+74 pair (MemberValuePair)
+75 name (SimpleName)
+76 identifier='tool_name'
+77 value (StringLiteralExpr)
+78 value='Doppelganger'
+79 pair (MemberValuePair)
+80 name (SimpleName)
+81 identifier='tool_version'
+82 value (StringLiteralExpr)
+83 value='2.0'
+84 pair (MemberValuePair)
+85 name (SimpleName)
+86 identifier='generated_on'
+87 value (StringLiteralExpr)
+88 value='2013-12-30 12:33:00.031 -0500'
+89 pair (MemberValuePair)
+90 name (SimpleName)
+91 identifier='hash_original_method'
+92 value (StringLiteralExpr)
+93 value='93CFAAB8556EE96135ADFFE4D2689C29'
+94 pair (MemberValuePair)
+95 name (SimpleName)
+96 identifier='hash_generated_method'
+97 value (StringLiteralExpr)
+98 value='E6F0C5AC03E54EF67D95CA417E603EAC'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+57 58
+0 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+0 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+75 76
+74 77
+77 78
+73 79
+79 80
+80 81
+79 82
+82 83
+73 84
+84 85
+85 86
+84 87
+87 88
+73 89
+89 90
+90 91
+89 92
+92 93
+73 94
+94 95
+95 96
+94 97
+97 98
+
+Initialize both the default and actual zoom scale to the given density.

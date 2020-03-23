@@ -1,0 +1,254 @@
+126
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mOffset'
+9 value (BinaryExpr)
+10 operator='MULTIPLY'
+11 left (DoubleLiteralExpr)
+12 value='0.1f'
+13 right (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='min'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='Math'
+19 arguments
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='width'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='bitmapRect'
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='height'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='bitmapRect'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (NameExpr)
+36 name (SimpleName)
+37 identifier='mDrawableWidth'
+38 value (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='width'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='bitmapRect'
+44 statement (ExpressionStmt)
+45 expression (AssignExpr)
+46 operator='ASSIGN'
+47 target (NameExpr)
+48 name (SimpleName)
+49 identifier='mDrawableHeight'
+50 value (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='height'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='bitmapRect'
+56 statement (ExpressionStmt)
+57 expression (AssignExpr)
+58 operator='ASSIGN'
+59 target (NameExpr)
+60 name (SimpleName)
+61 identifier='mCenterPointX'
+62 value (BinaryExpr)
+63 operator='DIVIDE'
+64 left (NameExpr)
+65 name (SimpleName)
+66 identifier='mDrawableWidth'
+67 right (DoubleLiteralExpr)
+68 value='2.0f'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (NameExpr)
+73 name (SimpleName)
+74 identifier='mCenterPointY'
+75 value (BinaryExpr)
+76 operator='DIVIDE'
+77 left (NameExpr)
+78 name (SimpleName)
+79 identifier='mDrawableHeight'
+80 right (DoubleLiteralExpr)
+81 value='2.0f'
+82 statement (ExpressionStmt)
+83 expression (AssignExpr)
+84 operator='ASSIGN'
+85 target (NameExpr)
+86 name (SimpleName)
+87 identifier='mRadius'
+88 value (BinaryExpr)
+89 operator='DIVIDE'
+90 left (EnclosedExpr)
+91 inner (BinaryExpr)
+92 operator='MINUS'
+93 left (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='min'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='Math'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='mDrawableWidth'
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='mDrawableHeight'
+106 right (NameExpr)
+107 name (SimpleName)
+108 identifier='mOffset'
+109 right (DoubleLiteralExpr)
+110 value='2.0f'
+111 type (VoidType)
+112 name (SimpleName)
+113 identifier='initCircleCropWindow'
+114 parameters
+115 parameter (Parameter)
+116 isVarArgs='false'
+117 name (SimpleName)
+118 identifier='bitmapRect'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='RectF'
+122 annotations
+123 annotation (MarkerAnnotationExpr)
+124 name (Name)
+125 identifier='NonNull'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+9 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+19 26
+26 27
+27 28
+26 29
+29 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+39 40
+38 41
+41 42
+42 43
+2 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+51 52
+50 53
+53 54
+54 55
+2 56
+56 57
+57 58
+57 59
+59 60
+60 61
+57 62
+62 63
+62 64
+64 65
+65 66
+62 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+70 75
+75 76
+75 77
+77 78
+78 79
+75 80
+80 81
+2 82
+82 83
+83 84
+83 85
+85 86
+86 87
+83 88
+88 89
+88 90
+90 91
+91 92
+91 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+101 102
+99 103
+103 104
+104 105
+91 106
+106 107
+107 108
+88 109
+109 110
+0 111
+0 112
+112 113
+0 114
+114 115
+115 116
+115 117
+117 118
+115 119
+119 120
+120 121
+115 122
+122 123
+123 124
+124 125
+
+Initialize the crop window by setting the proper values. <p/> If fixed aspect ratio is turned off, the initial crop window will be set to the displayed image with 10% margin.

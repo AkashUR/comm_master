@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkState'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Preconditions'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='GREATER'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='mInUseLength'
+16 right (IntegerLiteralExpr)
+17 value='0'
+18 statement (ExpressionStmt)
+19 expression (UnaryExpr)
+20 operator='POSTFIX_DECREMENT'
+21 expression (NameExpr)
+22 name (SimpleName)
+23 identifier='mInUseLength'
+24 type (VoidType)
+25 name (SimpleName)
+26 identifier='decrementInUseCount'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+0 24
+0 25
+25 26
+
+Decrement the mInUseCount field. Used by the pool to update the bucket info when a value was freed, instead of being returned to the bucket's free list

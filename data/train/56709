@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='consult'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Consult1'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='ins'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='strStreamName'
+17 argument (ThisExpr)
+18 argument (IntegerLiteralExpr)
+19 value='0'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='equals'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getEnvVariable'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='enable_clause_check'
+29 arguments
+30 argument (StringLiteralExpr)
+31 value='true'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='consultStream'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='ins'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='InputStream'
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='strStreamName'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='String'
+50 thrownExceptions
+51 thrownException (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='JIPSyntaxErrorException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+10 18
+18 19
+10 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+20 29
+29 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+35 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+0 50
+50 51
+51 52
+52 53
+
+Consults a Stream. If in the stream there are some no multifile predicates already consulted/loaded in another file/stream the interpreter raises an exception.<br>

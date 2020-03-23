@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='edit'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getDefaultSharedPreferences'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='PreferenceManager'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='context'
+20 name (SimpleName)
+21 identifier='editor'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Editor'
+25 scope (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='SharedPreferences'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='putString'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='editor'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='DELAYED_ACCOUNT_NAME'
+39 argument (NullLiteralExpr)
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='putStringSet'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='editor'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='DELAYED_INVALIDATIONS'
+51 argument (NullLiteralExpr)
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='apply'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='editor'
+59 type (VoidType)
+60 name (SimpleName)
+61 identifier='clearPendingInvalidations'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='context'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='Context'
+70 annotations
+71 annotation (MarkerAnnotationExpr)
+72 name (Name)
+73 identifier='VisibleForTesting'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+22 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+35 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+47 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+0 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+If there are any pending invalidations, they will be cleared.

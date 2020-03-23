@@ -1,0 +1,120 @@
+59
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='workerState'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='RaptorWorkerState'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='cumulativeMs'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='workerState'
+22 value (IntegerLiteralExpr)
+23 value='0'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='start'
+28 scope (ObjectCreationExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Thread'
+32 arguments
+33 argument (NullLiteralExpr)
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='runRaptorAsync'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='accessTimes'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='TIntIntMap'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='nonTransitTimes'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='PointSetTimes'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='ts'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='TaskStatistics'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+19 20
+20 21
+14 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+28 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+37 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+37 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+
+Run RAPTOR in its own thread that will be paused and unpaused as the search progresses

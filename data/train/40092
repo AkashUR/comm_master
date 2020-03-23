@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='FileOutputStream'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='file'
+15 name (SimpleName)
+16 identifier='fos'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='FileOutputStream'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='compress'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='bm'
+27 arguments
+28 argument (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='JPEG'
+31 scope (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='CompressFormat'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='Bitmap'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='quality'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='fos'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='flush'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='fos'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='close'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='fos'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='writeBitmapToFile'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='bm'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='Bitmap'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='file'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='File'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='quality'
+79 type (PrimitiveType)
+80 type='INT'
+81 thrownExceptions
+82 thrownException (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+27 37
+37 38
+38 39
+27 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+60 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+60 75
+75 76
+75 77
+77 78
+75 79
+79 80
+0 81
+81 82
+82 83
+83 84
+
+Write the given bitmap into the given file. JPEG is used as the compression format with quality set to 100.

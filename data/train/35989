@@ -1,0 +1,296 @@
+147
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getServiceTicket'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='serverName'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='acc'
+17 name (SimpleName)
+18 identifier='ticket'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='KerberosTicket'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='encodedTicket'
+28 value (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getEncoded'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='ticket'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='peerPrincipal'
+40 value (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getServer'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='ticket'
+46 statement (ExpressionStmt)
+47 expression (AssignExpr)
+48 operator='ASSIGN'
+49 target (NameExpr)
+50 name (SimpleName)
+51 identifier='localPrincipal'
+52 value (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getClient'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='ticket'
+58 statement (ExpressionStmt)
+59 expression (VariableDeclarationExpr)
+60 variables
+61 variable (VariableDeclarator)
+62 initializer (ObjectCreationExpr)
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='EncryptionKey'
+66 arguments
+67 argument (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='getSessionKeyType'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='ticket'
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getEncoded'
+76 scope (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='getSessionKey'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='ticket'
+82 name (SimpleName)
+83 identifier='sessionKey'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='EncryptionKey'
+87 statement (ExpressionStmt)
+88 expression (AssignExpr)
+89 operator='ASSIGN'
+90 target (NameExpr)
+91 name (SimpleName)
+92 identifier='preMaster'
+93 value (ObjectCreationExpr)
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='KerberosPreMasterSecret'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='protocolVersion'
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='rand'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='sessionKey'
+107 type (VoidType)
+108 name (SimpleName)
+109 identifier='init'
+110 parameters
+111 parameter (Parameter)
+112 isVarArgs='false'
+113 name (SimpleName)
+114 identifier='serverName'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='String'
+118 parameter (Parameter)
+119 isVarArgs='false'
+120 name (SimpleName)
+121 identifier='acc'
+122 type (ClassOrInterfaceType)
+123 name (SimpleName)
+124 identifier='AccessControlContext'
+125 parameter (Parameter)
+126 isVarArgs='false'
+127 name (SimpleName)
+128 identifier='protocolVersion'
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='ProtocolVersion'
+132 parameter (Parameter)
+133 isVarArgs='false'
+134 name (SimpleName)
+135 identifier='rand'
+136 type (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='SecureRandom'
+139 thrownExceptions
+140 thrownException (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='IOException'
+143 annotations
+144 annotation (MarkerAnnotationExpr)
+145 name (Name)
+146 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+28 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+47 49
+49 50
+50 51
+47 52
+52 53
+53 54
+52 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+66 73
+73 74
+74 75
+73 76
+76 77
+77 78
+76 79
+79 80
+80 81
+61 82
+82 83
+61 84
+84 85
+85 86
+2 87
+87 88
+88 89
+88 90
+90 91
+91 92
+88 93
+93 94
+94 95
+95 96
+93 97
+97 98
+98 99
+99 100
+97 101
+101 102
+102 103
+97 104
+104 105
+105 106
+0 107
+0 108
+108 109
+0 110
+110 111
+111 112
+111 113
+113 114
+111 115
+115 116
+116 117
+110 118
+118 119
+118 120
+120 121
+118 122
+122 123
+123 124
+110 125
+125 126
+125 127
+127 128
+125 129
+129 130
+130 131
+110 132
+132 133
+132 134
+134 135
+132 136
+136 137
+137 138
+0 139
+139 140
+140 141
+141 142
+0 143
+143 144
+144 145
+145 146
+
+Creates an instance of KerberosClientKeyExchange consisting of the Kerberos service ticket, authenticator and encrypted premaster secret. Called by client handshaker.

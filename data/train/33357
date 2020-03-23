@@ -1,0 +1,192 @@
+95
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newVOOrganizationPaymentConfiguration'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='customerOrg'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='newVOPaymentTypeSet'
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='INVOICE'
+20 name (SimpleName)
+21 identifier='paymentConfig'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='VOOrganizationPaymentConfiguration'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='asList'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='Arrays'
+35 arguments
+36 argument (ArrayCreationExpr)
+37 elementType (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='VOOrganizationPaymentConfiguration'
+40 initializer (ArrayInitializerExpr)
+41 values
+42 value (NameExpr)
+43 name (SimpleName)
+44 identifier='paymentConfig'
+45 levels
+46 level (ArrayCreationLevel)
+47 name (SimpleName)
+48 identifier='paymentConfigList'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='List'
+52 typeArguments
+53 typeArgument (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='VOOrganizationPaymentConfiguration'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='savePaymentConfiguration'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='accountService'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getDefaultPaymentConfig'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='paymentConfigList'
+70 argument (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='getDefaultServicePaymentConfig'
+73 argument (NullLiteralExpr)
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='reassignCustomerPaymentTypes'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='customerOrg'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='VOOrganization'
+85 thrownExceptions
+86 thrownException (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='ObjectNotFoundException'
+89 thrownException (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='OperationNotPermittedException'
+92 thrownException (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='OperationPendingException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+42 43
+43 44
+36 45
+45 46
+28 47
+47 48
+28 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+63 70
+70 71
+71 72
+63 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+0 85
+85 86
+86 87
+87 88
+85 89
+89 90
+90 91
+85 92
+92 93
+93 94
+
+Assign the payment type "INVOICE" to the given customer organization. If the customer had no payment types, but has suspended subscriptions, these subscriptions will be resumed.

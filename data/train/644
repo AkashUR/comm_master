@@ -1,0 +1,430 @@
+214
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mState'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='STATE_INITIALIZED'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (ArrayCreationExpr)
+17 elementType (PrimitiveType)
+18 type='INT'
+19 levels
+20 level (ArrayCreationLevel)
+21 dimension (IntegerLiteralExpr)
+22 value='1'
+23 name (SimpleName)
+24 identifier='textures'
+25 type (ArrayType)
+26 origin='TYPE'
+27 componentType (PrimitiveType)
+28 type='INT'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='glGenTextures'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='gl'
+36 arguments
+37 argument (IntegerLiteralExpr)
+38 value='1'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='textures'
+42 argument (IntegerLiteralExpr)
+43 value='0'
+44 statement (ExpressionStmt)
+45 expression (AssignExpr)
+46 operator='ASSIGN'
+47 target (NameExpr)
+48 name (SimpleName)
+49 identifier='mTextureID'
+50 value (ArrayAccessExpr)
+51 index (IntegerLiteralExpr)
+52 value='0'
+53 name (NameExpr)
+54 name (SimpleName)
+55 identifier='textures'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='glBindTexture'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='gl'
+63 arguments
+64 argument (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='GL_TEXTURE_2D'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='GL10'
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='mTextureID'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='glTexParameterf'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='gl'
+80 arguments
+81 argument (FieldAccessExpr)
+82 name (SimpleName)
+83 identifier='GL_TEXTURE_2D'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='GL10'
+87 argument (FieldAccessExpr)
+88 name (SimpleName)
+89 identifier='GL_TEXTURE_MIN_FILTER'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='GL10'
+93 argument (FieldAccessExpr)
+94 name (SimpleName)
+95 identifier='GL_NEAREST'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='GL10'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='glTexParameterf'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='gl'
+106 arguments
+107 argument (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='GL_TEXTURE_2D'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='GL10'
+113 argument (FieldAccessExpr)
+114 name (SimpleName)
+115 identifier='GL_TEXTURE_MAG_FILTER'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='GL10'
+119 argument (FieldAccessExpr)
+120 name (SimpleName)
+121 identifier='GL_NEAREST'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='GL10'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='glTexParameterf'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='gl'
+132 arguments
+133 argument (FieldAccessExpr)
+134 name (SimpleName)
+135 identifier='GL_TEXTURE_2D'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='GL10'
+139 argument (FieldAccessExpr)
+140 name (SimpleName)
+141 identifier='GL_TEXTURE_WRAP_S'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='GL10'
+145 argument (FieldAccessExpr)
+146 name (SimpleName)
+147 identifier='GL_CLAMP_TO_EDGE'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='GL10'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='glTexParameterf'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='gl'
+158 arguments
+159 argument (FieldAccessExpr)
+160 name (SimpleName)
+161 identifier='GL_TEXTURE_2D'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='GL10'
+165 argument (FieldAccessExpr)
+166 name (SimpleName)
+167 identifier='GL_TEXTURE_WRAP_T'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='GL10'
+171 argument (FieldAccessExpr)
+172 name (SimpleName)
+173 identifier='GL_CLAMP_TO_EDGE'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='GL10'
+177 statement (ExpressionStmt)
+178 expression (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='glTexEnvf'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='gl'
+184 arguments
+185 argument (FieldAccessExpr)
+186 name (SimpleName)
+187 identifier='GL_TEXTURE_ENV'
+188 scope (NameExpr)
+189 name (SimpleName)
+190 identifier='GL10'
+191 argument (FieldAccessExpr)
+192 name (SimpleName)
+193 identifier='GL_TEXTURE_ENV_MODE'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='GL10'
+197 argument (FieldAccessExpr)
+198 name (SimpleName)
+199 identifier='GL_REPLACE'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='GL10'
+203 type (VoidType)
+204 name (SimpleName)
+205 identifier='initialize'
+206 parameters
+207 parameter (Parameter)
+208 isVarArgs='false'
+209 name (SimpleName)
+210 identifier='gl'
+211 type (ClassOrInterfaceType)
+212 name (SimpleName)
+213 identifier='GL10'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+15 23
+23 24
+15 25
+25 26
+25 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+2 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+51 52
+50 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+63 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+80 87
+87 88
+88 89
+87 90
+90 91
+91 92
+80 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+106 113
+113 114
+114 115
+113 116
+116 117
+117 118
+106 119
+119 120
+120 121
+119 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+132 139
+139 140
+140 141
+139 142
+142 143
+143 144
+132 145
+145 146
+146 147
+145 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+152 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+158 165
+165 166
+166 167
+165 168
+168 169
+169 170
+158 171
+171 172
+172 173
+171 174
+174 175
+175 176
+2 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+178 184
+184 185
+185 186
+186 187
+185 188
+188 189
+189 190
+184 191
+191 192
+192 193
+191 194
+194 195
+195 196
+184 197
+197 198
+198 199
+197 200
+200 201
+201 202
+0 203
+0 204
+204 205
+0 206
+206 207
+207 208
+207 209
+209 210
+207 211
+211 212
+212 213
+
+Call to initialize the class. Call whenever the surface has been created.

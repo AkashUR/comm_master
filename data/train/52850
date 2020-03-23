@@ -1,0 +1,92 @@
+45
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='source'
+9 argument (ConditionalExpr)
+10 condition (EnclosedExpr)
+11 inner (BinaryExpr)
+12 operator='EQUALS'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='path'
+16 right (NullLiteralExpr)
+17 elseExpr (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='TreePath'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='path'
+25 thenExpr (NullLiteralExpr)
+26 name (SimpleName)
+27 identifier='TreeModelEvent'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='source'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Object'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='path'
+40 type (ArrayType)
+41 origin='TYPE'
+42 componentType (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+9 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+23 24
+9 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+28 36
+36 37
+36 38
+38 39
+36 40
+40 41
+40 42
+42 43
+43 44
+
+Used to create an event when the node structure has changed in some way, identifying the path to the root of a modified subtree as an array of Objects. A structure change event might involve nodes swapping position, for example, or it might encapsulate multiple inserts and deletes in the subtree stemming from the node, where the changes may have taken place at different levels of the subtree. <blockquote> <b>Note:</b><br> JTree collapses all nodes under the specified node, so that only its immediate children are visible. </blockquote>

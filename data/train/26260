@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setLongAtOffset'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Magic'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='toObject'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='objref'
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='toOffset'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='offset'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='value'
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='toInt'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='location'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='longWrite'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='objref'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='ObjectReference'
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='value'
+47 type (PrimitiveType)
+48 type='LONG'
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='offset'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Word'
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='location'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='Word'
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='mode'
+67 type (PrimitiveType)
+68 type='INT'
+69 annotations
+70 annotation (MarkerAnnotationExpr)
+71 name (Name)
+72 identifier='Inline'
+73 annotation (MarkerAnnotationExpr)
+74 name (Name)
+75 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+17 20
+20 21
+21 22
+10 23
+23 24
+24 25
+10 26
+26 27
+27 28
+26 29
+29 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+35 43
+43 44
+43 45
+45 46
+43 47
+47 48
+35 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+35 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+35 63
+63 64
+63 65
+65 66
+63 67
+67 68
+0 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+
+Perform the actual write of a long write barrier.

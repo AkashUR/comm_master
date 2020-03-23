@@ -1,0 +1,190 @@
+94
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='d'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='LogUtils'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='TAG'
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (BinaryExpr)
+17 operator='PLUS'
+18 left (StringLiteralExpr)
+19 value='handleStopRequest: mState='
+20 right (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getState'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='mPlayback'
+26 right (StringLiteralExpr)
+27 value=' error='
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='withError'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='stop'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='mPlayback'
+38 arguments
+39 argument (BooleanLiteralExpr)
+40 value='true'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='removeCallbacksAndMessages'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='mDelayedStopHandler'
+48 arguments
+49 argument (NullLiteralExpr)
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='sendEmptyMessageDelayed'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='mDelayedStopHandler'
+57 arguments
+58 argument (IntegerLiteralExpr)
+59 value='0'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='STOP_DELAY'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='updatePlaybackState'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='withError'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='stopSelf'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='ASSIGN'
+78 target (NameExpr)
+79 name (SimpleName)
+80 identifier='mServiceStarted'
+81 value (BooleanLiteralExpr)
+82 value='false'
+83 type (VoidType)
+84 name (SimpleName)
+85 identifier='handleStopRequest'
+86 parameters
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='withError'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+14 16
+16 17
+16 18
+18 19
+16 20
+20 21
+21 22
+20 23
+23 24
+24 25
+14 26
+26 27
+10 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+57 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+2 75
+75 76
+76 77
+76 78
+78 79
+79 80
+76 81
+81 82
+0 83
+0 84
+84 85
+0 86
+86 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+
+Handle a request to stop music

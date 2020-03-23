@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addNotify'
+7 scope (SuperExpr)
+8 statement (ExpressionStmt)
+9 expression (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='addCaretListener'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='textArea'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='listener'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='addPropertyChangeListener'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='textArea'
+26 arguments
+27 argument (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='PARSER_NOTICES_PROPERTY'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='RSyntaxTextArea'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='listener'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='addPropertyChangeListener'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='textArea'
+43 arguments
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='MARK_OCCURRENCES_PROPERTY'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='RSyntaxTextArea'
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='listener'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='addPropertyChangeListener'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='textArea'
+60 arguments
+61 argument (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='MARKED_OCCURRENCES_CHANGED_PROPERTY'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='RSyntaxTextArea'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='listener'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='refreshMarkers'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='addNotify'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+43 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+60 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+0 74
+0 75
+75 76
+
+Overridden so we only start listening for parser notices when this component (and presumably the text area) are visible.

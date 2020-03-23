@@ -1,0 +1,488 @@
+243
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='of'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='ImmutableList'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='OBS_1'
+17 name (SimpleName)
+18 identifier='allObservations'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='List'
+22 typeArguments
+23 typeArgument (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Obs'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='of'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='ImmutableMap'
+36 arguments
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='conceptUuid'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='OBS_1'
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='OBS_1'
+46 name (SimpleName)
+47 identifier='recentObservations'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Map'
+51 typeArguments
+52 typeArgument (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+55 typeArgument (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='Obs'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='thenReturn'
+62 scope (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='when'
+65 arguments
+66 argument (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='getObservations'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='mMockChartHelper'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='PATIENT_UUID_1'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='allObservations'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='thenReturn'
+84 scope (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='when'
+87 arguments
+88 argument (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='getLatestObservations'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='mMockChartHelper'
+94 arguments
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='PATIENT_UUID_1'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='recentObservations'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='init'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='mController'
+109 statement (ExpressionStmt)
+110 expression (VariableDeclarationExpr)
+111 variables
+112 variable (VariableDeclarator)
+113 initializer (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='build'
+116 scope (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='builder'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='Patient'
+122 name (SimpleName)
+123 identifier='patient'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='Patient'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='post'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='mFakeCrudEventBus'
+134 arguments
+135 argument (ObjectCreationExpr)
+136 type (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='ItemFetchedEvent'
+139 arguments
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='patient'
+143 statement (ExpressionStmt)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='runUntilEmpty'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='mFakeHandler'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='updateTilesAndGrid'
+154 scope (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='verify'
+157 arguments
+158 argument (NameExpr)
+159 name (SimpleName)
+160 identifier='mMockUi'
+161 arguments
+162 argument (NullLiteralExpr)
+163 argument (NameExpr)
+164 name (SimpleName)
+165 identifier='recentObservations'
+166 argument (NameExpr)
+167 name (SimpleName)
+168 identifier='allObservations'
+169 argument (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='of'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='ImmutableList'
+175 typeArguments
+176 typeArgument (ClassOrInterfaceType)
+177 name (SimpleName)
+178 identifier='Order'
+179 argument (NullLiteralExpr)
+180 argument (NullLiteralExpr)
+181 statement (ExpressionStmt)
+182 expression (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='updateAdmissionDateAndFirstSymptomsDateUi'
+185 scope (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='verify'
+188 arguments
+189 argument (NameExpr)
+190 name (SimpleName)
+191 identifier='mMockUi'
+192 arguments
+193 argument (NullLiteralExpr)
+194 argument (NullLiteralExpr)
+195 statement (ExpressionStmt)
+196 expression (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='updateWeightUi'
+199 scope (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='verify'
+202 arguments
+203 argument (NameExpr)
+204 name (SimpleName)
+205 identifier='mMockUi'
+206 arguments
+207 argument (NameExpr)
+208 name (SimpleName)
+209 identifier='recentObservations'
+210 statement (ExpressionStmt)
+211 expression (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='updateEbolaPcrTestResultUi'
+214 scope (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='verify'
+217 arguments
+218 argument (NameExpr)
+219 name (SimpleName)
+220 identifier='mMockUi'
+221 arguments
+222 argument (NameExpr)
+223 name (SimpleName)
+224 identifier='recentObservations'
+225 statement (ExpressionStmt)
+226 expression (MethodCallExpr)
+227 name (SimpleName)
+228 identifier='updatePregnancyAndIvStatusUi'
+229 scope (MethodCallExpr)
+230 name (SimpleName)
+231 identifier='verify'
+232 arguments
+233 argument (NameExpr)
+234 name (SimpleName)
+235 identifier='mMockUi'
+236 arguments
+237 argument (NameExpr)
+238 name (SimpleName)
+239 identifier='recentObservations'
+240 type (VoidType)
+241 name (SimpleName)
+242 identifier='testPatientDetailsLoaded_SetsObservationsOnUi'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+36 43
+43 44
+44 45
+29 46
+46 47
+29 48
+48 49
+49 50
+48 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+74 75
+59 76
+76 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+84 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+81 98
+98 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+116 119
+119 120
+120 121
+112 122
+122 123
+112 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+135 136
+136 137
+137 138
+135 139
+139 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+154 157
+157 158
+158 159
+159 160
+151 161
+161 162
+161 163
+163 164
+164 165
+161 166
+166 167
+167 168
+161 169
+169 170
+170 171
+169 172
+172 173
+173 174
+169 175
+175 176
+176 177
+177 178
+161 179
+161 180
+2 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+185 188
+188 189
+189 190
+190 191
+182 192
+192 193
+192 194
+2 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+199 202
+202 203
+203 204
+204 205
+196 206
+206 207
+207 208
+208 209
+2 210
+210 211
+211 212
+212 213
+211 214
+214 215
+215 216
+214 217
+217 218
+218 219
+219 220
+211 221
+221 222
+222 223
+223 224
+2 225
+225 226
+226 227
+227 228
+226 229
+229 230
+230 231
+229 232
+232 233
+233 234
+234 235
+226 236
+236 237
+237 238
+238 239
+0 240
+0 241
+241 242
+
+Tests that observations are updated in the UI when patient details fetched.

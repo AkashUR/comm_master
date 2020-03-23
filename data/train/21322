@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='get'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='vertices'
+13 scope (ThisExpr)
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='i'
+18 name (SimpleName)
+19 identifier='vertex1'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='DoubleEdgeListVertex'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='get'
+30 scope (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='vertices'
+33 scope (ThisExpr)
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='j'
+38 name (SimpleName)
+39 identifier='vertex2'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='DoubleEdgeListVertex'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='addHalfEdges'
+47 scope (ThisExpr)
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='vertex1'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='vertex2'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='addHalfEdges'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='i'
+63 type (PrimitiveType)
+64 type='INT'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='j'
+69 type (PrimitiveType)
+70 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+7 14
+14 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+27 34
+34 35
+35 36
+36 37
+26 38
+38 39
+26 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+44 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+58 65
+65 66
+65 67
+67 68
+65 69
+69 70
+
+Adds two half edges to this DCEL object given the vertices to connect. <p> This method assumes that no crossing edges will be added.

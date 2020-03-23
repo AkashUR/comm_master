@@ -1,0 +1,162 @@
+80
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 statement (ExpressionStmt)
+6 expression (AssignExpr)
+7 operator='ASSIGN'
+8 target (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='cache'
+11 scope (ThisExpr)
+12 value (ArrayCreationExpr)
+13 elementType (PrimitiveType)
+14 type='BYTE'
+15 levels
+16 level (ArrayCreationLevel)
+17 dimension (NameExpr)
+18 name (SimpleName)
+19 identifier='bufferSize'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='out'
+26 scope (ThisExpr)
+27 value (NameExpr)
+28 name (SimpleName)
+29 identifier='out'
+30 name (SimpleName)
+31 identifier='ChunkedOutputStream'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='out'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='SessionOutputBuffer'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='bufferSize'
+44 type (PrimitiveType)
+45 type='INT'
+46 thrownExceptions
+47 thrownException (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='IOException'
+50 annotations
+51 annotation (NormalAnnotationExpr)
+52 name (Name)
+53 identifier='DSGenerator'
+54 pairs
+55 pair (MemberValuePair)
+56 name (SimpleName)
+57 identifier='tool_name'
+58 value (StringLiteralExpr)
+59 value='Doppelganger'
+60 pair (MemberValuePair)
+61 name (SimpleName)
+62 identifier='tool_version'
+63 value (StringLiteralExpr)
+64 value='2.0'
+65 pair (MemberValuePair)
+66 name (SimpleName)
+67 identifier='generated_on'
+68 value (StringLiteralExpr)
+69 value='2013-12-30 13:01:42.509 -0500'
+70 pair (MemberValuePair)
+71 name (SimpleName)
+72 identifier='hash_original_method'
+73 value (StringLiteralExpr)
+74 value='56C47BEE54D84D2C2F06C5F3380F6FB5'
+75 pair (MemberValuePair)
+76 name (SimpleName)
+77 identifier='hash_generated_method'
+78 value (StringLiteralExpr)
+79 value='137823E306F1E3181E0323F27A60481E'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+6 8
+8 9
+9 10
+8 11
+6 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+23 26
+21 27
+27 28
+28 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+32 40
+40 41
+40 42
+42 43
+40 44
+44 45
+0 46
+46 47
+47 48
+48 49
+0 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+55 58
+58 59
+54 60
+60 61
+61 62
+60 63
+63 64
+54 65
+65 66
+66 67
+65 68
+68 69
+54 70
+70 71
+71 72
+70 73
+73 74
+54 75
+75 76
+76 77
+75 78
+78 79
+
+Wraps a session output buffer and chunks the output.

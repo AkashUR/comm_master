@@ -1,0 +1,114 @@
+56
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 statement (ExpressionStmt)
+6 expression (VariableDeclarationExpr)
+7 variables
+8 variable (VariableDeclarator)
+9 initializer (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='iterator'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='prefixes'
+15 name (SimpleName)
+16 identifier='iter'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Iterator'
+20 typeArguments
+21 typeArgument (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='String'
+24 statement (WhileStmt)
+25 body (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='addPatternForward'
+29 arguments
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='next'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='iter'
+36 condition (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='hasNext'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='iter'
+42 name (SimpleName)
+43 identifier='PrefixStringMatcher'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='prefixes'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Collection'
+52 typeArguments
+53 typeArgument (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='String'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+8 15
+15 16
+8 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+24 36
+36 37
+37 38
+36 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+
+Creates a new <code>PrefixStringMatcher</code> which will match <code>String</code>s with any prefix in the supplied <code>Collection</code>.

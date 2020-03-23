@@ -1,0 +1,402 @@
+200
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='glMatrixMode'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='gl'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='GL_PROJECTION'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='GL2'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='glLoadIdentity'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='gl'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='gluPerspective'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='glu'
+31 arguments
+32 argument (DoubleLiteralExpr)
+33 value='45f'
+34 argument (BinaryExpr)
+35 operator='DIVIDE'
+36 left (NameExpr)
+37 name (SimpleName)
+38 identifier='width'
+39 right (CastExpr)
+40 expression (NameExpr)
+41 name (SimpleName)
+42 identifier='height'
+43 type (PrimitiveType)
+44 type='FLOAT'
+45 argument (DoubleLiteralExpr)
+46 value='0.f'
+47 argument (DoubleLiteralExpr)
+48 value='10.f'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (ArrayAccessExpr)
+53 index (IntegerLiteralExpr)
+54 value='0'
+55 name (NameExpr)
+56 name (SimpleName)
+57 identifier='eye'
+58 value (BinaryExpr)
+59 operator='MULTIPLY'
+60 left (CastExpr)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='sin'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='Math'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='theta'
+71 type (PrimitiveType)
+72 type='FLOAT'
+73 right (DoubleLiteralExpr)
+74 value='2.f'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='ASSIGN'
+78 target (ArrayAccessExpr)
+79 index (IntegerLiteralExpr)
+80 value='1'
+81 name (NameExpr)
+82 name (SimpleName)
+83 identifier='eye'
+84 value (DoubleLiteralExpr)
+85 value='.5f'
+86 statement (ExpressionStmt)
+87 expression (AssignExpr)
+88 operator='ASSIGN'
+89 target (ArrayAccessExpr)
+90 index (IntegerLiteralExpr)
+91 value='2'
+92 name (NameExpr)
+93 name (SimpleName)
+94 identifier='eye'
+95 value (BinaryExpr)
+96 operator='MULTIPLY'
+97 left (CastExpr)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='cos'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='Math'
+104 arguments
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='theta'
+108 type (PrimitiveType)
+109 type='FLOAT'
+110 right (DoubleLiteralExpr)
+111 value='2.f'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='gluLookAt'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='glu'
+119 arguments
+120 argument (ArrayAccessExpr)
+121 index (IntegerLiteralExpr)
+122 value='0'
+123 name (NameExpr)
+124 name (SimpleName)
+125 identifier='eye'
+126 argument (ArrayAccessExpr)
+127 index (IntegerLiteralExpr)
+128 value='1'
+129 name (NameExpr)
+130 name (SimpleName)
+131 identifier='eye'
+132 argument (ArrayAccessExpr)
+133 index (IntegerLiteralExpr)
+134 value='2'
+135 name (NameExpr)
+136 name (SimpleName)
+137 identifier='eye'
+138 argument (DoubleLiteralExpr)
+139 value='.0f'
+140 argument (DoubleLiteralExpr)
+141 value='.0f'
+142 argument (DoubleLiteralExpr)
+143 value='0.f'
+144 argument (DoubleLiteralExpr)
+145 value='0.f'
+146 argument (DoubleLiteralExpr)
+147 value='1.f'
+148 argument (DoubleLiteralExpr)
+149 value='0.f'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='glMatrixMode'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='gl'
+157 arguments
+158 argument (FieldAccessExpr)
+159 name (SimpleName)
+160 identifier='GL_MODELVIEW'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='GL2'
+164 statement (ExpressionStmt)
+165 expression (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='glLoadIdentity'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='gl'
+171 statement (ExpressionStmt)
+172 expression (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='glViewport'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='gl'
+178 arguments
+179 argument (IntegerLiteralExpr)
+180 value='0'
+181 argument (IntegerLiteralExpr)
+182 value='0'
+183 argument (NameExpr)
+184 name (SimpleName)
+185 identifier='width'
+186 argument (NameExpr)
+187 name (SimpleName)
+188 identifier='height'
+189 type (VoidType)
+190 name (SimpleName)
+191 identifier='applyCamera'
+192 parameters
+193 parameter (Parameter)
+194 isVarArgs='false'
+195 name (SimpleName)
+196 identifier='gl'
+197 type (ClassOrInterfaceType)
+198 name (SimpleName)
+199 identifier='GL2'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+31 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+40 41
+41 42
+39 43
+43 44
+31 45
+45 46
+31 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+52 55
+55 56
+56 57
+50 58
+58 59
+58 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+60 71
+71 72
+58 73
+73 74
+2 75
+75 76
+76 77
+76 78
+78 79
+79 80
+78 81
+81 82
+82 83
+76 84
+84 85
+2 86
+86 87
+87 88
+87 89
+89 90
+90 91
+89 92
+92 93
+93 94
+87 95
+95 96
+95 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+106 107
+97 108
+108 109
+95 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+119 126
+126 127
+127 128
+126 129
+129 130
+130 131
+119 132
+132 133
+133 134
+132 135
+135 136
+136 137
+119 138
+138 139
+119 140
+140 141
+119 142
+142 143
+119 144
+144 145
+119 146
+146 147
+119 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+151 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+2 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+2 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+172 178
+178 179
+179 180
+178 181
+181 182
+178 183
+183 184
+184 185
+178 186
+186 187
+187 188
+0 189
+0 190
+190 191
+0 192
+192 193
+193 194
+193 195
+195 196
+193 197
+197 198
+198 199
+
+Apply the camera settings.

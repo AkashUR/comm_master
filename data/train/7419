@@ -1,0 +1,26 @@
+12
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='changed'
+7 arguments
+8 argument (NullLiteralExpr)
+9 type (VoidType)
+10 name (SimpleName)
+11 identifier='changed'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+0 9
+0 10
+10 11
+
+Notifies all CoAP clients that have established an observe relation with this resource that the state has changed by reprocessing their original request that has established the relation. The notification is done by the executor of this resource or on the executor of its parent or transitively ancestor. If no ancestor defines its own executor, the thread that has called this method performs the notification.

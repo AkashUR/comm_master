@@ -1,0 +1,86 @@
+42
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mEllipsizedStart'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='start'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='mEllipsizedCount'
+18 value (BinaryExpr)
+19 operator='MINUS'
+20 left (NameExpr)
+21 name (SimpleName)
+22 identifier='end'
+23 right (NameExpr)
+24 name (SimpleName)
+25 identifier='start'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='ellipsized'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='start'
+34 type (PrimitiveType)
+35 type='INT'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='end'
+40 type (PrimitiveType)
+41 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+29 36
+36 37
+36 38
+38 39
+36 40
+40 41
+
+Callback for the ellipsizer to report what region it ellipsized.

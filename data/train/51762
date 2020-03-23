@@ -1,0 +1,34 @@
+16
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='ensureValid'
+7 statement (ExpressionStmt)
+8 expression (UnaryExpr)
+9 operator='POSTFIX_INCREMENT'
+10 expression (NameExpr)
+11 name (SimpleName)
+12 identifier='mRefCount'
+13 type (VoidType)
+14 name (SimpleName)
+15 identifier='addReference'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+0 13
+0 14
+14 15
+
+Bump up the reference count for the shared reference Note: The reference must be valid (aka not null) at this point

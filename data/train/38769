@@ -1,0 +1,38 @@
+18
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='moveCursor'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='targetLine'
+10 type (PrimitiveType)
+11 type='INT'
+12 parameter (Parameter)
+13 isVarArgs='false'
+14 name (SimpleName)
+15 identifier='targetColumn'
+16 type (PrimitiveType)
+17 type='INT'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+5 12
+12 13
+12 14
+14 15
+12 16
+16 17
+
+This method moves the cursor to the specified line and column. Parameter <i>targetLine</i> is the line number of a screen line, so it has a minimum value of 0 (the topmost screen line) and a maximum value of heightInLines - 1 (the bottommost screen line). A line does not have to contain any text to move the cursor to any column in that line.

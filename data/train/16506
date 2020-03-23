@@ -1,0 +1,204 @@
+101
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mRecords'
+9 value (ArrayCreationExpr)
+10 elementType (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='NdefRecord'
+13 levels
+14 level (ArrayCreationLevel)
+15 dimension (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='length'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='records'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='arraycopy'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='System'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='records'
+32 argument (IntegerLiteralExpr)
+33 value='0'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='mRecords'
+37 argument (IntegerLiteralExpr)
+38 value='0'
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='length'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='records'
+45 name (SimpleName)
+46 identifier='NdefMessage'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='records'
+52 type (ArrayType)
+53 origin='TYPE'
+54 componentType (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='NdefRecord'
+57 annotations
+58 annotation (SingleMemberAnnotationExpr)
+59 memberValue (StringLiteralExpr)
+60 value='data structure, except writeToParcel'
+61 name (Name)
+62 identifier='DSComment'
+63 annotation (SingleMemberAnnotationExpr)
+64 memberValue (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='DATA_STRUCTURE'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='DSCat'
+70 name (Name)
+71 identifier='DSSafe'
+72 annotation (NormalAnnotationExpr)
+73 name (Name)
+74 identifier='DSGenerator'
+75 pairs
+76 pair (MemberValuePair)
+77 name (SimpleName)
+78 identifier='tool_name'
+79 value (StringLiteralExpr)
+80 value='Doppelganger'
+81 pair (MemberValuePair)
+82 name (SimpleName)
+83 identifier='tool_version'
+84 value (StringLiteralExpr)
+85 value='2.0'
+86 pair (MemberValuePair)
+87 name (SimpleName)
+88 identifier='generated_on'
+89 value (StringLiteralExpr)
+90 value='2013-12-30 12:30:48.058 -0500'
+91 pair (MemberValuePair)
+92 name (SimpleName)
+93 identifier='hash_original_method'
+94 value (StringLiteralExpr)
+95 value='E87B5EF1F7D5816785326D2A488F5505'
+96 pair (MemberValuePair)
+97 name (SimpleName)
+98 identifier='hash_generated_method'
+99 value (StringLiteralExpr)
+100 value='869C49A1D3186925B00FD1E1E8A1AABE'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+28 32
+32 33
+28 34
+34 35
+35 36
+28 37
+37 38
+28 39
+39 40
+40 41
+39 42
+42 43
+43 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+52 54
+54 55
+55 56
+0 57
+57 58
+58 59
+59 60
+58 61
+61 62
+57 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+63 70
+70 71
+57 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+76 79
+79 80
+75 81
+81 82
+82 83
+81 84
+84 85
+75 86
+86 87
+87 88
+86 89
+89 90
+75 91
+91 92
+92 93
+91 94
+94 95
+75 96
+96 97
+97 98
+96 99
+99 100
+
+Create an NDEF message from NDEF records.

@@ -1,0 +1,240 @@
+119
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createIntentForSettingsPage'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='PreferencesLauncher'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='mApplicationContext'
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getCanonicalName'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='mAccountManagementFragment'
+23 name (SimpleName)
+24 identifier='prefIntent'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Intent'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getString'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getResources'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='mApplicationContext'
+41 arguments
+42 argument (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='firstrun_signed_in_title'
+45 scope (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='string'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='R'
+51 name (SimpleName)
+52 identifier='title'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='String'
+56 statement (ExpressionStmt)
+57 expression (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 initializer (BinaryExpr)
+61 operator='PLUS'
+62 left (BinaryExpr)
+63 operator='PLUS'
+64 left (NameExpr)
+65 name (SimpleName)
+66 identifier='title'
+67 right (StringLiteralExpr)
+68 value=' '
+69 right (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getString'
+72 scope (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getResources'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='mApplicationContext'
+78 arguments
+79 argument (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='firstrun_signed_in_description'
+82 scope (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='string'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='R'
+88 name (SimpleName)
+89 identifier='syncPromo'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='String'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='showNotification'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='mNotificationController'
+100 arguments
+101 argument (FieldAccessExpr)
+102 name (SimpleName)
+103 identifier='NOTIFICATION_ID_SIGNED_IN'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='NotificationConstants'
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='title'
+110 argument (NameExpr)
+111 name (SimpleName)
+112 identifier='syncPromo'
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='prefIntent'
+116 type (VoidType)
+117 name (SimpleName)
+118 identifier='showSyncSignInNotification'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+6 23
+23 24
+6 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+32 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+31 51
+51 52
+31 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+59 60
+60 61
+60 62
+62 63
+62 64
+64 65
+65 66
+62 67
+67 68
+60 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+69 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+59 88
+88 89
+59 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+100 107
+107 108
+108 109
+100 110
+110 111
+111 112
+100 113
+113 114
+114 115
+0 116
+0 117
+117 118
+
+Alerts the user through the notification bar that they have been signed in to Chrome. Clicking on the notification should immediately go to the sync account page.

@@ -1,0 +1,256 @@
+127
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='write'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='writer'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='namespace'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='write'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='writer'
+21 arguments
+22 argument (CharLiteralExpr)
+23 value=':'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='write'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='writer'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='name'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (StringLiteralExpr)
+40 value=''
+41 name (SimpleName)
+42 identifier='delimiter'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='String'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='write'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='writer'
+53 arguments
+54 argument (CharLiteralExpr)
+55 value='('
+56 statement (ForeachStmt)
+57 body (BlockStmt)
+58 statements
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='write'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='writer'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='delimiter'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='toEPL'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='param'
+77 arguments
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='writer'
+81 argument (FieldAccessExpr)
+82 name (SimpleName)
+83 identifier='MINIMUM'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='ExpressionPrecedenceEnum'
+87 statement (ExpressionStmt)
+88 expression (AssignExpr)
+89 operator='ASSIGN'
+90 target (NameExpr)
+91 name (SimpleName)
+92 identifier='delimiter'
+93 value (StringLiteralExpr)
+94 value=','
+95 iterable (NameExpr)
+96 name (SimpleName)
+97 identifier='parameters'
+98 variable (VariableDeclarationExpr)
+99 variables
+100 variable (VariableDeclarator)
+101 name (SimpleName)
+102 identifier='param'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='Expression'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='write'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='writer'
+113 arguments
+114 argument (CharLiteralExpr)
+115 value=')'
+116 type (VoidType)
+117 name (SimpleName)
+118 identifier='toEPL'
+119 parameters
+120 parameter (Parameter)
+121 isVarArgs='false'
+122 name (SimpleName)
+123 identifier='writer'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='StringWriter'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+38 41
+41 42
+38 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+58 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+71 77
+77 78
+78 79
+79 80
+77 81
+81 82
+82 83
+81 84
+84 85
+85 86
+58 87
+87 88
+88 89
+88 90
+90 91
+91 92
+88 93
+93 94
+56 95
+95 96
+96 97
+56 98
+98 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+0 116
+0 117
+117 118
+0 119
+119 120
+120 121
+120 122
+122 123
+120 124
+124 125
+125 126
+
+Writes the object in EPL-syntax in the format "namespace:name(parameter, parameter, ..., parameter)"

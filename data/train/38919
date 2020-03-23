@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='fetch'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='www.fortify.net'
+10 argument (IntegerLiteralExpr)
+11 value='443'
+12 argument (BooleanLiteralExpr)
+13 value='true'
+14 argument (StringLiteralExpr)
+15 value='/sslcheck.html'
+16 argument (IntegerLiteralExpr)
+17 value='1'
+18 argument (IntegerLiteralExpr)
+19 value='10'
+20 argument (IntegerLiteralExpr)
+21 value='5'
+22 argument (IntegerLiteralExpr)
+23 value='60'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='fetch'
+28 arguments
+29 argument (StringLiteralExpr)
+30 value='mail.google.com'
+31 argument (IntegerLiteralExpr)
+32 value='443'
+33 argument (BooleanLiteralExpr)
+34 value='true'
+35 argument (StringLiteralExpr)
+36 value='/mail/'
+37 argument (IntegerLiteralExpr)
+38 value='1'
+39 argument (IntegerLiteralExpr)
+40 value='10'
+41 argument (IntegerLiteralExpr)
+42 value='5'
+43 argument (IntegerLiteralExpr)
+44 value='60'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='testShortTimeout'
+48 thrownExceptions
+49 thrownException (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+7 12
+12 13
+7 14
+14 15
+7 16
+16 17
+7 18
+18 19
+7 20
+20 21
+7 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+28 33
+33 34
+28 35
+35 36
+28 37
+37 38
+28 39
+39 40
+28 41
+41 42
+28 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+50 51
+
+Does repeated requests for each of the hosts, with the connection being closed in between. Waits a couple of seconds after each request, but stays within a reasonable timeout. Expectation is that the connection stays open.

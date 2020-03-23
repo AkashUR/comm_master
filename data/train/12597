@@ -1,0 +1,306 @@
+152
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='execute'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='DeleteDbFiles'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='./data'
+13 argument (StringLiteralExpr)
+14 value='test'
+15 argument (BooleanLiteralExpr)
+16 value='true'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='forName'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='Class'
+24 arguments
+25 argument (StringLiteralExpr)
+26 value='org.h2.Driver'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getConnection'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='DriverManager'
+37 arguments
+38 argument (StringLiteralExpr)
+39 value='jdbc:h2:./data/test'
+40 argument (StringLiteralExpr)
+41 value='sa'
+42 argument (StringLiteralExpr)
+43 value=''
+44 name (SimpleName)
+45 identifier='conn'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Connection'
+49 statement (ExpressionStmt)
+50 expression (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 initializer (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='createStatement'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='conn'
+59 name (SimpleName)
+60 identifier='stat'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='Statement'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='execute'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='stat'
+71 arguments
+72 argument (StringLiteralExpr)
+73 value='CREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR)'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='execute'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='stat'
+81 arguments
+82 argument (StringLiteralExpr)
+83 value='INSERT INTO TEST VALUES(1, \'Hello\'), (2, \'World\');'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='close'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='stat'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='close'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='conn'
+98 statement (ExpressionStmt)
+99 expression (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='println'
+102 scope (FieldAccessExpr)
+103 name (SimpleName)
+104 identifier='out'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='System'
+108 arguments
+109 argument (StringLiteralExpr)
+110 value='Compacting...'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='compact'
+115 arguments
+116 argument (StringLiteralExpr)
+117 value='./data'
+118 argument (StringLiteralExpr)
+119 value='test'
+120 argument (StringLiteralExpr)
+121 value='sa'
+122 argument (StringLiteralExpr)
+123 value=''
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='println'
+128 scope (FieldAccessExpr)
+129 name (SimpleName)
+130 identifier='out'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='System'
+134 arguments
+135 argument (StringLiteralExpr)
+136 value='Done.'
+137 type (VoidType)
+138 name (SimpleName)
+139 identifier='main'
+140 parameters
+141 parameter (Parameter)
+142 isVarArgs='true'
+143 name (SimpleName)
+144 identifier='args'
+145 type (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='String'
+148 thrownExceptions
+149 thrownException (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+10 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+37 40
+40 41
+37 42
+42 43
+30 44
+44 45
+30 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+52 59
+59 60
+52 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+75 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+2 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+102 105
+105 106
+106 107
+99 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+115 118
+118 119
+115 120
+120 121
+115 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+128 131
+131 132
+132 133
+125 134
+134 135
+135 136
+0 137
+0 138
+138 139
+0 140
+140 141
+141 142
+141 143
+143 144
+141 145
+145 146
+146 147
+0 148
+148 149
+149 150
+150 151
+
+This method is called when executing this sample application from the command line.

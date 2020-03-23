@@ -1,0 +1,202 @@
+100
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='dismiss'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='dialog'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Intent'
+18 arguments
+19 argument (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getApplicationContext'
+22 argument (ClassExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='MainActivity'
+26 name (SimpleName)
+27 identifier='intent'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Intent'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='addFlags'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='intent'
+38 arguments
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='FLAG_ACTIVITY_NEW_TASK'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='Intent'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='addFlags'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='intent'
+52 arguments
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='FLAG_ACTIVITY_CLEAR_TASK'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='Intent'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='startActivity'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='intent'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='setResult'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='RESULT_OK'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='finish'
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='onClick'
+82 parameters
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='dialog'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='DialogInterface'
+90 parameter (Parameter)
+91 isVarArgs='false'
+92 name (SimpleName)
+93 identifier='which'
+94 type (PrimitiveType)
+95 type='INT'
+96 annotations
+97 annotation (MarkerAnnotationExpr)
+98 name (Name)
+99 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+24 25
+13 26
+26 27
+13 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+0 79
+0 80
+80 81
+0 82
+82 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+82 90
+90 91
+90 92
+92 93
+90 94
+94 95
+0 96
+96 97
+97 98
+98 99
+
+This method implements a method of the DialogInterface.OnClickListener interface. This method is called, when the "OK"-button in the dialog was clicked. It closes the dialog and goes to the app's main activity.

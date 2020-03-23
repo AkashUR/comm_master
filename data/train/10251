@@ -1,0 +1,308 @@
+153
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='serverGroupMap'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='location'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='groups'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='LoadHolder'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='location'
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getConnectionLoad'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='initialLoad'
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getLoadPerConnection'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='initialLoad'
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='loadPollInterval'
+44 name (SimpleName)
+45 identifier='connectionLoad'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='LoadHolder'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='addGroups'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='connectionLoadMap'
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='groups'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='connectionLoad'
+63 statement (ExpressionStmt)
+64 expression (VariableDeclarationExpr)
+65 variables
+66 variable (VariableDeclarator)
+67 initializer (ObjectCreationExpr)
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='LoadHolder'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='location'
+75 argument (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='getSubscriptionConnectionLoad'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='initialLoad'
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getLoadPerSubscriptionConnection'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='initialLoad'
+87 argument (NameExpr)
+88 name (SimpleName)
+89 identifier='loadPollInterval'
+90 name (SimpleName)
+91 identifier='queueLoad'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='LoadHolder'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='addGroups'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='queueLoadMap'
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='groups'
+106 argument (NameExpr)
+107 name (SimpleName)
+108 identifier='queueLoad'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='updateLoad'
+113 arguments
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='location'
+117 argument (NameExpr)
+118 name (SimpleName)
+119 identifier='initialLoad'
+120 type (VoidType)
+121 name (SimpleName)
+122 identifier='addServer'
+123 parameters
+124 parameter (Parameter)
+125 isVarArgs='false'
+126 name (SimpleName)
+127 identifier='location'
+128 type (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='ServerLocation'
+131 parameter (Parameter)
+132 isVarArgs='false'
+133 name (SimpleName)
+134 identifier='groups'
+135 type (ArrayType)
+136 origin='TYPE'
+137 componentType (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='String'
+140 parameter (Parameter)
+141 isVarArgs='false'
+142 name (SimpleName)
+143 identifier='initialLoad'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='ServerLoad'
+147 parameter (Parameter)
+148 isVarArgs='false'
+149 name (SimpleName)
+150 identifier='loadPollInterval'
+151 type (PrimitiveType)
+152 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+29 32
+32 33
+33 34
+25 35
+35 36
+36 37
+35 38
+38 39
+39 40
+25 41
+41 42
+42 43
+20 44
+44 45
+20 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+55 56
+53 57
+57 58
+58 59
+53 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+67 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+75 78
+78 79
+79 80
+71 81
+81 82
+82 83
+81 84
+84 85
+85 86
+71 87
+87 88
+88 89
+66 90
+90 91
+66 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+99 103
+103 104
+104 105
+99 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+115 116
+113 117
+117 118
+118 119
+0 120
+0 121
+121 122
+0 123
+123 124
+124 125
+124 126
+126 127
+124 128
+128 129
+129 130
+123 131
+131 132
+131 133
+133 134
+131 135
+135 136
+135 137
+137 138
+138 139
+123 140
+140 141
+140 142
+142 143
+140 144
+144 145
+145 146
+123 147
+147 148
+147 149
+149 150
+147 151
+151 152
+
+Add a new server to the load snapshot.

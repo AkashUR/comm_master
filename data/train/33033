@@ -1,0 +1,258 @@
+128
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='retrieveActorSystem'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='actorSystemManager'
+13 name (SimpleName)
+14 identifier='actorSystem'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='ActorSystem'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='create'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='ClusterSingletonManagerSettings'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='actorSystem'
+32 name (SimpleName)
+33 identifier='settings'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='ClusterSingletonManagerSettings'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='actorOf'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='actorSystem'
+44 arguments
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='props'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='ClusterSingletonManager'
+51 arguments
+52 argument (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='create'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='Props'
+58 arguments
+59 argument (ClassExpr)
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='AkkaRedriverTask'
+63 argument (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='noOfRedriverWorkers'
+66 scope (ThisExpr)
+67 argument (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='getInstance'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='PoisonPill'
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='settings'
+76 argument (StringLiteralExpr)
+77 value='redriverActor'
+78 statement (ExpressionStmt)
+79 expression (VariableDeclarationExpr)
+80 variables
+81 variable (VariableDeclarator)
+82 initializer (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='create'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='ClusterSingletonProxySettings'
+88 arguments
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='actorSystem'
+92 name (SimpleName)
+93 identifier='proxySettings'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='ClusterSingletonProxySettings'
+97 statement (ExpressionStmt)
+98 expression (AssignExpr)
+99 operator='ASSIGN'
+100 target (FieldAccessExpr)
+101 name (SimpleName)
+102 identifier='redriverActorProxy'
+103 scope (ThisExpr)
+104 value (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='actorOf'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='actorSystem'
+110 arguments
+111 argument (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='props'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='ClusterSingletonProxy'
+117 arguments
+118 argument (StringLiteralExpr)
+119 value='/user/redriverActor'
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='proxySettings'
+123 argument (StringLiteralExpr)
+124 value='redriverActorProxy'
+125 type (VoidType)
+126 name (SimpleName)
+127 identifier='initialize'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+21 32
+32 33
+21 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+61 62
+58 63
+63 64
+64 65
+63 66
+51 67
+67 68
+68 69
+67 70
+70 71
+71 72
+51 73
+73 74
+74 75
+44 76
+76 77
+2 78
+78 79
+79 80
+80 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+90 91
+81 92
+92 93
+81 94
+94 95
+95 96
+2 97
+97 98
+98 99
+98 100
+100 101
+101 102
+100 103
+98 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+117 120
+120 121
+121 122
+110 123
+123 124
+0 125
+0 126
+126 127
+
+The Polyguice initialization life cycle method. Initializes the redriver Actor singleton and its proxy

@@ -1,0 +1,170 @@
+84
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='impl'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='LocalSocketImpl'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='fd'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='listen'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='impl'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='LISTEN_BACKLOG'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='localAddress'
+34 value (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getSockAddress'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='impl'
+40 name (SimpleName)
+41 identifier='LocalServerSocket'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='fd'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='FileDescriptor'
+50 thrownExceptions
+51 thrownException (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='IOException'
+54 annotations
+55 annotation (NormalAnnotationExpr)
+56 name (Name)
+57 identifier='DSGenerator'
+58 pairs
+59 pair (MemberValuePair)
+60 name (SimpleName)
+61 identifier='tool_name'
+62 value (StringLiteralExpr)
+63 value='Doppelganger'
+64 pair (MemberValuePair)
+65 name (SimpleName)
+66 identifier='tool_version'
+67 value (StringLiteralExpr)
+68 value='2.0'
+69 pair (MemberValuePair)
+70 name (SimpleName)
+71 identifier='generated_on'
+72 value (StringLiteralExpr)
+73 value='2013-12-30 12:36:07.241 -0500'
+74 pair (MemberValuePair)
+75 name (SimpleName)
+76 identifier='hash_original_method'
+77 value (StringLiteralExpr)
+78 value='40EEF7A0A264136F662D7E1DA715A559'
+79 pair (MemberValuePair)
+80 name (SimpleName)
+81 identifier='hash_generated_method'
+82 value (StringLiteralExpr)
+83 value='73B4F21232108BF5282CD85457539E41'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+35 36
+34 37
+37 38
+38 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+0 50
+50 51
+51 52
+52 53
+0 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+60 61
+59 62
+62 63
+58 64
+64 65
+65 66
+64 67
+67 68
+58 69
+69 70
+70 71
+69 72
+72 73
+58 74
+74 75
+75 76
+74 77
+77 78
+58 79
+79 80
+80 81
+79 82
+82 83
+
+Create a LocalServerSocket from a file descriptor that's already been created and bound. listen() will be called immediately on it. Used for cases where file descriptors are passed in via environment variables

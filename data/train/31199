@@ -1,0 +1,354 @@
+176
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertParameterNotNull'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='genericRequest'
+11 argument (StringLiteralExpr)
+12 value='genericRequest'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getBucketName'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='genericRequest'
+23 name (SimpleName)
+24 identifier='bucketName'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='String'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='assertParameterNotNull'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='bucketName'
+36 argument (StringLiteralExpr)
+37 value='bucketName'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='ensureBucketNameValid'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='bucketName'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='HashMap'
+54 typeArguments
+55 typeArgument (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='String'
+58 typeArgument (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='String'
+61 name (SimpleName)
+62 identifier='params'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Map'
+66 typeArguments
+67 typeArgument (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='String'
+70 typeArgument (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='String'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='put'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='params'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='SUBRESOURCE_WEBSITE'
+84 argument (NullLiteralExpr)
+85 statement (ExpressionStmt)
+86 expression (VariableDeclarationExpr)
+87 variables
+88 variable (VariableDeclarator)
+89 initializer (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='build'
+92 scope (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='setOriginalRequest'
+95 scope (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='setParameters'
+98 scope (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='setBucket'
+101 scope (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='setMethod'
+104 scope (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='setEndpoint'
+107 scope (ObjectCreationExpr)
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='OSSRequestMessageBuilder'
+111 arguments
+112 argument (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getInnerClient'
+115 arguments
+116 argument (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='getEndpoint'
+119 arguments
+120 argument (FieldAccessExpr)
+121 name (SimpleName)
+122 identifier='DELETE'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='HttpMethod'
+126 arguments
+127 argument (NameExpr)
+128 name (SimpleName)
+129 identifier='bucketName'
+130 arguments
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='params'
+134 arguments
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='genericRequest'
+138 name (SimpleName)
+139 identifier='request'
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='RequestMessage'
+143 statement (ExpressionStmt)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='doOperation'
+147 arguments
+148 argument (NameExpr)
+149 name (SimpleName)
+150 identifier='request'
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='emptyResponseParser'
+154 argument (NameExpr)
+155 name (SimpleName)
+156 identifier='bucketName'
+157 argument (NullLiteralExpr)
+158 type (VoidType)
+159 name (SimpleName)
+160 identifier='deleteBucketWebsite'
+161 parameters
+162 parameter (Parameter)
+163 isVarArgs='false'
+164 name (SimpleName)
+165 identifier='genericRequest'
+166 type (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='GenericRequest'
+169 thrownExceptions
+170 thrownException (ClassOrInterfaceType)
+171 name (SimpleName)
+172 identifier='OSSException'
+173 thrownException (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='ClientException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+16 23
+23 24
+16 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+32 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+49 61
+61 62
+49 63
+63 64
+64 65
+63 66
+66 67
+67 68
+68 69
+66 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+80 84
+2 85
+85 86
+86 87
+87 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+102 103
+101 104
+104 105
+105 106
+104 107
+107 108
+108 109
+109 110
+107 111
+111 112
+112 113
+113 114
+104 115
+115 116
+116 117
+117 118
+101 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+98 126
+126 127
+127 128
+128 129
+95 130
+130 131
+131 132
+132 133
+92 134
+134 135
+135 136
+136 137
+88 138
+138 139
+88 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+149 150
+147 151
+151 152
+152 153
+147 154
+154 155
+155 156
+147 157
+0 158
+0 159
+159 160
+0 161
+161 162
+162 163
+162 164
+164 165
+162 166
+166 167
+167 168
+0 169
+169 170
+170 171
+171 172
+169 173
+173 174
+174 175
+
+Delete bucket website.

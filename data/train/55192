@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mIntentToken'
+9 value (ArrayCreationExpr)
+10 elementType (PrimitiveType)
+11 type='BYTE'
+12 levels
+13 level (ArrayCreationLevel)
+14 dimension (IntegerLiteralExpr)
+15 value='32'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='nextBytes'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='mSecureRandom'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='mIntentToken'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='putExtra'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='intent'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='EXTRA_USER_GESTURE_TOKEN'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='mIntentToken'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (NameExpr)
+45 name (SimpleName)
+46 identifier='mUri'
+47 value (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getUrlFromIntent'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='IntentHandler'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='intent'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='onNewIntentWithGesture'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='intent'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='Intent'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+
+Generate a new token for the intent that has user gesture. This will invalidate the token on the previously launched intent with user gesture.

@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='now'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='LocalDate'
+13 name (SimpleName)
+14 identifier='now'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='LocalDate'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='forEach'
+22 scope (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='stream'
+25 scope (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='findByTokenDateBefore'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='persistentTokenRepository'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='minusMonths'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='now'
+38 arguments
+39 argument (IntegerLiteralExpr)
+40 value='1'
+41 arguments
+42 argument (NullLiteralExpr)
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='removeOldPersistentTokens'
+46 annotations
+47 annotation (NormalAnnotationExpr)
+48 name (Name)
+49 identifier='Scheduled'
+50 pairs
+51 pair (MemberValuePair)
+52 name (SimpleName)
+53 identifier='cron'
+54 value (StringLiteralExpr)
+55 value='0 0 0 * * ?'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+19 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+51 54
+54 55
+
+Persistent Token are used for providing automatic authentication, they should be automatically deleted after 30 days. <p/> <p> This is scheduled to get fired everyday, at midnight. </p>

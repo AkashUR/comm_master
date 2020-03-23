@@ -1,0 +1,158 @@
+78
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkArgument'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='isPositive'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='coin'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='checkArgument'
+18 arguments
+19 argument (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='isPositive'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='fiat'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='checkArgument'
+29 arguments
+30 argument (BinaryExpr)
+31 operator='NOT_EQUALS'
+32 left (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='currencyCode'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='fiat'
+38 right (NullLiteralExpr)
+39 argument (StringLiteralExpr)
+40 value='currency code required'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='coin'
+47 scope (ThisExpr)
+48 value (NameExpr)
+49 name (SimpleName)
+50 identifier='coin'
+51 statement (ExpressionStmt)
+52 expression (AssignExpr)
+53 operator='ASSIGN'
+54 target (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='fiat'
+57 scope (ThisExpr)
+58 value (NameExpr)
+59 name (SimpleName)
+60 identifier='fiat'
+61 name (SimpleName)
+62 identifier='ExchangeRate'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='coin'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Coin'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='fiat'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Fiat'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+30 32
+32 33
+33 34
+32 35
+35 36
+36 37
+30 38
+29 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+44 47
+42 48
+48 49
+49 50
+2 51
+51 52
+52 53
+52 54
+54 55
+55 56
+54 57
+52 58
+58 59
+59 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+63 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+
+Construct exchange rate. This amount of coin is worth that amount of fiat.

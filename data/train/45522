@@ -1,0 +1,480 @@
+239
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='xrel'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='max'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='Math'
+15 arguments
+16 argument (IntegerLiteralExpr)
+17 value='0'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='xrel'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='xrel'
+27 value (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='min'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Math'
+33 arguments
+34 argument (IntegerLiteralExpr)
+35 value='1'
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='xrel'
+39 statement (ExpressionStmt)
+40 expression (AssignExpr)
+41 operator='ASSIGN'
+42 target (NameExpr)
+43 name (SimpleName)
+44 identifier='yrel'
+45 value (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='max'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='Math'
+51 arguments
+52 argument (IntegerLiteralExpr)
+53 value='0'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='yrel'
+57 statement (ExpressionStmt)
+58 expression (AssignExpr)
+59 operator='ASSIGN'
+60 target (NameExpr)
+61 name (SimpleName)
+62 identifier='yrel'
+63 value (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='min'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='Math'
+69 arguments
+70 argument (IntegerLiteralExpr)
+71 value='1'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='yrel'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 initializer (ObjectCreationExpr)
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Point'
+83 arguments
+84 argument (BinaryExpr)
+85 operator='PLUS'
+86 left (CastExpr)
+87 expression (EnclosedExpr)
+88 inner (BinaryExpr)
+89 operator='MULTIPLY'
+90 left (CastExpr)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='getWidth'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='boardSize'
+97 type (PrimitiveType)
+98 type='DOUBLE'
+99 right (NameExpr)
+100 name (SimpleName)
+101 identifier='xrel'
+102 type (PrimitiveType)
+103 type='INT'
+104 right (NameExpr)
+105 name (SimpleName)
+106 identifier='HEX_W'
+107 argument (BinaryExpr)
+108 operator='PLUS'
+109 left (CastExpr)
+110 expression (EnclosedExpr)
+111 inner (BinaryExpr)
+112 operator='MULTIPLY'
+113 left (CastExpr)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='getHeight'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='boardSize'
+120 type (PrimitiveType)
+121 type='DOUBLE'
+122 right (NameExpr)
+123 name (SimpleName)
+124 identifier='yrel'
+125 type (PrimitiveType)
+126 type='INT'
+127 right (NameExpr)
+128 name (SimpleName)
+129 identifier='HEX_H'
+130 name (SimpleName)
+131 identifier='p'
+132 type (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='Point'
+135 statement (ExpressionStmt)
+136 expression (VariableDeclarationExpr)
+137 variables
+138 variable (VariableDeclarator)
+139 initializer (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='getVerticalScrollBar'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='scrollpane'
+145 name (SimpleName)
+146 identifier='vscroll'
+147 type (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='JScrollBar'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='setValue'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='vscroll'
+157 arguments
+158 argument (BinaryExpr)
+159 operator='MINUS'
+160 left (FieldAccessExpr)
+161 name (SimpleName)
+162 identifier='y'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='p'
+166 right (EnclosedExpr)
+167 inner (BinaryExpr)
+168 operator='DIVIDE'
+169 left (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='getVisibleAmount'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='vscroll'
+175 right (IntegerLiteralExpr)
+176 value='2'
+177 statement (ExpressionStmt)
+178 expression (VariableDeclarationExpr)
+179 variables
+180 variable (VariableDeclarator)
+181 initializer (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='getHorizontalScrollBar'
+184 scope (NameExpr)
+185 name (SimpleName)
+186 identifier='scrollpane'
+187 name (SimpleName)
+188 identifier='hscroll'
+189 type (ClassOrInterfaceType)
+190 name (SimpleName)
+191 identifier='JScrollBar'
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='setValue'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='hscroll'
+199 arguments
+200 argument (BinaryExpr)
+201 operator='MINUS'
+202 left (FieldAccessExpr)
+203 name (SimpleName)
+204 identifier='x'
+205 scope (NameExpr)
+206 name (SimpleName)
+207 identifier='p'
+208 right (EnclosedExpr)
+209 inner (BinaryExpr)
+210 operator='DIVIDE'
+211 left (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='getVisibleAmount'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='hscroll'
+217 right (IntegerLiteralExpr)
+218 value='2'
+219 statement (ExpressionStmt)
+220 expression (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='repaint'
+223 type (VoidType)
+224 name (SimpleName)
+225 identifier='centerOnPointRel'
+226 parameters
+227 parameter (Parameter)
+228 isVarArgs='false'
+229 name (SimpleName)
+230 identifier='xrel'
+231 type (PrimitiveType)
+232 type='DOUBLE'
+233 parameter (Parameter)
+234 isVarArgs='false'
+235 name (SimpleName)
+236 identifier='yrel'
+237 type (PrimitiveType)
+238 type='DOUBLE'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+51 54
+54 55
+55 56
+2 57
+57 58
+58 59
+58 60
+60 61
+61 62
+58 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+81 82
+79 83
+83 84
+84 85
+84 86
+86 87
+87 88
+88 89
+88 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+90 97
+97 98
+88 99
+99 100
+100 101
+86 102
+102 103
+84 104
+104 105
+105 106
+83 107
+107 108
+107 109
+109 110
+110 111
+111 112
+111 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+113 120
+120 121
+111 122
+122 123
+123 124
+109 125
+125 126
+107 127
+127 128
+128 129
+78 130
+130 131
+78 132
+132 133
+133 134
+2 135
+135 136
+136 137
+137 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+138 145
+145 146
+138 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+151 157
+157 158
+158 159
+158 160
+160 161
+161 162
+160 163
+163 164
+164 165
+158 166
+166 167
+167 168
+167 169
+169 170
+170 171
+169 172
+172 173
+173 174
+167 175
+175 176
+2 177
+177 178
+178 179
+179 180
+180 181
+181 182
+182 183
+181 184
+184 185
+185 186
+180 187
+187 188
+180 189
+189 190
+190 191
+2 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+193 199
+199 200
+200 201
+200 202
+202 203
+203 204
+202 205
+205 206
+206 207
+200 208
+208 209
+209 210
+209 211
+211 212
+212 213
+211 214
+214 215
+215 216
+209 217
+217 218
+2 219
+219 220
+220 221
+221 222
+0 223
+0 224
+224 225
+0 226
+226 227
+227 228
+227 229
+229 230
+227 231
+231 232
+226 233
+233 234
+233 235
+235 236
+233 237
+237 238
+
+Centers the board to a point

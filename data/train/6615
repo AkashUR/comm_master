@@ -1,0 +1,430 @@
+214
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='tagLength'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='tagLength'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='IVlength'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='IVlength'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='offset'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='offset'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='IV'
+39 value (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='generateBytes'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='Helper'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='IVlength'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (NameExpr)
+53 name (SimpleName)
+54 identifier='IVO'
+55 value (ArrayCreationExpr)
+56 elementType (PrimitiveType)
+57 type='BYTE'
+58 levels
+59 level (ArrayCreationLevel)
+60 dimension (BinaryExpr)
+61 operator='PLUS'
+62 left (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='IVlength'
+65 scope (ThisExpr)
+66 right (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='offset'
+69 scope (ThisExpr)
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='arraycopy'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='System'
+77 arguments
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='IV'
+81 argument (IntegerLiteralExpr)
+82 value='0'
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='IVO'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='offset'
+89 argument (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='IVlength'
+92 scope (ThisExpr)
+93 statement (ExpressionStmt)
+94 expression (AssignExpr)
+95 operator='ASSIGN'
+96 target (NameExpr)
+97 name (SimpleName)
+98 identifier='data'
+99 value (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='generateBytes'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='Helper'
+105 arguments
+106 argument (NameExpr)
+107 name (SimpleName)
+108 identifier='textLength'
+109 statement (ExpressionStmt)
+110 expression (AssignExpr)
+111 operator='ASSIGN'
+112 target (NameExpr)
+113 name (SimpleName)
+114 identifier='AAD'
+115 value (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='generateBytes'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='Helper'
+121 arguments
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='AADLength'
+125 statement (ExpressionStmt)
+126 expression (VariableDeclarationExpr)
+127 variables
+128 variable (VariableDeclarator)
+129 initializer (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='getInstance'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='KeyGenerator'
+135 arguments
+136 argument (StringLiteralExpr)
+137 value='AES'
+138 argument (StringLiteralExpr)
+139 value='SunJCE'
+140 name (SimpleName)
+141 identifier='kg'
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='KeyGenerator'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='init'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='kg'
+152 arguments
+153 argument (NameExpr)
+154 name (SimpleName)
+155 identifier='keyLength'
+156 statement (ExpressionStmt)
+157 expression (AssignExpr)
+158 operator='ASSIGN'
+159 target (NameExpr)
+160 name (SimpleName)
+161 identifier='key'
+162 value (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='generateKey'
+165 scope (NameExpr)
+166 name (SimpleName)
+167 identifier='kg'
+168 name (SimpleName)
+169 identifier='GCMParameterSpecTest'
+170 parameters
+171 parameter (Parameter)
+172 isVarArgs='false'
+173 name (SimpleName)
+174 identifier='keyLength'
+175 type (PrimitiveType)
+176 type='INT'
+177 parameter (Parameter)
+178 isVarArgs='false'
+179 name (SimpleName)
+180 identifier='tagLength'
+181 type (PrimitiveType)
+182 type='INT'
+183 parameter (Parameter)
+184 isVarArgs='false'
+185 name (SimpleName)
+186 identifier='IVlength'
+187 type (PrimitiveType)
+188 type='INT'
+189 parameter (Parameter)
+190 isVarArgs='false'
+191 name (SimpleName)
+192 identifier='offset'
+193 type (PrimitiveType)
+194 type='INT'
+195 parameter (Parameter)
+196 isVarArgs='false'
+197 name (SimpleName)
+198 identifier='textLength'
+199 type (PrimitiveType)
+200 type='INT'
+201 parameter (Parameter)
+202 isVarArgs='false'
+203 name (SimpleName)
+204 identifier='AADLength'
+205 type (PrimitiveType)
+206 type='INT'
+207 thrownExceptions
+208 thrownException (ClassOrInterfaceType)
+209 name (SimpleName)
+210 identifier='NoSuchAlgorithmException'
+211 thrownException (ClassOrInterfaceType)
+212 name (SimpleName)
+213 identifier='NoSuchProviderException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+56 57
+55 58
+58 59
+59 60
+60 61
+60 62
+62 63
+63 64
+62 65
+60 66
+66 67
+67 68
+66 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+71 77
+77 78
+78 79
+79 80
+77 81
+81 82
+77 83
+83 84
+84 85
+77 86
+86 87
+87 88
+77 89
+89 90
+90 91
+89 92
+2 93
+93 94
+94 95
+94 96
+96 97
+97 98
+94 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+107 108
+2 109
+109 110
+110 111
+110 112
+112 113
+113 114
+110 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+129 135
+135 136
+136 137
+135 138
+138 139
+128 140
+140 141
+128 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+146 152
+152 153
+153 154
+154 155
+2 156
+156 157
+157 158
+157 159
+159 160
+160 161
+157 162
+162 163
+163 164
+162 165
+165 166
+166 167
+0 168
+168 169
+0 170
+170 171
+171 172
+171 173
+173 174
+171 175
+175 176
+170 177
+177 178
+177 179
+179 180
+177 181
+181 182
+170 183
+183 184
+183 185
+185 186
+183 187
+187 188
+170 189
+189 190
+189 191
+191 192
+189 193
+193 194
+170 195
+195 196
+195 197
+197 198
+195 199
+199 200
+170 201
+201 202
+201 203
+203 204
+201 205
+205 206
+0 207
+207 208
+208 209
+209 210
+207 211
+211 212
+212 213
+
+Initialize IV, IV with offset, plain text, AAD and SecretKey

@@ -1,0 +1,130 @@
+64
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validateNotNull'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ValidateUtil'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='actAsToken'
+14 argument (StringLiteralExpr)
+15 value='ActAs token'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='isDelegable'
+22 scope (ThisExpr)
+23 value (NameExpr)
+24 name (SimpleName)
+25 identifier='isDelegable'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='delegateTo'
+32 scope (ThisExpr)
+33 value (NullLiteralExpr)
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='actAsToken'
+40 scope (ThisExpr)
+41 value (NameExpr)
+42 name (SimpleName)
+43 identifier='actAsToken'
+44 statement (AssertStmt)
+45 check (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='invariantRespected'
+48 name (SimpleName)
+49 identifier='DelegationSpec'
+50 parameters
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='actAsToken'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='SamlToken'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='isDelegable'
+62 type (PrimitiveType)
+63 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+29 32
+27 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+37 40
+35 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+0 48
+48 49
+0 50
+50 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+50 58
+58 59
+58 60
+60 61
+58 62
+62 63
+
+Creates a delegation specification. It asks for delegation of the token, passed as <code>actAsToken</code> parameter, to the requester.

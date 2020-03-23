@@ -1,0 +1,182 @@
+90
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='doAddSigner'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='key'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='subjectKeyID'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='encryptionOID'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='digestOID'
+20 argument (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='DefaultSignedAttributeTableGenerator'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='signedAttr'
+28 argument (ObjectCreationExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='SimpleAttributeTableGenerator'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='unsignedAttr'
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='signedAttr'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='addSigner'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='key'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='PrivateKey'
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='subjectKeyID'
+54 type (ArrayType)
+55 origin='TYPE'
+56 componentType (PrimitiveType)
+57 type='BYTE'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='encryptionOID'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='digestOID'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='String'
+72 parameter (Parameter)
+73 isVarArgs='false'
+74 name (SimpleName)
+75 identifier='signedAttr'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='AttributeTable'
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='unsignedAttr'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='AttributeTable'
+86 thrownExceptions
+87 thrownException (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='IllegalArgumentException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+26 27
+7 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+34 35
+7 36
+36 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+42 50
+50 51
+50 52
+52 53
+50 54
+54 55
+54 56
+56 57
+42 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+42 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+42 72
+72 73
+72 74
+74 75
+72 76
+76 77
+77 78
+42 79
+79 80
+79 81
+81 82
+79 83
+83 84
+84 85
+0 86
+86 87
+87 88
+88 89
+
+add a signer, specifying the digest encryption algorithm, with extra signed/unsigned attributes.

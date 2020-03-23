@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertEquals'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='a b'
+10 argument (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='decode'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='URLDecoder'
+16 arguments
+17 argument (StringLiteralExpr)
+18 value='a+b'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='assertEquals'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='a b'
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='decode'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='URLDecoder'
+32 arguments
+33 argument (StringLiteralExpr)
+34 value='a+b'
+35 argument (StringLiteralExpr)
+36 value='UTF-8'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='assertEquals'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='a+b'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getFragment'
+47 scope (ObjectCreationExpr)
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='URI'
+51 arguments
+52 argument (StringLiteralExpr)
+53 value='http://foo#a+b'
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='testDecodingPlus'
+57 thrownExceptions
+58 thrownException (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+32 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+0 54
+0 55
+55 56
+0 57
+57 58
+58 59
+59 60
+
+URLDecoder and URI disagree on what '+' should decode to.

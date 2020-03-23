@@ -1,0 +1,86 @@
+42
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setTitle'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='stage'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='title'
+16 right (EnclosedExpr)
+17 inner (ConditionalExpr)
+18 condition (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='isPresent'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='currApp'
+24 elseExpr (StringLiteralExpr)
+25 value=''
+26 thenExpr (BinaryExpr)
+27 operator='PLUS'
+28 left (StringLiteralExpr)
+29 value=' - '
+30 right (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getTitle'
+33 scope (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='get'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='currApp'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='updateStageTitle'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+17 24
+24 25
+17 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+0 39
+0 40
+40 41
+
+Updates the window title using the title of the integrated application and the current embedded application (if any).

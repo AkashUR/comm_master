@@ -1,0 +1,320 @@
+159
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='<web-app></web-app>'
+9 name (SimpleName)
+10 identifier='srcXml'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='parseWebXml'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='WebXmlIo'
+24 arguments
+25 argument (ObjectCreationExpr)
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='ByteArrayInputStream'
+29 arguments
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getBytes'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='srcXml'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='UTF-8'
+39 argument (NullLiteralExpr)
+40 name (SimpleName)
+41 identifier='srcWebXml'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='WebXml'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (BinaryExpr)
+50 operator='PLUS'
+51 left (BinaryExpr)
+52 operator='PLUS'
+53 left (BinaryExpr)
+54 operator='PLUS'
+55 left (BinaryExpr)
+56 operator='PLUS'
+57 left (BinaryExpr)
+58 operator='PLUS'
+59 left (StringLiteralExpr)
+60 value='<web-app>'
+61 right (StringLiteralExpr)
+62 value='  <context-param>'
+63 right (StringLiteralExpr)
+64 value='    <param-name>param</param-name>'
+65 right (StringLiteralExpr)
+66 value='    <param-value>value</param-value>'
+67 right (StringLiteralExpr)
+68 value='  </context-param>'
+69 right (StringLiteralExpr)
+70 value='</web-app>'
+71 name (SimpleName)
+72 identifier='mergeXml'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='String'
+76 statement (ExpressionStmt)
+77 expression (VariableDeclarationExpr)
+78 variables
+79 variable (VariableDeclarator)
+80 initializer (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='parseWebXml'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='WebXmlIo'
+86 arguments
+87 argument (ObjectCreationExpr)
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='ByteArrayInputStream'
+91 arguments
+92 argument (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='getBytes'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='mergeXml'
+98 arguments
+99 argument (StringLiteralExpr)
+100 value='UTF-8'
+101 argument (NullLiteralExpr)
+102 name (SimpleName)
+103 identifier='mergeWebXml'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='WebXml'
+107 statement (ExpressionStmt)
+108 expression (VariableDeclarationExpr)
+109 variables
+110 variable (VariableDeclarator)
+111 initializer (ObjectCreationExpr)
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='WebXmlMerger'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='srcWebXml'
+119 name (SimpleName)
+120 identifier='merger'
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='WebXmlMerger'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='merge'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='merger'
+131 arguments
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='mergeWebXml'
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='assertTrue'
+139 arguments
+140 argument (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='hasContextParam'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='WebXmlUtils'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='srcWebXml'
+150 argument (StringLiteralExpr)
+151 value='param'
+152 type (VoidType)
+153 name (SimpleName)
+154 identifier='testMergeOneContextParamIntoEmptyDocument'
+155 thrownExceptions
+156 thrownException (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+24 39
+17 40
+40 41
+17 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+49 51
+51 52
+51 53
+53 54
+53 55
+55 56
+55 57
+57 58
+57 59
+59 60
+57 61
+61 62
+55 63
+63 64
+53 65
+65 66
+51 67
+67 68
+49 69
+69 70
+48 71
+71 72
+48 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+88 89
+89 90
+87 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+86 101
+79 102
+102 103
+79 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+110 111
+111 112
+112 113
+113 114
+111 115
+115 116
+116 117
+117 118
+110 119
+119 120
+110 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+133 134
+2 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+146 150
+150 151
+0 152
+0 153
+153 154
+0 155
+155 156
+156 157
+157 158
+
+Tests whether a single context param is correctly merged into an empty descriptor.

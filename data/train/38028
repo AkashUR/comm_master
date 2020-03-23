@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='junit/framework/'
+9 name (SimpleName)
+10 identifier='prefix'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getTestResource'
+21 arguments
+22 argument (BinaryExpr)
+23 operator='PLUS'
+24 left (NameExpr)
+25 name (SimpleName)
+26 identifier='prefix'
+27 right (StringLiteralExpr)
+28 value='test-entity-1.txt'
+29 name (SimpleName)
+30 identifier='data'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='assertEquals'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='data'
+42 argument (StringLiteralExpr)
+43 value='A text resource.'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='test_getTestResource'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+17 29
+29 30
+17 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+38 42
+42 43
+0 44
+0 45
+45 46
+
+Tests correct reading of a local text resource.

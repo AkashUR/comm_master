@@ -1,0 +1,250 @@
+124
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='epoch'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='X'
+14 name (SimpleName)
+15 identifier='CD'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Matrix'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='timesEquals'
+26 scope (EnclosedExpr)
+27 inner (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='minusEquals'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='CD'
+33 arguments
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='times'
+37 scope (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='W'
+40 scope (ThisExpr)
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='COST'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='LEARNING_RATE'
+49 name (SimpleName)
+50 identifier='dW'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Matrix'
+54 statement (ExpressionStmt)
+55 expression (AssignExpr)
+56 operator='ASSIGN'
+57 target (NameExpr)
+58 name (SimpleName)
+59 identifier='dW'
+60 value (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='times'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='dW'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='s'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='plusEquals'
+74 scope (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='W'
+77 scope (ThisExpr)
+78 arguments
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='plus'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='dW'
+85 arguments
+86 argument (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='timesEquals'
+89 scope (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='dW_'
+92 scope (ThisExpr)
+93 arguments
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='MOMENTUM'
+97 statement (ExpressionStmt)
+98 expression (AssignExpr)
+99 operator='ASSIGN'
+100 target (FieldAccessExpr)
+101 name (SimpleName)
+102 identifier='dW_'
+103 scope (ThisExpr)
+104 value (NameExpr)
+105 name (SimpleName)
+106 identifier='dW'
+107 type (VoidType)
+108 name (SimpleName)
+109 identifier='update'
+110 parameters
+111 parameter (Parameter)
+112 isVarArgs='false'
+113 name (SimpleName)
+114 identifier='X'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='Matrix'
+118 parameter (Parameter)
+119 isVarArgs='false'
+120 name (SimpleName)
+121 identifier='s'
+122 type (PrimitiveType)
+123 type='DOUBLE'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+34 41
+41 42
+42 43
+43 44
+23 45
+45 46
+46 47
+47 48
+22 49
+49 50
+22 51
+51 52
+52 53
+2 54
+54 55
+55 56
+55 57
+57 58
+58 59
+55 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+74 77
+71 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+89 92
+86 93
+93 94
+94 95
+95 96
+2 97
+97 98
+98 99
+98 100
+100 101
+101 102
+100 103
+98 104
+104 105
+105 106
+0 107
+0 108
+108 109
+0 110
+110 111
+111 112
+111 113
+113 114
+111 115
+115 116
+116 117
+110 118
+118 119
+118 120
+120 121
+118 122
+122 123
+
+Update - Carry out one epoch of CD, update W. <br> TODO	combine with above fn.

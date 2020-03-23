@@ -1,0 +1,122 @@
+60
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='pid'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='identifyPid'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='ProcessUtils'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='pidFile'
+22 scope (ThisExpr)
+23 value (NameExpr)
+24 name (SimpleName)
+25 identifier='pidFile'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='writePid'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='force'
+34 name (SimpleName)
+35 identifier='LocalProcessLauncher'
+36 parameters
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='pidFile'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='File'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='force'
+48 type (PrimitiveType)
+49 type='BOOLEAN'
+50 thrownExceptions
+51 thrownException (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='FileAlreadyExistsException'
+54 thrownException (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='IOException'
+57 thrownException (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='PidUnavailableException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+0 34
+34 35
+0 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+36 44
+44 45
+44 46
+46 47
+44 48
+48 49
+0 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+50 57
+57 58
+58 59
+
+Constructs a new ProcessLauncher. Parses this process's RuntimeMXBean name for the pid (process id).

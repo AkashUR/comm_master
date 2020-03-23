@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='serverAddresses'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getHostName'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='addr'
+21 right (StringLiteralExpr)
+22 value=':'
+23 right (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getPort'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='addr'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='addServer'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='addr'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='InetSocketAddress'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+13 15
+15 16
+16 17
+15 18
+18 19
+19 20
+13 21
+21 22
+11 23
+23 24
+24 25
+23 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+
+Adds a server address

@@ -1,0 +1,402 @@
+200
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='IndexWriter'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='dir'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='newIndexWriterConfig'
+30 arguments
+31 argument (NullLiteralExpr)
+32 name (SimpleName)
+33 identifier='iw'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='IndexWriter'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (ObjectCreationExpr)
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Document'
+45 name (SimpleName)
+46 identifier='doc'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Document'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='add'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='doc'
+57 arguments
+58 argument (ObjectCreationExpr)
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='StringField'
+62 arguments
+63 argument (StringLiteralExpr)
+64 value='foo'
+65 argument (StringLiteralExpr)
+66 value='bar'
+67 argument (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='NO'
+70 scope (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='Store'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='Field'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='addDocument'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='iw'
+83 arguments
+84 argument (NameExpr)
+85 name (SimpleName)
+86 identifier='doc'
+87 statement (ExpressionStmt)
+88 expression (VariableDeclarationExpr)
+89 variables
+90 variable (VariableDeclarator)
+91 initializer (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='open'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='DirectoryReader'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='iw'
+101 name (SimpleName)
+102 identifier='dr'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='DirectoryReader'
+106 statement (ExpressionStmt)
+107 expression (VariableDeclarationExpr)
+108 variables
+109 variable (VariableDeclarator)
+110 initializer (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='getOnlyLeafReader'
+113 arguments
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='dr'
+117 name (SimpleName)
+118 identifier='r'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='LeafReader'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='expectThrows'
+126 arguments
+127 argument (ClassExpr)
+128 type (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='IllegalStateException'
+131 argument (NullLiteralExpr)
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='expectThrows'
+136 arguments
+137 argument (ClassExpr)
+138 type (ClassOrInterfaceType)
+139 name (SimpleName)
+140 identifier='IllegalStateException'
+141 argument (NullLiteralExpr)
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='expectThrows'
+146 arguments
+147 argument (ClassExpr)
+148 type (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='IllegalStateException'
+151 argument (NullLiteralExpr)
+152 statement (ExpressionStmt)
+153 expression (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='expectThrows'
+156 arguments
+157 argument (ClassExpr)
+158 type (ClassOrInterfaceType)
+159 name (SimpleName)
+160 identifier='IllegalStateException'
+161 argument (NullLiteralExpr)
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='expectThrows'
+166 arguments
+167 argument (ClassExpr)
+168 type (ClassOrInterfaceType)
+169 name (SimpleName)
+170 identifier='IllegalStateException'
+171 argument (NullLiteralExpr)
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='close'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='dr'
+179 statement (ExpressionStmt)
+180 expression (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='close'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='iw'
+186 statement (ExpressionStmt)
+187 expression (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='close'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='dir'
+193 type (VoidType)
+194 name (SimpleName)
+195 identifier='testMisconfiguredField'
+196 thrownExceptions
+197 thrownException (ClassOrInterfaceType)
+198 name (SimpleName)
+199 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+27 30
+30 31
+18 32
+32 33
+18 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+40 45
+45 46
+40 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+62 65
+65 66
+62 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+77 83
+83 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+90 101
+101 102
+90 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+115 116
+109 117
+117 118
+109 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+128 129
+129 130
+126 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+138 139
+139 140
+136 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+149 150
+146 151
+2 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+158 159
+159 160
+156 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+168 169
+169 170
+166 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+2 179
+179 180
+180 181
+181 182
+180 183
+183 184
+184 185
+2 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+0 193
+0 194
+194 195
+0 196
+196 197
+197 198
+198 199
+
+field just doesnt have any docvalues at all: exception

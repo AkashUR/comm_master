@@ -1,0 +1,244 @@
+121
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='arrivals'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='currentTime'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='currentSecondArrivalCount'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='put'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='departures'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='currentTime'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='currentSecondDepartureCount'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='put'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='activityCountIncrement'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='currentTime'
+42 argument (BinaryExpr)
+43 operator='MINUS'
+44 left (NameExpr)
+45 name (SimpleName)
+46 identifier='currentSecondArrivalCount'
+47 right (NameExpr)
+48 name (SimpleName)
+49 identifier='currentSecondDepartureCount'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='put'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='activityCountinProgress'
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='currentTime'
+61 argument (BinaryExpr)
+62 operator='MINUS'
+63 left (BinaryExpr)
+64 operator='PLUS'
+65 left (EnclosedExpr)
+66 inner (ConditionalExpr)
+67 condition (BinaryExpr)
+68 operator='GREATER'
+69 left (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='size'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='activityCountinProgress'
+75 right (IntegerLiteralExpr)
+76 value='0'
+77 elseExpr (IntegerLiteralExpr)
+78 value='0'
+79 thenExpr (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getValue'
+82 scope (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='lastEntry'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='activityCountinProgress'
+88 right (NameExpr)
+89 name (SimpleName)
+90 identifier='currentSecondArrivalCount'
+91 right (NameExpr)
+92 name (SimpleName)
+93 identifier='currentSecondDepartureCount'
+94 statement (ExpressionStmt)
+95 expression (AssignExpr)
+96 operator='ASSIGN'
+97 target (NameExpr)
+98 name (SimpleName)
+99 identifier='currentSecondDepartureCount'
+100 value (IntegerLiteralExpr)
+101 value='0'
+102 statement (ExpressionStmt)
+103 expression (AssignExpr)
+104 operator='ASSIGN'
+105 target (NameExpr)
+106 name (SimpleName)
+107 identifier='currentSecondArrivalCount'
+108 value (IntegerLiteralExpr)
+109 value='0'
+110 statement (ExpressionStmt)
+111 expression (AssignExpr)
+112 operator='ASSIGN'
+113 target (NameExpr)
+114 name (SimpleName)
+115 identifier='currentTime'
+116 value (IntegerLiteralExpr)
+117 value='0'
+118 type (VoidType)
+119 name (SimpleName)
+120 identifier='writeTotalsAndResetCounters'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+38 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+59 60
+57 61
+61 62
+61 63
+63 64
+63 65
+65 66
+66 67
+67 68
+67 69
+69 70
+70 71
+69 72
+72 73
+73 74
+67 75
+75 76
+66 77
+77 78
+66 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+63 88
+88 89
+89 90
+61 91
+91 92
+92 93
+2 94
+94 95
+95 96
+95 97
+97 98
+98 99
+95 100
+100 101
+2 102
+102 103
+103 104
+103 105
+105 106
+106 107
+103 108
+108 109
+2 110
+110 111
+111 112
+111 113
+113 114
+114 115
+111 116
+116 117
+0 118
+0 119
+119 120
+
+No more transactions at this facility for the current timestep, so update the treemaps

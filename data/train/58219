@@ -1,0 +1,756 @@
+377
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='RandomIndexWriter'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='random'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='dir'
+30 name (SimpleName)
+31 identifier='writer'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='RandomIndexWriter'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Document'
+43 name (SimpleName)
+44 identifier='document'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Document'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 initializer (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getByName'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='InetAddress'
+58 arguments
+59 argument (StringLiteralExpr)
+60 value='1.2.3.4'
+61 name (SimpleName)
+62 identifier='address'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='InetAddress'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='add'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='document'
+73 arguments
+74 argument (ObjectCreationExpr)
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='InetAddressPoint'
+78 arguments
+79 argument (StringLiteralExpr)
+80 value='field'
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='address'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='addDocument'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='writer'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='document'
+95 statement (ExpressionStmt)
+96 expression (VariableDeclarationExpr)
+97 variables
+98 variable (VariableDeclarator)
+99 initializer (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getReader'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='writer'
+105 name (SimpleName)
+106 identifier='reader'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='IndexReader'
+110 statement (ExpressionStmt)
+111 expression (VariableDeclarationExpr)
+112 variables
+113 variable (VariableDeclarator)
+114 initializer (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='newSearcher'
+117 arguments
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='reader'
+121 name (SimpleName)
+122 identifier='searcher'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='IndexSearcher'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='assertEquals'
+130 arguments
+131 argument (IntegerLiteralExpr)
+132 value='1'
+133 argument (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='count'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='searcher'
+139 arguments
+140 argument (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='newExactQuery'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='InetAddressPoint'
+146 arguments
+147 argument (StringLiteralExpr)
+148 value='field'
+149 argument (NameExpr)
+150 name (SimpleName)
+151 identifier='address'
+152 statement (ExpressionStmt)
+153 expression (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='assertEquals'
+156 arguments
+157 argument (IntegerLiteralExpr)
+158 value='1'
+159 argument (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='count'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='searcher'
+165 arguments
+166 argument (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='newPrefixQuery'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='InetAddressPoint'
+172 arguments
+173 argument (StringLiteralExpr)
+174 value='field'
+175 argument (NameExpr)
+176 name (SimpleName)
+177 identifier='address'
+178 argument (IntegerLiteralExpr)
+179 value='24'
+180 statement (ExpressionStmt)
+181 expression (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='assertEquals'
+184 arguments
+185 argument (IntegerLiteralExpr)
+186 value='1'
+187 argument (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='count'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='searcher'
+193 arguments
+194 argument (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='newRangeQuery'
+197 scope (NameExpr)
+198 name (SimpleName)
+199 identifier='InetAddressPoint'
+200 arguments
+201 argument (StringLiteralExpr)
+202 value='field'
+203 argument (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='getByName'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='InetAddress'
+209 arguments
+210 argument (StringLiteralExpr)
+211 value='1.2.3.3'
+212 argument (MethodCallExpr)
+213 name (SimpleName)
+214 identifier='getByName'
+215 scope (NameExpr)
+216 name (SimpleName)
+217 identifier='InetAddress'
+218 arguments
+219 argument (StringLiteralExpr)
+220 value='1.2.3.5'
+221 statement (ExpressionStmt)
+222 expression (MethodCallExpr)
+223 name (SimpleName)
+224 identifier='assertEquals'
+225 arguments
+226 argument (IntegerLiteralExpr)
+227 value='1'
+228 argument (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='count'
+231 scope (NameExpr)
+232 name (SimpleName)
+233 identifier='searcher'
+234 arguments
+235 argument (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='newSetQuery'
+238 scope (NameExpr)
+239 name (SimpleName)
+240 identifier='InetAddressPoint'
+241 arguments
+242 argument (StringLiteralExpr)
+243 value='field'
+244 argument (MethodCallExpr)
+245 name (SimpleName)
+246 identifier='getByName'
+247 scope (NameExpr)
+248 name (SimpleName)
+249 identifier='InetAddress'
+250 arguments
+251 argument (StringLiteralExpr)
+252 value='1.2.3.4'
+253 statement (ExpressionStmt)
+254 expression (MethodCallExpr)
+255 name (SimpleName)
+256 identifier='assertEquals'
+257 arguments
+258 argument (IntegerLiteralExpr)
+259 value='1'
+260 argument (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='count'
+263 scope (NameExpr)
+264 name (SimpleName)
+265 identifier='searcher'
+266 arguments
+267 argument (MethodCallExpr)
+268 name (SimpleName)
+269 identifier='newSetQuery'
+270 scope (NameExpr)
+271 name (SimpleName)
+272 identifier='InetAddressPoint'
+273 arguments
+274 argument (StringLiteralExpr)
+275 value='field'
+276 argument (MethodCallExpr)
+277 name (SimpleName)
+278 identifier='getByName'
+279 scope (NameExpr)
+280 name (SimpleName)
+281 identifier='InetAddress'
+282 arguments
+283 argument (StringLiteralExpr)
+284 value='1.2.3.4'
+285 argument (MethodCallExpr)
+286 name (SimpleName)
+287 identifier='getByName'
+288 scope (NameExpr)
+289 name (SimpleName)
+290 identifier='InetAddress'
+291 arguments
+292 argument (StringLiteralExpr)
+293 value='1.2.3.5'
+294 statement (ExpressionStmt)
+295 expression (MethodCallExpr)
+296 name (SimpleName)
+297 identifier='assertEquals'
+298 arguments
+299 argument (IntegerLiteralExpr)
+300 value='0'
+301 argument (MethodCallExpr)
+302 name (SimpleName)
+303 identifier='count'
+304 scope (NameExpr)
+305 name (SimpleName)
+306 identifier='searcher'
+307 arguments
+308 argument (MethodCallExpr)
+309 name (SimpleName)
+310 identifier='newSetQuery'
+311 scope (NameExpr)
+312 name (SimpleName)
+313 identifier='InetAddressPoint'
+314 arguments
+315 argument (StringLiteralExpr)
+316 value='field'
+317 argument (MethodCallExpr)
+318 name (SimpleName)
+319 identifier='getByName'
+320 scope (NameExpr)
+321 name (SimpleName)
+322 identifier='InetAddress'
+323 arguments
+324 argument (StringLiteralExpr)
+325 value='1.2.3.3'
+326 statement (ExpressionStmt)
+327 expression (MethodCallExpr)
+328 name (SimpleName)
+329 identifier='assertEquals'
+330 arguments
+331 argument (IntegerLiteralExpr)
+332 value='0'
+333 argument (MethodCallExpr)
+334 name (SimpleName)
+335 identifier='count'
+336 scope (NameExpr)
+337 name (SimpleName)
+338 identifier='searcher'
+339 arguments
+340 argument (MethodCallExpr)
+341 name (SimpleName)
+342 identifier='newSetQuery'
+343 scope (NameExpr)
+344 name (SimpleName)
+345 identifier='InetAddressPoint'
+346 arguments
+347 argument (StringLiteralExpr)
+348 value='field'
+349 statement (ExpressionStmt)
+350 expression (MethodCallExpr)
+351 name (SimpleName)
+352 identifier='close'
+353 scope (NameExpr)
+354 name (SimpleName)
+355 identifier='reader'
+356 statement (ExpressionStmt)
+357 expression (MethodCallExpr)
+358 name (SimpleName)
+359 identifier='close'
+360 scope (NameExpr)
+361 name (SimpleName)
+362 identifier='writer'
+363 statement (ExpressionStmt)
+364 expression (MethodCallExpr)
+365 name (SimpleName)
+366 identifier='close'
+367 scope (NameExpr)
+368 name (SimpleName)
+369 identifier='dir'
+370 type (VoidType)
+371 name (SimpleName)
+372 identifier='testBasics'
+373 thrownExceptions
+374 thrownException (ClassOrInterfaceType)
+375 name (SimpleName)
+376 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+18 30
+30 31
+18 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+38 43
+43 44
+38 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+51 61
+61 62
+51 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+67 73
+73 74
+74 75
+75 76
+76 77
+74 78
+78 79
+79 80
+78 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+98 105
+105 106
+98 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+119 120
+113 121
+121 122
+113 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+130 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+146 149
+149 150
+150 151
+2 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+156 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+166 172
+172 173
+173 174
+172 175
+175 176
+176 177
+172 178
+178 179
+2 180
+180 181
+181 182
+182 183
+181 184
+184 185
+185 186
+184 187
+187 188
+188 189
+187 190
+190 191
+191 192
+187 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+194 200
+200 201
+201 202
+200 203
+203 204
+204 205
+203 206
+206 207
+207 208
+203 209
+209 210
+210 211
+200 212
+212 213
+213 214
+212 215
+215 216
+216 217
+212 218
+218 219
+219 220
+2 221
+221 222
+222 223
+223 224
+222 225
+225 226
+226 227
+225 228
+228 229
+229 230
+228 231
+231 232
+232 233
+228 234
+234 235
+235 236
+236 237
+235 238
+238 239
+239 240
+235 241
+241 242
+242 243
+241 244
+244 245
+245 246
+244 247
+247 248
+248 249
+244 250
+250 251
+251 252
+2 253
+253 254
+254 255
+255 256
+254 257
+257 258
+258 259
+257 260
+260 261
+261 262
+260 263
+263 264
+264 265
+260 266
+266 267
+267 268
+268 269
+267 270
+270 271
+271 272
+267 273
+273 274
+274 275
+273 276
+276 277
+277 278
+276 279
+279 280
+280 281
+276 282
+282 283
+283 284
+273 285
+285 286
+286 287
+285 288
+288 289
+289 290
+285 291
+291 292
+292 293
+2 294
+294 295
+295 296
+296 297
+295 298
+298 299
+299 300
+298 301
+301 302
+302 303
+301 304
+304 305
+305 306
+301 307
+307 308
+308 309
+309 310
+308 311
+311 312
+312 313
+308 314
+314 315
+315 316
+314 317
+317 318
+318 319
+317 320
+320 321
+321 322
+317 323
+323 324
+324 325
+2 326
+326 327
+327 328
+328 329
+327 330
+330 331
+331 332
+330 333
+333 334
+334 335
+333 336
+336 337
+337 338
+333 339
+339 340
+340 341
+341 342
+340 343
+343 344
+344 345
+340 346
+346 347
+347 348
+2 349
+349 350
+350 351
+351 352
+350 353
+353 354
+354 355
+2 356
+356 357
+357 358
+358 359
+357 360
+360 361
+361 362
+2 363
+363 364
+364 365
+365 366
+364 367
+367 368
+368 369
+0 370
+0 371
+371 372
+0 373
+373 374
+374 375
+375 376
+
+Add a single address and search for it

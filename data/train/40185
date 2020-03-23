@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='logError'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='logger'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='ERROR_TRIGGER_TYPE_NOT_SUPPORTED'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='LogMessageIdentifier'
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='valueOf'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='String'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getType'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getTriggerDefinition'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='process'
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='toString'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='Long'
+39 arguments
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getKey'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='process'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setState'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='process'
+53 arguments
+54 argument (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='ERROR'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='TriggerProcessStatus'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='handleUnsupportedTriggerProcessType'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='process'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='TriggerProcess'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+10 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+
+Logs the problem (unsupported type) and sets the process state to error.

@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkEqualsWithScaleOfExpected'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='message'
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='BigDecimal'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='expected'
+19 argument (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='BigDecimal'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='actual'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='checkEquals'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='message'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='expected'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='String'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='actual'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+7 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+30 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+30 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+
+Compares the expected value with the actual value. In case the actual value has a fraction, then the expected value must defined with also a fractional part. The actual value will be rounded, in order to make writing test more convenient. The fractional part of the expected value must have at least two digits (in case the actual value as a fractional part with more than 2 digits.)<br> e.g. <br> checkEquals(30 , 30) == true <br> checkEquals(30.12 , 30.1234) == true<br> checkEquals(30 , 30.1234) with throw IllegalArgumentException<br> checkEquals(30.1 , 30.1234) with throw IllegalArgumentException<br>

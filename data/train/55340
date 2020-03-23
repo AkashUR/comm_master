@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='emitDirect'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='taskId'
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='DEFAULT_STREAM_ID'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='Utils'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='anchors'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='tuple'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='emitDirect'
+26 parameters
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='taskId'
+31 type (PrimitiveType)
+32 type='INT'
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='anchors'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Collection'
+40 typeArguments
+41 typeArgument (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='Tuple'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='tuple'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='List'
+51 typeArguments
+52 typeArgument (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+7 17
+17 18
+18 19
+7 20
+20 21
+21 22
+0 23
+0 24
+24 25
+0 26
+26 27
+27 28
+27 29
+29 30
+27 31
+31 32
+26 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+26 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+48 51
+51 52
+52 53
+53 54
+
+Emits a tuple directly to the specified task id on the default stream. If the target bolt does not subscribe to this bolt using a direct grouping, the tuple will not be sent. If the specified output stream is not declared as direct, or the target bolt subscribes with a non-direct grouping, an error will occur at runtime. The emitted values must be immutable. <p> <p>The default stream must be declared as direct in the topology definition. See OutputDeclarer#declare for how this is done when defining topologies in Java.</p>

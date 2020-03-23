@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='runTest'
+10 scope (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='TestHelper'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='explainHints-bottomup04'
+17 argument (StringLiteralExpr)
+18 value='explainHints-bottomup04.rq'
+19 argument (StringLiteralExpr)
+20 value='explainHints.trig'
+21 argument (StringLiteralExpr)
+22 value='explainHints-bottomup12345.srx'
+23 name (SimpleName)
+24 identifier='container'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='ASTContainer'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='assertCarriesExactlyOneExplainHintOfType'
+32 arguments
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getOptimizedAST'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='container'
+39 argument (ClassExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='BottomUpSemanticsExplainHint'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='testBottomUpSemanticsExplainHint04'
+46 thrownExceptions
+47 thrownException (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+14 19
+19 20
+14 21
+21 22
+6 23
+23 24
+6 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+32 39
+39 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+48 49
+
+Assert that the explain hint is attached for BIND scope issues. SELECT ?s ?type WHERE { BIND("http://example.com/" AS ?typeBase) { BIND(URI(CONCAT(?typeBase,"Person")) AS ?type) ?s a ?o FILTER(?o=?type) } UNION { BIND(URI(CONCAT(?typeBase,"Animal")) AS ?type) ?s a ?o FILTER(?o=?type) } }

@@ -1,0 +1,90 @@
+44
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='rows'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='columns'
+12 argument (BinaryExpr)
+13 operator='MULTIPLY'
+14 left (NameExpr)
+15 name (SimpleName)
+16 identifier='rows'
+17 right (EnclosedExpr)
+18 inner (BinaryExpr)
+19 operator='DIVIDE'
+20 left (NameExpr)
+21 name (SimpleName)
+22 identifier='columns'
+23 right (IntegerLiteralExpr)
+24 value='1000'
+25 argument (DoubleLiteralExpr)
+26 value='0.2'
+27 argument (DoubleLiteralExpr)
+28 value='0.5'
+29 name (SimpleName)
+30 identifier='SparseDoubleMatrix2D'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='rows'
+36 type (PrimitiveType)
+37 type='INT'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='columns'
+42 type (PrimitiveType)
+43 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+5 25
+25 26
+5 27
+27 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+31 38
+38 39
+38 40
+40 41
+38 42
+42 43
+
+Constructs a matrix with a given number of rows and columns and default memory usage. All entries are initially <tt>0</tt>.

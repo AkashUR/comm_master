@@ -1,0 +1,222 @@
+110
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='<application></application>'
+9 name (SimpleName)
+10 identifier='xml'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='parseApplicationXml'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='ApplicationXmlIo'
+24 arguments
+25 argument (ObjectCreationExpr)
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='ByteArrayInputStream'
+29 arguments
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getBytes'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='xml'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='UTF-8'
+39 argument (NullLiteralExpr)
+40 name (SimpleName)
+41 identifier='applicationXml'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='ApplicationXml'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='addEjbModule'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='applicationXml'
+52 arguments
+53 argument (StringLiteralExpr)
+54 value='ejbmodule1.jar'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='getEjbModules'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='applicationXml'
+65 name (SimpleName)
+66 identifier='ejbModules'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='List'
+70 typeArguments
+71 typeArgument (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='String'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='assertEquals'
+78 arguments
+79 argument (IntegerLiteralExpr)
+80 value='1'
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='size'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='ejbModules'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='assertEquals'
+91 arguments
+92 argument (StringLiteralExpr)
+93 value='ejbmodule1.jar'
+94 argument (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='get'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='ejbModules'
+100 arguments
+101 argument (IntegerLiteralExpr)
+102 value='0'
+103 type (VoidType)
+104 name (SimpleName)
+105 identifier='testAddEjbModule'
+106 thrownExceptions
+107 thrownException (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+24 39
+17 40
+40 41
+17 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+58 65
+65 66
+58 67
+67 68
+68 69
+67 70
+70 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+0 103
+0 104
+104 105
+0 106
+106 107
+107 108
+108 109
+
+Verifies that the method <code>addEjbModule()</code> adds a correct tag.

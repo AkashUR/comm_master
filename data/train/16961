@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mReboot'
+9 value (BooleanLiteralExpr)
+10 value='true'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='mRebootSafeMode'
+17 value (BooleanLiteralExpr)
+18 value='true'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (NameExpr)
+23 name (SimpleName)
+24 identifier='mRebootReason'
+25 value (NullLiteralExpr)
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='shutdownInner'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='context'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='confirm'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='rebootSafeMode'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='context'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Context'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='confirm'
+52 type (PrimitiveType)
+53 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+40 48
+48 49
+48 50
+50 51
+48 52
+52 53
+
+Request a reboot into safe mode.  Must be called from a Looper thread in which its UI is shown.

@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='replace'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='toString'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='distrib'
+16 arguments
+17 argument (StringLiteralExpr)
+18 value='\n'
+19 argument (StringLiteralExpr)
+20 value='\n<br>'
+21 name (SimpleName)
+22 identifier='distribStr'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='String'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='distribStr'
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getHtmlRendering'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='StringUtils'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='distribStr'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='setText'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='logArea'
+49 arguments
+50 argument (BinaryExpr)
+51 operator='PLUS'
+52 left (BinaryExpr)
+53 operator='PLUS'
+54 left (StringLiteralExpr)
+55 value='<html><font size=\"4\" face=\"helvetica\">'
+56 right (NameExpr)
+57 name (SimpleName)
+58 identifier='distribStr'
+59 right (StringLiteralExpr)
+60 value='</font></html>'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='writeToLogArea'
+64 parameters
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='distrib'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='MultivariateDistribution'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+16 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+50 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+50 59
+59 60
+0 61
+0 62
+62 63
+0 64
+64 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+
+Writes the given distribution in the logging area at the bottom of the window

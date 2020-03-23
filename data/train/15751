@@ -1,0 +1,84 @@
+41
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='shutdown'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='client'
+10 scope (ThisExpr)
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='client'
+17 scope (ThisExpr)
+18 value (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getAsyncClient'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='AWSUtils'
+24 arguments
+25 argument (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='creds'
+28 scope (ThisExpr)
+29 argument (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='zoneId'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='TestAWSSetupUtils'
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getExecutor'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='bounceAWSClient'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+14 17
+12 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+25 28
+24 29
+29 30
+30 31
+29 32
+32 33
+33 34
+24 35
+35 36
+36 37
+0 38
+0 39
+39 40
+
+Re-initializes the AWS client so that the outstanding memory buffers and threads are released back.

@@ -1,0 +1,54 @@
+26
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='updateCounter'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='delta'
+12 type (VoidType)
+13 name (SimpleName)
+14 identifier='updateCounter'
+15 parameters
+16 parameter (Parameter)
+17 isVarArgs='false'
+18 name (SimpleName)
+19 identifier='delta'
+20 type (PrimitiveType)
+21 type='LONG'
+22 annotations
+23 annotation (MarkerAnnotationExpr)
+24 name (Name)
+25 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+0 12
+0 13
+13 14
+0 15
+15 16
+16 17
+16 18
+18 19
+16 20
+20 21
+0 22
+22 23
+23 24
+24 25
+
+Ignore the delta value since the change isn't relevant for heap related LRU since the counter reflects a percentage of used memory. Normally the delta reflects either the number of entries that changed for the <code>LRUCapacityController</code> or the estimated amount of memory that has changed after performing a Region operation. The <code>HeapLRUCapacityController</code> however does not care about <code>Region</code> changes, it only considers heap changes and uses <code>Runtime</code> to determine how much to evict.

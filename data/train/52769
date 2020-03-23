@@ -1,0 +1,194 @@
+96
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='disconnect'
+7 scope (SuperExpr)
+8 statement (ExpressionStmt)
+9 expression (AssignExpr)
+10 operator='ASSIGN'
+11 target (NameExpr)
+12 name (SimpleName)
+13 identifier='_reader'
+14 value (NullLiteralExpr)
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='_writer'
+21 value (NullLiteralExpr)
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='_replyString'
+28 value (NullLiteralExpr)
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='setSize'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='_replyLines'
+36 arguments
+37 argument (IntegerLiteralExpr)
+38 value='0'
+39 statement (ExpressionStmt)
+40 expression (AssignExpr)
+41 operator='ASSIGN'
+42 target (NameExpr)
+43 name (SimpleName)
+44 identifier='_newReplyString'
+45 value (BooleanLiteralExpr)
+46 value='false'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='disconnect'
+50 thrownExceptions
+51 thrownException (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='IOException'
+54 annotations
+55 annotation (NormalAnnotationExpr)
+56 name (Name)
+57 identifier='DSGenerator'
+58 pairs
+59 pair (MemberValuePair)
+60 name (SimpleName)
+61 identifier='tool_name'
+62 value (StringLiteralExpr)
+63 value='Doppelganger'
+64 pair (MemberValuePair)
+65 name (SimpleName)
+66 identifier='tool_version'
+67 value (StringLiteralExpr)
+68 value='2.0'
+69 pair (MemberValuePair)
+70 name (SimpleName)
+71 identifier='generated_on'
+72 value (StringLiteralExpr)
+73 value='2014-02-25 10:38:02.413 -0500'
+74 pair (MemberValuePair)
+75 name (SimpleName)
+76 identifier='hash_original_method'
+77 value (StringLiteralExpr)
+78 value='270AE27F27A3F7621C8092BA94DE298D'
+79 pair (MemberValuePair)
+80 name (SimpleName)
+81 identifier='hash_generated_method'
+82 value (StringLiteralExpr)
+83 value='18BBEE17F7D24A9079B33AEDF2E4EF50'
+84 annotation (MarkerAnnotationExpr)
+85 name (Name)
+86 identifier='DSVerified'
+87 annotation (SingleMemberAnnotationExpr)
+88 memberValue (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='SAFE_OTHERS'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='DSCat'
+94 name (Name)
+95 identifier='DSSafe'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+9 11
+11 12
+12 13
+9 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+2 39
+39 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+52 53
+0 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+60 61
+59 62
+62 63
+58 64
+64 65
+65 66
+64 67
+67 68
+58 69
+69 70
+70 71
+69 72
+72 73
+58 74
+74 75
+75 76
+74 77
+77 78
+58 79
+79 80
+80 81
+79 82
+82 83
+54 84
+84 85
+85 86
+54 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+87 94
+94 95
+
+Closes the connection to the SMTP server and sets to null some internal data so that the memory may be reclaimed by the garbage collector.  The reply text and code information from the last command is voided so that the memory it used may be reclaimed. <p>

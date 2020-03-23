@@ -1,0 +1,400 @@
+199
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='MockAnalyzer'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='random'
+27 name (SimpleName)
+28 identifier='analyzer'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Analyzer'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='IndexWriter'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='dir'
+44 argument (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='IndexWriterConfig'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='analyzer'
+52 name (SimpleName)
+53 identifier='iw'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='IndexWriter'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (ObjectCreationExpr)
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='Document'
+65 name (SimpleName)
+66 identifier='doc'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='Document'
+70 statement (ExpressionStmt)
+71 expression (VariableDeclarationExpr)
+72 variables
+73 variable (VariableDeclarator)
+74 initializer (ObjectCreationExpr)
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='StoredField'
+78 arguments
+79 argument (StringLiteralExpr)
+80 value='foo'
+81 argument (FieldAccessExpr)
+82 name (SimpleName)
+83 identifier='bytes'
+84 scope (ObjectCreationExpr)
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='BytesRef'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='hello'
+91 name (SimpleName)
+92 identifier='theField'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Field'
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='add'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='doc'
+103 arguments
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='theField'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='addDocument'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='iw'
+114 arguments
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='doc'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='expectThrows'
+122 arguments
+123 argument (ClassExpr)
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='NullPointerException'
+127 argument (NullLiteralExpr)
+128 statement (ExpressionStmt)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='assertNull'
+132 arguments
+133 argument (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getTragicException'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='iw'
+139 statement (ExpressionStmt)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='close'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='iw'
+146 statement (ExpressionStmt)
+147 expression (VariableDeclarationExpr)
+148 variables
+149 variable (VariableDeclarator)
+150 initializer (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='open'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='DirectoryReader'
+156 arguments
+157 argument (NameExpr)
+158 name (SimpleName)
+159 identifier='dir'
+160 name (SimpleName)
+161 identifier='r'
+162 type (ClassOrInterfaceType)
+163 name (SimpleName)
+164 identifier='DirectoryReader'
+165 statement (ExpressionStmt)
+166 expression (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='assertEquals'
+169 arguments
+170 argument (IntegerLiteralExpr)
+171 value='1'
+172 argument (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='numDocs'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='r'
+178 statement (ExpressionStmt)
+179 expression (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='close'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='r'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='close'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='dir'
+192 type (VoidType)
+193 name (SimpleName)
+194 identifier='testNullStoredBytesFieldReuse'
+195 thrownExceptions
+196 thrownException (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+18 27
+27 28
+18 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+35 52
+52 53
+35 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+60 65
+65 66
+60 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+73 74
+74 75
+75 76
+76 77
+74 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+73 91
+91 92
+73 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+124 125
+125 126
+122 127
+2 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+150 156
+156 157
+157 158
+158 159
+149 160
+160 161
+149 162
+162 163
+163 164
+2 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+169 172
+172 173
+173 174
+172 175
+175 176
+176 177
+2 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+0 192
+0 193
+193 194
+0 195
+195 196
+196 197
+197 198
+
+test a null byte[] value doesn't abort the entire segment

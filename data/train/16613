@@ -1,0 +1,246 @@
+122
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='withDefaults'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='Builder'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='TaskOptions'
+16 name (SimpleName)
+17 identifier='options'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='TaskOptions'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='param'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='options'
+28 arguments
+29 argument (StringLiteralExpr)
+30 value='jobId'
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getJobId'
+34 scope (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getJobReference'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='job'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='param'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='options'
+47 arguments
+48 argument (StringLiteralExpr)
+49 value='userId'
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='userId'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='url'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='options'
+60 arguments
+61 argument (StringLiteralExpr)
+62 value='/task'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='countdownMillis'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='options'
+70 arguments
+71 argument (IntegerLiteralExpr)
+72 value='1000'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='retryOptions'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='options'
+80 arguments
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='withTaskRetryLimit'
+84 scope (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='Builder'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='RetryOptions'
+90 arguments
+91 argument (IntegerLiteralExpr)
+92 value='0'
+93 statement (ExpressionStmt)
+94 expression (VariableDeclarationExpr)
+95 variables
+96 variable (VariableDeclarator)
+97 initializer (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getDefaultQueue'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='QueueFactory'
+103 name (SimpleName)
+104 identifier='queue'
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='Queue'
+108 statement (ExpressionStmt)
+109 expression (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='add'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='queue'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='options'
+119 type (VoidType)
+120 name (SimpleName)
+121 identifier='enqueueWaitingTask'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+84 87
+87 88
+88 89
+81 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+96 103
+103 104
+96 105
+105 106
+106 107
+2 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+0 119
+0 120
+120 121
+
+Constructs a task with necessary parameters and options and puts it in App Engine's default task queue.

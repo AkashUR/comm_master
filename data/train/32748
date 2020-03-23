@@ -1,0 +1,54 @@
+26
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='fname'
+9 name (SimpleName)
+10 identifier='Matrix'
+11 parameters
+12 parameter (Parameter)
+13 isVarArgs='false'
+14 name (SimpleName)
+15 identifier='fname'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='String'
+19 thrownExceptions
+20 thrownException (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='FileNotFoundException'
+23 thrownException (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+0 9
+9 10
+0 11
+11 12
+12 13
+12 14
+14 15
+12 16
+16 17
+17 18
+0 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+
+Creates a matrix reading it from a file <code>fname</code>. The file has to be an ascii one and follow a particular format:<p> *MATRIX*  [matrix name] <br> [n]<br> [0, 0 ] [ 0, 1] ...  [ 0, n-1]<br> [1, 0 ] [ 1, 1] ... [ 1, n-1]<br> :<br> [n-1,0] [n-1,1] ...  [n-1,n-1]<p> </p> First token should be a word with "MATRIX" as a substring (case insens.), followed by the name of the matrix (one word). [n] is the number of rows and columns in the matrix, and [i,j] is element at position i,j in the matrix.<br> For example, a 3x3 identity matrix could be represented as follows:<p> </p> MATRIX Identity3x3<br> <br> 3  // # rows and columns<br> <br> // Matrix elements:<br> 1 0 0<br> 0 1 0<br> 0 0 1<p> </p> Notice there can be slash-slash (and also slash-star) style comments anywhere in the file. Numbers can be separated by any number of blank delimiters: tabs, spaces, carriage returns.  In the examples above they appear in different lines for more readability of the file. The file may have less elements than the total needed to fill the matrix.  If it has more elements an illegal argument exception will be generated.

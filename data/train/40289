@@ -1,0 +1,68 @@
+33
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='fileContent'
+9 value (NullLiteralExpr)
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='removeDocumentListener'
+14 scope (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getDocument'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='pubData'
+20 arguments
+21 argument (ThisExpr)
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='changedUpdate'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='de'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='DocumentEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+11 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+
+DocumentListener - changedUpdate The JTextArea has been modified. Null the file contents and stop listening for document changes. A new listener will be added the next time content is read from a file.

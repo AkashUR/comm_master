@@ -1,0 +1,140 @@
+69
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='uriBuilder'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='client'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='CONTROL_REBOOT_NODE_URL'
+17 name (SimpleName)
+18 identifier='builder'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='UriBuilder'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='addQueryParam'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='builder'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='NODE_ID_PARAM'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='nodeId'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='postURI'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='client'
+43 arguments
+44 argument (ClassExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='String'
+48 argument (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='build'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='builder'
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='rebootNode'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='nodeId'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 annotations
+66 annotation (MarkerAnnotationExpr)
+67 name (Name)
+68 identifier='Deprecated'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+26 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+46 47
+43 48
+48 49
+49 50
+48 51
+51 52
+52 53
+0 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+0 65
+65 66
+66 67
+67 68
+
+Reboot a virtual machine. <p> API Call: POST /control/node/reboot

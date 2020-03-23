@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='fillFromToWith'
+7 scope (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ByteArrayList'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='state'
+15 scope (ThisExpr)
+16 arguments
+17 argument (IntegerLiteralExpr)
+18 value='0'
+19 argument (BinaryExpr)
+20 operator='MINUS'
+21 left (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='length'
+24 scope (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='state'
+27 scope (ThisExpr)
+28 right (IntegerLiteralExpr)
+29 value='1'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='FREE'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='distinct'
+39 scope (ThisExpr)
+40 value (IntegerLiteralExpr)
+41 value='0'
+42 statement (ExpressionStmt)
+43 expression (AssignExpr)
+44 operator='ASSIGN'
+45 target (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='freeEntries'
+48 scope (ThisExpr)
+49 value (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='length'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='table'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='trimToSize'
+59 type (VoidType)
+60 name (SimpleName)
+61 identifier='clear'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+4 16
+16 17
+17 18
+16 19
+19 20
+19 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+19 28
+28 29
+16 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+2 42
+42 43
+43 44
+43 45
+45 46
+46 47
+45 48
+43 49
+49 50
+50 51
+49 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+0 59
+0 60
+60 61
+
+Removes all (key,value) associations from the receiver. Implicitly calls <tt>trimToSize()</tt>.

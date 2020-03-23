@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='installUI'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='c'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='JComponent'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+
+Configures the specified component appropriately for the look and feel. This method is invoked when the <code>ComponentUI</code> instance is being installed as the UI delegate on the specified component.  This method should completely configure the component for the look and feel, including the following: <ol> <li>Install default property values for color, fonts, borders, icons, opacity, etc. on the component.  Whenever possible, property values initialized by the client program should <i>not</i> be overridden. <li>Install a <code>LayoutManager</code> on the component if necessary. <li>Create/add any required sub-components to the component. <li>Create/install event listeners on the component. <li>Create/install a <code>PropertyChangeListener</code> on the component in order to detect and respond to component property changes appropriately. <li>Install keyboard UI (mnemonics, traversal, etc.) on the component. <li>Initialize any appropriate instance data. </ol>

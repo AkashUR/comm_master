@@ -1,0 +1,66 @@
+32
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkAndRetry'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='iterable'
+11 argument (NullLiteralExpr)
+12 type (VoidType)
+13 name (SimpleName)
+14 identifier='checkAndRetry'
+15 parameters
+16 parameter (Parameter)
+17 isVarArgs='false'
+18 name (SimpleName)
+19 identifier='iterable'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Iterable'
+23 typeArguments
+24 typeArgument (WildcardType)
+25 extendedType (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='T'
+28 thrownExceptions
+29 thrownException (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+0 12
+0 13
+13 14
+0 15
+15 16
+16 17
+16 18
+18 19
+16 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+26 27
+0 28
+28 29
+29 30
+30 31
+
+Checks that this store has no duplicate triples, and try to rebuild if this fails to happen. <p><strong>Warning</strong>: the actions are executed exactly in the specified order&mdash;<em>first</em> check, <em>then</em> retry. If you invoke this method on an empty store you'll get a checked empty store.

@@ -1,0 +1,94 @@
+46
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (AssertStmt)
+4 check (BinaryExpr)
+5 operator='AND'
+6 left (BinaryExpr)
+7 operator='NOT_EQUALS'
+8 left (NameExpr)
+9 name (SimpleName)
+10 identifier='annotation'
+11 right (NullLiteralExpr)
+12 right (BinaryExpr)
+13 operator='EQUALS'
+14 left (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getClassType'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getType'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='annotation'
+23 right (ClassExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Integer'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (NameExpr)
+31 name (SimpleName)
+32 identifier='mAnnotation'
+33 value (NameExpr)
+34 name (SimpleName)
+35 identifier='annotation'
+36 name (SimpleName)
+37 identifier='VcfInfoPerAltIntegerAnnotator'
+38 parameters
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='annotation'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='AbstractDerivedAnnotation'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+6 8
+8 9
+9 10
+6 11
+4 12
+12 13
+12 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+12 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+28 33
+33 34
+34 35
+0 36
+36 37
+0 38
+38 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+
+Create an INFO annotation that outputs an integer value for each alt allele in the variant.

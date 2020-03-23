@@ -1,0 +1,276 @@
+137
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ScaledResolution'
+11 arguments
+12 argument (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getMinecraft'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='Minecraft'
+18 name (SimpleName)
+19 identifier='scaledResolution'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='ScaledResolution'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='glMatrixMode'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='GL11'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='GL_PROJECTION'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='GL11'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='glLoadIdentity'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='GL11'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='glOrtho'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='GL11'
+51 arguments
+52 argument (DoubleLiteralExpr)
+53 value='0.0D'
+54 argument (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getScaledWidth'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='scaledResolution'
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getScaledHeight'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='scaledResolution'
+66 argument (DoubleLiteralExpr)
+67 value='0.0D'
+68 argument (DoubleLiteralExpr)
+69 value='1000.0D'
+70 argument (DoubleLiteralExpr)
+71 value='3000.0D'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='glMatrixMode'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='GL11'
+79 arguments
+80 argument (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='GL_MODELVIEW'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='GL11'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='glLoadIdentity'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='GL11'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='glTranslatef'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='GL11'
+100 arguments
+101 argument (DoubleLiteralExpr)
+102 value='0.0F'
+103 argument (DoubleLiteralExpr)
+104 value='0.0F'
+105 argument (UnaryExpr)
+106 operator='MINUS'
+107 expression (DoubleLiteralExpr)
+108 value='2000.0F'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='applyBloodSky'
+113 scope (ThisExpr)
+114 arguments
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='partialTicks'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='applySwirl'
+122 scope (ThisExpr)
+123 arguments
+124 argument (NameExpr)
+125 name (SimpleName)
+126 identifier='partialTicks'
+127 type (VoidType)
+128 name (SimpleName)
+129 identifier='renderPostEffects'
+130 parameters
+131 parameter (Parameter)
+132 isVarArgs='false'
+133 name (SimpleName)
+134 identifier='partialTicks'
+135 type (PrimitiveType)
+136 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+51 60
+60 61
+61 62
+60 63
+63 64
+64 65
+51 66
+66 67
+51 68
+68 69
+51 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+100 103
+103 104
+100 105
+105 106
+105 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+110 114
+114 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+119 123
+123 124
+124 125
+125 126
+0 127
+0 128
+128 129
+0 130
+130 131
+131 132
+131 133
+133 134
+131 135
+135 136
+
+Renders additional post processing effects such as god's rays, swirl etc.

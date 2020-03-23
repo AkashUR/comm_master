@@ -1,0 +1,58 @@
+28
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='close'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='GOAWAY_OK'
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='RST_CANCEL'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='SpdyStream'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='close'
+20 thrownExceptions
+21 thrownException (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='IOException'
+24 annotations
+25 annotation (MarkerAnnotationExpr)
+26 name (Name)
+27 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+22 23
+0 24
+24 25
+25 26
+26 27
+
+Closes this connection. This cancels all open streams and unanswered pings. It closes the underlying input and output streams and shuts down internal executor services.

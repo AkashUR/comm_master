@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getBody'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='response'
+13 arguments
+14 argument (ClassExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='ServiceDocumentQueryResult'
+18 name (SimpleName)
+19 identifier='body'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='ServiceDocumentQueryResult'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='assertNotEquals'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='body'
+31 argument (NullLiteralExpr)
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='assertNotEquals'
+36 arguments
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='documentLinks'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='body'
+43 argument (NullLiteralExpr)
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='assertNotEquals'
+48 arguments
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='size'
+52 scope (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='documentLinks'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='body'
+58 argument (IntegerLiteralExpr)
+59 value='0'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='validateRootResponse'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='response'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Operation'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+27 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+36 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+52 55
+55 56
+56 57
+48 58
+58 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+
+The validation of the response from the RootNamespaceService: verifies that we can parse the response and that there is at least one document link.

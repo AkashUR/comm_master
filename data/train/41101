@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ActionEvent'
+11 arguments
+12 argument (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getSource'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='e'
+18 argument (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='ACTION_PERFORMED'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='ActionEvent'
+24 argument (StringLiteralExpr)
+25 value='FrameClosing'
+26 name (SimpleName)
+27 identifier='e2'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='ActionEvent'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='CloseSessionAction'
+39 name (SimpleName)
+40 identifier='closeSessionAction'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='CloseSessionAction'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='actionPerformed'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='closeSessionAction'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='e2'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='internalFrameClosing'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='e'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='InternalFrameEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+11 18
+18 19
+19 20
+18 21
+21 22
+22 23
+11 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+34 39
+39 40
+34 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+
+Throws up a warning dialog and then closes the frame if the user says to.  Otherwise ignores the attempt.

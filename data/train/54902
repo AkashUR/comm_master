@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='loadStoredRoutes'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='request'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='selfClient'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='GET'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='HttpMethod'
+30 argument (BinaryExpr)
+31 operator='PLUS'
+32 left (BinaryExpr)
+33 operator='PLUS'
+34 left (NameExpr)
+35 name (SimpleName)
+36 identifier='hookRootUri'
+37 right (NameExpr)
+38 name (SimpleName)
+39 identifier='HOOK_ROUTE_STORAGE_PATH'
+40 right (StringLiteralExpr)
+41 value='?expand=1'
+42 argument (NullLiteralExpr)
+43 name (SimpleName)
+44 identifier='selfRequest'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='HttpClientRequest'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='setTimeout'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='selfRequest'
+55 arguments
+56 argument (IntegerLiteralExpr)
+57 value='120000'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='end'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='selfRequest'
+65 type (VoidType)
+66 name (SimpleName)
+67 identifier='loadStoredRoutes'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+30 32
+32 33
+32 34
+34 35
+35 36
+32 37
+37 38
+38 39
+30 40
+40 41
+23 42
+16 43
+43 44
+16 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+0 65
+0 66
+66 67
+
+Loads the stored routes from the resource storage, if any are available.

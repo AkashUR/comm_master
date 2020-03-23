@@ -1,0 +1,302 @@
+150
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addAndCreateSourceEntry'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='javaProjectA'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='SRC_DIR_NAME'
+14 argument (NullLiteralExpr)
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='addAndCreateSourceEntry'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='javaProjectA'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='SECONDARY_SRC_DIR_NAME'
+26 argument (NullLiteralExpr)
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getListOfFiles'
+34 arguments
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='computeClasspath'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='GWTCompileRunner'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='javaProjectA'
+45 name (SimpleName)
+46 identifier='actualCp'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='List'
+50 typeArguments
+51 typeArgument (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='File'
+54 statement (ExpressionStmt)
+55 expression (VariableDeclarationExpr)
+56 variables
+57 variable (VariableDeclarator)
+58 initializer (ObjectCreationExpr)
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='ArrayList'
+62 typeArguments
+63 typeArgument (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='File'
+66 name (SimpleName)
+67 identifier='expectedCp'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='List'
+71 typeArguments
+72 typeArgument (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='File'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='add'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='expectedCp'
+82 arguments
+83 argument (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getFile'
+86 arguments
+87 argument (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='getProject'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='javaProjectA'
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='SRC_DIR_NAME'
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='add'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='expectedCp'
+103 arguments
+104 argument (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='getFile'
+107 arguments
+108 argument (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='getProject'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='javaProjectA'
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='SECONDARY_SRC_DIR_NAME'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='add'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='expectedCp'
+124 arguments
+125 argument (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='getOutputOfProject'
+128 arguments
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='javaProjectA'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='assertEquals'
+136 arguments
+137 argument (NameExpr)
+138 name (SimpleName)
+139 identifier='expectedCp'
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='actualCp'
+143 type (VoidType)
+144 name (SimpleName)
+145 identifier='testComputeClasspathForMultipleSources'
+146 thrownExceptions
+147 thrownException (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='CoreException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+19 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+30 45
+45 46
+30 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+57 66
+66 67
+57 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+86 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+107 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+138 139
+136 140
+140 141
+141 142
+0 143
+0 144
+144 145
+0 146
+146 147
+147 148
+148 149
+
+Tests computing the classpath for a project with multiple source directories.

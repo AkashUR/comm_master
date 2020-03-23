@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='sub'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='regexp'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='repl'
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='_str'
+20 scope (ThisExpr)
+21 name (SimpleName)
+22 identifier='s'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='String'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='s'
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='sub'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='Regex'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='x'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='\\{\\}'
+44 arguments
+45 argument (StringLiteralExpr)
+46 value=''
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='s'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='_str'
+56 scope (ThisExpr)
+57 value (NameExpr)
+58 name (SimpleName)
+59 identifier='s'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='xform'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='regexp'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Regex'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='repl'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+17 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+32 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+53 56
+51 57
+57 58
+58 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+63 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+
+""" Apply the given transformation to the string encoding of this ``ChunkString``.  In particular, find all occurrences that match ``regexp``, and replace them using ``repl`` (as done by ``re.sub``). This transformation should only add and remove braces; it should *not* modify the sequence of angle-bracket delimited tags.  Furthermore, this transformation may not result in improper bracketing.  Note, in particular, that bracketing may not be nested.

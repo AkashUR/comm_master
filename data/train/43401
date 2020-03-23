@@ -1,0 +1,384 @@
+191
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='MULTIPLY'
+9 left (BinaryExpr)
+10 operator='DIVIDE'
+11 left (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='x'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='uiPoint'
+17 right (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='width'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='surfaceSize_'
+23 right (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='width'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='screenSize_'
+29 name (SimpleName)
+30 identifier='newX'
+31 type (PrimitiveType)
+32 type='FLOAT'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (BinaryExpr)
+38 operator='MINUS'
+39 left (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='height'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='screenSize_'
+45 right (BinaryExpr)
+46 operator='MULTIPLY'
+47 left (BinaryExpr)
+48 operator='DIVIDE'
+49 left (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='y'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='uiPoint'
+55 right (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='height'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='surfaceSize_'
+61 right (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='height'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='screenSize_'
+67 name (SimpleName)
+68 identifier='newY'
+69 type (PrimitiveType)
+70 type='FLOAT'
+71 statement (ExpressionStmt)
+72 expression (VariableDeclarationExpr)
+73 variables
+74 variable (VariableDeclarator)
+75 initializer (NullLiteralExpr)
+76 name (SimpleName)
+77 identifier='ret'
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='CGPoint'
+81 statement (SwitchStmt)
+82 selector (NameExpr)
+83 name (SimpleName)
+84 identifier='deviceOrientation_'
+85 entries
+86 entrie (SwitchEntryStmt)
+87 label (NameExpr)
+88 name (SimpleName)
+89 identifier='kCCDeviceOrientationPortrait'
+90 statements
+91 statement (ExpressionStmt)
+92 expression (AssignExpr)
+93 operator='ASSIGN'
+94 target (NameExpr)
+95 name (SimpleName)
+96 identifier='ret'
+97 value (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='ccp'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='CGPoint'
+103 arguments
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='newX'
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='newY'
+110 statement (BreakStmt)
+111 entrie (SwitchEntryStmt)
+112 label (NameExpr)
+113 name (SimpleName)
+114 identifier='kCCDeviceOrientationLandscapeLeft'
+115 statements
+116 statement (ExpressionStmt)
+117 expression (AssignExpr)
+118 operator='ASSIGN'
+119 target (NameExpr)
+120 name (SimpleName)
+121 identifier='ret'
+122 value (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='ccp'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='CGPoint'
+128 arguments
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='newX'
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='newY'
+135 statement (BreakStmt)
+136 entrie (SwitchEntryStmt)
+137 statements
+138 statement (ReturnStmt)
+139 expression (NameExpr)
+140 name (SimpleName)
+141 identifier='ret'
+142 statement (IfStmt)
+143 condition (BinaryExpr)
+144 operator='AND'
+145 left (BinaryExpr)
+146 operator='NOT_EQUALS'
+147 left (NameExpr)
+148 name (SimpleName)
+149 identifier='contentScaleFactor_'
+150 right (IntegerLiteralExpr)
+151 value='1'
+152 right (NameExpr)
+153 name (SimpleName)
+154 identifier='isContentScaleSupported_'
+155 thenStmt (ExpressionStmt)
+156 expression (AssignExpr)
+157 operator='ASSIGN'
+158 target (NameExpr)
+159 name (SimpleName)
+160 identifier='ret'
+161 value (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='ccpMult'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='CGPoint'
+167 arguments
+168 argument (NameExpr)
+169 name (SimpleName)
+170 identifier='ret'
+171 argument (NameExpr)
+172 name (SimpleName)
+173 identifier='contentScaleFactor_'
+174 statement (ReturnStmt)
+175 expression (NameExpr)
+176 name (SimpleName)
+177 identifier='ret'
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='CGPoint'
+181 name (SimpleName)
+182 identifier='convertToGL'
+183 parameters
+184 parameter (Parameter)
+185 isVarArgs='false'
+186 name (SimpleName)
+187 identifier='uiPoint'
+188 type (ClassOrInterfaceType)
+189 name (SimpleName)
+190 identifier='CGPoint'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+12 13
+11 14
+14 15
+15 16
+9 17
+17 18
+18 19
+17 20
+20 21
+21 22
+7 23
+23 24
+24 25
+23 26
+26 27
+27 28
+6 29
+29 30
+6 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+37 39
+39 40
+40 41
+39 42
+42 43
+43 44
+37 45
+45 46
+45 47
+47 48
+47 49
+49 50
+50 51
+49 52
+52 53
+53 54
+47 55
+55 56
+56 57
+55 58
+58 59
+59 60
+45 61
+61 62
+62 63
+61 64
+64 65
+65 66
+36 67
+67 68
+36 69
+69 70
+2 71
+71 72
+72 73
+73 74
+74 75
+74 76
+76 77
+74 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+81 85
+85 86
+86 87
+87 88
+88 89
+86 90
+90 91
+91 92
+92 93
+92 94
+94 95
+95 96
+92 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+105 106
+103 107
+107 108
+108 109
+90 110
+85 111
+111 112
+112 113
+113 114
+111 115
+115 116
+116 117
+117 118
+117 119
+119 120
+120 121
+117 122
+122 123
+123 124
+122 125
+125 126
+126 127
+122 128
+128 129
+129 130
+130 131
+128 132
+132 133
+133 134
+115 135
+85 136
+136 137
+137 138
+138 139
+139 140
+140 141
+2 142
+142 143
+143 144
+143 145
+145 146
+145 147
+147 148
+148 149
+145 150
+150 151
+143 152
+152 153
+153 154
+142 155
+155 156
+156 157
+156 158
+158 159
+159 160
+156 161
+161 162
+162 163
+161 164
+164 165
+165 166
+161 167
+167 168
+168 169
+169 170
+167 171
+171 172
+172 173
+2 174
+174 175
+175 176
+176 177
+0 178
+178 179
+179 180
+0 181
+181 182
+0 183
+183 184
+184 185
+184 186
+186 187
+184 188
+188 189
+189 190
+
+converts a UIKit coordinate to an OpenGL coordinate Useful to convert (multi) touchs coordinates to the current layout (portrait or landscape)

@@ -1,0 +1,86 @@
+42
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='printMessage'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ast'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='WARNING'
+14 scope (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='Kind'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Diagnostic'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='message'
+23 argument (ThisExpr)
+24 argument (NullLiteralExpr)
+25 argument (BooleanLiteralExpr)
+26 value='false'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='addWarning'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='message'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+38 annotations
+39 annotation (MarkerAnnotationExpr)
+40 name (Name)
+41 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+10 20
+20 21
+21 22
+10 23
+10 24
+10 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+0 38
+38 39
+39 40
+40 41
+
+Generates a compiler warning focused on the AST node represented by this node object.

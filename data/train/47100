@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='pushState'
+7 statement (ExpressionStmt)
+8 expression (AssignExpr)
+9 operator='ASSIGN'
+10 target (NameExpr)
+11 name (SimpleName)
+12 identifier='scope'
+13 value (NameExpr)
+14 name (SimpleName)
+15 identifier='el'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='superBlockNamedLabels'
+22 value (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='HashMap'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='superBlockNamedLabels'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='putAll'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='superBlockNamedLabels'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='currentBlockNamedLabels'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (NameExpr)
+45 name (SimpleName)
+46 identifier='currentBlockNamedLabels'
+47 value (ObjectCreationExpr)
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='HashMap'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='pushVariableScope'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='el'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='VariableScope'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+
+Causes the state-stack to add an element and sets the given scope as new current variable scope. Creates a element for the state stack so pop has to be called later

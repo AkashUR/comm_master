@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkField'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='AND'
+10 left (BinaryExpr)
+11 operator='NOT_EQUALS'
+12 left (NameExpr)
+13 name (SimpleName)
+14 identifier='value'
+15 right (NullLiteralExpr)
+16 right (UnaryExpr)
+17 operator='LOGICAL_COMPLEMENT'
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='isEmpty'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='value'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='fieldName'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='checkFieldNotEmpty'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='value'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Map'
+38 typeArguments
+39 typeArgument (WildcardType)
+40 typeArgument (WildcardType)
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='fieldName'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+10 12
+12 13
+13 14
+10 15
+8 16
+16 17
+16 18
+18 19
+19 20
+18 21
+21 22
+22 23
+7 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+35 38
+38 39
+38 40
+30 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+
+Validates that the value supplied is not null, and not an empty map

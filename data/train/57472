@@ -1,0 +1,108 @@
+53
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='buildNewIntegerConstant'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='ExpressionFactory'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='value'
+17 name (SimpleName)
+18 identifier='intConstant'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='IntegerConstant'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='pushBv32'
+26 scope (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='operandStack'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='topFrame'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='env'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='intConstant'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='BIPUSH'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='value'
+47 type (PrimitiveType)
+48 type='INT'
+49 annotations
+50 annotation (MarkerAnnotationExpr)
+51 name (Name)
+52 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+23 35
+35 36
+36 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+0 49
+49 50
+50 51
+51 52
+
+Bytecode instruction stream: ... ,0x10, byte, ... <p> Push the byte value that immediately follows this bytecode instruction (0x10) in the bytecode stream. The byte value is sign-extended to an int. http://java.sun.com/docs/books/jvms/second_edition/html/Instructions2. doc1.html#bipush

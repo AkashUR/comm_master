@@ -1,0 +1,88 @@
+43
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='changeCursor'
+7 scope (ThisExpr)
+8 arguments
+9 argument (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='MatrixCursor'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getColumnNames'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getCursor'
+20 scope (ThisExpr)
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='notifyDataSetChanged'
+25 scope (ThisExpr)
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='execute'
+30 scope (EnclosedExpr)
+31 inner (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='AsyncCursorAdapterUpdater'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='cursorGenerator'
+39 argument (ThisExpr)
+40 type (VoidType)
+41 name (SimpleName)
+42 identifier='refresh'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+2 21
+21 22
+22 23
+23 24
+22 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+33 34
+27 35
+35 36
+36 37
+37 38
+35 39
+0 40
+0 41
+41 42
+
+Asynchronously updates the CursorAdapter <p/> Immediately on invocation, the CursorAdapter is blanked. It is updated once the refresh completes.

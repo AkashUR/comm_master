@@ -1,0 +1,296 @@
+147
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createDeployable'
+10 scope (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='DefaultDeployableFactory'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='resin3x'
+17 argument (StringLiteralExpr)
+18 value='path/to/simple.war'
+19 argument (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='WAR'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='DeployableType'
+25 name (SimpleName)
+26 identifier='war'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Deployable'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (ObjectCreationExpr)
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='DefaultConfigurationFactory'
+38 name (SimpleName)
+39 identifier='configurationFactory'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='ConfigurationFactory'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (CastExpr)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='createConfiguration'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='configurationFactory'
+54 arguments
+55 argument (StringLiteralExpr)
+56 value='resin3x'
+57 argument (FieldAccessExpr)
+58 name (SimpleName)
+59 identifier='INSTALLED'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='ContainerType'
+63 argument (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='STANDALONE'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='ConfigurationType'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='LocalConfiguration'
+72 name (SimpleName)
+73 identifier='configuration'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='LocalConfiguration'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='addDeployable'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='configuration'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='war'
+88 statement (ExpressionStmt)
+89 expression (VariableDeclarationExpr)
+90 variables
+91 variable (VariableDeclarator)
+92 initializer (CastExpr)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='createContainer'
+96 scope (ObjectCreationExpr)
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='DefaultContainerFactory'
+100 arguments
+101 argument (StringLiteralExpr)
+102 value='resin3x'
+103 argument (FieldAccessExpr)
+104 name (SimpleName)
+105 identifier='INSTALLED'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='ContainerType'
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='configuration'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='InstalledLocalContainer'
+115 name (SimpleName)
+116 identifier='container'
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='InstalledLocalContainer'
+120 statement (ExpressionStmt)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='setHome'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='container'
+127 arguments
+128 argument (StringLiteralExpr)
+129 value='c:/apps/resin-3.0.18'
+130 statement (ExpressionStmt)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='start'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='container'
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='stop'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='container'
+144 type (VoidType)
+145 name (SimpleName)
+146 identifier='snippetResin3xStartAndStopUntyped'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+7 14
+14 15
+15 16
+14 17
+17 18
+14 19
+19 20
+20 21
+19 22
+22 23
+23 24
+6 25
+25 26
+6 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+33 38
+38 39
+33 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+54 63
+63 64
+64 65
+63 66
+66 67
+67 68
+47 69
+69 70
+70 71
+46 72
+72 73
+46 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+91 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+98 99
+93 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+106 107
+107 108
+100 109
+109 110
+110 111
+92 112
+112 113
+113 114
+91 115
+115 116
+91 117
+117 118
+118 119
+2 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+0 144
+0 145
+145 146
+
+Snippet for starting and stopping a Resin 3.x container.

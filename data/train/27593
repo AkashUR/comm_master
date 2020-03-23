@@ -1,0 +1,66 @@
+32
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='setSecondaryFs'
+9 value (BooleanLiteralExpr)
+10 value='true'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='startUp'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='checkMode'
+19 arguments
+20 argument (StringLiteralExpr)
+21 value='/dir'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='DUAL_ASYNC'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='testModeDefaultIsNotSet'
+28 thrownExceptions
+29 thrownException (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+30 31
+
+Ensure that DUAL_ASYNC mode is set by default.

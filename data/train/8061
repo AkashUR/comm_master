@@ -1,0 +1,180 @@
+89
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='vectorJoins'
+10 scope (ThisExpr)
+11 arguments
+12 argument (ObjectCreationExpr)
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='VectorJoin'
+16 arguments
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getId'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='layer'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='joinFieldName'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='targetFieldName'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='PLUS'
+32 target (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='header'
+35 scope (ThisExpr)
+36 value (BinaryExpr)
+37 operator='PLUS'
+38 left (BinaryExpr)
+39 operator='PLUS'
+40 left (BinaryExpr)
+41 operator='PLUS'
+42 left (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='delimiter'
+45 scope (ThisExpr)
+46 right (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getName'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='layer'
+52 right (StringLiteralExpr)
+53 value='_'
+54 right (NameExpr)
+55 name (SimpleName)
+56 identifier='zField'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='addVectorJoin'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='layer'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='QGisLayer'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='joinFieldName'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='String'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='targetFieldName'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='String'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='zField'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+4 11
+11 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+16 23
+23 24
+24 25
+16 26
+26 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+32 35
+30 36
+36 37
+36 38
+38 39
+38 40
+40 41
+40 42
+42 43
+43 44
+42 45
+40 46
+46 47
+47 48
+46 49
+49 50
+50 51
+38 52
+52 53
+36 54
+54 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+60 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+60 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+60 82
+82 83
+82 84
+84 85
+82 86
+86 87
+87 88
+
+Creates a vector join between a geometry layer (e.g. points) and a data layer (e.g. accessibility data, immissions,...). This method must be called by the geometry layer because the vector joins are stored there. You need to specify the name of the data layer and the field names of the geometry and the data layer so QGis can merge objects with same field contents (e.g. same Id). The field names of the layers don't have to be equal.

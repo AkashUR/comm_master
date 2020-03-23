@@ -1,0 +1,484 @@
+241
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getToolBarManager'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getActionBars'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getViewSite'
+16 name (SimpleName)
+17 identifier='toolBarManager'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='IToolBarManager'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='add'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='toolBarManager'
+28 arguments
+29 argument (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='ShowPropertiesAction'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (ObjectCreationExpr)
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='MenuAction'
+41 name (SimpleName)
+42 identifier='filterMenuAction'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='MenuAction'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setText'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='filterMenuAction'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='Group and Filter'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='setImageDescriptor'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='filterMenuAction'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getImageDescriptor'
+67 scope (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='getDefault'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='InspectIT'
+73 arguments
+74 argument (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='IMG_FILTER'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='InspectITImages'
+80 statement (ExpressionStmt)
+81 expression (AssignExpr)
+82 operator='ASSIGN'
+83 target (NameExpr)
+84 name (SimpleName)
+85 identifier='groupByLabelMenu'
+86 value (ObjectCreationExpr)
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='MenuManager'
+90 arguments
+91 argument (StringLiteralExpr)
+92 value='Group Storages By'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='addContributionItem'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='filterMenuAction'
+100 arguments
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='groupByLabelMenu'
+104 statement (ExpressionStmt)
+105 expression (AssignExpr)
+106 operator='ASSIGN'
+107 target (NameExpr)
+108 name (SimpleName)
+109 identifier='filterByRepositoryMenu'
+110 value (ObjectCreationExpr)
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='MenuManager'
+114 arguments
+115 argument (StringLiteralExpr)
+116 value='Filter By Repository'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='addContributionItem'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='filterMenuAction'
+124 arguments
+125 argument (NameExpr)
+126 name (SimpleName)
+127 identifier='filterByRepositoryMenu'
+128 statement (ExpressionStmt)
+129 expression (AssignExpr)
+130 operator='ASSIGN'
+131 target (NameExpr)
+132 name (SimpleName)
+133 identifier='filterByStateMenu'
+134 value (ObjectCreationExpr)
+135 type (ClassOrInterfaceType)
+136 name (SimpleName)
+137 identifier='MenuManager'
+138 arguments
+139 argument (StringLiteralExpr)
+140 value='Filter By Storage State'
+141 statement (ExpressionStmt)
+142 expression (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='add'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='filterByStateMenu'
+148 arguments
+149 argument (ObjectCreationExpr)
+150 type (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='FilterStatesAction'
+153 arguments
+154 argument (StringLiteralExpr)
+155 value='Writable'
+156 argument (FieldAccessExpr)
+157 name (SimpleName)
+158 identifier='OPENED'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='StorageState'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='add'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='filterByStateMenu'
+169 arguments
+170 argument (ObjectCreationExpr)
+171 type (ClassOrInterfaceType)
+172 name (SimpleName)
+173 identifier='FilterStatesAction'
+174 arguments
+175 argument (StringLiteralExpr)
+176 value='Recording'
+177 argument (FieldAccessExpr)
+178 name (SimpleName)
+179 identifier='RECORDING'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='StorageState'
+183 statement (ExpressionStmt)
+184 expression (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='add'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='filterByStateMenu'
+190 arguments
+191 argument (ObjectCreationExpr)
+192 type (ClassOrInterfaceType)
+193 name (SimpleName)
+194 identifier='FilterStatesAction'
+195 arguments
+196 argument (StringLiteralExpr)
+197 value='Readable'
+198 argument (FieldAccessExpr)
+199 name (SimpleName)
+200 identifier='CLOSED'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='StorageState'
+204 statement (ExpressionStmt)
+205 expression (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='addContributionItem'
+208 scope (NameExpr)
+209 name (SimpleName)
+210 identifier='filterMenuAction'
+211 arguments
+212 argument (NameExpr)
+213 name (SimpleName)
+214 identifier='filterByStateMenu'
+215 statement (ExpressionStmt)
+216 expression (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='add'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='toolBarManager'
+222 arguments
+223 argument (NameExpr)
+224 name (SimpleName)
+225 identifier='filterMenuAction'
+226 statement (ExpressionStmt)
+227 expression (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='add'
+230 scope (NameExpr)
+231 name (SimpleName)
+232 identifier='toolBarManager'
+233 arguments
+234 argument (ObjectCreationExpr)
+235 type (ClassOrInterfaceType)
+236 name (SimpleName)
+237 identifier='Separator'
+238 type (VoidType)
+239 name (SimpleName)
+240 identifier='createViewToolbar'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+36 41
+41 42
+36 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+64 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+2 80
+80 81
+81 82
+81 83
+83 84
+84 85
+81 86
+86 87
+87 88
+88 89
+86 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+102 103
+2 104
+104 105
+105 106
+105 107
+107 108
+108 109
+105 110
+110 111
+111 112
+112 113
+110 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+126 127
+2 128
+128 129
+129 130
+129 131
+131 132
+132 133
+129 134
+134 135
+135 136
+136 137
+134 138
+138 139
+139 140
+2 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+150 151
+151 152
+149 153
+153 154
+154 155
+153 156
+156 157
+157 158
+156 159
+159 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+163 169
+169 170
+170 171
+171 172
+172 173
+170 174
+174 175
+175 176
+174 177
+177 178
+178 179
+177 180
+180 181
+181 182
+2 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+184 190
+190 191
+191 192
+192 193
+193 194
+191 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+2 204
+204 205
+205 206
+206 207
+205 208
+208 209
+209 210
+205 211
+211 212
+212 213
+213 214
+2 215
+215 216
+216 217
+217 218
+216 219
+219 220
+220 221
+216 222
+222 223
+223 224
+224 225
+2 226
+226 227
+227 228
+228 229
+227 230
+230 231
+231 232
+227 233
+233 234
+234 235
+235 236
+236 237
+0 238
+0 239
+239 240
+
+Creates the view tool-bar.

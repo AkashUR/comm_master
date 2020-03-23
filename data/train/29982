@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getFigure'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='NoteFigure'
+14 name (SimpleName)
+15 identifier='noteFigure'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='NoteFigure'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setText'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='noteFigure'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getObject'
+30 scope (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getNote'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='setVisible'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='noteFigure'
+40 arguments
+41 argument (BooleanLiteralExpr)
+42 value='true'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='refreshVisuals'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='revertNameChange'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+0 47
+0 48
+48 49
+
+Reverts to existing name in model when exiting from a direct edit (possibly before a commit which will result in a change in the label value)

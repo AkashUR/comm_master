@@ -1,0 +1,204 @@
+101
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Message'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='targetUserID'
+15 name (SimpleName)
+16 identifier='msg'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Message'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='RosterExchange'
+28 name (SimpleName)
+29 identifier='rosterExchange'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='RosterExchange'
+33 statement (ForeachStmt)
+34 body (BlockStmt)
+35 statements
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='addRosterEntry'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='rosterExchange'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='entry'
+47 iterable (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getEntries'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='rosterGroup'
+53 variable (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 name (SimpleName)
+57 identifier='entry'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='RosterEntry'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='addExtension'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='msg'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='rosterExchange'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='sendPacket'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='con'
+79 arguments
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='msg'
+83 type (VoidType)
+84 name (SimpleName)
+85 identifier='send'
+86 parameters
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='rosterGroup'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='RosterGroup'
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='targetUserID'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+23 28
+28 29
+23 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+33 47
+47 48
+48 49
+47 50
+50 51
+51 52
+33 53
+53 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+0 83
+0 84
+84 85
+0 86
+86 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+86 94
+94 95
+94 96
+96 97
+94 98
+98 99
+99 100
+
+Sends a roster group to userID. All the entries of the group will be sent to the  target user.

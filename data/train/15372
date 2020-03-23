@@ -1,0 +1,634 @@
+316
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='java:saveWithQueryBuilder'
+9 name (SimpleName)
+10 identifier='job'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (StringLiteralExpr)
+19 value='test'
+20 name (SimpleName)
+21 identifier='keyspaceName'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='String'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (StringLiteralExpr)
+30 value='tweets2'
+31 name (SimpleName)
+32 identifier='inputTableName'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='String'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (StringLiteralExpr)
+41 value='counters'
+42 name (SimpleName)
+43 identifier='outputTableName'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='String'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (StringLiteralExpr)
+52 value='counters'
+53 name (SimpleName)
+54 identifier='statsTableName'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='String'
+58 statement (ExpressionStmt)
+59 expression (VariableDeclarationExpr)
+60 variables
+61 variable (VariableDeclarator)
+62 initializer (ObjectCreationExpr)
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='ContextProperties'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='args'
+70 name (SimpleName)
+71 identifier='p'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='ContextProperties'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 initializer (ObjectCreationExpr)
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='DeepSparkContext'
+83 arguments
+84 argument (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='getCluster'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='p'
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='job'
+93 argument (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='getSparkHome'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='p'
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getJars'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='p'
+105 name (SimpleName)
+106 identifier='deepContext'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='DeepSparkContext'
+110 statement (ExpressionStmt)
+111 expression (VariableDeclarationExpr)
+112 variables
+113 variable (VariableDeclarator)
+114 initializer (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='initialize'
+117 scope (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='table'
+120 scope (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='keyspace'
+123 scope (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='rpcPort'
+126 scope (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='cqlPort'
+129 scope (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='host'
+132 scope (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='create'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='CassandraConfigFactory'
+138 arguments
+139 argument (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='getCassandraHost'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='p'
+145 arguments
+146 argument (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='getCassandraCqlPort'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='p'
+152 arguments
+153 argument (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='getCassandraThriftPort'
+156 scope (NameExpr)
+157 name (SimpleName)
+158 identifier='p'
+159 arguments
+160 argument (NameExpr)
+161 name (SimpleName)
+162 identifier='keyspaceName'
+163 arguments
+164 argument (NameExpr)
+165 name (SimpleName)
+166 identifier='inputTableName'
+167 name (SimpleName)
+168 identifier='inputConfig'
+169 type (ClassOrInterfaceType)
+170 name (SimpleName)
+171 identifier='CassandraDeepJobConfig'
+172 typeArguments
+173 typeArgument (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='Cells'
+176 statement (ExpressionStmt)
+177 expression (VariableDeclarationExpr)
+178 variables
+179 variable (VariableDeclarator)
+180 initializer (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='createJavaRDD'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='deepContext'
+186 arguments
+187 argument (NameExpr)
+188 name (SimpleName)
+189 identifier='inputConfig'
+190 name (SimpleName)
+191 identifier='inputRDD'
+192 type (ClassOrInterfaceType)
+193 name (SimpleName)
+194 identifier='JavaRDD'
+195 typeArguments
+196 typeArgument (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='Cells'
+199 statement (ExpressionStmt)
+200 expression (VariableDeclarationExpr)
+201 variables
+202 variable (VariableDeclarator)
+203 initializer (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='createTableOnWrite'
+206 scope (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='table'
+209 scope (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='keyspace'
+212 scope (MethodCallExpr)
+213 name (SimpleName)
+214 identifier='rpcPort'
+215 scope (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='cqlPort'
+218 scope (MethodCallExpr)
+219 name (SimpleName)
+220 identifier='host'
+221 scope (MethodCallExpr)
+222 name (SimpleName)
+223 identifier='createWriteConfig'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='CassandraConfigFactory'
+227 arguments
+228 argument (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='getCassandraHost'
+231 scope (NameExpr)
+232 name (SimpleName)
+233 identifier='p'
+234 arguments
+235 argument (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='getCassandraCqlPort'
+238 scope (NameExpr)
+239 name (SimpleName)
+240 identifier='p'
+241 arguments
+242 argument (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='getCassandraThriftPort'
+245 scope (NameExpr)
+246 name (SimpleName)
+247 identifier='p'
+248 arguments
+249 argument (NameExpr)
+250 name (SimpleName)
+251 identifier='keyspaceName'
+252 arguments
+253 argument (NameExpr)
+254 name (SimpleName)
+255 identifier='outputTableName'
+256 arguments
+257 argument (BooleanLiteralExpr)
+258 value='true'
+259 name (SimpleName)
+260 identifier='outputConfig'
+261 type (ClassOrInterfaceType)
+262 name (SimpleName)
+263 identifier='CassandraDeepJobConfig'
+264 typeArguments
+265 typeArgument (ClassOrInterfaceType)
+266 name (SimpleName)
+267 identifier='Cells'
+268 statement (ExpressionStmt)
+269 expression (MethodCallExpr)
+270 name (SimpleName)
+271 identifier='initialize'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='outputConfig'
+275 statement (ExpressionStmt)
+276 expression (MethodCallExpr)
+277 name (SimpleName)
+278 identifier='saveRDD'
+279 scope (NameExpr)
+280 name (SimpleName)
+281 identifier='deepContext'
+282 arguments
+283 argument (MethodCallExpr)
+284 name (SimpleName)
+285 identifier='rdd'
+286 scope (NameExpr)
+287 name (SimpleName)
+288 identifier='inputRDD'
+289 argument (NameExpr)
+290 name (SimpleName)
+291 identifier='outputConfig'
+292 argument (ObjectCreationExpr)
+293 type (ClassOrInterfaceType)
+294 name (SimpleName)
+295 identifier='IncreaseCountersQueryBuilder'
+296 statement (ExpressionStmt)
+297 expression (MethodCallExpr)
+298 name (SimpleName)
+299 identifier='stop'
+300 scope (NameExpr)
+301 name (SimpleName)
+302 identifier='deepContext'
+303 type (VoidType)
+304 name (SimpleName)
+305 identifier='doMain'
+306 parameters
+307 parameter (Parameter)
+308 isVarArgs='false'
+309 name (SimpleName)
+310 identifier='args'
+311 type (ArrayType)
+312 origin='TYPE'
+313 componentType (ClassOrInterfaceType)
+314 name (SimpleName)
+315 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+17 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+28 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+39 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+50 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+68 69
+61 70
+70 71
+61 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+81 82
+79 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+83 90
+90 91
+91 92
+83 93
+93 94
+94 95
+93 96
+96 97
+97 98
+83 99
+99 100
+100 101
+99 102
+102 103
+103 104
+78 105
+105 106
+78 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+117 120
+120 121
+121 122
+120 123
+123 124
+124 125
+123 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+133 134
+132 135
+135 136
+136 137
+129 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+126 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+123 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+120 159
+159 160
+160 161
+161 162
+117 163
+163 164
+164 165
+165 166
+113 167
+167 168
+113 169
+169 170
+170 171
+169 172
+172 173
+173 174
+174 175
+2 176
+176 177
+177 178
+178 179
+179 180
+180 181
+181 182
+180 183
+183 184
+184 185
+180 186
+186 187
+187 188
+188 189
+179 190
+190 191
+179 192
+192 193
+193 194
+192 195
+195 196
+196 197
+197 198
+2 199
+199 200
+200 201
+201 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+206 209
+209 210
+210 211
+209 212
+212 213
+213 214
+212 215
+215 216
+216 217
+215 218
+218 219
+219 220
+218 221
+221 222
+222 223
+221 224
+224 225
+225 226
+218 227
+227 228
+228 229
+229 230
+228 231
+231 232
+232 233
+215 234
+234 235
+235 236
+236 237
+235 238
+238 239
+239 240
+212 241
+241 242
+242 243
+243 244
+242 245
+245 246
+246 247
+209 248
+248 249
+249 250
+250 251
+206 252
+252 253
+253 254
+254 255
+203 256
+256 257
+257 258
+202 259
+259 260
+202 261
+261 262
+262 263
+261 264
+264 265
+265 266
+266 267
+2 268
+268 269
+269 270
+270 271
+269 272
+272 273
+273 274
+2 275
+275 276
+276 277
+277 278
+276 279
+279 280
+280 281
+276 282
+282 283
+283 284
+284 285
+283 286
+286 287
+287 288
+282 289
+289 290
+290 291
+282 292
+292 293
+293 294
+294 295
+2 296
+296 297
+297 298
+298 299
+297 300
+300 301
+301 302
+0 303
+0 304
+304 305
+0 306
+306 307
+307 308
+307 309
+309 310
+307 311
+311 312
+311 313
+313 314
+314 315
+
+This is the method called by both main and tests.

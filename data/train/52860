@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='execSQL'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='db'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (BinaryExpr)
+18 operator='PLUS'
+19 left (BinaryExpr)
+20 operator='PLUS'
+21 left (BinaryExpr)
+22 operator='PLUS'
+23 left (BinaryExpr)
+24 operator='PLUS'
+25 left (StringLiteralExpr)
+26 value='CREATE TABLE '
+27 right (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='TABLE_NAME'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='MainTable'
+33 right (StringLiteralExpr)
+34 value=' ('
+35 right (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='_ID'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='MainTable'
+41 right (StringLiteralExpr)
+42 value=' INTEGER PRIMARY KEY,'
+43 right (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='COLUMN_NAME_DATA'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='MainTable'
+49 right (StringLiteralExpr)
+50 value=' TEXT'
+51 right (StringLiteralExpr)
+52 value=');'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='onCreate'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='db'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='SQLiteDatabase'
+64 annotations
+65 annotation (MarkerAnnotationExpr)
+66 name (Name)
+67 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+17 19
+19 20
+19 21
+21 22
+21 23
+23 24
+23 25
+25 26
+23 27
+27 28
+28 29
+27 30
+30 31
+31 32
+21 33
+33 34
+19 35
+35 36
+36 37
+35 38
+38 39
+39 40
+17 41
+41 42
+15 43
+43 44
+44 45
+43 46
+46 47
+47 48
+13 49
+49 50
+11 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+0 64
+64 65
+65 66
+66 67
+
+Creates the underlying database with table name and column names taken from the NotePad class.

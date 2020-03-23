@@ -1,0 +1,330 @@
+164
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='notNull'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Check'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='tool'
+14 argument (StringLiteralExpr)
+15 value='tool'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='notNull'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='Check'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='originalPath'
+27 argument (StringLiteralExpr)
+28 value='originalPath'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='notNull'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='Check'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='modifiedPath'
+40 argument (StringLiteralExpr)
+41 value='modifiedPath'
+42 statement (ExpressionStmt)
+43 expression (AssignExpr)
+44 operator='ASSIGN'
+45 target (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='tool'
+48 scope (ThisExpr)
+49 value (NameExpr)
+50 name (SimpleName)
+51 identifier='tool'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='originalPath'
+58 scope (ThisExpr)
+59 value (NameExpr)
+60 name (SimpleName)
+61 identifier='originalPath'
+62 statement (ExpressionStmt)
+63 expression (AssignExpr)
+64 operator='ASSIGN'
+65 target (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='modifiedPath'
+68 scope (ThisExpr)
+69 value (NameExpr)
+70 name (SimpleName)
+71 identifier='modifiedPath'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (FieldAccessExpr)
+76 name (SimpleName)
+77 identifier='originalLabel'
+78 scope (ThisExpr)
+79 value (ConditionalExpr)
+80 condition (EnclosedExpr)
+81 inner (BinaryExpr)
+82 operator='NOT_EQUALS'
+83 left (NameExpr)
+84 name (SimpleName)
+85 identifier='originalLabel'
+86 right (NullLiteralExpr)
+87 elseExpr (StringLiteralExpr)
+88 value=''
+89 thenExpr (NameExpr)
+90 name (SimpleName)
+91 identifier='originalLabel'
+92 statement (ExpressionStmt)
+93 expression (AssignExpr)
+94 operator='ASSIGN'
+95 target (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='modifiedLabel'
+98 scope (ThisExpr)
+99 value (ConditionalExpr)
+100 condition (EnclosedExpr)
+101 inner (BinaryExpr)
+102 operator='NOT_EQUALS'
+103 left (NameExpr)
+104 name (SimpleName)
+105 identifier='modifiedLabel'
+106 right (NullLiteralExpr)
+107 elseExpr (StringLiteralExpr)
+108 value=''
+109 thenExpr (NameExpr)
+110 name (SimpleName)
+111 identifier='modifiedLabel'
+112 name (SimpleName)
+113 identifier='LaunchExternalCompareToolCommand'
+114 parameters
+115 parameter (Parameter)
+116 isVarArgs='false'
+117 name (SimpleName)
+118 identifier='tool'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='ExternalTool'
+122 parameter (Parameter)
+123 isVarArgs='false'
+124 name (SimpleName)
+125 identifier='originalPath'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='String'
+129 parameter (Parameter)
+130 isVarArgs='false'
+131 name (SimpleName)
+132 identifier='modifiedPath'
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='String'
+136 parameter (Parameter)
+137 isVarArgs='false'
+138 name (SimpleName)
+139 identifier='ancestorPath'
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='String'
+143 parameter (Parameter)
+144 isVarArgs='false'
+145 name (SimpleName)
+146 identifier='originalLabel'
+147 type (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='String'
+150 parameter (Parameter)
+151 isVarArgs='false'
+152 name (SimpleName)
+153 identifier='modifiedLabel'
+154 type (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='String'
+157 parameter (Parameter)
+158 isVarArgs='false'
+159 name (SimpleName)
+160 identifier='ancestorLabel'
+161 type (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+23 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+36 40
+40 41
+2 42
+42 43
+43 44
+43 45
+45 46
+46 47
+45 48
+43 49
+49 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+55 58
+53 59
+59 60
+60 61
+2 62
+62 63
+63 64
+63 65
+65 66
+66 67
+65 68
+63 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+75 78
+73 79
+79 80
+80 81
+81 82
+81 83
+83 84
+84 85
+81 86
+79 87
+87 88
+79 89
+89 90
+90 91
+2 92
+92 93
+93 94
+93 95
+95 96
+96 97
+95 98
+93 99
+99 100
+100 101
+101 102
+101 103
+103 104
+104 105
+101 106
+99 107
+107 108
+99 109
+109 110
+110 111
+0 112
+112 113
+0 114
+114 115
+115 116
+115 117
+117 118
+115 119
+119 120
+120 121
+114 122
+122 123
+122 124
+124 125
+122 126
+126 127
+127 128
+114 129
+129 130
+129 131
+131 132
+129 133
+133 134
+134 135
+114 136
+136 137
+136 138
+138 139
+136 140
+140 141
+141 142
+114 143
+143 144
+143 145
+145 146
+143 147
+147 148
+148 149
+114 150
+150 151
+150 152
+152 153
+150 154
+154 155
+155 156
+114 157
+157 158
+157 159
+159 160
+157 161
+161 162
+162 163
+
+Creates a command that launches an external compare tool. Currently the ancestor path and label are ignored (never passed to tools).

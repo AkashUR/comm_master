@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createServers'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='3'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='createClient'
+17 name (SimpleName)
+18 identifier='client'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='CopycatClient'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='sleep'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='Thread'
+29 arguments
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='toMillis'
+33 scope (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='ofSeconds'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='Duration'
+39 arguments
+40 argument (IntegerLiteralExpr)
+41 value='10'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='threadAssertTrue'
+46 arguments
+47 argument (BinaryExpr)
+48 operator='EQUALS'
+49 left (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='state'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='client'
+55 right (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='CONNECTED'
+58 scope (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='State'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='CopycatClient'
+64 type (VoidType)
+65 name (SimpleName)
+66 identifier='testClientKeepAlive'
+67 thrownExceptions
+68 thrownException (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+13 17
+17 18
+13 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+47 49
+49 50
+50 51
+49 52
+52 53
+53 54
+47 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+0 64
+0 65
+65 66
+0 67
+67 68
+68 69
+69 70
+
+Tests keeping a client session alive.

@@ -1,0 +1,512 @@
+255
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='registerService'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='rpcForwarder'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='FakeServiceImpl'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='REQUEST'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='doBlockingRpc'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='rpcForwarder'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='RPC_REQUEST'
+33 name (SimpleName)
+34 identifier='rpcResponse'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Response'
+38 scope (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='SocketRpcProtos'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='assertFalse'
+45 arguments
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getCallback'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='rpcResponse'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='assertFalse'
+56 arguments
+57 argument (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='hasResponseProto'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='rpcResponse'
+63 statement (ExpressionStmt)
+64 expression (VariableDeclarationExpr)
+65 variables
+66 variable (VariableDeclarator)
+67 initializer (ObjectCreationExpr)
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Callback'
+71 typeArguments
+72 typeArgument (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Response'
+75 scope (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='SocketRpcProtos'
+78 name (SimpleName)
+79 identifier='rpcCallback'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Callback'
+83 typeArguments
+84 typeArgument (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Response'
+87 scope (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='SocketRpcProtos'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='doRpc'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='rpcForwarder'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='RPC_REQUEST'
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='rpcCallback'
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='assertFalse'
+108 arguments
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='isInvoked'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='rpcCallback'
+115 statement (ExpressionStmt)
+116 expression (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='registerBlockingService'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='rpcForwarder'
+122 arguments
+123 argument (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='toBlockingService'
+126 scope (ObjectCreationExpr)
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='FakeServiceImpl'
+130 arguments
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='REQUEST'
+134 statement (ExpressionStmt)
+135 expression (AssignExpr)
+136 operator='ASSIGN'
+137 target (NameExpr)
+138 name (SimpleName)
+139 identifier='rpcResponse'
+140 value (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='doBlockingRpc'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='rpcForwarder'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='RPC_REQUEST'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='assertTrue'
+154 arguments
+155 argument (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='getCallback'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='rpcResponse'
+161 statement (ExpressionStmt)
+162 expression (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='assertFalse'
+165 arguments
+166 argument (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='hasResponseProto'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='rpcResponse'
+172 statement (ExpressionStmt)
+173 expression (AssignExpr)
+174 operator='ASSIGN'
+175 target (NameExpr)
+176 name (SimpleName)
+177 identifier='rpcCallback'
+178 value (ObjectCreationExpr)
+179 type (ClassOrInterfaceType)
+180 name (SimpleName)
+181 identifier='Callback'
+182 typeArguments
+183 typeArgument (ClassOrInterfaceType)
+184 name (SimpleName)
+185 identifier='Response'
+186 scope (ClassOrInterfaceType)
+187 name (SimpleName)
+188 identifier='SocketRpcProtos'
+189 statement (ExpressionStmt)
+190 expression (MethodCallExpr)
+191 name (SimpleName)
+192 identifier='doRpc'
+193 scope (NameExpr)
+194 name (SimpleName)
+195 identifier='rpcForwarder'
+196 arguments
+197 argument (NameExpr)
+198 name (SimpleName)
+199 identifier='RPC_REQUEST'
+200 argument (NameExpr)
+201 name (SimpleName)
+202 identifier='rpcCallback'
+203 statement (ExpressionStmt)
+204 expression (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='assertTrue'
+207 arguments
+208 argument (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='isInvoked'
+211 scope (NameExpr)
+212 name (SimpleName)
+213 identifier='rpcCallback'
+214 statement (ExpressionStmt)
+215 expression (AssignExpr)
+216 operator='ASSIGN'
+217 target (NameExpr)
+218 name (SimpleName)
+219 identifier='rpcResponse'
+220 value (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='getResponse'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='rpcCallback'
+226 statement (ExpressionStmt)
+227 expression (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='assertTrue'
+230 arguments
+231 argument (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='getCallback'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='rpcResponse'
+237 statement (ExpressionStmt)
+238 expression (MethodCallExpr)
+239 name (SimpleName)
+240 identifier='assertFalse'
+241 arguments
+242 argument (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='hasResponseProto'
+245 scope (NameExpr)
+246 name (SimpleName)
+247 identifier='rpcResponse'
+248 type (VoidType)
+249 name (SimpleName)
+250 identifier='testNoCallback'
+251 thrownExceptions
+252 thrownException (ClassOrInterfaceType)
+253 name (SimpleName)
+254 identifier='RpcException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+22 33
+33 34
+22 35
+35 36
+36 37
+35 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+66 78
+78 79
+66 80
+80 81
+81 82
+80 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+97 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+2 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+128 129
+126 130
+130 131
+131 132
+132 133
+2 134
+134 135
+135 136
+135 137
+137 138
+138 139
+135 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+2 172
+172 173
+173 174
+173 175
+175 176
+176 177
+173 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+2 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+190 196
+196 197
+197 198
+198 199
+196 200
+200 201
+201 202
+2 203
+203 204
+204 205
+205 206
+204 207
+207 208
+208 209
+209 210
+208 211
+211 212
+212 213
+2 214
+214 215
+215 216
+215 217
+217 218
+218 219
+215 220
+220 221
+221 222
+220 223
+223 224
+224 225
+2 226
+226 227
+227 228
+228 229
+227 230
+230 231
+231 232
+232 233
+231 234
+234 235
+235 236
+2 237
+237 238
+238 239
+239 240
+238 241
+241 242
+242 243
+243 244
+242 245
+245 246
+246 247
+0 248
+0 249
+249 250
+0 251
+251 252
+252 253
+253 254
+
+Successful RPC but callback is not called.

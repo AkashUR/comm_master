@@ -1,0 +1,216 @@
+107
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='jobConf'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='job'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='urlFilters'
+19 scope (ThisExpr)
+20 value (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='URLFilters'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='jobConf'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='scfilters'
+34 scope (ThisExpr)
+35 value (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='ScoringFilters'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='jobConf'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='parseUtil'
+49 scope (ThisExpr)
+50 value (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='ParseUtil'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='jobConf'
+58 statement (ExpressionStmt)
+59 expression (AssignExpr)
+60 operator='ASSIGN'
+61 target (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='normalizers'
+64 scope (ThisExpr)
+65 value (ObjectCreationExpr)
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='URLNormalizers'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='jobConf'
+73 argument (FieldAccessExpr)
+74 name (SimpleName)
+75 identifier='SCOPE_FETCHER'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='URLNormalizers'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='interval'
+85 value (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getInt'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='jobConf'
+91 arguments
+92 argument (StringLiteralExpr)
+93 value='db.fetch.interval.default'
+94 argument (IntegerLiteralExpr)
+95 value='2592000'
+96 type (VoidType)
+97 name (SimpleName)
+98 identifier='configure'
+99 parameters
+100 parameter (Parameter)
+101 isVarArgs='false'
+102 name (SimpleName)
+103 identifier='job'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='JobConf'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+31 34
+29 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+56 57
+2 58
+58 59
+59 60
+59 61
+61 62
+62 63
+61 64
+59 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+91 94
+94 95
+0 96
+0 97
+97 98
+0 99
+99 100
+100 101
+100 102
+102 103
+100 104
+104 105
+105 106
+
+<p>Configures the job.  Sets the url filters, scoring filters, url normalizers and other relevant data.</p>

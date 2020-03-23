@@ -1,0 +1,170 @@
+84
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createExplosion'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='setType'
+11 scope (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='EntityBomb'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='world'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='type'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='world'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='x'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='y'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='z'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='radius'
+38 argument (DoubleLiteralExpr)
+39 value='0.0F'
+40 argument (BooleanLiteralExpr)
+41 value='true'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='createExplosion'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='world'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='World'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='x'
+57 type (PrimitiveType)
+58 type='DOUBLE'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='y'
+63 type (PrimitiveType)
+64 type='DOUBLE'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='z'
+69 type (PrimitiveType)
+70 type='DOUBLE'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='radius'
+75 type (PrimitiveType)
+76 type='FLOAT'
+77 parameter (Parameter)
+78 isVarArgs='false'
+79 name (SimpleName)
+80 identifier='type'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='BombType'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+8 19
+19 20
+20 21
+21 22
+7 23
+23 24
+24 25
+7 26
+26 27
+27 28
+7 29
+29 30
+30 31
+7 32
+32 33
+33 34
+7 35
+35 36
+36 37
+7 38
+38 39
+7 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+45 53
+53 54
+53 55
+55 56
+53 57
+57 58
+45 59
+59 60
+59 61
+61 62
+59 63
+63 64
+45 65
+65 66
+65 67
+67 68
+65 69
+69 70
+45 71
+71 72
+71 73
+73 74
+71 75
+75 76
+45 77
+77 78
+77 79
+79 80
+77 81
+81 82
+82 83
+
+Creates an explosion based on the BombType given, automatically applying various characteristics. If more versatility than this is required, create a CustomExplosion object from scratch rather than using the static methods and call doExplosionA(), then doExplosionB().

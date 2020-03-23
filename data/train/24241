@@ -1,0 +1,266 @@
+132
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='reportFile'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='File'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getContextClassLoader'
+19 scope (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='currentThread'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='Thread'
+25 name (SimpleName)
+26 identifier='initialClassLoader'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='ClassLoader'
+30 statement (TryStmt)
+31 finallyBlock (BlockStmt)
+32 statements
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='setContextClassLoader'
+37 scope (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='currentThread'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='Thread'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='initialClassLoader'
+47 tryBlock (BlockStmt)
+48 statements
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='setContextClassLoader'
+53 scope (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='currentThread'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='Thread'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getClassLoader'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getClass'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (NameExpr)
+70 name (SimpleName)
+71 identifier='reportFile'
+72 value (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='createPmdReport'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='project'
+79 statement (ExpressionStmt)
+80 expression (VariableDeclarationExpr)
+81 variables
+82 variable (VariableDeclarator)
+83 initializer (ObjectCreationExpr)
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='DelphiPmdXmlReportParser'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='delphiProjectHelper'
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='perspectives'
+94 name (SimpleName)
+95 identifier='parser'
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='DelphiPmdXmlReportParser'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='parse'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='parser'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='reportFile'
+110 type (VoidType)
+111 name (SimpleName)
+112 identifier='analyse'
+113 parameters
+114 parameter (Parameter)
+115 isVarArgs='false'
+116 name (SimpleName)
+117 identifier='project'
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='Project'
+121 parameter (Parameter)
+122 isVarArgs='false'
+123 name (SimpleName)
+124 identifier='context'
+125 type (ClassOrInterfaceType)
+126 name (SimpleName)
+127 identifier='SensorContext'
+128 annotations
+129 annotation (MarkerAnnotationExpr)
+130 name (Name)
+131 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+15 25
+25 26
+15 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+34 43
+43 44
+44 45
+45 46
+30 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+50 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+48 66
+66 67
+67 68
+67 69
+69 70
+70 71
+67 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+83 87
+87 88
+88 89
+89 90
+87 91
+91 92
+92 93
+82 94
+94 95
+82 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+0 110
+0 111
+111 112
+0 113
+113 114
+114 115
+114 116
+116 117
+114 118
+118 119
+119 120
+113 121
+121 122
+121 123
+123 124
+121 125
+125 126
+126 127
+0 128
+128 129
+129 130
+130 131
+
+Analyses a project

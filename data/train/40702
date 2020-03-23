@@ -1,0 +1,250 @@
+124
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='create'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='igfsSecondary'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='paths'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='DIR'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='SUBDIR'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='SUBSUBDIR'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='DIR_NEW'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='SUBDIR_NEW'
+30 argument (NullLiteralExpr)
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='create'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='igfs'
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='paths'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='DIR'
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='DIR_NEW'
+49 argument (NullLiteralExpr)
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='rename'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='igfs'
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='SUBSUBDIR'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='SUBDIR_NEW'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='checkExist'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='igfs'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='SUBDIR'
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='SUBDIR_NEW'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='checkExist'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='igfs'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='igfsSecondary'
+89 argument (ObjectCreationExpr)
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='IgfsPath'
+93 arguments
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='SUBDIR_NEW'
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='name'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='SUBSUBDIR'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='checkNotExist'
+107 arguments
+108 argument (NameExpr)
+109 name (SimpleName)
+110 identifier='igfs'
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='igfsSecondary'
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='SUBSUBDIR'
+117 type (VoidType)
+118 name (SimpleName)
+119 identifier='testMoveDirectorySourceAndDestinationMissingPartially'
+120 thrownExceptions
+121 thrownException (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+14 21
+21 22
+22 23
+14 24
+24 25
+25 26
+14 27
+27 28
+28 29
+7 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+42 46
+46 47
+47 48
+35 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+68 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+82 86
+86 87
+87 88
+82 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+95 96
+93 97
+97 98
+98 99
+97 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+109 110
+107 111
+111 112
+112 113
+107 114
+114 115
+115 116
+0 117
+0 118
+118 119
+0 120
+120 121
+121 122
+122 123
+
+Test move in case source and destination exist partially and the path being renamed is a directory.

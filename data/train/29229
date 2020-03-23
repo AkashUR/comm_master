@@ -1,0 +1,274 @@
+136
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='remove'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='hierarchy'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='get'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='iter'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='child'
+23 compare (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='valid'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='iter'
+29 initialization
+30 initializatio (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='iterParents'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='hierarchy'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='child'
+43 name (SimpleName)
+44 identifier='iter'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Iter'
+48 scope (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Hierarchy'
+51 typeArguments
+52 typeArgument (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Result'
+55 update
+56 updat (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='advance'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='iter'
+62 statement (ForStmt)
+63 body (BlockStmt)
+64 statements
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='removeRecursive'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='hierarchy'
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='get'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='iter'
+79 compare (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='valid'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='iter'
+85 initialization
+86 initializatio (VariableDeclarationExpr)
+87 variables
+88 variable (VariableDeclarator)
+89 initializer (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='iterChildren'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='hierarchy'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='child'
+99 name (SimpleName)
+100 identifier='iter'
+101 type (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='Iter'
+104 scope (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='Hierarchy'
+107 typeArguments
+108 typeArgument (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='Result'
+111 update
+112 updat (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='advance'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='iter'
+118 type (VoidType)
+119 name (SimpleName)
+120 identifier='removeRecursive'
+121 parameters
+122 parameter (Parameter)
+123 isVarArgs='false'
+124 name (SimpleName)
+125 identifier='hierarchy'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='ResultHierarchy'
+129 parameter (Parameter)
+130 isVarArgs='false'
+131 name (SimpleName)
+132 identifier='child'
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='Result'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+3 23
+23 24
+24 25
+23 26
+26 27
+27 28
+3 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+32 43
+43 44
+32 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+3 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+73 76
+76 77
+77 78
+62 79
+79 80
+80 81
+79 82
+82 83
+83 84
+62 85
+85 86
+86 87
+87 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+88 99
+99 100
+88 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+109 110
+62 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+0 118
+0 119
+119 120
+0 121
+121 122
+122 123
+122 124
+124 125
+122 126
+126 127
+127 128
+121 129
+129 130
+129 131
+131 132
+129 133
+133 134
+134 135
+
+Recursively remove a result and its children.

@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='rebuildClassifier'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='new_chain'
+10 type (ArrayType)
+11 origin='NAME'
+12 componentType (PrimitiveType)
+13 type='INT'
+14 parameter (Parameter)
+15 isVarArgs='false'
+16 name (SimpleName)
+17 identifier='D'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Instances'
+21 thrownExceptions
+22 thrownException (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Exception'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+10 12
+12 13
+5 14
+14 15
+14 16
+16 17
+14 18
+18 19
+19 20
+0 21
+21 22
+22 23
+23 24
+
+Rebuild - NOT YET IMPLEMENTED. For efficiency reasons, we may want to rebuild part of the chain. If chain[] = [1,2,3,4] and new_chain[] = [1,2,4,3] we only need to rebuild the final two links.

@@ -1,0 +1,374 @@
+186
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='test/scenarios/pt-tutorial/transitschedule.xml'
+9 name (SimpleName)
+10 identifier='transitScheduleFile'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='createConfig'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='ConfigUtils'
+24 name (SimpleName)
+25 identifier='config'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Config'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='loadScenario'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='ScenarioUtils'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='config'
+43 name (SimpleName)
+44 identifier='scenario'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Scenario'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='setUseTransit'
+52 scope (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='transit'
+55 scope (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='getConfig'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='scenario'
+61 arguments
+62 argument (BooleanLiteralExpr)
+63 value='true'
+64 statement (ExpressionStmt)
+65 expression (VariableDeclarationExpr)
+66 variables
+67 variable (VariableDeclarator)
+68 initializer (ObjectCreationExpr)
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='TransitScheduleReader'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='scenario'
+76 name (SimpleName)
+77 identifier='reader'
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='TransitScheduleReader'
+81 statement (ExpressionStmt)
+82 expression (VariableDeclarationExpr)
+83 variables
+84 variable (VariableDeclarator)
+85 initializer (ObjectCreationExpr)
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='TransitRouterConfig'
+89 arguments
+90 argument (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='getConfig'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='scenario'
+96 name (SimpleName)
+97 identifier='transitRouterConfig'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='TransitRouterConfig'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='readFile'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='reader'
+108 arguments
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='transitScheduleFile'
+112 statement (ExpressionStmt)
+113 expression (VariableDeclarationExpr)
+114 variables
+115 variable (VariableDeclarator)
+116 initializer (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='getTransitSchedule'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='scenario'
+122 name (SimpleName)
+123 identifier='transitSchedule'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='TransitSchedule'
+127 statement (ExpressionStmt)
+128 expression (AssignExpr)
+129 operator='ASSIGN'
+130 target (NameExpr)
+131 name (SimpleName)
+132 identifier='network'
+133 value (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='createFromSchedule'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='TransitRouterNetwork'
+139 arguments
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='transitSchedule'
+143 argument (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='getBeelineWalkConnectionDistance'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='transitRouterConfig'
+149 statement (ExpressionStmt)
+150 expression (VariableDeclarationExpr)
+151 variables
+152 variable (VariableDeclarator)
+153 initializer (ObjectCreationExpr)
+154 type (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='PreparedTransitSchedule'
+157 arguments
+158 argument (NameExpr)
+159 name (SimpleName)
+160 identifier='transitSchedule'
+161 name (SimpleName)
+162 identifier='preparedTransitSchedule'
+163 type (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='PreparedTransitSchedule'
+166 statement (ExpressionStmt)
+167 expression (AssignExpr)
+168 operator='ASSIGN'
+169 target (NameExpr)
+170 name (SimpleName)
+171 identifier='travelDisutility'
+172 value (ObjectCreationExpr)
+173 type (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='TransitRouterNetworkTravelTimeAndDisutility'
+176 arguments
+177 argument (NameExpr)
+178 name (SimpleName)
+179 identifier='transitRouterConfig'
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='preparedTransitSchedule'
+183 type (VoidType)
+184 name (SimpleName)
+185 identifier='instantiateNetworkAndTravelDisutility'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+17 24
+24 25
+17 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+32 43
+43 44
+32 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+52 55
+55 56
+56 57
+55 58
+58 59
+59 60
+49 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+74 75
+67 76
+76 77
+67 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+87 88
+85 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+84 96
+96 97
+84 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+115 122
+122 123
+115 124
+124 125
+125 126
+2 127
+127 128
+128 129
+128 130
+130 131
+131 132
+128 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+141 142
+139 143
+143 144
+144 145
+143 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+152 153
+153 154
+154 155
+155 156
+153 157
+157 158
+158 159
+159 160
+152 161
+161 162
+152 163
+163 164
+164 165
+2 166
+166 167
+167 168
+167 169
+169 170
+170 171
+167 172
+172 173
+173 174
+174 175
+172 176
+176 177
+177 178
+178 179
+176 180
+180 181
+181 182
+0 183
+0 184
+184 185
+
+Instantiates a new TransitLeastCostPathTree object with a sample transitSchedule and default configuration.

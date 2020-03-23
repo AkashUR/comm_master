@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='BINARY_AND'
+6 target (ArrayAccessExpr)
+7 index (NameExpr)
+8 name (SimpleName)
+9 identifier='i'
+10 name (NameExpr)
+11 name (SimpleName)
+12 identifier='masks'
+13 value (UnaryExpr)
+14 operator='BITWISE_COMPLEMENT'
+15 expression (NameExpr)
+16 name (SimpleName)
+17 identifier='ORIGIN_MASK'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='BINARY_OR'
+21 target (ArrayAccessExpr)
+22 index (NameExpr)
+23 name (SimpleName)
+24 identifier='i'
+25 name (NameExpr)
+26 name (SimpleName)
+27 identifier='masks'
+28 value (CastExpr)
+29 expression (EnclosedExpr)
+30 inner (BinaryExpr)
+31 operator='BINARY_AND'
+32 left (NameExpr)
+33 name (SimpleName)
+34 identifier='val'
+35 right (NameExpr)
+36 name (SimpleName)
+37 identifier='ORIGIN_MASK'
+38 type (PrimitiveType)
+39 type='SHORT'
+40 type (VoidType)
+41 name (SimpleName)
+42 identifier='putOrigin'
+43 parameters
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='i'
+48 type (PrimitiveType)
+49 type='INT'
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='val'
+54 type (PrimitiveType)
+55 type='SHORT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+8 9
+6 10
+10 11
+11 12
+4 13
+13 14
+13 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+19 28
+28 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+28 38
+38 39
+0 40
+0 41
+41 42
+0 43
+43 44
+44 45
+44 46
+46 47
+44 48
+48 49
+43 50
+50 51
+50 52
+52 53
+50 54
+54 55
+
+Sets the origin of the given value.

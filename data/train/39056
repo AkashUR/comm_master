@@ -1,0 +1,174 @@
+86
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getRemoteDevice'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='mAdapter'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='address'
+17 name (SimpleName)
+18 identifier='device'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='BluetoothDevice'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='handlePanDeviceStateChange'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='mBluetoothService'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='device'
+33 argument (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='STATE_DISCONNECTED'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='BluetoothPan'
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='LOCAL_NAP_ROLE'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='BluetoothPan'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='onNetworkDeviceDisconnected'
+48 parameters
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='address'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='String'
+56 annotations
+57 annotation (NormalAnnotationExpr)
+58 name (Name)
+59 identifier='DSGenerator'
+60 pairs
+61 pair (MemberValuePair)
+62 name (SimpleName)
+63 identifier='tool_name'
+64 value (StringLiteralExpr)
+65 value='Doppelganger'
+66 pair (MemberValuePair)
+67 name (SimpleName)
+68 identifier='tool_version'
+69 value (StringLiteralExpr)
+70 value='2.0'
+71 pair (MemberValuePair)
+72 name (SimpleName)
+73 identifier='generated_on'
+74 value (StringLiteralExpr)
+75 value='2014-03-24 16:07:23.831 -0400'
+76 pair (MemberValuePair)
+77 name (SimpleName)
+78 identifier='hash_original_method'
+79 value (StringLiteralExpr)
+80 value='2099D00FDFC3545893A7A9B87ABDF3A9'
+81 pair (MemberValuePair)
+82 name (SimpleName)
+83 identifier='hash_generated_method'
+84 value (StringLiteralExpr)
+85 value='E3FEECCCF863F0062650DD5C044110BF'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+33 36
+36 37
+37 38
+29 39
+39 40
+40 41
+39 42
+42 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+0 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+61 64
+64 65
+60 66
+66 67
+67 68
+66 69
+69 70
+60 71
+71 72
+72 73
+71 74
+74 75
+60 76
+76 77
+77 78
+76 79
+79 80
+60 81
+81 82
+82 83
+81 84
+84 85
+
+Called by native code on a DeviceDisconnected signal from org.bluez.NetworkServer.

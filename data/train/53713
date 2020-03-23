@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='state'
+9 value (CastExpr)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='pop'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='stack'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='GraphicsState'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setTransform'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='xform'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='state'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='setClip'
+34 arguments
+35 argument (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='cliprgn'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='state'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='pop'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+9 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+0 41
+0 42
+42 43
+
+restore the state of this object to what it was when the previous push() was called.

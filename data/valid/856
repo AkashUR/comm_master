@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='selectedFeatures'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='BooleanBitArray1D'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (CastExpr)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getNumPointRecords'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='lasFile'
+23 type (PrimitiveType)
+24 type='INT'
+25 right (IntegerLiteralExpr)
+26 value='1'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='clear'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='selectedFeatureNumbers'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='selectedFeatureNumber'
+40 scope (ThisExpr)
+41 value (UnaryExpr)
+42 operator='MINUS'
+43 expression (IntegerLiteralExpr)
+44 value='2'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='firePropertyChange'
+49 scope (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='pcs'
+52 scope (ThisExpr)
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='selectedFeatureNumber'
+56 argument (UnaryExpr)
+57 operator='MINUS'
+58 expression (IntegerLiteralExpr)
+59 value='1'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='selectedFeatureNumber'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='clearSelectedFeatures'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+14 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+16 23
+23 24
+14 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+37 40
+35 41
+41 42
+41 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+46 53
+53 54
+54 55
+53 56
+56 57
+56 58
+58 59
+53 60
+60 61
+61 62
+0 63
+0 64
+64 65
+
+Clears all of the selected features from a LAS layer.

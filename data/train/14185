@@ -1,0 +1,234 @@
+116
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='rx'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='xrange'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='mx'
+18 value (NameExpr)
+19 name (SimpleName)
+20 identifier='xmag'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='ry'
+27 value (NameExpr)
+28 name (SimpleName)
+29 identifier='yrange'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='my'
+36 value (NameExpr)
+37 name (SimpleName)
+38 identifier='ymag'
+39 statement (ExpressionStmt)
+40 expression (AssignExpr)
+41 operator='ASSIGN'
+42 target (NameExpr)
+43 name (SimpleName)
+44 identifier='m_distortX'
+45 value (UnaryExpr)
+46 operator='LOGICAL_COMPLEMENT'
+47 expression (EnclosedExpr)
+48 inner (BinaryExpr)
+49 operator='OR'
+50 left (BinaryExpr)
+51 operator='EQUALS'
+52 left (NameExpr)
+53 name (SimpleName)
+54 identifier='rx'
+55 right (IntegerLiteralExpr)
+56 value='0'
+57 right (BinaryExpr)
+58 operator='EQUALS'
+59 left (NameExpr)
+60 name (SimpleName)
+61 identifier='mx'
+62 right (DoubleLiteralExpr)
+63 value='1.0'
+64 statement (ExpressionStmt)
+65 expression (AssignExpr)
+66 operator='ASSIGN'
+67 target (NameExpr)
+68 name (SimpleName)
+69 identifier='m_distortY'
+70 value (UnaryExpr)
+71 operator='LOGICAL_COMPLEMENT'
+72 expression (EnclosedExpr)
+73 inner (BinaryExpr)
+74 operator='OR'
+75 left (BinaryExpr)
+76 operator='EQUALS'
+77 left (NameExpr)
+78 name (SimpleName)
+79 identifier='ry'
+80 right (IntegerLiteralExpr)
+81 value='0'
+82 right (BinaryExpr)
+83 operator='EQUALS'
+84 left (NameExpr)
+85 name (SimpleName)
+86 identifier='my'
+87 right (DoubleLiteralExpr)
+88 value='1.0'
+89 name (SimpleName)
+90 identifier='BifocalDistortion'
+91 parameters
+92 parameter (Parameter)
+93 isVarArgs='false'
+94 name (SimpleName)
+95 identifier='xrange'
+96 type (PrimitiveType)
+97 type='DOUBLE'
+98 parameter (Parameter)
+99 isVarArgs='false'
+100 name (SimpleName)
+101 identifier='xmag'
+102 type (PrimitiveType)
+103 type='DOUBLE'
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='yrange'
+108 type (PrimitiveType)
+109 type='DOUBLE'
+110 parameter (Parameter)
+111 isVarArgs='false'
+112 name (SimpleName)
+113 identifier='ymag'
+114 type (PrimitiveType)
+115 type='DOUBLE'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+2 39
+39 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+45 47
+47 48
+48 49
+48 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+48 57
+57 58
+57 59
+59 60
+60 61
+57 62
+62 63
+2 64
+64 65
+65 66
+65 67
+67 68
+68 69
+65 70
+70 71
+70 72
+72 73
+73 74
+73 75
+75 76
+75 77
+77 78
+78 79
+75 80
+80 81
+73 82
+82 83
+82 84
+84 85
+85 86
+82 87
+87 88
+0 89
+89 90
+0 91
+91 92
+92 93
+92 94
+94 95
+92 96
+96 97
+91 98
+98 99
+98 100
+100 101
+98 102
+102 103
+91 104
+104 105
+104 106
+106 107
+104 108
+108 109
+91 110
+110 111
+110 112
+112 113
+110 114
+114 115
+
+<p>Create a new BifocalDistortion with the specified range and  magnification along both axes.</p> <p><strong>NOTE:</strong>if the range value times the magnification value is greater than 1, the resulting distortion can exceed the display bounds.</p>

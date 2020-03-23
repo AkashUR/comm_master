@@ -1,0 +1,214 @@
+106
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='get'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getMatchThreads'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getInstance'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='Cardinal'
+19 arguments
+20 argument (IntegerLiteralExpr)
+21 value='0'
+22 name (SimpleName)
+23 identifier='thread'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='MatchThread'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='PlayerContainerData'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='thread'
+39 argument (NullLiteralExpr)
+40 argument (NullLiteralExpr)
+41 name (SimpleName)
+42 identifier='newData'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='PlayerContainerData'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='empty'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='PlayerContainerData'
+56 name (SimpleName)
+57 identifier='oldData'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='PlayerContainerData'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='handleStateChangeEvent'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='Containers'
+68 arguments
+69 argument (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getPlayer'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='event'
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='oldData'
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='newData'
+81 type (VoidType)
+82 name (SimpleName)
+83 identifier='onPlayerJoin'
+84 parameters
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='event'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='PlayerInitialSpawnEvent'
+92 annotations
+93 annotation (NormalAnnotationExpr)
+94 name (Name)
+95 identifier='EventHandler'
+96 pairs
+97 pair (MemberValuePair)
+98 name (SimpleName)
+99 identifier='priority'
+100 value (FieldAccessExpr)
+101 name (SimpleName)
+102 identifier='LOWEST'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='EventPriority'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+7 19
+19 20
+20 21
+6 22
+22 23
+6 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+37 38
+35 39
+35 40
+30 41
+41 42
+30 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+49 56
+56 57
+49 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+68 75
+75 76
+76 77
+68 78
+78 79
+79 80
+0 81
+0 82
+82 83
+0 84
+84 85
+85 86
+85 87
+87 88
+85 89
+89 90
+90 91
+0 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+100 103
+103 104
+104 105
+
+Handles new container data when the player initially joins the server.

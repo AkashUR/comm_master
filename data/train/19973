@@ -1,0 +1,192 @@
+95
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (FieldAccessExpr)
+5 name (SimpleName)
+6 identifier='subStage'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='taskState'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='currentState'
+13 entries
+14 entrie (SwitchEntryStmt)
+15 label (NameExpr)
+16 name (SimpleName)
+17 identifier='UPLOAD_IMAGE'
+18 statements
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='uploadImage'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='currentState'
+27 statement (BreakStmt)
+28 entrie (SwitchEntryStmt)
+29 label (NameExpr)
+30 name (SimpleName)
+31 identifier='ALLOCATE_RESOURCES'
+32 statements
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='allocateResources'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='currentState'
+41 statement (BreakStmt)
+42 entrie (SwitchEntryStmt)
+43 label (NameExpr)
+44 name (SimpleName)
+45 identifier='CREATE_VMS'
+46 statements
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='createVms'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='currentState'
+55 statement (BreakStmt)
+56 entrie (SwitchEntryStmt)
+57 label (NameExpr)
+58 name (SimpleName)
+59 identifier='CREATE_CONTAINERS'
+60 statements
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='createContainers'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='currentState'
+69 statement (BreakStmt)
+70 entrie (SwitchEntryStmt)
+71 label (NameExpr)
+72 name (SimpleName)
+73 identifier='WAIT_FOR_NODE_GROUP_CONVERGANCE'
+74 statements
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='waitForNodeGroupConvergance'
+79 arguments
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='currentState'
+83 statement (BreakStmt)
+84 type (VoidType)
+85 name (SimpleName)
+86 identifier='processStartedState'
+87 parameters
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='currentState'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='State'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+3 13
+13 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+18 27
+13 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+39 40
+32 41
+13 42
+42 43
+43 44
+44 45
+42 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+53 54
+46 55
+13 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+60 69
+13 70
+70 71
+71 72
+72 73
+70 74
+74 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+74 83
+0 84
+0 85
+85 86
+0 87
+87 88
+88 89
+88 90
+90 91
+88 92
+92 93
+93 94
+
+This method performs the appropriate tasks while in the STARTED state.

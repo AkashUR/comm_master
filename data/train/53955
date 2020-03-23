@@ -1,0 +1,372 @@
+185
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createLogFile'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='LogHelper'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='testRotationEvents.dat'
+16 argument (IntegerLiteralExpr)
+17 value='3'
+18 name (SimpleName)
+19 identifier='tfrw'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='LogFile'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='LogEventRotateWriter'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getFile'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='tfrw'
+38 argument (IntegerLiteralExpr)
+39 value='45'
+40 argument (BooleanLiteralExpr)
+41 value='true'
+42 name (SimpleName)
+43 identifier='writer'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='LogEventRotateWriter'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='write'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='writer'
+57 name (SimpleName)
+58 identifier='logRec'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='LogRecord'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='writeRecord'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='tfrw'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='logRec'
+73 argument (IntegerLiteralExpr)
+74 value='10000'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='close'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='tfrw'
+82 statement (ExpressionStmt)
+83 expression (VariableDeclarationExpr)
+84 variables
+85 variable (VariableDeclarator)
+86 initializer (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='openExistingFileForRead'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='LogHelper'
+92 arguments
+93 argument (StringLiteralExpr)
+94 value='testRotationEvents.dat'
+95 name (SimpleName)
+96 identifier='tfro'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='LogFile'
+100 statement (ExpressionStmt)
+101 expression (VariableDeclarationExpr)
+102 variables
+103 variable (VariableDeclarator)
+104 initializer (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='readRecord'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='tfro'
+110 arguments
+111 argument (IntegerLiteralExpr)
+112 value='0'
+113 name (SimpleName)
+114 identifier='logRec2'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='LogRecord'
+118 statement (ExpressionStmt)
+119 expression (VariableDeclarationExpr)
+120 variables
+121 variable (VariableDeclarator)
+122 initializer (ObjectCreationExpr)
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='LogEventRotateReader'
+126 arguments
+127 argument (NameExpr)
+128 name (SimpleName)
+129 identifier='logRec2'
+130 argument (BooleanLiteralExpr)
+131 value='true'
+132 name (SimpleName)
+133 identifier='reader'
+134 type (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='LogEventRotateReader'
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='assertEquals'
+141 arguments
+142 argument (StringLiteralExpr)
+143 value='Checking recordType'
+144 argument (FieldAccessExpr)
+145 name (SimpleName)
+146 identifier='EVENT_ROTATE'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='LogRecord'
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='getRecordType'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='reader'
+156 statement (ExpressionStmt)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='assertEquals'
+160 arguments
+161 argument (StringLiteralExpr)
+162 value='Checking index'
+163 argument (IntegerLiteralExpr)
+164 value='45'
+165 argument (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='getIndex'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='reader'
+171 statement (ExpressionStmt)
+172 expression (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='close'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='tfro'
+178 type (VoidType)
+179 name (SimpleName)
+180 identifier='testRotationEvents'
+181 thrownExceptions
+182 thrownException (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+13 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+31 38
+38 39
+31 40
+40 41
+26 42
+42 43
+26 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+50 57
+57 58
+50 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+71 72
+69 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+86 92
+92 93
+93 94
+85 95
+95 96
+85 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+103 113
+113 114
+103 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+124 125
+122 126
+126 127
+127 128
+128 129
+126 130
+130 131
+121 132
+132 133
+121 134
+134 135
+135 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+141 144
+144 145
+145 146
+144 147
+147 148
+148 149
+141 150
+150 151
+151 152
+150 153
+153 154
+154 155
+2 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+160 163
+163 164
+160 165
+165 166
+166 167
+165 168
+168 169
+169 170
+2 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+0 178
+0 179
+179 180
+0 181
+181 182
+182 183
+183 184
+
+Confirm that we can write and then read back a log rotation event.

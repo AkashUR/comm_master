@@ -1,0 +1,62 @@
+30
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='codenameOneRunning'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='INSTANCE'
+12 value (BooleanLiteralExpr)
+13 value='false'
+14 statement (SynchronizedStmt)
+15 body (BlockStmt)
+16 statements
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='notifyAll'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='lock'
+24 expression (NameExpr)
+25 name (SimpleName)
+26 identifier='lock'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='deinitialize'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+14 24
+24 25
+25 26
+0 27
+0 28
+28 29
+
+Closes down the EDT and Codename One, under normal conditions this method is completely unnecessary since exiting the application will shut down Codename One. However, if the application is minimized and the user wishes to free all resources without exiting the application then this method can be used. Once this method is used Codename One will no longer work and Display.init(Object) should be invoked again for any further Codename One call! Notice that minimize (being a Codename One method) MUST be invoked before invoking this method!

@@ -1,0 +1,84 @@
+41
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='PT_ACTION'
+9 statement (ExpressionStmt)
+10 expression (VariableDeclarationExpr)
+11 variables
+12 variable (VariableDeclarator)
+13 initializer (NameExpr)
+14 name (SimpleName)
+15 identifier='ACTION_EXECBUILTIN'
+16 name (SimpleName)
+17 identifier='actiontype'
+18 type (PrimitiveType)
+19 type='BYTE'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='appendPayload'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='actionmessage'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='actiontype'
+31 name (SimpleName)
+32 identifier='PacketACTION'
+33 parameters
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='actionmessage'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='String'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+12 13
+13 14
+14 15
+12 16
+16 17
+12 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+0 31
+31 32
+0 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+
+An ACTION packet tells XBMC to do the action specified, based on the type it knows were it needs to be sent.

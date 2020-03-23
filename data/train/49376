@@ -1,0 +1,340 @@
+169
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='testCreateDeployableWhenOnlyLocationSpecified.war'
+9 name (SimpleName)
+10 identifier='deployableFile'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Deployable'
+22 name (SimpleName)
+23 identifier='deployableElement'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Deployable'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setLocation'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='deployableElement'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='deployableFile'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='createDefaultProject'
+45 arguments
+46 argument (StringLiteralExpr)
+47 value='war'
+48 argument (ObjectCreationExpr)
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='HashSet'
+52 typeArguments
+53 typeArgument (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Artifact'
+56 name (SimpleName)
+57 identifier='project'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='CargoProject'
+61 statement (ExpressionStmt)
+62 expression (VariableDeclarationExpr)
+63 variables
+64 variable (VariableDeclarator)
+65 initializer (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='createDeployable'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='deployableElement'
+71 arguments
+72 argument (StringLiteralExpr)
+73 value='whateverId'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='project'
+77 name (SimpleName)
+78 identifier='deployable'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Deployable'
+82 scope (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='deployable'
+85 scope (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='container'
+88 scope (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='cargo'
+91 scope (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='codehaus'
+94 scope (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='org'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='assertEquals'
+101 arguments
+102 argument (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='getFile'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='deployable'
+108 argument (NameExpr)
+109 name (SimpleName)
+110 identifier='deployableFile'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='assertEquals'
+115 arguments
+116 argument (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='getGroupId'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='project'
+122 argument (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='getGroupId'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='deployableElement'
+128 statement (ExpressionStmt)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='assertEquals'
+132 arguments
+133 argument (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getArtifactId'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='project'
+139 argument (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='getArtifactId'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='deployableElement'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='assertEquals'
+149 arguments
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='getPackaging'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='project'
+156 argument (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='getType'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='deployableElement'
+162 type (VoidType)
+163 name (SimpleName)
+164 identifier='testCreateDeployableWhenOnlyLocationSpecified'
+165 thrownExceptions
+166 thrownException (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+17 22
+22 23
+17 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+41 56
+56 57
+41 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+71 74
+74 75
+75 76
+64 77
+77 78
+64 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+101 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+115 122
+122 123
+123 124
+122 125
+125 126
+126 127
+2 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+132 139
+139 140
+140 141
+139 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+149 156
+156 157
+157 158
+156 159
+159 160
+160 161
+0 162
+0 163
+163 164
+0 165
+165 166
+166 167
+167 168
+
+Test create deployable when only its location is specified.

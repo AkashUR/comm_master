@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mCurrentStream'
+9 value (UnaryExpr)
+10 operator='MINUS'
+11 expression (IntegerLiteralExpr)
+12 value='1'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='forceVolumeControlStream'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='AudioManagerCompatUtils'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='mAudioManager'
+24 argument (UnaryExpr)
+25 operator='MINUS'
+26 expression (IntegerLiteralExpr)
+27 value='1'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='releaseControl'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+20 24
+24 25
+24 26
+26 27
+0 28
+0 29
+29 30
+
+Releases control of the stream.

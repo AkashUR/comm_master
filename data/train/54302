@@ -1,0 +1,1100 @@
+549
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getAttributes'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='dag'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='STREAMING_WINDOW_SIZE_MILLIS'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='DAG'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='streamingWindowSizeMilliSeconds'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getStockTickInputOperator'
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='StockTickInput'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='dag'
+36 name (SimpleName)
+37 identifier='tick'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='StockTickInput'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getDailyVolumeOperator'
+48 arguments
+49 argument (StringLiteralExpr)
+50 value='DailyVolume'
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='dag'
+54 name (SimpleName)
+55 identifier='dailyVolume'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='SumKeyVal'
+59 typeArguments
+60 typeArgument (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='String'
+63 typeArgument (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Long'
+66 statement (ExpressionStmt)
+67 expression (VariableDeclarationExpr)
+68 variables
+69 variable (VariableDeclarator)
+70 initializer (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='getQuoteOperator'
+73 arguments
+74 argument (StringLiteralExpr)
+75 value='Quote'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='dag'
+79 name (SimpleName)
+80 identifier='quoteOperator'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='ConsolidatorKeyVal'
+84 typeArguments
+85 typeArgument (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='String'
+88 typeArgument (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='Double'
+91 typeArgument (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='Long'
+94 typeArgument (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='String'
+97 typeArgument (WildcardType)
+98 typeArgument (WildcardType)
+99 statement (ExpressionStmt)
+100 expression (VariableDeclarationExpr)
+101 variables
+102 variable (VariableDeclarator)
+103 initializer (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='getHighLowOperator'
+106 arguments
+107 argument (StringLiteralExpr)
+108 value='HighLow'
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='dag'
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='appWindowCountMinute'
+115 name (SimpleName)
+116 identifier='highlow'
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='RangeKeyVal'
+120 typeArguments
+121 typeArgument (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='String'
+124 typeArgument (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='Double'
+127 statement (ExpressionStmt)
+128 expression (VariableDeclarationExpr)
+129 variables
+130 variable (VariableDeclarator)
+131 initializer (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='getMinuteVolumeOperator'
+134 arguments
+135 argument (StringLiteralExpr)
+136 value='MinuteVolume'
+137 argument (NameExpr)
+138 name (SimpleName)
+139 identifier='dag'
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='appWindowCountMinute'
+143 name (SimpleName)
+144 identifier='minuteVolume'
+145 type (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='SumKeyVal'
+148 typeArguments
+149 typeArgument (ClassOrInterfaceType)
+150 name (SimpleName)
+151 identifier='String'
+152 typeArgument (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='Long'
+155 statement (ExpressionStmt)
+156 expression (VariableDeclarationExpr)
+157 variables
+158 variable (VariableDeclarator)
+159 initializer (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='getChartOperator'
+162 arguments
+163 argument (StringLiteralExpr)
+164 value='Chart'
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='dag'
+168 name (SimpleName)
+169 identifier='chartOperator'
+170 type (ClassOrInterfaceType)
+171 name (SimpleName)
+172 identifier='ConsolidatorKeyVal'
+173 typeArguments
+174 typeArgument (ClassOrInterfaceType)
+175 name (SimpleName)
+176 identifier='String'
+177 typeArgument (ClassOrInterfaceType)
+178 name (SimpleName)
+179 identifier='HighLow'
+180 typeArguments
+181 typeArgument (ClassOrInterfaceType)
+182 name (SimpleName)
+183 identifier='Double'
+184 typeArgument (ClassOrInterfaceType)
+185 name (SimpleName)
+186 identifier='Long'
+187 typeArgument (WildcardType)
+188 typeArgument (WildcardType)
+189 typeArgument (WildcardType)
+190 statement (ExpressionStmt)
+191 expression (VariableDeclarationExpr)
+192 variables
+193 variable (VariableDeclarator)
+194 initializer (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='getPriceSimpleMovingAverageOperator'
+197 arguments
+198 argument (StringLiteralExpr)
+199 value='PriceSMA'
+200 argument (NameExpr)
+201 name (SimpleName)
+202 identifier='dag'
+203 argument (NameExpr)
+204 name (SimpleName)
+205 identifier='appWindowCountSMA'
+206 name (SimpleName)
+207 identifier='priceSMA'
+208 type (ClassOrInterfaceType)
+209 name (SimpleName)
+210 identifier='SimpleMovingAverage'
+211 typeArguments
+212 typeArgument (ClassOrInterfaceType)
+213 name (SimpleName)
+214 identifier='String'
+215 typeArgument (ClassOrInterfaceType)
+216 name (SimpleName)
+217 identifier='Double'
+218 statement (ExpressionStmt)
+219 expression (VariableDeclarationExpr)
+220 variables
+221 variable (VariableDeclarator)
+222 initializer (ObjectCreationExpr)
+223 type (ClassOrInterfaceType)
+224 name (SimpleName)
+225 identifier='DefaultPartitionCodec'
+226 typeArguments
+227 typeArgument (ClassOrInterfaceType)
+228 name (SimpleName)
+229 identifier='String'
+230 typeArgument (ClassOrInterfaceType)
+231 name (SimpleName)
+232 identifier='Double'
+233 name (SimpleName)
+234 identifier='codec'
+235 type (ClassOrInterfaceType)
+236 name (SimpleName)
+237 identifier='DefaultPartitionCodec'
+238 typeArguments
+239 typeArgument (ClassOrInterfaceType)
+240 name (SimpleName)
+241 identifier='String'
+242 typeArgument (ClassOrInterfaceType)
+243 name (SimpleName)
+244 identifier='Double'
+245 statement (ExpressionStmt)
+246 expression (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='setInputPortAttribute'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='dag'
+252 arguments
+253 argument (FieldAccessExpr)
+254 name (SimpleName)
+255 identifier='data'
+256 scope (NameExpr)
+257 name (SimpleName)
+258 identifier='highlow'
+259 argument (FieldAccessExpr)
+260 name (SimpleName)
+261 identifier='STREAM_CODEC'
+262 scope (NameExpr)
+263 name (SimpleName)
+264 identifier='PortContext'
+265 argument (NameExpr)
+266 name (SimpleName)
+267 identifier='codec'
+268 statement (ExpressionStmt)
+269 expression (MethodCallExpr)
+270 name (SimpleName)
+271 identifier='setInputPortAttribute'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='dag'
+275 arguments
+276 argument (FieldAccessExpr)
+277 name (SimpleName)
+278 identifier='data'
+279 scope (NameExpr)
+280 name (SimpleName)
+281 identifier='priceSMA'
+282 argument (FieldAccessExpr)
+283 name (SimpleName)
+284 identifier='STREAM_CODEC'
+285 scope (NameExpr)
+286 name (SimpleName)
+287 identifier='PortContext'
+288 argument (NameExpr)
+289 name (SimpleName)
+290 identifier='codec'
+291 statement (ExpressionStmt)
+292 expression (MethodCallExpr)
+293 name (SimpleName)
+294 identifier='addStream'
+295 scope (NameExpr)
+296 name (SimpleName)
+297 identifier='dag'
+298 arguments
+299 argument (StringLiteralExpr)
+300 value='price'
+301 argument (FieldAccessExpr)
+302 name (SimpleName)
+303 identifier='price'
+304 scope (NameExpr)
+305 name (SimpleName)
+306 identifier='tick'
+307 argument (FieldAccessExpr)
+308 name (SimpleName)
+309 identifier='in1'
+310 scope (NameExpr)
+311 name (SimpleName)
+312 identifier='quoteOperator'
+313 argument (FieldAccessExpr)
+314 name (SimpleName)
+315 identifier='data'
+316 scope (NameExpr)
+317 name (SimpleName)
+318 identifier='highlow'
+319 argument (FieldAccessExpr)
+320 name (SimpleName)
+321 identifier='data'
+322 scope (NameExpr)
+323 name (SimpleName)
+324 identifier='priceSMA'
+325 statement (ExpressionStmt)
+326 expression (MethodCallExpr)
+327 name (SimpleName)
+328 identifier='addStream'
+329 scope (NameExpr)
+330 name (SimpleName)
+331 identifier='dag'
+332 arguments
+333 argument (StringLiteralExpr)
+334 value='vol'
+335 argument (FieldAccessExpr)
+336 name (SimpleName)
+337 identifier='volume'
+338 scope (NameExpr)
+339 name (SimpleName)
+340 identifier='tick'
+341 argument (FieldAccessExpr)
+342 name (SimpleName)
+343 identifier='data'
+344 scope (NameExpr)
+345 name (SimpleName)
+346 identifier='dailyVolume'
+347 argument (FieldAccessExpr)
+348 name (SimpleName)
+349 identifier='data'
+350 scope (NameExpr)
+351 name (SimpleName)
+352 identifier='minuteVolume'
+353 statement (ExpressionStmt)
+354 expression (MethodCallExpr)
+355 name (SimpleName)
+356 identifier='addStream'
+357 scope (NameExpr)
+358 name (SimpleName)
+359 identifier='dag'
+360 arguments
+361 argument (StringLiteralExpr)
+362 value='time'
+363 argument (FieldAccessExpr)
+364 name (SimpleName)
+365 identifier='time'
+366 scope (NameExpr)
+367 name (SimpleName)
+368 identifier='tick'
+369 argument (FieldAccessExpr)
+370 name (SimpleName)
+371 identifier='in3'
+372 scope (NameExpr)
+373 name (SimpleName)
+374 identifier='quoteOperator'
+375 statement (ExpressionStmt)
+376 expression (MethodCallExpr)
+377 name (SimpleName)
+378 identifier='addStream'
+379 scope (NameExpr)
+380 name (SimpleName)
+381 identifier='dag'
+382 arguments
+383 argument (StringLiteralExpr)
+384 value='daily_vol'
+385 argument (FieldAccessExpr)
+386 name (SimpleName)
+387 identifier='sum'
+388 scope (NameExpr)
+389 name (SimpleName)
+390 identifier='dailyVolume'
+391 argument (FieldAccessExpr)
+392 name (SimpleName)
+393 identifier='in2'
+394 scope (NameExpr)
+395 name (SimpleName)
+396 identifier='quoteOperator'
+397 statement (ExpressionStmt)
+398 expression (MethodCallExpr)
+399 name (SimpleName)
+400 identifier='addStream'
+401 scope (NameExpr)
+402 name (SimpleName)
+403 identifier='dag'
+404 arguments
+405 argument (StringLiteralExpr)
+406 value='quote_data'
+407 argument (FieldAccessExpr)
+408 name (SimpleName)
+409 identifier='out'
+410 scope (NameExpr)
+411 name (SimpleName)
+412 identifier='quoteOperator'
+413 argument (MethodCallExpr)
+414 name (SimpleName)
+415 identifier='getConsole'
+416 arguments
+417 argument (StringLiteralExpr)
+418 value='quoteConsole'
+419 argument (NameExpr)
+420 name (SimpleName)
+421 identifier='dag'
+422 argument (StringLiteralExpr)
+423 value='QUOTE'
+424 statement (ExpressionStmt)
+425 expression (MethodCallExpr)
+426 name (SimpleName)
+427 identifier='addStream'
+428 scope (NameExpr)
+429 name (SimpleName)
+430 identifier='dag'
+431 arguments
+432 argument (StringLiteralExpr)
+433 value='high_low'
+434 argument (FieldAccessExpr)
+435 name (SimpleName)
+436 identifier='range'
+437 scope (NameExpr)
+438 name (SimpleName)
+439 identifier='highlow'
+440 argument (FieldAccessExpr)
+441 name (SimpleName)
+442 identifier='in1'
+443 scope (NameExpr)
+444 name (SimpleName)
+445 identifier='chartOperator'
+446 statement (ExpressionStmt)
+447 expression (MethodCallExpr)
+448 name (SimpleName)
+449 identifier='addStream'
+450 scope (NameExpr)
+451 name (SimpleName)
+452 identifier='dag'
+453 arguments
+454 argument (StringLiteralExpr)
+455 value='vol_1min'
+456 argument (FieldAccessExpr)
+457 name (SimpleName)
+458 identifier='sum'
+459 scope (NameExpr)
+460 name (SimpleName)
+461 identifier='minuteVolume'
+462 argument (FieldAccessExpr)
+463 name (SimpleName)
+464 identifier='in2'
+465 scope (NameExpr)
+466 name (SimpleName)
+467 identifier='chartOperator'
+468 statement (ExpressionStmt)
+469 expression (MethodCallExpr)
+470 name (SimpleName)
+471 identifier='addStream'
+472 scope (NameExpr)
+473 name (SimpleName)
+474 identifier='dag'
+475 arguments
+476 argument (StringLiteralExpr)
+477 value='chart_data'
+478 argument (FieldAccessExpr)
+479 name (SimpleName)
+480 identifier='out'
+481 scope (NameExpr)
+482 name (SimpleName)
+483 identifier='chartOperator'
+484 argument (MethodCallExpr)
+485 name (SimpleName)
+486 identifier='getConsole'
+487 arguments
+488 argument (StringLiteralExpr)
+489 value='chartConsole'
+490 argument (NameExpr)
+491 name (SimpleName)
+492 identifier='dag'
+493 argument (StringLiteralExpr)
+494 value='CHART'
+495 statement (ExpressionStmt)
+496 expression (MethodCallExpr)
+497 name (SimpleName)
+498 identifier='addStream'
+499 scope (NameExpr)
+500 name (SimpleName)
+501 identifier='dag'
+502 arguments
+503 argument (StringLiteralExpr)
+504 value='sma_price'
+505 argument (FieldAccessExpr)
+506 name (SimpleName)
+507 identifier='doubleSMA'
+508 scope (NameExpr)
+509 name (SimpleName)
+510 identifier='priceSMA'
+511 argument (MethodCallExpr)
+512 name (SimpleName)
+513 identifier='getConsole'
+514 arguments
+515 argument (StringLiteralExpr)
+516 value='priceSMAConsole'
+517 argument (NameExpr)
+518 name (SimpleName)
+519 identifier='dag'
+520 argument (StringLiteralExpr)
+521 value='Price SMA'
+522 type (VoidType)
+523 name (SimpleName)
+524 identifier='populateDAG'
+525 parameters
+526 parameter (Parameter)
+527 isVarArgs='false'
+528 name (SimpleName)
+529 identifier='dag'
+530 type (ClassOrInterfaceType)
+531 name (SimpleName)
+532 identifier='DAG'
+533 parameter (Parameter)
+534 isVarArgs='false'
+535 name (SimpleName)
+536 identifier='conf'
+537 type (ClassOrInterfaceType)
+538 name (SimpleName)
+539 identifier='Configuration'
+540 annotations
+541 annotation (SingleMemberAnnotationExpr)
+542 memberValue (StringLiteralExpr)
+543 value='unchecked'
+544 name (Name)
+545 identifier='SuppressWarnings'
+546 annotation (MarkerAnnotationExpr)
+547 name (Name)
+548 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+26 36
+36 37
+26 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+44 54
+54 55
+44 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+73 76
+76 77
+77 78
+69 79
+79 80
+69 81
+81 82
+82 83
+81 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+84 91
+91 92
+92 93
+84 94
+94 95
+95 96
+84 97
+84 98
+2 99
+99 100
+100 101
+101 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+102 115
+115 116
+102 117
+117 118
+118 119
+117 120
+120 121
+121 122
+122 123
+120 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+134 137
+137 138
+138 139
+134 140
+140 141
+141 142
+130 143
+143 144
+130 145
+145 146
+146 147
+145 148
+148 149
+149 150
+150 151
+148 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+162 165
+165 166
+166 167
+158 168
+168 169
+158 170
+170 171
+171 172
+170 173
+173 174
+174 175
+175 176
+173 177
+177 178
+178 179
+177 180
+180 181
+181 182
+182 183
+173 184
+184 185
+185 186
+173 187
+173 188
+173 189
+2 190
+190 191
+191 192
+192 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+201 202
+197 203
+203 204
+204 205
+193 206
+206 207
+193 208
+208 209
+209 210
+208 211
+211 212
+212 213
+213 214
+211 215
+215 216
+216 217
+2 218
+218 219
+219 220
+220 221
+221 222
+222 223
+223 224
+224 225
+223 226
+226 227
+227 228
+228 229
+226 230
+230 231
+231 232
+221 233
+233 234
+221 235
+235 236
+236 237
+235 238
+238 239
+239 240
+240 241
+238 242
+242 243
+243 244
+2 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+246 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+252 259
+259 260
+260 261
+259 262
+262 263
+263 264
+252 265
+265 266
+266 267
+2 268
+268 269
+269 270
+270 271
+269 272
+272 273
+273 274
+269 275
+275 276
+276 277
+277 278
+276 279
+279 280
+280 281
+275 282
+282 283
+283 284
+282 285
+285 286
+286 287
+275 288
+288 289
+289 290
+2 291
+291 292
+292 293
+293 294
+292 295
+295 296
+296 297
+292 298
+298 299
+299 300
+298 301
+301 302
+302 303
+301 304
+304 305
+305 306
+298 307
+307 308
+308 309
+307 310
+310 311
+311 312
+298 313
+313 314
+314 315
+313 316
+316 317
+317 318
+298 319
+319 320
+320 321
+319 322
+322 323
+323 324
+2 325
+325 326
+326 327
+327 328
+326 329
+329 330
+330 331
+326 332
+332 333
+333 334
+332 335
+335 336
+336 337
+335 338
+338 339
+339 340
+332 341
+341 342
+342 343
+341 344
+344 345
+345 346
+332 347
+347 348
+348 349
+347 350
+350 351
+351 352
+2 353
+353 354
+354 355
+355 356
+354 357
+357 358
+358 359
+354 360
+360 361
+361 362
+360 363
+363 364
+364 365
+363 366
+366 367
+367 368
+360 369
+369 370
+370 371
+369 372
+372 373
+373 374
+2 375
+375 376
+376 377
+377 378
+376 379
+379 380
+380 381
+376 382
+382 383
+383 384
+382 385
+385 386
+386 387
+385 388
+388 389
+389 390
+382 391
+391 392
+392 393
+391 394
+394 395
+395 396
+2 397
+397 398
+398 399
+399 400
+398 401
+401 402
+402 403
+398 404
+404 405
+405 406
+404 407
+407 408
+408 409
+407 410
+410 411
+411 412
+404 413
+413 414
+414 415
+413 416
+416 417
+417 418
+416 419
+419 420
+420 421
+416 422
+422 423
+2 424
+424 425
+425 426
+426 427
+425 428
+428 429
+429 430
+425 431
+431 432
+432 433
+431 434
+434 435
+435 436
+434 437
+437 438
+438 439
+431 440
+440 441
+441 442
+440 443
+443 444
+444 445
+2 446
+446 447
+447 448
+448 449
+447 450
+450 451
+451 452
+447 453
+453 454
+454 455
+453 456
+456 457
+457 458
+456 459
+459 460
+460 461
+453 462
+462 463
+463 464
+462 465
+465 466
+466 467
+2 468
+468 469
+469 470
+470 471
+469 472
+472 473
+473 474
+469 475
+475 476
+476 477
+475 478
+478 479
+479 480
+478 481
+481 482
+482 483
+475 484
+484 485
+485 486
+484 487
+487 488
+488 489
+487 490
+490 491
+491 492
+487 493
+493 494
+2 495
+495 496
+496 497
+497 498
+496 499
+499 500
+500 501
+496 502
+502 503
+503 504
+502 505
+505 506
+506 507
+505 508
+508 509
+509 510
+502 511
+511 512
+512 513
+511 514
+514 515
+515 516
+514 517
+517 518
+518 519
+514 520
+520 521
+0 522
+0 523
+523 524
+0 525
+525 526
+526 527
+526 528
+528 529
+526 530
+530 531
+531 532
+525 533
+533 534
+533 535
+535 536
+533 537
+537 538
+538 539
+0 540
+540 541
+541 542
+542 543
+541 544
+544 545
+540 546
+546 547
+547 548
+
+Populate Yahoo Finance Demo Application DAG.

@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='runTest'
+7 scope (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TestHelper'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='optional-with-filter-that-fails-01'
+14 argument (StringLiteralExpr)
+15 value='optional-with-filter-that-fails-01.rq'
+16 argument (StringLiteralExpr)
+17 value='optional-with-filter-that-fails-01.ttl'
+18 argument (StringLiteralExpr)
+19 value='optional-with-filter-that-fails-01.srx'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='test_optional_with_filter_that_fails'
+23 thrownExceptions
+24 thrownException (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+11 16
+16 17
+11 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+25 26
+
+The FILTER will always fail. This means that the OPTIONAL group will never produce any solutions. Thus only the original solutions from the statement pattern outside of the optional will be reported as solutions for the query. This tests the correct eventual triggering of the optional hash join at the end of the optional group. <p> Note: If this test fails, then it is likely that the optional hash join was not triggered for its last pass evaluation. For this test to pass the optional hash join needs to be triggered for last pass evaluation even though no solutions reached the optional hash join through normal evaluation (they were all failed by the filter).

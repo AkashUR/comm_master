@@ -1,0 +1,60 @@
+29
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='pop'
+10 name (SimpleName)
+11 identifier='top'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='RatPoly'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='push'
+19 arguments
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='differentiate'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='top'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='differentiate'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+
+Differentiates the top element of this, placing the result on top of the stack. requires: this.size() &ge; 1 modifies: this effects:  If this = [p1]:S then this_post = [p2]:S where p2 = derivative of p1

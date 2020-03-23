@@ -1,0 +1,342 @@
+170
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='resolveFile'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='fsManager'
+13 scope (ThisExpr)
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='ram:///test.jar'
+17 name (SimpleName)
+18 identifier='testJar'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='FileObject'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='ZipOutputStream'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getOutputStream'
+34 scope (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getContent'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='testJar'
+40 name (SimpleName)
+41 identifier='zos'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='ZipOutputStream'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (ObjectCreationExpr)
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='ZipEntry'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='rootResource.txt'
+56 name (SimpleName)
+57 identifier='zipEntry'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='ZipEntry'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='putNextEntry'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='zos'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='zipEntry'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='write'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='zos'
+79 arguments
+80 argument (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getBytes'
+83 scope (StringLiteralExpr)
+84 value='Some content'
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='UTF-8'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='closeEntry'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='zos'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='close'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='zos'
+102 statement (ExpressionStmt)
+103 expression (VariableDeclarationExpr)
+104 variables
+105 variable (VariableDeclarator)
+106 initializer (ObjectCreationExpr)
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='DefaultJarArchive'
+110 arguments
+111 argument (StringLiteralExpr)
+112 value='ram:///test.jar'
+113 name (SimpleName)
+114 identifier='jarArchive'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='DefaultJarArchive'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='setFileHandler'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='jarArchive'
+125 arguments
+126 argument (ObjectCreationExpr)
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='VFSFileHandler'
+130 arguments
+131 argument (FieldAccessExpr)
+132 name (SimpleName)
+133 identifier='fsManager'
+134 scope (ThisExpr)
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='expandToPath'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='jarArchive'
+142 arguments
+143 argument (StringLiteralExpr)
+144 value='ram:///test'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='assertTrue'
+149 arguments
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='exists'
+153 scope (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='resolveFile'
+156 scope (FieldAccessExpr)
+157 name (SimpleName)
+158 identifier='fsManager'
+159 scope (ThisExpr)
+160 arguments
+161 argument (StringLiteralExpr)
+162 value='ram:///test/rootResource.txt'
+163 type (VoidType)
+164 name (SimpleName)
+165 identifier='testExpandToPath'
+166 thrownExceptions
+167 thrownException (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+7 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+25 40
+40 41
+25 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+48 56
+56 57
+48 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+80 83
+83 84
+80 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+105 106
+106 107
+107 108
+108 109
+106 110
+110 111
+111 112
+105 113
+113 114
+105 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+119 125
+125 126
+126 127
+127 128
+128 129
+126 130
+130 131
+131 132
+132 133
+131 134
+2 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+136 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+153 156
+156 157
+157 158
+156 159
+153 160
+160 161
+161 162
+0 163
+0 164
+164 165
+0 166
+166 167
+167 168
+168 169
+
+Verifies that the method <code>expandToPath()</code> works.

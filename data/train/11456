@@ -1,0 +1,470 @@
+234
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='RandomIndexWriter'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='random'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='dir'
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='newIndexWriterConfig'
+33 arguments
+34 argument (ObjectCreationExpr)
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='MockAnalyzer'
+38 arguments
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='random'
+42 name (SimpleName)
+43 identifier='iw'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='RandomIndexWriter'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (ObjectCreationExpr)
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Document'
+55 name (SimpleName)
+56 identifier='doc'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Document'
+60 statement (ExpressionStmt)
+61 expression (VariableDeclarationExpr)
+62 variables
+63 variable (VariableDeclarator)
+64 initializer (ObjectCreationExpr)
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='FieldType'
+68 arguments
+69 argument (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='TYPE_NOT_STORED'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='TextField'
+75 name (SimpleName)
+76 identifier='ft'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='FieldType'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='setIndexOptions'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='ft'
+87 arguments
+88 argument (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='DOCS'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='IndexOptions'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='freeze'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='ft'
+101 statement (ExpressionStmt)
+102 expression (VariableDeclarationExpr)
+103 variables
+104 variable (VariableDeclarator)
+105 initializer (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='newField'
+108 arguments
+109 argument (StringLiteralExpr)
+110 value='foo'
+111 argument (StringLiteralExpr)
+112 value='bar'
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='ft'
+116 name (SimpleName)
+117 identifier='f'
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='Field'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='add'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='doc'
+128 arguments
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='f'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='addDocument'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='iw'
+139 arguments
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='doc'
+143 statement (ExpressionStmt)
+144 expression (VariableDeclarationExpr)
+145 variables
+146 variable (VariableDeclarator)
+147 initializer (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='getReader'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='iw'
+153 name (SimpleName)
+154 identifier='ir'
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='IndexReader'
+158 statement (ExpressionStmt)
+159 expression (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='close'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='iw'
+165 statement (ExpressionStmt)
+166 expression (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='assertEquals'
+169 arguments
+170 argument (UnaryExpr)
+171 operator='MINUS'
+172 expression (IntegerLiteralExpr)
+173 value='1'
+174 argument (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='totalTermFreq'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='ir'
+180 arguments
+181 argument (ObjectCreationExpr)
+182 type (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='Term'
+185 arguments
+186 argument (StringLiteralExpr)
+187 value='foo'
+188 argument (ObjectCreationExpr)
+189 type (ClassOrInterfaceType)
+190 name (SimpleName)
+191 identifier='BytesRef'
+192 arguments
+193 argument (StringLiteralExpr)
+194 value='bar'
+195 statement (ExpressionStmt)
+196 expression (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='assertEquals'
+199 arguments
+200 argument (UnaryExpr)
+201 operator='MINUS'
+202 expression (IntegerLiteralExpr)
+203 value='1'
+204 argument (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='getSumTotalTermFreq'
+207 scope (NameExpr)
+208 name (SimpleName)
+209 identifier='ir'
+210 arguments
+211 argument (StringLiteralExpr)
+212 value='foo'
+213 statement (ExpressionStmt)
+214 expression (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='close'
+217 scope (NameExpr)
+218 name (SimpleName)
+219 identifier='ir'
+220 statement (ExpressionStmt)
+221 expression (MethodCallExpr)
+222 name (SimpleName)
+223 identifier='close'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='dir'
+227 type (VoidType)
+228 name (SimpleName)
+229 identifier='testStats'
+230 thrownExceptions
+231 thrownException (ClassOrInterfaceType)
+232 name (SimpleName)
+233 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+23 30
+30 31
+31 32
+30 33
+33 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+40 41
+18 42
+42 43
+18 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+50 55
+55 56
+50 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+63 75
+75 76
+63 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+108 111
+111 112
+108 113
+113 114
+114 115
+104 116
+116 117
+104 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+122 128
+128 129
+129 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+146 153
+153 154
+146 155
+155 156
+156 157
+2 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+2 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+170 172
+172 173
+169 174
+174 175
+175 176
+174 177
+177 178
+178 179
+174 180
+180 181
+181 182
+182 183
+183 184
+181 185
+185 186
+186 187
+185 188
+188 189
+189 190
+190 191
+188 192
+192 193
+193 194
+2 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+200 202
+202 203
+199 204
+204 205
+205 206
+204 207
+207 208
+208 209
+204 210
+210 211
+211 212
+2 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+2 220
+220 221
+221 222
+222 223
+221 224
+224 225
+225 226
+0 227
+0 228
+228 229
+0 230
+230 231
+231 232
+232 233
+
+test that when freqs are omitted, that totalTermFreq and sumTotalTermFreq are -1

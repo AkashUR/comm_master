@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='StringReader'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='AnD'
+14 name (SimpleName)
+15 identifier='reader'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Reader'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='whitespaceMockTokenizer'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='reader'
+30 name (SimpleName)
+31 identifier='stream'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='TokenStream'
+35 statement (ExpressionStmt)
+36 expression (AssignExpr)
+37 operator='ASSIGN'
+38 target (NameExpr)
+39 name (SimpleName)
+40 identifier='stream'
+41 value (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='create'
+44 scope (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='tokenFilterFactory'
+47 arguments
+48 argument (StringLiteralExpr)
+49 value='Capitalization'
+50 argument (StringLiteralExpr)
+51 value='keep'
+52 argument (StringLiteralExpr)
+53 value='and the it BIG'
+54 argument (StringLiteralExpr)
+55 value='onlyFirstWord'
+56 argument (StringLiteralExpr)
+57 value='true'
+58 argument (StringLiteralExpr)
+59 value='forceFirstLetter'
+60 argument (StringLiteralExpr)
+61 value='true'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='stream'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='assertTokenStreamContents'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='stream'
+74 argument (ArrayCreationExpr)
+75 elementType (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='String'
+78 initializer (ArrayInitializerExpr)
+79 values
+80 value (StringLiteralExpr)
+81 value='And'
+82 levels
+83 level (ArrayCreationLevel)
+84 type (VoidType)
+85 name (SimpleName)
+86 identifier='testCapitalization3'
+87 thrownExceptions
+88 thrownException (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+22 30
+30 31
+22 32
+32 33
+33 34
+2 35
+35 36
+36 37
+36 38
+38 39
+39 40
+36 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+47 52
+52 53
+47 54
+54 55
+47 56
+56 57
+47 58
+58 59
+47 60
+60 61
+41 62
+62 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+72 73
+70 74
+74 75
+75 76
+76 77
+74 78
+78 79
+79 80
+80 81
+74 82
+82 83
+0 84
+0 85
+85 86
+0 87
+87 88
+88 89
+89 90
+
+first is forced, but it's not a keep word, either

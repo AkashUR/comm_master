@@ -1,0 +1,866 @@
+432
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='glUseProgram'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='GLES20'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='mProgram'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='glBlendFunc'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='GLES20'
+21 arguments
+22 argument (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='GL_SRC_ALPHA'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='GLES20'
+28 argument (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='GL_ONE_MINUS_SRC_ALPHA'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='GLES20'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='glEnable'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='GLES20'
+41 arguments
+42 argument (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='GL_CULL_FACE'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='GLES20'
+48 statement (SwitchStmt)
+49 selector (NameExpr)
+50 name (SimpleName)
+51 identifier='mType'
+52 entries
+53 entrie (SwitchEntryStmt)
+54 label (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='RIGHT'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='ViewerRenderer'
+60 entrie (SwitchEntryStmt)
+61 label (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='FRONT'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='ViewerRenderer'
+67 entrie (SwitchEntryStmt)
+68 label (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='TOP'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='ViewerRenderer'
+74 statements
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='glCullFace'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='GLES20'
+82 arguments
+83 argument (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='GL_FRONT'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='GLES20'
+89 statement (BreakStmt)
+90 entrie (SwitchEntryStmt)
+91 label (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='BACK'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='ViewerRenderer'
+97 entrie (SwitchEntryStmt)
+98 label (FieldAccessExpr)
+99 name (SimpleName)
+100 identifier='LEFT'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='ViewerRenderer'
+104 statements
+105 statement (ExpressionStmt)
+106 expression (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='glCullFace'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='GLES20'
+112 arguments
+113 argument (FieldAccessExpr)
+114 name (SimpleName)
+115 identifier='GL_BACK'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='GLES20'
+119 statement (BreakStmt)
+120 statement (ExpressionStmt)
+121 expression (AssignExpr)
+122 operator='ASSIGN'
+123 target (NameExpr)
+124 name (SimpleName)
+125 identifier='mPositionHandle'
+126 value (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='glGetAttribLocation'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='GLES20'
+132 arguments
+133 argument (NameExpr)
+134 name (SimpleName)
+135 identifier='mProgram'
+136 argument (StringLiteralExpr)
+137 value='vPosition'
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='glEnableVertexAttribArray'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='GLES20'
+145 arguments
+146 argument (NameExpr)
+147 name (SimpleName)
+148 identifier='mPositionHandle'
+149 statement (ExpressionStmt)
+150 expression (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='glVertexAttribPointer'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='GLES20'
+156 arguments
+157 argument (NameExpr)
+158 name (SimpleName)
+159 identifier='mPositionHandle'
+160 argument (NameExpr)
+161 name (SimpleName)
+162 identifier='COORDS_PER_VERTEX'
+163 argument (FieldAccessExpr)
+164 name (SimpleName)
+165 identifier='GL_FLOAT'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='GLES20'
+169 argument (BooleanLiteralExpr)
+170 value='false'
+171 argument (NameExpr)
+172 name (SimpleName)
+173 identifier='vertexStride'
+174 argument (NameExpr)
+175 name (SimpleName)
+176 identifier='mVertexBuffer'
+177 statement (ExpressionStmt)
+178 expression (AssignExpr)
+179 operator='ASSIGN'
+180 target (NameExpr)
+181 name (SimpleName)
+182 identifier='mColorHandle'
+183 value (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='glGetUniformLocation'
+186 scope (NameExpr)
+187 name (SimpleName)
+188 identifier='GLES20'
+189 arguments
+190 argument (NameExpr)
+191 name (SimpleName)
+192 identifier='mProgram'
+193 argument (StringLiteralExpr)
+194 value='vColor'
+195 statement (ExpressionStmt)
+196 expression (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='glUniform4fv'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='GLES20'
+202 arguments
+203 argument (NameExpr)
+204 name (SimpleName)
+205 identifier='mColorHandle'
+206 argument (IntegerLiteralExpr)
+207 value='1'
+208 argument (NameExpr)
+209 name (SimpleName)
+210 identifier='color'
+211 argument (IntegerLiteralExpr)
+212 value='0'
+213 statement (ExpressionStmt)
+214 expression (AssignExpr)
+215 operator='ASSIGN'
+216 target (NameExpr)
+217 name (SimpleName)
+218 identifier='mMVPMatrixHandle'
+219 value (MethodCallExpr)
+220 name (SimpleName)
+221 identifier='glGetUniformLocation'
+222 scope (NameExpr)
+223 name (SimpleName)
+224 identifier='GLES20'
+225 arguments
+226 argument (NameExpr)
+227 name (SimpleName)
+228 identifier='mProgram'
+229 argument (StringLiteralExpr)
+230 value='uMVPMatrix'
+231 statement (ExpressionStmt)
+232 expression (MethodCallExpr)
+233 name (SimpleName)
+234 identifier='checkGlError'
+235 scope (NameExpr)
+236 name (SimpleName)
+237 identifier='ViewerRenderer'
+238 arguments
+239 argument (StringLiteralExpr)
+240 value='glGetUniformLocation'
+241 statement (ExpressionStmt)
+242 expression (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='glUniformMatrix4fv'
+245 scope (NameExpr)
+246 name (SimpleName)
+247 identifier='GLES20'
+248 arguments
+249 argument (NameExpr)
+250 name (SimpleName)
+251 identifier='mMVPMatrixHandle'
+252 argument (IntegerLiteralExpr)
+253 value='1'
+254 argument (BooleanLiteralExpr)
+255 value='false'
+256 argument (NameExpr)
+257 name (SimpleName)
+258 identifier='mvpMatrix'
+259 argument (IntegerLiteralExpr)
+260 value='0'
+261 statement (ExpressionStmt)
+262 expression (MethodCallExpr)
+263 name (SimpleName)
+264 identifier='checkGlError'
+265 scope (NameExpr)
+266 name (SimpleName)
+267 identifier='ViewerRenderer'
+268 arguments
+269 argument (StringLiteralExpr)
+270 value='glUniformMatrix4fv'
+271 statement (ExpressionStmt)
+272 expression (MethodCallExpr)
+273 name (SimpleName)
+274 identifier='glDrawElements'
+275 scope (NameExpr)
+276 name (SimpleName)
+277 identifier='GLES20'
+278 arguments
+279 argument (FieldAccessExpr)
+280 name (SimpleName)
+281 identifier='GL_TRIANGLES'
+282 scope (NameExpr)
+283 name (SimpleName)
+284 identifier='GLES20'
+285 argument (FieldAccessExpr)
+286 name (SimpleName)
+287 identifier='length'
+288 scope (NameExpr)
+289 name (SimpleName)
+290 identifier='drawOrder'
+291 argument (FieldAccessExpr)
+292 name (SimpleName)
+293 identifier='GL_UNSIGNED_SHORT'
+294 scope (NameExpr)
+295 name (SimpleName)
+296 identifier='GLES20'
+297 argument (NameExpr)
+298 name (SimpleName)
+299 identifier='mDrawListBuffer'
+300 statement (ExpressionStmt)
+301 expression (MethodCallExpr)
+302 name (SimpleName)
+303 identifier='glDisable'
+304 scope (NameExpr)
+305 name (SimpleName)
+306 identifier='GLES20'
+307 arguments
+308 argument (FieldAccessExpr)
+309 name (SimpleName)
+310 identifier='GL_DEPTH_TEST'
+311 scope (NameExpr)
+312 name (SimpleName)
+313 identifier='GLES20'
+314 statement (ExpressionStmt)
+315 expression (VariableDeclarationExpr)
+316 variables
+317 variable (VariableDeclarator)
+318 initializer (ArrayInitializerExpr)
+319 values
+320 value (DoubleLiteralExpr)
+321 value='1.0f'
+322 value (DoubleLiteralExpr)
+323 value='1.0f'
+324 value (DoubleLiteralExpr)
+325 value='1.0f'
+326 value (DoubleLiteralExpr)
+327 value='0.01f'
+328 name (SimpleName)
+329 identifier='color2'
+330 type (ArrayType)
+331 origin='NAME'
+332 componentType (PrimitiveType)
+333 type='FLOAT'
+334 statement (ExpressionStmt)
+335 expression (MethodCallExpr)
+336 name (SimpleName)
+337 identifier='glUniform4fv'
+338 scope (NameExpr)
+339 name (SimpleName)
+340 identifier='GLES20'
+341 arguments
+342 argument (NameExpr)
+343 name (SimpleName)
+344 identifier='mColorHandle'
+345 argument (IntegerLiteralExpr)
+346 value='1'
+347 argument (NameExpr)
+348 name (SimpleName)
+349 identifier='color2'
+350 argument (IntegerLiteralExpr)
+351 value='0'
+352 statement (ExpressionStmt)
+353 expression (MethodCallExpr)
+354 name (SimpleName)
+355 identifier='glLineWidth'
+356 scope (NameExpr)
+357 name (SimpleName)
+358 identifier='GLES20'
+359 arguments
+360 argument (DoubleLiteralExpr)
+361 value='3f'
+362 statement (ExpressionStmt)
+363 expression (MethodCallExpr)
+364 name (SimpleName)
+365 identifier='glDrawArrays'
+366 scope (NameExpr)
+367 name (SimpleName)
+368 identifier='GLES20'
+369 arguments
+370 argument (FieldAccessExpr)
+371 name (SimpleName)
+372 identifier='GL_LINE_LOOP'
+373 scope (NameExpr)
+374 name (SimpleName)
+375 identifier='GLES20'
+376 argument (IntegerLiteralExpr)
+377 value='0'
+378 argument (NameExpr)
+379 name (SimpleName)
+380 identifier='vertexCount'
+381 statement (ExpressionStmt)
+382 expression (MethodCallExpr)
+383 name (SimpleName)
+384 identifier='glDisable'
+385 scope (NameExpr)
+386 name (SimpleName)
+387 identifier='GLES20'
+388 arguments
+389 argument (FieldAccessExpr)
+390 name (SimpleName)
+391 identifier='GL_CULL_FACE'
+392 scope (NameExpr)
+393 name (SimpleName)
+394 identifier='GLES20'
+395 statement (ExpressionStmt)
+396 expression (MethodCallExpr)
+397 name (SimpleName)
+398 identifier='glEnable'
+399 scope (NameExpr)
+400 name (SimpleName)
+401 identifier='GLES20'
+402 arguments
+403 argument (FieldAccessExpr)
+404 name (SimpleName)
+405 identifier='GL_DEPTH_TEST'
+406 scope (NameExpr)
+407 name (SimpleName)
+408 identifier='GLES20'
+409 statement (ExpressionStmt)
+410 expression (MethodCallExpr)
+411 name (SimpleName)
+412 identifier='glDisableVertexAttribArray'
+413 scope (NameExpr)
+414 name (SimpleName)
+415 identifier='GLES20'
+416 arguments
+417 argument (NameExpr)
+418 name (SimpleName)
+419 identifier='mPositionHandle'
+420 type (VoidType)
+421 name (SimpleName)
+422 identifier='draw'
+423 parameters
+424 parameter (Parameter)
+425 isVarArgs='false'
+426 name (SimpleName)
+427 identifier='mvpMatrix'
+428 type (ArrayType)
+429 origin='TYPE'
+430 componentType (PrimitiveType)
+431 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+21 28
+28 29
+29 30
+28 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+52 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+52 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+67 74
+74 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+74 89
+52 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+52 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+97 104
+104 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+104 119
+2 120
+120 121
+121 122
+121 123
+123 124
+124 125
+121 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+134 135
+132 136
+136 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+139 145
+145 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+150 156
+156 157
+157 158
+158 159
+156 160
+160 161
+161 162
+156 163
+163 164
+164 165
+163 166
+166 167
+167 168
+156 169
+169 170
+156 171
+171 172
+172 173
+156 174
+174 175
+175 176
+2 177
+177 178
+178 179
+178 180
+180 181
+181 182
+178 183
+183 184
+184 185
+183 186
+186 187
+187 188
+183 189
+189 190
+190 191
+191 192
+189 193
+193 194
+2 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+196 202
+202 203
+203 204
+204 205
+202 206
+206 207
+202 208
+208 209
+209 210
+202 211
+211 212
+2 213
+213 214
+214 215
+214 216
+216 217
+217 218
+214 219
+219 220
+220 221
+219 222
+222 223
+223 224
+219 225
+225 226
+226 227
+227 228
+225 229
+229 230
+2 231
+231 232
+232 233
+233 234
+232 235
+235 236
+236 237
+232 238
+238 239
+239 240
+2 241
+241 242
+242 243
+243 244
+242 245
+245 246
+246 247
+242 248
+248 249
+249 250
+250 251
+248 252
+252 253
+248 254
+254 255
+248 256
+256 257
+257 258
+248 259
+259 260
+2 261
+261 262
+262 263
+263 264
+262 265
+265 266
+266 267
+262 268
+268 269
+269 270
+2 271
+271 272
+272 273
+273 274
+272 275
+275 276
+276 277
+272 278
+278 279
+279 280
+280 281
+279 282
+282 283
+283 284
+278 285
+285 286
+286 287
+285 288
+288 289
+289 290
+278 291
+291 292
+292 293
+291 294
+294 295
+295 296
+278 297
+297 298
+298 299
+2 300
+300 301
+301 302
+302 303
+301 304
+304 305
+305 306
+301 307
+307 308
+308 309
+309 310
+308 311
+311 312
+312 313
+2 314
+314 315
+315 316
+316 317
+317 318
+318 319
+319 320
+320 321
+319 322
+322 323
+319 324
+324 325
+319 326
+326 327
+317 328
+328 329
+317 330
+330 331
+330 332
+332 333
+2 334
+334 335
+335 336
+336 337
+335 338
+338 339
+339 340
+335 341
+341 342
+342 343
+343 344
+341 345
+345 346
+341 347
+347 348
+348 349
+341 350
+350 351
+2 352
+352 353
+353 354
+354 355
+353 356
+356 357
+357 358
+353 359
+359 360
+360 361
+2 362
+362 363
+363 364
+364 365
+363 366
+366 367
+367 368
+363 369
+369 370
+370 371
+371 372
+370 373
+373 374
+374 375
+369 376
+376 377
+369 378
+378 379
+379 380
+2 381
+381 382
+382 383
+383 384
+382 385
+385 386
+386 387
+382 388
+388 389
+389 390
+390 391
+389 392
+392 393
+393 394
+2 395
+395 396
+396 397
+397 398
+396 399
+399 400
+400 401
+396 402
+402 403
+403 404
+404 405
+403 406
+406 407
+407 408
+2 409
+409 410
+410 411
+411 412
+410 413
+413 414
+414 415
+410 416
+416 417
+417 418
+418 419
+0 420
+0 421
+421 422
+0 423
+423 424
+424 425
+424 426
+426 427
+424 428
+428 429
+428 430
+430 431
+
+Encapsulates the OpenGL ES instructions for drawing this shape.

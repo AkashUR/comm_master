@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='isEnabled'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='params'
+12 value (NameExpr)
+13 name (SimpleName)
+14 identifier='enable'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='enable'
+18 parameters
+19 parameter (Parameter)
+20 isVarArgs='false'
+21 name (SimpleName)
+22 identifier='enable'
+23 type (PrimitiveType)
+24 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+13 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+19 21
+21 22
+19 23
+23 24
+
+Enables all monitors except ResultSet monitoring.  This overrides all other monitor booleans.  It never enables ResultSet monitoring That must be done as a separates step as that is not the enabled monitoring by default.  All other monitors will be disabled/enabled when calling this method.

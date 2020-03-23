@@ -1,0 +1,244 @@
+121
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='server'
+9 scope (ThisExpr)
+10 value (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='Server'
+14 arguments
+15 argument (IntegerLiteralExpr)
+16 value='0'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='ServletContextHandler'
+25 arguments
+26 argument (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='SESSIONS'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='ServletContextHandler'
+32 name (SimpleName)
+33 identifier='context'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='ServletContextHandler'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='setContextPath'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='context'
+44 arguments
+45 argument (StringLiteralExpr)
+46 value='/'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='addServlet'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='context'
+54 arguments
+55 argument (ObjectCreationExpr)
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='ServletHolder'
+59 arguments
+60 argument (ObjectCreationExpr)
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='MyServlet'
+64 argument (StringLiteralExpr)
+65 value='/'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='setHandler'
+70 scope (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='server'
+73 scope (ThisExpr)
+74 arguments
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='context'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='start'
+82 scope (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='server'
+85 scope (ThisExpr)
+86 statement (ExpressionStmt)
+87 expression (AssignExpr)
+88 operator='ASSIGN'
+89 target (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='port'
+92 scope (ThisExpr)
+93 value (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='getLocalPort'
+96 scope (EnclosedExpr)
+97 inner (CastExpr)
+98 expression (ArrayAccessExpr)
+99 index (IntegerLiteralExpr)
+100 value='0'
+101 name (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='getConnectors'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='server'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='ServerConnector'
+110 type (VoidType)
+111 name (SimpleName)
+112 identifier='startJetty'
+113 thrownExceptions
+114 thrownException (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='Exception'
+117 annotations
+118 annotation (MarkerAnnotationExpr)
+119 name (Name)
+120 identifier='BeforeClass'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+20 32
+32 33
+20 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+61 62
+62 63
+54 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+67 74
+74 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+2 86
+86 87
+87 88
+87 89
+89 90
+90 91
+89 92
+87 93
+93 94
+94 95
+93 96
+96 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+101 104
+104 105
+105 106
+97 107
+107 108
+108 109
+0 110
+0 111
+111 112
+0 113
+113 114
+114 115
+115 116
+0 117
+117 118
+118 119
+119 120
+
+Start http server to really test a HTTP endpoint. as URL can't be mock

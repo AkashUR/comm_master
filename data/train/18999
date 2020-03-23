@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TreeSet'
+11 name (SimpleName)
+12 identifier='tset'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TreeSet'
+16 typeArguments
+17 typeArgument (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Flag'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='addAll'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='Collections'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='tset'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='set'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='add'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='mRequiredSets'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='tset'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='addRequiredSet'
+48 parameters
+49 parameter (Parameter)
+50 isVarArgs='true'
+51 name (SimpleName)
+52 identifier='set'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Flag'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+
+Adds a set of optional flags to the usage header. Should be called for each set of optional required flags i.e. flag <code>-f</code> is a required flag and also one of optional flags <code>-i</code> and <code>-I</code> are required to have valid arguments so you would call this method once with <code>-i</code> and once with <code>-I</code>.

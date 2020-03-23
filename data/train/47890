@@ -1,0 +1,216 @@
+107
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='timer'
+9 scope (ThisExpr)
+10 value (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='TimedExpirySupport'
+14 arguments
+15 argument (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='max'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='Math'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='minExpiryTime'
+25 argument (IntegerLiteralExpr)
+26 value='0'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='max'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='Math'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='maxExpiryTime'
+37 argument (IntegerLiteralExpr)
+38 value='0'
+39 statement (ExpressionStmt)
+40 expression (AssignExpr)
+41 operator='ASSIGN'
+42 target (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='globeStateKey'
+45 scope (ThisExpr)
+46 value (ConditionalExpr)
+47 condition (BinaryExpr)
+48 operator='NOT_EQUALS'
+49 left (NameExpr)
+50 name (SimpleName)
+51 identifier='dc'
+52 right (NullLiteralExpr)
+53 elseExpr (NullLiteralExpr)
+54 thenExpr (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getGlobeStateKey'
+57 scope (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getGlobe'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='dc'
+63 statement (ExpressionStmt)
+64 expression (AssignExpr)
+65 operator='ASSIGN'
+66 target (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='verticalExaggeration'
+69 scope (ThisExpr)
+70 value (ConditionalExpr)
+71 condition (BinaryExpr)
+72 operator='NOT_EQUALS'
+73 left (NameExpr)
+74 name (SimpleName)
+75 identifier='dc'
+76 right (NullLiteralExpr)
+77 elseExpr (DoubleLiteralExpr)
+78 value='1d'
+79 thenExpr (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getVerticalExaggeration'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='dc'
+85 name (SimpleName)
+86 identifier='ShapeDataCacheEntry'
+87 parameters
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='dc'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='DrawContext'
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='minExpiryTime'
+99 type (PrimitiveType)
+100 type='LONG'
+101 parameter (Parameter)
+102 isVarArgs='false'
+103 name (SimpleName)
+104 identifier='maxExpiryTime'
+105 type (PrimitiveType)
+106 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+21 25
+25 26
+14 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+2 39
+39 40
+40 41
+40 42
+42 43
+43 44
+42 45
+40 46
+46 47
+47 48
+47 49
+49 50
+50 51
+47 52
+46 53
+46 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+2 63
+63 64
+64 65
+64 66
+66 67
+67 68
+66 69
+64 70
+70 71
+71 72
+71 73
+73 74
+74 75
+71 76
+70 77
+77 78
+70 79
+79 80
+80 81
+79 82
+82 83
+83 84
+0 85
+85 86
+0 87
+87 88
+88 89
+88 90
+90 91
+88 92
+92 93
+93 94
+87 95
+95 96
+95 97
+97 98
+95 99
+99 100
+87 101
+101 102
+101 103
+103 104
+101 105
+105 106
+
+Constructs an entry using the globe and vertical exaggeration of a specified draw context.

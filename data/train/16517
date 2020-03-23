@@ -1,0 +1,600 @@
+299
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getModel'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='SPL'
+13 name (SimpleName)
+14 identifier='splModel'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Model'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getModel'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='SPIN'
+28 name (SimpleName)
+29 identifier='spinModel'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='Model'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='createMultiUnion'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='JenaUtil'
+43 arguments
+44 argument (ArrayCreationExpr)
+45 elementType (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Graph'
+48 initializer (ArrayInitializerExpr)
+49 values
+50 value (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getGraph'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='splModel'
+56 value (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getGraph'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='spinModel'
+62 levels
+63 level (ArrayCreationLevel)
+64 name (SimpleName)
+65 identifier='multiUnion'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='MultiUnion'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='setBaseGraph'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='multiUnion'
+76 arguments
+77 argument (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='getGraph'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='splModel'
+83 statement (ExpressionStmt)
+84 expression (VariableDeclarationExpr)
+85 variables
+86 variable (VariableDeclarator)
+87 initializer (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='createModelForGraph'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='ModelFactory'
+93 arguments
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='multiUnion'
+97 name (SimpleName)
+98 identifier='unionModel'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='Model'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='registerAll'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='unionModel'
+110 argument (NullLiteralExpr)
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='put'
+115 scope (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='get'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='FunctionRegistry'
+121 arguments
+122 argument (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='getURI'
+125 scope (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='ask'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='SPIN'
+131 argument (ObjectCreationExpr)
+132 type (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='AskFunction'
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='put'
+139 scope (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='get'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='FunctionRegistry'
+145 arguments
+146 argument (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='getURI'
+149 scope (FieldAccessExpr)
+150 name (SimpleName)
+151 identifier='eval'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='SPIN'
+155 argument (ObjectCreationExpr)
+156 type (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='EvalFunction'
+159 statement (ExpressionStmt)
+160 expression (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='put'
+163 scope (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='get'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='FunctionRegistry'
+169 arguments
+170 argument (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='getURI'
+173 scope (FieldAccessExpr)
+174 name (SimpleName)
+175 identifier='evalInGraph'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='SPIN'
+179 argument (ObjectCreationExpr)
+180 type (ClassOrInterfaceType)
+181 name (SimpleName)
+182 identifier='EvalInGraphFunction'
+183 statement (ExpressionStmt)
+184 expression (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='put'
+187 scope (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='get'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='FunctionRegistry'
+193 arguments
+194 argument (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='getURI'
+197 scope (FieldAccessExpr)
+198 name (SimpleName)
+199 identifier='violatesConstraints'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='SPIN'
+203 argument (ObjectCreationExpr)
+204 type (ClassOrInterfaceType)
+205 name (SimpleName)
+206 identifier='ViolatesConstraintsFunction'
+207 statement (ExpressionStmt)
+208 expression (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='put'
+211 scope (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='get'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='PropertyFunctionRegistry'
+217 arguments
+218 argument (MethodCallExpr)
+219 name (SimpleName)
+220 identifier='getURI'
+221 scope (FieldAccessExpr)
+222 name (SimpleName)
+223 identifier='construct'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='SPIN'
+227 argument (ClassExpr)
+228 type (ClassOrInterfaceType)
+229 name (SimpleName)
+230 identifier='ConstructPFunction'
+231 statement (ExpressionStmt)
+232 expression (MethodCallExpr)
+233 name (SimpleName)
+234 identifier='put'
+235 scope (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='get'
+238 scope (NameExpr)
+239 name (SimpleName)
+240 identifier='PropertyFunctionRegistry'
+241 arguments
+242 argument (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='getURI'
+245 scope (FieldAccessExpr)
+246 name (SimpleName)
+247 identifier='constructViolations'
+248 scope (NameExpr)
+249 name (SimpleName)
+250 identifier='SPIN'
+251 argument (ClassExpr)
+252 type (ClassOrInterfaceType)
+253 name (SimpleName)
+254 identifier='ConstructViolationsPFunction'
+255 statement (ExpressionStmt)
+256 expression (MethodCallExpr)
+257 name (SimpleName)
+258 identifier='put'
+259 scope (MethodCallExpr)
+260 name (SimpleName)
+261 identifier='get'
+262 scope (NameExpr)
+263 name (SimpleName)
+264 identifier='PropertyFunctionRegistry'
+265 arguments
+266 argument (MethodCallExpr)
+267 name (SimpleName)
+268 identifier='getURI'
+269 scope (FieldAccessExpr)
+270 name (SimpleName)
+271 identifier='select'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='SPIN'
+275 argument (ClassExpr)
+276 type (ClassOrInterfaceType)
+277 name (SimpleName)
+278 identifier='SelectPFunction'
+279 statement (ExpressionStmt)
+280 expression (MethodCallExpr)
+281 name (SimpleName)
+282 identifier='put'
+283 scope (MethodCallExpr)
+284 name (SimpleName)
+285 identifier='get'
+286 scope (NameExpr)
+287 name (SimpleName)
+288 identifier='PropertyFunctionRegistry'
+289 arguments
+290 argument (StringLiteralExpr)
+291 value='http://topbraid.org/spin/owlrl#propertyChainHelper'
+292 argument (ClassExpr)
+293 type (ClassOrInterfaceType)
+294 name (SimpleName)
+295 identifier='PropertyChainHelperPFunction'
+296 type (VoidType)
+297 name (SimpleName)
+298 identifier='init'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+21 28
+28 29
+21 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+49 56
+56 57
+57 58
+56 59
+59 60
+60 61
+44 62
+62 63
+36 64
+64 65
+36 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+87 93
+93 94
+94 95
+95 96
+86 97
+97 98
+86 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+108 109
+106 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+115 118
+118 119
+119 120
+112 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+125 128
+128 129
+129 130
+121 131
+131 132
+132 133
+133 134
+2 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+139 142
+142 143
+143 144
+136 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+149 152
+152 153
+153 154
+145 155
+155 156
+156 157
+157 158
+2 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+163 166
+166 167
+167 168
+160 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+173 176
+176 177
+177 178
+169 179
+179 180
+180 181
+181 182
+2 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+187 190
+190 191
+191 192
+184 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+201 202
+193 203
+203 204
+204 205
+205 206
+2 207
+207 208
+208 209
+209 210
+208 211
+211 212
+212 213
+211 214
+214 215
+215 216
+208 217
+217 218
+218 219
+219 220
+218 221
+221 222
+222 223
+221 224
+224 225
+225 226
+217 227
+227 228
+228 229
+229 230
+2 231
+231 232
+232 233
+233 234
+232 235
+235 236
+236 237
+235 238
+238 239
+239 240
+232 241
+241 242
+242 243
+243 244
+242 245
+245 246
+246 247
+245 248
+248 249
+249 250
+241 251
+251 252
+252 253
+253 254
+2 255
+255 256
+256 257
+257 258
+256 259
+259 260
+260 261
+259 262
+262 263
+263 264
+256 265
+265 266
+266 267
+267 268
+266 269
+269 270
+270 271
+269 272
+272 273
+273 274
+265 275
+275 276
+276 277
+277 278
+2 279
+279 280
+280 281
+281 282
+280 283
+283 284
+284 285
+283 286
+286 287
+287 288
+280 289
+289 290
+290 291
+289 292
+292 293
+293 294
+294 295
+0 296
+0 297
+297 298
+
+Initializes this registry with all system functions and templates from the SPL namespace.

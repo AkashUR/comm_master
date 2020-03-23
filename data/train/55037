@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='WAR'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='c:/some/path/to/war/test.war'
+14 name (SimpleName)
+15 identifier='war'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='WAR'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setContext'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='war'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='context'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='assertEquals'
+33 arguments
+34 argument (StringLiteralExpr)
+35 value='context'
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getContext'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='war'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='testGetContextWhenOverride'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+0 42
+0 43
+43 44
+
+Test overriden WAR context.

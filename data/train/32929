@@ -1,0 +1,30 @@
+14
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='insertUpperLeftWhitespaceIfNeeded'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='removeUnnecessaryWhitespaceAroundDiagram'
+11 type (VoidType)
+12 name (SimpleName)
+13 identifier='updatePanelAndScrollbars'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+0 11
+0 12
+12 13
+
+This method must be called after every "significant change" on the drawpanel. This doesn't include every increment of dragging an grid element but it should be called after the grid elements new location is set (= after the mousebutton is released) It should be called only once after many grid elements have changed and not for each element! This makes it very hard to call this method by using listeners, therefore it's called explicitly in specific cases.

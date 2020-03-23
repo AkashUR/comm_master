@@ -1,0 +1,248 @@
+123
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='setWidth'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='setIncludePad'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='builder'
+16 arguments
+17 argument (BooleanLiteralExpr)
+18 value='true'
+19 arguments
+20 argument (IntegerLiteralExpr)
+21 value='50'
+22 name (SimpleName)
+23 identifier='b'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='LayoutBuilder'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getFontMetricsInt'
+34 scope (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='paint'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='b'
+40 name (SimpleName)
+41 identifier='fmi'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='FontMetricsInt'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='build'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='b'
+55 name (SimpleName)
+56 identifier='l'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Layout'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='assertVertMetrics'
+64 arguments
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='l'
+68 argument (BinaryExpr)
+69 operator='MINUS'
+70 left (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='top'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='fmi'
+76 right (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='ascent'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='fmi'
+82 argument (BinaryExpr)
+83 operator='MINUS'
+84 left (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='bottom'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='fmi'
+90 right (FieldAccessExpr)
+91 name (SimpleName)
+92 identifier='descent'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='fmi'
+96 argument (FieldAccessExpr)
+97 name (SimpleName)
+98 identifier='top'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='fmi'
+102 argument (FieldAccessExpr)
+103 name (SimpleName)
+104 identifier='descent'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='fmi'
+108 argument (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='ascent'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='fmi'
+114 argument (FieldAccessExpr)
+115 name (SimpleName)
+116 identifier='bottom'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='fmi'
+120 type (VoidType)
+121 name (SimpleName)
+122 identifier='testGetters3'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+7 19
+19 20
+20 21
+6 22
+22 23
+6 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+30 40
+40 41
+30 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+48 55
+55 56
+48 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+66 67
+64 68
+68 69
+68 70
+70 71
+71 72
+70 73
+73 74
+74 75
+68 76
+76 77
+77 78
+76 79
+79 80
+80 81
+64 82
+82 83
+82 84
+84 85
+85 86
+84 87
+87 88
+88 89
+82 90
+90 91
+91 92
+90 93
+93 94
+94 95
+64 96
+96 97
+97 98
+96 99
+99 100
+100 101
+64 102
+102 103
+103 104
+102 105
+105 106
+106 107
+64 108
+108 109
+109 110
+108 111
+111 112
+112 113
+64 114
+114 115
+115 116
+114 117
+117 118
+118 119
+0 120
+0 121
+121 122
+
+Basic test showing effect of includePad = true wrapping to 2 lines. Ascent of top line and descent of bottom line are affected.

@@ -1,0 +1,380 @@
+189
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='<web-app></web-app>'
+9 name (SimpleName)
+10 identifier='srcXml'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='parseWebXml'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='WebXmlIo'
+24 arguments
+25 argument (ObjectCreationExpr)
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='ByteArrayInputStream'
+29 arguments
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getBytes'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='srcXml'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='UTF-8'
+39 argument (NullLiteralExpr)
+40 name (SimpleName)
+41 identifier='srcWebXml'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='WebXml'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (BinaryExpr)
+50 operator='PLUS'
+51 left (BinaryExpr)
+52 operator='PLUS'
+53 left (BinaryExpr)
+54 operator='PLUS'
+55 left (BinaryExpr)
+56 operator='PLUS'
+57 left (BinaryExpr)
+58 operator='PLUS'
+59 left (BinaryExpr)
+60 operator='PLUS'
+61 left (BinaryExpr)
+62 operator='PLUS'
+63 left (StringLiteralExpr)
+64 value='<web-app>'
+65 right (StringLiteralExpr)
+66 value='  <ejb-ref>'
+67 right (StringLiteralExpr)
+68 value='    <ejb-ref-name>ejbref1</ejb-ref-name>'
+69 right (StringLiteralExpr)
+70 value='    <ejb-ref-type>ejbref1.type</ejb-ref-type>'
+71 right (StringLiteralExpr)
+72 value='    <home>ejbref1.homeInterface</home>'
+73 right (StringLiteralExpr)
+74 value='    <remote>ejbref1.remoteInterface</remote>'
+75 right (StringLiteralExpr)
+76 value='  </ejb-ref>'
+77 right (StringLiteralExpr)
+78 value='</web-app>'
+79 name (SimpleName)
+80 identifier='mergeXml'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='String'
+84 statement (ExpressionStmt)
+85 expression (VariableDeclarationExpr)
+86 variables
+87 variable (VariableDeclarator)
+88 initializer (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='parseWebXml'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='WebXmlIo'
+94 arguments
+95 argument (ObjectCreationExpr)
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='ByteArrayInputStream'
+99 arguments
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='getBytes'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='mergeXml'
+106 arguments
+107 argument (StringLiteralExpr)
+108 value='UTF-8'
+109 argument (NullLiteralExpr)
+110 name (SimpleName)
+111 identifier='mergeWebXml'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='WebXml'
+115 statement (ExpressionStmt)
+116 expression (VariableDeclarationExpr)
+117 variables
+118 variable (VariableDeclarator)
+119 initializer (ObjectCreationExpr)
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='WebXmlMerger'
+123 arguments
+124 argument (NameExpr)
+125 name (SimpleName)
+126 identifier='srcWebXml'
+127 name (SimpleName)
+128 identifier='merger'
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='WebXmlMerger'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='merge'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='merger'
+139 arguments
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='mergeWebXml'
+143 statement (ExpressionStmt)
+144 expression (VariableDeclarationExpr)
+145 variables
+146 variable (VariableDeclarator)
+147 initializer (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='getElements'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='srcWebXml'
+153 arguments
+154 argument (FieldAccessExpr)
+155 name (SimpleName)
+156 identifier='EJB_REF'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='WebXmlType'
+160 name (SimpleName)
+161 identifier='ejbRefs'
+162 type (ClassOrInterfaceType)
+163 name (SimpleName)
+164 identifier='List'
+165 typeArguments
+166 typeArgument (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='Element'
+169 statement (ExpressionStmt)
+170 expression (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='assertEquals'
+173 arguments
+174 argument (IntegerLiteralExpr)
+175 value='1'
+176 argument (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='size'
+179 scope (NameExpr)
+180 name (SimpleName)
+181 identifier='ejbRefs'
+182 type (VoidType)
+183 name (SimpleName)
+184 identifier='testMergeOneEjbRefIntoEmptyDocument'
+185 thrownExceptions
+186 thrownException (ClassOrInterfaceType)
+187 name (SimpleName)
+188 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+24 39
+17 40
+40 41
+17 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+49 51
+51 52
+51 53
+53 54
+53 55
+55 56
+55 57
+57 58
+57 59
+59 60
+59 61
+61 62
+61 63
+63 64
+61 65
+65 66
+59 67
+67 68
+57 69
+69 70
+55 71
+71 72
+53 73
+73 74
+51 75
+75 76
+49 77
+77 78
+48 79
+79 80
+48 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+94 109
+87 110
+110 111
+87 112
+112 113
+113 114
+2 115
+115 116
+116 117
+117 118
+118 119
+119 120
+120 121
+121 122
+119 123
+123 124
+124 125
+125 126
+118 127
+127 128
+118 129
+129 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+147 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+146 160
+160 161
+146 162
+162 163
+163 164
+162 165
+165 166
+166 167
+167 168
+2 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+173 176
+176 177
+177 178
+176 179
+179 180
+180 181
+0 182
+0 183
+183 184
+0 185
+185 186
+186 187
+187 188
+
+Tests whether a single EJB reference is correctly inserted into an empty descriptor.

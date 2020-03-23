@@ -1,0 +1,452 @@
+225
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='renderArgs'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='dataTable'
+13 argument (ObjectCreationExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='ShareACLDataTable'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='put'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='renderArgs'
+24 arguments
+25 argument (StringLiteralExpr)
+26 value='fileSystem'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='uri'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='fileSystem'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='put'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='renderArgs'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='shareName'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='shareName'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='put'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='renderArgs'
+54 arguments
+55 argument (StringLiteralExpr)
+56 value='aclURL'
+57 argument (BinaryExpr)
+58 operator='PLUS'
+59 left (BinaryExpr)
+60 operator='PLUS'
+61 left (BinaryExpr)
+62 operator='PLUS'
+63 left (BinaryExpr)
+64 operator='PLUS'
+65 left (StringLiteralExpr)
+66 value='/file/filesystems/'
+67 right (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='uri'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='fileSystem'
+74 right (StringLiteralExpr)
+75 value='/shares/'
+76 right (NameExpr)
+77 name (SimpleName)
+78 identifier='shareName'
+79 right (StringLiteralExpr)
+80 value='/acl'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='put'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='renderArgs'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='permissionOptions'
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='options'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='StringOption'
+97 arguments
+98 argument (ArrayCreationExpr)
+99 elementType (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='String'
+102 initializer (ArrayInitializerExpr)
+103 values
+104 value (StringLiteralExpr)
+105 value='Read'
+106 value (StringLiteralExpr)
+107 value='Change'
+108 value (StringLiteralExpr)
+109 value='FullControl'
+110 levels
+111 level (ArrayCreationLevel)
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='put'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='renderArgs'
+119 arguments
+120 argument (StringLiteralExpr)
+121 value='fileSystemId'
+122 argument (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='uri'
+125 arguments
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='fileSystem'
+129 statement (ExpressionStmt)
+130 expression (VariableDeclarationExpr)
+131 variables
+132 variable (VariableDeclarator)
+133 initializer (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getViprClient'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='BourneUtil'
+139 name (SimpleName)
+140 identifier='client'
+141 type (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='ViPRCoreClient'
+144 statement (ExpressionStmt)
+145 expression (VariableDeclarationExpr)
+146 variables
+147 variable (VariableDeclarator)
+148 initializer (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='get'
+151 scope (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='fileSystems'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='client'
+157 arguments
+158 argument (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='uri'
+161 arguments
+162 argument (NameExpr)
+163 name (SimpleName)
+164 identifier='fileSystem'
+165 name (SimpleName)
+166 identifier='restRep'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='FileShareRestRep'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='put'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='renderArgs'
+177 arguments
+178 argument (StringLiteralExpr)
+179 value='fileSystemName'
+180 argument (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='getName'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='restRep'
+186 statement (ExpressionStmt)
+187 expression (VariableDeclarationExpr)
+188 variables
+189 variable (VariableDeclarator)
+190 initializer (ObjectCreationExpr)
+191 type (ClassOrInterfaceType)
+192 name (SimpleName)
+193 identifier='ShareACLForm'
+194 name (SimpleName)
+195 identifier='shareACL'
+196 type (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='ShareACLForm'
+199 statement (ExpressionStmt)
+200 expression (MethodCallExpr)
+201 name (SimpleName)
+202 identifier='render'
+203 arguments
+204 argument (NameExpr)
+205 name (SimpleName)
+206 identifier='shareACL'
+207 type (VoidType)
+208 name (SimpleName)
+209 identifier='listAcl'
+210 parameters
+211 parameter (Parameter)
+212 isVarArgs='false'
+213 name (SimpleName)
+214 identifier='fileSystem'
+215 type (ClassOrInterfaceType)
+216 name (SimpleName)
+217 identifier='String'
+218 parameter (Parameter)
+219 isVarArgs='false'
+220 name (SimpleName)
+221 identifier='shareName'
+222 type (ClassOrInterfaceType)
+223 name (SimpleName)
+224 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+41 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+54 57
+57 58
+57 59
+59 60
+59 61
+61 62
+61 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+67 70
+70 71
+71 72
+72 73
+61 74
+74 75
+59 76
+76 77
+77 78
+57 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+100 101
+98 102
+102 103
+103 104
+104 105
+103 106
+106 107
+103 108
+108 109
+98 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+119 122
+122 123
+123 124
+122 125
+125 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+132 139
+139 140
+132 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+151 154
+154 155
+155 156
+148 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+163 164
+147 165
+165 166
+147 167
+167 168
+168 169
+2 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+171 177
+177 178
+178 179
+177 180
+180 181
+181 182
+180 183
+183 184
+184 185
+2 186
+186 187
+187 188
+188 189
+189 190
+190 191
+191 192
+192 193
+189 194
+194 195
+189 196
+196 197
+197 198
+2 199
+199 200
+200 201
+201 202
+200 203
+203 204
+204 205
+205 206
+0 207
+0 208
+208 209
+0 210
+210 211
+211 212
+211 213
+213 214
+211 215
+215 216
+216 217
+210 218
+218 219
+218 220
+220 221
+218 222
+222 223
+223 224
+
+This method called when Access Control List page is loaded.

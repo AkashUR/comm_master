@@ -1,0 +1,206 @@
+102
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='read'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='MULTILINESTRING ((0 2, 0 0), (-1 1, 1 1))'
+13 name (SimpleName)
+14 identifier='linearGeom'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Geometry'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='LengthIndexedLine'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='linearGeom'
+30 name (SimpleName)
+31 identifier='indexedLine'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='LengthIndexedLine'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='project'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='indexedLine'
+45 arguments
+46 argument (ObjectCreationExpr)
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Coordinate'
+50 arguments
+51 argument (IntegerLiteralExpr)
+52 value='1'
+53 argument (IntegerLiteralExpr)
+54 value='0'
+55 name (SimpleName)
+56 identifier='index'
+57 type (PrimitiveType)
+58 type='DOUBLE'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='extractPoint'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='indexedLine'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='index'
+73 name (SimpleName)
+74 identifier='pt'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Coordinate'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='assertTrue'
+82 arguments
+83 argument (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='equals'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='pt'
+89 arguments
+90 argument (ObjectCreationExpr)
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='Coordinate'
+94 arguments
+95 argument (IntegerLiteralExpr)
+96 value='0'
+97 argument (IntegerLiteralExpr)
+98 value='0'
+99 type (VoidType)
+100 name (SimpleName)
+101 identifier='testProjectExtractPoint'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+28 29
+21 30
+30 31
+21 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+48 49
+46 50
+50 51
+51 52
+50 53
+53 54
+38 55
+55 56
+38 57
+57 58
+2 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+71 72
+62 73
+73 74
+62 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+91 92
+92 93
+90 94
+94 95
+95 96
+94 97
+97 98
+0 99
+0 100
+100 101
+
+From GEOS Ticket #323

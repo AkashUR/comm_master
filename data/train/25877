@@ -1,0 +1,672 @@
+335
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getPrivateKey'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getServer'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='TestKeyStore'
+16 arguments
+17 argument (StringLiteralExpr)
+18 value='RSA'
+19 argument (StringLiteralExpr)
+20 value='RSA'
+21 name (SimpleName)
+22 identifier='pke'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='PrivateKeyEntry'
+26 scope (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='KeyStore'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (CastExpr)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getCertificateChain'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='pke'
+40 type (ArrayType)
+41 origin='TYPE'
+42 componentType (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='X509Certificate'
+45 name (SimpleName)
+46 identifier='chain3'
+47 type (ArrayType)
+48 origin='TYPE'
+49 componentType (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='X509Certificate'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (ArrayAccessExpr)
+57 index (IntegerLiteralExpr)
+58 value='2'
+59 name (NameExpr)
+60 name (SimpleName)
+61 identifier='chain3'
+62 name (SimpleName)
+63 identifier='root'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='X509Certificate'
+67 statement (ExpressionStmt)
+68 expression (VariableDeclarationExpr)
+69 variables
+70 variable (VariableDeclarator)
+71 initializer (ArrayAccessExpr)
+72 index (IntegerLiteralExpr)
+73 value='1'
+74 name (NameExpr)
+75 name (SimpleName)
+76 identifier='chain3'
+77 name (SimpleName)
+78 identifier='intermediate'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='X509Certificate'
+82 statement (ExpressionStmt)
+83 expression (VariableDeclarationExpr)
+84 variables
+85 variable (VariableDeclarator)
+86 initializer (ArrayAccessExpr)
+87 index (IntegerLiteralExpr)
+88 value='0'
+89 name (NameExpr)
+90 name (SimpleName)
+91 identifier='chain3'
+92 name (SimpleName)
+93 identifier='server'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='X509Certificate'
+97 statement (ExpressionStmt)
+98 expression (VariableDeclarationExpr)
+99 variables
+100 variable (VariableDeclarator)
+101 initializer (ArrayCreationExpr)
+102 elementType (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='X509Certificate'
+105 initializer (ArrayInitializerExpr)
+106 values
+107 value (NameExpr)
+108 name (SimpleName)
+109 identifier='server'
+110 value (NameExpr)
+111 name (SimpleName)
+112 identifier='intermediate'
+113 levels
+114 level (ArrayCreationLevel)
+115 name (SimpleName)
+116 identifier='chain2'
+117 type (ArrayType)
+118 origin='TYPE'
+119 componentType (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='X509Certificate'
+122 statement (ExpressionStmt)
+123 expression (VariableDeclarationExpr)
+124 variables
+125 variable (VariableDeclarator)
+126 initializer (ArrayCreationExpr)
+127 elementType (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='X509Certificate'
+130 initializer (ArrayInitializerExpr)
+131 values
+132 value (NameExpr)
+133 name (SimpleName)
+134 identifier='server'
+135 levels
+136 level (ArrayCreationLevel)
+137 name (SimpleName)
+138 identifier='chain1'
+139 type (ArrayType)
+140 origin='TYPE'
+141 componentType (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='X509Certificate'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='assertValid'
+148 arguments
+149 argument (NameExpr)
+150 name (SimpleName)
+151 identifier='chain3'
+152 argument (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='trustManager'
+155 arguments
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='root'
+159 statement (ExpressionStmt)
+160 expression (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='assertValid'
+163 arguments
+164 argument (NameExpr)
+165 name (SimpleName)
+166 identifier='chain2'
+167 argument (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='trustManager'
+170 arguments
+171 argument (NameExpr)
+172 name (SimpleName)
+173 identifier='root'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='assertInvalid'
+178 arguments
+179 argument (NameExpr)
+180 name (SimpleName)
+181 identifier='chain1'
+182 argument (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='trustManager'
+185 arguments
+186 argument (NameExpr)
+187 name (SimpleName)
+188 identifier='root'
+189 statement (ExpressionStmt)
+190 expression (MethodCallExpr)
+191 name (SimpleName)
+192 identifier='assertValid'
+193 arguments
+194 argument (NameExpr)
+195 name (SimpleName)
+196 identifier='chain3'
+197 argument (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='trustManager'
+200 arguments
+201 argument (NameExpr)
+202 name (SimpleName)
+203 identifier='intermediate'
+204 statement (ExpressionStmt)
+205 expression (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='assertValid'
+208 arguments
+209 argument (NameExpr)
+210 name (SimpleName)
+211 identifier='chain2'
+212 argument (MethodCallExpr)
+213 name (SimpleName)
+214 identifier='trustManager'
+215 arguments
+216 argument (NameExpr)
+217 name (SimpleName)
+218 identifier='intermediate'
+219 statement (ExpressionStmt)
+220 expression (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='assertValid'
+223 arguments
+224 argument (NameExpr)
+225 name (SimpleName)
+226 identifier='chain1'
+227 argument (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='trustManager'
+230 arguments
+231 argument (NameExpr)
+232 name (SimpleName)
+233 identifier='intermediate'
+234 statement (ExpressionStmt)
+235 expression (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='assertValid'
+238 arguments
+239 argument (NameExpr)
+240 name (SimpleName)
+241 identifier='chain3'
+242 argument (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='trustManager'
+245 arguments
+246 argument (NameExpr)
+247 name (SimpleName)
+248 identifier='server'
+249 statement (ExpressionStmt)
+250 expression (MethodCallExpr)
+251 name (SimpleName)
+252 identifier='assertValid'
+253 arguments
+254 argument (NameExpr)
+255 name (SimpleName)
+256 identifier='chain2'
+257 argument (MethodCallExpr)
+258 name (SimpleName)
+259 identifier='trustManager'
+260 arguments
+261 argument (NameExpr)
+262 name (SimpleName)
+263 identifier='server'
+264 statement (ExpressionStmt)
+265 expression (MethodCallExpr)
+266 name (SimpleName)
+267 identifier='assertValid'
+268 arguments
+269 argument (NameExpr)
+270 name (SimpleName)
+271 identifier='chain1'
+272 argument (MethodCallExpr)
+273 name (SimpleName)
+274 identifier='trustManager'
+275 arguments
+276 argument (NameExpr)
+277 name (SimpleName)
+278 identifier='server'
+279 statement (ExpressionStmt)
+280 expression (VariableDeclarationExpr)
+281 variables
+282 variable (VariableDeclarator)
+283 initializer (MethodCallExpr)
+284 name (SimpleName)
+285 identifier='trustManager'
+286 arguments
+287 argument (NameExpr)
+288 name (SimpleName)
+289 identifier='root'
+290 name (SimpleName)
+291 identifier='tm'
+292 type (ClassOrInterfaceType)
+293 name (SimpleName)
+294 identifier='X509TrustManager'
+295 statement (ExpressionStmt)
+296 expression (MethodCallExpr)
+297 name (SimpleName)
+298 identifier='assertInvalid'
+299 arguments
+300 argument (NameExpr)
+301 name (SimpleName)
+302 identifier='chain1'
+303 argument (NameExpr)
+304 name (SimpleName)
+305 identifier='tm'
+306 statement (ExpressionStmt)
+307 expression (MethodCallExpr)
+308 name (SimpleName)
+309 identifier='assertValid'
+310 arguments
+311 argument (NameExpr)
+312 name (SimpleName)
+313 identifier='chain2'
+314 argument (NameExpr)
+315 name (SimpleName)
+316 identifier='tm'
+317 statement (ExpressionStmt)
+318 expression (MethodCallExpr)
+319 name (SimpleName)
+320 identifier='assertValid'
+321 arguments
+322 argument (NameExpr)
+323 name (SimpleName)
+324 identifier='chain1'
+325 argument (NameExpr)
+326 name (SimpleName)
+327 identifier='tm'
+328 type (VoidType)
+329 name (SimpleName)
+330 identifier='testLearnIntermediate'
+331 thrownExceptions
+332 thrownException (ClassOrInterfaceType)
+333 name (SimpleName)
+334 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+16 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+33 40
+40 41
+40 42
+42 43
+43 44
+32 45
+45 46
+32 47
+47 48
+47 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+55 62
+62 63
+55 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+70 77
+77 78
+70 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+85 92
+92 93
+85 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+100 101
+101 102
+102 103
+103 104
+101 105
+105 106
+106 107
+107 108
+108 109
+106 110
+110 111
+111 112
+101 113
+113 114
+100 115
+115 116
+100 117
+117 118
+117 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+128 129
+126 130
+130 131
+131 132
+132 133
+133 134
+126 135
+135 136
+125 137
+137 138
+125 139
+139 140
+139 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+150 151
+148 152
+152 153
+153 154
+152 155
+155 156
+156 157
+157 158
+2 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+165 166
+163 167
+167 168
+168 169
+167 170
+170 171
+171 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+180 181
+178 182
+182 183
+183 184
+182 185
+185 186
+186 187
+187 188
+2 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+195 196
+193 197
+197 198
+198 199
+197 200
+200 201
+201 202
+202 203
+2 204
+204 205
+205 206
+206 207
+205 208
+208 209
+209 210
+210 211
+208 212
+212 213
+213 214
+212 215
+215 216
+216 217
+217 218
+2 219
+219 220
+220 221
+221 222
+220 223
+223 224
+224 225
+225 226
+223 227
+227 228
+228 229
+227 230
+230 231
+231 232
+232 233
+2 234
+234 235
+235 236
+236 237
+235 238
+238 239
+239 240
+240 241
+238 242
+242 243
+243 244
+242 245
+245 246
+246 247
+247 248
+2 249
+249 250
+250 251
+251 252
+250 253
+253 254
+254 255
+255 256
+253 257
+257 258
+258 259
+257 260
+260 261
+261 262
+262 263
+2 264
+264 265
+265 266
+266 267
+265 268
+268 269
+269 270
+270 271
+268 272
+272 273
+273 274
+272 275
+275 276
+276 277
+277 278
+2 279
+279 280
+280 281
+281 282
+282 283
+283 284
+284 285
+283 286
+286 287
+287 288
+288 289
+282 290
+290 291
+282 292
+292 293
+293 294
+2 295
+295 296
+296 297
+297 298
+296 299
+299 300
+300 301
+301 302
+299 303
+303 304
+304 305
+2 306
+306 307
+307 308
+308 309
+307 310
+310 311
+311 312
+312 313
+310 314
+314 315
+315 316
+2 317
+317 318
+318 319
+319 320
+318 321
+321 322
+322 323
+323 324
+321 325
+325 326
+326 327
+0 328
+0 329
+329 330
+0 331
+331 332
+332 333
+333 334
+
+Ensure that our non-standard behavior of learning to trust new intermediate CAs does not regress. http://b/3404902

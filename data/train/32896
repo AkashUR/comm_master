@@ -1,0 +1,188 @@
+93
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='deleteDirectory'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='FileUtils'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='toFile'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='localTempPath'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getTestS3FileTransferRequestParamsDto'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='s3DaoTestHelper'
+27 name (SimpleName)
+28 identifier='s3FileTransferRequestParamsDto'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='S3FileTransferRequestParamsDto'
+32 statement (ForeachStmt)
+33 body (BlockStmt)
+34 statements
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='setS3KeyPrefix'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='s3FileTransferRequestParamsDto'
+42 arguments
+43 argument (BinaryExpr)
+44 operator='PLUS'
+45 left (NameExpr)
+46 name (SimpleName)
+47 identifier='keyPrefix'
+48 right (StringLiteralExpr)
+49 value='/'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='deleteDirectory'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='s3Dao'
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='s3FileTransferRequestParamsDto'
+61 iterable (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='asList'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='Arrays'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='testS3KeyPrefix'
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='TEST_S3_KEY_PREFIX'
+74 variable (VariableDeclarationExpr)
+75 variables
+76 variable (VariableDeclarator)
+77 name (SimpleName)
+78 identifier='keyPrefix'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='String'
+82 type (VoidType)
+83 name (SimpleName)
+84 identifier='cleanEnv'
+85 thrownExceptions
+86 thrownException (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='IOException'
+89 annotations
+90 annotation (MarkerAnnotationExpr)
+91 name (Name)
+92 identifier='After'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+20 27
+27 28
+20 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+43 45
+45 46
+46 47
+43 48
+48 49
+34 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+59 60
+32 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+67 71
+71 72
+72 73
+32 74
+74 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+0 82
+0 83
+83 84
+0 85
+85 86
+86 87
+87 88
+0 89
+89 90
+90 91
+91 92
+
+Cleans up the local temp directory and S3 test path that we are using.

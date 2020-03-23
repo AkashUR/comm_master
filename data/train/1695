@@ -1,0 +1,176 @@
+87
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='edit'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='mSharedPreferences'
+13 scope (ThisExpr)
+14 name (SimpleName)
+15 identifier='edit'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Editor'
+19 scope (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='SharedPreferences'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='remove'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='edit'
+29 arguments
+30 argument (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='USER_NAME'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='Constants'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='apply'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='edit'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (ObjectCreationExpr)
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Intent'
+51 arguments
+52 argument (ThisExpr)
+53 argument (ClassExpr)
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='LoginActivity'
+57 name (SimpleName)
+58 identifier='intent'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Intent'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='putExtra'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='intent'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='oldUsername'
+72 argument (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='username'
+75 scope (ThisExpr)
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='startActivity'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='intent'
+84 type (VoidType)
+85 name (SimpleName)
+86 identifier='signOut'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+6 14
+14 15
+6 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+47 51
+51 52
+51 53
+53 54
+54 55
+55 56
+46 57
+57 58
+46 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+82 83
+0 84
+0 85
+85 86
+
+Log out, remove username from SharedPreferences, unsubscribe from PubNub, and send user back to the LoginActivity

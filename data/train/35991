@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='checkType'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='tableHandle'
+14 argument (ClassExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='HiveTableHandle'
+18 argument (StringLiteralExpr)
+19 value='tableHandle'
+20 name (SimpleName)
+21 identifier='handle'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='HiveTableHandle'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='dropTable'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='metastore'
+32 arguments
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getSchemaName'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='handle'
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getTableName'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='handle'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='flushCache'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='metastore'
+52 type (VoidType)
+53 name (SimpleName)
+54 identifier='dropTable'
+55 parameters
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='session'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='ConnectorSession'
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='tableHandle'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='ConnectorTableHandle'
+70 annotations
+71 annotation (MarkerAnnotationExpr)
+72 name (Name)
+73 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+10 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+32 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+0 52
+0 53
+53 54
+0 55
+55 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+55 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+Deletes the table from hive. If the table is corrupted, it will still delete it instead of throwing an error.

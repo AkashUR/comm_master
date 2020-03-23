@@ -1,0 +1,816 @@
+407
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (NameExpr)
+10 name (SimpleName)
+11 identifier='WEBAPP_TEST_HEADER'
+12 right (StringLiteralExpr)
+13 value='</web-app>'
+14 name (SimpleName)
+15 identifier='xml'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='String'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='parseWebXml'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='WebXmlIo'
+29 arguments
+30 argument (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='ByteArrayInputStream'
+34 arguments
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getBytes'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='xml'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='UTF-8'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getEntityResolver'
+47 name (SimpleName)
+48 identifier='webXml'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='WebXml'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='EjbRef'
+60 arguments
+61 argument (StringLiteralExpr)
+62 value='MyEjb'
+63 argument (StringLiteralExpr)
+64 value='com.wombat.MyEjb'
+65 argument (StringLiteralExpr)
+66 value='com.wombat.MyEjbHome'
+67 name (SimpleName)
+68 identifier='ejbRef'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='EjbRef'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='setJndiName'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='ejbRef'
+79 arguments
+80 argument (StringLiteralExpr)
+81 value='foo'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='addEjbRef'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='WebXmlUtils'
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='webXml'
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='ejbRef'
+96 statement (ExpressionStmt)
+97 expression (VariableDeclarationExpr)
+98 variables
+99 variable (VariableDeclarator)
+100 initializer (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='getTags'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='webXml'
+106 arguments
+107 argument (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='EJB_LOCAL_REF'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='WebXmlType'
+113 name (SimpleName)
+114 identifier='nl'
+115 type (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='List'
+118 typeArguments
+119 typeArgument (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='Element'
+122 statement (ExpressionStmt)
+123 expression (VariableDeclarationExpr)
+124 variables
+125 variable (VariableDeclarator)
+126 initializer (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='get'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='nl'
+132 arguments
+133 argument (IntegerLiteralExpr)
+134 value='0'
+135 name (SimpleName)
+136 identifier='n'
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='Element'
+140 statement (ExpressionStmt)
+141 expression (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='assertEquals'
+144 arguments
+145 argument (StringLiteralExpr)
+146 value='ejb-local-ref'
+147 argument (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='getName'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='n'
+153 statement (ExpressionStmt)
+154 expression (VariableDeclarationExpr)
+155 variables
+156 variable (VariableDeclarator)
+157 initializer (CastExpr)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='get'
+161 scope (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='getChildren'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='n'
+167 arguments
+168 argument (FieldAccessExpr)
+169 name (SimpleName)
+170 identifier='EJB_REF_NAME'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='WebXmlType'
+174 argument (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='getNamespace'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='n'
+180 arguments
+181 argument (IntegerLiteralExpr)
+182 value='0'
+183 type (ClassOrInterfaceType)
+184 name (SimpleName)
+185 identifier='Element'
+186 name (SimpleName)
+187 identifier='m'
+188 type (ClassOrInterfaceType)
+189 name (SimpleName)
+190 identifier='Element'
+191 statement (ExpressionStmt)
+192 expression (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='assertEquals'
+195 arguments
+196 argument (StringLiteralExpr)
+197 value='ejb-ref-name'
+198 argument (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='getName'
+201 scope (NameExpr)
+202 name (SimpleName)
+203 identifier='m'
+204 statement (ExpressionStmt)
+205 expression (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='assertEquals'
+208 arguments
+209 argument (StringLiteralExpr)
+210 value='MyEjb'
+211 argument (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='getText'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='m'
+217 statement (ExpressionStmt)
+218 expression (AssignExpr)
+219 operator='ASSIGN'
+220 target (NameExpr)
+221 name (SimpleName)
+222 identifier='m'
+223 value (CastExpr)
+224 expression (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='get'
+227 scope (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='getChildren'
+230 scope (NameExpr)
+231 name (SimpleName)
+232 identifier='n'
+233 arguments
+234 argument (FieldAccessExpr)
+235 name (SimpleName)
+236 identifier='EJB_REF_TYPE'
+237 scope (NameExpr)
+238 name (SimpleName)
+239 identifier='WebXmlType'
+240 argument (MethodCallExpr)
+241 name (SimpleName)
+242 identifier='getNamespace'
+243 scope (NameExpr)
+244 name (SimpleName)
+245 identifier='n'
+246 arguments
+247 argument (IntegerLiteralExpr)
+248 value='0'
+249 type (ClassOrInterfaceType)
+250 name (SimpleName)
+251 identifier='Element'
+252 statement (ExpressionStmt)
+253 expression (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='assertEquals'
+256 arguments
+257 argument (StringLiteralExpr)
+258 value='ejb-ref-type'
+259 argument (MethodCallExpr)
+260 name (SimpleName)
+261 identifier='getName'
+262 scope (NameExpr)
+263 name (SimpleName)
+264 identifier='m'
+265 statement (ExpressionStmt)
+266 expression (MethodCallExpr)
+267 name (SimpleName)
+268 identifier='assertEquals'
+269 arguments
+270 argument (StringLiteralExpr)
+271 value='Session'
+272 argument (MethodCallExpr)
+273 name (SimpleName)
+274 identifier='getText'
+275 scope (NameExpr)
+276 name (SimpleName)
+277 identifier='m'
+278 statement (ExpressionStmt)
+279 expression (AssignExpr)
+280 operator='ASSIGN'
+281 target (NameExpr)
+282 name (SimpleName)
+283 identifier='m'
+284 value (CastExpr)
+285 expression (MethodCallExpr)
+286 name (SimpleName)
+287 identifier='get'
+288 scope (MethodCallExpr)
+289 name (SimpleName)
+290 identifier='getChildren'
+291 scope (NameExpr)
+292 name (SimpleName)
+293 identifier='n'
+294 arguments
+295 argument (FieldAccessExpr)
+296 name (SimpleName)
+297 identifier='LOCAL'
+298 scope (NameExpr)
+299 name (SimpleName)
+300 identifier='WebXmlType'
+301 argument (MethodCallExpr)
+302 name (SimpleName)
+303 identifier='getNamespace'
+304 scope (NameExpr)
+305 name (SimpleName)
+306 identifier='n'
+307 arguments
+308 argument (IntegerLiteralExpr)
+309 value='0'
+310 type (ClassOrInterfaceType)
+311 name (SimpleName)
+312 identifier='Element'
+313 statement (ExpressionStmt)
+314 expression (MethodCallExpr)
+315 name (SimpleName)
+316 identifier='assertEquals'
+317 arguments
+318 argument (StringLiteralExpr)
+319 value='local'
+320 argument (MethodCallExpr)
+321 name (SimpleName)
+322 identifier='getName'
+323 scope (NameExpr)
+324 name (SimpleName)
+325 identifier='m'
+326 statement (ExpressionStmt)
+327 expression (MethodCallExpr)
+328 name (SimpleName)
+329 identifier='assertEquals'
+330 arguments
+331 argument (StringLiteralExpr)
+332 value='com.wombat.MyEjb'
+333 argument (MethodCallExpr)
+334 name (SimpleName)
+335 identifier='getText'
+336 scope (NameExpr)
+337 name (SimpleName)
+338 identifier='m'
+339 statement (ExpressionStmt)
+340 expression (AssignExpr)
+341 operator='ASSIGN'
+342 target (NameExpr)
+343 name (SimpleName)
+344 identifier='m'
+345 value (CastExpr)
+346 expression (MethodCallExpr)
+347 name (SimpleName)
+348 identifier='get'
+349 scope (MethodCallExpr)
+350 name (SimpleName)
+351 identifier='getChildren'
+352 scope (NameExpr)
+353 name (SimpleName)
+354 identifier='n'
+355 arguments
+356 argument (FieldAccessExpr)
+357 name (SimpleName)
+358 identifier='LOCAL_HOME'
+359 scope (NameExpr)
+360 name (SimpleName)
+361 identifier='WebXmlType'
+362 argument (MethodCallExpr)
+363 name (SimpleName)
+364 identifier='getNamespace'
+365 scope (NameExpr)
+366 name (SimpleName)
+367 identifier='n'
+368 arguments
+369 argument (IntegerLiteralExpr)
+370 value='0'
+371 type (ClassOrInterfaceType)
+372 name (SimpleName)
+373 identifier='Element'
+374 statement (ExpressionStmt)
+375 expression (MethodCallExpr)
+376 name (SimpleName)
+377 identifier='assertEquals'
+378 arguments
+379 argument (StringLiteralExpr)
+380 value='local-home'
+381 argument (MethodCallExpr)
+382 name (SimpleName)
+383 identifier='getName'
+384 scope (NameExpr)
+385 name (SimpleName)
+386 identifier='m'
+387 statement (ExpressionStmt)
+388 expression (MethodCallExpr)
+389 name (SimpleName)
+390 identifier='assertEquals'
+391 arguments
+392 argument (StringLiteralExpr)
+393 value='com.wombat.MyEjbHome'
+394 argument (MethodCallExpr)
+395 name (SimpleName)
+396 identifier='getText'
+397 scope (NameExpr)
+398 name (SimpleName)
+399 identifier='m'
+400 type (VoidType)
+401 name (SimpleName)
+402 identifier='testAddEjbRef'
+403 thrownExceptions
+404 thrownException (ClassOrInterfaceType)
+405 name (SimpleName)
+406 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+29 44
+44 45
+45 46
+22 47
+47 48
+22 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+60 63
+63 64
+60 65
+65 66
+55 67
+67 68
+55 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+99 113
+113 114
+99 115
+115 116
+116 117
+115 118
+118 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+125 135
+135 136
+125 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+144 147
+147 148
+148 149
+147 150
+150 151
+151 152
+2 153
+153 154
+154 155
+155 156
+156 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+161 164
+164 165
+165 166
+161 167
+167 168
+168 169
+169 170
+168 171
+171 172
+172 173
+167 174
+174 175
+175 176
+174 177
+177 178
+178 179
+158 180
+180 181
+181 182
+157 183
+183 184
+184 185
+156 186
+186 187
+156 188
+188 189
+189 190
+2 191
+191 192
+192 193
+193 194
+192 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+2 204
+204 205
+205 206
+206 207
+205 208
+208 209
+209 210
+208 211
+211 212
+212 213
+211 214
+214 215
+215 216
+2 217
+217 218
+218 219
+218 220
+220 221
+221 222
+218 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+227 230
+230 231
+231 232
+227 233
+233 234
+234 235
+235 236
+234 237
+237 238
+238 239
+233 240
+240 241
+241 242
+240 243
+243 244
+244 245
+224 246
+246 247
+247 248
+223 249
+249 250
+250 251
+2 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+256 259
+259 260
+260 261
+259 262
+262 263
+263 264
+2 265
+265 266
+266 267
+267 268
+266 269
+269 270
+270 271
+269 272
+272 273
+273 274
+272 275
+275 276
+276 277
+2 278
+278 279
+279 280
+279 281
+281 282
+282 283
+279 284
+284 285
+285 286
+286 287
+285 288
+288 289
+289 290
+288 291
+291 292
+292 293
+288 294
+294 295
+295 296
+296 297
+295 298
+298 299
+299 300
+294 301
+301 302
+302 303
+301 304
+304 305
+305 306
+285 307
+307 308
+308 309
+284 310
+310 311
+311 312
+2 313
+313 314
+314 315
+315 316
+314 317
+317 318
+318 319
+317 320
+320 321
+321 322
+320 323
+323 324
+324 325
+2 326
+326 327
+327 328
+328 329
+327 330
+330 331
+331 332
+330 333
+333 334
+334 335
+333 336
+336 337
+337 338
+2 339
+339 340
+340 341
+340 342
+342 343
+343 344
+340 345
+345 346
+346 347
+347 348
+346 349
+349 350
+350 351
+349 352
+352 353
+353 354
+349 355
+355 356
+356 357
+357 358
+356 359
+359 360
+360 361
+355 362
+362 363
+363 364
+362 365
+365 366
+366 367
+346 368
+368 369
+369 370
+345 371
+371 372
+372 373
+2 374
+374 375
+375 376
+376 377
+375 378
+378 379
+379 380
+378 381
+381 382
+382 383
+381 384
+384 385
+385 386
+2 387
+387 388
+388 389
+389 390
+388 391
+391 392
+392 393
+391 394
+394 395
+395 396
+394 397
+397 398
+398 399
+0 400
+0 401
+401 402
+0 403
+403 404
+404 405
+405 406
+
+Tests that a ejb-ref can be added.

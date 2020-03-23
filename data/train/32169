@@ -1,0 +1,154 @@
+76
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='field'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='maxTermDocFreq'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='indexIntervalBits'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='uninvert'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='reader'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='liveDocs'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='termPrefix'
+29 name (SimpleName)
+30 identifier='DocTermOrds'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='reader'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='LeafReader'
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='liveDocs'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='Bits'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='field'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='String'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='termPrefix'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='BytesRef'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='maxTermDocFreq'
+64 type (PrimitiveType)
+65 type='INT'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='indexIntervalBits'
+70 type (PrimitiveType)
+71 type='INT'
+72 thrownExceptions
+73 thrownException (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+19 26
+26 27
+27 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+37 38
+31 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+31 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+31 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+31 60
+60 61
+60 62
+62 63
+60 64
+64 65
+31 66
+66 67
+66 68
+68 69
+66 70
+70 71
+0 72
+72 73
+73 74
+74 75
+
+Inverts only terms starting w/ prefix, and only terms whose docFreq (not taking deletions into account) is &lt;=  maxTermDocFreq, with a custom indexing interval (default is every 128nd term).

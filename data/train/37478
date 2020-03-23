@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkLabelValuesLength'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='MetricsUtils'
+10 arguments
+11 argument (ThisExpr)
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='labelValues'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='reset'
+19 arguments
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='now'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='Instant'
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='copyOf'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='ImmutableList'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='labelValues'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='reset'
+39 parameters
+40 parameter (Parameter)
+41 isVarArgs='true'
+42 name (SimpleName)
+43 identifier='labelValues'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+10 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+19 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+0 36
+0 37
+37 38
+0 39
+39 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+
+Resets the value and start timestamp of the metric for the given label values. <p>This is useful if the metric is tracking a value that is reset as part of a retrying transaction, for example.

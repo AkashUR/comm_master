@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='resourceToTempFile'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Support_Resources'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='/simple.xml'
+16 name (SimpleName)
+17 identifier='f'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='File'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='parse'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='db'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='f'
+35 name (SimpleName)
+36 identifier='d'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Document'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='assertTrue'
+44 arguments
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='startsWith'
+48 scope (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getBaseURI'
+51 scope (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getDocumentElement'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='d'
+57 arguments
+58 argument (StringLiteralExpr)
+59 value='file://'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='testGetBaseURI'
+63 thrownExceptions
+64 thrownException (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='IOException'
+67 thrownException (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='SAXException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+24 35
+35 36
+24 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+54 55
+55 56
+45 57
+57 58
+58 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+
+Tests that the Base URI for the document is populated with the file URI.

@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='d'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Logger'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='IRemoteServiceCallback,valueChanged,value=%d'
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='value'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='sendMessage'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='mHandler'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='obtainMessage'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='mHandler'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='BUMP_MSG'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='value'
+37 argument (IntegerLiteralExpr)
+38 value='0'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='valueChanged'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='value'
+47 type (PrimitiveType)
+48 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+30 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+
+This is called by the remote service regularly to tell us about new values.  Note that IPC calls are dispatched through a thread pool running in each process, so the code executing here will NOT be running in our main thread like most other things -- so, to update the UI, we need to use a Handler to hop over there.

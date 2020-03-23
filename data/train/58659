@@ -1,0 +1,392 @@
+195
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getBean'
+10 scope (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='FileSystemXmlApplicationContext'
+14 arguments
+15 argument (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='toString'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='GRID_CLIENT_SPRING_CONFIG'
+21 arguments
+22 argument (ClassExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='GridClientConfiguration'
+26 name (SimpleName)
+27 identifier='cfg'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='GridClientConfiguration'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='assertEquals'
+35 arguments
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='asList'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='Arrays'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='127.0.0.1:11211'
+45 argument (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='ArrayList'
+49 arguments
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getServers'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='cfg'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='assertNull'
+60 arguments
+61 argument (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getSecurityCredentialsProvider'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='cfg'
+67 statement (ExpressionStmt)
+68 expression (VariableDeclarationExpr)
+69 variables
+70 variable (VariableDeclarator)
+71 initializer (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getDataConfigurations'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='cfg'
+77 name (SimpleName)
+78 identifier='dataCfgs'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Collection'
+82 typeArguments
+83 typeArgument (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='GridClientDataConfiguration'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='assertEquals'
+90 arguments
+91 argument (IntegerLiteralExpr)
+92 value='1'
+93 argument (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='size'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='dataCfgs'
+99 statement (ExpressionStmt)
+100 expression (VariableDeclarationExpr)
+101 variables
+102 variable (VariableDeclarator)
+103 initializer (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='next'
+106 scope (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='iterator'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='dataCfgs'
+112 name (SimpleName)
+113 identifier='dataCfg'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='GridClientDataConfiguration'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='assertEquals'
+121 arguments
+122 argument (StringLiteralExpr)
+123 value='partitioned'
+124 argument (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='getName'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='dataCfg'
+130 statement (ExpressionStmt)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='assertNotNull'
+134 arguments
+135 argument (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='getPinnedBalancer'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='dataCfg'
+141 statement (ExpressionStmt)
+142 expression (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='assertEquals'
+145 arguments
+146 argument (ClassExpr)
+147 type (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='GridClientRandomBalancer'
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='getClass'
+153 scope (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='getPinnedBalancer'
+156 scope (NameExpr)
+157 name (SimpleName)
+158 identifier='dataCfg'
+159 statement (ExpressionStmt)
+160 expression (MethodCallExpr)
+161 name (SimpleName)
+162 identifier='assertNotNull'
+163 arguments
+164 argument (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='getAffinity'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='dataCfg'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='assertEquals'
+174 arguments
+175 argument (ClassExpr)
+176 type (ClassOrInterfaceType)
+177 name (SimpleName)
+178 identifier='GridClientPartitionAffinity'
+179 argument (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='getClass'
+182 scope (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='getAffinity'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='dataCfg'
+188 type (VoidType)
+189 name (SimpleName)
+190 identifier='testSpringConfig'
+191 thrownExceptions
+192 thrownException (ClassOrInterfaceType)
+193 name (SimpleName)
+194 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+7 21
+21 22
+22 23
+23 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+35 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+70 77
+77 78
+70 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+90 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+106 109
+109 110
+110 111
+102 112
+112 113
+102 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+121 124
+124 125
+125 126
+124 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+2 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+147 148
+148 149
+145 150
+150 151
+151 152
+150 153
+153 154
+154 155
+153 156
+156 157
+157 158
+2 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+2 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+176 177
+177 178
+174 179
+179 180
+180 181
+179 182
+182 183
+183 184
+182 185
+185 186
+186 187
+0 188
+0 189
+189 190
+0 191
+191 192
+192 193
+193 194
+
+Validate spring client configuration.

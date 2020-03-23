@@ -1,0 +1,68 @@
+33
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='message'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Debug'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='eomg'
+13 argument (StringLiteralExpr)
+14 value='EditableOMGraphicList.init()'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getEditables'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setStateMachine'
+23 arguments
+24 argument (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='ListStateMachine'
+28 arguments
+29 argument (ThisExpr)
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='init'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+2 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+0 30
+0 31
+31 32
+
+Create and initialize the state machine that interprets the modifying gestures/commands, as well as initialize the grab points. Also allocates the grab point array needed by the EditableOMGraphicList.

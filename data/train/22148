@@ -1,0 +1,388 @@
+193
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='initialiseAuditService'
+10 name (SimpleName)
+11 identifier='instance'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='AuditServiceImpl'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='createMock'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='EasyMock'
+25 arguments
+26 argument (ClassExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Audit'
+30 name (SimpleName)
+31 identifier='mockAudit'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='Audit'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='createMock'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='EasyMock'
+45 arguments
+46 argument (ClassExpr)
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Exception'
+50 name (SimpleName)
+51 identifier='mockException'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Exception'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='createMock'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='EasyMock'
+65 arguments
+66 argument (ClassExpr)
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='AuditServiceListener'
+70 name (SimpleName)
+71 identifier='mockAuditServiceListener'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='AuditServiceListener'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='auditCrashed'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='mockAuditServiceListener'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='mockAudit'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='mockException'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='anyTimes'
+93 scope (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='expectLastCall'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='EasyMock'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='replay'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='EasyMock'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='mockAuditServiceListener'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='replay'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='EasyMock'
+117 arguments
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='mockAudit'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='replay'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='EasyMock'
+128 arguments
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='mockException'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='add'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='instance'
+139 arguments
+140 argument (NameExpr)
+141 name (SimpleName)
+142 identifier='mockAuditServiceListener'
+143 statement (ExpressionStmt)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='auditCrashed'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='instance'
+150 arguments
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='mockAudit'
+154 argument (NameExpr)
+155 name (SimpleName)
+156 identifier='mockException'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='verify'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='EasyMock'
+164 arguments
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='mockAudit'
+168 statement (ExpressionStmt)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='verify'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='EasyMock'
+175 arguments
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='mockAuditServiceListener'
+179 statement (ExpressionStmt)
+180 expression (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='verify'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='EasyMock'
+186 arguments
+187 argument (NameExpr)
+188 name (SimpleName)
+189 identifier='mockException'
+190 type (VoidType)
+191 name (SimpleName)
+192 identifier='testAuditCrashed'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+28 29
+18 30
+30 31
+18 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+48 49
+38 50
+50 51
+38 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+68 69
+58 70
+70 71
+58 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+82 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+122 128
+128 129
+129 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+152 153
+150 154
+154 155
+155 156
+2 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+158 164
+164 165
+165 166
+166 167
+2 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+169 175
+175 176
+176 177
+177 178
+2 179
+179 180
+180 181
+181 182
+180 183
+183 184
+184 185
+180 186
+186 187
+187 188
+188 189
+0 190
+0 191
+191 192
+
+Test of auditCompleted method, of class AuditServiceImpl.

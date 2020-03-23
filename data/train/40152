@@ -1,0 +1,114 @@
+56
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='fileStream'
+9 scope (ThisExpr)
+10 value (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='BufferedOutputStream'
+14 arguments
+15 argument (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='newOutputStream'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='Files'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='outputFile'
+25 statement (ExpressionStmt)
+26 expression (AssignExpr)
+27 operator='ASSIGN'
+28 target (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='outputStream'
+31 scope (ThisExpr)
+32 value (NameExpr)
+33 name (SimpleName)
+34 identifier='outputStream'
+35 name (SimpleName)
+36 identifier='TeeStream'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='outputStream'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='OutputStream'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='outputFile'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Path'
+52 thrownExceptions
+53 thrownException (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+28 31
+26 32
+32 33
+33 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+37 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+0 52
+52 53
+53 54
+54 55
+
+Creates a TeeStream.

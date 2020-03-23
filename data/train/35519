@@ -1,0 +1,98 @@
+48
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='m'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='n'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='setMatrix'
+16 scope (ThisExpr)
+17 arguments
+18 argument (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='ROW'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='Dimension'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='values'
+27 name (SimpleName)
+28 identifier='DoubleMatrix'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='m'
+34 type (PrimitiveType)
+35 type='INT'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='n'
+40 type (PrimitiveType)
+41 type='INT'
+42 parameter (Parameter)
+43 isVarArgs='true'
+44 name (SimpleName)
+45 identifier='values'
+46 type (PrimitiveType)
+47 type='DOUBLE'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+13 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+17 24
+24 25
+25 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+29 36
+36 37
+36 38
+38 39
+36 40
+40 41
+29 42
+42 43
+42 44
+44 45
+42 46
+46 47
+
+Create a matrix with m rows and n columns with the specified values. values.length is expected to be m*n The matrix is initialized by running the row index first, e.g., values[0..m-1] initialize the first column, values[m..2m-1] the second column etc... 

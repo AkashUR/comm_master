@@ -1,0 +1,514 @@
+256
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='aviFile'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='aviFile'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='width'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='width'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='height'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='height'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='framerate'
+39 scope (ThisExpr)
+40 value (NameExpr)
+41 name (SimpleName)
+42 identifier='framerate'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='numFrames'
+49 scope (ThisExpr)
+50 value (NameExpr)
+51 name (SimpleName)
+52 identifier='numFrames'
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (NameExpr)
+57 name (SimpleName)
+58 identifier='aviOutput'
+59 value (ObjectCreationExpr)
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='FileOutputStream'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='aviFile'
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='aviChannel'
+73 value (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getChannel'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='aviOutput'
+79 statement (ExpressionStmt)
+80 expression (VariableDeclarationExpr)
+81 variables
+82 variable (VariableDeclarator)
+83 initializer (ObjectCreationExpr)
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='RIFFHeader'
+87 name (SimpleName)
+88 identifier='rh'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='RIFFHeader'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='write'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='aviOutput'
+99 arguments
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='toBytes'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='rh'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='write'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='aviOutput'
+113 arguments
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='toBytes'
+117 scope (ObjectCreationExpr)
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='AVIMainHeader'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='write'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='aviOutput'
+128 arguments
+129 argument (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='toBytes'
+132 scope (ObjectCreationExpr)
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='AVIStreamList'
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='write'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='aviOutput'
+143 arguments
+144 argument (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='toBytes'
+147 scope (ObjectCreationExpr)
+148 type (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='AVIStreamHeader'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='write'
+155 scope (NameExpr)
+156 name (SimpleName)
+157 identifier='aviOutput'
+158 arguments
+159 argument (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='toBytes'
+162 scope (ObjectCreationExpr)
+163 type (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='AVIStreamFormat'
+166 statement (ExpressionStmt)
+167 expression (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='write'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='aviOutput'
+173 arguments
+174 argument (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='toBytes'
+177 scope (ObjectCreationExpr)
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='AVIJunk'
+181 statement (ExpressionStmt)
+182 expression (AssignExpr)
+183 operator='ASSIGN'
+184 target (NameExpr)
+185 name (SimpleName)
+186 identifier='aviMovieOffset'
+187 value (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='position'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='aviChannel'
+193 statement (ExpressionStmt)
+194 expression (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='write'
+197 scope (NameExpr)
+198 name (SimpleName)
+199 identifier='aviOutput'
+200 arguments
+201 argument (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='toBytes'
+204 scope (ObjectCreationExpr)
+205 type (ClassOrInterfaceType)
+206 name (SimpleName)
+207 identifier='AVIMovieList'
+208 statement (ExpressionStmt)
+209 expression (AssignExpr)
+210 operator='ASSIGN'
+211 target (NameExpr)
+212 name (SimpleName)
+213 identifier='indexlist'
+214 value (ObjectCreationExpr)
+215 type (ClassOrInterfaceType)
+216 name (SimpleName)
+217 identifier='AVIIndexList'
+218 name (SimpleName)
+219 identifier='MJPEGGenerator'
+220 parameters
+221 parameter (Parameter)
+222 isVarArgs='false'
+223 name (SimpleName)
+224 identifier='aviFile'
+225 type (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='File'
+228 parameter (Parameter)
+229 isVarArgs='false'
+230 name (SimpleName)
+231 identifier='width'
+232 type (PrimitiveType)
+233 type='INT'
+234 parameter (Parameter)
+235 isVarArgs='false'
+236 name (SimpleName)
+237 identifier='height'
+238 type (PrimitiveType)
+239 type='INT'
+240 parameter (Parameter)
+241 isVarArgs='false'
+242 name (SimpleName)
+243 identifier='framerate'
+244 type (PrimitiveType)
+245 type='DOUBLE'
+246 parameter (Parameter)
+247 isVarArgs='false'
+248 name (SimpleName)
+249 identifier='numFrames'
+250 type (PrimitiveType)
+251 type='INT'
+252 thrownExceptions
+253 thrownException (ClassOrInterfaceType)
+254 name (SimpleName)
+255 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+54 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+65 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+82 87
+87 88
+82 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+122 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+134 135
+2 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+137 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+152 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+164 165
+2 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+167 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+179 180
+2 181
+181 182
+182 183
+182 184
+184 185
+185 186
+182 187
+187 188
+188 189
+187 190
+190 191
+191 192
+2 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+194 200
+200 201
+201 202
+202 203
+201 204
+204 205
+205 206
+206 207
+2 208
+208 209
+209 210
+209 211
+211 212
+212 213
+209 214
+214 215
+215 216
+216 217
+0 218
+218 219
+0 220
+220 221
+221 222
+221 223
+223 224
+221 225
+225 226
+226 227
+220 228
+228 229
+228 230
+230 231
+228 232
+232 233
+220 234
+234 235
+234 236
+236 237
+234 238
+238 239
+220 240
+240 241
+240 242
+242 243
+240 244
+244 245
+220 246
+246 247
+246 248
+248 249
+246 250
+250 251
+0 252
+252 253
+253 254
+254 255
+
+Creates a new instance of MJPEGGenerator

@@ -1,0 +1,106 @@
+52
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='encrypted'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='encrypt'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='serialize'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getInstance'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='Serializer'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='object'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='key'
+30 name (SimpleName)
+31 identifier='Encrypted'
+32 parameters
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='object'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Object'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='key'
+44 type (ArrayType)
+45 origin='TYPE'
+46 componentType (PrimitiveType)
+47 type='BYTE'
+48 thrownExceptions
+49 thrownException (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+14 23
+23 24
+24 25
+25 26
+13 27
+27 28
+28 29
+0 30
+30 31
+0 32
+32 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+32 40
+40 41
+40 42
+42 43
+40 44
+44 45
+44 46
+46 47
+0 48
+48 49
+49 50
+50 51
+
+Serializes the object and encrypts the resulting binary data using the given key.

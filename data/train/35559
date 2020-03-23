@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='create'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='igfs'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='paths'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='DIR'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='SUBDIR'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='SUBSUBDIR'
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='paths'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='FILE'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='delete'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='igfs'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='DIR'
+42 argument (BooleanLiteralExpr)
+43 value='true'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='checkNotExist'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='igfs'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='igfsSecondary'
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='DIR'
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='SUBDIR'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='SUBSUBDIR'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='FILE'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='testDeleteParentRoot'
+70 thrownExceptions
+71 thrownException (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+14 21
+21 22
+22 23
+7 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+38 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+48 55
+55 56
+56 57
+48 58
+58 59
+59 60
+48 61
+61 62
+62 63
+48 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+Test delete when the path parent is the root.

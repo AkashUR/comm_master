@@ -1,0 +1,48 @@
+23
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='vy'
+9 value (UnaryExpr)
+10 operator='MINUS'
+11 expression (NameExpr)
+12 name (SimpleName)
+13 identifier='vy'
+14 statement (ExpressionStmt)
+15 expression (UnaryExpr)
+16 operator='POSTFIX_INCREMENT'
+17 expression (NameExpr)
+18 name (SimpleName)
+19 identifier='count'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='bounceOffHorizontalWall'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+0 20
+0 21
+21 22
+
+Updates the velocity of this particle upon collision with a horizontal wall (by reflecting the velocity in the <em>y</em>-direction). Assumes that the particle is colliding with a horizontal wall at this instant.

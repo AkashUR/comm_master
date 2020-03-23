@@ -1,0 +1,130 @@
+64
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='config'
+9 statement (ExpressionStmt)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='requireArgument'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='NOT_EQUALS'
+16 left (NameExpr)
+17 name (SimpleName)
+18 identifier='config'
+19 right (NullLiteralExpr)
+20 argument (StringLiteralExpr)
+21 value='System configuration cannot be null.'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='_producer'
+28 value (ObjectCreationExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Producer'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='config'
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (NameExpr)
+40 name (SimpleName)
+41 identifier='_consumer'
+42 value (ObjectCreationExpr)
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='Consumer'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='config'
+50 name (SimpleName)
+51 identifier='KafkaMessageService'
+52 parameters
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='config'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='SystemConfiguration'
+60 annotations
+61 annotation (MarkerAnnotationExpr)
+62 name (Name)
+63 identifier='Inject'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+13 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+37 42
+42 43
+43 44
+44 45
+42 46
+46 47
+47 48
+48 49
+0 50
+50 51
+0 52
+52 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+0 60
+60 61
+61 62
+62 63
+
+Creates a new KafkaMessageService object.

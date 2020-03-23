@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clear'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='infoQueue'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='release'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='allocator'
+17 arguments
+18 argument (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='toArray'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='dataQueue'
+24 arguments
+25 argument (ArrayCreationExpr)
+26 elementType (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Allocation'
+29 levels
+30 level (ArrayCreationLevel)
+31 dimension (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='size'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='dataQueue'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='clear'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='dataQueue'
+44 statement (ExpressionStmt)
+45 expression (AssignExpr)
+46 operator='ASSIGN'
+47 target (NameExpr)
+48 name (SimpleName)
+49 identifier='totalBytesDropped'
+50 value (IntegerLiteralExpr)
+51 value='0'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (NameExpr)
+56 name (SimpleName)
+57 identifier='totalBytesWritten'
+58 value (IntegerLiteralExpr)
+59 value='0'
+60 statement (ExpressionStmt)
+61 expression (AssignExpr)
+62 operator='ASSIGN'
+63 target (NameExpr)
+64 name (SimpleName)
+65 identifier='lastAllocation'
+66 value (NullLiteralExpr)
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='lastAllocationOffset'
+73 value (NameExpr)
+74 name (SimpleName)
+75 identifier='allocationLength'
+76 type (VoidType)
+77 name (SimpleName)
+78 identifier='clear'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+2 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+53 58
+58 59
+2 60
+60 61
+61 62
+61 63
+63 64
+64 65
+61 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+74 75
+0 76
+0 77
+77 78
+
+Clears the buffer, returning all allocations to the allocator.

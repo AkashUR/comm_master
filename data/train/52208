@@ -1,0 +1,198 @@
+98
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkFieldValidIP'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ArgValidator'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getSmisProviderIP'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='param'
+17 argument (StringLiteralExpr)
+18 value='smis_provider_ip'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='checkFieldNotNull'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='ArgValidator'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getSmisPortNumber'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='param'
+33 argument (StringLiteralExpr)
+34 value='smis_port_number'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='checkFieldRange'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='ArgValidator'
+42 arguments
+43 argument (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getSmisPortNumber'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='param'
+49 argument (IntegerLiteralExpr)
+50 value='1'
+51 argument (IntegerLiteralExpr)
+52 value='65535'
+53 argument (StringLiteralExpr)
+54 value='smis_port_number'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='checkFieldNotEmpty'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='ArgValidator'
+62 arguments
+63 argument (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getSmisUserName'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='param'
+69 argument (StringLiteralExpr)
+70 value='smis_user_name'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='checkFieldNotEmpty'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='ArgValidator'
+78 arguments
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getSmisPassword'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='param'
+85 argument (StringLiteralExpr)
+86 value='smis_password'
+87 type (VoidType)
+88 name (SimpleName)
+89 identifier='validateVNXFileSMISProviderMandatoryDetails'
+90 parameters
+91 parameter (Parameter)
+92 isVarArgs='false'
+93 name (SimpleName)
+94 identifier='param'
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='StorageSystemRequestParam'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+42 49
+49 50
+42 51
+51 52
+42 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+62 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+78 85
+85 86
+0 87
+0 88
+88 89
+0 90
+90 91
+91 92
+91 93
+93 94
+91 95
+95 96
+96 97
+
+Validates SMI-S Provider attributes of the vnxFile as it is a mandatory fields for indications

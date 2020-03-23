@@ -1,0 +1,202 @@
+100
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='authorizedGrantTypes'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='scopes'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='resourceIds'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='redirectUris'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='withClient'
+19 scope (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='and'
+22 scope (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='secret'
+25 scope (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='authorizedGrantTypes'
+28 scope (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='scopes'
+31 scope (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='resourceIds'
+34 scope (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='authorities'
+37 scope (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='withClient'
+40 scope (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='inMemory'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='clients'
+46 arguments
+47 argument (StringLiteralExpr)
+48 value='curl'
+49 arguments
+50 argument (StringLiteralExpr)
+51 value='ROLE_ADMIN'
+52 arguments
+53 argument (StringLiteralExpr)
+54 value='jaxenter'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='read'
+58 argument (StringLiteralExpr)
+59 value='write'
+60 arguments
+61 argument (StringLiteralExpr)
+62 value='client_credentials'
+63 arguments
+64 argument (StringLiteralExpr)
+65 value='password'
+66 arguments
+67 argument (StringLiteralExpr)
+68 value='web'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='http://github.com/techdev-solutions/'
+72 arguments
+73 argument (StringLiteralExpr)
+74 value='jaxenter'
+75 arguments
+76 argument (StringLiteralExpr)
+77 value='read'
+78 arguments
+79 argument (StringLiteralExpr)
+80 value='implicit'
+81 type (VoidType)
+82 name (SimpleName)
+83 identifier='configure'
+84 parameters
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='clients'
+89 type (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='ClientDetailsServiceConfigurer'
+92 thrownExceptions
+93 thrownException (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Exception'
+96 annotations
+97 annotation (MarkerAnnotationExpr)
+98 name (Name)
+99 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+37 46
+46 47
+47 48
+34 49
+49 50
+50 51
+31 52
+52 53
+53 54
+28 55
+55 56
+56 57
+55 58
+58 59
+25 60
+60 61
+61 62
+22 63
+63 64
+64 65
+16 66
+66 67
+67 68
+13 69
+69 70
+70 71
+10 72
+72 73
+73 74
+7 75
+75 76
+76 77
+4 78
+78 79
+79 80
+0 81
+0 82
+82 83
+0 84
+84 85
+85 86
+85 87
+87 88
+85 89
+89 90
+90 91
+0 92
+92 93
+93 94
+94 95
+0 96
+96 97
+97 98
+98 99
+
+This configuration is used to hand out tokens to access resource servers. For example, the client with the client_credentials grant can get a token directly from the /oauth/token endpoint. The client with the implicit grant sends a user to the /oauth/authorize page where the user can authorize the client to access the data on the resource server. The cool thing is, all these endpoints and needed web pages are in a default version included in Spring Security OAuth!

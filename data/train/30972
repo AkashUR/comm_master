@@ -1,0 +1,86 @@
+42
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='send'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='messageFor'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='aspect'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='eventName'
+18 argument (StringLiteralExpr)
+19 value='s'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='recordSetEvent'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='aspect'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='String'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='eventName'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+38 annotations
+39 annotation (MarkerAnnotationExpr)
+40 name (Name)
+41 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+11 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+23 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+0 38
+38 39
+39 40
+40 41
+
+StatsD supports counting unique occurrences of events between flushes, Call this method to records an occurrence of the specified named event. <p>This method is non-blocking and is guaranteed not to throw an exception.</p>

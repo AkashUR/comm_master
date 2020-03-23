@@ -1,0 +1,152 @@
+75
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (CastExpr)
+7 expression (NullLiteralExpr)
+8 type (ArrayType)
+9 origin='TYPE'
+10 componentType (PrimitiveType)
+11 type='BYTE'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='pubKey'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='keyCrypter'
+21 scope (ThisExpr)
+22 value (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='checkNotNull'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='Preconditions'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='keyCrypter'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='encryptedPrivateKey'
+38 scope (ThisExpr)
+39 value (NameExpr)
+40 name (SimpleName)
+41 identifier='encryptedPrivateKey'
+42 name (SimpleName)
+43 identifier='ECKey'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='encryptedPrivateKey'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='EncryptedPrivateKey'
+52 annotations
+53 annotation (MarkerAnnotationExpr)
+54 name (Name)
+55 identifier='Nullable'
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='pubKey'
+60 type (ArrayType)
+61 origin='TYPE'
+62 componentType (PrimitiveType)
+63 type='BYTE'
+64 annotations
+65 annotation (MarkerAnnotationExpr)
+66 name (Name)
+67 identifier='Nullable'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='keyCrypter'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='KeyCrypter'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+6 8
+8 9
+8 10
+10 11
+5 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+18 21
+16 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+35 38
+33 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+45 52
+52 53
+53 54
+54 55
+44 56
+56 57
+56 58
+58 59
+56 60
+60 61
+60 62
+62 63
+56 64
+64 65
+65 66
+66 67
+44 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+
+Create a new ECKey with an encrypted private key, a public key and a KeyCrypter.

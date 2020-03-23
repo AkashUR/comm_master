@@ -1,0 +1,230 @@
+114
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='buildDom'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='XppFactory'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='<dom><a><b>foo</b></a><c x=\'1\'/></dom>'
+16 name (SimpleName)
+17 identifier='dom1'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='XppDom'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='buildDom'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='XppFactory'
+31 arguments
+32 argument (StringLiteralExpr)
+33 value='<dom><a><b>foo</b></a><c x=\'2\'/></dom>'
+34 name (SimpleName)
+35 identifier='dom2'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='XppDom'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='assertEquals'
+43 arguments
+44 argument (UnaryExpr)
+45 operator='MINUS'
+46 expression (IntegerLiteralExpr)
+47 value='1'
+48 argument (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='compare'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='comparator'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='dom1'
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='dom2'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='assertEquals'
+65 arguments
+66 argument (StringLiteralExpr)
+67 value='/dom/c[0][@x]'
+68 argument (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='get'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='xpath'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='assertEquals'
+78 arguments
+79 argument (IntegerLiteralExpr)
+80 value='1'
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='compare'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='comparator'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='dom2'
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='dom1'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='assertEquals'
+98 arguments
+99 argument (StringLiteralExpr)
+100 value='/dom/c[0][@x]'
+101 argument (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='get'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='xpath'
+107 type (VoidType)
+108 name (SimpleName)
+109 identifier='testWillResetXPathAfterRecursion'
+110 thrownExceptions
+111 thrownException (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+24 34
+34 35
+24 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+44 46
+46 47
+43 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+87 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+102 103
+101 104
+104 105
+105 106
+0 107
+0 108
+108 109
+0 110
+110 111
+111 112
+112 113
+
+Tests comparison will reset XPath after recursion.

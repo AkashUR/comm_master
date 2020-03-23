@@ -1,0 +1,30 @@
+14
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='fireConnectionOpened'
+7 type (VoidType)
+8 name (SimpleName)
+9 identifier='validateObject'
+10 thrownExceptions
+11 thrownException (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='InvalidObjectException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+0 7
+0 8
+8 9
+0 10
+10 11
+11 12
+12 13
+
+Validates the object. We use this opportunity to call listeners who have registered during the deserialization process, as listeners are not serialized. This method is called by the serialization system after the entire graph is read. This object has registered itself to the system with a priority of 10. Other callbacks may register with a higher priority number to be called before this object, or with a lower priority number to be called after the listeners were notified. All listeners are supposed to have register by now, either in their readObject or validateObject methods. Notify them that this brokerManagerModel has changed.

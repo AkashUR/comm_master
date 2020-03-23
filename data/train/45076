@@ -1,0 +1,210 @@
+104
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='beforeTest'
+7 scope (SuperExpr)
+8 statement (ExpressionStmt)
+9 expression (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='remove'
+12 scope (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getProperties'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='System'
+18 arguments
+19 argument (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='PROP_ZK_CONNECTION_STRING'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='TcpDiscoveryZookeeperIpFinder'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='setProperty'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='System'
+32 arguments
+33 argument (StringLiteralExpr)
+34 value='zookeeper.jmx.log4j.disable'
+35 argument (StringLiteralExpr)
+36 value='true'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='zkCluster'
+43 value (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='TestingCluster'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='ZK_CLUSTER_SIZE'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='start'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='zkCluster'
+58 statement (ExpressionStmt)
+59 expression (AssignExpr)
+60 operator='ASSIGN'
+61 target (NameExpr)
+62 name (SimpleName)
+63 identifier='zkCurator'
+64 value (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='newClient'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='CuratorFrameworkFactory'
+70 arguments
+71 argument (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getConnectString'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='zkCluster'
+77 argument (ObjectCreationExpr)
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='RetryNTimes'
+81 arguments
+82 argument (IntegerLiteralExpr)
+83 value='10'
+84 argument (IntegerLiteralExpr)
+85 value='1000'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='start'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='zkCurator'
+93 type (VoidType)
+94 name (SimpleName)
+95 identifier='beforeTest'
+96 thrownExceptions
+97 thrownException (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='Exception'
+100 annotations
+101 annotation (MarkerAnnotationExpr)
+102 name (Name)
+103 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+9 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+32 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+2 58
+58 59
+59 60
+59 61
+61 62
+62 63
+59 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+70 77
+77 78
+78 79
+79 80
+77 81
+81 82
+82 83
+81 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+0 93
+0 94
+94 95
+0 96
+96 97
+97 98
+98 99
+0 100
+100 101
+101 102
+102 103
+
+Before test.

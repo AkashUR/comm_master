@@ -1,0 +1,716 @@
+357
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='configure'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='BasicConfigurator'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Server'
+18 name (SimpleName)
+19 identifier='server'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Server'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='SslConnectionFactory'
+31 name (SimpleName)
+32 identifier='sslConnectionFactory'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='SslConnectionFactory'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getSslContextFactory'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='sslConnectionFactory'
+46 name (SimpleName)
+47 identifier='sslContextFactory'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='SslContextFactory'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setKeyStorePath'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='sslContextFactory'
+58 arguments
+59 argument (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='getProperty'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='System'
+65 arguments
+66 argument (StringLiteralExpr)
+67 value='javax.net.ssl.keyStore'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='setKeyStorePassword'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='sslContextFactory'
+75 arguments
+76 argument (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='getProperty'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='System'
+82 arguments
+83 argument (StringLiteralExpr)
+84 value='javax.net.ssl.keyStorePassword'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='setIncludeCipherSuites'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='sslContextFactory'
+92 arguments
+93 argument (FieldAccessExpr)
+94 name (SimpleName)
+95 identifier='SUPPORTED_CIPHER_SUITES'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='Sdk'
+99 statement (ExpressionStmt)
+100 expression (VariableDeclarationExpr)
+101 variables
+102 variable (VariableDeclarator)
+103 initializer (ObjectCreationExpr)
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='HttpConfiguration'
+107 name (SimpleName)
+108 identifier='httpConf'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='HttpConfiguration'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='setSecurePort'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='httpConf'
+119 arguments
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='PORT'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='setSecureScheme'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='httpConf'
+130 arguments
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='HTTPS_SCHEME'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='addCustomizer'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='httpConf'
+141 arguments
+142 argument (ObjectCreationExpr)
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='SecureRequestCustomizer'
+146 statement (ExpressionStmt)
+147 expression (VariableDeclarationExpr)
+148 variables
+149 variable (VariableDeclarator)
+150 initializer (ObjectCreationExpr)
+151 type (ClassOrInterfaceType)
+152 name (SimpleName)
+153 identifier='HttpConnectionFactory'
+154 arguments
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='httpConf'
+158 name (SimpleName)
+159 identifier='httpConnectionFactory'
+160 type (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='HttpConnectionFactory'
+163 statement (ExpressionStmt)
+164 expression (VariableDeclarationExpr)
+165 variables
+166 variable (VariableDeclarator)
+167 initializer (ObjectCreationExpr)
+168 type (ClassOrInterfaceType)
+169 name (SimpleName)
+170 identifier='ServerConnector'
+171 arguments
+172 argument (NameExpr)
+173 name (SimpleName)
+174 identifier='server'
+175 argument (NameExpr)
+176 name (SimpleName)
+177 identifier='sslConnectionFactory'
+178 argument (NameExpr)
+179 name (SimpleName)
+180 identifier='httpConnectionFactory'
+181 name (SimpleName)
+182 identifier='serverConnector'
+183 type (ClassOrInterfaceType)
+184 name (SimpleName)
+185 identifier='ServerConnector'
+186 statement (ExpressionStmt)
+187 expression (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='setPort'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='serverConnector'
+193 arguments
+194 argument (NameExpr)
+195 name (SimpleName)
+196 identifier='PORT'
+197 statement (ExpressionStmt)
+198 expression (VariableDeclarationExpr)
+199 variables
+200 variable (VariableDeclarator)
+201 initializer (ArrayCreationExpr)
+202 elementType (ClassOrInterfaceType)
+203 name (SimpleName)
+204 identifier='Connector'
+205 levels
+206 level (ArrayCreationLevel)
+207 dimension (IntegerLiteralExpr)
+208 value='1'
+209 name (SimpleName)
+210 identifier='connectors'
+211 type (ArrayType)
+212 origin='TYPE'
+213 componentType (ClassOrInterfaceType)
+214 name (SimpleName)
+215 identifier='Connector'
+216 statement (ExpressionStmt)
+217 expression (AssignExpr)
+218 operator='ASSIGN'
+219 target (ArrayAccessExpr)
+220 index (IntegerLiteralExpr)
+221 value='0'
+222 name (NameExpr)
+223 name (SimpleName)
+224 identifier='connectors'
+225 value (NameExpr)
+226 name (SimpleName)
+227 identifier='serverConnector'
+228 statement (ExpressionStmt)
+229 expression (MethodCallExpr)
+230 name (SimpleName)
+231 identifier='setConnectors'
+232 scope (NameExpr)
+233 name (SimpleName)
+234 identifier='server'
+235 arguments
+236 argument (NameExpr)
+237 name (SimpleName)
+238 identifier='connectors'
+239 statement (ExpressionStmt)
+240 expression (VariableDeclarationExpr)
+241 variables
+242 variable (VariableDeclarator)
+243 initializer (ObjectCreationExpr)
+244 type (ClassOrInterfaceType)
+245 name (SimpleName)
+246 identifier='ServletContextHandler'
+247 arguments
+248 argument (FieldAccessExpr)
+249 name (SimpleName)
+250 identifier='SESSIONS'
+251 scope (NameExpr)
+252 name (SimpleName)
+253 identifier='ServletContextHandler'
+254 name (SimpleName)
+255 identifier='context'
+256 type (ClassOrInterfaceType)
+257 name (SimpleName)
+258 identifier='ServletContextHandler'
+259 statement (ExpressionStmt)
+260 expression (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='setContextPath'
+263 scope (NameExpr)
+264 name (SimpleName)
+265 identifier='context'
+266 arguments
+267 argument (StringLiteralExpr)
+268 value='/'
+269 statement (ExpressionStmt)
+270 expression (MethodCallExpr)
+271 name (SimpleName)
+272 identifier='setHandler'
+273 scope (NameExpr)
+274 name (SimpleName)
+275 identifier='server'
+276 arguments
+277 argument (NameExpr)
+278 name (SimpleName)
+279 identifier='context'
+280 statement (ExpressionStmt)
+281 expression (MethodCallExpr)
+282 name (SimpleName)
+283 identifier='addServlet'
+284 scope (NameExpr)
+285 name (SimpleName)
+286 identifier='context'
+287 arguments
+288 argument (ObjectCreationExpr)
+289 type (ClassOrInterfaceType)
+290 name (SimpleName)
+291 identifier='ServletHolder'
+292 arguments
+293 argument (MethodCallExpr)
+294 name (SimpleName)
+295 identifier='createServlet'
+296 arguments
+297 argument (ObjectCreationExpr)
+298 type (ClassOrInterfaceType)
+299 name (SimpleName)
+300 identifier='HelloWorldSpeechlet'
+301 argument (StringLiteralExpr)
+302 value='/hello'
+303 statement (ExpressionStmt)
+304 expression (MethodCallExpr)
+305 name (SimpleName)
+306 identifier='addServlet'
+307 scope (NameExpr)
+308 name (SimpleName)
+309 identifier='context'
+310 arguments
+311 argument (ObjectCreationExpr)
+312 type (ClassOrInterfaceType)
+313 name (SimpleName)
+314 identifier='ServletHolder'
+315 arguments
+316 argument (MethodCallExpr)
+317 name (SimpleName)
+318 identifier='createServlet'
+319 arguments
+320 argument (ObjectCreationExpr)
+321 type (ClassOrInterfaceType)
+322 name (SimpleName)
+323 identifier='SessionSpeechlet'
+324 argument (StringLiteralExpr)
+325 value='/session'
+326 statement (ExpressionStmt)
+327 expression (MethodCallExpr)
+328 name (SimpleName)
+329 identifier='start'
+330 scope (NameExpr)
+331 name (SimpleName)
+332 identifier='server'
+333 statement (ExpressionStmt)
+334 expression (MethodCallExpr)
+335 name (SimpleName)
+336 identifier='join'
+337 scope (NameExpr)
+338 name (SimpleName)
+339 identifier='server'
+340 type (VoidType)
+341 name (SimpleName)
+342 identifier='main'
+343 parameters
+344 parameter (Parameter)
+345 isVarArgs='false'
+346 name (SimpleName)
+347 identifier='args'
+348 type (ArrayType)
+349 origin='TYPE'
+350 componentType (ClassOrInterfaceType)
+351 name (SimpleName)
+352 identifier='String'
+353 thrownExceptions
+354 thrownException (ClassOrInterfaceType)
+355 name (SimpleName)
+356 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+13 18
+18 19
+13 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+26 31
+31 32
+26 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+39 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+86 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+102 103
+103 104
+104 105
+105 106
+102 107
+107 108
+102 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+124 130
+130 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+135 141
+141 142
+142 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+149 150
+150 151
+151 152
+152 153
+150 154
+154 155
+155 156
+156 157
+149 158
+158 159
+149 160
+160 161
+161 162
+2 163
+163 164
+164 165
+165 166
+166 167
+167 168
+168 169
+169 170
+167 171
+171 172
+172 173
+173 174
+171 175
+175 176
+176 177
+171 178
+178 179
+179 180
+166 181
+181 182
+166 183
+183 184
+184 185
+2 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+187 193
+193 194
+194 195
+195 196
+2 197
+197 198
+198 199
+199 200
+200 201
+201 202
+202 203
+203 204
+201 205
+205 206
+206 207
+207 208
+200 209
+209 210
+200 211
+211 212
+211 213
+213 214
+214 215
+2 216
+216 217
+217 218
+217 219
+219 220
+220 221
+219 222
+222 223
+223 224
+217 225
+225 226
+226 227
+2 228
+228 229
+229 230
+230 231
+229 232
+232 233
+233 234
+229 235
+235 236
+236 237
+237 238
+2 239
+239 240
+240 241
+241 242
+242 243
+243 244
+244 245
+245 246
+243 247
+247 248
+248 249
+249 250
+248 251
+251 252
+252 253
+242 254
+254 255
+242 256
+256 257
+257 258
+2 259
+259 260
+260 261
+261 262
+260 263
+263 264
+264 265
+260 266
+266 267
+267 268
+2 269
+269 270
+270 271
+271 272
+270 273
+273 274
+274 275
+270 276
+276 277
+277 278
+278 279
+2 280
+280 281
+281 282
+282 283
+281 284
+284 285
+285 286
+281 287
+287 288
+288 289
+289 290
+290 291
+288 292
+292 293
+293 294
+294 295
+293 296
+296 297
+297 298
+298 299
+299 300
+287 301
+301 302
+2 303
+303 304
+304 305
+305 306
+304 307
+307 308
+308 309
+304 310
+310 311
+311 312
+312 313
+313 314
+311 315
+315 316
+316 317
+317 318
+316 319
+319 320
+320 321
+321 322
+322 323
+310 324
+324 325
+2 326
+326 327
+327 328
+328 329
+327 330
+330 331
+331 332
+2 333
+333 334
+334 335
+335 336
+334 337
+337 338
+338 339
+0 340
+0 341
+341 342
+0 343
+343 344
+344 345
+344 346
+346 347
+344 348
+348 349
+348 350
+350 351
+351 352
+0 353
+353 354
+354 355
+355 356
+
+Main entry point. Starts a Jetty server.

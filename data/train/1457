@@ -1,0 +1,142 @@
+70
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getOriginalElement'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='CompletionUtil'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='source'
+17 name (SimpleName)
+18 identifier='originalElement'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='PyClass'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='myClass'
+28 value (ConditionalExpr)
+29 condition (BinaryExpr)
+30 operator='NOT_EQUALS'
+31 left (NameExpr)
+32 name (SimpleName)
+33 identifier='originalElement'
+34 right (NullLiteralExpr)
+35 elseExpr (NameExpr)
+36 name (SimpleName)
+37 identifier='source'
+38 thenExpr (NameExpr)
+39 name (SimpleName)
+40 identifier='originalElement'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (NameExpr)
+45 name (SimpleName)
+46 identifier='myIsDefinition'
+47 value (NameExpr)
+48 name (SimpleName)
+49 identifier='isDefinition'
+50 name (SimpleName)
+51 identifier='PyClassTypeImpl'
+52 parameters
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='source'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='PyClass'
+60 annotations
+61 annotation (MarkerAnnotationExpr)
+62 name (Name)
+63 identifier='NotNull'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='isDefinition'
+68 type (PrimitiveType)
+69 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+28 35
+35 36
+36 37
+28 38
+38 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+48 49
+0 50
+50 51
+0 52
+52 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+53 60
+60 61
+61 62
+62 63
+52 64
+64 65
+64 66
+66 67
+64 68
+68 69
+
+Describes a class-based type. Since everything in Python is an instance of some class, this type pretty much completes the type system :) Note that classes' and instances' member list can change during execution, so it is important to construct an instance of PyClassType right in the place of reference, so that such changes could possibly be accounted for.

@@ -1,0 +1,208 @@
+103
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='rePattern'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='replaceFirst'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='rePattern'
+15 arguments
+16 argument (StringLiteralExpr)
+17 value='\\|'
+18 argument (StringLiteralExpr)
+19 value=''
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='rePattern'
+26 value (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='replaceAll'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='rePattern'
+32 arguments
+33 argument (StringLiteralExpr)
+34 value='\\(([^\\?])'
+35 argument (StringLiteralExpr)
+36 value='(?:$1'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='rePattern'
+43 value (BinaryExpr)
+44 operator='PLUS'
+45 left (BinaryExpr)
+46 operator='PLUS'
+47 left (StringLiteralExpr)
+48 value='('
+49 right (NameExpr)
+50 name (SimpleName)
+51 identifier='rePattern'
+52 right (StringLiteralExpr)
+53 value=')'
+54 statement (ExpressionStmt)
+55 expression (AssignExpr)
+56 operator='ASSIGN'
+57 target (NameExpr)
+58 name (SimpleName)
+59 identifier='rePattern'
+60 value (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='replaceAll'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='rePattern'
+66 arguments
+67 argument (StringLiteralExpr)
+68 value='\\\\'
+69 argument (StringLiteralExpr)
+70 value='\\\\\\\\'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='put'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='hmAllRePattern'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='name'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='rePattern'
+85 type (VoidType)
+86 name (SimpleName)
+87 identifier='finalizeRePattern'
+88 parameters
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='name'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='String'
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='rePattern'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+15 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+32 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+43 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+43 52
+52 53
+2 54
+54 55
+55 56
+55 57
+57 58
+58 59
+55 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+66 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+0 85
+0 86
+86 87
+0 88
+88 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+88 96
+96 97
+96 98
+98 99
+96 100
+100 101
+101 102
+
+Pattern containing regular expression is finalized, i.e., created correctly and added to hmAllRePattern.

@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clear'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='buffer'
+10 scope (ThisExpr)
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='trimToSize'
+15 scope (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='buffer'
+18 scope (ThisExpr)
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='isSorted'
+25 scope (ThisExpr)
+26 value (BooleanLiteralExpr)
+27 value='false'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='clear'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+22 25
+20 26
+26 27
+0 28
+0 29
+29 30
+
+Removes all elements from the receiver.  The receiver will be empty after this call returns, and its memory requirements will be close to zero.

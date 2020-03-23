@@ -1,0 +1,80 @@
+39
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='internalCompile'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='regex'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='parseFlags'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='flags'
+18 name (SimpleName)
+19 identifier='Pattern'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='regex'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='String'
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='flags'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='String'
+35 thrownExceptions
+36 thrownException (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='PatternSyntaxException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+20 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+0 35
+35 36
+36 37
+37 38
+
+Compiles a regular expression using Perl5-style flags. The flag string should consist of letters 'i','m','s','x','u','X'(the case is significant) and a hyphen or plus. The meaning of letters: <ul> <li><b>i</b> - case insensitivity, corresponds to REFlags.IGNORE_CASE;</li> <li><b>m</b> - multiline treatment(BOLs and EOLs affect the '^' and '$'), corresponds to REFlags.MULTILINE flag;</li> <li><b>s</b> - single line treatment('.' matches \r's and \n's),corresponds to REFlags.DOTALL;</li> <li><b>x</b> - extended whitespace comments (spaces and eols in the expression are ignored), corresponds to REFlags.IGNORE_SPACES.</li> <li><b>u</b> - predefined classes are regarded as belonging to Unicode, corresponds to REFlags.UNICODE; this may yield some performance penalty.</li> <li><b>X</b> - compatibility with XML Schema, corresponds to REFlags.XML_SCHEMA.</li> <li><b>-</b> - turn off the specified flags; normally has no effect unless something adds the flags.</li> <li><b>+</b> - turn on the specified flags; normally is no different from just using the letters.</li> </ul>

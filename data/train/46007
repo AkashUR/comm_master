@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='PLUS'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='numEntries'
+9 value (IntegerLiteralExpr)
+10 value='1'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='breaks'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='emitUC'
+19 arguments
+20 argument (BinaryExpr)
+21 operator='SIGNED_RIGHT_SHIFT'
+22 left (NameExpr)
+23 name (SimpleName)
+24 identifier='val'
+25 right (IntegerLiteralExpr)
+26 value='16'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='emitUC'
+31 arguments
+32 argument (BinaryExpr)
+33 operator='BINARY_AND'
+34 left (NameExpr)
+35 name (SimpleName)
+36 identifier='val'
+37 right (IntegerLiteralExpr)
+38 value='0xFFFF'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='emit'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='val'
+47 type (PrimitiveType)
+48 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+32 34
+34 35
+35 36
+32 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+
+Emit one value using two characters.

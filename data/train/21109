@@ -1,0 +1,406 @@
+202
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onViewPositionChanged'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='changedView'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='left'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='top'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='dx'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='dy'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 name (SimpleName)
+29 identifier='fractionScreen'
+30 type (PrimitiveType)
+31 type='FLOAT'
+32 statement (SwitchStmt)
+33 selector (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getDragPosition'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='draggerView'
+39 entries
+40 entrie (SwitchEntryStmt)
+41 label (NameExpr)
+42 name (SimpleName)
+43 identifier='TOP'
+44 entrie (SwitchEntryStmt)
+45 label (NameExpr)
+46 name (SimpleName)
+47 identifier='BOTTOM'
+48 statements
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (NameExpr)
+53 name (SimpleName)
+54 identifier='dragOffset'
+55 value (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='abs'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='Math'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='top'
+65 statement (ExpressionStmt)
+66 expression (AssignExpr)
+67 operator='ASSIGN'
+68 target (NameExpr)
+69 name (SimpleName)
+70 identifier='fractionScreen'
+71 value (BinaryExpr)
+72 operator='DIVIDE'
+73 left (CastExpr)
+74 expression (NameExpr)
+75 name (SimpleName)
+76 identifier='dragOffset'
+77 type (PrimitiveType)
+78 type='FLOAT'
+79 right (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='dragVerticalDragRange'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='draggerListener'
+85 statement (BreakStmt)
+86 entrie (SwitchEntryStmt)
+87 label (NameExpr)
+88 name (SimpleName)
+89 identifier='LEFT'
+90 entrie (SwitchEntryStmt)
+91 label (NameExpr)
+92 name (SimpleName)
+93 identifier='RIGHT'
+94 entrie (SwitchEntryStmt)
+95 statements
+96 statement (ExpressionStmt)
+97 expression (AssignExpr)
+98 operator='ASSIGN'
+99 target (NameExpr)
+100 name (SimpleName)
+101 identifier='dragOffset'
+102 value (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='abs'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='Math'
+108 arguments
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='left'
+112 statement (ExpressionStmt)
+113 expression (AssignExpr)
+114 operator='ASSIGN'
+115 target (NameExpr)
+116 name (SimpleName)
+117 identifier='fractionScreen'
+118 value (BinaryExpr)
+119 operator='DIVIDE'
+120 left (CastExpr)
+121 expression (NameExpr)
+122 name (SimpleName)
+123 identifier='dragOffset'
+124 type (PrimitiveType)
+125 type='FLOAT'
+126 right (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='dragHorizontalDragRange'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='draggerListener'
+132 statement (BreakStmt)
+133 statement (IfStmt)
+134 condition (BinaryExpr)
+135 operator='NOT_EQUALS'
+136 left (NameExpr)
+137 name (SimpleName)
+138 identifier='draggerListener'
+139 right (NullLiteralExpr)
+140 thenStmt (BlockStmt)
+141 statements
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='onViewPositionChanged'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='draggerListener'
+149 arguments
+150 argument (ConditionalExpr)
+151 condition (BinaryExpr)
+152 operator='GREATER_EQUALS'
+153 left (NameExpr)
+154 name (SimpleName)
+155 identifier='fractionScreen'
+156 right (IntegerLiteralExpr)
+157 value='1'
+158 elseExpr (NameExpr)
+159 name (SimpleName)
+160 identifier='fractionScreen'
+161 thenExpr (IntegerLiteralExpr)
+162 value='1'
+163 type (VoidType)
+164 name (SimpleName)
+165 identifier='onViewPositionChanged'
+166 parameters
+167 parameter (Parameter)
+168 isVarArgs='false'
+169 name (SimpleName)
+170 identifier='changedView'
+171 type (ClassOrInterfaceType)
+172 name (SimpleName)
+173 identifier='View'
+174 parameter (Parameter)
+175 isVarArgs='false'
+176 name (SimpleName)
+177 identifier='left'
+178 type (PrimitiveType)
+179 type='INT'
+180 parameter (Parameter)
+181 isVarArgs='false'
+182 name (SimpleName)
+183 identifier='top'
+184 type (PrimitiveType)
+185 type='INT'
+186 parameter (Parameter)
+187 isVarArgs='false'
+188 name (SimpleName)
+189 identifier='dx'
+190 type (PrimitiveType)
+191 type='INT'
+192 parameter (Parameter)
+193 isVarArgs='false'
+194 name (SimpleName)
+195 identifier='dy'
+196 type (PrimitiveType)
+197 type='INT'
+198 annotations
+199 annotation (MarkerAnnotationExpr)
+200 name (Name)
+201 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+8 15
+15 16
+16 17
+8 18
+18 19
+19 20
+8 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+32 39
+39 40
+40 41
+41 42
+42 43
+39 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+48 65
+65 66
+66 67
+66 68
+68 69
+69 70
+66 71
+71 72
+71 73
+73 74
+74 75
+75 76
+73 77
+77 78
+71 79
+79 80
+80 81
+79 82
+82 83
+83 84
+48 85
+39 86
+86 87
+87 88
+88 89
+39 90
+90 91
+91 92
+92 93
+39 94
+94 95
+95 96
+96 97
+97 98
+97 99
+99 100
+100 101
+97 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+95 112
+112 113
+113 114
+113 115
+115 116
+116 117
+113 118
+118 119
+118 120
+120 121
+121 122
+122 123
+120 124
+124 125
+118 126
+126 127
+127 128
+126 129
+129 130
+130 131
+95 132
+2 133
+133 134
+134 135
+134 136
+136 137
+137 138
+134 139
+133 140
+140 141
+141 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+143 149
+149 150
+150 151
+151 152
+151 153
+153 154
+154 155
+151 156
+156 157
+150 158
+158 159
+159 160
+150 161
+161 162
+0 163
+0 164
+164 165
+0 166
+166 167
+167 168
+167 169
+169 170
+167 171
+171 172
+172 173
+166 174
+174 175
+174 176
+176 177
+174 178
+178 179
+166 180
+180 181
+180 182
+182 183
+180 184
+184 185
+166 186
+186 187
+186 188
+188 189
+186 190
+190 191
+166 192
+192 193
+192 194
+194 195
+192 196
+196 197
+0 198
+198 199
+199 200
+200 201
+
+Override method used notify the drag value based on position and dragRange

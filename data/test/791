@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ProximalGradient'
+11 arguments
+12 argument (DoubleLiteralExpr)
+13 value='.5'
+14 argument (DoubleLiteralExpr)
+15 value='.9'
+16 argument (BooleanLiteralExpr)
+17 value='true'
+18 name (SimpleName)
+19 identifier='pg'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='ProximalGradient'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setEdgeChangeTol'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='pg'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='edgeChangeTol'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='setParams'
+38 arguments
+39 argument (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='MGMParams'
+43 arguments
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='learnBackTrack'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='pg'
+50 arguments
+51 argument (ThisExpr)
+52 argument (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='toMatrix1D'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='params'
+58 argument (DoubleLiteralExpr)
+59 value='0.0'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='iterLimit'
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='p'
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='lsum'
+69 type (VoidType)
+70 name (SimpleName)
+71 identifier='learnEdges'
+72 parameters
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='iterLimit'
+77 type (PrimitiveType)
+78 type='INT'
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='edgeChangeTol'
+83 type (PrimitiveType)
+84 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+11 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+50 52
+52 53
+53 54
+52 55
+55 56
+56 57
+50 58
+58 59
+50 60
+60 61
+61 62
+43 63
+63 64
+64 65
+43 66
+66 67
+67 68
+0 69
+0 70
+70 71
+0 72
+72 73
+73 74
+73 75
+75 76
+73 77
+77 78
+72 79
+79 80
+79 81
+81 82
+79 83
+83 84
+
+Learn MGM using edge convergence using edgeChangeTol (see ProximalGradient for documentation). Recommended when we only care about edge existence.

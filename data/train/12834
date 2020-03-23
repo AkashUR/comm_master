@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='emitLAddr'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='asm'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='reg'
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (BinaryExpr)
+17 operator='MINUS'
+18 left (BinaryExpr)
+19 operator='PLUS'
+20 left (NameExpr)
+21 name (SimpleName)
+22 identifier='spTopOffset'
+23 right (NameExpr)
+24 name (SimpleName)
+25 identifier='BYTES_IN_STACKSLOT'
+26 right (NameExpr)
+27 name (SimpleName)
+28 identifier='BYTES_IN_ADDRESS'
+29 right (EnclosedExpr)
+30 inner (BinaryExpr)
+31 operator='LEFT_SHIFT'
+32 left (NameExpr)
+33 name (SimpleName)
+34 identifier='idx'
+35 right (NameExpr)
+36 name (SimpleName)
+37 identifier='LOG_BYTES_IN_STACKSLOT'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='FP'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='peekAddr'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='reg'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='GPR'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='idx'
+56 type (PrimitiveType)
+57 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+14 16
+16 17
+16 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+24 25
+16 26
+26 27
+27 28
+14 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+10 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+44 52
+52 53
+52 54
+54 55
+52 56
+56 57
+
+Emit the code to peek a reference/address value from the expression stack into the register 'reg'.

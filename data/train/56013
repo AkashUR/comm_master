@@ -1,0 +1,202 @@
+100
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setMaximum'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='jobProgressBar'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='totalCount'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='setValue'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='jobProgressBar'
+21 arguments
+22 argument (ConditionalExpr)
+23 condition (BinaryExpr)
+24 operator='NOT_EQUALS'
+25 left (NameExpr)
+26 name (SimpleName)
+27 identifier='totalCount'
+28 right (IntegerLiteralExpr)
+29 value='0'
+30 elseExpr (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getMinimum'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='jobProgressBar'
+36 thenExpr (NameExpr)
+37 name (SimpleName)
+38 identifier='currentProgress'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='setString'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='jobProgressBar'
+46 arguments
+47 argument (ConditionalExpr)
+48 condition (BinaryExpr)
+49 operator='NOT_EQUALS'
+50 left (NameExpr)
+51 name (SimpleName)
+52 identifier='totalCount'
+53 right (IntegerLiteralExpr)
+54 value='0'
+55 elseExpr (StringLiteralExpr)
+56 value=''
+57 thenExpr (BinaryExpr)
+58 operator='PLUS'
+59 left (BinaryExpr)
+60 operator='PLUS'
+61 left (NameExpr)
+62 name (SimpleName)
+63 identifier='currentProgress'
+64 right (StringLiteralExpr)
+65 value='/'
+66 right (NameExpr)
+67 name (SimpleName)
+68 identifier='totalCount'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='setIndeterminate'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='jobProgressBar'
+76 arguments
+77 argument (BinaryExpr)
+78 operator='EQUALS'
+79 left (NameExpr)
+80 name (SimpleName)
+81 identifier='totalCount'
+82 right (IntegerLiteralExpr)
+83 value='0'
+84 type (VoidType)
+85 name (SimpleName)
+86 identifier='updateProgress'
+87 parameters
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='currentProgress'
+92 type (PrimitiveType)
+93 type='INT'
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='totalCount'
+98 type (PrimitiveType)
+99 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+22 30
+30 31
+31 32
+30 33
+33 34
+34 35
+22 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+48 50
+50 51
+51 52
+48 53
+53 54
+47 55
+55 56
+47 57
+57 58
+57 59
+59 60
+59 61
+61 62
+62 63
+59 64
+64 65
+57 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+77 79
+79 80
+80 81
+77 82
+82 83
+0 84
+0 85
+85 86
+0 87
+87 88
+88 89
+88 90
+90 91
+88 92
+92 93
+87 94
+94 95
+94 96
+96 97
+94 98
+98 99
+
+Updates progress bar. Resets it if totalCount = 0

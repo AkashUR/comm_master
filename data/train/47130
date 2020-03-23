@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='printState'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='MP'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='TLC_STATE_PRINT3'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='EC'
+17 argument (ArrayCreationExpr)
+18 elementType (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='String'
+21 initializer (ArrayInitializerExpr)
+22 values
+23 value (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='valueOf'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='String'
+29 arguments
+30 argument (BinaryExpr)
+31 operator='PLUS'
+32 left (NameExpr)
+33 name (SimpleName)
+34 identifier='num'
+35 right (IntegerLiteralExpr)
+36 value='1'
+37 levels
+38 level (ArrayCreationLevel)
+39 argument (CastExpr)
+40 expression (NullLiteralExpr)
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='TLCState'
+44 argument (BinaryExpr)
+45 operator='PLUS'
+46 left (NameExpr)
+47 name (SimpleName)
+48 identifier='num'
+49 right (IntegerLiteralExpr)
+50 value='1'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='printStutteringState'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='num'
+59 type (PrimitiveType)
+60 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+17 37
+37 38
+10 39
+39 40
+39 41
+41 42
+42 43
+10 44
+44 45
+44 46
+46 47
+47 48
+44 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+
+Reports that the state with a given number is stuttering

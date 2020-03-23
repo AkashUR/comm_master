@@ -1,0 +1,216 @@
+107
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='reader'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='reader'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='subsetDenom'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='subsetDenom'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='includeAdult'
+29 scope (ThisExpr)
+30 value (NameExpr)
+31 name (SimpleName)
+32 identifier='includeAdult'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='topicPattern'
+39 scope (ThisExpr)
+40 value (NameExpr)
+41 name (SimpleName)
+42 identifier='topicPattern'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='hashSkew'
+49 scope (ThisExpr)
+50 value (ConditionalExpr)
+51 condition (BinaryExpr)
+52 operator='NOT_EQUALS'
+53 left (NameExpr)
+54 name (SimpleName)
+55 identifier='skew'
+56 right (IntegerLiteralExpr)
+57 value='0'
+58 elseExpr (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='nextInt'
+61 scope (ObjectCreationExpr)
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='Random'
+65 thenExpr (NameExpr)
+66 name (SimpleName)
+67 identifier='skew'
+68 name (SimpleName)
+69 identifier='RDFProcessor'
+70 parameters
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='reader'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='XMLReader'
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='subsetDenom'
+82 type (PrimitiveType)
+83 type='INT'
+84 parameter (Parameter)
+85 isVarArgs='false'
+86 name (SimpleName)
+87 identifier='includeAdult'
+88 type (PrimitiveType)
+89 type='BOOLEAN'
+90 parameter (Parameter)
+91 isVarArgs='false'
+92 name (SimpleName)
+93 identifier='skew'
+94 type (PrimitiveType)
+95 type='INT'
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='topicPattern'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='Pattern'
+103 thrownExceptions
+104 thrownException (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+46 49
+44 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+50 58
+58 59
+59 60
+58 61
+61 62
+62 63
+63 64
+50 65
+65 66
+66 67
+0 68
+68 69
+0 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+70 78
+78 79
+78 80
+80 81
+78 82
+82 83
+70 84
+84 85
+84 86
+86 87
+84 88
+88 89
+70 90
+90 91
+90 92
+92 93
+90 94
+94 95
+70 96
+96 97
+96 98
+98 99
+96 100
+100 101
+101 102
+0 103
+103 104
+104 105
+105 106
+
+Pass in an XMLReader, plus a flag as to whether we  should include adult material.

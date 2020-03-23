@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='popouts'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='popout'
+14 argument (NullLiteralExpr)
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='addHotkeys'
+19 arguments
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getRootPane'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='popout'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='registerPopout'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='popout'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='JDialog'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+
+Register a popout window, so regular hotkeys can be added to it if necessary. References are saved in a WeakHashMap.

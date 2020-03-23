@@ -1,0 +1,126 @@
+62
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='cause'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='message'
+15 scope (ThisExpr)
+16 value (EnclosedExpr)
+17 inner (ConditionalExpr)
+18 condition (BinaryExpr)
+19 operator='NOT_EQUALS'
+20 left (NameExpr)
+21 name (SimpleName)
+22 identifier='msg'
+23 right (NullLiteralExpr)
+24 elseExpr (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getMessage'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='cause'
+30 thenExpr (BinaryExpr)
+31 operator='PLUS'
+32 left (BinaryExpr)
+33 operator='PLUS'
+34 left (NameExpr)
+35 name (SimpleName)
+36 identifier='msg'
+37 right (StringLiteralExpr)
+38 value='\nCaused by: '
+39 right (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getMessage'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='cause'
+45 name (SimpleName)
+46 identifier='PluginException'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='msg'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='cause'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+12 15
+10 16
+16 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+17 24
+24 25
+25 26
+24 27
+27 28
+28 29
+17 30
+30 31
+30 32
+32 33
+32 34
+34 35
+35 36
+32 37
+37 38
+30 39
+39 40
+40 41
+39 42
+42 43
+43 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+47 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+
+Create exception.

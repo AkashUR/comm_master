@@ -1,0 +1,222 @@
+110
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='in'
+9 scope (ThisExpr)
+10 value (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='ByteArrayInputStream'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='bytes'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='state'
+24 scope (ThisExpr)
+25 value (ArrayCreationExpr)
+26 elementType (PrimitiveType)
+27 type='INT'
+28 levels
+29 level (ArrayCreationLevel)
+30 dimension (IntegerLiteralExpr)
+31 value='4'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='buffer'
+38 scope (ThisExpr)
+39 value (ArrayCreationExpr)
+40 elementType (PrimitiveType)
+41 type='BYTE'
+42 levels
+43 level (ArrayCreationLevel)
+44 dimension (IntegerLiteralExpr)
+45 value='64'
+46 statement (ExpressionStmt)
+47 expression (AssignExpr)
+48 operator='ASSIGN'
+49 target (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='count'
+52 scope (ThisExpr)
+53 value (LongLiteralExpr)
+54 value='0L'
+55 statement (ExpressionStmt)
+56 expression (AssignExpr)
+57 operator='ASSIGN'
+58 target (ArrayAccessExpr)
+59 index (IntegerLiteralExpr)
+60 value='0'
+61 name (NameExpr)
+62 name (SimpleName)
+63 identifier='state'
+64 value (IntegerLiteralExpr)
+65 value='0x67452301'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (ArrayAccessExpr)
+70 index (IntegerLiteralExpr)
+71 value='1'
+72 name (NameExpr)
+73 name (SimpleName)
+74 identifier='state'
+75 value (IntegerLiteralExpr)
+76 value='0xefcdab89'
+77 statement (ExpressionStmt)
+78 expression (AssignExpr)
+79 operator='ASSIGN'
+80 target (ArrayAccessExpr)
+81 index (IntegerLiteralExpr)
+82 value='2'
+83 name (NameExpr)
+84 name (SimpleName)
+85 identifier='state'
+86 value (IntegerLiteralExpr)
+87 value='0x98badcfe'
+88 statement (ExpressionStmt)
+89 expression (AssignExpr)
+90 operator='ASSIGN'
+91 target (ArrayAccessExpr)
+92 index (IntegerLiteralExpr)
+93 value='3'
+94 name (NameExpr)
+95 name (SimpleName)
+96 identifier='state'
+97 value (IntegerLiteralExpr)
+98 value='0x10325476'
+99 name (SimpleName)
+100 identifier='MD5Legacy'
+101 parameters
+102 parameter (Parameter)
+103 isVarArgs='false'
+104 name (SimpleName)
+105 identifier='bytes'
+106 type (ArrayType)
+107 origin='TYPE'
+108 componentType (PrimitiveType)
+109 type='BYTE'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+21 24
+19 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+35 38
+33 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+2 46
+46 47
+47 48
+47 49
+49 50
+50 51
+49 52
+47 53
+53 54
+2 55
+55 56
+56 57
+56 58
+58 59
+59 60
+58 61
+61 62
+62 63
+56 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+69 72
+72 73
+73 74
+67 75
+75 76
+2 77
+77 78
+78 79
+78 80
+80 81
+81 82
+80 83
+83 84
+84 85
+78 86
+86 87
+2 88
+88 89
+89 90
+89 91
+91 92
+92 93
+91 94
+94 95
+95 96
+89 97
+97 98
+0 99
+99 100
+0 101
+101 102
+102 103
+102 104
+104 105
+102 106
+106 107
+106 108
+108 109
+
+Construct a digestifier for the given byte array.

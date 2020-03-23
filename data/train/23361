@@ -1,0 +1,262 @@
+130
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getName'
+10 scope (ClassExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='PatternTokenizerFactory'
+14 name (SimpleName)
+15 identifier='clazz'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='String'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (NullLiteralExpr)
+24 name (SimpleName)
+25 identifier='factory'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='TokenFilterFactory'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (NameExpr)
+33 name (SimpleName)
+34 identifier='factory'
+35 value (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='tokenFilterFactory'
+38 arguments
+39 argument (StringLiteralExpr)
+40 value='Synonym'
+41 argument (StringLiteralExpr)
+42 value='synonyms'
+43 argument (StringLiteralExpr)
+44 value='synonyms.txt'
+45 argument (StringLiteralExpr)
+46 value='tokenizerFactory'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='clazz'
+50 argument (StringLiteralExpr)
+51 value='pattern'
+52 argument (StringLiteralExpr)
+53 value='(.*)'
+54 argument (StringLiteralExpr)
+55 value='group'
+56 argument (StringLiteralExpr)
+57 value='0'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='assertNotNull'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='factory'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (NameExpr)
+70 name (SimpleName)
+71 identifier='factory'
+72 value (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='tokenFilterFactory'
+75 arguments
+76 argument (StringLiteralExpr)
+77 value='Synonym'
+78 argument (StringLiteralExpr)
+79 value='synonyms'
+80 argument (StringLiteralExpr)
+81 value='synonyms.txt'
+82 argument (StringLiteralExpr)
+83 value='tokenizerFactory'
+84 argument (NameExpr)
+85 name (SimpleName)
+86 identifier='clazz'
+87 argument (StringLiteralExpr)
+88 value='tokenizerFactory.pattern'
+89 argument (StringLiteralExpr)
+90 value='(.*)'
+91 argument (StringLiteralExpr)
+92 value='tokenizerFactory.group'
+93 argument (StringLiteralExpr)
+94 value='0'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='assertNotNull'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='factory'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='expectThrows'
+107 arguments
+108 argument (ClassExpr)
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='Exception'
+112 argument (NullLiteralExpr)
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='expectThrows'
+117 arguments
+118 argument (ClassExpr)
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='Exception'
+122 argument (NullLiteralExpr)
+123 type (VoidType)
+124 name (SimpleName)
+125 identifier='testTokenizerFactoryArguments'
+126 thrownExceptions
+127 thrownException (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+38 43
+43 44
+38 45
+45 46
+38 47
+47 48
+48 49
+38 50
+50 51
+38 52
+52 53
+38 54
+54 55
+38 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+67 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+78 79
+75 80
+80 81
+75 82
+82 83
+75 84
+84 85
+85 86
+75 87
+87 88
+75 89
+89 90
+75 91
+91 92
+75 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+109 110
+110 111
+107 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+119 120
+120 121
+117 122
+0 123
+0 124
+124 125
+0 126
+126 127
+127 128
+128 129
+
+Test that we can parse TokenierFactory's arguments

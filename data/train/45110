@@ -1,0 +1,128 @@
+63
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setName'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getName'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='method'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='setMethod'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='method'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='parameterDescriptors'
+28 scope (ThisExpr)
+29 value (ConditionalExpr)
+30 condition (EnclosedExpr)
+31 inner (BinaryExpr)
+32 operator='NOT_EQUALS'
+33 left (NameExpr)
+34 name (SimpleName)
+35 identifier='parameterDescriptors'
+36 right (NullLiteralExpr)
+37 elseExpr (NullLiteralExpr)
+38 thenExpr (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='clone'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='parameterDescriptors'
+44 name (SimpleName)
+45 identifier='MethodDescriptor'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='method'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Method'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='parameterDescriptors'
+58 type (ArrayType)
+59 origin='NAME'
+60 componentType (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='ParameterDescriptor'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+25 28
+23 29
+29 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+29 37
+29 38
+38 39
+39 40
+38 41
+41 42
+42 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+46 54
+54 55
+54 56
+56 57
+54 58
+58 59
+58 60
+60 61
+61 62
+
+Constructs a <code>MethodDescriptor</code> from a <code>Method</code> providing descriptive information for each of the method's parameters.

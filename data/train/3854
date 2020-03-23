@@ -1,0 +1,624 @@
+311
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='printLog'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ZogUtils'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getClass'
+14 argument (StringLiteralExpr)
+15 value='onInterceptTouchEvent'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getX'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='ev'
+26 name (SimpleName)
+27 identifier='lastX'
+28 type (PrimitiveType)
+29 type='FLOAT'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getY'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='ev'
+40 name (SimpleName)
+41 identifier='lastY'
+42 type (PrimitiveType)
+43 type='FLOAT'
+44 statement (SwitchStmt)
+45 selector (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getAction'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='ev'
+51 entries
+52 entrie (SwitchEntryStmt)
+53 label (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='ACTION_DOWN'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='MotionEvent'
+59 statements
+60 statement (ExpressionStmt)
+61 expression (AssignExpr)
+62 operator='ASSIGN'
+63 target (NameExpr)
+64 name (SimpleName)
+65 identifier='mIsHorizontal'
+66 value (NullLiteralExpr)
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='mFirstX'
+73 value (NameExpr)
+74 name (SimpleName)
+75 identifier='lastX'
+76 statement (ExpressionStmt)
+77 expression (AssignExpr)
+78 operator='ASSIGN'
+79 target (NameExpr)
+80 name (SimpleName)
+81 identifier='mFirstY'
+82 value (NameExpr)
+83 name (SimpleName)
+84 identifier='lastY'
+85 statement (ExpressionStmt)
+86 expression (VariableDeclarationExpr)
+87 variables
+88 variable (VariableDeclarator)
+89 initializer (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='pointToPosition'
+92 arguments
+93 argument (CastExpr)
+94 expression (NameExpr)
+95 name (SimpleName)
+96 identifier='mFirstX'
+97 type (PrimitiveType)
+98 type='INT'
+99 argument (CastExpr)
+100 expression (NameExpr)
+101 name (SimpleName)
+102 identifier='mFirstY'
+103 type (PrimitiveType)
+104 type='INT'
+105 name (SimpleName)
+106 identifier='motionPosition'
+107 type (PrimitiveType)
+108 type='INT'
+109 statement (IfStmt)
+110 condition (BinaryExpr)
+111 operator='GREATER_EQUALS'
+112 left (NameExpr)
+113 name (SimpleName)
+114 identifier='motionPosition'
+115 right (IntegerLiteralExpr)
+116 value='0'
+117 thenStmt (BlockStmt)
+118 statements
+119 statement (ExpressionStmt)
+120 expression (VariableDeclarationExpr)
+121 variables
+122 variable (VariableDeclarator)
+123 initializer (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='getChildAt'
+126 arguments
+127 argument (BinaryExpr)
+128 operator='MINUS'
+129 left (NameExpr)
+130 name (SimpleName)
+131 identifier='motionPosition'
+132 right (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getFirstVisiblePosition'
+135 name (SimpleName)
+136 identifier='currentItemView'
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='View'
+140 statement (ExpressionStmt)
+141 expression (AssignExpr)
+142 operator='ASSIGN'
+143 target (NameExpr)
+144 name (SimpleName)
+145 identifier='mPreItemView'
+146 value (NameExpr)
+147 name (SimpleName)
+148 identifier='mCurrentItemView'
+149 statement (ExpressionStmt)
+150 expression (AssignExpr)
+151 operator='ASSIGN'
+152 target (NameExpr)
+153 name (SimpleName)
+154 identifier='mCurrentItemView'
+155 value (NameExpr)
+156 name (SimpleName)
+157 identifier='currentItemView'
+158 statement (BreakStmt)
+159 entrie (SwitchEntryStmt)
+160 label (FieldAccessExpr)
+161 name (SimpleName)
+162 identifier='ACTION_MOVE'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='MotionEvent'
+166 statements
+167 statement (ExpressionStmt)
+168 expression (VariableDeclarationExpr)
+169 variables
+170 variable (VariableDeclarator)
+171 initializer (BinaryExpr)
+172 operator='MINUS'
+173 left (NameExpr)
+174 name (SimpleName)
+175 identifier='lastX'
+176 right (NameExpr)
+177 name (SimpleName)
+178 identifier='mFirstX'
+179 name (SimpleName)
+180 identifier='dx'
+181 type (PrimitiveType)
+182 type='FLOAT'
+183 statement (ExpressionStmt)
+184 expression (VariableDeclarationExpr)
+185 variables
+186 variable (VariableDeclarator)
+187 initializer (BinaryExpr)
+188 operator='MINUS'
+189 left (NameExpr)
+190 name (SimpleName)
+191 identifier='lastY'
+192 right (NameExpr)
+193 name (SimpleName)
+194 identifier='mFirstY'
+195 name (SimpleName)
+196 identifier='dy'
+197 type (PrimitiveType)
+198 type='FLOAT'
+199 statement (IfStmt)
+200 condition (BinaryExpr)
+201 operator='AND'
+202 left (BinaryExpr)
+203 operator='GREATER_EQUALS'
+204 left (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='abs'
+207 scope (NameExpr)
+208 name (SimpleName)
+209 identifier='Math'
+210 arguments
+211 argument (NameExpr)
+212 name (SimpleName)
+213 identifier='dx'
+214 right (IntegerLiteralExpr)
+215 value='5'
+216 right (BinaryExpr)
+217 operator='GREATER_EQUALS'
+218 left (MethodCallExpr)
+219 name (SimpleName)
+220 identifier='abs'
+221 scope (NameExpr)
+222 name (SimpleName)
+223 identifier='Math'
+224 arguments
+225 argument (NameExpr)
+226 name (SimpleName)
+227 identifier='dy'
+228 right (IntegerLiteralExpr)
+229 value='5'
+230 thenStmt (BlockStmt)
+231 statements
+232 statement (ReturnStmt)
+233 expression (BooleanLiteralExpr)
+234 value='true'
+235 statement (BreakStmt)
+236 entrie (SwitchEntryStmt)
+237 label (FieldAccessExpr)
+238 name (SimpleName)
+239 identifier='ACTION_UP'
+240 scope (NameExpr)
+241 name (SimpleName)
+242 identifier='MotionEvent'
+243 entrie (SwitchEntryStmt)
+244 label (FieldAccessExpr)
+245 name (SimpleName)
+246 identifier='ACTION_CANCEL'
+247 scope (NameExpr)
+248 name (SimpleName)
+249 identifier='MotionEvent'
+250 statements
+251 statement (IfStmt)
+252 condition (BinaryExpr)
+253 operator='AND'
+254 left (NameExpr)
+255 name (SimpleName)
+256 identifier='mIsShown'
+257 right (EnclosedExpr)
+258 inner (BinaryExpr)
+259 operator='OR'
+260 left (BinaryExpr)
+261 operator='NOT_EQUALS'
+262 left (NameExpr)
+263 name (SimpleName)
+264 identifier='mPreItemView'
+265 right (NameExpr)
+266 name (SimpleName)
+267 identifier='mCurrentItemView'
+268 right (MethodCallExpr)
+269 name (SimpleName)
+270 identifier='isHitCurItemLeft'
+271 arguments
+272 argument (NameExpr)
+273 name (SimpleName)
+274 identifier='lastX'
+275 thenStmt (BlockStmt)
+276 statements
+277 statement (ExpressionStmt)
+278 expression (MethodCallExpr)
+279 name (SimpleName)
+280 identifier='hiddenRight'
+281 arguments
+282 argument (NameExpr)
+283 name (SimpleName)
+284 identifier='mPreItemView'
+285 statement (BreakStmt)
+286 statement (ReturnStmt)
+287 expression (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='onInterceptTouchEvent'
+290 scope (SuperExpr)
+291 arguments
+292 argument (NameExpr)
+293 name (SimpleName)
+294 identifier='ev'
+295 type (PrimitiveType)
+296 type='BOOLEAN'
+297 name (SimpleName)
+298 identifier='onInterceptTouchEvent'
+299 parameters
+300 parameter (Parameter)
+301 isVarArgs='false'
+302 name (SimpleName)
+303 identifier='ev'
+304 type (ClassOrInterfaceType)
+305 name (SimpleName)
+306 identifier='MotionEvent'
+307 annotations
+308 annotation (MarkerAnnotationExpr)
+309 name (Name)
+310 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+19 26
+26 27
+19 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+33 40
+40 41
+33 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+44 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+52 59
+59 60
+60 61
+61 62
+61 63
+63 64
+64 65
+61 66
+59 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+74 75
+59 76
+76 77
+77 78
+77 79
+79 80
+80 81
+77 82
+82 83
+83 84
+59 85
+85 86
+86 87
+87 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+95 96
+93 97
+97 98
+92 99
+99 100
+100 101
+101 102
+99 103
+103 104
+88 105
+105 106
+88 107
+107 108
+59 109
+109 110
+110 111
+110 112
+112 113
+113 114
+110 115
+115 116
+109 117
+117 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+127 129
+129 130
+130 131
+127 132
+132 133
+133 134
+122 135
+135 136
+122 137
+137 138
+138 139
+118 140
+140 141
+141 142
+141 143
+143 144
+144 145
+141 146
+146 147
+147 148
+118 149
+149 150
+150 151
+150 152
+152 153
+153 154
+150 155
+155 156
+156 157
+59 158
+51 159
+159 160
+160 161
+161 162
+160 163
+163 164
+164 165
+159 166
+166 167
+167 168
+168 169
+169 170
+170 171
+171 172
+171 173
+173 174
+174 175
+171 176
+176 177
+177 178
+170 179
+179 180
+170 181
+181 182
+166 183
+183 184
+184 185
+185 186
+186 187
+187 188
+187 189
+189 190
+190 191
+187 192
+192 193
+193 194
+186 195
+195 196
+186 197
+197 198
+166 199
+199 200
+200 201
+200 202
+202 203
+202 204
+204 205
+205 206
+204 207
+207 208
+208 209
+204 210
+210 211
+211 212
+212 213
+202 214
+214 215
+200 216
+216 217
+216 218
+218 219
+219 220
+218 221
+221 222
+222 223
+218 224
+224 225
+225 226
+226 227
+216 228
+228 229
+199 230
+230 231
+231 232
+232 233
+233 234
+166 235
+51 236
+236 237
+237 238
+238 239
+237 240
+240 241
+241 242
+51 243
+243 244
+244 245
+245 246
+244 247
+247 248
+248 249
+243 250
+250 251
+251 252
+252 253
+252 254
+254 255
+255 256
+252 257
+257 258
+258 259
+258 260
+260 261
+260 262
+262 263
+263 264
+260 265
+265 266
+266 267
+258 268
+268 269
+269 270
+268 271
+271 272
+272 273
+273 274
+251 275
+275 276
+276 277
+277 278
+278 279
+279 280
+278 281
+281 282
+282 283
+283 284
+250 285
+2 286
+286 287
+287 288
+288 289
+287 290
+287 291
+291 292
+292 293
+293 294
+0 295
+295 296
+0 297
+297 298
+0 299
+299 300
+300 301
+300 302
+302 303
+300 304
+304 305
+305 306
+0 307
+307 308
+308 309
+309 310
+
+return true, deliver to listView. return false, deliver to child. if move, return true

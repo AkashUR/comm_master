@@ -1,0 +1,124 @@
+61
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='length'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='values'
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='length'
+15 scope (ArrayAccessExpr)
+16 index (IntegerLiteralExpr)
+17 value='0'
+18 name (NameExpr)
+19 name (SimpleName)
+20 identifier='values'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='blockStripeSize'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='blockOrder'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='fill'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='values'
+35 name (SimpleName)
+36 identifier='BlockDenseDoubleMatrix2D'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='values'
+42 type (ArrayType)
+43 origin='TYPE'
+44 componentType (ArrayType)
+45 origin='TYPE'
+46 componentType (PrimitiveType)
+47 type='DOUBLE'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='blockStripeSize'
+52 type (PrimitiveType)
+53 type='INT'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='blockOrder'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='BlockOrder'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+5 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+19 20
+5 21
+21 22
+22 23
+5 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+42 44
+44 45
+44 46
+46 47
+37 48
+48 49
+48 50
+50 51
+48 52
+52 53
+37 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+Create a block matrix from a jagged array. <br> All rows of the values array must have the same length.

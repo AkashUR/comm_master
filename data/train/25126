@@ -1,0 +1,418 @@
+208
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getSource'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='migrationInfo'
+13 name (SimpleName)
+14 identifier='migrationSrcName'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='String'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='substring'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='migrationSrcName'
+28 arguments
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='length'
+32 scope (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='EXTENT_PREFIX'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='VPlexApiConstants'
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='indexOf'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='migrationSrcName'
+44 arguments
+45 argument (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='EXTENT_SUFFIX'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='VPlexApiConstants'
+51 name (SimpleName)
+52 identifier='srcVolumeName'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='String'
+56 statement (ExpressionStmt)
+57 expression (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 initializer (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getTarget'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='migrationInfo'
+66 name (SimpleName)
+67 identifier='migrationTgtName'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='String'
+71 statement (ExpressionStmt)
+72 expression (VariableDeclarationExpr)
+73 variables
+74 variable (VariableDeclarator)
+75 initializer (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='substring'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='migrationTgtName'
+81 arguments
+82 argument (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='length'
+85 scope (FieldAccessExpr)
+86 name (SimpleName)
+87 identifier='EXTENT_PREFIX'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='VPlexApiConstants'
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='indexOf'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='migrationTgtName'
+97 arguments
+98 argument (FieldAccessExpr)
+99 name (SimpleName)
+100 identifier='EXTENT_SUFFIX'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='VPlexApiConstants'
+104 name (SimpleName)
+105 identifier='tgtVolumeName'
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='String'
+109 statement (ExpressionStmt)
+110 expression (VariableDeclarationExpr)
+111 variables
+112 variable (VariableDeclarator)
+113 initializer (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='getName'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='virtualVolumeInfo'
+119 name (SimpleName)
+120 identifier='virtualVolumeName'
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='String'
+124 statement (ExpressionStmt)
+125 expression (VariableDeclarationExpr)
+126 variables
+127 variable (VariableDeclarator)
+128 initializer (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='replace'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='virtualVolumeName'
+134 arguments
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='srcVolumeName'
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='tgtVolumeName'
+141 name (SimpleName)
+142 identifier='updatedVirtualVolumeName'
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='String'
+146 statement (ExpressionStmt)
+147 expression (AssignExpr)
+148 operator='ASSIGN'
+149 target (NameExpr)
+150 name (SimpleName)
+151 identifier='virtualVolumeInfo'
+152 value (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='renameVPlexResource'
+155 scope (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='getVirtualVolumeManager'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='_vplexApiClient'
+161 arguments
+162 argument (NameExpr)
+163 name (SimpleName)
+164 identifier='virtualVolumeInfo'
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='updatedVirtualVolumeName'
+168 statement (ExpressionStmt)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='updateNameOnMigrationCommit'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='virtualVolumeInfo'
+175 arguments
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='updatedVirtualVolumeName'
+179 statement (ExpressionStmt)
+180 expression (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='setVirtualVolumeInfo'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='migrationInfo'
+186 arguments
+187 argument (NameExpr)
+188 name (SimpleName)
+189 identifier='virtualVolumeInfo'
+190 type (VoidType)
+191 name (SimpleName)
+192 identifier='renameVolumeAfterExtentMigration'
+193 parameters
+194 parameter (Parameter)
+195 isVarArgs='false'
+196 name (SimpleName)
+197 identifier='virtualVolumeInfo'
+198 type (ClassOrInterfaceType)
+199 name (SimpleName)
+200 identifier='VPlexVirtualVolumeInfo'
+201 parameter (Parameter)
+202 isVarArgs='false'
+203 name (SimpleName)
+204 identifier='migrationInfo'
+205 type (ClassOrInterfaceType)
+206 name (SimpleName)
+207 identifier='VPlexMigrationInfo'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+28 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+21 51
+51 52
+21 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+59 66
+66 67
+59 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+75 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+81 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+74 104
+104 105
+74 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+112 119
+119 120
+112 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+135 136
+136 137
+134 138
+138 139
+139 140
+127 141
+141 142
+127 143
+143 144
+144 145
+2 146
+146 147
+147 148
+147 149
+149 150
+150 151
+147 152
+152 153
+153 154
+152 155
+155 156
+156 157
+155 158
+158 159
+159 160
+152 161
+161 162
+162 163
+163 164
+161 165
+165 166
+166 167
+2 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+169 175
+175 176
+176 177
+177 178
+2 179
+179 180
+180 181
+181 182
+180 183
+183 184
+184 185
+180 186
+186 187
+187 188
+188 189
+0 190
+0 191
+191 192
+0 193
+193 194
+194 195
+194 196
+196 197
+194 198
+198 199
+199 200
+193 201
+201 202
+201 203
+203 204
+201 205
+205 206
+206 207
+
+Renames the virtual volume after an extent migration to maintain the default ViPR naming conventions.

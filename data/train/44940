@@ -1,0 +1,84 @@
+41
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='emitDirect'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='taskId'
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='DEFAULT_STREAM_ID'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='Utils'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='tuple'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='emitDirect'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='taskId'
+28 type (PrimitiveType)
+29 type='INT'
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='tuple'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='List'
+37 typeArguments
+38 typeArgument (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+7 17
+17 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+23 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+34 37
+37 38
+38 39
+39 40
+
+Emits a tuple directly to the specified task id on the default stream. If the target bolt does not subscribe to this bolt using a direct grouping, the tuple will not be sent. If the specified output stream is not declared as direct, or the target bolt subscribes with a non-direct grouping, an error will occur at runtime. The emitted values must be immutable. <p> <p>The default stream must be declared as direct in the topology definition. See OutputDeclarer#declare for how this is done when defining topologies in Java.</p> <p> <p>Note that this method does not use anchors, so downstream failures won't affect the failure status of any spout tuples.</p>

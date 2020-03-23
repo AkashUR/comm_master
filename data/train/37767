@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getWritableDatabase'
+10 name (SimpleName)
+11 identifier='db'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='SQLiteDatabase'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='delete'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='db'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='TABLE_CONNECTIONS'
+26 argument (BinaryExpr)
+27 operator='PLUS'
+28 left (NameExpr)
+29 name (SimpleName)
+30 identifier='_ID'
+31 right (StringLiteralExpr)
+32 value='=?'
+33 argument (ArrayCreationExpr)
+34 elementType (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='String'
+37 initializer (ArrayInitializerExpr)
+38 values
+39 value (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='valueOf'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='String'
+45 arguments
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='persistenceId'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='connection'
+52 levels
+53 level (ArrayCreationLevel)
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='close'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='db'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='deleteConnection'
+64 parameters
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='connection'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Connection'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+24 25
+22 26
+26 27
+26 28
+28 29
+29 30
+26 31
+31 32
+22 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+33 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+0 61
+0 62
+62 63
+0 64
+64 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+
+Deletes a connection from the database

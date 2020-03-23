@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addSynapseGroup'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='synGrp'
+11 statement (ExpressionStmt)
+12 expression (VariableDeclarationExpr)
+13 variables
+14 variable (VariableDeclarator)
+15 initializer (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getSourceNeuronGroup'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='synGrp'
+21 name (SimpleName)
+22 identifier='source'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='NeuronGroup'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getTargetNeuronGroup'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='synGrp'
+36 name (SimpleName)
+37 identifier='target'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='NeuronGroup'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='setSynapseGroupLabel'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='source'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='target'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='synGrp'
+55 argument (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='getLabel'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='source'
+61 argument (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getLabel'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='target'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='addAndLabelSynapseGroup'
+70 parameters
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='synGrp'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='SynapseGroup'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+14 21
+21 22
+14 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+29 36
+36 37
+29 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+45 52
+52 53
+53 54
+45 55
+55 56
+56 57
+55 58
+58 59
+59 60
+45 61
+61 62
+62 63
+61 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+
+Adds an already constructed synapse group to the subnetwork and provides it with an appropriate label.

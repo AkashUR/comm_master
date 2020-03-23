@@ -1,0 +1,140 @@
+69
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='deleteDirectory'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='FileUtils'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='toFile'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='localTempPath'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getTestS3FileTransferRequestParamsDto'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='s3DaoTestHelper'
+27 name (SimpleName)
+28 identifier='s3FileTransferRequestParamsDto'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='S3FileTransferRequestParamsDto'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='setS3KeyPrefix'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='s3FileTransferRequestParamsDto'
+39 arguments
+40 argument (BinaryExpr)
+41 operator='PLUS'
+42 left (NameExpr)
+43 name (SimpleName)
+44 identifier='TEST_S3_KEY_PREFIX'
+45 right (StringLiteralExpr)
+46 value='/'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='deleteDirectory'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='s3Dao'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='s3FileTransferRequestParamsDto'
+58 type (VoidType)
+59 name (SimpleName)
+60 identifier='cleanEnv'
+61 thrownExceptions
+62 thrownException (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='IOException'
+65 annotations
+66 annotation (MarkerAnnotationExpr)
+67 name (Name)
+68 identifier='After'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+20 27
+27 28
+20 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+0 58
+0 59
+59 60
+0 61
+61 62
+62 63
+63 64
+0 65
+65 66
+66 67
+67 68
+
+Cleans up the local temp directory and S3 test path that we are using.

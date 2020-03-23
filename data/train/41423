@@ -1,0 +1,194 @@
+96
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getEndPointsStoragePorts'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='endpoints'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='dbClient'
+17 name (SimpleName)
+18 identifier='remPorts'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='List'
+22 typeArguments
+23 typeArgument (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='StoragePort'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='clearPortAssociations'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='remPorts'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='dbClient'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='handleNetworkUpdated'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='StoragePoolAssociationHelper'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='network'
+48 argument (NullLiteralExpr)
+49 argument (NullLiteralExpr)
+50 argument (NullLiteralExpr)
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='remPorts'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='dbClient'
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='coordinator'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='handleEndpointsRemoved'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='network'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Network'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='endpoints'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Collection'
+78 typeArguments
+79 typeArgument (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='String'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='dbClient'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='DbClient'
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='coordinator'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='CoordinatorClient'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+44 48
+44 49
+44 50
+44 51
+51 52
+52 53
+44 54
+54 55
+55 56
+44 57
+57 58
+58 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+63 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+63 82
+82 83
+82 84
+84 85
+82 86
+86 87
+87 88
+63 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+
+Update the storage ports that correspond to the end points removed from the network to diassociate them from the network and clear their implicit (connected) varay associations.

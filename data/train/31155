@@ -1,0 +1,410 @@
+204
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='mapper'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='readValue'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='mapper'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='{\"value\":{\"a\":123}}'
+29 argument (ClassExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='StringLongMapBean'
+33 name (SimpleName)
+34 identifier='bean'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='StringLongMapBean'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='assertNotNull'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='bean'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='value'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='bean'
+56 name (SimpleName)
+57 identifier='map'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='Map'
+61 typeArguments
+62 typeArgument (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 typeArgument (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='Long'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='assertEquals'
+72 arguments
+73 argument (IntegerLiteralExpr)
+74 value='1'
+75 argument (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='size'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='map'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='assertEquals'
+85 arguments
+86 argument (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='valueOf'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='Long'
+92 arguments
+93 argument (IntegerLiteralExpr)
+94 value='123'
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='get'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='map'
+101 arguments
+102 argument (StringLiteralExpr)
+103 value='a'
+104 statement (ExpressionStmt)
+105 expression (VariableDeclarationExpr)
+106 variables
+107 variable (VariableDeclarator)
+108 initializer (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='readValue'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='mapper'
+114 arguments
+115 argument (StringLiteralExpr)
+116 value='{\"value\":[\"...\"]}'
+117 argument (ClassExpr)
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='StringListBean'
+121 name (SimpleName)
+122 identifier='bean2'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='StringListBean'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='assertNotNull'
+130 arguments
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='bean2'
+134 statement (ExpressionStmt)
+135 expression (VariableDeclarationExpr)
+136 variables
+137 variable (VariableDeclarator)
+138 initializer (FieldAccessExpr)
+139 name (SimpleName)
+140 identifier='value'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='bean2'
+144 name (SimpleName)
+145 identifier='list'
+146 type (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='List'
+149 typeArguments
+150 typeArgument (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='String'
+153 statement (ExpressionStmt)
+154 expression (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='assertSame'
+157 arguments
+158 argument (ClassExpr)
+159 type (ClassOrInterfaceType)
+160 name (SimpleName)
+161 identifier='GenericList'
+162 argument (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='getClass'
+165 scope (NameExpr)
+166 name (SimpleName)
+167 identifier='list'
+168 statement (ExpressionStmt)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='assertEquals'
+172 arguments
+173 argument (IntegerLiteralExpr)
+174 value='1'
+175 argument (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='size'
+178 scope (NameExpr)
+179 name (SimpleName)
+180 identifier='list'
+181 statement (ExpressionStmt)
+182 expression (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='assertEquals'
+185 arguments
+186 argument (StringLiteralExpr)
+187 value='...'
+188 argument (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='get'
+191 scope (NameExpr)
+192 name (SimpleName)
+193 identifier='list'
+194 arguments
+195 argument (IntegerLiteralExpr)
+196 value='0'
+197 type (VoidType)
+198 name (SimpleName)
+199 identifier='testSneakyBeanProperties'
+200 thrownExceptions
+201 thrownException (ClassOrInterfaceType)
+202 name (SimpleName)
+203 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+19 33
+33 34
+19 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+49 56
+56 57
+49 58
+58 59
+59 60
+58 61
+61 62
+62 63
+63 64
+61 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+86 92
+92 93
+93 94
+85 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+114 117
+117 118
+118 119
+119 120
+107 121
+121 122
+107 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+137 144
+144 145
+137 146
+146 147
+147 148
+146 149
+149 150
+150 151
+151 152
+2 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+159 160
+160 161
+157 162
+162 163
+163 164
+162 165
+165 166
+166 167
+2 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+172 175
+175 176
+176 177
+175 178
+178 179
+179 180
+2 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+185 188
+188 189
+189 190
+188 191
+191 192
+192 193
+188 194
+194 195
+195 196
+0 197
+0 198
+198 199
+0 200
+200 201
+201 202
+202 203
+
+Looks like type handling actually differs for properties, too.

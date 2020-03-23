@@ -1,0 +1,90 @@
+44
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 statement (ExpressionStmt)
+6 expression (MethodCallExpr)
+7 name (SimpleName)
+8 identifier='setWhitelisting'
+9 scope (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='config'
+12 scope (ThisExpr)
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='isWhitelist'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='setBlacklisting'
+21 scope (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='config'
+24 scope (ThisExpr)
+25 arguments
+26 argument (UnaryExpr)
+27 operator='LOGICAL_COMPLEMENT'
+28 expression (NameExpr)
+29 name (SimpleName)
+30 identifier='isWhitelist'
+31 name (SimpleName)
+32 identifier='SafeObjectInputStream'
+33 parameters
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='isWhitelist'
+38 type (PrimitiveType)
+39 type='BOOLEAN'
+40 thrownExceptions
+41 thrownException (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+9 12
+6 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+18 25
+25 26
+26 27
+26 28
+28 29
+29 30
+0 31
+31 32
+0 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+0 40
+40 41
+41 42
+42 43
+
+Construct a new SafeObjectInputStream, specifying whether it is in whitelisting mode or blacklisting mode.  If whitelisting, only classes that are added to the whitelist (via addToWhitelist()) will be allowed to deserialize.  If it's in blacklist mode, only classes <i>not</i> on the blacklist will be allowed to deserialize.

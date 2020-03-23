@@ -1,0 +1,294 @@
+146
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (NameExpr)
+9 name (SimpleName)
+10 identifier='addr'
+11 type (PrimitiveType)
+12 type='INT'
+13 name (SimpleName)
+14 identifier='address'
+15 type (PrimitiveType)
+16 type='INT'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (ArrayCreationExpr)
+22 elementType (PrimitiveType)
+23 type='BYTE'
+24 levels
+25 level (ArrayCreationLevel)
+26 dimension (IntegerLiteralExpr)
+27 value='4'
+28 name (SimpleName)
+29 identifier='ipaddr'
+30 type (ArrayType)
+31 origin='TYPE'
+32 componentType (PrimitiveType)
+33 type='BYTE'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (ArrayAccessExpr)
+38 index (IntegerLiteralExpr)
+39 value='0'
+40 name (NameExpr)
+41 name (SimpleName)
+42 identifier='ipaddr'
+43 value (CastExpr)
+44 expression (EnclosedExpr)
+45 inner (BinaryExpr)
+46 operator='BINARY_AND'
+47 left (EnclosedExpr)
+48 inner (BinaryExpr)
+49 operator='UNSIGNED_RIGHT_SHIFT'
+50 left (NameExpr)
+51 name (SimpleName)
+52 identifier='address'
+53 right (IntegerLiteralExpr)
+54 value='24'
+55 right (IntegerLiteralExpr)
+56 value='0xFF'
+57 type (PrimitiveType)
+58 type='BYTE'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (ArrayAccessExpr)
+63 index (IntegerLiteralExpr)
+64 value='1'
+65 name (NameExpr)
+66 name (SimpleName)
+67 identifier='ipaddr'
+68 value (CastExpr)
+69 expression (EnclosedExpr)
+70 inner (BinaryExpr)
+71 operator='BINARY_AND'
+72 left (EnclosedExpr)
+73 inner (BinaryExpr)
+74 operator='UNSIGNED_RIGHT_SHIFT'
+75 left (NameExpr)
+76 name (SimpleName)
+77 identifier='address'
+78 right (IntegerLiteralExpr)
+79 value='16'
+80 right (IntegerLiteralExpr)
+81 value='0xFF'
+82 type (PrimitiveType)
+83 type='BYTE'
+84 statement (ExpressionStmt)
+85 expression (AssignExpr)
+86 operator='ASSIGN'
+87 target (ArrayAccessExpr)
+88 index (IntegerLiteralExpr)
+89 value='2'
+90 name (NameExpr)
+91 name (SimpleName)
+92 identifier='ipaddr'
+93 value (CastExpr)
+94 expression (EnclosedExpr)
+95 inner (BinaryExpr)
+96 operator='BINARY_AND'
+97 left (EnclosedExpr)
+98 inner (BinaryExpr)
+99 operator='UNSIGNED_RIGHT_SHIFT'
+100 left (NameExpr)
+101 name (SimpleName)
+102 identifier='address'
+103 right (IntegerLiteralExpr)
+104 value='8'
+105 right (IntegerLiteralExpr)
+106 value='0xFF'
+107 type (PrimitiveType)
+108 type='BYTE'
+109 statement (ExpressionStmt)
+110 expression (AssignExpr)
+111 operator='ASSIGN'
+112 target (ArrayAccessExpr)
+113 index (IntegerLiteralExpr)
+114 value='3'
+115 name (NameExpr)
+116 name (SimpleName)
+117 identifier='ipaddr'
+118 value (CastExpr)
+119 expression (EnclosedExpr)
+120 inner (BinaryExpr)
+121 operator='BINARY_AND'
+122 left (NameExpr)
+123 name (SimpleName)
+124 identifier='address'
+125 right (IntegerLiteralExpr)
+126 value='0xFF'
+127 type (PrimitiveType)
+128 type='BYTE'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='buildFromByteArray'
+133 arguments
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='ipaddr'
+137 name (SimpleName)
+138 identifier='SnmpIpAddress'
+139 parameters
+140 parameter (Parameter)
+141 isVarArgs='false'
+142 name (SimpleName)
+143 identifier='addr'
+144 type (PrimitiveType)
+145 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+6 13
+13 14
+6 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+20 28
+28 29
+20 30
+30 31
+30 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+37 40
+40 41
+41 42
+35 43
+43 44
+44 45
+45 46
+45 47
+47 48
+48 49
+48 50
+50 51
+51 52
+48 53
+53 54
+45 55
+55 56
+43 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+62 65
+65 66
+66 67
+60 68
+68 69
+69 70
+70 71
+70 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+70 80
+80 81
+68 82
+82 83
+2 84
+84 85
+85 86
+85 87
+87 88
+88 89
+87 90
+90 91
+91 92
+85 93
+93 94
+94 95
+95 96
+95 97
+97 98
+98 99
+98 100
+100 101
+101 102
+98 103
+103 104
+95 105
+105 106
+93 107
+107 108
+2 109
+109 110
+110 111
+110 112
+112 113
+113 114
+112 115
+115 116
+116 117
+110 118
+118 119
+119 120
+120 121
+120 122
+122 123
+123 124
+120 125
+125 126
+118 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+135 136
+0 137
+137 138
+0 139
+139 140
+140 141
+140 142
+142 143
+140 144
+144 145
+
+Constructs a new <CODE>SnmpIpAddress</CODE> from the specified long value.

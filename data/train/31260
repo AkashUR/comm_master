@@ -1,0 +1,308 @@
+153
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='randomTerm'
+10 name (SimpleName)
+11 identifier='t1'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Term'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='randomTerm'
+22 name (SimpleName)
+23 identifier='t2'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Term'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='Builder'
+35 scope (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='BooleanQuery'
+38 name (SimpleName)
+39 identifier='q1'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Builder'
+43 scope (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='BooleanQuery'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='add'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='q1'
+53 arguments
+54 argument (ObjectCreationExpr)
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='TermQuery'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='t1'
+62 argument (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='SHOULD'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='Occur'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='add'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='q1'
+75 arguments
+76 argument (ObjectCreationExpr)
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='TermQuery'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='t2'
+84 argument (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='SHOULD'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='Occur'
+90 statement (ExpressionStmt)
+91 expression (VariableDeclarationExpr)
+92 variables
+93 variable (VariableDeclarator)
+94 initializer (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='spanQuery'
+97 arguments
+98 argument (ObjectCreationExpr)
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='SpanOrQuery'
+102 arguments
+103 argument (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='spanQuery'
+106 arguments
+107 argument (ObjectCreationExpr)
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='SpanTermQuery'
+111 arguments
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='t1'
+115 argument (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='spanQuery'
+118 arguments
+119 argument (ObjectCreationExpr)
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='SpanTermQuery'
+123 arguments
+124 argument (NameExpr)
+125 name (SimpleName)
+126 identifier='t2'
+127 name (SimpleName)
+128 identifier='q2'
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='SpanQuery'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='assertSameSet'
+136 arguments
+137 argument (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='build'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='q1'
+143 argument (NameExpr)
+144 name (SimpleName)
+145 identifier='q2'
+146 type (VoidType)
+147 name (SimpleName)
+148 identifier='testSpanOrVersusBooleanTerm'
+149 thrownExceptions
+150 thrownException (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+18 22
+22 23
+18 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+30 38
+38 39
+30 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+60 61
+53 62
+62 63
+63 64
+62 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+82 83
+75 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+99 100
+100 101
+98 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+108 109
+109 110
+107 111
+111 112
+112 113
+113 114
+102 115
+115 116
+116 117
+115 118
+118 119
+119 120
+120 121
+121 122
+119 123
+123 124
+124 125
+125 126
+93 127
+127 128
+93 129
+129 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+136 143
+143 144
+144 145
+0 146
+0 147
+147 148
+0 149
+149 150
+150 151
+151 152
+
+SpanOrQuery(A, B) = (A B)

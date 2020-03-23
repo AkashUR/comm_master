@@ -1,0 +1,158 @@
+78
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='idatCw'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='maxBlockLen'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='totalLen'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='deflater'
+21 scope (ThisExpr)
+22 value (ConditionalExpr)
+23 condition (BinaryExpr)
+24 operator='EQUALS'
+25 left (NameExpr)
+26 name (SimpleName)
+27 identifier='def'
+28 right (NullLiteralExpr)
+29 elseExpr (NameExpr)
+30 name (SimpleName)
+31 identifier='def'
+32 thenExpr (ObjectCreationExpr)
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Deflater'
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='deflaterIsOwn'
+42 scope (ThisExpr)
+43 value (BinaryExpr)
+44 operator='EQUALS'
+45 left (NameExpr)
+46 name (SimpleName)
+47 identifier='def'
+48 right (NullLiteralExpr)
+49 name (SimpleName)
+50 identifier='CompressorStreamDeflater'
+51 parameters
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='idatCw'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='IDatChunkWriter'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='maxBlockLen'
+63 type (PrimitiveType)
+64 type='INT'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='totalLen'
+69 type (PrimitiveType)
+70 type='LONG'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='def'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Deflater'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+18 21
+16 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+22 29
+29 30
+30 31
+22 32
+32 33
+33 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+39 42
+37 43
+43 44
+43 45
+45 46
+46 47
+43 48
+0 49
+49 50
+0 51
+51 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+51 59
+59 60
+59 61
+61 62
+59 63
+63 64
+51 65
+65 66
+65 67
+67 68
+65 69
+69 70
+51 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+
+if a deflater is passed, it must be already reset. It will not be released on close

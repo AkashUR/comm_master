@@ -1,0 +1,36 @@
+17
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NullLiteralExpr)
+7 argument (NullLiteralExpr)
+8 name (SimpleName)
+9 identifier='GraphMLReader'
+10 thrownExceptions
+11 thrownException (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='ParserConfigurationException'
+14 thrownException (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='SAXException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+5 7
+0 8
+8 9
+0 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+
+Creates a <code>GraphMLReader</code> instance that assigns the vertex and edge <code>id</code> strings to be the vertex and edge objects, as well as their IDs. Note that this requires that (a) each edge have a valid ID, which is not normally a requirement for edges in GraphML, and (b) that the vertex and edge types be assignment-compatible with <code>String</code>.

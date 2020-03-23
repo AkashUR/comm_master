@@ -1,0 +1,242 @@
+120
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='DATABASE_URL'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='DatabaseMemory'
+12 value (StringLiteralExpr)
+13 value='jdbc:derby:top1000words;create=true'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='TEST'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='DatabaseMemory'
+23 value (BooleanLiteralExpr)
+24 value='true'
+25 statement (ExpressionStmt)
+26 expression (AssignExpr)
+27 operator='ASSIGN'
+28 target (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='RECREATE_DATABASE'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='DatabaseMemory'
+34 value (BooleanLiteralExpr)
+35 value='true'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='createInstance'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='Bot'
+46 name (SimpleName)
+47 identifier='bot'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Bot'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setDebugLevel'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='bot'
+58 arguments
+59 argument (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='OFF'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='Level'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getSense'
+72 scope (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='awareness'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='bot'
+78 arguments
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getName'
+82 scope (ClassExpr)
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='Http'
+86 name (SimpleName)
+87 identifier='sense'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='Sense'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='input'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='sense'
+98 arguments
+99 argument (ObjectCreationExpr)
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='URL'
+103 arguments
+104 argument (StringLiteralExpr)
+105 value='http://en.wiktionary.org/wiki/Category:1000_English_basic_words'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='shutdown'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='bot'
+113 type (VoidType)
+114 name (SimpleName)
+115 identifier='test1000Words'
+116 thrownExceptions
+117 thrownException (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+17 20
+20 21
+21 22
+15 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+28 31
+31 32
+32 33
+26 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+39 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+69 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+68 86
+86 87
+68 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+100 101
+101 102
+99 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+0 113
+0 114
+114 115
+0 116
+116 117
+117 118
+118 119
+
+Test loading 1000 words from Wiktionary.

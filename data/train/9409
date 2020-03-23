@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (WhileStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='step'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='env'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='setStatus'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='simPaneCtrl'
+20 arguments
+21 argument (BinaryExpr)
+22 operator='PLUS'
+23 left (StringLiteralExpr)
+24 value='Performance='
+25 right (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getPerformanceMeasure'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='env'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='agent'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='waitAfterStep'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='simPaneCtrl'
+42 condition (BinaryExpr)
+43 operator='AND'
+44 left (UnaryExpr)
+45 operator='LOGICAL_COMPLEMENT'
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='isDone'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='env'
+52 right (UnaryExpr)
+53 operator='LOGICAL_COMPLEMENT'
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='currIsCanceled'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='CancelableThread'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='notify'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='envViewCtrl'
+67 arguments
+68 argument (BinaryExpr)
+69 operator='PLUS'
+70 left (StringLiteralExpr)
+71 value='Performance='
+72 right (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getPerformanceMeasure'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='env'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='agent'
+82 type (VoidType)
+83 name (SimpleName)
+84 identifier='simulate'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+5 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+5 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+3 42
+42 43
+42 44
+44 45
+44 46
+46 47
+47 48
+46 49
+49 50
+50 51
+42 52
+52 53
+52 54
+54 55
+55 56
+54 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+0 82
+0 83
+83 84
+
+Starts the experiment.

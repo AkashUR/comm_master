@@ -1,0 +1,196 @@
+97
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='gossipManager'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='RandomGossipManager'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='cluster'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='ipAddress'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='port'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='id'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='settings'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='gossipMembers'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='listener'
+35 name (SimpleName)
+36 identifier='GossipService'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='cluster'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='String'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='ipAddress'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='port'
+56 type (PrimitiveType)
+57 type='INT'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='id'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='gossipMembers'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='List'
+72 typeArguments
+73 typeArgument (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='GossipMember'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='settings'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='GossipSettings'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='listener'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='GossipListener'
+90 thrownExceptions
+91 thrownException (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='InterruptedException'
+94 thrownException (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='UnknownHostException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+13 20
+20 21
+21 22
+13 23
+23 24
+24 25
+13 26
+26 27
+27 28
+13 29
+29 30
+30 31
+13 32
+32 33
+33 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+37 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+37 52
+52 53
+52 54
+54 55
+52 56
+56 57
+37 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+37 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+69 72
+72 73
+73 74
+74 75
+37 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+37 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+0 90
+90 91
+91 92
+92 93
+90 94
+94 95
+95 96
+
+Setup the client's lists, gossiping parameters, and parse the startup config file.

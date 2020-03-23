@@ -1,0 +1,242 @@
+120
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='bodyA'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='b1'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='bodyB'
+18 value (NameExpr)
+19 name (SimpleName)
+20 identifier='b2'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='set'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='localAnchorA'
+28 arguments
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getLocalPoint'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='bodyA'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='anchor1'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='set'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='localAnchorB'
+46 arguments
+47 argument (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getLocalPoint'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='bodyB'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='anchor2'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='sub'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='anchor2'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='anchor1'
+71 name (SimpleName)
+72 identifier='d'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='Vec2'
+76 statement (ExpressionStmt)
+77 expression (AssignExpr)
+78 operator='ASSIGN'
+79 target (NameExpr)
+80 name (SimpleName)
+81 identifier='length'
+82 value (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='length'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='d'
+88 type (VoidType)
+89 name (SimpleName)
+90 identifier='initialize'
+91 parameters
+92 parameter (Parameter)
+93 isVarArgs='false'
+94 name (SimpleName)
+95 identifier='b1'
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='Body'
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='b2'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='Body'
+106 parameter (Parameter)
+107 isVarArgs='false'
+108 name (SimpleName)
+109 identifier='anchor1'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='Vec2'
+113 parameter (Parameter)
+114 isVarArgs='false'
+115 name (SimpleName)
+116 identifier='anchor2'
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='Vec2'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+60 71
+71 72
+60 73
+73 74
+74 75
+2 76
+76 77
+77 78
+77 79
+79 80
+80 81
+77 82
+82 83
+83 84
+82 85
+85 86
+86 87
+0 88
+0 89
+89 90
+0 91
+91 92
+92 93
+92 94
+94 95
+92 96
+96 97
+97 98
+91 99
+99 100
+99 101
+101 102
+99 103
+103 104
+104 105
+91 106
+106 107
+106 108
+108 109
+106 110
+110 111
+111 112
+91 113
+113 114
+113 115
+115 116
+113 117
+117 118
+118 119
+
+Initialize the bodies, anchors, and length using the world anchors.

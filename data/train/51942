@@ -1,0 +1,34 @@
+16
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='formatterStorage'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='ThreadLocalFormatterStorage'
+13 type (VoidType)
+14 name (SimpleName)
+15 identifier='reset'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+0 13
+0 14
+14 15
+
+Reset thread local variables.  For example this can be called when an application is 'undeployed'. This was done to fix a memory leak in tomcat that happened when the app context was destroyed. The context couldn't be properly destroyed as objects were still in the threadlocal map.

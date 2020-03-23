@@ -1,0 +1,136 @@
+67
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='configureByFile'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='myFixture'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (StringLiteralExpr)
+16 value='intentions/before'
+17 right (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getTestName'
+20 arguments
+21 argument (BooleanLiteralExpr)
+22 value='false'
+23 right (StringLiteralExpr)
+24 value='.py'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='filterAvailableIntentions'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='myFixture'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='hint'
+39 name (SimpleName)
+40 identifier='ints'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='List'
+44 typeArguments
+45 typeArgument (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='IntentionAction'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='assertEmpty'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='ints'
+56 type (VoidType)
+57 name (SimpleName)
+58 identifier='doNegativeTest'
+59 parameters
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='hint'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+13 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+11 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+28 39
+39 40
+28 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+0 56
+0 57
+57 58
+0 59
+59 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+
+Ensures that intention with given hint <i>is not</i> active.

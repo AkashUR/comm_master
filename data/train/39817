@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='message'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Debug'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='drawingtool'
+13 argument (StringLiteralExpr)
+14 value='OMDrawingTool.showPalette()'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='resetGUIWhenDeactivated'
+21 value (BooleanLiteralExpr)
+22 value='true'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getGUI'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='repaint'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (BinaryExpr)
+36 operator='OR'
+37 left (UnaryExpr)
+38 operator='LOGICAL_COMPLEMENT'
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getUseAsTool'
+42 right (EnclosedExpr)
+43 inner (BinaryExpr)
+44 operator='AND'
+45 left (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='isMask'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='SHOW_GUI_BEHAVIOR_MASK'
+52 right (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getUseAsTool'
+55 name (SimpleName)
+56 identifier='shouldBeVisible'
+57 type (PrimitiveType)
+58 type='BOOLEAN'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='setVisible'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='shouldBeVisible'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='showPalette'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+2 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+35 37
+37 38
+37 39
+39 40
+40 41
+35 42
+42 43
+43 44
+43 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+43 52
+52 53
+53 54
+34 55
+55 56
+34 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+0 67
+0 68
+68 69
+
+Display the palette.

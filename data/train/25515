@@ -1,0 +1,616 @@
+307
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='RandomIndexWriter'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='random'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='dir'
+30 name (SimpleName)
+31 identifier='writer'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='RandomIndexWriter'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Document'
+43 name (SimpleName)
+44 identifier='doc'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Document'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='add'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='doc'
+55 arguments
+56 argument (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='newStringField'
+59 arguments
+60 argument (StringLiteralExpr)
+61 value='value'
+62 argument (StringLiteralExpr)
+63 value='foo'
+64 argument (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='NO'
+67 scope (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='Store'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='Field'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='addDocument'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='writer'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='doc'
+84 statement (ExpressionStmt)
+85 expression (AssignExpr)
+86 operator='ASSIGN'
+87 target (NameExpr)
+88 name (SimpleName)
+89 identifier='doc'
+90 value (ObjectCreationExpr)
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='Document'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='add'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='doc'
+101 arguments
+102 argument (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='newStringField'
+105 arguments
+106 argument (StringLiteralExpr)
+107 value='value'
+108 argument (StringLiteralExpr)
+109 value='bar'
+110 argument (FieldAccessExpr)
+111 name (SimpleName)
+112 identifier='NO'
+113 scope (FieldAccessExpr)
+114 name (SimpleName)
+115 identifier='Store'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='Field'
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='addDocument'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='writer'
+126 arguments
+127 argument (NameExpr)
+128 name (SimpleName)
+129 identifier='doc'
+130 statement (ExpressionStmt)
+131 expression (VariableDeclarationExpr)
+132 variables
+133 variable (VariableDeclarator)
+134 initializer (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='getReader'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='writer'
+140 name (SimpleName)
+141 identifier='ir'
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='IndexReader'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='close'
+149 scope (NameExpr)
+150 name (SimpleName)
+151 identifier='writer'
+152 statement (ExpressionStmt)
+153 expression (VariableDeclarationExpr)
+154 variables
+155 variable (VariableDeclarator)
+156 initializer (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='newSearcher'
+159 arguments
+160 argument (NameExpr)
+161 name (SimpleName)
+162 identifier='ir'
+163 name (SimpleName)
+164 identifier='searcher'
+165 type (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='IndexSearcher'
+168 statement (ExpressionStmt)
+169 expression (VariableDeclarationExpr)
+170 variables
+171 variable (VariableDeclarator)
+172 initializer (ObjectCreationExpr)
+173 type (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='Sort'
+176 arguments
+177 argument (ObjectCreationExpr)
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='SortField'
+181 arguments
+182 argument (NullLiteralExpr)
+183 argument (FieldAccessExpr)
+184 name (SimpleName)
+185 identifier='DOC'
+186 scope (FieldAccessExpr)
+187 name (SimpleName)
+188 identifier='Type'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='SortField'
+192 argument (BooleanLiteralExpr)
+193 value='true'
+194 name (SimpleName)
+195 identifier='sort'
+196 type (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='Sort'
+199 statement (ExpressionStmt)
+200 expression (VariableDeclarationExpr)
+201 variables
+202 variable (VariableDeclarator)
+203 initializer (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='search'
+206 scope (NameExpr)
+207 name (SimpleName)
+208 identifier='searcher'
+209 arguments
+210 argument (ObjectCreationExpr)
+211 type (ClassOrInterfaceType)
+212 name (SimpleName)
+213 identifier='MatchAllDocsQuery'
+214 argument (IntegerLiteralExpr)
+215 value='10'
+216 argument (NameExpr)
+217 name (SimpleName)
+218 identifier='sort'
+219 name (SimpleName)
+220 identifier='td'
+221 type (ClassOrInterfaceType)
+222 name (SimpleName)
+223 identifier='TopDocs'
+224 statement (ExpressionStmt)
+225 expression (MethodCallExpr)
+226 name (SimpleName)
+227 identifier='assertEquals'
+228 arguments
+229 argument (IntegerLiteralExpr)
+230 value='2'
+231 argument (FieldAccessExpr)
+232 name (SimpleName)
+233 identifier='totalHits'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='td'
+237 statement (ExpressionStmt)
+238 expression (MethodCallExpr)
+239 name (SimpleName)
+240 identifier='assertEquals'
+241 arguments
+242 argument (IntegerLiteralExpr)
+243 value='1'
+244 argument (FieldAccessExpr)
+245 name (SimpleName)
+246 identifier='doc'
+247 scope (ArrayAccessExpr)
+248 index (IntegerLiteralExpr)
+249 value='0'
+250 name (FieldAccessExpr)
+251 name (SimpleName)
+252 identifier='scoreDocs'
+253 scope (NameExpr)
+254 name (SimpleName)
+255 identifier='td'
+256 statement (ExpressionStmt)
+257 expression (MethodCallExpr)
+258 name (SimpleName)
+259 identifier='assertEquals'
+260 arguments
+261 argument (IntegerLiteralExpr)
+262 value='0'
+263 argument (FieldAccessExpr)
+264 name (SimpleName)
+265 identifier='doc'
+266 scope (ArrayAccessExpr)
+267 index (IntegerLiteralExpr)
+268 value='1'
+269 name (FieldAccessExpr)
+270 name (SimpleName)
+271 identifier='scoreDocs'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='td'
+275 statement (ExpressionStmt)
+276 expression (MethodCallExpr)
+277 name (SimpleName)
+278 identifier='checkReader'
+279 scope (NameExpr)
+280 name (SimpleName)
+281 identifier='TestUtil'
+282 arguments
+283 argument (NameExpr)
+284 name (SimpleName)
+285 identifier='ir'
+286 statement (ExpressionStmt)
+287 expression (MethodCallExpr)
+288 name (SimpleName)
+289 identifier='close'
+290 scope (NameExpr)
+291 name (SimpleName)
+292 identifier='ir'
+293 statement (ExpressionStmt)
+294 expression (MethodCallExpr)
+295 name (SimpleName)
+296 identifier='close'
+297 scope (NameExpr)
+298 name (SimpleName)
+299 identifier='dir'
+300 type (VoidType)
+301 name (SimpleName)
+302 identifier='testFieldDocReverse'
+303 thrownExceptions
+304 thrownException (ClassOrInterfaceType)
+305 name (SimpleName)
+306 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+18 30
+30 31
+18 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+38 43
+43 44
+38 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+59 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+2 84
+84 85
+85 86
+85 87
+87 88
+88 89
+85 90
+90 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+105 108
+108 109
+105 110
+110 111
+111 112
+110 113
+113 114
+114 115
+113 116
+116 117
+117 118
+2 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+133 140
+140 141
+133 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+2 152
+152 153
+153 154
+154 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+161 162
+155 163
+163 164
+155 165
+165 166
+166 167
+2 168
+168 169
+169 170
+170 171
+171 172
+172 173
+173 174
+174 175
+172 176
+176 177
+177 178
+178 179
+179 180
+177 181
+181 182
+181 183
+183 184
+184 185
+183 186
+186 187
+187 188
+186 189
+189 190
+190 191
+181 192
+192 193
+171 194
+194 195
+171 196
+196 197
+197 198
+2 199
+199 200
+200 201
+201 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+203 209
+209 210
+210 211
+211 212
+212 213
+209 214
+214 215
+209 216
+216 217
+217 218
+202 219
+219 220
+202 221
+221 222
+222 223
+2 224
+224 225
+225 226
+226 227
+225 228
+228 229
+229 230
+228 231
+231 232
+232 233
+231 234
+234 235
+235 236
+2 237
+237 238
+238 239
+239 240
+238 241
+241 242
+242 243
+241 244
+244 245
+245 246
+244 247
+247 248
+248 249
+247 250
+250 251
+251 252
+250 253
+253 254
+254 255
+2 256
+256 257
+257 258
+258 259
+257 260
+260 261
+261 262
+260 263
+263 264
+264 265
+263 266
+266 267
+267 268
+266 269
+269 270
+270 271
+269 272
+272 273
+273 274
+2 275
+275 276
+276 277
+277 278
+276 279
+279 280
+280 281
+276 282
+282 283
+283 284
+284 285
+2 286
+286 287
+287 288
+288 289
+287 290
+290 291
+291 292
+2 293
+293 294
+294 295
+295 296
+294 297
+297 298
+298 299
+0 300
+0 301
+301 302
+0 303
+303 304
+304 305
+305 306
+
+Tests sorting on reverse internal docid order

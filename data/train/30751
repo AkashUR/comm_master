@@ -1,0 +1,342 @@
+170
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='traceDebug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='service'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='TAG'
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (BinaryExpr)
+17 operator='PLUS'
+18 left (BinaryExpr)
+19 operator='PLUS'
+20 left (BinaryExpr)
+21 operator='PLUS'
+22 left (StringLiteralExpr)
+23 value='messageArrived('
+24 right (NameExpr)
+25 name (SimpleName)
+26 identifier='topic'
+27 right (StringLiteralExpr)
+28 value=',{'
+29 right (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='toString'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='message'
+35 right (StringLiteralExpr)
+36 value='})'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='storeArrived'
+44 scope (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='messageStore'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='service'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='clientHandle'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='topic'
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='message'
+60 name (SimpleName)
+61 identifier='messageId'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='messageToBundle'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='messageId'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='topic'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='message'
+82 name (SimpleName)
+83 identifier='resultBundle'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Bundle'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='putString'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='resultBundle'
+94 arguments
+95 argument (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='CALLBACK_ACTION'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='MqttServiceConstants'
+101 argument (FieldAccessExpr)
+102 name (SimpleName)
+103 identifier='MESSAGE_ARRIVED_ACTION'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='MqttServiceConstants'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='putString'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='resultBundle'
+114 arguments
+115 argument (FieldAccessExpr)
+116 name (SimpleName)
+117 identifier='CALLBACK_MESSAGE_ID'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='MqttServiceConstants'
+121 argument (NameExpr)
+122 name (SimpleName)
+123 identifier='messageId'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='callbackToActivity'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='service'
+131 arguments
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='clientHandle'
+135 argument (FieldAccessExpr)
+136 name (SimpleName)
+137 identifier='OK'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='Status'
+141 argument (NameExpr)
+142 name (SimpleName)
+143 identifier='resultBundle'
+144 type (VoidType)
+145 name (SimpleName)
+146 identifier='messageArrived'
+147 parameters
+148 parameter (Parameter)
+149 isVarArgs='false'
+150 name (SimpleName)
+151 identifier='topic'
+152 type (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='String'
+155 parameter (Parameter)
+156 isVarArgs='false'
+157 name (SimpleName)
+158 identifier='message'
+159 type (ClassOrInterfaceType)
+160 name (SimpleName)
+161 identifier='MqttMessage'
+162 thrownExceptions
+163 thrownException (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='Exception'
+166 annotations
+167 annotation (MarkerAnnotationExpr)
+168 name (Name)
+169 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+14 16
+16 17
+16 18
+18 19
+18 20
+20 21
+20 22
+22 23
+20 24
+24 25
+25 26
+18 27
+27 28
+16 29
+29 30
+30 31
+29 32
+32 33
+33 34
+14 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+41 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+50 57
+57 58
+58 59
+40 60
+60 61
+40 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+74 75
+72 76
+76 77
+77 78
+72 79
+79 80
+80 81
+68 82
+82 83
+68 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+94 101
+101 102
+102 103
+101 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+114 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+133 134
+131 135
+135 136
+136 137
+135 138
+138 139
+139 140
+131 141
+141 142
+142 143
+0 144
+0 145
+145 146
+0 147
+147 148
+148 149
+148 150
+150 151
+148 152
+152 153
+153 154
+147 155
+155 156
+155 157
+157 158
+155 159
+159 160
+160 161
+0 162
+162 163
+163 164
+164 165
+0 166
+166 167
+167 168
+168 169
+
+Callback when a message is received

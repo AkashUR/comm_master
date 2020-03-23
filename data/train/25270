@@ -1,0 +1,66 @@
+32
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='resourceId'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='resources'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='apis'
+13 type (VoidType)
+14 name (SimpleName)
+15 identifier='configure'
+16 parameters
+17 parameter (Parameter)
+18 isVarArgs='false'
+19 name (SimpleName)
+20 identifier='resources'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='ResourceServerSecurityConfigurer'
+24 thrownExceptions
+25 thrownException (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Exception'
+28 annotations
+29 annotation (MarkerAnnotationExpr)
+30 name (Name)
+31 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+0 13
+0 14
+14 15
+0 16
+16 17
+17 18
+17 19
+19 20
+17 21
+21 22
+22 23
+0 24
+24 25
+25 26
+26 27
+0 28
+28 29
+29 30
+30 31
+
+Id of the resource that you are letting the client have access to. Supposing you have another api ("say api2"), then you can customize the access within resource server to define what api is for what resource id. <br> <br> So suppose you have 2 APIs, then you can define 2 resource servers. <ol> <li>Client 1 has been configured for access to resourceid1, so he can only access "api1" if the resource server configures the resourceid to "api1".</li> <li>Client 1 can't access resource server 2 since it has configured the resource id to "api2" </li> </ol>

@@ -1,0 +1,240 @@
+119
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='m'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='enableDefaultTyping'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='m'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Jackson417Bean'
+31 name (SimpleName)
+32 identifier='input'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Jackson417Bean'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='writeValueAsString'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='m'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='input'
+50 name (SimpleName)
+51 identifier='json'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='readValue'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='m'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='json'
+69 argument (ClassExpr)
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Jackson417Bean'
+73 name (SimpleName)
+74 identifier='result'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Jackson417Bean'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='assertEquals'
+82 arguments
+83 argument (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='foo'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='input'
+89 argument (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='foo'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='result'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='assertEquals'
+99 arguments
+100 argument (FieldAccessExpr)
+101 name (SimpleName)
+102 identifier='bar'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='input'
+106 argument (FieldAccessExpr)
+107 name (SimpleName)
+108 identifier='bar'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='result'
+112 type (VoidType)
+113 name (SimpleName)
+114 identifier='test417'
+115 thrownExceptions
+116 thrownException (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+26 31
+31 32
+26 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+39 50
+50 51
+39 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+71 72
+58 73
+73 74
+58 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+82 89
+89 90
+90 91
+89 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+99 106
+106 107
+107 108
+106 109
+109 110
+110 111
+0 112
+0 113
+113 114
+0 115
+115 116
+116 117
+117 118
+
+Loosely scalar; for [JACKSON-417]

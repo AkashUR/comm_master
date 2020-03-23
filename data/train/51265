@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForeachStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (VariableDeclarationExpr)
+8 variables
+9 variable (VariableDeclarator)
+10 initializer (CastExpr)
+11 expression (NameExpr)
+12 name (SimpleName)
+13 identifier='obj'
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='Entry'
+17 name (SimpleName)
+18 identifier='ent'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Entry'
+22 typeArguments
+23 typeArgument (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='String'
+26 typeArgument (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Integer'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='put'
+33 scope (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='results'
+36 scope (ThisExpr)
+37 arguments
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getKey'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='ent'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getValue'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='ent'
+50 iterable (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='entrySet'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='rslts'
+56 variable (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 name (SimpleName)
+60 identifier='obj'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='Object'
+64 type (VoidType)
+65 name (SimpleName)
+66 identifier='addResults'
+67 parameters
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='rslts'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Map'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+9 17
+17 18
+9 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+5 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+30 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+37 44
+44 45
+45 46
+44 47
+47 48
+48 49
+3 50
+50 51
+51 52
+50 53
+53 54
+54 55
+3 56
+56 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+0 64
+0 65
+65 66
+0 67
+67 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+
+Adds a results map (mostly a bucket index lookup results) to the "this" IndexInfo.

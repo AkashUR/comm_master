@@ -1,0 +1,220 @@
+109
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='getKind'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='type'
+10 entries
+11 entrie (SwitchEntryStmt)
+12 label (NameExpr)
+13 name (SimpleName)
+14 identifier='BYTE'
+15 entrie (SwitchEntryStmt)
+16 label (NameExpr)
+17 name (SimpleName)
+18 identifier='SHORT'
+19 entrie (SwitchEntryStmt)
+20 label (NameExpr)
+21 name (SimpleName)
+22 identifier='INT'
+23 entrie (SwitchEntryStmt)
+24 label (NameExpr)
+25 name (SimpleName)
+26 identifier='LONG'
+27 entrie (SwitchEntryStmt)
+28 label (NameExpr)
+29 name (SimpleName)
+30 identifier='FLOAT'
+31 entrie (SwitchEntryStmt)
+32 label (NameExpr)
+33 name (SimpleName)
+34 identifier='DOUBLE'
+35 entrie (SwitchEntryStmt)
+36 label (NameExpr)
+37 name (SimpleName)
+38 identifier='CHAR'
+39 statements
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='QualifierDefaults'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='elements'
+52 argument (ThisExpr)
+53 name (SimpleName)
+54 identifier='defaults'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='QualifierDefaults'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='addCheckedCodeDefault'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='defaults'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='UNKNOWN_SIGNEDNESS'
+69 argument (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='LOCAL_VARIABLE'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='TypeUseLocation'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='annotate'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='defaults'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='tree'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='type'
+89 statement (BreakStmt)
+90 entrie (SwitchEntryStmt)
+91 type (VoidType)
+92 name (SimpleName)
+93 identifier='addUnknownSignednessToSomeLocals'
+94 parameters
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='tree'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='Tree'
+102 parameter (Parameter)
+103 isVarArgs='false'
+104 name (SimpleName)
+105 identifier='type'
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='AnnotatedTypeMirror'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+3 10
+10 11
+11 12
+12 13
+13 14
+10 15
+15 16
+16 17
+17 18
+10 19
+19 20
+20 21
+21 22
+10 23
+23 24
+24 25
+25 26
+10 27
+27 28
+28 29
+29 30
+10 31
+31 32
+32 33
+33 34
+10 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+48 52
+43 53
+53 54
+43 55
+55 56
+56 57
+39 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+69 72
+72 73
+73 74
+39 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+82 86
+86 87
+87 88
+39 89
+10 90
+0 91
+0 92
+92 93
+0 94
+94 95
+95 96
+95 97
+97 98
+95 99
+99 100
+100 101
+94 102
+102 103
+102 104
+104 105
+102 106
+106 107
+107 108
+
+If the tree is a local variable and the type is a byte, short, int or long, then it adds the UnknownSignedness annotation so that data flow can refine it.

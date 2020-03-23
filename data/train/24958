@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Status'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='ERROR'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='IStatus'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='ID'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='code'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='message'
+27 argument (NullLiteralExpr)
+28 name (SimpleName)
+29 identifier='status'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='IStatus'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='handle'
+37 scope (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getManager'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='StatusManager'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='status'
+47 argument (BinaryExpr)
+48 operator='BINARY_OR'
+49 left (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='SHOW'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='StatusManager'
+55 right (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='LOG'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='StatusManager'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='createErrorDialog'
+64 parameters
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='message'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='String'
+72 parameter (Parameter)
+73 isVarArgs='false'
+74 name (SimpleName)
+75 identifier='code'
+76 type (PrimitiveType)
+77 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+11 18
+18 19
+19 20
+11 21
+21 22
+22 23
+11 24
+24 25
+25 26
+11 27
+6 28
+28 29
+6 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+34 43
+43 44
+44 45
+45 46
+43 47
+47 48
+47 49
+49 50
+50 51
+49 52
+52 53
+53 54
+47 55
+55 56
+56 57
+55 58
+58 59
+59 60
+0 61
+0 62
+62 63
+0 64
+64 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+64 72
+72 73
+72 74
+74 75
+72 76
+76 77
+
+Creates a simple error dialog without exception.

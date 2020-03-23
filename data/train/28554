@@ -1,0 +1,302 @@
+150
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='PolygonGenerator'
+11 name (SimpleName)
+12 identifier='pgc'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='PolygonGenerator'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setGeometryFactory'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='pgc'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='geometryFactory'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setGenerationAlgorithm'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='pgc'
+34 arguments
+35 argument (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='BOX'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='PolygonGenerator'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='setNumberPoints'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='pgc'
+48 arguments
+49 argument (IntegerLiteralExpr)
+50 value='1000'
+51 statement (ExpressionStmt)
+52 expression (VariableDeclarationExpr)
+53 variables
+54 variable (VariableDeclarator)
+55 initializer (ObjectCreationExpr)
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='MultiGenerator'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='pgc'
+63 name (SimpleName)
+64 identifier='pg'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='MultiGenerator'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='setBoundingBox'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='pg'
+75 arguments
+76 argument (ObjectCreationExpr)
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Envelope'
+80 arguments
+81 argument (IntegerLiteralExpr)
+82 value='0'
+83 argument (IntegerLiteralExpr)
+84 value='10'
+85 argument (IntegerLiteralExpr)
+86 value='0'
+87 argument (IntegerLiteralExpr)
+88 value='10'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='setNumberGeometries'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='pg'
+96 arguments
+97 argument (IntegerLiteralExpr)
+98 value='3'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='setGeometryFactory'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='pg'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='geometryFactory'
+110 statement (ExpressionStmt)
+111 expression (VariableDeclarationExpr)
+112 variables
+113 variable (VariableDeclarator)
+114 initializer (CastExpr)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='create'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='pg'
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='MultiPolygon'
+124 name (SimpleName)
+125 identifier='pt'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='MultiPolygon'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='checkRoundTrip'
+133 arguments
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='pt'
+137 type (VoidType)
+138 name (SimpleName)
+139 identifier='testSingleMultiPolygonManyPointsNoHoleRoundTrip'
+140 thrownExceptions
+141 thrownException (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='SAXException'
+144 thrownException (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='IOException'
+147 thrownException (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='ParserConfigurationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+61 62
+54 63
+63 64
+54 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+80 83
+83 84
+80 85
+85 86
+80 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+113 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+114 121
+121 122
+122 123
+113 124
+124 125
+113 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+135 136
+0 137
+0 138
+138 139
+0 140
+140 141
+141 142
+142 143
+140 144
+144 145
+145 146
+140 147
+147 148
+148 149
+
+Round Trip test for a single MultiPolygon with lotsa points

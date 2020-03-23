@@ -1,0 +1,188 @@
+93
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getPixelSizeAt'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='camera'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='position'
+17 argument (BooleanLiteralExpr)
+18 value='false'
+19 name (SimpleName)
+20 identifier='s'
+21 type (PrimitiveType)
+22 type='DOUBLE'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='set'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='result'
+30 arguments
+31 argument (BinaryExpr)
+32 operator='MULTIPLY'
+33 left (NameExpr)
+34 name (SimpleName)
+35 identifier='dx'
+36 right (NameExpr)
+37 name (SimpleName)
+38 identifier='s'
+39 argument (BinaryExpr)
+40 operator='MULTIPLY'
+41 left (NameExpr)
+42 name (SimpleName)
+43 identifier='dy'
+44 right (NameExpr)
+45 name (SimpleName)
+46 identifier='s'
+47 argument (IntegerLiteralExpr)
+48 value='0'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='applyPost'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='rotate'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='result'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='result'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='coordInScreenPlane'
+66 parameters
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='dx'
+71 type (PrimitiveType)
+72 type='DOUBLE'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='dy'
+77 type (PrimitiveType)
+78 type='DOUBLE'
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='result'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='Vector3'
+86 parameter (Parameter)
+87 isVarArgs='false'
+88 name (SimpleName)
+89 identifier='position'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='ReadOnlyVector3'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+6 19
+19 20
+6 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+30 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+45 46
+30 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+67 69
+69 70
+67 71
+71 72
+66 73
+73 74
+73 75
+75 76
+73 77
+77 78
+66 79
+79 80
+79 81
+81 82
+79 83
+83 84
+84 85
+66 86
+86 87
+86 88
+88 89
+86 90
+90 91
+91 92
+
+Convert mouse deltas to movement parallel to the screen plane at the given position

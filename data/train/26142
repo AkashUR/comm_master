@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='DIVIDE'
+9 left (EnclosedExpr)
+10 inner (BinaryExpr)
+11 operator='PLUS'
+12 left (ArrayAccessExpr)
+13 index (NameExpr)
+14 name (SimpleName)
+15 identifier='n'
+16 name (NameExpr)
+17 name (SimpleName)
+18 identifier='xKnots'
+19 right (ArrayAccessExpr)
+20 index (BinaryExpr)
+21 operator='PLUS'
+22 left (NameExpr)
+23 name (SimpleName)
+24 identifier='n'
+25 right (IntegerLiteralExpr)
+26 value='1'
+27 name (NameExpr)
+28 name (SimpleName)
+29 identifier='xKnots'
+30 right (IntegerLiteralExpr)
+31 value='2'
+32 name (SimpleName)
+33 identifier='x'
+34 type (PrimitiveType)
+35 type='INT'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='addKnot'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='x'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getColor'
+47 arguments
+48 argument (BinaryExpr)
+49 operator='DIVIDE'
+50 left (NameExpr)
+51 name (SimpleName)
+52 identifier='x'
+53 right (DoubleLiteralExpr)
+54 value='256.0f'
+55 argument (ArrayAccessExpr)
+56 index (NameExpr)
+57 name (SimpleName)
+58 identifier='n'
+59 name (NameExpr)
+60 name (SimpleName)
+61 identifier='knotTypes'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='rebuildGradient'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='splitSpan'
+69 parameters
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='n'
+74 type (PrimitiveType)
+75 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+10 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+10 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+19 27
+27 28
+28 29
+7 30
+30 31
+6 32
+32 33
+6 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+44 47
+47 48
+48 49
+48 50
+50 51
+51 52
+48 53
+53 54
+40 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+70 72
+72 73
+70 74
+74 75
+
+Split a span into two by adding a knot in the middle.

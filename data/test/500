@@ -1,0 +1,232 @@
+115
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (StringLiteralExpr)
+14 value='Request [ICE_CANDIDATE] endpoint={} candidate={} '
+15 right (StringLiteralExpr)
+16 value='sdpMLineIdx={} sdpMid={} ({})'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='endpointName'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='candidate'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='sdpMLineIndex'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='sdpMid'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='participantId'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getParticipant'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='participantId'
+43 name (SimpleName)
+44 identifier='participant'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Participant'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='addIceCandidate'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='participant'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='endpointName'
+59 argument (ObjectCreationExpr)
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='IceCandidate'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='candidate'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='sdpMid'
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='sdpMLineIndex'
+73 type (VoidType)
+74 name (SimpleName)
+75 identifier='onIceCandidate'
+76 parameters
+77 parameter (Parameter)
+78 isVarArgs='false'
+79 name (SimpleName)
+80 identifier='endpointName'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='String'
+84 parameter (Parameter)
+85 isVarArgs='false'
+86 name (SimpleName)
+87 identifier='candidate'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='String'
+91 parameter (Parameter)
+92 isVarArgs='false'
+93 name (SimpleName)
+94 identifier='sdpMLineIndex'
+95 type (PrimitiveType)
+96 type='INT'
+97 parameter (Parameter)
+98 isVarArgs='false'
+99 name (SimpleName)
+100 identifier='sdpMid'
+101 type (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='String'
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='participantId'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='String'
+111 thrownExceptions
+112 thrownException (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='RoomException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+11 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+10 23
+23 24
+24 25
+10 26
+26 27
+27 28
+10 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+35 43
+43 44
+35 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+63 70
+70 71
+71 72
+0 73
+0 74
+74 75
+0 76
+76 77
+77 78
+77 79
+79 80
+77 81
+81 82
+82 83
+76 84
+84 85
+84 86
+86 87
+84 88
+88 89
+89 90
+76 91
+91 92
+91 93
+93 94
+91 95
+95 96
+76 97
+97 98
+97 99
+99 100
+97 101
+101 102
+102 103
+76 104
+104 105
+104 106
+106 107
+104 108
+108 109
+109 110
+0 111
+111 112
+112 113
+113 114
+
+Request that carries info about an ICE candidate gathered on the client side. This information is required to implement the trickle ICE mechanism. Should be triggered or called whenever an icecandidate event is created by a RTCPeerConnection.

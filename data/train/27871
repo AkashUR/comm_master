@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='MasterProtocol'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='urlParser'
+15 argument (ObjectCreationExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='ReentrantLock'
+19 name (SimpleName)
+20 identifier='copiedProtocol'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='MasterProtocol'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='setHostAddress'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='copiedProtocol'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getHostAddress'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='connect'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='copiedProtocol'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='executeQuery'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='copiedProtocol'
+49 arguments
+50 argument (BinaryExpr)
+51 operator='PLUS'
+52 left (StringLiteralExpr)
+53 value='KILL QUERY '
+54 right (NameExpr)
+55 name (SimpleName)
+56 identifier='serverThreadId'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='close'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='copiedProtocol'
+64 type (VoidType)
+65 name (SimpleName)
+66 identifier='cancelCurrentQuery'
+67 thrownExceptions
+68 thrownException (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='QueryException'
+71 thrownException (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='IOException'
+74 annotations
+75 annotation (MarkerAnnotationExpr)
+76 name (Name)
+77 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+0 64
+0 65
+65 66
+0 67
+67 68
+68 69
+69 70
+67 71
+71 72
+72 73
+0 74
+74 75
+75 76
+76 77
+
+Cancels the current query - clones the current protocol and executes a query using the new connection.

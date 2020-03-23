@@ -1,0 +1,218 @@
+108
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='HashMap'
+11 name (SimpleName)
+12 identifier='args'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Map'
+16 typeArguments
+17 typeArgument (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='String'
+20 typeArgument (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='String'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='put'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='args'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='ENCODER'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='PhoneticFilterFactory'
+37 argument (StringLiteralExpr)
+38 value='Caverphone2'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='PhoneticFilterFactory'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='args'
+51 name (SimpleName)
+52 identifier='factory'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='PhoneticFilterFactory'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='inform'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='factory'
+63 arguments
+64 argument (ObjectCreationExpr)
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='ClasspathResourceLoader'
+68 arguments
+69 argument (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getClass'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='factory'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='assertTrue'
+79 arguments
+80 argument (InstanceOfExpr)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getEncoder'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='factory'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='Caverphone2'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='assertTrue'
+94 arguments
+95 argument (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='inject'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='factory'
+101 type (VoidType)
+102 name (SimpleName)
+103 identifier='testFactoryReflectionCaverphone2'
+104 thrownExceptions
+105 thrownException (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+49 50
+42 51
+51 52
+42 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+66 67
+64 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+80 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+0 101
+0 102
+102 103
+0 104
+104 105
+105 106
+106 107
+
+we use "Caverphone2" as it is registered in the REGISTRY as Caverphone, so this effectively tests reflection without package name

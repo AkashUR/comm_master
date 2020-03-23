@@ -1,0 +1,424 @@
+211
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='c'
+15 argument (ClassExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='MainActivity'
+19 name (SimpleName)
+20 identifier='i'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Intent'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='addFlags'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='i'
+31 arguments
+32 argument (BinaryExpr)
+33 operator='BINARY_OR'
+34 left (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='FLAG_ACTIVITY_SINGLE_TOP'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='Intent'
+40 right (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='FLAG_ACTIVITY_CLEAR_TOP'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='Intent'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='putExtra'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='i'
+53 arguments
+54 argument (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='EXTRA_REALLY_BUY_CITY_ID'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='MainActivity'
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='id'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='city'
+66 statement (ExpressionStmt)
+67 expression (VariableDeclarationExpr)
+68 variables
+69 variable (VariableDeclarator)
+70 initializer (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='getActivity'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='PendingIntent'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='c'
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='NOTIFICATION_VERIFY'
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='i'
+86 argument (FieldAccessExpr)
+87 name (SimpleName)
+88 identifier='FLAG_CANCEL_CURRENT'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='PendingIntent'
+92 name (SimpleName)
+93 identifier='contentIntent'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='PendingIntent'
+97 statement (ExpressionStmt)
+98 expression (VariableDeclarationExpr)
+99 variables
+100 variable (VariableDeclarator)
+101 initializer (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='getString'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='c'
+107 arguments
+108 argument (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='cities_ticket_bought_again_verification'
+111 scope (FieldAccessExpr)
+112 name (SimpleName)
+113 identifier='string'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='R'
+117 name (SimpleName)
+118 identifier='title'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='String'
+122 statement (ExpressionStmt)
+123 expression (VariableDeclarationExpr)
+124 variables
+125 variable (VariableDeclarator)
+126 initializer (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='getString'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='c'
+132 arguments
+133 argument (FieldAccessExpr)
+134 name (SimpleName)
+135 identifier='cities_ticket_bought_again_action'
+136 scope (FieldAccessExpr)
+137 name (SimpleName)
+138 identifier='string'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='R'
+142 name (SimpleName)
+143 identifier='text'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='String'
+147 statement (ExpressionStmt)
+148 expression (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='fireNotification'
+151 arguments
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='c'
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='NOTIFICATION_VERIFY'
+158 argument (NameExpr)
+159 name (SimpleName)
+160 identifier='contentIntent'
+161 argument (NameExpr)
+162 name (SimpleName)
+163 identifier='title'
+164 argument (NameExpr)
+165 name (SimpleName)
+166 identifier='text'
+167 argument (NullLiteralExpr)
+168 argument (NullLiteralExpr)
+169 argument (NameExpr)
+170 name (SimpleName)
+171 identifier='title'
+172 argument (FieldAccessExpr)
+173 name (SimpleName)
+174 identifier='notification_small_warning'
+175 scope (FieldAccessExpr)
+176 name (SimpleName)
+177 identifier='drawable'
+178 scope (NameExpr)
+179 name (SimpleName)
+180 identifier='R'
+181 argument (FieldAccessExpr)
+182 name (SimpleName)
+183 identifier='notification_big_warning'
+184 scope (FieldAccessExpr)
+185 name (SimpleName)
+186 identifier='drawable'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='R'
+190 argument (NullLiteralExpr)
+191 argument (BooleanLiteralExpr)
+192 value='false'
+193 type (VoidType)
+194 name (SimpleName)
+195 identifier='notifyVerification'
+196 parameters
+197 parameter (Parameter)
+198 isVarArgs='false'
+199 name (SimpleName)
+200 identifier='c'
+201 type (ClassOrInterfaceType)
+202 name (SimpleName)
+203 identifier='Context'
+204 parameter (Parameter)
+205 isVarArgs='false'
+206 name (SimpleName)
+207 identifier='city'
+208 type (ClassOrInterfaceType)
+209 name (SimpleName)
+210 identifier='City'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+32 34
+34 35
+35 36
+34 37
+37 38
+38 39
+32 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+53 60
+60 61
+61 62
+60 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+76 83
+83 84
+84 85
+76 86
+86 87
+87 88
+86 89
+89 90
+90 91
+69 92
+92 93
+69 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+111 114
+114 115
+115 116
+100 117
+117 118
+100 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+136 139
+139 140
+140 141
+125 142
+142 143
+125 144
+144 145
+145 146
+2 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+153 154
+151 155
+155 156
+156 157
+151 158
+158 159
+159 160
+151 161
+161 162
+162 163
+151 164
+164 165
+165 166
+151 167
+151 168
+151 169
+169 170
+170 171
+151 172
+172 173
+173 174
+172 175
+175 176
+176 177
+175 178
+178 179
+179 180
+151 181
+181 182
+182 183
+181 184
+184 185
+185 186
+184 187
+187 188
+188 189
+151 190
+151 191
+191 192
+0 193
+0 194
+194 195
+0 196
+196 197
+197 198
+197 199
+199 200
+197 201
+201 202
+202 203
+196 204
+204 205
+204 206
+206 207
+204 208
+208 209
+209 210
+
+Verification if tickets is bought 1 minute after another.

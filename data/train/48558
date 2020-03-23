@@ -1,0 +1,164 @@
+81
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='blogResource'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getResource'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='resolver'
+18 value (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getResourceResolver'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getResource'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='resolver'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='replace'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getPath'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='blogResource'
+41 arguments
+42 argument (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='BLOG_PATH'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='PublickConstants'
+48 argument (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='COMMENTS_PATH'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='PublickConstants'
+54 name (SimpleName)
+55 identifier='commentsResource'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='Resource'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='comments'
+65 value (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getCommentList'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='commentsResource'
+72 argument (BooleanLiteralExpr)
+73 value='true'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='activate'
+77 annotations
+78 annotation (MarkerAnnotationExpr)
+79 name (Name)
+80 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+32 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+41 48
+48 49
+49 50
+48 51
+51 52
+52 53
+24 54
+54 55
+24 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+68 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+79 80
+
+Initialize the Sightly component. Get the resource and resolver. The entry point to the component.

@@ -1,0 +1,300 @@
+149
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='docFragment'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='DocumentFragment'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='nodeValue'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='String'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='txtNode'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Text'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 name (SimpleName)
+44 identifier='retval'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Node'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (NameExpr)
+52 name (SimpleName)
+53 identifier='doc'
+54 value (CastExpr)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='load'
+58 arguments
+59 argument (StringLiteralExpr)
+60 value='hc_staff'
+61 argument (BooleanLiteralExpr)
+62 value='true'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Document'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (NameExpr)
+70 name (SimpleName)
+71 identifier='docFragment'
+72 value (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='createDocumentFragment'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='doc'
+78 statement (ExpressionStmt)
+79 expression (AssignExpr)
+80 operator='ASSIGN'
+81 target (NameExpr)
+82 name (SimpleName)
+83 identifier='txtNode'
+84 value (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='createTextNode'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='doc'
+90 arguments
+91 argument (StringLiteralExpr)
+92 value=''
+93 statement (ExpressionStmt)
+94 expression (AssignExpr)
+95 operator='ASSIGN'
+96 target (NameExpr)
+97 name (SimpleName)
+98 identifier='retval'
+99 value (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='appendChild'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='docFragment'
+105 arguments
+106 argument (NameExpr)
+107 name (SimpleName)
+108 identifier='txtNode'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='normalize'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='docFragment'
+116 statement (ExpressionStmt)
+117 expression (AssignExpr)
+118 operator='ASSIGN'
+119 target (NameExpr)
+120 name (SimpleName)
+121 identifier='txtNode'
+122 value (CastExpr)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='getFirstChild'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='docFragment'
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='Text'
+132 statement (ExpressionStmt)
+133 expression (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='assertNull'
+136 arguments
+137 argument (StringLiteralExpr)
+138 value='noChild'
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='txtNode'
+142 type (VoidType)
+143 name (SimpleName)
+144 identifier='runTest'
+145 thrownExceptions
+146 thrownException (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+49 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+54 63
+63 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+67 72
+72 73
+73 74
+72 75
+75 76
+76 77
+2 78
+78 79
+79 80
+79 81
+81 82
+82 83
+79 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+91 92
+2 93
+93 94
+94 95
+94 96
+96 97
+97 98
+94 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+2 116
+116 117
+117 118
+117 119
+119 120
+120 121
+117 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+122 129
+129 130
+130 131
+2 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+136 139
+139 140
+140 141
+0 142
+0 143
+143 144
+0 145
+145 146
+146 147
+147 148
+
+Runs the test case.

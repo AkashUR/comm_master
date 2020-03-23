@@ -1,0 +1,254 @@
+126
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='PointGenerator'
+11 name (SimpleName)
+12 identifier='pgc'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='PointGenerator'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setGeometryFactory'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='pgc'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='geometryFactory'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='MultiGenerator'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='pgc'
+39 name (SimpleName)
+40 identifier='pg'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='MultiGenerator'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='setBoundingBox'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='pg'
+51 arguments
+52 argument (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Envelope'
+56 arguments
+57 argument (IntegerLiteralExpr)
+58 value='0'
+59 argument (IntegerLiteralExpr)
+60 value='10'
+61 argument (IntegerLiteralExpr)
+62 value='0'
+63 argument (IntegerLiteralExpr)
+64 value='10'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='setNumberGeometries'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='pg'
+72 arguments
+73 argument (IntegerLiteralExpr)
+74 value='3'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='setGeometryFactory'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='pg'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='geometryFactory'
+86 statement (ExpressionStmt)
+87 expression (VariableDeclarationExpr)
+88 variables
+89 variable (VariableDeclarator)
+90 initializer (CastExpr)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='create'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='pg'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='MultiPoint'
+100 name (SimpleName)
+101 identifier='pt'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='MultiPoint'
+105 statement (ExpressionStmt)
+106 expression (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='checkRoundTrip'
+109 arguments
+110 argument (NameExpr)
+111 name (SimpleName)
+112 identifier='pt'
+113 type (VoidType)
+114 name (SimpleName)
+115 identifier='testSingleMultiPointRoundTrip'
+116 thrownExceptions
+117 thrownException (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='SAXException'
+120 thrownException (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='IOException'
+123 thrownException (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='ParserConfigurationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+37 38
+30 39
+39 40
+30 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+56 59
+59 60
+56 61
+61 62
+56 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+89 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+90 97
+97 98
+98 99
+89 100
+100 101
+89 102
+102 103
+103 104
+2 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+111 112
+0 113
+0 114
+114 115
+0 116
+116 117
+117 118
+118 119
+116 120
+120 121
+121 122
+116 123
+123 124
+124 125
+
+Round Trip test for a single MultiPoint

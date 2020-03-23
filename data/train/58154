@@ -1,0 +1,194 @@
+96
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='value'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='value'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='parent'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='parent'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='children'
+29 scope (ThisExpr)
+30 value (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='collect'
+33 scope (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='map'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='childrenFactory'
+39 arguments
+40 argument (NullLiteralExpr)
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='toImmutableList'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='MoreCollectors'
+48 name (SimpleName)
+49 identifier='SortingNode'
+50 parameters
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='value'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='T'
+58 annotations
+59 annotation (MarkerAnnotationExpr)
+60 name (Name)
+61 identifier='Nullable'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='parent'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='SortingNode'
+69 typeArguments
+70 typeArgument (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='T'
+73 annotations
+74 annotation (MarkerAnnotationExpr)
+75 name (Name)
+76 identifier='Nullable'
+77 parameter (Parameter)
+78 isVarArgs='false'
+79 name (SimpleName)
+80 identifier='childrenFactory'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Stream'
+84 typeArguments
+85 typeArgument (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='UnaryOperator'
+88 typeArguments
+89 typeArgument (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='SortingNode'
+92 typeArguments
+93 typeArgument (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='T'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+30 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+0 48
+48 49
+0 50
+50 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+51 58
+58 59
+59 60
+60 61
+50 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+62 73
+73 74
+74 75
+75 76
+50 77
+77 78
+77 79
+79 80
+77 81
+81 82
+82 83
+81 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+
+childrenFactory accept `this` node as a argument (its parent), and produce a child node <p> childrenFactory should not return self or any parent node, since we do not support cyclic tree

@@ -1,0 +1,208 @@
+103
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mContext'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='context'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (NullLiteralExpr)
+17 name (SimpleName)
+18 identifier='in'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='InputStream'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='mTrustStore'
+28 value (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getInstance'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='KeyStore'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='TRUSTSTORE_TYPE'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (NameExpr)
+42 name (SimpleName)
+43 identifier='in'
+44 value (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='openRawResource'
+47 scope (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getResources'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='mContext'
+53 arguments
+54 argument (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='debiancacerts'
+57 scope (FieldAccessExpr)
+58 name (SimpleName)
+59 identifier='raw'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='R'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='load'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='mTrustStore'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='in'
+74 argument (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='toCharArray'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='TRUSTSTORE_PASSWORD'
+80 name (SimpleName)
+81 identifier='StrongTrustManager'
+82 parameters
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='context'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='Context'
+90 thrownExceptions
+91 thrownException (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='KeyStoreException'
+94 thrownException (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='NoSuchAlgorithmException'
+97 thrownException (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='CertificateException'
+100 thrownException (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+15 17
+17 18
+15 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+44 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+70 74
+74 75
+75 76
+74 77
+77 78
+78 79
+0 80
+80 81
+0 82
+82 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+0 90
+90 91
+91 92
+92 93
+90 94
+94 95
+95 96
+90 97
+97 98
+98 99
+90 100
+100 101
+101 102
+
+Construct a trust manager for XMPP connections. Certificates are considered verified if: <ul> <li>The root certificate is in our trust store <li>The chain is valid <li>The leaf certificate contains the identity of the domain or the requested server </ul>

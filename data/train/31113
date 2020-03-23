@@ -1,0 +1,524 @@
+261
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getMetaData'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='con'
+13 name (SimpleName)
+14 identifier='dbmd'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='DatabaseMetaData'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 name (SimpleName)
+23 identifier='rs'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='ResultSet'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (NameExpr)
+31 name (SimpleName)
+32 identifier='rs'
+33 value (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getAttributes'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='dbmd'
+39 arguments
+40 argument (NullLiteralExpr)
+41 argument (NullLiteralExpr)
+42 argument (NullLiteralExpr)
+43 argument (NullLiteralExpr)
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='assertTrue'
+48 arguments
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='checkColumnNames'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='rs'
+56 argument (ArrayCreationExpr)
+57 elementType (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 initializer (ArrayInitializerExpr)
+61 values
+62 value (StringLiteralExpr)
+63 value='TYPE_CAT'
+64 value (StringLiteralExpr)
+65 value='TYPE_SCHEM'
+66 value (StringLiteralExpr)
+67 value='TYPE_NAME'
+68 value (StringLiteralExpr)
+69 value='ATTR_NAME'
+70 value (StringLiteralExpr)
+71 value='DATA_TYPE'
+72 value (StringLiteralExpr)
+73 value='ATTR_TYPE_NAME'
+74 value (StringLiteralExpr)
+75 value='ATTR_SIZE'
+76 value (StringLiteralExpr)
+77 value='DECIMAL_DIGITS'
+78 value (StringLiteralExpr)
+79 value='NUM_PREC_RADIX'
+80 value (StringLiteralExpr)
+81 value='NULLABLE'
+82 value (StringLiteralExpr)
+83 value='REMARKS'
+84 value (StringLiteralExpr)
+85 value='ATTR_DEF'
+86 value (StringLiteralExpr)
+87 value='SQL_DATA_TYPE'
+88 value (StringLiteralExpr)
+89 value='SQL_DATETIME_SUB'
+90 value (StringLiteralExpr)
+91 value='CHAR_OCTET_LENGTH'
+92 value (StringLiteralExpr)
+93 value='ORDINAL_POSITION'
+94 value (StringLiteralExpr)
+95 value='IS_NULLABLE'
+96 value (StringLiteralExpr)
+97 value='SCOPE_CATALOG'
+98 value (StringLiteralExpr)
+99 value='SCOPE_SCHEMA'
+100 value (StringLiteralExpr)
+101 value='SCOPE_TABLE'
+102 value (StringLiteralExpr)
+103 value='SOURCE_DATA_TYPE'
+104 levels
+105 level (ArrayCreationLevel)
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='assertFalse'
+110 arguments
+111 argument (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='next'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='rs'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='close'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='rs'
+124 statement (ExpressionStmt)
+125 expression (AssignExpr)
+126 operator='ASSIGN'
+127 target (NameExpr)
+128 name (SimpleName)
+129 identifier='rs'
+130 value (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='getSuperTables'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='dbmd'
+136 arguments
+137 argument (NullLiteralExpr)
+138 argument (NullLiteralExpr)
+139 argument (StringLiteralExpr)
+140 value='%'
+141 statement (ExpressionStmt)
+142 expression (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='assertTrue'
+145 arguments
+146 argument (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='checkColumnNames'
+149 arguments
+150 argument (NameExpr)
+151 name (SimpleName)
+152 identifier='rs'
+153 argument (ArrayCreationExpr)
+154 elementType (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='String'
+157 initializer (ArrayInitializerExpr)
+158 values
+159 value (StringLiteralExpr)
+160 value='TABLE_CAT'
+161 value (StringLiteralExpr)
+162 value='TABLE_SCHEM'
+163 value (StringLiteralExpr)
+164 value='TABLE_NAME'
+165 value (StringLiteralExpr)
+166 value='SUPERTABLE_NAME'
+167 levels
+168 level (ArrayCreationLevel)
+169 statement (ExpressionStmt)
+170 expression (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='assertFalse'
+173 arguments
+174 argument (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='next'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='rs'
+180 statement (ExpressionStmt)
+181 expression (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='close'
+184 scope (NameExpr)
+185 name (SimpleName)
+186 identifier='rs'
+187 statement (ExpressionStmt)
+188 expression (AssignExpr)
+189 operator='ASSIGN'
+190 target (NameExpr)
+191 name (SimpleName)
+192 identifier='rs'
+193 value (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='getSuperTypes'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='dbmd'
+199 arguments
+200 argument (NullLiteralExpr)
+201 argument (NullLiteralExpr)
+202 argument (StringLiteralExpr)
+203 value='%'
+204 statement (ExpressionStmt)
+205 expression (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='assertTrue'
+208 arguments
+209 argument (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='checkColumnNames'
+212 arguments
+213 argument (NameExpr)
+214 name (SimpleName)
+215 identifier='rs'
+216 argument (ArrayCreationExpr)
+217 elementType (ClassOrInterfaceType)
+218 name (SimpleName)
+219 identifier='String'
+220 initializer (ArrayInitializerExpr)
+221 values
+222 value (StringLiteralExpr)
+223 value='TYPE_CAT'
+224 value (StringLiteralExpr)
+225 value='TYPE_SCHEM'
+226 value (StringLiteralExpr)
+227 value='TYPE_NAME'
+228 value (StringLiteralExpr)
+229 value='SUPERTYPE_CAT'
+230 value (StringLiteralExpr)
+231 value='SUPERTYPE_SCHEM'
+232 value (StringLiteralExpr)
+233 value='SUPERTYPE_NAME'
+234 levels
+235 level (ArrayCreationLevel)
+236 statement (ExpressionStmt)
+237 expression (MethodCallExpr)
+238 name (SimpleName)
+239 identifier='assertFalse'
+240 arguments
+241 argument (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='next'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='rs'
+247 statement (ExpressionStmt)
+248 expression (MethodCallExpr)
+249 name (SimpleName)
+250 identifier='close'
+251 scope (NameExpr)
+252 name (SimpleName)
+253 identifier='rs'
+254 type (VoidType)
+255 name (SimpleName)
+256 identifier='testResultSets'
+257 thrownExceptions
+258 thrownException (ClassOrInterfaceType)
+259 name (SimpleName)
+260 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+28 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+39 41
+39 42
+39 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+62 63
+61 64
+64 65
+61 66
+66 67
+61 68
+68 69
+61 70
+70 71
+61 72
+72 73
+61 74
+74 75
+61 76
+76 77
+61 78
+78 79
+61 80
+80 81
+61 82
+82 83
+61 84
+84 85
+61 86
+86 87
+61 88
+88 89
+61 90
+90 91
+61 92
+92 93
+61 94
+94 95
+61 96
+96 97
+61 98
+98 99
+61 100
+100 101
+61 102
+102 103
+56 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+2 124
+124 125
+125 126
+125 127
+127 128
+128 129
+125 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+136 138
+136 139
+139 140
+2 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+151 152
+149 153
+153 154
+154 155
+155 156
+153 157
+157 158
+158 159
+159 160
+158 161
+161 162
+158 163
+163 164
+158 165
+165 166
+153 167
+167 168
+2 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+2 180
+180 181
+181 182
+182 183
+181 184
+184 185
+185 186
+2 187
+187 188
+188 189
+188 190
+190 191
+191 192
+188 193
+193 194
+194 195
+193 196
+196 197
+197 198
+193 199
+199 200
+199 201
+199 202
+202 203
+2 204
+204 205
+205 206
+206 207
+205 208
+208 209
+209 210
+210 211
+209 212
+212 213
+213 214
+214 215
+212 216
+216 217
+217 218
+218 219
+216 220
+220 221
+221 222
+222 223
+221 224
+224 225
+221 226
+226 227
+221 228
+228 229
+221 230
+230 231
+221 232
+232 233
+216 234
+234 235
+2 236
+236 237
+237 238
+238 239
+237 240
+240 241
+241 242
+242 243
+241 244
+244 245
+245 246
+2 247
+247 248
+248 249
+249 250
+248 251
+251 252
+252 253
+0 254
+0 255
+255 256
+0 257
+257 258
+258 259
+259 260
+
+Test meta data functions that return result sets.

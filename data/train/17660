@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ReturnStmt)
+4 type (VoidType)
+5 name (SimpleName)
+6 identifier='arraycopy'
+7 parameters
+8 parameter (Parameter)
+9 isVarArgs='false'
+10 name (SimpleName)
+11 identifier='src'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Object'
+15 scope (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='lang'
+18 scope (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='java'
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='srcOffset'
+25 type (PrimitiveType)
+26 type='INT'
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='dst'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Object'
+34 scope (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='lang'
+37 scope (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='java'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='dstOffset'
+44 type (PrimitiveType)
+45 type='INT'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='length'
+50 type (PrimitiveType)
+51 type='INT'
+0 1
+1 2
+2 3
+0 4
+0 5
+5 6
+0 7
+7 8
+8 9
+8 10
+10 11
+8 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+19 20
+7 21
+21 22
+21 23
+23 24
+21 25
+25 26
+7 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+7 40
+40 41
+40 42
+42 43
+40 44
+44 45
+7 46
+46 47
+46 48
+48 49
+46 50
+50 51
+
+Copies an array from the specified source array, beginning at the specified position, to the specified position of the destination array. A subsequence of array components are copied from the source array referenced by src to the destination array referenced by dst. The number of components copied is equal to the length argument. The components at positions srcOffset through srcOffset+length-1 in the source array are copied into positions dstOffset through dstOffset+length-1, respectively, of the destination array. If the src and dst arguments refer to the same array object, then the copying is performed as if the components at positions srcOffset through srcOffset+length-1 were first copied to a temporary array with length components and then the contents of the temporary array were copied into positions dstOffset through dstOffset+length-1 of the destination array. If dst is null, then a NullPointerException is thrown. If src is null, then a NullPointerException is thrown and the destination array is not modified. Otherwise, if any of the following is true, an ArrayStoreException is thrown and the destination is not modified: The src argument refers to an object that is not an array. The dst argument refers to an object that is not an array. The src argument and dst argument refer to arrays whose component types are different primitive types. The src argument refers to an array with a primitive component type and the dst argument refers to an array with a reference component type. The src argument refers to an array with a reference component type and the dst argument refers to an array with a primitive component type. Otherwise, if any of the following is true, an IndexOutOfBoundsException is thrown and the destination is not modified: The srcOffset argument is negative. The dstOffset argument is negative. The length argument is negative. srcOffset+length is greater than src.length, the length of the source array. dstOffset+length is greater than dst.length, the length of the destination array. Otherwise, if any actual component of the source array from position srcOffset through srcOffset+length-1 cannot be converted to the component type of the destination array by assignment conversion, an ArrayStoreException is thrown. In this case, let k be the smallest nonnegative integer less than length such that src[srcOffset+k] cannot be converted to the component type of the destination array; when the exception is thrown, source array components from positions srcOffset through srcOffset+k-1 will already have been copied to destination array positions dstOffset through dstOffset+k-1 and no other positions of the destination array will have been modified. (Because of the restrictions already itemized, this paragraph effectively applies only to the situation where both arrays have component types that are reference types.)

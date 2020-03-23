@@ -1,0 +1,280 @@
+139
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForStmt)
+4 body (EmptyStmt)
+5 compare (BinaryExpr)
+6 operator='NOT_EQUALS'
+7 left (IntegerLiteralExpr)
+8 value='0'
+9 right (EnclosedExpr)
+10 inner (AssignExpr)
+11 operator='UNSIGNED_RIGHT_SHIFT'
+12 target (NameExpr)
+13 name (SimpleName)
+14 identifier='blocksize'
+15 value (IntegerLiteralExpr)
+16 value='1'
+17 initialization
+18 initializatio (AssignExpr)
+19 operator='ASSIGN'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='m_SHIFT'
+23 value (IntegerLiteralExpr)
+24 value='0'
+25 update
+26 updat (UnaryExpr)
+27 operator='PREFIX_INCREMENT'
+28 expression (NameExpr)
+29 name (SimpleName)
+30 identifier='m_SHIFT'
+31 statement (ExpressionStmt)
+32 expression (AssignExpr)
+33 operator='ASSIGN'
+34 target (NameExpr)
+35 name (SimpleName)
+36 identifier='m_blocksize'
+37 value (BinaryExpr)
+38 operator='LEFT_SHIFT'
+39 left (IntegerLiteralExpr)
+40 value='1'
+41 right (NameExpr)
+42 name (SimpleName)
+43 identifier='m_SHIFT'
+44 statement (ExpressionStmt)
+45 expression (AssignExpr)
+46 operator='ASSIGN'
+47 target (NameExpr)
+48 name (SimpleName)
+49 identifier='m_MASK'
+50 value (BinaryExpr)
+51 operator='MINUS'
+52 left (NameExpr)
+53 name (SimpleName)
+54 identifier='m_blocksize'
+55 right (IntegerLiteralExpr)
+56 value='1'
+57 statement (ExpressionStmt)
+58 expression (AssignExpr)
+59 operator='ASSIGN'
+60 target (NameExpr)
+61 name (SimpleName)
+62 identifier='m_numblocks'
+63 value (NameExpr)
+64 name (SimpleName)
+65 identifier='numblocks'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (NameExpr)
+70 name (SimpleName)
+71 identifier='m_map0'
+72 value (ArrayCreationExpr)
+73 elementType (PrimitiveType)
+74 type='INT'
+75 levels
+76 level (ArrayCreationLevel)
+77 dimension (NameExpr)
+78 name (SimpleName)
+79 identifier='m_blocksize'
+80 statement (ExpressionStmt)
+81 expression (AssignExpr)
+82 operator='ASSIGN'
+83 target (NameExpr)
+84 name (SimpleName)
+85 identifier='m_map'
+86 value (ArrayCreationExpr)
+87 elementType (PrimitiveType)
+88 type='INT'
+89 levels
+90 level (ArrayCreationLevel)
+91 dimension (NameExpr)
+92 name (SimpleName)
+93 identifier='numblocks'
+94 level (ArrayCreationLevel)
+95 statement (ExpressionStmt)
+96 expression (AssignExpr)
+97 operator='ASSIGN'
+98 target (ArrayAccessExpr)
+99 index (IntegerLiteralExpr)
+100 value='0'
+101 name (NameExpr)
+102 name (SimpleName)
+103 identifier='m_map'
+104 value (NameExpr)
+105 name (SimpleName)
+106 identifier='m_map0'
+107 statement (ExpressionStmt)
+108 expression (AssignExpr)
+109 operator='ASSIGN'
+110 target (NameExpr)
+111 name (SimpleName)
+112 identifier='m_buildCache'
+113 value (NameExpr)
+114 name (SimpleName)
+115 identifier='m_map0'
+116 statement (ExpressionStmt)
+117 expression (AssignExpr)
+118 operator='ASSIGN'
+119 target (NameExpr)
+120 name (SimpleName)
+121 identifier='m_buildCacheStartIndex'
+122 value (IntegerLiteralExpr)
+123 value='0'
+124 name (SimpleName)
+125 identifier='SuballocatedIntVector'
+126 parameters
+127 parameter (Parameter)
+128 isVarArgs='false'
+129 name (SimpleName)
+130 identifier='blocksize'
+131 type (PrimitiveType)
+132 type='INT'
+133 parameter (Parameter)
+134 isVarArgs='false'
+135 name (SimpleName)
+136 identifier='numblocks'
+137 type (PrimitiveType)
+138 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+5 7
+7 8
+5 9
+9 10
+10 11
+10 12
+12 13
+13 14
+10 15
+15 16
+3 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+3 25
+25 26
+26 27
+26 28
+28 29
+29 30
+2 31
+31 32
+32 33
+32 34
+34 35
+35 36
+32 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+2 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+2 57
+57 58
+58 59
+58 60
+60 61
+61 62
+58 63
+63 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+67 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+78 79
+2 80
+80 81
+81 82
+81 83
+83 84
+84 85
+81 86
+86 87
+87 88
+86 89
+89 90
+90 91
+91 92
+92 93
+89 94
+2 95
+95 96
+96 97
+96 98
+98 99
+99 100
+98 101
+101 102
+102 103
+96 104
+104 105
+105 106
+2 107
+107 108
+108 109
+108 110
+110 111
+111 112
+108 113
+113 114
+114 115
+2 116
+116 117
+117 118
+117 119
+119 120
+120 121
+117 122
+122 123
+0 124
+124 125
+0 126
+126 127
+127 128
+127 129
+129 130
+127 131
+131 132
+126 133
+133 134
+133 135
+135 136
+133 137
+137 138
+
+Construct a IntVector, using the given block size and number of blocks. For efficiency, we will round the requested size  off to a power of two.

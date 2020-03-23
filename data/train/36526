@@ -1,0 +1,164 @@
+81
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='configure called'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Z21TrafficController'
+21 name (SimpleName)
+22 identifier='packets'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Z21TrafficController'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='connectPort'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='packets'
+33 arguments
+34 argument (ThisExpr)
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='setTrafficController'
+39 scope (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getSystemConnectionMemo'
+42 scope (ThisExpr)
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='packets'
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (NameExpr)
+51 name (SimpleName)
+52 identifier='sourceThread'
+53 value (ObjectCreationExpr)
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Thread'
+57 arguments
+58 argument (ThisExpr)
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='start'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='sourceThread'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='configureManagers'
+70 scope (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='getSystemConnectionMemo'
+73 scope (ThisExpr)
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='configure'
+77 annotations
+78 annotation (MarkerAnnotationExpr)
+79 name (Name)
+80 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+16 21
+21 22
+16 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+36 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+48 50
+50 51
+51 52
+48 53
+53 54
+54 55
+55 56
+53 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+79 80
+
+set up all of the other objects to operate with a z21Simulator connected to this port

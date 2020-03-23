@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addIdleHandler'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mMessageQueue'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Idler'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='recipient'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='post'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getHandler'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='mThread'
+29 arguments
+30 argument (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='EmptyRunnable'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='waitForIdle'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='recipient'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Runnable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+20 29
+29 30
+30 31
+31 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+
+Schedule a callback for when the application's main thread goes idle (has no more events to process).

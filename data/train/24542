@@ -1,0 +1,536 @@
+267
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setUpStoreProperties'
+7 statement (ExpressionStmt)
+8 expression (VariableDeclarationExpr)
+9 variables
+10 variable (VariableDeclarator)
+11 initializer (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='ServerSocket'
+15 arguments
+16 argument (IntegerLiteralExpr)
+17 value='0'
+18 name (SimpleName)
+19 identifier='ss'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='ServerSocket'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='TestHostnameVerifier'
+31 name (SimpleName)
+32 identifier='hnv'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='TestHostnameVerifier'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='setDefaultHostnameVerifier'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='HttpsURLConnection'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='hnv'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (ObjectCreationExpr)
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='URL'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='https://requested.host:55555/requested.data'
+58 name (SimpleName)
+59 identifier='url'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='URL'
+63 statement (ExpressionStmt)
+64 expression (VariableDeclarationExpr)
+65 variables
+66 variable (VariableDeclarator)
+67 initializer (CastExpr)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='openConnection'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='url'
+74 arguments
+75 argument (ObjectCreationExpr)
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='Proxy'
+79 arguments
+80 argument (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='HTTP'
+83 scope (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='Type'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='Proxy'
+89 argument (ObjectCreationExpr)
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='InetSocketAddress'
+93 arguments
+94 argument (StringLiteralExpr)
+95 value='localhost'
+96 argument (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='getLocalPort'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='ss'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='HttpsURLConnection'
+105 name (SimpleName)
+106 identifier='connection'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='HttpsURLConnection'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='setSSLSocketFactory'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='connection'
+117 arguments
+118 argument (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='getSocketFactory'
+121 scope (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='getContext'
+124 statement (ExpressionStmt)
+125 expression (VariableDeclarationExpr)
+126 variables
+127 variable (VariableDeclarator)
+128 initializer (CastExpr)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='doInteraction'
+132 arguments
+133 argument (NameExpr)
+134 name (SimpleName)
+135 identifier='connection'
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='ss'
+139 type (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='SSLSocket'
+142 name (SimpleName)
+143 identifier='peerSocket'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='SSLSocket'
+147 statement (ExpressionStmt)
+148 expression (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='checkConnectionStateParameters'
+151 arguments
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='connection'
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='peerSocket'
+158 statement (ExpressionStmt)
+159 expression (AssignExpr)
+160 operator='ASSIGN'
+161 target (NameExpr)
+162 name (SimpleName)
+163 identifier='ss'
+164 value (ObjectCreationExpr)
+165 type (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='ServerSocket'
+168 arguments
+169 argument (IntegerLiteralExpr)
+170 value='0'
+171 statement (ExpressionStmt)
+172 expression (AssignExpr)
+173 operator='ASSIGN'
+174 target (NameExpr)
+175 name (SimpleName)
+176 identifier='connection'
+177 value (CastExpr)
+178 expression (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='openConnection'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='url'
+184 arguments
+185 argument (ObjectCreationExpr)
+186 type (ClassOrInterfaceType)
+187 name (SimpleName)
+188 identifier='Proxy'
+189 arguments
+190 argument (FieldAccessExpr)
+191 name (SimpleName)
+192 identifier='HTTP'
+193 scope (FieldAccessExpr)
+194 name (SimpleName)
+195 identifier='Type'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='Proxy'
+199 argument (ObjectCreationExpr)
+200 type (ClassOrInterfaceType)
+201 name (SimpleName)
+202 identifier='InetSocketAddress'
+203 arguments
+204 argument (StringLiteralExpr)
+205 value='localhost'
+206 argument (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='getLocalPort'
+209 scope (NameExpr)
+210 name (SimpleName)
+211 identifier='ss'
+212 type (ClassOrInterfaceType)
+213 name (SimpleName)
+214 identifier='HttpsURLConnection'
+215 statement (ExpressionStmt)
+216 expression (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='setSSLSocketFactory'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='connection'
+222 arguments
+223 argument (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='getSocketFactory'
+226 scope (MethodCallExpr)
+227 name (SimpleName)
+228 identifier='getContext'
+229 statement (ExpressionStmt)
+230 expression (AssignExpr)
+231 operator='ASSIGN'
+232 target (NameExpr)
+233 name (SimpleName)
+234 identifier='peerSocket'
+235 value (CastExpr)
+236 expression (MethodCallExpr)
+237 name (SimpleName)
+238 identifier='doInteraction'
+239 arguments
+240 argument (NameExpr)
+241 name (SimpleName)
+242 identifier='connection'
+243 argument (NameExpr)
+244 name (SimpleName)
+245 identifier='ss'
+246 type (ClassOrInterfaceType)
+247 name (SimpleName)
+248 identifier='SSLSocket'
+249 statement (ExpressionStmt)
+250 expression (MethodCallExpr)
+251 name (SimpleName)
+252 identifier='checkConnectionStateParameters'
+253 arguments
+254 argument (NameExpr)
+255 name (SimpleName)
+256 identifier='connection'
+257 argument (NameExpr)
+258 name (SimpleName)
+259 identifier='peerSocket'
+260 type (VoidType)
+261 name (SimpleName)
+262 identifier='testConsequentProxyConnection'
+263 thrownExceptions
+264 thrownException (ClassOrInterfaceType)
+265 name (SimpleName)
+266 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+10 18
+18 19
+10 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+26 31
+31 32
+26 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+50 58
+58 59
+50 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+68 74
+74 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+83 86
+86 87
+87 88
+79 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+93 96
+96 97
+97 98
+96 99
+99 100
+100 101
+67 102
+102 103
+103 104
+66 105
+105 106
+66 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+127 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+134 135
+132 136
+136 137
+137 138
+128 139
+139 140
+140 141
+127 142
+142 143
+127 144
+144 145
+145 146
+2 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+153 154
+151 155
+155 156
+156 157
+2 158
+158 159
+159 160
+159 161
+161 162
+162 163
+159 164
+164 165
+165 166
+166 167
+164 168
+168 169
+169 170
+2 171
+171 172
+172 173
+172 174
+174 175
+175 176
+172 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+178 184
+184 185
+185 186
+186 187
+187 188
+185 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+193 196
+196 197
+197 198
+189 199
+199 200
+200 201
+201 202
+199 203
+203 204
+204 205
+203 206
+206 207
+207 208
+206 209
+209 210
+210 211
+177 212
+212 213
+213 214
+2 215
+215 216
+216 217
+217 218
+216 219
+219 220
+220 221
+216 222
+222 223
+223 224
+224 225
+223 226
+226 227
+227 228
+2 229
+229 230
+230 231
+230 232
+232 233
+233 234
+230 235
+235 236
+236 237
+237 238
+236 239
+239 240
+240 241
+241 242
+239 243
+243 244
+244 245
+235 246
+246 247
+247 248
+2 249
+249 250
+250 251
+251 252
+250 253
+253 254
+254 255
+255 256
+253 257
+257 258
+258 259
+0 260
+0 261
+261 262
+0 263
+263 264
+264 265
+265 266
+
+Tests HTTPS connection process made through the proxy server. 2 HTTPS connections are opened for one URL. For the first time the connection is opened through one proxy, for the second time through another.

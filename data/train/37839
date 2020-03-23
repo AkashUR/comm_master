@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='create'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='setDateFormat'
+13 scope (ObjectCreationExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='GsonBuilder'
+17 arguments
+18 argument (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='DATE_FORMAT'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='Constants'
+24 name (SimpleName)
+25 identifier='gson'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Gson'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='sendMessage'
+33 scope (SuperExpr)
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='queueName'
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='toJson'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='gson'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='message'
+48 type (VoidType)
+49 name (SimpleName)
+50 identifier='sendMessage'
+51 parameters
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='message'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='ProcessInQueueModel'
+59 thrownExceptions
+60 thrownException (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='UnsupportedOperationException'
+63 thrownException (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='AmazonClientException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+10 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+30 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+0 48
+0 49
+49 50
+0 51
+51 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+0 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+
+<p> Delivers a message to the specified queue. With Amazon SQS, you now have the ability to send large payload messages that are up to 256KB (262,144 bytes) in size. To send large payloads, you must use an AWS SDK that supports SigV4 signing. To verify whether SigV4 is supported for an AWS SDK, check the SDK release notes. </p> IMPORTANT: The following list shows the characters (in Unicode) allowed in your message, according to the W3C XML specification. For more information, go to http://www.w3.org/TR/REC-xml/#charsets If you send any characters not included in the list, your request will be rejected. #x9 | #xA | #xD | [#x20 to #xD7FF] | [#xE000 to #xFFFD] | [#x10000 to #x10FFFF]

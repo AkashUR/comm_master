@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setOnPreferenceChangeListener'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='preference'
+10 arguments
+11 argument (ThisExpr)
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='onPreferenceChange'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='preference'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getString'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getDefaultSharedPreferences'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='PreferenceManager'
+29 arguments
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getContext'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='preference'
+36 arguments
+37 argument (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getKey'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='preference'
+43 argument (StringLiteralExpr)
+44 value=''
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='bindPreferenceSummaryToValue'
+48 parameters
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='preference'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Preference'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+20 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+36 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+
+Attaches a listener so the summary is always updated with the preference value. Also fires the listener once, to initialize the summary (so it shows up before the value is changed.)

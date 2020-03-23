@@ -1,0 +1,224 @@
+111
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='resetForTesting'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='DurianPlugins'
+10 statement (ForeachStmt)
+11 body (BlockStmt)
+12 statements
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (BinaryExpr)
+18 operator='PLUS'
+19 left (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='PROPERTY_PREFIX'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='DurianPlugins'
+25 right (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getCanonicalName'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='plugin'
+31 name (SimpleName)
+32 identifier='key'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='String'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='ofNullable'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='Optional'
+46 arguments
+47 argument (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getProperty'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='System'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='key'
+57 name (SimpleName)
+58 identifier='value'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Optional'
+62 typeArguments
+63 typeArgument (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='String'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='put'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='state'
+73 arguments
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='plugin'
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='value'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='clearProperty'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='System'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='key'
+91 iterable (NameExpr)
+92 name (SimpleName)
+93 identifier='pluginsToStore'
+94 variable (VariableDeclarationExpr)
+95 variables
+96 variable (VariableDeclarator)
+97 name (SimpleName)
+98 identifier='plugin'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='Class'
+102 typeArguments
+103 typeArgument (WildcardType)
+104 type (VoidType)
+105 name (SimpleName)
+106 identifier='before'
+107 annotations
+108 annotation (MarkerAnnotationExpr)
+109 name (Name)
+110 identifier='Before'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+22 23
+23 24
+17 25
+25 26
+26 27
+25 28
+28 29
+29 30
+16 31
+31 32
+16 33
+33 34
+34 35
+12 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+39 57
+57 58
+39 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+12 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+67 73
+73 74
+74 75
+75 76
+73 77
+77 78
+78 79
+12 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+10 91
+91 92
+92 93
+10 94
+94 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+99 102
+102 103
+0 104
+0 105
+105 106
+0 107
+107 108
+108 109
+109 110
+
+Create a fresh instance of DurianPlugins for each test, and save the system properties that we're gonna futz with.

@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='isStopped'
+12 scope (ThisExpr)
+13 value (BooleanLiteralExpr)
+14 value='true'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='refCount'
+21 scope (ThisExpr)
+22 value (IntegerLiteralExpr)
+23 value='0'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='notify'
+28 scope (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='eventMutex'
+31 scope (ThisExpr)
+32 expression (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='eventMutex'
+35 scope (ThisExpr)
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='forceStop'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+7 13
+13 14
+5 15
+15 16
+16 17
+16 18
+18 19
+19 20
+18 21
+16 22
+22 23
+5 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+3 32
+32 33
+33 34
+32 35
+0 36
+0 37
+37 38
+
+Brutally stop the event scanner. This does not wait for the refcount to go to 0.

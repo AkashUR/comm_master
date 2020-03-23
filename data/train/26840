@@ -1,0 +1,36 @@
+17
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='reset'
+7 arguments
+8 argument (BooleanLiteralExpr)
+9 value='false'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='reset'
+13 thrownExceptions
+14 thrownException (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='DMLRuntimeException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+0 13
+13 14
+14 15
+15 16
+
+Call this method if you want to clear any RDDs set via registerInput, registerOutput. This is required if ml.execute(..) has been called earlier and you want to call a new DML script.  Note: By default this doesnot clean up configuration set using setConfig method.  To clean the configuration as along with registered input/outputs, please use reset(true);

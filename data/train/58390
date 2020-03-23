@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addCompleteFabView'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='setElevation'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='ViewCompat'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='completeFABView'
+18 argument (BinaryExpr)
+19 operator='PLUS'
+20 left (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getElevation'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='ViewCompat'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getChildAt'
+30 arguments
+31 argument (IntegerLiteralExpr)
+32 value='0'
+33 right (IntegerLiteralExpr)
+34 value='1'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='animate'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='completeFABView'
+42 arguments
+43 argument (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getScaleDownAnimator'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='progressArc'
+49 type (VoidType)
+50 name (SimpleName)
+51 identifier='displayColorTransformAnimation'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+16 17
+14 18
+18 19
+18 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+18 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+0 49
+0 50
+50 51
+
+If the code is being executed in api >= 21 the fab could have elevation, so the completeFabView should have at least the same elevation plus 1, to be able to get displayed on top If we are in pre lollipop, there is no real elevation, so we just need to add the view normally, as any possible elevation present would be fake (shadow tricks with backgrounds, etc) We can use ViewCompat methods to set / get elevation, as they do not do anything when you are in a pre lollipop device.

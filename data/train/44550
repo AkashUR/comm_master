@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='renderer'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='ShapeRenderer'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='setAutoShapeType'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='renderer'
+20 arguments
+21 argument (BooleanLiteralExpr)
+22 value='true'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='viewport'
+29 value (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='ExtendViewport'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='WORLD_SIZE'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='WORLD_SIZE'
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='ASSIGN'
+43 target (NameExpr)
+44 name (SimpleName)
+45 identifier='ball'
+46 value (ObjectCreationExpr)
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='BouncingBall'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='viewport'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='setInputProcessor'
+58 scope (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='input'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='Gdx'
+64 arguments
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='ball'
+68 type (VoidType)
+69 name (SimpleName)
+70 identifier='show'
+71 annotations
+72 annotation (MarkerAnnotationExpr)
+73 name (Name)
+74 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+2 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+47 48
+48 49
+46 50
+50 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+55 64
+64 65
+65 66
+66 67
+0 68
+0 69
+69 70
+0 71
+71 72
+72 73
+73 74
+
+TODO: Register our InputProcessor with LibGDX This is super simple, we just call Gdx.input.setInputProcessor() with our new subclass of InputAdapter. Now if we run the game, everything still works as before: we can scale the ball, we can move the ball around, but we can also hit space to give the ball a kick!

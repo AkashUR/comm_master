@@ -1,0 +1,640 @@
+319
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getMetaData'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='con'
+13 name (SimpleName)
+14 identifier='dmd'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='DatabaseMetaData'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getColumns'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='dmd'
+28 arguments
+29 argument (NullLiteralExpr)
+30 argument (NullLiteralExpr)
+31 argument (StringLiteralExpr)
+32 value='Table doesn\'t exist'
+33 argument (NullLiteralExpr)
+34 name (SimpleName)
+35 identifier='rs'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='ResultSet'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='assertNotNull'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='rs'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getMetaData'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='rs'
+57 name (SimpleName)
+58 identifier='rsmd'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='ResultSetMetaData'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='assertNotNull'
+66 arguments
+67 argument (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='getCatalogName'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='rsmd'
+73 arguments
+74 argument (IntegerLiteralExpr)
+75 value='1'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='assertNotNull'
+80 arguments
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getColumnClassName'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='rsmd'
+87 arguments
+88 argument (IntegerLiteralExpr)
+89 value='1'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='getColumnCount'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='rsmd'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='assertTrue'
+101 arguments
+102 argument (BinaryExpr)
+103 operator='NOT_EQUALS'
+104 left (IntegerLiteralExpr)
+105 value='0'
+106 right (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='getColumnDisplaySize'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='rsmd'
+112 arguments
+113 argument (IntegerLiteralExpr)
+114 value='1'
+115 statement (ExpressionStmt)
+116 expression (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='assertNotNull'
+119 arguments
+120 argument (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='getColumnLabel'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='rsmd'
+126 arguments
+127 argument (IntegerLiteralExpr)
+128 value='1'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='assertNotNull'
+133 arguments
+134 argument (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='getColumnName'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='rsmd'
+140 arguments
+141 argument (IntegerLiteralExpr)
+142 value='1'
+143 statement (ExpressionStmt)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='getColumnType'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='rsmd'
+150 arguments
+151 argument (IntegerLiteralExpr)
+152 value='1'
+153 statement (ExpressionStmt)
+154 expression (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='assertNotNull'
+157 arguments
+158 argument (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='getColumnTypeName'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='rsmd'
+164 arguments
+165 argument (IntegerLiteralExpr)
+166 value='1'
+167 statement (ExpressionStmt)
+168 expression (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='getPrecision'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='rsmd'
+174 arguments
+175 argument (IntegerLiteralExpr)
+176 value='1'
+177 statement (ExpressionStmt)
+178 expression (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='getScale'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='rsmd'
+184 arguments
+185 argument (IntegerLiteralExpr)
+186 value='1'
+187 statement (ExpressionStmt)
+188 expression (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='assertNotNull'
+191 arguments
+192 argument (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='getSchemaName'
+195 scope (NameExpr)
+196 name (SimpleName)
+197 identifier='rsmd'
+198 arguments
+199 argument (IntegerLiteralExpr)
+200 value='1'
+201 statement (ExpressionStmt)
+202 expression (MethodCallExpr)
+203 name (SimpleName)
+204 identifier='assertNotNull'
+205 arguments
+206 argument (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='getTableName'
+209 scope (NameExpr)
+210 name (SimpleName)
+211 identifier='rsmd'
+212 arguments
+213 argument (IntegerLiteralExpr)
+214 value='1'
+215 statement (ExpressionStmt)
+216 expression (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='isAutoIncrement'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='rsmd'
+222 arguments
+223 argument (IntegerLiteralExpr)
+224 value='1'
+225 statement (ExpressionStmt)
+226 expression (MethodCallExpr)
+227 name (SimpleName)
+228 identifier='isCaseSensitive'
+229 scope (NameExpr)
+230 name (SimpleName)
+231 identifier='rsmd'
+232 arguments
+233 argument (IntegerLiteralExpr)
+234 value='1'
+235 statement (ExpressionStmt)
+236 expression (MethodCallExpr)
+237 name (SimpleName)
+238 identifier='isCurrency'
+239 scope (NameExpr)
+240 name (SimpleName)
+241 identifier='rsmd'
+242 arguments
+243 argument (IntegerLiteralExpr)
+244 value='1'
+245 statement (ExpressionStmt)
+246 expression (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='isDefinitelyWritable'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='rsmd'
+252 arguments
+253 argument (IntegerLiteralExpr)
+254 value='1'
+255 statement (ExpressionStmt)
+256 expression (MethodCallExpr)
+257 name (SimpleName)
+258 identifier='isNullable'
+259 scope (NameExpr)
+260 name (SimpleName)
+261 identifier='rsmd'
+262 arguments
+263 argument (IntegerLiteralExpr)
+264 value='1'
+265 statement (ExpressionStmt)
+266 expression (MethodCallExpr)
+267 name (SimpleName)
+268 identifier='isReadOnly'
+269 scope (NameExpr)
+270 name (SimpleName)
+271 identifier='rsmd'
+272 arguments
+273 argument (IntegerLiteralExpr)
+274 value='1'
+275 statement (ExpressionStmt)
+276 expression (MethodCallExpr)
+277 name (SimpleName)
+278 identifier='isSearchable'
+279 scope (NameExpr)
+280 name (SimpleName)
+281 identifier='rsmd'
+282 arguments
+283 argument (IntegerLiteralExpr)
+284 value='1'
+285 statement (ExpressionStmt)
+286 expression (MethodCallExpr)
+287 name (SimpleName)
+288 identifier='isSigned'
+289 scope (NameExpr)
+290 name (SimpleName)
+291 identifier='rsmd'
+292 arguments
+293 argument (IntegerLiteralExpr)
+294 value='1'
+295 statement (ExpressionStmt)
+296 expression (MethodCallExpr)
+297 name (SimpleName)
+298 identifier='isWritable'
+299 scope (NameExpr)
+300 name (SimpleName)
+301 identifier='rsmd'
+302 arguments
+303 argument (IntegerLiteralExpr)
+304 value='1'
+305 statement (ExpressionStmt)
+306 expression (MethodCallExpr)
+307 name (SimpleName)
+308 identifier='close'
+309 scope (NameExpr)
+310 name (SimpleName)
+311 identifier='rs'
+312 type (VoidType)
+313 name (SimpleName)
+314 identifier='testGetColumnsMetaData'
+315 thrownExceptions
+316 thrownException (ClassOrInterfaceType)
+317 name (SimpleName)
+318 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+28 30
+28 31
+31 32
+28 33
+21 34
+34 35
+21 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+50 57
+57 58
+50 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+67 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+102 104
+104 105
+102 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+2 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+134 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+2 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+158 164
+164 165
+165 166
+2 167
+167 168
+168 169
+169 170
+168 171
+171 172
+172 173
+168 174
+174 175
+175 176
+2 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+178 184
+184 185
+185 186
+2 187
+187 188
+188 189
+189 190
+188 191
+191 192
+192 193
+193 194
+192 195
+195 196
+196 197
+192 198
+198 199
+199 200
+2 201
+201 202
+202 203
+203 204
+202 205
+205 206
+206 207
+207 208
+206 209
+209 210
+210 211
+206 212
+212 213
+213 214
+2 215
+215 216
+216 217
+217 218
+216 219
+219 220
+220 221
+216 222
+222 223
+223 224
+2 225
+225 226
+226 227
+227 228
+226 229
+229 230
+230 231
+226 232
+232 233
+233 234
+2 235
+235 236
+236 237
+237 238
+236 239
+239 240
+240 241
+236 242
+242 243
+243 244
+2 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+246 252
+252 253
+253 254
+2 255
+255 256
+256 257
+257 258
+256 259
+259 260
+260 261
+256 262
+262 263
+263 264
+2 265
+265 266
+266 267
+267 268
+266 269
+269 270
+270 271
+266 272
+272 273
+273 274
+2 275
+275 276
+276 277
+277 278
+276 279
+279 280
+280 281
+276 282
+282 283
+283 284
+2 285
+285 286
+286 287
+287 288
+286 289
+289 290
+290 291
+286 292
+292 293
+293 294
+2 295
+295 296
+296 297
+297 298
+296 299
+299 300
+300 301
+296 302
+302 303
+303 304
+2 305
+305 306
+306 307
+307 308
+306 309
+309 310
+310 311
+0 312
+0 313
+313 314
+0 315
+315 316
+316 317
+317 318
+
+Test for bug [1120168] jTDS 101 - TDS data type 0 invalid.

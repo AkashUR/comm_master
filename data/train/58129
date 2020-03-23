@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rangeCheckForAdd'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='index'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='ensureCapacityInternal'
+15 arguments
+16 argument (BinaryExpr)
+17 operator='PLUS'
+18 left (NameExpr)
+19 name (SimpleName)
+20 identifier='size'
+21 right (IntegerLiteralExpr)
+22 value='1'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='arraycopy'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='System'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='elementData'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='index'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='elementData'
+40 argument (BinaryExpr)
+41 operator='PLUS'
+42 left (NameExpr)
+43 name (SimpleName)
+44 identifier='index'
+45 right (IntegerLiteralExpr)
+46 value='1'
+47 argument (BinaryExpr)
+48 operator='MINUS'
+49 left (NameExpr)
+50 name (SimpleName)
+51 identifier='size'
+52 right (NameExpr)
+53 name (SimpleName)
+54 identifier='index'
+55 statement (ExpressionStmt)
+56 expression (AssignExpr)
+57 operator='ASSIGN'
+58 target (ArrayAccessExpr)
+59 index (NameExpr)
+60 name (SimpleName)
+61 identifier='index'
+62 name (NameExpr)
+63 name (SimpleName)
+64 identifier='elementData'
+65 value (NameExpr)
+66 name (SimpleName)
+67 identifier='element'
+68 statement (ExpressionStmt)
+69 expression (UnaryExpr)
+70 operator='POSTFIX_INCREMENT'
+71 expression (NameExpr)
+72 name (SimpleName)
+73 identifier='size'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='add'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='index'
+82 type (PrimitiveType)
+83 type='INT'
+84 parameter (Parameter)
+85 isVarArgs='false'
+86 name (SimpleName)
+87 identifier='element'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='E'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+30 37
+37 38
+38 39
+30 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+30 47
+47 48
+47 49
+49 50
+50 51
+47 52
+52 53
+53 54
+2 55
+55 56
+56 57
+56 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+56 65
+65 66
+66 67
+2 68
+68 69
+69 70
+69 71
+71 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+77 84
+84 85
+84 86
+86 87
+84 88
+88 89
+89 90
+
+Inserts the specified element at the specified position in this list. Shifts the element currently at that position (if any) and any subsequent elements to the right (adds one to their indices).

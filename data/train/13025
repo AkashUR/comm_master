@@ -1,0 +1,296 @@
+147
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkNotNull'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Preconditions'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='databaseManager'
+14 argument (StringLiteralExpr)
+15 value='IE01840: Database manager object can\'t be null'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='m_treeModel'
+22 value (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='CProjectTreeModel'
+26 arguments
+27 argument (ThisExpr)
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='setModel'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='m_treeModel'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='initialize'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='CProjectTreeDragHandlerInitializer'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='parent'
+47 argument (ThisExpr)
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='databaseManager'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='addMouseListener'
+55 arguments
+56 argument (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='InternalMouseListener'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='setScrollsOnExpand'
+64 arguments
+65 argument (BooleanLiteralExpr)
+66 value='false'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='setRootVisible'
+71 arguments
+72 argument (BooleanLiteralExpr)
+73 value='false'
+74 statement (ExpressionStmt)
+75 expression (AssignExpr)
+76 operator='ASSIGN'
+77 target (NameExpr)
+78 name (SimpleName)
+79 identifier='m_rootNode'
+80 value (ObjectCreationExpr)
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='CRootNode'
+84 arguments
+85 argument (ThisExpr)
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='databaseManager'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='setRoot'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='m_treeModel'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='m_rootNode'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='setCellRenderer'
+104 arguments
+105 argument (ObjectCreationExpr)
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='IconNodeRenderer'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='add'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='m_popup'
+116 arguments
+117 argument (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='proxy'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='CActionProxy'
+123 arguments
+124 argument (ObjectCreationExpr)
+125 type (ClassOrInterfaceType)
+126 name (SimpleName)
+127 identifier='CAddDatabaseAction'
+128 arguments
+129 argument (ThisExpr)
+130 name (SimpleName)
+131 identifier='CProjectTree'
+132 parameters
+133 parameter (Parameter)
+134 isVarArgs='false'
+135 name (SimpleName)
+136 identifier='parent'
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='JFrame'
+140 parameter (Parameter)
+141 isVarArgs='false'
+142 name (SimpleName)
+143 identifier='databaseManager'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='CDatabaseManager'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+23 24
+24 25
+22 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+43 47
+43 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+2 74
+74 75
+75 76
+75 77
+77 78
+78 79
+75 80
+80 81
+81 82
+82 83
+80 84
+84 85
+84 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+110 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+117 123
+123 124
+124 125
+125 126
+126 127
+124 128
+128 129
+0 130
+130 131
+0 132
+132 133
+133 134
+133 135
+135 136
+133 137
+137 138
+138 139
+132 140
+140 141
+140 142
+142 143
+140 144
+144 145
+145 146
+
+Creates a new project tree component.

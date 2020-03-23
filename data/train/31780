@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (NameExpr)
+5 name (SimpleName)
+6 identifier='newState'
+7 entries
+8 entrie (SwitchEntryStmt)
+9 label (NameExpr)
+10 name (SimpleName)
+11 identifier='LOST'
+12 statements
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='forEach'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='values'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='locks'
+23 arguments
+24 argument (NullLiteralExpr)
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='clear'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='locks'
+32 statement (BreakStmt)
+33 entrie (SwitchEntryStmt)
+34 label (NameExpr)
+35 name (SimpleName)
+36 identifier='SUSPENDED'
+37 statements
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='forEach'
+42 scope (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='values'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='locks'
+48 arguments
+49 argument (NullLiteralExpr)
+50 statement (BreakStmt)
+51 entrie (SwitchEntryStmt)
+52 label (NameExpr)
+53 name (SimpleName)
+54 identifier='RECONNECTED'
+55 statements
+56 statement (BreakStmt)
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='stateChanged'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='client'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='CuratorFramework'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='newState'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='ConnectionState'
+75 annotations
+76 annotation (MarkerAnnotationExpr)
+77 name (Name)
+78 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+3 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+14 23
+23 24
+12 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+12 32
+7 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+39 48
+48 49
+37 50
+7 51
+51 52
+52 53
+53 54
+51 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+60 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+0 75
+75 76
+76 77
+77 78
+
+some state make effect to the lock, we have to handle it.

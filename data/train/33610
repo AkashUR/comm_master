@@ -1,0 +1,36 @@
+17
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='realClose'
+7 arguments
+8 argument (BooleanLiteralExpr)
+9 value='true'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='close'
+13 thrownExceptions
+14 thrownException (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+0 13
+13 14
+14 15
+15 16
+
+In some cases, it is desirable to immediately release a ResultSet database and JDBC resources instead of waiting for this to happen when it is automatically closed. The close method provides this immediate release. <p> <B>Note:</B> A ResultSet is automatically closed by the Statement the Statement that generated it when that Statement is closed, re-executed, or is used to retrieve the next result from a sequence of multiple results. A ResultSet is also automatically closed when it is garbage collected. </p>

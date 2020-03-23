@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validate'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='schema'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='createTables'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='kvs'
+18 argument (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getTableDefinitions'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='schema'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='createIndices'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='kvs'
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getIndexDefinitions'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='schema'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='createTablesAndIndexes'
+41 parameters
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='schema'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Schema'
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='kvs'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='KeyValueService'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+32 35
+35 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+41 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+
+Creates tables/indexes for this schema. This operation is idempotent, so it can be called multiple times without effect. Behavior is undefined if the schema has changed between calls (e.g., it is not the responsibility of this method to perform schema upgrades).

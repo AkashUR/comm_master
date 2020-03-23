@@ -1,0 +1,76 @@
+37
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='is'
+9 argument (ArrayCreationExpr)
+10 elementType (PrimitiveType)
+11 type='BYTE'
+12 levels
+13 level (ArrayCreationLevel)
+14 dimension (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='ensureBufferSize'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='bufferSize'
+21 name (SimpleName)
+22 identifier='FastBufferedInputStream'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='is'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='InputStream'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='bufferSize'
+35 type (PrimitiveType)
+36 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+23 31
+31 32
+31 33
+33 34
+31 35
+35 36
+
+Creates a new fast buffered input stream by wrapping a given input stream with a given buffer size.

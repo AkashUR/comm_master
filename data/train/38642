@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='incModificationCount'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='uiSettingsChanged'
+11 scope (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getMulticaster'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='myDispatcher'
+17 arguments
+18 argument (ThisExpr)
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='uiSettingsChanged'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='syncPublisher'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getMessageBus'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getApplication'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='ApplicationManager'
+35 arguments
+36 argument (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='TOPIC'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='UISettingsListener'
+42 arguments
+43 argument (ThisExpr)
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='fireUISettingsChanged'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+15 16
+8 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+23 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+20 42
+42 43
+0 44
+0 45
+45 46
+
+Notifies all registered listeners that UI settings has been changed.

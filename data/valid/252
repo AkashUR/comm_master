@@ -1,0 +1,128 @@
+63
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setUp'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='slices'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='rows'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='columns'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='elements'
+23 scope (ThisExpr)
+24 value (ArrayCreationExpr)
+25 elementType (PrimitiveType)
+26 type='DOUBLE'
+27 levels
+28 level (ArrayCreationLevel)
+29 dimension (BinaryExpr)
+30 operator='MULTIPLY'
+31 left (BinaryExpr)
+32 operator='MULTIPLY'
+33 left (NameExpr)
+34 name (SimpleName)
+35 identifier='slices'
+36 right (NameExpr)
+37 name (SimpleName)
+38 identifier='rows'
+39 right (NameExpr)
+40 name (SimpleName)
+41 identifier='columns'
+42 name (SimpleName)
+43 identifier='DenseDoubleMatrix3D'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='slices'
+49 type (PrimitiveType)
+50 type='INT'
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='rows'
+55 type (PrimitiveType)
+56 type='INT'
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='columns'
+61 type (PrimitiveType)
+62 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+18 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+29 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+29 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+44 51
+51 52
+51 53
+53 54
+51 55
+55 56
+44 57
+57 58
+57 59
+59 60
+57 61
+61 62
+
+Constructs a matrix with a given number of slices, rows and columns. All entries are initially <tt>0</tt>.

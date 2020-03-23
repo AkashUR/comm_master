@@ -1,0 +1,592 @@
+295
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Properties'
+11 name (SimpleName)
+12 identifier='config'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Properties'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='put'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='config'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='APPLICATION_ID_CONFIG'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='StreamsConfig'
+30 argument (StringLiteralExpr)
+31 value='processor-kafka-streams-instrumented'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='put'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='config'
+39 arguments
+40 argument (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='BOOTSTRAP_SERVERS_CONFIG'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='StreamsConfig'
+46 argument (StringLiteralExpr)
+47 value='localhost:9092'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='put'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='config'
+55 arguments
+56 argument (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='ZOOKEEPER_CONNECT_CONFIG'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='StreamsConfig'
+62 argument (StringLiteralExpr)
+63 value='localhost:2181'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='put'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='config'
+71 arguments
+72 argument (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='KEY_SERDE_CLASS_CONFIG'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='StreamsConfig'
+78 argument (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='getName'
+81 scope (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getClass'
+84 scope (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='String'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='Serdes'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='put'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='config'
+97 arguments
+98 argument (FieldAccessExpr)
+99 name (SimpleName)
+100 identifier='VALUE_SERDE_CLASS_CONFIG'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='StreamsConfig'
+104 argument (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='getName'
+107 scope (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='getClass'
+110 scope (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='Double'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='Serdes'
+116 statement (ExpressionStmt)
+117 expression (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='put'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='config'
+123 arguments
+124 argument (FieldAccessExpr)
+125 name (SimpleName)
+126 identifier='AUTO_OFFSET_RESET_CONFIG'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='ConsumerConfig'
+130 argument (StringLiteralExpr)
+131 value='latest'
+132 statement (ExpressionStmt)
+133 expression (VariableDeclarationExpr)
+134 variables
+135 variable (VariableDeclarator)
+136 initializer (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='build'
+139 scope (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='inMemory'
+142 scope (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='withDoubleValues'
+145 scope (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='withStringKeys'
+148 scope (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='create'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='Stores'
+154 arguments
+155 argument (StringLiteralExpr)
+156 value='FAST-store'
+157 name (SimpleName)
+158 identifier='fastStore'
+159 type (ClassOrInterfaceType)
+160 name (SimpleName)
+161 identifier='StateStoreSupplier'
+162 statement (ExpressionStmt)
+163 expression (VariableDeclarationExpr)
+164 variables
+165 variable (VariableDeclarator)
+166 initializer (ObjectCreationExpr)
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='TopologyBuilder'
+170 name (SimpleName)
+171 identifier='builder'
+172 type (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='TopologyBuilder'
+175 statement (ExpressionStmt)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='addSink'
+179 scope (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='addStateStore'
+182 scope (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='addProcessor'
+185 scope (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='addSource'
+188 scope (NameExpr)
+189 name (SimpleName)
+190 identifier='builder'
+191 arguments
+192 argument (StringLiteralExpr)
+193 value='messages-source'
+194 argument (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='deserializer'
+197 scope (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='String'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='Serdes'
+203 argument (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='deserializer'
+206 scope (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='Double'
+209 scope (NameExpr)
+210 name (SimpleName)
+211 identifier='Serdes'
+212 argument (StringLiteralExpr)
+213 value='messages-instrumented'
+214 arguments
+215 argument (StringLiteralExpr)
+216 value='FAST-processor'
+217 argument (NullLiteralExpr)
+218 argument (StringLiteralExpr)
+219 value='messages-source'
+220 arguments
+221 argument (NameExpr)
+222 name (SimpleName)
+223 identifier='fastStore'
+224 argument (StringLiteralExpr)
+225 value='FAST-processor'
+226 arguments
+227 argument (StringLiteralExpr)
+228 value='FAST-sink'
+229 argument (StringLiteralExpr)
+230 value='fast-avgs-instrumented'
+231 argument (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='serializer'
+234 scope (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='String'
+237 scope (NameExpr)
+238 name (SimpleName)
+239 identifier='Serdes'
+240 argument (MethodCallExpr)
+241 name (SimpleName)
+242 identifier='serializer'
+243 scope (MethodCallExpr)
+244 name (SimpleName)
+245 identifier='Double'
+246 scope (NameExpr)
+247 name (SimpleName)
+248 identifier='Serdes'
+249 argument (StringLiteralExpr)
+250 value='FAST-processor'
+251 statement (ExpressionStmt)
+252 expression (VariableDeclarationExpr)
+253 variables
+254 variable (VariableDeclarator)
+255 initializer (ObjectCreationExpr)
+256 type (ClassOrInterfaceType)
+257 name (SimpleName)
+258 identifier='KafkaStreams'
+259 arguments
+260 argument (NameExpr)
+261 name (SimpleName)
+262 identifier='builder'
+263 argument (NameExpr)
+264 name (SimpleName)
+265 identifier='config'
+266 name (SimpleName)
+267 identifier='streams'
+268 type (ClassOrInterfaceType)
+269 name (SimpleName)
+270 identifier='KafkaStreams'
+271 statement (ExpressionStmt)
+272 expression (MethodCallExpr)
+273 name (SimpleName)
+274 identifier='start'
+275 scope (NameExpr)
+276 name (SimpleName)
+277 identifier='streams'
+278 type (VoidType)
+279 name (SimpleName)
+280 identifier='main'
+281 parameters
+282 parameter (Parameter)
+283 isVarArgs='false'
+284 name (SimpleName)
+285 identifier='args'
+286 type (ArrayType)
+287 origin='TYPE'
+288 componentType (ClassOrInterfaceType)
+289 name (SimpleName)
+290 identifier='String'
+291 thrownExceptions
+292 thrownException (ClassOrInterfaceType)
+293 name (SimpleName)
+294 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+55 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+71 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+97 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+110 111
+111 112
+110 113
+113 114
+114 115
+2 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+117 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+123 130
+130 131
+2 132
+132 133
+133 134
+134 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+139 142
+142 143
+143 144
+142 145
+145 146
+146 147
+145 148
+148 149
+149 150
+148 151
+151 152
+152 153
+148 154
+154 155
+155 156
+135 157
+157 158
+135 159
+159 160
+160 161
+2 162
+162 163
+163 164
+164 165
+165 166
+166 167
+167 168
+168 169
+165 170
+170 171
+165 172
+172 173
+173 174
+2 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+179 182
+182 183
+183 184
+182 185
+185 186
+186 187
+185 188
+188 189
+189 190
+185 191
+191 192
+192 193
+191 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+201 202
+191 203
+203 204
+204 205
+203 206
+206 207
+207 208
+206 209
+209 210
+210 211
+191 212
+212 213
+182 214
+214 215
+215 216
+214 217
+214 218
+218 219
+179 220
+220 221
+221 222
+222 223
+220 224
+224 225
+176 226
+226 227
+227 228
+226 229
+229 230
+226 231
+231 232
+232 233
+231 234
+234 235
+235 236
+234 237
+237 238
+238 239
+226 240
+240 241
+241 242
+240 243
+243 244
+244 245
+243 246
+246 247
+247 248
+226 249
+249 250
+2 251
+251 252
+252 253
+253 254
+254 255
+255 256
+256 257
+257 258
+255 259
+259 260
+260 261
+261 262
+259 263
+263 264
+264 265
+254 266
+266 267
+254 268
+268 269
+269 270
+2 271
+271 272
+272 273
+273 274
+272 275
+275 276
+276 277
+0 278
+0 279
+279 280
+0 281
+281 282
+282 283
+282 284
+284 285
+282 286
+286 287
+286 288
+288 289
+289 290
+0 291
+291 292
+292 293
+293 294
+
+Runs the streams program, writing to the "fast-avgs-instrumented",  "medium-avgs-instrumented", and "slow-avgs-instrumented" topics.

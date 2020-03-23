@@ -1,0 +1,546 @@
+272
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='mRenderer'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='renderer'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='starEndPoints'
+19 scope (ThisExpr)
+20 value (ArrayCreationExpr)
+21 elementType (PrimitiveType)
+22 type='FLOAT'
+23 initializer (ArrayInitializerExpr)
+24 values
+25 value (NameExpr)
+26 name (SimpleName)
+27 identifier='p0x'
+28 value (NameExpr)
+29 name (SimpleName)
+30 identifier='p0y'
+31 value (NameExpr)
+32 name (SimpleName)
+33 identifier='p3x'
+34 value (NameExpr)
+35 name (SimpleName)
+36 identifier='p3y'
+37 levels
+38 level (ArrayCreationLevel)
+39 statement (ExpressionStmt)
+40 expression (AssignExpr)
+41 operator='ASSIGN'
+42 target (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='controlPoints'
+45 scope (ThisExpr)
+46 value (ArrayCreationExpr)
+47 elementType (PrimitiveType)
+48 type='FLOAT'
+49 initializer (ArrayInitializerExpr)
+50 values
+51 value (NameExpr)
+52 name (SimpleName)
+53 identifier='p1x'
+54 value (NameExpr)
+55 name (SimpleName)
+56 identifier='p1y'
+57 value (NameExpr)
+58 name (SimpleName)
+59 identifier='p2x'
+60 value (NameExpr)
+61 name (SimpleName)
+62 identifier='p2y'
+63 levels
+64 level (ArrayCreationLevel)
+65 statement (ExpressionStmt)
+66 expression (AssignExpr)
+67 operator='ASSIGN'
+68 target (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='color'
+71 scope (ThisExpr)
+72 value (NameExpr)
+73 name (SimpleName)
+74 identifier='color'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 initializer (ArrayCreationExpr)
+80 elementType (PrimitiveType)
+81 type='INT'
+82 levels
+83 level (ArrayCreationLevel)
+84 dimension (IntegerLiteralExpr)
+85 value='1'
+86 name (SimpleName)
+87 identifier='buffers'
+88 type (ArrayType)
+89 origin='NAME'
+90 componentType (PrimitiveType)
+91 type='INT'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='glGenBuffers'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='GLES20'
+99 arguments
+100 argument (IntegerLiteralExpr)
+101 value='1'
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='buffers'
+105 argument (IntegerLiteralExpr)
+106 value='0'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='glBindBuffer'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='GLES20'
+114 arguments
+115 argument (FieldAccessExpr)
+116 name (SimpleName)
+117 identifier='GL_ARRAY_BUFFER'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='GLES20'
+121 argument (ArrayAccessExpr)
+122 index (IntegerLiteralExpr)
+123 value='0'
+124 name (NameExpr)
+125 name (SimpleName)
+126 identifier='buffers'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='glBufferData'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='GLES20'
+134 arguments
+135 argument (FieldAccessExpr)
+136 name (SimpleName)
+137 identifier='GL_ARRAY_BUFFER'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='GLES20'
+141 argument (BinaryExpr)
+142 operator='MULTIPLY'
+143 left (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='capacity'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='vboBuffer'
+149 right (FieldAccessExpr)
+150 name (SimpleName)
+151 identifier='BYTES_PER_FLOAT'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='Const'
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='vboBuffer'
+158 argument (FieldAccessExpr)
+159 name (SimpleName)
+160 identifier='GL_STATIC_DRAW'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='GLES20'
+164 statement (ExpressionStmt)
+165 expression (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='glBindBuffer'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='GLES20'
+171 arguments
+172 argument (FieldAccessExpr)
+173 name (SimpleName)
+174 identifier='GL_ARRAY_BUFFER'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='GLES20'
+178 argument (IntegerLiteralExpr)
+179 value='0'
+180 statement (ExpressionStmt)
+181 expression (AssignExpr)
+182 operator='ASSIGN'
+183 target (NameExpr)
+184 name (SimpleName)
+185 identifier='mBufferId'
+186 value (ArrayAccessExpr)
+187 index (IntegerLiteralExpr)
+188 value='0'
+189 name (NameExpr)
+190 name (SimpleName)
+191 identifier='buffers'
+192 statement (ExpressionStmt)
+193 expression (AssignExpr)
+194 operator='ASSIGN'
+195 target (NameExpr)
+196 name (SimpleName)
+197 identifier='vboBuffer'
+198 value (NullLiteralExpr)
+199 name (SimpleName)
+200 identifier='CubicBezier'
+201 parameters
+202 parameter (Parameter)
+203 isVarArgs='false'
+204 name (SimpleName)
+205 identifier='renderer'
+206 type (ClassOrInterfaceType)
+207 name (SimpleName)
+208 identifier='BezierRenderer'
+209 parameter (Parameter)
+210 isVarArgs='false'
+211 name (SimpleName)
+212 identifier='vboBuffer'
+213 type (ClassOrInterfaceType)
+214 name (SimpleName)
+215 identifier='FloatBuffer'
+216 parameter (Parameter)
+217 isVarArgs='false'
+218 name (SimpleName)
+219 identifier='p0x'
+220 type (PrimitiveType)
+221 type='FLOAT'
+222 parameter (Parameter)
+223 isVarArgs='false'
+224 name (SimpleName)
+225 identifier='p0y'
+226 type (PrimitiveType)
+227 type='FLOAT'
+228 parameter (Parameter)
+229 isVarArgs='false'
+230 name (SimpleName)
+231 identifier='p3x'
+232 type (PrimitiveType)
+233 type='FLOAT'
+234 parameter (Parameter)
+235 isVarArgs='false'
+236 name (SimpleName)
+237 identifier='p3y'
+238 type (PrimitiveType)
+239 type='FLOAT'
+240 parameter (Parameter)
+241 isVarArgs='false'
+242 name (SimpleName)
+243 identifier='p1x'
+244 type (PrimitiveType)
+245 type='FLOAT'
+246 parameter (Parameter)
+247 isVarArgs='false'
+248 name (SimpleName)
+249 identifier='p1y'
+250 type (PrimitiveType)
+251 type='FLOAT'
+252 parameter (Parameter)
+253 isVarArgs='false'
+254 name (SimpleName)
+255 identifier='p2x'
+256 type (PrimitiveType)
+257 type='FLOAT'
+258 parameter (Parameter)
+259 isVarArgs='false'
+260 name (SimpleName)
+261 identifier='p2y'
+262 type (PrimitiveType)
+263 type='FLOAT'
+264 parameter (Parameter)
+265 isVarArgs='false'
+266 name (SimpleName)
+267 identifier='color'
+268 type (ArrayType)
+269 origin='TYPE'
+270 componentType (PrimitiveType)
+271 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+24 31
+31 32
+32 33
+24 34
+34 35
+35 36
+20 37
+37 38
+2 39
+39 40
+40 41
+40 42
+42 43
+43 44
+42 45
+40 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+50 57
+57 58
+58 59
+50 60
+60 61
+61 62
+46 63
+63 64
+2 65
+65 66
+66 67
+66 68
+68 69
+69 70
+68 71
+66 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+78 86
+86 87
+78 88
+88 89
+88 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+114 121
+121 122
+122 123
+121 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+128 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+134 141
+141 142
+141 143
+143 144
+144 145
+143 146
+146 147
+147 148
+141 149
+149 150
+150 151
+149 152
+152 153
+153 154
+134 155
+155 156
+156 157
+134 158
+158 159
+159 160
+158 161
+161 162
+162 163
+2 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+165 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+171 178
+178 179
+2 180
+180 181
+181 182
+181 183
+183 184
+184 185
+181 186
+186 187
+187 188
+186 189
+189 190
+190 191
+2 192
+192 193
+193 194
+193 195
+195 196
+196 197
+193 198
+0 199
+199 200
+0 201
+201 202
+202 203
+202 204
+204 205
+202 206
+206 207
+207 208
+201 209
+209 210
+209 211
+211 212
+209 213
+213 214
+214 215
+201 216
+216 217
+216 218
+218 219
+216 220
+220 221
+201 222
+222 223
+222 224
+224 225
+222 226
+226 227
+201 228
+228 229
+228 230
+230 231
+228 232
+232 233
+201 234
+234 235
+234 236
+236 237
+234 238
+238 239
+201 240
+240 241
+240 242
+242 243
+240 244
+244 245
+201 246
+246 247
+246 248
+248 249
+246 250
+250 251
+201 252
+252 253
+252 254
+254 255
+252 256
+256 257
+201 258
+258 259
+258 260
+260 261
+258 262
+262 263
+201 264
+264 265
+264 266
+266 267
+264 268
+268 269
+268 270
+270 271
+
+Creates a cubic bezier renderable

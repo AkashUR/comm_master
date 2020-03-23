@@ -1,0 +1,180 @@
+89
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='viewportHeight'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='camera'
+12 value (BinaryExpr)
+13 operator='MULTIPLY'
+14 left (IntegerLiteralExpr)
+15 value='2'
+16 right (NameExpr)
+17 name (SimpleName)
+18 identifier='PLANET_RADIUS'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='viewportWidth'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='camera'
+28 value (BinaryExpr)
+29 operator='MULTIPLY'
+30 left (NameExpr)
+31 name (SimpleName)
+32 identifier='aspectRatio'
+33 right (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='viewportHeight'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='camera'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='set'
+43 scope (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='position'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='camera'
+49 arguments
+50 argument (IntegerLiteralExpr)
+51 value='0'
+52 argument (IntegerLiteralExpr)
+53 value='0'
+54 argument (IntegerLiteralExpr)
+55 value='0'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='translate'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='camera'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='PLANET_CENTER_X'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='PLANET_CENTER_Y'
+70 argument (IntegerLiteralExpr)
+71 value='0'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='trackPlanet'
+75 parameters
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='camera'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='OrthographicCamera'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='aspectRatio'
+87 type (PrimitiveType)
+88 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+12 14
+14 15
+12 16
+16 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+22 25
+25 26
+26 27
+20 28
+28 29
+28 30
+30 31
+31 32
+28 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+40 49
+49 50
+50 51
+49 52
+52 53
+49 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+63 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+75 83
+83 84
+83 85
+85 86
+83 87
+87 88
+
+Let's move the camera to focus on the green planet. First, we need to set the viewport size, as we did with the star. Now we need to move the camera to the planet. A different way to do that is to move the camera to the origin, then translate it to the position of the planet.

@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='doNotChangeDocument'
+9 value (BooleanLiteralExpr)
+10 value='true'
+11 statement (TryStmt)
+12 finallyBlock (BlockStmt)
+13 statements
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (NameExpr)
+18 name (SimpleName)
+19 identifier='doNotChangeDocument'
+20 value (BooleanLiteralExpr)
+21 value='false'
+22 tryBlock (BlockStmt)
+23 statements
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='listChanged'
+28 scope (SuperExpr)
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='listChanges'
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='listChanged'
+36 parameters
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='listChanges'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='ListEvent'
+44 typeArguments
+45 typeArgument (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='E'
+48 annotations
+49 annotation (MarkerAnnotationExpr)
+50 name (Name)
+51 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+13 14
+14 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+11 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+25 29
+29 30
+30 31
+31 32
+0 33
+0 34
+34 35
+0 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+0 48
+48 49
+49 50
+50 51
+
+Overridden because ListEvents produce ListDataEvents from this ComboBoxModel, which notify the BasicComboBoxUI of the data change, which in turn tries to set the text of the ComboBoxEditor to match the text of the selected item. We don't want that. AutoCompleteSupport is the ultimate authority on the text value in the ComboBoxEditor. We override this method to set doNotChangeDocument to ensure that attempts to change the ComboBoxEditor's Document are ignored and our control is absolute.

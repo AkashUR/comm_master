@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='log'
+7 arguments
+8 argument (NullLiteralExpr)
+9 argument (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getName'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getClass'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getExperiment'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='e'
+29 right (StringLiteralExpr)
+30 value=': '
+31 right (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='relationName'
+34 scope (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getDataset'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='e'
+40 right (StringLiteralExpr)
+41 value=' / '
+42 right (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='toCommandLine'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='OptionUtils'
+48 arguments
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getClassifier'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='e'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='nextIteration'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='e'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='IterationNotificationEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+15 29
+29 30
+13 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+11 40
+40 41
+9 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+
+Gets called if there is a new iteration (classifier/dataset combination) occurring in the experiment.

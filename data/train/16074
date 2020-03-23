@@ -1,0 +1,426 @@
+212
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createXYBarChart'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='ChartFactory'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getTitle'
+17 argument (StringLiteralExpr)
+18 value='Elapsed Time (sec)'
+19 argument (BooleanLiteralExpr)
+20 value='false'
+21 argument (BinaryExpr)
+22 operator='PLUS'
+23 left (StringLiteralExpr)
+24 value='Time'
+25 right (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='unitSuffix'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='dataset'
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='VERTICAL'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='PlotOrientation'
+37 argument (BooleanLiteralExpr)
+38 value='true'
+39 argument (BooleanLiteralExpr)
+40 value='true'
+41 argument (BooleanLiteralExpr)
+42 value='false'
+43 name (SimpleName)
+44 identifier='chart'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='JFreeChart'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='addProgressListener'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='chart'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='locker'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (CastExpr)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getPlot'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='chart'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='XYPlot'
+73 name (SimpleName)
+74 identifier='plot'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='XYPlot'
+78 statement (ExpressionStmt)
+79 expression (VariableDeclarationExpr)
+80 variables
+81 variable (VariableDeclarator)
+82 initializer (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='getRenderer'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='plot'
+88 name (SimpleName)
+89 identifier='renderer'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='XYItemRenderer'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='setToolTipGenerator'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='renderer'
+100 arguments
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='dataset'
+104 statement (ExpressionStmt)
+105 expression (AssignExpr)
+106 operator='ASSIGN'
+107 target (NameExpr)
+108 name (SimpleName)
+109 identifier='groupActivatingTable'
+110 value (ObjectCreationExpr)
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='GroupActivatingPanel'
+114 arguments
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='dataset'
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='locker'
+121 statement (ExpressionStmt)
+122 expression (VariableDeclarationExpr)
+123 variables
+124 variable (VariableDeclarator)
+125 initializer (ObjectCreationExpr)
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='ChartPanel'
+129 scope (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='chart'
+132 scope (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='jfree'
+135 scope (ClassOrInterfaceType)
+136 name (SimpleName)
+137 identifier='org'
+138 arguments
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='chart'
+142 name (SimpleName)
+143 identifier='chartPanel'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='ChartPanel'
+147 scope (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='chart'
+150 scope (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='jfree'
+153 scope (ClassOrInterfaceType)
+154 name (SimpleName)
+155 identifier='org'
+156 statement (ExpressionStmt)
+157 expression (VariableDeclarationExpr)
+158 variables
+159 variable (VariableDeclarator)
+160 initializer (ObjectCreationExpr)
+161 type (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='JSplitPane'
+164 arguments
+165 argument (FieldAccessExpr)
+166 name (SimpleName)
+167 identifier='HORIZONTAL_SPLIT'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='JSplitPane'
+171 argument (NameExpr)
+172 name (SimpleName)
+173 identifier='groupActivatingTable'
+174 argument (NameExpr)
+175 name (SimpleName)
+176 identifier='chartPanel'
+177 name (SimpleName)
+178 identifier='splitPane'
+179 type (ClassOrInterfaceType)
+180 name (SimpleName)
+181 identifier='JSplitPane'
+182 statement (ExpressionStmt)
+183 expression (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='setDividerLocation'
+186 scope (NameExpr)
+187 name (SimpleName)
+188 identifier='splitPane'
+189 arguments
+190 argument (IntegerLiteralExpr)
+191 value='200'
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='add'
+196 scope (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='mainPanel'
+199 arguments
+200 argument (FieldAccessExpr)
+201 name (SimpleName)
+202 identifier='CENTER'
+203 scope (NameExpr)
+204 name (SimpleName)
+205 identifier='BorderLayout'
+206 argument (NameExpr)
+207 name (SimpleName)
+208 identifier='splitPane'
+209 type (VoidType)
+210 name (SimpleName)
+211 identifier='addChart'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+13 19
+19 20
+13 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+13 28
+28 29
+29 30
+13 31
+31 32
+32 33
+31 34
+34 35
+35 36
+13 37
+37 38
+13 39
+39 40
+13 41
+41 42
+6 43
+43 44
+6 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+63 70
+70 71
+71 72
+62 73
+73 74
+62 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+81 88
+88 89
+81 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+102 103
+2 104
+104 105
+105 106
+105 107
+107 108
+108 109
+105 110
+110 111
+111 112
+112 113
+110 114
+114 115
+115 116
+116 117
+114 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+133 134
+132 135
+135 136
+136 137
+125 138
+138 139
+139 140
+140 141
+124 142
+142 143
+124 144
+144 145
+145 146
+144 147
+147 148
+148 149
+147 150
+150 151
+151 152
+150 153
+153 154
+154 155
+2 156
+156 157
+157 158
+158 159
+159 160
+160 161
+161 162
+162 163
+160 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+164 171
+171 172
+172 173
+164 174
+174 175
+175 176
+159 177
+177 178
+159 179
+179 180
+180 181
+2 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+183 189
+189 190
+190 191
+2 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+193 199
+199 200
+200 201
+201 202
+200 203
+203 204
+204 205
+199 206
+206 207
+207 208
+0 209
+0 210
+210 211
+
+It creates a chart for the given dataset and adds the chart to the panel.

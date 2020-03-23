@@ -1,0 +1,274 @@
+136
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='attackPoly'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='StraightArrowPolygon'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='a'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='t'
+20 argument (CastExpr)
+21 expression (EnclosedExpr)
+22 inner (BinaryExpr)
+23 operator='MULTIPLY'
+24 left (IntegerLiteralExpr)
+25 value='8'
+26 right (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='scale'
+29 scope (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='boardView1'
+32 scope (ThisExpr)
+33 type (PrimitiveType)
+34 type='INT'
+35 argument (CastExpr)
+36 expression (EnclosedExpr)
+37 inner (BinaryExpr)
+38 operator='MULTIPLY'
+39 left (IntegerLiteralExpr)
+40 value='12'
+41 right (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='scale'
+44 scope (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='boardView1'
+47 scope (ThisExpr)
+48 type (PrimitiveType)
+49 type='INT'
+50 argument (BooleanLiteralExpr)
+51 value='true'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (NameExpr)
+56 name (SimpleName)
+57 identifier='bounds'
+58 value (ObjectCreationExpr)
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Rectangle'
+62 arguments
+63 argument (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getBounds'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='attackPoly'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='setSize'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='bounds'
+76 arguments
+77 argument (BinaryExpr)
+78 operator='PLUS'
+79 left (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='width'
+82 scope (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='getSize'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='bounds'
+88 right (IntegerLiteralExpr)
+89 value='1'
+90 argument (BinaryExpr)
+91 operator='PLUS'
+92 left (FieldAccessExpr)
+93 name (SimpleName)
+94 identifier='height'
+95 scope (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='getSize'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='bounds'
+101 right (IntegerLiteralExpr)
+102 value='1'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='translate'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='attackPoly'
+110 arguments
+111 argument (UnaryExpr)
+112 operator='MINUS'
+113 expression (FieldAccessExpr)
+114 name (SimpleName)
+115 identifier='x'
+116 scope (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='getLocation'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='bounds'
+122 argument (UnaryExpr)
+123 operator='MINUS'
+124 expression (FieldAccessExpr)
+125 name (SimpleName)
+126 identifier='y'
+127 scope (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='getLocation'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='bounds'
+133 type (VoidType)
+134 name (SimpleName)
+135 identifier='rebuildToHalvedPolygon'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+13 20
+20 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+20 33
+33 34
+13 35
+35 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+35 48
+48 49
+13 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+53 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+77 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+77 88
+88 89
+76 90
+90 91
+90 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+99 100
+90 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+111 113
+113 114
+114 115
+113 116
+116 117
+117 118
+116 119
+119 120
+120 121
+110 122
+122 123
+122 124
+124 125
+125 126
+124 127
+127 128
+128 129
+127 130
+130 131
+131 132
+0 133
+0 134
+134 135
+
+If we have build full arrow already with single attack and have got counter attack from our target lately - lets change arrow to halved.

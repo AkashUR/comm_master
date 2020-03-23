@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='readFromNBT'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='tag'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getCompoundTag'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='tag'
+22 arguments
+23 argument (StringLiteralExpr)
+24 value='IC2BasicSink'
+25 name (SimpleName)
+26 identifier='data'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='NBTTagCompound'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='energyStored'
+36 value (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getDouble'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='data'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='energy'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='readFromNBT'
+48 parameters
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='tag'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='NBTTagCompound'
+56 annotations
+57 annotation (MarkerAnnotationExpr)
+58 name (Name)
+59 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+15 25
+25 26
+15 27
+27 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+0 56
+56 57
+57 58
+58 59
+
+Forward for the base TileEntity's readFromNBT(), used for loading the state.

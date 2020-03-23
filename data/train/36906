@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='get'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='outfitTypes'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='outfitType'
+17 name (SimpleName)
+18 identifier='possibleNewOutfits'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='List'
+22 typeArguments
+23 typeArgument (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Outfit'
+26 statement (ExpressionStmt)
+27 expression (VariableDeclarationExpr)
+28 variables
+29 variable (VariableDeclarator)
+30 initializer (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='rand'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='Rand'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='possibleNewOutfits'
+40 name (SimpleName)
+41 identifier='newOutfit'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Outfit'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='setOutfit'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='player'
+52 arguments
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='putOver'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='newOutfit'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getOutfit'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='player'
+66 argument (BooleanLiteralExpr)
+67 value='true'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='registerOutfitExpireTime'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='player'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='endurance'
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='putOnOutfit'
+82 parameters
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='player'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='Player'
+90 parameter (Parameter)
+91 isVarArgs='false'
+92 name (SimpleName)
+93 identifier='outfitType'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+29 40
+40 41
+29 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+52 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+0 79
+0 80
+80 81
+0 82
+82 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+82 90
+90 91
+90 92
+92 93
+90 94
+94 95
+95 96
+
+Tries to get back the bought/lent outfit and give the player his original outfit back. This will only be successful if the player is wearing an outfit he got here, and if the original outfit has been stored.

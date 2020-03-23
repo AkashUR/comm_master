@@ -1,0 +1,186 @@
+92
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='initDialog'
+10 name (SimpleName)
+11 identifier='dialog'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='CloudAttachDialog'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='mockLoggedInUser'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='selectInProgressProject'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='doValidate'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='dialog'
+33 name (SimpleName)
+34 identifier='error'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='ValidationInfo'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='assertNull'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='error'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='assertFalse'
+50 arguments
+51 argument (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='isEnabled'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='targetSelector'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='assertNull'
+61 arguments
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='getSelectedItem'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='targetSelector'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='assertFalse'
+72 arguments
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='isOKActionEnabled'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='dialog'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='close'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='dialog'
+86 arguments
+87 argument (IntegerLiteralExpr)
+88 value='0'
+89 type (VoidType)
+90 name (SimpleName)
+91 identifier='testUnknownProjectSelected'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+26 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+0 89
+0 90
+90 91
+
+If there is no module loaded (including no default module) then this indicates that the async module loading is still in progress. We do not want to display an error to the user until the thread completes to avoid flashing error messages

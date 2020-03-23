@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mTransitionState'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='TRANSITION_STARTING'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='fill'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='Arrays'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='mIsLayerOn'
+23 argument (IntegerLiteralExpr)
+24 value='0'
+25 argument (BinaryExpr)
+26 operator='PLUS'
+27 left (NameExpr)
+28 name (SimpleName)
+29 identifier='index'
+30 right (IntegerLiteralExpr)
+31 value='1'
+32 argument (BooleanLiteralExpr)
+33 value='true'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='fill'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='Arrays'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='mIsLayerOn'
+45 argument (BinaryExpr)
+46 operator='PLUS'
+47 left (NameExpr)
+48 name (SimpleName)
+49 identifier='index'
+50 right (IntegerLiteralExpr)
+51 value='1'
+52 argument (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='length'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='mLayers'
+58 argument (BooleanLiteralExpr)
+59 value='false'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='invalidateSelf'
+64 type (VoidType)
+65 name (SimpleName)
+66 identifier='fadeUpToLayer'
+67 parameters
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='index'
+72 type (PrimitiveType)
+73 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+19 23
+23 24
+19 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+19 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+41 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+41 52
+52 53
+53 54
+52 55
+55 56
+56 57
+41 58
+58 59
+2 60
+60 61
+61 62
+62 63
+0 64
+0 65
+65 66
+0 67
+67 68
+68 69
+68 70
+70 71
+68 72
+72 73
+
+Starts fading up to the specified layer. <p> Layers up to the specified layer inclusive will fade in, other layers will fade out.

@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (VariableDeclarationExpr)
+8 variables
+9 variable (VariableDeclarator)
+10 initializer (CastExpr)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='next'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='nodeit'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Node'
+20 name (SimpleName)
+21 identifier='node'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Node'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='linkAllDirectedEdges'
+29 scope (EnclosedExpr)
+30 inner (CastExpr)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getEdges'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='node'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='DirectedEdgeStar'
+40 compare (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='hasNext'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='nodeit'
+46 initialization
+47 initializatio (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='iterator'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='nodes'
+56 name (SimpleName)
+57 identifier='nodeit'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='Iterator'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='linkAllDirectedEdges'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+9 20
+20 21
+9 22
+22 23
+23 24
+5 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+38 39
+3 40
+40 41
+41 42
+40 43
+43 44
+44 45
+3 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+49 56
+56 57
+49 58
+58 59
+59 60
+0 61
+0 62
+62 63
+
+Link the DirectedEdges at the nodes of the graph. This allows clients to link only a subset of nodes in the graph, for efficiency (because they know that only a subset is of interest).

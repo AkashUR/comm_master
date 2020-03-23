@@ -1,0 +1,34 @@
+16
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='recomposeTemplates'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='flushFirst'
+10 type (PrimitiveType)
+11 type='BOOLEAN'
+12 thrownExceptions
+13 thrownException (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TransformerException'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+0 12
+12 13
+13 14
+14 15
+
+For compilation support, we need the option of overwriting (rather than appending to) previous composition. We could phase out the old API in favor of this one, but I'm holding off until we've made up our minds about compilation. ADDED 9/5/2000 to support compilation experiment. NOTE: GLP 29-Nov-00 I've left this method in so that CompilingStylesheetHandler will compile.  However, I'm not sure why it's needed or what it does and I've commented out the body.

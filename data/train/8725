@@ -1,0 +1,166 @@
+82
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mCookie'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='openDexFile'
+12 arguments
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='fileName'
+16 argument (NullLiteralExpr)
+17 argument (IntegerLiteralExpr)
+18 value='0'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (NameExpr)
+23 name (SimpleName)
+24 identifier='mFileName'
+25 value (NameExpr)
+26 name (SimpleName)
+27 identifier='fileName'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='open'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='guard'
+35 arguments
+36 argument (StringLiteralExpr)
+37 value='close'
+38 name (SimpleName)
+39 identifier='DexFile'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='fileName'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='String'
+48 thrownExceptions
+49 thrownException (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='IOException'
+52 annotations
+53 annotation (NormalAnnotationExpr)
+54 name (Name)
+55 identifier='DSGenerator'
+56 pairs
+57 pair (MemberValuePair)
+58 name (SimpleName)
+59 identifier='tool_name'
+60 value (StringLiteralExpr)
+61 value='Doppelganger'
+62 pair (MemberValuePair)
+63 name (SimpleName)
+64 identifier='tool_version'
+65 value (StringLiteralExpr)
+66 value='2.0'
+67 pair (MemberValuePair)
+68 name (SimpleName)
+69 identifier='generated_on'
+70 value (StringLiteralExpr)
+71 value='2013-12-30 13:02:39.711 -0500'
+72 pair (MemberValuePair)
+73 name (SimpleName)
+74 identifier='hash_original_method'
+75 value (StringLiteralExpr)
+76 value='2B4E18996A051A13BE51394FD13F0A3C'
+77 pair (MemberValuePair)
+78 name (SimpleName)
+79 identifier='hash_generated_method'
+80 value (StringLiteralExpr)
+81 value='B9625D27D362B6F4B8A75F93914A42B5'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+12 16
+12 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+0 48
+48 49
+49 50
+50 51
+0 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+57 60
+60 61
+56 62
+62 63
+63 64
+62 65
+65 66
+56 67
+67 68
+68 69
+67 70
+70 71
+56 72
+72 73
+73 74
+72 75
+75 76
+56 77
+77 78
+78 79
+77 80
+80 81
+
+Opens a DEX file from a given filename. This will usually be a ZIP/JAR file with a "classes.dex" inside. The VM will generate the name of the corresponding file in /data/dalvik-cache and open it, possibly creating or updating it first if system permissions allow.  Don't pass in the name of a file in /data/dalvik-cache, as the named file is expected to be in its original (pre-dexopt) state.

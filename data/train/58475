@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='ensureUpdated'
+0 1
+0 2
+0 3
+3 4
+
+Should be invoked from the playback thread after the counters have been updated. Should also be invoked from any other thread that wishes to read the counters, before reading. These calls ensure that counter updates are made visible to the reading threads.

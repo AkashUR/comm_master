@@ -1,0 +1,216 @@
+107
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertTrue'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='isValidUtf8'
+11 scope (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='asBytes'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value=''
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='assertTrue'
+21 arguments
+22 argument (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='isValidUtf8'
+25 scope (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='asBytes'
+28 arguments
+29 argument (StringLiteralExpr)
+30 value='\u0000abc\u007f'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='assertTrue'
+35 arguments
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='isValidUtf8'
+39 scope (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='asBytes'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='\u00a2\u00a2'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='assertTrue'
+49 arguments
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='isValidUtf8'
+53 scope (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='asBytes'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='\u020ac\u020ac'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='assertTrue'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='isValidUtf8'
+67 scope (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='asBytes'
+70 arguments
+71 argument (StringLiteralExpr)
+72 value='\u024B62\u024B62'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='assertTrue'
+77 arguments
+78 argument (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='isValidUtf8'
+81 scope (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='asBytes'
+84 arguments
+85 argument (StringLiteralExpr)
+86 value='a\u020ac\u00a2b\\u024B62u020acc\u00a2de\u024B62'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='assertInvalidUtf8'
+91 arguments
+92 argument (UnaryExpr)
+93 operator='MINUS'
+94 expression (IntegerLiteralExpr)
+95 value='1'
+96 argument (IntegerLiteralExpr)
+97 value='0'
+98 argument (UnaryExpr)
+99 operator='MINUS'
+100 expression (IntegerLiteralExpr)
+101 value='1'
+102 argument (IntegerLiteralExpr)
+103 value='0'
+104 type (VoidType)
+105 name (SimpleName)
+106 identifier='testSomeSequences'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+92 94
+94 95
+91 96
+96 97
+91 98
+98 99
+98 100
+100 101
+91 102
+102 103
+0 104
+0 105
+105 106
+
+Tests some hard-coded test cases.

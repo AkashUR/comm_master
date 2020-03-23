@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='delete'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getName'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='rrset'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getType'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='rrset'
+20 statement (ForStmt)
+21 body (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='add'
+25 arguments
+26 argument (CastExpr)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='next'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='it'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Record'
+36 compare (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='hasNext'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='it'
+42 initialization
+43 initializatio (VariableDeclarationExpr)
+44 variables
+45 variable (VariableDeclarator)
+46 initializer (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='rrs'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='rrset'
+52 name (SimpleName)
+53 identifier='it'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Iterator'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='replace'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='rrset'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='RRset'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+14 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+34 35
+20 36
+36 37
+37 38
+36 39
+39 40
+40 41
+20 42
+42 43
+43 44
+44 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+45 52
+52 53
+45 54
+54 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+
+Indicates that all of the records in the rrset should be inserted into the zone replacing any other records with the same name and type.

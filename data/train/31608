@@ -1,0 +1,44 @@
+21
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='writeAsEncodedUnicode'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='writer'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Writer'
+13 thrownExceptions
+14 thrownException (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='XMLStreamException'
+17 annotations
+18 annotation (MarkerAnnotationExpr)
+19 name (Name)
+20 identifier='Override'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+0 13
+13 14
+14 15
+15 16
+0 17
+17 18
+18 19
+19 20
+
+This method will write the XMLEvent as per the XML 1.0 specification as  Unicode characters. No indentation or whitespace should be outputted.  Any user defined event type SHALL have this method called when being  written to on an output stream. Built in Event types MUST implement this  method, but implementations MAY choose not call these methods for  optimizations reasons when writing out built in Events to an output  stream. The output generated MUST be equivalent in terms of the infoset  expressed. It does nothing for all the wbxml-stream implementation.

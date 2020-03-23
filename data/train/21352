@@ -1,0 +1,256 @@
+127
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='sProgramHandle'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='createProgram'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='Util'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='VERTEX_SHADER_CODE'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='FRAGMENT_SHADER_CODE'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='d'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='Log'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='TAG'
+33 argument (BinaryExpr)
+34 operator='PLUS'
+35 left (StringLiteralExpr)
+36 value='Created program '
+37 right (NameExpr)
+38 name (SimpleName)
+39 identifier='sProgramHandle'
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='ASSIGN'
+43 target (NameExpr)
+44 name (SimpleName)
+45 identifier='sPositionHandle'
+46 value (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='glGetAttribLocation'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='GLES20'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='sProgramHandle'
+56 argument (StringLiteralExpr)
+57 value='a_position'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='checkGlError'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='Util'
+65 arguments
+66 argument (StringLiteralExpr)
+67 value='glGetAttribLocation'
+68 statement (ExpressionStmt)
+69 expression (AssignExpr)
+70 operator='ASSIGN'
+71 target (NameExpr)
+72 name (SimpleName)
+73 identifier='sColorHandle'
+74 value (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='glGetUniformLocation'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='GLES20'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='sProgramHandle'
+84 argument (StringLiteralExpr)
+85 value='u_color'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='checkGlError'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='Util'
+93 arguments
+94 argument (StringLiteralExpr)
+95 value='glGetUniformLocation'
+96 statement (ExpressionStmt)
+97 expression (AssignExpr)
+98 operator='ASSIGN'
+99 target (NameExpr)
+100 name (SimpleName)
+101 identifier='sMVPMatrixHandle'
+102 value (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='glGetUniformLocation'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='GLES20'
+108 arguments
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='sProgramHandle'
+112 argument (StringLiteralExpr)
+113 value='u_mvpMatrix'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='checkGlError'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='Util'
+121 arguments
+122 argument (StringLiteralExpr)
+123 value='glGetUniformLocation'
+124 type (VoidType)
+125 name (SimpleName)
+126 identifier='createProgram'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+29 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+2 40
+40 41
+41 42
+41 43
+43 44
+44 45
+41 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+52 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+2 68
+68 69
+69 70
+69 71
+71 72
+72 73
+69 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+80 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+87 93
+93 94
+94 95
+2 96
+96 97
+97 98
+97 99
+99 100
+100 101
+97 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+108 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+0 124
+0 125
+125 126
+
+Creates the GL program and associated references.

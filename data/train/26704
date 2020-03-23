@@ -1,0 +1,208 @@
+103
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='mContext'
+15 argument (ClassExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='ContactDisplayActivity'
+19 name (SimpleName)
+20 identifier='intent'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Intent'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='putExtra'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='intent'
+31 arguments
+32 argument (StringLiteralExpr)
+33 value='nickname'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='mRemoteNickname'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='putExtra'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='intent'
+44 arguments
+45 argument (StringLiteralExpr)
+46 value='address'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='mRemoteAddress'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='putExtra'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='intent'
+57 arguments
+58 argument (StringLiteralExpr)
+59 value='provider'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='mProviderId'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='putExtra'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='intent'
+70 arguments
+71 argument (StringLiteralExpr)
+72 value='account'
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='mAccountId'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='putExtra'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='intent'
+83 arguments
+84 argument (StringLiteralExpr)
+85 value='contactId'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='mLastChatId'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='startActivity'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='mContext'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='intent'
+100 type (VoidType)
+101 name (SimpleName)
+102 identifier='showVerifyDialog'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+57 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+70 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+77 83
+83 84
+84 85
+83 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+0 100
+0 101
+101 102
+
+public void verifyScannedFingerprint (String scannedFingerprint) { try { IOtrChatSession otrChatSession = mCurrentChatSession.getDefaultOtrChatSession(); if (scannedFingerprint != null && scannedFingerprint.equalsIgnoreCase(otrChatSession.getRemoteFingerprint())) { verifyRemoteFingerprint(); } } catch (RemoteException e) { LogCleaner.error(ImApp.LOG_TAG, "unable to perform manual key verification", e); } }

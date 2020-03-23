@@ -1,0 +1,190 @@
+94
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='CommandLine'
+11 name (SimpleName)
+12 identifier='cmdline'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='CommandLine'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='parse'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='parser'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='cmdline'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='args'
+33 name (SimpleName)
+34 identifier='options'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='OptionSet'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='loadConfig'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='cmdline'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='options'
+52 name (SimpleName)
+53 identifier='config'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Config'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (ObjectCreationExpr)
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='ConfigManager'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='config'
+69 name (SimpleName)
+70 identifier='configManager'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='ConfigManager'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='run'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='configManager'
+81 type (VoidType)
+82 name (SimpleName)
+83 identifier='main'
+84 parameters
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='args'
+89 type (ArrayType)
+90 origin='TYPE'
+91 componentType (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+20 29
+29 30
+30 31
+31 32
+19 33
+33 34
+19 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+41 52
+52 53
+41 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+61 65
+65 66
+66 67
+67 68
+60 69
+69 70
+60 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+0 81
+0 82
+82 83
+0 84
+84 85
+85 86
+85 87
+87 88
+85 89
+89 90
+89 91
+91 92
+92 93
+
+Main function for using the Config Manager. The main function starts a Config Manager, and reacts to all messages thereafter In order for this module to run, you have to add the following configurations to the config file: yarn.rm.address=localhost //the ip of the resource manager in yarn yarn.rm.port=8088 //the port of the resource manager http server Additionally, the config manger will periodically poll the coordinator stream to see if there are any new messages. This period is set to 100 ms by default. However, it can be configured by adding the following property to the input config file. configManager.polling.interval= &lt; polling interval &gt; To run the code use the following command: {path to samza deployment}/samza/bin/run-config-manager.sh  --config-factory={config-factory} --config-path={path to config file of a job}

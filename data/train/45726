@@ -1,0 +1,256 @@
+127
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='GeometryFactory'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='DOUBLE_FACTORY'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='PackedCoordinateSequenceFactory'
+18 name (SimpleName)
+19 identifier='pcsFactory'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='GeometryFactory'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='read'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='pcsFactory'
+34 argument (StringLiteralExpr)
+35 value='POLYGON ((210 210, 210 220, 220 220, 220 210, 210 210))'
+36 name (SimpleName)
+37 identifier='geom0'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Geometry'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='read'
+48 arguments
+49 argument (StringLiteralExpr)
+50 value='POLYGON ((225 225, 225 215, 215 215, 215 225, 225 225))'
+51 name (SimpleName)
+52 identifier='geom1'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Geometry'
+56 statement (ExpressionStmt)
+57 expression (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 initializer (ObjectCreationExpr)
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='CommonBitsOp'
+64 arguments
+65 argument (BooleanLiteralExpr)
+66 value='true'
+67 name (SimpleName)
+68 identifier='cbo'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='CommonBitsOp'
+72 statement (ExpressionStmt)
+73 expression (VariableDeclarationExpr)
+74 variables
+75 variable (VariableDeclarator)
+76 initializer (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='intersection'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='cbo'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='geom0'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='geom1'
+89 name (SimpleName)
+90 identifier='result'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='Geometry'
+94 statement (ExpressionStmt)
+95 expression (VariableDeclarationExpr)
+96 variables
+97 variable (VariableDeclarator)
+98 initializer (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='intersection'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='geom0'
+104 arguments
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='geom1'
+108 name (SimpleName)
+109 identifier='expected'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='Geometry'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='checkEqual'
+117 arguments
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='expected'
+121 argument (NameExpr)
+122 name (SimpleName)
+123 identifier='result'
+124 type (VoidType)
+125 name (SimpleName)
+126 identifier='testPackedCoordinateSequence'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+26 36
+36 37
+26 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+44 51
+51 52
+44 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+59 67
+67 68
+59 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+82 86
+86 87
+87 88
+75 89
+89 90
+75 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+106 107
+97 108
+108 109
+97 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+119 120
+117 121
+121 122
+122 123
+0 124
+0 125
+125 126
+
+Tests an issue where CommonBitsRemover was not persisting changes to some kinds of CoordinateSequences

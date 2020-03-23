@@ -1,0 +1,464 @@
+231
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='[ 1 ]'
+9 name (SimpleName)
+10 identifier='DOC'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (ObjectCreationExpr)
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='JsonFactory'
+22 name (SimpleName)
+23 identifier='f'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='JsonFactory'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='assertTrue'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='isEnabled'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='f'
+38 arguments
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='AUTO_CLOSE_SOURCE'
+42 scope (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='Feature'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='JsonParser'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='disable'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='f'
+55 arguments
+56 argument (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='AUTO_CLOSE_SOURCE'
+59 scope (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='Feature'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='JsonParser'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='assertFalse'
+69 arguments
+70 argument (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='isEnabled'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='f'
+76 arguments
+77 argument (FieldAccessExpr)
+78 name (SimpleName)
+79 identifier='AUTO_CLOSE_SOURCE'
+80 scope (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='Feature'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='JsonParser'
+86 statement (ExpressionStmt)
+87 expression (VariableDeclarationExpr)
+88 variables
+89 variable (VariableDeclarator)
+90 initializer (ObjectCreationExpr)
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='MyReader'
+94 arguments
+95 argument (NameExpr)
+96 name (SimpleName)
+97 identifier='DOC'
+98 name (SimpleName)
+99 identifier='input'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='MyReader'
+103 statement (ExpressionStmt)
+104 expression (VariableDeclarationExpr)
+105 variables
+106 variable (VariableDeclarator)
+107 initializer (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='createJsonParser'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='f'
+113 arguments
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='input'
+117 name (SimpleName)
+118 identifier='jp'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='JsonParser'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='assertFalse'
+126 arguments
+127 argument (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='isClosed'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='input'
+133 statement (ExpressionStmt)
+134 expression (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='assertToken'
+137 arguments
+138 argument (FieldAccessExpr)
+139 name (SimpleName)
+140 identifier='START_ARRAY'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='JsonToken'
+144 argument (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='nextToken'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='jp'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='assertToken'
+154 arguments
+155 argument (FieldAccessExpr)
+156 name (SimpleName)
+157 identifier='VALUE_NUMBER_INT'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='JsonToken'
+161 argument (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='nextToken'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='jp'
+167 statement (ExpressionStmt)
+168 expression (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='assertToken'
+171 arguments
+172 argument (FieldAccessExpr)
+173 name (SimpleName)
+174 identifier='END_ARRAY'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='JsonToken'
+178 argument (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='nextToken'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='jp'
+184 statement (ExpressionStmt)
+185 expression (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='assertNull'
+188 arguments
+189 argument (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='nextToken'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='jp'
+195 statement (ExpressionStmt)
+196 expression (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='assertFalse'
+199 arguments
+200 argument (MethodCallExpr)
+201 name (SimpleName)
+202 identifier='isClosed'
+203 scope (NameExpr)
+204 name (SimpleName)
+205 identifier='input'
+206 statement (ExpressionStmt)
+207 expression (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='close'
+210 scope (NameExpr)
+211 name (SimpleName)
+212 identifier='jp'
+213 statement (ExpressionStmt)
+214 expression (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='assertFalse'
+217 arguments
+218 argument (MethodCallExpr)
+219 name (SimpleName)
+220 identifier='isClosed'
+221 scope (NameExpr)
+222 name (SimpleName)
+223 identifier='input'
+224 type (VoidType)
+225 name (SimpleName)
+226 identifier='testNoAutoCloseReader'
+227 thrownExceptions
+228 thrownException (ClassOrInterfaceType)
+229 name (SimpleName)
+230 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+17 22
+22 23
+17 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+80 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+89 90
+90 91
+91 92
+92 93
+90 94
+94 95
+95 96
+96 97
+89 98
+98 99
+89 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+115 116
+106 117
+117 118
+106 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+2 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+137 144
+144 145
+145 146
+144 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+154 161
+161 162
+162 163
+161 164
+164 165
+165 166
+2 167
+167 168
+168 169
+169 170
+168 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+171 178
+178 179
+179 180
+178 181
+181 182
+182 183
+2 184
+184 185
+185 186
+186 187
+185 188
+188 189
+189 190
+190 191
+189 192
+192 193
+193 194
+2 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+201 202
+200 203
+203 204
+204 205
+2 206
+206 207
+207 208
+208 209
+207 210
+210 211
+211 212
+2 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+219 220
+218 221
+221 222
+222 223
+0 224
+0 225
+225 226
+0 227
+227 228
+228 229
+229 230
+
+This unit test checks the default behaviour; with no auto-close, no automatic closing should occur, nor explicit one unless specific forcing method is used.

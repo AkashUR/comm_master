@@ -1,0 +1,256 @@
+127
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='isNotNull'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Assert'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='descriptors'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='isTrue'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='Assert'
+21 arguments
+22 argument (BinaryExpr)
+23 operator='AND'
+24 left (BinaryExpr)
+25 operator='NOT_EQUALS'
+26 left (NameExpr)
+27 name (SimpleName)
+28 identifier='version'
+29 right (NullLiteralExpr)
+30 right (UnaryExpr)
+31 operator='LOGICAL_COMPLEMENT'
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='equals'
+35 scope (StringLiteralExpr)
+36 value=''
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='version'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (NameExpr)
+45 name (SimpleName)
+46 identifier='fDescriptors'
+47 value (ArrayCreationExpr)
+48 elementType (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='RefactoringDescriptor'
+51 levels
+52 level (ArrayCreationLevel)
+53 dimension (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='length'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='descriptors'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='arraycopy'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='System'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='descriptors'
+70 argument (IntegerLiteralExpr)
+71 value='0'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='fDescriptors'
+75 argument (IntegerLiteralExpr)
+76 value='0'
+77 argument (FieldAccessExpr)
+78 name (SimpleName)
+79 identifier='length'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='descriptors'
+83 statement (ExpressionStmt)
+84 expression (AssignExpr)
+85 operator='ASSIGN'
+86 target (NameExpr)
+87 name (SimpleName)
+88 identifier='fVersion'
+89 value (NameExpr)
+90 name (SimpleName)
+91 identifier='version'
+92 statement (ExpressionStmt)
+93 expression (AssignExpr)
+94 operator='ASSIGN'
+95 target (NameExpr)
+96 name (SimpleName)
+97 identifier='fComment'
+98 value (NameExpr)
+99 name (SimpleName)
+100 identifier='comment'
+101 name (SimpleName)
+102 identifier='RefactoringSessionDescriptor'
+103 parameters
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='descriptors'
+108 type (ArrayType)
+109 origin='TYPE'
+110 componentType (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='RefactoringDescriptor'
+113 parameter (Parameter)
+114 isVarArgs='false'
+115 name (SimpleName)
+116 identifier='version'
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='String'
+120 parameter (Parameter)
+121 isVarArgs='false'
+122 name (SimpleName)
+123 identifier='comment'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+22 24
+24 25
+24 26
+26 27
+27 28
+24 29
+22 30
+30 31
+30 32
+32 33
+33 34
+32 35
+35 36
+32 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+66 70
+70 71
+66 72
+72 73
+73 74
+66 75
+75 76
+66 77
+77 78
+78 79
+77 80
+80 81
+81 82
+2 83
+83 84
+84 85
+84 86
+86 87
+87 88
+84 89
+89 90
+90 91
+2 92
+92 93
+93 94
+93 95
+95 96
+96 97
+93 98
+98 99
+99 100
+0 101
+101 102
+0 103
+103 104
+104 105
+104 106
+106 107
+104 108
+108 109
+108 110
+110 111
+111 112
+103 113
+113 114
+113 115
+115 116
+113 117
+117 118
+118 119
+103 120
+120 121
+120 122
+122 123
+120 124
+124 125
+125 126
+
+Creates a new refactoring session descriptor.

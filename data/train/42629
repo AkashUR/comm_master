@@ -1,0 +1,136 @@
+67
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='start'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='javaProcessBuilder'
+13 name (SimpleName)
+14 identifier='p'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Process'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='assertNotNull'
+22 arguments
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getInputStream'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='p'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='assertNotNull'
+33 arguments
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getErrorStream'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='p'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='assertNotNull'
+44 arguments
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getOutputStream'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='p'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='test_streams'
+54 thrownExceptions
+55 thrownException (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='IOException'
+58 thrownException (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='InterruptedException'
+61 annotations
+62 annotation (SingleMemberAnnotationExpr)
+63 memberValue (StringLiteralExpr)
+64 value='dalvikvm specific'
+65 name (Name)
+66 identifier='AndroidOnly'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+0 61
+61 62
+62 63
+63 64
+62 65
+65 66
+
+java.lang.Process#getInputStream(), java.lang.Process#getErrorStream() java.lang.Process#getOutputStream() Tests if these methods return buffered streams.

@@ -1,0 +1,86 @@
+42
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='sendMessage'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mHandler'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='obtainMessage'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='mHandler'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='MSG_STOP_RECORDING'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='sendMessage'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='mHandler'
+28 arguments
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='obtainMessage'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='mHandler'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='MSG_QUIT'
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='stopRecording'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+0 39
+0 40
+40 41
+
+Tells the video recorder to stop recording.  (Call from non-encoder thread.) <p> Returns immediately; the encoder/muxer may not yet be finished creating the movie. <p> TODO: have the encoder thread invoke a callback on the UI thread just before it shuts down so we can provide reasonable status UI (and let the caller know that movie encoding has completed).

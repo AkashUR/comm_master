@@ -1,0 +1,38 @@
+18
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (WhileStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='runNextPendingCommand'
+10 condition (UnaryExpr)
+11 operator='LOGICAL_COMPLEMENT'
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='isIdle'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='runUntilIdle'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+3 10
+10 11
+10 12
+12 13
+13 14
+0 15
+0 16
+16 17
+
+Runs all commands scheduled to be executed immediately but does not tick time forward.

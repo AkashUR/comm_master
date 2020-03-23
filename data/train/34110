@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setProperty'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='configuration'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='DOMAIN_VERSION'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='WebLogicPropertySet'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='DOMAIN_VERSION'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='doConfigure'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='configuration'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='container'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='readTextFile'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getFileHandler'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='configuration'
+44 arguments
+45 argument (BinaryExpr)
+46 operator='PLUS'
+47 left (NameExpr)
+48 name (SimpleName)
+49 identifier='DOMAIN_HOME'
+50 right (StringLiteralExpr)
+51 value='/config/config.xml'
+52 argument (StringLiteralExpr)
+53 value='UTF-8'
+54 name (SimpleName)
+55 identifier='config'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='assertXpathEvaluatesTo'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='XMLAssert'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='DOMAIN_VERSION'
+70 argument (StringLiteralExpr)
+71 value='//weblogic:domain-version'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='config'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='testDoConfigureSetsDomainVersion'
+78 thrownExceptions
+79 thrownException (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+35 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+44 52
+52 53
+34 54
+54 55
+34 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+66 70
+70 71
+66 72
+72 73
+73 74
+0 75
+0 76
+76 77
+0 78
+78 79
+79 80
+80 81
+
+Test changing domain version.

@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='invokeAfterUpdate'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='myUpdater'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='afterUpdate'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='mode'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='title'
+20 argument (NullLiteralExpr)
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='state'
+24 type (VoidType)
+25 name (SimpleName)
+26 identifier='invokeAfterUpdate'
+27 parameters
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='afterUpdate'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='Runnable'
+35 parameter (Parameter)
+36 isVarArgs='false'
+37 name (SimpleName)
+38 identifier='mode'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='InvokeAfterUpdateMode'
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='title'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='String'
+49 annotations
+50 annotation (MarkerAnnotationExpr)
+51 name (Name)
+52 identifier='Nullable'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='state'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='ModalityState'
+60 annotations
+61 annotation (MarkerAnnotationExpr)
+62 name (Name)
+63 identifier='Nullable'
+64 annotations
+65 annotation (MarkerAnnotationExpr)
+66 name (Name)
+67 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+10 21
+21 22
+22 23
+0 24
+0 25
+25 26
+0 27
+27 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+27 35
+35 36
+35 37
+37 38
+35 39
+39 40
+40 41
+27 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+42 49
+49 50
+50 51
+51 52
+27 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+53 60
+60 61
+61 62
+62 63
+0 64
+64 65
+65 66
+66 67
+
+update itself might produce actions done on AWT thread (invoked-after), so waiting for its completion on AWT thread is not good runnable is invoked on AWT thread

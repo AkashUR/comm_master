@@ -1,0 +1,432 @@
+215
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='config'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='ADialog.createSupportEMail'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getSupportEMail'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='Adempiere'
+23 name (SimpleName)
+24 identifier='to'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='String'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='get'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='MUser'
+38 arguments
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getCtx'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='Env'
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getAD_User_ID'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='Env'
+51 arguments
+52 argument (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getCtx'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='Env'
+58 name (SimpleName)
+59 identifier='from'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='MUser'
+63 statement (ExpressionStmt)
+64 expression (VariableDeclarationExpr)
+65 variables
+66 variable (VariableDeclarator)
+67 initializer (ObjectCreationExpr)
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='StringBuffer'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='message'
+75 name (SimpleName)
+76 identifier='myMessage'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='StringBuffer'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='append'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='myMessage'
+87 arguments
+88 argument (StringLiteralExpr)
+89 value='\n'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='getInfo'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='CLogMgt'
+97 arguments
+98 argument (NameExpr)
+99 name (SimpleName)
+100 identifier='myMessage'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='getInfoDetail'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='CLogMgt'
+108 arguments
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='myMessage'
+112 argument (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getCtx'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='Env'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='getInfoDetail'
+122 scope (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='get'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='ModelValidationEngine'
+128 arguments
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='myMessage'
+132 argument (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getCtx'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='Env'
+138 statement (ExpressionStmt)
+139 expression (VariableDeclarationExpr)
+140 variables
+141 variable (VariableDeclarator)
+142 initializer (ObjectCreationExpr)
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='EMailDialog'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='owner'
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='getMsg'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='Msg'
+156 arguments
+157 argument (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='getCtx'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='Env'
+163 argument (StringLiteralExpr)
+164 value='EMailSupport'
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='from'
+168 argument (NameExpr)
+169 name (SimpleName)
+170 identifier='to'
+171 argument (BinaryExpr)
+172 operator='PLUS'
+173 left (StringLiteralExpr)
+174 value='Support: '
+175 right (NameExpr)
+176 name (SimpleName)
+177 identifier='subject'
+178 argument (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='toString'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='myMessage'
+184 argument (NullLiteralExpr)
+185 name (SimpleName)
+186 identifier='emd'
+187 type (ClassOrInterfaceType)
+188 name (SimpleName)
+189 identifier='EMailDialog'
+190 type (VoidType)
+191 name (SimpleName)
+192 identifier='createSupportEMail'
+193 parameters
+194 parameter (Parameter)
+195 isVarArgs='false'
+196 name (SimpleName)
+197 identifier='owner'
+198 type (ClassOrInterfaceType)
+199 name (SimpleName)
+200 identifier='Frame'
+201 parameter (Parameter)
+202 isVarArgs='false'
+203 name (SimpleName)
+204 identifier='subject'
+205 type (ClassOrInterfaceType)
+206 name (SimpleName)
+207 identifier='String'
+208 parameter (Parameter)
+209 isVarArgs='false'
+210 name (SimpleName)
+211 identifier='message'
+212 type (ClassOrInterfaceType)
+213 name (SimpleName)
+214 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+16 23
+23 24
+16 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+38 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+31 58
+58 59
+31 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+67 71
+71 72
+72 73
+73 74
+66 75
+75 76
+66 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+108 112
+112 113
+113 114
+112 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+122 125
+125 126
+126 127
+119 128
+128 129
+129 130
+130 131
+128 132
+132 133
+133 134
+132 135
+135 136
+136 137
+2 138
+138 139
+139 140
+140 141
+141 142
+142 143
+143 144
+144 145
+142 146
+146 147
+147 148
+148 149
+146 150
+150 151
+151 152
+150 153
+153 154
+154 155
+150 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+156 163
+163 164
+146 165
+165 166
+166 167
+146 168
+168 169
+169 170
+146 171
+171 172
+171 173
+173 174
+171 175
+175 176
+176 177
+146 178
+178 179
+179 180
+178 181
+181 182
+182 183
+146 184
+141 185
+185 186
+141 187
+187 188
+188 189
+0 190
+0 191
+191 192
+0 193
+193 194
+194 195
+194 196
+196 197
+194 198
+198 199
+199 200
+193 201
+201 202
+201 203
+203 204
+201 205
+205 206
+206 207
+193 208
+208 209
+208 210
+210 211
+208 212
+212 213
+213 214
+
+Create Support EMail

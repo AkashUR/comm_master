@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='drop'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='dtde'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='DropTargetDropEvent'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+
+The drag operation has terminated with a drop on this <code>DropTarget</code>. This method is responsible for undertaking the transfer of the data associated with the gesture. The <code>DropTargetDropEvent</code> provides a means to obtain a <code>Transferable</code> object that represents the data object(s) to be transfered. <P> From this method, the <code>DropTargetListener</code> shall accept or reject the drop via the acceptDrop(int dropAction) or rejectDrop() methods of the <code>DropTargetDropEvent</code> parameter. <P> Subsequent to acceptDrop(), but not before, <code>DropTargetDropEvent</code>'s getTransferable() method may be invoked, and data transfer may be performed via the returned <code>Transferable</code>'s getTransferData() method. <P> At the completion of a drop, an implementation of this method is required to signal the success/failure of the drop by passing an appropriate <code>boolean</code> to the <code>DropTargetDropEvent</code>'s dropComplete(boolean success) method. <P> Note: The actual processing of the data transfer is not required to finish before this method returns. It may be deferred until later. <P>

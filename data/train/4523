@@ -1,0 +1,254 @@
+126
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Serializer'
+11 name (SimpleName)
+12 identifier='serializer'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Serializer'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='GenericJacksonSerializer'
+24 name (SimpleName)
+25 identifier='jacksonSerializer'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='GenericJacksonSerializer'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (ObjectCreationExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Foo'
+37 arguments
+38 argument (IntegerLiteralExpr)
+39 value='1234'
+40 name (SimpleName)
+41 identifier='foo'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Foo'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 initializer (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='allocate'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='HeapBuffer'
+55 name (SimpleName)
+56 identifier='buffer'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='HeapBuffer'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='write'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='jacksonSerializer'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='foo'
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='buffer'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='serializer'
+77 statement (ExpressionStmt)
+78 expression (VariableDeclarationExpr)
+79 variables
+80 variable (VariableDeclarator)
+81 initializer (CastExpr)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='read'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='jacksonSerializer'
+88 arguments
+89 argument (ClassExpr)
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='Foo'
+93 argument (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='flip'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='buffer'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='serializer'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='Foo'
+105 name (SimpleName)
+106 identifier='result'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='Foo'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='assertEquals'
+114 arguments
+115 argument (FieldAccessExpr)
+116 name (SimpleName)
+117 identifier='bar'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='result'
+121 argument (IntegerLiteralExpr)
+122 value='1234'
+123 type (VoidType)
+124 name (SimpleName)
+125 identifier='testSerializer'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+19 24
+24 25
+19 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+32 40
+40 41
+32 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+48 55
+55 56
+48 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+67 71
+71 72
+72 73
+67 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+90 91
+91 92
+88 93
+93 94
+94 95
+93 96
+96 97
+97 98
+88 99
+99 100
+100 101
+81 102
+102 103
+103 104
+80 105
+105 106
+80 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+114 121
+121 122
+0 123
+0 124
+124 125
+
+Tests the Kryo serializer.

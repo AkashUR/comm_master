@@ -1,0 +1,68 @@
+33
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='bayesPm'
+9 argument (NullLiteralExpr)
+10 argument (NameExpr)
+11 name (SimpleName)
+12 identifier='symmetricAlpha'
+13 name (SimpleName)
+14 identifier='DirichletBayesIm'
+15 parameters
+16 parameter (Parameter)
+17 isVarArgs='false'
+18 name (SimpleName)
+19 identifier='bayesPm'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='BayesPm'
+23 parameter (Parameter)
+24 isVarArgs='false'
+25 name (SimpleName)
+26 identifier='symmetricAlpha'
+27 type (PrimitiveType)
+28 type='DOUBLE'
+29 thrownExceptions
+30 thrownException (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='IllegalArgumentException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+5 10
+10 11
+11 12
+0 13
+13 14
+0 15
+15 16
+16 17
+16 18
+18 19
+16 20
+20 21
+21 22
+15 23
+23 24
+23 25
+25 26
+23 27
+27 28
+0 29
+29 30
+30 31
+31 32
+
+Constructs a new DirichletBayesIm from the given BayesPm, initializing all parameters to the given symmetric alpha. (If the symmetric alpha is Double.NaN, all parameters will be initialized as unspecified, requiring manual setting.)

@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='unbind'
+7 statement (ExpressionStmt)
+8 expression (AssignExpr)
+9 operator='ASSIGN'
+10 target (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='recyclerViewWeakReference'
+13 scope (ThisExpr)
+14 value (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='WeakReference'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='recyclerView'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='registerAdapterDataObserver'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getAdapter'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='recyclerView'
+32 arguments
+33 argument (ThisExpr)
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='bind'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='recyclerView'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='RecyclerView'
+45 annotations
+46 annotation (MarkerAnnotationExpr)
+47 name (Name)
+48 identifier='NonNull'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+10 13
+8 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+23 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+38 45
+45 46
+46 47
+47 48
+
+Bind observer to recycler view's adapter. This method must be called after setting adapter to recycler view.

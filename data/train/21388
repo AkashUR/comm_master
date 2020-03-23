@@ -1,0 +1,190 @@
+94
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='actual'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='actual'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='initialRequest'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='initialRequest'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='values'
+29 scope (ThisExpr)
+30 value (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='ArrayList'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='errors'
+40 scope (ThisExpr)
+41 value (ObjectCreationExpr)
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='ArrayList'
+45 typeArguments
+46 typeArgument (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Throwable'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='done'
+55 scope (ThisExpr)
+56 value (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='CountDownLatch'
+60 arguments
+61 argument (IntegerLiteralExpr)
+62 value='1'
+63 statement (ExpressionStmt)
+64 expression (AssignExpr)
+65 operator='ASSIGN'
+66 target (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='maxAwait'
+69 scope (ThisExpr)
+70 value (IntegerLiteralExpr)
+71 value='5000'
+72 name (SimpleName)
+73 identifier='TestSubscriber'
+74 parameters
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='actual'
+79 type (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Subscriber'
+82 typeArguments
+83 typeArgument (WildcardType)
+84 superType (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Payload'
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='initialRequest'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='Long'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+37 40
+35 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+52 55
+50 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+2 63
+63 64
+64 65
+64 66
+66 67
+67 68
+66 69
+64 70
+70 71
+0 72
+72 73
+0 74
+74 75
+75 76
+75 77
+77 78
+75 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+85 86
+74 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+
+Constructs a forwarding TestSubscriber with the specified initial request value. <p>The TestSubscriber doesn't validate the initialRequest value so one can test sources with invalid values as well.

@@ -1,0 +1,346 @@
+172
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertParameterNotNull'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='genericRequest'
+11 argument (StringLiteralExpr)
+12 value='genericRequest'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getBucketName'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='genericRequest'
+23 name (SimpleName)
+24 identifier='bucketName'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='String'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getKey'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='genericRequest'
+38 name (SimpleName)
+39 identifier='key'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='String'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='assertParameterNotNull'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='bucketName'
+51 argument (StringLiteralExpr)
+52 value='bucketName'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='ensureBucketNameValid'
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='bucketName'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='assertParameterNotNull'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='key'
+69 argument (StringLiteralExpr)
+70 value='key'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='ensureObjectKeyValid'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='key'
+79 statement (ExpressionStmt)
+80 expression (VariableDeclarationExpr)
+81 variables
+82 variable (VariableDeclarator)
+83 initializer (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='build'
+86 scope (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='setOriginalRequest'
+89 scope (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='setKey'
+92 scope (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='setBucket'
+95 scope (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='setMethod'
+98 scope (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='setEndpoint'
+101 scope (ObjectCreationExpr)
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='OSSRequestMessageBuilder'
+105 arguments
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='getInnerClient'
+109 arguments
+110 argument (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='getEndpoint'
+113 arguments
+114 argument (FieldAccessExpr)
+115 name (SimpleName)
+116 identifier='DELETE'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='HttpMethod'
+120 arguments
+121 argument (NameExpr)
+122 name (SimpleName)
+123 identifier='bucketName'
+124 arguments
+125 argument (NameExpr)
+126 name (SimpleName)
+127 identifier='key'
+128 arguments
+129 argument (NameExpr)
+130 name (SimpleName)
+131 identifier='genericRequest'
+132 name (SimpleName)
+133 identifier='request'
+134 type (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='RequestMessage'
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='doOperation'
+141 arguments
+142 argument (NameExpr)
+143 name (SimpleName)
+144 identifier='request'
+145 argument (NameExpr)
+146 name (SimpleName)
+147 identifier='emptyResponseParser'
+148 argument (NameExpr)
+149 name (SimpleName)
+150 identifier='bucketName'
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='key'
+154 type (VoidType)
+155 name (SimpleName)
+156 identifier='deleteObject'
+157 parameters
+158 parameter (Parameter)
+159 isVarArgs='false'
+160 name (SimpleName)
+161 identifier='genericRequest'
+162 type (ClassOrInterfaceType)
+163 name (SimpleName)
+164 identifier='GenericRequest'
+165 thrownExceptions
+166 thrownException (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='OSSException'
+169 thrownException (ClassOrInterfaceType)
+170 name (SimpleName)
+171 identifier='ClientException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+16 23
+23 24
+16 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+31 38
+38 39
+31 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+47 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+65 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+86 89
+89 90
+90 91
+89 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+102 103
+103 104
+101 105
+105 106
+106 107
+107 108
+98 109
+109 110
+110 111
+111 112
+95 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+92 120
+120 121
+121 122
+122 123
+89 124
+124 125
+125 126
+126 127
+86 128
+128 129
+129 130
+130 131
+82 132
+132 133
+82 134
+134 135
+135 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+143 144
+141 145
+145 146
+146 147
+141 148
+148 149
+149 150
+141 151
+151 152
+152 153
+0 154
+0 155
+155 156
+0 157
+157 158
+158 159
+158 160
+160 161
+158 162
+162 163
+163 164
+0 165
+165 166
+166 167
+167 168
+165 169
+169 170
+170 171
+
+Delete an object.

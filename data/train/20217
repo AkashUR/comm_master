@@ -1,0 +1,140 @@
+69
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (AssertStmt)
+4 check (BinaryExpr)
+5 operator='NOT_EQUALS'
+6 left (NameExpr)
+7 name (SimpleName)
+8 identifier='nodeId'
+9 right (NullLiteralExpr)
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='addEventFromProperty'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='JOB requestId'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='info'
+20 argument (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='REQ_NEW_JOBID_TS_PROPERTY'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='HadoopCommonUtils'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='addEventFromProperty'
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='JOB responseId'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='info'
+36 argument (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='RESPONSE_NEW_JOBID_TS_PROPERTY'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='HadoopCommonUtils'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='addEventFromProperty'
+46 arguments
+47 argument (StringLiteralExpr)
+48 value='JOB submit'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='info'
+52 argument (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='JOB_SUBMISSION_START_TS_PROPERTY'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='HadoopCommonUtils'
+58 type (VoidType)
+59 name (SimpleName)
+60 identifier='clientSubmissionEvents'
+61 parameters
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='info'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='HadoopJobInfo'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+36 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+52 55
+55 56
+56 57
+0 58
+0 59
+59 60
+0 61
+61 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+
+Adds client submission events from job info.

@@ -1,0 +1,68 @@
+33
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='log'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='app'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Gdx'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='TAG'
+17 argument (StringLiteralExpr)
+18 value='Application Listener Disposed of'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='dispose'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='shapeRenderer'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='dispose'
+29 annotations
+30 annotation (MarkerAnnotationExpr)
+31 name (Name)
+32 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+13 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+31 32
+
+When Java finds that it's running out of memory, it performs a garbage collection to free up memory held by objects that are no longer in use. Unfortunately, garbage collection is slow, and nothing else can happen while the collection is in process. In a game, this can mean a momentary freeze, which players hate with a burning passion. LibGDX does two things to avoid this. First, there are a number of places where we need to manage our own memory. Since we created a ShapeRenderer, we also need to dispose of it, as shown below. The other way LibGDX avoids garbage collection hangs is by providing a ton of custom collections that cleverly manage memory. We'll be using some of those soon.

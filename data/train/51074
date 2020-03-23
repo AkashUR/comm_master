@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (StringLiteralExpr)
+12 value='(class='
+13 right (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getName'
+16 scope (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getClass'
+19 scope (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getMonitoredObject'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='monProxy'
+25 right (StringLiteralExpr)
+26 value=')'
+27 name (SimpleName)
+28 identifier='className'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='String'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (NameExpr)
+36 name (SimpleName)
+37 identifier='summaryPrefix'
+38 value (BinaryExpr)
+39 operator='PLUS'
+40 left (BinaryExpr)
+41 operator='PLUS'
+42 left (StringLiteralExpr)
+43 value='MonProxy-Interface '
+44 right (NameExpr)
+45 name (SimpleName)
+46 identifier='className'
+47 right (StringLiteralExpr)
+48 value=': '
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (NameExpr)
+53 name (SimpleName)
+54 identifier='exceptionPrefix'
+55 value (BinaryExpr)
+56 operator='PLUS'
+57 left (BinaryExpr)
+58 operator='PLUS'
+59 left (StringLiteralExpr)
+60 value='MonProxy-Exception: '
+61 right (NameExpr)
+62 name (SimpleName)
+63 identifier='className'
+64 right (StringLiteralExpr)
+65 value=' Exception: '
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='init'
+69 parameters
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='monProxy'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='MonProxy'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+9 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+7 25
+25 26
+6 27
+27 28
+6 29
+29 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+38 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+38 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+55 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+55 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+70 72
+72 73
+70 74
+74 75
+75 76
+
+Note init is called at time of initialization. This is a good time to get the class name being monitored for example via something like monProxy.getMonitoredObject().getClass().getName()

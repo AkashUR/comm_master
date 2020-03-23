@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='getMessageType'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='request'
+10 entries
+11 entrie (SwitchEntryStmt)
+12 label (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='CHANNELBIND_REQUEST'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='Message'
+18 statements
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setChannelNumberIsConfirmed'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='request'
+27 argument (BooleanLiteralExpr)
+28 value='false'
+29 statement (BreakStmt)
+30 entrie (SwitchEntryStmt)
+31 label (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='CREATEPERMISSION_REQUEST'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='Message'
+37 statements
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='setChannelBound'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='request'
+46 argument (BooleanLiteralExpr)
+47 value='false'
+48 statement (BreakStmt)
+49 entrie (SwitchEntryStmt)
+50 statements
+51 statement (BreakStmt)
+52 statement (ReturnStmt)
+53 expression (BooleanLiteralExpr)
+54 value='false'
+55 type (PrimitiveType)
+56 type='BOOLEAN'
+57 name (SimpleName)
+58 identifier='processErrorOrFailure'
+59 parameters
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='response'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Response'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='request'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='Request'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+3 10
+10 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+11 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+23 27
+27 28
+18 29
+10 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+42 46
+46 47
+37 48
+10 49
+49 50
+50 51
+2 52
+52 53
+53 54
+0 55
+55 56
+0 57
+57 58
+0 59
+59 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+59 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+
+Notifies this <tt>RelayedCandidateDatagramSocket</tt> that a specific <tt>Request</tt> it has sent has either failed or received a STUN error <tt>Response</tt>.

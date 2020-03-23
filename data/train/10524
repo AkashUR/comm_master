@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='LinkValue'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='value'
+15 name (SimpleName)
+16 identifier='newValue'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='LinkValue'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='m_next'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='newValue'
+29 value (NameExpr)
+30 name (SimpleName)
+31 identifier='m_values'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (NameExpr)
+36 name (SimpleName)
+37 identifier='m_values'
+38 value (NameExpr)
+39 name (SimpleName)
+40 identifier='newValue'
+41 statement (ExpressionStmt)
+42 expression (UnaryExpr)
+43 operator='POSTFIX_INCREMENT'
+44 expression (NameExpr)
+45 name (SimpleName)
+46 identifier='m_size'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='initValue'
+50 parameters
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='owner'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='GPO'
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='value'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='Value'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+23 26
+26 27
+27 28
+21 29
+29 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+51 53
+53 54
+51 55
+55 56
+56 57
+50 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+
+initValue is called by ObjectManager materialize and resets the GPO to its read state. Therefore the value is added to the m_values list and not m_addedValues.

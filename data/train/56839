@@ -1,0 +1,490 @@
+244
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='basicPublisher'
+10 name (SimpleName)
+11 identifier='p'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='SubmissionPublisher'
+15 typeArguments
+16 typeArgument (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Integer'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='TestSubscriber'
+27 name (SimpleName)
+28 identifier='s1'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='TestSubscriber'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='request'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='s1'
+41 value (BooleanLiteralExpr)
+42 value='false'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='subscribe'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='p'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='s1'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='awaitSubscribe'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='s1'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='assertTrue'
+65 arguments
+66 argument (BinaryExpr)
+67 operator='EQUALS'
+68 left (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='estimateMinimumDemand'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='p'
+74 right (IntegerLiteralExpr)
+75 value='0'
+76 statement (ExpressionStmt)
+77 expression (VariableDeclarationExpr)
+78 variables
+79 variable (VariableDeclarator)
+80 initializer (ObjectCreationExpr)
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='TestSubscriber'
+84 name (SimpleName)
+85 identifier='s2'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='TestSubscriber'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='subscribe'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='p'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='s2'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='submit'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='p'
+107 arguments
+108 argument (IntegerLiteralExpr)
+109 value='1'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='submit'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='p'
+117 arguments
+118 argument (IntegerLiteralExpr)
+119 value='2'
+120 statement (ExpressionStmt)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='awaitNext'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='s2'
+127 arguments
+128 argument (IntegerLiteralExpr)
+129 value='1'
+130 statement (ExpressionStmt)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='assertEquals'
+134 arguments
+135 argument (IntegerLiteralExpr)
+136 value='0'
+137 argument (FieldAccessExpr)
+138 name (SimpleName)
+139 identifier='nexts'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='s1'
+143 statement (ExpressionStmt)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='request'
+147 scope (FieldAccessExpr)
+148 name (SimpleName)
+149 identifier='sn'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='s1'
+153 arguments
+154 argument (IntegerLiteralExpr)
+155 value='3'
+156 statement (ExpressionStmt)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='submit'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='p'
+163 arguments
+164 argument (IntegerLiteralExpr)
+165 value='3'
+166 statement (ExpressionStmt)
+167 expression (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='close'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='p'
+173 statement (ExpressionStmt)
+174 expression (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='awaitComplete'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='s2'
+180 statement (ExpressionStmt)
+181 expression (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='assertEquals'
+184 arguments
+185 argument (IntegerLiteralExpr)
+186 value='3'
+187 argument (FieldAccessExpr)
+188 name (SimpleName)
+189 identifier='nexts'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='s2'
+193 statement (ExpressionStmt)
+194 expression (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='assertEquals'
+197 arguments
+198 argument (IntegerLiteralExpr)
+199 value='1'
+200 argument (FieldAccessExpr)
+201 name (SimpleName)
+202 identifier='completes'
+203 scope (NameExpr)
+204 name (SimpleName)
+205 identifier='s2'
+206 statement (ExpressionStmt)
+207 expression (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='awaitComplete'
+210 scope (NameExpr)
+211 name (SimpleName)
+212 identifier='s1'
+213 statement (ExpressionStmt)
+214 expression (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='assertTrue'
+217 arguments
+218 argument (BinaryExpr)
+219 operator='GREATER'
+220 left (FieldAccessExpr)
+221 name (SimpleName)
+222 identifier='nexts'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='s1'
+226 right (IntegerLiteralExpr)
+227 value='0'
+228 statement (ExpressionStmt)
+229 expression (MethodCallExpr)
+230 name (SimpleName)
+231 identifier='assertEquals'
+232 arguments
+233 argument (IntegerLiteralExpr)
+234 value='1'
+235 argument (FieldAccessExpr)
+236 name (SimpleName)
+237 identifier='completes'
+238 scope (NameExpr)
+239 name (SimpleName)
+240 identifier='s1'
+241 type (VoidType)
+242 name (SimpleName)
+243 identifier='testRequest1'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+22 27
+27 28
+22 29
+29 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+35 38
+38 39
+39 40
+33 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+66 68
+68 69
+69 70
+68 71
+71 72
+72 73
+66 74
+74 75
+2 76
+76 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+79 84
+84 85
+79 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+2 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+134 137
+137 138
+138 139
+137 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+147 150
+150 151
+151 152
+144 153
+153 154
+154 155
+2 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+157 163
+163 164
+164 165
+2 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+2 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+2 180
+180 181
+181 182
+182 183
+181 184
+184 185
+185 186
+184 187
+187 188
+188 189
+187 190
+190 191
+191 192
+2 193
+193 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+201 202
+200 203
+203 204
+204 205
+2 206
+206 207
+207 208
+208 209
+207 210
+210 211
+211 212
+2 213
+213 214
+214 215
+215 216
+214 217
+217 218
+218 219
+218 220
+220 221
+221 222
+220 223
+223 224
+224 225
+218 226
+226 227
+2 228
+228 229
+229 230
+230 231
+229 232
+232 233
+233 234
+232 235
+235 236
+236 237
+235 238
+238 239
+239 240
+0 241
+0 242
+242 243
+
+onNext is issued only if requested

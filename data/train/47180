@@ -1,0 +1,230 @@
+114
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='isTop'
+9 scope (ThisExpr)
+10 value (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='isTop'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='other'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='isBottom'
+22 scope (ThisExpr)
+23 value (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='isBottom'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='other'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='onExceptionPath'
+35 scope (ThisExpr)
+36 value (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='onExceptionPath'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='other'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='clear'
+46 scope (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='stateMap'
+49 scope (ThisExpr)
+50 statement (ForeachStmt)
+51 body (BlockStmt)
+52 statements
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='duplicate'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='state'
+63 name (SimpleName)
+64 identifier='dup'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='State'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='put'
+72 scope (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='stateMap'
+75 scope (ThisExpr)
+76 arguments
+77 argument (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='getObligationSet'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='dup'
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='dup'
+86 iterable (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='values'
+89 scope (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='stateMap'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='other'
+95 variable (VariableDeclarationExpr)
+96 variables
+97 variable (VariableDeclarator)
+98 name (SimpleName)
+99 identifier='state'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='State'
+103 type (VoidType)
+104 name (SimpleName)
+105 identifier='copyFrom'
+106 parameters
+107 parameter (Parameter)
+108 isVarArgs='false'
+109 name (SimpleName)
+110 identifier='other'
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='StateSet'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+32 35
+30 36
+36 37
+37 38
+36 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+2 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+56 63
+63 64
+56 65
+65 66
+66 67
+52 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+69 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+76 83
+83 84
+84 85
+50 86
+86 87
+87 88
+86 89
+89 90
+90 91
+89 92
+92 93
+93 94
+50 95
+95 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+0 103
+0 104
+104 105
+0 106
+106 107
+107 108
+107 109
+109 110
+107 111
+111 112
+112 113
+
+Make this StateSet an exact copy of the given StateSet.

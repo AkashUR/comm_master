@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='sendKeyEvent'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getCurrentInputConnection'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='KeyEvent'
+15 arguments
+16 argument (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='ACTION_DOWN'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='KeyEvent'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='keyEventCode'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='sendKeyEvent'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getCurrentInputConnection'
+32 arguments
+33 argument (ObjectCreationExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='KeyEvent'
+37 arguments
+38 argument (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='ACTION_UP'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='KeyEvent'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='keyEventCode'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='keyDownUp'
+50 parameters
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='keyEventCode'
+55 type (PrimitiveType)
+56 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+15 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+37 44
+44 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+51 53
+53 54
+51 55
+55 56
+
+Helper to send a key down / key up pair to the current editor.

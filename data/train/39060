@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='clockMs'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='AtomicLong'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getMillis'
+17 scope (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='DateTime'
+21 arguments
+22 argument (IntegerLiteralExpr)
+23 value='2009'
+24 argument (IntegerLiteralExpr)
+25 value='9'
+26 argument (IntegerLiteralExpr)
+27 value='30'
+28 argument (IntegerLiteralExpr)
+29 value='17'
+30 argument (IntegerLiteralExpr)
+31 value='0'
+32 argument (IntegerLiteralExpr)
+33 value='0'
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='forOffsetHours'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='DateTimeZone'
+40 arguments
+41 argument (UnaryExpr)
+42 operator='MINUS'
+43 expression (IntegerLiteralExpr)
+44 value='4'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='setClockStep'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='clockStep'
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='clockStepUnit'
+56 type (VoidType)
+57 name (SimpleName)
+58 identifier='resetWithClockStep'
+59 parameters
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='clockStep'
+64 type (PrimitiveType)
+65 type='LONG'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='clockStepUnit'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='TimeUnit'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+21 24
+24 25
+21 26
+26 27
+21 28
+28 29
+21 30
+30 31
+21 32
+32 33
+21 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+41 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+0 56
+0 57
+57 58
+0 59
+59 60
+60 61
+60 62
+62 63
+60 64
+64 65
+59 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+
+Reset the clock to a known start point, then set the clock step. <p> The clock is initially set to 2009/09/30 17:00:00 -0400.

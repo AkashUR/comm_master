@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='hybridsortDesc'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='keys'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='values'
+14 argument (NullLiteralExpr)
+15 argument (NullLiteralExpr)
+16 argument (IntegerLiteralExpr)
+17 value='0'
+18 argument (BinaryExpr)
+19 operator='MINUS'
+20 left (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='length'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='keys'
+26 right (IntegerLiteralExpr)
+27 value='1'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='sortDesc'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='keys'
+36 type (ArrayType)
+37 origin='TYPE'
+38 componentType (PrimitiveType)
+39 type='LONG'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='values'
+44 type (ArrayType)
+45 origin='TYPE'
+46 componentType (PrimitiveType)
+47 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+7 15
+7 16
+16 17
+7 18
+18 19
+18 20
+20 21
+21 22
+20 23
+23 24
+24 25
+18 26
+26 27
+0 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+36 38
+38 39
+31 40
+40 41
+40 42
+42 43
+40 44
+44 45
+44 46
+46 47
+
+Sorts the keys in an decreasing order. Elements key[i] and values[i] are always swapped together in the corresponding arrays. <p> A mixture of several sorting algorithms is used: <p> A radix sort performs better on the numeric data we sort, but requires additional storage to perform the sorting. Therefore only the not-very-large parts produced by a quick sort are sorted with radix sort. An insertion sort is used to sort the smallest arrays, where the the overhead of the radix sort is also bigger

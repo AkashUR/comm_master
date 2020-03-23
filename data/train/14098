@@ -1,0 +1,474 @@
+236
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='printHeader'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Header'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='toString'
+14 scope (ClassExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='SouthAfricaLinks2EsriShapefile'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='args'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (ArrayAccessExpr)
+26 index (IntegerLiteralExpr)
+27 value='0'
+28 name (NameExpr)
+29 name (SimpleName)
+30 identifier='args'
+31 name (SimpleName)
+32 identifier='input'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='String'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (ArrayAccessExpr)
+41 index (IntegerLiteralExpr)
+42 value='1'
+43 name (NameExpr)
+44 name (SimpleName)
+45 identifier='args'
+46 name (SimpleName)
+47 identifier='output'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 statement (ExpressionStmt)
+52 expression (VariableDeclarationExpr)
+53 variables
+54 variable (VariableDeclarator)
+55 initializer (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='createScenario'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='ScenarioUtils'
+61 arguments
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='createConfig'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='ConfigUtils'
+68 name (SimpleName)
+69 identifier='sc'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Scenario'
+73 statement (ExpressionStmt)
+74 expression (VariableDeclarationExpr)
+75 variables
+76 variable (VariableDeclarator)
+77 initializer (ObjectCreationExpr)
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='MatsimNetworkReader'
+81 arguments
+82 argument (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='getNetwork'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='sc'
+88 name (SimpleName)
+89 identifier='mnr'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='MatsimNetworkReader'
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='readFile'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='mnr'
+100 arguments
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='input'
+104 statement (ExpressionStmt)
+105 expression (VariableDeclarationExpr)
+106 variables
+107 variable (VariableDeclarator)
+108 initializer (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='getCRS'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='MGC'
+114 arguments
+115 argument (StringLiteralExpr)
+116 value='WGS84_SA_Albers'
+117 name (SimpleName)
+118 identifier='crs'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='CoordinateReferenceSystem'
+122 statement (ExpressionStmt)
+123 expression (VariableDeclarationExpr)
+124 variables
+125 variable (VariableDeclarator)
+126 initializer (ObjectCreationExpr)
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='FeatureGeneratorBuilderImpl'
+130 arguments
+131 argument (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='getNetwork'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='sc'
+137 argument (StringLiteralExpr)
+138 value='WGS84_SA_Albers'
+139 name (SimpleName)
+140 identifier='builder'
+141 type (ClassOrInterfaceType)
+142 name (SimpleName)
+143 identifier='FeatureGeneratorBuilderImpl'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='setWidthCoefficient'
+148 scope (NameExpr)
+149 name (SimpleName)
+150 identifier='builder'
+151 arguments
+152 argument (BinaryExpr)
+153 operator='MULTIPLY'
+154 left (UnaryExpr)
+155 operator='MINUS'
+156 expression (IntegerLiteralExpr)
+157 value='1'
+158 right (IntegerLiteralExpr)
+159 value='1'
+160 statement (ExpressionStmt)
+161 expression (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='setWidthCalculatorPrototype'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='builder'
+167 arguments
+168 argument (ClassExpr)
+169 type (ClassOrInterfaceType)
+170 name (SimpleName)
+171 identifier='LanesBasedWidthCalculator'
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='setCoordinateReferenceSystem'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='builder'
+179 arguments
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='crs'
+183 statement (ExpressionStmt)
+184 expression (VariableDeclarationExpr)
+185 variables
+186 variable (VariableDeclarator)
+187 initializer (ObjectCreationExpr)
+188 type (ClassOrInterfaceType)
+189 name (SimpleName)
+190 identifier='Links2ESRIShape'
+191 arguments
+192 argument (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='getNetwork'
+195 scope (NameExpr)
+196 name (SimpleName)
+197 identifier='sc'
+198 argument (NameExpr)
+199 name (SimpleName)
+200 identifier='output'
+201 argument (NameExpr)
+202 name (SimpleName)
+203 identifier='builder'
+204 name (SimpleName)
+205 identifier='lts'
+206 type (ClassOrInterfaceType)
+207 name (SimpleName)
+208 identifier='Links2ESRIShape'
+209 statement (ExpressionStmt)
+210 expression (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='write'
+213 scope (NameExpr)
+214 name (SimpleName)
+215 identifier='lts'
+216 statement (ExpressionStmt)
+217 expression (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='printFooter'
+220 scope (NameExpr)
+221 name (SimpleName)
+222 identifier='Header'
+223 type (VoidType)
+224 name (SimpleName)
+225 identifier='main'
+226 parameters
+227 parameter (Parameter)
+228 isVarArgs='false'
+229 name (SimpleName)
+230 identifier='args'
+231 type (ArrayType)
+232 origin='TYPE'
+233 componentType (ClassOrInterfaceType)
+234 name (SimpleName)
+235 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+10 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+24 31
+31 32
+24 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+39 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+54 68
+68 69
+54 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+76 77
+77 78
+78 79
+79 80
+77 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+76 88
+88 89
+76 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+107 117
+117 118
+107 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+128 129
+126 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+130 137
+137 138
+125 139
+139 140
+125 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+145 151
+151 152
+152 153
+152 154
+154 155
+154 156
+156 157
+152 158
+158 159
+2 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+161 167
+167 168
+168 169
+169 170
+170 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+173 179
+179 180
+180 181
+181 182
+2 183
+183 184
+184 185
+185 186
+186 187
+187 188
+188 189
+189 190
+187 191
+191 192
+192 193
+193 194
+192 195
+195 196
+196 197
+191 198
+198 199
+199 200
+191 201
+201 202
+202 203
+186 204
+204 205
+186 206
+206 207
+207 208
+2 209
+209 210
+210 211
+211 212
+210 213
+213 214
+214 215
+2 216
+216 217
+217 218
+218 219
+217 220
+220 221
+221 222
+0 223
+0 224
+224 225
+0 226
+226 227
+227 228
+227 229
+229 230
+227 231
+231 232
+231 233
+233 234
+234 235
+
+Converts a given network file to an ESRI shapefile (polygons).

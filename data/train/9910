@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='writeRaw'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='jg'
+10 arguments
+11 argument (CharLiteralExpr)
+12 value=','
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='writeIndentation'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='_objectIndenter'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='jg'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='_nesting'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='writeObjectEntrySeparator'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='jg'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='JsonGenerator'
+38 thrownExceptions
+39 thrownException (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='IOException'
+42 thrownException (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='JsonGenerationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+0 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+
+Method called after an object entry (field:value) has been completely output, and before another value is to be output. <p> Default handling (without pretty-printing) will output a single comma to separate the two. Pretty-printer is to output a comma as well, but can surround that with other (white-space) decoration.

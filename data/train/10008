@@ -1,0 +1,376 @@
+187
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='sender'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (NameExpr)
+13 name (SimpleName)
+14 identifier='currentFov'
+15 value (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getFov'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='camera'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='maxFov'
+27 value (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='normalizeFov'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='PLMath'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='fov'
+37 argument (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getFovRange'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='camera'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (BinaryExpr)
+48 operator='MINUS'
+49 left (NameExpr)
+50 name (SimpleName)
+51 identifier='maxFov'
+52 right (NameExpr)
+53 name (SimpleName)
+54 identifier='currentFov'
+55 name (SimpleName)
+56 identifier='fovDiff'
+57 type (PrimitiveType)
+58 type='FLOAT'
+59 variable (VariableDeclarator)
+60 initializer (BinaryExpr)
+61 operator='MINUS'
+62 left (FieldAccessExpr)
+63 name (SimpleName)
+64 identifier='kFovMaxValue'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='PLConstants'
+68 right (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='abs'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='Math'
+74 arguments
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='fovDiff'
+78 name (SimpleName)
+79 identifier='maxDiff'
+80 type (PrimitiveType)
+81 type='FLOAT'
+82 statement (ExpressionStmt)
+83 expression (AssignExpr)
+84 operator='ASSIGN'
+85 target (NameExpr)
+86 name (SimpleName)
+87 identifier='maxStep'
+88 value (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='max'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='Math'
+94 arguments
+95 argument (CastExpr)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='sqrt'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='Math'
+102 arguments
+103 argument (BinaryExpr)
+104 operator='MULTIPLY'
+105 left (BinaryExpr)
+106 operator='MULTIPLY'
+107 left (NameExpr)
+108 name (SimpleName)
+109 identifier='defaultMaxStep'
+110 right (NameExpr)
+111 name (SimpleName)
+112 identifier='defaultMaxStep'
+113 right (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='abs'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='Math'
+119 arguments
+120 argument (BinaryExpr)
+121 operator='MINUS'
+122 left (DoubleLiteralExpr)
+123 value='1.0f'
+124 right (BinaryExpr)
+125 operator='DIVIDE'
+126 left (BinaryExpr)
+127 operator='MULTIPLY'
+128 left (NameExpr)
+129 name (SimpleName)
+130 identifier='maxDiff'
+131 right (NameExpr)
+132 name (SimpleName)
+133 identifier='maxDiff'
+134 right (FieldAccessExpr)
+135 name (SimpleName)
+136 identifier='kFovMax2Value'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='PLConstants'
+140 type (PrimitiveType)
+141 type='INT'
+142 argument (IntegerLiteralExpr)
+143 value='1'
+144 statement (ExpressionStmt)
+145 expression (AssignExpr)
+146 operator='ASSIGN'
+147 target (NameExpr)
+148 name (SimpleName)
+149 identifier='fovStep'
+150 value (BinaryExpr)
+151 operator='DIVIDE'
+152 left (NameExpr)
+153 name (SimpleName)
+154 identifier='fovDiff'
+155 right (NameExpr)
+156 name (SimpleName)
+157 identifier='maxStep'
+158 name (SimpleName)
+159 identifier='PLFovAnimatedData'
+160 parameters
+161 parameter (Parameter)
+162 isVarArgs='false'
+163 name (SimpleName)
+164 identifier='sender'
+165 type (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='Object'
+168 parameter (Parameter)
+169 isVarArgs='false'
+170 name (SimpleName)
+171 identifier='camera'
+172 type (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='PLCamera'
+175 parameter (Parameter)
+176 isVarArgs='false'
+177 name (SimpleName)
+178 identifier='fov'
+179 type (PrimitiveType)
+180 type='FLOAT'
+181 parameter (Parameter)
+182 isVarArgs='false'
+183 name (SimpleName)
+184 identifier='defaultMaxStep'
+185 type (PrimitiveType)
+186 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+10 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+47 49
+49 50
+50 51
+47 52
+52 53
+53 54
+46 55
+55 56
+46 57
+57 58
+45 59
+59 60
+60 61
+60 62
+62 63
+63 64
+62 65
+65 66
+66 67
+60 68
+68 69
+69 70
+68 71
+71 72
+72 73
+68 74
+74 75
+75 76
+76 77
+59 78
+78 79
+59 80
+80 81
+2 82
+82 83
+83 84
+83 85
+85 86
+86 87
+83 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+103 105
+105 106
+105 107
+107 108
+108 109
+105 110
+110 111
+111 112
+103 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+120 122
+122 123
+120 124
+124 125
+124 126
+126 127
+126 128
+128 129
+129 130
+126 131
+131 132
+132 133
+124 134
+134 135
+135 136
+134 137
+137 138
+138 139
+95 140
+140 141
+94 142
+142 143
+2 144
+144 145
+145 146
+145 147
+147 148
+148 149
+145 150
+150 151
+150 152
+152 153
+153 154
+150 155
+155 156
+156 157
+0 158
+158 159
+0 160
+160 161
+161 162
+161 163
+163 164
+161 165
+165 166
+166 167
+160 168
+168 169
+168 170
+170 171
+168 172
+172 173
+173 174
+160 175
+175 176
+175 177
+177 178
+175 179
+179 180
+160 181
+181 182
+181 183
+183 184
+181 185
+185 186
+
+init methods

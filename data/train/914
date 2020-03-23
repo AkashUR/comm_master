@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='realft'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='FFT'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='fft'
+13 scope (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='nr'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='com'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='data'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='isign'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='realft'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='data'
+34 type (ArrayType)
+35 origin='TYPE'
+36 componentType (PrimitiveType)
+37 type='DOUBLE'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='isign'
+42 type (PrimitiveType)
+43 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+4 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+34 36
+36 37
+29 38
+38 39
+38 40
+40 41
+38 42
+42 43
+
+Calculates the Fourier transform of a set of n real-valued data points. Replaces these data (which are stored in array data[0..n-1]) by the positive frequency half of their complex Fourier transform. The real-valued first and last components of the complex transform are returned as elements data[0] and data[1], respectively. n must be a power of 2. This routine also calculates the inverse transform of a complex data array if it is the transform of real data. (Result in this case must be multiplied by 2/n.)

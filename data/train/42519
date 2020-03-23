@@ -1,0 +1,412 @@
+205
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='context'
+15 argument (ClassExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='HeartbeatReceiver'
+19 name (SimpleName)
+20 identifier='intent'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Intent'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='putExtra'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='intent'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='KEY_DELAY'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='delay'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='putExtra'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='intent'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='KEY_TYPE'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='TYPE_EXPONENTIAL'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='putExtra'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='intent'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='KEY_MAX'
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='max'
+66 statement (ExpressionStmt)
+67 expression (VariableDeclarationExpr)
+68 variables
+69 variable (VariableDeclarator)
+70 initializer (BinaryExpr)
+71 operator='MULTIPLY'
+72 left (BinaryExpr)
+73 operator='MULTIPLY'
+74 left (NameExpr)
+75 name (SimpleName)
+76 identifier='delay'
+77 right (IntegerLiteralExpr)
+78 value='60'
+79 right (IntegerLiteralExpr)
+80 value='1000'
+81 name (SimpleName)
+82 identifier='timeGap'
+83 type (PrimitiveType)
+84 type='LONG'
+85 statement (ExpressionStmt)
+86 expression (VariableDeclarationExpr)
+87 variables
+88 variable (VariableDeclarator)
+89 initializer (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='getBroadcast'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='PendingIntent'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='context'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='delay'
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='intent'
+105 argument (FieldAccessExpr)
+106 name (SimpleName)
+107 identifier='FLAG_CANCEL_CURRENT'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='PendingIntent'
+111 name (SimpleName)
+112 identifier='alarmIntent'
+113 type (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='PendingIntent'
+116 statement (ExpressionStmt)
+117 expression (VariableDeclarationExpr)
+118 variables
+119 variable (VariableDeclarator)
+120 initializer (CastExpr)
+121 expression (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='getSystemService'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='context'
+127 arguments
+128 argument (FieldAccessExpr)
+129 name (SimpleName)
+130 identifier='ALARM_SERVICE'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='Context'
+134 type (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='AlarmManager'
+137 name (SimpleName)
+138 identifier='alarmManager'
+139 type (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='AlarmManager'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='set'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='alarmManager'
+149 arguments
+150 argument (FieldAccessExpr)
+151 name (SimpleName)
+152 identifier='RTC_WAKEUP'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='AlarmManager'
+156 argument (BinaryExpr)
+157 operator='PLUS'
+158 left (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='currentTimeMillis'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='System'
+164 right (NameExpr)
+165 name (SimpleName)
+166 identifier='timeGap'
+167 argument (NameExpr)
+168 name (SimpleName)
+169 identifier='alarmIntent'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='d'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='Log'
+177 arguments
+178 argument (StringLiteralExpr)
+179 value='Heartbeater'
+180 argument (StringLiteralExpr)
+181 value='Scheduled exponential'
+182 type (VoidType)
+183 name (SimpleName)
+184 identifier='scheduleExponential'
+185 parameters
+186 parameter (Parameter)
+187 isVarArgs='false'
+188 name (SimpleName)
+189 identifier='context'
+190 type (ClassOrInterfaceType)
+191 name (SimpleName)
+192 identifier='Context'
+193 parameter (Parameter)
+194 isVarArgs='false'
+195 name (SimpleName)
+196 identifier='delay'
+197 type (PrimitiveType)
+198 type='INT'
+199 parameter (Parameter)
+200 isVarArgs='false'
+201 name (SimpleName)
+202 identifier='max'
+203 type (PrimitiveType)
+204 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+69 70
+70 71
+70 72
+72 73
+72 74
+74 75
+75 76
+72 77
+77 78
+70 79
+79 80
+69 81
+81 82
+69 83
+83 84
+2 85
+85 86
+86 87
+87 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+95 102
+102 103
+103 104
+95 105
+105 106
+106 107
+105 108
+108 109
+109 110
+88 111
+111 112
+88 113
+113 114
+114 115
+2 116
+116 117
+117 118
+118 119
+119 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+120 134
+134 135
+135 136
+119 137
+137 138
+119 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+143 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+149 156
+156 157
+156 158
+158 159
+159 160
+158 161
+161 162
+162 163
+156 164
+164 165
+165 166
+149 167
+167 168
+168 169
+2 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+171 177
+177 178
+178 179
+177 180
+180 181
+0 182
+0 183
+183 184
+0 185
+185 186
+186 187
+186 188
+188 189
+186 190
+190 191
+191 192
+185 193
+193 194
+193 195
+195 196
+193 197
+197 198
+185 199
+199 200
+199 201
+201 202
+199 203
+203 204
+
+Starts an exponential alarm that sends a broadcast to Play Services, which in turn sends a heartbeat

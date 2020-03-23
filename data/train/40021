@@ -1,0 +1,88 @@
+43
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForeachStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='forceKeyspaceCleanup'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getProbe'
+13 arguments
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='keyspace'
+19 iterable (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='getNonSystemKeySpaces'
+22 variable (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='keyspace'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='String'
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='upgradeTables'
+33 thrownExceptions
+34 thrownException (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='InterruptedException'
+37 thrownException (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='ExecutionException'
+40 thrownException (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+13 16
+16 17
+17 18
+3 19
+19 20
+20 21
+3 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+0 30
+0 31
+31 32
+0 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+33 40
+40 41
+41 42
+
+Upgrades the SSTables from a previous version to the version corresponding to the current version of Cassandra. Once this is invoked the tables can not be downgraded.

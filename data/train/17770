@@ -1,0 +1,50 @@
+24
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (UnaryExpr)
+5 operator='POSTFIX_INCREMENT'
+6 expression (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='query_count'
+9 scope (ThisExpr)
+10 statement (ExpressionStmt)
+11 expression (AssignExpr)
+12 operator='ASSIGN'
+13 target (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='query_last'
+16 scope (ThisExpr)
+17 value (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Date'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='update'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+2 10
+10 11
+11 12
+11 13
+13 14
+14 15
+13 16
+11 17
+17 18
+18 19
+19 20
+0 21
+0 22
+22 23
+
+A 'blind' update can be done if the user submits a query but there are rules which prevent that the target system is queried as well. Then the query result is calculated using the already stored messages. To reflect this, only the query-related attributes are changed.

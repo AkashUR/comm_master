@@ -1,0 +1,142 @@
+70
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='params'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='payload'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='offset'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='setParent'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='parent'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='availableForSpending'
+29 value (BooleanLiteralExpr)
+30 value='true'
+31 name (SimpleName)
+32 identifier='TransactionOutput'
+33 parameters
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='params'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='NetworkParameters'
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='parent'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Transaction'
+48 annotations
+49 annotation (MarkerAnnotationExpr)
+50 name (Name)
+51 identifier='Nullable'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='payload'
+56 type (ArrayType)
+57 origin='TYPE'
+58 componentType (PrimitiveType)
+59 type='BYTE'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='offset'
+64 type (PrimitiveType)
+65 type='INT'
+66 thrownExceptions
+67 thrownException (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='ProtocolException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+0 31
+31 32
+0 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+33 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+41 48
+48 49
+49 50
+50 51
+33 52
+52 53
+52 54
+54 55
+52 56
+56 57
+56 58
+58 59
+33 60
+60 61
+60 62
+62 63
+60 64
+64 65
+0 66
+66 67
+67 68
+68 69
+
+Deserializes a transaction output message. This is usually part of a transaction message.

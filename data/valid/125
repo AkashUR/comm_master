@@ -1,0 +1,332 @@
+165
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='LawicellTrafficController'
+11 name (SimpleName)
+12 identifier='tc'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TrafficController'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setTrafficController'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getSystemConnectionMemo'
+23 scope (ThisExpr)
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='tc'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='debug'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='log'
+35 arguments
+36 argument (StringLiteralExpr)
+37 value='Connecting port'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='connectPort'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='tc'
+45 arguments
+46 argument (ThisExpr)
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='debug'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='log'
+54 arguments
+55 argument (StringLiteralExpr)
+56 value='send version request'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (ObjectCreationExpr)
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='CanMessage'
+65 scope (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='can'
+68 scope (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='jmrix'
+71 scope (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='jmri'
+74 arguments
+75 argument (ArrayCreationExpr)
+76 elementType (PrimitiveType)
+77 type='INT'
+78 initializer (ArrayInitializerExpr)
+79 values
+80 value (CharLiteralExpr)
+81 value='V'
+82 value (IntegerLiteralExpr)
+83 value='13'
+84 value (CharLiteralExpr)
+85 value='S'
+86 value (CharLiteralExpr)
+87 value='4'
+88 value (IntegerLiteralExpr)
+89 value='13'
+90 value (CharLiteralExpr)
+91 value='O'
+92 value (IntegerLiteralExpr)
+93 value='13'
+94 levels
+95 level (ArrayCreationLevel)
+96 argument (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='getCanid'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='tc'
+102 name (SimpleName)
+103 identifier='m'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='CanMessage'
+107 scope (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='can'
+110 scope (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='jmrix'
+113 scope (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='jmri'
+116 statement (ExpressionStmt)
+117 expression (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='setTranslated'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='m'
+123 arguments
+124 argument (BooleanLiteralExpr)
+125 value='true'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='sendCanMessage'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='tc'
+133 arguments
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='m'
+137 argument (NullLiteralExpr)
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='setProtocol'
+142 scope (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='getSystemConnectionMemo'
+145 scope (ThisExpr)
+146 arguments
+147 argument (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='getOptionState'
+150 arguments
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='option1Name'
+154 statement (ExpressionStmt)
+155 expression (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='configureManagers'
+158 scope (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='getSystemConnectionMemo'
+161 scope (ThisExpr)
+162 type (VoidType)
+163 name (SimpleName)
+164 identifier='configure'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+17 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+71 72
+72 73
+61 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+79 82
+82 83
+79 84
+84 85
+79 86
+86 87
+79 88
+88 89
+79 90
+90 91
+79 92
+92 93
+75 94
+94 95
+74 96
+96 97
+97 98
+96 99
+99 100
+100 101
+60 102
+102 103
+60 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+110 111
+111 112
+110 113
+113 114
+114 115
+2 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+117 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+127 133
+133 134
+134 135
+135 136
+133 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+142 145
+139 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+152 153
+2 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+158 161
+0 162
+0 163
+163 164
+
+set up all of the other objects to operate with a CAN RS adapter connected to this port

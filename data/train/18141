@@ -1,0 +1,36 @@
+17
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='initialize'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='cache'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='initialize'
+13 thrownExceptions
+14 thrownException (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+0 13
+13 14
+14 15
+15 16
+
+Initialize the cache. This will include reading the journal files from the storage and building up the necessary in-memory cache information. <p>The initialization time may vary depending on the journal file size and the current actual cache size. The application needs to be aware of calling this function during the initialization phase and preferably in a background worker thread. <p>Note that if the application chooses to not call this method to initialize the cache. By default, the okhttp will perform lazy initialization upon the first usage of the cache.

@@ -1,0 +1,454 @@
+226
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkState'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='STATE_DRAWING'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='STATE_DRAWING'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='glPushMatrix'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='gl'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (CastExpr)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='floor'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='Math'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='x'
+36 type (PrimitiveType)
+37 type='FLOAT'
+38 name (SimpleName)
+39 identifier='snappedX'
+40 type (PrimitiveType)
+41 type='FLOAT'
+42 statement (ExpressionStmt)
+43 expression (VariableDeclarationExpr)
+44 variables
+45 variable (VariableDeclarator)
+46 initializer (CastExpr)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='floor'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='Math'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='y'
+57 type (PrimitiveType)
+58 type='FLOAT'
+59 name (SimpleName)
+60 identifier='snappedY'
+61 type (PrimitiveType)
+62 type='FLOAT'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='glTranslatef'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='gl'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='snappedX'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='snappedY'
+77 argument (DoubleLiteralExpr)
+78 value='0.0f'
+79 statement (ExpressionStmt)
+80 expression (VariableDeclarationExpr)
+81 variables
+82 variable (VariableDeclarator)
+83 initializer (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='get'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='mLabels'
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='labelID'
+93 name (SimpleName)
+94 identifier='label'
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='Label'
+98 statement (ExpressionStmt)
+99 expression (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='glEnable'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='gl'
+105 arguments
+106 argument (FieldAccessExpr)
+107 name (SimpleName)
+108 identifier='GL_TEXTURE_2D'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='GL10'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='glTexParameteriv'
+116 scope (EnclosedExpr)
+117 inner (CastExpr)
+118 expression (NameExpr)
+119 name (SimpleName)
+120 identifier='gl'
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='GL11'
+124 arguments
+125 argument (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='GL_TEXTURE_2D'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='GL10'
+131 argument (FieldAccessExpr)
+132 name (SimpleName)
+133 identifier='GL_TEXTURE_CROP_RECT_OES'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='GL11Ext'
+137 argument (FieldAccessExpr)
+138 name (SimpleName)
+139 identifier='mCrop'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='label'
+143 argument (IntegerLiteralExpr)
+144 value='0'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='glDrawTexiOES'
+149 scope (EnclosedExpr)
+150 inner (CastExpr)
+151 expression (NameExpr)
+152 name (SimpleName)
+153 identifier='gl'
+154 type (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='GL11Ext'
+157 arguments
+158 argument (CastExpr)
+159 expression (NameExpr)
+160 name (SimpleName)
+161 identifier='snappedX'
+162 type (PrimitiveType)
+163 type='INT'
+164 argument (CastExpr)
+165 expression (NameExpr)
+166 name (SimpleName)
+167 identifier='snappedY'
+168 type (PrimitiveType)
+169 type='INT'
+170 argument (IntegerLiteralExpr)
+171 value='0'
+172 argument (CastExpr)
+173 expression (FieldAccessExpr)
+174 name (SimpleName)
+175 identifier='width'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='label'
+179 type (PrimitiveType)
+180 type='INT'
+181 argument (CastExpr)
+182 expression (FieldAccessExpr)
+183 name (SimpleName)
+184 identifier='height'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='label'
+188 type (PrimitiveType)
+189 type='INT'
+190 statement (ExpressionStmt)
+191 expression (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='glPopMatrix'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='gl'
+197 type (VoidType)
+198 name (SimpleName)
+199 identifier='draw'
+200 parameters
+201 parameter (Parameter)
+202 isVarArgs='false'
+203 name (SimpleName)
+204 identifier='gl'
+205 type (ClassOrInterfaceType)
+206 name (SimpleName)
+207 identifier='GL10'
+208 parameter (Parameter)
+209 isVarArgs='false'
+210 name (SimpleName)
+211 identifier='x'
+212 type (PrimitiveType)
+213 type='FLOAT'
+214 parameter (Parameter)
+215 isVarArgs='false'
+216 name (SimpleName)
+217 identifier='y'
+218 type (PrimitiveType)
+219 type='FLOAT'
+220 parameter (Parameter)
+221 isVarArgs='false'
+222 name (SimpleName)
+223 identifier='labelID'
+224 type (PrimitiveType)
+225 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+25 36
+36 37
+24 38
+38 39
+24 40
+40 41
+2 42
+42 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+46 57
+57 58
+45 59
+59 60
+45 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+70 74
+74 75
+75 76
+70 77
+77 78
+2 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+91 92
+82 93
+93 94
+82 95
+95 96
+96 97
+2 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+118 119
+119 120
+117 121
+121 122
+122 123
+113 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+124 131
+131 132
+132 133
+131 134
+134 135
+135 136
+124 137
+137 138
+138 139
+137 140
+140 141
+141 142
+124 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+151 152
+152 153
+150 154
+154 155
+155 156
+146 157
+157 158
+158 159
+159 160
+160 161
+158 162
+162 163
+157 164
+164 165
+165 166
+166 167
+164 168
+168 169
+157 170
+170 171
+157 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+172 179
+179 180
+157 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+181 188
+188 189
+2 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+0 197
+0 198
+198 199
+0 200
+200 201
+201 202
+201 203
+203 204
+201 205
+205 206
+206 207
+200 208
+208 209
+208 210
+210 211
+208 212
+212 213
+200 214
+214 215
+214 216
+216 217
+214 218
+218 219
+200 220
+220 221
+220 222
+222 223
+220 224
+224 225
+
+Draw a given label at a given x,y position, expressed in pixels, with the lower-left-hand-corner of the view being (0,0).

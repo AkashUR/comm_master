@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NullLiteralExpr)
+8 name (SimpleName)
+9 identifier='bridge'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='CacheServer'
+13 statement (ForStmt)
+14 body (BlockStmt)
+15 statements
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='bridge'
+22 value (CastExpr)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='next'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='bsI'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='CacheServer'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='stop'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='bridge'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='assertFalse'
+43 arguments
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='isRunning'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='bridge'
+50 compare (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='hasNext'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='bsI'
+56 initialization
+57 initializatio (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 initializer (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='iterator'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getCacheServers'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='cache'
+69 name (SimpleName)
+70 identifier='bsI'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='Iterator'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='stopBridgeServers'
+77 parameters
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='cache'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='Cache'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+22 29
+29 30
+30 31
+15 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+15 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+13 50
+50 51
+51 52
+50 53
+53 54
+54 55
+13 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+59 69
+69 70
+59 71
+71 72
+72 73
+0 74
+0 75
+75 76
+0 77
+77 78
+78 79
+78 80
+80 81
+78 82
+82 83
+83 84
+
+Stops the bridge server that serves up the given cache.

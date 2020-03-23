@@ -1,0 +1,276 @@
+137
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='proxy'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='copy'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='proxy'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='incomePort'
+22 scope (ThisExpr)
+23 value (NameExpr)
+24 name (SimpleName)
+25 identifier='port'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='incomeAddress'
+32 scope (ThisExpr)
+33 value (NameExpr)
+34 name (SimpleName)
+35 identifier='inetAddress'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='buildConnection'
+40 scope (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='proxy'
+43 scope (ThisExpr)
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='requestBind'
+51 scope (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='proxy'
+54 scope (ThisExpr)
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='incomeAddress'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='incomePort'
+62 name (SimpleName)
+63 identifier='replyMesasge'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='CommandReplyMessage'
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='bindAddress'
+73 value (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getIp'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='replyMesasge'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='bindPort'
+85 value (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getPort'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='replyMesasge'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='debug'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='logger'
+98 arguments
+99 argument (StringLiteralExpr)
+100 value='Bind at {}:{}'
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='bindAddress'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='bindPort'
+107 name (SimpleName)
+108 identifier='SocksServerSocket'
+109 parameters
+110 parameter (Parameter)
+111 isVarArgs='false'
+112 name (SimpleName)
+113 identifier='proxy'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='SocksProxy'
+117 parameter (Parameter)
+118 isVarArgs='false'
+119 name (SimpleName)
+120 identifier='inetAddress'
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='InetAddress'
+124 parameter (Parameter)
+125 isVarArgs='false'
+126 name (SimpleName)
+127 identifier='port'
+128 type (PrimitiveType)
+129 type='INT'
+130 thrownExceptions
+131 thrownException (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='SocksException'
+134 thrownException (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+29 32
+27 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+51 54
+48 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+47 62
+62 63
+47 64
+64 65
+65 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+85 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+0 107
+107 108
+0 109
+109 110
+110 111
+110 112
+112 113
+110 114
+114 115
+115 116
+109 117
+117 118
+117 119
+119 120
+117 121
+121 122
+122 123
+109 124
+124 125
+124 126
+126 127
+124 128
+128 129
+0 130
+130 131
+131 132
+132 133
+130 134
+134 135
+135 136
+
+Constructs a server socket. This server socket will established in SOCKS server.

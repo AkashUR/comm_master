@@ -1,0 +1,104 @@
+51
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='glUseProgram'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='rasterProgram'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='viewMatrixUniform'
+17 value (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='glGetUniformLocation'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='rasterProgram'
+24 argument (StringLiteralExpr)
+25 value='viewMatrix'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='projectionMatrixUniform'
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='glGetUniformLocation'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='rasterProgram'
+39 argument (StringLiteralExpr)
+40 value='projectionMatrix'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='glUseProgram'
+45 arguments
+46 argument (IntegerLiteralExpr)
+47 value='0'
+48 type (VoidType)
+49 name (SimpleName)
+50 identifier='initRasterProgram'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+20 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+0 48
+0 49
+49 50
+
+Initialize the raster program.

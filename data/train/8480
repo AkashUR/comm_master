@@ -1,0 +1,54 @@
+26
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (AssertStmt)
+4 check (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='holdsLock'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Thread'
+10 arguments
+11 argument (ThisExpr)
+12 classExpr (NameExpr)
+13 name (SimpleName)
+14 identifier='EndpointEntry'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='dirtyFailed'
+21 value (BooleanLiteralExpr)
+22 value='true'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='markDirtyFailed'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+0 23
+0 24
+24 25
+
+Record that a dirty call that explicitly contained this entry's ref has failed. This method must ONLY be invoked while synchronized on this RefEntry's EndpointEntry.

@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='initEvent'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='typeArg'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='canBubbleArg'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='cancelableArg'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='view'
+23 scope (ThisExpr)
+24 value (NameExpr)
+25 name (SimpleName)
+26 identifier='viewArg'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='detail'
+33 scope (ThisExpr)
+34 value (NameExpr)
+35 name (SimpleName)
+36 identifier='detailArg'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='initUIEvent'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='typeArg'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='String'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='canBubbleArg'
+52 type (PrimitiveType)
+53 type='BOOLEAN'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='cancelableArg'
+58 type (PrimitiveType)
+59 type='BOOLEAN'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='viewArg'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='AbstractView'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='detailArg'
+71 type (PrimitiveType)
+72 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+18 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+28 34
+34 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+40 48
+48 49
+48 50
+50 51
+48 52
+52 53
+40 54
+54 55
+54 56
+56 57
+54 58
+58 59
+40 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+40 67
+67 68
+67 69
+69 70
+67 71
+71 72
+
+DOM: The <code>initUIEvent</code> method is used to initialize the value of a <code>UIEvent</code> created through the <code>DocumentEvent</code> interface.  This method may only be called before the <code>UIEvent</code> has been dispatched via the <code>dispatchEvent</code> method, though it may be called multiple times during that phase if necessary.  If called multiple times, the final invocation takes precedence.

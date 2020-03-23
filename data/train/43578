@@ -1,0 +1,466 @@
+232
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='sessionProtocol'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='method'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='path'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='request'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='ch'
+24 scope (ThisExpr)
+25 value (NameExpr)
+26 name (SimpleName)
+27 identifier='ch'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='cfg'
+34 scope (ThisExpr)
+35 value (NameExpr)
+36 name (SimpleName)
+37 identifier='cfg'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='mappedPath'
+44 scope (ThisExpr)
+45 value (NameExpr)
+46 name (SimpleName)
+47 identifier='mappedPath'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='sslSession'
+54 scope (ThisExpr)
+55 value (NameExpr)
+56 name (SimpleName)
+57 identifier='sslSession'
+58 statement (ExpressionStmt)
+59 expression (AssignExpr)
+60 operator='ASSIGN'
+61 target (NameExpr)
+62 name (SimpleName)
+63 identifier='requestLog'
+64 value (ObjectCreationExpr)
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='DefaultRequestLog'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='start'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='requestLog'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='ch'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='sessionProtocol'
+82 argument (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='defaultHostname'
+85 scope (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='virtualHost'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='cfg'
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='method'
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='path'
+97 statement (ExpressionStmt)
+98 expression (AssignExpr)
+99 operator='ASSIGN'
+100 target (NameExpr)
+101 name (SimpleName)
+102 identifier='responseLog'
+103 value (ObjectCreationExpr)
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='DefaultResponseLog'
+107 arguments
+108 argument (NameExpr)
+109 name (SimpleName)
+110 identifier='requestLog'
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='requestLog'
+114 statement (ExpressionStmt)
+115 expression (AssignExpr)
+116 operator='ASSIGN'
+117 target (NameExpr)
+118 name (SimpleName)
+119 identifier='logger'
+120 value (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='newLogger'
+123 arguments
+124 argument (NameExpr)
+125 name (SimpleName)
+126 identifier='cfg'
+127 statement (ExpressionStmt)
+128 expression (VariableDeclarationExpr)
+129 variables
+130 variable (VariableDeclarator)
+131 initializer (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='config'
+134 scope (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='server'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='cfg'
+140 name (SimpleName)
+141 identifier='serverCfg'
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='ServerConfig'
+145 statement (ExpressionStmt)
+146 expression (AssignExpr)
+147 operator='ASSIGN'
+148 target (NameExpr)
+149 name (SimpleName)
+150 identifier='requestTimeoutMillis'
+151 value (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='defaultRequestTimeoutMillis'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='serverCfg'
+157 statement (ExpressionStmt)
+158 expression (AssignExpr)
+159 operator='ASSIGN'
+160 target (NameExpr)
+161 name (SimpleName)
+162 identifier='maxRequestLength'
+163 value (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='defaultMaxRequestLength'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='serverCfg'
+169 name (SimpleName)
+170 identifier='DefaultServiceRequestContext'
+171 parameters
+172 parameter (Parameter)
+173 isVarArgs='false'
+174 name (SimpleName)
+175 identifier='cfg'
+176 type (ClassOrInterfaceType)
+177 name (SimpleName)
+178 identifier='ServiceConfig'
+179 parameter (Parameter)
+180 isVarArgs='false'
+181 name (SimpleName)
+182 identifier='ch'
+183 type (ClassOrInterfaceType)
+184 name (SimpleName)
+185 identifier='Channel'
+186 parameter (Parameter)
+187 isVarArgs='false'
+188 name (SimpleName)
+189 identifier='sessionProtocol'
+190 type (ClassOrInterfaceType)
+191 name (SimpleName)
+192 identifier='SessionProtocol'
+193 parameter (Parameter)
+194 isVarArgs='false'
+195 name (SimpleName)
+196 identifier='method'
+197 type (ClassOrInterfaceType)
+198 name (SimpleName)
+199 identifier='String'
+200 parameter (Parameter)
+201 isVarArgs='false'
+202 name (SimpleName)
+203 identifier='path'
+204 type (ClassOrInterfaceType)
+205 name (SimpleName)
+206 identifier='String'
+207 parameter (Parameter)
+208 isVarArgs='false'
+209 name (SimpleName)
+210 identifier='mappedPath'
+211 type (ClassOrInterfaceType)
+212 name (SimpleName)
+213 identifier='String'
+214 parameter (Parameter)
+215 isVarArgs='false'
+216 name (SimpleName)
+217 identifier='request'
+218 type (ClassOrInterfaceType)
+219 name (SimpleName)
+220 identifier='Object'
+221 parameter (Parameter)
+222 isVarArgs='false'
+223 name (SimpleName)
+224 identifier='sslSession'
+225 type (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='SSLSession'
+228 annotations
+229 annotation (MarkerAnnotationExpr)
+230 name (Name)
+231 identifier='Nullable'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+5 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+21 24
+19 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+31 34
+29 35
+35 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+41 44
+39 45
+45 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+51 54
+49 55
+55 56
+56 57
+2 58
+58 59
+59 60
+59 61
+61 62
+62 63
+59 64
+64 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+75 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+75 91
+91 92
+92 93
+75 94
+94 95
+95 96
+2 97
+97 98
+98 99
+98 100
+100 101
+101 102
+98 103
+103 104
+104 105
+105 106
+103 107
+107 108
+108 109
+109 110
+107 111
+111 112
+112 113
+2 114
+114 115
+115 116
+115 117
+117 118
+118 119
+115 120
+120 121
+121 122
+120 123
+123 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+134 137
+137 138
+138 139
+130 140
+140 141
+130 142
+142 143
+143 144
+2 145
+145 146
+146 147
+146 148
+148 149
+149 150
+146 151
+151 152
+152 153
+151 154
+154 155
+155 156
+2 157
+157 158
+158 159
+158 160
+160 161
+161 162
+158 163
+163 164
+164 165
+163 166
+166 167
+167 168
+0 169
+169 170
+0 171
+171 172
+172 173
+172 174
+174 175
+172 176
+176 177
+177 178
+171 179
+179 180
+179 181
+181 182
+179 183
+183 184
+184 185
+171 186
+186 187
+186 188
+188 189
+186 190
+190 191
+191 192
+171 193
+193 194
+193 195
+195 196
+193 197
+197 198
+198 199
+171 200
+200 201
+200 202
+202 203
+200 204
+204 205
+205 206
+171 207
+207 208
+207 209
+209 210
+207 211
+211 212
+212 213
+171 214
+214 215
+214 216
+216 217
+214 218
+218 219
+219 220
+171 221
+221 222
+221 223
+223 224
+221 225
+225 226
+226 227
+221 228
+228 229
+229 230
+230 231
+
+Creates a new instance.

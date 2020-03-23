@@ -1,0 +1,164 @@
+81
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='set'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='tmp'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='x'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='force'
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='y'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='force'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='set'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='tmp2'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='x'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='point'
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='y'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='point'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='applyForce'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='body'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='tmp'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='tmp2'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='applyForce'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='force'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='Vector2'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='point'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Vector2'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='wrap'
+79 type (PrimitiveType)
+80 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+60 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+60 75
+75 76
+75 77
+77 78
+75 79
+79 80
+
+Apply a force at a world point. If the force is not applied at the center of mass, it will generate a torque and affect the angular velocity. This wakes up the body.

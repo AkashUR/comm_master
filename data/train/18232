@@ -1,0 +1,216 @@
+107
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getSharedPreferences'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='PREFS_NAME'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='MODE_PRIVATE'
+17 name (SimpleName)
+18 identifier='prefs'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='SharedPreferences'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='setDifficultyIndex'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='GameActivity'
+29 arguments
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getInt'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='prefs'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='DIFFICULTY_KEY'
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getDefaultDifficultyIndex'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='GameActivity'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setNeverLoseBall'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='GameActivity'
+53 arguments
+54 argument (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getBoolean'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='prefs'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='NEVER_LOSE_BALL_KEY'
+64 argument (BooleanLiteralExpr)
+65 value='false'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='setSoundEffectsEnabled'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='GameActivity'
+73 arguments
+74 argument (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='getBoolean'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='prefs'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='SOUND_EFFECTS_ENABLED_KEY'
+84 argument (BooleanLiteralExpr)
+85 value='true'
+86 statement (ExpressionStmt)
+87 expression (AssignExpr)
+88 operator='ASSIGN'
+89 target (NameExpr)
+90 name (SimpleName)
+91 identifier='mHighScore'
+92 value (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='getInt'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='prefs'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='HIGH_SCORE_KEY'
+102 argument (IntegerLiteralExpr)
+103 value='0'
+104 type (VoidType)
+105 name (SimpleName)
+106 identifier='restorePreferences'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+60 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+67 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+80 84
+84 85
+2 86
+86 87
+87 88
+87 89
+89 90
+90 91
+87 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+100 101
+98 102
+102 103
+0 104
+0 105
+105 106
+
+Retrieves settings from the saved preferences.  Also picks up the high score.

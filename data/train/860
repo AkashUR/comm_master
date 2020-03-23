@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getCache'
+10 name (SimpleName)
+11 identifier='cache'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Cache'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='addCacheServer'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='cache'
+25 name (SimpleName)
+26 identifier='bridge'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='CacheServer'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='setPort'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='bridge'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='port'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='setNotifyBySubscription'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='bridge'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='notifyBySubscription'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='start'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='bridge'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='bridgeServerPort'
+65 value (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getPort'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='bridge'
+71 type (VoidType)
+72 name (SimpleName)
+73 identifier='startBridgeServer'
+74 parameters
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='port'
+79 type (PrimitiveType)
+80 type='INT'
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='notifyBySubscription'
+85 type (PrimitiveType)
+86 type='BOOLEAN'
+87 thrownExceptions
+88 thrownException (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+18 25
+25 26
+18 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+66 67
+65 68
+68 69
+69 70
+0 71
+0 72
+72 73
+0 74
+74 75
+75 76
+75 77
+77 78
+75 79
+79 80
+74 81
+81 82
+81 83
+83 84
+81 85
+85 86
+0 87
+87 88
+88 89
+89 90
+
+Starts a bridge server on the given port, using the given deserializeValues and notifyBySubscription to serve up the given region.

@@ -1,0 +1,36 @@
+17
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='readAndParse'
+7 arguments
+8 argument (NullLiteralExpr)
+9 argument (NullLiteralExpr)
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='readAndParse'
+13 thrownExceptions
+14 thrownException (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+7 9
+0 10
+0 11
+11 12
+0 13
+13 14
+14 15
+15 16
+
+Called to begin reading the information coming off the link. Since the information can be coming in different sections, this method figures out how to read the different sections and get ready for requests on what was read. After the link is read, you can then request the link to find out what was sent back - for graphics, GUI components, or actions. When this method is called, the link resets the objects that are returned by getGraphics(), getGUI and getActions(). These methods are meant to be used after read() to find out what was returned.

@@ -1,0 +1,60 @@
+29
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='compoundIDUS'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='uniqueStringOf'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='UniqueString'
+15 arguments
+16 argument (BinaryExpr)
+17 operator='PLUS'
+18 left (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='toString'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='compoundIDUS'
+24 right (StringLiteralExpr)
+25 value='.'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='appendDot'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+16 18
+18 19
+19 20
+18 21
+21 22
+22 23
+16 24
+24 25
+0 26
+0 27
+27 28
+
+Special kluge to append a "." to the name of this ID;  should be used ONLY to change unary "-" to "-."

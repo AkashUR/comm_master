@@ -1,0 +1,104 @@
+51
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='recordGaugeCommon'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='aspect'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='toString'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='Long'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='value'
+21 argument (BinaryExpr)
+22 operator='LESS'
+23 left (NameExpr)
+24 name (SimpleName)
+25 identifier='value'
+26 right (IntegerLiteralExpr)
+27 value='0'
+28 argument (BooleanLiteralExpr)
+29 value='false'
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='recordGaugeValue'
+33 parameters
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='aspect'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='String'
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='value'
+45 type (PrimitiveType)
+46 type='LONG'
+47 annotations
+48 annotation (MarkerAnnotationExpr)
+49 name (Name)
+50 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+7 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+7 28
+28 29
+0 30
+0 31
+31 32
+0 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+33 41
+41 42
+41 43
+43 44
+41 45
+45 46
+0 47
+47 48
+48 49
+49 50
+
+Records the latest fixed value for the specified named gauge. <p>This method is non-blocking and is guaranteed not to throw an exception.</p>

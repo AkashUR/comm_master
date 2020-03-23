@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='decodeResource'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='BitmapFactory'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getResources'
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='bg'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='drawable'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='R'
+26 name (SimpleName)
+27 identifier='tmpBackgroundBitmap'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Bitmap'
+31 statement (ExpressionStmt)
+32 expression (AssignExpr)
+33 operator='ASSIGN'
+34 target (NameExpr)
+35 name (SimpleName)
+36 identifier='backgroundBitmap'
+37 value (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='scaleCenterCrop'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='tmpBackgroundBitmap'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='width'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='height'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='recycle'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='tmpBackgroundBitmap'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='buildBitmap'
+60 parameters
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='width'
+65 type (PrimitiveType)
+66 type='INT'
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='height'
+71 type (PrimitiveType)
+72 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+32 34
+34 35
+35 36
+32 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+40 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+0 57
+0 58
+58 59
+0 60
+60 61
+61 62
+61 63
+63 64
+61 65
+65 66
+60 67
+67 68
+67 69
+69 70
+67 71
+71 72
+
+Build the background bitmap to fit canvas width

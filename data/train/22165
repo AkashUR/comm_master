@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='gprint'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='srcName'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='format'
+14 argument (BooleanLiteralExpr)
+15 value='false'
+16 type (VoidType)
+17 name (SimpleName)
+18 identifier='gprint'
+19 parameters
+20 parameter (Parameter)
+21 isVarArgs='false'
+22 name (SimpleName)
+23 identifier='srcName'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='String'
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='format'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+0 16
+0 17
+17 18
+0 19
+19 20
+20 21
+20 22
+22 23
+20 24
+24 25
+25 26
+19 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+
+<p>Read the value of a variable (VDEF) and prints the value by using the given format string.  In the format string there should be a '%[l]f', '%[l]g' or '%[l]e' marker in the place where the number should be printed.</p> <p>If an additional '%s' is found AFTER the marker, the value will be scaled and an appropriate SI magnitude unit will be printed in place of the '%s' marker. The scaling will take the '--base' argument into consideration!</p> <p>If a '%S' is used instead of a '%s', then instead of calculating the appropriate SI magnitude unit for this value, the previously calculated SI magnitude unit will be used.  This is useful if you want all the values in a print statement to have the same SI magnitude unit. If there was no previous SI magnitude calculation made, then '%S' behaves like a '%s', unless the value is 0, in which case it does not remember a SI magnitude unit and a SI magnitude unit will only be calculated when the next '%s' is seen or the next '%S' for a non-zero value.</p> print results are added to the graph as a legend

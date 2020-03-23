@@ -1,0 +1,66 @@
+32
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='flushIfFull'
+7 statement (ExpressionStmt)
+8 expression (AssignExpr)
+9 operator='ASSIGN'
+10 target (ArrayAccessExpr)
+11 index (UnaryExpr)
+12 operator='POSTFIX_INCREMENT'
+13 expression (NameExpr)
+14 name (SimpleName)
+15 identifier='_offset'
+16 name (NameExpr)
+17 name (SimpleName)
+18 identifier='_buffer'
+19 value (CastExpr)
+20 expression (NameExpr)
+21 name (SimpleName)
+22 identifier='BC_END'
+23 type (PrimitiveType)
+24 type='BYTE'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='writeListEnd'
+28 thrownExceptions
+29 thrownException (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+8 10
+10 11
+11 12
+11 13
+13 14
+14 15
+10 16
+16 17
+17 18
+8 19
+19 20
+20 21
+21 22
+19 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+30 31
+
+Writes the tail of the list to the stream for a variable-length list.

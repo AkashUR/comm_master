@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mbShouldDrawTitle'
+9 value (BinaryExpr)
+10 operator='AND'
+11 left (BinaryExpr)
+12 operator='AND'
+13 left (BinaryExpr)
+14 operator='AND'
+15 left (BinaryExpr)
+16 operator='GREATER'
+17 left (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='width'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='mCollapsedBounds'
+23 right (IntegerLiteralExpr)
+24 value='0'
+25 right (BinaryExpr)
+26 operator='GREATER'
+27 left (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='height'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='mCollapsedBounds'
+33 right (IntegerLiteralExpr)
+34 value='0'
+35 right (BinaryExpr)
+36 operator='GREATER'
+37 left (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='width'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='mExpandedBounds'
+43 right (IntegerLiteralExpr)
+44 value='0'
+45 right (BinaryExpr)
+46 operator='GREATER'
+47 left (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='height'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='mExpandedBounds'
+53 right (IntegerLiteralExpr)
+54 value='0'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='onBoundsChanged'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+18 19
+17 20
+20 21
+21 22
+15 23
+23 24
+13 25
+25 26
+25 27
+27 28
+28 29
+27 30
+30 31
+31 32
+25 33
+33 34
+11 35
+35 36
+35 37
+37 38
+38 39
+37 40
+40 41
+41 42
+35 43
+43 44
+9 45
+45 46
+45 47
+47 48
+48 49
+47 50
+50 51
+51 52
+45 53
+53 54
+0 55
+0 56
+56 57
+
+Note if the bounds change. it means we need to re-draw the text

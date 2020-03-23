@@ -1,0 +1,190 @@
+94
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='withinBounds'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ArgumentChecking'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='index'
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 argument (BinaryExpr)
+17 operator='MINUS'
+18 left (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='size'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='gcTraceSet'
+24 right (IntegerLiteralExpr)
+25 value='1'
+26 argument (StringLiteralExpr)
+27 value='index'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='notNull'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='ArgumentChecking'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='newName'
+39 argument (StringLiteralExpr)
+40 value='newName'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getName'
+48 scope (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='findGCTrace'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='gcTraceSet'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='index'
+58 name (SimpleName)
+59 identifier='traceName'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='String'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='rename'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='gcTraceSet'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='traceName'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='newName'
+77 type (VoidType)
+78 name (SimpleName)
+79 identifier='renameTrace'
+80 parameters
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='index'
+85 type (PrimitiveType)
+86 type='INT'
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='newName'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+10 16
+16 17
+16 18
+18 19
+19 20
+18 21
+21 22
+22 23
+16 24
+24 25
+10 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+35 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+44 58
+58 59
+44 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+70 74
+74 75
+75 76
+0 77
+0 78
+78 79
+0 80
+80 81
+81 82
+81 83
+83 84
+81 85
+85 86
+80 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+
+It renames the given GC trace.

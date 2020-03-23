@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='prune'
+0 1
+0 2
+0 3
+3 4
+
+Discards unnecessary attributes, in particular, <code>CodeAttribute</code>s (method bodies) of the class, to minimize the memory footprint. After calling this method, the class is read only. It cannot be modified any more. Furthermore, <code>toBytecode()</code>, <code>writeFile()</code>, <code>toClass()</code>, or <code>instrument()</code> cannot be called. However, the method names and signatures in the class etc. are still accessible. <p><code>toBytecode()</code>, <code>writeFile()</code>, and <code>toClass()</code> internally call this method if automatic pruning is on.  <p>According to some experiments, pruning does not really reduce memory consumption.  Only about 20%.  Since pruning takes time, it might not pay off.  So the automatic pruning is off by default.

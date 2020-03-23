@@ -1,0 +1,288 @@
+143
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newInstance'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='SchemaFactory'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='http://www.w3.org/2001/XMLSchema'
+16 name (SimpleName)
+17 identifier='factory'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='SchemaFactory'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='newSchema'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='factory'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='schemaFileURL'
+35 name (SimpleName)
+36 identifier='schema'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Schema'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='newValidator'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='schema'
+50 name (SimpleName)
+51 identifier='validator'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Validator'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (ObjectCreationExpr)
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='ByteArrayOutputStream'
+63 name (SimpleName)
+64 identifier='byteArrayOutputStream'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='ByteArrayOutputStream'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='printDocument'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='xmlContent'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='byteArrayOutputStream'
+79 statement (ExpressionStmt)
+80 expression (VariableDeclarationExpr)
+81 variables
+82 variable (VariableDeclarator)
+83 initializer (ObjectCreationExpr)
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='ByteArrayInputStream'
+87 arguments
+88 argument (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='toByteArray'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='byteArrayOutputStream'
+94 name (SimpleName)
+95 identifier='bis'
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='ByteArrayInputStream'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='validate'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='validator'
+106 arguments
+107 argument (ObjectCreationExpr)
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='StreamSource'
+111 arguments
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='bis'
+115 type (VoidType)
+116 name (SimpleName)
+117 identifier='validateXML'
+118 parameters
+119 parameter (Parameter)
+120 isVarArgs='false'
+121 name (SimpleName)
+122 identifier='schemaFileURL'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='URL'
+126 parameter (Parameter)
+127 isVarArgs='false'
+128 name (SimpleName)
+129 identifier='xmlContent'
+130 type (ClassOrInterfaceType)
+131 name (SimpleName)
+132 identifier='Document'
+133 thrownExceptions
+134 thrownException (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='SAXException'
+137 thrownException (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='IOException'
+140 thrownException (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='TransformerException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+24 35
+35 36
+24 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+43 50
+50 51
+43 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+58 63
+63 64
+58 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+74 75
+72 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+83 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+82 94
+94 95
+82 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+109 110
+107 111
+111 112
+112 113
+113 114
+0 115
+0 116
+116 117
+0 118
+118 119
+119 120
+119 121
+121 122
+119 123
+123 124
+124 125
+118 126
+126 127
+126 128
+128 129
+126 130
+130 131
+131 132
+0 133
+133 134
+134 135
+135 136
+133 137
+137 138
+138 139
+133 140
+140 141
+141 142
+
+Validates the XML data against the specified schema.

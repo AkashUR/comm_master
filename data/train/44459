@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='systemCreateUser'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='user'
+11 type (VoidType)
+12 name (SimpleName)
+13 identifier='createUser'
+14 parameters
+15 parameter (Parameter)
+16 isVarArgs='false'
+17 name (SimpleName)
+18 identifier='user'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='User'
+22 thrownExceptions
+23 thrownException (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='RequiredFieldMissingException'
+26 thrownException (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='RootNotModifiableException'
+29 thrownException (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='EmailNotSentException'
+32 annotations
+33 annotation (SingleMemberAnnotationExpr)
+34 memberValue (StringLiteralExpr)
+35 value='hasRole(\'ROLE_USER_MANAGER\')'
+36 name (Name)
+37 identifier='PreAuthorize'
+38 annotation (NormalAnnotationExpr)
+39 name (Name)
+40 identifier='Transactional'
+41 pairs
+42 pair (MemberValuePair)
+43 name (SimpleName)
+44 identifier='readOnly'
+45 value (BooleanLiteralExpr)
+46 value='false'
+47 pair (MemberValuePair)
+48 name (SimpleName)
+49 identifier='propagation'
+50 value (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='REQUIRED'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='Propagation'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+0 11
+0 12
+12 13
+0 14
+14 15
+15 16
+15 17
+17 18
+15 19
+19 20
+20 21
+0 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+22 29
+29 30
+30 31
+0 32
+32 33
+33 34
+34 35
+33 36
+36 37
+32 38
+38 39
+39 40
+38 41
+41 42
+42 43
+43 44
+42 45
+45 46
+41 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+54 55
+
+Create given User, after checking required fields.

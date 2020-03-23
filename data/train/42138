@@ -1,0 +1,42 @@
+20
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setContextClassLoader'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='currentThread'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='Thread'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='classLoader'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='goingToExecuteSUTCode'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+0 17
+0 18
+18 19
+
+This is pretty important if the SUT use classloader of the running thread. If we do not set this up, we will end up with cast exceptions. <p> Note, an example in which this happens is in <p> org.dom4j.bean.BeanAttribute <p> in SF100 project 62_dom4j

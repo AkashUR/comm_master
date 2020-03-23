@@ -1,0 +1,152 @@
+75
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='drawString'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='gfx'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='size'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='m_matrix'
+23 right (StringLiteralExpr)
+24 value=' x '
+25 right (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='size'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='m_matrix'
+31 right (StringLiteralExpr)
+32 value=' cost matrix'
+33 argument (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='x'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='box'
+39 argument (BinaryExpr)
+40 operator='PLUS'
+41 left (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='y'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='box'
+47 right (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='height'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='box'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='paintValue'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='gfx'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='Graphics'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='box'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Rectangle'
+71 annotations
+72 annotation (MarkerAnnotationExpr)
+73 name (Name)
+74 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+18 19
+17 20
+20 21
+21 22
+15 23
+23 24
+13 25
+25 26
+26 27
+25 28
+28 29
+29 30
+11 31
+31 32
+10 33
+33 34
+34 35
+33 36
+36 37
+37 38
+10 39
+39 40
+39 41
+41 42
+42 43
+41 44
+44 45
+45 46
+39 47
+47 48
+48 49
+47 50
+50 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+56 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+0 71
+71 72
+72 73
+73 74
+
+Paints a graphical representation of the object. For the cost matrix it prints out the text "X x X matrix", where X is the size of the matrix.

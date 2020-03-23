@@ -1,0 +1,74 @@
+36
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='encryptedKey'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='pkcsOracle'
+12 argument (BooleanLiteralExpr)
+13 value='true'
+14 name (SimpleName)
+15 identifier='BleichenbacherAttacker'
+16 parameters
+17 parameter (Parameter)
+18 isVarArgs='false'
+19 name (SimpleName)
+20 identifier='encryptedKey'
+21 type (ArrayType)
+22 origin='TYPE'
+23 componentType (PrimitiveType)
+24 type='BYTE'
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='pkcsOracle'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='AOracle'
+32 thrownExceptions
+33 thrownException (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='CryptoAttackException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+0 14
+14 15
+0 16
+16 17
+17 18
+17 19
+19 20
+17 21
+21 22
+21 23
+23 24
+16 25
+25 26
+25 27
+27 28
+25 29
+29 30
+30 31
+0 32
+32 33
+33 34
+34 35
+
+Generates an instance of Bleichenbacher Attacker. We assume that the first two bytes of the decrypted message are correctly set to 0x00 0x02

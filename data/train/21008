@@ -1,0 +1,180 @@
+89
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (MethodCallExpr)
+7 name (SimpleName)
+8 identifier='build'
+9 scope (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='entity'
+12 scope (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='type'
+15 scope (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='status'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='Response'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='status'
+25 arguments
+26 argument (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='APPLICATION_JSON_TYPE'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='MediaType'
+32 arguments
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='put'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='emptyObjectNode'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='metacatJson'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='error'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='message'
+48 argument (ConditionalExpr)
+49 condition (BinaryExpr)
+50 operator='EQUALS'
+51 left (NameExpr)
+52 name (SimpleName)
+53 identifier='cause'
+54 right (NullLiteralExpr)
+55 elseExpr (NameExpr)
+56 name (SimpleName)
+57 identifier='cause'
+58 thenExpr (ObjectCreationExpr)
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Exception'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='message'
+66 name (SimpleName)
+67 identifier='MetacatException'
+68 parameters
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='message'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='String'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='status'
+80 type (PrimitiveType)
+81 type='INT'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='cause'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+12 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+9 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+33 42
+42 43
+43 44
+42 45
+45 46
+46 47
+5 48
+48 49
+49 50
+49 51
+51 52
+52 53
+49 54
+48 55
+55 56
+56 57
+48 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+64 65
+0 66
+66 67
+0 68
+68 69
+69 70
+69 71
+71 72
+69 73
+73 74
+74 75
+68 76
+76 77
+76 78
+78 79
+76 80
+80 81
+68 82
+82 83
+82 84
+84 85
+82 86
+86 87
+87 88
+
+Construct a new client error exception.

@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='processNewline'
+0 1
+0 2
+0 3
+3 4
+
+Process a newline (Control-J) character. A newline (NL) character just moves the cursor to the same column on the next line, creating new lines when the cursor reaches the bottom edge of the terminal. This is counter-intuitive, especially to UNIX programmers who are taught that writing a single NL to a terminal is sufficient to move the cursor to the first column of the next line, as if a carriage return (CR) and a NL were written. <p> UNIX terminals typically display a NL character as a CR followed by a NL because the terminal device typically has the ONLCR attribute bit set (see the termios(4) man page for details), which causes the terminal device driver to translate NL to CR + NL on output. The terminal itself (i.e., a hardware terminal or a terminal emulator, like xterm or this code) _always_ interprets a CR to mean "move the cursor to the beginning of the current line" and a NL to mean "move the cursor to the same column on the next line". <p>

@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='finish'
+0 1
+0 2
+0 3
+3 4
+
+Subclasses should implement this method if they need to perform additional checks after the type checker has finished its work. This is particularly useful for situations where you need multiple passes. Some checks in that case may be deferred to the end, using this method.

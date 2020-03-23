@@ -1,0 +1,182 @@
+90
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='processReport'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='id'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='seqno'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='time'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='datum'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='get'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='array'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='id'
+34 name (SimpleName)
+35 identifier='tp'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='ThreadPosition'
+39 statement (ExpressionStmt)
+40 expression (AssignExpr)
+41 operator='ASSIGN'
+42 target (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='reportTime'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='tp'
+48 value (NameExpr)
+49 name (SimpleName)
+50 identifier='reportTime'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='notifyAll'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='report'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='id'
+63 type (PrimitiveType)
+64 type='INT'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='seqno'
+69 type (PrimitiveType)
+70 type='LONG'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='time'
+75 type (PrimitiveType)
+76 type='LONG'
+77 parameter (Parameter)
+78 isVarArgs='false'
+79 name (SimpleName)
+80 identifier='reportTime'
+81 type (PrimitiveType)
+82 type='LONG'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='datum'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='D'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+23 34
+34 35
+23 36
+36 37
+37 38
+2 39
+39 40
+40 41
+40 42
+42 43
+43 44
+42 45
+45 46
+46 47
+40 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+58 65
+65 66
+65 67
+67 68
+65 69
+69 70
+58 71
+71 72
+71 73
+73 74
+71 75
+75 76
+58 77
+77 78
+77 79
+79 80
+77 81
+81 82
+58 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+
+Report position for an individual task. This call makes an important assumption that sequence numbers never move backward, which simplifies maintenance of the array.

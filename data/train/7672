@@ -1,0 +1,414 @@
+206
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mCallback'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='callback'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getString'
+19 scope (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='Secure'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='Settings'
+25 arguments
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getContentResolver'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='mContext'
+32 argument (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='ANDROID_ID'
+35 scope (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='Secure'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='Settings'
+41 name (SimpleName)
+42 identifier='PRODUCT_DSN'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='String'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Bundle'
+54 name (SimpleName)
+55 identifier='options'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='Bundle'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (BinaryExpr)
+64 operator='PLUS'
+65 left (BinaryExpr)
+66 operator='PLUS'
+67 left (BinaryExpr)
+68 operator='PLUS'
+69 left (BinaryExpr)
+70 operator='PLUS'
+71 left (StringLiteralExpr)
+72 value='{\"alexa:all\":{\"productID\":\"'
+73 right (NameExpr)
+74 name (SimpleName)
+75 identifier='mProductId'
+76 right (StringLiteralExpr)
+77 value='\", \"productInstanceAttributes\":{\"deviceSerialNumber\":\"'
+78 right (NameExpr)
+79 name (SimpleName)
+80 identifier='PRODUCT_DSN'
+81 right (StringLiteralExpr)
+82 value='\"}}}'
+83 name (SimpleName)
+84 identifier='scope_data'
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='String'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='putString'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='options'
+95 arguments
+96 argument (FieldAccessExpr)
+97 name (SimpleName)
+98 identifier='val'
+99 scope (FieldAccessExpr)
+100 name (SimpleName)
+101 identifier='SCOPE_DATA'
+102 scope (FieldAccessExpr)
+103 name (SimpleName)
+104 identifier='BUNDLE_KEY'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='AuthzConstants'
+108 argument (NameExpr)
+109 name (SimpleName)
+110 identifier='scope_data'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='putBoolean'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='options'
+118 arguments
+119 argument (FieldAccessExpr)
+120 name (SimpleName)
+121 identifier='val'
+122 scope (FieldAccessExpr)
+123 name (SimpleName)
+124 identifier='GET_AUTH_CODE'
+125 scope (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='BUNDLE_KEY'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='AuthzConstants'
+131 argument (BooleanLiteralExpr)
+132 value='true'
+133 statement (ExpressionStmt)
+134 expression (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='putString'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='options'
+140 arguments
+141 argument (FieldAccessExpr)
+142 name (SimpleName)
+143 identifier='val'
+144 scope (FieldAccessExpr)
+145 name (SimpleName)
+146 identifier='CODE_CHALLENGE'
+147 scope (FieldAccessExpr)
+148 name (SimpleName)
+149 identifier='BUNDLE_KEY'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='AuthzConstants'
+153 argument (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='getCodeChallenge'
+156 statement (ExpressionStmt)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='putString'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='options'
+163 arguments
+164 argument (FieldAccessExpr)
+165 name (SimpleName)
+166 identifier='val'
+167 scope (FieldAccessExpr)
+168 name (SimpleName)
+169 identifier='CODE_CHALLENGE_METHOD'
+170 scope (FieldAccessExpr)
+171 name (SimpleName)
+172 identifier='BUNDLE_KEY'
+173 scope (NameExpr)
+174 name (SimpleName)
+175 identifier='AuthzConstants'
+176 argument (StringLiteralExpr)
+177 value='S256'
+178 statement (ExpressionStmt)
+179 expression (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='authorize'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='mAuthManager'
+185 arguments
+186 argument (NameExpr)
+187 name (SimpleName)
+188 identifier='APP_SCOPES'
+189 argument (NameExpr)
+190 name (SimpleName)
+191 identifier='options'
+192 argument (NameExpr)
+193 name (SimpleName)
+194 identifier='authListener'
+195 type (VoidType)
+196 name (SimpleName)
+197 identifier='authorizeUser'
+198 parameters
+199 parameter (Parameter)
+200 isVarArgs='false'
+201 name (SimpleName)
+202 identifier='callback'
+203 type (ClassOrInterfaceType)
+204 name (SimpleName)
+205 identifier='AuthorizationCallback'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+16 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+25 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+15 41
+41 42
+15 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+49 54
+54 55
+49 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+62 63
+63 64
+63 65
+65 66
+65 67
+67 68
+67 69
+69 70
+69 71
+71 72
+69 73
+73 74
+74 75
+67 76
+76 77
+65 78
+78 79
+79 80
+63 81
+81 82
+62 83
+83 84
+62 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+99 102
+102 103
+103 104
+102 105
+105 106
+106 107
+95 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+112 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+122 125
+125 126
+126 127
+125 128
+128 129
+129 130
+118 131
+131 132
+2 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+134 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+144 147
+147 148
+148 149
+147 150
+150 151
+151 152
+140 153
+153 154
+154 155
+2 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+157 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+167 170
+170 171
+171 172
+170 173
+173 174
+174 175
+163 176
+176 177
+2 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+179 185
+185 186
+186 187
+187 188
+185 189
+189 190
+190 191
+185 192
+192 193
+193 194
+0 195
+0 196
+196 197
+0 198
+198 199
+199 200
+199 201
+201 202
+199 203
+203 204
+204 205
+
+Request authorization for the user to be able to use the application, this opens an intent that feeds back to the app: <intent-filter> <action android:name="android.intent.action.VIEW" /> <category android:name="android.intent.category.DEFAULT" /> <category android:name="android.intent.category.BROWSABLE" /> <!-- host should be our application package e.g.: com.example.yourapp.whee //--> <data android:host="APPLICATION.PACKAGE" android:scheme="amzn" /> </intent-filter> Make sure this is in the main application's AndroidManifest

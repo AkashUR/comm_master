@@ -1,0 +1,140 @@
+69
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='dataType'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='w'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='h'
+15 argument (IntegerLiteralExpr)
+16 value='1'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='scanlineStride'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='bankIndices'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='bandOffsets'
+26 name (SimpleName)
+27 identifier='BandedSampleModel'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='dataType'
+33 type (PrimitiveType)
+34 type='INT'
+35 parameter (Parameter)
+36 isVarArgs='false'
+37 name (SimpleName)
+38 identifier='w'
+39 type (PrimitiveType)
+40 type='INT'
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='h'
+45 type (PrimitiveType)
+46 type='INT'
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='scanlineStride'
+51 type (PrimitiveType)
+52 type='INT'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='bankIndices'
+57 type (ArrayType)
+58 origin='NAME'
+59 componentType (PrimitiveType)
+60 type='INT'
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='bandOffsets'
+65 type (ArrayType)
+66 origin='NAME'
+67 componentType (PrimitiveType)
+68 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+5 15
+15 16
+5 17
+17 18
+18 19
+5 20
+20 21
+21 22
+5 23
+23 24
+24 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+28 35
+35 36
+35 37
+37 38
+35 39
+39 40
+28 41
+41 42
+41 43
+43 44
+41 45
+45 46
+28 47
+47 48
+47 49
+49 50
+47 51
+51 52
+28 53
+53 54
+53 55
+55 56
+53 57
+57 58
+57 59
+59 60
+28 61
+61 62
+61 63
+63 64
+61 65
+65 66
+65 67
+67 68
+
+Constructs a BandedSampleModel with the specified parameters. The number of bands will be inferred from the lengths of the bandOffsets bankIndices arrays, which must be equal.  The pixel stride will be one data element.

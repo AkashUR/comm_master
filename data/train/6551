@@ -1,0 +1,460 @@
+229
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='DIVIDE'
+9 left (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getTime'
+12 scope (ObjectCreationExpr)
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Date'
+16 scope (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='util'
+19 scope (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='java'
+22 right (IntegerLiteralExpr)
+23 value='1000'
+24 name (SimpleName)
+25 identifier='gmt_unix_time'
+26 type (PrimitiveType)
+27 type='LONG'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='nextBytes'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='sr'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='random'
+39 statement (ExpressionStmt)
+40 expression (AssignExpr)
+41 operator='ASSIGN'
+42 target (ArrayAccessExpr)
+43 index (IntegerLiteralExpr)
+44 value='0'
+45 name (NameExpr)
+46 name (SimpleName)
+47 identifier='random'
+48 value (CastExpr)
+49 expression (EnclosedExpr)
+50 inner (BinaryExpr)
+51 operator='UNSIGNED_RIGHT_SHIFT'
+52 left (EnclosedExpr)
+53 inner (BinaryExpr)
+54 operator='BINARY_AND'
+55 left (NameExpr)
+56 name (SimpleName)
+57 identifier='gmt_unix_time'
+58 right (IntegerLiteralExpr)
+59 value='0xFF000000'
+60 right (IntegerLiteralExpr)
+61 value='24'
+62 type (PrimitiveType)
+63 type='BYTE'
+64 statement (ExpressionStmt)
+65 expression (AssignExpr)
+66 operator='ASSIGN'
+67 target (ArrayAccessExpr)
+68 index (IntegerLiteralExpr)
+69 value='1'
+70 name (NameExpr)
+71 name (SimpleName)
+72 identifier='random'
+73 value (CastExpr)
+74 expression (EnclosedExpr)
+75 inner (BinaryExpr)
+76 operator='UNSIGNED_RIGHT_SHIFT'
+77 left (EnclosedExpr)
+78 inner (BinaryExpr)
+79 operator='BINARY_AND'
+80 left (NameExpr)
+81 name (SimpleName)
+82 identifier='gmt_unix_time'
+83 right (IntegerLiteralExpr)
+84 value='0xFF0000'
+85 right (IntegerLiteralExpr)
+86 value='16'
+87 type (PrimitiveType)
+88 type='BYTE'
+89 statement (ExpressionStmt)
+90 expression (AssignExpr)
+91 operator='ASSIGN'
+92 target (ArrayAccessExpr)
+93 index (IntegerLiteralExpr)
+94 value='2'
+95 name (NameExpr)
+96 name (SimpleName)
+97 identifier='random'
+98 value (CastExpr)
+99 expression (EnclosedExpr)
+100 inner (BinaryExpr)
+101 operator='UNSIGNED_RIGHT_SHIFT'
+102 left (EnclosedExpr)
+103 inner (BinaryExpr)
+104 operator='BINARY_AND'
+105 left (NameExpr)
+106 name (SimpleName)
+107 identifier='gmt_unix_time'
+108 right (IntegerLiteralExpr)
+109 value='0xFF00'
+110 right (IntegerLiteralExpr)
+111 value='8'
+112 type (PrimitiveType)
+113 type='BYTE'
+114 statement (ExpressionStmt)
+115 expression (AssignExpr)
+116 operator='ASSIGN'
+117 target (ArrayAccessExpr)
+118 index (IntegerLiteralExpr)
+119 value='3'
+120 name (NameExpr)
+121 name (SimpleName)
+122 identifier='random'
+123 value (CastExpr)
+124 expression (EnclosedExpr)
+125 inner (BinaryExpr)
+126 operator='BINARY_AND'
+127 left (NameExpr)
+128 name (SimpleName)
+129 identifier='gmt_unix_time'
+130 right (IntegerLiteralExpr)
+131 value='0xFF'
+132 type (PrimitiveType)
+133 type='BYTE'
+134 statement (ExpressionStmt)
+135 expression (AssignExpr)
+136 operator='ASSIGN'
+137 target (FieldAccessExpr)
+138 name (SimpleName)
+139 identifier='session_id'
+140 scope (ThisExpr)
+141 value (NameExpr)
+142 name (SimpleName)
+143 identifier='session_id'
+144 statement (ExpressionStmt)
+145 expression (AssignExpr)
+146 operator='ASSIGN'
+147 target (FieldAccessExpr)
+148 name (SimpleName)
+149 identifier='cipher_suite'
+150 scope (ThisExpr)
+151 value (NameExpr)
+152 name (SimpleName)
+153 identifier='cipher_suite'
+154 statement (ExpressionStmt)
+155 expression (AssignExpr)
+156 operator='ASSIGN'
+157 target (FieldAccessExpr)
+158 name (SimpleName)
+159 identifier='compression_method'
+160 scope (ThisExpr)
+161 value (NameExpr)
+162 name (SimpleName)
+163 identifier='compression_method'
+164 statement (ExpressionStmt)
+165 expression (AssignExpr)
+166 operator='ASSIGN'
+167 target (FieldAccessExpr)
+168 name (SimpleName)
+169 identifier='server_version'
+170 scope (ThisExpr)
+171 value (NameExpr)
+172 name (SimpleName)
+173 identifier='server_version'
+174 statement (ExpressionStmt)
+175 expression (AssignExpr)
+176 operator='ASSIGN'
+177 target (NameExpr)
+178 name (SimpleName)
+179 identifier='length'
+180 value (BinaryExpr)
+181 operator='PLUS'
+182 left (IntegerLiteralExpr)
+183 value='38'
+184 right (FieldAccessExpr)
+185 name (SimpleName)
+186 identifier='length'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='session_id'
+190 name (SimpleName)
+191 identifier='ServerHello'
+192 parameters
+193 parameter (Parameter)
+194 isVarArgs='false'
+195 name (SimpleName)
+196 identifier='sr'
+197 type (ClassOrInterfaceType)
+198 name (SimpleName)
+199 identifier='SecureRandom'
+200 parameter (Parameter)
+201 isVarArgs='false'
+202 name (SimpleName)
+203 identifier='server_version'
+204 type (ArrayType)
+205 origin='TYPE'
+206 componentType (PrimitiveType)
+207 type='BYTE'
+208 parameter (Parameter)
+209 isVarArgs='false'
+210 name (SimpleName)
+211 identifier='session_id'
+212 type (ArrayType)
+213 origin='TYPE'
+214 componentType (PrimitiveType)
+215 type='BYTE'
+216 parameter (Parameter)
+217 isVarArgs='false'
+218 name (SimpleName)
+219 identifier='cipher_suite'
+220 type (ClassOrInterfaceType)
+221 name (SimpleName)
+222 identifier='CipherSuite'
+223 parameter (Parameter)
+224 isVarArgs='false'
+225 name (SimpleName)
+226 identifier='compression_method'
+227 type (PrimitiveType)
+228 type='BYTE'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+16 19
+19 20
+20 21
+7 22
+22 23
+6 24
+24 25
+6 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+2 39
+39 40
+40 41
+40 42
+42 43
+43 44
+42 45
+45 46
+46 47
+40 48
+48 49
+49 50
+50 51
+50 52
+52 53
+53 54
+53 55
+55 56
+56 57
+53 58
+58 59
+50 60
+60 61
+48 62
+62 63
+2 64
+64 65
+65 66
+65 67
+67 68
+68 69
+67 70
+70 71
+71 72
+65 73
+73 74
+74 75
+75 76
+75 77
+77 78
+78 79
+78 80
+80 81
+81 82
+78 83
+83 84
+75 85
+85 86
+73 87
+87 88
+2 89
+89 90
+90 91
+90 92
+92 93
+93 94
+92 95
+95 96
+96 97
+90 98
+98 99
+99 100
+100 101
+100 102
+102 103
+103 104
+103 105
+105 106
+106 107
+103 108
+108 109
+100 110
+110 111
+98 112
+112 113
+2 114
+114 115
+115 116
+115 117
+117 118
+118 119
+117 120
+120 121
+121 122
+115 123
+123 124
+124 125
+125 126
+125 127
+127 128
+128 129
+125 130
+130 131
+123 132
+132 133
+2 134
+134 135
+135 136
+135 137
+137 138
+138 139
+137 140
+135 141
+141 142
+142 143
+2 144
+144 145
+145 146
+145 147
+147 148
+148 149
+147 150
+145 151
+151 152
+152 153
+2 154
+154 155
+155 156
+155 157
+157 158
+158 159
+157 160
+155 161
+161 162
+162 163
+2 164
+164 165
+165 166
+165 167
+167 168
+168 169
+167 170
+165 171
+171 172
+172 173
+2 174
+174 175
+175 176
+175 177
+177 178
+178 179
+175 180
+180 181
+180 182
+182 183
+180 184
+184 185
+185 186
+184 187
+187 188
+188 189
+0 190
+190 191
+0 192
+192 193
+193 194
+193 195
+195 196
+193 197
+197 198
+198 199
+192 200
+200 201
+200 202
+202 203
+200 204
+204 205
+204 206
+206 207
+192 208
+208 209
+208 210
+210 211
+208 212
+212 213
+212 214
+214 215
+192 216
+216 217
+216 218
+218 219
+216 220
+220 221
+221 222
+192 223
+223 224
+223 225
+225 226
+223 227
+227 228
+
+Creates outbound message

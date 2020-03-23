@@ -1,0 +1,282 @@
+140
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertU'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='adoc'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='id'
+14 argument (StringLiteralExpr)
+15 value='1'
+16 argument (StringLiteralExpr)
+17 value='floatdv'
+18 argument (StringLiteralExpr)
+19 value='2'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='assertU'
+24 arguments
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='adoc'
+28 arguments
+29 argument (StringLiteralExpr)
+30 value='id'
+31 argument (StringLiteralExpr)
+32 value='2'
+33 argument (StringLiteralExpr)
+34 value='floatdv'
+35 argument (StringLiteralExpr)
+36 value='5'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='assertU'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='adoc'
+45 arguments
+46 argument (StringLiteralExpr)
+47 value='id'
+48 argument (StringLiteralExpr)
+49 value='3'
+50 argument (StringLiteralExpr)
+51 value='floatdv'
+52 argument (StringLiteralExpr)
+53 value='3.0'
+54 argument (StringLiteralExpr)
+55 value='floatdv'
+56 argument (StringLiteralExpr)
+57 value='-1.3'
+58 argument (StringLiteralExpr)
+59 value='floatdv'
+60 argument (StringLiteralExpr)
+61 value='2.2'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='assertU'
+66 arguments
+67 argument (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='adoc'
+70 arguments
+71 argument (StringLiteralExpr)
+72 value='id'
+73 argument (StringLiteralExpr)
+74 value='4'
+75 argument (StringLiteralExpr)
+76 value='floatdv'
+77 argument (StringLiteralExpr)
+78 value='3'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='assertU'
+83 arguments
+84 argument (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='commit'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='assertQ'
+91 arguments
+92 argument (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='req'
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='q'
+98 argument (StringLiteralExpr)
+99 value='floatdv:3'
+100 argument (StringLiteralExpr)
+101 value='sort'
+102 argument (StringLiteralExpr)
+103 value='id asc'
+104 argument (StringLiteralExpr)
+105 value='//*[@numFound=\'2\']'
+106 argument (StringLiteralExpr)
+107 value='//result/doc[1]/str[@name=\'id\'][.=3]'
+108 argument (StringLiteralExpr)
+109 value='//result/doc[2]/str[@name=\'id\'][.=4]'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='assertQ'
+114 arguments
+115 argument (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='req'
+118 arguments
+119 argument (StringLiteralExpr)
+120 value='q'
+121 argument (StringLiteralExpr)
+122 value='floatdv:[-1 TO 2.5]'
+123 argument (StringLiteralExpr)
+124 value='sort'
+125 argument (StringLiteralExpr)
+126 value='id asc'
+127 argument (StringLiteralExpr)
+128 value='//*[@numFound=\'2\']'
+129 argument (StringLiteralExpr)
+130 value='//result/doc[1]/str[@name=\'id\'][.=1]'
+131 argument (StringLiteralExpr)
+132 value='//result/doc[2]/str[@name=\'id\'][.=3]'
+133 type (VoidType)
+134 name (SimpleName)
+135 identifier='testFloatDocValuesMatch'
+136 thrownExceptions
+137 thrownException (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+11 16
+16 17
+11 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+28 33
+33 34
+28 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+45 50
+50 51
+45 52
+52 53
+45 54
+54 55
+45 56
+56 57
+45 58
+58 59
+45 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+73 74
+70 75
+75 76
+70 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+95 98
+98 99
+95 100
+100 101
+95 102
+102 103
+91 104
+104 105
+91 106
+106 107
+91 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+118 123
+123 124
+118 125
+125 126
+114 127
+127 128
+114 129
+129 130
+114 131
+131 132
+0 133
+0 134
+134 135
+0 136
+136 137
+137 138
+138 139
+
+Tests the ability to do basic queries (without scoring, just match-only) on float docvalues fields that are not inverted (indexed "forward" only)

@@ -1,0 +1,352 @@
+175
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='predicting'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='predicting'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='numNumerVals'
+19 value (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='length'
+22 scope (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getVector'
+25 scope (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='get'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='data'
+31 arguments
+32 argument (IntegerLiteralExpr)
+33 value='0'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='categories'
+40 value (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='copyOf'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='CategoricalData'
+46 arguments
+47 argument (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getCategoricalData'
+50 scope (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getDataPoint'
+53 scope (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='get'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='data'
+59 arguments
+60 argument (IntegerLiteralExpr)
+61 value='0'
+62 statement (ExpressionStmt)
+63 expression (AssignExpr)
+64 operator='ASSIGN'
+65 target (NameExpr)
+66 name (SimpleName)
+67 identifier='datapoints'
+68 value (ObjectCreationExpr)
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='ArrayList'
+72 typeArguments
+73 typeArgument (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='DataPoint'
+76 arguments
+77 argument (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='size'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='data'
+83 statement (ExpressionStmt)
+84 expression (AssignExpr)
+85 operator='ASSIGN'
+86 target (NameExpr)
+87 name (SimpleName)
+88 identifier='category'
+89 value (ObjectCreationExpr)
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='IntList'
+93 arguments
+94 argument (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='size'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='data'
+100 statement (ForeachStmt)
+101 body (BlockStmt)
+102 statements
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='add'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='datapoints'
+110 arguments
+111 argument (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='getDataPoint'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='dpp'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='add'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='category'
+124 arguments
+125 argument (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='getPair'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='dpp'
+131 iterable (NameExpr)
+132 name (SimpleName)
+133 identifier='data'
+134 variable (VariableDeclarationExpr)
+135 variables
+136 variable (VariableDeclarator)
+137 name (SimpleName)
+138 identifier='dpp'
+139 type (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='DataPointPair'
+142 typeArguments
+143 typeArgument (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='Integer'
+146 statement (ExpressionStmt)
+147 expression (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='generateGenericNumericNames'
+150 name (SimpleName)
+151 identifier='ClassificationDataSet'
+152 parameters
+153 parameter (Parameter)
+154 isVarArgs='false'
+155 name (SimpleName)
+156 identifier='data'
+157 type (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='List'
+160 typeArguments
+161 typeArgument (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='DataPointPair'
+164 typeArguments
+165 typeArgument (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='Integer'
+168 parameter (Parameter)
+169 isVarArgs='false'
+170 name (SimpleName)
+171 identifier='predicting'
+172 type (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='CategoricalData'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+2 62
+62 63
+63 64
+63 65
+65 66
+66 67
+63 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+74 75
+68 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+2 83
+83 84
+84 85
+84 86
+86 87
+87 88
+84 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+102 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+100 131
+131 132
+132 133
+100 134
+134 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+139 142
+142 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+0 150
+150 151
+0 152
+152 153
+153 154
+153 155
+155 156
+153 157
+157 158
+158 159
+157 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+166 167
+152 168
+168 169
+168 170
+170 171
+168 172
+172 173
+173 174
+
+Creates a new data set for classification problems from the given list of data points.  The class value is paired with each data point.

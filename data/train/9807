@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='setUser'
+9 value (NullLiteralExpr)
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='sendCommand'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='c'
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='hello'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='listToJSON'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='JSONUtil'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='VERSION'
+30 argument (BooleanLiteralExpr)
+31 value='false'
+32 statement (ForeachStmt)
+33 body (BlockStmt)
+34 statements
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='subRoom'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='room'
+43 iterable (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getRooms'
+46 variable (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 name (SimpleName)
+50 identifier='room'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='String'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='sendCommand'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='c'
+61 arguments
+62 argument (StringLiteralExpr)
+63 value='ready'
+64 argument (StringLiteralExpr)
+65 value='0'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='handleConnect'
+69 annotations
+70 annotation (MarkerAnnotationExpr)
+71 name (Name)
+72 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+26 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+32 43
+43 44
+44 45
+32 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+61 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+71 72
+
+This is still locked with the WebsocketClient instance, which ensures this is completed before anything else can be send (e.g. by addRoom()).

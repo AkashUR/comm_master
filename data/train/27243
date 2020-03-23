@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='frameRateTarget'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='newRateTarget'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='frameRatePeriod'
+18 value (CastExpr)
+19 expression (EnclosedExpr)
+20 inner (BinaryExpr)
+21 operator='DIVIDE'
+22 left (DoubleLiteralExpr)
+23 value='1000000000.0'
+24 right (NameExpr)
+25 name (SimpleName)
+26 identifier='frameRateTarget'
+27 type (PrimitiveType)
+28 type='LONG'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='setFrameRate'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='g'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='newRateTarget'
+40 type (VoidType)
+41 name (SimpleName)
+42 identifier='frameRate'
+43 parameters
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='newRateTarget'
+48 type (PrimitiveType)
+49 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+20 21
+20 22
+22 23
+20 24
+24 25
+25 26
+18 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+0 40
+0 41
+41 42
+0 43
+43 44
+44 45
+44 46
+46 47
+44 48
+48 49
+
+( begin auto-generated from frameRate.xml ) <p/> Specifies the number of frames to be displayed every second. If the processor is not fast enough to maintain the specified rate, it will not be achieved. For example, the function call <b>frameRate(30)</b> will attempt to refresh 30 times a second. It is recommended to set the frame rate within <b>setup()</b>. The default rate is 60 frames per second. <p/> ( end auto-generated )

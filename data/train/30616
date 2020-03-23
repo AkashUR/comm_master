@@ -1,0 +1,606 @@
+302
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='defaultShapeWidth'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='dp2px'
+12 arguments
+13 argument (IntegerLiteralExpr)
+14 value='4'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='defaultShapeRadius'
+21 value (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='dp2px'
+24 arguments
+25 argument (IntegerLiteralExpr)
+26 value='7'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (NameExpr)
+31 name (SimpleName)
+32 identifier='paint'
+33 value (ObjectCreationExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Paint'
+37 arguments
+38 argument (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='ANTI_ALIAS_FLAG'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='Paint'
+44 statement (ExpressionStmt)
+45 expression (AssignExpr)
+46 operator='ASSIGN'
+47 target (NameExpr)
+48 name (SimpleName)
+49 identifier='paintShadow'
+50 value (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Paint'
+54 arguments
+55 argument (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='ANTI_ALIAS_FLAG'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='Paint'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='setLayerType'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='LAYER_TYPE_SOFTWARE'
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='paintShadow'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (NameExpr)
+76 name (SimpleName)
+77 identifier='shadowWidth'
+78 value (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='dp2px'
+81 arguments
+82 argument (IntegerLiteralExpr)
+83 value='2'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='setShadowLayer'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='paintShadow'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='shadowWidth'
+95 argument (DoubleLiteralExpr)
+96 value='0.0f'
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='dp2px'
+100 arguments
+101 argument (IntegerLiteralExpr)
+102 value='1'
+103 argument (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='parseColor'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='Color'
+109 arguments
+110 argument (StringLiteralExpr)
+111 value='#66000000'
+112 statement (ExpressionStmt)
+113 expression (VariableDeclarationExpr)
+114 variables
+115 variable (VariableDeclarator)
+116 initializer (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='obtainStyledAttributes'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='context'
+122 arguments
+123 argument (NameExpr)
+124 name (SimpleName)
+125 identifier='attrs'
+126 argument (FieldAccessExpr)
+127 name (SimpleName)
+128 identifier='OpAnimationView'
+129 scope (FieldAccessExpr)
+130 name (SimpleName)
+131 identifier='styleable'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='R'
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='defStyleAttr'
+138 argument (IntegerLiteralExpr)
+139 value='0'
+140 name (SimpleName)
+141 identifier='attributes'
+142 type (ClassOrInterfaceType)
+143 name (SimpleName)
+144 identifier='TypedArray'
+145 statement (ExpressionStmt)
+146 expression (MethodCallExpr)
+147 name (SimpleName)
+148 identifier='setBackgroundColor'
+149 arguments
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='getColor'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='attributes'
+156 arguments
+157 argument (FieldAccessExpr)
+158 name (SimpleName)
+159 identifier='OpAnimationView_backgroundColor'
+160 scope (FieldAccessExpr)
+161 name (SimpleName)
+162 identifier='styleable'
+163 scope (NameExpr)
+164 name (SimpleName)
+165 identifier='R'
+166 argument (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='parseColor'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='Color'
+172 arguments
+173 argument (StringLiteralExpr)
+174 value='#FF4081'
+175 statement (ExpressionStmt)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='setShapeColor'
+179 arguments
+180 argument (MethodCallExpr)
+181 name (SimpleName)
+182 identifier='getColor'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='attributes'
+186 arguments
+187 argument (FieldAccessExpr)
+188 name (SimpleName)
+189 identifier='OpAnimationView_shapeColor'
+190 scope (FieldAccessExpr)
+191 name (SimpleName)
+192 identifier='styleable'
+193 scope (NameExpr)
+194 name (SimpleName)
+195 identifier='R'
+196 argument (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='parseColor'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='Color'
+202 arguments
+203 argument (StringLiteralExpr)
+204 value='#ffffff'
+205 statement (ExpressionStmt)
+206 expression (AssignExpr)
+207 operator='ASSIGN'
+208 target (NameExpr)
+209 name (SimpleName)
+210 identifier='shapeWidth'
+211 value (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='getDimensionPixelOffset'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='attributes'
+217 arguments
+218 argument (FieldAccessExpr)
+219 name (SimpleName)
+220 identifier='OpAnimationView_shapeWidth'
+221 scope (FieldAccessExpr)
+222 name (SimpleName)
+223 identifier='styleable'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='R'
+227 argument (NameExpr)
+228 name (SimpleName)
+229 identifier='defaultShapeWidth'
+230 statement (ExpressionStmt)
+231 expression (AssignExpr)
+232 operator='ASSIGN'
+233 target (NameExpr)
+234 name (SimpleName)
+235 identifier='shapeRadius'
+236 value (MethodCallExpr)
+237 name (SimpleName)
+238 identifier='getDimensionPixelOffset'
+239 scope (NameExpr)
+240 name (SimpleName)
+241 identifier='attributes'
+242 arguments
+243 argument (FieldAccessExpr)
+244 name (SimpleName)
+245 identifier='OpAnimationView_shapeRadius'
+246 scope (FieldAccessExpr)
+247 name (SimpleName)
+248 identifier='styleable'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='R'
+252 argument (NameExpr)
+253 name (SimpleName)
+254 identifier='defaultShapeRadius'
+255 statement (ExpressionStmt)
+256 expression (MethodCallExpr)
+257 name (SimpleName)
+258 identifier='setShapeWidth'
+259 arguments
+260 argument (NameExpr)
+261 name (SimpleName)
+262 identifier='shapeWidth'
+263 statement (ExpressionStmt)
+264 expression (MethodCallExpr)
+265 name (SimpleName)
+266 identifier='setShapeRadius'
+267 arguments
+268 argument (NameExpr)
+269 name (SimpleName)
+270 identifier='shapeRadius'
+271 statement (ExpressionStmt)
+272 expression (MethodCallExpr)
+273 name (SimpleName)
+274 identifier='recycle'
+275 scope (NameExpr)
+276 name (SimpleName)
+277 identifier='attributes'
+278 type (VoidType)
+279 name (SimpleName)
+280 identifier='init'
+281 parameters
+282 parameter (Parameter)
+283 isVarArgs='false'
+284 name (SimpleName)
+285 identifier='context'
+286 type (ClassOrInterfaceType)
+287 name (SimpleName)
+288 identifier='Context'
+289 parameter (Parameter)
+290 isVarArgs='false'
+291 name (SimpleName)
+292 identifier='attrs'
+293 type (ClassOrInterfaceType)
+294 name (SimpleName)
+295 identifier='AttributeSet'
+296 parameter (Parameter)
+297 isVarArgs='false'
+298 name (SimpleName)
+299 identifier='defStyleAttr'
+300 type (PrimitiveType)
+301 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+21 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+28 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+2 44
+44 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+73 78
+78 79
+79 80
+78 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+91 95
+95 96
+91 97
+97 98
+98 99
+97 100
+100 101
+101 102
+91 103
+103 104
+104 105
+103 106
+106 107
+107 108
+103 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+124 125
+122 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+133 134
+122 135
+135 136
+136 137
+122 138
+138 139
+115 140
+140 141
+115 142
+142 143
+143 144
+2 145
+145 146
+146 147
+147 148
+146 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+150 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+160 163
+163 164
+164 165
+156 166
+166 167
+167 168
+166 169
+169 170
+170 171
+166 172
+172 173
+173 174
+2 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+181 182
+180 183
+183 184
+184 185
+180 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+190 193
+193 194
+194 195
+186 196
+196 197
+197 198
+196 199
+199 200
+200 201
+196 202
+202 203
+203 204
+2 205
+205 206
+206 207
+206 208
+208 209
+209 210
+206 211
+211 212
+212 213
+211 214
+214 215
+215 216
+211 217
+217 218
+218 219
+219 220
+218 221
+221 222
+222 223
+221 224
+224 225
+225 226
+217 227
+227 228
+228 229
+2 230
+230 231
+231 232
+231 233
+233 234
+234 235
+231 236
+236 237
+237 238
+236 239
+239 240
+240 241
+236 242
+242 243
+243 244
+244 245
+243 246
+246 247
+247 248
+246 249
+249 250
+250 251
+242 252
+252 253
+253 254
+2 255
+255 256
+256 257
+257 258
+256 259
+259 260
+260 261
+261 262
+2 263
+263 264
+264 265
+265 266
+264 267
+267 268
+268 269
+269 270
+2 271
+271 272
+272 273
+273 274
+272 275
+275 276
+276 277
+0 278
+0 279
+279 280
+0 281
+281 282
+282 283
+282 284
+284 285
+282 286
+286 287
+287 288
+281 289
+289 290
+289 291
+291 292
+289 293
+293 294
+294 295
+281 296
+296 297
+296 298
+298 299
+296 300
+300 301
+
+init paint

@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TraceableHttpServerResponse'
+11 arguments
+12 argument (CastExpr)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getAttribute'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='serviceMethodInfo'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='RESPONDER_ATTRIBUTE'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Response'
+26 name (SimpleName)
+27 identifier='httpResponse'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='HttpResponse'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='HttpServerResponseAdapter'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='httpResponse'
+43 name (SimpleName)
+44 identifier='adapter'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='HttpServerResponseAdapter'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='handle'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='respInterceptor'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='adapter'
+59 type (VoidType)
+60 name (SimpleName)
+61 identifier='postCall'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='request'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='Request'
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='status'
+74 type (PrimitiveType)
+75 type='INT'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='serviceMethodInfo'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='ServiceMethodInfo'
+83 thrownExceptions
+84 thrownException (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Exception'
+87 annotations
+88 annotation (MarkerAnnotationExpr)
+89 name (Name)
+90 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+12 23
+23 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+41 42
+34 43
+43 44
+34 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+0 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+62 70
+70 71
+70 72
+72 73
+70 74
+74 75
+62 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+0 83
+83 84
+84 85
+85 86
+0 87
+87 88
+88 89
+89 90
+
+Intercepts the server response flow and extract response information to be published to the Zipkin server for tracing.

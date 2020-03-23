@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='persistString'
+7 arguments
+8 argument (ConditionalExpr)
+9 condition (BinaryExpr)
+10 operator='NOT_EQUALS'
+11 left (NameExpr)
+12 name (SimpleName)
+13 identifier='ringtoneUri'
+14 right (NullLiteralExpr)
+15 elseExpr (StringLiteralExpr)
+16 value=''
+17 thenExpr (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='toString'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='ringtoneUri'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='onSaveRingtone'
+26 parameters
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='ringtoneUri'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Uri'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+9 11
+11 12
+12 13
+9 14
+8 15
+15 16
+8 17
+17 18
+18 19
+17 20
+20 21
+21 22
+0 23
+0 24
+24 25
+0 26
+26 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+
+Called when a ringtone is chosen. <p></p> By default, this saves the ringtone URI to the persistent storage as a string.

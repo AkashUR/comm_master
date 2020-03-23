@@ -1,0 +1,326 @@
+162
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='SHA1Digest'
+11 name (SimpleName)
+12 identifier='digest'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Digest'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (ArrayCreationExpr)
+21 elementType (PrimitiveType)
+22 type='BYTE'
+23 levels
+24 level (ArrayCreationLevel)
+25 dimension (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getDigestSize'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='digest'
+31 name (SimpleName)
+32 identifier='resBuf'
+33 type (ArrayType)
+34 origin='TYPE'
+35 componentType (PrimitiveType)
+36 type='BYTE'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getBytes'
+44 scope (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getPublicKeyData'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='spki'
+50 name (SimpleName)
+51 identifier='bytes'
+52 type (ArrayType)
+53 origin='TYPE'
+54 componentType (PrimitiveType)
+55 type='BYTE'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='update'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='digest'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='bytes'
+67 argument (IntegerLiteralExpr)
+68 value='0'
+69 argument (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='length'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='bytes'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='doFinal'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='digest'
+82 arguments
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='resBuf'
+86 argument (IntegerLiteralExpr)
+87 value='0'
+88 statement (ExpressionStmt)
+89 expression (AssignExpr)
+90 operator='ASSIGN'
+91 target (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='keyidentifier'
+94 scope (ThisExpr)
+95 value (ObjectCreationExpr)
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='DEROctetString'
+99 arguments
+100 argument (NameExpr)
+101 name (SimpleName)
+102 identifier='resBuf'
+103 statement (ExpressionStmt)
+104 expression (AssignExpr)
+105 operator='ASSIGN'
+106 target (FieldAccessExpr)
+107 name (SimpleName)
+108 identifier='certissuer'
+109 scope (ThisExpr)
+110 value (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='getInstance'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='GeneralNames'
+116 arguments
+117 argument (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='toASN1Primitive'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='name'
+123 statement (ExpressionStmt)
+124 expression (AssignExpr)
+125 operator='ASSIGN'
+126 target (FieldAccessExpr)
+127 name (SimpleName)
+128 identifier='certserno'
+129 scope (ThisExpr)
+130 value (ObjectCreationExpr)
+131 type (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='ASN1Integer'
+134 arguments
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='serialNumber'
+138 name (SimpleName)
+139 identifier='AuthorityKeyIdentifier'
+140 parameters
+141 parameter (Parameter)
+142 isVarArgs='false'
+143 name (SimpleName)
+144 identifier='spki'
+145 type (ClassOrInterfaceType)
+146 name (SimpleName)
+147 identifier='SubjectPublicKeyInfo'
+148 parameter (Parameter)
+149 isVarArgs='false'
+150 name (SimpleName)
+151 identifier='name'
+152 type (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='GeneralNames'
+155 parameter (Parameter)
+156 isVarArgs='false'
+157 name (SimpleName)
+158 identifier='serialNumber'
+159 type (ClassOrInterfaceType)
+160 name (SimpleName)
+161 identifier='BigInteger'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+19 31
+31 32
+19 33
+33 34
+33 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+40 50
+50 51
+40 52
+52 53
+52 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+63 67
+67 68
+63 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+82 86
+86 87
+2 88
+88 89
+89 90
+89 91
+91 92
+92 93
+91 94
+89 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+101 102
+2 103
+103 104
+104 105
+104 106
+106 107
+107 108
+106 109
+104 110
+110 111
+111 112
+110 113
+113 114
+114 115
+110 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+2 123
+123 124
+124 125
+124 126
+126 127
+127 128
+126 129
+124 130
+130 131
+131 132
+132 133
+130 134
+134 135
+135 136
+136 137
+0 138
+138 139
+0 140
+140 141
+141 142
+141 143
+143 144
+141 145
+145 146
+146 147
+140 148
+148 149
+148 150
+150 151
+148 152
+152 153
+153 154
+140 155
+155 156
+155 157
+157 158
+155 159
+159 160
+160 161
+
+create an AuthorityKeyIdentifier with the GeneralNames tag and the serial number provided as well.

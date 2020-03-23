@@ -1,0 +1,246 @@
+122
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getText'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getContext'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='cancel'
+17 scope (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='string'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='R'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='android'
+26 name (SimpleName)
+27 identifier='errorMessage'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='CharSequence'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (ObjectCreationExpr)
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='AbstractValidatorImplementation'
+39 arguments
+40 argument (StringLiteralExpr)
+41 value='foo'
+42 argument (BooleanLiteralExpr)
+43 value='true'
+44 name (SimpleName)
+45 identifier='validator'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Validator'
+49 typeArguments
+50 typeArgument (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='Object'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='create'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='NegateValidator'
+63 arguments
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getContext'
+67 argument (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='cancel'
+70 scope (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='string'
+73 scope (FieldAccessExpr)
+74 name (SimpleName)
+75 identifier='R'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='android'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='validator'
+82 name (SimpleName)
+83 identifier='negateValidator'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='NegateValidator'
+87 typeArguments
+88 typeArgument (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='Object'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='assertEquals'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='errorMessage'
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getErrorMessage'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='negateValidator'
+105 statement (ExpressionStmt)
+106 expression (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='assertEquals'
+109 arguments
+110 argument (NameExpr)
+111 name (SimpleName)
+112 identifier='validator'
+113 argument (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='getValidator'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='negateValidator'
+119 type (VoidType)
+120 name (SimpleName)
+121 identifier='testFactoryMethodWithContextAndResourceIdParameters'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+34 44
+44 45
+34 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+73 74
+74 75
+73 76
+76 77
+77 78
+63 79
+79 80
+80 81
+56 82
+82 83
+56 84
+84 85
+85 86
+84 87
+87 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+99 102
+102 103
+103 104
+2 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+111 112
+109 113
+113 114
+114 115
+113 116
+116 117
+117 118
+0 119
+0 120
+120 121
+
+Tests, if all properties are correctly initialized by the factory method, which expects a context and a resource ID as parameters.

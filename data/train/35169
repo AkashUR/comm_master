@@ -1,0 +1,284 @@
+141
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='baseAddress'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='baseAddress'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='topAddress'
+19 scope (ThisExpr)
+20 value (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='plus'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='baseAddress'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='spaceSize'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='stackSize'
+36 scope (ThisExpr)
+37 value (CastExpr)
+38 expression (EnclosedExpr)
+39 inner (BinaryExpr)
+40 operator='DIVIDE'
+41 left (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='toLong'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='stackSize'
+47 right (NameExpr)
+48 name (SimpleName)
+49 identifier='BYTES_IN_PAGE'
+50 type (PrimitiveType)
+51 type='INT'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (BinaryExpr)
+57 operator='DIVIDE'
+58 left (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='toLong'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='spaceSize'
+64 right (NameExpr)
+65 name (SimpleName)
+66 identifier='BYTES_IN_PAGE'
+67 name (SimpleName)
+68 identifier='spacePages'
+69 type (PrimitiveType)
+70 type='LONG'
+71 statement (ExpressionStmt)
+72 expression (VariableDeclarationExpr)
+73 variables
+74 variable (VariableDeclarator)
+75 initializer (CastExpr)
+76 expression (EnclosedExpr)
+77 inner (BinaryExpr)
+78 operator='DIVIDE'
+79 left (EnclosedExpr)
+80 inner (BinaryExpr)
+81 operator='MINUS'
+82 left (NameExpr)
+83 name (SimpleName)
+84 identifier='spacePages'
+85 right (IntegerLiteralExpr)
+86 value='2'
+87 right (EnclosedExpr)
+88 inner (BinaryExpr)
+89 operator='PLUS'
+90 left (FieldAccessExpr)
+91 name (SimpleName)
+92 identifier='stackSize'
+93 scope (ThisExpr)
+94 right (IntegerLiteralExpr)
+95 value='1'
+96 type (PrimitiveType)
+97 type='INT'
+98 name (SimpleName)
+99 identifier='nStacks'
+100 type (PrimitiveType)
+101 type='INT'
+102 statement (ExpressionStmt)
+103 expression (AssignExpr)
+104 operator='ASSIGN'
+105 target (FieldAccessExpr)
+106 name (SimpleName)
+107 identifier='allocated'
+108 scope (ThisExpr)
+109 value (ArrayCreationExpr)
+110 elementType (PrimitiveType)
+111 type='BOOLEAN'
+112 levels
+113 level (ArrayCreationLevel)
+114 dimension (NameExpr)
+115 name (SimpleName)
+116 identifier='nStacks'
+117 name (SimpleName)
+118 identifier='StackAllocator'
+119 parameters
+120 parameter (Parameter)
+121 isVarArgs='false'
+122 name (SimpleName)
+123 identifier='baseAddress'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='Address'
+127 parameter (Parameter)
+128 isVarArgs='false'
+129 name (SimpleName)
+130 identifier='spaceSize'
+131 type (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='Extent'
+134 parameter (Parameter)
+135 isVarArgs='false'
+136 name (SimpleName)
+137 identifier='stackSize'
+138 type (ClassOrInterfaceType)
+139 name (SimpleName)
+140 identifier='Extent'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+33 36
+31 37
+37 38
+38 39
+39 40
+39 41
+41 42
+42 43
+41 44
+44 45
+45 46
+39 47
+47 48
+48 49
+37 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+56 58
+58 59
+59 60
+58 61
+61 62
+62 63
+56 64
+64 65
+65 66
+55 67
+67 68
+55 69
+69 70
+2 71
+71 72
+72 73
+73 74
+74 75
+75 76
+76 77
+77 78
+77 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+77 87
+87 88
+88 89
+88 90
+90 91
+91 92
+90 93
+88 94
+94 95
+75 96
+96 97
+74 98
+98 99
+74 100
+100 101
+2 102
+102 103
+103 104
+103 105
+105 106
+106 107
+105 108
+103 109
+109 110
+110 111
+109 112
+112 113
+113 114
+114 115
+115 116
+0 117
+117 118
+0 119
+119 120
+120 121
+120 122
+122 123
+120 124
+124 125
+125 126
+119 127
+127 128
+127 129
+129 130
+127 131
+131 132
+132 133
+119 134
+134 135
+134 136
+136 137
+134 138
+138 139
+139 140
+
+Create a stack allocator that allocates at the base address

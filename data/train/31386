@@ -1,0 +1,172 @@
+85
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='launchAndGetMembers'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='Foo'
+13 argument (StringLiteralExpr)
+14 value='Bar'
+15 name (SimpleName)
+16 identifier='memberNamesAndStatus'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Collection'
+20 typeArguments
+21 typeArgument (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='PyPresenterTestMemberEntry'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='compareMembers'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='memberNamesAndStatus'
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='containsInAnyOrder'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='Matchers'
+38 arguments
+39 argument (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='PyPresenterTestMemberEntry'
+43 arguments
+44 argument (StringLiteralExpr)
+45 value='__init__(self)'
+46 argument (BooleanLiteralExpr)
+47 value='true'
+48 argument (BooleanLiteralExpr)
+49 value='false'
+50 argument (BooleanLiteralExpr)
+51 value='false'
+52 argument (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='PyPresenterTestMemberEntry'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='self.foo'
+59 argument (BooleanLiteralExpr)
+60 value='true'
+61 argument (BooleanLiteralExpr)
+62 value='false'
+63 argument (BooleanLiteralExpr)
+64 value='false'
+65 argument (ObjectCreationExpr)
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='PyPresenterTestMemberEntry'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='extends Bar'
+72 argument (BooleanLiteralExpr)
+73 value='false'
+74 argument (BooleanLiteralExpr)
+75 value='false'
+76 argument (BooleanLiteralExpr)
+77 value='false'
+78 type (VoidType)
+79 name (SimpleName)
+80 identifier='testNoMoveParentToItSelf'
+81 thrownExceptions
+82 thrownException (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+43 46
+46 47
+43 48
+48 49
+43 50
+50 51
+38 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+56 59
+59 60
+56 61
+61 62
+56 63
+63 64
+38 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+69 72
+72 73
+69 74
+74 75
+69 76
+76 77
+0 78
+0 79
+79 80
+0 81
+81 82
+82 83
+83 84
+
+Checks that parent can't be moved to itself

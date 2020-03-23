@@ -1,0 +1,232 @@
+115
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='validateNotNull'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='panels'
+11 argument (StringLiteralExpr)
+12 value='panels'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='validateNotNull'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='panelType'
+21 argument (StringLiteralExpr)
+22 value='panelType'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='removePanels'
+27 arguments
+28 argument (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getTabbedFull'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='panels'
+34 statement (SwitchStmt)
+35 selector (NameExpr)
+36 name (SimpleName)
+37 identifier='panelType'
+38 entries
+39 entrie (SwitchEntryStmt)
+40 label (NameExpr)
+41 name (SimpleName)
+42 identifier='SELECT'
+43 statements
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='removePanels'
+48 arguments
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getTabbedSelect'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='panels'
+55 statement (BreakStmt)
+56 entrie (SwitchEntryStmt)
+57 label (NameExpr)
+58 name (SimpleName)
+59 identifier='STATUS'
+60 statements
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='removePanels'
+65 arguments
+66 argument (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='getTabbedStatus'
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='panels'
+72 statement (BreakStmt)
+73 entrie (SwitchEntryStmt)
+74 label (NameExpr)
+75 name (SimpleName)
+76 identifier='WORK'
+77 statements
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='removePanels'
+82 arguments
+83 argument (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getTabbedWork'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='panels'
+89 statement (BreakStmt)
+90 entrie (SwitchEntryStmt)
+91 statements
+92 statement (BreakStmt)
+93 type (VoidType)
+94 name (SimpleName)
+95 identifier='removePanels'
+96 parameters
+97 parameter (Parameter)
+98 isVarArgs='false'
+99 name (SimpleName)
+100 identifier='panels'
+101 type (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='List'
+104 typeArguments
+105 typeArgument (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='AbstractPanel'
+108 parameter (Parameter)
+109 isVarArgs='false'
+110 name (SimpleName)
+111 identifier='panelType'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='PanelType'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+17 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+43 55
+38 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+60 72
+38 73
+73 74
+74 75
+75 76
+73 77
+77 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+82 86
+86 87
+87 88
+77 89
+38 90
+90 91
+91 92
+0 93
+0 94
+94 95
+0 96
+96 97
+97 98
+97 99
+99 100
+97 101
+101 102
+102 103
+101 104
+104 105
+105 106
+106 107
+96 108
+108 109
+108 110
+110 111
+108 112
+112 113
+113 114
+
+Removes the given panels of given panel type from the workbench panel.

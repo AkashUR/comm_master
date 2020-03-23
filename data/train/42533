@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='treeStructureChanged'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='e'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='TreeModelEvent'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+
+<p>Invoked after the tree has drastically changed structure from a given node down.  If the path returned by e.getPath() is of length one and the first element does not identify the current root node the first element should become the new root of the tree.<p> <p>Use <code>e.getPath()</code> to get the path to the node. <code>e.getChildIndices()</code> returns null.</p>

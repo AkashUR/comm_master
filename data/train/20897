@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='d'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Log'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='TAG'
+14 argument (StringLiteralExpr)
+15 value='onPermissionsSatisfied()'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='mPermissionsSatisfied'
+22 value (BooleanLiteralExpr)
+23 value='true'
+24 type (VoidType)
+25 name (SimpleName)
+26 identifier='onPermissionsSatisfied'
+27 annotations
+28 annotation (MarkerAnnotationExpr)
+29 name (Name)
+30 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+0 24
+0 25
+25 26
+0 27
+27 28
+28 29
+29 30
+
+Things are good to go and we can continue on as normal. If this is called after a user sees a dialog, then onResume will be called next, allowing the app to continue as normal.

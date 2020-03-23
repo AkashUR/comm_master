@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertEquals'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='US-ASCII'
+10 argument (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getInputEncoding'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='documentA'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='assertEquals'
+20 arguments
+21 argument (StringLiteralExpr)
+22 value='ISO-8859-1'
+23 argument (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getInputEncoding'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='documentB'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='testGetInputEncoding'
+32 thrownExceptions
+33 thrownException (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+34 35
+
+XML parsers are advised of the document's character set via two channels: via the declaration and also the document's input source. To test that each of these winds up in the correct location in the document model, we supply different names for each. This is only safe because for the subset of characters in the document, the character sets are equivalent.

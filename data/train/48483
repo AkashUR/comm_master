@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForeachStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (VariableDeclarationExpr)
+8 variables
+9 variable (VariableDeclarator)
+10 initializer (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getRDD'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='rddHolder'
+16 name (SimpleName)
+17 identifier='rdd'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='JavaRDDLike'
+21 typeArguments
+22 typeArgument (WildcardType)
+23 typeArgument (WildcardType)
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='cache'
+28 scope (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='rdd'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='rdd'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='count'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='rdd'
+41 iterable (NameExpr)
+42 name (SimpleName)
+43 identifier='leafRdds'
+44 variable (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 name (SimpleName)
+48 identifier='rddHolder'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='RDDHolder'
+52 typeArguments
+53 typeArgument (WildcardType)
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='computeOutputs'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+9 16
+16 17
+9 18
+18 19
+19 20
+18 21
+21 22
+21 23
+5 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+5 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+3 41
+41 42
+42 43
+3 44
+44 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+0 54
+0 55
+55 56
+
+Computes the outputs for all RDDs that are leaves in the DAG and do not have any actions (like saving to a file) registered on them (i.e. they are performed for side effects).

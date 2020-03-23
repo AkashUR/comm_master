@@ -1,0 +1,302 @@
+150
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createStatement'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='con'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='TYPE_SCROLL_INSENSITIVE'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='ResultSet'
+20 argument (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='CONCUR_READ_ONLY'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='ResultSet'
+26 name (SimpleName)
+27 identifier='stmt'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Statement'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='executeQuery'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='stmt'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='SELECT * FROM master.dbo.sysdatabases'
+44 name (SimpleName)
+45 identifier='rs'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='ResultSet'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='assertNotNull'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='rs'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getMetaData'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='rs'
+67 name (SimpleName)
+68 identifier='rsmd'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='ResultSetMetaData'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='assertEquals'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='Assert'
+79 arguments
+80 argument (StringLiteralExpr)
+81 value='master'
+82 argument (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='getCatalogName'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='rsmd'
+88 arguments
+89 argument (IntegerLiteralExpr)
+90 value='1'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='assertEquals'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='Assert'
+98 arguments
+99 argument (StringLiteralExpr)
+100 value='dbo'
+101 argument (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='getSchemaName'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='rsmd'
+107 arguments
+108 argument (IntegerLiteralExpr)
+109 value='1'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='assertEquals'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='Assert'
+117 arguments
+118 argument (StringLiteralExpr)
+119 value='sysdatabases'
+120 argument (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='getTableName'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='rsmd'
+126 arguments
+127 argument (IntegerLiteralExpr)
+128 value='1'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='close'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='stmt'
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='close'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='rs'
+143 type (VoidType)
+144 name (SimpleName)
+145 identifier='testTableMetaData'
+146 thrownExceptions
+147 thrownException (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+20 23
+23 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+34 44
+44 45
+34 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+60 67
+67 68
+60 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+98 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+117 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+2 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+0 143
+0 144
+144 145
+0 146
+146 147
+147 148
+148 149
+
+Test for bug [1023984] Protocol error processing table meta data. <p> Test to demonstrate failure to process the TDS table name token correctly. Must be run with TDS=8.0.

@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='emitLFD'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='asm'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='reg'
+14 argument (BinaryExpr)
+15 operator='MINUS'
+16 left (BinaryExpr)
+17 operator='PLUS'
+18 left (NameExpr)
+19 name (SimpleName)
+20 identifier='spTopOffset'
+21 right (BinaryExpr)
+22 operator='MULTIPLY'
+23 left (IntegerLiteralExpr)
+24 value='2'
+25 right (NameExpr)
+26 name (SimpleName)
+27 identifier='BYTES_IN_STACKSLOT'
+28 right (NameExpr)
+29 name (SimpleName)
+30 identifier='BYTES_IN_DOUBLE'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='FP'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='discardSlots'
+38 arguments
+39 argument (IntegerLiteralExpr)
+40 value='2'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='popDouble'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='reg'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='FPR'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+14 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+14 28
+28 29
+29 30
+10 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+
+Emit the code to pop a double value from the expression stack into the register 'reg'.

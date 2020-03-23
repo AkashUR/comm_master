@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='activeAddress'
+9 value (CastExpr)
+10 expression (NameExpr)
+11 name (SimpleName)
+12 identifier='address'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='DccLocoAddress'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='debug'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='log'
+23 arguments
+24 argument (BinaryExpr)
+25 operator='PLUS'
+26 left (StringLiteralExpr)
+27 value='new Pr2Throttle for '
+28 right (NameExpr)
+29 name (SimpleName)
+30 identifier='activeAddress'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='notifyThrottleKnown'
+35 arguments
+36 argument (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Pr2Throttle'
+40 arguments
+41 argument (CastExpr)
+42 expression (NameExpr)
+43 name (SimpleName)
+44 identifier='adapterMemo'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='LocoNetSystemConnectionMemo'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='activeAddress'
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='activeAddress'
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='requestThrottleSetup'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='address'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='LocoAddress'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='control'
+69 type (PrimitiveType)
+70 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+40 48
+48 49
+49 50
+35 51
+51 52
+52 53
+0 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+57 65
+65 66
+65 67
+67 68
+65 69
+69 70
+
+Get a new Throttle object. This immediately invokes the callback with the a new throttle object.

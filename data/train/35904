@@ -1,0 +1,530 @@
+264
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getAdapterLinkFromURI'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='patchUri'
+14 name (SimpleName)
+15 identifier='statsAdapterLink'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='String'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getLastCollectionMetricKeyForAdapterLink'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='statsAdapterLink'
+30 argument (BooleanLiteralExpr)
+31 value='false'
+32 name (SimpleName)
+33 identifier='lastSuccessfulRunMetricKey'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='String'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getMetricKey'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='StatsUtil'
+47 arguments
+48 argument (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='computeLink'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='currentState'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='lastSuccessfulRunMetricKey'
+57 name (SimpleName)
+58 identifier='metricSelfLink'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+62 statement (ExpressionStmt)
+63 expression (VariableDeclarationExpr)
+64 variables
+65 variable (VariableDeclarator)
+66 initializer (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='create'
+69 scope (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='Builder'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='Query'
+75 name (SimpleName)
+76 identifier='builder'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Builder'
+80 scope (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Query'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='addKindFieldClause'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='builder'
+90 arguments
+91 argument (ClassExpr)
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='ResourceMetric'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='addFieldClause'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='builder'
+102 arguments
+103 argument (FieldAccessExpr)
+104 name (SimpleName)
+105 identifier='FIELD_NAME_SELF_LINK'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='ServiceDocument'
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='buildUriPath'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='UriUtils'
+115 arguments
+116 argument (FieldAccessExpr)
+117 name (SimpleName)
+118 identifier='FACTORY_LINK'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='ResourceMetricService'
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='metricSelfLink'
+125 statement (ExpressionStmt)
+126 expression (VariableDeclarationExpr)
+127 variables
+128 variable (VariableDeclarator)
+129 initializer (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='build'
+132 scope (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='setQuery'
+135 scope (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='addOption'
+138 scope (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='addOption'
+141 scope (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='createDirectTask'
+144 scope (FieldAccessExpr)
+145 name (SimpleName)
+146 identifier='Builder'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='QueryTask'
+150 arguments
+151 argument (FieldAccessExpr)
+152 name (SimpleName)
+153 identifier='BROADCAST'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='QueryOption'
+157 arguments
+158 argument (FieldAccessExpr)
+159 name (SimpleName)
+160 identifier='EXPAND_CONTENT'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='QueryOption'
+164 arguments
+165 argument (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='build'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='builder'
+171 name (SimpleName)
+172 identifier='task'
+173 type (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='QueryTask'
+176 statement (ExpressionStmt)
+177 expression (AssignExpr)
+178 operator='ASSIGN'
+179 target (FieldAccessExpr)
+180 name (SimpleName)
+181 identifier='tenantLinks'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='task'
+185 value (NameExpr)
+186 name (SimpleName)
+187 identifier='tenantLinks'
+188 statement (ExpressionStmt)
+189 expression (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='sendWith'
+192 scope (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='setCompletion'
+195 scope (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='setConnectionSharing'
+198 scope (MethodCallExpr)
+199 name (SimpleName)
+200 identifier='setBody'
+201 scope (MethodCallExpr)
+202 name (SimpleName)
+203 identifier='createPost'
+204 scope (NameExpr)
+205 name (SimpleName)
+206 identifier='Operation'
+207 arguments
+208 argument (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='getHost'
+211 argument (FieldAccessExpr)
+212 name (SimpleName)
+213 identifier='CORE_QUERY_TASKS'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='ServiceUriPaths'
+217 arguments
+218 argument (NameExpr)
+219 name (SimpleName)
+220 identifier='task'
+221 arguments
+222 argument (BooleanLiteralExpr)
+223 value='true'
+224 arguments
+225 argument (NullLiteralExpr)
+226 arguments
+227 argument (ThisExpr)
+228 type (VoidType)
+229 name (SimpleName)
+230 identifier='populateLastCollectionTimeFromPersistenceStore'
+231 parameters
+232 parameter (Parameter)
+233 isVarArgs='false'
+234 name (SimpleName)
+235 identifier='currentState'
+236 type (ClassOrInterfaceType)
+237 name (SimpleName)
+238 identifier='SingleResourceStatsCollectionTaskState'
+239 parameter (Parameter)
+240 isVarArgs='false'
+241 name (SimpleName)
+242 identifier='computeStatsRequest'
+243 type (ClassOrInterfaceType)
+244 name (SimpleName)
+245 identifier='ComputeStatsRequest'
+246 parameter (Parameter)
+247 isVarArgs='false'
+248 name (SimpleName)
+249 identifier='patchUri'
+250 type (ClassOrInterfaceType)
+251 name (SimpleName)
+252 identifier='URI'
+253 parameter (Parameter)
+254 isVarArgs='false'
+255 name (SimpleName)
+256 identifier='tenantLinks'
+257 type (ClassOrInterfaceType)
+258 name (SimpleName)
+259 identifier='List'
+260 typeArguments
+261 typeArgument (ClassOrInterfaceType)
+262 name (SimpleName)
+263 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+26 30
+30 31
+22 32
+32 33
+22 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+47 54
+54 55
+55 56
+40 57
+57 58
+40 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+73 74
+65 75
+75 76
+65 77
+77 78
+78 79
+77 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+84 90
+90 91
+91 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+102 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+115 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+132 135
+135 136
+136 137
+135 138
+138 139
+139 140
+138 141
+141 142
+142 143
+141 144
+144 145
+145 146
+144 147
+147 148
+148 149
+138 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+135 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+132 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+128 171
+171 172
+128 173
+173 174
+174 175
+2 176
+176 177
+177 178
+177 179
+179 180
+180 181
+179 182
+182 183
+183 184
+177 185
+185 186
+186 187
+2 188
+188 189
+189 190
+190 191
+189 192
+192 193
+193 194
+192 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+202 203
+201 204
+204 205
+205 206
+201 207
+207 208
+208 209
+209 210
+207 211
+211 212
+212 213
+211 214
+214 215
+215 216
+198 217
+217 218
+218 219
+219 220
+195 221
+221 222
+222 223
+192 224
+224 225
+189 226
+226 227
+0 228
+0 229
+229 230
+0 231
+231 232
+232 233
+232 234
+234 235
+232 236
+236 237
+237 238
+231 239
+239 240
+239 241
+241 242
+239 243
+243 244
+244 245
+231 246
+246 247
+246 248
+248 249
+246 250
+250 251
+251 252
+231 253
+253 254
+253 255
+255 256
+253 257
+257 258
+258 259
+257 260
+260 261
+261 262
+262 263
+
+Queries the metric for the last successful run and sets that value in the compute stats request. This value is used to determine the window size for which the stats collection happens from the provider.

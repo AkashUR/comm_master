@@ -1,0 +1,260 @@
+129
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertNotNull'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='operand'
+11 statement (ExpressionStmt)
+12 expression (VariableDeclarationExpr)
+13 variables
+14 variable (VariableDeclarator)
+15 initializer (ConditionalExpr)
+16 condition (NameExpr)
+17 name (SimpleName)
+18 identifier='postFix'
+19 elseExpr (NameExpr)
+20 name (SimpleName)
+21 identifier='operatorPosition'
+22 thenExpr (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getPosition'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='operand'
+28 name (SimpleName)
+29 identifier='beg'
+30 type (PrimitiveType)
+31 type='INT'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (ConditionalExpr)
+37 condition (NameExpr)
+38 name (SimpleName)
+39 identifier='postFix'
+40 elseExpr (BinaryExpr)
+41 operator='PLUS'
+42 left (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getPosition'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='operand'
+48 right (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getLength'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='operand'
+54 thenExpr (BinaryExpr)
+55 operator='PLUS'
+56 left (NameExpr)
+57 name (SimpleName)
+58 identifier='operatorPosition'
+59 right (IntegerLiteralExpr)
+60 value='2'
+61 name (SimpleName)
+62 identifier='end'
+63 type (PrimitiveType)
+64 type='INT'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='setBounds'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='beg'
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='end'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='setOperator'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='operator'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='setOperand'
+88 arguments
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='operand'
+92 statement (ExpressionStmt)
+93 expression (AssignExpr)
+94 operator='ASSIGN'
+95 target (NameExpr)
+96 name (SimpleName)
+97 identifier='isPostfix'
+98 value (NameExpr)
+99 name (SimpleName)
+100 identifier='postFix'
+101 name (SimpleName)
+102 identifier='UnaryExpression'
+103 parameters
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='operator'
+108 type (PrimitiveType)
+109 type='INT'
+110 parameter (Parameter)
+111 isVarArgs='false'
+112 name (SimpleName)
+113 identifier='operatorPosition'
+114 type (PrimitiveType)
+115 type='INT'
+116 parameter (Parameter)
+117 isVarArgs='false'
+118 name (SimpleName)
+119 identifier='operand'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='AstNode'
+123 parameter (Parameter)
+124 isVarArgs='false'
+125 name (SimpleName)
+126 identifier='postFix'
+127 type (PrimitiveType)
+128 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+15 22
+22 23
+23 24
+22 25
+25 26
+26 27
+14 28
+28 29
+14 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+36 40
+40 41
+40 42
+42 43
+43 44
+42 45
+45 46
+46 47
+40 48
+48 49
+49 50
+48 51
+51 52
+52 53
+36 54
+54 55
+54 56
+56 57
+57 58
+54 59
+59 60
+35 61
+61 62
+35 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+69 73
+73 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+90 91
+2 92
+92 93
+93 94
+93 95
+95 96
+96 97
+93 98
+98 99
+99 100
+0 101
+101 102
+0 103
+103 104
+104 105
+104 106
+106 107
+104 108
+108 109
+103 110
+110 111
+110 112
+112 113
+110 114
+114 115
+103 116
+116 117
+116 118
+118 119
+116 120
+120 121
+121 122
+103 123
+123 124
+123 125
+125 126
+123 127
+127 128
+
+Constructs a new UnaryExpression with the specified operator and operand.  It sets the parent of the operand, and sets its own bounds to encompass the operator and operand.

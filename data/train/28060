@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setFetchTime'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='page'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='currentTimeMillis'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='System'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='setFetchInterval'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='page'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='defaultInterval'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='setRetriesSinceFetch'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='page'
+35 arguments
+36 argument (IntegerLiteralExpr)
+37 value='0'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='initializeSchedule'
+41 parameters
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='url'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='String'
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='page'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='WebPage'
+56 annotations
+57 annotation (MarkerAnnotationExpr)
+58 name (Name)
+59 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+41 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+0 56
+56 57
+57 58
+58 59
+
+Initialize fetch schedule related data. Implementations should at least set the <code>fetchTime</code> and <code>fetchInterval</code>. The default implementation sets the <code>fetchTime</code> to now, using the default <code>fetchInterval</code>.

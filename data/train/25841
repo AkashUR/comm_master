@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='PersianAnalyzer'
+11 name (SimpleName)
+12 identifier='a'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Analyzer'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='assertAnalyzesTo'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='a'
+24 argument (StringLiteralExpr)
+25 value='English test.'
+26 argument (ArrayCreationExpr)
+27 elementType (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='String'
+30 initializer (ArrayInitializerExpr)
+31 values
+32 value (StringLiteralExpr)
+33 value='english'
+34 value (StringLiteralExpr)
+35 value='test'
+36 levels
+37 level (ArrayCreationLevel)
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='close'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='a'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='testBehaviorNonPersian'
+48 thrownExceptions
+49 thrownException (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+20 24
+24 25
+20 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+31 34
+34 35
+26 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+50 51
+
+Test showing that non-persian text is treated very much like SimpleAnalyzer (lowercased, etc)

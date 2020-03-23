@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='fEntries'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='RefactoringStatusEntry'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='severity'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='msg'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='context'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='pluginId'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='code'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='data'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='fSeverity'
+40 value (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='max'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='Math'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='fSeverity'
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='severity'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='addEntry'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='severity'
+61 type (PrimitiveType)
+62 type='INT'
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='msg'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='String'
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='context'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='RefactoringStatusContext'
+77 parameter (Parameter)
+78 isVarArgs='false'
+79 name (SimpleName)
+80 identifier='pluginId'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='String'
+84 parameter (Parameter)
+85 isVarArgs='false'
+86 name (SimpleName)
+87 identifier='code'
+88 type (PrimitiveType)
+89 type='INT'
+90 parameter (Parameter)
+91 isVarArgs='false'
+92 name (SimpleName)
+93 identifier='data'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+15 22
+22 23
+23 24
+15 25
+25 26
+26 27
+15 28
+28 29
+29 30
+15 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+46 50
+50 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+56 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+56 70
+70 71
+70 72
+72 73
+70 74
+74 75
+75 76
+56 77
+77 78
+77 79
+79 80
+77 81
+81 82
+82 83
+56 84
+84 85
+84 86
+86 87
+84 88
+88 89
+56 90
+90 91
+90 92
+92 93
+90 94
+94 95
+95 96
+
+Adds a new entry filled with the given arguments to this status. The severity of this status is set to the maximum of <code>fSeverity</code> and <code>severity</code>.

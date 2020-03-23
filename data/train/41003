@@ -1,0 +1,396 @@
+197
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='IndexWriter'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='dir'
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='newIndexWriterConfig'
+30 arguments
+31 argument (NullLiteralExpr)
+32 name (SimpleName)
+33 identifier='iw'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='IndexWriter'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='addDocument'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='iw'
+44 arguments
+45 argument (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Document'
+49 statement (ExpressionStmt)
+50 expression (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 initializer (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='open'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='DirectoryReader'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='iw'
+63 name (SimpleName)
+64 identifier='dr'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='DirectoryReader'
+68 statement (ExpressionStmt)
+69 expression (VariableDeclarationExpr)
+70 variables
+71 variable (VariableDeclarator)
+72 initializer (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getOnlyLeafReader'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='dr'
+79 name (SimpleName)
+80 identifier='r'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='LeafReader'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='assertNotNull'
+88 arguments
+89 argument (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='getBinary'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='DocValues'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='r'
+99 argument (StringLiteralExpr)
+100 value='bogus'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='assertNotNull'
+105 arguments
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='getNumeric'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='DocValues'
+112 arguments
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='r'
+116 argument (StringLiteralExpr)
+117 value='bogus'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='assertNotNull'
+122 arguments
+123 argument (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='getSorted'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='DocValues'
+129 arguments
+130 argument (NameExpr)
+131 name (SimpleName)
+132 identifier='r'
+133 argument (StringLiteralExpr)
+134 value='bogus'
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='assertNotNull'
+139 arguments
+140 argument (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='getSortedSet'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='DocValues'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='r'
+150 argument (StringLiteralExpr)
+151 value='bogus'
+152 statement (ExpressionStmt)
+153 expression (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='assertNotNull'
+156 arguments
+157 argument (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='getSortedNumeric'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='DocValues'
+163 arguments
+164 argument (NameExpr)
+165 name (SimpleName)
+166 identifier='r'
+167 argument (StringLiteralExpr)
+168 value='bogus'
+169 statement (ExpressionStmt)
+170 expression (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='close'
+173 scope (NameExpr)
+174 name (SimpleName)
+175 identifier='dr'
+176 statement (ExpressionStmt)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='close'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='iw'
+183 statement (ExpressionStmt)
+184 expression (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='close'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='dir'
+190 type (VoidType)
+191 name (SimpleName)
+192 identifier='testEmptyIndex'
+193 thrownExceptions
+194 thrownException (ClassOrInterfaceType)
+195 name (SimpleName)
+196 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+27 30
+30 31
+18 32
+32 33
+18 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+52 63
+63 64
+52 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+71 79
+79 80
+71 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+95 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+114 115
+112 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+131 132
+129 133
+133 134
+2 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+146 150
+150 151
+2 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+157 163
+163 164
+164 165
+165 166
+163 167
+167 168
+2 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+2 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+2 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+0 190
+0 191
+191 192
+0 193
+193 194
+194 195
+195 196
+
+If the field doesn't exist, we return empty instances: it can easily happen that a segment just doesn't have any docs with the field.

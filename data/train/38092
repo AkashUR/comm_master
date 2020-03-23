@@ -1,0 +1,166 @@
+82
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addDeployable'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='configuration'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='WAR'
+15 arguments
+16 argument (StringLiteralExpr)
+17 value='my.war'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='configure'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='configuration'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='container'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='readTextFile'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getFileHandler'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='configuration'
+42 arguments
+43 argument (BinaryExpr)
+44 operator='PLUS'
+45 left (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getHome'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='configuration'
+51 right (StringLiteralExpr)
+52 value='/config.xml'
+53 argument (StringLiteralExpr)
+54 value='UTF-8'
+55 name (SimpleName)
+56 identifier='config'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='assertXpathEvaluatesTo'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='XMLAssert'
+67 arguments
+68 argument (StringLiteralExpr)
+69 value='my.war'
+70 argument (StringLiteralExpr)
+71 value='//WebAppComponent/@URI'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='config'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='testDoConfigureCreatesWar'
+78 thrownExceptions
+79 thrownException (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+33 42
+42 43
+43 44
+43 45
+45 46
+46 47
+45 48
+48 49
+49 50
+43 51
+51 52
+42 53
+53 54
+32 55
+55 56
+32 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+67 70
+70 71
+67 72
+72 73
+73 74
+0 75
+0 76
+76 77
+0 78
+78 79
+79 80
+80 81
+
+Test WAR creation.

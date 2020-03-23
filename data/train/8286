@@ -1,0 +1,566 @@
+282
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (StringLiteralExpr)
+18 value='<weblogic-web-app>'
+19 right (StringLiteralExpr)
+20 value='  <reference-descriptor>'
+21 right (StringLiteralExpr)
+22 value='    <resource-description/>'
+23 right (StringLiteralExpr)
+24 value='    <resource-env-description/>'
+25 right (StringLiteralExpr)
+26 value='  </reference-descriptor>'
+27 right (StringLiteralExpr)
+28 value='</weblogic-web-app>'
+29 name (SimpleName)
+30 identifier='xml'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+34 statement (ExpressionStmt)
+35 expression (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 initializer (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='parseWeblogicXml'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='WeblogicXmlIo'
+44 arguments
+45 argument (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='ByteArrayInputStream'
+49 arguments
+50 argument (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='getBytes'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='xml'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='UTF-8'
+59 name (SimpleName)
+60 identifier='descr'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='WeblogicXml'
+64 statement (ExpressionStmt)
+65 expression (VariableDeclarationExpr)
+66 variables
+67 variable (VariableDeclarator)
+68 initializer (ObjectCreationExpr)
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='EjbRef'
+72 name (SimpleName)
+73 identifier='ref'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='EjbRef'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='setName'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='ref'
+84 arguments
+85 argument (StringLiteralExpr)
+86 value='foo'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='setJndiName'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='ref'
+94 arguments
+95 argument (StringLiteralExpr)
+96 value='fee'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='addEjbReference'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='descr'
+104 arguments
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='ref'
+108 statement (ExpressionStmt)
+109 expression (VariableDeclarationExpr)
+110 variables
+111 variable (VariableDeclarator)
+112 initializer (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getChildren'
+115 scope (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='getRootElement'
+118 scope (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='getDocument'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='descr'
+124 arguments
+125 argument (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='REFERENCE_DESCRIPTOR'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='WeblogicXmlTag'
+131 name (SimpleName)
+132 identifier='nl'
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='List'
+136 typeArguments
+137 typeArgument (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='Element'
+140 statement (ExpressionStmt)
+141 expression (VariableDeclarationExpr)
+142 variables
+143 variable (VariableDeclarator)
+144 initializer (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='get'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='nl'
+150 arguments
+151 argument (IntegerLiteralExpr)
+152 value='0'
+153 name (SimpleName)
+154 identifier='n'
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='Element'
+158 statement (ExpressionStmt)
+159 expression (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='assertEquals'
+162 arguments
+163 argument (StringLiteralExpr)
+164 value='reference-descriptor'
+165 argument (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='getName'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='n'
+171 statement (ExpressionStmt)
+172 expression (VariableDeclarationExpr)
+173 variables
+174 variable (VariableDeclarator)
+175 initializer (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='getAllElements'
+178 arguments
+179 argument (NameExpr)
+180 name (SimpleName)
+181 identifier='n'
+182 name (SimpleName)
+183 identifier='elements'
+184 type (ClassOrInterfaceType)
+185 name (SimpleName)
+186 identifier='List'
+187 typeArguments
+188 typeArgument (ClassOrInterfaceType)
+189 name (SimpleName)
+190 identifier='Element'
+191 statement (ExpressionStmt)
+192 expression (AssignExpr)
+193 operator='ASSIGN'
+194 target (NameExpr)
+195 name (SimpleName)
+196 identifier='n'
+197 value (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='get'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='elements'
+203 arguments
+204 argument (IntegerLiteralExpr)
+205 value='0'
+206 statement (ExpressionStmt)
+207 expression (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='assertEquals'
+210 arguments
+211 argument (StringLiteralExpr)
+212 value='resource-description'
+213 argument (MethodCallExpr)
+214 name (SimpleName)
+215 identifier='getName'
+216 scope (NameExpr)
+217 name (SimpleName)
+218 identifier='n'
+219 statement (ExpressionStmt)
+220 expression (AssignExpr)
+221 operator='ASSIGN'
+222 target (NameExpr)
+223 name (SimpleName)
+224 identifier='n'
+225 value (MethodCallExpr)
+226 name (SimpleName)
+227 identifier='get'
+228 scope (NameExpr)
+229 name (SimpleName)
+230 identifier='elements'
+231 arguments
+232 argument (IntegerLiteralExpr)
+233 value='1'
+234 statement (ExpressionStmt)
+235 expression (MethodCallExpr)
+236 name (SimpleName)
+237 identifier='assertEquals'
+238 arguments
+239 argument (StringLiteralExpr)
+240 value='resource-env-description'
+241 argument (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='getName'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='n'
+247 statement (ExpressionStmt)
+248 expression (AssignExpr)
+249 operator='ASSIGN'
+250 target (NameExpr)
+251 name (SimpleName)
+252 identifier='n'
+253 value (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='get'
+256 scope (NameExpr)
+257 name (SimpleName)
+258 identifier='elements'
+259 arguments
+260 argument (IntegerLiteralExpr)
+261 value='2'
+262 statement (ExpressionStmt)
+263 expression (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='assertEquals'
+266 arguments
+267 argument (StringLiteralExpr)
+268 value='ejb-reference-description'
+269 argument (MethodCallExpr)
+270 name (SimpleName)
+271 identifier='getName'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='n'
+275 type (VoidType)
+276 name (SimpleName)
+277 identifier='testAddEjbReferenceDescriptionWhenOtherDescriptionsExists'
+278 thrownExceptions
+279 thrownException (ClassOrInterfaceType)
+280 name (SimpleName)
+281 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+15 19
+19 20
+13 21
+21 22
+11 23
+23 24
+9 25
+25 26
+7 27
+27 28
+6 29
+29 30
+6 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+37 59
+59 60
+37 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+67 72
+72 73
+67 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+106 107
+2 108
+108 109
+109 110
+110 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+122 123
+112 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+111 131
+131 132
+111 133
+133 134
+134 135
+133 136
+136 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+143 153
+153 154
+143 155
+155 156
+156 157
+2 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+162 165
+165 166
+166 167
+165 168
+168 169
+169 170
+2 171
+171 172
+172 173
+173 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+180 181
+174 182
+182 183
+174 184
+184 185
+185 186
+184 187
+187 188
+188 189
+189 190
+2 191
+191 192
+192 193
+192 194
+194 195
+195 196
+192 197
+197 198
+198 199
+197 200
+200 201
+201 202
+197 203
+203 204
+204 205
+2 206
+206 207
+207 208
+208 209
+207 210
+210 211
+211 212
+210 213
+213 214
+214 215
+213 216
+216 217
+217 218
+2 219
+219 220
+220 221
+220 222
+222 223
+223 224
+220 225
+225 226
+226 227
+225 228
+228 229
+229 230
+225 231
+231 232
+232 233
+2 234
+234 235
+235 236
+236 237
+235 238
+238 239
+239 240
+238 241
+241 242
+242 243
+241 244
+244 245
+245 246
+2 247
+247 248
+248 249
+248 250
+250 251
+251 252
+248 253
+253 254
+254 255
+253 256
+256 257
+257 258
+253 259
+259 260
+260 261
+2 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+266 269
+269 270
+270 271
+269 272
+272 273
+273 274
+0 275
+0 276
+276 277
+0 278
+278 279
+279 280
+280 281
+
+Tests that a ejb reference description can be added

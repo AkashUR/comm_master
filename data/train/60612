@@ -1,0 +1,414 @@
+206
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (BinaryExpr)
+18 operator='PLUS'
+19 left (NameExpr)
+20 name (SimpleName)
+21 identifier='WEBAPP_TEST_HEADER'
+22 right (StringLiteralExpr)
+23 value=''
+24 right (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='trim'
+27 scope (StringLiteralExpr)
+28 value='  <servlet>'
+29 right (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='trim'
+32 scope (StringLiteralExpr)
+33 value='    <servlet-name>s1</servlet-name>'
+34 right (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='trim'
+37 scope (StringLiteralExpr)
+38 value='    <servlet-class>s1class</servlet-class>'
+39 right (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='trim'
+42 scope (StringLiteralExpr)
+43 value='  </servlet>'
+44 right (StringLiteralExpr)
+45 value='</web-app>'
+46 name (SimpleName)
+47 identifier='xml'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='build'
+55 scope (FieldAccessExpr)
+56 name (SimpleName)
+57 identifier='builder'
+58 scope (ThisExpr)
+59 arguments
+60 argument (ObjectCreationExpr)
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='ByteArrayInputStream'
+64 arguments
+65 argument (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getBytes'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='xml'
+71 arguments
+72 argument (StringLiteralExpr)
+73 value='UTF-8'
+74 statement (ExpressionStmt)
+75 expression (VariableDeclarationExpr)
+76 variables
+77 variable (VariableDeclarator)
+78 initializer (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='parseWebXml'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='WebXmlIo'
+84 arguments
+85 argument (ObjectCreationExpr)
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='ByteArrayInputStream'
+89 arguments
+90 argument (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='getBytes'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='xml'
+96 arguments
+97 argument (StringLiteralExpr)
+98 value='UTF-8'
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getEntityResolver'
+102 name (SimpleName)
+103 identifier='webXml'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='WebXml'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='addTag'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='webXml'
+114 arguments
+115 argument (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='createFilterElement'
+118 arguments
+119 argument (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='getDescriptorType'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='webXml'
+125 argument (StringLiteralExpr)
+126 value='f1'
+127 argument (StringLiteralExpr)
+128 value='f1class'
+129 statement (ExpressionStmt)
+130 expression (VariableDeclarationExpr)
+131 variables
+132 variable (VariableDeclarator)
+133 initializer (MethodCallExpr)
+134 name (SimpleName)
+135 identifier='getChildren'
+136 scope (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='getRootElement'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='webXml'
+142 name (SimpleName)
+143 identifier='order'
+144 type (ClassOrInterfaceType)
+145 name (SimpleName)
+146 identifier='List'
+147 typeArguments
+148 typeArgument (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='Content'
+151 statement (ExpressionStmt)
+152 expression (MethodCallExpr)
+153 name (SimpleName)
+154 identifier='assertEquals'
+155 arguments
+156 argument (StringLiteralExpr)
+157 value='filter'
+158 argument (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='getName'
+161 scope (EnclosedExpr)
+162 inner (CastExpr)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='get'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='order'
+169 arguments
+170 argument (IntegerLiteralExpr)
+171 value='0'
+172 type (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='Element'
+175 statement (ExpressionStmt)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='assertEquals'
+179 arguments
+180 argument (StringLiteralExpr)
+181 value='servlet'
+182 argument (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='getName'
+185 scope (EnclosedExpr)
+186 inner (CastExpr)
+187 expression (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='get'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='order'
+193 arguments
+194 argument (IntegerLiteralExpr)
+195 value='1'
+196 type (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='Element'
+199 type (VoidType)
+200 name (SimpleName)
+201 identifier='testElementOrderFilterBeforeServlet'
+202 thrownExceptions
+203 thrownException (ClassOrInterfaceType)
+204 name (SimpleName)
+205 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+15 24
+24 25
+25 26
+24 27
+27 28
+13 29
+29 30
+30 31
+29 32
+32 33
+11 34
+34 35
+35 36
+34 37
+37 38
+9 39
+39 40
+40 41
+39 42
+42 43
+7 44
+44 45
+6 46
+46 47
+6 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+55 58
+52 59
+59 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+87 88
+85 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+84 99
+99 100
+100 101
+77 102
+102 103
+77 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+118 125
+125 126
+118 127
+127 128
+2 129
+129 130
+130 131
+131 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+136 139
+139 140
+140 141
+132 142
+142 143
+132 144
+144 145
+145 146
+144 147
+147 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+152 155
+155 156
+156 157
+155 158
+158 159
+159 160
+158 161
+161 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+163 169
+169 170
+170 171
+162 172
+172 173
+173 174
+2 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+179 182
+182 183
+183 184
+182 185
+185 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+187 193
+193 194
+194 195
+186 196
+196 197
+197 198
+0 199
+0 200
+200 201
+0 202
+202 203
+203 204
+204 205
+
+Tests whether a filter is inserted before a servlet element.

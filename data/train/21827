@@ -1,0 +1,742 @@
+370
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setLayout'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='connectPanel'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='CardLayout'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (ArrayAccessExpr)
+19 index (IntegerLiteralExpr)
+20 value='0'
+21 name (NameExpr)
+22 name (SimpleName)
+23 identifier='connectorPanels'
+24 value (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='AllToAllPanel'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='allToAll'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='networkPanel'
+35 statement (ExpressionStmt)
+36 expression (AssignExpr)
+37 operator='ASSIGN'
+38 target (ArrayAccessExpr)
+39 index (IntegerLiteralExpr)
+40 value='1'
+41 name (NameExpr)
+42 name (SimpleName)
+43 identifier='connectorPanels'
+44 value (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='OneToOnePanel'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='oneToOne'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (ArrayAccessExpr)
+56 index (IntegerLiteralExpr)
+57 value='2'
+58 name (NameExpr)
+59 name (SimpleName)
+60 identifier='connectorPanels'
+61 value (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='createSparsityAdjustmentPanel'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='SparseConnectionPanel'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='sparse'
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='networkPanel'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='add'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='connectPanel'
+81 arguments
+82 argument (ArrayAccessExpr)
+83 index (IntegerLiteralExpr)
+84 value='0'
+85 name (NameExpr)
+86 name (SimpleName)
+87 identifier='connectorPanels'
+88 argument (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='getName'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='AllToAll'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='add'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='connectPanel'
+101 arguments
+102 argument (ArrayAccessExpr)
+103 index (IntegerLiteralExpr)
+104 value='1'
+105 name (NameExpr)
+106 name (SimpleName)
+107 identifier='connectorPanels'
+108 argument (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='getName'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='OneToOne'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='add'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='connectPanel'
+121 arguments
+122 argument (ArrayAccessExpr)
+123 index (IntegerLiteralExpr)
+124 value='2'
+125 name (NameExpr)
+126 name (SimpleName)
+127 identifier='connectorPanels'
+128 argument (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='getName'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='Sparse'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='show'
+138 scope (EnclosedExpr)
+139 inner (CastExpr)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='getLayout'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='connectPanel'
+146 type (ClassOrInterfaceType)
+147 name (SimpleName)
+148 identifier='CardLayout'
+149 arguments
+150 argument (NameExpr)
+151 name (SimpleName)
+152 identifier='connectPanel'
+153 argument (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='getName'
+156 scope (NameExpr)
+157 name (SimpleName)
+158 identifier='AllToAll'
+159 statement (ExpressionStmt)
+160 expression (VariableDeclarationExpr)
+161 variables
+162 variable (VariableDeclarator)
+163 initializer (ObjectCreationExpr)
+164 type (ClassOrInterfaceType)
+165 name (SimpleName)
+166 identifier='JPanel'
+167 arguments
+168 argument (ObjectCreationExpr)
+169 type (ClassOrInterfaceType)
+170 name (SimpleName)
+171 identifier='FlowLayout'
+172 name (SimpleName)
+173 identifier='cbPanel'
+174 type (ClassOrInterfaceType)
+175 name (SimpleName)
+176 identifier='JPanel'
+177 statement (ExpressionStmt)
+178 expression (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='add'
+181 scope (NameExpr)
+182 name (SimpleName)
+183 identifier='cbPanel'
+184 arguments
+185 argument (ObjectCreationExpr)
+186 type (ClassOrInterfaceType)
+187 name (SimpleName)
+188 identifier='JLabel'
+189 arguments
+190 argument (StringLiteralExpr)
+191 value='Connection Manager: '
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='add'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='cbPanel'
+199 arguments
+200 argument (NameExpr)
+201 name (SimpleName)
+202 identifier='cbConnectionType'
+203 statement (ExpressionStmt)
+204 expression (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='setLayout'
+207 scope (NameExpr)
+208 name (SimpleName)
+209 identifier='mainPanel'
+210 arguments
+211 argument (ObjectCreationExpr)
+212 type (ClassOrInterfaceType)
+213 name (SimpleName)
+214 identifier='GridBagLayout'
+215 statement (ExpressionStmt)
+216 expression (VariableDeclarationExpr)
+217 variables
+218 variable (VariableDeclarator)
+219 initializer (ObjectCreationExpr)
+220 type (ClassOrInterfaceType)
+221 name (SimpleName)
+222 identifier='GridBagConstraints'
+223 name (SimpleName)
+224 identifier='gbc'
+225 type (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='GridBagConstraints'
+228 statement (ExpressionStmt)
+229 expression (AssignExpr)
+230 operator='ASSIGN'
+231 target (FieldAccessExpr)
+232 name (SimpleName)
+233 identifier='anchor'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='gbc'
+237 value (FieldAccessExpr)
+238 name (SimpleName)
+239 identifier='NORTHWEST'
+240 scope (NameExpr)
+241 name (SimpleName)
+242 identifier='GridBagConstraints'
+243 statement (ExpressionStmt)
+244 expression (AssignExpr)
+245 operator='ASSIGN'
+246 target (FieldAccessExpr)
+247 name (SimpleName)
+248 identifier='fill'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='gbc'
+252 value (FieldAccessExpr)
+253 name (SimpleName)
+254 identifier='NONE'
+255 scope (NameExpr)
+256 name (SimpleName)
+257 identifier='GridBagConstraints'
+258 statement (ExpressionStmt)
+259 expression (AssignExpr)
+260 operator='ASSIGN'
+261 target (FieldAccessExpr)
+262 name (SimpleName)
+263 identifier='gridx'
+264 scope (NameExpr)
+265 name (SimpleName)
+266 identifier='gbc'
+267 value (IntegerLiteralExpr)
+268 value='0'
+269 statement (ExpressionStmt)
+270 expression (AssignExpr)
+271 operator='ASSIGN'
+272 target (FieldAccessExpr)
+273 name (SimpleName)
+274 identifier='gridy'
+275 scope (NameExpr)
+276 name (SimpleName)
+277 identifier='gbc'
+278 value (IntegerLiteralExpr)
+279 value='0'
+280 statement (ExpressionStmt)
+281 expression (AssignExpr)
+282 operator='ASSIGN'
+283 target (FieldAccessExpr)
+284 name (SimpleName)
+285 identifier='insets'
+286 scope (NameExpr)
+287 name (SimpleName)
+288 identifier='gbc'
+289 value (ObjectCreationExpr)
+290 type (ClassOrInterfaceType)
+291 name (SimpleName)
+292 identifier='Insets'
+293 arguments
+294 argument (IntegerLiteralExpr)
+295 value='5'
+296 argument (IntegerLiteralExpr)
+297 value='5'
+298 argument (IntegerLiteralExpr)
+299 value='5'
+300 argument (IntegerLiteralExpr)
+301 value='5'
+302 statement (ExpressionStmt)
+303 expression (MethodCallExpr)
+304 name (SimpleName)
+305 identifier='add'
+306 scope (NameExpr)
+307 name (SimpleName)
+308 identifier='mainPanel'
+309 arguments
+310 argument (NameExpr)
+311 name (SimpleName)
+312 identifier='cbPanel'
+313 argument (NameExpr)
+314 name (SimpleName)
+315 identifier='gbc'
+316 statement (ExpressionStmt)
+317 expression (AssignExpr)
+318 operator='ASSIGN'
+319 target (FieldAccessExpr)
+320 name (SimpleName)
+321 identifier='fill'
+322 scope (NameExpr)
+323 name (SimpleName)
+324 identifier='gbc'
+325 value (FieldAccessExpr)
+326 name (SimpleName)
+327 identifier='HORIZONTAL'
+328 scope (NameExpr)
+329 name (SimpleName)
+330 identifier='GridBagConstraints'
+331 statement (ExpressionStmt)
+332 expression (AssignExpr)
+333 operator='ASSIGN'
+334 target (FieldAccessExpr)
+335 name (SimpleName)
+336 identifier='gridy'
+337 scope (NameExpr)
+338 name (SimpleName)
+339 identifier='gbc'
+340 value (IntegerLiteralExpr)
+341 value='1'
+342 statement (ExpressionStmt)
+343 expression (AssignExpr)
+344 operator='ASSIGN'
+345 target (FieldAccessExpr)
+346 name (SimpleName)
+347 identifier='gridwidth'
+348 scope (NameExpr)
+349 name (SimpleName)
+350 identifier='gbc'
+351 value (IntegerLiteralExpr)
+352 value='4'
+353 statement (ExpressionStmt)
+354 expression (MethodCallExpr)
+355 name (SimpleName)
+356 identifier='add'
+357 scope (NameExpr)
+358 name (SimpleName)
+359 identifier='mainPanel'
+360 arguments
+361 argument (NameExpr)
+362 name (SimpleName)
+363 identifier='connectPanel'
+364 argument (NameExpr)
+365 name (SimpleName)
+366 identifier='gbc'
+367 type (VoidType)
+368 name (SimpleName)
+369 identifier='init'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+18 21
+21 22
+22 23
+16 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+2 35
+35 36
+36 37
+36 38
+38 39
+39 40
+38 41
+41 42
+42 43
+36 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+55 58
+58 59
+59 60
+53 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+67 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+75 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+81 88
+88 89
+89 90
+88 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+101 108
+108 109
+109 110
+108 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+121 128
+128 129
+129 130
+128 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+139 146
+146 147
+147 148
+135 149
+149 150
+150 151
+151 152
+149 153
+153 154
+154 155
+153 156
+156 157
+157 158
+2 159
+159 160
+160 161
+161 162
+162 163
+163 164
+164 165
+165 166
+163 167
+167 168
+168 169
+169 170
+170 171
+162 172
+172 173
+162 174
+174 175
+175 176
+2 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+178 184
+184 185
+185 186
+186 187
+187 188
+185 189
+189 190
+190 191
+2 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+193 199
+199 200
+200 201
+201 202
+2 203
+203 204
+204 205
+205 206
+204 207
+207 208
+208 209
+204 210
+210 211
+211 212
+212 213
+213 214
+2 215
+215 216
+216 217
+217 218
+218 219
+219 220
+220 221
+221 222
+218 223
+223 224
+218 225
+225 226
+226 227
+2 228
+228 229
+229 230
+229 231
+231 232
+232 233
+231 234
+234 235
+235 236
+229 237
+237 238
+238 239
+237 240
+240 241
+241 242
+2 243
+243 244
+244 245
+244 246
+246 247
+247 248
+246 249
+249 250
+250 251
+244 252
+252 253
+253 254
+252 255
+255 256
+256 257
+2 258
+258 259
+259 260
+259 261
+261 262
+262 263
+261 264
+264 265
+265 266
+259 267
+267 268
+2 269
+269 270
+270 271
+270 272
+272 273
+273 274
+272 275
+275 276
+276 277
+270 278
+278 279
+2 280
+280 281
+281 282
+281 283
+283 284
+284 285
+283 286
+286 287
+287 288
+281 289
+289 290
+290 291
+291 292
+289 293
+293 294
+294 295
+293 296
+296 297
+293 298
+298 299
+293 300
+300 301
+2 302
+302 303
+303 304
+304 305
+303 306
+306 307
+307 308
+303 309
+309 310
+310 311
+311 312
+309 313
+313 314
+314 315
+2 316
+316 317
+317 318
+317 319
+319 320
+320 321
+319 322
+322 323
+323 324
+317 325
+325 326
+326 327
+325 328
+328 329
+329 330
+2 331
+331 332
+332 333
+332 334
+334 335
+335 336
+334 337
+337 338
+338 339
+332 340
+340 341
+2 342
+342 343
+343 344
+343 345
+345 346
+346 347
+345 348
+348 349
+349 350
+343 351
+351 352
+2 353
+353 354
+354 355
+355 356
+354 357
+357 358
+358 359
+354 360
+360 361
+361 362
+362 363
+360 364
+364 365
+365 366
+0 367
+0 368
+368 369
+
+Initialize the panel.

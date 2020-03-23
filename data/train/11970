@@ -1,0 +1,234 @@
+116
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (NameExpr)
+5 name (SimpleName)
+6 identifier='structure'
+7 entries
+8 entrie (SwitchEntryStmt)
+9 label (NameExpr)
+10 name (SimpleName)
+11 identifier='ANY_DAG'
+12 entrie (SwitchEntryStmt)
+13 label (NameExpr)
+14 name (SimpleName)
+15 identifier='CONNECTED_DAG'
+16 statements
+17 statement (BreakStmt)
+18 entrie (SwitchEntryStmt)
+19 statements
+20 statement (ThrowStmt)
+21 expression (ObjectCreationExpr)
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='IllegalArgumentException'
+25 arguments
+26 argument (StringLiteralExpr)
+27 value='Unrecognized structure.'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='structure'
+34 scope (ThisExpr)
+35 value (NameExpr)
+36 name (SimpleName)
+37 identifier='structure'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='numNodes'
+44 scope (ThisExpr)
+45 value (IntegerLiteralExpr)
+46 value='4'
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='maxInDegree'
+53 scope (ThisExpr)
+54 value (IntegerLiteralExpr)
+55 value='3'
+56 statement (ExpressionStmt)
+57 expression (AssignExpr)
+58 operator='ASSIGN'
+59 target (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='maxOutDegree'
+62 scope (ThisExpr)
+63 value (IntegerLiteralExpr)
+64 value='3'
+65 statement (ExpressionStmt)
+66 expression (AssignExpr)
+67 operator='ASSIGN'
+68 target (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='maxDegree'
+71 scope (ThisExpr)
+72 value (IntegerLiteralExpr)
+73 value='6'
+74 statement (ExpressionStmt)
+75 expression (AssignExpr)
+76 operator='ASSIGN'
+77 target (FieldAccessExpr)
+78 name (SimpleName)
+79 identifier='maxEdges'
+80 scope (ThisExpr)
+81 value (BinaryExpr)
+82 operator='MINUS'
+83 left (NameExpr)
+84 name (SimpleName)
+85 identifier='numNodes'
+86 right (IntegerLiteralExpr)
+87 value='1'
+88 statement (ExpressionStmt)
+89 expression (AssignExpr)
+90 operator='ASSIGN'
+91 target (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='numIterations'
+94 scope (ThisExpr)
+95 value (BinaryExpr)
+96 operator='MULTIPLY'
+97 left (BinaryExpr)
+98 operator='MULTIPLY'
+99 left (IntegerLiteralExpr)
+100 value='6'
+101 right (NameExpr)
+102 name (SimpleName)
+103 identifier='numNodes'
+104 right (NameExpr)
+105 name (SimpleName)
+106 identifier='numNodes'
+107 name (SimpleName)
+108 identifier='UniformGraphGenerator'
+109 parameters
+110 parameter (Parameter)
+111 isVarArgs='false'
+112 name (SimpleName)
+113 identifier='structure'
+114 type (PrimitiveType)
+115 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+3 7
+7 8
+8 9
+9 10
+10 11
+7 12
+12 13
+13 14
+14 15
+12 16
+16 17
+7 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+31 34
+29 35
+35 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+41 44
+39 45
+45 46
+2 47
+47 48
+48 49
+48 50
+50 51
+51 52
+50 53
+48 54
+54 55
+2 56
+56 57
+57 58
+57 59
+59 60
+60 61
+59 62
+57 63
+63 64
+2 65
+65 66
+66 67
+66 68
+68 69
+69 70
+68 71
+66 72
+72 73
+2 74
+74 75
+75 76
+75 77
+77 78
+78 79
+77 80
+75 81
+81 82
+81 83
+83 84
+84 85
+81 86
+86 87
+2 88
+88 89
+89 90
+89 91
+91 92
+92 93
+91 94
+89 95
+95 96
+95 97
+97 98
+97 99
+99 100
+97 101
+101 102
+102 103
+95 104
+104 105
+105 106
+0 107
+107 108
+0 109
+109 110
+110 111
+110 112
+112 113
+110 114
+114 115
+
+Constructs a random graph generator for the given structure.

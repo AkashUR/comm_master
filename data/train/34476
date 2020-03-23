@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForeachStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='cancel'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='relation'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='sendResponse'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getExchange'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='relation'
+23 arguments
+24 argument (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Response'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='code'
+32 iterable (NameExpr)
+33 name (SimpleName)
+34 identifier='observeRelations'
+35 variable (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 name (SimpleName)
+39 identifier='relation'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='ObserveRelation'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='clearAndNotifyObserveRelations'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='code'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='ResponseCode'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+5 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+14 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+3 32
+32 33
+33 34
+3 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+
+Remove all observe relations to CoAP clients and notify them that the observe relation has been canceled.

@@ -1,0 +1,296 @@
+147
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='mResolver'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getContentResolver'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='context'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='mInfo'
+22 scope (ThisExpr)
+23 value (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='DBInfo'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='dbName'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='dbVersion'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='classes'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='pragma'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='CacheBuilder'
+48 arguments
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='getPackageName'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='context'
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='dbName'
+58 name (SimpleName)
+59 identifier='cacheBuilder'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='CacheBuilder'
+63 statement (ExpressionStmt)
+64 expression (AssignExpr)
+65 operator='ASSIGN'
+66 target (NameExpr)
+67 name (SimpleName)
+68 identifier='mCached'
+69 value (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='buildCache'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='cacheBuilder'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='classes'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (FieldAccessExpr)
+83 name (SimpleName)
+84 identifier='mCachedTableGetter'
+85 scope (ThisExpr)
+86 value (ObjectCreationExpr)
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='CachedTableGetter'
+90 name (SimpleName)
+91 identifier='DatabaseManager'
+92 parameters
+93 parameter (Parameter)
+94 isVarArgs='false'
+95 name (SimpleName)
+96 identifier='context'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='Context'
+100 annotations
+101 annotation (MarkerAnnotationExpr)
+102 name (Name)
+103 identifier='NonNull'
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='dbName'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='String'
+111 annotations
+112 annotation (MarkerAnnotationExpr)
+113 name (Name)
+114 identifier='NonNull'
+115 parameter (Parameter)
+116 isVarArgs='false'
+117 name (SimpleName)
+118 identifier='dbVersion'
+119 type (PrimitiveType)
+120 type='INT'
+121 parameter (Parameter)
+122 isVarArgs='false'
+123 name (SimpleName)
+124 identifier='classes'
+125 type (ArrayType)
+126 origin='TYPE'
+127 componentType (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='Class'
+130 typeArguments
+131 typeArgument (WildcardType)
+132 annotations
+133 annotation (MarkerAnnotationExpr)
+134 name (Name)
+135 identifier='NonNull'
+136 parameter (Parameter)
+137 isVarArgs='false'
+138 name (SimpleName)
+139 identifier='pragma'
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='Pragma'
+143 annotations
+144 annotation (MarkerAnnotationExpr)
+145 name (Name)
+146 identifier='Nullable'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+27 34
+34 35
+35 36
+27 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+48 55
+55 56
+56 57
+43 58
+58 59
+43 60
+60 61
+61 62
+2 63
+63 64
+64 65
+64 66
+66 67
+67 68
+64 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+82 85
+80 86
+86 87
+87 88
+88 89
+0 90
+90 91
+0 92
+92 93
+93 94
+93 95
+95 96
+93 97
+97 98
+98 99
+93 100
+100 101
+101 102
+102 103
+92 104
+104 105
+104 106
+106 107
+104 108
+108 109
+109 110
+104 111
+111 112
+112 113
+113 114
+92 115
+115 116
+115 117
+117 118
+115 119
+119 120
+92 121
+121 122
+121 123
+123 124
+121 125
+125 126
+125 127
+127 128
+128 129
+127 130
+130 131
+121 132
+132 133
+133 134
+134 135
+92 136
+136 137
+136 138
+138 139
+136 140
+140 141
+141 142
+136 143
+143 144
+144 145
+145 146
+
+Prepares <code>DatabaseManager</code>

@@ -1,0 +1,88 @@
+43
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (EnclosedExpr)
+7 inner (ConditionalExpr)
+8 condition (BinaryExpr)
+9 operator='EQUALS'
+10 left (NameExpr)
+11 name (SimpleName)
+12 identifier='cause'
+13 right (NullLiteralExpr)
+14 elseExpr (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='toString'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='cause'
+20 thenExpr (NullLiteralExpr)
+21 argument (NullLiteralExpr)
+22 argument (IntegerLiteralExpr)
+23 value='0'
+24 argument (CastExpr)
+25 expression (NullLiteralExpr)
+26 type (ArrayType)
+27 origin='TYPE'
+28 componentType (PrimitiveType)
+29 type='INT'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='cause'
+33 name (SimpleName)
+34 identifier='BatchUpdateException'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='cause'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+7 14
+14 15
+15 16
+14 17
+17 18
+18 19
+7 20
+5 21
+5 22
+22 23
+5 24
+24 25
+24 26
+26 27
+26 28
+28 29
+5 30
+30 31
+31 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+
+Constructs a <code>BatchUpdateException</code> object initialized with a given <code>cause</code>. The <code>SQLState</code> and <code>updateCounts</code> are initialized to <code>null</code> and the vendor code is initialized to 0. The <code>reason</code>  is initialized to <code>null</code> if <code>cause==null</code> or to <code>cause.toString()</code> if <code>cause!=null</code>.

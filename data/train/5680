@@ -1,0 +1,68 @@
+33
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkNotNull'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Preconditions'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='logger'
+14 argument (StringLiteralExpr)
+15 value='Error: Logger is already stopped'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='stop'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='logger'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='logger'
+29 value (NullLiteralExpr)
+30 type (VoidType)
+31 name (SimpleName)
+32 identifier='stop'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+0 30
+0 31
+31 32
+
+Removes all echo breakpoints and stops trace logging.

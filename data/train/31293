@@ -1,0 +1,238 @@
+118
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='withFailureThreshold'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='withSuccessThreshold'
+13 scope (ObjectCreationExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='CircuitBreaker'
+17 arguments
+18 argument (IntegerLiteralExpr)
+19 value='2'
+20 argument (IntegerLiteralExpr)
+21 value='4'
+22 arguments
+23 argument (IntegerLiteralExpr)
+24 value='1'
+25 name (SimpleName)
+26 identifier='breaker'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='CircuitBreaker'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='halfOpen'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='breaker'
+37 statement (ExpressionStmt)
+38 expression (VariableDeclarationExpr)
+39 variables
+40 variable (VariableDeclarator)
+41 initializer (ObjectCreationExpr)
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='HalfOpenState'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='breaker'
+49 name (SimpleName)
+50 identifier='state'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='HalfOpenState'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='recordSuccess'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='state'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='recordFailure'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='state'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='recordFailure'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='state'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='assertFalse'
+79 arguments
+80 argument (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='isOpen'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='breaker'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='assertFalse'
+90 arguments
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='isClosed'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='breaker'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='recordFailure'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='state'
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='assertTrue'
+108 arguments
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='isOpen'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='breaker'
+115 type (VoidType)
+116 name (SimpleName)
+117 identifier='testFailureWithSuccessRatioAndFailureThreshold'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+10 17
+17 18
+18 19
+17 20
+20 21
+7 22
+22 23
+23 24
+6 25
+25 26
+6 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+47 48
+40 49
+49 50
+40 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+0 115
+0 116
+116 117
+
+Asserts that the circuit is opened after the success ratio fails to be met. The failure threshold is ignored.

@@ -1,0 +1,316 @@
+157
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createSegment'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='manager'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='build'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='withMaxEntries'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='withMaxSegmentSize'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='withIndex'
+26 scope (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='withVersion'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='withId'
+32 scope (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='builder'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='SegmentDescriptor'
+38 arguments
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='id'
+42 scope (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='descriptor'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='segment'
+48 arguments
+49 argument (BinaryExpr)
+50 operator='PLUS'
+51 left (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='version'
+54 scope (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='descriptor'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='segment'
+60 right (IntegerLiteralExpr)
+61 value='1'
+62 arguments
+63 argument (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='index'
+66 scope (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='descriptor'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='segment'
+72 arguments
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='maxSegmentSize'
+76 scope (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='descriptor'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='segment'
+82 arguments
+83 argument (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='maxEntries'
+86 scope (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='descriptor'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='segment'
+92 name (SimpleName)
+93 identifier='compactSegment'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='Segment'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='compactEntries'
+101 arguments
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='segment'
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='compactSegment'
+108 statement (ExpressionStmt)
+109 expression (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='replaceSegments'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='manager'
+115 arguments
+116 argument (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='singletonList'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='Collections'
+122 arguments
+123 argument (NameExpr)
+124 name (SimpleName)
+125 identifier='segment'
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='compactSegment'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='mergeReleasedEntries'
+133 arguments
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='segment'
+137 argument (NameExpr)
+138 name (SimpleName)
+139 identifier='compactSegment'
+140 statement (ExpressionStmt)
+141 expression (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='close'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='segment'
+147 statement (ExpressionStmt)
+148 expression (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='delete'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='segment'
+154 type (VoidType)
+155 name (SimpleName)
+156 identifier='compactSegments'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+29 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+26 48
+48 49
+49 50
+49 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+49 60
+60 61
+23 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+66 69
+69 70
+70 71
+20 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+76 79
+79 80
+80 81
+17 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+86 89
+89 90
+90 91
+6 92
+92 93
+6 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+103 104
+101 105
+105 106
+106 107
+2 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+124 125
+115 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+135 136
+133 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+2 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+0 154
+0 155
+155 156
+
+Compacts all compactable segments.

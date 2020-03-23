@@ -1,0 +1,170 @@
+84
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='set'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='tmp'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='x'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='impulse'
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='y'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='impulse'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='set'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='tmp2'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='x'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='point'
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='y'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='point'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='applyLinearImpulse'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='body'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='tmp'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='tmp2'
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='wake'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='applyLinearImpulse'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='impulse'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Vector2'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='point'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Vector2'
+78 parameter (Parameter)
+79 isVarArgs='false'
+80 name (SimpleName)
+81 identifier='wake'
+82 type (PrimitiveType)
+83 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+50 57
+57 58
+58 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+63 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+63 78
+78 79
+78 80
+80 81
+78 82
+82 83
+
+Apply an impulse at a point. This immediately modifies the velocity. It also modifies the angular velocity if the point of application is not at the center of mass. This wakes up the body.

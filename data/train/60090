@@ -1,0 +1,38 @@
+18
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='applyPerdition'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='applyWork'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='validateEnergy'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='update'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+0 15
+0 16
+16 17
+
+Ticks the power handler. You should call this if you can, but its not required. If you don't call it, the possibility exists for some weirdness with the perdition algorithm and work callback as its possible they will not be called on every tick they otherwise would be. You should be able to design around this though if you are aware of the limitations.

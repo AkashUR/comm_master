@@ -1,0 +1,486 @@
+242
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='build'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='newBuilder'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='FooRequest'
+16 name (SimpleName)
+17 identifier='fooRequest'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='FooRequest'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='build'
+28 scope (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='newBuilder'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='BarRequest'
+34 name (SimpleName)
+35 identifier='barRequest'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='BarRequest'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='MockCallback'
+47 typeArguments
+48 typeArgument (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Message'
+51 name (SimpleName)
+52 identifier='fooCallback'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='MockCallback'
+56 typeArguments
+57 typeArgument (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Message'
+60 statement (ExpressionStmt)
+61 expression (VariableDeclarationExpr)
+62 variables
+63 variable (VariableDeclarator)
+64 initializer (ObjectCreationExpr)
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='MockCallback'
+68 typeArguments
+69 typeArgument (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Message'
+72 name (SimpleName)
+73 identifier='barCallback'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='MockCallback'
+77 typeArguments
+78 typeArgument (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='Message'
+81 statement (ExpressionStmt)
+82 expression (VariableDeclarationExpr)
+83 variables
+84 variable (VariableDeclarator)
+85 initializer (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='createMock'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='control'
+91 arguments
+92 argument (ClassExpr)
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='TestService'
+96 name (SimpleName)
+97 identifier='mockService'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='TestService'
+101 statement (ExpressionStmt)
+102 expression (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='foo'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='mockService'
+108 arguments
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='same'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='EasyMock'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='mockController'
+119 argument (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='same'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='EasyMock'
+125 arguments
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='fooRequest'
+129 argument (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='wrapsCallback'
+132 scope (ThisExpr)
+133 arguments
+134 argument (NameExpr)
+135 name (SimpleName)
+136 identifier='fooCallback'
+137 typeArguments
+138 typeArgument (ClassOrInterfaceType)
+139 name (SimpleName)
+140 identifier='FooResponse'
+141 statement (ExpressionStmt)
+142 expression (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='bar'
+145 scope (NameExpr)
+146 name (SimpleName)
+147 identifier='mockService'
+148 arguments
+149 argument (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='same'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='EasyMock'
+155 arguments
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='mockController'
+159 argument (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='same'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='EasyMock'
+165 arguments
+166 argument (NameExpr)
+167 name (SimpleName)
+168 identifier='barRequest'
+169 argument (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='wrapsCallback'
+172 scope (ThisExpr)
+173 arguments
+174 argument (NameExpr)
+175 name (SimpleName)
+176 identifier='barCallback'
+177 typeArguments
+178 typeArgument (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='BarResponse'
+181 statement (ExpressionStmt)
+182 expression (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='replay'
+185 scope (NameExpr)
+186 name (SimpleName)
+187 identifier='control'
+188 statement (ExpressionStmt)
+189 expression (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='callMethod'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='mockService'
+195 arguments
+196 argument (NameExpr)
+197 name (SimpleName)
+198 identifier='fooDescriptor'
+199 argument (NameExpr)
+200 name (SimpleName)
+201 identifier='mockController'
+202 argument (NameExpr)
+203 name (SimpleName)
+204 identifier='fooRequest'
+205 argument (NameExpr)
+206 name (SimpleName)
+207 identifier='fooCallback'
+208 statement (ExpressionStmt)
+209 expression (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='callMethod'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='mockService'
+215 arguments
+216 argument (NameExpr)
+217 name (SimpleName)
+218 identifier='barDescriptor'
+219 argument (NameExpr)
+220 name (SimpleName)
+221 identifier='mockController'
+222 argument (NameExpr)
+223 name (SimpleName)
+224 identifier='barRequest'
+225 argument (NameExpr)
+226 name (SimpleName)
+227 identifier='barCallback'
+228 statement (ExpressionStmt)
+229 expression (MethodCallExpr)
+230 name (SimpleName)
+231 identifier='verify'
+232 scope (NameExpr)
+233 name (SimpleName)
+234 identifier='control'
+235 type (VoidType)
+236 name (SimpleName)
+237 identifier='testCallMethod'
+238 thrownExceptions
+239 thrownException (ClassOrInterfaceType)
+240 name (SimpleName)
+241 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+24 34
+34 35
+24 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+42 51
+51 52
+42 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+63 72
+72 73
+63 74
+74 75
+75 76
+74 77
+77 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+94 95
+84 96
+96 97
+84 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+108 119
+119 120
+120 121
+119 122
+122 123
+123 124
+119 125
+125 126
+126 127
+127 128
+108 129
+129 130
+130 131
+129 132
+129 133
+133 134
+134 135
+135 136
+129 137
+137 138
+138 139
+139 140
+2 141
+141 142
+142 143
+143 144
+142 145
+145 146
+146 147
+142 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+157 158
+148 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+167 168
+148 169
+169 170
+170 171
+169 172
+169 173
+173 174
+174 175
+175 176
+169 177
+177 178
+178 179
+179 180
+2 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+2 188
+188 189
+189 190
+190 191
+189 192
+192 193
+193 194
+189 195
+195 196
+196 197
+197 198
+195 199
+199 200
+200 201
+195 202
+202 203
+203 204
+195 205
+205 206
+206 207
+2 208
+208 209
+209 210
+210 211
+209 212
+212 213
+213 214
+209 215
+215 216
+216 217
+217 218
+215 219
+219 220
+220 221
+215 222
+222 223
+223 224
+215 225
+225 226
+226 227
+2 228
+228 229
+229 230
+230 231
+229 232
+232 233
+233 234
+0 235
+0 236
+236 237
+0 238
+238 239
+239 240
+240 241
+
+Tests Service.callMethod().

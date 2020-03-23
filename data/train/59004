@@ -1,0 +1,236 @@
+117
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='{\"value\":[true,\"Foobar\",42,13]}'
+9 name (SimpleName)
+10 identifier='json'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='readValue'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='MAPPER'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='json'
+28 argument (ClassExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Pojo'
+32 name (SimpleName)
+33 identifier='p'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Pojo'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='assertNotNull'
+41 arguments
+42 argument (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='value'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='p'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='assertTrue'
+52 arguments
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='complete'
+56 scope (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='value'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='p'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='assertEquals'
+66 arguments
+67 argument (StringLiteralExpr)
+68 value='Foobar'
+69 argument (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='name'
+72 scope (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='value'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='p'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='assertEquals'
+82 arguments
+83 argument (IntegerLiteralExpr)
+84 value='42'
+85 argument (FieldAccessExpr)
+86 name (SimpleName)
+87 identifier='x'
+88 scope (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='value'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='p'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='assertEquals'
+98 arguments
+99 argument (IntegerLiteralExpr)
+100 value='13'
+101 argument (FieldAccessExpr)
+102 name (SimpleName)
+103 identifier='y'
+104 scope (FieldAccessExpr)
+105 name (SimpleName)
+106 identifier='value'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='p'
+110 type (VoidType)
+111 name (SimpleName)
+112 identifier='testReadSimplePropertyValue'
+113 thrownExceptions
+114 thrownException (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+17 32
+32 33
+17 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+98 101
+101 102
+102 103
+101 104
+104 105
+105 106
+104 107
+107 108
+108 109
+0 110
+0 111
+111 112
+0 113
+113 114
+114 115
+115 116
+
+Test that verifies that property annotation works

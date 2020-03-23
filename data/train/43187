@@ -1,0 +1,88 @@
+43
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='user'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='balancingGroup'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='connection'
+17 argument (NullLiteralExpr)
+18 type (VoidType)
+19 name (SimpleName)
+20 identifier='init'
+21 parameters
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='user'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='RemoteAuthenticatedUser'
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='balancingGroup'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='ModeledConnectionGroup'
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='connection'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='ModeledConnection'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+0 18
+0 19
+19 20
+0 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+21 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+21 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+
+Initializes this connection record, associating it with the given user, connection, and balancing connection group. The given balancing connection group MUST be the connection group from which the given connection was chosen. The start date of this connection record will be the time of its creation.

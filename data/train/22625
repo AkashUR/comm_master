@@ -1,0 +1,340 @@
+169
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Organization'
+11 name (SimpleName)
+12 identifier='org'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Organization'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='addOrganizationRole'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='org'
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='CUSTOMER'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='OrganizationRoleType'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='createSupplier'
+37 name (SimpleName)
+38 identifier='supplier'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Organization'
+42 statement (ExpressionStmt)
+43 expression (VariableDeclarationExpr)
+44 variables
+45 variable (VariableDeclarator)
+46 initializer (ObjectCreationExpr)
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='OrganizationReference'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='supplier'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='org'
+57 argument (FieldAccessExpr)
+58 name (SimpleName)
+59 identifier='SUPPLIER_TO_CUSTOMER'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='OrganizationReferenceType'
+63 name (SimpleName)
+64 identifier='ref'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='OrganizationReference'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='add'
+72 scope (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getTargets'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='supplier'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='ref'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='add'
+86 scope (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='getSources'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='org'
+92 arguments
+93 argument (NameExpr)
+94 name (SimpleName)
+95 identifier='ref'
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='setEmail'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='org'
+103 arguments
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='INVALID_TO'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='setLocale'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='org'
+114 arguments
+115 argument (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='toString'
+118 scope (FieldAccessExpr)
+119 name (SimpleName)
+120 identifier='ENGLISH'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='Locale'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='sendMail'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='commSrv'
+131 arguments
+132 argument (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getEmail'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='org'
+138 argument (FieldAccessExpr)
+139 name (SimpleName)
+140 identifier='SUPPORT_ISSUE'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='EmailType'
+144 argument (NullLiteralExpr)
+145 argument (NullLiteralExpr)
+146 argument (NullLiteralExpr)
+147 type (VoidType)
+148 name (SimpleName)
+149 identifier='testSendMailToOrganization_InvalidMailAddress'
+150 thrownExceptions
+151 thrownException (ClassOrInterfaceType)
+152 name (SimpleName)
+153 identifier='SaaSApplicationException'
+154 annotations
+155 annotation (MarkerAnnotationExpr)
+156 name (Name)
+157 identifier='Ignore'
+158 annotation (NormalAnnotationExpr)
+159 name (Name)
+160 identifier='Test'
+161 pairs
+162 pair (MemberValuePair)
+163 name (SimpleName)
+164 identifier='expected'
+165 value (ClassExpr)
+166 type (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='MailOperationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+33 37
+37 38
+33 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+46 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+50 57
+57 58
+58 59
+57 60
+60 61
+61 62
+45 63
+63 64
+45 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+69 78
+78 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+86 89
+89 90
+90 91
+83 92
+92 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+131 138
+138 139
+139 140
+138 141
+141 142
+142 143
+131 144
+131 145
+131 146
+0 147
+0 148
+148 149
+0 150
+150 151
+151 152
+152 153
+0 154
+154 155
+155 156
+156 157
+154 158
+158 159
+159 160
+158 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+167 168
+
+Test send mail to invalid mail address.

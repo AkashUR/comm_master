@@ -1,0 +1,198 @@
+98
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createDeployable'
+10 scope (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='DefaultDeployableFactory'
+14 arguments
+15 argument (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getId'
+18 scope (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getContainer'
+21 argument (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getTestDataFileFor'
+24 scope (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getTestData'
+27 arguments
+28 argument (StringLiteralExpr)
+29 value='simple-war'
+30 argument (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='WAR'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='DeployableType'
+36 name (SimpleName)
+37 identifier='war'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Deployable'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='addDeployable'
+45 scope (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getConfiguration'
+48 scope (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getLocalContainer'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='war'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (ObjectCreationExpr)
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='URL'
+63 arguments
+64 argument (BinaryExpr)
+65 operator='PLUS'
+66 left (BinaryExpr)
+67 operator='PLUS'
+68 left (StringLiteralExpr)
+69 value='http://localhost:'
+70 right (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='port'
+73 scope (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getTestData'
+76 right (StringLiteralExpr)
+77 value='/simple-war/index.jsp'
+78 name (SimpleName)
+79 identifier='warPingURL'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='URL'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='startAndStop'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='warPingURL'
+91 type (VoidType)
+92 name (SimpleName)
+93 identifier='testDeployWarStatically'
+94 thrownExceptions
+95 thrownException (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+7 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+14 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+14 30
+30 31
+31 32
+30 33
+33 34
+34 35
+6 36
+36 37
+6 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+42 51
+51 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+64 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+70 73
+73 74
+74 75
+64 76
+76 77
+58 78
+78 79
+58 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+89 90
+0 91
+0 92
+92 93
+0 94
+94 95
+95 96
+96 97
+
+Deploy WAR statically.

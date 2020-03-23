@@ -1,0 +1,292 @@
+145
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='File'
+11 scope (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='io'
+14 scope (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='java'
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='target/test-artifacts/simple-ear.ear'
+20 name (SimpleName)
+21 identifier='earFile'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='File'
+25 scope (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='io'
+28 scope (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='java'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (CastExpr)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='createDeployable'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='factory'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='jonas4x'
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getAbsolutePath'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='earFile'
+51 argument (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='EAR'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='DeployableType'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='EAR'
+60 name (SimpleName)
+61 identifier='ear'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='EAR'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='setName'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='ear'
+72 arguments
+73 argument (StringLiteralExpr)
+74 value='test'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='setupAdminHotDeployment'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='deploy'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='deployer'
+86 arguments
+87 argument (NameExpr)
+88 name (SimpleName)
+89 identifier='ear'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='assertFalse'
+94 arguments
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='exists'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='fileHandler'
+101 arguments
+102 argument (BinaryExpr)
+103 operator='PLUS'
+104 left (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='getDeployableDir'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='deployer'
+110 arguments
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='ear'
+114 right (StringLiteralExpr)
+115 value='/simple-ear.ear'
+116 statement (ExpressionStmt)
+117 expression (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='assertTrue'
+120 arguments
+121 argument (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='exists'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='fileHandler'
+127 arguments
+128 argument (BinaryExpr)
+129 operator='PLUS'
+130 left (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='getDeployableDir'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='deployer'
+136 arguments
+137 argument (NameExpr)
+138 name (SimpleName)
+139 identifier='ear'
+140 right (StringLiteralExpr)
+141 value='/test.ear'
+142 type (VoidType)
+143 name (SimpleName)
+144 identifier='testHotDeployEar'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+15 16
+7 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+42 51
+51 52
+52 53
+51 54
+54 55
+55 56
+35 57
+57 58
+58 59
+34 60
+60 61
+34 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+102 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+112 113
+102 114
+114 115
+2 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+128 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+137 138
+138 139
+128 140
+140 141
+0 142
+0 143
+143 144
+
+Test EAR hot deployment.

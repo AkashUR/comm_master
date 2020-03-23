@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='loadCrl'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='X509Utils'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='asciiCrl'
+17 name (SimpleName)
+18 identifier='crl'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='X509CRL'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='verifyCrl'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='X509Utils'
+29 arguments
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getRoot'
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getCrl'
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='crl'
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='toDate'
+42 scope (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='nowUtc'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='clock'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='set'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='TmchCrl'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='asciiCrl'
+59 type (VoidType)
+60 name (SimpleName)
+61 identifier='updateCrl'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='asciiCrl'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='String'
+70 thrownExceptions
+71 thrownException (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='GeneralSecurityException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+29 36
+36 37
+37 38
+29 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+0 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+Update to the latest TMCH X.509 certificate revocation list and save to the datastore. <p>Your ASCII-armored CRL must be signed by the current ICANN root certificate. <p>This will not take effect (either on this instance or on others) until the CRL_CACHE next refreshes itself.

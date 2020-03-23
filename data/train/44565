@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='jdbc.DataSource'
+9 name (SimpleName)
+10 identifier='jndiName'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (BinaryExpr)
+19 operator='PLUS'
+20 left (BinaryExpr)
+21 operator='PLUS'
+22 left (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='JNDI_LOCATION'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='DatasourcePropertySet'
+28 right (StringLiteralExpr)
+29 value='='
+30 right (NameExpr)
+31 name (SimpleName)
+32 identifier='jndiName'
+33 name (SimpleName)
+34 identifier='propertyString'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='fromPropertyString'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='dataSourceConverter'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='propertyString'
+52 name (SimpleName)
+53 identifier='ds'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='DataSource'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='assertEquals'
+61 arguments
+62 argument (StringLiteralExpr)
+63 value='DataSource'
+64 argument (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getId'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='ds'
+70 type (VoidType)
+71 name (SimpleName)
+72 identifier='testIdWithADot'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+18 20
+20 21
+20 22
+22 23
+23 24
+22 25
+25 26
+26 27
+20 28
+28 29
+18 30
+30 31
+31 32
+17 33
+33 34
+17 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+41 52
+52 53
+41 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+61 64
+64 65
+65 66
+64 67
+67 68
+68 69
+0 70
+0 71
+71 72
+
+Test an id with a dot.

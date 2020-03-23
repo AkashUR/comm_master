@@ -1,0 +1,678 @@
+338
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TestSubscriber'
+11 name (SimpleName)
+12 identifier='s'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='TestSubscriber'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='basicPublisher'
+23 name (SimpleName)
+24 identifier='p'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='SubmissionPublisher'
+28 typeArguments
+29 typeArgument (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Integer'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='subscribe'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='p'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='s'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='assertTrue'
+47 arguments
+48 argument (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='hasSubscribers'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='p'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='assertEquals'
+58 arguments
+59 argument (IntegerLiteralExpr)
+60 value='1'
+61 argument (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getNumberOfSubscribers'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='p'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='assertTrue'
+71 arguments
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='contains'
+75 scope (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='getSubscribers'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='p'
+81 arguments
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='s'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='assertTrue'
+89 arguments
+90 argument (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='isSubscribed'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='p'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='s'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='awaitSubscribe'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='s'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='assertNotNull'
+111 arguments
+112 argument (FieldAccessExpr)
+113 name (SimpleName)
+114 identifier='sn'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='s'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='assertEquals'
+122 arguments
+123 argument (IntegerLiteralExpr)
+124 value='0'
+125 argument (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='nexts'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='s'
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='assertEquals'
+135 arguments
+136 argument (IntegerLiteralExpr)
+137 value='0'
+138 argument (FieldAccessExpr)
+139 name (SimpleName)
+140 identifier='errors'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='s'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='assertEquals'
+148 arguments
+149 argument (IntegerLiteralExpr)
+150 value='0'
+151 argument (FieldAccessExpr)
+152 name (SimpleName)
+153 identifier='completes'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='s'
+157 statement (ExpressionStmt)
+158 expression (VariableDeclarationExpr)
+159 variables
+160 variable (VariableDeclarator)
+161 initializer (ObjectCreationExpr)
+162 type (ClassOrInterfaceType)
+163 name (SimpleName)
+164 identifier='TestSubscriber'
+165 name (SimpleName)
+166 identifier='s2'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='TestSubscriber'
+170 statement (ExpressionStmt)
+171 expression (MethodCallExpr)
+172 name (SimpleName)
+173 identifier='subscribe'
+174 scope (NameExpr)
+175 name (SimpleName)
+176 identifier='p'
+177 arguments
+178 argument (NameExpr)
+179 name (SimpleName)
+180 identifier='s2'
+181 statement (ExpressionStmt)
+182 expression (MethodCallExpr)
+183 name (SimpleName)
+184 identifier='assertTrue'
+185 arguments
+186 argument (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='hasSubscribers'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='p'
+192 statement (ExpressionStmt)
+193 expression (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='assertEquals'
+196 arguments
+197 argument (IntegerLiteralExpr)
+198 value='2'
+199 argument (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='getNumberOfSubscribers'
+202 scope (NameExpr)
+203 name (SimpleName)
+204 identifier='p'
+205 statement (ExpressionStmt)
+206 expression (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='assertTrue'
+209 arguments
+210 argument (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='contains'
+213 scope (MethodCallExpr)
+214 name (SimpleName)
+215 identifier='getSubscribers'
+216 scope (NameExpr)
+217 name (SimpleName)
+218 identifier='p'
+219 arguments
+220 argument (NameExpr)
+221 name (SimpleName)
+222 identifier='s'
+223 statement (ExpressionStmt)
+224 expression (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='assertTrue'
+227 arguments
+228 argument (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='contains'
+231 scope (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='getSubscribers'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='p'
+237 arguments
+238 argument (NameExpr)
+239 name (SimpleName)
+240 identifier='s2'
+241 statement (ExpressionStmt)
+242 expression (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='assertTrue'
+245 arguments
+246 argument (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='isSubscribed'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='p'
+252 arguments
+253 argument (NameExpr)
+254 name (SimpleName)
+255 identifier='s'
+256 statement (ExpressionStmt)
+257 expression (MethodCallExpr)
+258 name (SimpleName)
+259 identifier='assertTrue'
+260 arguments
+261 argument (MethodCallExpr)
+262 name (SimpleName)
+263 identifier='isSubscribed'
+264 scope (NameExpr)
+265 name (SimpleName)
+266 identifier='p'
+267 arguments
+268 argument (NameExpr)
+269 name (SimpleName)
+270 identifier='s2'
+271 statement (ExpressionStmt)
+272 expression (MethodCallExpr)
+273 name (SimpleName)
+274 identifier='awaitSubscribe'
+275 scope (NameExpr)
+276 name (SimpleName)
+277 identifier='s2'
+278 statement (ExpressionStmt)
+279 expression (MethodCallExpr)
+280 name (SimpleName)
+281 identifier='assertNotNull'
+282 arguments
+283 argument (FieldAccessExpr)
+284 name (SimpleName)
+285 identifier='sn'
+286 scope (NameExpr)
+287 name (SimpleName)
+288 identifier='s2'
+289 statement (ExpressionStmt)
+290 expression (MethodCallExpr)
+291 name (SimpleName)
+292 identifier='assertEquals'
+293 arguments
+294 argument (IntegerLiteralExpr)
+295 value='0'
+296 argument (FieldAccessExpr)
+297 name (SimpleName)
+298 identifier='nexts'
+299 scope (NameExpr)
+300 name (SimpleName)
+301 identifier='s2'
+302 statement (ExpressionStmt)
+303 expression (MethodCallExpr)
+304 name (SimpleName)
+305 identifier='assertEquals'
+306 arguments
+307 argument (IntegerLiteralExpr)
+308 value='0'
+309 argument (FieldAccessExpr)
+310 name (SimpleName)
+311 identifier='errors'
+312 scope (NameExpr)
+313 name (SimpleName)
+314 identifier='s2'
+315 statement (ExpressionStmt)
+316 expression (MethodCallExpr)
+317 name (SimpleName)
+318 identifier='assertEquals'
+319 arguments
+320 argument (IntegerLiteralExpr)
+321 value='0'
+322 argument (FieldAccessExpr)
+323 name (SimpleName)
+324 identifier='completes'
+325 scope (NameExpr)
+326 name (SimpleName)
+327 identifier='s2'
+328 statement (ExpressionStmt)
+329 expression (MethodCallExpr)
+330 name (SimpleName)
+331 identifier='close'
+332 scope (NameExpr)
+333 name (SimpleName)
+334 identifier='p'
+335 type (VoidType)
+336 name (SimpleName)
+337 identifier='testSubscribe1'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+19 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+61 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+78 79
+79 80
+72 81
+81 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+122 125
+125 126
+126 127
+125 128
+128 129
+129 130
+2 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+135 138
+138 139
+139 140
+138 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+148 151
+151 152
+152 153
+151 154
+154 155
+155 156
+2 157
+157 158
+158 159
+159 160
+160 161
+161 162
+162 163
+163 164
+160 165
+165 166
+160 167
+167 168
+168 169
+2 170
+170 171
+171 172
+172 173
+171 174
+174 175
+175 176
+171 177
+177 178
+178 179
+179 180
+2 181
+181 182
+182 183
+183 184
+182 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+2 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+196 199
+199 200
+200 201
+199 202
+202 203
+203 204
+2 205
+205 206
+206 207
+207 208
+206 209
+209 210
+210 211
+211 212
+210 213
+213 214
+214 215
+213 216
+216 217
+217 218
+210 219
+219 220
+220 221
+221 222
+2 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+229 230
+228 231
+231 232
+232 233
+231 234
+234 235
+235 236
+228 237
+237 238
+238 239
+239 240
+2 241
+241 242
+242 243
+243 244
+242 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+246 252
+252 253
+253 254
+254 255
+2 256
+256 257
+257 258
+258 259
+257 260
+260 261
+261 262
+262 263
+261 264
+264 265
+265 266
+261 267
+267 268
+268 269
+269 270
+2 271
+271 272
+272 273
+273 274
+272 275
+275 276
+276 277
+2 278
+278 279
+279 280
+280 281
+279 282
+282 283
+283 284
+284 285
+283 286
+286 287
+287 288
+2 289
+289 290
+290 291
+291 292
+290 293
+293 294
+294 295
+293 296
+296 297
+297 298
+296 299
+299 300
+300 301
+2 302
+302 303
+303 304
+304 305
+303 306
+306 307
+307 308
+306 309
+309 310
+310 311
+309 312
+312 313
+313 314
+2 315
+315 316
+316 317
+317 318
+316 319
+319 320
+320 321
+319 322
+322 323
+323 324
+322 325
+325 326
+326 327
+2 328
+328 329
+329 330
+330 331
+329 332
+332 333
+333 334
+0 335
+0 336
+336 337
+
+Upon subscription, the subscriber's onSubscribe is called, no other Subscriber methods are invoked, the publisher hasSubscribers, isSubscribed is true, and existing subscriptions are unaffected.

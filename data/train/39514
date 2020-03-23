@@ -1,0 +1,118 @@
+58
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='cp'
+9 statement (ExpressionStmt)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='read'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='src'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='methodname'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='classnameMap'
+23 name (SimpleName)
+24 identifier='MethodInfo'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='cp'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='ConstPool'
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='methodname'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='src'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='MethodInfo'
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='classnameMap'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Map'
+54 thrownExceptions
+55 thrownException (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='BadBytecode'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+13 20
+20 21
+21 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+25 33
+33 34
+33 35
+35 36
+33 37
+37 38
+38 39
+25 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+25 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+0 54
+54 55
+55 56
+56 57
+
+Constructs a copy of <code>method_info</code> structure. Class names appearing in the source <code>method_info</code> are renamed according to <code>classnameMap</code>. <p> Note: only <code>Code</code> and <code>Exceptions</code> attributes are copied from the source. The other attributes are ignored.

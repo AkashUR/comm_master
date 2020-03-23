@@ -1,0 +1,68 @@
+33
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (CastExpr)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='create'
+10 scope (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='CacheFactory'
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='GemFireCacheImpl'
+17 name (SimpleName)
+18 identifier='RegionFactory'
+19 thrownExceptions
+20 thrownException (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='CacheWriterException'
+23 thrownException (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='RegionExistsException'
+26 thrownException (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='TimeoutException'
+29 annotations
+30 annotation (MarkerAnnotationExpr)
+31 name (Name)
+32 identifier='Deprecated'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+15 16
+0 17
+17 18
+0 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+19 26
+26 27
+27 28
+0 29
+29 30
+30 31
+31 32
+
+Constructs a RegionFactory by creating a DistributedSystem and a Cache. If no DistributedSystem exists it creates a DistributedSystem with default configuration, otherwise it uses the existing DistributedSystem. The default Region configuration is used.

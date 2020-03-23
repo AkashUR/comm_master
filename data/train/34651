@@ -1,0 +1,344 @@
+171
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getAlgorithm'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getInstance'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='AlgorithmFactory'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='name'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='properties'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='problem'
+26 name (SimpleName)
+27 identifier='algorithm'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Algorithm'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='assertTrue'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='Assert'
+38 arguments
+39 argument (InstanceOfExpr)
+40 expression (NameExpr)
+41 name (SimpleName)
+42 identifier='algorithm'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='JMetalAlgorithmAdapter'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='assertEquals'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='Assert'
+53 arguments
+54 argument (IntegerLiteralExpr)
+55 value='0'
+56 argument (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getNumberOfEvaluations'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='algorithm'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='assertEquals'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='Assert'
+69 arguments
+70 argument (IntegerLiteralExpr)
+71 value='0'
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='size'
+75 scope (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='getResult'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='algorithm'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='assertFalse'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='Assert'
+88 arguments
+89 argument (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='isTerminated'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='algorithm'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='step'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='algorithm'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='assertEquals'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='Assert'
+109 arguments
+110 argument (IntegerLiteralExpr)
+111 value='1000'
+112 argument (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='getNumberOfEvaluations'
+115 scope (NameExpr)
+116 name (SimpleName)
+117 identifier='algorithm'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='assertTrue'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='Assert'
+125 arguments
+126 argument (BinaryExpr)
+127 operator='GREATER'
+128 left (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='size'
+131 scope (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='getResult'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='algorithm'
+137 right (IntegerLiteralExpr)
+138 value='0'
+139 statement (ExpressionStmt)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='assertTrue'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='Assert'
+146 arguments
+147 argument (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='isTerminated'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='algorithm'
+153 type (VoidType)
+154 name (SimpleName)
+155 identifier='test'
+156 parameters
+157 parameter (Parameter)
+158 isVarArgs='false'
+159 name (SimpleName)
+160 identifier='name'
+161 type (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='String'
+164 parameter (Parameter)
+165 isVarArgs='false'
+166 name (SimpleName)
+167 identifier='problem'
+168 type (ClassOrInterfaceType)
+169 name (SimpleName)
+170 identifier='Problem'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+16 23
+23 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+69 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+103 109
+109 110
+110 111
+109 112
+112 113
+113 114
+112 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+119 125
+125 126
+126 127
+126 128
+128 129
+129 130
+128 131
+131 132
+132 133
+131 134
+134 135
+135 136
+126 137
+137 138
+2 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+0 153
+0 154
+154 155
+0 156
+156 157
+157 158
+157 159
+159 160
+157 161
+161 162
+162 163
+156 164
+164 165
+164 166
+166 167
+164 168
+168 169
+169 170
+
+Tests if the given JMetal algorithm operates correctly.

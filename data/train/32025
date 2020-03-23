@@ -1,0 +1,854 @@
+426
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='of'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='ImmutableMap'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getPath'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='DB_FILE'
+20 argument (StringLiteralExpr)
+21 value='{\"equivalences\":[], \"migrations\":[]}'
+22 argument (StringLiteralExpr)
+23 value='/dummy/codebase/int/1/file'
+24 argument (StringLiteralExpr)
+25 value='1'
+26 argument (StringLiteralExpr)
+27 value='/dummy/codebase/pub/1/file'
+28 argument (StringLiteralExpr)
+29 value='1 (equivalent)'
+30 argument (StringLiteralExpr)
+31 value='/dummy/codebase/int/migrated_from/file'
+32 argument (StringLiteralExpr)
+33 value='migrated_from'
+34 argument (StringLiteralExpr)
+35 value='/dummy/codebase/pub/migrated_to/'
+36 argument (StringLiteralExpr)
+37 value='dir (different)'
+38 name (SimpleName)
+39 identifier='files'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='ImmutableMap'
+43 typeArguments
+44 typeArgument (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='String'
+47 typeArgument (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='String'
+50 statement (ExpressionStmt)
+51 expression (VariableDeclarationExpr)
+52 variables
+53 variable (VariableDeclarator)
+54 initializer (ObjectCreationExpr)
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='InMemoryFileSystem'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='files'
+62 name (SimpleName)
+63 identifier='filesystem'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='FileSystem'
+67 statement (ExpressionStmt)
+68 expression (VariableDeclarationExpr)
+69 variables
+70 variable (VariableDeclarator)
+71 initializer (ObjectCreationExpr)
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='ConcreteFileDiffer'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='cmd'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='filesystem'
+82 name (SimpleName)
+83 identifier='fileDiffer'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='FileDiffer'
+87 statement (ExpressionStmt)
+88 expression (VariableDeclarationExpr)
+89 variables
+90 variable (VariableDeclarator)
+91 initializer (ObjectCreationExpr)
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='CodebaseDiffer'
+95 arguments
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='fileDiffer'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='filesystem'
+102 name (SimpleName)
+103 identifier='codebaseDiffer'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='CodebaseDiffer'
+107 statement (ExpressionStmt)
+108 expression (VariableDeclarationExpr)
+109 variables
+110 variable (VariableDeclarator)
+111 initializer (ObjectCreationExpr)
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='Repositories'
+115 arguments
+116 argument (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='of'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='ImmutableSet'
+122 arguments
+123 argument (ObjectCreationExpr)
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='DummyRepositoryFactory'
+127 typeArguments
+128 typeArgument (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='Factory'
+131 scope (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='RepositoryType'
+134 name (SimpleName)
+135 identifier='repositories'
+136 type (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='Repositories'
+139 statement (ExpressionStmt)
+140 expression (VariableDeclarationExpr)
+141 variables
+142 variable (VariableDeclarator)
+143 initializer (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='init'
+146 arguments
+147 argument (ObjectCreationExpr)
+148 type (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='InMemoryProjectContextFactory'
+151 arguments
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='ui'
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='repositories'
+158 name (SimpleName)
+159 identifier='contextFactory'
+160 type (ClassOrInterfaceType)
+161 name (SimpleName)
+162 identifier='InMemoryProjectContextFactory'
+163 statement (ExpressionStmt)
+164 expression (VariableDeclarationExpr)
+165 variables
+166 variable (VariableDeclarator)
+167 initializer (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='create'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='contextFactory'
+173 arguments
+174 argument (StringLiteralExpr)
+175 value='moe_config.txt'
+176 name (SimpleName)
+177 identifier='context'
+178 type (ClassOrInterfaceType)
+179 name (SimpleName)
+180 identifier='ProjectContext'
+181 statement (ExpressionStmt)
+182 expression (AssignExpr)
+183 operator='ASSIGN'
+184 target (FieldAccessExpr)
+185 name (SimpleName)
+186 identifier='INSTANCE'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='Injector'
+190 value (ObjectCreationExpr)
+191 type (ClassOrInterfaceType)
+192 name (SimpleName)
+193 identifier='Injector'
+194 arguments
+195 argument (NameExpr)
+196 name (SimpleName)
+197 identifier='filesystem'
+198 argument (NameExpr)
+199 name (SimpleName)
+200 identifier='cmd'
+201 argument (NameExpr)
+202 name (SimpleName)
+203 identifier='ui'
+204 statement (ExpressionStmt)
+205 expression (VariableDeclarationExpr)
+206 variables
+207 variable (VariableDeclarator)
+208 initializer (ObjectCreationExpr)
+209 type (ClassOrInterfaceType)
+210 name (SimpleName)
+211 identifier='FileDb'
+212 arguments
+213 argument (MethodCallExpr)
+214 name (SimpleName)
+215 identifier='getPath'
+216 scope (NameExpr)
+217 name (SimpleName)
+218 identifier='DB_FILE'
+219 argument (NameExpr)
+220 name (SimpleName)
+221 identifier='storage'
+222 argument (ObjectCreationExpr)
+223 type (ClassOrInterfaceType)
+224 name (SimpleName)
+225 identifier='Writer'
+226 scope (ClassOrInterfaceType)
+227 name (SimpleName)
+228 identifier='FileDb'
+229 arguments
+230 argument (MethodCallExpr)
+231 name (SimpleName)
+232 identifier='provideGson'
+233 scope (NameExpr)
+234 name (SimpleName)
+235 identifier='GsonModule'
+236 argument (NameExpr)
+237 name (SimpleName)
+238 identifier='filesystem'
+239 name (SimpleName)
+240 identifier='db'
+241 type (ClassOrInterfaceType)
+242 name (SimpleName)
+243 identifier='Db'
+244 statement (ExpressionStmt)
+245 expression (VariableDeclarationExpr)
+246 variables
+247 variable (VariableDeclarator)
+248 initializer (ObjectCreationExpr)
+249 type (ClassOrInterfaceType)
+250 name (SimpleName)
+251 identifier='BookkeepingDirective'
+252 arguments
+253 argument (ObjectCreationExpr)
+254 type (ClassOrInterfaceType)
+255 name (SimpleName)
+256 identifier='Bookkeeper'
+257 arguments
+258 argument (NameExpr)
+259 name (SimpleName)
+260 identifier='context'
+261 argument (NameExpr)
+262 name (SimpleName)
+263 identifier='codebaseDiffer'
+264 argument (NameExpr)
+265 name (SimpleName)
+266 identifier='db'
+267 argument (NameExpr)
+268 name (SimpleName)
+269 identifier='ui'
+270 name (SimpleName)
+271 identifier='d'
+272 type (ClassOrInterfaceType)
+273 name (SimpleName)
+274 identifier='BookkeepingDirective'
+275 statement (ExpressionStmt)
+276 expression (AssignExpr)
+277 operator='ASSIGN'
+278 target (FieldAccessExpr)
+279 name (SimpleName)
+280 identifier='dbLocation'
+281 scope (NameExpr)
+282 name (SimpleName)
+283 identifier='d'
+284 value (MethodCallExpr)
+285 name (SimpleName)
+286 identifier='getAbsolutePath'
+287 scope (NameExpr)
+288 name (SimpleName)
+289 identifier='DB_FILE'
+290 statement (ExpressionStmt)
+291 expression (MethodCallExpr)
+292 name (SimpleName)
+293 identifier='andReturn'
+294 scope (MethodCallExpr)
+295 name (SimpleName)
+296 identifier='expect'
+297 arguments
+298 argument (MethodCallExpr)
+299 name (SimpleName)
+300 identifier='runCommand'
+301 scope (NameExpr)
+302 name (SimpleName)
+303 identifier='cmd'
+304 arguments
+305 argument (StringLiteralExpr)
+306 value='diff'
+307 argument (MethodCallExpr)
+308 name (SimpleName)
+309 identifier='of'
+310 scope (NameExpr)
+311 name (SimpleName)
+312 identifier='ImmutableList'
+313 arguments
+314 argument (StringLiteralExpr)
+315 value='-N'
+316 argument (StringLiteralExpr)
+317 value='-u'
+318 argument (StringLiteralExpr)
+319 value='/dummy/codebase/int/1/file'
+320 argument (StringLiteralExpr)
+321 value='/dummy/codebase/pub/1/file'
+322 argument (StringLiteralExpr)
+323 value=''
+324 arguments
+325 argument (StringLiteralExpr)
+326 value='unused'
+327 statement (ExpressionStmt)
+328 expression (MethodCallExpr)
+329 name (SimpleName)
+330 identifier='replay'
+331 scope (NameExpr)
+332 name (SimpleName)
+333 identifier='control'
+334 statement (ExpressionStmt)
+335 expression (MethodCallExpr)
+336 name (SimpleName)
+337 identifier='assertEquals'
+338 arguments
+339 argument (IntegerLiteralExpr)
+340 value='0'
+341 argument (MethodCallExpr)
+342 name (SimpleName)
+343 identifier='perform'
+344 scope (NameExpr)
+345 name (SimpleName)
+346 identifier='d'
+347 statement (ExpressionStmt)
+348 expression (MethodCallExpr)
+349 name (SimpleName)
+350 identifier='verify'
+351 scope (NameExpr)
+352 name (SimpleName)
+353 identifier='control'
+354 statement (ExpressionStmt)
+355 expression (VariableDeclarationExpr)
+356 variables
+357 variable (VariableDeclarator)
+358 initializer (ObjectCreationExpr)
+359 type (ClassOrInterfaceType)
+360 name (SimpleName)
+361 identifier='DbStorage'
+362 name (SimpleName)
+363 identifier='expectedDb'
+364 type (ClassOrInterfaceType)
+365 name (SimpleName)
+366 identifier='DbStorage'
+367 statement (ExpressionStmt)
+368 expression (MethodCallExpr)
+369 name (SimpleName)
+370 identifier='addEquivalence'
+371 scope (NameExpr)
+372 name (SimpleName)
+373 identifier='expectedDb'
+374 arguments
+375 argument (MethodCallExpr)
+376 name (SimpleName)
+377 identifier='create'
+378 scope (NameExpr)
+379 name (SimpleName)
+380 identifier='RepositoryEquivalence'
+381 arguments
+382 argument (MethodCallExpr)
+383 name (SimpleName)
+384 identifier='create'
+385 scope (NameExpr)
+386 name (SimpleName)
+387 identifier='Revision'
+388 arguments
+389 argument (IntegerLiteralExpr)
+390 value='1'
+391 argument (StringLiteralExpr)
+392 value='int'
+393 argument (MethodCallExpr)
+394 name (SimpleName)
+395 identifier='create'
+396 scope (NameExpr)
+397 name (SimpleName)
+398 identifier='Revision'
+399 arguments
+400 argument (IntegerLiteralExpr)
+401 value='1'
+402 argument (StringLiteralExpr)
+403 value='pub'
+404 statement (ExpressionStmt)
+405 expression (MethodCallExpr)
+406 name (SimpleName)
+407 identifier='isEqualTo'
+408 scope (MethodCallExpr)
+409 name (SimpleName)
+410 identifier='assertThat'
+411 arguments
+412 argument (NameExpr)
+413 name (SimpleName)
+414 identifier='storage'
+415 arguments
+416 argument (NameExpr)
+417 name (SimpleName)
+418 identifier='expectedDb'
+419 type (VoidType)
+420 name (SimpleName)
+421 identifier='testHeadsEquivalent'
+422 thrownExceptions
+423 thrownException (ClassOrInterfaceType)
+424 name (SimpleName)
+425 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+13 22
+22 23
+13 24
+24 25
+13 26
+26 27
+13 28
+28 29
+13 30
+30 31
+13 32
+32 33
+13 34
+34 35
+13 36
+36 37
+6 38
+38 39
+6 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+60 61
+53 62
+62 63
+53 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+70 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+70 82
+82 83
+70 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+90 91
+91 92
+92 93
+93 94
+91 95
+95 96
+96 97
+97 98
+95 99
+99 100
+100 101
+90 102
+102 103
+90 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+110 111
+111 112
+112 113
+113 114
+111 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+116 122
+122 123
+123 124
+124 125
+125 126
+116 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+110 134
+134 135
+110 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+149 150
+147 151
+151 152
+152 153
+153 154
+151 155
+155 156
+156 157
+142 158
+158 159
+142 160
+160 161
+161 162
+2 163
+163 164
+164 165
+165 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+167 173
+173 174
+174 175
+166 176
+176 177
+166 178
+178 179
+179 180
+2 181
+181 182
+182 183
+182 184
+184 185
+185 186
+184 187
+187 188
+188 189
+182 190
+190 191
+191 192
+192 193
+190 194
+194 195
+195 196
+196 197
+194 198
+198 199
+199 200
+194 201
+201 202
+202 203
+2 204
+204 205
+205 206
+206 207
+207 208
+208 209
+209 210
+210 211
+208 212
+212 213
+213 214
+214 215
+213 216
+216 217
+217 218
+212 219
+219 220
+220 221
+212 222
+222 223
+223 224
+224 225
+223 226
+226 227
+227 228
+222 229
+229 230
+230 231
+231 232
+230 233
+233 234
+234 235
+229 236
+236 237
+237 238
+207 239
+239 240
+207 241
+241 242
+242 243
+2 244
+244 245
+245 246
+246 247
+247 248
+248 249
+249 250
+250 251
+248 252
+252 253
+253 254
+254 255
+255 256
+253 257
+257 258
+258 259
+259 260
+257 261
+261 262
+262 263
+257 264
+264 265
+265 266
+257 267
+267 268
+268 269
+247 270
+270 271
+247 272
+272 273
+273 274
+2 275
+275 276
+276 277
+276 278
+278 279
+279 280
+278 281
+281 282
+282 283
+276 284
+284 285
+285 286
+284 287
+287 288
+288 289
+2 290
+290 291
+291 292
+292 293
+291 294
+294 295
+295 296
+294 297
+297 298
+298 299
+299 300
+298 301
+301 302
+302 303
+298 304
+304 305
+305 306
+304 307
+307 308
+308 309
+307 310
+310 311
+311 312
+307 313
+313 314
+314 315
+313 316
+316 317
+313 318
+318 319
+313 320
+320 321
+304 322
+322 323
+291 324
+324 325
+325 326
+2 327
+327 328
+328 329
+329 330
+328 331
+331 332
+332 333
+2 334
+334 335
+335 336
+336 337
+335 338
+338 339
+339 340
+338 341
+341 342
+342 343
+341 344
+344 345
+345 346
+2 347
+347 348
+348 349
+349 350
+348 351
+351 352
+352 353
+2 354
+354 355
+355 356
+356 357
+357 358
+358 359
+359 360
+360 361
+357 362
+362 363
+357 364
+364 365
+365 366
+2 367
+367 368
+368 369
+369 370
+368 371
+371 372
+372 373
+368 374
+374 375
+375 376
+376 377
+375 378
+378 379
+379 380
+375 381
+381 382
+382 383
+383 384
+382 385
+385 386
+386 387
+382 388
+388 389
+389 390
+388 391
+391 392
+381 393
+393 394
+394 395
+393 396
+396 397
+397 398
+393 399
+399 400
+400 401
+399 402
+402 403
+2 404
+404 405
+405 406
+406 407
+405 408
+408 409
+409 410
+408 411
+411 412
+412 413
+413 414
+405 415
+415 416
+416 417
+417 418
+0 419
+0 420
+420 421
+0 422
+422 423
+423 424
+424 425
+
+Bookkeeping for codebases the same at head, different at migrated revs.

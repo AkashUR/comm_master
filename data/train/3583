@@ -1,0 +1,258 @@
+128
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getInstance'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='KeyPairGenerator'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='DSA'
+16 name (SimpleName)
+17 identifier='keyPairGenerator'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='KeyPairGenerator'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='initialize'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='keyPairGenerator'
+28 arguments
+29 argument (IntegerLiteralExpr)
+30 value='1024'
+31 statement (ExpressionStmt)
+32 expression (VariableDeclarationExpr)
+33 variables
+34 variable (VariableDeclarator)
+35 initializer (CastExpr)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getPublic'
+39 scope (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='genKeyPair'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='keyPairGenerator'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='DSAPublicKey'
+48 name (SimpleName)
+49 identifier='key'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='DSAPublicKey'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getParams'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='key'
+63 name (SimpleName)
+64 identifier='params'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='DSAParams'
+68 statement (ExpressionStmt)
+69 expression (VariableDeclarationExpr)
+70 variables
+71 variable (VariableDeclarator)
+72 initializer (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getInstance'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='KeyPairGenerator'
+78 arguments
+79 argument (StringLiteralExpr)
+80 value='DSA'
+81 name (SimpleName)
+82 identifier='keyPair'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='KeyPairGenerator'
+86 statement (ExpressionStmt)
+87 expression (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='initialize'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='keyPair'
+93 arguments
+94 argument (ObjectCreationExpr)
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='DSAParameterSpec'
+98 arguments
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getP'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='params'
+105 argument (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='getQ'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='params'
+111 argument (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='getG'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='params'
+117 argument (ObjectCreationExpr)
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='SecureRandom'
+121 type (VoidType)
+122 name (SimpleName)
+123 identifier='test_initializeLjava_security_spec_AlgorithmParameterSpecLjava_security_SecureRandom'
+124 thrownExceptions
+125 thrownException (ClassOrInterfaceType)
+126 name (SimpleName)
+127 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+39 42
+42 43
+43 44
+35 45
+45 46
+46 47
+34 48
+48 49
+34 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+56 63
+63 64
+56 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+71 81
+81 82
+71 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+87 93
+93 94
+94 95
+95 96
+96 97
+94 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+98 105
+105 106
+106 107
+105 108
+108 109
+109 110
+98 111
+111 112
+112 113
+111 114
+114 115
+115 116
+93 117
+117 118
+118 119
+119 120
+0 121
+0 122
+122 123
+0 124
+124 125
+125 126
+126 127
+
+java.security.KeyPairGenerator#initialize(java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom)

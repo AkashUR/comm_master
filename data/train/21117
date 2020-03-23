@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='log'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getBot'
+10 arguments
+11 argument (ThisExpr)
+12 argument (StringLiteralExpr)
+13 value='Aborting'
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='FINE'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Bot'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getShortTermMemory'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='activeMemory'
+29 scope (ThisExpr)
+30 value (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='LinkedList'
+34 typeArguments
+35 typeArgument (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Vertex'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='shortTermMemory'
+44 scope (ThisExpr)
+45 value (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='BasicNetwork'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='setBot'
+53 scope (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='shortTermMemory'
+56 scope (ThisExpr)
+57 arguments
+58 argument (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='getBot'
+61 type (VoidType)
+62 name (SimpleName)
+63 identifier='abort'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+10 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+18 19
+10 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+41 44
+39 45
+45 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+50 57
+57 58
+58 59
+59 60
+0 61
+0 62
+62 63
+
+Reset the short term and active memories. Revert to the long term state.

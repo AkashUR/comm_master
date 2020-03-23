@@ -1,0 +1,188 @@
+93
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='reassembledData'
+9 value (NullLiteralExpr)
+10 statement (ExpressionStmt)
+11 expression (AssignExpr)
+12 operator='ASSIGN'
+13 target (NameExpr)
+14 name (SimpleName)
+15 identifier='reassembledDataSize'
+16 value (NullLiteralExpr)
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='reassembledDataFullSize'
+23 value (IntegerLiteralExpr)
+24 value='0'
+25 statement (ExpressionStmt)
+26 expression (AssignExpr)
+27 operator='ASSIGN'
+28 target (NameExpr)
+29 name (SimpleName)
+30 identifier='reassembledDataHasStart'
+31 value (BooleanLiteralExpr)
+32 value='false'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='reassembledDataHasEnd'
+39 value (BooleanLiteralExpr)
+40 value='false'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (NameExpr)
+45 name (SimpleName)
+46 identifier='reassembledDataPosSeqStart'
+47 value (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='MAX_VALUE'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='Integer'
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='ASSIGN'
+56 target (NameExpr)
+57 name (SimpleName)
+58 identifier='reassembledDataPosSeqEnd'
+59 value (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='MIN_VALUE'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='Integer'
+65 statement (ExpressionStmt)
+66 expression (AssignExpr)
+67 operator='ASSIGN'
+68 target (NameExpr)
+69 name (SimpleName)
+70 identifier='reassembledDataNALHeader'
+71 value (IntegerLiteralExpr)
+72 value='0'
+73 statement (ExpressionStmt)
+74 expression (AssignExpr)
+75 operator='ASSIGN'
+76 target (NameExpr)
+77 name (SimpleName)
+78 identifier='timeStamp'
+79 value (UnaryExpr)
+80 operator='MINUS'
+81 expression (IntegerLiteralExpr)
+82 value='1'
+83 statement (ExpressionStmt)
+84 expression (AssignExpr)
+85 operator='ASSIGN'
+86 target (NameExpr)
+87 name (SimpleName)
+88 identifier='format'
+89 value (NullLiteralExpr)
+90 type (VoidType)
+91 name (SimpleName)
+92 identifier='reset'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+2 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+26 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+54 59
+59 60
+60 61
+59 62
+62 63
+63 64
+2 65
+65 66
+66 67
+66 68
+68 69
+69 70
+66 71
+71 72
+2 73
+73 74
+74 75
+74 76
+76 77
+77 78
+74 79
+79 80
+79 81
+81 82
+2 83
+83 84
+84 85
+84 86
+86 87
+87 88
+84 89
+0 90
+0 91
+91 92
+
+Reset the FrameAssembler It as package access instead of private for improved performance. See: http://developer.android.com/guide/practices/performance.html Consider Package Instead of Private Access with Private Inner Classes

@@ -1,0 +1,408 @@
+203
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='BasicUserNameMapper'
+11 name (SimpleName)
+12 identifier='mapper1'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='BasicUserNameMapper'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setMappings'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='mapper1'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='singletonMap'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Collections'
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='1'
+33 argument (StringLiteralExpr)
+34 value='101'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='KerberosUserNameMapper'
+43 name (SimpleName)
+44 identifier='mapper2'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='KerberosUserNameMapper'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='setInstance'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='mapper2'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='INSTANCE'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='setRealm'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='mapper2'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='REALM'
+70 statement (ExpressionStmt)
+71 expression (VariableDeclarationExpr)
+72 variables
+73 variable (VariableDeclarator)
+74 initializer (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='create'
+77 arguments
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='mapper1'
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='mapper2'
+84 name (SimpleName)
+85 identifier='mapper'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='ChainedUserNameMapper'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='assertEquals'
+93 arguments
+94 argument (BinaryExpr)
+95 operator='PLUS'
+96 left (BinaryExpr)
+97 operator='PLUS'
+98 left (BinaryExpr)
+99 operator='PLUS'
+100 left (BinaryExpr)
+101 operator='PLUS'
+102 left (StringLiteralExpr)
+103 value='101'
+104 right (StringLiteralExpr)
+105 value='/'
+106 right (NameExpr)
+107 name (SimpleName)
+108 identifier='INSTANCE'
+109 right (StringLiteralExpr)
+110 value='@'
+111 right (NameExpr)
+112 name (SimpleName)
+113 identifier='REALM'
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='map'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='mapper'
+120 arguments
+121 argument (StringLiteralExpr)
+122 value='1'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='assertEquals'
+127 arguments
+128 argument (BinaryExpr)
+129 operator='PLUS'
+130 left (BinaryExpr)
+131 operator='PLUS'
+132 left (BinaryExpr)
+133 operator='PLUS'
+134 left (BinaryExpr)
+135 operator='PLUS'
+136 left (StringLiteralExpr)
+137 value='2'
+138 right (StringLiteralExpr)
+139 value='/'
+140 right (NameExpr)
+141 name (SimpleName)
+142 identifier='INSTANCE'
+143 right (StringLiteralExpr)
+144 value='@'
+145 right (NameExpr)
+146 name (SimpleName)
+147 identifier='REALM'
+148 argument (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='map'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='mapper'
+154 arguments
+155 argument (StringLiteralExpr)
+156 value='2'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='assertEquals'
+161 arguments
+162 argument (BinaryExpr)
+163 operator='PLUS'
+164 left (BinaryExpr)
+165 operator='PLUS'
+166 left (BinaryExpr)
+167 operator='PLUS'
+168 left (BinaryExpr)
+169 operator='PLUS'
+170 left (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='fixUserName'
+173 scope (NameExpr)
+174 name (SimpleName)
+175 identifier='IgfsUtils'
+176 arguments
+177 argument (NullLiteralExpr)
+178 right (StringLiteralExpr)
+179 value='/'
+180 right (NameExpr)
+181 name (SimpleName)
+182 identifier='INSTANCE'
+183 right (StringLiteralExpr)
+184 value='@'
+185 right (NameExpr)
+186 name (SimpleName)
+187 identifier='REALM'
+188 argument (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='map'
+191 scope (NameExpr)
+192 name (SimpleName)
+193 identifier='mapper'
+194 arguments
+195 argument (NullLiteralExpr)
+196 type (VoidType)
+197 name (SimpleName)
+198 identifier='testChaining'
+199 thrownExceptions
+200 thrownException (ClassOrInterfaceType)
+201 name (SimpleName)
+202 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+30 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+38 43
+43 44
+38 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+79 80
+77 81
+81 82
+82 83
+73 84
+84 85
+73 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+94 96
+96 97
+96 98
+98 99
+98 100
+100 101
+100 102
+102 103
+100 104
+104 105
+98 106
+106 107
+107 108
+96 109
+109 110
+94 111
+111 112
+112 113
+93 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+128 130
+130 131
+130 132
+132 133
+132 134
+134 135
+134 136
+136 137
+134 138
+138 139
+132 140
+140 141
+141 142
+130 143
+143 144
+128 145
+145 146
+146 147
+127 148
+148 149
+149 150
+148 151
+151 152
+152 153
+148 154
+154 155
+155 156
+2 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+162 164
+164 165
+164 166
+166 167
+166 168
+168 169
+168 170
+170 171
+171 172
+170 173
+173 174
+174 175
+170 176
+176 177
+168 178
+178 179
+166 180
+180 181
+181 182
+164 183
+183 184
+162 185
+185 186
+186 187
+161 188
+188 189
+189 190
+188 191
+191 192
+192 193
+188 194
+194 195
+0 196
+0 197
+197 198
+0 199
+199 200
+200 201
+201 202
+
+Test actual chaining logic.

@@ -1,0 +1,224 @@
+111
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Simple'
+11 arguments
+12 argument (UnaryExpr)
+13 operator='MINUS'
+14 expression (IntegerLiteralExpr)
+15 value='1'
+16 argument (BooleanLiteralExpr)
+17 value='false'
+18 argument (BooleanLiteralExpr)
+19 value='false'
+20 argument (BooleanLiteralExpr)
+21 value='false'
+22 argument (BooleanLiteralExpr)
+23 value='false'
+24 name (SimpleName)
+25 identifier='simple'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Simple'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='perform'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='simple'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='ir'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='BranchOptimizations'
+48 arguments
+49 argument (IntegerLiteralExpr)
+50 value='0'
+51 argument (BooleanLiteralExpr)
+52 value='true'
+53 argument (BooleanLiteralExpr)
+54 value='true'
+55 name (SimpleName)
+56 identifier='branchOpt'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='BranchOptimizations'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='perform'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='branchOpt'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='ir'
+71 statement (ExpressionStmt)
+72 expression (AssignExpr)
+73 operator='ASSIGN'
+74 target (NameExpr)
+75 name (SimpleName)
+76 identifier='cbsReg'
+77 value (NullLiteralExpr)
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='recomputeSpansBasicBlock'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='DefUse'
+85 arguments
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='ir'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='recomputeSSA'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='DefUse'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='ir'
+100 type (VoidType)
+101 name (SimpleName)
+102 identifier='cleanUp'
+103 parameters
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='ir'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='IR'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+12 14
+14 15
+11 16
+16 17
+11 18
+18 19
+11 20
+20 21
+11 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+48 51
+51 52
+48 53
+53 54
+43 55
+55 56
+43 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+2 71
+71 72
+72 73
+72 74
+74 75
+75 76
+72 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+0 100
+0 101
+101 102
+0 103
+103 104
+104 105
+104 106
+106 107
+104 108
+108 109
+109 110
+
+Cleans up the IR after the transformation is applied.

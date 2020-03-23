@@ -1,0 +1,58 @@
+28
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (CastExpr)
+7 expression (NullLiteralExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='URI'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='p_uriSpec'
+14 name (SimpleName)
+15 identifier='URI'
+16 parameters
+17 parameter (Parameter)
+18 isVarArgs='false'
+19 name (SimpleName)
+20 identifier='p_uriSpec'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='String'
+24 thrownExceptions
+25 thrownException (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='MalformedURIException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+6 8
+8 9
+9 10
+5 11
+11 12
+12 13
+0 14
+14 15
+0 16
+16 17
+17 18
+17 19
+19 20
+17 21
+21 22
+22 23
+0 24
+24 25
+25 26
+26 27
+
+Construct a new URI from a URI specification string. If the specification follows the "generic URI" syntax, (two slashes following the first colon), the specification will be parsed accordingly - setting the scheme, userinfo, host,port, path, query string and fragment fields as necessary. If the specification does not follow the "generic URI" syntax, the specification is parsed into a scheme and scheme-specific part (stored as the path) only.

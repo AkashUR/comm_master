@@ -1,0 +1,220 @@
+109
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='android.intent.action.VIEW'
+14 name (SimpleName)
+15 identifier='intent'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Intent'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='addCategory'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='intent'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='android.intent.category.DEFAULT'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='addFlags'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='intent'
+36 arguments
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='FLAG_ACTIVITY_NEW_TASK'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='Intent'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='fromFile'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='Uri'
+53 arguments
+54 argument (ObjectCreationExpr)
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='File'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='imagePath'
+62 name (SimpleName)
+63 identifier='uri'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Uri'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='setDataAndType'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='intent'
+74 arguments
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='uri'
+78 argument (StringLiteralExpr)
+79 value='image/*'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='startActivity'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='mContext'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='intent'
+91 type (VoidType)
+92 name (SimpleName)
+93 identifier='openImage'
+94 parameters
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='mContext'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='Context'
+102 parameter (Parameter)
+103 isVarArgs='false'
+104 name (SimpleName)
+105 identifier='imagePath'
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+60 61
+46 62
+62 63
+46 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+68 74
+74 75
+75 76
+76 77
+74 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+0 91
+0 92
+92 93
+0 94
+94 95
+95 96
+95 97
+97 98
+95 99
+99 100
+100 101
+94 102
+102 103
+102 104
+104 105
+102 106
+106 107
+107 108
+
+use for open image from SDcard

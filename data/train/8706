@@ -1,0 +1,54 @@
+26
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='importedPackages'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='ArrayList'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='add'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='importedPackages'
+20 arguments
+21 argument (StringLiteralExpr)
+22 value='java.lang'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='clearImportedPackages'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+0 23
+0 24
+24 25
+
+Clear all the package names recorded by <code>importPackage()</code>. The <code>java.lang</code> package is not removed.

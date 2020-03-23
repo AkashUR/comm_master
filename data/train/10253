@@ -1,0 +1,16 @@
+7
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ReturnStmt)
+4 type (VoidType)
+5 name (SimpleName)
+6 identifier='notifyAll'
+0 1
+1 2
+2 3
+0 4
+0 5
+5 6
+
+Wakes up all threads that are waiting on this object's monitor. A thread waits on an object's monitor by calling one of the wait methods. The awakened threads will not be able to proceed until the current thread relinquishes the lock on this object. The awakened threads will compete in the usual manner with any other threads that might be actively competing to synchronize on this object; for example, the awakened threads enjoy no reliable privilege or disadvantage in being the next thread to lock this object. This method should only be called by a thread that is the owner of this object's monitor. See the notify method for a description of the ways in which a thread can become the owner of a monitor.

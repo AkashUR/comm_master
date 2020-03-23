@@ -1,0 +1,160 @@
+79
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='mechOid'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='mechOid'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (ObjectCreationExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='DerOutputStream'
+21 name (SimpleName)
+22 identifier='temp'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='DerOutputStream'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='putOID'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='temp'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='mechOid'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='mechOidBytes'
+43 value (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='toByteArray'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='temp'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='mechTokenLength'
+55 scope (ThisExpr)
+56 value (NameExpr)
+57 name (SimpleName)
+58 identifier='mechTokenLength'
+59 name (SimpleName)
+60 identifier='GSSHeader'
+61 parameters
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='mechOid'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='ObjectIdentifier'
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='mechTokenLength'
+73 type (PrimitiveType)
+74 type='INT'
+75 thrownExceptions
+76 thrownException (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+16 21
+21 22
+16 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+43 46
+46 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+52 55
+50 56
+56 57
+57 58
+0 59
+59 60
+0 61
+61 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+61 69
+69 70
+69 71
+71 72
+69 73
+73 74
+0 75
+75 76
+76 77
+77 78
+
+Creates a GSSHeader instance whose encoding can be used as the prefix for a particular mechanism token.

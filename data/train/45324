@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getLastNewData'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='testChildView'
+13 name (SimpleName)
+14 identifier='newData'
+15 type (ArrayType)
+16 origin='TYPE'
+17 componentType (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='EventBean'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getUnderlying'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='expectedValues'
+31 name (SimpleName)
+32 identifier='expectedUnderlying'
+33 type (ArrayType)
+34 origin='TYPE'
+35 componentType (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Object'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getUnderlying'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='newData'
+49 name (SimpleName)
+50 identifier='newUnderlying'
+51 type (ArrayType)
+52 origin='TYPE'
+53 componentType (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Object'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='assertEqualsExactOrder'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='EPAssertionUtil'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='expectedUnderlying'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='newUnderlying'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='clearLastNewData'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='testChildView'
+77 type (VoidType)
+78 name (SimpleName)
+79 identifier='checkNewDataUnderlying'
+80 parameters
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='testChildView'
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='SupportBaseView'
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='expectedValues'
+92 type (ArrayType)
+93 origin='TYPE'
+94 componentType (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='EventBean'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+15 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+23 31
+31 32
+23 33
+33 34
+33 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+41 49
+49 50
+41 51
+51 52
+51 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+0 77
+0 78
+78 79
+0 80
+80 81
+81 82
+81 83
+83 84
+81 85
+85 86
+86 87
+80 88
+88 89
+88 90
+90 91
+88 92
+92 93
+92 94
+94 95
+95 96
+
+Compare the new data underlying events underlying events captured by the child against expected values in the exact same order. Clears the last new data in the test child view after comparing.

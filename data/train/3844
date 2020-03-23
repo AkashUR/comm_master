@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='toString'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getText'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='mMessageText'
+16 name (SimpleName)
+17 identifier='msg'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='String'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='sendReliableMessage'
+25 scope (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='Connections'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='Nearby'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='mGoogleApiClient'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='mOtherEndpointId'
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getBytes'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='msg'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='setText'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='mMessageText'
+51 arguments
+52 argument (NullLiteralExpr)
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='sendMessage'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+22 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+31 38
+38 39
+39 40
+38 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+0 53
+0 54
+54 55
+
+Send a reliable message to the connected peer. Takes the contents of the EditText and sends the message as a byte[].

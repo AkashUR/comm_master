@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkArgument'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='isNotBlank'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='StringUtils'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='newNick'
+18 argument (StringLiteralExpr)
+19 value='Nick \'%s\' is blank'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='newNick'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='rawLine'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='sendRaw'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='bot'
+33 arguments
+34 argument (BinaryExpr)
+35 operator='PLUS'
+36 left (StringLiteralExpr)
+37 value='NICK '
+38 right (NameExpr)
+39 name (SimpleName)
+40 identifier='newNick'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='changeNick'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='newNick'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+16 17
+7 18
+18 19
+7 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+24 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+
+Attempt to change the current nick (nickname) of the bot when it is connected to an IRC server. After confirmation of a successful nick change, the getNick method will return the new nick.

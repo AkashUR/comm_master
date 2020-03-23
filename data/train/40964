@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='HostAddressService'
+11 arguments
+12 argument (BooleanLiteralExpr)
+13 value='true'
+14 name (SimpleName)
+15 identifier='has'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='HostAddressService'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setTimeout'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='has'
+26 arguments
+27 argument (IntegerLiteralExpr)
+28 value='2000'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getByName'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='HostAddressService'
+39 arguments
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='UNKNOWN_IP'
+43 name (SimpleName)
+44 identifier='address'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='HostAddress'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='doConcurrentPing'
+52 scope (ThisExpr)
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='has'
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='address'
+60 argument (IntegerLiteralExpr)
+61 value='10'
+62 argument (IntegerLiteralExpr)
+63 value='2'
+64 argument (BooleanLiteralExpr)
+65 value='false'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='testConcurrentUnknownHostPing'
+69 thrownExceptions
+70 thrownException (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+41 42
+32 43
+43 44
+32 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+49 53
+53 54
+54 55
+55 56
+53 57
+57 58
+58 59
+53 60
+60 61
+53 62
+62 63
+53 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+71 72
+
+Verify ability of multiple threads to issue localhost ping calls without serializing even when the ping call is to an unknown host.

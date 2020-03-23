@@ -1,0 +1,40 @@
+19
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NullLiteralExpr)
+7 argument (NameExpr)
+8 name (SimpleName)
+9 identifier='enforceReadWriteOrder'
+10 name (SimpleName)
+11 identifier='JsonSerializer'
+12 parameters
+13 parameter (Parameter)
+14 isVarArgs='false'
+15 name (SimpleName)
+16 identifier='enforceReadWriteOrder'
+17 type (PrimitiveType)
+18 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+5 7
+7 8
+8 9
+0 10
+10 11
+0 12
+12 13
+13 14
+13 15
+15 16
+13 17
+17 18
+
+Creates a default json serializer that can conditionally enforce forward-only reads. For performance reasons, this feature should not be used in production code.

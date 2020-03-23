@@ -1,0 +1,48 @@
+23
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertEquals'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='1'
+10 argument (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='regexQueryNrHits'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='4934[314]'
+16 type (VoidType)
+17 name (SimpleName)
+18 identifier='testBacktracking'
+19 thrownExceptions
+20 thrownException (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+0 16
+0 17
+17 18
+0 19
+19 20
+20 21
+21 22
+
+Test a corner case for backtracking: In this case the term dictionary has 493432 followed by 49344. When backtracking from 49343... to 4934, it's necessary to test that 4934 itself is ok before trying to append more characters.

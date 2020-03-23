@@ -1,0 +1,442 @@
+220
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (BinaryExpr)
+16 operator='PLUS'
+17 left (NameExpr)
+18 name (SimpleName)
+19 identifier='prefix'
+20 right (StringLiteralExpr)
+21 value='_'
+22 right (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='Name'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='g'
+28 right (StringLiteralExpr)
+29 value='_'
+30 right (NameExpr)
+31 name (SimpleName)
+32 identifier='suffix'
+33 right (StringLiteralExpr)
+34 value='.txt'
+35 name (SimpleName)
+36 identifier='name_rpu_data'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='String'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (ObjectCreationExpr)
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='LogicCircuit'
+48 name (SimpleName)
+49 identifier='lc'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='LogicCircuit'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='printLogicRPU'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='lc'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='g'
+67 name (SimpleName)
+68 identifier='rpu_data'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='String'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='fileWriter'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='Util'
+79 arguments
+80 argument (BinaryExpr)
+81 operator='PLUS'
+82 left (NameExpr)
+83 name (SimpleName)
+84 identifier='_output_directory'
+85 right (NameExpr)
+86 name (SimpleName)
+87 identifier='name_rpu_data'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='rpu_data'
+91 argument (BooleanLiteralExpr)
+92 value='false'
+93 statement (ExpressionStmt)
+94 expression (VariableDeclarationExpr)
+95 variables
+96 variable (VariableDeclarator)
+97 initializer (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='logicString'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='BooleanLogic'
+103 arguments
+104 argument (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='get_logics'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='g'
+110 name (SimpleName)
+111 identifier='logic_string'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='String'
+115 statement (ExpressionStmt)
+116 expression (AssignExpr)
+117 operator='ASSIGN'
+118 target (NameExpr)
+119 name (SimpleName)
+120 identifier='logic_string'
+121 value (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='replaceAll'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='logic_string'
+127 arguments
+128 argument (StringLiteralExpr)
+129 value='[^\\d.]'
+130 argument (StringLiteralExpr)
+131 value=''
+132 statement (ExpressionStmt)
+133 expression (VariableDeclarationExpr)
+134 variables
+135 variable (VariableDeclarator)
+136 initializer (BinaryExpr)
+137 operator='PLUS'
+138 left (BinaryExpr)
+139 operator='PLUS'
+140 left (BinaryExpr)
+141 operator='PLUS'
+142 left (BinaryExpr)
+143 operator='PLUS'
+144 left (BinaryExpr)
+145 operator='PLUS'
+146 left (BinaryExpr)
+147 operator='PLUS'
+148 left (BinaryExpr)
+149 operator='PLUS'
+150 left (BinaryExpr)
+151 operator='PLUS'
+152 left (BinaryExpr)
+153 operator='PLUS'
+154 left (StringLiteralExpr)
+155 value='perl '
+156 right (NameExpr)
+157 name (SimpleName)
+158 identifier='_home'
+159 right (StringLiteralExpr)
+160 value='/resources/scripts/make_gnuplot_truthtable.pl '
+161 right (NameExpr)
+162 name (SimpleName)
+163 identifier='_output_directory'
+164 right (StringLiteralExpr)
+165 value=' '
+166 right (NameExpr)
+167 name (SimpleName)
+168 identifier='_dateID'
+169 right (StringLiteralExpr)
+170 value=' '
+171 right (NameExpr)
+172 name (SimpleName)
+173 identifier='name_rpu_data'
+174 right (StringLiteralExpr)
+175 value=' '
+176 right (NameExpr)
+177 name (SimpleName)
+178 identifier='logic_string'
+179 name (SimpleName)
+180 identifier='cmd'
+181 type (ClassOrInterfaceType)
+182 name (SimpleName)
+183 identifier='String'
+184 statement (ExpressionStmt)
+185 expression (MethodCallExpr)
+186 name (SimpleName)
+187 identifier='executeCommand'
+188 scope (NameExpr)
+189 name (SimpleName)
+190 identifier='Util'
+191 arguments
+192 argument (NameExpr)
+193 name (SimpleName)
+194 identifier='cmd'
+195 type (VoidType)
+196 name (SimpleName)
+197 identifier='makeTruthtableBargraph'
+198 parameters
+199 parameter (Parameter)
+200 isVarArgs='false'
+201 name (SimpleName)
+202 identifier='g'
+203 type (ClassOrInterfaceType)
+204 name (SimpleName)
+205 identifier='Gate'
+206 parameter (Parameter)
+207 isVarArgs='false'
+208 name (SimpleName)
+209 identifier='prefix'
+210 type (ClassOrInterfaceType)
+211 name (SimpleName)
+212 identifier='String'
+213 parameter (Parameter)
+214 isVarArgs='false'
+215 name (SimpleName)
+216 identifier='suffix'
+217 type (ClassOrInterfaceType)
+218 name (SimpleName)
+219 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+13 22
+22 23
+23 24
+22 25
+25 26
+26 27
+11 28
+28 29
+9 30
+30 31
+31 32
+7 33
+33 34
+6 35
+35 36
+6 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+43 48
+48 49
+43 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+56 67
+67 68
+56 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+79 88
+88 89
+89 90
+79 91
+91 92
+2 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+96 110
+110 111
+96 112
+112 113
+113 114
+2 115
+115 116
+116 117
+116 118
+118 119
+119 120
+116 121
+121 122
+122 123
+121 124
+124 125
+125 126
+121 127
+127 128
+128 129
+127 130
+130 131
+2 132
+132 133
+133 134
+134 135
+135 136
+136 137
+136 138
+138 139
+138 140
+140 141
+140 142
+142 143
+142 144
+144 145
+144 146
+146 147
+146 148
+148 149
+148 150
+150 151
+150 152
+152 153
+152 154
+154 155
+152 156
+156 157
+157 158
+150 159
+159 160
+148 161
+161 162
+162 163
+146 164
+164 165
+144 166
+166 167
+167 168
+142 169
+169 170
+140 171
+171 172
+172 173
+138 174
+174 175
+136 176
+176 177
+177 178
+135 179
+179 180
+135 181
+181 182
+182 183
+2 184
+184 185
+185 186
+186 187
+185 188
+188 189
+189 190
+185 191
+191 192
+192 193
+193 194
+0 195
+0 196
+196 197
+0 198
+198 199
+199 200
+199 201
+201 202
+199 203
+203 204
+204 205
+198 206
+206 207
+206 208
+208 209
+206 210
+210 211
+211 212
+198 213
+213 214
+213 215
+215 216
+213 217
+217 218
+218 219
+
+Synopsis    [  ] Bar graph with blue ON bars and red OFF bars for the output gate(s)

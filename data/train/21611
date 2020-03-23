@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='throwIfInstance'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='ex'
+11 argument (ClassExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='RuntimeException'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='throwIfInstance'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='ex'
+23 argument (ClassExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Error'
+27 statement (ThrowStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='createPalantirRuntimeException'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='ex'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='RuntimeException'
+38 name (SimpleName)
+39 identifier='throwUncheckedException'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='ex'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+0 35
+35 36
+36 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+
+If Throwable is a RuntimeException or Error, rethrow it. If not, throw a new PalantirRuntimeException(ex)

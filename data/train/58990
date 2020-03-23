@@ -1,0 +1,34 @@
+16
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='exit'
+7 scope (EnclosedExpr)
+8 inner (CastExpr)
+9 expression (ThisExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='PApplet'
+13 type (VoidType)
+14 name (SimpleName)
+15 identifier='destroy'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+0 13
+0 14
+14 15
+
+Called by the browser or applet viewer to inform this applet that it is being reclaimed and that it should destroy any resources that it has allocated. <p/> This also attempts to call PApplet.stop(), in case there was an inadvertent override of the stop() function by a user. <p/> destroy() supposedly gets called as the applet viewer is shutting down the applet. stop() is called first, and then destroy() to really get rid of things. no guarantees on when they're run (on browser quit, or when moving between pages), though.

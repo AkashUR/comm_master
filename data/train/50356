@@ -1,0 +1,32 @@
+15
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='removeOldPersistentTokens'
+5 annotations
+6 annotation (NormalAnnotationExpr)
+7 name (Name)
+8 identifier='Scheduled'
+9 pairs
+10 pair (MemberValuePair)
+11 name (SimpleName)
+12 identifier='cron'
+13 value (StringLiteralExpr)
+14 value='0 0 0 * * ?'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+11 12
+10 13
+13 14
+
+Persistent Token are used for providing automatic authentication, they should be automatically deleted after 30 days. <p> This is scheduled to get fired everyday, at midnight. </p>

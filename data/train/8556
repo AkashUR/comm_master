@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='mockMethodMultiplePermissions'
+5 parameters
+6 parameter (Parameter)
+7 isVarArgs='false'
+8 name (SimpleName)
+9 identifier='namespace'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='String'
+13 annotations
+14 annotation (NormalAnnotationExpr)
+15 name (Name)
+16 identifier='NamespacePermission'
+17 pairs
+18 pair (MemberValuePair)
+19 name (SimpleName)
+20 identifier='fields'
+21 value (StringLiteralExpr)
+22 value='#namespace'
+23 pair (MemberValuePair)
+24 name (SimpleName)
+25 identifier='permissions'
+26 value (ArrayInitializerExpr)
+27 values
+28 value (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='READ'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='NamespacePermissionEnum'
+34 value (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='WRITE'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='NamespacePermissionEnum'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+0 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+18 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+27 34
+34 35
+35 36
+34 37
+37 38
+38 39
+
+Do not invoke this method. This method is a test input for reflection related tests. A case which the current user requires multiple permissions on the same namespace to access.

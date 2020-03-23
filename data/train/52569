@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='prepare'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='setProperties'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='ps'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='decodeParams'
+19 arguments
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getParams'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='ps'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='rs'
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='executeQuery'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='ps'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='notifyRowSetChanged'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='execute'
+45 thrownExceptions
+46 thrownException (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+32 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+47 48
+
+Creates the internal <code>ResultSet</code> object for which this <code>JdbcRowSet</code> object is a wrapper, effectively making the result set a JavaBeans component. <P> Certain properties must have been set before this method is called so that it can establish a connection to a database and execute the query that will create the result set.  If a <code>DataSource</code> object will be used to create the connection, properties for the data source name, user name, and password must be set.  If the <code>DriverManager</code> will be used, the properties for the URL, user name, and password must be set.  In either case, the property for the command must be set.  If the command has placeholder parameters, those must also be set. This method throws an exception if the required properties are not set. <P> Other properties have default values that may optionally be set to new values. The <code>execute</code> method will use the value for the command property to create a <code>PreparedStatement</code> object and set its properties (escape processing, maximum field size, maximum number of rows, and query timeout limit) to be those of this rowset.

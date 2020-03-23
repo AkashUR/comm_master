@@ -1,0 +1,1116 @@
+557
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getParser'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='MockAnalyzer'
+15 arguments
+16 argument (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='random'
+19 argument (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='WHITESPACE'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='MockTokenizer'
+25 argument (BooleanLiteralExpr)
+26 value='false'
+27 name (SimpleName)
+28 identifier='parser'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='PrecedenceQueryParser'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='parse'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='parser'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='A AND B OR C AND D'
+45 argument (StringLiteralExpr)
+46 value='field'
+47 name (SimpleName)
+48 identifier='query1'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Query'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='parse'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='parser'
+62 arguments
+63 argument (StringLiteralExpr)
+64 value='(A AND B) OR (C AND D)'
+65 argument (StringLiteralExpr)
+66 value='field'
+67 name (SimpleName)
+68 identifier='query2'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Query'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='assertEquals'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='query1'
+80 argument (NameExpr)
+81 name (SimpleName)
+82 identifier='query2'
+83 statement (ExpressionStmt)
+84 expression (AssignExpr)
+85 operator='ASSIGN'
+86 target (NameExpr)
+87 name (SimpleName)
+88 identifier='query1'
+89 value (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='parse'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='parser'
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='A OR B C'
+98 argument (StringLiteralExpr)
+99 value='field'
+100 statement (ExpressionStmt)
+101 expression (AssignExpr)
+102 operator='ASSIGN'
+103 target (NameExpr)
+104 name (SimpleName)
+105 identifier='query2'
+106 value (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='parse'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='parser'
+112 arguments
+113 argument (StringLiteralExpr)
+114 value='(A B) C'
+115 argument (StringLiteralExpr)
+116 value='field'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='assertEquals'
+121 arguments
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='query1'
+125 argument (NameExpr)
+126 name (SimpleName)
+127 identifier='query2'
+128 statement (ExpressionStmt)
+129 expression (AssignExpr)
+130 operator='ASSIGN'
+131 target (NameExpr)
+132 name (SimpleName)
+133 identifier='query1'
+134 value (MethodCallExpr)
+135 name (SimpleName)
+136 identifier='parse'
+137 scope (NameExpr)
+138 name (SimpleName)
+139 identifier='parser'
+140 arguments
+141 argument (StringLiteralExpr)
+142 value='A AND B C'
+143 argument (StringLiteralExpr)
+144 value='field'
+145 statement (ExpressionStmt)
+146 expression (AssignExpr)
+147 operator='ASSIGN'
+148 target (NameExpr)
+149 name (SimpleName)
+150 identifier='query2'
+151 value (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='parse'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='parser'
+157 arguments
+158 argument (StringLiteralExpr)
+159 value='(+A +B) C'
+160 argument (StringLiteralExpr)
+161 value='field'
+162 statement (ExpressionStmt)
+163 expression (MethodCallExpr)
+164 name (SimpleName)
+165 identifier='assertEquals'
+166 arguments
+167 argument (NameExpr)
+168 name (SimpleName)
+169 identifier='query1'
+170 argument (NameExpr)
+171 name (SimpleName)
+172 identifier='query2'
+173 statement (ExpressionStmt)
+174 expression (AssignExpr)
+175 operator='ASSIGN'
+176 target (NameExpr)
+177 name (SimpleName)
+178 identifier='query1'
+179 value (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='parse'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='parser'
+185 arguments
+186 argument (StringLiteralExpr)
+187 value='A AND NOT B'
+188 argument (StringLiteralExpr)
+189 value='field'
+190 statement (ExpressionStmt)
+191 expression (AssignExpr)
+192 operator='ASSIGN'
+193 target (NameExpr)
+194 name (SimpleName)
+195 identifier='query2'
+196 value (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='parse'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='parser'
+202 arguments
+203 argument (StringLiteralExpr)
+204 value='+A -B'
+205 argument (StringLiteralExpr)
+206 value='field'
+207 statement (ExpressionStmt)
+208 expression (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='assertEquals'
+211 arguments
+212 argument (NameExpr)
+213 name (SimpleName)
+214 identifier='query1'
+215 argument (NameExpr)
+216 name (SimpleName)
+217 identifier='query2'
+218 statement (ExpressionStmt)
+219 expression (AssignExpr)
+220 operator='ASSIGN'
+221 target (NameExpr)
+222 name (SimpleName)
+223 identifier='query1'
+224 value (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='parse'
+227 scope (NameExpr)
+228 name (SimpleName)
+229 identifier='parser'
+230 arguments
+231 argument (StringLiteralExpr)
+232 value='A OR NOT B'
+233 argument (StringLiteralExpr)
+234 value='field'
+235 statement (ExpressionStmt)
+236 expression (AssignExpr)
+237 operator='ASSIGN'
+238 target (NameExpr)
+239 name (SimpleName)
+240 identifier='query2'
+241 value (MethodCallExpr)
+242 name (SimpleName)
+243 identifier='parse'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='parser'
+247 arguments
+248 argument (StringLiteralExpr)
+249 value='A -B'
+250 argument (StringLiteralExpr)
+251 value='field'
+252 statement (ExpressionStmt)
+253 expression (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='assertEquals'
+256 arguments
+257 argument (NameExpr)
+258 name (SimpleName)
+259 identifier='query1'
+260 argument (NameExpr)
+261 name (SimpleName)
+262 identifier='query2'
+263 statement (ExpressionStmt)
+264 expression (AssignExpr)
+265 operator='ASSIGN'
+266 target (NameExpr)
+267 name (SimpleName)
+268 identifier='query1'
+269 value (MethodCallExpr)
+270 name (SimpleName)
+271 identifier='parse'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='parser'
+275 arguments
+276 argument (StringLiteralExpr)
+277 value='A OR NOT B AND C'
+278 argument (StringLiteralExpr)
+279 value='field'
+280 statement (ExpressionStmt)
+281 expression (AssignExpr)
+282 operator='ASSIGN'
+283 target (NameExpr)
+284 name (SimpleName)
+285 identifier='query2'
+286 value (MethodCallExpr)
+287 name (SimpleName)
+288 identifier='parse'
+289 scope (NameExpr)
+290 name (SimpleName)
+291 identifier='parser'
+292 arguments
+293 argument (StringLiteralExpr)
+294 value='A (-B +C)'
+295 argument (StringLiteralExpr)
+296 value='field'
+297 statement (ExpressionStmt)
+298 expression (MethodCallExpr)
+299 name (SimpleName)
+300 identifier='assertEquals'
+301 arguments
+302 argument (NameExpr)
+303 name (SimpleName)
+304 identifier='query1'
+305 argument (NameExpr)
+306 name (SimpleName)
+307 identifier='query2'
+308 statement (ExpressionStmt)
+309 expression (MethodCallExpr)
+310 name (SimpleName)
+311 identifier='setDefaultOperator'
+312 scope (NameExpr)
+313 name (SimpleName)
+314 identifier='parser'
+315 arguments
+316 argument (FieldAccessExpr)
+317 name (SimpleName)
+318 identifier='AND'
+319 scope (FieldAccessExpr)
+320 name (SimpleName)
+321 identifier='Operator'
+322 scope (NameExpr)
+323 name (SimpleName)
+324 identifier='StandardQueryConfigHandler'
+325 statement (ExpressionStmt)
+326 expression (AssignExpr)
+327 operator='ASSIGN'
+328 target (NameExpr)
+329 name (SimpleName)
+330 identifier='query1'
+331 value (MethodCallExpr)
+332 name (SimpleName)
+333 identifier='parse'
+334 scope (NameExpr)
+335 name (SimpleName)
+336 identifier='parser'
+337 arguments
+338 argument (StringLiteralExpr)
+339 value='A AND B OR C AND D'
+340 argument (StringLiteralExpr)
+341 value='field'
+342 statement (ExpressionStmt)
+343 expression (AssignExpr)
+344 operator='ASSIGN'
+345 target (NameExpr)
+346 name (SimpleName)
+347 identifier='query2'
+348 value (MethodCallExpr)
+349 name (SimpleName)
+350 identifier='parse'
+351 scope (NameExpr)
+352 name (SimpleName)
+353 identifier='parser'
+354 arguments
+355 argument (StringLiteralExpr)
+356 value='(A AND B) OR (C AND D)'
+357 argument (StringLiteralExpr)
+358 value='field'
+359 statement (ExpressionStmt)
+360 expression (MethodCallExpr)
+361 name (SimpleName)
+362 identifier='assertEquals'
+363 arguments
+364 argument (NameExpr)
+365 name (SimpleName)
+366 identifier='query1'
+367 argument (NameExpr)
+368 name (SimpleName)
+369 identifier='query2'
+370 statement (ExpressionStmt)
+371 expression (AssignExpr)
+372 operator='ASSIGN'
+373 target (NameExpr)
+374 name (SimpleName)
+375 identifier='query1'
+376 value (MethodCallExpr)
+377 name (SimpleName)
+378 identifier='parse'
+379 scope (NameExpr)
+380 name (SimpleName)
+381 identifier='parser'
+382 arguments
+383 argument (StringLiteralExpr)
+384 value='A AND B C'
+385 argument (StringLiteralExpr)
+386 value='field'
+387 statement (ExpressionStmt)
+388 expression (AssignExpr)
+389 operator='ASSIGN'
+390 target (NameExpr)
+391 name (SimpleName)
+392 identifier='query2'
+393 value (MethodCallExpr)
+394 name (SimpleName)
+395 identifier='parse'
+396 scope (NameExpr)
+397 name (SimpleName)
+398 identifier='parser'
+399 arguments
+400 argument (StringLiteralExpr)
+401 value='(A B) C'
+402 argument (StringLiteralExpr)
+403 value='field'
+404 statement (ExpressionStmt)
+405 expression (MethodCallExpr)
+406 name (SimpleName)
+407 identifier='assertEquals'
+408 arguments
+409 argument (NameExpr)
+410 name (SimpleName)
+411 identifier='query1'
+412 argument (NameExpr)
+413 name (SimpleName)
+414 identifier='query2'
+415 statement (ExpressionStmt)
+416 expression (AssignExpr)
+417 operator='ASSIGN'
+418 target (NameExpr)
+419 name (SimpleName)
+420 identifier='query1'
+421 value (MethodCallExpr)
+422 name (SimpleName)
+423 identifier='parse'
+424 scope (NameExpr)
+425 name (SimpleName)
+426 identifier='parser'
+427 arguments
+428 argument (StringLiteralExpr)
+429 value='A AND B C'
+430 argument (StringLiteralExpr)
+431 value='field'
+432 statement (ExpressionStmt)
+433 expression (AssignExpr)
+434 operator='ASSIGN'
+435 target (NameExpr)
+436 name (SimpleName)
+437 identifier='query2'
+438 value (MethodCallExpr)
+439 name (SimpleName)
+440 identifier='parse'
+441 scope (NameExpr)
+442 name (SimpleName)
+443 identifier='parser'
+444 arguments
+445 argument (StringLiteralExpr)
+446 value='(+A +B) C'
+447 argument (StringLiteralExpr)
+448 value='field'
+449 statement (ExpressionStmt)
+450 expression (MethodCallExpr)
+451 name (SimpleName)
+452 identifier='assertEquals'
+453 arguments
+454 argument (NameExpr)
+455 name (SimpleName)
+456 identifier='query1'
+457 argument (NameExpr)
+458 name (SimpleName)
+459 identifier='query2'
+460 statement (ExpressionStmt)
+461 expression (AssignExpr)
+462 operator='ASSIGN'
+463 target (NameExpr)
+464 name (SimpleName)
+465 identifier='query1'
+466 value (MethodCallExpr)
+467 name (SimpleName)
+468 identifier='parse'
+469 scope (NameExpr)
+470 name (SimpleName)
+471 identifier='parser'
+472 arguments
+473 argument (StringLiteralExpr)
+474 value='A AND NOT B'
+475 argument (StringLiteralExpr)
+476 value='field'
+477 statement (ExpressionStmt)
+478 expression (AssignExpr)
+479 operator='ASSIGN'
+480 target (NameExpr)
+481 name (SimpleName)
+482 identifier='query2'
+483 value (MethodCallExpr)
+484 name (SimpleName)
+485 identifier='parse'
+486 scope (NameExpr)
+487 name (SimpleName)
+488 identifier='parser'
+489 arguments
+490 argument (StringLiteralExpr)
+491 value='+A -B'
+492 argument (StringLiteralExpr)
+493 value='field'
+494 statement (ExpressionStmt)
+495 expression (MethodCallExpr)
+496 name (SimpleName)
+497 identifier='assertEquals'
+498 arguments
+499 argument (NameExpr)
+500 name (SimpleName)
+501 identifier='query1'
+502 argument (NameExpr)
+503 name (SimpleName)
+504 identifier='query2'
+505 statement (ExpressionStmt)
+506 expression (AssignExpr)
+507 operator='ASSIGN'
+508 target (NameExpr)
+509 name (SimpleName)
+510 identifier='query1'
+511 value (MethodCallExpr)
+512 name (SimpleName)
+513 identifier='parse'
+514 scope (NameExpr)
+515 name (SimpleName)
+516 identifier='parser'
+517 arguments
+518 argument (StringLiteralExpr)
+519 value='A AND NOT B OR C'
+520 argument (StringLiteralExpr)
+521 value='field'
+522 statement (ExpressionStmt)
+523 expression (AssignExpr)
+524 operator='ASSIGN'
+525 target (NameExpr)
+526 name (SimpleName)
+527 identifier='query2'
+528 value (MethodCallExpr)
+529 name (SimpleName)
+530 identifier='parse'
+531 scope (NameExpr)
+532 name (SimpleName)
+533 identifier='parser'
+534 arguments
+535 argument (StringLiteralExpr)
+536 value='(+A -B) OR C'
+537 argument (StringLiteralExpr)
+538 value='field'
+539 statement (ExpressionStmt)
+540 expression (MethodCallExpr)
+541 name (SimpleName)
+542 identifier='assertEquals'
+543 arguments
+544 argument (NameExpr)
+545 name (SimpleName)
+546 identifier='query1'
+547 argument (NameExpr)
+548 name (SimpleName)
+549 identifier='query2'
+550 type (VoidType)
+551 name (SimpleName)
+552 identifier='testPrecedence'
+553 thrownExceptions
+554 thrownException (ClassOrInterfaceType)
+555 name (SimpleName)
+556 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+19 22
+22 23
+23 24
+15 25
+25 26
+6 27
+27 28
+6 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+42 45
+45 46
+35 47
+47 48
+35 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+62 65
+65 66
+55 67
+67 68
+55 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+2 83
+83 84
+84 85
+84 86
+86 87
+87 88
+84 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+95 98
+98 99
+2 100
+100 101
+101 102
+101 103
+103 104
+104 105
+101 106
+106 107
+107 108
+106 109
+109 110
+110 111
+106 112
+112 113
+113 114
+112 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+123 124
+121 125
+125 126
+126 127
+2 128
+128 129
+129 130
+129 131
+131 132
+132 133
+129 134
+134 135
+135 136
+134 137
+137 138
+138 139
+134 140
+140 141
+141 142
+140 143
+143 144
+2 145
+145 146
+146 147
+146 148
+148 149
+149 150
+146 151
+151 152
+152 153
+151 154
+154 155
+155 156
+151 157
+157 158
+158 159
+157 160
+160 161
+2 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+168 169
+166 170
+170 171
+171 172
+2 173
+173 174
+174 175
+174 176
+176 177
+177 178
+174 179
+179 180
+180 181
+179 182
+182 183
+183 184
+179 185
+185 186
+186 187
+185 188
+188 189
+2 190
+190 191
+191 192
+191 193
+193 194
+194 195
+191 196
+196 197
+197 198
+196 199
+199 200
+200 201
+196 202
+202 203
+203 204
+202 205
+205 206
+2 207
+207 208
+208 209
+209 210
+208 211
+211 212
+212 213
+213 214
+211 215
+215 216
+216 217
+2 218
+218 219
+219 220
+219 221
+221 222
+222 223
+219 224
+224 225
+225 226
+224 227
+227 228
+228 229
+224 230
+230 231
+231 232
+230 233
+233 234
+2 235
+235 236
+236 237
+236 238
+238 239
+239 240
+236 241
+241 242
+242 243
+241 244
+244 245
+245 246
+241 247
+247 248
+248 249
+247 250
+250 251
+2 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+258 259
+256 260
+260 261
+261 262
+2 263
+263 264
+264 265
+264 266
+266 267
+267 268
+264 269
+269 270
+270 271
+269 272
+272 273
+273 274
+269 275
+275 276
+276 277
+275 278
+278 279
+2 280
+280 281
+281 282
+281 283
+283 284
+284 285
+281 286
+286 287
+287 288
+286 289
+289 290
+290 291
+286 292
+292 293
+293 294
+292 295
+295 296
+2 297
+297 298
+298 299
+299 300
+298 301
+301 302
+302 303
+303 304
+301 305
+305 306
+306 307
+2 308
+308 309
+309 310
+310 311
+309 312
+312 313
+313 314
+309 315
+315 316
+316 317
+317 318
+316 319
+319 320
+320 321
+319 322
+322 323
+323 324
+2 325
+325 326
+326 327
+326 328
+328 329
+329 330
+326 331
+331 332
+332 333
+331 334
+334 335
+335 336
+331 337
+337 338
+338 339
+337 340
+340 341
+2 342
+342 343
+343 344
+343 345
+345 346
+346 347
+343 348
+348 349
+349 350
+348 351
+351 352
+352 353
+348 354
+354 355
+355 356
+354 357
+357 358
+2 359
+359 360
+360 361
+361 362
+360 363
+363 364
+364 365
+365 366
+363 367
+367 368
+368 369
+2 370
+370 371
+371 372
+371 373
+373 374
+374 375
+371 376
+376 377
+377 378
+376 379
+379 380
+380 381
+376 382
+382 383
+383 384
+382 385
+385 386
+2 387
+387 388
+388 389
+388 390
+390 391
+391 392
+388 393
+393 394
+394 395
+393 396
+396 397
+397 398
+393 399
+399 400
+400 401
+399 402
+402 403
+2 404
+404 405
+405 406
+406 407
+405 408
+408 409
+409 410
+410 411
+408 412
+412 413
+413 414
+2 415
+415 416
+416 417
+416 418
+418 419
+419 420
+416 421
+421 422
+422 423
+421 424
+424 425
+425 426
+421 427
+427 428
+428 429
+427 430
+430 431
+2 432
+432 433
+433 434
+433 435
+435 436
+436 437
+433 438
+438 439
+439 440
+438 441
+441 442
+442 443
+438 444
+444 445
+445 446
+444 447
+447 448
+2 449
+449 450
+450 451
+451 452
+450 453
+453 454
+454 455
+455 456
+453 457
+457 458
+458 459
+2 460
+460 461
+461 462
+461 463
+463 464
+464 465
+461 466
+466 467
+467 468
+466 469
+469 470
+470 471
+466 472
+472 473
+473 474
+472 475
+475 476
+2 477
+477 478
+478 479
+478 480
+480 481
+481 482
+478 483
+483 484
+484 485
+483 486
+486 487
+487 488
+483 489
+489 490
+490 491
+489 492
+492 493
+2 494
+494 495
+495 496
+496 497
+495 498
+498 499
+499 500
+500 501
+498 502
+502 503
+503 504
+2 505
+505 506
+506 507
+506 508
+508 509
+509 510
+506 511
+511 512
+512 513
+511 514
+514 515
+515 516
+511 517
+517 518
+518 519
+517 520
+520 521
+2 522
+522 523
+523 524
+523 525
+525 526
+526 527
+523 528
+528 529
+529 530
+528 531
+531 532
+532 533
+528 534
+534 535
+535 536
+534 537
+537 538
+2 539
+539 540
+540 541
+541 542
+540 543
+543 544
+544 545
+545 546
+543 547
+547 548
+548 549
+0 550
+0 551
+551 552
+0 553
+553 554
+554 555
+555 556
+
+This test differs from the original QueryParser, showing how the precedence issue has been corrected.

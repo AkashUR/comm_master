@@ -1,0 +1,250 @@
+124
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createInstance'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='CimObjectPathCreator'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='OBJ_PATH_CLASS_NAME'
+17 name (SimpleName)
+18 identifier='objPath'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='CIMObjectPath'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (ArrayCreationExpr)
+27 elementType (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='CIMProperty'
+30 levels
+31 level (ArrayCreationLevel)
+32 dimension (IntegerLiteralExpr)
+33 value='0'
+34 name (SimpleName)
+35 identifier='properties'
+36 type (ArrayType)
+37 origin='TYPE'
+38 componentType (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='CIMProperty'
+41 statement (ExpressionStmt)
+42 expression (AssignExpr)
+43 operator='ASSIGN'
+44 target (NameExpr)
+45 name (SimpleName)
+46 identifier='_instance'
+47 value (ObjectCreationExpr)
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='CIMInstance'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='objPath'
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='properties'
+58 statement (ExpressionStmt)
+59 expression (VariableDeclarationExpr)
+60 variables
+61 variable (VariableDeclarator)
+62 initializer (ObjectCreationExpr)
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='CimQueuedIndication'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='INDICATION_URL'
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='_instance'
+73 name (SimpleName)
+74 identifier='indication'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='CimQueuedIndication'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='assertEquals'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='Assert'
+85 arguments
+86 argument (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='getURL'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='indication'
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='INDICATION_URL'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='assertEquals'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='Assert'
+102 arguments
+103 argument (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='getIndication'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='indication'
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='_instance'
+112 type (VoidType)
+113 name (SimpleName)
+114 identifier='testCimQueuedIndication'
+115 annotations
+116 annotation (SingleMemberAnnotationExpr)
+117 memberValue (StringLiteralExpr)
+118 value='rawtypes'
+119 name (Name)
+120 identifier='SuppressWarnings'
+121 annotation (MarkerAnnotationExpr)
+122 name (Name)
+123 identifier='Test'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+25 34
+34 35
+25 36
+36 37
+36 38
+38 39
+39 40
+2 41
+41 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+68 69
+66 70
+70 71
+71 72
+61 73
+73 74
+61 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+85 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+102 109
+109 110
+110 111
+0 112
+0 113
+113 114
+0 115
+115 116
+116 117
+117 118
+116 119
+119 120
+115 121
+121 122
+122 123
+
+Tests the CimQueuedIndication class.

@@ -1,0 +1,204 @@
+101
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='IgfsPath'
+11 arguments
+12 argument (BinaryExpr)
+13 operator='PLUS'
+14 left (StringLiteralExpr)
+15 value='/'
+16 right (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='name'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='FILE_NEW'
+22 name (SimpleName)
+23 identifier='file'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='IgfsPath'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='create'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='igfs'
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='paths'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='DIR_NEW'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='SUBDIR_NEW'
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='paths'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='file'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='rename'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='igfs'
+59 arguments
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='file'
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='FILE_NEW'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='checkExist'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='igfs'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='igfsSecondary'
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='FILE_NEW'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='checkNotExist'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='igfs'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='igfsSecondary'
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='file'
+94 type (VoidType)
+95 name (SimpleName)
+96 identifier='testMoveRenameFileSourceParentRoot'
+97 thrownExceptions
+98 thrownException (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+12 14
+14 15
+12 16
+16 17
+17 18
+16 19
+19 20
+20 21
+6 22
+22 23
+6 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+31 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+59 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+72 73
+70 74
+74 75
+75 76
+70 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+84 91
+91 92
+92 93
+0 94
+0 95
+95 96
+0 97
+97 98
+98 99
+99 100
+
+Test file move and rename when source parent is the root.

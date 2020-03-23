@@ -1,0 +1,106 @@
+52
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 statement (ExpressionStmt)
+6 expression (VariableDeclarationExpr)
+7 variables
+8 variable (VariableDeclarator)
+9 initializer (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='iterator'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='suffixes'
+15 name (SimpleName)
+16 identifier='iter'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Iterator'
+20 statement (WhileStmt)
+21 body (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='addPatternBackward'
+25 arguments
+26 argument (CastExpr)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='next'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='iter'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='String'
+36 condition (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='hasNext'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='iter'
+42 name (SimpleName)
+43 identifier='SuffixStringMatcher'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='suffixes'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Collection'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+8 15
+15 16
+8 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+34 35
+20 36
+36 37
+37 38
+36 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+
+Creates a new <code>PrefixStringMatcher</code> which will match <code>String</code>s with any suffix in the supplied <code>Collection</code>

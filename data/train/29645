@@ -1,0 +1,58 @@
+28
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='retrying'
+9 value (BooleanLiteralExpr)
+10 value='true'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='addToQueue'
+15 scope (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='getInstance'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='NetworkManager'
+21 arguments
+22 argument (ThisExpr)
+23 argument (BooleanLiteralExpr)
+24 value='true'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='retry'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+19 20
+12 21
+21 22
+21 23
+23 24
+0 25
+0 26
+26 27
+
+Retry the current operation in case of an exception

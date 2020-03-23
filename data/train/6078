@@ -1,0 +1,66 @@
+32
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='status'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='upgradeTo'
+13 scope (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='status'
+16 scope (ThisExpr)
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='status'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='upgradeStatus'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='status'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='BatchStatus'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+10 17
+17 18
+18 19
+19 20
+0 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+30 31
+
+Upgrade the status field if the provided value is greater than the existing one. Clients using this method to set the status can be sure that they don't overwrite a failed status with an successful one.

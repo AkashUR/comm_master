@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mController'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='attachFragmentUi'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='mController'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='mMockFragmentUi'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='post'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='mFakeEventBus'
+28 arguments
+29 argument (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='SyncSucceededEvent'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='emptyTree'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='FakeAppLocationTreeFactory'
+43 name (SimpleName)
+44 identifier='locationTree'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='LocationTree'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='post'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='mFakeEventBus'
+55 arguments
+56 argument (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='AppLocationTreeFetchedEvent'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='locationTree'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='assertTrue'
+68 arguments
+69 argument (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='isSyncActive'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='mFakeSyncManager'
+75 type (VoidType)
+76 name (SimpleName)
+77 identifier='testFetchingIncompleteLocationTree_causesNewSync'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+36 43
+43 44
+36 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+0 75
+0 76
+76 77
+
+Tests that loading an empty location tree results in a new sync if sync has completed.

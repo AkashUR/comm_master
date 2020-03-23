@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='message'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='format'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='MessageFormat'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='message'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='args'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='log'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='LogUtils'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='log'
+33 argument (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='ERROR'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='IStatus'
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='OK'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='IStatus'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='message'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='exception'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='logError'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='exception'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Throwable'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='message'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='String'
+69 parameter (Parameter)
+70 isVarArgs='true'
+71 name (SimpleName)
+72 identifier='args'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+33 36
+36 37
+37 38
+29 39
+39 40
+40 41
+39 42
+42 43
+43 44
+29 45
+45 46
+46 47
+29 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+54 69
+69 70
+69 71
+71 72
+69 73
+73 74
+74 75
+
+Log the specified error.

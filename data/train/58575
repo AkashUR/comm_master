@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mObjectGraph'
+9 value (ConditionalExpr)
+10 condition (BinaryExpr)
+11 operator='NOT_EQUALS'
+12 left (NameExpr)
+13 name (SimpleName)
+14 identifier='module'
+15 right (NullLiteralExpr)
+16 elseExpr (NullLiteralExpr)
+17 thenExpr (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='create'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='ObjectGraph'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='module'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='initObjectGraph'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='module'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+10 12
+12 13
+13 14
+10 15
+9 16
+9 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+
+Initialize the Dagger module. Passing null or mock modules can be used for testing.

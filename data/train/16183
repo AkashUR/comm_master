@@ -1,0 +1,44 @@
+21
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkState'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='clearWarnings'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='rs'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='clearWarnings'
+17 thrownExceptions
+18 thrownException (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+19 20
+
+Clears all warnings reported on this rowset's <code>ResultSet</code> object. After this method is called, the method <code>getWarnings</code> returns <code>null</code> until a new warning is reported for this rowset's <code>ResultSet</code> object.

@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getRuntimeInfoInJSONFormat'
+10 name (SimpleName)
+11 identifier='json'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='String'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='BufferedWriter'
+23 arguments
+24 argument (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='FileWriter'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='fileName'
+32 name (SimpleName)
+33 identifier='bw'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='BufferedWriter'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='write'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='bw'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='json'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='close'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='bw'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='saveRuntimeInfoInJSONFormat'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='fileName'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='String'
+66 thrownExceptions
+67 thrownException (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='DMLRuntimeException'
+70 thrownException (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+18 32
+32 33
+18 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+0 66
+66 67
+67 68
+68 69
+66 70
+70 71
+71 72
+
+Useful to avoid passing large String through Py4J

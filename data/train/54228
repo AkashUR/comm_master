@@ -1,0 +1,894 @@
+446
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Capture'
+11 typeArguments
+12 typeArgument (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='ContentObserver'
+15 name (SimpleName)
+16 identifier='observerCapture'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='Capture'
+20 typeArguments
+21 typeArgument (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='ContentObserver'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='registerContentObserver'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='dataSource'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='eq'
+35 arguments
+36 argument (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='CONTENT_URI'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='TrackPointsColumns'
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='capture'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='observerCapture'
+49 statement (ExpressionStmt)
+50 expression (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 initializer (ObjectCreationExpr)
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='FixedSizeLocationIterator'
+57 arguments
+58 argument (IntegerLiteralExpr)
+59 value='1'
+60 argument (IntegerLiteralExpr)
+61 value='10'
+62 argument (IntegerLiteralExpr)
+63 value='5'
+64 name (SimpleName)
+65 identifier='locationIterator'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='FixedSizeLocationIterator'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='andReturn'
+73 scope (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='expect'
+76 arguments
+77 argument (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='getTrackPointLocationIterator'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='myTracksProviderUtils'
+83 arguments
+84 argument (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='eq'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='TRACK_ID'
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='eq'
+94 arguments
+95 argument (LongLiteralExpr)
+96 value='0L'
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='eq'
+100 arguments
+101 argument (BooleanLiteralExpr)
+102 value='false'
+103 argument (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='isA'
+106 arguments
+107 argument (ClassExpr)
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='LocationFactory'
+111 arguments
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='locationIterator'
+115 statement (ExpressionStmt)
+116 expression (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='andReturn'
+119 scope (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='expect'
+122 arguments
+123 argument (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='getLastTrackPointId'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='myTracksProviderUtils'
+129 arguments
+130 argument (NameExpr)
+131 name (SimpleName)
+132 identifier='TRACK_ID'
+133 arguments
+134 argument (LongLiteralExpr)
+135 value='10L'
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='clearTrackPoints'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='trackDataListener1'
+143 statement (ExpressionStmt)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='expectLocationsDelivered'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='locationIterator'
+150 arguments
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='trackDataListener1'
+154 statement (ExpressionStmt)
+155 expression (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='onNewTrackPointsDone'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='trackDataListener1'
+161 statement (ExpressionStmt)
+162 expression (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='replay'
+165 statement (ExpressionStmt)
+166 expression (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='start'
+169 scope (NameExpr)
+170 name (SimpleName)
+171 identifier='trackDataHub'
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='loadTrack'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='trackDataHub'
+179 arguments
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='TRACK_ID'
+183 statement (ExpressionStmt)
+184 expression (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='registerTrackDataListener'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='trackDataHub'
+190 arguments
+191 argument (NameExpr)
+192 name (SimpleName)
+193 identifier='trackDataListener1'
+194 argument (MethodCallExpr)
+195 name (SimpleName)
+196 identifier='of'
+197 scope (NameExpr)
+198 name (SimpleName)
+199 identifier='EnumSet'
+200 arguments
+201 argument (FieldAccessExpr)
+202 name (SimpleName)
+203 identifier='SAMPLED_IN_TRACK_POINTS_TABLE'
+204 scope (NameExpr)
+205 name (SimpleName)
+206 identifier='TrackDataType'
+207 statement (ExpressionStmt)
+208 expression (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='verifyAndReset'
+211 statement (ExpressionStmt)
+212 expression (VariableDeclarationExpr)
+213 variables
+214 variable (VariableDeclarator)
+215 initializer (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='getValue'
+218 scope (NameExpr)
+219 name (SimpleName)
+220 identifier='observerCapture'
+221 name (SimpleName)
+222 identifier='observer'
+223 type (ClassOrInterfaceType)
+224 name (SimpleName)
+225 identifier='ContentObserver'
+226 statement (ExpressionStmt)
+227 expression (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='unregisterContentObserver'
+230 scope (NameExpr)
+231 name (SimpleName)
+232 identifier='dataSource'
+233 arguments
+234 argument (NameExpr)
+235 name (SimpleName)
+236 identifier='observer'
+237 statement (ExpressionStmt)
+238 expression (MethodCallExpr)
+239 name (SimpleName)
+240 identifier='replay'
+241 statement (ExpressionStmt)
+242 expression (MethodCallExpr)
+243 name (SimpleName)
+244 identifier='unregisterTrackDataListener'
+245 scope (NameExpr)
+246 name (SimpleName)
+247 identifier='trackDataHub'
+248 arguments
+249 argument (NameExpr)
+250 name (SimpleName)
+251 identifier='trackDataListener1'
+252 statement (ExpressionStmt)
+253 expression (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='verifyAndReset'
+256 statement (ExpressionStmt)
+257 expression (MethodCallExpr)
+258 name (SimpleName)
+259 identifier='registerContentObserver'
+260 scope (NameExpr)
+261 name (SimpleName)
+262 identifier='dataSource'
+263 arguments
+264 argument (MethodCallExpr)
+265 name (SimpleName)
+266 identifier='eq'
+267 arguments
+268 argument (FieldAccessExpr)
+269 name (SimpleName)
+270 identifier='CONTENT_URI'
+271 scope (NameExpr)
+272 name (SimpleName)
+273 identifier='TrackPointsColumns'
+274 argument (MethodCallExpr)
+275 name (SimpleName)
+276 identifier='capture'
+277 arguments
+278 argument (NameExpr)
+279 name (SimpleName)
+280 identifier='observerCapture'
+281 statement (ExpressionStmt)
+282 expression (AssignExpr)
+283 operator='ASSIGN'
+284 target (NameExpr)
+285 name (SimpleName)
+286 identifier='locationIterator'
+287 value (ObjectCreationExpr)
+288 type (ClassOrInterfaceType)
+289 name (SimpleName)
+290 identifier='FixedSizeLocationIterator'
+291 arguments
+292 argument (IntegerLiteralExpr)
+293 value='1'
+294 argument (IntegerLiteralExpr)
+295 value='10'
+296 statement (ExpressionStmt)
+297 expression (MethodCallExpr)
+298 name (SimpleName)
+299 identifier='andReturn'
+300 scope (MethodCallExpr)
+301 name (SimpleName)
+302 identifier='expect'
+303 arguments
+304 argument (MethodCallExpr)
+305 name (SimpleName)
+306 identifier='getTrackPointLocationIterator'
+307 scope (NameExpr)
+308 name (SimpleName)
+309 identifier='myTracksProviderUtils'
+310 arguments
+311 argument (MethodCallExpr)
+312 name (SimpleName)
+313 identifier='eq'
+314 arguments
+315 argument (BinaryExpr)
+316 operator='PLUS'
+317 left (NameExpr)
+318 name (SimpleName)
+319 identifier='TRACK_ID'
+320 right (IntegerLiteralExpr)
+321 value='1'
+322 argument (MethodCallExpr)
+323 name (SimpleName)
+324 identifier='eq'
+325 arguments
+326 argument (LongLiteralExpr)
+327 value='0L'
+328 argument (MethodCallExpr)
+329 name (SimpleName)
+330 identifier='eq'
+331 arguments
+332 argument (BooleanLiteralExpr)
+333 value='false'
+334 argument (MethodCallExpr)
+335 name (SimpleName)
+336 identifier='isA'
+337 arguments
+338 argument (ClassExpr)
+339 type (ClassOrInterfaceType)
+340 name (SimpleName)
+341 identifier='LocationFactory'
+342 arguments
+343 argument (NameExpr)
+344 name (SimpleName)
+345 identifier='locationIterator'
+346 statement (ExpressionStmt)
+347 expression (MethodCallExpr)
+348 name (SimpleName)
+349 identifier='andReturn'
+350 scope (MethodCallExpr)
+351 name (SimpleName)
+352 identifier='expect'
+353 arguments
+354 argument (MethodCallExpr)
+355 name (SimpleName)
+356 identifier='getLastTrackPointId'
+357 scope (NameExpr)
+358 name (SimpleName)
+359 identifier='myTracksProviderUtils'
+360 arguments
+361 argument (BinaryExpr)
+362 operator='PLUS'
+363 left (NameExpr)
+364 name (SimpleName)
+365 identifier='TRACK_ID'
+366 right (IntegerLiteralExpr)
+367 value='1'
+368 arguments
+369 argument (LongLiteralExpr)
+370 value='10L'
+371 statement (ExpressionStmt)
+372 expression (MethodCallExpr)
+373 name (SimpleName)
+374 identifier='clearTrackPoints'
+375 scope (NameExpr)
+376 name (SimpleName)
+377 identifier='trackDataListener1'
+378 statement (ExpressionStmt)
+379 expression (MethodCallExpr)
+380 name (SimpleName)
+381 identifier='expectLocationsDelivered'
+382 scope (NameExpr)
+383 name (SimpleName)
+384 identifier='locationIterator'
+385 arguments
+386 argument (NameExpr)
+387 name (SimpleName)
+388 identifier='trackDataListener1'
+389 statement (ExpressionStmt)
+390 expression (MethodCallExpr)
+391 name (SimpleName)
+392 identifier='onNewTrackPointsDone'
+393 scope (NameExpr)
+394 name (SimpleName)
+395 identifier='trackDataListener1'
+396 statement (ExpressionStmt)
+397 expression (MethodCallExpr)
+398 name (SimpleName)
+399 identifier='replay'
+400 statement (ExpressionStmt)
+401 expression (MethodCallExpr)
+402 name (SimpleName)
+403 identifier='loadTrack'
+404 scope (NameExpr)
+405 name (SimpleName)
+406 identifier='trackDataHub'
+407 arguments
+408 argument (BinaryExpr)
+409 operator='PLUS'
+410 left (NameExpr)
+411 name (SimpleName)
+412 identifier='TRACK_ID'
+413 right (IntegerLiteralExpr)
+414 value='1'
+415 statement (ExpressionStmt)
+416 expression (MethodCallExpr)
+417 name (SimpleName)
+418 identifier='registerTrackDataListener'
+419 scope (NameExpr)
+420 name (SimpleName)
+421 identifier='trackDataHub'
+422 arguments
+423 argument (NameExpr)
+424 name (SimpleName)
+425 identifier='trackDataListener1'
+426 argument (MethodCallExpr)
+427 name (SimpleName)
+428 identifier='of'
+429 scope (NameExpr)
+430 name (SimpleName)
+431 identifier='EnumSet'
+432 arguments
+433 argument (FieldAccessExpr)
+434 name (SimpleName)
+435 identifier='SAMPLED_IN_TRACK_POINTS_TABLE'
+436 scope (NameExpr)
+437 name (SimpleName)
+438 identifier='TrackDataType'
+439 statement (ExpressionStmt)
+440 expression (MethodCallExpr)
+441 name (SimpleName)
+442 identifier='verifyAndReset'
+443 type (VoidType)
+444 name (SimpleName)
+445 identifier='testTrackPointsTableUpdate_reRegisterAfterTrackChange'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+31 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+53 57
+57 58
+58 59
+57 60
+60 61
+57 62
+62 63
+52 64
+64 65
+52 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+73 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+77 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+89 90
+83 91
+91 92
+92 93
+91 94
+94 95
+95 96
+83 97
+97 98
+98 99
+97 100
+100 101
+101 102
+83 103
+103 104
+104 105
+103 106
+106 107
+107 108
+108 109
+109 110
+70 111
+111 112
+112 113
+113 114
+2 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+119 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+131 132
+116 133
+133 134
+134 135
+2 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+2 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+152 153
+2 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+2 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+173 179
+179 180
+180 181
+181 182
+2 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+184 190
+190 191
+191 192
+192 193
+190 194
+194 195
+195 196
+194 197
+197 198
+198 199
+194 200
+200 201
+201 202
+202 203
+201 204
+204 205
+205 206
+2 207
+207 208
+208 209
+209 210
+2 211
+211 212
+212 213
+213 214
+214 215
+215 216
+216 217
+215 218
+218 219
+219 220
+214 221
+221 222
+214 223
+223 224
+224 225
+2 226
+226 227
+227 228
+228 229
+227 230
+230 231
+231 232
+227 233
+233 234
+234 235
+235 236
+2 237
+237 238
+238 239
+239 240
+2 241
+241 242
+242 243
+243 244
+242 245
+245 246
+246 247
+242 248
+248 249
+249 250
+250 251
+2 252
+252 253
+253 254
+254 255
+2 256
+256 257
+257 258
+258 259
+257 260
+260 261
+261 262
+257 263
+263 264
+264 265
+265 266
+264 267
+267 268
+268 269
+269 270
+268 271
+271 272
+272 273
+263 274
+274 275
+275 276
+274 277
+277 278
+278 279
+279 280
+2 281
+281 282
+282 283
+282 284
+284 285
+285 286
+282 287
+287 288
+288 289
+289 290
+287 291
+291 292
+292 293
+291 294
+294 295
+2 296
+296 297
+297 298
+298 299
+297 300
+300 301
+301 302
+300 303
+303 304
+304 305
+305 306
+304 307
+307 308
+308 309
+304 310
+310 311
+311 312
+312 313
+311 314
+314 315
+315 316
+315 317
+317 318
+318 319
+315 320
+320 321
+310 322
+322 323
+323 324
+322 325
+325 326
+326 327
+310 328
+328 329
+329 330
+328 331
+331 332
+332 333
+310 334
+334 335
+335 336
+334 337
+337 338
+338 339
+339 340
+340 341
+297 342
+342 343
+343 344
+344 345
+2 346
+346 347
+347 348
+348 349
+347 350
+350 351
+351 352
+350 353
+353 354
+354 355
+355 356
+354 357
+357 358
+358 359
+354 360
+360 361
+361 362
+361 363
+363 364
+364 365
+361 366
+366 367
+347 368
+368 369
+369 370
+2 371
+371 372
+372 373
+373 374
+372 375
+375 376
+376 377
+2 378
+378 379
+379 380
+380 381
+379 382
+382 383
+383 384
+379 385
+385 386
+386 387
+387 388
+2 389
+389 390
+390 391
+391 392
+390 393
+393 394
+394 395
+2 396
+396 397
+397 398
+398 399
+2 400
+400 401
+401 402
+402 403
+401 404
+404 405
+405 406
+401 407
+407 408
+408 409
+408 410
+410 411
+411 412
+408 413
+413 414
+2 415
+415 416
+416 417
+417 418
+416 419
+419 420
+420 421
+416 422
+422 423
+423 424
+424 425
+422 426
+426 427
+427 428
+426 429
+429 430
+430 431
+426 432
+432 433
+433 434
+434 435
+433 436
+436 437
+437 438
+2 439
+439 440
+440 441
+441 442
+0 443
+0 444
+444 445
+
+Tests tracks point able change. Register a listener after a track change.

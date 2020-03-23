@@ -1,0 +1,642 @@
+320
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='_dialog'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='JDialog'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='_editor'
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getMessage'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='Bundle'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='title'
+27 argument (BooleanLiteralExpr)
+28 value='true'
+29 statement (ExpressionStmt)
+30 expression (VariableDeclarationExpr)
+31 variables
+32 variable (VariableDeclarator)
+33 initializer (ObjectCreationExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='JPanel'
+37 name (SimpleName)
+38 identifier='panel'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='JPanel'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='setLayout'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='panel'
+49 arguments
+50 argument (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='BorderLayout'
+54 arguments
+55 argument (IntegerLiteralExpr)
+56 value='10'
+57 argument (IntegerLiteralExpr)
+58 value='10'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (ObjectCreationExpr)
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='JPanel'
+67 name (SimpleName)
+68 identifier='mainPanel'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='JPanel'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='setLayout'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='mainPanel'
+79 arguments
+80 argument (ObjectCreationExpr)
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='BoxLayout'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='mainPanel'
+88 argument (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='Y_AXIS'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='BoxLayout'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='add'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='mainPanel'
+101 arguments
+102 argument (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='createVerticalStrut'
+105 scope (NameExpr)
+106 name (SimpleName)
+107 identifier='Box'
+108 arguments
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='STRUT_SIZE'
+112 statement (ExpressionStmt)
+113 expression (VariableDeclarationExpr)
+114 variables
+115 variable (VariableDeclarator)
+116 initializer (ObjectCreationExpr)
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='JPanel'
+120 name (SimpleName)
+121 identifier='p'
+122 type (ClassOrInterfaceType)
+123 name (SimpleName)
+124 identifier='JPanel'
+125 statement (ExpressionStmt)
+126 expression (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='add'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='p'
+132 arguments
+133 argument (ObjectCreationExpr)
+134 type (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='JLabel'
+137 arguments
+138 argument (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='getMessage'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='Bundle'
+144 arguments
+145 argument (StringLiteralExpr)
+146 value='selectOBlock'
+147 statement (ExpressionStmt)
+148 expression (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='add'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='mainPanel'
+154 arguments
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='p'
+158 statement (ExpressionStmt)
+159 expression (AssignExpr)
+160 operator='ASSIGN'
+161 target (NameExpr)
+162 name (SimpleName)
+163 identifier='_oblockModel'
+164 value (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='oBlockPickModelInstance'
+167 scope (NameExpr)
+168 name (SimpleName)
+169 identifier='PickListModel'
+170 statement (ExpressionStmt)
+171 expression (VariableDeclarationExpr)
+172 variables
+173 variable (VariableDeclarator)
+174 initializer (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='makePickTable'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='_oblockModel'
+180 name (SimpleName)
+181 identifier='table'
+182 type (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='JTable'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='add'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='mainPanel'
+192 arguments
+193 argument (ObjectCreationExpr)
+194 type (ClassOrInterfaceType)
+195 name (SimpleName)
+196 identifier='JScrollPane'
+197 arguments
+198 argument (NameExpr)
+199 name (SimpleName)
+200 identifier='table'
+201 statement (ExpressionStmt)
+202 expression (MethodCallExpr)
+203 name (SimpleName)
+204 identifier='add'
+205 scope (NameExpr)
+206 name (SimpleName)
+207 identifier='mainPanel'
+208 arguments
+209 argument (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='createVerticalStrut'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='Box'
+215 arguments
+216 argument (NameExpr)
+217 name (SimpleName)
+218 identifier='STRUT_SIZE'
+219 statement (ExpressionStmt)
+220 expression (MethodCallExpr)
+221 name (SimpleName)
+222 identifier='add'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='mainPanel'
+226 arguments
+227 argument (MethodCallExpr)
+228 name (SimpleName)
+229 identifier='makeDoneButtonPanel'
+230 arguments
+231 argument (BooleanLiteralExpr)
+232 value='false'
+233 statement (ExpressionStmt)
+234 expression (MethodCallExpr)
+235 name (SimpleName)
+236 identifier='add'
+237 scope (NameExpr)
+238 name (SimpleName)
+239 identifier='panel'
+240 arguments
+241 argument (NameExpr)
+242 name (SimpleName)
+243 identifier='mainPanel'
+244 statement (ExpressionStmt)
+245 expression (MethodCallExpr)
+246 name (SimpleName)
+247 identifier='add'
+248 scope (MethodCallExpr)
+249 name (SimpleName)
+250 identifier='getContentPane'
+251 scope (NameExpr)
+252 name (SimpleName)
+253 identifier='_dialog'
+254 arguments
+255 argument (NameExpr)
+256 name (SimpleName)
+257 identifier='panel'
+258 statement (ExpressionStmt)
+259 expression (MethodCallExpr)
+260 name (SimpleName)
+261 identifier='setLocation'
+262 scope (NameExpr)
+263 name (SimpleName)
+264 identifier='_dialog'
+265 arguments
+266 argument (BinaryExpr)
+267 operator='PLUS'
+268 left (FieldAccessExpr)
+269 name (SimpleName)
+270 identifier='x'
+271 scope (MethodCallExpr)
+272 name (SimpleName)
+273 identifier='getLocation'
+274 scope (NameExpr)
+275 name (SimpleName)
+276 identifier='_editor'
+277 right (IntegerLiteralExpr)
+278 value='100'
+279 argument (BinaryExpr)
+280 operator='PLUS'
+281 left (FieldAccessExpr)
+282 name (SimpleName)
+283 identifier='y'
+284 scope (MethodCallExpr)
+285 name (SimpleName)
+286 identifier='getLocation'
+287 scope (NameExpr)
+288 name (SimpleName)
+289 identifier='_editor'
+290 right (IntegerLiteralExpr)
+291 value='100'
+292 statement (ExpressionStmt)
+293 expression (MethodCallExpr)
+294 name (SimpleName)
+295 identifier='pack'
+296 scope (NameExpr)
+297 name (SimpleName)
+298 identifier='_dialog'
+299 statement (ExpressionStmt)
+300 expression (MethodCallExpr)
+301 name (SimpleName)
+302 identifier='setVisible'
+303 scope (NameExpr)
+304 name (SimpleName)
+305 identifier='_dialog'
+306 arguments
+307 argument (BooleanLiteralExpr)
+308 value='true'
+309 type (VoidType)
+310 name (SimpleName)
+311 identifier='editCircuitDialog'
+312 parameters
+313 parameter (Parameter)
+314 isVarArgs='false'
+315 name (SimpleName)
+316 identifier='title'
+317 type (ClassOrInterfaceType)
+318 name (SimpleName)
+319 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+13 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+32 37
+37 38
+32 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+54 57
+57 58
+2 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+62 67
+67 68
+62 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+82 83
+80 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+88 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+102 108
+108 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+115 116
+116 117
+117 118
+118 119
+115 120
+120 121
+115 122
+122 123
+123 124
+2 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+126 132
+132 133
+133 134
+134 135
+135 136
+133 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+138 144
+144 145
+145 146
+2 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+148 154
+154 155
+155 156
+156 157
+2 158
+158 159
+159 160
+159 161
+161 162
+162 163
+159 164
+164 165
+165 166
+164 167
+167 168
+168 169
+2 170
+170 171
+171 172
+172 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+173 180
+180 181
+173 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+186 192
+192 193
+193 194
+194 195
+195 196
+193 197
+197 198
+198 199
+199 200
+2 201
+201 202
+202 203
+203 204
+202 205
+205 206
+206 207
+202 208
+208 209
+209 210
+210 211
+209 212
+212 213
+213 214
+209 215
+215 216
+216 217
+217 218
+2 219
+219 220
+220 221
+221 222
+220 223
+223 224
+224 225
+220 226
+226 227
+227 228
+228 229
+227 230
+230 231
+231 232
+2 233
+233 234
+234 235
+235 236
+234 237
+237 238
+238 239
+234 240
+240 241
+241 242
+242 243
+2 244
+244 245
+245 246
+246 247
+245 248
+248 249
+249 250
+248 251
+251 252
+252 253
+245 254
+254 255
+255 256
+256 257
+2 258
+258 259
+259 260
+260 261
+259 262
+262 263
+263 264
+259 265
+265 266
+266 267
+266 268
+268 269
+269 270
+268 271
+271 272
+272 273
+271 274
+274 275
+275 276
+266 277
+277 278
+265 279
+279 280
+279 281
+281 282
+282 283
+281 284
+284 285
+285 286
+284 287
+287 288
+288 289
+279 290
+290 291
+2 292
+292 293
+293 294
+294 295
+293 296
+296 297
+297 298
+2 299
+299 300
+300 301
+301 302
+300 303
+303 304
+304 305
+300 306
+306 307
+307 308
+0 309
+0 310
+310 311
+0 312
+312 313
+313 314
+313 315
+315 316
+313 317
+317 318
+318 319
+
+Edit existing OBlock Used by edit to set up _editCircuitFrame Sets _currentBlock to chosen OBlock or null if none selected

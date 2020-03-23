@@ -1,0 +1,566 @@
+282
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newDirectory'
+10 name (SimpleName)
+11 identifier='dir'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Directory'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='RandomIndexWriter'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='random'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='dir'
+30 name (SimpleName)
+31 identifier='writer'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='RandomIndexWriter'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Document'
+43 name (SimpleName)
+44 identifier='document'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Document'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='add'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='document'
+55 arguments
+56 argument (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='HalfFloatPoint'
+60 arguments
+61 argument (StringLiteralExpr)
+62 value='field'
+63 argument (DoubleLiteralExpr)
+64 value='1.25f'
+65 argument (UnaryExpr)
+66 operator='MINUS'
+67 expression (DoubleLiteralExpr)
+68 value='2f'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='addDocument'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='writer'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='document'
+80 statement (ExpressionStmt)
+81 expression (VariableDeclarationExpr)
+82 variables
+83 variable (VariableDeclarator)
+84 initializer (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='getReader'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='writer'
+90 name (SimpleName)
+91 identifier='reader'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='IndexReader'
+95 statement (ExpressionStmt)
+96 expression (VariableDeclarationExpr)
+97 variables
+98 variable (VariableDeclarator)
+99 initializer (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='newSearcher'
+102 arguments
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='reader'
+106 name (SimpleName)
+107 identifier='searcher'
+108 type (ClassOrInterfaceType)
+109 name (SimpleName)
+110 identifier='IndexSearcher'
+111 statement (ExpressionStmt)
+112 expression (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='assertEquals'
+115 arguments
+116 argument (IntegerLiteralExpr)
+117 value='1'
+118 argument (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='count'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='searcher'
+124 arguments
+125 argument (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='newRangeQuery'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='HalfFloatPoint'
+131 arguments
+132 argument (StringLiteralExpr)
+133 value='field'
+134 argument (ArrayCreationExpr)
+135 elementType (PrimitiveType)
+136 type='FLOAT'
+137 initializer (ArrayInitializerExpr)
+138 values
+139 value (IntegerLiteralExpr)
+140 value='0'
+141 value (UnaryExpr)
+142 operator='MINUS'
+143 expression (IntegerLiteralExpr)
+144 value='5'
+145 levels
+146 level (ArrayCreationLevel)
+147 argument (ArrayCreationExpr)
+148 elementType (PrimitiveType)
+149 type='FLOAT'
+150 initializer (ArrayInitializerExpr)
+151 values
+152 value (DoubleLiteralExpr)
+153 value='1.25f'
+154 value (UnaryExpr)
+155 operator='MINUS'
+156 expression (IntegerLiteralExpr)
+157 value='1'
+158 levels
+159 level (ArrayCreationLevel)
+160 statement (ExpressionStmt)
+161 expression (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='assertEquals'
+164 arguments
+165 argument (IntegerLiteralExpr)
+166 value='0'
+167 argument (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='count'
+170 scope (NameExpr)
+171 name (SimpleName)
+172 identifier='searcher'
+173 arguments
+174 argument (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='newRangeQuery'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='HalfFloatPoint'
+180 arguments
+181 argument (StringLiteralExpr)
+182 value='field'
+183 argument (ArrayCreationExpr)
+184 elementType (PrimitiveType)
+185 type='FLOAT'
+186 initializer (ArrayInitializerExpr)
+187 values
+188 value (IntegerLiteralExpr)
+189 value='0'
+190 value (IntegerLiteralExpr)
+191 value='0'
+192 levels
+193 level (ArrayCreationLevel)
+194 argument (ArrayCreationExpr)
+195 elementType (PrimitiveType)
+196 type='FLOAT'
+197 initializer (ArrayInitializerExpr)
+198 values
+199 value (IntegerLiteralExpr)
+200 value='2'
+201 value (IntegerLiteralExpr)
+202 value='2'
+203 levels
+204 level (ArrayCreationLevel)
+205 statement (ExpressionStmt)
+206 expression (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='assertEquals'
+209 arguments
+210 argument (IntegerLiteralExpr)
+211 value='0'
+212 argument (MethodCallExpr)
+213 name (SimpleName)
+214 identifier='count'
+215 scope (NameExpr)
+216 name (SimpleName)
+217 identifier='searcher'
+218 arguments
+219 argument (MethodCallExpr)
+220 name (SimpleName)
+221 identifier='newRangeQuery'
+222 scope (NameExpr)
+223 name (SimpleName)
+224 identifier='HalfFloatPoint'
+225 arguments
+226 argument (StringLiteralExpr)
+227 value='field'
+228 argument (ArrayCreationExpr)
+229 elementType (PrimitiveType)
+230 type='FLOAT'
+231 initializer (ArrayInitializerExpr)
+232 values
+233 value (UnaryExpr)
+234 operator='MINUS'
+235 expression (IntegerLiteralExpr)
+236 value='10'
+237 value (UnaryExpr)
+238 operator='MINUS'
+239 expression (IntegerLiteralExpr)
+240 value='10'
+241 levels
+242 level (ArrayCreationLevel)
+243 argument (ArrayCreationExpr)
+244 elementType (PrimitiveType)
+245 type='FLOAT'
+246 initializer (ArrayInitializerExpr)
+247 values
+248 value (IntegerLiteralExpr)
+249 value='1'
+250 value (IntegerLiteralExpr)
+251 value='2'
+252 levels
+253 level (ArrayCreationLevel)
+254 statement (ExpressionStmt)
+255 expression (MethodCallExpr)
+256 name (SimpleName)
+257 identifier='close'
+258 scope (NameExpr)
+259 name (SimpleName)
+260 identifier='reader'
+261 statement (ExpressionStmt)
+262 expression (MethodCallExpr)
+263 name (SimpleName)
+264 identifier='close'
+265 scope (NameExpr)
+266 name (SimpleName)
+267 identifier='writer'
+268 statement (ExpressionStmt)
+269 expression (MethodCallExpr)
+270 name (SimpleName)
+271 identifier='close'
+272 scope (NameExpr)
+273 name (SimpleName)
+274 identifier='dir'
+275 type (VoidType)
+276 name (SimpleName)
+277 identifier='testBasicsMultiDims'
+278 thrownExceptions
+279 thrownException (ClassOrInterfaceType)
+280 name (SimpleName)
+281 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+18 30
+30 31
+18 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+38 43
+43 44
+38 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+60 63
+63 64
+60 65
+65 66
+65 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+83 90
+90 91
+83 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+104 105
+98 106
+106 107
+98 108
+108 109
+109 110
+2 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+131 134
+134 135
+135 136
+134 137
+137 138
+138 139
+139 140
+138 141
+141 142
+141 143
+143 144
+134 145
+145 146
+131 147
+147 148
+148 149
+147 150
+150 151
+151 152
+152 153
+151 154
+154 155
+154 156
+156 157
+147 158
+158 159
+2 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+164 167
+167 168
+168 169
+167 170
+170 171
+171 172
+167 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+174 180
+180 181
+181 182
+180 183
+183 184
+184 185
+183 186
+186 187
+187 188
+188 189
+187 190
+190 191
+183 192
+192 193
+180 194
+194 195
+195 196
+194 197
+197 198
+198 199
+199 200
+198 201
+201 202
+194 203
+203 204
+2 205
+205 206
+206 207
+207 208
+206 209
+209 210
+210 211
+209 212
+212 213
+213 214
+212 215
+215 216
+216 217
+212 218
+218 219
+219 220
+220 221
+219 222
+222 223
+223 224
+219 225
+225 226
+226 227
+225 228
+228 229
+229 230
+228 231
+231 232
+232 233
+233 234
+233 235
+235 236
+232 237
+237 238
+237 239
+239 240
+228 241
+241 242
+225 243
+243 244
+244 245
+243 246
+246 247
+247 248
+248 249
+247 250
+250 251
+243 252
+252 253
+2 254
+254 255
+255 256
+256 257
+255 258
+258 259
+259 260
+2 261
+261 262
+262 263
+263 264
+262 265
+265 266
+266 267
+2 268
+268 269
+269 270
+270 271
+269 272
+272 273
+273 274
+0 275
+0 276
+276 277
+0 278
+278 279
+279 280
+280 281
+
+Add a single multi-dimensional value and search for it

@@ -1,0 +1,436 @@
+217
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='clientID'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='IdentityProxy'
+12 value (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getClientID'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='info'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='clientSecret'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='IdentityProxy'
+27 value (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getClientSecret'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='info'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='apiAccessCallBack'
+39 scope (ThisExpr)
+40 value (NameExpr)
+41 name (SimpleName)
+42 identifier='apiAccessCallBack'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (NameExpr)
+47 name (SimpleName)
+48 identifier='context'
+49 value (NameExpr)
+50 name (SimpleName)
+51 identifier='appContext'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getSharedPreferences'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='context'
+62 arguments
+63 argument (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='APPLICATION_PACKAGE'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='Constants'
+69 argument (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='MODE_PRIVATE'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='Context'
+75 name (SimpleName)
+76 identifier='mainPref'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='SharedPreferences'
+80 statement (ExpressionStmt)
+81 expression (VariableDeclarationExpr)
+82 variables
+83 variable (VariableDeclarator)
+84 initializer (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='edit'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='mainPref'
+90 name (SimpleName)
+91 identifier='editor'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='Editor'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='putString'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='editor'
+102 arguments
+103 argument (FieldAccessExpr)
+104 name (SimpleName)
+105 identifier='CLIENT_ID'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='Constants'
+109 argument (NameExpr)
+110 name (SimpleName)
+111 identifier='clientID'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='putString'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='editor'
+119 arguments
+120 argument (FieldAccessExpr)
+121 name (SimpleName)
+122 identifier='CLIENT_SECRET'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='Constants'
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='clientSecret'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='putString'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='editor'
+136 arguments
+137 argument (FieldAccessExpr)
+138 name (SimpleName)
+139 identifier='TOKEN_ENDPOINT'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='Constants'
+143 argument (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='getTokenEndPoint'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='info'
+149 statement (ExpressionStmt)
+150 expression (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='commit'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='editor'
+156 statement (ExpressionStmt)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='setAccessTokenURL'
+160 arguments
+161 argument (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='getTokenEndPoint'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='info'
+167 statement (ExpressionStmt)
+168 expression (VariableDeclarationExpr)
+169 variables
+170 variable (VariableDeclarator)
+171 initializer (ObjectCreationExpr)
+172 type (ClassOrInterfaceType)
+173 name (SimpleName)
+174 identifier='AccessTokenHandler'
+175 arguments
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='info'
+179 argument (ThisExpr)
+180 name (SimpleName)
+181 identifier='accessTokenHandler'
+182 type (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='AccessTokenHandler'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='obtainAccessToken'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='accessTokenHandler'
+192 type (VoidType)
+193 name (SimpleName)
+194 identifier='init'
+195 parameters
+196 parameter (Parameter)
+197 isVarArgs='false'
+198 name (SimpleName)
+199 identifier='info'
+200 type (ClassOrInterfaceType)
+201 name (SimpleName)
+202 identifier='CredentialInfo'
+203 parameter (Parameter)
+204 isVarArgs='false'
+205 name (SimpleName)
+206 identifier='apiAccessCallBack'
+207 type (ClassOrInterfaceType)
+208 name (SimpleName)
+209 identifier='APIAccessCallBack'
+210 parameter (Parameter)
+211 isVarArgs='false'
+212 name (SimpleName)
+213 identifier='appContext'
+214 type (ClassOrInterfaceType)
+215 name (SimpleName)
+216 identifier='Context'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+13 14
+12 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+21 24
+24 25
+25 26
+19 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+36 39
+34 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+44 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+62 69
+69 70
+70 71
+69 72
+72 73
+73 74
+55 75
+75 76
+55 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+83 90
+90 91
+83 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+102 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+119 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+136 143
+143 144
+144 145
+143 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+2 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+2 167
+167 168
+168 169
+169 170
+170 171
+171 172
+172 173
+173 174
+171 175
+175 176
+176 177
+177 178
+175 179
+170 180
+180 181
+170 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+0 192
+0 193
+193 194
+0 195
+195 196
+196 197
+196 198
+198 199
+196 200
+200 201
+201 202
+195 203
+203 204
+203 205
+205 206
+203 207
+207 208
+208 209
+195 210
+210 211
+210 212
+212 213
+210 214
+214 215
+215 216
+
+Initializing the IDP plugin and obrtaining the access token.

@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='BINARY_AND'
+6 target (ArrayAccessExpr)
+7 index (BinaryExpr)
+8 operator='SIGNED_RIGHT_SHIFT'
+9 left (NameExpr)
+10 name (SimpleName)
+11 identifier='bitIndex'
+12 right (NameExpr)
+13 name (SimpleName)
+14 identifier='ADDRESS_BITS_PER_UNIT'
+15 name (NameExpr)
+16 name (SimpleName)
+17 identifier='bits'
+18 value (UnaryExpr)
+19 operator='BITWISE_COMPLEMENT'
+20 expression (EnclosedExpr)
+21 inner (BinaryExpr)
+22 operator='LEFT_SHIFT'
+23 left (LongLiteralExpr)
+24 value='1L'
+25 right (EnclosedExpr)
+26 inner (BinaryExpr)
+27 operator='BINARY_AND'
+28 left (NameExpr)
+29 name (SimpleName)
+30 identifier='bitIndex'
+31 right (NameExpr)
+32 name (SimpleName)
+33 identifier='BIT_INDEX_MASK'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='clear'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='bits'
+42 type (ArrayType)
+43 origin='TYPE'
+44 componentType (PrimitiveType)
+45 type='LONG'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='bitIndex'
+50 type (PrimitiveType)
+51 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+13 14
+6 15
+15 16
+16 17
+4 18
+18 19
+18 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+26 28
+28 29
+29 30
+26 31
+31 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+42 44
+44 45
+37 46
+46 47
+46 48
+48 49
+46 50
+50 51
+
+Changes the bit with index <tt>bitIndex</tt> in the bitvector <tt>bits</tt> to the "clear" (<tt>false</tt>) state.

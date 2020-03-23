@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='CzechAnalyzer'
+11 name (SimpleName)
+12 identifier='cz'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='CzechAnalyzer'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='assertAnalyzesTo'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='cz'
+24 argument (StringLiteralExpr)
+25 value='e'
+26 argument (ArrayCreationExpr)
+27 elementType (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='String'
+30 initializer (ArrayInitializerExpr)
+31 values
+32 value (StringLiteralExpr)
+33 value='e'
+34 levels
+35 level (ArrayCreationLevel)
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='assertAnalyzesTo'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='cz'
+44 argument (StringLiteralExpr)
+45 value='zi'
+46 argument (ArrayCreationExpr)
+47 elementType (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='String'
+50 initializer (ArrayInitializerExpr)
+51 values
+52 value (StringLiteralExpr)
+53 value='zi'
+54 levels
+55 level (ArrayCreationLevel)
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='close'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='cz'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='testDontStem'
+66 thrownExceptions
+67 thrownException (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+20 24
+24 25
+20 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+26 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+40 44
+44 45
+40 46
+46 47
+47 48
+48 49
+46 50
+50 51
+51 52
+52 53
+46 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+68 69
+
+Test that very short words are not stemmed.

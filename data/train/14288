@@ -1,0 +1,322 @@
+160
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='PolygonGenerator'
+11 name (SimpleName)
+12 identifier='pgc'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='PolygonGenerator'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setGeometryFactory'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='pgc'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='geometryFactory'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setGenerationAlgorithm'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='pgc'
+34 arguments
+35 argument (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='BOX'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='PolygonGenerator'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='setNumberPoints'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='pgc'
+48 arguments
+49 argument (IntegerLiteralExpr)
+50 value='100'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setNumberHoles'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='pgc'
+58 arguments
+59 argument (IntegerLiteralExpr)
+60 value='100'
+61 statement (ExpressionStmt)
+62 expression (VariableDeclarationExpr)
+63 variables
+64 variable (VariableDeclarator)
+65 initializer (ObjectCreationExpr)
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='MultiGenerator'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='pgc'
+73 name (SimpleName)
+74 identifier='pg'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='MultiGenerator'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='setBoundingBox'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='pg'
+85 arguments
+86 argument (ObjectCreationExpr)
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='Envelope'
+90 arguments
+91 argument (IntegerLiteralExpr)
+92 value='0'
+93 argument (IntegerLiteralExpr)
+94 value='10'
+95 argument (IntegerLiteralExpr)
+96 value='0'
+97 argument (IntegerLiteralExpr)
+98 value='10'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='setNumberGeometries'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='pg'
+106 arguments
+107 argument (IntegerLiteralExpr)
+108 value='3'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='setGeometryFactory'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='pg'
+116 arguments
+117 argument (NameExpr)
+118 name (SimpleName)
+119 identifier='geometryFactory'
+120 statement (ExpressionStmt)
+121 expression (VariableDeclarationExpr)
+122 variables
+123 variable (VariableDeclarator)
+124 initializer (CastExpr)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='create'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='pg'
+131 type (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='MultiPolygon'
+134 name (SimpleName)
+135 identifier='pt'
+136 type (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='MultiPolygon'
+139 statement (ExpressionStmt)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='checkRoundTrip'
+143 arguments
+144 argument (NameExpr)
+145 name (SimpleName)
+146 identifier='pt'
+147 type (VoidType)
+148 name (SimpleName)
+149 identifier='testSingleMultiPolygonManyPointsManyHolesRoundTrip'
+150 thrownExceptions
+151 thrownException (ClassOrInterfaceType)
+152 name (SimpleName)
+153 identifier='SAXException'
+154 thrownException (ClassOrInterfaceType)
+155 name (SimpleName)
+156 identifier='IOException'
+157 thrownException (ClassOrInterfaceType)
+158 name (SimpleName)
+159 identifier='ParserConfigurationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+71 72
+64 73
+73 74
+64 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+88 89
+86 90
+90 91
+91 92
+90 93
+93 94
+90 95
+95 96
+90 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+110 116
+116 117
+117 118
+118 119
+2 120
+120 121
+121 122
+122 123
+123 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+124 131
+131 132
+132 133
+123 134
+134 135
+123 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+145 146
+0 147
+0 148
+148 149
+0 150
+150 151
+151 152
+152 153
+150 154
+154 155
+155 156
+150 157
+157 158
+158 159
+
+Round Trip test for a single MultiPolygon with lotsa points

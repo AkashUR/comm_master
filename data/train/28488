@@ -1,0 +1,96 @@
+47
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='neededDeps'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='HashMap'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='forEach'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='concat'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='Stream'
+23 arguments
+24 argument (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='stream'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='values'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='javaClasses'
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='stream'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='values'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='scalaClasses'
+42 arguments
+43 argument (NullLiteralExpr)
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='generateDependencies'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+23 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+14 42
+42 43
+0 44
+0 45
+45 46
+
+Get the dependencies. Separated from preInit due to issues with ordering in case mods need to download mods before the preInit method is called. The wrapper just needs to call this method right before it downloads the dependencies.

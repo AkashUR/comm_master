@@ -1,0 +1,134 @@
+66
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='date'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Date'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (NameExpr)
+17 name (SimpleName)
+18 identifier='EPOCH'
+19 right (CastExpr)
+20 expression (EnclosedExpr)
+21 inner (BinaryExpr)
+22 operator='MULTIPLY'
+23 left (IntegerLiteralExpr)
+24 value='1000'
+25 right (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='parseDouble'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='BinaryPropertyListParser'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='bytes'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='startIndex'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='endIndex'
+41 type (PrimitiveType)
+42 type='LONG'
+43 name (SimpleName)
+44 identifier='NSDate'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='bytes'
+50 type (ArrayType)
+51 origin='TYPE'
+52 componentType (PrimitiveType)
+53 type='BYTE'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='startIndex'
+58 type (PrimitiveType)
+59 type='INT'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='endIndex'
+64 type (PrimitiveType)
+65 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+31 38
+38 39
+39 40
+19 41
+41 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+50 52
+52 53
+45 54
+54 55
+54 56
+56 57
+54 58
+58 59
+45 60
+60 61
+60 62
+62 63
+60 64
+64 65
+
+Creates a date from its binary representation.

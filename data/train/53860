@@ -1,0 +1,62 @@
+30
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='end'
+7 scope (SuperExpr)
+8 statement (ExpressionStmt)
+9 expression (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='trimEdits'
+12 scope (ThisExpr)
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='indexOfNextAdd'
+17 argument (BinaryExpr)
+18 operator='MINUS'
+19 left (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='size'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='edits'
+25 right (IntegerLiteralExpr)
+26 value='1'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='end'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+10 11
+9 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+17 19
+19 20
+20 21
+19 22
+22 23
+23 24
+17 25
+25 26
+0 27
+0 28
+28 29
+
+Turns this <code>UndoManager</code> into a normal <code>CompoundEdit</code>.  This removes all edits that have been undone.

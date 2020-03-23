@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='enabled'
+9 scope (EnclosedExpr)
+10 inner (CastExpr)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='get'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='buttonList'
+17 arguments
+18 argument (IntegerLiteralExpr)
+19 value='1'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='GuiButton'
+23 value (BinaryExpr)
+24 operator='AND'
+25 left (BinaryExpr)
+26 operator='NOT_EQUALS'
+27 left (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getSelectedSlot'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='blockList'
+33 right (UnaryExpr)
+34 operator='MINUS'
+35 expression (IntegerLiteralExpr)
+36 value='1'
+37 right (UnaryExpr)
+38 operator='LOGICAL_COMPLEMENT'
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='isEmpty'
+42 scope (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='xrayBlocks'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='XRayMod'
+48 type (VoidType)
+49 name (SimpleName)
+50 identifier='updateScreen'
+51 annotations
+52 annotation (MarkerAnnotationExpr)
+53 name (Name)
+54 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+10 20
+20 21
+21 22
+4 23
+23 24
+23 25
+25 26
+25 27
+27 28
+28 29
+27 30
+30 31
+31 32
+25 33
+33 34
+33 35
+35 36
+23 37
+37 38
+37 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+0 48
+0 49
+49 50
+0 51
+51 52
+52 53
+53 54
+
+Called from the main game loop to update the screen.

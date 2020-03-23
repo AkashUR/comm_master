@@ -1,0 +1,92 @@
+45
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setElement'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='m'
+10 arguments
+11 argument (IntegerLiteralExpr)
+12 value='1'
+13 argument (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getLowBits'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setElement'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='m'
+23 arguments
+24 argument (IntegerLiteralExpr)
+25 value='2'
+26 argument (BinaryExpr)
+27 operator='BINARY_OR'
+28 left (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getHighBits'
+31 right (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getASBit'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='insertAddress'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='m'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='LocoNetMessage'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+26 28
+28 29
+29 30
+26 31
+31 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+
+Update a LocoNet message to have this address.

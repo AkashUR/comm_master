@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setLink'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='traceInterface'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='VM'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='ref'
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='get'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='objectLinks'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='linkSpace'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='set'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='objectLinks'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='linkSpace'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='ref'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='addTraceObject'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='ref'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='ObjectReference'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='linkSpace'
+56 type (PrimitiveType)
+57 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+44 52
+52 53
+52 54
+54 55
+52 56
+56 57
+
+Add a newly allocated object into the linked list of objects in a region. This is typically called after each object allocation.

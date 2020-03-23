@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rotate'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='angle'
+11 argument (IntegerLiteralExpr)
+12 value='0'
+13 argument (IntegerLiteralExpr)
+14 value='0'
+15 argument (IntegerLiteralExpr)
+16 value='1'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='rotateZ'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='angle'
+25 type (PrimitiveType)
+26 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+7 13
+13 14
+7 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+
+( begin auto-generated from PShape_rotateZ.xml ) Rotates a shape around the z-axis the amount specified by the <b>angle</b> parameter. Angles should be specified in radians (values from 0 to TWO_PI) or converted to radians with the <b>radians()</b> method. <br /><br /> Shapes are always rotated around the upper-left corner of their bounding box. Positive numbers rotate objects in a clockwise direction. Subsequent calls to the method accumulates the effect. For example, calling <b>rotateZ(HALF_PI)</b> and then <b>rotateZ(HALF_PI)</b> is the same as <b>rotateZ(PI)</b>. This transformation is applied directly to the shape, it's not refreshed each time <b>draw()</b> is run. <br /><br /> This method requires a 3D renderer. You need to use P3D as a third parameter for the <b>size()</b> function as shown in the example above. ( end auto-generated )

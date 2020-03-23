@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setResultCallback'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='subscribe'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='RecordingApi'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='Fitness'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='mGoogleApiClient'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getDataType'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='dataTypeSetting'
+26 arguments
+27 argument (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='FitResultCallback'
+31 typeArguments
+32 typeArgument (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='Status'
+35 arguments
+36 argument (ThisExpr)
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='RECORDING'
+40 scope (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='RegisterType'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='FitResultCallback'
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getDataType'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='dataTypeSetting'
+52 argument (BooleanLiteralExpr)
+53 value='true'
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='startRecordingFitData'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='dataTypeSetting'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='FitDataTypeSetting'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+18 19
+16 20
+20 21
+21 22
+20 23
+23 24
+24 25
+4 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+27 35
+35 36
+35 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+35 46
+46 47
+47 48
+46 49
+49 50
+50 51
+35 52
+52 53
+0 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+
+Add RecordingApi listener for recording to GoogleFit backend. Can be called repeatedly on multiple data types.

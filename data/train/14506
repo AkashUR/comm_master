@@ -1,0 +1,252 @@
+125
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getParams'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='peer'
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='SnmpParameters'
+17 name (SimpleName)
+18 identifier='p'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='SnmpParameters'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='snmpV1Trap'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getDestAddr'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='peer'
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getDestPort'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='peer'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='agentAddr'
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getRdCommunity'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='p'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='enterpOid'
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='generic'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='specific'
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='varBindList'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='time'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='snmpV1Trap'
+66 parameters
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='peer'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='SnmpPeer'
+74 parameter (Parameter)
+75 isVarArgs='false'
+76 name (SimpleName)
+77 identifier='agentAddr'
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='SnmpIpAddress'
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='enterpOid'
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='SnmpOid'
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='generic'
+92 type (PrimitiveType)
+93 type='INT'
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='specific'
+98 type (PrimitiveType)
+99 type='INT'
+100 parameter (Parameter)
+101 isVarArgs='false'
+102 name (SimpleName)
+103 identifier='varBindList'
+104 type (ClassOrInterfaceType)
+105 name (SimpleName)
+106 identifier='SnmpVarBindList'
+107 parameter (Parameter)
+108 isVarArgs='false'
+109 name (SimpleName)
+110 identifier='time'
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='SnmpTimeticks'
+114 thrownExceptions
+115 thrownException (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='IOException'
+118 thrownException (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='SnmpStatusException'
+121 annotations
+122 annotation (MarkerAnnotationExpr)
+123 name (Name)
+124 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+26 33
+33 34
+34 35
+33 36
+36 37
+37 38
+26 39
+39 40
+40 41
+26 42
+42 43
+43 44
+42 45
+45 46
+46 47
+26 48
+48 49
+49 50
+26 51
+51 52
+52 53
+26 54
+54 55
+55 56
+26 57
+57 58
+58 59
+26 60
+60 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+66 74
+74 75
+74 76
+76 77
+74 78
+78 79
+79 80
+66 81
+81 82
+81 83
+83 84
+81 85
+85 86
+86 87
+66 88
+88 89
+88 90
+90 91
+88 92
+92 93
+66 94
+94 95
+94 96
+96 97
+94 98
+98 99
+66 100
+100 101
+100 102
+102 103
+100 104
+104 105
+105 106
+66 107
+107 108
+107 109
+109 110
+107 111
+111 112
+112 113
+0 114
+114 115
+115 116
+116 117
+114 118
+118 119
+119 120
+0 121
+121 122
+122 123
+123 124
+
+Sends a trap using SNMP V1 trap format. <BR>The trap is sent to the specified <CODE>SnmpPeer</CODE> destination. The community string used is the one located in the <CODE>SnmpPeer</CODE> parameters (<CODE>SnmpParameters.getRdCommunity() </CODE>).

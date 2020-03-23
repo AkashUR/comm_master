@@ -1,0 +1,138 @@
+68
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='message'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='output'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='Initializing Generation 0'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='preInitializationStatistics'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='statistics'
+20 arguments
+21 argument (ThisExpr)
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='population'
+28 value (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='initialPopulation'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='initializer'
+34 arguments
+35 argument (ThisExpr)
+36 argument (IntegerLiteralExpr)
+37 value='0'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='postInitializationStatistics'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='statistics'
+45 arguments
+46 argument (ThisExpr)
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='initializeContacts'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='exchanger'
+54 arguments
+55 argument (ThisExpr)
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='initializeContacts'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='evaluator'
+63 arguments
+64 argument (ThisExpr)
+65 type (VoidType)
+66 name (SimpleName)
+67 identifier='startFresh'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+34 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+0 65
+0 66
+66 67
+
+Usually called after setup(), startFresh() calls the initializers of the EvolutionState modules, effectively enabling a EvolutionState to start evolving. By all means you need it if you are going to use the population.

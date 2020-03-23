@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getCoordinator'
+10 name (SimpleName)
+11 identifier='coordinator'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='CoordinatorClient'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='assertEquals'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='Assert'
+22 arguments
+23 argument (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='DONE'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='MigrationStatus'
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getMigrationStatus'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='coordinator'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getCheckpoint'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='version'
+46 name (SimpleName)
+47 identifier='checkpoint'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='assertNull'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='Assert'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='checkpoint'
+62 type (VoidType)
+63 name (SimpleName)
+64 identifier='verifyMigrationDone'
+65 parameters
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='version'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+22 29
+29 30
+30 31
+29 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+38 46
+46 47
+38 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+0 62
+0 63
+63 64
+0 65
+65 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+
+Verify if migration checkpoint information is cleared after migration done

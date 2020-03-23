@@ -1,0 +1,102 @@
+50
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getBytes'
+10 scope (StringLiteralExpr)
+11 value='QUERY TIME ORDER'
+12 name (SimpleName)
+13 identifier='req'
+14 type (ArrayType)
+15 origin='TYPE'
+16 componentType (PrimitiveType)
+17 type='BYTE'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (NameExpr)
+22 name (SimpleName)
+23 identifier='firstMessage'
+24 value (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='buffer'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Unpooled'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='length'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='req'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='writeBytes'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='firstMessage'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='req'
+48 name (SimpleName)
+49 identifier='TimeClientHandler'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+6 12
+12 13
+6 14
+14 15
+14 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+0 48
+48 49
+
+Creates a client-side handler.

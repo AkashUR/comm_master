@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getPath'
+10 name (SimpleName)
+11 identifier='p'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='String'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='p'
+21 value (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='replace'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='p'
+27 arguments
+28 argument (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='toString'
+31 scope (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='toAbsolutePath'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='oldPath'
+37 argument (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='toString'
+40 scope (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='toAbsolutePath'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='newPath'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='setPath'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='p'
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='replacePathForRenamedFolder'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='oldPath'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='Path'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='newPath'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Path'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+27 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+0 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+57 65
+65 66
+65 67
+67 68
+65 69
+69 70
+70 71
+
+(re)sets the path (when renaming MediaEntity folder).<br> Exchanges the beginning MF path from oldPath with newPath<br> <br> eg: <br> Params: /movie/alien1/ & /movie/Alien 1/<br> File: /movie/alien1/asdf/jklo/file.avi -> /movie/Alien 1/asdf/jklo/file.avi<br> <br> this id done by a simple string.replace()

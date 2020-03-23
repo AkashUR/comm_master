@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='SaaSSystemException'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='errorMessage'
+15 name (SimpleName)
+16 identifier='sse'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='SaaSSystemException'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='logError'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='logger'
+27 arguments
+28 argument (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='SYSTEM_LOG'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='Log4jLogger'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='sse'
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='ERROR_EVALUATE_PSP_RESPONSE_FAILED'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='LogMessageIdentifier'
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='logException'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='errorMessage'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+27 34
+34 35
+35 36
+27 37
+37 38
+38 39
+37 40
+40 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+
+Creates a system exception with the given error message, logs an according entry in the log files. The exception is not thrown, as in the calling context the failure URL has to be returned.

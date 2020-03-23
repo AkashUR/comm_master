@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='testUDPPacketSrld'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='serialize'
+13 scope (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='testUDPPacket'
+16 scope (ThisExpr)
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='testUDPPacketIn'
+23 scope (ThisExpr)
+24 value (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setTotalLength'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='setReason'
+30 scope (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='setPacketData'
+33 scope (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='setInPort'
+36 scope (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='setBufferId'
+39 scope (EnclosedExpr)
+40 inner (CastExpr)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getMessage'
+44 scope (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getOFMessageFactory'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='mockFloodlightProvider'
+50 arguments
+51 argument (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='PACKET_IN'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='OFType'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='OFPacketIn'
+60 arguments
+61 argument (UnaryExpr)
+62 operator='MINUS'
+63 expression (IntegerLiteralExpr)
+64 value='1'
+65 arguments
+66 argument (CastExpr)
+67 expression (IntegerLiteralExpr)
+68 value='3'
+69 type (PrimitiveType)
+70 type='SHORT'
+71 arguments
+72 argument (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='testUDPPacketSrld'
+75 scope (ThisExpr)
+76 arguments
+77 argument (FieldAccessExpr)
+78 name (SimpleName)
+79 identifier='NO_MATCH'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='OFPacketInReason'
+83 arguments
+84 argument (CastExpr)
+85 expression (FieldAccessExpr)
+86 name (SimpleName)
+87 identifier='length'
+88 scope (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='testUDPPacketSrld'
+91 scope (ThisExpr)
+92 type (PrimitiveType)
+93 type='SHORT'
+94 type (VoidType)
+95 name (SimpleName)
+96 identifier='updateUDPPacketIn'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+18 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+41 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+40 57
+57 58
+58 59
+36 60
+60 61
+61 62
+61 63
+63 64
+33 65
+65 66
+66 67
+67 68
+66 69
+69 70
+30 71
+71 72
+72 73
+73 74
+72 75
+27 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+24 83
+83 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+84 92
+92 93
+0 94
+0 95
+95 96
+
+Updates testUDPPacketIn and testUDPPacketSrld from testUDPPacket To be called after testUDPPacket has been mangled.

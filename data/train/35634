@@ -1,0 +1,294 @@
+146
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (BinaryExpr)
+12 operator='PLUS'
+13 left (StringLiteralExpr)
+14 value='Received new message event: '
+15 right (NameExpr)
+16 name (SimpleName)
+17 identifier='m'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (ArrayAccessExpr)
+22 index (NameExpr)
+23 name (SimpleName)
+24 identifier='_rowCount'
+25 name (NameExpr)
+26 name (SimpleName)
+27 identifier='_id'
+28 value (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getId'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='CbusMessage'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='m'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (ArrayAccessExpr)
+42 index (NameExpr)
+43 name (SimpleName)
+44 identifier='_rowCount'
+45 name (NameExpr)
+46 name (SimpleName)
+47 identifier='_node'
+48 value (BinaryExpr)
+49 operator='PLUS'
+50 left (BinaryExpr)
+51 operator='MULTIPLY'
+52 left (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getElement'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='m'
+58 arguments
+59 argument (IntegerLiteralExpr)
+60 value='1'
+61 right (IntegerLiteralExpr)
+62 value='256'
+63 right (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getElement'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='m'
+69 arguments
+70 argument (IntegerLiteralExpr)
+71 value='2'
+72 statement (ExpressionStmt)
+73 expression (AssignExpr)
+74 operator='ASSIGN'
+75 target (ArrayAccessExpr)
+76 index (NameExpr)
+77 name (SimpleName)
+78 identifier='_rowCount'
+79 name (NameExpr)
+80 name (SimpleName)
+81 identifier='_event'
+82 value (BinaryExpr)
+83 operator='PLUS'
+84 left (BinaryExpr)
+85 operator='MULTIPLY'
+86 left (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='getElement'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='m'
+92 arguments
+93 argument (IntegerLiteralExpr)
+94 value='3'
+95 right (IntegerLiteralExpr)
+96 value='256'
+97 right (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='getElement'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='m'
+103 arguments
+104 argument (IntegerLiteralExpr)
+105 value='4'
+106 statement (ExpressionStmt)
+107 expression (AssignExpr)
+108 operator='ASSIGN'
+109 target (ArrayAccessExpr)
+110 index (NameExpr)
+111 name (SimpleName)
+112 identifier='_rowCount'
+113 name (NameExpr)
+114 name (SimpleName)
+115 identifier='_type'
+116 value (BinaryExpr)
+117 operator='EQUALS'
+118 left (EnclosedExpr)
+119 inner (BinaryExpr)
+120 operator='BINARY_AND'
+121 left (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='getOpCode'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='m'
+127 right (IntegerLiteralExpr)
+128 value='1'
+129 right (IntegerLiteralExpr)
+130 value='0'
+131 statement (ExpressionStmt)
+132 expression (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='addEvent'
+135 type (VoidType)
+136 name (SimpleName)
+137 identifier='message'
+138 parameters
+139 parameter (Parameter)
+140 isVarArgs='false'
+141 name (SimpleName)
+142 identifier='m'
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='CanMessage'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+11 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+19 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+39 48
+48 49
+48 50
+50 51
+50 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+50 61
+61 62
+48 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+2 72
+72 73
+73 74
+73 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+73 82
+82 83
+82 84
+84 85
+84 86
+86 87
+87 88
+86 89
+89 90
+90 91
+86 92
+92 93
+93 94
+84 95
+95 96
+82 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+2 106
+106 107
+107 108
+107 109
+109 110
+110 111
+111 112
+109 113
+113 114
+114 115
+107 116
+116 117
+116 118
+118 119
+119 120
+119 121
+121 122
+122 123
+121 124
+124 125
+125 126
+119 127
+127 128
+116 129
+129 130
+2 131
+131 132
+132 133
+133 134
+0 135
+0 136
+136 137
+0 138
+138 139
+139 140
+139 141
+141 142
+139 143
+143 144
+144 145
+
+*** Capture node and event and add to table

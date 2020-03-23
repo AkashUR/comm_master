@@ -1,0 +1,400 @@
+199
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='mapper'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='enableDefaultTyping'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='mapper'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='OBJECT_AND_NON_CONCRETE'
+27 scope (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='DefaultTyping'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='ObjectMapper'
+33 argument (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='PROPERTY'
+36 scope (FieldAccessExpr)
+37 name (SimpleName)
+38 identifier='As'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='JsonTypeInfo'
+42 statement (ExpressionStmt)
+43 expression (VariableDeclarationExpr)
+44 variables
+45 variable (VariableDeclarator)
+46 initializer (ObjectCreationExpr)
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='DiscussBean'
+50 name (SimpleName)
+51 identifier='d1'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='DiscussBean'
+55 statement (ExpressionStmt)
+56 expression (AssignExpr)
+57 operator='ASSIGN'
+58 target (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='subject'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='d1'
+64 value (StringLiteralExpr)
+65 value='mouse'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='weight'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='d1'
+75 value (IntegerLiteralExpr)
+76 value='88'
+77 statement (ExpressionStmt)
+78 expression (VariableDeclarationExpr)
+79 variables
+80 variable (VariableDeclarator)
+81 initializer (ObjectCreationExpr)
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='DomainBeanWrapper'
+85 name (SimpleName)
+86 identifier='wrapper'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='DomainBeanWrapper'
+90 statement (ExpressionStmt)
+91 expression (AssignExpr)
+92 operator='ASSIGN'
+93 target (FieldAccessExpr)
+94 name (SimpleName)
+95 identifier='name'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='wrapper'
+99 value (StringLiteralExpr)
+100 value='mickey'
+101 statement (ExpressionStmt)
+102 expression (AssignExpr)
+103 operator='ASSIGN'
+104 target (FieldAccessExpr)
+105 name (SimpleName)
+106 identifier='myBean'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='wrapper'
+110 value (NameExpr)
+111 name (SimpleName)
+112 identifier='d1'
+113 statement (ExpressionStmt)
+114 expression (VariableDeclarationExpr)
+115 variables
+116 variable (VariableDeclarator)
+117 initializer (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='writeValueAsString'
+120 scope (NameExpr)
+121 name (SimpleName)
+122 identifier='mapper'
+123 arguments
+124 argument (NameExpr)
+125 name (SimpleName)
+126 identifier='wrapper'
+127 name (SimpleName)
+128 identifier='json'
+129 type (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='String'
+132 statement (ExpressionStmt)
+133 expression (VariableDeclarationExpr)
+134 variables
+135 variable (VariableDeclarator)
+136 initializer (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='readValue'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='mapper'
+142 arguments
+143 argument (NameExpr)
+144 name (SimpleName)
+145 identifier='json'
+146 argument (ClassExpr)
+147 type (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='DomainBeanWrapper'
+150 name (SimpleName)
+151 identifier='result'
+152 type (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='DomainBeanWrapper'
+155 statement (ExpressionStmt)
+156 expression (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='assertNotNull'
+159 arguments
+160 argument (NameExpr)
+161 name (SimpleName)
+162 identifier='result'
+163 statement (ExpressionStmt)
+164 expression (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='assertNotNull'
+167 arguments
+168 argument (FieldAccessExpr)
+169 name (SimpleName)
+170 identifier='myBean'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='wrapper'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='assertSame'
+178 arguments
+179 argument (ClassExpr)
+180 type (ClassOrInterfaceType)
+181 name (SimpleName)
+182 identifier='DiscussBean'
+183 argument (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='getClass'
+186 scope (FieldAccessExpr)
+187 name (SimpleName)
+188 identifier='myBean'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='wrapper'
+192 type (VoidType)
+193 name (SimpleName)
+194 identifier='testIssue352'
+195 thrownExceptions
+196 thrownException (ClassOrInterfaceType)
+197 name (SimpleName)
+198 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+23 33
+33 34
+34 35
+33 36
+36 37
+37 38
+36 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+45 50
+50 51
+45 52
+52 53
+53 54
+2 55
+55 56
+56 57
+56 58
+58 59
+59 60
+58 61
+61 62
+62 63
+56 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+69 72
+72 73
+73 74
+67 75
+75 76
+2 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+83 84
+80 85
+85 86
+80 87
+87 88
+88 89
+2 90
+90 91
+91 92
+91 93
+93 94
+94 95
+93 96
+96 97
+97 98
+91 99
+99 100
+2 101
+101 102
+102 103
+102 104
+104 105
+105 106
+104 107
+107 108
+108 109
+102 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+117 123
+123 124
+124 125
+125 126
+116 127
+127 128
+116 129
+129 130
+130 131
+2 132
+132 133
+133 134
+134 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+136 142
+142 143
+143 144
+144 145
+142 146
+146 147
+147 148
+148 149
+135 150
+150 151
+135 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+161 162
+2 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+169 170
+168 171
+171 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+180 181
+181 182
+178 183
+183 184
+184 185
+183 186
+186 187
+187 188
+186 189
+189 190
+190 191
+0 192
+0 193
+193 194
+0 195
+195 196
+196 197
+197 198
+
+Test for [JACKSON-352]

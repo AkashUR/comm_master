@@ -1,0 +1,534 @@
+266
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getIndexStore'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='field'
+13 argument (ArrayCreationExpr)
+14 elementType (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='String'
+17 initializer (ArrayInitializerExpr)
+18 values
+19 value (StringLiteralExpr)
+20 value='foo*bar'
+21 value (StringLiteralExpr)
+22 value='foo??bar'
+23 value (StringLiteralExpr)
+24 value='fooCDbar'
+25 value (StringLiteralExpr)
+26 value='fooSOMETHINGbar'
+27 value (StringLiteralExpr)
+28 value='foo\\'
+29 levels
+30 level (ArrayCreationLevel)
+31 name (SimpleName)
+32 identifier='indexStore'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Directory'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='open'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='DirectoryReader'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='indexStore'
+50 name (SimpleName)
+51 identifier='reader'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='IndexReader'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='newSearcher'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='reader'
+66 name (SimpleName)
+67 identifier='searcher'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='IndexSearcher'
+71 statement (ExpressionStmt)
+72 expression (VariableDeclarationExpr)
+73 variables
+74 variable (VariableDeclarator)
+75 initializer (ObjectCreationExpr)
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='WildcardQuery'
+79 arguments
+80 argument (ObjectCreationExpr)
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Term'
+84 arguments
+85 argument (StringLiteralExpr)
+86 value='field'
+87 argument (StringLiteralExpr)
+88 value='foo*bar'
+89 name (SimpleName)
+90 identifier='unescaped'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='WildcardQuery'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='assertMatches'
+98 arguments
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='searcher'
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='unescaped'
+105 argument (IntegerLiteralExpr)
+106 value='4'
+107 statement (ExpressionStmt)
+108 expression (VariableDeclarationExpr)
+109 variables
+110 variable (VariableDeclarator)
+111 initializer (ObjectCreationExpr)
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='WildcardQuery'
+115 arguments
+116 argument (ObjectCreationExpr)
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='Term'
+120 arguments
+121 argument (StringLiteralExpr)
+122 value='field'
+123 argument (StringLiteralExpr)
+124 value='foo\\*bar'
+125 name (SimpleName)
+126 identifier='escaped'
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='WildcardQuery'
+130 statement (ExpressionStmt)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='assertMatches'
+134 arguments
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='searcher'
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='escaped'
+141 argument (IntegerLiteralExpr)
+142 value='1'
+143 statement (ExpressionStmt)
+144 expression (AssignExpr)
+145 operator='ASSIGN'
+146 target (NameExpr)
+147 name (SimpleName)
+148 identifier='unescaped'
+149 value (ObjectCreationExpr)
+150 type (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='WildcardQuery'
+153 arguments
+154 argument (ObjectCreationExpr)
+155 type (ClassOrInterfaceType)
+156 name (SimpleName)
+157 identifier='Term'
+158 arguments
+159 argument (StringLiteralExpr)
+160 value='field'
+161 argument (StringLiteralExpr)
+162 value='foo??bar'
+163 statement (ExpressionStmt)
+164 expression (MethodCallExpr)
+165 name (SimpleName)
+166 identifier='assertMatches'
+167 arguments
+168 argument (NameExpr)
+169 name (SimpleName)
+170 identifier='searcher'
+171 argument (NameExpr)
+172 name (SimpleName)
+173 identifier='unescaped'
+174 argument (IntegerLiteralExpr)
+175 value='2'
+176 statement (ExpressionStmt)
+177 expression (AssignExpr)
+178 operator='ASSIGN'
+179 target (NameExpr)
+180 name (SimpleName)
+181 identifier='escaped'
+182 value (ObjectCreationExpr)
+183 type (ClassOrInterfaceType)
+184 name (SimpleName)
+185 identifier='WildcardQuery'
+186 arguments
+187 argument (ObjectCreationExpr)
+188 type (ClassOrInterfaceType)
+189 name (SimpleName)
+190 identifier='Term'
+191 arguments
+192 argument (StringLiteralExpr)
+193 value='field'
+194 argument (StringLiteralExpr)
+195 value='foo\\?\\?bar'
+196 statement (ExpressionStmt)
+197 expression (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='assertMatches'
+200 arguments
+201 argument (NameExpr)
+202 name (SimpleName)
+203 identifier='searcher'
+204 argument (NameExpr)
+205 name (SimpleName)
+206 identifier='escaped'
+207 argument (IntegerLiteralExpr)
+208 value='1'
+209 statement (ExpressionStmt)
+210 expression (VariableDeclarationExpr)
+211 variables
+212 variable (VariableDeclarator)
+213 initializer (ObjectCreationExpr)
+214 type (ClassOrInterfaceType)
+215 name (SimpleName)
+216 identifier='WildcardQuery'
+217 arguments
+218 argument (ObjectCreationExpr)
+219 type (ClassOrInterfaceType)
+220 name (SimpleName)
+221 identifier='Term'
+222 arguments
+223 argument (StringLiteralExpr)
+224 value='field'
+225 argument (StringLiteralExpr)
+226 value='foo\\'
+227 name (SimpleName)
+228 identifier='atEnd'
+229 type (ClassOrInterfaceType)
+230 name (SimpleName)
+231 identifier='WildcardQuery'
+232 statement (ExpressionStmt)
+233 expression (MethodCallExpr)
+234 name (SimpleName)
+235 identifier='assertMatches'
+236 arguments
+237 argument (NameExpr)
+238 name (SimpleName)
+239 identifier='searcher'
+240 argument (NameExpr)
+241 name (SimpleName)
+242 identifier='atEnd'
+243 argument (IntegerLiteralExpr)
+244 value='1'
+245 statement (ExpressionStmt)
+246 expression (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='close'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='reader'
+252 statement (ExpressionStmt)
+253 expression (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='close'
+256 scope (NameExpr)
+257 name (SimpleName)
+258 identifier='indexStore'
+259 type (VoidType)
+260 name (SimpleName)
+261 identifier='testEscapes'
+262 thrownExceptions
+263 thrownException (ClassOrInterfaceType)
+264 name (SimpleName)
+265 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+19 20
+18 21
+21 22
+18 23
+23 24
+18 25
+25 26
+18 27
+27 28
+13 29
+29 30
+6 31
+31 32
+6 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+39 50
+50 51
+39 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+58 66
+66 67
+58 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+74 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+81 82
+82 83
+80 84
+84 85
+85 86
+84 87
+87 88
+74 89
+89 90
+74 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+98 102
+102 103
+103 104
+98 105
+105 106
+2 107
+107 108
+108 109
+109 110
+110 111
+111 112
+112 113
+113 114
+111 115
+115 116
+116 117
+117 118
+118 119
+116 120
+120 121
+121 122
+120 123
+123 124
+110 125
+125 126
+110 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+136 137
+134 138
+138 139
+139 140
+134 141
+141 142
+2 143
+143 144
+144 145
+144 146
+146 147
+147 148
+144 149
+149 150
+150 151
+151 152
+149 153
+153 154
+154 155
+155 156
+156 157
+154 158
+158 159
+159 160
+158 161
+161 162
+2 163
+163 164
+164 165
+165 166
+164 167
+167 168
+168 169
+169 170
+167 171
+171 172
+172 173
+167 174
+174 175
+2 176
+176 177
+177 178
+177 179
+179 180
+180 181
+177 182
+182 183
+183 184
+184 185
+182 186
+186 187
+187 188
+188 189
+189 190
+187 191
+191 192
+192 193
+191 194
+194 195
+2 196
+196 197
+197 198
+198 199
+197 200
+200 201
+201 202
+202 203
+200 204
+204 205
+205 206
+200 207
+207 208
+2 209
+209 210
+210 211
+211 212
+212 213
+213 214
+214 215
+215 216
+213 217
+217 218
+218 219
+219 220
+220 221
+218 222
+222 223
+223 224
+222 225
+225 226
+212 227
+227 228
+212 229
+229 230
+230 231
+2 232
+232 233
+233 234
+234 235
+233 236
+236 237
+237 238
+238 239
+236 240
+240 241
+241 242
+236 243
+243 244
+2 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+2 252
+252 253
+253 254
+254 255
+253 256
+256 257
+257 258
+0 259
+0 260
+260 261
+0 262
+262 263
+263 264
+264 265
+
+Tests if wildcard escaping works

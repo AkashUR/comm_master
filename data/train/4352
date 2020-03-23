@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkIntersection'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='LINESTRING (163.81867067 -211.31840378, 165.9174252 -214.1665075)'
+10 argument (StringLiteralExpr)
+11 value='LINESTRING (2.84139601 -57.95412726, 469.59990601 -502.63851732)'
+12 argument (IntegerLiteralExpr)
+13 value='1'
+14 argument (StringLiteralExpr)
+15 value='POINT (163.81867067 -211.31840378)'
+16 argument (IntegerLiteralExpr)
+17 value='0'
+18 type (VoidType)
+19 name (SimpleName)
+20 identifier='testCentralEndpointHeuristicFailure'
+21 thrownExceptions
+22 thrownException (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='ParseException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+7 12
+12 13
+7 14
+14 15
+7 16
+16 17
+0 18
+0 19
+19 20
+0 21
+21 22
+22 23
+23 24
+
+Following cases were failures when using the CentralEndpointIntersector heuristic. This is because one segment lies at a significant angle to the other, with only one endpoint is close to the other segment. The CE heuristic chose the wrong endpoint to return. The fix is to use a new heuristic which out of the 4 endpoints chooses the one which is closest to the other segment. This works in all known failure cases.

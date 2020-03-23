@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='POLYGON ((40 180, 40 60, 240 60, 240 180, 140 60, 40 180))'
+9 name (SimpleName)
+10 identifier='wkt'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='checkIsValidSTR'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='wkt'
+22 argument (BooleanLiteralExpr)
+23 value='false'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='checkIsValidDefault'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='wkt'
+32 argument (BooleanLiteralExpr)
+33 value='false'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='testDisconnectedInteriorShellSelfTouchAtNonVertex'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+18 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+28 32
+32 33
+0 34
+0 35
+35 36
+
+Ensure that the Disconnected Interior condition is not validated

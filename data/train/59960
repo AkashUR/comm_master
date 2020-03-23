@@ -1,0 +1,134 @@
+66
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='bufferedWriter'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='BufferedWriter'
+13 arguments
+14 argument (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='OutputStreamWriter'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='outputStream'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='executorService'
+28 value (ObjectCreationExpr)
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='ForkJoinPool'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='threadCount'
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (NameExpr)
+40 name (SimpleName)
+41 identifier='generationBlockSize'
+42 value (BinaryExpr)
+43 operator='MULTIPLY'
+44 left (NameExpr)
+45 name (SimpleName)
+46 identifier='threadCount'
+47 right (NameExpr)
+48 name (SimpleName)
+49 identifier='PER_THREAD_BLOCK_SIZE'
+50 name (SimpleName)
+51 identifier='KeyPairGenerator'
+52 parameters
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='threadCount'
+57 type (PrimitiveType)
+58 type='INT'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='outputStream'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='OutputStream'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+37 42
+42 43
+42 44
+44 45
+45 46
+42 47
+47 48
+48 49
+0 50
+50 51
+0 52
+52 53
+53 54
+53 55
+55 56
+53 57
+57 58
+52 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+
+Fully initializes the object by allocating the extra ForkJoin thread pool etc

@@ -1,0 +1,78 @@
+38
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setTitle'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='PLUS'
+10 left (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getTitle'
+13 right (StringLiteralExpr)
+14 value=' (fixed)'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='setEnabled'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='nextSource'
+22 arguments
+23 argument (BooleanLiteralExpr)
+24 value='false'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='setEnabled'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='previousSource'
+32 arguments
+33 argument (BooleanLiteralExpr)
+34 value='false'
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='disableNavigationButtons'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+8 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+0 35
+0 36
+36 37
+
+Makes this frame unmodifiable, so that the tree it displays cannot be changed. In fact, all that happens is the title is update and the navigation buttons are disabled. This method is intended to prevent the user from modifying the frame, not to prevent other code from modifying it.

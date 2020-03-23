@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onDetach'
+7 scope (SuperExpr)
+8 statement (ExpressionStmt)
+9 expression (AssignExpr)
+10 operator='ASSIGN'
+11 target (NameExpr)
+12 name (SimpleName)
+13 identifier='mCallback'
+14 value (NullLiteralExpr)
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='onDetach'
+18 annotations
+19 annotation (MarkerAnnotationExpr)
+20 name (Name)
+21 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+9 11
+11 12
+12 13
+9 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+20 21
+
+Clear callback on detach to prevent null reference errors after the view has been

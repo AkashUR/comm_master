@@ -1,0 +1,260 @@
+129
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newBuilder'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='RestartWebServer'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='DevModeRequest'
+16 name (SimpleName)
+17 identifier='restartWebServerBuilder'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Builder'
+21 scope (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='RestartWebServer'
+24 scope (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='DevModeRequest'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='newBuilder'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='DevModeRequest'
+37 name (SimpleName)
+38 identifier='devModeRequestBuilder'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Builder'
+42 scope (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='DevModeRequest'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='setRequestType'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='devModeRequestBuilder'
+52 arguments
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='RESTART_WEB_SERVER'
+56 scope (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='RequestType'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='DevModeRequest'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='setRestartWebServer'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='devModeRequestBuilder'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='restartWebServerBuilder'
+73 statement (ExpressionStmt)
+74 expression (VariableDeclarationExpr)
+75 variables
+76 variable (VariableDeclarator)
+77 initializer (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='buildRequestMessageFromDevModeRequest'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='devModeRequestBuilder'
+84 name (SimpleName)
+85 identifier='request'
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='Builder'
+89 scope (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Request'
+92 statement (ExpressionStmt)
+93 expression (VariableDeclarationExpr)
+94 variables
+95 variable (VariableDeclarator)
+96 initializer (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='executeRequestAsync'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='transport'
+102 arguments
+103 argument (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='build'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='request'
+109 name (SimpleName)
+110 identifier='responseFuture'
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='Future'
+114 typeArguments
+115 typeArgument (ClassOrInterfaceType)
+116 name (SimpleName)
+117 identifier='Response'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='waitForResponse'
+122 arguments
+123 argument (NameExpr)
+124 name (SimpleName)
+125 identifier='responseFuture'
+126 type (VoidType)
+127 name (SimpleName)
+128 identifier='restartWebServer'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+30 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+82 83
+76 84
+84 85
+76 86
+86 87
+87 88
+86 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+95 109
+109 110
+95 111
+111 112
+112 113
+111 114
+114 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+124 125
+0 126
+0 127
+127 128
+
+Request that the web server be restarted. Assumes that the Development Mode Service supports this capability.

@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='play'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mSoundPool'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='mSoundMatchRight'
+14 argument (IntegerLiteralExpr)
+15 value='1'
+16 argument (IntegerLiteralExpr)
+17 value='1'
+18 argument (IntegerLiteralExpr)
+19 value='0'
+20 argument (IntegerLiteralExpr)
+21 value='0'
+22 argument (DoubleLiteralExpr)
+23 value='1.0f'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='PLUS'
+27 target (NameExpr)
+28 name (SimpleName)
+29 identifier='mMatchScore'
+30 value (EnclosedExpr)
+31 inner (BinaryExpr)
+32 operator='MULTIPLY'
+33 left (IntegerLiteralExpr)
+34 value='50'
+35 right (EnclosedExpr)
+36 inner (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='pow'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='Math'
+42 arguments
+43 argument (DoubleLiteralExpr)
+44 value='1.1'
+45 argument (BinaryExpr)
+46 operator='MINUS'
+47 left (NameExpr)
+48 name (SimpleName)
+49 identifier='mLevelNumber'
+50 right (IntegerLiteralExpr)
+51 value='1'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='setText'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='mScoreText'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='valueOf'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='String'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='mMatchScore'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='setText'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='mTextPlayAgainScore'
+77 arguments
+78 argument (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='valueOf'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='String'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='mMatchScore'
+88 type (VoidType)
+89 name (SimpleName)
+90 identifier='increaseScoreMatch'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+10 16
+16 17
+10 18
+18 19
+10 20
+20 21
+10 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+42 45
+45 46
+45 47
+47 48
+48 49
+45 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+71 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+0 88
+0 89
+89 90
+
+Increases the current score when a match is found. The score is based on the current level.

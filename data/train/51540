@@ -1,0 +1,214 @@
+106
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='name'
+9 argument (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='DNSKEY'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='Type'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='dclass'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='ttl'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='flags'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='proto'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='alg'
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='fromPublicKey'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='DNSSEC'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='key'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='alg'
+43 statement (ExpressionStmt)
+44 expression (AssignExpr)
+45 operator='ASSIGN'
+46 target (NameExpr)
+47 name (SimpleName)
+48 identifier='publicKey'
+49 value (NameExpr)
+50 name (SimpleName)
+51 identifier='key'
+52 name (SimpleName)
+53 identifier='DNSKEYRecord'
+54 parameters
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='name'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Name'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='dclass'
+66 type (PrimitiveType)
+67 type='INT'
+68 parameter (Parameter)
+69 isVarArgs='false'
+70 name (SimpleName)
+71 identifier='ttl'
+72 type (PrimitiveType)
+73 type='LONG'
+74 parameter (Parameter)
+75 isVarArgs='false'
+76 name (SimpleName)
+77 identifier='flags'
+78 type (PrimitiveType)
+79 type='INT'
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='proto'
+84 type (PrimitiveType)
+85 type='INT'
+86 parameter (Parameter)
+87 isVarArgs='false'
+88 name (SimpleName)
+89 identifier='alg'
+90 type (PrimitiveType)
+91 type='INT'
+92 parameter (Parameter)
+93 isVarArgs='false'
+94 name (SimpleName)
+95 identifier='key'
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='PublicKey'
+99 thrownExceptions
+100 thrownException (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='DNSSECException'
+103 scope (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='DNSSEC'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+9 12
+12 13
+13 14
+5 15
+15 16
+16 17
+5 18
+18 19
+19 20
+5 21
+21 22
+22 23
+5 24
+24 25
+25 26
+5 27
+27 28
+28 29
+5 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+2 43
+43 44
+44 45
+44 46
+46 47
+47 48
+44 49
+49 50
+50 51
+0 52
+52 53
+0 54
+54 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+54 62
+62 63
+62 64
+64 65
+62 66
+66 67
+54 68
+68 69
+68 70
+70 71
+68 72
+72 73
+54 74
+74 75
+74 76
+76 77
+74 78
+78 79
+54 80
+80 81
+80 82
+82 83
+80 84
+84 85
+54 86
+86 87
+86 88
+88 89
+86 90
+90 91
+54 92
+92 93
+92 94
+94 95
+92 96
+96 97
+97 98
+0 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+
+Creates a DNSKEY Record from the given data

@@ -1,0 +1,266 @@
+132
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='LongAdder'
+11 name (SimpleName)
+12 identifier='x'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='LongAdder'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='serialClone'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='x'
+27 name (SimpleName)
+28 identifier='y'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='LongAdder'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='assertNotSame'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='x'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='y'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='add'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='x'
+50 arguments
+51 argument (UnaryExpr)
+52 operator='MINUS'
+53 expression (IntegerLiteralExpr)
+54 value='22'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='serialClone'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='x'
+66 name (SimpleName)
+67 identifier='z'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='LongAdder'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='assertNotSame'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='y'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='z'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='assertEquals'
+86 arguments
+87 argument (UnaryExpr)
+88 operator='MINUS'
+89 expression (IntegerLiteralExpr)
+90 value='22'
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='sum'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='x'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='assertEquals'
+101 arguments
+102 argument (IntegerLiteralExpr)
+103 value='0'
+104 argument (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='sum'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='y'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='assertEquals'
+114 arguments
+115 argument (UnaryExpr)
+116 operator='MINUS'
+117 expression (IntegerLiteralExpr)
+118 value='22'
+119 argument (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='sum'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='z'
+125 type (VoidType)
+126 name (SimpleName)
+127 identifier='testSerialization'
+128 thrownExceptions
+129 thrownException (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+19 27
+27 28
+19 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+51 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+58 66
+66 67
+58 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+75 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+87 89
+89 90
+86 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+101 104
+104 105
+105 106
+104 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+115 117
+117 118
+114 119
+119 120
+120 121
+119 122
+122 123
+123 124
+0 125
+0 126
+126 127
+0 128
+128 129
+129 130
+130 131
+
+a deserialized serialized adder holds same value

@@ -1,0 +1,214 @@
+106
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getTextHeight'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getPaintDevice'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='diagram'
+16 arguments
+17 argument (BooleanLiteralExpr)
+18 value='true'
+19 name (SimpleName)
+20 identifier='h'
+21 type (PrimitiveType)
+22 type='INT'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='extendLifelines'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='diagram'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getSeparatorTopMargin'
+34 scope (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getConfiguration'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='diagram'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='add'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='separators'
+47 arguments
+48 argument (ObjectCreationExpr)
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Pair'
+52 typeArguments
+53 typeArgument (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Integer'
+56 typeArgument (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getVerticalPosition'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='diagram'
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='sectionCondition'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='extendLifelines'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='diagram'
+76 arguments
+77 argument (BinaryExpr)
+78 operator='PLUS'
+79 left (BinaryExpr)
+80 operator='PLUS'
+81 left (NameExpr)
+82 name (SimpleName)
+83 identifier='h'
+84 right (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='getSeparatorBottomMargin'
+87 scope (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='getConfiguration'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='diagram'
+93 right (IntegerLiteralExpr)
+94 value='5'
+95 type (VoidType)
+96 name (SimpleName)
+97 identifier='addSection'
+98 parameters
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='sectionCondition'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+6 19
+19 20
+6 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+48 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+59 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+77 79
+79 80
+79 81
+81 82
+82 83
+79 84
+84 85
+85 86
+84 87
+87 88
+88 89
+87 90
+90 91
+91 92
+77 93
+93 94
+0 95
+0 96
+96 97
+0 98
+98 99
+99 100
+99 101
+101 102
+99 103
+103 104
+104 105
+
+Adds a section to this fragment with its own condition. It will be represented by a dashed line appearing at the current vertical position.

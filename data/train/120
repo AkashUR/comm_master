@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='transport'
+9 scope (ThisExpr)
+10 value (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='SimpleTargetedChain'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='setOption'
+18 scope (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='transport'
+21 scope (ThisExpr)
+22 arguments
+23 argument (StringLiteralExpr)
+24 value='qs.list'
+25 argument (StringLiteralExpr)
+26 value='org.apache.axis.transport.http.QSListHandler'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setOption'
+31 scope (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='transport'
+34 scope (ThisExpr)
+35 arguments
+36 argument (StringLiteralExpr)
+37 value='qs.method'
+38 argument (StringLiteralExpr)
+39 value='org.apache.axis.transport.http.QSMethodHandler'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='setOption'
+44 scope (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='transport'
+47 scope (ThisExpr)
+48 arguments
+49 argument (StringLiteralExpr)
+50 value='qs.wsdl'
+51 argument (StringLiteralExpr)
+52 value='org.apache.axis.transport.http.QSWSDLHandler'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='initQueryStringHandlers'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+18 21
+15 22
+22 23
+23 24
+22 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+28 35
+35 36
+36 37
+35 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+41 48
+48 49
+49 50
+48 51
+51 52
+0 53
+0 54
+54 55
+
+Initialize a Handler for the transport defined in the Axis server config. This includes optionally filling in query string handlers.

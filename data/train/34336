@@ -1,0 +1,12 @@
+5
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='onReturnForeground'
+0 1
+0 2
+0 3
+3 4
+
+Called when corresponding fragment returns foreground from background <b>ONLY</b> when the model doesn't need to be rebound to the controller. For example, if the fragment is rotated or recreated then this method won't be called. But if home button pressed and then then the app is brought back to front without being killed by the OS, this method will be called.

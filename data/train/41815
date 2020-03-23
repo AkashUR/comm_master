@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NullLiteralExpr)
+8 name (SimpleName)
+9 identifier='capturedCheckpoint'
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='Checkpoint'
+13 statement (SynchronizedStmt)
+14 body (BlockStmt)
+15 statements
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='capturedCheckpoint'
+22 value (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Checkpoint'
+26 arguments
+27 argument (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='partitionId'
+30 scope (ThisExpr)
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='offset'
+34 scope (ThisExpr)
+35 argument (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='sequenceNumber'
+38 scope (ThisExpr)
+39 expression (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='offsetSynchronizer'
+42 scope (ThisExpr)
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='persistCheckpoint'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='capturedCheckpoint'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='checkpoint'
+54 thrownExceptions
+55 thrownException (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='IllegalArgumentException'
+58 thrownException (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='InterruptedException'
+61 thrownException (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='ExecutionException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+6 8
+8 9
+6 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+28 29
+27 30
+26 31
+31 32
+32 33
+31 34
+26 35
+35 36
+36 37
+35 38
+13 39
+39 40
+40 41
+39 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+0 51
+0 52
+52 53
+0 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+54 61
+61 62
+62 63
+
+Writes the current offset and sequenceNumber to the checkpoint store via the checkpoint manager.

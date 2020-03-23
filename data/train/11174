@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='Writing config: {}'
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='config'
+16 statement (ForeachStmt)
+17 body (BlockStmt)
+18 statements
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='send'
+23 arguments
+24 argument (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='SetConfig'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='source'
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getKey'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='configPair'
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getValue'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='configPair'
+44 iterable (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='entrySet'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='config'
+50 variable (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 name (SimpleName)
+54 identifier='configPair'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='Entry'
+58 scope (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='Map'
+61 typeArguments
+62 typeArgument (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 typeArgument (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='String'
+68 statement (ExpressionStmt)
+69 expression (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='flush'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='systemProducer'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='source'
+79 type (VoidType)
+80 name (SimpleName)
+81 identifier='writeConfig'
+82 parameters
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='source'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='String'
+90 parameter (Parameter)
+91 isVarArgs='false'
+92 name (SimpleName)
+93 identifier='config'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='Config'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+32 35
+35 36
+36 37
+28 38
+38 39
+39 40
+38 41
+41 42
+42 43
+16 44
+44 45
+45 46
+44 47
+47 48
+48 49
+16 50
+50 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+61 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+77 78
+0 79
+0 80
+80 81
+0 82
+82 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+82 90
+90 91
+90 92
+92 93
+90 94
+94 95
+95 96
+
+Helper method that sends a series of SetConfig messages to the coordinator stream.

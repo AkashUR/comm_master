@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='MINUS'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='sNativeLoaderCount'
+9 value (IntegerLiteralExpr)
+10 value='1'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='mNativeLoader'
+17 value (IntegerLiteralExpr)
+18 value='0'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (NameExpr)
+23 name (SimpleName)
+24 identifier='mSetNativeResponse'
+25 value (BooleanLiteralExpr)
+26 value='false'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='clearNativeLoader'
+30 annotations
+31 annotation (SingleMemberAnnotationExpr)
+32 memberValue (StringLiteralExpr)
+33 value='Private Method'
+34 name (Name)
+35 identifier='DSComment'
+36 annotation (SingleMemberAnnotationExpr)
+37 memberValue (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='PRIVATE_METHOD'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='DSCat'
+43 name (Name)
+44 identifier='DSBan'
+45 annotation (NormalAnnotationExpr)
+46 name (Name)
+47 identifier='DSGenerator'
+48 pairs
+49 pair (MemberValuePair)
+50 name (SimpleName)
+51 identifier='tool_name'
+52 value (StringLiteralExpr)
+53 value='Doppelganger'
+54 pair (MemberValuePair)
+55 name (SimpleName)
+56 identifier='tool_version'
+57 value (StringLiteralExpr)
+58 value='2.0'
+59 pair (MemberValuePair)
+60 name (SimpleName)
+61 identifier='generated_on'
+62 value (StringLiteralExpr)
+63 value='2013-12-30 12:32:45.047 -0500'
+64 pair (MemberValuePair)
+65 name (SimpleName)
+66 identifier='hash_original_method'
+67 value (StringLiteralExpr)
+68 value='E8BFBC0989CB1303890EF6ABB82F2DCB'
+69 pair (MemberValuePair)
+70 name (SimpleName)
+71 identifier='hash_generated_method'
+72 value (StringLiteralExpr)
+73 value='1D544F275B4EBCF75E4514D548A5000B'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+20 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+32 33
+31 34
+34 35
+30 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+36 43
+43 44
+30 45
+45 46
+46 47
+45 48
+48 49
+49 50
+50 51
+49 52
+52 53
+48 54
+54 55
+55 56
+54 57
+57 58
+48 59
+59 60
+60 61
+59 62
+62 63
+48 64
+64 65
+65 66
+64 67
+67 68
+48 69
+69 70
+70 71
+69 72
+72 73
+
+We keep a count of refs to the nativeLoader so we do not create so many LoadListeners that the GREFs blow up

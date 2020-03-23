@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='sendToTarget'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='obtainMessage'
+10 scope (FieldAccessExpr)
+11 name (SimpleName)
+12 identifier='sJavaBridge'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='BrowserFrame'
+16 arguments
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='REFRESH_PLUGINS'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='JWebCoreJavaBridge'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='reloadOpenPages'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='refreshPlugins'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='reloadOpenPages'
+34 type (PrimitiveType)
+35 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+16 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+
+Signal the WebCore thread to refresh its list of plugins. Use this if the directory contents of one of the plugin directories has been modified and needs its changes reflecting. May cause plugin load and/or unload.

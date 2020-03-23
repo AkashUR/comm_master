@@ -1,0 +1,104 @@
+51
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='comments'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='PrintText'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='srcName'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='format'
+22 argument (BooleanLiteralExpr)
+23 value='true'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='strftime'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='gprint'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='srcName'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='format'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='String'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='strftime'
+49 type (PrimitiveType)
+50 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+15 22
+22 23
+15 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+30 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+30 45
+45 46
+45 47
+47 48
+45 49
+49 50
+
+<p>Read the value of a variable (VDEF) and prints the the value or the time stamp, according to the strftime flag by using the given format string.  In and creates the result by using the given format string.  In the format string there should be a '%[l]f', '%[l]g' or '%[l]e' marker in the place where the number should be printed.</p> <p>If an additional '%s' is found AFTER the marker, the value will be scaled and an appropriate SI magnitude unit will be printed in place of the '%s' marker. The scaling will take the '--base' argument into consideration!</p> <p>If a '%S' is used instead of a '%s', then instead of calculating the appropriate SI magnitude unit for this value, the previously calculated SI magnitude unit will be used.  This is useful if you want all the values in a print statement to have the same SI magnitude unit. If there was no previous SI magnitude calculation made, then '%S' behaves like a '%s', unless the value is 0, in which case it does not remember a SI magnitude unit and a SI magnitude unit will only be calculated when the next '%s' is seen or the next '%S' for a non-zero value.</p> <p>print results are added to the graph as a legend.</p>

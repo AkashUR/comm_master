@@ -1,0 +1,256 @@
+127
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='create'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='igfsSecondary'
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='paths'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='DIR'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='SUBDIR'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='SUBSUBDIR'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='DIR_NEW'
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='SUBDIR_NEW'
+30 argument (NullLiteralExpr)
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='create'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='igfs'
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='paths'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='DIR'
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='SUBDIR'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='SUBSUBDIR'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='DIR_NEW'
+55 argument (NullLiteralExpr)
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='rename'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='igfs'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='SUBSUBDIR'
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='SUBDIR_NEW'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='checkExist'
+74 arguments
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='igfs'
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='SUBDIR_NEW'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='checkExist'
+85 arguments
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='igfs'
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='igfsSecondary'
+92 argument (ObjectCreationExpr)
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='IgfsPath'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='SUBDIR_NEW'
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='name'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='SUBSUBDIR'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='checkNotExist'
+110 arguments
+111 argument (NameExpr)
+112 name (SimpleName)
+113 identifier='igfs'
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='igfsSecondary'
+117 argument (NameExpr)
+118 name (SimpleName)
+119 identifier='SUBSUBDIR'
+120 type (VoidType)
+121 name (SimpleName)
+122 identifier='testMoveDirectoryDestinationMissingPartially'
+123 thrownExceptions
+124 thrownException (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+14 21
+21 22
+22 23
+14 24
+24 25
+25 26
+14 27
+27 28
+28 29
+7 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+42 46
+46 47
+47 48
+42 49
+49 50
+50 51
+42 52
+52 53
+53 54
+35 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+76 77
+74 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+87 88
+85 89
+89 90
+90 91
+85 92
+92 93
+93 94
+94 95
+92 96
+96 97
+97 98
+98 99
+96 100
+100 101
+101 102
+100 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+112 113
+110 114
+114 115
+115 116
+110 117
+117 118
+118 119
+0 120
+0 121
+121 122
+0 123
+123 124
+124 125
+125 126
+
+Test move in case destination exists partially and the path being renamed is a directory.

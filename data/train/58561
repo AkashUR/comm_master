@@ -1,0 +1,308 @@
+153
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='docType'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='DocumentType'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='domImpl'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='DOMImplementation'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='publicId'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='String'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 name (SimpleName)
+44 identifier='systemId'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='String'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (NameExpr)
+52 name (SimpleName)
+53 identifier='doc'
+54 value (CastExpr)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='load'
+58 arguments
+59 argument (StringLiteralExpr)
+60 value='staffNS'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='builder'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Document'
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (NameExpr)
+71 name (SimpleName)
+72 identifier='domImpl'
+73 value (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getImplementation'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='doc'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='docType'
+85 value (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='createDocumentType'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='domImpl'
+91 arguments
+92 argument (StringLiteralExpr)
+93 value='l2:root'
+94 argument (StringLiteralExpr)
+95 value='PUB'
+96 argument (StringLiteralExpr)
+97 value='SYS'
+98 statement (ExpressionStmt)
+99 expression (AssignExpr)
+100 operator='ASSIGN'
+101 target (NameExpr)
+102 name (SimpleName)
+103 identifier='publicId'
+104 value (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='getPublicId'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='docType'
+110 statement (ExpressionStmt)
+111 expression (AssignExpr)
+112 operator='ASSIGN'
+113 target (NameExpr)
+114 name (SimpleName)
+115 identifier='systemId'
+116 value (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='getSystemId'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='docType'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='assertEquals'
+126 arguments
+127 argument (StringLiteralExpr)
+128 value='documenttypepublicid01'
+129 argument (StringLiteralExpr)
+130 value='PUB'
+131 argument (NameExpr)
+132 name (SimpleName)
+133 identifier='publicId'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='assertEquals'
+138 arguments
+139 argument (StringLiteralExpr)
+140 value='documenttypesystemid01'
+141 argument (StringLiteralExpr)
+142 value='SYS'
+143 argument (NameExpr)
+144 name (SimpleName)
+145 identifier='systemId'
+146 type (VoidType)
+147 name (SimpleName)
+148 identifier='testGetSystemId'
+149 thrownExceptions
+150 thrownException (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+49 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+54 64
+64 65
+65 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+68 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+91 94
+94 95
+91 96
+96 97
+2 98
+98 99
+99 100
+99 101
+101 102
+102 103
+99 104
+104 105
+105 106
+104 107
+107 108
+108 109
+2 110
+110 111
+111 112
+111 113
+113 114
+114 115
+111 116
+116 117
+117 118
+116 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+126 129
+129 130
+126 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+138 141
+141 142
+138 143
+143 144
+144 145
+0 146
+0 147
+147 148
+0 149
+149 150
+150 151
+151 152
+
+Runs the test case.

@@ -1,0 +1,204 @@
+101
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getActionSetRegistry'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getDefault'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='WorkbenchPlugin'
+16 name (SimpleName)
+17 identifier='reg'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='ActionSetRegistry'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='removeStandardAction'
+25 arguments
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='reg'
+29 argument (StringLiteralExpr)
+30 value='org.eclipse.ui.edit.text.actionSet.navigation'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='removeStandardAction'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='reg'
+39 argument (StringLiteralExpr)
+40 value='org.eclipse.ui.NavigateActionSet'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='removeStandardAction'
+45 arguments
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='reg'
+49 argument (StringLiteralExpr)
+50 value='org.eclipse.ui.edit.text.actionSet.openExternalFile'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='removeStandardAction'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='reg'
+59 argument (StringLiteralExpr)
+60 value='org.eclipse.ui.actionSet.openFiles'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='removeStandardAction'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='reg'
+69 argument (StringLiteralExpr)
+70 value='org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='removeStandardAction'
+75 arguments
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='reg'
+79 argument (StringLiteralExpr)
+80 value='org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='removeStandardAction'
+85 arguments
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='reg'
+89 argument (StringLiteralExpr)
+90 value='org.eclipse.ui.WorkingSetActionSet'
+91 type (VoidType)
+92 name (SimpleName)
+93 identifier='removeExtraneousActions'
+94 annotations
+95 annotation (SingleMemberAnnotationExpr)
+96 memberValue (NameExpr)
+97 name (SimpleName)
+98 identifier='WARNING_RESTRICTION'
+99 name (Name)
+100 identifier='SuppressWarnings'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+25 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+35 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+45 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+55 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+65 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+75 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+87 88
+85 89
+89 90
+0 91
+0 92
+92 93
+0 94
+94 95
+95 96
+96 97
+97 98
+95 99
+99 100
+
+This removes some actions that we inherit from org.eclipse.ui.ide which we don't want.

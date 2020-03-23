@@ -1,0 +1,216 @@
+107
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='beginShape'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='curveVertex'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='x1'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='y1'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='curveVertex'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='x2'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='y2'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='curveVertex'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='x3'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='y3'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='curveVertex'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='x4'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='y4'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='endShape'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='curve'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='x1'
+63 type (PrimitiveType)
+64 type='FLOAT'
+65 parameter (Parameter)
+66 isVarArgs='false'
+67 name (SimpleName)
+68 identifier='y1'
+69 type (PrimitiveType)
+70 type='FLOAT'
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='x2'
+75 type (PrimitiveType)
+76 type='FLOAT'
+77 parameter (Parameter)
+78 isVarArgs='false'
+79 name (SimpleName)
+80 identifier='y2'
+81 type (PrimitiveType)
+82 type='FLOAT'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='x3'
+87 type (PrimitiveType)
+88 type='FLOAT'
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='y3'
+93 type (PrimitiveType)
+94 type='FLOAT'
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='x4'
+99 type (PrimitiveType)
+100 type='FLOAT'
+101 parameter (Parameter)
+102 isVarArgs='false'
+103 name (SimpleName)
+104 identifier='y4'
+105 type (PrimitiveType)
+106 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+58 65
+65 66
+65 67
+67 68
+65 69
+69 70
+58 71
+71 72
+71 73
+73 74
+71 75
+75 76
+58 77
+77 78
+77 79
+79 80
+77 81
+81 82
+58 83
+83 84
+83 85
+85 86
+83 87
+87 88
+58 89
+89 90
+89 91
+91 92
+89 93
+93 94
+58 95
+95 96
+95 97
+97 98
+95 99
+99 100
+58 101
+101 102
+101 103
+103 104
+101 105
+105 106
+
+Draws a segment of Catmull-Rom curve. <P> As of 0070, this function no longer doubles the first and last points. The curves are a bit more boring, but it's more mathematically correct, and properly mirrored in curvePoint(). <P> Identical to typing out:<PRE> beginShape(); curveVertex(x1, y1); curveVertex(x2, y2); curveVertex(x3, y3); curveVertex(x4, y4); endShape(); </PRE>

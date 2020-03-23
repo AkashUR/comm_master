@@ -1,0 +1,192 @@
+95
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='lengthToLatitudeDelta'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='LatLngWindow'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='height'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='unit'
+20 name (SimpleName)
+21 identifier='deltaLat'
+22 type (PrimitiveType)
+23 type='DOUBLE'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 initializer (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='lengthToLongitudeDelta'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='LatLngWindow'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='width'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='unit'
+41 argument (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getLatitude'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='center'
+47 name (SimpleName)
+48 identifier='deltaLng'
+49 type (PrimitiveType)
+50 type='DOUBLE'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setWindow'
+55 scope (ThisExpr)
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='center'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='deltaLat'
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='deltaLng'
+66 name (SimpleName)
+67 identifier='RectangularWindow'
+68 parameters
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='center'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='LatLng'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='width'
+80 type (PrimitiveType)
+81 type='DOUBLE'
+82 parameter (Parameter)
+83 isVarArgs='false'
+84 name (SimpleName)
+85 identifier='height'
+86 type (PrimitiveType)
+87 type='DOUBLE'
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='unit'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='LengthUnit'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+34 41
+41 42
+42 43
+41 44
+44 45
+45 46
+27 47
+47 48
+27 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+52 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+56 63
+63 64
+64 65
+0 66
+66 67
+0 68
+68 69
+69 70
+69 71
+71 72
+69 73
+73 74
+74 75
+68 76
+76 77
+76 78
+78 79
+76 80
+80 81
+68 82
+82 83
+82 84
+84 85
+82 86
+86 87
+68 88
+88 89
+88 90
+90 91
+88 92
+92 93
+93 94
+
+Creates a psuedo-rectangular window. The height will include the all latitudes within <code>height/2</code> North and South, while the width will include all longitudes within <code>width/2</code> East and West of the center point. This is an approximation that will work fine for small window away from the poles, but keep in mind that, for example in the northern hemisphere, the top of the rectangle is narrower than the bottom of the rectangle, with the middle of the rectangle's width being somewhere in between.

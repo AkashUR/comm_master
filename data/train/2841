@@ -1,0 +1,62 @@
+30
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='testTransaction'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='cacheOffheap'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='PESSIMISTIC'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='KEY_1'
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='wrap'
+20 arguments
+21 argument (IntegerLiteralExpr)
+22 value='1'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='testPessimisticOffheap'
+26 thrownExceptions
+27 thrownException (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+17 20
+20 21
+21 22
+0 23
+0 24
+24 25
+0 26
+26 27
+27 28
+28 29
+
+Check whether offheap cache with byte array entry works correctly in PESSIMISTIC transaction.

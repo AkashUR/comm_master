@@ -1,0 +1,260 @@
+129
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='m'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='readValue'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='m'
+26 arguments
+27 argument (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='asJSONObjectValueString'
+30 arguments
+31 argument (StringLiteralExpr)
+32 value='@classy'
+33 argument (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='getName'
+36 scope (ClassExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Cat'
+40 argument (StringLiteralExpr)
+41 value='furColor'
+42 argument (StringLiteralExpr)
+43 value='tabby'
+44 argument (StringLiteralExpr)
+45 value='name'
+46 argument (StringLiteralExpr)
+47 value='Garfield'
+48 argument (ClassExpr)
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Animal'
+52 name (SimpleName)
+53 identifier='a'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Animal'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='assertNotNull'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='a'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='assertEquals'
+69 arguments
+70 argument (ClassExpr)
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='Cat'
+74 argument (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='getClass'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='a'
+80 statement (ExpressionStmt)
+81 expression (VariableDeclarationExpr)
+82 variables
+83 variable (VariableDeclarator)
+84 initializer (CastExpr)
+85 expression (NameExpr)
+86 name (SimpleName)
+87 identifier='a'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='Cat'
+91 name (SimpleName)
+92 identifier='c'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Cat'
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='assertEquals'
+100 arguments
+101 argument (StringLiteralExpr)
+102 value='Garfield'
+103 argument (FieldAccessExpr)
+104 name (SimpleName)
+105 identifier='name'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='c'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='assertEquals'
+113 arguments
+114 argument (StringLiteralExpr)
+115 value='tabby'
+116 argument (FieldAccessExpr)
+117 name (SimpleName)
+118 identifier='furColor'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='c'
+122 type (VoidType)
+123 name (SimpleName)
+124 identifier='testSimpleClassAsProperty'
+125 thrownExceptions
+126 thrownException (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+30 40
+40 41
+30 42
+42 43
+30 44
+44 45
+30 46
+46 47
+26 48
+48 49
+49 50
+50 51
+19 52
+52 53
+19 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+72 73
+69 74
+74 75
+75 76
+74 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+83 91
+91 92
+83 93
+93 94
+94 95
+2 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+113 116
+116 117
+117 118
+116 119
+119 120
+120 121
+0 122
+0 123
+123 124
+0 125
+125 126
+126 127
+127 128
+
+First things first, let's ensure we can serialize using class name, written as main-level property name

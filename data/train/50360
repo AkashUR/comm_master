@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertEquals'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='select \'{\"\',\'}\''
+10 argument (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='nativeSQL'
+13 scope (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='conn'
+16 scope (ThisExpr)
+17 arguments
+18 argument (StringLiteralExpr)
+19 value='select \'{\"\',\'}\''
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='testBug14909'
+23 thrownExceptions
+24 thrownException (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+10 17
+17 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+25 26
+
+Tests fix for BUG#14909 - escape processor replaces quote character in quoted string with string delimiter.

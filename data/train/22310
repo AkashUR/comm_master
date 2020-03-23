@@ -1,0 +1,94 @@
+46
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='cameraId'
+9 statement (ExpressionStmt)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='setVideoEncoder'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='H264'
+17 scope (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='VideoEncoder'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='MediaRecorder'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='mPacketizer'
+29 value (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='H264Packetizer'
+33 name (SimpleName)
+34 identifier='H264Stream'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='cameraId'
+40 type (PrimitiveType)
+41 type='INT'
+42 thrownExceptions
+43 thrownException (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+31 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+0 42
+42 43
+43 44
+44 45
+
+Constructs the H.264 stream.

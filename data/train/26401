@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='waitUntil'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='predicate'
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='MAX_VALUE'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='Long'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='waitUntil'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='predicate'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Predicate'
+28 typeArguments
+29 typeArgument (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='OutputFrame'
+32 thrownExceptions
+33 thrownException (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='TimeoutException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+0 32
+32 33
+33 34
+34 35
+
+Wait until any frame (usually, line) of output matches the provided predicate. <p> Note that lines will often have a trailing newline character, and this is not stripped off before the predicate is tested.

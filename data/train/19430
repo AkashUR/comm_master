@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='add'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='mEventQueue'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='r'
+17 statement (SynchronizedStmt)
+18 body (BlockStmt)
+19 statements
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='mEventsWaiting'
+26 value (BooleanLiteralExpr)
+27 value='true'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='notifyAll'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='sGLThreadManager'
+35 expression (NameExpr)
+36 name (SimpleName)
+37 identifier='sGLThreadManager'
+38 expression (ThisExpr)
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='queueEvent'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='r'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Runnable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+5 17
+17 18
+18 19
+19 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+19 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+17 35
+35 36
+36 37
+3 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+
+Queue an "event" to be run on the GL rendering thread.

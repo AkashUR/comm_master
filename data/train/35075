@@ -1,0 +1,240 @@
+119
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='newDocument'
+9 value (CastExpr)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='clone'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='originalDocument'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Document'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (CastExpr)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='clone'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getRootElement'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='originalDocument'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Element'
+36 name (SimpleName)
+37 identifier='rootElement'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Element'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='createFromRootElement'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='factory'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='rootElement'
+55 name (SimpleName)
+56 identifier='rootWrapper'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='HierarchyWrapper'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='createWrappedStructure'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='rootWrapper'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='factory'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='detachStructure'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='rootWrapper'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='sortStructureAttributes'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='rootWrapper'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='sortStructureElements'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='rootWrapper'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='connectXmlStructure'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='rootWrapper'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='setRootElement'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='newDocument'
+106 arguments
+107 argument (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='getContent'
+110 scope (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='getElementContent'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='rootWrapper'
+116 type (VoidType)
+117 name (SimpleName)
+118 identifier='sortXml'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+9 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+23 33
+33 34
+34 35
+22 36
+36 37
+22 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+44 55
+55 56
+44 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+110 113
+113 114
+114 115
+0 116
+0 117
+117 118
+
+Creates a new dom document that contains the sorted xml.

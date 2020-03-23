@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Polygon'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='xPoints'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='yPoints'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='nPoints'
+21 name (SimpleName)
+22 identifier='polygon'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Polygon'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='fill'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='polygon'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='fillPolygon'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='xPoints'
+42 type (ArrayType)
+43 origin='TYPE'
+44 componentType (PrimitiveType)
+45 type='INT'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='yPoints'
+50 type (ArrayType)
+51 origin='TYPE'
+52 componentType (PrimitiveType)
+53 type='INT'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='nPoints'
+58 type (PrimitiveType)
+59 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+11 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+42 44
+44 45
+37 46
+46 47
+46 48
+48 49
+46 50
+50 51
+50 52
+52 53
+37 54
+54 55
+54 56
+56 57
+54 58
+58 59
+
+Fills a closed polygon defined by arrays of <i>x</i> and <i>y</i> coordinates. <p> This method draws the polygon defined by <code>nPoint</code> line segments, where the first <code>nPoint&nbsp;-&nbsp;1</code> line segments are line segments from <code>(xPoints[i&nbsp;-&nbsp;1],&nbsp;yPoints[i&nbsp;-&nbsp;1])</code> to <code>(xPoints[i],&nbsp;yPoints[i])</code>, for 1&nbsp;&le;&nbsp;<i>i</i>&nbsp;&le;&nbsp;<code>nPoints</code>. The figure is automatically closed by drawing a line connecting the final point to the first point, if those points are different. <p> The area inside the polygon is defined using an even-odd fill rule, also known as the alternating rule.

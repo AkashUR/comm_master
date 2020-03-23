@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='driver'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getWebDriver'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='WebUIDriver'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='element'
+21 value (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='findElement'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='driver'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='by'
+31 type (VoidType)
+32 name (SimpleName)
+33 identifier='init'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+0 31
+0 32
+32 33
+
+Refreshes the WebUIDriver before locating the element, to ensure we have the current version (useful for when the state of an element has changed via an AJAX or non-page-turn action).

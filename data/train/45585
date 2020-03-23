@@ -1,0 +1,462 @@
+230
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (NameExpr)
+8 name (SimpleName)
+9 identifier='DOWNLOAD_STATUS_DEVICE_ABORTED'
+10 name (SimpleName)
+11 identifier='status'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='String'
+15 statement (SwitchStmt)
+16 selector (NameExpr)
+17 name (SimpleName)
+18 identifier='reason'
+19 entries
+20 entrie (SwitchEntryStmt)
+21 label (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='ERROR_CANNOT_RESUME'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='DownloadManager'
+27 statements
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='status'
+34 value (NameExpr)
+35 name (SimpleName)
+36 identifier='DOWNLOAD_STATUS_LOSS_OF_SERVICE'
+37 statement (BreakStmt)
+38 entrie (SwitchEntryStmt)
+39 label (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='ERROR_HTTP_DATA_ERROR'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='DownloadManager'
+45 entrie (SwitchEntryStmt)
+46 label (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='ERROR_TOO_MANY_REDIRECTS'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='DownloadManager'
+52 entrie (SwitchEntryStmt)
+53 label (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='ERROR_UNHANDLED_HTTP_CODE'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='DownloadManager'
+59 statements
+60 statement (ExpressionStmt)
+61 expression (AssignExpr)
+62 operator='ASSIGN'
+63 target (NameExpr)
+64 name (SimpleName)
+65 identifier='status'
+66 value (NameExpr)
+67 name (SimpleName)
+68 identifier='DOWNLOAD_STATUS_LOADER_ERROR'
+69 statement (BreakStmt)
+70 entrie (SwitchEntryStmt)
+71 label (FieldAccessExpr)
+72 name (SimpleName)
+73 identifier='ERROR_INSUFFICIENT_SPACE'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='DownloadManager'
+77 statements
+78 statement (ExpressionStmt)
+79 expression (AssignExpr)
+80 operator='ASSIGN'
+81 target (NameExpr)
+82 name (SimpleName)
+83 identifier='status'
+84 value (NameExpr)
+85 name (SimpleName)
+86 identifier='DOWNLOAD_STATUS_INSUFFICIENT_MEMORY'
+87 statement (BreakStmt)
+88 entrie (SwitchEntryStmt)
+89 statements
+90 statement (BreakStmt)
+91 statement (ExpressionStmt)
+92 expression (VariableDeclarationExpr)
+93 variables
+94 variable (VariableDeclarator)
+95 initializer (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='getDownloadId'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='downloadInfo'
+101 name (SimpleName)
+102 identifier='downloadId'
+103 type (PrimitiveType)
+104 type='LONG'
+105 statement (ExpressionStmt)
+106 expression (VariableDeclarationExpr)
+107 variables
+108 variable (VariableDeclarator)
+109 initializer (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='get'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='mPendingOMADownloads'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='downloadId'
+119 name (SimpleName)
+120 identifier='omaInfo'
+121 type (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='OMAInfo'
+124 statement (IfStmt)
+125 condition (BinaryExpr)
+126 operator='EQUALS'
+127 left (NameExpr)
+128 name (SimpleName)
+129 identifier='omaInfo'
+130 right (NullLiteralExpr)
+131 thenStmt (BlockStmt)
+132 statements
+133 statement (ExpressionStmt)
+134 expression (AssignExpr)
+135 operator='ASSIGN'
+136 target (NameExpr)
+137 name (SimpleName)
+138 identifier='omaInfo'
+139 value (ObjectCreationExpr)
+140 type (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='OMAInfo'
+143 statement (ExpressionStmt)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='addAttributeValue'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='omaInfo'
+150 arguments
+151 argument (NameExpr)
+152 name (SimpleName)
+153 identifier='OMA_INSTALL_NOTIFY_URI'
+154 argument (NameExpr)
+155 name (SimpleName)
+156 identifier='notifyURI'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='sendInstallNotificationAndNextStep'
+161 arguments
+162 argument (NameExpr)
+163 name (SimpleName)
+164 identifier='omaInfo'
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='downloadInfo'
+168 argument (NameExpr)
+169 name (SimpleName)
+170 identifier='status'
+171 statement (ReturnStmt)
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='showDownloadWarningDialog'
+176 arguments
+177 argument (FieldAccessExpr)
+178 name (SimpleName)
+179 identifier='oma_download_failed'
+180 scope (FieldAccessExpr)
+181 name (SimpleName)
+182 identifier='string'
+183 scope (NameExpr)
+184 name (SimpleName)
+185 identifier='R'
+186 argument (NameExpr)
+187 name (SimpleName)
+188 identifier='omaInfo'
+189 argument (NameExpr)
+190 name (SimpleName)
+191 identifier='downloadInfo'
+192 argument (NameExpr)
+193 name (SimpleName)
+194 identifier='status'
+195 statement (ExpressionStmt)
+196 expression (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='remove'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='mPendingOMADownloads'
+202 arguments
+203 argument (NameExpr)
+204 name (SimpleName)
+205 identifier='downloadId'
+206 type (VoidType)
+207 name (SimpleName)
+208 identifier='onDownloadFailed'
+209 parameters
+210 parameter (Parameter)
+211 isVarArgs='false'
+212 name (SimpleName)
+213 identifier='downloadInfo'
+214 type (ClassOrInterfaceType)
+215 name (SimpleName)
+216 identifier='DownloadInfo'
+217 parameter (Parameter)
+218 isVarArgs='false'
+219 name (SimpleName)
+220 identifier='reason'
+221 type (PrimitiveType)
+222 type='INT'
+223 parameter (Parameter)
+224 isVarArgs='false'
+225 name (SimpleName)
+226 identifier='notifyURI'
+227 type (ClassOrInterfaceType)
+228 name (SimpleName)
+229 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+20 27
+27 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+35 36
+27 37
+19 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+19 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+19 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+52 59
+59 60
+60 61
+61 62
+61 63
+63 64
+64 65
+61 66
+66 67
+67 68
+59 69
+19 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+70 77
+77 78
+78 79
+79 80
+79 81
+81 82
+82 83
+79 84
+84 85
+85 86
+77 87
+19 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+94 101
+101 102
+94 103
+103 104
+2 105
+105 106
+106 107
+107 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+108 119
+119 120
+108 121
+121 122
+122 123
+2 124
+124 125
+125 126
+125 127
+127 128
+128 129
+125 130
+124 131
+131 132
+132 133
+133 134
+134 135
+134 136
+136 137
+137 138
+134 139
+139 140
+140 141
+141 142
+132 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+152 153
+150 154
+154 155
+155 156
+132 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+163 164
+161 165
+165 166
+166 167
+161 168
+168 169
+169 170
+132 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+180 183
+183 184
+184 185
+176 186
+186 187
+187 188
+176 189
+189 190
+190 191
+176 192
+192 193
+193 194
+2 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+196 202
+202 203
+203 204
+204 205
+0 206
+0 207
+207 208
+0 209
+209 210
+210 211
+210 212
+212 213
+210 214
+214 215
+215 216
+209 217
+217 218
+217 219
+219 220
+217 221
+221 222
+209 223
+223 224
+223 225
+225 226
+223 227
+227 228
+228 229
+
+Called when android DownloadManager fails to download the content.

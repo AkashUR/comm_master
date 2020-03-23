@@ -1,0 +1,174 @@
+86
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TermQuery'
+11 arguments
+12 argument (ObjectCreationExpr)
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Term'
+16 arguments
+17 argument (StringLiteralExpr)
+18 value='field'
+19 argument (StringLiteralExpr)
+20 value='foo\\bar'
+21 name (SimpleName)
+22 identifier='expected'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Query'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='assertEquals'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='expected'
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='parseKeyword'
+37 arguments
+38 argument (StringLiteralExpr)
+39 value='foo\\bar'
+40 argument (UnaryExpr)
+41 operator='BITWISE_COMPLEMENT'
+42 expression (NameExpr)
+43 name (SimpleName)
+44 identifier='ESCAPE_OPERATOR'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='assertEquals'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='expected'
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='parseKeyword'
+56 arguments
+57 argument (StringLiteralExpr)
+58 value='(foo\\bar)'
+59 argument (UnaryExpr)
+60 operator='BITWISE_COMPLEMENT'
+61 expression (NameExpr)
+62 name (SimpleName)
+63 identifier='ESCAPE_OPERATOR'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='assertEquals'
+68 arguments
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='expected'
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='parseKeyword'
+75 arguments
+76 argument (StringLiteralExpr)
+77 value='\"foo\\bar\"'
+78 argument (UnaryExpr)
+79 operator='BITWISE_COMPLEMENT'
+80 expression (NameExpr)
+81 name (SimpleName)
+82 identifier='ESCAPE_OPERATOR'
+83 type (VoidType)
+84 name (SimpleName)
+85 identifier='testDisableEscape'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+16 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+40 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+51 52
+49 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+59 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+78 79
+78 80
+80 81
+81 82
+0 83
+0 84
+84 85
+
+test the ability to enable/disable escape operators

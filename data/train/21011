@@ -1,0 +1,654 @@
+326
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='newAttr'
+9 name (SimpleName)
+10 identifier='localName'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (StringLiteralExpr)
+19 value='http://www.newattr.com'
+20 name (SimpleName)
+21 identifier='namespaceURI'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='String'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (StringLiteralExpr)
+30 value='emp:newAttr'
+31 name (SimpleName)
+32 identifier='qualifiedName'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='String'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 name (SimpleName)
+41 identifier='doc'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Document'
+45 statement (ExpressionStmt)
+46 expression (VariableDeclarationExpr)
+47 variables
+48 variable (VariableDeclarator)
+49 name (SimpleName)
+50 identifier='elementList'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='NodeList'
+54 statement (ExpressionStmt)
+55 expression (VariableDeclarationExpr)
+56 variables
+57 variable (VariableDeclarator)
+58 name (SimpleName)
+59 identifier='testAddr'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='Node'
+63 statement (ExpressionStmt)
+64 expression (VariableDeclarationExpr)
+65 variables
+66 variable (VariableDeclarator)
+67 name (SimpleName)
+68 identifier='addrAttr'
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Attr'
+72 statement (ExpressionStmt)
+73 expression (VariableDeclarationExpr)
+74 variables
+75 variable (VariableDeclarator)
+76 name (SimpleName)
+77 identifier='resultAttr'
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='String'
+81 statement (ExpressionStmt)
+82 expression (VariableDeclarationExpr)
+83 variables
+84 variable (VariableDeclarator)
+85 name (SimpleName)
+86 identifier='resultNamespaceURI'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='String'
+90 statement (ExpressionStmt)
+91 expression (VariableDeclarationExpr)
+92 variables
+93 variable (VariableDeclarator)
+94 name (SimpleName)
+95 identifier='resultLocalName'
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='String'
+99 statement (ExpressionStmt)
+100 expression (VariableDeclarationExpr)
+101 variables
+102 variable (VariableDeclarator)
+103 name (SimpleName)
+104 identifier='resultPrefix'
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='String'
+108 statement (ExpressionStmt)
+109 expression (AssignExpr)
+110 operator='ASSIGN'
+111 target (NameExpr)
+112 name (SimpleName)
+113 identifier='doc'
+114 value (CastExpr)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='load'
+118 arguments
+119 argument (StringLiteralExpr)
+120 value='staffNS'
+121 argument (BooleanLiteralExpr)
+122 value='true'
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='Document'
+126 statement (ExpressionStmt)
+127 expression (AssignExpr)
+128 operator='ASSIGN'
+129 target (NameExpr)
+130 name (SimpleName)
+131 identifier='elementList'
+132 value (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='getElementsByTagName'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='doc'
+138 arguments
+139 argument (StringLiteralExpr)
+140 value='emp:address'
+141 statement (ExpressionStmt)
+142 expression (AssignExpr)
+143 operator='ASSIGN'
+144 target (NameExpr)
+145 name (SimpleName)
+146 identifier='testAddr'
+147 value (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='item'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='elementList'
+153 arguments
+154 argument (IntegerLiteralExpr)
+155 value='0'
+156 statement (ExpressionStmt)
+157 expression (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='assertNotNull'
+160 arguments
+161 argument (StringLiteralExpr)
+162 value='empAddrNotNull'
+163 argument (NameExpr)
+164 name (SimpleName)
+165 identifier='testAddr'
+166 statement (ExpressionStmt)
+167 expression (MethodCallExpr)
+168 name (SimpleName)
+169 identifier='setAttributeNS'
+170 scope (EnclosedExpr)
+171 inner (CastExpr)
+172 expression (NameExpr)
+173 name (SimpleName)
+174 identifier='testAddr'
+175 type (ClassOrInterfaceType)
+176 name (SimpleName)
+177 identifier='Element'
+178 arguments
+179 argument (NameExpr)
+180 name (SimpleName)
+181 identifier='namespaceURI'
+182 argument (NameExpr)
+183 name (SimpleName)
+184 identifier='qualifiedName'
+185 argument (StringLiteralExpr)
+186 value='newValue'
+187 statement (ExpressionStmt)
+188 expression (AssignExpr)
+189 operator='ASSIGN'
+190 target (NameExpr)
+191 name (SimpleName)
+192 identifier='addrAttr'
+193 value (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='getAttributeNodeNS'
+196 scope (EnclosedExpr)
+197 inner (CastExpr)
+198 expression (NameExpr)
+199 name (SimpleName)
+200 identifier='testAddr'
+201 type (ClassOrInterfaceType)
+202 name (SimpleName)
+203 identifier='Element'
+204 arguments
+205 argument (NameExpr)
+206 name (SimpleName)
+207 identifier='namespaceURI'
+208 argument (NameExpr)
+209 name (SimpleName)
+210 identifier='localName'
+211 statement (ExpressionStmt)
+212 expression (AssignExpr)
+213 operator='ASSIGN'
+214 target (NameExpr)
+215 name (SimpleName)
+216 identifier='resultAttr'
+217 value (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='getAttributeNS'
+220 scope (EnclosedExpr)
+221 inner (CastExpr)
+222 expression (NameExpr)
+223 name (SimpleName)
+224 identifier='testAddr'
+225 type (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='Element'
+228 arguments
+229 argument (NameExpr)
+230 name (SimpleName)
+231 identifier='namespaceURI'
+232 argument (NameExpr)
+233 name (SimpleName)
+234 identifier='localName'
+235 statement (ExpressionStmt)
+236 expression (MethodCallExpr)
+237 name (SimpleName)
+238 identifier='assertEquals'
+239 arguments
+240 argument (StringLiteralExpr)
+241 value='attrValue'
+242 argument (StringLiteralExpr)
+243 value='newValue'
+244 argument (NameExpr)
+245 name (SimpleName)
+246 identifier='resultAttr'
+247 statement (ExpressionStmt)
+248 expression (AssignExpr)
+249 operator='ASSIGN'
+250 target (NameExpr)
+251 name (SimpleName)
+252 identifier='resultNamespaceURI'
+253 value (MethodCallExpr)
+254 name (SimpleName)
+255 identifier='getNamespaceURI'
+256 scope (NameExpr)
+257 name (SimpleName)
+258 identifier='addrAttr'
+259 statement (ExpressionStmt)
+260 expression (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='assertEquals'
+263 arguments
+264 argument (StringLiteralExpr)
+265 value='nsuri'
+266 argument (StringLiteralExpr)
+267 value='http://www.newattr.com'
+268 argument (NameExpr)
+269 name (SimpleName)
+270 identifier='resultNamespaceURI'
+271 statement (ExpressionStmt)
+272 expression (AssignExpr)
+273 operator='ASSIGN'
+274 target (NameExpr)
+275 name (SimpleName)
+276 identifier='resultLocalName'
+277 value (MethodCallExpr)
+278 name (SimpleName)
+279 identifier='getLocalName'
+280 scope (NameExpr)
+281 name (SimpleName)
+282 identifier='addrAttr'
+283 statement (ExpressionStmt)
+284 expression (MethodCallExpr)
+285 name (SimpleName)
+286 identifier='assertEquals'
+287 arguments
+288 argument (StringLiteralExpr)
+289 value='lname'
+290 argument (StringLiteralExpr)
+291 value='newAttr'
+292 argument (NameExpr)
+293 name (SimpleName)
+294 identifier='resultLocalName'
+295 statement (ExpressionStmt)
+296 expression (AssignExpr)
+297 operator='ASSIGN'
+298 target (NameExpr)
+299 name (SimpleName)
+300 identifier='resultPrefix'
+301 value (MethodCallExpr)
+302 name (SimpleName)
+303 identifier='getPrefix'
+304 scope (NameExpr)
+305 name (SimpleName)
+306 identifier='addrAttr'
+307 statement (ExpressionStmt)
+308 expression (MethodCallExpr)
+309 name (SimpleName)
+310 identifier='assertEquals'
+311 arguments
+312 argument (StringLiteralExpr)
+313 value='prefix'
+314 argument (StringLiteralExpr)
+315 value='emp'
+316 argument (NameExpr)
+317 name (SimpleName)
+318 identifier='resultPrefix'
+319 type (VoidType)
+320 name (SimpleName)
+321 identifier='runTest'
+322 thrownExceptions
+323 thrownException (ClassOrInterfaceType)
+324 name (SimpleName)
+325 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+17 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+28 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+102 103
+103 104
+102 105
+105 106
+106 107
+2 108
+108 109
+109 110
+109 111
+111 112
+112 113
+109 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+114 123
+123 124
+124 125
+2 126
+126 127
+127 128
+127 129
+129 130
+130 131
+127 132
+132 133
+133 134
+132 135
+135 136
+136 137
+132 138
+138 139
+139 140
+2 141
+141 142
+142 143
+142 144
+144 145
+145 146
+142 147
+147 148
+148 149
+147 150
+150 151
+151 152
+147 153
+153 154
+154 155
+2 156
+156 157
+157 158
+158 159
+157 160
+160 161
+161 162
+160 163
+163 164
+164 165
+2 166
+166 167
+167 168
+168 169
+167 170
+170 171
+171 172
+172 173
+173 174
+171 175
+175 176
+176 177
+167 178
+178 179
+179 180
+180 181
+178 182
+182 183
+183 184
+178 185
+185 186
+2 187
+187 188
+188 189
+188 190
+190 191
+191 192
+188 193
+193 194
+194 195
+193 196
+196 197
+197 198
+198 199
+199 200
+197 201
+201 202
+202 203
+193 204
+204 205
+205 206
+206 207
+204 208
+208 209
+209 210
+2 211
+211 212
+212 213
+212 214
+214 215
+215 216
+212 217
+217 218
+218 219
+217 220
+220 221
+221 222
+222 223
+223 224
+221 225
+225 226
+226 227
+217 228
+228 229
+229 230
+230 231
+228 232
+232 233
+233 234
+2 235
+235 236
+236 237
+237 238
+236 239
+239 240
+240 241
+239 242
+242 243
+239 244
+244 245
+245 246
+2 247
+247 248
+248 249
+248 250
+250 251
+251 252
+248 253
+253 254
+254 255
+253 256
+256 257
+257 258
+2 259
+259 260
+260 261
+261 262
+260 263
+263 264
+264 265
+263 266
+266 267
+263 268
+268 269
+269 270
+2 271
+271 272
+272 273
+272 274
+274 275
+275 276
+272 277
+277 278
+278 279
+277 280
+280 281
+281 282
+2 283
+283 284
+284 285
+285 286
+284 287
+287 288
+288 289
+287 290
+290 291
+287 292
+292 293
+293 294
+2 295
+295 296
+296 297
+296 298
+298 299
+299 300
+296 301
+301 302
+302 303
+301 304
+304 305
+305 306
+2 307
+307 308
+308 309
+309 310
+308 311
+311 312
+312 313
+311 314
+314 315
+311 316
+316 317
+317 318
+0 319
+0 320
+320 321
+0 322
+322 323
+323 324
+324 325
+
+Runs the test case.

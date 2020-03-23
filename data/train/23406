@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getWalletExtensionID'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='checkNotNull'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='extension'
+17 name (SimpleName)
+18 identifier='id'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='String'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='lock'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='lock'
+29 statement (TryStmt)
+30 finallyBlock (BlockStmt)
+31 statements
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='unlock'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='lock'
+39 tryBlock (BlockStmt)
+40 statements
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='put'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='extensions'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='id'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='extension'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='addOrUpdateExtension'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='extension'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='WalletExtension'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+29 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+
+Either adds extension as a new extension or replaces the existing extension if one already exists with the same id. This also triggers wallet auto-saving, so may be useful even when called with the same extension as is already present.

@@ -1,0 +1,112 @@
+55
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='CDef'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='name'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='rpnExpression'
+18 name (SimpleName)
+19 identifier='cDef'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='CDef'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='put'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='sources'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='name'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='cDef'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='addDatasource'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='name'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='String'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='rpnExpression'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+0 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+40 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+
+<p>Adds complex source (<b>CDEF</b>). Complex sources are evaluated using the supplied <code>RPN</code> expression.</p> Complex source <code>name</code> can be used: <ul> <li>To specify sources for line, area and stack plots.</li> <li>To define other complex sources.</li> </ul> The supported RPN functions, operators and constants are detailed at <a href="https://github.com/rrd4j/rrd4j/wiki/RPNFuncs" target="man">RRD4J's wiki</a>. <p> Rrd4j does not force you to specify at least one simple source name as RRDTool. <p> For more details on RPN see RRDTool's <a href="http://oss.oetiker.ch/rrdtool/doc/rrdgraph_rpn.en.html" target="man"> rrdgraph man page</a>.

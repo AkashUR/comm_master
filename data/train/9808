@@ -1,0 +1,194 @@
+96
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='mapper'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='writeValueAsString'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='mapper'
+26 arguments
+27 argument (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='HOURS'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='TimeUnit'
+33 name (SimpleName)
+34 identifier='json'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='assertEquals'
+42 arguments
+43 argument (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='quote'
+46 arguments
+47 argument (StringLiteralExpr)
+48 value='HOURS'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='json'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='readValue'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='mapper'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='json'
+66 argument (ClassExpr)
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='TimeUnit'
+70 name (SimpleName)
+71 identifier='result'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='TimeUnit'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='assertSame'
+79 arguments
+80 argument (FieldAccessExpr)
+81 name (SimpleName)
+82 identifier='HOURS'
+83 scope (NameExpr)
+84 name (SimpleName)
+85 identifier='TimeUnit'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='result'
+89 type (VoidType)
+90 name (SimpleName)
+91 identifier='testComplexEnum'
+92 thrownExceptions
+93 thrownException (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+19 33
+33 34
+19 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+42 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+68 69
+55 70
+70 71
+55 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+79 86
+86 87
+87 88
+0 89
+0 90
+90 91
+0 92
+92 93
+93 94
+94 95
+
+Enums are considered complex if they have code (and hence sub-classes)... an example is TimeUnit

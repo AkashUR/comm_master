@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getClosureOwner'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='self'
+14 name (SimpleName)
+15 identifier='owner'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Object'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='invokeMethod'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='InvokerHelper'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='owner'
+30 argument (StringLiteralExpr)
+31 value='println'
+32 argument (ArrayCreationExpr)
+33 elementType (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Object'
+36 initializer (ArrayInitializerExpr)
+37 values
+38 value (NameExpr)
+39 name (SimpleName)
+40 identifier='value'
+41 levels
+42 level (ArrayCreationLevel)
+43 type (VoidType)
+44 name (SimpleName)
+45 identifier='println'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='self'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Closure'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='value'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+26 30
+30 31
+26 32
+32 33
+33 34
+34 35
+32 36
+36 37
+37 38
+38 39
+39 40
+32 41
+41 42
+0 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+46 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+Print a value (followed by a newline) to the standard output stream. This method delegates to the owner to execute the method.

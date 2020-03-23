@@ -1,0 +1,430 @@
+214
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (ThisExpr)
+13 argument (ClassExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='SplashActivity'
+17 name (SimpleName)
+18 identifier='intent'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Intent'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='addFlags'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='intent'
+29 arguments
+30 argument (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='FLAG_ACTIVITY_CLEAR_TOP'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='Intent'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getActivity'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='PendingIntent'
+46 arguments
+47 argument (ThisExpr)
+48 argument (IntegerLiteralExpr)
+49 value='0'
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='intent'
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='FLAG_ONE_SHOT'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='PendingIntent'
+59 name (SimpleName)
+60 identifier='pendingIntent'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='PendingIntent'
+64 statement (ExpressionStmt)
+65 expression (VariableDeclarationExpr)
+66 variables
+67 variable (VariableDeclarator)
+68 initializer (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='getDefaultUri'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='RingtoneManager'
+74 arguments
+75 argument (FieldAccessExpr)
+76 name (SimpleName)
+77 identifier='TYPE_NOTIFICATION'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='RingtoneManager'
+81 name (SimpleName)
+82 identifier='defaultSoundUri'
+83 type (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='Uri'
+86 statement (ExpressionStmt)
+87 expression (VariableDeclarationExpr)
+88 variables
+89 variable (VariableDeclarator)
+90 initializer (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='setContentIntent'
+93 scope (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='setSound'
+96 scope (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='setAutoCancel'
+99 scope (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='setContentText'
+102 scope (MethodCallExpr)
+103 name (SimpleName)
+104 identifier='setContentTitle'
+105 scope (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='setSmallIcon'
+108 scope (ObjectCreationExpr)
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='Builder'
+112 scope (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='NotificationCompat'
+115 arguments
+116 argument (ThisExpr)
+117 arguments
+118 argument (FieldAccessExpr)
+119 name (SimpleName)
+120 identifier='ic_launcher'
+121 scope (FieldAccessExpr)
+122 name (SimpleName)
+123 identifier='mipmap'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='R'
+127 arguments
+128 argument (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='getString'
+131 arguments
+132 argument (FieldAccessExpr)
+133 name (SimpleName)
+134 identifier='app_name'
+135 scope (FieldAccessExpr)
+136 name (SimpleName)
+137 identifier='string'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='R'
+141 arguments
+142 argument (NameExpr)
+143 name (SimpleName)
+144 identifier='message'
+145 arguments
+146 argument (BooleanLiteralExpr)
+147 value='true'
+148 arguments
+149 argument (NameExpr)
+150 name (SimpleName)
+151 identifier='defaultSoundUri'
+152 arguments
+153 argument (NameExpr)
+154 name (SimpleName)
+155 identifier='pendingIntent'
+156 name (SimpleName)
+157 identifier='notificationBuilder'
+158 type (ClassOrInterfaceType)
+159 name (SimpleName)
+160 identifier='Builder'
+161 scope (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='NotificationCompat'
+164 statement (ExpressionStmt)
+165 expression (VariableDeclarationExpr)
+166 variables
+167 variable (VariableDeclarator)
+168 initializer (CastExpr)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='getSystemService'
+172 arguments
+173 argument (FieldAccessExpr)
+174 name (SimpleName)
+175 identifier='NOTIFICATION_SERVICE'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='Context'
+179 type (ClassOrInterfaceType)
+180 name (SimpleName)
+181 identifier='NotificationManager'
+182 name (SimpleName)
+183 identifier='notificationManager'
+184 type (ClassOrInterfaceType)
+185 name (SimpleName)
+186 identifier='NotificationManager'
+187 statement (ExpressionStmt)
+188 expression (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='notify'
+191 scope (NameExpr)
+192 name (SimpleName)
+193 identifier='notificationManager'
+194 arguments
+195 argument (IntegerLiteralExpr)
+196 value='0'
+197 argument (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='build'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='notificationBuilder'
+203 type (VoidType)
+204 name (SimpleName)
+205 identifier='sendNotification'
+206 parameters
+207 parameter (Parameter)
+208 isVarArgs='false'
+209 name (SimpleName)
+210 identifier='message'
+211 type (ClassOrInterfaceType)
+212 name (SimpleName)
+213 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+11 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+46 53
+53 54
+54 55
+53 56
+56 57
+57 58
+39 59
+59 60
+39 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+68 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+67 81
+81 82
+67 83
+83 84
+84 85
+2 86
+86 87
+87 88
+88 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+93 96
+96 97
+97 98
+96 99
+99 100
+100 101
+99 102
+102 103
+103 104
+102 105
+105 106
+106 107
+105 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+108 115
+115 116
+105 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+121 124
+124 125
+125 126
+102 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+135 138
+138 139
+139 140
+99 141
+141 142
+142 143
+143 144
+96 145
+145 146
+146 147
+93 148
+148 149
+149 150
+150 151
+90 152
+152 153
+153 154
+154 155
+89 156
+156 157
+89 158
+158 159
+159 160
+158 161
+161 162
+162 163
+2 164
+164 165
+165 166
+166 167
+167 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+168 179
+179 180
+180 181
+167 182
+182 183
+167 184
+184 185
+185 186
+2 187
+187 188
+188 189
+189 190
+188 191
+191 192
+192 193
+188 194
+194 195
+195 196
+194 197
+197 198
+198 199
+197 200
+200 201
+201 202
+0 203
+0 204
+204 205
+0 206
+206 207
+207 208
+207 209
+209 210
+207 211
+211 212
+212 213
+
+Create and show a simple notification containing the received GCM message.

@@ -1,0 +1,206 @@
+102
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='getLocationOnScreen'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mWorkspaceView'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='mTempIntArray2'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='x'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='screenPositionOut'
+23 value (BinaryExpr)
+24 operator='PLUS'
+25 left (ArrayAccessExpr)
+26 index (IntegerLiteralExpr)
+27 value='0'
+28 name (NameExpr)
+29 name (SimpleName)
+30 identifier='mTempIntArray2'
+31 right (CastExpr)
+32 expression (EnclosedExpr)
+33 inner (BinaryExpr)
+34 operator='MULTIPLY'
+35 left (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='x'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='viewPositionIn'
+41 right (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getScaleX'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='mWorkspaceView'
+47 type (PrimitiveType)
+48 type='INT'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='y'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='screenPositionOut'
+58 value (BinaryExpr)
+59 operator='PLUS'
+60 left (ArrayAccessExpr)
+61 index (IntegerLiteralExpr)
+62 value='1'
+63 name (NameExpr)
+64 name (SimpleName)
+65 identifier='mTempIntArray2'
+66 right (CastExpr)
+67 expression (EnclosedExpr)
+68 inner (BinaryExpr)
+69 operator='MULTIPLY'
+70 left (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='y'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='viewPositionIn'
+76 right (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='getScaleY'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='mWorkspaceView'
+82 type (PrimitiveType)
+83 type='INT'
+84 type (VoidType)
+85 name (SimpleName)
+86 identifier='virtualViewToScreenCoordinates'
+87 parameters
+88 parameter (Parameter)
+89 isVarArgs='false'
+90 name (SimpleName)
+91 identifier='viewPositionIn'
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='ViewPoint'
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='screenPositionOut'
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='Point'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+17 20
+20 21
+21 22
+15 23
+23 24
+23 25
+25 26
+26 27
+25 28
+28 29
+29 30
+23 31
+31 32
+32 33
+33 34
+33 35
+35 36
+36 37
+35 38
+38 39
+39 40
+33 41
+41 42
+42 43
+41 44
+44 45
+45 46
+31 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+52 55
+55 56
+56 57
+50 58
+58 59
+58 60
+60 61
+61 62
+60 63
+63 64
+64 65
+58 66
+66 67
+67 68
+68 69
+68 70
+70 71
+71 72
+70 73
+73 74
+74 75
+68 76
+76 77
+77 78
+76 79
+79 80
+80 81
+66 82
+82 83
+0 84
+0 85
+85 86
+0 87
+87 88
+88 89
+88 90
+90 91
+88 92
+92 93
+93 94
+87 95
+95 96
+95 97
+97 98
+95 99
+99 100
+100 101
+
+Converts a point in virtual view coordinates to screen coordinates.

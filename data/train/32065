@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (VariableDeclarationExpr)
+8 variables
+9 variable (VariableDeclarator)
+10 initializer (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='get'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='classTable'
+16 arguments
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='next'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='i'
+23 name (SimpleName)
+24 identifier='c'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='AbcClass'
+28 scope (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='abc'
+31 scope (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='compiler'
+34 scope (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='flex2'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='setTypeTable'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='c'
+44 arguments
+45 argument (NullLiteralExpr)
+46 compare (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='hasNext'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='i'
+52 initialization
+53 initializatio (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='iterator'
+59 scope (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='keySet'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='classTable'
+65 name (SimpleName)
+66 identifier='i'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='Iterator'
+70 typeArguments
+71 typeArgument (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='String'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='cleanClassTable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+9 23
+23 24
+9 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+5 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+3 46
+46 47
+47 48
+46 49
+49 50
+50 51
+3 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+55 65
+65 66
+55 67
+67 68
+68 69
+67 70
+70 71
+71 72
+72 73
+0 74
+0 75
+75 76
+
+dereference the flex2.compiler.abc.AbcClass instances from flex2.compiler.as3.reflect.TypeTable. This is necessary for lowering the peak memory. It also makes the instances reusable in subsequent compilations.

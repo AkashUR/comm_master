@@ -1,0 +1,18 @@
+!pip uninstall tensorflow-tensorboard
+!pip uninstall tensorflow
+!pip install tensorflow-gpu==1.10.0
+
+restart runtime
+
+!pip install numpy==1.14.5
+
+!wget https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb
+!dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb
+!apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub
+!apt-get update
+!apt-get install cuda=9.0.176-1
+
+restart runtime
+
+
+!python train.py

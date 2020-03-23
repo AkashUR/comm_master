@@ -1,0 +1,232 @@
+115
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (IntegerLiteralExpr)
+8 value='1000'
+9 name (SimpleName)
+10 identifier='startTime'
+11 type (PrimitiveType)
+12 type='LONG'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='tripStatisticsUpdater'
+19 value (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='TripStatisticsUpdater'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='startTime'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getTripStatistics'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='tripStatisticsUpdater'
+37 name (SimpleName)
+38 identifier='tripStatistics'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='TripStatistics'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='addLocations'
+46 arguments
+47 argument (IntegerLiteralExpr)
+48 value='5'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='startTime'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='tripStatistics'
+55 argument (IntegerLiteralExpr)
+56 value='0'
+57 argument (IntegerLiteralExpr)
+58 value='0'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='addLocations'
+63 arguments
+64 argument (IntegerLiteralExpr)
+65 value='5'
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='startTime'
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='tripStatistics'
+72 argument (IntegerLiteralExpr)
+73 value='5'
+74 argument (IntegerLiteralExpr)
+75 value='0'
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='addLocations'
+80 arguments
+81 argument (IntegerLiteralExpr)
+82 value='5'
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='startTime'
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='tripStatistics'
+89 argument (IntegerLiteralExpr)
+90 value='10'
+91 argument (UnaryExpr)
+92 operator='MINUS'
+93 expression (IntegerLiteralExpr)
+94 value='5'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='addLocations'
+99 arguments
+100 argument (IntegerLiteralExpr)
+101 value='5'
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='startTime'
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='tripStatistics'
+108 argument (IntegerLiteralExpr)
+109 value='15'
+110 argument (IntegerLiteralExpr)
+111 value='5'
+112 type (VoidType)
+113 name (SimpleName)
+114 identifier='testAddLocation_disorderedLocatiions'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+30 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+46 55
+55 56
+46 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+63 72
+72 73
+63 74
+74 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+80 83
+83 84
+84 85
+80 86
+86 87
+87 88
+80 89
+89 90
+80 91
+91 92
+91 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+99 108
+108 109
+99 110
+110 111
+0 112
+0 113
+113 114
+
+Sends some disordered locations and checks the statistics. In some situation, especially when signal is not good, MyTracks may receive such data.

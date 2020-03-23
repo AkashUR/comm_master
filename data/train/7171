@@ -1,0 +1,696 @@
+347
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='dryRun'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='CCheckBox'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='Dry Run'
+16 argument (BooleanLiteralExpr)
+17 value='true'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (NameExpr)
+22 name (SimpleName)
+23 identifier='clientLabel'
+24 value (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='CLabel'
+28 arguments
+29 argument (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getMsg'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='Msg'
+35 arguments
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getCtx'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='Env'
+42 argument (StringLiteralExpr)
+43 value='AD_Client_ID'
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (StringLiteralExpr)
+49 value='SELECT AD_Client_ID, Name FROM AD_Client WHERE AD_Client_ID <> 0'
+50 name (SimpleName)
+51 identifier='sql'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+55 statement (ExpressionStmt)
+56 expression (VariableDeclarationExpr)
+57 variables
+58 variable (VariableDeclarator)
+59 initializer (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='getKeyNamePairs'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='DB'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='sql'
+69 argument (BooleanLiteralExpr)
+70 value='false'
+71 name (SimpleName)
+72 identifier='clients'
+73 type (ArrayType)
+74 origin='TYPE'
+75 componentType (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='KeyNamePair'
+78 statement (ExpressionStmt)
+79 expression (AssignExpr)
+80 operator='ASSIGN'
+81 target (NameExpr)
+82 name (SimpleName)
+83 identifier='clientPick'
+84 value (ObjectCreationExpr)
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='CComboBox'
+88 arguments
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='clients'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='insertItemAt'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='clientPick'
+99 arguments
+100 argument (NullLiteralExpr)
+101 argument (IntegerLiteralExpr)
+102 value='0'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='setSelectedItem'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='clientPick'
+110 arguments
+111 argument (NullLiteralExpr)
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='setMandatory'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='clientPick'
+119 arguments
+120 argument (BooleanLiteralExpr)
+121 value='true'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='setBackground'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='clientPick'
+129 arguments
+130 argument (BooleanLiteralExpr)
+131 value='false'
+132 statement (ExpressionStmt)
+133 expression (AssignExpr)
+134 operator='ASSIGN'
+135 target (NameExpr)
+136 name (SimpleName)
+137 identifier='tableLabel'
+138 value (ObjectCreationExpr)
+139 type (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='CLabel'
+142 arguments
+143 argument (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='getMsg'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='Msg'
+149 arguments
+150 argument (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='getCtx'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='Env'
+156 argument (StringLiteralExpr)
+157 value='AD_Table_ID'
+158 statement (ExpressionStmt)
+159 expression (AssignExpr)
+160 operator='ASSIGN'
+161 target (NameExpr)
+162 name (SimpleName)
+163 identifier='tablePick'
+164 value (ObjectCreationExpr)
+165 type (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='VLookup'
+168 arguments
+169 argument (StringLiteralExpr)
+170 value='AD_Table_ID'
+171 argument (BooleanLiteralExpr)
+172 value='true'
+173 argument (BooleanLiteralExpr)
+174 value='false'
+175 argument (BooleanLiteralExpr)
+176 value='true'
+177 argument (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='get'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='MLookupFactory'
+183 arguments
+184 argument (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='getCtx'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='Env'
+190 argument (NameExpr)
+191 name (SimpleName)
+192 identifier='m_WindowNo'
+193 argument (IntegerLiteralExpr)
+194 value='0'
+195 argument (IntegerLiteralExpr)
+196 value='114'
+197 argument (FieldAccessExpr)
+198 name (SimpleName)
+199 identifier='TableDir'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='DisplayType'
+203 statement (ExpressionStmt)
+204 expression (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='setValue'
+207 scope (NameExpr)
+208 name (SimpleName)
+209 identifier='tablePick'
+210 arguments
+211 argument (ObjectCreationExpr)
+212 type (ClassOrInterfaceType)
+213 name (SimpleName)
+214 identifier='Integer'
+215 arguments
+216 argument (CastExpr)
+217 expression (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='getContextAsInt'
+220 scope (NameExpr)
+221 name (SimpleName)
+222 identifier='Env'
+223 arguments
+224 argument (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='getCtx'
+227 scope (NameExpr)
+228 name (SimpleName)
+229 identifier='Env'
+230 argument (StringLiteralExpr)
+231 value='$AD_Table_ID'
+232 type (ClassOrInterfaceType)
+233 name (SimpleName)
+234 identifier='Integer'
+235 statement (ExpressionStmt)
+236 expression (MethodCallExpr)
+237 name (SimpleName)
+238 identifier='setMandatory'
+239 scope (NameExpr)
+240 name (SimpleName)
+241 identifier='tablePick'
+242 arguments
+243 argument (BooleanLiteralExpr)
+244 value='true'
+245 statement (ExpressionStmt)
+246 expression (MethodCallExpr)
+247 name (SimpleName)
+248 identifier='addActionListener'
+249 scope (NameExpr)
+250 name (SimpleName)
+251 identifier='tablePick'
+252 arguments
+253 argument (ThisExpr)
+254 statement (ExpressionStmt)
+255 expression (VariableDeclarationExpr)
+256 variables
+257 variable (VariableDeclarator)
+258 initializer (ObjectCreationExpr)
+259 type (ClassOrInterfaceType)
+260 name (SimpleName)
+261 identifier='DeleteEntitiesModel'
+262 name (SimpleName)
+263 identifier='root'
+264 type (ClassOrInterfaceType)
+265 name (SimpleName)
+266 identifier='DeleteEntitiesModel'
+267 statement (ExpressionStmt)
+268 expression (AssignExpr)
+269 operator='ASSIGN'
+270 target (FieldAccessExpr)
+271 name (SimpleName)
+272 identifier='tableName'
+273 scope (NameExpr)
+274 name (SimpleName)
+275 identifier='root'
+276 value (StringLiteralExpr)
+277 value='Tables'
+278 statement (ExpressionStmt)
+279 expression (AssignExpr)
+280 operator='ASSIGN'
+281 target (NameExpr)
+282 name (SimpleName)
+283 identifier='rootNode'
+284 value (ObjectCreationExpr)
+285 type (ClassOrInterfaceType)
+286 name (SimpleName)
+287 identifier='DefaultMutableTreeNode'
+288 arguments
+289 argument (NullLiteralExpr)
+290 statement (ExpressionStmt)
+291 expression (AssignExpr)
+292 operator='ASSIGN'
+293 target (NameExpr)
+294 name (SimpleName)
+295 identifier='tree'
+296 value (ObjectCreationExpr)
+297 type (ClassOrInterfaceType)
+298 name (SimpleName)
+299 identifier='CheckboxTree'
+300 arguments
+301 argument (NameExpr)
+302 name (SimpleName)
+303 identifier='rootNode'
+304 statement (ExpressionStmt)
+305 expression (AssignExpr)
+306 operator='ASSIGN'
+307 target (NameExpr)
+308 name (SimpleName)
+309 identifier='treePane'
+310 value (ObjectCreationExpr)
+311 type (ClassOrInterfaceType)
+312 name (SimpleName)
+313 identifier='JScrollPane'
+314 arguments
+315 argument (NameExpr)
+316 name (SimpleName)
+317 identifier='tree'
+318 statement (ExpressionStmt)
+319 expression (VariableDeclarationExpr)
+320 variables
+321 variable (VariableDeclarator)
+322 initializer (MethodCallExpr)
+323 name (SimpleName)
+324 identifier='getViewport'
+325 scope (NameExpr)
+326 name (SimpleName)
+327 identifier='treePane'
+328 name (SimpleName)
+329 identifier='viewPort'
+330 type (ClassOrInterfaceType)
+331 name (SimpleName)
+332 identifier='JViewport'
+333 statement (ExpressionStmt)
+334 expression (MethodCallExpr)
+335 name (SimpleName)
+336 identifier='add'
+337 scope (NameExpr)
+338 name (SimpleName)
+339 identifier='viewPort'
+340 arguments
+341 argument (NameExpr)
+342 name (SimpleName)
+343 identifier='tree'
+344 type (VoidType)
+345 name (SimpleName)
+346 identifier='preInit'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+13 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+35 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+47 50
+50 51
+47 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+65 69
+69 70
+58 71
+71 72
+58 73
+73 74
+73 75
+75 76
+76 77
+2 78
+78 79
+79 80
+79 81
+81 82
+82 83
+79 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+99 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+2 132
+132 133
+133 134
+133 135
+135 136
+136 137
+133 138
+138 139
+139 140
+140 141
+138 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+143 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+149 156
+156 157
+2 158
+158 159
+159 160
+159 161
+161 162
+162 163
+159 164
+164 165
+165 166
+166 167
+164 168
+168 169
+169 170
+168 171
+171 172
+168 173
+173 174
+168 175
+175 176
+168 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+183 190
+190 191
+191 192
+183 193
+193 194
+183 195
+195 196
+183 197
+197 198
+198 199
+197 200
+200 201
+201 202
+2 203
+203 204
+204 205
+205 206
+204 207
+207 208
+208 209
+204 210
+210 211
+211 212
+212 213
+213 214
+211 215
+215 216
+216 217
+217 218
+218 219
+217 220
+220 221
+221 222
+217 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+223 230
+230 231
+216 232
+232 233
+233 234
+2 235
+235 236
+236 237
+237 238
+236 239
+239 240
+240 241
+236 242
+242 243
+243 244
+2 245
+245 246
+246 247
+247 248
+246 249
+249 250
+250 251
+246 252
+252 253
+2 254
+254 255
+255 256
+256 257
+257 258
+258 259
+259 260
+260 261
+257 262
+262 263
+257 264
+264 265
+265 266
+2 267
+267 268
+268 269
+268 270
+270 271
+271 272
+270 273
+273 274
+274 275
+268 276
+276 277
+2 278
+278 279
+279 280
+279 281
+281 282
+282 283
+279 284
+284 285
+285 286
+286 287
+284 288
+288 289
+2 290
+290 291
+291 292
+291 293
+293 294
+294 295
+291 296
+296 297
+297 298
+298 299
+296 300
+300 301
+301 302
+302 303
+2 304
+304 305
+305 306
+305 307
+307 308
+308 309
+305 310
+310 311
+311 312
+312 313
+310 314
+314 315
+315 316
+316 317
+2 318
+318 319
+319 320
+320 321
+321 322
+322 323
+323 324
+322 325
+325 326
+326 327
+321 328
+328 329
+321 330
+330 331
+331 332
+2 333
+333 334
+334 335
+335 336
+334 337
+337 338
+338 339
+334 340
+340 341
+341 342
+342 343
+0 344
+0 345
+345 346
+
+Pre Init

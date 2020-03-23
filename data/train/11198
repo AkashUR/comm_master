@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='info'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='logger'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='> cronJob'
+13 statement (ExpressionStmt)
+14 expression (VariableDeclarationExpr)
+15 variables
+16 variable (VariableDeclarator)
+17 initializer (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='findAll'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='greetingService'
+23 name (SimpleName)
+24 identifier='greetings'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Collection'
+28 typeArguments
+29 typeArgument (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Greeting'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='info'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='logger'
+39 arguments
+40 argument (StringLiteralExpr)
+41 value='There are {} greetings in the data store.'
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='size'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='greetings'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='info'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='logger'
+55 arguments
+56 argument (StringLiteralExpr)
+57 value='< cronJob'
+58 type (VoidType)
+59 name (SimpleName)
+60 identifier='cronJob'
+61 annotations
+62 annotation (NormalAnnotationExpr)
+63 name (Name)
+64 identifier='Scheduled'
+65 pairs
+66 pair (MemberValuePair)
+67 name (SimpleName)
+68 identifier='cron'
+69 value (StringLiteralExpr)
+70 value='${batch.greeting.cron}'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+16 23
+23 24
+16 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+49 55
+55 56
+56 57
+0 58
+0 59
+59 60
+0 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+66 69
+69 70
+
+Use a cron expression to execute logic on a schedule. Expression: second minute hour day-of-month month weekday

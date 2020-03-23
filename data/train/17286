@@ -1,0 +1,168 @@
+83
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkSubject'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='reset'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='AttributeChangeNotification'
+18 arguments
+19 argument (ThisExpr)
+20 argument (IntegerLiteralExpr)
+21 value='0'
+22 argument (IntegerLiteralExpr)
+23 value='0'
+24 argument (StringLiteralExpr)
+25 value='NbChanges reset'
+26 argument (StringLiteralExpr)
+27 value='NbChanges'
+28 argument (StringLiteralExpr)
+29 value='Integer'
+30 argument (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Integer'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='nbChanges'
+38 argument (ObjectCreationExpr)
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Integer'
+42 arguments
+43 argument (IntegerLiteralExpr)
+44 value='0'
+45 name (SimpleName)
+46 identifier='acn'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='AttributeChangeNotification'
+50 statement (ExpressionStmt)
+51 expression (AssignExpr)
+52 operator='ASSIGN'
+53 target (NameExpr)
+54 name (SimpleName)
+55 identifier='state'
+56 value (StringLiteralExpr)
+57 value='initial state'
+58 statement (ExpressionStmt)
+59 expression (AssignExpr)
+60 operator='ASSIGN'
+61 target (NameExpr)
+62 name (SimpleName)
+63 identifier='nbChanges'
+64 value (IntegerLiteralExpr)
+65 value='0'
+66 statement (ExpressionStmt)
+67 expression (UnaryExpr)
+68 operator='POSTFIX_INCREMENT'
+69 expression (NameExpr)
+70 name (SimpleName)
+71 identifier='nbResets'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='sendNotification'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='acn'
+80 type (VoidType)
+81 name (SimpleName)
+82 identifier='reset'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+14 18
+18 19
+18 20
+20 21
+18 22
+22 23
+18 24
+24 25
+18 26
+26 27
+18 28
+28 29
+18 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+36 37
+18 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+13 45
+45 46
+13 47
+47 48
+48 49
+2 50
+50 51
+51 52
+51 53
+53 54
+54 55
+51 56
+56 57
+2 58
+58 59
+59 60
+59 61
+61 62
+62 63
+59 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+78 79
+0 80
+0 81
+81 82
+
+Operation: reset to their initial values the "State" and "NbChanges" attributes of the "SimpleStandard" standard MBean.

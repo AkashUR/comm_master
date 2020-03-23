@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='pre: stop'
+10 statement (ExpressionStmt)
+11 expression (AssignExpr)
+12 operator='ASSIGN'
+13 target (NameExpr)
+14 name (SimpleName)
+15 identifier='m_Stopping'
+16 value (BooleanLiteralExpr)
+17 value='true'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (NameExpr)
+22 name (SimpleName)
+23 identifier='m_Initializing'
+24 value (BooleanLiteralExpr)
+25 value='false'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='m_Running'
+32 value (BooleanLiteralExpr)
+33 value='false'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='notifyExecutionStageListeners'
+38 arguments
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='STOPPING'
+42 scope (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='Stage'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='ExecutionStageEvent'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='stop'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='m_Evaluator'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='debug'
+59 arguments
+60 argument (StringLiteralExpr)
+61 value='post: stop'
+62 type (VoidType)
+63 name (SimpleName)
+64 identifier='stop'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+0 62
+0 63
+63 64
+
+Stops the experiment if running.

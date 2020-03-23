@@ -1,0 +1,314 @@
+156
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='startTag'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='TAG_DEFINESOUND'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='id'
+14 argument (BooleanLiteralExpr)
+15 value='true'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='writeUBits'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='out'
+23 arguments
+24 argument (IntegerLiteralExpr)
+25 value='4'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='format'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='writeUBits'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='out'
+36 arguments
+37 argument (IntegerLiteralExpr)
+38 value='2'
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='frequency'
+42 statement (ExpressionStmt)
+43 expression (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='writeUBits'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='out'
+49 arguments
+50 argument (IntegerLiteralExpr)
+51 value='1'
+52 argument (ConditionalExpr)
+53 condition (NameExpr)
+54 name (SimpleName)
+55 identifier='bits16'
+56 elseExpr (IntegerLiteralExpr)
+57 value='0'
+58 thenExpr (IntegerLiteralExpr)
+59 value='1'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='writeUBits'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='out'
+67 arguments
+68 argument (IntegerLiteralExpr)
+69 value='1'
+70 argument (ConditionalExpr)
+71 condition (NameExpr)
+72 name (SimpleName)
+73 identifier='stereo'
+74 elseExpr (IntegerLiteralExpr)
+75 value='0'
+76 thenExpr (IntegerLiteralExpr)
+77 value='1'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='writeUI32'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='out'
+85 arguments
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='sampleCount'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='write'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='out'
+96 arguments
+97 argument (NameExpr)
+98 name (SimpleName)
+99 identifier='soundData'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='completeTag'
+104 type (VoidType)
+105 name (SimpleName)
+106 identifier='tagDefineSound'
+107 parameters
+108 parameter (Parameter)
+109 isVarArgs='false'
+110 name (SimpleName)
+111 identifier='id'
+112 type (PrimitiveType)
+113 type='INT'
+114 parameter (Parameter)
+115 isVarArgs='false'
+116 name (SimpleName)
+117 identifier='format'
+118 type (PrimitiveType)
+119 type='INT'
+120 parameter (Parameter)
+121 isVarArgs='false'
+122 name (SimpleName)
+123 identifier='frequency'
+124 type (PrimitiveType)
+125 type='INT'
+126 parameter (Parameter)
+127 isVarArgs='false'
+128 name (SimpleName)
+129 identifier='bits16'
+130 type (PrimitiveType)
+131 type='BOOLEAN'
+132 parameter (Parameter)
+133 isVarArgs='false'
+134 name (SimpleName)
+135 identifier='stereo'
+136 type (PrimitiveType)
+137 type='BOOLEAN'
+138 parameter (Parameter)
+139 isVarArgs='false'
+140 name (SimpleName)
+141 identifier='sampleCount'
+142 type (PrimitiveType)
+143 type='INT'
+144 parameter (Parameter)
+145 isVarArgs='false'
+146 name (SimpleName)
+147 identifier='soundData'
+148 type (ArrayType)
+149 origin='TYPE'
+150 componentType (PrimitiveType)
+151 type='BYTE'
+152 thrownExceptions
+153 thrownException (ClassOrInterfaceType)
+154 name (SimpleName)
+155 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+36 39
+39 40
+40 41
+2 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+52 56
+56 57
+52 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+67 70
+70 71
+71 72
+72 73
+70 74
+74 75
+70 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+0 104
+0 105
+105 106
+0 107
+107 108
+108 109
+108 110
+110 111
+108 112
+112 113
+107 114
+114 115
+114 116
+116 117
+114 118
+118 119
+107 120
+120 121
+120 122
+122 123
+120 124
+124 125
+107 126
+126 127
+126 128
+128 129
+126 130
+130 131
+107 132
+132 133
+132 134
+134 135
+132 136
+136 137
+107 138
+138 139
+138 140
+140 141
+138 142
+142 143
+107 144
+144 145
+144 146
+146 147
+144 148
+148 149
+148 150
+150 151
+0 152
+152 153
+153 154
+154 155
+
+SWFTagTypes interface

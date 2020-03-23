@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='arraycopy'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='System'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='sourceArray'
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='destinationArray'
+19 argument (IntegerLiteralExpr)
+20 value='0'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='offset'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='arraycopy'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='System'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='sourceArray'
+35 argument (BinaryExpr)
+36 operator='PLUS'
+37 left (NameExpr)
+38 name (SimpleName)
+39 identifier='offset'
+40 right (IntegerLiteralExpr)
+41 value='1'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='destinationArray'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='offset'
+48 argument (BinaryExpr)
+49 operator='MINUS'
+50 left (BinaryExpr)
+51 operator='MINUS'
+52 left (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='length'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='sourceArray'
+58 right (NameExpr)
+59 name (SimpleName)
+60 identifier='offset'
+61 right (IntegerLiteralExpr)
+62 value='1'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='removeObjectAtOffset'
+66 parameters
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='sourceArray'
+71 type (ArrayType)
+72 origin='TYPE'
+73 componentType (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='Object'
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='destinationArray'
+80 type (ArrayType)
+81 origin='TYPE'
+82 componentType (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='Object'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='offset'
+89 type (PrimitiveType)
+90 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+10 16
+16 17
+17 18
+10 19
+19 20
+10 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+31 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+31 42
+42 43
+43 44
+31 45
+45 46
+46 47
+31 48
+48 49
+48 50
+50 51
+50 52
+52 53
+53 54
+52 55
+55 56
+56 57
+50 58
+58 59
+59 60
+48 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+67 69
+69 70
+67 71
+71 72
+71 73
+73 74
+74 75
+66 76
+76 77
+76 78
+78 79
+76 80
+80 81
+80 82
+82 83
+83 84
+66 85
+85 86
+85 87
+87 88
+85 89
+89 90
+
+Removes the object at the source array offset and copies all other objects to the destination array

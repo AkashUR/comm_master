@@ -1,0 +1,234 @@
+116
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ForeachStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (VariableDeclarationExpr)
+8 variables
+9 variable (VariableDeclarator)
+10 initializer (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='ExpectedPartitionValueEntity'
+14 name (SimpleName)
+15 identifier='expectedPartitionValueEntity'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='ExpectedPartitionValueEntity'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setPartitionKeyGroup'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='expectedPartitionValueEntity'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='partitionKeyGroupEntity'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='setPartitionValue'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='expectedPartitionValueEntity'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='expectedPartitionValue'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='saveAndRefresh'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='expectedPartitionValueDao'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='expectedPartitionValueEntity'
+52 iterable (NameExpr)
+53 name (SimpleName)
+54 identifier='expectedPartitionValues'
+55 variable (VariableDeclarationExpr)
+56 variables
+57 variable (VariableDeclarator)
+58 name (SimpleName)
+59 identifier='expectedPartitionValue'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='String'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='saveAndRefresh'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='partitionKeyGroupDao'
+70 arguments
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='partitionKeyGroupEntity'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='assertEquals'
+78 arguments
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='size'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='expectedPartitionValues'
+85 argument (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='size'
+88 scope (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='getExpectedPartitionValues'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='partitionKeyGroupEntity'
+94 type (VoidType)
+95 name (SimpleName)
+96 identifier='createExpectedPartitionValueEntities'
+97 parameters
+98 parameter (Parameter)
+99 isVarArgs='false'
+100 name (SimpleName)
+101 identifier='partitionKeyGroupEntity'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='PartitionKeyGroupEntity'
+105 parameter (Parameter)
+106 isVarArgs='false'
+107 name (SimpleName)
+108 identifier='expectedPartitionValues'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='List'
+112 typeArguments
+113 typeArgument (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+10 11
+11 12
+12 13
+9 14
+14 15
+9 16
+16 17
+17 18
+5 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+5 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+5 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+3 52
+52 53
+53 54
+3 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+64 70
+70 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+78 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+91 92
+92 93
+0 94
+0 95
+95 96
+0 97
+97 98
+98 99
+98 100
+100 101
+98 102
+102 103
+103 104
+97 105
+105 106
+105 107
+107 108
+105 109
+109 110
+110 111
+109 112
+112 113
+113 114
+114 115
+
+Creates and persists expected partition value entities.

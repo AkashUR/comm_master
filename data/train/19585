@@ -1,0 +1,168 @@
+83
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='buffer'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='os'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='QUOTE'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='ParameterWriter'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='writeUnsafe'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='os'
+27 arguments
+28 argument (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='dateToByte'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='formatMicrosecondsUnsafe'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='ParameterWriter'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='os'
+42 argument (BinaryExpr)
+43 operator='DIVIDE'
+44 left (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getNanos'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='ts'
+50 right (IntegerLiteralExpr)
+51 value='1000'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='fractionalSeconds'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='put'
+59 scope (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='buffer'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='os'
+65 arguments
+66 argument (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='QUOTE'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='ParameterWriter'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='writeUnsafeTo'
+75 parameters
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='os'
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='PacketOutputStream'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+38 42
+42 43
+42 44
+44 45
+45 46
+44 47
+47 48
+48 49
+42 50
+50 51
+38 52
+52 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+56 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+76 78
+78 79
+76 80
+80 81
+81 82
+
+Write timestamps to outputStream without checking buffer size.

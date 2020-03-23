@@ -1,0 +1,228 @@
+113
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getTypeParameter'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='method'
+14 name (SimpleName)
+15 identifier='typeParameter'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='TypeVariable'
+19 typeArguments
+20 typeArgument (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Method'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='assertEquals'
+27 arguments
+28 argument (StringLiteralExpr)
+29 value='T'
+30 argument (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getName'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='typeParameter'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='assertEquals'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='method'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getGenericDeclaration'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='typeParameter'
+50 statement (ExpressionStmt)
+51 expression (VariableDeclarationExpr)
+52 variables
+53 variable (VariableDeclarator)
+54 initializer (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getBounds'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='typeParameter'
+60 name (SimpleName)
+61 identifier='bounds'
+62 type (ArrayType)
+63 origin='TYPE'
+64 componentType (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Type'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='assertLenghtOne'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='bounds'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 initializer (ArrayAccessExpr)
+80 index (IntegerLiteralExpr)
+81 value='0'
+82 name (NameExpr)
+83 name (SimpleName)
+84 identifier='bounds'
+85 name (SimpleName)
+86 identifier='bound'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='Type'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='assertEquals'
+94 arguments
+95 argument (ClassExpr)
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='BoundedGenericMethods'
+99 argument (NameExpr)
+100 name (SimpleName)
+101 identifier='bound'
+102 type (VoidType)
+103 name (SimpleName)
+104 identifier='checkBoundedTypeParameter'
+105 parameters
+106 parameter (Parameter)
+107 isVarArgs='false'
+108 name (SimpleName)
+109 identifier='method'
+110 type (ClassOrInterfaceType)
+111 name (SimpleName)
+112 identifier='Method'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+44 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+53 60
+60 61
+53 62
+62 63
+62 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+78 85
+85 86
+78 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+96 97
+97 98
+94 99
+99 100
+100 101
+0 102
+0 103
+103 104
+0 105
+105 106
+106 107
+106 108
+108 109
+106 110
+110 111
+111 112
+
+Tests whether the type parameter is upper bounded by BoundedGenericMethods. <T extends BoundedGenericMethods>.

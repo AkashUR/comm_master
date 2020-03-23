@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='RuntimeException'
+11 name (SimpleName)
+12 identifier='t'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Throwable'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='assertTrue'
+20 arguments
+21 argument (BinaryExpr)
+22 operator='EQUALS'
+23 left (NameExpr)
+24 name (SimpleName)
+25 identifier='t'
+26 right (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getInnerCause'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='t'
+33 argument (ClassExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='RuntimeException'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='test_getInnerCause01_find_exact'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+35 36
+0 37
+0 38
+38 39
+
+Finds cause when it is on top of the stack trace and the right type.

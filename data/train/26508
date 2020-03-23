@@ -1,0 +1,80 @@
+39
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='parse'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='input'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='options'
+18 name (SimpleName)
+19 identifier='Table'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='input'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='InputStream'
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='options'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='String'
+35 thrownExceptions
+36 thrownException (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+20 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+0 35
+35 36
+36 37
+37 38
+
+Read the table from a stream. Possible options include: <ul> <li>csv - parse the table as comma-separated values <li>tsv - parse the table as tab-separated values <li>newlines - this CSV file contains newlines inside individual cells <li>header - this table has a header (title) row </ul>

@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setPixels'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='bitmap'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='pixels'
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='width'
+19 argument (IntegerLiteralExpr)
+20 value='0'
+21 argument (IntegerLiteralExpr)
+22 value='0'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='width'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='height'
+29 type (VoidType)
+30 name (SimpleName)
+31 identifier='updatePixels'
+32 annotations
+33 annotation (MarkerAnnotationExpr)
+34 name (Name)
+35 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+10 16
+16 17
+17 18
+10 19
+19 20
+10 21
+21 22
+10 23
+23 24
+24 25
+10 26
+26 27
+27 28
+0 29
+0 30
+30 31
+0 32
+32 33
+33 34
+34 35
+
+Update the pixels[] buffer to the PGraphics image. <P> Unlike in PImage, where updatePixels() only requests that the update happens, in PGraphicsJava2D, this will happen immediately.

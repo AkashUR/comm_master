@@ -1,0 +1,176 @@
+87
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='generateAndTestSizeOfBarabasiAlbertGraph'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='graphFactory'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='vertexFactory'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='edgeFactory'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='init_vertices'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='edges_to_add_per_timestep'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='random_seed'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='num_tests'
+32 name (SimpleName)
+33 identifier='graph'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Graph'
+37 typeArguments
+38 typeArgument (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Integer'
+41 typeArgument (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='Number'
+44 statement (ForeachStmt)
+45 body (BlockStmt)
+46 statements
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='assertTrue'
+51 arguments
+52 argument (BinaryExpr)
+53 operator='LESS'
+54 left (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='inDegree'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='graph'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='v'
+64 right (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getEdgeCount'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='graph'
+70 iterable (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='getVertices'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='graph'
+76 variable (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 name (SimpleName)
+80 identifier='v'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Integer'
+84 type (VoidType)
+85 name (SimpleName)
+86 identifier='testNotEveryEdgeToOneNode'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+10 23
+23 24
+24 25
+10 26
+26 27
+27 28
+10 29
+29 30
+30 31
+6 32
+32 33
+6 34
+34 35
+35 36
+34 37
+37 38
+38 39
+39 40
+37 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+52 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+52 64
+64 65
+65 66
+64 67
+67 68
+68 69
+44 70
+70 71
+71 72
+70 73
+73 74
+74 75
+44 76
+76 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+0 84
+0 85
+85 86
+
+Check that not every edge goes to one node; the in-degree of any node should be strictly less than the number of edges.

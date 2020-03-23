@@ -1,0 +1,334 @@
+166
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='doc'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Document'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 name (SimpleName)
+17 identifier='element'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='Element'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 name (SimpleName)
+26 identifier='ownerElement'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Element'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 name (SimpleName)
+35 identifier='ownerElementName'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='String'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 name (SimpleName)
+44 identifier='attr'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Attr'
+48 statement (ExpressionStmt)
+49 expression (VariableDeclarationExpr)
+50 variables
+51 variable (VariableDeclarator)
+52 name (SimpleName)
+53 identifier='newAttr'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Attr'
+57 statement (ExpressionStmt)
+58 expression (AssignExpr)
+59 operator='ASSIGN'
+60 target (NameExpr)
+61 name (SimpleName)
+62 identifier='doc'
+63 value (CastExpr)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='load'
+67 arguments
+68 argument (StringLiteralExpr)
+69 value='staffNS'
+70 argument (BooleanLiteralExpr)
+71 value='false'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Document'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='ASSIGN'
+78 target (NameExpr)
+79 name (SimpleName)
+80 identifier='element'
+81 value (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='createElement'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='doc'
+87 arguments
+88 argument (StringLiteralExpr)
+89 value='root'
+90 statement (ExpressionStmt)
+91 expression (AssignExpr)
+92 operator='ASSIGN'
+93 target (NameExpr)
+94 name (SimpleName)
+95 identifier='attr'
+96 value (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='createAttributeNS'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='doc'
+102 arguments
+103 argument (StringLiteralExpr)
+104 value='http://www.w3.org/DOM/L1'
+105 argument (StringLiteralExpr)
+106 value='L1:att'
+107 statement (ExpressionStmt)
+108 expression (AssignExpr)
+109 operator='ASSIGN'
+110 target (NameExpr)
+111 name (SimpleName)
+112 identifier='newAttr'
+113 value (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='setAttributeNodeNS'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='element'
+119 arguments
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='attr'
+123 statement (ExpressionStmt)
+124 expression (AssignExpr)
+125 operator='ASSIGN'
+126 target (NameExpr)
+127 name (SimpleName)
+128 identifier='ownerElement'
+129 value (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='getOwnerElement'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='attr'
+135 statement (ExpressionStmt)
+136 expression (AssignExpr)
+137 operator='ASSIGN'
+138 target (NameExpr)
+139 name (SimpleName)
+140 identifier='ownerElementName'
+141 value (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='getNodeName'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='ownerElement'
+147 statement (ExpressionStmt)
+148 expression (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='assertEqualsIgnoreCase'
+151 arguments
+152 argument (StringLiteralExpr)
+153 value='attrgetownerelement02'
+154 argument (StringLiteralExpr)
+155 value='root'
+156 argument (NameExpr)
+157 name (SimpleName)
+158 identifier='ownerElementName'
+159 type (VoidType)
+160 name (SimpleName)
+161 identifier='runTest'
+162 thrownExceptions
+163 thrownException (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+2 57
+57 58
+58 59
+58 60
+60 61
+61 62
+58 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+63 72
+72 73
+73 74
+2 75
+75 76
+76 77
+76 78
+78 79
+79 80
+76 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+2 90
+90 91
+91 92
+91 93
+93 94
+94 95
+91 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+102 105
+105 106
+2 107
+107 108
+108 109
+108 110
+110 111
+111 112
+108 113
+113 114
+114 115
+113 116
+116 117
+117 118
+113 119
+119 120
+120 121
+121 122
+2 123
+123 124
+124 125
+124 126
+126 127
+127 128
+124 129
+129 130
+130 131
+129 132
+132 133
+133 134
+2 135
+135 136
+136 137
+136 138
+138 139
+139 140
+136 141
+141 142
+142 143
+141 144
+144 145
+145 146
+2 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+151 154
+154 155
+151 156
+156 157
+157 158
+0 159
+0 160
+160 161
+0 162
+162 163
+163 164
+164 165
+
+Runs the test case.

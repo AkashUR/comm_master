@@ -1,0 +1,100 @@
+49
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (StringLiteralExpr)
+7 value='XML'
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='parseTokenXmlToDom'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='xml'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='jaxbContext'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='allowDelegateInNonUpnFormat'
+21 name (SimpleName)
+22 identifier='SamlTokenImpl'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='xml'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='String'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='jaxbContext'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='JAXBContext'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='allowDelegateInNonUpnFormat'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Boolean'
+45 thrownExceptions
+46 thrownException (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='InvalidTokenException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+5 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+5 15
+15 16
+16 17
+5 18
+18 19
+19 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+23 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+23 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+0 45
+45 46
+46 47
+47 48
+
+Parses and validates the provided SAML xml string. If an object is created it is guaranteed that the input SAML xml string's schema format semantics are correct.

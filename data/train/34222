@@ -1,0 +1,564 @@
+281
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='XPathNamespaceContext'
+11 name (SimpleName)
+12 identifier='ctx'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='XPathNamespaceContext'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='addPrefix'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='ctx'
+23 arguments
+24 argument (StringLiteralExpr)
+25 value='n0'
+26 argument (StringLiteralExpr)
+27 value='samples:schemas:simpleSchema'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getDocumentElement'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getDocument'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='SupportXML'
+41 name (SimpleName)
+42 identifier='node'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='Node'
+46 statement (ExpressionStmt)
+47 expression (VariableDeclarationExpr)
+48 variables
+49 variable (VariableDeclarator)
+50 initializer (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='newXPath'
+53 scope (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='newInstance'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='XPathFactory'
+59 name (SimpleName)
+60 identifier='pathOne'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='XPath'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='setNamespaceContext'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='pathOne'
+71 arguments
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='ctx'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 initializer (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='compile'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='pathOne'
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='/n0:simpleEvent/n0:nested1'
+88 name (SimpleName)
+89 identifier='pathExprOne'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='XPathExpression'
+93 statement (ExpressionStmt)
+94 expression (VariableDeclarationExpr)
+95 variables
+96 variable (VariableDeclarator)
+97 initializer (CastExpr)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='evaluate'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='pathExprOne'
+104 arguments
+105 argument (NameExpr)
+106 name (SimpleName)
+107 identifier='node'
+108 argument (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='NODE'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='XPathConstants'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='Node'
+117 name (SimpleName)
+118 identifier='result'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='Node'
+122 statement (ExpressionStmt)
+123 expression (VariableDeclarationExpr)
+124 variables
+125 variable (VariableDeclarator)
+126 initializer (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='newXPath'
+129 scope (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='newInstance'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='XPathFactory'
+135 name (SimpleName)
+136 identifier='pathTwo'
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='XPath'
+140 statement (ExpressionStmt)
+141 expression (MethodCallExpr)
+142 name (SimpleName)
+143 identifier='setNamespaceContext'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='pathTwo'
+147 arguments
+148 argument (NameExpr)
+149 name (SimpleName)
+150 identifier='ctx'
+151 statement (ExpressionStmt)
+152 expression (VariableDeclarationExpr)
+153 variables
+154 variable (VariableDeclarator)
+155 initializer (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='compile'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='pathTwo'
+161 arguments
+162 argument (StringLiteralExpr)
+163 value='/n0:simpleEvent/n0:nested1/n0:prop1'
+164 name (SimpleName)
+165 identifier='pathExprTwo'
+166 type (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='XPathExpression'
+169 statement (ExpressionStmt)
+170 expression (VariableDeclarationExpr)
+171 variables
+172 variable (VariableDeclarator)
+173 initializer (CastExpr)
+174 expression (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='evaluate'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='pathExprTwo'
+180 arguments
+181 argument (NameExpr)
+182 name (SimpleName)
+183 identifier='result'
+184 argument (FieldAccessExpr)
+185 name (SimpleName)
+186 identifier='STRING'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='XPathConstants'
+190 type (ClassOrInterfaceType)
+191 name (SimpleName)
+192 identifier='String'
+193 name (SimpleName)
+194 identifier='resultTwo'
+195 type (ClassOrInterfaceType)
+196 name (SimpleName)
+197 identifier='String'
+198 statement (ExpressionStmt)
+199 expression (VariableDeclarationExpr)
+200 variables
+201 variable (VariableDeclarator)
+202 initializer (MethodCallExpr)
+203 name (SimpleName)
+204 identifier='newXPath'
+205 scope (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='newInstance'
+208 scope (NameExpr)
+209 name (SimpleName)
+210 identifier='XPathFactory'
+211 name (SimpleName)
+212 identifier='pathThree'
+213 type (ClassOrInterfaceType)
+214 name (SimpleName)
+215 identifier='XPath'
+216 statement (ExpressionStmt)
+217 expression (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='setNamespaceContext'
+220 scope (NameExpr)
+221 name (SimpleName)
+222 identifier='pathThree'
+223 arguments
+224 argument (NameExpr)
+225 name (SimpleName)
+226 identifier='ctx'
+227 statement (ExpressionStmt)
+228 expression (VariableDeclarationExpr)
+229 variables
+230 variable (VariableDeclarator)
+231 initializer (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='compile'
+234 scope (NameExpr)
+235 name (SimpleName)
+236 identifier='pathThree'
+237 arguments
+238 argument (StringLiteralExpr)
+239 value='/n0:simpleEvent/n0:nested3'
+240 name (SimpleName)
+241 identifier='pathExprThree'
+242 type (ClassOrInterfaceType)
+243 name (SimpleName)
+244 identifier='XPathExpression'
+245 statement (ExpressionStmt)
+246 expression (VariableDeclarationExpr)
+247 variables
+248 variable (VariableDeclarator)
+249 initializer (CastExpr)
+250 expression (MethodCallExpr)
+251 name (SimpleName)
+252 identifier='evaluate'
+253 scope (NameExpr)
+254 name (SimpleName)
+255 identifier='pathExprThree'
+256 arguments
+257 argument (NameExpr)
+258 name (SimpleName)
+259 identifier='result'
+260 argument (FieldAccessExpr)
+261 name (SimpleName)
+262 identifier='STRING'
+263 scope (NameExpr)
+264 name (SimpleName)
+265 identifier='XPathConstants'
+266 type (ClassOrInterfaceType)
+267 name (SimpleName)
+268 identifier='String'
+269 name (SimpleName)
+270 identifier='resultThress'
+271 type (ClassOrInterfaceType)
+272 name (SimpleName)
+273 identifier='String'
+274 type (VoidType)
+275 name (SimpleName)
+276 identifier='testXPathExpression'
+277 thrownExceptions
+278 thrownException (ClassOrInterfaceType)
+279 name (SimpleName)
+280 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+23 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+31 41
+41 42
+31 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+49 59
+59 60
+49 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+78 88
+88 89
+78 90
+90 91
+91 92
+2 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+106 107
+104 108
+108 109
+109 110
+108 111
+111 112
+112 113
+97 114
+114 115
+115 116
+96 117
+117 118
+96 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+133 134
+125 135
+135 136
+125 137
+137 138
+138 139
+2 140
+140 141
+141 142
+142 143
+141 144
+144 145
+145 146
+141 147
+147 148
+148 149
+149 150
+2 151
+151 152
+152 153
+153 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+155 161
+161 162
+162 163
+154 164
+164 165
+154 166
+166 167
+167 168
+2 169
+169 170
+170 171
+171 172
+172 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+174 180
+180 181
+181 182
+182 183
+180 184
+184 185
+185 186
+184 187
+187 188
+188 189
+173 190
+190 191
+191 192
+172 193
+193 194
+172 195
+195 196
+196 197
+2 198
+198 199
+199 200
+200 201
+201 202
+202 203
+203 204
+202 205
+205 206
+206 207
+205 208
+208 209
+209 210
+201 211
+211 212
+201 213
+213 214
+214 215
+2 216
+216 217
+217 218
+218 219
+217 220
+220 221
+221 222
+217 223
+223 224
+224 225
+225 226
+2 227
+227 228
+228 229
+229 230
+230 231
+231 232
+232 233
+231 234
+234 235
+235 236
+231 237
+237 238
+238 239
+230 240
+240 241
+230 242
+242 243
+243 244
+2 245
+245 246
+246 247
+247 248
+248 249
+249 250
+250 251
+251 252
+250 253
+253 254
+254 255
+250 256
+256 257
+257 258
+258 259
+256 260
+260 261
+261 262
+260 263
+263 264
+264 265
+249 266
+266 267
+267 268
+248 269
+269 270
+248 271
+271 272
+272 273
+0 274
+0 275
+275 276
+0 277
+277 278
+278 279
+279 280
+
+For testing XPath expressions.

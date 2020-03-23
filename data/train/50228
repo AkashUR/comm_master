@@ -1,0 +1,192 @@
+95
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='currentTarget'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='BlockPos'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='targetX'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='targetY'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='targetZ'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='getPath'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='pathPlanner'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='doubleToInt'
+34 arguments
+35 argument (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='posX'
+38 scope (ThisExpr)
+39 argument (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='doubleToInt'
+42 arguments
+43 argument (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='posY'
+46 scope (ThisExpr)
+47 argument (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='doubleToInt'
+50 arguments
+51 argument (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='posZ'
+54 scope (ThisExpr)
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='targetX'
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='targetY'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='targetZ'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='allowDropping'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='orderMinionToMoveTo'
+70 parameters
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='targetX'
+75 type (PrimitiveType)
+76 type='INT'
+77 parameter (Parameter)
+78 isVarArgs='false'
+79 name (SimpleName)
+80 identifier='targetY'
+81 type (PrimitiveType)
+82 type='INT'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='targetZ'
+87 type (PrimitiveType)
+88 type='INT'
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='allowDropping'
+93 type (PrimitiveType)
+94 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+13 17
+17 18
+18 19
+13 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+36 37
+35 38
+30 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+43 46
+30 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+51 54
+30 55
+55 56
+56 57
+30 58
+58 59
+59 60
+30 61
+61 62
+62 63
+30 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+70 77
+77 78
+77 79
+79 80
+77 81
+81 82
+70 83
+83 84
+83 85
+85 86
+83 87
+87 88
+70 89
+89 90
+89 91
+91 92
+89 93
+93 94
+
+Orders a Minion to pathfind towards coordinates. The Pathplanner starts working with the target, if there was another path being planned, it is scrapped.

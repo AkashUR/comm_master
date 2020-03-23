@@ -1,0 +1,274 @@
+136
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (NameExpr)
+5 name (SimpleName)
+6 identifier='eventLevel'
+7 entries
+8 entrie (SwitchEntryStmt)
+9 label (NameExpr)
+10 name (SimpleName)
+11 identifier='TRACE'
+12 statements
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='trace'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='logger'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='message'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='param'
+27 statement (ReturnStmt)
+28 entrie (SwitchEntryStmt)
+29 label (NameExpr)
+30 name (SimpleName)
+31 identifier='DEBUG'
+32 statements
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='debug'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='logger'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='message'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='param'
+47 statement (ReturnStmt)
+48 entrie (SwitchEntryStmt)
+49 label (NameExpr)
+50 name (SimpleName)
+51 identifier='INFO'
+52 statements
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='info'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='logger'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='message'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='param'
+67 statement (ReturnStmt)
+68 entrie (SwitchEntryStmt)
+69 label (NameExpr)
+70 name (SimpleName)
+71 identifier='WARN'
+72 statements
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='warn'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='logger'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='message'
+84 argument (NameExpr)
+85 name (SimpleName)
+86 identifier='param'
+87 statement (ReturnStmt)
+88 entrie (SwitchEntryStmt)
+89 label (NameExpr)
+90 name (SimpleName)
+91 identifier='ERROR'
+92 statements
+93 statement (ExpressionStmt)
+94 expression (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='error'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='logger'
+100 arguments
+101 argument (NameExpr)
+102 name (SimpleName)
+103 identifier='message'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='param'
+107 statement (ReturnStmt)
+108 entrie (SwitchEntryStmt)
+109 statements
+110 statement (ReturnStmt)
+111 type (VoidType)
+112 name (SimpleName)
+113 identifier='log'
+114 parameters
+115 parameter (Parameter)
+116 isVarArgs='false'
+117 name (SimpleName)
+118 identifier='eventLevel'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='LogLevel'
+122 parameter (Parameter)
+123 isVarArgs='false'
+124 name (SimpleName)
+125 identifier='message'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='String'
+129 parameter (Parameter)
+130 isVarArgs='false'
+131 name (SimpleName)
+132 identifier='param'
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+3 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+12 27
+7 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+34 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+32 47
+7 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+52 67
+7 68
+68 69
+69 70
+70 71
+68 72
+72 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+80 84
+84 85
+85 86
+72 87
+7 88
+88 89
+89 90
+90 91
+88 92
+92 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+94 100
+100 101
+101 102
+102 103
+100 104
+104 105
+105 106
+92 107
+7 108
+108 109
+109 110
+0 111
+0 112
+112 113
+0 114
+114 115
+115 116
+115 117
+117 118
+115 119
+119 120
+120 121
+114 122
+122 123
+122 124
+124 125
+122 126
+126 127
+127 128
+114 129
+129 130
+129 131
+131 132
+129 133
+133 134
+134 135
+
+Log if the logger and the current event log level are compatible. We log a formated message and its parameters.

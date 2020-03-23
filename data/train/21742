@@ -1,0 +1,128 @@
+63
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getSessionManager'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='msRegistry'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='handleServiceLifecycleMethods'
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='startTransports'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='transportManager'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (NameExpr)
+28 name (SimpleName)
+29 identifier='isStarted'
+30 value (BooleanLiteralExpr)
+31 value='true'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='info'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='log'
+39 arguments
+40 argument (BinaryExpr)
+41 operator='PLUS'
+42 left (BinaryExpr)
+43 operator='PLUS'
+44 left (StringLiteralExpr)
+45 value='Microservices server started in '
+46 right (EnclosedExpr)
+47 inner (BinaryExpr)
+48 operator='MINUS'
+49 left (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='currentTimeMillis'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='System'
+55 right (NameExpr)
+56 name (SimpleName)
+57 identifier='startTime'
+58 right (StringLiteralExpr)
+59 value='ms'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='start'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+40 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+47 49
+49 50
+50 51
+49 52
+52 53
+53 54
+47 55
+55 56
+56 57
+40 58
+58 59
+0 60
+0 61
+61 62
+
+Start this Microservices runner. This will startup all the Netty transports.

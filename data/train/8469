@@ -1,0 +1,124 @@
+61
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 statement (ExpressionStmt)
+6 expression (AssignExpr)
+7 operator='ASSIGN'
+8 target (NameExpr)
+9 name (SimpleName)
+10 identifier='beanContextChildPeer'
+11 value (ConditionalExpr)
+12 condition (EnclosedExpr)
+13 inner (BinaryExpr)
+14 operator='NOT_EQUALS'
+15 left (NameExpr)
+16 name (SimpleName)
+17 identifier='bcc'
+18 right (NullLiteralExpr)
+19 elseExpr (ThisExpr)
+20 thenExpr (NameExpr)
+21 name (SimpleName)
+22 identifier='bcc'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='pcSupport'
+29 value (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='PropertyChangeSupport'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='beanContextChildPeer'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='vcSupport'
+43 value (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='VetoableChangeSupport'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='beanContextChildPeer'
+51 name (SimpleName)
+52 identifier='BeanContextChildSupport'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='bcc'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='BeanContextChild'
+0 1
+1 2
+2 3
+3 4
+2 5
+5 6
+6 7
+6 8
+8 9
+9 10
+6 11
+11 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+11 19
+11 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+49 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+construct a BeanContextChildSupport where the JavaBean component itself implements BeanContextChild, and encapsulates this, delegating that interface to this implementation

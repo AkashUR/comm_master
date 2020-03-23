@@ -1,0 +1,120 @@
+59
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (BinaryExpr)
+7 operator='PLUS'
+8 left (NameExpr)
+9 name (SimpleName)
+10 identifier='message'
+11 right (EnclosedExpr)
+12 inner (ConditionalExpr)
+13 condition (EnclosedExpr)
+14 inner (BinaryExpr)
+15 operator='LESS'
+16 left (NameExpr)
+17 name (SimpleName)
+18 identifier='errorIndex'
+19 right (IntegerLiteralExpr)
+20 value='0'
+21 elseExpr (BinaryExpr)
+22 operator='PLUS'
+23 left (BinaryExpr)
+24 operator='PLUS'
+25 left (StringLiteralExpr)
+26 value=' [at index '
+27 right (NameExpr)
+28 name (SimpleName)
+29 identifier='errorIndex'
+30 right (StringLiteralExpr)
+31 value=']'
+32 thenExpr (StringLiteralExpr)
+33 value=''
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='_errIdx'
+40 value (NameExpr)
+41 name (SimpleName)
+42 identifier='errorIndex'
+43 name (SimpleName)
+44 identifier='IllformedLocaleException'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='message'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='String'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='errorIndex'
+57 type (PrimitiveType)
+58 type='INT'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+6 8
+8 9
+9 10
+6 11
+11 12
+12 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+12 21
+21 22
+21 23
+23 24
+23 25
+25 26
+23 27
+27 28
+28 29
+21 30
+30 31
+12 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+41 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+45 53
+53 54
+53 55
+55 56
+53 57
+57 58
+
+Constructs a new <code>IllformedLocaleException</code> with the given message and the error index.  The error index is the approximate offset from the start of the ill-formed value to the point where the parse first detected an error.  A negative error index value indicates either the error index is not applicable or unknown.

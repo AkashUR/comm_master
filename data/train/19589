@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='moveToCurrentRow'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='undoDelete'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='undoInsert'
+15 type (VoidType)
+16 name (SimpleName)
+17 identifier='undoUpdate'
+18 thrownExceptions
+19 thrownException (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+0 15
+0 16
+16 17
+0 18
+18 19
+19 20
+20 21
+
+Immediately reverses the last update operation if the row has been modified. This method can be called to reverse updates on a all columns until all updates in a row have been rolled back to their originating state since the last synchronization (<code>acceptChanges</code>) or population. This method may also be called while performing updates to the insert row. <P> <code>undoUpdate</code may be called at any time during the life-time of a rowset, however after a synchronization has occurs this method has no affect until further modification to the RowSet data occurs.

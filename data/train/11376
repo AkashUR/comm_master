@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='jaxrs'
+5 annotations
+6 annotation (SingleMemberAnnotationExpr)
+7 memberValue (BinaryExpr)
+8 operator='PLUS'
+9 left (BinaryExpr)
+10 operator='PLUS'
+11 left (BinaryExpr)
+12 operator='PLUS'
+13 left (BinaryExpr)
+14 operator='PLUS'
+15 left (StringLiteralExpr)
+16 value='@annotation(javax.ws.rs.GET) || '
+17 right (StringLiteralExpr)
+18 value='@annotation(javax.ws.rs.PUT) || '
+19 right (StringLiteralExpr)
+20 value='@annotation(javax.ws.rs.POST) || '
+21 right (StringLiteralExpr)
+22 value='@annotation(javax.ws.rs.DELETE) || '
+23 right (StringLiteralExpr)
+24 value='@annotation(javax.ws.rs.HEAD)'
+25 name (Name)
+26 identifier='Pointcut'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+11 13
+13 14
+13 15
+15 16
+13 17
+17 18
+11 19
+19 20
+9 21
+21 22
+7 23
+23 24
+6 25
+25 26
+
+JAX-RS provides some annotations to aid in mapping a resource class (a POJO) as a web resource. The annotations include GET, PUT, POST, DELETE and HEAD specify the HTTP request type of a resource.  They are applied to methods.

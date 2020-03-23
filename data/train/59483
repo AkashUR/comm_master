@@ -1,0 +1,184 @@
+91
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='connection'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='query'
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='TYPE_FORWARD_ONLY'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='ResultSet'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='parameterMetadata'
+24 scope (ThisExpr)
+25 value (ObjectCreationExpr)
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='CallableParameterMetaData'
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='connection'
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='database'
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='procedureName'
+39 argument (BooleanLiteralExpr)
+40 value='false'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='setParamsAccordingToSetArguments'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='setParametersVariables'
+49 name (SimpleName)
+50 identifier='MariaDbProcedureStatement'
+51 parameters
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='query'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='connection'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='MariaDbConnection'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='procedureName'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='String'
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='database'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='String'
+80 parameter (Parameter)
+81 isVarArgs='false'
+82 name (SimpleName)
+83 identifier='arguments'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='String'
+87 thrownExceptions
+88 thrownException (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='SQLException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+12 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+21 24
+19 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+29 36
+36 37
+37 38
+29 39
+39 40
+2 41
+41 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+0 49
+49 50
+0 51
+51 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+51 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+51 66
+66 67
+66 68
+68 69
+66 70
+70 71
+71 72
+51 73
+73 74
+73 75
+75 76
+73 77
+77 78
+78 79
+51 80
+80 81
+80 82
+82 83
+80 84
+84 85
+85 86
+0 87
+87 88
+88 89
+89 90
+
+Specific implementation of CallableStatement to handle function call, represent by call like {?= call procedure-name[(arg1,arg2, ...)]}.

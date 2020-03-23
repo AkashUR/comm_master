@@ -1,0 +1,280 @@
+139
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='DatabaseConfig'
+11 name (SimpleName)
+12 identifier='dbConfig'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='DatabaseConfig'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='setAllowCreate'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='dbConfig'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='allowCreateNew'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='setReadOnly'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='dbConfig'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='isReadOnly'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='setTransactional'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='dbConfig'
+45 arguments
+46 argument (BooleanLiteralExpr)
+47 value='false'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (NameExpr)
+52 name (SimpleName)
+53 identifier='db'
+54 value (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='openDatabase'
+57 scope (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getEnvironment'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='environment'
+63 arguments
+64 argument (NullLiteralExpr)
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='dbName'
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='dbConfig'
+71 statement (ExpressionStmt)
+72 expression (AssignExpr)
+73 operator='ASSIGN'
+74 target (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='entryBinding'
+77 scope (ThisExpr)
+78 value (NameExpr)
+79 name (SimpleName)
+80 identifier='entryBinding'
+81 statement (ExpressionStmt)
+82 expression (AssignExpr)
+83 operator='ASSIGN'
+84 target (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='keyBinding'
+87 scope (ThisExpr)
+88 value (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='getPrimitiveBinding'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='TupleBinding'
+94 arguments
+95 argument (ClassExpr)
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='String'
+99 name (SimpleName)
+100 identifier='BerkeleyDbDatabase'
+101 parameters
+102 parameter (Parameter)
+103 isVarArgs='false'
+104 name (SimpleName)
+105 identifier='environment'
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='BerkeleyDbEnvironment'
+109 parameter (Parameter)
+110 isVarArgs='false'
+111 name (SimpleName)
+112 identifier='dbName'
+113 type (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='String'
+116 parameter (Parameter)
+117 isVarArgs='false'
+118 name (SimpleName)
+119 identifier='isReadOnly'
+120 type (PrimitiveType)
+121 type='BOOLEAN'
+122 parameter (Parameter)
+123 isVarArgs='false'
+124 name (SimpleName)
+125 identifier='allowCreateNew'
+126 type (PrimitiveType)
+127 type='BOOLEAN'
+128 parameter (Parameter)
+129 isVarArgs='false'
+130 name (SimpleName)
+131 identifier='entryBinding'
+132 type (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='TupleBinding'
+135 thrownExceptions
+136 thrownException (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='DatabaseException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+49 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+54 63
+63 64
+63 65
+65 66
+66 67
+63 68
+68 69
+69 70
+2 71
+71 72
+72 73
+72 74
+74 75
+75 76
+74 77
+72 78
+78 79
+79 80
+2 81
+81 82
+82 83
+82 84
+84 85
+85 86
+84 87
+82 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+97 98
+0 99
+99 100
+0 101
+101 102
+102 103
+102 104
+104 105
+102 106
+106 107
+107 108
+101 109
+109 110
+109 111
+111 112
+109 113
+113 114
+114 115
+101 116
+116 117
+116 118
+118 119
+116 120
+120 121
+101 122
+122 123
+122 124
+124 125
+122 126
+126 127
+101 128
+128 129
+128 130
+130 131
+128 132
+132 133
+133 134
+0 135
+135 136
+136 137
+137 138
+
+Uses Strings as keys.

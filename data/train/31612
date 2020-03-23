@@ -1,0 +1,230 @@
+114
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getTranslateInstance'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='AffineTransform'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getX'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='from'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getY'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='from'
+26 name (SimpleName)
+27 identifier='xf'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='AffineTransform'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='scale'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='xf'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='scalex'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='scaley'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='translate'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='xf'
+52 arguments
+53 argument (UnaryExpr)
+54 operator='MINUS'
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='getX'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='from'
+61 argument (UnaryExpr)
+62 operator='MINUS'
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getY'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='from'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (NameExpr)
+73 name (SimpleName)
+74 identifier='inverse'
+75 value (NullLiteralExpr)
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='preConcatenate'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='transform'
+83 arguments
+84 argument (NameExpr)
+85 name (SimpleName)
+86 identifier='xf'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='fireStateChanged'
+91 type (VoidType)
+92 name (SimpleName)
+93 identifier='scale'
+94 parameters
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='scalex'
+99 type (PrimitiveType)
+100 type='DOUBLE'
+101 parameter (Parameter)
+102 isVarArgs='false'
+103 name (SimpleName)
+104 identifier='scaley'
+105 type (PrimitiveType)
+106 type='DOUBLE'
+107 parameter (Parameter)
+108 isVarArgs='false'
+109 name (SimpleName)
+110 identifier='from'
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='Point2D'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+13 20
+20 21
+21 22
+20 23
+23 24
+24 25
+6 26
+26 27
+6 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+53 55
+55 56
+56 57
+55 58
+58 59
+59 60
+52 61
+61 62
+61 63
+63 64
+64 65
+63 66
+66 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+70 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+77 83
+83 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+0 91
+0 92
+92 93
+0 94
+94 95
+95 96
+95 97
+97 98
+95 99
+99 100
+94 101
+101 102
+101 103
+103 104
+101 105
+105 106
+94 107
+107 108
+107 109
+109 110
+107 111
+111 112
+112 113
+
+setter for the scale fires a PropertyChangeEvent with the AffineTransforms representing the previous and new values for scale and offset

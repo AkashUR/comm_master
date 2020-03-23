@@ -1,0 +1,50 @@
+24
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='markState'
+9 value (CastExpr)
+10 expression (EnclosedExpr)
+11 inner (BinaryExpr)
+12 operator='MINUS'
+13 left (NameExpr)
+14 name (SimpleName)
+15 identifier='GC_MARK_BIT_MASK'
+16 right (NameExpr)
+17 name (SimpleName)
+18 identifier='markState'
+19 type (PrimitiveType)
+20 type='BYTE'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='prepare'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+16 17
+17 18
+9 19
+19 20
+0 21
+0 22
+22 23
+
+Prepare for a new collection increment.  For the immortal collector we must flip the state of the mark bit between collections.

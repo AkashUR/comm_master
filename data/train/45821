@@ -1,0 +1,340 @@
+169
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='configure'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='configuration'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='container'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='readTextFile'
+21 scope (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getFileHandler'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='configuration'
+27 arguments
+28 argument (BinaryExpr)
+29 operator='PLUS'
+30 left (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getHome'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='configuration'
+36 right (StringLiteralExpr)
+37 value='/config/config.xml'
+38 argument (StringLiteralExpr)
+39 value='UTF-8'
+40 name (SimpleName)
+41 identifier='config'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='String'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='assertXpathExists'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='XMLAssert'
+52 arguments
+53 argument (StringLiteralExpr)
+54 value='//weblogic:domain-version'
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='config'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='assertXpathExists'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='XMLAssert'
+65 arguments
+66 argument (StringLiteralExpr)
+67 value='//weblogic:configuration-version'
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='config'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='assertXpathExists'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='XMLAssert'
+78 arguments
+79 argument (StringLiteralExpr)
+80 value='//weblogic:server'
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='config'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='assertXpathExists'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='XMLAssert'
+91 arguments
+92 argument (StringLiteralExpr)
+93 value='//weblogic:server/weblogic:name'
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='config'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='assertXpathExists'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='XMLAssert'
+104 arguments
+105 argument (StringLiteralExpr)
+106 value='//weblogic:security-configuration'
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='config'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='assertXpathExists'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='XMLAssert'
+117 arguments
+118 argument (StringLiteralExpr)
+119 value='//weblogic:security-configuration/weblogic:credential-encrypted'
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='config'
+123 statement (ExpressionStmt)
+124 expression (MethodCallExpr)
+125 name (SimpleName)
+126 identifier='assertXpathExists'
+127 scope (NameExpr)
+128 name (SimpleName)
+129 identifier='XMLAssert'
+130 arguments
+131 argument (StringLiteralExpr)
+132 value='//weblogic:embedded-ldap'
+133 argument (NameExpr)
+134 name (SimpleName)
+135 identifier='config'
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='assertXpathExists'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='XMLAssert'
+143 arguments
+144 argument (StringLiteralExpr)
+145 value='//weblogic:embedded-ldap/weblogic:credential-encrypted'
+146 argument (NameExpr)
+147 name (SimpleName)
+148 identifier='config'
+149 statement (ExpressionStmt)
+150 expression (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='assertXpathExists'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='XMLAssert'
+156 arguments
+157 argument (StringLiteralExpr)
+158 value='//weblogic:admin-server-name'
+159 argument (NameExpr)
+160 name (SimpleName)
+161 identifier='config'
+162 type (VoidType)
+163 name (SimpleName)
+164 identifier='testDoConfigureSetsDefaultDomainVersion'
+165 thrownExceptions
+166 thrownException (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+18 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+33 34
+34 35
+28 36
+36 37
+27 38
+38 39
+17 40
+40 41
+17 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+52 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+65 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+78 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+91 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+104 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+117 120
+120 121
+121 122
+2 123
+123 124
+124 125
+125 126
+124 127
+127 128
+128 129
+124 130
+130 131
+131 132
+130 133
+133 134
+134 135
+2 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+137 143
+143 144
+144 145
+143 146
+146 147
+147 148
+2 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+150 156
+156 157
+157 158
+156 159
+159 160
+160 161
+0 162
+0 163
+163 164
+0 165
+165 166
+166 167
+167 168
+
+Test domain version.

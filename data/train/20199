@@ -1,0 +1,212 @@
+105
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createZeroVector'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='dimension'
+14 name (SimpleName)
+15 identifier='result'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='RealVector'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='superpose'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='result'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='other'
+30 argument (IntegerLiteralExpr)
+31 value='1'
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getShiftPermutation'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='PermutationUtils'
+38 arguments
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='REAL'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='VectorType'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='dimension'
+48 argument (IntegerLiteralExpr)
+49 value='1'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='superpose'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='result'
+57 arguments
+58 argument (ThisExpr)
+59 argument (IntegerLiteralExpr)
+60 value='1'
+61 argument (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getShiftPermutation'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='PermutationUtils'
+67 arguments
+68 argument (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='REAL'
+71 scope (NameExpr)
+72 name (SimpleName)
+73 identifier='VectorType'
+74 argument (NameExpr)
+75 name (SimpleName)
+76 identifier='dimension'
+77 argument (UnaryExpr)
+78 operator='MINUS'
+79 expression (IntegerLiteralExpr)
+80 value='1'
+81 statement (ExpressionStmt)
+82 expression (AssignExpr)
+83 operator='ASSIGN'
+84 target (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='coordinates'
+87 scope (ThisExpr)
+88 value (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='coordinates'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='result'
+94 type (VoidType)
+95 name (SimpleName)
+96 identifier='bindWithPermutation'
+97 parameters
+98 parameter (Parameter)
+99 isVarArgs='false'
+100 name (SimpleName)
+101 identifier='other'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='RealVector'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+26 30
+30 31
+26 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+38 45
+45 46
+46 47
+38 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+67 74
+74 75
+75 76
+67 77
+77 78
+77 79
+79 80
+2 81
+81 82
+82 83
+82 84
+84 85
+85 86
+84 87
+82 88
+88 89
+89 90
+88 91
+91 92
+92 93
+0 94
+0 95
+95 96
+0 97
+97 98
+98 99
+98 100
+100 101
+98 102
+102 103
+103 104
+
+Implements binding as a single-shift permutation.  Currently wasteful; allocates the permutation array each time.

@@ -1,0 +1,314 @@
+156
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='layoutManager'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='LayoutManager'
+12 scope (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='RecyclerView'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (NameExpr)
+19 name (SimpleName)
+20 identifier='mapsRV'
+21 value (CastExpr)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='findViewById'
+25 arguments
+26 argument (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='my_maps_recycler_view'
+29 scope (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='id'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='R'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='RecyclerView'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (ObjectCreationExpr)
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='DefaultItemAnimator'
+46 name (SimpleName)
+47 identifier='animator'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='DefaultItemAnimator'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setAddDuration'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='animator'
+58 arguments
+59 argument (IntegerLiteralExpr)
+60 value='2000'
+61 statement (ExpressionStmt)
+62 expression (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='setRemoveDuration'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='animator'
+68 arguments
+69 argument (IntegerLiteralExpr)
+70 value='600'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='setItemAnimator'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='mapsRV'
+78 arguments
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='animator'
+82 statement (ExpressionStmt)
+83 expression (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='setHasFixedSize'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='mapsRV'
+89 arguments
+90 argument (BooleanLiteralExpr)
+91 value='true'
+92 statement (ExpressionStmt)
+93 expression (AssignExpr)
+94 operator='ASSIGN'
+95 target (NameExpr)
+96 name (SimpleName)
+97 identifier='layoutManager'
+98 value (ObjectCreationExpr)
+99 type (ClassOrInterfaceType)
+100 name (SimpleName)
+101 identifier='LinearLayoutManager'
+102 arguments
+103 argument (ThisExpr)
+104 statement (ExpressionStmt)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='setLayoutManager'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='mapsRV'
+111 arguments
+112 argument (NameExpr)
+113 name (SimpleName)
+114 identifier='layoutManager'
+115 statement (ExpressionStmt)
+116 expression (AssignExpr)
+117 operator='ASSIGN'
+118 target (NameExpr)
+119 name (SimpleName)
+120 identifier='mapAdapter'
+121 value (ObjectCreationExpr)
+122 type (ClassOrInterfaceType)
+123 name (SimpleName)
+124 identifier='MyMapAdapter'
+125 arguments
+126 argument (NameExpr)
+127 name (SimpleName)
+128 identifier='myMaps'
+129 argument (ThisExpr)
+130 statement (ExpressionStmt)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='setAdapter'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='mapsRV'
+137 arguments
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='mapAdapter'
+141 statement (ExpressionStmt)
+142 expression (MethodCallExpr)
+143 name (SimpleName)
+144 identifier='deleteItemHandler'
+145 type (VoidType)
+146 name (SimpleName)
+147 identifier='activeRecyclerView'
+148 parameters
+149 parameter (Parameter)
+150 isVarArgs='false'
+151 name (SimpleName)
+152 identifier='myMaps'
+153 type (ClassOrInterfaceType)
+154 name (SimpleName)
+155 identifier='List'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+9 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+21 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+41 46
+46 47
+41 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+62 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+2 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+2 92
+92 93
+93 94
+93 95
+95 96
+96 97
+93 98
+98 99
+99 100
+100 101
+98 102
+102 103
+2 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+105 111
+111 112
+112 113
+113 114
+2 115
+115 116
+116 117
+116 118
+118 119
+119 120
+116 121
+121 122
+122 123
+123 124
+121 125
+125 126
+126 127
+127 128
+125 129
+2 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+131 137
+137 138
+138 139
+139 140
+2 141
+141 142
+142 143
+143 144
+0 145
+0 146
+146 147
+0 148
+148 149
+149 150
+149 151
+151 152
+149 153
+153 154
+154 155
+
+active directions, and directions view

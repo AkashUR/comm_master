@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='notifyExit'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='value'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='finalDead'
+18 value (BooleanLiteralExpr)
+19 value='true'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='traceInducedGC'
+26 value (BooleanLiteralExpr)
+27 value='false'
+28 statement (ExpressionStmt)
+29 expression (AssignExpr)
+30 operator='ASSIGN'
+31 target (NameExpr)
+32 name (SimpleName)
+33 identifier='deathScan'
+34 value (BooleanLiteralExpr)
+35 value='true'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='notifyExit'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='TraceGenerator'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='value'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='notifyExit'
+50 parameters
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='value'
+55 type (PrimitiveType)
+56 type='INT'
+57 annotations
+58 annotation (MarkerAnnotationExpr)
+59 name (Name)
+60 identifier='Override'
+61 annotation (MarkerAnnotationExpr)
+62 name (Name)
+63 identifier='Interruptible'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+2 28
+28 29
+29 30
+29 31
+31 32
+32 33
+29 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+51 53
+53 54
+51 55
+55 56
+0 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+
+The planExit method is called at RVM termination to allow the trace process to finish.

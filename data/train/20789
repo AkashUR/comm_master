@@ -1,0 +1,118 @@
+58
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='encoding'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='encoding'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='archive'
+19 value (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='RandomAccessFile'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='f'
+27 argument (StringLiteralExpr)
+28 value='r'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='populateFromCentralDirectory'
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='resolveLocalFileHeaderData'
+37 name (SimpleName)
+38 identifier='ZipFile'
+39 parameters
+40 parameter (Parameter)
+41 isVarArgs='false'
+42 name (SimpleName)
+43 identifier='f'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='File'
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='encoding'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='String'
+54 thrownExceptions
+55 thrownException (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+23 27
+27 28
+2 29
+29 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+0 37
+37 38
+0 39
+39 40
+40 41
+40 42
+42 43
+40 44
+44 45
+45 46
+39 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+0 54
+54 55
+55 56
+56 57
+
+Opens the given file for reading, assuming the specified encoding for file names.

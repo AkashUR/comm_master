@@ -1,0 +1,120 @@
+59
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='Resetting password ... '
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='resetPassword'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='lemonService'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='forgotPasswordCode'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='newPassword'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='resetPassword'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='forgotPasswordCode'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+38 annotations
+39 annotation (MarkerAnnotationExpr)
+40 name (Name)
+41 identifier='PathVariable'
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='newPassword'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='String'
+49 annotations
+50 annotation (MarkerAnnotationExpr)
+51 name (Name)
+52 identifier='RequestParam'
+53 annotations
+54 annotation (SingleMemberAnnotationExpr)
+55 memberValue (StringLiteralExpr)
+56 value='/users/{forgotPasswordCode}/reset-password'
+57 name (Name)
+58 identifier='PostMapping'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+31 38
+38 39
+39 40
+40 41
+30 42
+42 43
+42 44
+44 45
+42 46
+46 47
+47 48
+42 49
+49 50
+50 51
+51 52
+0 53
+53 54
+54 55
+55 56
+54 57
+57 58
+
+Resets password after it is forgotten.

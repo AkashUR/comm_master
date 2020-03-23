@@ -1,0 +1,102 @@
+50
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='PLUS'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='start'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='_currentFrameBottom'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='arraycopy'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='System'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='m_nulls'
+23 argument (IntegerLiteralExpr)
+24 value='0'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='_stackFrames'
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='start'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='len'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='clearLocalSlots'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='start'
+42 type (PrimitiveType)
+43 type='INT'
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='len'
+48 type (PrimitiveType)
+49 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+19 23
+23 24
+19 25
+25 26
+26 27
+19 28
+28 29
+29 30
+19 31
+31 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+37 44
+44 45
+44 46
+46 47
+44 48
+48 49
+
+Use this to clear the variables in a section of the stack.  This is used to clear the parameter section of the stack, so that default param values can tell if they've already been set.  It is important to note that this function has a 1K limitation.

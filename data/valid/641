@@ -1,0 +1,158 @@
+78
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Bundle'
+11 name (SimpleName)
+12 identifier='extras'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Bundle'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='putBoolean'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='extras'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='SYNC_EXTRAS_MANUAL'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='ContentResolver'
+30 argument (BooleanLiteralExpr)
+31 value='true'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='putBoolean'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='extras'
+39 arguments
+40 argument (StringLiteralExpr)
+41 value='metafeedonly'
+42 argument (BooleanLiteralExpr)
+43 value='true'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='requestSync'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='ContentResolver'
+51 arguments
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='account'
+55 argument (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='getAuthority'
+58 scope (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='CONTENT_URI'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='Calendars'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='extras'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='startCalendarMetafeedSync'
+70 parameters
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='account'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='Account'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+33 39
+39 40
+40 41
+39 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+51 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+
+Checks the server for an updated list of Calendars (in the background). If a Calendar is added on the web (and it is selected and not hidden) then it will be added to the list of calendars on the phone (when this finishes).  When a new calendar from the web is added to the phone, then the events for that calendar are also downloaded from the web. This sync is done automatically in the background when the SelectCalendars activity and fragment are started.

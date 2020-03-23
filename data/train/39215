@@ -1,0 +1,128 @@
+63
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mController'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='setCondition'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='mController'
+17 arguments
+18 argument (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='GENERAL_CONDITION_PALLIATIVE_UUID'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='ConceptUuids'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='addEncounter'
+28 scope (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='verify'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='mMockAppModel'
+35 arguments
+36 argument (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='any'
+39 arguments
+40 argument (ClassExpr)
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='CrudEventBus'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='any'
+47 arguments
+48 argument (ClassExpr)
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='Patient'
+52 argument (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='any'
+55 arguments
+56 argument (ClassExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Encounter'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='testSetCondition_AddsEncounterForNewCondition'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+25 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+42 43
+35 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+50 51
+35 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+58 59
+0 60
+0 61
+61 62
+
+Tests that selecting a new general condition results in adding a new encounter.

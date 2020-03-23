@@ -1,0 +1,250 @@
+124
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createFile'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='fileHandler'
+10 scope (ThisExpr)
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='ram:///test.war'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (CastExpr)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='createDeployable'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='factory'
+25 arguments
+26 argument (StringLiteralExpr)
+27 value='jonas4x'
+28 argument (StringLiteralExpr)
+29 value='ram:///test.war'
+30 argument (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='WAR'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='DeployableType'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='WAR'
+39 name (SimpleName)
+40 identifier='war'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='WAR'
+44 statement (ExpressionStmt)
+45 expression (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='setContext'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='war'
+51 arguments
+52 argument (StringLiteralExpr)
+53 value='testContext'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='setupAdminColdDeployment'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='deploy'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='deployer'
+65 arguments
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='war'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='assertFalse'
+73 arguments
+74 argument (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='exists'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='fileHandler'
+80 arguments
+81 argument (BinaryExpr)
+82 operator='PLUS'
+83 left (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getDeployableDir'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='deployer'
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='war'
+93 right (StringLiteralExpr)
+94 value='/autoload/test.war'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='assertTrue'
+99 arguments
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='exists'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='fileHandler'
+106 arguments
+107 argument (BinaryExpr)
+108 operator='PLUS'
+109 left (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='getDeployableDir'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='deployer'
+115 arguments
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='war'
+119 right (StringLiteralExpr)
+120 value='/autoload/testContext.war'
+121 type (VoidType)
+122 name (SimpleName)
+123 identifier='testColdDeployWar'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+4 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+25 28
+28 29
+25 30
+30 31
+31 32
+30 33
+33 34
+34 35
+18 36
+36 37
+37 38
+17 39
+39 40
+17 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+2 54
+54 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+81 83
+83 84
+84 85
+83 86
+86 87
+87 88
+83 89
+89 90
+90 91
+91 92
+81 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+107 109
+109 110
+110 111
+109 112
+112 113
+113 114
+109 115
+115 116
+116 117
+117 118
+107 119
+119 120
+0 121
+0 122
+122 123
+
+Test WAR cold deployment.

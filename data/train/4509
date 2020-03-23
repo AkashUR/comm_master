@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='log'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='PLUS'
+10 left (BinaryExpr)
+11 operator='PLUS'
+12 left (StringLiteralExpr)
+13 value='sessionCreated(\''
+14 right (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getId'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getSession'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='event'
+23 right (StringLiteralExpr)
+24 value='\')'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='sessionCreated'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='event'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='HttpSessionEvent'
+36 annotations
+37 annotation (MarkerAnnotationExpr)
+38 name (Name)
+39 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+10 12
+12 13
+10 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+8 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+0 36
+36 37
+37 38
+38 39
+
+Record the fact that a session has been created.

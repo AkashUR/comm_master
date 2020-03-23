@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (NameExpr)
+10 name (SimpleName)
+11 identifier='pending'
+12 value (NameExpr)
+13 name (SimpleName)
+14 identifier='runnable'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='notifyAll'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='lock'
+22 expression (NameExpr)
+23 name (SimpleName)
+24 identifier='lock'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='execute'
+28 parameters
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='runnable'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='Runnable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+13 14
+5 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+3 22
+22 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+
+Queues runnable for execution. Will be executed as soon as the current runnable has terminated. If there is no current executable, will be executed immediately (in the thread created by this instance). If this method is called again before the current runnable is executed, runnable will be discarded in favor of the new.

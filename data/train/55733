@@ -1,0 +1,608 @@
+303
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='StringWriter'
+11 name (SimpleName)
+12 identifier='sw'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='StringWriter'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='createJsonGenerator'
+23 scope (ObjectCreationExpr)
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='JsonFactory'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='sw'
+31 name (SimpleName)
+32 identifier='gen'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='JsonGenerator'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='writeStartObject'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='gen'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='writeStringField'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='gen'
+50 arguments
+51 argument (StringLiteralExpr)
+52 value='str'
+53 argument (NullLiteralExpr)
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='writeNumberField'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='gen'
+61 arguments
+62 argument (StringLiteralExpr)
+63 value='num'
+64 argument (NullLiteralExpr)
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='writeObjectField'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='gen'
+72 arguments
+73 argument (StringLiteralExpr)
+74 value='obj'
+75 argument (NullLiteralExpr)
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='writeEndObject'
+80 scope (NameExpr)
+81 name (SimpleName)
+82 identifier='gen'
+83 statement (ExpressionStmt)
+84 expression (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='close'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='gen'
+90 statement (ExpressionStmt)
+91 expression (VariableDeclarationExpr)
+92 variables
+93 variable (VariableDeclarator)
+94 initializer (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='toString'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='sw'
+100 name (SimpleName)
+101 identifier='docStr'
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='String'
+105 statement (ExpressionStmt)
+106 expression (VariableDeclarationExpr)
+107 variables
+108 variable (VariableDeclarator)
+109 initializer (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='createParserUsingReader'
+112 arguments
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='docStr'
+116 name (SimpleName)
+117 identifier='jp'
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='JsonParser'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='assertEquals'
+125 arguments
+126 argument (FieldAccessExpr)
+127 name (SimpleName)
+128 identifier='START_OBJECT'
+129 scope (NameExpr)
+130 name (SimpleName)
+131 identifier='JsonToken'
+132 argument (MethodCallExpr)
+133 name (SimpleName)
+134 identifier='nextToken'
+135 scope (NameExpr)
+136 name (SimpleName)
+137 identifier='jp'
+138 statement (ExpressionStmt)
+139 expression (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='assertEquals'
+142 arguments
+143 argument (FieldAccessExpr)
+144 name (SimpleName)
+145 identifier='FIELD_NAME'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='JsonToken'
+149 argument (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='nextToken'
+152 scope (NameExpr)
+153 name (SimpleName)
+154 identifier='jp'
+155 statement (ExpressionStmt)
+156 expression (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='assertEquals'
+159 arguments
+160 argument (StringLiteralExpr)
+161 value='str'
+162 argument (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='getCurrentName'
+165 scope (NameExpr)
+166 name (SimpleName)
+167 identifier='jp'
+168 statement (ExpressionStmt)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='assertEquals'
+172 arguments
+173 argument (FieldAccessExpr)
+174 name (SimpleName)
+175 identifier='VALUE_NULL'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='JsonToken'
+179 argument (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='nextToken'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='jp'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='assertEquals'
+189 arguments
+190 argument (FieldAccessExpr)
+191 name (SimpleName)
+192 identifier='FIELD_NAME'
+193 scope (NameExpr)
+194 name (SimpleName)
+195 identifier='JsonToken'
+196 argument (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='nextToken'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='jp'
+202 statement (ExpressionStmt)
+203 expression (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='assertEquals'
+206 arguments
+207 argument (StringLiteralExpr)
+208 value='num'
+209 argument (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='getCurrentName'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='jp'
+215 statement (ExpressionStmt)
+216 expression (MethodCallExpr)
+217 name (SimpleName)
+218 identifier='assertEquals'
+219 arguments
+220 argument (FieldAccessExpr)
+221 name (SimpleName)
+222 identifier='VALUE_NULL'
+223 scope (NameExpr)
+224 name (SimpleName)
+225 identifier='JsonToken'
+226 argument (MethodCallExpr)
+227 name (SimpleName)
+228 identifier='nextToken'
+229 scope (NameExpr)
+230 name (SimpleName)
+231 identifier='jp'
+232 statement (ExpressionStmt)
+233 expression (MethodCallExpr)
+234 name (SimpleName)
+235 identifier='assertEquals'
+236 arguments
+237 argument (FieldAccessExpr)
+238 name (SimpleName)
+239 identifier='FIELD_NAME'
+240 scope (NameExpr)
+241 name (SimpleName)
+242 identifier='JsonToken'
+243 argument (MethodCallExpr)
+244 name (SimpleName)
+245 identifier='nextToken'
+246 scope (NameExpr)
+247 name (SimpleName)
+248 identifier='jp'
+249 statement (ExpressionStmt)
+250 expression (MethodCallExpr)
+251 name (SimpleName)
+252 identifier='assertEquals'
+253 arguments
+254 argument (StringLiteralExpr)
+255 value='obj'
+256 argument (MethodCallExpr)
+257 name (SimpleName)
+258 identifier='getCurrentName'
+259 scope (NameExpr)
+260 name (SimpleName)
+261 identifier='jp'
+262 statement (ExpressionStmt)
+263 expression (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='assertEquals'
+266 arguments
+267 argument (FieldAccessExpr)
+268 name (SimpleName)
+269 identifier='VALUE_NULL'
+270 scope (NameExpr)
+271 name (SimpleName)
+272 identifier='JsonToken'
+273 argument (MethodCallExpr)
+274 name (SimpleName)
+275 identifier='nextToken'
+276 scope (NameExpr)
+277 name (SimpleName)
+278 identifier='jp'
+279 statement (ExpressionStmt)
+280 expression (MethodCallExpr)
+281 name (SimpleName)
+282 identifier='assertEquals'
+283 arguments
+284 argument (FieldAccessExpr)
+285 name (SimpleName)
+286 identifier='END_OBJECT'
+287 scope (NameExpr)
+288 name (SimpleName)
+289 identifier='JsonToken'
+290 argument (MethodCallExpr)
+291 name (SimpleName)
+292 identifier='nextToken'
+293 scope (NameExpr)
+294 name (SimpleName)
+295 identifier='jp'
+296 type (VoidType)
+297 name (SimpleName)
+298 identifier='testConvenienceMethodsWithNulls'
+299 thrownExceptions
+300 thrownException (ClassOrInterfaceType)
+301 name (SimpleName)
+302 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+20 27
+27 28
+28 29
+29 30
+19 31
+31 32
+19 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+50 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+61 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+72 75
+2 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+2 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+93 94
+94 95
+95 96
+94 97
+97 98
+98 99
+93 100
+100 101
+93 102
+102 103
+103 104
+2 105
+105 106
+106 107
+107 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+114 115
+108 116
+116 117
+108 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+125 132
+132 133
+133 134
+132 135
+135 136
+136 137
+2 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+142 149
+149 150
+150 151
+149 152
+152 153
+153 154
+2 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+159 162
+162 163
+163 164
+162 165
+165 166
+166 167
+2 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+172 179
+179 180
+180 181
+179 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+191 192
+190 193
+193 194
+194 195
+189 196
+196 197
+197 198
+196 199
+199 200
+200 201
+2 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+206 209
+209 210
+210 211
+209 212
+212 213
+213 214
+2 215
+215 216
+216 217
+217 218
+216 219
+219 220
+220 221
+221 222
+220 223
+223 224
+224 225
+219 226
+226 227
+227 228
+226 229
+229 230
+230 231
+2 232
+232 233
+233 234
+234 235
+233 236
+236 237
+237 238
+238 239
+237 240
+240 241
+241 242
+236 243
+243 244
+244 245
+243 246
+246 247
+247 248
+2 249
+249 250
+250 251
+251 252
+250 253
+253 254
+254 255
+253 256
+256 257
+257 258
+256 259
+259 260
+260 261
+2 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+268 269
+267 270
+270 271
+271 272
+266 273
+273 274
+274 275
+273 276
+276 277
+277 278
+2 279
+279 280
+280 281
+281 282
+280 283
+283 284
+284 285
+285 286
+284 287
+287 288
+288 289
+283 290
+290 291
+291 292
+290 293
+293 294
+294 295
+0 296
+0 297
+297 298
+0 299
+299 300
+300 301
+301 302
+
+Tests to cover [JACKSON-164]

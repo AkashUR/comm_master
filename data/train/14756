@@ -1,0 +1,116 @@
+57
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='key'
+11 argument (ConditionalExpr)
+12 condition (BinaryExpr)
+13 operator='EQUALS'
+14 left (NameExpr)
+15 name (SimpleName)
+16 identifier='value'
+17 right (NullLiteralExpr)
+18 elseExpr (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='unicode2html'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='CharacterCoding'
+24 arguments
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='decodeURL'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='UTF8'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='value'
+35 argument (BooleanLiteralExpr)
+36 value='true'
+37 thenExpr (StringLiteralExpr)
+38 value=''
+39 type (VoidType)
+40 name (SimpleName)
+41 identifier='putHTML'
+42 parameters
+43 parameter (Parameter)
+44 isVarArgs='false'
+45 name (SimpleName)
+46 identifier='key'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='String'
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='value'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+11 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+24 35
+35 36
+11 37
+37 38
+0 39
+0 40
+40 41
+0 42
+42 43
+43 44
+43 45
+45 46
+43 47
+47 48
+48 49
+42 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+
+Add a String to the map. The content of the String is escaped to be usable in HTML output.

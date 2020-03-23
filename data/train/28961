@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (ArrayAccessExpr)
+7 index (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='removeAllDataSize'
+10 scope (ThisExpr)
+11 name (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='removeAllData'
+14 scope (ThisExpr)
+15 value (ObjectCreationExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='RemoveAllEntryData'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='ev'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setCallbacksInvoked'
+27 scope (ArrayAccessExpr)
+28 index (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='removeAllDataSize'
+31 scope (ThisExpr)
+32 name (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='removeAllData'
+35 scope (ThisExpr)
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='newCallbackInvoked'
+40 statement (ExpressionStmt)
+41 expression (AssignExpr)
+42 operator='PLUS'
+43 target (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='removeAllDataSize'
+46 scope (ThisExpr)
+47 value (IntegerLiteralExpr)
+48 value='1'
+49 type (VoidType)
+50 name (SimpleName)
+51 identifier='addEntry'
+52 parameters
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='ev'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='EntryEventImpl'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='newCallbackInvoked'
+64 type (PrimitiveType)
+65 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+8 9
+7 10
+6 11
+11 12
+12 13
+11 14
+4 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+28 31
+27 32
+32 33
+33 34
+32 35
+24 36
+36 37
+37 38
+38 39
+2 40
+40 41
+41 42
+41 43
+43 44
+44 45
+43 46
+41 47
+47 48
+0 49
+0 50
+50 51
+0 52
+52 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+52 60
+60 61
+60 62
+62 63
+60 64
+64 65
+
+Add an entry that this removeAll operation should distribute. This method is for a special case: the callback will be called after this in hasSeenEvent() case, so we should change the status beforehand

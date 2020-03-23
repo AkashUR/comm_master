@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='initialize'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='id'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='callerContext'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='init'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='dataSourceSupplier'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='mCacheKey'
+29 value (NameExpr)
+30 name (SimpleName)
+31 identifier='cacheKey'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='initialize'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='dataSourceSupplier'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Supplier'
+43 typeArguments
+44 typeArgument (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='DataSource'
+47 typeArguments
+48 typeArgument (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='CloseableReference'
+51 typeArguments
+52 typeArgument (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='CloseableImage'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='id'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='String'
+62 parameter (Parameter)
+63 isVarArgs='false'
+64 name (SimpleName)
+65 identifier='cacheKey'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='CacheKey'
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='callerContext'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='Object'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+53 54
+35 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+35 62
+62 63
+62 64
+64 65
+62 66
+66 67
+67 68
+35 69
+69 70
+69 71
+71 72
+69 73
+73 74
+74 75
+
+Initializes this controller with the new data source supplier, id and caller context. This allows for reusing of the existing controller instead of instantiating a new one. This method should be called when the controller is in detached state.

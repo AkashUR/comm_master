@@ -1,0 +1,232 @@
+115
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='appName'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='appName'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='version'
+19 scope (ThisExpr)
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='version'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (FieldAccessExpr)
+27 name (SimpleName)
+28 identifier='certificateSigner'
+29 scope (ThisExpr)
+30 value (ConditionalExpr)
+31 condition (BinaryExpr)
+32 operator='EQUALS'
+33 left (NullLiteralExpr)
+34 right (NameExpr)
+35 name (SimpleName)
+36 identifier='certificate'
+37 elseExpr (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='getName'
+40 scope (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getIssuerX500Principal'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='certificate'
+46 thenExpr (NullLiteralExpr)
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='timeProvider'
+53 scope (ThisExpr)
+54 value (NameExpr)
+55 name (SimpleName)
+56 identifier='timeProvider'
+57 statement (ExpressionStmt)
+58 expression (AssignExpr)
+59 operator='ASSIGN'
+60 target (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='startTime'
+63 scope (ThisExpr)
+64 value (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='getCurrentTime'
+67 scope (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='timeProvider'
+70 scope (ThisExpr)
+71 statement (ExpressionStmt)
+72 expression (AssignExpr)
+73 operator='ASSIGN'
+74 target (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='currentTime'
+77 scope (ThisExpr)
+78 value (FieldAccessExpr)
+79 name (SimpleName)
+80 identifier='ZERO'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='TimeInstant'
+84 name (SimpleName)
+85 identifier='ApplicationMetaData'
+86 parameters
+87 parameter (Parameter)
+88 isVarArgs='false'
+89 name (SimpleName)
+90 identifier='appName'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='String'
+94 parameter (Parameter)
+95 isVarArgs='false'
+96 name (SimpleName)
+97 identifier='version'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='String'
+101 parameter (Parameter)
+102 isVarArgs='false'
+103 name (SimpleName)
+104 identifier='certificate'
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='X509Certificate'
+108 parameter (Parameter)
+109 isVarArgs='false'
+110 name (SimpleName)
+111 identifier='timeProvider'
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='TimeProvider'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+26 29
+24 30
+30 31
+31 32
+31 33
+31 34
+34 35
+35 36
+30 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+30 46
+2 47
+47 48
+48 49
+48 50
+50 51
+51 52
+50 53
+48 54
+54 55
+55 56
+2 57
+57 58
+58 59
+58 60
+60 61
+61 62
+60 63
+58 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+2 71
+71 72
+72 73
+72 74
+74 75
+75 76
+74 77
+72 78
+78 79
+79 80
+78 81
+81 82
+82 83
+0 84
+84 85
+0 86
+86 87
+87 88
+87 89
+89 90
+87 91
+91 92
+92 93
+86 94
+94 95
+94 96
+96 97
+94 98
+98 99
+99 100
+86 101
+101 102
+101 103
+103 104
+101 105
+105 106
+106 107
+86 108
+108 109
+108 110
+110 111
+108 112
+112 113
+113 114
+
+Creates a new application meta data instance.

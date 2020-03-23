@@ -1,0 +1,118 @@
+58
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='id'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='KeyIdentifier'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='octetString'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='extensionId'
+23 scope (ThisExpr)
+24 value (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='SubjectKey_Id'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='PKIXExtensions'
+30 statement (ExpressionStmt)
+31 expression (AssignExpr)
+32 operator='ASSIGN'
+33 target (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='critical'
+36 scope (ThisExpr)
+37 value (BooleanLiteralExpr)
+38 value='false'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='encodeThis'
+43 name (SimpleName)
+44 identifier='SubjectKeyIdentifierExtension'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='octetString'
+50 type (ArrayType)
+51 origin='TYPE'
+52 componentType (PrimitiveType)
+53 type='BYTE'
+54 thrownExceptions
+55 thrownException (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+14 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+20 23
+18 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+31 33
+33 34
+34 35
+33 36
+31 37
+37 38
+2 39
+39 40
+40 41
+41 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+50 52
+52 53
+0 54
+54 55
+55 56
+56 57
+
+Create a SubjectKeyIdentifierExtension with the passed octet string. The criticality is set to False.

@@ -1,0 +1,36 @@
+17
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='jamonDataPersister'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='run'
+13 annotations
+14 annotation (MarkerAnnotationExpr)
+15 name (Name)
+16 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+0 13
+13 14
+14 15
+15 16
+
+This method saves the jamon data.  Save is used loosely.  It can do anything it wants.  For example the HazelCast implementation sends the data to the HazelCast cluster, but it is not saved to disk.  Other implementations could save to other clustered environments such as Reddis, or Hadoop.  The data saved could replace previously saved data or make additional copies (for example append)

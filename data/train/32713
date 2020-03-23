@@ -1,0 +1,330 @@
+164
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='DATABASE_URL'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='DatabaseMemory'
+12 value (StringLiteralExpr)
+13 value='jdbc:postgresql:wiktionary'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='RECREATE_DATABASE'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='DatabaseMemory'
+23 value (BooleanLiteralExpr)
+24 value='true'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='createInstance'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='Bot'
+35 name (SimpleName)
+36 identifier='bot'
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='Bot'
+40 statement (ExpressionStmt)
+41 expression (VariableDeclarationExpr)
+42 variables
+43 variable (VariableDeclarator)
+44 initializer (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getSense'
+47 scope (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='awareness'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='bot'
+53 arguments
+54 argument (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getName'
+57 scope (ClassExpr)
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='Http'
+61 name (SimpleName)
+62 identifier='sense'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Sense'
+66 statement (ExpressionStmt)
+67 expression (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='input'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='sense'
+73 arguments
+74 argument (ObjectCreationExpr)
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='URL'
+78 arguments
+79 argument (StringLiteralExpr)
+80 value='http://en.wiktionary.org/wiki/Category:English_nouns'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='println'
+85 scope (FieldAccessExpr)
+86 name (SimpleName)
+87 identifier='out'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='System'
+91 arguments
+92 argument (StringLiteralExpr)
+93 value='*** Done Nouns ***'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='input'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='sense'
+101 arguments
+102 argument (ObjectCreationExpr)
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='URL'
+106 arguments
+107 argument (StringLiteralExpr)
+108 value='http://en.wiktionary.org/wiki/Category:English_verbs'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='println'
+113 scope (FieldAccessExpr)
+114 name (SimpleName)
+115 identifier='out'
+116 scope (NameExpr)
+117 name (SimpleName)
+118 identifier='System'
+119 arguments
+120 argument (StringLiteralExpr)
+121 value='*** Done Verbs ***'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='input'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='sense'
+129 arguments
+130 argument (ObjectCreationExpr)
+131 type (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='URL'
+134 arguments
+135 argument (StringLiteralExpr)
+136 value='http://en.wiktionary.org/wiki/Category:English_adjectives'
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='println'
+141 scope (FieldAccessExpr)
+142 name (SimpleName)
+143 identifier='out'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='System'
+147 arguments
+148 argument (StringLiteralExpr)
+149 value='*** Done Adjectives ***'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='shutdown'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='bot'
+157 type (VoidType)
+158 name (SimpleName)
+159 identifier='testLoadWords'
+160 thrownExceptions
+161 thrownException (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+17 20
+20 21
+21 22
+15 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+28 35
+35 36
+28 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+44 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+43 61
+61 62
+43 63
+63 64
+64 65
+2 66
+66 67
+67 68
+68 69
+67 70
+70 71
+71 72
+67 73
+73 74
+74 75
+75 76
+76 77
+74 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+85 88
+88 89
+89 90
+82 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+103 104
+104 105
+102 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+113 116
+116 117
+117 118
+110 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+131 132
+132 133
+130 134
+134 135
+135 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+141 144
+144 145
+145 146
+138 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+0 157
+0 158
+158 159
+0 160
+160 161
+161 162
+162 163
+
+Test loading all words from Wiktionary.

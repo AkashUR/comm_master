@@ -1,0 +1,494 @@
+246
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addFlags'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='addFlags'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='intent'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='FLAG_ACTIVITY_NEW_TASK'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Intent'
+20 arguments
+21 argument (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='FLAG_FROM_BACKGROUND'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='Intent'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getActivity'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='PendingIntent'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='context'
+41 argument (IntegerLiteralExpr)
+42 value='0'
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='intent'
+46 argument (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='FLAG_UPDATE_CURRENT'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='PendingIntent'
+52 name (SimpleName)
+53 identifier='pendingIntent'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='PendingIntent'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='setTicker'
+64 scope (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='setSmallIcon'
+67 scope (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='setContentTitle'
+70 scope (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='setContentText'
+73 scope (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='setContentIntent'
+76 scope (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='setAutoCancel'
+79 scope (ObjectCreationExpr)
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Builder'
+83 scope (ClassOrInterfaceType)
+84 name (SimpleName)
+85 identifier='NotificationCompat'
+86 arguments
+87 argument (NameExpr)
+88 name (SimpleName)
+89 identifier='context'
+90 arguments
+91 argument (BooleanLiteralExpr)
+92 value='true'
+93 arguments
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='pendingIntent'
+97 arguments
+98 argument (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='getString'
+101 scope (NameExpr)
+102 name (SimpleName)
+103 identifier='context'
+104 arguments
+105 argument (FieldAccessExpr)
+106 name (SimpleName)
+107 identifier='permission_request_message'
+108 scope (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='string'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='R'
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='accountName'
+117 arguments
+118 argument (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='getString'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='context'
+124 arguments
+125 argument (FieldAccessExpr)
+126 name (SimpleName)
+127 identifier='permission_request_title'
+128 scope (FieldAccessExpr)
+129 name (SimpleName)
+130 identifier='string'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='R'
+134 arguments
+135 argument (FieldAccessExpr)
+136 name (SimpleName)
+137 identifier='ic_dialog_alert'
+138 scope (FieldAccessExpr)
+139 name (SimpleName)
+140 identifier='drawable'
+141 scope (FieldAccessExpr)
+142 name (SimpleName)
+143 identifier='R'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='android'
+147 arguments
+148 argument (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='getString'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='context'
+154 arguments
+155 argument (FieldAccessExpr)
+156 name (SimpleName)
+157 identifier='permission_request_title'
+158 scope (FieldAccessExpr)
+159 name (SimpleName)
+160 identifier='string'
+161 scope (NameExpr)
+162 name (SimpleName)
+163 identifier='R'
+164 name (SimpleName)
+165 identifier='builder'
+166 type (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='Builder'
+169 scope (ClassOrInterfaceType)
+170 name (SimpleName)
+171 identifier='NotificationCompat'
+172 statement (ExpressionStmt)
+173 expression (VariableDeclarationExpr)
+174 variables
+175 variable (VariableDeclarator)
+176 initializer (CastExpr)
+177 expression (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='getSystemService'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='context'
+183 arguments
+184 argument (FieldAccessExpr)
+185 name (SimpleName)
+186 identifier='NOTIFICATION_SERVICE'
+187 scope (NameExpr)
+188 name (SimpleName)
+189 identifier='Context'
+190 type (ClassOrInterfaceType)
+191 name (SimpleName)
+192 identifier='NotificationManager'
+193 name (SimpleName)
+194 identifier='notificationManager'
+195 type (ClassOrInterfaceType)
+196 name (SimpleName)
+197 identifier='NotificationManager'
+198 statement (ExpressionStmt)
+199 expression (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='notify'
+202 scope (NameExpr)
+203 name (SimpleName)
+204 identifier='notificationManager'
+205 arguments
+206 argument (NameExpr)
+207 name (SimpleName)
+208 identifier='notificaitonId'
+209 argument (MethodCallExpr)
+210 name (SimpleName)
+211 identifier='build'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='builder'
+215 type (VoidType)
+216 name (SimpleName)
+217 identifier='sendNotification'
+218 parameters
+219 parameter (Parameter)
+220 isVarArgs='false'
+221 name (SimpleName)
+222 identifier='context'
+223 type (ClassOrInterfaceType)
+224 name (SimpleName)
+225 identifier='Context'
+226 parameter (Parameter)
+227 isVarArgs='false'
+228 name (SimpleName)
+229 identifier='accountName'
+230 type (ClassOrInterfaceType)
+231 name (SimpleName)
+232 identifier='String'
+233 parameter (Parameter)
+234 isVarArgs='false'
+235 name (SimpleName)
+236 identifier='intent'
+237 type (ClassOrInterfaceType)
+238 name (SimpleName)
+239 identifier='Intent'
+240 parameter (Parameter)
+241 isVarArgs='false'
+242 name (SimpleName)
+243 identifier='notificaitonId'
+244 type (PrimitiveType)
+245 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+4 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+37 41
+41 42
+37 43
+43 44
+44 45
+37 46
+46 47
+47 48
+46 49
+49 50
+50 51
+30 52
+52 53
+30 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+64 67
+67 68
+68 69
+67 70
+70 71
+71 72
+70 73
+73 74
+74 75
+73 76
+76 77
+77 78
+76 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+79 86
+86 87
+87 88
+88 89
+76 90
+90 91
+91 92
+73 93
+93 94
+94 95
+95 96
+70 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+98 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+108 111
+111 112
+112 113
+104 114
+114 115
+115 116
+67 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+128 131
+131 132
+132 133
+64 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+138 141
+141 142
+142 143
+141 144
+144 145
+145 146
+61 147
+147 148
+148 149
+149 150
+148 151
+151 152
+152 153
+148 154
+154 155
+155 156
+156 157
+155 158
+158 159
+159 160
+158 161
+161 162
+162 163
+60 164
+164 165
+60 166
+166 167
+167 168
+166 169
+169 170
+170 171
+2 172
+172 173
+173 174
+174 175
+175 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+176 190
+190 191
+191 192
+175 193
+193 194
+175 195
+195 196
+196 197
+2 198
+198 199
+199 200
+200 201
+199 202
+202 203
+203 204
+199 205
+205 206
+206 207
+207 208
+205 209
+209 210
+210 211
+209 212
+212 213
+213 214
+0 215
+0 216
+216 217
+0 218
+218 219
+219 220
+219 221
+221 222
+219 223
+223 224
+224 225
+218 226
+226 227
+226 228
+228 229
+226 230
+230 231
+231 232
+218 233
+233 234
+233 235
+235 236
+233 237
+237 238
+238 239
+218 240
+240 241
+240 242
+242 243
+240 244
+244 245
+
+Sends a notification to request permission.

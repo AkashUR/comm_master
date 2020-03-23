@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='removeQueue'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='distributor'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='get'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='streamToQueue'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='stream'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='streamToQueue'
+27 scope (ThisExpr)
+28 value (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='minus'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='streamToQueue'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='stream'
+38 statement (ExpressionStmt)
+39 expression (UnaryExpr)
+40 operator='POSTFIX_DECREMENT'
+41 expression (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='index'
+44 scope (ThisExpr)
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='disconnect'
+48 parameters
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='stream'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Stream'
+56 typeArguments
+57 typeArgument (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='T'
+60 annotations
+61 annotation (SingleMemberAnnotationExpr)
+62 memberValue (StringLiteralExpr)
+63 value='lock'
+64 name (Name)
+65 identifier='Synchronized'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+24 27
+22 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+41 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+0 60
+60 61
+61 62
+62 63
+61 64
+64 65
+
+Topic will maintain a queue for each Subscribing Stream If a Stream is finished with a Topic it is good practice to disconnect from the Topic  so messages will no longer be stored for that Stream

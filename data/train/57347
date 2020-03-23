@@ -1,0 +1,532 @@
+265
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (CastExpr)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getSingleton'
+11 scope (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='INSTANCE'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='SingletonRegistry'
+17 arguments
+18 argument (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='HERON_SYSTEM_CONFIG'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='SystemConfig'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='SystemConfig'
+27 name (SimpleName)
+28 identifier='systemConfig'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='SystemConfig'
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getHeronMetricsExportIntervalSec'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='systemConfig'
+42 name (SimpleName)
+43 identifier='interval'
+44 type (PrimitiveType)
+45 type='INT'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='registerMetric'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='metricsCollector'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='__gateway-received-packets-size'
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='receivedPacketsSize'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='interval'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='registerMetric'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='metricsCollector'
+69 arguments
+70 argument (StringLiteralExpr)
+71 value='__gateway-sent-packets-size'
+72 argument (NameExpr)
+73 name (SimpleName)
+74 identifier='sentPacketsSize'
+75 argument (NameExpr)
+76 name (SimpleName)
+77 identifier='interval'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='registerMetric'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='metricsCollector'
+85 arguments
+86 argument (StringLiteralExpr)
+87 value='__gateway-received-packets-count'
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='receivedPacketsCount'
+91 argument (NameExpr)
+92 name (SimpleName)
+93 identifier='interval'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='registerMetric'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='metricsCollector'
+101 arguments
+102 argument (StringLiteralExpr)
+103 value='__gateway-sent-packets-count'
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='sentPacketsCount'
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='interval'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='registerMetric'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='metricsCollector'
+117 arguments
+118 argument (StringLiteralExpr)
+119 value='__gateway-sent-metrics-size'
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='sentMetricsSize'
+123 argument (NameExpr)
+124 name (SimpleName)
+125 identifier='interval'
+126 statement (ExpressionStmt)
+127 expression (MethodCallExpr)
+128 name (SimpleName)
+129 identifier='registerMetric'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='metricsCollector'
+133 arguments
+134 argument (StringLiteralExpr)
+135 value='__gateway-sent-metrics-packets-count'
+136 argument (NameExpr)
+137 name (SimpleName)
+138 identifier='sentMetricsPacketsCount'
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='interval'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='registerMetric'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='metricsCollector'
+149 arguments
+150 argument (StringLiteralExpr)
+151 value='__gateway-sent-metrics-count'
+152 argument (NameExpr)
+153 name (SimpleName)
+154 identifier='sentMetricsCount'
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='interval'
+158 statement (ExpressionStmt)
+159 expression (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='registerMetric'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='metricsCollector'
+165 arguments
+166 argument (StringLiteralExpr)
+167 value='__gateway-sent-exceptions-count'
+168 argument (NameExpr)
+169 name (SimpleName)
+170 identifier='sentExceptionsCount'
+171 argument (NameExpr)
+172 name (SimpleName)
+173 identifier='interval'
+174 statement (ExpressionStmt)
+175 expression (MethodCallExpr)
+176 name (SimpleName)
+177 identifier='registerMetric'
+178 scope (NameExpr)
+179 name (SimpleName)
+180 identifier='metricsCollector'
+181 arguments
+182 argument (StringLiteralExpr)
+183 value='__gateway-in-stream-queue-size'
+184 argument (NameExpr)
+185 name (SimpleName)
+186 identifier='inStreamQueueSize'
+187 argument (NameExpr)
+188 name (SimpleName)
+189 identifier='interval'
+190 statement (ExpressionStmt)
+191 expression (MethodCallExpr)
+192 name (SimpleName)
+193 identifier='registerMetric'
+194 scope (NameExpr)
+195 name (SimpleName)
+196 identifier='metricsCollector'
+197 arguments
+198 argument (StringLiteralExpr)
+199 value='__gateway-out-stream-queue-size'
+200 argument (NameExpr)
+201 name (SimpleName)
+202 identifier='outStreamQueueSize'
+203 argument (NameExpr)
+204 name (SimpleName)
+205 identifier='interval'
+206 statement (ExpressionStmt)
+207 expression (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='registerMetric'
+210 scope (NameExpr)
+211 name (SimpleName)
+212 identifier='metricsCollector'
+213 arguments
+214 argument (StringLiteralExpr)
+215 value='__gateway-in-stream-queue-expected-capacity'
+216 argument (NameExpr)
+217 name (SimpleName)
+218 identifier='inStreamQueueExpectedCapacity'
+219 argument (NameExpr)
+220 name (SimpleName)
+221 identifier='interval'
+222 statement (ExpressionStmt)
+223 expression (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='registerMetric'
+226 scope (NameExpr)
+227 name (SimpleName)
+228 identifier='metricsCollector'
+229 arguments
+230 argument (StringLiteralExpr)
+231 value='__gateway-out-stream-queue-expected-capacity'
+232 argument (NameExpr)
+233 name (SimpleName)
+234 identifier='outStreamQueueExpectedCapacity'
+235 argument (NameExpr)
+236 name (SimpleName)
+237 identifier='interval'
+238 statement (ExpressionStmt)
+239 expression (MethodCallExpr)
+240 name (SimpleName)
+241 identifier='registerMetric'
+242 scope (NameExpr)
+243 name (SimpleName)
+244 identifier='metricsCollector'
+245 arguments
+246 argument (StringLiteralExpr)
+247 value='__gateway-in-queue-full-count'
+248 argument (NameExpr)
+249 name (SimpleName)
+250 identifier='inQueueFullCount'
+251 argument (NameExpr)
+252 name (SimpleName)
+253 identifier='interval'
+254 type (VoidType)
+255 name (SimpleName)
+256 identifier='registerMetrics'
+257 parameters
+258 parameter (Parameter)
+259 isVarArgs='false'
+260 name (SimpleName)
+261 identifier='metricsCollector'
+262 type (ClassOrInterfaceType)
+263 name (SimpleName)
+264 identifier='MetricsCollector'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+15 16
+8 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+7 24
+24 25
+25 26
+6 27
+27 28
+6 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+35 42
+42 43
+35 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+95 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+117 120
+120 121
+121 122
+117 123
+123 124
+124 125
+2 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+127 133
+133 134
+134 135
+133 136
+136 137
+137 138
+133 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+143 149
+149 150
+150 151
+149 152
+152 153
+153 154
+149 155
+155 156
+156 157
+2 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+159 165
+165 166
+166 167
+165 168
+168 169
+169 170
+165 171
+171 172
+172 173
+2 174
+174 175
+175 176
+176 177
+175 178
+178 179
+179 180
+175 181
+181 182
+182 183
+181 184
+184 185
+185 186
+181 187
+187 188
+188 189
+2 190
+190 191
+191 192
+192 193
+191 194
+194 195
+195 196
+191 197
+197 198
+198 199
+197 200
+200 201
+201 202
+197 203
+203 204
+204 205
+2 206
+206 207
+207 208
+208 209
+207 210
+210 211
+211 212
+207 213
+213 214
+214 215
+213 216
+216 217
+217 218
+213 219
+219 220
+220 221
+2 222
+222 223
+223 224
+224 225
+223 226
+226 227
+227 228
+223 229
+229 230
+230 231
+229 232
+232 233
+233 234
+229 235
+235 236
+236 237
+2 238
+238 239
+239 240
+240 241
+239 242
+242 243
+243 244
+239 245
+245 246
+246 247
+245 248
+248 249
+249 250
+245 251
+251 252
+252 253
+0 254
+0 255
+255 256
+0 257
+257 258
+258 259
+258 260
+260 261
+258 262
+262 263
+263 264
+
+Register default Gateway Metrics to given MetricsCollector

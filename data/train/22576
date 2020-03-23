@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='list'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='HashSet'
+12 typeArguments
+13 typeArgument (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='String'
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (NameExpr)
+20 name (SimpleName)
+21 identifier='list'
+22 value (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='HashSet'
+26 typeArguments
+27 typeArgument (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='String'
+30 statement (ExpressionStmt)
+31 expression (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='add'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='list'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='displayName'
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='put'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='m_Ignored'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='displayName'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='list'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='addIgnored'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='displayName'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+31 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+
+adds the given display name of a property to the ignore list. Can either be a complete path (e.g. <code>__root__.options</code>) or only a property name (e.g. <code>options</code>). In the latter case it matches all occurences of this display name.

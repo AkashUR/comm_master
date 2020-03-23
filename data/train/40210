@@ -1,0 +1,44 @@
+21
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='m_initialized'
+9 value (BooleanLiteralExpr)
+10 value='false'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='m_fieldsMap'
+17 value (NullLiteralExpr)
+18 type (VoidType)
+19 name (SimpleName)
+20 identifier='done'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+0 18
+0 19
+19 20
+
+Signal that a scoring run has been completed. Resets the initialized state to false so that a subsequent scoring run will trigger the mapping of the mining schema to incoming instances. If not called after a scoring run, then the classifier will assume that the current mapping is still valid.

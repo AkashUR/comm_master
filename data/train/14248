@@ -1,0 +1,156 @@
+77
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getProcessingTokens'
+10 name (SimpleName)
+11 identifier='processing'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Map'
+15 typeArguments
+16 typeArgument (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='String'
+19 typeArgument (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Boolean'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='HashMap'
+30 typeArguments
+31 typeArgument (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+34 typeArgument (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Boolean'
+37 name (SimpleName)
+38 identifier='clone'
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='Map'
+42 typeArguments
+43 typeArgument (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='String'
+46 typeArgument (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Boolean'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='putAll'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='clone'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='processing'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='setAttribute'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='session'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='PROCESSING_TOKENS_ATT'
+71 argument (NameExpr)
+72 name (SimpleName)
+73 identifier='clone'
+74 type (VoidType)
+75 name (SimpleName)
+76 identifier='forceProcessingTokensReplication'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+25 37
+37 38
+25 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+42 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+67 71
+71 72
+72 73
+0 74
+0 75
+75 76
+
+This is only necessary because Google AppEngine does not replicates sessions the same way other containers do. The replication only occurs when you call the <code>setAttribute</code> method on the <code>session</code> object,  storing an object different than the previous one stored for the desired key. <a href="https://developers.google.com/appengine/docs/java/config/appconfig#Enabling_Sessions">AppEngine Documentation</a> 

@@ -1,0 +1,256 @@
+127
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mCsHandler'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='target'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='mContext'
+18 value (NameExpr)
+19 name (SimpleName)
+20 identifier='context'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (NameExpr)
+25 name (SimpleName)
+26 identifier='mWifiManager'
+27 value (CastExpr)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getSystemService'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='mContext'
+34 arguments
+35 argument (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='WIFI_SERVICE'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='Context'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='WifiManager'
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (ObjectCreationExpr)
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='IntentFilter'
+52 name (SimpleName)
+53 identifier='filter'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='IntentFilter'
+57 statement (ExpressionStmt)
+58 expression (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='addAction'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='filter'
+64 arguments
+65 argument (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='NETWORK_STATE_CHANGED_ACTION'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='WifiManager'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='addAction'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='filter'
+78 arguments
+79 argument (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='LINK_CONFIGURATION_CHANGED_ACTION'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='WifiManager'
+85 statement (ExpressionStmt)
+86 expression (AssignExpr)
+87 operator='ASSIGN'
+88 target (NameExpr)
+89 name (SimpleName)
+90 identifier='mWifiStateReceiver'
+91 value (ObjectCreationExpr)
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='WifiStateReceiver'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='registerReceiver'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='mContext'
+102 arguments
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='mWifiStateReceiver'
+106 argument (NameExpr)
+107 name (SimpleName)
+108 identifier='filter'
+109 type (VoidType)
+110 name (SimpleName)
+111 identifier='startMonitoring'
+112 parameters
+113 parameter (Parameter)
+114 isVarArgs='false'
+115 name (SimpleName)
+116 identifier='context'
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='Context'
+120 parameter (Parameter)
+121 isVarArgs='false'
+122 name (SimpleName)
+123 identifier='target'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='Handler'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+22 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+27 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+50 51
+47 52
+52 53
+47 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+58 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+2 85
+85 86
+86 87
+86 88
+88 89
+89 90
+86 91
+91 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+102 106
+106 107
+107 108
+0 109
+0 110
+110 111
+0 112
+112 113
+113 114
+113 115
+115 116
+113 117
+117 118
+118 119
+112 120
+120 121
+120 122
+122 123
+120 124
+124 125
+125 126
+
+Begin monitoring wifi connectivity

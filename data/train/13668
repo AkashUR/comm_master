@@ -1,0 +1,222 @@
+110
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='position'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='compact'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='mVertices'
+13 arguments
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='position'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='compact'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='mNormals'
+26 arguments
+27 argument (IntegerLiteralExpr)
+28 value='0'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='createBuffer'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='mVertexBufferInfo'
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='FLOAT_BUFFER'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='BufferType'
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='mVertices'
+46 argument (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='GL_ARRAY_BUFFER'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='GLES20'
+52 statement (ExpressionStmt)
+53 expression (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='createBuffer'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='mNormalBufferInfo'
+60 argument (FieldAccessExpr)
+61 name (SimpleName)
+62 identifier='FLOAT_BUFFER'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='BufferType'
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='mNormals'
+69 argument (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='GL_ARRAY_BUFFER'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='GLES20'
+75 statement (ExpressionStmt)
+76 expression (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='glBindBuffer'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='GLES20'
+82 arguments
+83 argument (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='GL_ELEMENT_ARRAY_BUFFER'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='GLES20'
+89 argument (IntegerLiteralExpr)
+90 value='0'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='glBindBuffer'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='GLES20'
+98 arguments
+99 argument (FieldAccessExpr)
+100 name (SimpleName)
+101 identifier='GL_ARRAY_BUFFER'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='GLES20'
+105 argument (IntegerLiteralExpr)
+106 value='0'
+107 type (VoidType)
+108 name (SimpleName)
+109 identifier='createVertexAndNormalBuffersOnly'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+17 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+37 40
+40 41
+41 42
+33 43
+43 44
+44 45
+33 46
+46 47
+47 48
+46 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+56 60
+60 61
+61 62
+60 63
+63 64
+64 65
+56 66
+66 67
+67 68
+56 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+76 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+82 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+98 105
+105 106
+0 107
+0 108
+108 109
+
+Creates the vertex and normal buffers only. This is typically used for a  VertexAnimationObject3D's frames.

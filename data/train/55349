@@ -1,0 +1,150 @@
+74
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getOutput'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='ProcessTools'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='process'
+17 name (SimpleName)
+18 identifier='output'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='OutputBuffer'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='exitValue'
+28 value (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='exitValue'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='process'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='stdout'
+40 scope (ThisExpr)
+41 value (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getStdout'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='output'
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='stderr'
+53 scope (ThisExpr)
+54 value (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getStderr'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='output'
+60 name (SimpleName)
+61 identifier='OutputAnalyzer'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='process'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='Process'
+70 thrownExceptions
+71 thrownException (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+28 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+37 40
+35 41
+41 42
+42 43
+41 44
+44 45
+45 46
+2 47
+47 48
+48 49
+48 50
+50 51
+51 52
+50 53
+48 54
+54 55
+55 56
+54 57
+57 58
+58 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+Create an OutputAnalyzer, a utility class for verifying output and exit value from a Process

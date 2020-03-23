@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='preTearDownPartitionedRegionDUnitTest'
+7 statement (ExpressionStmt)
+8 expression (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='closeCache'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='invokeInEveryVM'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='Invoke'
+18 arguments
+19 argument (ClassExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='CacheTestCase'
+23 argument (StringLiteralExpr)
+24 value='closeCache'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='preTearDownCacheTestCase'
+28 thrownExceptions
+29 thrownException (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Exception'
+32 annotations
+33 annotation (MarkerAnnotationExpr)
+34 name (Name)
+35 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+12 18
+18 19
+19 20
+20 21
+21 22
+18 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+30 31
+0 32
+32 33
+33 34
+34 35
+
+Tear down a PartitionedRegionTestCase by cleaning up the existing cache (mainly because we want to destroy any existing PartitionedRegions)

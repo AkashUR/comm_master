@@ -1,0 +1,146 @@
+72
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='SELECT COUNT(*) FROM MockModel WHERE intField <> ? GROUP BY intField'
+9 name (SimpleName)
+10 identifier='expected'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='toCountSql'
+21 scope (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='groupBy'
+24 scope (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='orderBy'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='where'
+30 scope (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='from'
+33 scope (ObjectCreationExpr)
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Select'
+37 arguments
+38 argument (ClassExpr)
+39 type (ClassOrInterfaceType)
+40 name (SimpleName)
+41 identifier='MockModel'
+42 arguments
+43 argument (StringLiteralExpr)
+44 value='intField <> ?'
+45 argument (IntegerLiteralExpr)
+46 value='0'
+47 arguments
+48 argument (StringLiteralExpr)
+49 value='intField'
+50 arguments
+51 argument (StringLiteralExpr)
+52 value='intField'
+53 name (SimpleName)
+54 identifier='actual'
+55 type (ClassOrInterfaceType)
+56 name (SimpleName)
+57 identifier='String'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='assertEquals'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='expected'
+66 argument (NameExpr)
+67 name (SimpleName)
+68 identifier='actual'
+69 type (VoidType)
+70 name (SimpleName)
+71 identifier='testCountOrderBySql'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+30 33
+33 34
+34 35
+35 36
+30 37
+37 38
+38 39
+39 40
+40 41
+27 42
+42 43
+43 44
+42 45
+45 46
+24 47
+47 48
+48 49
+21 50
+50 51
+51 52
+17 53
+53 54
+17 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+0 69
+0 70
+70 71
+
+Shouldn't include <i>order by</i> as it has no influence on the result of <i>count</i> and should improve performance.

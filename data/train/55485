@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mOffsetTop'
+9 value (BinaryExpr)
+10 operator='MINUS'
+11 left (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getTop'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='mView'
+17 right (NameExpr)
+18 name (SimpleName)
+19 identifier='mLayoutTop'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='mOffsetLeft'
+26 value (BinaryExpr)
+27 operator='MINUS'
+28 left (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getLeft'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='mView'
+34 right (NameExpr)
+35 name (SimpleName)
+36 identifier='mLayoutLeft'
+37 type (VoidType)
+38 name (SimpleName)
+39 identifier='resyncOffsets'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+11 14
+14 15
+15 16
+9 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+26 28
+28 29
+29 30
+28 31
+31 32
+32 33
+26 34
+34 35
+35 36
+0 37
+0 38
+38 39
+
+Notify this helper that a change to the view's offsets has occurred outside of this class.

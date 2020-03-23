@@ -1,0 +1,1810 @@
+904
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='_createStatechart'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='cs'
+13 name (SimpleName)
+14 identifier='sc'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Statechart'
+18 statement (BlockStmt)
+19 statements
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='_createInterfaceScope'
+27 arguments
+28 argument (StringLiteralExpr)
+29 value='interface'
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='sc'
+33 name (SimpleName)
+34 identifier='scope'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Scope'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='_createVariableDefinition'
+45 arguments
+46 argument (StringLiteralExpr)
+47 value='v1'
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='TYPE_INTEGER'
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='scope'
+54 name (SimpleName)
+55 identifier='v1'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='VariableDefinition'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='_createRegion'
+66 arguments
+67 argument (StringLiteralExpr)
+68 value='r'
+69 argument (NameExpr)
+70 name (SimpleName)
+71 identifier='sc'
+72 name (SimpleName)
+73 identifier='r'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='Region'
+77 statement (BlockStmt)
+78 statements
+79 statement (ExpressionStmt)
+80 expression (VariableDeclarationExpr)
+81 variables
+82 variable (VariableDeclarator)
+83 initializer (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='_createState'
+86 arguments
+87 argument (StringLiteralExpr)
+88 value='s1'
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='r'
+92 name (SimpleName)
+93 identifier='s1'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='State'
+97 statement (BlockStmt)
+98 statements
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='_createExitAssignment'
+103 arguments
+104 argument (NameExpr)
+105 name (SimpleName)
+106 identifier='v1'
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='s1'
+110 argument (IntegerLiteralExpr)
+111 value='1'
+112 statement (ExpressionStmt)
+113 expression (VariableDeclarationExpr)
+114 variables
+115 variable (VariableDeclarator)
+116 initializer (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='_createRegion'
+119 arguments
+120 argument (StringLiteralExpr)
+121 value='r1'
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='s1'
+125 name (SimpleName)
+126 identifier='r1_s1'
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='Region'
+130 statement (BlockStmt)
+131 statements
+132 statement (ExpressionStmt)
+133 expression (VariableDeclarationExpr)
+134 variables
+135 variable (VariableDeclarator)
+136 initializer (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='_createEntry'
+139 arguments
+140 argument (FieldAccessExpr)
+141 name (SimpleName)
+142 identifier='INITIAL'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='EntryKind'
+146 argument (NullLiteralExpr)
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='r1_s1'
+150 name (SimpleName)
+151 identifier='e'
+152 type (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='Entry'
+155 statement (ExpressionStmt)
+156 expression (VariableDeclarationExpr)
+157 variables
+158 variable (VariableDeclarator)
+159 initializer (MethodCallExpr)
+160 name (SimpleName)
+161 identifier='_createState'
+162 arguments
+163 argument (StringLiteralExpr)
+164 value='s2'
+165 argument (NameExpr)
+166 name (SimpleName)
+167 identifier='r1_s1'
+168 name (SimpleName)
+169 identifier='s2'
+170 type (ClassOrInterfaceType)
+171 name (SimpleName)
+172 identifier='State'
+173 statement (ExpressionStmt)
+174 expression (VariableDeclarationExpr)
+175 variables
+176 variable (VariableDeclarator)
+177 initializer (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='_createState'
+180 arguments
+181 argument (StringLiteralExpr)
+182 value='s3'
+183 argument (NameExpr)
+184 name (SimpleName)
+185 identifier='r1_s1'
+186 name (SimpleName)
+187 identifier='s3'
+188 type (ClassOrInterfaceType)
+189 name (SimpleName)
+190 identifier='State'
+191 statement (ExpressionStmt)
+192 expression (MethodCallExpr)
+193 name (SimpleName)
+194 identifier='_createTransition'
+195 arguments
+196 argument (NameExpr)
+197 name (SimpleName)
+198 identifier='e'
+199 argument (NameExpr)
+200 name (SimpleName)
+201 identifier='s2'
+202 statement (ExpressionStmt)
+203 expression (MethodCallExpr)
+204 name (SimpleName)
+205 identifier='_createTransition'
+206 arguments
+207 argument (NameExpr)
+208 name (SimpleName)
+209 identifier='s2'
+210 argument (NameExpr)
+211 name (SimpleName)
+212 identifier='s3'
+213 statement (ExpressionStmt)
+214 expression (VariableDeclarationExpr)
+215 variables
+216 variable (VariableDeclarator)
+217 initializer (MethodCallExpr)
+218 name (SimpleName)
+219 identifier='_createRegion'
+220 arguments
+221 argument (StringLiteralExpr)
+222 value='r2'
+223 argument (NameExpr)
+224 name (SimpleName)
+225 identifier='s1'
+226 name (SimpleName)
+227 identifier='r2_s1'
+228 type (ClassOrInterfaceType)
+229 name (SimpleName)
+230 identifier='Region'
+231 statement (BlockStmt)
+232 statements
+233 statement (ExpressionStmt)
+234 expression (VariableDeclarationExpr)
+235 variables
+236 variable (VariableDeclarator)
+237 initializer (MethodCallExpr)
+238 name (SimpleName)
+239 identifier='_createEntry'
+240 arguments
+241 argument (FieldAccessExpr)
+242 name (SimpleName)
+243 identifier='INITIAL'
+244 scope (NameExpr)
+245 name (SimpleName)
+246 identifier='EntryKind'
+247 argument (NullLiteralExpr)
+248 argument (NameExpr)
+249 name (SimpleName)
+250 identifier='r2_s1'
+251 name (SimpleName)
+252 identifier='e'
+253 type (ClassOrInterfaceType)
+254 name (SimpleName)
+255 identifier='Entry'
+256 statement (ExpressionStmt)
+257 expression (VariableDeclarationExpr)
+258 variables
+259 variable (VariableDeclarator)
+260 initializer (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='_createState'
+263 arguments
+264 argument (StringLiteralExpr)
+265 value='s4'
+266 argument (NameExpr)
+267 name (SimpleName)
+268 identifier='r2_s1'
+269 name (SimpleName)
+270 identifier='s4'
+271 type (ClassOrInterfaceType)
+272 name (SimpleName)
+273 identifier='State'
+274 statement (ExpressionStmt)
+275 expression (VariableDeclarationExpr)
+276 variables
+277 variable (VariableDeclarator)
+278 initializer (MethodCallExpr)
+279 name (SimpleName)
+280 identifier='_createState'
+281 arguments
+282 argument (StringLiteralExpr)
+283 value='s5'
+284 argument (NameExpr)
+285 name (SimpleName)
+286 identifier='r2_s1'
+287 name (SimpleName)
+288 identifier='s5'
+289 type (ClassOrInterfaceType)
+290 name (SimpleName)
+291 identifier='State'
+292 statement (ExpressionStmt)
+293 expression (VariableDeclarationExpr)
+294 variables
+295 variable (VariableDeclarator)
+296 initializer (MethodCallExpr)
+297 name (SimpleName)
+298 identifier='_createState'
+299 arguments
+300 argument (StringLiteralExpr)
+301 value='s6'
+302 argument (NameExpr)
+303 name (SimpleName)
+304 identifier='r2_s1'
+305 name (SimpleName)
+306 identifier='s6'
+307 type (ClassOrInterfaceType)
+308 name (SimpleName)
+309 identifier='State'
+310 statement (ExpressionStmt)
+311 expression (MethodCallExpr)
+312 name (SimpleName)
+313 identifier='_createTransition'
+314 arguments
+315 argument (NameExpr)
+316 name (SimpleName)
+317 identifier='e'
+318 argument (NameExpr)
+319 name (SimpleName)
+320 identifier='s4'
+321 statement (ExpressionStmt)
+322 expression (VariableDeclarationExpr)
+323 variables
+324 variable (VariableDeclarator)
+325 initializer (MethodCallExpr)
+326 name (SimpleName)
+327 identifier='transform'
+328 scope (NameExpr)
+329 name (SimpleName)
+330 identifier='sequencer'
+331 arguments
+332 argument (NameExpr)
+333 name (SimpleName)
+334 identifier='sc'
+335 name (SimpleName)
+336 identifier='flow'
+337 type (ClassOrInterfaceType)
+338 name (SimpleName)
+339 identifier='ExecutionFlow'
+340 statement (ExpressionStmt)
+341 expression (VariableDeclarationExpr)
+342 variables
+343 variable (VariableDeclarator)
+344 initializer (MethodCallExpr)
+345 name (SimpleName)
+346 identifier='get'
+347 scope (MethodCallExpr)
+348 name (SimpleName)
+349 identifier='getStates'
+350 scope (NameExpr)
+351 name (SimpleName)
+352 identifier='flow'
+353 arguments
+354 argument (IntegerLiteralExpr)
+355 value='0'
+356 name (SimpleName)
+357 identifier='_s1'
+358 type (ClassOrInterfaceType)
+359 name (SimpleName)
+360 identifier='ExecutionState'
+361 statement (ExpressionStmt)
+362 expression (MethodCallExpr)
+363 name (SimpleName)
+364 identifier='assertEquals'
+365 arguments
+366 argument (StringLiteralExpr)
+367 value='s1'
+368 argument (MethodCallExpr)
+369 name (SimpleName)
+370 identifier='getSimpleName'
+371 scope (NameExpr)
+372 name (SimpleName)
+373 identifier='_s1'
+374 statement (ExpressionStmt)
+375 expression (VariableDeclarationExpr)
+376 variables
+377 variable (VariableDeclarator)
+378 initializer (MethodCallExpr)
+379 name (SimpleName)
+380 identifier='get'
+381 scope (MethodCallExpr)
+382 name (SimpleName)
+383 identifier='getStates'
+384 scope (NameExpr)
+385 name (SimpleName)
+386 identifier='flow'
+387 arguments
+388 argument (IntegerLiteralExpr)
+389 value='1'
+390 name (SimpleName)
+391 identifier='_s2'
+392 type (ClassOrInterfaceType)
+393 name (SimpleName)
+394 identifier='ExecutionState'
+395 statement (ExpressionStmt)
+396 expression (MethodCallExpr)
+397 name (SimpleName)
+398 identifier='assertEquals'
+399 arguments
+400 argument (StringLiteralExpr)
+401 value='s2'
+402 argument (MethodCallExpr)
+403 name (SimpleName)
+404 identifier='getSimpleName'
+405 scope (NameExpr)
+406 name (SimpleName)
+407 identifier='_s2'
+408 statement (ExpressionStmt)
+409 expression (VariableDeclarationExpr)
+410 variables
+411 variable (VariableDeclarator)
+412 initializer (MethodCallExpr)
+413 name (SimpleName)
+414 identifier='get'
+415 scope (MethodCallExpr)
+416 name (SimpleName)
+417 identifier='getStates'
+418 scope (NameExpr)
+419 name (SimpleName)
+420 identifier='flow'
+421 arguments
+422 argument (IntegerLiteralExpr)
+423 value='2'
+424 name (SimpleName)
+425 identifier='_s3'
+426 type (ClassOrInterfaceType)
+427 name (SimpleName)
+428 identifier='ExecutionState'
+429 statement (ExpressionStmt)
+430 expression (MethodCallExpr)
+431 name (SimpleName)
+432 identifier='assertEquals'
+433 arguments
+434 argument (StringLiteralExpr)
+435 value='s3'
+436 argument (MethodCallExpr)
+437 name (SimpleName)
+438 identifier='getSimpleName'
+439 scope (NameExpr)
+440 name (SimpleName)
+441 identifier='_s3'
+442 statement (ExpressionStmt)
+443 expression (VariableDeclarationExpr)
+444 variables
+445 variable (VariableDeclarator)
+446 initializer (MethodCallExpr)
+447 name (SimpleName)
+448 identifier='get'
+449 scope (MethodCallExpr)
+450 name (SimpleName)
+451 identifier='getStates'
+452 scope (NameExpr)
+453 name (SimpleName)
+454 identifier='flow'
+455 arguments
+456 argument (IntegerLiteralExpr)
+457 value='3'
+458 name (SimpleName)
+459 identifier='_s4'
+460 type (ClassOrInterfaceType)
+461 name (SimpleName)
+462 identifier='ExecutionState'
+463 statement (ExpressionStmt)
+464 expression (MethodCallExpr)
+465 name (SimpleName)
+466 identifier='assertEquals'
+467 arguments
+468 argument (StringLiteralExpr)
+469 value='s4'
+470 argument (MethodCallExpr)
+471 name (SimpleName)
+472 identifier='getSimpleName'
+473 scope (NameExpr)
+474 name (SimpleName)
+475 identifier='_s4'
+476 statement (ExpressionStmt)
+477 expression (VariableDeclarationExpr)
+478 variables
+479 variable (VariableDeclarator)
+480 initializer (MethodCallExpr)
+481 name (SimpleName)
+482 identifier='get'
+483 scope (MethodCallExpr)
+484 name (SimpleName)
+485 identifier='getStates'
+486 scope (NameExpr)
+487 name (SimpleName)
+488 identifier='flow'
+489 arguments
+490 argument (IntegerLiteralExpr)
+491 value='4'
+492 name (SimpleName)
+493 identifier='_s5'
+494 type (ClassOrInterfaceType)
+495 name (SimpleName)
+496 identifier='ExecutionState'
+497 statement (ExpressionStmt)
+498 expression (MethodCallExpr)
+499 name (SimpleName)
+500 identifier='assertEquals'
+501 arguments
+502 argument (StringLiteralExpr)
+503 value='s5'
+504 argument (MethodCallExpr)
+505 name (SimpleName)
+506 identifier='getSimpleName'
+507 scope (NameExpr)
+508 name (SimpleName)
+509 identifier='_s5'
+510 statement (ExpressionStmt)
+511 expression (VariableDeclarationExpr)
+512 variables
+513 variable (VariableDeclarator)
+514 initializer (MethodCallExpr)
+515 name (SimpleName)
+516 identifier='get'
+517 scope (MethodCallExpr)
+518 name (SimpleName)
+519 identifier='getStates'
+520 scope (NameExpr)
+521 name (SimpleName)
+522 identifier='flow'
+523 arguments
+524 argument (IntegerLiteralExpr)
+525 value='5'
+526 name (SimpleName)
+527 identifier='_s6'
+528 type (ClassOrInterfaceType)
+529 name (SimpleName)
+530 identifier='ExecutionState'
+531 statement (ExpressionStmt)
+532 expression (MethodCallExpr)
+533 name (SimpleName)
+534 identifier='assertEquals'
+535 arguments
+536 argument (StringLiteralExpr)
+537 value='s6'
+538 argument (MethodCallExpr)
+539 name (SimpleName)
+540 identifier='getSimpleName'
+541 scope (NameExpr)
+542 name (SimpleName)
+543 identifier='_s6'
+544 statement (ExpressionStmt)
+545 expression (MethodCallExpr)
+546 name (SimpleName)
+547 identifier='assertNotNull'
+548 arguments
+549 argument (MethodCallExpr)
+550 name (SimpleName)
+551 identifier='getExitAction'
+552 scope (NameExpr)
+553 name (SimpleName)
+554 identifier='_s1'
+555 statement (ExpressionStmt)
+556 expression (MethodCallExpr)
+557 name (SimpleName)
+558 identifier='assertNotNull'
+559 arguments
+560 argument (MethodCallExpr)
+561 name (SimpleName)
+562 identifier='getExitSequence'
+563 scope (NameExpr)
+564 name (SimpleName)
+565 identifier='_s1'
+566 statement (ExpressionStmt)
+567 expression (MethodCallExpr)
+568 name (SimpleName)
+569 identifier='assertEquals'
+570 arguments
+571 argument (IntegerLiteralExpr)
+572 value='3'
+573 argument (MethodCallExpr)
+574 name (SimpleName)
+575 identifier='size'
+576 scope (MethodCallExpr)
+577 name (SimpleName)
+578 identifier='getSteps'
+579 scope (MethodCallExpr)
+580 name (SimpleName)
+581 identifier='getExitSequence'
+582 scope (NameExpr)
+583 name (SimpleName)
+584 identifier='_s1'
+585 statement (ExpressionStmt)
+586 expression (VariableDeclarationExpr)
+587 variables
+588 variable (VariableDeclarator)
+589 initializer (MethodCallExpr)
+590 name (SimpleName)
+591 identifier='getExitSequence'
+592 scope (MethodCallExpr)
+593 name (SimpleName)
+594 identifier='getSuperScope'
+595 scope (NameExpr)
+596 name (SimpleName)
+597 identifier='_s2'
+598 name (SimpleName)
+599 identifier='_r1_s1'
+600 type (ClassOrInterfaceType)
+601 name (SimpleName)
+602 identifier='Sequence'
+603 statement (ExpressionStmt)
+604 expression (MethodCallExpr)
+605 name (SimpleName)
+606 identifier='assertCall'
+607 arguments
+608 argument (MethodCallExpr)
+609 name (SimpleName)
+610 identifier='getExitSequence'
+611 scope (NameExpr)
+612 name (SimpleName)
+613 identifier='_s1'
+614 argument (IntegerLiteralExpr)
+615 value='0'
+616 argument (NameExpr)
+617 name (SimpleName)
+618 identifier='_r1_s1'
+619 statement (ExpressionStmt)
+620 expression (VariableDeclarationExpr)
+621 variables
+622 variable (VariableDeclarator)
+623 initializer (MethodCallExpr)
+624 name (SimpleName)
+625 identifier='getExitSequence'
+626 scope (MethodCallExpr)
+627 name (SimpleName)
+628 identifier='getSuperScope'
+629 scope (NameExpr)
+630 name (SimpleName)
+631 identifier='_s4'
+632 name (SimpleName)
+633 identifier='_r2_s1'
+634 type (ClassOrInterfaceType)
+635 name (SimpleName)
+636 identifier='Sequence'
+637 statement (ExpressionStmt)
+638 expression (MethodCallExpr)
+639 name (SimpleName)
+640 identifier='assertCall'
+641 arguments
+642 argument (MethodCallExpr)
+643 name (SimpleName)
+644 identifier='getExitSequence'
+645 scope (NameExpr)
+646 name (SimpleName)
+647 identifier='_s1'
+648 argument (IntegerLiteralExpr)
+649 value='1'
+650 argument (NameExpr)
+651 name (SimpleName)
+652 identifier='_r2_s1'
+653 statement (ExpressionStmt)
+654 expression (VariableDeclarationExpr)
+655 variables
+656 variable (VariableDeclarator)
+657 initializer (MethodCallExpr)
+658 name (SimpleName)
+659 identifier='get'
+660 scope (MethodCallExpr)
+661 name (SimpleName)
+662 identifier='getSteps'
+663 scope (NameExpr)
+664 name (SimpleName)
+665 identifier='_r1_s1'
+666 arguments
+667 argument (IntegerLiteralExpr)
+668 value='0'
+669 name (SimpleName)
+670 identifier='_switch'
+671 type (ClassOrInterfaceType)
+672 name (SimpleName)
+673 identifier='Step'
+674 statement (ExpressionStmt)
+675 expression (MethodCallExpr)
+676 name (SimpleName)
+677 identifier='assertStateSwitch'
+678 arguments
+679 argument (NameExpr)
+680 name (SimpleName)
+681 identifier='_switch'
+682 argument (NameExpr)
+683 name (SimpleName)
+684 identifier='_s2'
+685 argument (NameExpr)
+686 name (SimpleName)
+687 identifier='_s3'
+688 statement (ExpressionStmt)
+689 expression (MethodCallExpr)
+690 name (SimpleName)
+691 identifier='assertCall'
+692 arguments
+693 argument (MethodCallExpr)
+694 name (SimpleName)
+695 identifier='assertedSequence'
+696 arguments
+697 argument (MethodCallExpr)
+698 name (SimpleName)
+699 identifier='getStep'
+700 scope (MethodCallExpr)
+701 name (SimpleName)
+702 identifier='assertedStateCase'
+703 arguments
+704 argument (NameExpr)
+705 name (SimpleName)
+706 identifier='_switch'
+707 argument (NameExpr)
+708 name (SimpleName)
+709 identifier='_s2'
+710 argument (IntegerLiteralExpr)
+711 value='0'
+712 argument (MethodCallExpr)
+713 name (SimpleName)
+714 identifier='getExitSequence'
+715 scope (NameExpr)
+716 name (SimpleName)
+717 identifier='_s2'
+718 statement (ExpressionStmt)
+719 expression (MethodCallExpr)
+720 name (SimpleName)
+721 identifier='assertCall'
+722 arguments
+723 argument (MethodCallExpr)
+724 name (SimpleName)
+725 identifier='assertedSequence'
+726 arguments
+727 argument (MethodCallExpr)
+728 name (SimpleName)
+729 identifier='getStep'
+730 scope (MethodCallExpr)
+731 name (SimpleName)
+732 identifier='assertedStateCase'
+733 arguments
+734 argument (NameExpr)
+735 name (SimpleName)
+736 identifier='_switch'
+737 argument (NameExpr)
+738 name (SimpleName)
+739 identifier='_s3'
+740 argument (IntegerLiteralExpr)
+741 value='0'
+742 argument (MethodCallExpr)
+743 name (SimpleName)
+744 identifier='getExitSequence'
+745 scope (NameExpr)
+746 name (SimpleName)
+747 identifier='_s3'
+748 statement (ExpressionStmt)
+749 expression (AssignExpr)
+750 operator='ASSIGN'
+751 target (NameExpr)
+752 name (SimpleName)
+753 identifier='_switch'
+754 value (MethodCallExpr)
+755 name (SimpleName)
+756 identifier='get'
+757 scope (MethodCallExpr)
+758 name (SimpleName)
+759 identifier='getSteps'
+760 scope (NameExpr)
+761 name (SimpleName)
+762 identifier='_r2_s1'
+763 arguments
+764 argument (IntegerLiteralExpr)
+765 value='0'
+766 statement (ExpressionStmt)
+767 expression (MethodCallExpr)
+768 name (SimpleName)
+769 identifier='assertStateSwitch'
+770 arguments
+771 argument (NameExpr)
+772 name (SimpleName)
+773 identifier='_switch'
+774 argument (NameExpr)
+775 name (SimpleName)
+776 identifier='_s4'
+777 argument (NameExpr)
+778 name (SimpleName)
+779 identifier='_s5'
+780 argument (NameExpr)
+781 name (SimpleName)
+782 identifier='_s6'
+783 statement (ExpressionStmt)
+784 expression (MethodCallExpr)
+785 name (SimpleName)
+786 identifier='assertCall'
+787 arguments
+788 argument (MethodCallExpr)
+789 name (SimpleName)
+790 identifier='assertedSequence'
+791 arguments
+792 argument (MethodCallExpr)
+793 name (SimpleName)
+794 identifier='getStep'
+795 scope (MethodCallExpr)
+796 name (SimpleName)
+797 identifier='assertedStateCase'
+798 arguments
+799 argument (NameExpr)
+800 name (SimpleName)
+801 identifier='_switch'
+802 argument (NameExpr)
+803 name (SimpleName)
+804 identifier='_s4'
+805 argument (IntegerLiteralExpr)
+806 value='0'
+807 argument (MethodCallExpr)
+808 name (SimpleName)
+809 identifier='getExitSequence'
+810 scope (NameExpr)
+811 name (SimpleName)
+812 identifier='_s4'
+813 statement (ExpressionStmt)
+814 expression (MethodCallExpr)
+815 name (SimpleName)
+816 identifier='assertCall'
+817 arguments
+818 argument (MethodCallExpr)
+819 name (SimpleName)
+820 identifier='assertedSequence'
+821 arguments
+822 argument (MethodCallExpr)
+823 name (SimpleName)
+824 identifier='getStep'
+825 scope (MethodCallExpr)
+826 name (SimpleName)
+827 identifier='assertedStateCase'
+828 arguments
+829 argument (NameExpr)
+830 name (SimpleName)
+831 identifier='_switch'
+832 argument (NameExpr)
+833 name (SimpleName)
+834 identifier='_s5'
+835 argument (IntegerLiteralExpr)
+836 value='0'
+837 argument (MethodCallExpr)
+838 name (SimpleName)
+839 identifier='getExitSequence'
+840 scope (NameExpr)
+841 name (SimpleName)
+842 identifier='_s5'
+843 statement (ExpressionStmt)
+844 expression (MethodCallExpr)
+845 name (SimpleName)
+846 identifier='assertCall'
+847 arguments
+848 argument (MethodCallExpr)
+849 name (SimpleName)
+850 identifier='assertedSequence'
+851 arguments
+852 argument (MethodCallExpr)
+853 name (SimpleName)
+854 identifier='getStep'
+855 scope (MethodCallExpr)
+856 name (SimpleName)
+857 identifier='assertedStateCase'
+858 arguments
+859 argument (NameExpr)
+860 name (SimpleName)
+861 identifier='_switch'
+862 argument (NameExpr)
+863 name (SimpleName)
+864 identifier='_s6'
+865 argument (IntegerLiteralExpr)
+866 value='0'
+867 argument (MethodCallExpr)
+868 name (SimpleName)
+869 identifier='getExitSequence'
+870 scope (NameExpr)
+871 name (SimpleName)
+872 identifier='_s6'
+873 statement (ExpressionStmt)
+874 expression (MethodCallExpr)
+875 name (SimpleName)
+876 identifier='assertCall'
+877 arguments
+878 argument (MethodCallExpr)
+879 name (SimpleName)
+880 identifier='getExitSequence'
+881 scope (NameExpr)
+882 name (SimpleName)
+883 identifier='_s1'
+884 argument (IntegerLiteralExpr)
+885 value='2'
+886 argument (MethodCallExpr)
+887 name (SimpleName)
+888 identifier='getExitAction'
+889 scope (NameExpr)
+890 name (SimpleName)
+891 identifier='_s1'
+892 type (VoidType)
+893 name (SimpleName)
+894 identifier='testCompositeStateExitSequence'
+895 annotations
+896 annotation (SingleMemberAnnotationExpr)
+897 memberValue (StringLiteralExpr)
+898 value='unused'
+899 name (Name)
+900 identifier='SuppressWarnings'
+901 annotation (MarkerAnnotationExpr)
+902 name (Name)
+903 identifier='Test'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+23 33
+33 34
+23 35
+35 36
+36 37
+19 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+45 51
+51 52
+52 53
+41 54
+54 55
+41 56
+56 57
+57 58
+19 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+66 69
+69 70
+70 71
+62 72
+72 73
+62 74
+74 75
+75 76
+19 77
+77 78
+78 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+86 89
+89 90
+90 91
+82 92
+92 93
+82 94
+94 95
+95 96
+78 97
+97 98
+98 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+105 106
+103 107
+107 108
+108 109
+103 110
+110 111
+98 112
+112 113
+113 114
+114 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+119 122
+122 123
+123 124
+115 125
+125 126
+115 127
+127 128
+128 129
+98 130
+130 131
+131 132
+132 133
+133 134
+134 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+139 146
+139 147
+147 148
+148 149
+135 150
+150 151
+135 152
+152 153
+153 154
+131 155
+155 156
+156 157
+157 158
+158 159
+159 160
+160 161
+159 162
+162 163
+163 164
+162 165
+165 166
+166 167
+158 168
+168 169
+158 170
+170 171
+171 172
+131 173
+173 174
+174 175
+175 176
+176 177
+177 178
+178 179
+177 180
+180 181
+181 182
+180 183
+183 184
+184 185
+176 186
+186 187
+176 188
+188 189
+189 190
+131 191
+191 192
+192 193
+193 194
+192 195
+195 196
+196 197
+197 198
+195 199
+199 200
+200 201
+131 202
+202 203
+203 204
+204 205
+203 206
+206 207
+207 208
+208 209
+206 210
+210 211
+211 212
+98 213
+213 214
+214 215
+215 216
+216 217
+217 218
+218 219
+217 220
+220 221
+221 222
+220 223
+223 224
+224 225
+216 226
+226 227
+216 228
+228 229
+229 230
+98 231
+231 232
+232 233
+233 234
+234 235
+235 236
+236 237
+237 238
+238 239
+237 240
+240 241
+241 242
+242 243
+241 244
+244 245
+245 246
+240 247
+240 248
+248 249
+249 250
+236 251
+251 252
+236 253
+253 254
+254 255
+232 256
+256 257
+257 258
+258 259
+259 260
+260 261
+261 262
+260 263
+263 264
+264 265
+263 266
+266 267
+267 268
+259 269
+269 270
+259 271
+271 272
+272 273
+232 274
+274 275
+275 276
+276 277
+277 278
+278 279
+279 280
+278 281
+281 282
+282 283
+281 284
+284 285
+285 286
+277 287
+287 288
+277 289
+289 290
+290 291
+232 292
+292 293
+293 294
+294 295
+295 296
+296 297
+297 298
+296 299
+299 300
+300 301
+299 302
+302 303
+303 304
+295 305
+305 306
+295 307
+307 308
+308 309
+232 310
+310 311
+311 312
+312 313
+311 314
+314 315
+315 316
+316 317
+314 318
+318 319
+319 320
+2 321
+321 322
+322 323
+323 324
+324 325
+325 326
+326 327
+325 328
+328 329
+329 330
+325 331
+331 332
+332 333
+333 334
+324 335
+335 336
+324 337
+337 338
+338 339
+2 340
+340 341
+341 342
+342 343
+343 344
+344 345
+345 346
+344 347
+347 348
+348 349
+347 350
+350 351
+351 352
+344 353
+353 354
+354 355
+343 356
+356 357
+343 358
+358 359
+359 360
+2 361
+361 362
+362 363
+363 364
+362 365
+365 366
+366 367
+365 368
+368 369
+369 370
+368 371
+371 372
+372 373
+2 374
+374 375
+375 376
+376 377
+377 378
+378 379
+379 380
+378 381
+381 382
+382 383
+381 384
+384 385
+385 386
+378 387
+387 388
+388 389
+377 390
+390 391
+377 392
+392 393
+393 394
+2 395
+395 396
+396 397
+397 398
+396 399
+399 400
+400 401
+399 402
+402 403
+403 404
+402 405
+405 406
+406 407
+2 408
+408 409
+409 410
+410 411
+411 412
+412 413
+413 414
+412 415
+415 416
+416 417
+415 418
+418 419
+419 420
+412 421
+421 422
+422 423
+411 424
+424 425
+411 426
+426 427
+427 428
+2 429
+429 430
+430 431
+431 432
+430 433
+433 434
+434 435
+433 436
+436 437
+437 438
+436 439
+439 440
+440 441
+2 442
+442 443
+443 444
+444 445
+445 446
+446 447
+447 448
+446 449
+449 450
+450 451
+449 452
+452 453
+453 454
+446 455
+455 456
+456 457
+445 458
+458 459
+445 460
+460 461
+461 462
+2 463
+463 464
+464 465
+465 466
+464 467
+467 468
+468 469
+467 470
+470 471
+471 472
+470 473
+473 474
+474 475
+2 476
+476 477
+477 478
+478 479
+479 480
+480 481
+481 482
+480 483
+483 484
+484 485
+483 486
+486 487
+487 488
+480 489
+489 490
+490 491
+479 492
+492 493
+479 494
+494 495
+495 496
+2 497
+497 498
+498 499
+499 500
+498 501
+501 502
+502 503
+501 504
+504 505
+505 506
+504 507
+507 508
+508 509
+2 510
+510 511
+511 512
+512 513
+513 514
+514 515
+515 516
+514 517
+517 518
+518 519
+517 520
+520 521
+521 522
+514 523
+523 524
+524 525
+513 526
+526 527
+513 528
+528 529
+529 530
+2 531
+531 532
+532 533
+533 534
+532 535
+535 536
+536 537
+535 538
+538 539
+539 540
+538 541
+541 542
+542 543
+2 544
+544 545
+545 546
+546 547
+545 548
+548 549
+549 550
+550 551
+549 552
+552 553
+553 554
+2 555
+555 556
+556 557
+557 558
+556 559
+559 560
+560 561
+561 562
+560 563
+563 564
+564 565
+2 566
+566 567
+567 568
+568 569
+567 570
+570 571
+571 572
+570 573
+573 574
+574 575
+573 576
+576 577
+577 578
+576 579
+579 580
+580 581
+579 582
+582 583
+583 584
+2 585
+585 586
+586 587
+587 588
+588 589
+589 590
+590 591
+589 592
+592 593
+593 594
+592 595
+595 596
+596 597
+588 598
+598 599
+588 600
+600 601
+601 602
+2 603
+603 604
+604 605
+605 606
+604 607
+607 608
+608 609
+609 610
+608 611
+611 612
+612 613
+607 614
+614 615
+607 616
+616 617
+617 618
+2 619
+619 620
+620 621
+621 622
+622 623
+623 624
+624 625
+623 626
+626 627
+627 628
+626 629
+629 630
+630 631
+622 632
+632 633
+622 634
+634 635
+635 636
+2 637
+637 638
+638 639
+639 640
+638 641
+641 642
+642 643
+643 644
+642 645
+645 646
+646 647
+641 648
+648 649
+641 650
+650 651
+651 652
+2 653
+653 654
+654 655
+655 656
+656 657
+657 658
+658 659
+657 660
+660 661
+661 662
+660 663
+663 664
+664 665
+657 666
+666 667
+667 668
+656 669
+669 670
+656 671
+671 672
+672 673
+2 674
+674 675
+675 676
+676 677
+675 678
+678 679
+679 680
+680 681
+678 682
+682 683
+683 684
+678 685
+685 686
+686 687
+2 688
+688 689
+689 690
+690 691
+689 692
+692 693
+693 694
+694 695
+693 696
+696 697
+697 698
+698 699
+697 700
+700 701
+701 702
+700 703
+703 704
+704 705
+705 706
+703 707
+707 708
+708 709
+692 710
+710 711
+692 712
+712 713
+713 714
+712 715
+715 716
+716 717
+2 718
+718 719
+719 720
+720 721
+719 722
+722 723
+723 724
+724 725
+723 726
+726 727
+727 728
+728 729
+727 730
+730 731
+731 732
+730 733
+733 734
+734 735
+735 736
+733 737
+737 738
+738 739
+722 740
+740 741
+722 742
+742 743
+743 744
+742 745
+745 746
+746 747
+2 748
+748 749
+749 750
+749 751
+751 752
+752 753
+749 754
+754 755
+755 756
+754 757
+757 758
+758 759
+757 760
+760 761
+761 762
+754 763
+763 764
+764 765
+2 766
+766 767
+767 768
+768 769
+767 770
+770 771
+771 772
+772 773
+770 774
+774 775
+775 776
+770 777
+777 778
+778 779
+770 780
+780 781
+781 782
+2 783
+783 784
+784 785
+785 786
+784 787
+787 788
+788 789
+789 790
+788 791
+791 792
+792 793
+793 794
+792 795
+795 796
+796 797
+795 798
+798 799
+799 800
+800 801
+798 802
+802 803
+803 804
+787 805
+805 806
+787 807
+807 808
+808 809
+807 810
+810 811
+811 812
+2 813
+813 814
+814 815
+815 816
+814 817
+817 818
+818 819
+819 820
+818 821
+821 822
+822 823
+823 824
+822 825
+825 826
+826 827
+825 828
+828 829
+829 830
+830 831
+828 832
+832 833
+833 834
+817 835
+835 836
+817 837
+837 838
+838 839
+837 840
+840 841
+841 842
+2 843
+843 844
+844 845
+845 846
+844 847
+847 848
+848 849
+849 850
+848 851
+851 852
+852 853
+853 854
+852 855
+855 856
+856 857
+855 858
+858 859
+859 860
+860 861
+858 862
+862 863
+863 864
+847 865
+865 866
+847 867
+867 868
+868 869
+867 870
+870 871
+871 872
+2 873
+873 874
+874 875
+875 876
+874 877
+877 878
+878 879
+879 880
+878 881
+881 882
+882 883
+877 884
+884 885
+877 886
+886 887
+887 888
+886 889
+889 890
+890 891
+0 892
+0 893
+893 894
+0 895
+895 896
+896 897
+897 898
+896 899
+899 900
+895 901
+901 902
+902 903
+
+A composite state must have a exit sequence. This exit sequence consists of an exit action call and a state switch for all leaf states.

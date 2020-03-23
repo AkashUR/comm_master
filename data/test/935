@@ -1,0 +1,124 @@
+61
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='bucket'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='regionAdvisor'
+15 scope (ThisExpr)
+16 value (NameExpr)
+17 name (SimpleName)
+18 identifier='regionAdvisor'
+19 statement (ExpressionStmt)
+20 expression (AssignExpr)
+21 operator='ASSIGN'
+22 target (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='pRegion'
+25 scope (ThisExpr)
+26 value (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getPartitionedRegion'
+29 scope (FieldAccessExpr)
+30 name (SimpleName)
+31 identifier='regionAdvisor'
+32 scope (ThisExpr)
+33 statement (ExpressionStmt)
+34 expression (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='resetParentAdvisor'
+37 arguments
+38 argument (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getId'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='bucket'
+44 name (SimpleName)
+45 identifier='BucketAdvisor'
+46 parameters
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='bucket'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Bucket'
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='regionAdvisor'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='RegionAdvisor'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+12 15
+10 16
+16 17
+17 18
+2 19
+19 20
+20 21
+20 22
+22 23
+23 24
+22 25
+20 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+2 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+0 44
+44 45
+0 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+46 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+Constructs a new BucketAdvisor for the Bucket owned by RegionAdvisor.

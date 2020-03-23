@@ -1,0 +1,324 @@
+161
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (NameExpr)
+5 name (SimpleName)
+6 identifier='opcode'
+7 entries
+8 entrie (SwitchEntryStmt)
+9 label (NameExpr)
+10 name (SimpleName)
+11 identifier='BIPUSH'
+12 entrie (SwitchEntryStmt)
+13 label (NameExpr)
+14 name (SimpleName)
+15 identifier='SIPUSH'
+16 statements
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='visitIntInsn'
+21 scope (SuperExpr)
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='opcode'
+26 argument (NameExpr)
+27 name (SimpleName)
+28 identifier='operand'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='visitInsn'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='mv'
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='DUP'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='visitMethodInsn'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='mv'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='INVOKESTATIC'
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='VM_FQ'
+54 argument (ArrayAccessExpr)
+55 index (NameExpr)
+56 name (SimpleName)
+57 identifier='opcode'
+58 name (NameExpr)
+59 name (SimpleName)
+60 identifier='BYTECODE_NAME'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='I_V'
+64 statement (ReturnStmt)
+65 entrie (SwitchEntryStmt)
+66 label (NameExpr)
+67 name (SimpleName)
+68 identifier='NEWARRAY'
+69 statements
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='visitInsn'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='mv'
+77 arguments
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='DUP'
+81 statement (ExpressionStmt)
+82 expression (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='visitIntInsn'
+85 scope (NameExpr)
+86 name (SimpleName)
+87 identifier='mv'
+88 arguments
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='BIPUSH'
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='operand'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='visitMethodInsn'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='mv'
+102 arguments
+103 argument (NameExpr)
+104 name (SimpleName)
+105 identifier='INVOKESTATIC'
+106 argument (NameExpr)
+107 name (SimpleName)
+108 identifier='VM_FQ'
+109 argument (ArrayAccessExpr)
+110 index (NameExpr)
+111 name (SimpleName)
+112 identifier='opcode'
+113 name (NameExpr)
+114 name (SimpleName)
+115 identifier='BYTECODE_NAME'
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='II_V'
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='visitIntInsn'
+123 scope (SuperExpr)
+124 arguments
+125 argument (NameExpr)
+126 name (SimpleName)
+127 identifier='opcode'
+128 argument (NameExpr)
+129 name (SimpleName)
+130 identifier='operand'
+131 statement (ReturnStmt)
+132 entrie (SwitchEntryStmt)
+133 statements
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='check'
+138 arguments
+139 argument (BooleanLiteralExpr)
+140 value='false'
+141 type (VoidType)
+142 name (SimpleName)
+143 identifier='visitIntInsn'
+144 parameters
+145 parameter (Parameter)
+146 isVarArgs='false'
+147 name (SimpleName)
+148 identifier='opcode'
+149 type (PrimitiveType)
+150 type='INT'
+151 parameter (Parameter)
+152 isVarArgs='false'
+153 name (SimpleName)
+154 identifier='operand'
+155 type (PrimitiveType)
+156 type='INT'
+157 annotations
+158 annotation (MarkerAnnotationExpr)
+159 name (Name)
+160 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+3 7
+7 8
+8 9
+9 10
+10 11
+7 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+18 19
+19 20
+18 21
+18 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+16 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+16 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+47 51
+51 52
+52 53
+47 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+47 61
+61 62
+62 63
+16 64
+7 65
+65 66
+66 67
+67 68
+65 69
+69 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+71 77
+77 78
+78 79
+79 80
+69 81
+81 82
+82 83
+83 84
+82 85
+85 86
+86 87
+82 88
+88 89
+89 90
+90 91
+88 92
+92 93
+93 94
+69 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+96 102
+102 103
+103 104
+104 105
+102 106
+106 107
+107 108
+102 109
+109 110
+110 111
+111 112
+109 113
+113 114
+114 115
+102 116
+116 117
+117 118
+69 119
+119 120
+120 121
+121 122
+120 123
+120 124
+124 125
+125 126
+126 127
+124 128
+128 129
+129 130
+69 131
+7 132
+132 133
+133 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+0 141
+0 142
+142 143
+0 144
+144 145
+145 146
+145 147
+147 148
+145 149
+149 150
+144 151
+151 152
+151 153
+153 154
+151 155
+155 156
+0 157
+157 158
+158 159
+159 160
+
+<ul> <li> BIPUSH: push one byte from instruction stream to operand stack</li> <li> SIPUSH: push two bytes from instruction stream to operand stack</li> <li> NEWARRAY</li> </ul>

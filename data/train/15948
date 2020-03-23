@@ -1,0 +1,386 @@
+192
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='shardId'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='shardId'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='localAddr'
+19 scope (ThisExpr)
+20 value (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getHostAddress'
+23 scope (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='getLocalHost'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='InetAddress'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='serviceEndpoint'
+35 scope (ThisExpr)
+36 value (ObjectCreationExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='InetSocketAddress'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='localAddr'
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='servicePort'
+47 statement (ExpressionStmt)
+48 expression (VariableDeclarationExpr)
+49 variables
+50 variable (VariableDeclarator)
+51 initializer (ObjectCreationExpr)
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='InetSocketAddress'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='localAddr'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='statsPort'
+62 name (SimpleName)
+63 identifier='statsEndpoint'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='InetSocketAddress'
+67 statement (ExpressionStmt)
+68 expression (AssignExpr)
+69 operator='ASSIGN'
+70 target (FieldAccessExpr)
+71 name (SimpleName)
+72 identifier='additionalEndpoints'
+73 scope (ThisExpr)
+74 value (ObjectCreationExpr)
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='HashMap'
+78 typeArguments
+79 typeArgument (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='String'
+82 typeArgument (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='InetSocketAddress'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='put'
+89 scope (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='additionalEndpoints'
+92 scope (ThisExpr)
+93 arguments
+94 argument (StringLiteralExpr)
+95 value='aurora'
+96 argument (NameExpr)
+97 name (SimpleName)
+98 identifier='statsEndpoint'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='put'
+103 scope (FieldAccessExpr)
+104 name (SimpleName)
+105 identifier='additionalEndpoints'
+106 scope (ThisExpr)
+107 arguments
+108 argument (StringLiteralExpr)
+109 value='stats'
+110 argument (NameExpr)
+111 name (SimpleName)
+112 identifier='statsEndpoint'
+113 statement (ExpressionStmt)
+114 expression (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='put'
+117 scope (FieldAccessExpr)
+118 name (SimpleName)
+119 identifier='additionalEndpoints'
+120 scope (ThisExpr)
+121 arguments
+122 argument (StringLiteralExpr)
+123 value='service'
+124 argument (NameExpr)
+125 name (SimpleName)
+126 identifier='serviceEndpoint'
+127 statement (ExpressionStmt)
+128 expression (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='put'
+131 scope (FieldAccessExpr)
+132 name (SimpleName)
+133 identifier='additionalEndpoints'
+134 scope (ThisExpr)
+135 arguments
+136 argument (StringLiteralExpr)
+137 value='thrift'
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='serviceEndpoint'
+141 statement (ExpressionStmt)
+142 expression (AssignExpr)
+143 operator='ASSIGN'
+144 target (FieldAccessExpr)
+145 name (SimpleName)
+146 identifier='zkServerSet'
+147 scope (ThisExpr)
+148 value (MethodCallExpr)
+149 name (SimpleName)
+150 identifier='of'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='DLZkServerSet'
+154 arguments
+155 argument (NameExpr)
+156 name (SimpleName)
+157 identifier='uri'
+158 argument (IntegerLiteralExpr)
+159 value='60000'
+160 name (SimpleName)
+161 identifier='ServerSetAnnouncer'
+162 parameters
+163 parameter (Parameter)
+164 isVarArgs='false'
+165 name (SimpleName)
+166 identifier='uri'
+167 type (ClassOrInterfaceType)
+168 name (SimpleName)
+169 identifier='URI'
+170 parameter (Parameter)
+171 isVarArgs='false'
+172 name (SimpleName)
+173 identifier='servicePort'
+174 type (PrimitiveType)
+175 type='INT'
+176 parameter (Parameter)
+177 isVarArgs='false'
+178 name (SimpleName)
+179 identifier='statsPort'
+180 type (PrimitiveType)
+181 type='INT'
+182 parameter (Parameter)
+183 isVarArgs='false'
+184 name (SimpleName)
+185 identifier='shardId'
+186 type (PrimitiveType)
+187 type='INT'
+188 thrownExceptions
+189 thrownException (ClassOrInterfaceType)
+190 name (SimpleName)
+191 identifier='UnknownHostException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+32 35
+30 36
+36 37
+37 38
+38 39
+36 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+50 62
+62 63
+50 64
+64 65
+65 66
+2 67
+67 68
+68 69
+68 70
+70 71
+71 72
+70 73
+68 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+89 92
+86 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+100 107
+107 108
+108 109
+107 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+117 120
+114 121
+121 122
+122 123
+121 124
+124 125
+125 126
+2 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+131 134
+128 135
+135 136
+136 137
+135 138
+138 139
+139 140
+2 141
+141 142
+142 143
+142 144
+144 145
+145 146
+144 147
+142 148
+148 149
+149 150
+148 151
+151 152
+152 153
+148 154
+154 155
+155 156
+156 157
+154 158
+158 159
+0 160
+160 161
+0 162
+162 163
+163 164
+163 165
+165 166
+163 167
+167 168
+168 169
+162 170
+170 171
+170 172
+172 173
+170 174
+174 175
+162 176
+176 177
+176 178
+178 179
+176 180
+180 181
+162 182
+182 183
+182 184
+184 185
+182 186
+186 187
+0 188
+188 189
+189 190
+190 191
+
+Announce server infos.

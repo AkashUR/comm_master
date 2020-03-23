@@ -1,0 +1,272 @@
+135
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createFrameWriter'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='FrameWriterFactory'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='oi'
+17 name (SimpleName)
+18 identifier='writer'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='FrameWriter'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (ObjectCreationExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='FrameBlock'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='schema'
+34 name (SimpleName)
+35 identifier='frame'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='FrameBlock'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='initFrameData'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='frame'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='data'
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='schema'
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='length'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='data'
+59 statement (ExpressionStmt)
+60 expression (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='writeFrameToHDFS'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='writer'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='frame'
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='file'
+73 argument (FieldAccessExpr)
+74 name (SimpleName)
+75 identifier='length'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='data'
+79 argument (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='length'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='schema'
+85 type (VoidType)
+86 name (SimpleName)
+87 identifier='writeTestFrame'
+88 parameters
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='file'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='String'
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='data'
+100 type (ArrayType)
+101 origin='TYPE'
+102 componentType (ArrayType)
+103 origin='TYPE'
+104 componentType (PrimitiveType)
+105 type='DOUBLE'
+106 parameter (Parameter)
+107 isVarArgs='false'
+108 name (SimpleName)
+109 identifier='schema'
+110 type (ArrayType)
+111 origin='TYPE'
+112 componentType (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='ValueType'
+115 parameter (Parameter)
+116 isVarArgs='false'
+117 name (SimpleName)
+118 identifier='oi'
+119 type (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='OutputInfo'
+122 parameter (Parameter)
+123 isVarArgs='false'
+124 name (SimpleName)
+125 identifier='isR'
+126 type (PrimitiveType)
+127 type='BOOLEAN'
+128 thrownExceptions
+129 thrownException (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='DMLRuntimeException'
+132 thrownException (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+25 34
+34 35
+25 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+43 50
+50 51
+51 52
+43 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+60 66
+66 67
+67 68
+68 69
+66 70
+70 71
+71 72
+66 73
+73 74
+74 75
+73 76
+76 77
+77 78
+66 79
+79 80
+80 81
+79 82
+82 83
+83 84
+0 85
+0 86
+86 87
+0 88
+88 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+88 96
+96 97
+96 98
+98 99
+96 100
+100 101
+100 102
+102 103
+102 104
+104 105
+88 106
+106 107
+106 108
+108 109
+106 110
+110 111
+110 112
+112 113
+113 114
+88 115
+115 116
+115 117
+117 118
+115 119
+119 120
+120 121
+88 122
+122 123
+122 124
+124 125
+122 126
+126 127
+0 128
+128 129
+129 130
+130 131
+128 132
+132 133
+133 134
+
+<p> Writes a frame to a file using the text format. </p>

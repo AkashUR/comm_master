@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mAlarmManager'
+9 value (CastExpr)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getSystemService'
+13 arguments
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='ALARM_SERVICE'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='Context'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='AlarmManager'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='mSharedPreferences'
+29 value (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='getDefaultSharedPreferences'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='PreferenceManager'
+35 arguments
+36 argument (ThisExpr)
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='mCaptureIntent'
+43 value (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getService'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='PendingIntent'
+49 arguments
+50 argument (ThisExpr)
+51 argument (IntegerLiteralExpr)
+52 value='0'
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='setAction'
+56 scope (ObjectCreationExpr)
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Intent'
+60 arguments
+61 argument (ThisExpr)
+62 argument (ClassExpr)
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='CaptureService'
+66 arguments
+67 argument (NameExpr)
+68 name (SimpleName)
+69 identifier='ACTION_CAPTURE'
+70 argument (IntegerLiteralExpr)
+71 value='0'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='onCreate'
+75 annotations
+76 annotation (MarkerAnnotationExpr)
+77 name (Name)
+78 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+9 20
+20 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+53 56
+56 57
+57 58
+58 59
+56 60
+60 61
+60 62
+62 63
+63 64
+64 65
+53 66
+66 67
+67 68
+68 69
+49 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+77 78
+
+Reimplementation of Service.onCreate()

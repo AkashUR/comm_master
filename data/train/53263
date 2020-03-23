@@ -1,0 +1,78 @@
+38
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='data'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='init'
+12 arguments
+13 argument (BooleanLiteralExpr)
+14 value='true'
+15 argument (ObjectCreationExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='ByteArrayInputStream'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='buf'
+23 name (SimpleName)
+24 identifier='DerValue'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='buf'
+30 type (ArrayType)
+31 origin='TYPE'
+32 componentType (PrimitiveType)
+33 type='BYTE'
+34 thrownExceptions
+35 thrownException (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+21 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+30 32
+32 33
+0 34
+34 35
+35 36
+36 37
+
+Get an ASN.1/DER encoded datum from a buffer.  The entire buffer must hold exactly one datum, including its tag and length.

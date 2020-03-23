@@ -1,0 +1,88 @@
+43
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (NameExpr)
+10 name (SimpleName)
+11 identifier='signaled'
+12 value (BooleanLiteralExpr)
+13 value='true'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (NameExpr)
+18 name (SimpleName)
+19 identifier='signaledNextFireTime'
+20 value (NameExpr)
+21 name (SimpleName)
+22 identifier='candidateNewNextFireTime'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='notifyAll'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='sigLock'
+30 expression (NameExpr)
+31 name (SimpleName)
+32 identifier='sigLock'
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='signalSchedulingChange'
+36 parameters
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='candidateNewNextFireTime'
+41 type (PrimitiveType)
+42 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+7 12
+12 13
+5 14
+14 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+21 22
+5 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+3 30
+30 31
+31 32
+0 33
+0 34
+34 35
+0 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+
+<p> Signals the main processing loop that a change in scheduling has been made - in order to interrupt any sleeping that may be occuring while waiting for the fire time to arrive. </p>

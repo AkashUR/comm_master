@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='debug'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='dispose'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='releaseSession'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='cs'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='_handle'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (NameExpr)
+28 name (SimpleName)
+29 identifier='_handle'
+30 value (UnaryExpr)
+31 operator='MINUS'
+32 expression (IntegerLiteralExpr)
+33 value='1'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='cs'
+40 value (NullLiteralExpr)
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='stop'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='mRefreshTimer'
+48 statement (ExpressionStmt)
+49 expression (AssignExpr)
+50 operator='ASSIGN'
+51 target (NameExpr)
+52 name (SimpleName)
+53 identifier='mRefreshTimer'
+54 value (NullLiteralExpr)
+55 statement (ExpressionStmt)
+56 expression (AssignExpr)
+57 operator='ASSIGN'
+58 target (NameExpr)
+59 name (SimpleName)
+60 identifier='cs'
+61 value (NullLiteralExpr)
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='finishRecord'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='throttleDispose'
+69 annotations
+70 annotation (MarkerAnnotationExpr)
+71 name (Name)
+72 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+30 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+2 48
+48 49
+49 50
+49 51
+51 52
+52 53
+49 54
+2 55
+55 56
+56 57
+56 58
+58 59
+59 60
+56 61
+2 62
+62 63
+63 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+71 72
+
+Dispose when finished with this object. After this, further usage of this Throttle object will result in a JmriException.

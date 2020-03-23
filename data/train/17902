@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='runOnUIThread'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getDisplay'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='asynch'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='runnable'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='runOnUIThread'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='asynch'
+25 type (PrimitiveType)
+26 type='BOOLEAN'
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='runnable'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Runnable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+7 14
+14 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+20 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+
+<p> Runs the given runnable on the user interface thread associated with the default Display. If the async flag is true then the runnable is executed asynchronously to this method, and this method may return before the runnable executes. The async=true mode is recommended to avoid deadlocks. Important: even if the thread calling this message is the user interface thread for the given Display, when the async flag is true the runnable will still be executed asynchronously. </p> <p> The vast majority of the time this method should be safe to call as there is normally only one Display object and this method can retrieve it. However SWT can technically support multiple Displays so when it is convenient for client code to obtain a Display, it is probably better to call runOnUIThread(Display, boolean, Runnable). </p>

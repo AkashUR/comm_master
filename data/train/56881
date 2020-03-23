@@ -1,0 +1,492 @@
+245
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='machine'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='createTestEnvironment'
+12 arguments
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='deployerTestConfig'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='listeningExecutorService'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='dockerProvisionerFactory'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='healthCheckHelperFactory'
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='hostCount'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='mock'
+35 arguments
+36 argument (ClassExpr)
+37 type (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='DockerProvisioner'
+40 name (SimpleName)
+41 identifier='dockerProvisioner'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='DockerProvisioner'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='thenReturn'
+49 scope (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='when'
+52 arguments
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='create'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='dockerProvisionerFactory'
+59 arguments
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='anyString'
+63 arguments
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='dockerProvisioner'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='thenThrow'
+71 scope (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='when'
+74 arguments
+75 argument (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='launchContainer'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='dockerProvisioner'
+81 arguments
+82 argument (MethodCallExpr)
+83 name (SimpleName)
+84 identifier='anyString'
+85 argument (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='anyString'
+88 argument (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='anyInt'
+91 argument (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='anyLong'
+94 argument (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='anyMap'
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='anyMap'
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='anyString'
+103 argument (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='anyBoolean'
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='anyMap'
+109 argument (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='anyBoolean'
+112 argument (MethodCallExpr)
+113 name (SimpleName)
+114 identifier='anyBoolean'
+115 argument (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='anyVararg'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='Matchers'
+121 typeArguments
+122 typeArgument (ClassOrInterfaceType)
+123 name (SimpleName)
+124 identifier='String'
+125 arguments
+126 argument (ObjectCreationExpr)
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='DockerException'
+130 arguments
+131 argument (BinaryExpr)
+132 operator='PLUS'
+133 left (StringLiteralExpr)
+134 value='Start container '
+135 right (StringLiteralExpr)
+136 value='failed'
+137 argument (IntegerLiteralExpr)
+138 value='500'
+139 statement (ExpressionStmt)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='createHostEntitiesAndAllocateVmsAndContainers'
+143 arguments
+144 argument (IntegerLiteralExpr)
+145 value='3'
+146 argument (IntegerLiteralExpr)
+147 value='7'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='createDeploymentServiceDocuments'
+152 statement (ExpressionStmt)
+153 expression (VariableDeclarationExpr)
+154 variables
+155 variable (VariableDeclarator)
+156 initializer (MethodCallExpr)
+157 name (SimpleName)
+158 identifier='callServiceAndWaitForState'
+159 scope (NameExpr)
+160 name (SimpleName)
+161 identifier='machine'
+162 arguments
+163 argument (FieldAccessExpr)
+164 name (SimpleName)
+165 identifier='SELF_LINK'
+166 scope (NameExpr)
+167 name (SimpleName)
+168 identifier='CreateContainersWorkflowFactoryService'
+169 argument (NameExpr)
+170 name (SimpleName)
+171 identifier='startState'
+172 argument (ClassExpr)
+173 type (ClassOrInterfaceType)
+174 name (SimpleName)
+175 identifier='State'
+176 scope (ClassOrInterfaceType)
+177 name (SimpleName)
+178 identifier='CreateContainersWorkflowService'
+179 argument (NullLiteralExpr)
+180 name (SimpleName)
+181 identifier='finalState'
+182 type (ClassOrInterfaceType)
+183 name (SimpleName)
+184 identifier='State'
+185 scope (ClassOrInterfaceType)
+186 name (SimpleName)
+187 identifier='CreateContainersWorkflowService'
+188 statement (ExpressionStmt)
+189 expression (MethodCallExpr)
+190 name (SimpleName)
+191 identifier='assertThat'
+192 arguments
+193 argument (FieldAccessExpr)
+194 name (SimpleName)
+195 identifier='stage'
+196 scope (FieldAccessExpr)
+197 name (SimpleName)
+198 identifier='taskState'
+199 scope (NameExpr)
+200 name (SimpleName)
+201 identifier='finalState'
+202 argument (MethodCallExpr)
+203 name (SimpleName)
+204 identifier='is'
+205 arguments
+206 argument (FieldAccessExpr)
+207 name (SimpleName)
+208 identifier='FAILED'
+209 scope (FieldAccessExpr)
+210 name (SimpleName)
+211 identifier='TaskStage'
+212 scope (NameExpr)
+213 name (SimpleName)
+214 identifier='TaskState'
+215 type (VoidType)
+216 name (SimpleName)
+217 identifier='testTaskFailureInsideCreateContainer'
+218 parameters
+219 parameter (Parameter)
+220 isVarArgs='false'
+221 name (SimpleName)
+222 identifier='hostCount'
+223 type (ClassOrInterfaceType)
+224 name (SimpleName)
+225 identifier='Integer'
+226 thrownExceptions
+227 thrownException (ClassOrInterfaceType)
+228 name (SimpleName)
+229 identifier='Throwable'
+230 annotations
+231 annotation (SingleMemberAnnotationExpr)
+232 memberValue (StringLiteralExpr)
+233 value='unchecked'
+234 name (Name)
+235 identifier='SuppressWarnings'
+236 annotation (NormalAnnotationExpr)
+237 name (Name)
+238 identifier='Test'
+239 pairs
+240 pair (MemberValuePair)
+241 name (SimpleName)
+242 identifier='dataProvider'
+243 value (StringLiteralExpr)
+244 value='hostCounts'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+12 19
+19 20
+20 21
+12 22
+22 23
+23 24
+12 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+38 39
+31 40
+40 41
+31 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+61 62
+46 63
+63 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+75 81
+81 82
+82 83
+83 84
+81 85
+85 86
+86 87
+81 88
+88 89
+89 90
+81 91
+91 92
+92 93
+81 94
+94 95
+95 96
+81 97
+97 98
+98 99
+81 100
+100 101
+101 102
+81 103
+103 104
+104 105
+81 106
+106 107
+107 108
+81 109
+109 110
+110 111
+81 112
+112 113
+113 114
+81 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+123 124
+68 125
+125 126
+126 127
+127 128
+128 129
+126 130
+130 131
+131 132
+131 133
+133 134
+131 135
+135 136
+130 137
+137 138
+2 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+143 146
+146 147
+2 148
+148 149
+149 150
+150 151
+2 152
+152 153
+153 154
+154 155
+155 156
+156 157
+157 158
+156 159
+159 160
+160 161
+156 162
+162 163
+163 164
+164 165
+163 166
+166 167
+167 168
+162 169
+169 170
+170 171
+162 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+162 179
+155 180
+180 181
+155 182
+182 183
+183 184
+182 185
+185 186
+186 187
+2 188
+188 189
+189 190
+190 191
+189 192
+192 193
+193 194
+194 195
+193 196
+196 197
+197 198
+196 199
+199 200
+200 201
+192 202
+202 203
+203 204
+202 205
+205 206
+206 207
+207 208
+206 209
+209 210
+210 211
+209 212
+212 213
+213 214
+0 215
+0 216
+216 217
+0 218
+218 219
+219 220
+219 221
+221 222
+219 223
+223 224
+224 225
+0 226
+226 227
+227 228
+228 229
+0 230
+230 231
+231 232
+232 233
+231 234
+234 235
+230 236
+236 237
+237 238
+236 239
+239 240
+240 241
+241 242
+240 243
+243 244
+
+This test verifies the failure scenario inside create container.

@@ -1,0 +1,124 @@
+61
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkHeadless'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='GraphicsEnvironment'
+10 statement (ExpressionStmt)
+11 expression (AssignExpr)
+12 operator='ASSIGN'
+13 target (FieldAccessExpr)
+14 name (SimpleName)
+15 identifier='rows'
+16 scope (ThisExpr)
+17 value (ConditionalExpr)
+18 condition (EnclosedExpr)
+19 inner (BinaryExpr)
+20 operator='NOT_EQUALS'
+21 left (NameExpr)
+22 name (SimpleName)
+23 identifier='rows'
+24 right (IntegerLiteralExpr)
+25 value='0'
+26 elseExpr (NameExpr)
+27 name (SimpleName)
+28 identifier='DEFAULT_VISIBLE_ROWS'
+29 thenExpr (NameExpr)
+30 name (SimpleName)
+31 identifier='rows'
+32 statement (ExpressionStmt)
+33 expression (AssignExpr)
+34 operator='ASSIGN'
+35 target (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='multipleMode'
+38 scope (ThisExpr)
+39 value (NameExpr)
+40 name (SimpleName)
+41 identifier='multipleMode'
+42 name (SimpleName)
+43 identifier='List'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='rows'
+49 type (PrimitiveType)
+50 type='INT'
+51 parameter (Parameter)
+52 isVarArgs='false'
+53 name (SimpleName)
+54 identifier='multipleMode'
+55 type (PrimitiveType)
+56 type='BOOLEAN'
+57 thrownExceptions
+58 thrownException (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='HeadlessException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+11 13
+13 14
+14 15
+13 16
+11 17
+17 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+17 26
+26 27
+27 28
+17 29
+29 30
+30 31
+2 32
+32 33
+33 34
+33 35
+35 36
+36 37
+35 38
+33 39
+39 40
+40 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+44 51
+51 52
+51 53
+53 54
+51 55
+55 56
+0 57
+57 58
+58 59
+59 60
+
+Creates a new scrolling list initialized to display the specified number of rows. Note that if zero rows are specified, then the list will be created with a default of four rows. Also note that the number of visible rows in the list cannot be changed after it has been created. If the value of <code>multipleMode</code> is <code>true</code>, then the user can select multiple items from the list. If it is <code>false</code>, only one item at a time can be selected.

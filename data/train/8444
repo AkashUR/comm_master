@@ -1,0 +1,324 @@
+161
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkConnection'
+7 statement (ExpressionStmt)
+8 expression (VariableDeclarationExpr)
+9 variables
+10 variable (VariableDeclarator)
+11 name (SimpleName)
+12 identifier='protocal'
+13 type (ArrayType)
+14 origin='TYPE'
+15 componentType (PrimitiveType)
+16 type='BYTE'
+17 statement (SwitchStmt)
+18 selector (NameExpr)
+19 name (SimpleName)
+20 identifier='mode'
+21 entries
+22 entrie (SwitchEntryStmt)
+23 label (NameExpr)
+24 name (SimpleName)
+25 identifier='VIBRATION_WITH_LED'
+26 statements
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (NameExpr)
+31 name (SimpleName)
+32 identifier='protocal'
+33 value (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='VIBRATION_WITH_LED'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='Protocol'
+39 statement (BreakStmt)
+40 entrie (SwitchEntryStmt)
+41 label (NameExpr)
+42 name (SimpleName)
+43 identifier='VIBRATION_UNTIL_CALL_STOP'
+44 statements
+45 statement (ExpressionStmt)
+46 expression (AssignExpr)
+47 operator='ASSIGN'
+48 target (NameExpr)
+49 name (SimpleName)
+50 identifier='protocal'
+51 value (FieldAccessExpr)
+52 name (SimpleName)
+53 identifier='VIBRATION_UNTIL_CALL_STOP'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='Protocol'
+57 statement (BreakStmt)
+58 entrie (SwitchEntryStmt)
+59 label (NameExpr)
+60 name (SimpleName)
+61 identifier='VIBRATION_WITHOUT_LED'
+62 statements
+63 statement (ExpressionStmt)
+64 expression (AssignExpr)
+65 operator='ASSIGN'
+66 target (NameExpr)
+67 name (SimpleName)
+68 identifier='protocal'
+69 value (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='VIBRATION_WITHOUT_LED'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='Protocol'
+75 statement (BreakStmt)
+76 entrie (SwitchEntryStmt)
+77 label (NameExpr)
+78 name (SimpleName)
+79 identifier='VIBRATION_NEW_FIRMWARE'
+80 statements
+81 statement (ExpressionStmt)
+82 expression (AssignExpr)
+83 operator='ASSIGN'
+84 target (NameExpr)
+85 name (SimpleName)
+86 identifier='protocal'
+87 value (FieldAccessExpr)
+88 name (SimpleName)
+89 identifier='VIBRATION_NEW_FIRMWARE'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='Protocol'
+93 statement (BreakStmt)
+94 entrie (SwitchEntryStmt)
+95 statements
+96 statement (ReturnStmt)
+97 statement (ExpressionStmt)
+98 expression (VariableDeclarationExpr)
+99 variables
+100 variable (VariableDeclarator)
+101 initializer (ObjectCreationExpr)
+102 type (ClassOrInterfaceType)
+103 name (SimpleName)
+104 identifier='ArrayList'
+105 name (SimpleName)
+106 identifier='list'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='List'
+110 typeArguments
+111 typeArgument (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='BLEAction'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='add'
+118 scope (NameExpr)
+119 name (SimpleName)
+120 identifier='list'
+121 arguments
+122 argument (ObjectCreationExpr)
+123 type (ClassOrInterfaceType)
+124 name (SimpleName)
+125 identifier='WriteAction'
+126 arguments
+127 argument (FieldAccessExpr)
+128 name (SimpleName)
+129 identifier='UUID_SERVICE_VIBRATE'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='Profile'
+133 argument (FieldAccessExpr)
+134 name (SimpleName)
+135 identifier='UUID_CHAR_ALERT_LEVEL'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='Profile'
+139 argument (NameExpr)
+140 name (SimpleName)
+141 identifier='protocal'
+142 statement (ExpressionStmt)
+143 expression (MethodCallExpr)
+144 name (SimpleName)
+145 identifier='queue'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='list'
+150 type (VoidType)
+151 name (SimpleName)
+152 identifier='startVibration'
+153 parameters
+154 parameter (Parameter)
+155 isVarArgs='false'
+156 name (SimpleName)
+157 identifier='mode'
+158 type (ClassOrInterfaceType)
+159 name (SimpleName)
+160 identifier='VibrationMode'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+2 7
+7 8
+8 9
+9 10
+10 11
+11 12
+10 13
+13 14
+13 15
+15 16
+2 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+28 29
+28 30
+30 31
+31 32
+28 33
+33 34
+34 35
+33 36
+36 37
+37 38
+26 39
+21 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+46 47
+46 48
+48 49
+49 50
+46 51
+51 52
+52 53
+51 54
+54 55
+55 56
+44 57
+21 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+64 65
+64 66
+66 67
+67 68
+64 69
+69 70
+70 71
+69 72
+72 73
+73 74
+62 75
+21 76
+76 77
+77 78
+78 79
+76 80
+80 81
+81 82
+82 83
+82 84
+84 85
+85 86
+82 87
+87 88
+88 89
+87 90
+90 91
+91 92
+80 93
+21 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+100 101
+101 102
+102 103
+103 104
+100 105
+105 106
+100 107
+107 108
+108 109
+107 110
+110 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+115 121
+121 122
+122 123
+123 124
+124 125
+122 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+126 133
+133 134
+134 135
+133 136
+136 137
+137 138
+126 139
+139 140
+140 141
+2 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+0 150
+0 151
+151 152
+0 153
+153 154
+154 155
+154 156
+156 157
+154 158
+158 159
+159 160
+
+Let band vibrate

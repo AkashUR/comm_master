@@ -1,0 +1,132 @@
+65
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (ConditionalExpr)
+7 condition (BinaryExpr)
+8 operator='AND'
+9 left (BinaryExpr)
+10 operator='NOT_EQUALS'
+11 left (NameExpr)
+12 name (SimpleName)
+13 identifier='uri'
+14 right (NullLiteralExpr)
+15 right (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='startsWith'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='uri'
+21 arguments
+22 argument (StringLiteralExpr)
+23 value='disque'
+24 elseExpr (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='build'
+27 scope (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='disque'
+30 scope (ObjectCreationExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Builder'
+34 scope (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='DisqueURI'
+37 arguments
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='uri'
+41 thenExpr (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='create'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='DisqueURI'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='uri'
+51 name (SimpleName)
+52 identifier='DisqueClient'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='uri'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='String'
+61 annotations
+62 annotation (MarkerAnnotationExpr)
+63 name (Name)
+64 identifier='Deprecated'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+7 9
+9 10
+9 11
+11 12
+12 13
+9 14
+7 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+6 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+27 37
+37 38
+38 39
+39 40
+6 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+49 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+0 61
+61 62
+62 63
+63 64
+
+Create a new client that connects to the supplied host on the default port.

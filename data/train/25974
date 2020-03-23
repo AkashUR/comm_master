@@ -1,0 +1,468 @@
+233
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createSimpleTrack'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='EndToEndTestUtils'
+10 arguments
+11 argument (IntegerLiteralExpr)
+12 value='1'
+13 argument (BooleanLiteralExpr)
+14 value='true'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='get'
+22 scope (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='getCurrentViews'
+25 scope (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='SOLO'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='EndToEndTestUtils'
+31 arguments
+32 argument (ClassExpr)
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='ListView'
+36 arguments
+37 argument (IntegerLiteralExpr)
+38 value='0'
+39 name (SimpleName)
+40 identifier='listView'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='ListView'
+44 statement (ExpressionStmt)
+45 expression (VariableDeclarationExpr)
+46 variables
+47 variable (VariableDeclarator)
+48 initializer (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='getCount'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='listView'
+54 name (SimpleName)
+55 identifier='trackCount'
+56 type (PrimitiveType)
+57 type='INT'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='assertTrue'
+62 arguments
+63 argument (BinaryExpr)
+64 operator='GREATER'
+65 left (NameExpr)
+66 name (SimpleName)
+67 identifier='trackCount'
+68 right (IntegerLiteralExpr)
+69 value='0'
+70 statement (ExpressionStmt)
+71 expression (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='clickOnView'
+74 scope (FieldAccessExpr)
+75 name (SimpleName)
+76 identifier='SOLO'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='EndToEndTestUtils'
+80 arguments
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getChildAt'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='listView'
+87 arguments
+88 argument (IntegerLiteralExpr)
+89 value='0'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='waitForText'
+94 scope (FieldAccessExpr)
+95 name (SimpleName)
+96 identifier='SOLO'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='EndToEndTestUtils'
+100 arguments
+101 argument (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='getString'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='trackListActivity'
+107 arguments
+108 argument (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='track_detail_chart_tab'
+111 scope (FieldAccessExpr)
+112 name (SimpleName)
+113 identifier='string'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='R'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='findMenuItem'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='EndToEndTestUtils'
+124 arguments
+125 argument (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='getString'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='trackListActivity'
+131 arguments
+132 argument (FieldAccessExpr)
+133 name (SimpleName)
+134 identifier='menu_delete'
+135 scope (FieldAccessExpr)
+136 name (SimpleName)
+137 identifier='string'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='R'
+141 argument (BooleanLiteralExpr)
+142 value='true'
+143 statement (ExpressionStmt)
+144 expression (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='getButtonOnScreen'
+147 scope (NameExpr)
+148 name (SimpleName)
+149 identifier='EndToEndTestUtils'
+150 arguments
+151 argument (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='getString'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='trackListActivity'
+157 arguments
+158 argument (FieldAccessExpr)
+159 name (SimpleName)
+160 identifier='generic_yes'
+161 scope (FieldAccessExpr)
+162 name (SimpleName)
+163 identifier='string'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='R'
+167 argument (BooleanLiteralExpr)
+168 value='true'
+169 argument (BooleanLiteralExpr)
+170 value='true'
+171 statement (ExpressionStmt)
+172 expression (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='waitTextToDisappear'
+175 scope (NameExpr)
+176 name (SimpleName)
+177 identifier='EndToEndTestUtils'
+178 arguments
+179 argument (MethodCallExpr)
+180 name (SimpleName)
+181 identifier='getString'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='trackListActivity'
+185 arguments
+186 argument (FieldAccessExpr)
+187 name (SimpleName)
+188 identifier='generic_progress_title'
+189 scope (FieldAccessExpr)
+190 name (SimpleName)
+191 identifier='string'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='R'
+195 statement (ExpressionStmt)
+196 expression (MethodCallExpr)
+197 name (SimpleName)
+198 identifier='assertEquals'
+199 arguments
+200 argument (BinaryExpr)
+201 operator='MINUS'
+202 left (NameExpr)
+203 name (SimpleName)
+204 identifier='trackCount'
+205 right (IntegerLiteralExpr)
+206 value='1'
+207 argument (MethodCallExpr)
+208 name (SimpleName)
+209 identifier='getCount'
+210 scope (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='get'
+213 scope (MethodCallExpr)
+214 name (SimpleName)
+215 identifier='getCurrentViews'
+216 scope (FieldAccessExpr)
+217 name (SimpleName)
+218 identifier='SOLO'
+219 scope (NameExpr)
+220 name (SimpleName)
+221 identifier='EndToEndTestUtils'
+222 arguments
+223 argument (ClassExpr)
+224 type (ClassOrInterfaceType)
+225 name (SimpleName)
+226 identifier='ListView'
+227 arguments
+228 argument (IntegerLiteralExpr)
+229 value='0'
+230 type (VoidType)
+231 name (SimpleName)
+232 identifier='testDeleteOneTrack'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+28 29
+29 30
+22 31
+31 32
+32 33
+33 34
+34 35
+19 36
+36 37
+37 38
+18 39
+39 40
+18 41
+41 42
+42 43
+2 44
+44 45
+45 46
+46 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+47 54
+54 55
+47 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+63 65
+65 66
+66 67
+63 68
+68 69
+2 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+74 77
+77 78
+78 79
+71 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+94 97
+97 98
+98 99
+91 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+111 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+125 131
+131 132
+132 133
+133 134
+132 135
+135 136
+136 137
+135 138
+138 139
+139 140
+124 141
+141 142
+2 143
+143 144
+144 145
+145 146
+144 147
+147 148
+148 149
+144 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+151 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+161 164
+164 165
+165 166
+150 167
+167 168
+150 169
+169 170
+2 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+172 178
+178 179
+179 180
+180 181
+179 182
+182 183
+183 184
+179 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+189 192
+192 193
+193 194
+2 195
+195 196
+196 197
+197 198
+196 199
+199 200
+200 201
+200 202
+202 203
+203 204
+200 205
+205 206
+199 207
+207 208
+208 209
+207 210
+210 211
+211 212
+210 213
+213 214
+214 215
+213 216
+216 217
+217 218
+216 219
+219 220
+220 221
+213 222
+222 223
+223 224
+224 225
+225 226
+210 227
+227 228
+228 229
+0 230
+0 231
+231 232
+
+Deletes one track.

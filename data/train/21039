@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='pushBv32'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='operandStack'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='topFrame'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='env'
+16 arguments
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='ICONST_0'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='ExpressionFactory'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='IF_ICMPEQ'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='className'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='methName'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='branchIndex'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='p'
+40 argument (IntegerLiteralExpr)
+41 value='0'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='IFEQ'
+45 parameters
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='className'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='String'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='methName'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='String'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='branchIndex'
+64 type (PrimitiveType)
+65 type='INT'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='p'
+70 type (PrimitiveType)
+71 type='INT'
+72 annotations
+73 annotation (MarkerAnnotationExpr)
+74 name (Name)
+75 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+4 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+29 30
+27 31
+31 32
+32 33
+27 34
+34 35
+35 36
+27 37
+37 38
+38 39
+27 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+46 48
+48 49
+46 50
+50 51
+51 52
+45 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+45 60
+60 61
+60 62
+62 63
+60 64
+64 65
+45 66
+66 67
+66 68
+68 69
+66 70
+70 71
+0 72
+72 73
+73 74
+74 75
+
+(p == 0) is just ((p == right) with right==0). (p != 0) is just (not (p == 0)). http://java.sun.com/docs/books/jvms/second_edition/html/Instructions2. doc6.html#ifcond

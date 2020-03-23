@@ -1,0 +1,40 @@
+19
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='omdtmm'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='activateDrawingTool'
+12 arguments
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='thingToCreate'
+16 type (VoidType)
+17 name (SimpleName)
+18 identifier='resetForNewGraphic'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+14 15
+0 16
+0 17
+17 18
+
+Called when the Tool should be reset to draw a new graphic. Currently sets the OMDrawingToolMouseMode to null, which is a signal to the DrawingEditorTool that if an appropriate MouseEvent is provided, that the DrawingTool should be configured to create a new OMGraphic. If the OMDrawingToolMouseMode is not null, then the MouseEvent is just given to it.

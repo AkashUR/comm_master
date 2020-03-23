@@ -1,0 +1,142 @@
+70
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='context'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='listeners'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='blockStore'
+15 statement (ExpressionStmt)
+16 expression (AssignExpr)
+17 operator='ASSIGN'
+18 target (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='blockStore'
+21 scope (ThisExpr)
+22 value (NameExpr)
+23 name (SimpleName)
+24 identifier='blockStore'
+25 statement (ExpressionStmt)
+26 expression (AssignExpr)
+27 operator='ASSIGN'
+28 target (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='chainHead'
+31 scope (ThisExpr)
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getVerifiedChainHead'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='blockStore'
+38 name (SimpleName)
+39 identifier='FullPrunedBlockChain'
+40 parameters
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='context'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Context'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='listeners'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='List'
+55 typeArguments
+56 typeArgument (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='Wallet'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='blockStore'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='FullPrunedBlockStore'
+66 thrownExceptions
+67 thrownException (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='BlockStoreException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+12 13
+13 14
+2 15
+15 16
+16 17
+16 18
+18 19
+19 20
+18 21
+16 22
+22 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+28 31
+26 32
+32 33
+33 34
+32 35
+35 36
+36 37
+0 38
+38 39
+0 40
+40 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+40 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+40 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+0 66
+66 67
+67 68
+68 69
+
+Constructs a block chain connected to the given list of wallets and a store.

@@ -1,0 +1,142 @@
+70
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='e'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Log'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='OneSignalExample'
+13 argument (BinaryExpr)
+14 operator='PLUS'
+15 left (StringLiteralExpr)
+16 value='body: '
+17 right (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='body'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='payload'
+23 scope (FieldAccessExpr)
+24 name (SimpleName)
+25 identifier='notification'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='openedResult'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='e'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='Log'
+36 arguments
+37 argument (StringLiteralExpr)
+38 value='OneSignalExample'
+39 argument (BinaryExpr)
+40 operator='PLUS'
+41 left (StringLiteralExpr)
+42 value='additional data: '
+43 right (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='additionalData'
+46 scope (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='payload'
+49 scope (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='notification'
+52 scope (NameExpr)
+53 name (SimpleName)
+54 identifier='openedResult'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='notificationOpened'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='openedResult'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='OSNotificationOpenResult'
+66 annotations
+67 annotation (MarkerAnnotationExpr)
+68 name (Name)
+69 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+13 15
+15 16
+13 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+23 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+36 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+0 66
+66 67
+67 68
+68 69
+
+Callback to implement in your app to handle when a notification is opened from the Android status bar or a new one comes in while the app is running. This method is located in this activity as an example, you may have any class you wish implement NotificationOpenedHandler and define this method.

@@ -1,0 +1,188 @@
+93
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='currItm'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='EcuDataItem'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getPidDataItems'
+19 arguments
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='service'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='pid'
+26 name (SimpleName)
+27 identifier='currItms'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Vector'
+31 typeArguments
+32 typeArgument (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='EcuDataItem'
+35 statement (ForeachStmt)
+36 body (BlockStmt)
+37 statements
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (NameExpr)
+42 name (SimpleName)
+43 identifier='currItm'
+44 value (NameExpr)
+45 name (SimpleName)
+46 identifier='currItm1'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='updatePvFomBuffer'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='currItm'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='buffer'
+58 iterable (NameExpr)
+59 name (SimpleName)
+60 identifier='currItms'
+61 variable (VariableDeclarationExpr)
+62 variables
+63 variable (VariableDeclarator)
+64 name (SimpleName)
+65 identifier='currItm1'
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='EcuDataItem'
+69 type (VoidType)
+70 name (SimpleName)
+71 identifier='updateDataItems'
+72 parameters
+73 parameter (Parameter)
+74 isVarArgs='false'
+75 name (SimpleName)
+76 identifier='service'
+77 type (PrimitiveType)
+78 type='INT'
+79 parameter (Parameter)
+80 isVarArgs='false'
+81 name (SimpleName)
+82 identifier='pid'
+83 type (PrimitiveType)
+84 type='INT'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='buffer'
+89 type (ArrayType)
+90 origin='TYPE'
+91 componentType (PrimitiveType)
+92 type='CHAR'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+15 26
+26 27
+15 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+45 46
+37 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+56 57
+35 58
+58 59
+59 60
+35 61
+61 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+0 69
+0 70
+70 71
+0 72
+72 73
+73 74
+73 75
+75 76
+73 77
+77 78
+72 79
+79 80
+79 81
+81 82
+79 83
+83 84
+72 85
+85 86
+85 87
+87 88
+85 89
+89 90
+89 91
+91 92
+
+Update all EcuDataItems with new data from buffer

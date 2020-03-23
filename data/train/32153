@@ -1,0 +1,270 @@
+134
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='m_Document'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='XMLDocument'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='setValidating'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='m_Document'
+20 arguments
+21 argument (BooleanLiteralExpr)
+22 value='true'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='newDocument'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='m_Document'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='DOCTYPE'
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='ROOT_NODE'
+37 statement (ExpressionStmt)
+38 expression (AssignExpr)
+39 operator='ASSIGN'
+40 target (NameExpr)
+41 name (SimpleName)
+42 identifier='m_Properties'
+43 value (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='PropertyHandler'
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (NameExpr)
+51 name (SimpleName)
+52 identifier='m_CustomMethods'
+53 value (ObjectCreationExpr)
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='XMLSerializationMethodHandler'
+57 arguments
+58 argument (ThisExpr)
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='m_ClassnameOverride'
+65 value (ObjectCreationExpr)
+66 type (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='Hashtable'
+69 typeArguments
+70 typeArgument (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Class'
+73 typeArguments
+74 typeArgument (WildcardType)
+75 typeArgument (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='String'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='put'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='m_ClassnameOverride'
+85 arguments
+86 argument (ClassExpr)
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='File'
+90 scope (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='io'
+93 scope (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='java'
+96 argument (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='getName'
+99 scope (ClassExpr)
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='File'
+103 scope (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='io'
+106 scope (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='java'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='setVersion'
+113 arguments
+114 argument (FieldAccessExpr)
+115 name (SimpleName)
+116 identifier='VERSION'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='Version'
+120 statement (ExpressionStmt)
+121 expression (AssignExpr)
+122 operator='ASSIGN'
+123 target (NameExpr)
+124 name (SimpleName)
+125 identifier='m_CurrentNode'
+126 value (NullLiteralExpr)
+127 type (VoidType)
+128 name (SimpleName)
+129 identifier='clear'
+130 thrownExceptions
+131 thrownException (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+2 37
+37 38
+38 39
+38 40
+40 41
+41 42
+38 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+48 50
+50 51
+51 52
+48 53
+53 54
+54 55
+55 56
+53 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+70 73
+73 74
+69 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+88 89
+87 90
+90 91
+91 92
+90 93
+93 94
+94 95
+85 96
+96 97
+97 98
+96 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+2 120
+120 121
+121 122
+121 123
+123 124
+124 125
+121 126
+0 127
+0 128
+128 129
+0 130
+130 131
+131 132
+132 133
+
+generates internally a new XML document and clears also the IgnoreList and the mappings for the Read/Write-Methods

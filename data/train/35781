@@ -1,0 +1,308 @@
+153
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (StringLiteralExpr)
+17 value='List editor : '
+18 right (NameExpr)
+19 name (SimpleName)
+20 identifier='semIm'
+21 statement (ExpressionStmt)
+22 expression (AssignExpr)
+23 operator='ASSIGN'
+24 target (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='semIm'
+27 scope (ThisExpr)
+28 value (NameExpr)
+29 name (SimpleName)
+30 identifier='semIm'
+31 statement (ExpressionStmt)
+32 expression (AssignExpr)
+33 operator='ASSIGN'
+34 target (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='launchedEditors'
+37 scope (ThisExpr)
+38 value (NameExpr)
+39 name (SimpleName)
+40 identifier='launchedEditors'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='getSemPm'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='semIm'
+51 name (SimpleName)
+52 identifier='semPm'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='GeneralizedSemPm'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='setLayout'
+60 arguments
+61 argument (ObjectCreationExpr)
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='BorderLayout'
+65 statement (ExpressionStmt)
+66 expression (AssignExpr)
+67 operator='ASSIGN'
+68 target (NameExpr)
+69 name (SimpleName)
+70 identifier='formulasBox'
+71 value (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='createVerticalBox'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='Box'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='refreshLabels'
+81 statement (ExpressionStmt)
+82 expression (VariableDeclarationExpr)
+83 variables
+84 variable (VariableDeclarator)
+85 initializer (ObjectCreationExpr)
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='JScrollPane'
+89 arguments
+90 argument (NameExpr)
+91 name (SimpleName)
+92 identifier='formulasBox'
+93 name (SimpleName)
+94 identifier='scroll'
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='JScrollPane'
+98 statement (ExpressionStmt)
+99 expression (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='setPreferredSize'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='scroll'
+105 arguments
+106 argument (ObjectCreationExpr)
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='Dimension'
+110 arguments
+111 argument (IntegerLiteralExpr)
+112 value='450'
+113 argument (IntegerLiteralExpr)
+114 value='450'
+115 statement (ExpressionStmt)
+116 expression (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='add'
+119 arguments
+120 argument (NameExpr)
+121 name (SimpleName)
+122 identifier='scroll'
+123 argument (FieldAccessExpr)
+124 name (SimpleName)
+125 identifier='CENTER'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='BorderLayout'
+129 name (SimpleName)
+130 identifier='GeneralizedSemImListEditor'
+131 parameters
+132 parameter (Parameter)
+133 isVarArgs='false'
+134 name (SimpleName)
+135 identifier='semIm'
+136 type (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='GeneralizedSemIm'
+139 parameter (Parameter)
+140 isVarArgs='false'
+141 name (SimpleName)
+142 identifier='launchedEditors'
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='Map'
+146 typeArguments
+147 typeArgument (ClassOrInterfaceType)
+148 name (SimpleName)
+149 identifier='Object'
+150 typeArgument (ClassOrInterfaceType)
+151 name (SimpleName)
+152 identifier='EditorWindow'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+14 16
+16 17
+14 18
+18 19
+19 20
+2 21
+21 22
+22 23
+22 24
+24 25
+25 26
+24 27
+22 28
+28 29
+29 30
+2 31
+31 32
+32 33
+32 34
+34 35
+35 36
+34 37
+32 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+46 47
+45 48
+48 49
+49 50
+44 51
+51 52
+44 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+63 64
+2 65
+65 66
+66 67
+66 68
+68 69
+69 70
+66 71
+71 72
+72 73
+71 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+87 88
+85 89
+89 90
+90 91
+91 92
+84 93
+93 94
+84 95
+95 96
+96 97
+2 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+107 108
+108 109
+106 110
+110 111
+111 112
+110 113
+113 114
+2 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+121 122
+119 123
+123 124
+124 125
+123 126
+126 127
+127 128
+0 129
+129 130
+0 131
+131 132
+132 133
+132 134
+134 135
+132 136
+136 137
+137 138
+131 139
+139 140
+139 141
+141 142
+139 143
+143 144
+144 145
+143 146
+146 147
+147 148
+148 149
+146 150
+150 151
+151 152
+
+Constructs a SemPm graphical editor for the given SemIm.

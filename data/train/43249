@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='putDouble'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='bb'
+10 arguments
+11 argument (AssignExpr)
+12 operator='MINUS'
+13 target (NameExpr)
+14 name (SimpleName)
+15 identifier='space'
+16 value (IntegerLiteralExpr)
+17 value='8'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='x'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='putDouble'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='x'
+29 type (PrimitiveType)
+30 type='DOUBLE'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+11 13
+13 14
+14 15
+11 16
+16 17
+10 18
+18 19
+19 20
+0 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+
+Add a `double` to the buffer, backwards from the current location. Doesn't align nor check for space.

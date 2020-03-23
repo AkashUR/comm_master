@@ -1,0 +1,144 @@
+71
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getInputAttributes'
+10 name (SimpleName)
+11 identifier='inputAttributes'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='MutableAttributeSet'
+15 statement (ExpressionStmt)
+16 expression (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='removeAttributes'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='inputAttributes'
+22 arguments
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='inputAttributes'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='setComponent'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='StyleConstants'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='inputAttributes'
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='c'
+40 statement (ExpressionStmt)
+41 expression (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='replaceSelection'
+44 arguments
+45 argument (StringLiteralExpr)
+46 value=' '
+47 argument (BooleanLiteralExpr)
+48 value='false'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='removeAttributes'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='inputAttributes'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='inputAttributes'
+60 type (VoidType)
+61 name (SimpleName)
+62 identifier='insertComponent'
+63 parameters
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='c'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='Component'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+16 22
+22 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+2 40
+40 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+50 56
+56 57
+57 58
+58 59
+0 60
+0 61
+61 62
+0 63
+63 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+
+Inserts a component into the document as a replacement for the currently selected content.  If there is no selection the component is effectively inserted at the current position of the caret.  This is represented in the associated document as an attribute of one character of content. <p> The component given is the actual component used by the JTextPane.  Since components cannot be a child of more than one container, this method should not be used in situations where the model is shared by text components. <p> The component is placed relative to the text baseline according to the value returned by <code>Component.getAlignmentY</code>.  For Swing components this value can be conveniently set using the method <code>JComponent.setAlignmentY</code>.  For example, setting a value of <code>0.75</code> will cause 75 percent of the component to be above the baseline, and 25 percent of the component to be below the baseline.

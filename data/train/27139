@@ -1,0 +1,256 @@
+127
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='initialize'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='aContext'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='language'
+18 value (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getLanguageFromString'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='Language'
+24 arguments
+25 argument (CastExpr)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getConfigParameterValue'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='aContext'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='PARAM_LANGUAGE'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='String'
+39 statement (ExpressionStmt)
+40 expression (AssignExpr)
+41 operator='ASSIGN'
+42 target (NameExpr)
+43 name (SimpleName)
+44 identifier='find_intervals'
+45 value (CastExpr)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='getConfigParameterValue'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='aContext'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='PARAM_INTERVALS'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='Boolean'
+59 statement (ExpressionStmt)
+60 expression (AssignExpr)
+61 operator='ASSIGN'
+62 target (NameExpr)
+63 name (SimpleName)
+64 identifier='find_interval_candidates'
+65 value (CastExpr)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='getConfigParameterValue'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='aContext'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='PARAM_INTERVAL_CANDIDATES'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='Boolean'
+79 statement (ExpressionStmt)
+80 expression (VariableDeclarationExpr)
+81 variables
+82 variable (VariableDeclarator)
+83 initializer (MethodCallExpr)
+84 name (SimpleName)
+85 identifier='getInstance'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='ResourceScanner'
+89 name (SimpleName)
+90 identifier='rs'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='ResourceScanner'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='readResources'
+98 arguments
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getRules'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='rs'
+105 arguments
+106 argument (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='getName'
+109 scope (NameExpr)
+110 name (SimpleName)
+111 identifier='language'
+112 type (VoidType)
+113 name (SimpleName)
+114 identifier='initialize'
+115 parameters
+116 parameter (Parameter)
+117 isVarArgs='false'
+118 name (SimpleName)
+119 identifier='aContext'
+120 type (ClassOrInterfaceType)
+121 name (SimpleName)
+122 identifier='UimaContext'
+123 thrownExceptions
+124 thrownException (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='ResourceInitializationException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+25 36
+36 37
+37 38
+2 39
+39 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+45 56
+56 57
+57 58
+2 59
+59 60
+60 61
+60 62
+62 63
+63 64
+60 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+74 75
+65 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+82 89
+89 90
+82 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+99 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+0 112
+0 113
+113 114
+0 115
+115 116
+116 117
+116 118
+118 119
+116 120
+120 121
+121 122
+0 123
+123 124
+124 125
+125 126
+
+initialization: read configuration parameters and resources

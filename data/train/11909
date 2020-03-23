@@ -1,0 +1,456 @@
+227
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='store'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='A'
+13 argument (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='asList'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='Arrays'
+19 arguments
+20 argument (ArrayCreationExpr)
+21 elementType (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='String'
+24 initializer (ArrayInitializerExpr)
+25 values
+26 value (StringLiteralExpr)
+27 value='E'
+28 value (StringLiteralExpr)
+29 value='D'
+30 value (StringLiteralExpr)
+31 value='E'
+32 levels
+33 level (ArrayCreationLevel)
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='put'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='store'
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='B'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='asList'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='Arrays'
+50 arguments
+51 argument (ArrayCreationExpr)
+52 elementType (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='String'
+55 initializer (ArrayInitializerExpr)
+56 values
+57 value (StringLiteralExpr)
+58 value='C'
+59 value (StringLiteralExpr)
+60 value='E'
+61 value (StringLiteralExpr)
+62 value='D'
+63 value (StringLiteralExpr)
+64 value='E'
+65 levels
+66 level (ArrayCreationLevel)
+67 statement (ExpressionStmt)
+68 expression (VariableDeclarationExpr)
+69 variables
+70 variable (VariableDeclarator)
+71 initializer (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getListOfModulesToReparse'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='store'
+77 arguments
+78 argument (StringLiteralExpr)
+79 value='C'
+80 name (SimpleName)
+81 identifier='cModules'
+82 type (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='List'
+85 statement (ExpressionStmt)
+86 expression (VariableDeclarationExpr)
+87 variables
+88 variable (VariableDeclarator)
+89 initializer (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='getListOfModulesToReparse'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='store'
+95 arguments
+96 argument (StringLiteralExpr)
+97 value='D'
+98 name (SimpleName)
+99 identifier='dModules'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='List'
+103 statement (ExpressionStmt)
+104 expression (VariableDeclarationExpr)
+105 variables
+106 variable (VariableDeclarator)
+107 initializer (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='getListOfModulesToReparse'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='store'
+113 arguments
+114 argument (StringLiteralExpr)
+115 value='E'
+116 name (SimpleName)
+117 identifier='eModules'
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='List'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='assertEquals'
+125 arguments
+126 argument (IntegerLiteralExpr)
+127 value='1'
+128 argument (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='size'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='cModules'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='assertTrue'
+138 arguments
+139 argument (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='contains'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='cModules'
+145 arguments
+146 argument (StringLiteralExpr)
+147 value='B'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='assertEquals'
+152 arguments
+153 argument (IntegerLiteralExpr)
+154 value='2'
+155 argument (MethodCallExpr)
+156 name (SimpleName)
+157 identifier='size'
+158 scope (NameExpr)
+159 name (SimpleName)
+160 identifier='dModules'
+161 statement (ExpressionStmt)
+162 expression (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='assertTrue'
+165 arguments
+166 argument (BinaryExpr)
+167 operator='AND'
+168 left (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='contains'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='dModules'
+174 arguments
+175 argument (StringLiteralExpr)
+176 value='A'
+177 right (MethodCallExpr)
+178 name (SimpleName)
+179 identifier='contains'
+180 scope (NameExpr)
+181 name (SimpleName)
+182 identifier='dModules'
+183 arguments
+184 argument (StringLiteralExpr)
+185 value='B'
+186 statement (ExpressionStmt)
+187 expression (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='assertEquals'
+190 arguments
+191 argument (IntegerLiteralExpr)
+192 value='2'
+193 argument (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='size'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='eModules'
+199 statement (ExpressionStmt)
+200 expression (MethodCallExpr)
+201 name (SimpleName)
+202 identifier='assertTrue'
+203 arguments
+204 argument (BinaryExpr)
+205 operator='AND'
+206 left (MethodCallExpr)
+207 name (SimpleName)
+208 identifier='contains'
+209 scope (NameExpr)
+210 name (SimpleName)
+211 identifier='eModules'
+212 arguments
+213 argument (StringLiteralExpr)
+214 value='B'
+215 right (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='contains'
+218 scope (NameExpr)
+219 name (SimpleName)
+220 identifier='eModules'
+221 arguments
+222 argument (StringLiteralExpr)
+223 value='A'
+224 type (VoidType)
+225 name (SimpleName)
+226 identifier='testStore2'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+13 19
+19 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+26 27
+25 28
+28 29
+25 30
+30 31
+20 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+44 50
+50 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+57 58
+56 59
+59 60
+56 61
+61 62
+56 63
+63 64
+51 65
+65 66
+2 67
+67 68
+68 69
+69 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+71 77
+77 78
+78 79
+70 80
+80 81
+70 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+88 98
+98 99
+88 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+106 116
+116 117
+106 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+125 128
+128 129
+129 130
+128 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+140 141
+139 142
+142 143
+143 144
+139 145
+145 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+152 155
+155 156
+156 157
+155 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+166 168
+168 169
+169 170
+168 171
+171 172
+172 173
+168 174
+174 175
+175 176
+166 177
+177 178
+178 179
+177 180
+180 181
+181 182
+177 183
+183 184
+184 185
+2 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+190 193
+193 194
+194 195
+193 196
+196 197
+197 198
+2 199
+199 200
+200 201
+201 202
+200 203
+203 204
+204 205
+204 206
+206 207
+207 208
+206 209
+209 210
+210 211
+206 212
+212 213
+213 214
+204 215
+215 216
+216 217
+215 218
+218 219
+219 220
+215 221
+221 222
+222 223
+0 224
+0 225
+225 226
+
+A -> E, D  D -> E B -> C, D C -> E

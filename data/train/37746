@@ -1,0 +1,246 @@
+122
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkArgument'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='AND'
+10 left (BinaryExpr)
+11 operator='LESS_EQUALS'
+12 left (NameExpr)
+13 name (SimpleName)
+14 identifier='ip'
+15 right (LongLiteralExpr)
+16 value='0xffffffffL'
+17 right (BinaryExpr)
+18 operator='GREATER_EQUALS'
+19 left (NameExpr)
+20 name (SimpleName)
+21 identifier='ip'
+22 right (IntegerLiteralExpr)
+23 value='0'
+24 argument (StringLiteralExpr)
+25 value='Invalid IP'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='value'
+32 value (NameExpr)
+33 name (SimpleName)
+34 identifier='ip'
+35 statement (ExpressionStmt)
+36 expression (AssignExpr)
+37 operator='ASSIGN'
+38 target (NameExpr)
+39 name (SimpleName)
+40 identifier='a'
+41 value (CastExpr)
+42 expression (EnclosedExpr)
+43 inner (BinaryExpr)
+44 operator='UNSIGNED_RIGHT_SHIFT'
+45 left (NameExpr)
+46 name (SimpleName)
+47 identifier='ip'
+48 right (IntegerLiteralExpr)
+49 value='24'
+50 type (PrimitiveType)
+51 type='INT'
+52 statement (ExpressionStmt)
+53 expression (AssignExpr)
+54 operator='ASSIGN'
+55 target (NameExpr)
+56 name (SimpleName)
+57 identifier='b'
+58 value (CastExpr)
+59 expression (EnclosedExpr)
+60 inner (BinaryExpr)
+61 operator='UNSIGNED_RIGHT_SHIFT'
+62 left (EnclosedExpr)
+63 inner (BinaryExpr)
+64 operator='BINARY_AND'
+65 left (NameExpr)
+66 name (SimpleName)
+67 identifier='ip'
+68 right (IntegerLiteralExpr)
+69 value='0x00ffffff'
+70 right (IntegerLiteralExpr)
+71 value='16'
+72 type (PrimitiveType)
+73 type='INT'
+74 statement (ExpressionStmt)
+75 expression (AssignExpr)
+76 operator='ASSIGN'
+77 target (NameExpr)
+78 name (SimpleName)
+79 identifier='c'
+80 value (CastExpr)
+81 expression (EnclosedExpr)
+82 inner (BinaryExpr)
+83 operator='UNSIGNED_RIGHT_SHIFT'
+84 left (EnclosedExpr)
+85 inner (BinaryExpr)
+86 operator='BINARY_AND'
+87 left (NameExpr)
+88 name (SimpleName)
+89 identifier='ip'
+90 right (IntegerLiteralExpr)
+91 value='0x0000ffff'
+92 right (IntegerLiteralExpr)
+93 value='8'
+94 type (PrimitiveType)
+95 type='INT'
+96 statement (ExpressionStmt)
+97 expression (AssignExpr)
+98 operator='ASSIGN'
+99 target (NameExpr)
+100 name (SimpleName)
+101 identifier='d'
+102 value (CastExpr)
+103 expression (EnclosedExpr)
+104 inner (BinaryExpr)
+105 operator='BINARY_AND'
+106 left (NameExpr)
+107 name (SimpleName)
+108 identifier='ip'
+109 right (IntegerLiteralExpr)
+110 value='0x000000ff'
+111 type (PrimitiveType)
+112 type='INT'
+113 name (SimpleName)
+114 identifier='IP'
+115 parameters
+116 parameter (Parameter)
+117 isVarArgs='false'
+118 name (SimpleName)
+119 identifier='ip'
+120 type (PrimitiveType)
+121 type='LONG'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+10 12
+12 13
+13 14
+10 15
+15 16
+8 17
+17 18
+17 19
+19 20
+20 21
+17 22
+22 23
+7 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+2 35
+35 36
+36 37
+36 38
+38 39
+39 40
+36 41
+41 42
+42 43
+43 44
+43 45
+45 46
+46 47
+43 48
+48 49
+41 50
+50 51
+2 52
+52 53
+53 54
+53 55
+55 56
+56 57
+53 58
+58 59
+59 60
+60 61
+60 62
+62 63
+63 64
+63 65
+65 66
+66 67
+63 68
+68 69
+60 70
+70 71
+58 72
+72 73
+2 74
+74 75
+75 76
+75 77
+77 78
+78 79
+75 80
+80 81
+81 82
+82 83
+82 84
+84 85
+85 86
+85 87
+87 88
+88 89
+85 90
+90 91
+82 92
+92 93
+80 94
+94 95
+2 96
+96 97
+97 98
+97 99
+99 100
+100 101
+97 102
+102 103
+103 104
+104 105
+104 106
+106 107
+107 108
+104 109
+109 110
+102 111
+111 112
+0 113
+113 114
+0 115
+115 116
+116 117
+116 118
+118 119
+116 120
+120 121
+
+Constructs IP by a long integer.

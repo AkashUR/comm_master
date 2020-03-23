@@ -1,0 +1,330 @@
+164
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertEquals'
+7 arguments
+8 argument (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='vmTotalPreCompressedBytes'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='stats'
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='region1TotalPreCompressedBytes'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='stats'
+22 right (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='region2TotalPreCompressedBytes'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='stats'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='assertEquals'
+32 arguments
+33 argument (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='vmTotalCompressions'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='stats'
+39 argument (BinaryExpr)
+40 operator='PLUS'
+41 left (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='region1TotalCompressions'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='stats'
+47 right (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='region2TotalCompressions'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='stats'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='assertEquals'
+57 arguments
+58 argument (FieldAccessExpr)
+59 name (SimpleName)
+60 identifier='vmTotalCompressionTime'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='stats'
+64 argument (BinaryExpr)
+65 operator='PLUS'
+66 left (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='region1TotalCompressionTime'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='stats'
+72 right (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='region2TotalCompressionTime'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='stats'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='assertEquals'
+82 arguments
+83 argument (FieldAccessExpr)
+84 name (SimpleName)
+85 identifier='vmTotalPostCompressedBytes'
+86 scope (NameExpr)
+87 name (SimpleName)
+88 identifier='stats'
+89 argument (BinaryExpr)
+90 operator='PLUS'
+91 left (FieldAccessExpr)
+92 name (SimpleName)
+93 identifier='region1TotalPostCompressedBytes'
+94 scope (NameExpr)
+95 name (SimpleName)
+96 identifier='stats'
+97 right (FieldAccessExpr)
+98 name (SimpleName)
+99 identifier='region2TotalPostCompressedBytes'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='stats'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='assertEquals'
+107 arguments
+108 argument (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='vmTotalDecompressions'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='stats'
+114 argument (BinaryExpr)
+115 operator='PLUS'
+116 left (FieldAccessExpr)
+117 name (SimpleName)
+118 identifier='region1TotalDecompressions'
+119 scope (NameExpr)
+120 name (SimpleName)
+121 identifier='stats'
+122 right (FieldAccessExpr)
+123 name (SimpleName)
+124 identifier='region2TotalDecompressions'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='stats'
+128 statement (ExpressionStmt)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='assertEquals'
+132 arguments
+133 argument (FieldAccessExpr)
+134 name (SimpleName)
+135 identifier='vmTotalDecompressionTime'
+136 scope (NameExpr)
+137 name (SimpleName)
+138 identifier='stats'
+139 argument (BinaryExpr)
+140 operator='PLUS'
+141 left (FieldAccessExpr)
+142 name (SimpleName)
+143 identifier='region1TotalDecompressionTime'
+144 scope (NameExpr)
+145 name (SimpleName)
+146 identifier='stats'
+147 right (FieldAccessExpr)
+148 name (SimpleName)
+149 identifier='region2TotalDecompressionTime'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='stats'
+153 type (VoidType)
+154 name (SimpleName)
+155 identifier='assertStatTotals'
+156 parameters
+157 parameter (Parameter)
+158 isVarArgs='false'
+159 name (SimpleName)
+160 identifier='stats'
+161 type (ClassOrInterfaceType)
+162 name (SimpleName)
+163 identifier='CompressionStats'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+14 16
+16 17
+17 18
+16 19
+19 20
+20 21
+14 22
+22 23
+23 24
+22 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+32 39
+39 40
+39 41
+41 42
+42 43
+41 44
+44 45
+45 46
+39 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+57 64
+64 65
+64 66
+66 67
+67 68
+66 69
+69 70
+70 71
+64 72
+72 73
+73 74
+72 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+84 85
+83 86
+86 87
+87 88
+82 89
+89 90
+89 91
+91 92
+92 93
+91 94
+94 95
+95 96
+89 97
+97 98
+98 99
+97 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+107 114
+114 115
+114 116
+116 117
+117 118
+116 119
+119 120
+120 121
+114 122
+122 123
+123 124
+122 125
+125 126
+126 127
+2 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+134 135
+133 136
+136 137
+137 138
+132 139
+139 140
+139 141
+141 142
+142 143
+141 144
+144 145
+145 146
+139 147
+147 148
+148 149
+147 150
+150 151
+151 152
+0 153
+0 154
+154 155
+0 156
+156 157
+157 158
+157 159
+159 160
+157 161
+161 162
+162 163
+
+Asserts that the cache stats are totals of the region one and region two stats.

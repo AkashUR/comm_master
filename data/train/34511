@@ -1,0 +1,20 @@
+9
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 type (VoidType)
+3 name (SimpleName)
+4 identifier='test_multiTenancy_967'
+5 thrownExceptions
+6 thrownException (ClassOrInterfaceType)
+7 name (SimpleName)
+8 identifier='Exception'
+0 1
+0 2
+0 3
+3 4
+0 5
+5 6
+6 7
+7 8
+
+This is based on a customer stress test that was able to reliably replicate the issue with the apache http components library. The test combines concurrent processes that <ul> <li>create a namespace</li> <li>load data into a namespace</li> <li>list the namespaces</li> <li>run SPARQL against a namespace</li> </ul> Note: This test is intended to run for an hour or more to identify a problem. It is run for a shorter period in CI.

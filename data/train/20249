@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='m_charWidth'
+9 value (BinaryExpr)
+10 operator='DIVIDE'
+11 left (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getWidth'
+14 scope (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getStringBounds'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='font'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='m_text'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='m_fontContext'
+27 right (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='getCharacterCount'
+30 scope (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='getTextLayout'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='m_charHeight'
+39 value (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getHeight'
+42 scope (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getLineMetrics'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='font'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='m_text'
+52 argument (NameExpr)
+53 name (SimpleName)
+54 identifier='m_fontContext'
+55 type (VoidType)
+56 name (SimpleName)
+57 identifier='updateCharBounds'
+58 parameters
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='font'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Font'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+9 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+48 52
+52 53
+53 54
+0 55
+0 56
+56 57
+0 58
+58 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+
+Updates the information that is used to calculate the line bounds.

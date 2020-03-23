@@ -1,0 +1,410 @@
+204
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='checkState'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='STATE_INITIALIZED'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='STATE_DRAWING'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='bind'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='mTexture'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='gl'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='glShadeModel'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='gl'
+32 arguments
+33 argument (FieldAccessExpr)
+34 name (SimpleName)
+35 identifier='GL_FLAT'
+36 scope (NameExpr)
+37 name (SimpleName)
+38 identifier='GL10'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='glEnable'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='gl'
+46 arguments
+47 argument (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='GL_BLEND'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='GL10'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='glBlendFunc'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='gl'
+60 arguments
+61 argument (FieldAccessExpr)
+62 name (SimpleName)
+63 identifier='GL_SRC_ALPHA'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='GL10'
+67 argument (FieldAccessExpr)
+68 name (SimpleName)
+69 identifier='GL_ONE_MINUS_SRC_ALPHA'
+70 scope (NameExpr)
+71 name (SimpleName)
+72 identifier='GL10'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='glColor4x'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='gl'
+80 arguments
+81 argument (IntegerLiteralExpr)
+82 value='0x10000'
+83 argument (IntegerLiteralExpr)
+84 value='0x10000'
+85 argument (IntegerLiteralExpr)
+86 value='0x10000'
+87 argument (IntegerLiteralExpr)
+88 value='0x10000'
+89 statement (ExpressionStmt)
+90 expression (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='glMatrixMode'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='gl'
+96 arguments
+97 argument (FieldAccessExpr)
+98 name (SimpleName)
+99 identifier='GL_PROJECTION'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='GL10'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='glPushMatrix'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='gl'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='glLoadIdentity'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='gl'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='glOrthof'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='gl'
+124 arguments
+125 argument (DoubleLiteralExpr)
+126 value='0.0f'
+127 argument (NameExpr)
+128 name (SimpleName)
+129 identifier='viewWidth'
+130 argument (DoubleLiteralExpr)
+131 value='0.0f'
+132 argument (NameExpr)
+133 name (SimpleName)
+134 identifier='viewHeight'
+135 argument (DoubleLiteralExpr)
+136 value='0.0f'
+137 argument (DoubleLiteralExpr)
+138 value='1.0f'
+139 statement (ExpressionStmt)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='glMatrixMode'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='gl'
+146 arguments
+147 argument (FieldAccessExpr)
+148 name (SimpleName)
+149 identifier='GL_MODELVIEW'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='GL10'
+153 statement (ExpressionStmt)
+154 expression (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='glPushMatrix'
+157 scope (NameExpr)
+158 name (SimpleName)
+159 identifier='gl'
+160 statement (ExpressionStmt)
+161 expression (MethodCallExpr)
+162 name (SimpleName)
+163 identifier='glLoadIdentity'
+164 scope (NameExpr)
+165 name (SimpleName)
+166 identifier='gl'
+167 statement (ExpressionStmt)
+168 expression (MethodCallExpr)
+169 name (SimpleName)
+170 identifier='glTranslatef'
+171 scope (NameExpr)
+172 name (SimpleName)
+173 identifier='gl'
+174 arguments
+175 argument (DoubleLiteralExpr)
+176 value='0.375f'
+177 argument (DoubleLiteralExpr)
+178 value='0.375f'
+179 argument (DoubleLiteralExpr)
+180 value='0.0f'
+181 type (VoidType)
+182 name (SimpleName)
+183 identifier='beginDrawing'
+184 parameters
+185 parameter (Parameter)
+186 isVarArgs='false'
+187 name (SimpleName)
+188 identifier='gl'
+189 type (ClassOrInterfaceType)
+190 name (SimpleName)
+191 identifier='GL10'
+192 parameter (Parameter)
+193 isVarArgs='false'
+194 name (SimpleName)
+195 identifier='viewWidth'
+196 type (PrimitiveType)
+197 type='FLOAT'
+198 parameter (Parameter)
+199 isVarArgs='false'
+200 name (SimpleName)
+201 identifier='viewHeight'
+202 type (PrimitiveType)
+203 type='FLOAT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+60 67
+67 68
+68 69
+67 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+80 83
+83 84
+80 85
+85 86
+80 87
+87 88
+2 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+124 127
+127 128
+128 129
+124 130
+130 131
+124 132
+132 133
+133 134
+124 135
+135 136
+124 137
+137 138
+2 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+2 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+2 160
+160 161
+161 162
+162 163
+161 164
+164 165
+165 166
+2 167
+167 168
+168 169
+169 170
+168 171
+171 172
+172 173
+168 174
+174 175
+175 176
+174 177
+177 178
+174 179
+179 180
+0 181
+0 182
+182 183
+0 184
+184 185
+185 186
+185 187
+187 188
+185 189
+189 190
+190 191
+184 192
+192 193
+192 194
+194 195
+192 196
+196 197
+184 198
+198 199
+198 200
+200 201
+198 202
+202 203
+
+Begin drawing labels. Sets the OpenGL state for rapid drawing.

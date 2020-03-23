@@ -1,0 +1,130 @@
+64
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setPose'
+7 scope (ThisExpr)
+8 arguments
+9 argument (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='add'
+12 scope (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getPosition'
+15 scope (ThisExpr)
+16 arguments
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='multiply'
+20 scope (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getLastVelocity'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='physicsState'
+26 arguments
+27 argument (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='index'
+30 scope (ThisExpr)
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='percent'
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='add'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getOrientation'
+41 scope (ThisExpr)
+42 arguments
+43 argument (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getLastAngularVelocity'
+46 scope (NameExpr)
+47 name (SimpleName)
+48 identifier='physicsState'
+49 arguments
+50 argument (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='index'
+53 scope (ThisExpr)
+54 type (VoidType)
+55 name (SimpleName)
+56 identifier='updatePose'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='percent'
+62 type (PrimitiveType)
+63 type='DOUBLE'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+9 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+28 29
+27 30
+17 31
+31 32
+32 33
+33 34
+8 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+35 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+43 49
+49 50
+50 51
+51 52
+50 53
+0 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+
+Updates the pose to where the object would be in only a percentage of a time step. Useful for searching for exact moment of collision.

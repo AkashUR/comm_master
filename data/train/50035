@@ -1,0 +1,78 @@
+38
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (MethodCallExpr)
+7 name (SimpleName)
+8 identifier='format'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='String'
+12 arguments
+13 argument (StringLiteralExpr)
+14 value='Event stream \'%s\' is deleted.'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='stream'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (FieldAccessExpr)
+22 name (SimpleName)
+23 identifier='stream'
+24 scope (ThisExpr)
+25 value (NameExpr)
+26 name (SimpleName)
+27 identifier='stream'
+28 name (SimpleName)
+29 identifier='StreamDeletedException'
+30 parameters
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='stream'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='String'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+6 12
+12 13
+13 14
+12 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+21 24
+19 25
+25 26
+26 27
+0 28
+28 29
+0 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+
+Creates a new instance with the specified name of deleted stream.

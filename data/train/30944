@@ -1,0 +1,234 @@
+116
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='create'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='RABBIT.HOLE'
+13 argument (StringLiteralExpr)
+14 value='kdc.rabbit.hole'
+15 argument (IntegerLiteralExpr)
+16 value='0'
+17 argument (BooleanLiteralExpr)
+18 value='false'
+19 name (SimpleName)
+20 identifier='kdc'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='KDC'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='addPrincipal'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='kdc'
+31 arguments
+32 argument (StringLiteralExpr)
+33 value='dummy'
+34 argument (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='toCharArray'
+37 scope (StringLiteralExpr)
+38 value='bogus'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='addPrincipal'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='kdc'
+46 arguments
+47 argument (StringLiteralExpr)
+48 value='foo'
+49 argument (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='toCharArray'
+52 scope (StringLiteralExpr)
+53 value='bar'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='addPrincipalRandKey'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='kdc'
+61 arguments
+62 argument (StringLiteralExpr)
+63 value='krbtgt/RABBIT.HOLE'
+64 statement (ExpressionStmt)
+65 expression (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='addPrincipalRandKey'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='kdc'
+71 arguments
+72 argument (StringLiteralExpr)
+73 value='server/host.rabbit.hole'
+74 statement (ExpressionStmt)
+75 expression (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='addPrincipalRandKey'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='kdc'
+81 arguments
+82 argument (StringLiteralExpr)
+83 value='backend/host.rabbit.hole'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='saveConfig'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='KDC'
+91 arguments
+92 argument (StringLiteralExpr)
+93 value='krb5.conf'
+94 argument (NameExpr)
+95 name (SimpleName)
+96 identifier='kdc'
+97 argument (StringLiteralExpr)
+98 value='forwardable = true'
+99 type (VoidType)
+100 name (SimpleName)
+101 identifier='main'
+102 parameters
+103 parameter (Parameter)
+104 isVarArgs='false'
+105 name (SimpleName)
+106 identifier='args'
+107 type (ArrayType)
+108 origin='TYPE'
+109 componentType (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='String'
+112 thrownExceptions
+113 thrownException (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+10 15
+15 16
+10 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+46 49
+49 50
+50 51
+49 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+2 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+65 71
+71 72
+72 73
+2 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+75 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+91 94
+94 95
+95 96
+91 97
+97 98
+0 99
+0 100
+100 101
+0 102
+102 103
+103 104
+103 105
+105 106
+103 107
+107 108
+107 109
+109 110
+110 111
+0 112
+112 113
+113 114
+114 115
+
+A standalone KDC server.

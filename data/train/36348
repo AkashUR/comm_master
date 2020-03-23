@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onQuerySubmitted'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mController'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='foo'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='fetchPatients'
+17 scope (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='verify'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='mMockAppModel'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='mFakeCrudEventBus'
+28 argument (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getDefaultFilter'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='PatientDbFilters'
+34 argument (StringLiteralExpr)
+35 value='foo'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='testOnQuerySubmitted_filtersBySearchTerm'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+14 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+28 31
+31 32
+32 33
+24 34
+34 35
+0 36
+0 37
+37 38
+
+Tests that the controller correctly filters when the search term changes.

@@ -1,0 +1,140 @@
+69
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mStarted'
+9 value (BooleanLiteralExpr)
+10 value='false'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='pause'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='mEnableSessionInvalidationsTimer'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Intent'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='mContext'
+30 argument (ClassExpr)
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='InvalidationClientService'
+34 name (SimpleName)
+35 identifier='intent'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='Intent'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='putExtra'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='intent'
+46 arguments
+47 argument (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='EXTRA_STOP'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='InvalidationIntentProtocol'
+53 argument (BooleanLiteralExpr)
+54 value='true'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='startService'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='mContext'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='intent'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='stop'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+22 26
+26 27
+27 28
+28 29
+26 30
+30 31
+31 32
+32 33
+21 34
+34 35
+21 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+46 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+0 66
+0 67
+67 68
+
+Stops the invalidation client.

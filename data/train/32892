@@ -1,0 +1,340 @@
+169
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SwitchStmt)
+4 selector (FieldAccessExpr)
+5 name (SimpleName)
+6 identifier='creationStage'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='context'
+10 entries
+11 entrie (SwitchEntryStmt)
+12 label (NameExpr)
+13 name (SimpleName)
+14 identifier='GET_RELATED_COMPUTE_DESCRIPTIONS'
+15 statements
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='getRelatedComputeDescriptions'
+20 arguments
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='context'
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='CREATE_TAGS'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='AWSComputeStateCreationStage'
+30 statement (BreakStmt)
+31 entrie (SwitchEntryStmt)
+32 label (NameExpr)
+33 name (SimpleName)
+34 identifier='CREATE_TAGS'
+35 statements
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='createTags'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='context'
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='POPULATE_COMPUTESTATES'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='AWSComputeStateCreationStage'
+50 statement (BreakStmt)
+51 entrie (SwitchEntryStmt)
+52 label (NameExpr)
+53 name (SimpleName)
+54 identifier='POPULATE_COMPUTESTATES'
+55 statements
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='populateOperations'
+60 arguments
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='context'
+64 argument (FieldAccessExpr)
+65 name (SimpleName)
+66 identifier='CREATE_COMPUTESTATES'
+67 scope (NameExpr)
+68 name (SimpleName)
+69 identifier='AWSComputeStateCreationStage'
+70 statement (BreakStmt)
+71 entrie (SwitchEntryStmt)
+72 label (NameExpr)
+73 name (SimpleName)
+74 identifier='CREATE_COMPUTESTATES'
+75 statements
+76 statement (ExpressionStmt)
+77 expression (MethodCallExpr)
+78 name (SimpleName)
+79 identifier='kickOffComputeStateCreation'
+80 arguments
+81 argument (NameExpr)
+82 name (SimpleName)
+83 identifier='context'
+84 argument (FieldAccessExpr)
+85 name (SimpleName)
+86 identifier='SIGNAL_COMPLETION'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='AWSComputeStateCreationStage'
+90 statement (BreakStmt)
+91 entrie (SwitchEntryStmt)
+92 label (NameExpr)
+93 name (SimpleName)
+94 identifier='SIGNAL_COMPLETION'
+95 statements
+96 statement (ExpressionStmt)
+97 expression (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='setOperationDurationStat'
+100 arguments
+101 argument (FieldAccessExpr)
+102 name (SimpleName)
+103 identifier='awsAdapterOperation'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='context'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='complete'
+111 scope (FieldAccessExpr)
+112 name (SimpleName)
+113 identifier='awsAdapterOperation'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='context'
+117 statement (BreakStmt)
+118 entrie (SwitchEntryStmt)
+119 statements
+120 statement (ExpressionStmt)
+121 expression (VariableDeclarationExpr)
+122 variables
+123 variable (VariableDeclarator)
+124 initializer (ObjectCreationExpr)
+125 type (ClassOrInterfaceType)
+126 name (SimpleName)
+127 identifier='IllegalArgumentException'
+128 arguments
+129 argument (StringLiteralExpr)
+130 value='Unknown AWS enumeration:compute state creation stage'
+131 name (SimpleName)
+132 identifier='t'
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='Throwable'
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='sendFailurePatchToEnumerationTask'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='AdapterUtils'
+143 arguments
+144 argument (ThisExpr)
+145 argument (FieldAccessExpr)
+146 name (SimpleName)
+147 identifier='parentTaskLink'
+148 scope (FieldAccessExpr)
+149 name (SimpleName)
+150 identifier='computeState'
+151 scope (NameExpr)
+152 name (SimpleName)
+153 identifier='context'
+154 argument (NameExpr)
+155 name (SimpleName)
+156 identifier='t'
+157 statement (BreakStmt)
+158 type (VoidType)
+159 name (SimpleName)
+160 identifier='handleComputeStateCreateOrUpdate'
+161 parameters
+162 parameter (Parameter)
+163 isVarArgs='false'
+164 name (SimpleName)
+165 identifier='context'
+166 type (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='AWSComputeServiceCreationContext'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+3 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+24 27
+27 28
+28 29
+15 30
+10 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+40 44
+44 45
+45 46
+44 47
+47 48
+48 49
+35 50
+10 51
+51 52
+52 53
+53 54
+51 55
+55 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+62 63
+60 64
+64 65
+65 66
+64 67
+67 68
+68 69
+55 70
+10 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+77 78
+78 79
+77 80
+80 81
+81 82
+82 83
+80 84
+84 85
+85 86
+84 87
+87 88
+88 89
+75 90
+10 91
+91 92
+92 93
+93 94
+91 95
+95 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+95 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+111 114
+114 115
+115 116
+95 117
+10 118
+118 119
+119 120
+120 121
+121 122
+122 123
+123 124
+124 125
+125 126
+126 127
+124 128
+128 129
+129 130
+123 131
+131 132
+123 133
+133 134
+134 135
+119 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+137 143
+143 144
+143 145
+145 146
+146 147
+145 148
+148 149
+149 150
+148 151
+151 152
+152 153
+143 154
+154 155
+155 156
+119 157
+0 158
+0 159
+159 160
+0 161
+161 162
+162 163
+162 164
+164 165
+162 166
+166 167
+167 168
+
+Creates the compute states in the local document store based on the AWS instances received from the remote endpoint.

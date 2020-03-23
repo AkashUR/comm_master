@@ -1,0 +1,180 @@
+89
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mVibrator'
+9 value (CastExpr)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getSystemService'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='mContext'
+16 arguments
+17 argument (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='VIBRATOR_SERVICE'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='Service'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='Vibrator'
+26 statement (ExpressionStmt)
+27 expression (AssignExpr)
+28 operator='ASSIGN'
+29 target (NameExpr)
+30 name (SimpleName)
+31 identifier='mIsGloballyEnabled'
+32 value (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='checkGlobalSetting'
+35 arguments
+36 argument (NameExpr)
+37 name (SimpleName)
+38 identifier='mContext'
+39 statement (ExpressionStmt)
+40 expression (VariableDeclarationExpr)
+41 variables
+42 variable (VariableDeclarator)
+43 initializer (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='getUriFor'
+46 scope (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='System'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='Settings'
+52 arguments
+53 argument (FieldAccessExpr)
+54 name (SimpleName)
+55 identifier='HAPTIC_FEEDBACK_ENABLED'
+56 scope (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='System'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='Settings'
+62 name (SimpleName)
+63 identifier='uri'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='Uri'
+67 statement (ExpressionStmt)
+68 expression (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='registerContentObserver'
+71 scope (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getContentResolver'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='mContext'
+77 arguments
+78 argument (NameExpr)
+79 name (SimpleName)
+80 identifier='uri'
+81 argument (BooleanLiteralExpr)
+82 value='false'
+83 argument (NameExpr)
+84 name (SimpleName)
+85 identifier='mContentObserver'
+86 type (VoidType)
+87 name (SimpleName)
+88 identifier='start'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+9 23
+23 24
+24 25
+2 26
+26 27
+27 28
+27 29
+29 30
+30 31
+27 32
+32 33
+33 34
+32 35
+35 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+43 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+42 62
+62 63
+42 64
+64 65
+65 66
+2 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+71 74
+74 75
+75 76
+68 77
+77 78
+78 79
+79 80
+77 81
+81 82
+77 83
+83 84
+84 85
+0 86
+0 87
+87 88
+
+Call to setup the controller.

@@ -1,0 +1,452 @@
+225
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='vbo'
+9 scope (ThisExpr)
+10 value (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='glGenBuffers'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='glBindBuffer'
+17 arguments
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='GL_ARRAY_BUFFER'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='vbo'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 initializer (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='createByteBuffer'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='BufferUtils'
+34 arguments
+35 argument (BinaryExpr)
+36 operator='MULTIPLY'
+37 left (BinaryExpr)
+38 operator='MULTIPLY'
+39 left (IntegerLiteralExpr)
+40 value='4'
+41 right (IntegerLiteralExpr)
+42 value='2'
+43 right (IntegerLiteralExpr)
+44 value='6'
+45 name (SimpleName)
+46 identifier='bb'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='ByteBuffer'
+50 statement (ExpressionStmt)
+51 expression (VariableDeclarationExpr)
+52 variables
+53 variable (VariableDeclarator)
+54 initializer (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='asFloatBuffer'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='bb'
+60 name (SimpleName)
+61 identifier='fv'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='FloatBuffer'
+65 statement (ExpressionStmt)
+66 expression (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='put'
+69 scope (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='put'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='fv'
+75 arguments
+76 argument (UnaryExpr)
+77 operator='MINUS'
+78 expression (DoubleLiteralExpr)
+79 value='1.0f'
+80 arguments
+81 argument (UnaryExpr)
+82 operator='MINUS'
+83 expression (DoubleLiteralExpr)
+84 value='1.0f'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='put'
+89 scope (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='put'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='fv'
+95 arguments
+96 argument (DoubleLiteralExpr)
+97 value='1.0f'
+98 arguments
+99 argument (UnaryExpr)
+100 operator='MINUS'
+101 expression (DoubleLiteralExpr)
+102 value='1.0f'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='put'
+107 scope (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='put'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='fv'
+113 arguments
+114 argument (DoubleLiteralExpr)
+115 value='1.0f'
+116 arguments
+117 argument (DoubleLiteralExpr)
+118 value='1.0f'
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='put'
+123 scope (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='put'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='fv'
+129 arguments
+130 argument (DoubleLiteralExpr)
+131 value='1.0f'
+132 arguments
+133 argument (DoubleLiteralExpr)
+134 value='1.0f'
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='put'
+139 scope (MethodCallExpr)
+140 name (SimpleName)
+141 identifier='put'
+142 scope (NameExpr)
+143 name (SimpleName)
+144 identifier='fv'
+145 arguments
+146 argument (UnaryExpr)
+147 operator='MINUS'
+148 expression (DoubleLiteralExpr)
+149 value='1.0f'
+150 arguments
+151 argument (DoubleLiteralExpr)
+152 value='1.0f'
+153 statement (ExpressionStmt)
+154 expression (MethodCallExpr)
+155 name (SimpleName)
+156 identifier='put'
+157 scope (MethodCallExpr)
+158 name (SimpleName)
+159 identifier='put'
+160 scope (NameExpr)
+161 name (SimpleName)
+162 identifier='fv'
+163 arguments
+164 argument (UnaryExpr)
+165 operator='MINUS'
+166 expression (DoubleLiteralExpr)
+167 value='1.0f'
+168 arguments
+169 argument (UnaryExpr)
+170 operator='MINUS'
+171 expression (DoubleLiteralExpr)
+172 value='1.0f'
+173 statement (ExpressionStmt)
+174 expression (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='glBufferData'
+177 arguments
+178 argument (NameExpr)
+179 name (SimpleName)
+180 identifier='GL_ARRAY_BUFFER'
+181 argument (NameExpr)
+182 name (SimpleName)
+183 identifier='bb'
+184 argument (NameExpr)
+185 name (SimpleName)
+186 identifier='GL_STATIC_DRAW'
+187 statement (ExpressionStmt)
+188 expression (MethodCallExpr)
+189 name (SimpleName)
+190 identifier='glEnableVertexAttribArray'
+191 arguments
+192 argument (IntegerLiteralExpr)
+193 value='0'
+194 statement (ExpressionStmt)
+195 expression (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='glVertexAttribPointer'
+198 arguments
+199 argument (IntegerLiteralExpr)
+200 value='0'
+201 argument (IntegerLiteralExpr)
+202 value='2'
+203 argument (NameExpr)
+204 name (SimpleName)
+205 identifier='GL_FLOAT'
+206 argument (BooleanLiteralExpr)
+207 value='false'
+208 argument (IntegerLiteralExpr)
+209 value='0'
+210 argument (LongLiteralExpr)
+211 value='0L'
+212 statement (ExpressionStmt)
+213 expression (MethodCallExpr)
+214 name (SimpleName)
+215 identifier='glBindBuffer'
+216 arguments
+217 argument (NameExpr)
+218 name (SimpleName)
+219 identifier='GL_ARRAY_BUFFER'
+220 argument (IntegerLiteralExpr)
+221 value='0'
+222 type (VoidType)
+223 name (SimpleName)
+224 identifier='quadFullScreenVbo'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+17 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+35 37
+37 38
+37 39
+39 40
+37 41
+41 42
+35 43
+43 44
+27 45
+45 46
+27 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+53 60
+60 61
+53 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+69 72
+72 73
+73 74
+69 75
+75 76
+76 77
+76 78
+78 79
+66 80
+80 81
+81 82
+81 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+86 98
+98 99
+99 100
+99 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+104 116
+116 117
+117 118
+2 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+120 132
+132 133
+133 134
+2 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+139 142
+142 143
+143 144
+139 145
+145 146
+146 147
+146 148
+148 149
+136 150
+150 151
+151 152
+2 153
+153 154
+154 155
+155 156
+154 157
+157 158
+158 159
+157 160
+160 161
+161 162
+157 163
+163 164
+164 165
+164 166
+166 167
+154 168
+168 169
+169 170
+169 171
+171 172
+2 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+179 180
+177 181
+181 182
+182 183
+177 184
+184 185
+185 186
+2 187
+187 188
+188 189
+189 190
+188 191
+191 192
+192 193
+2 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+198 201
+201 202
+198 203
+203 204
+204 205
+198 206
+206 207
+198 208
+208 209
+198 210
+210 211
+2 212
+212 213
+213 214
+214 215
+213 216
+216 217
+217 218
+218 219
+216 220
+220 221
+0 222
+0 223
+223 224
+
+Create a full-screen quad VBO.

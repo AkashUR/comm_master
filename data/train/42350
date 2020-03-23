@@ -1,0 +1,126 @@
+62
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getBounds'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='a'
+13 name (SimpleName)
+14 identifier='alloc'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Rectangle'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='paintIcon'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='c'
+25 arguments
+26 argument (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='getContainer'
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='g'
+32 argument (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='x'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='alloc'
+38 argument (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='y'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='alloc'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='paint'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='g'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='Graphics'
+55 parameter (Parameter)
+56 isVarArgs='false'
+57 name (SimpleName)
+58 identifier='a'
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='Shape'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+27 28
+25 29
+29 30
+30 31
+25 32
+32 33
+33 34
+32 35
+35 36
+36 37
+25 38
+38 39
+39 40
+38 41
+41 42
+42 43
+0 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+47 55
+55 56
+55 57
+57 58
+55 59
+59 60
+60 61
+
+Paints the icon. The real paint behavior occurs naturally from the association that the icon has with its parent container (the same container hosting this view), so this simply allows us to position the icon properly relative to the view.  Since the coordinate system for the view is simply the parent containers, positioning the child icon is easy.

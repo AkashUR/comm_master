@@ -1,0 +1,208 @@
+103
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (IntegerLiteralExpr)
+7 value='1'
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='size'
+11 argument (NullLiteralExpr)
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (FieldAccessExpr)
+16 name (SimpleName)
+17 identifier='addr'
+18 scope (ThisExpr)
+19 value (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='DirectArrayRowAddress'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='$'
+27 scope (ThisExpr)
+28 argument (IntegerLiteralExpr)
+29 value='0'
+30 argument (NullLiteralExpr)
+31 argument (IntegerLiteralExpr)
+32 value='0'
+33 argument (BinaryExpr)
+34 operator='MINUS'
+35 left (NameExpr)
+36 name (SimpleName)
+37 identifier='size'
+38 right (IntegerLiteralExpr)
+39 value='1'
+40 argument (NameExpr)
+41 name (SimpleName)
+42 identifier='flags'
+43 argument (BooleanLiteralExpr)
+44 value='true'
+45 argument (IntegerLiteralExpr)
+46 value='1'
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='size'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='arraycopy'
+54 scope (NameExpr)
+55 name (SimpleName)
+56 identifier='System'
+57 arguments
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='array'
+61 argument (IntegerLiteralExpr)
+62 value='0'
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='$'
+66 argument (IntegerLiteralExpr)
+67 value='0'
+68 argument (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='size'
+71 scope (ThisExpr)
+72 name (SimpleName)
+73 identifier='Array'
+74 parameters
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='array'
+79 type (ArrayType)
+80 origin='TYPE'
+81 componentType (PrimitiveType)
+82 type='DOUBLE'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='size'
+87 type (PrimitiveType)
+88 type='INT'
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='flags'
+93 type (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='Set'
+96 typeArguments
+97 typeArgument (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='Flags'
+100 scope (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='Address'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+5 8
+8 9
+9 10
+5 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+15 18
+13 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+24 27
+23 28
+28 29
+23 30
+23 31
+31 32
+23 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+23 40
+40 41
+41 42
+23 43
+43 44
+23 45
+45 46
+23 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+51 57
+57 58
+58 59
+59 60
+57 61
+61 62
+57 63
+63 64
+64 65
+57 66
+66 67
+57 68
+68 69
+69 70
+68 71
+0 72
+72 73
+0 74
+74 75
+75 76
+75 77
+77 78
+75 79
+79 80
+79 81
+81 82
+74 83
+83 84
+83 85
+85 86
+83 87
+87 88
+74 89
+89 90
+89 91
+91 92
+89 93
+93 94
+94 95
+93 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+
+Creates an Array given a double[] array and the desired number of elements

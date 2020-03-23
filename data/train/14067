@@ -1,0 +1,28 @@
+13
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='sendReject'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='exchange'
+10 type (VoidType)
+11 name (SimpleName)
+12 identifier='reject'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+0 10
+0 11
+11 12
+
+Reject the exchange if it is impossible to be processed, e.g. if it carries an unknown critical option. In most cases, it is better to respond with an error response code to bad requests though.

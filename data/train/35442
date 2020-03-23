@@ -1,0 +1,230 @@
+114
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ConditionalExpr)
+8 condition (EnclosedExpr)
+9 inner (BinaryExpr)
+10 operator='EQUALS'
+11 left (NameExpr)
+12 name (SimpleName)
+13 identifier='parentEffect'
+14 right (NullLiteralExpr)
+15 elseExpr (NameExpr)
+16 name (SimpleName)
+17 identifier='parentEffect'
+18 thenExpr (ThisExpr)
+19 name (SimpleName)
+20 identifier='targetEffect'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Effect'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 name (SimpleName)
+29 identifier='ps'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='PropertySetter'
+33 statement (ExpressionStmt)
+34 expression (AssignExpr)
+35 operator='ASSIGN'
+36 target (NameExpr)
+37 name (SimpleName)
+38 identifier='ps'
+39 value (ObjectCreationExpr)
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='PropertySetter'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='targetEffect'
+47 argument (StringLiteralExpr)
+48 value='location'
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='startLocation'
+52 argument (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Point'
+56 arguments
+57 argument (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getX'
+60 scope (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getEnd'
+63 argument (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getY'
+66 scope (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='getEnd'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='addTarget'
+73 scope (NameExpr)
+74 name (SimpleName)
+75 identifier='animator'
+76 arguments
+77 argument (NameExpr)
+78 name (SimpleName)
+79 identifier='ps'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='init'
+84 scope (SuperExpr)
+85 arguments
+86 argument (NameExpr)
+87 name (SimpleName)
+88 identifier='animator'
+89 argument (NameExpr)
+90 name (SimpleName)
+91 identifier='parentEffect'
+92 type (VoidType)
+93 name (SimpleName)
+94 identifier='init'
+95 parameters
+96 parameter (Parameter)
+97 isVarArgs='false'
+98 name (SimpleName)
+99 identifier='animator'
+100 type (ClassOrInterfaceType)
+101 name (SimpleName)
+102 identifier='Animator'
+103 parameter (Parameter)
+104 isVarArgs='false'
+105 name (SimpleName)
+106 identifier='parentEffect'
+107 type (ClassOrInterfaceType)
+108 name (SimpleName)
+109 identifier='Effect'
+110 annotations
+111 annotation (MarkerAnnotationExpr)
+112 name (Name)
+113 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+9 11
+11 12
+12 13
+9 14
+7 15
+15 16
+16 17
+7 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+2 33
+33 34
+34 35
+34 36
+36 37
+37 38
+34 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+45 46
+43 47
+47 48
+43 49
+49 50
+50 51
+43 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+56 63
+63 64
+64 65
+63 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+70 76
+76 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+81 85
+85 86
+86 87
+87 88
+85 89
+89 90
+90 91
+0 92
+0 93
+93 94
+0 95
+95 96
+96 97
+96 98
+98 99
+96 100
+100 101
+101 102
+95 103
+103 104
+103 105
+105 106
+103 107
+107 108
+108 109
+0 110
+110 111
+111 112
+112 113
+
+Handles setup of animation that will vary the location during the transition

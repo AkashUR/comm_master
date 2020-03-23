@@ -1,0 +1,88 @@
+43
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='in'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='raw'
+15 scope (ThisExpr)
+16 value (NameExpr)
+17 name (SimpleName)
+18 identifier='raw'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='readChunk'
+23 name (SimpleName)
+24 identifier='ChunkedInputStream'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='in'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='InputStream'
+33 parameter (Parameter)
+34 isVarArgs='false'
+35 name (SimpleName)
+36 identifier='raw'
+37 type (PrimitiveType)
+38 type='BOOLEAN'
+39 thrownExceptions
+40 thrownException (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+12 15
+10 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+25 33
+33 34
+33 35
+35 36
+33 37
+37 38
+0 39
+39 40
+40 41
+41 42
+
+Running with raw = true returns the individual chunks, but still shows eof when the last chunk has been read, rather than continuing into the next message

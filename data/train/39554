@@ -1,0 +1,150 @@
+74
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='hashAlgId'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='parse'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='AlgorithmId'
+15 arguments
+16 argument (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getDerValue'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='derIn'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='issuerNameHash'
+28 value (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getOctetString'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='derIn'
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='issuerKeyHash'
+40 value (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='getOctetString'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='derIn'
+46 statement (ExpressionStmt)
+47 expression (AssignExpr)
+48 operator='ASSIGN'
+49 target (NameExpr)
+50 name (SimpleName)
+51 identifier='certSerialNumber'
+52 value (ObjectCreationExpr)
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='SerialNumber'
+56 arguments
+57 argument (NameExpr)
+58 name (SimpleName)
+59 identifier='derIn'
+60 name (SimpleName)
+61 identifier='CertId'
+62 parameters
+63 parameter (Parameter)
+64 isVarArgs='false'
+65 name (SimpleName)
+66 identifier='derIn'
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='DerInputStream'
+70 thrownExceptions
+71 thrownException (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+28 31
+31 32
+32 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+40 41
+41 42
+40 43
+43 44
+44 45
+2 46
+46 47
+47 48
+47 49
+49 50
+50 51
+47 52
+52 53
+53 54
+54 55
+52 56
+56 57
+57 58
+58 59
+0 60
+60 61
+0 62
+62 63
+63 64
+63 65
+65 66
+63 67
+67 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+Creates a CertId from its ASN.1 DER encoding.

@@ -1,0 +1,186 @@
+92
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='onCreate'
+7 scope (SuperExpr)
+8 statement (ExpressionStmt)
+9 expression (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='init'
+12 scope (NameExpr)
+13 name (SimpleName)
+14 identifier='ACRA'
+15 arguments
+16 argument (ThisExpr)
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='refWatcher'
+23 value (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='install'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='LeakCanary'
+29 arguments
+30 argument (ThisExpr)
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='createClient'
+35 scope (FieldAccessExpr)
+36 name (SimpleName)
+37 identifier='INSTANCE'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='OK'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getApplicationContext'
+45 statement (ExpressionStmt)
+46 expression (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='setSingletonInstance'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='Picasso'
+52 arguments
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='build'
+56 scope (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='downloader'
+59 scope (ObjectCreationExpr)
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='Builder'
+63 scope (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='Picasso'
+66 arguments
+67 argument (MethodCallExpr)
+68 name (SimpleName)
+69 identifier='getApplicationContext'
+70 arguments
+71 argument (ObjectCreationExpr)
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='OkHttp3Downloader'
+75 arguments
+76 argument (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='Client'
+79 scope (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='INSTANCE'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='OK'
+85 type (VoidType)
+86 name (SimpleName)
+87 identifier='onCreate'
+88 annotations
+89 annotation (MarkerAnnotationExpr)
+90 name (Name)
+91 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+9 15
+15 16
+2 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+32 41
+41 42
+42 43
+43 44
+2 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+56 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+59 66
+66 67
+67 68
+68 69
+56 70
+70 71
+71 72
+72 73
+73 74
+71 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+79 82
+82 83
+83 84
+0 85
+0 86
+86 87
+0 88
+88 89
+89 90
+90 91
+
+We use a persistent Cookie storage to minimize the need of doing the high-latency connections to Cloudflare protected servers. The Android application's context is used to get a instance of SharedPreferences to load cookies from storage.

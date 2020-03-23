@@ -1,0 +1,88 @@
+43
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='reference'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='Reference'
+12 typeArguments
+13 typeArgument (WildcardType)
+14 statement (WhileStmt)
+15 body (BlockStmt)
+16 statements
+17 statement (ExpressionStmt)
+18 expression (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='remove'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='target'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='reference'
+28 condition (BinaryExpr)
+29 operator='NOT_EQUALS'
+30 left (EnclosedExpr)
+31 inner (AssignExpr)
+32 operator='ASSIGN'
+33 target (NameExpr)
+34 name (SimpleName)
+35 identifier='reference'
+36 value (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='poll'
+39 right (NullLiteralExpr)
+40 type (VoidType)
+41 name (SimpleName)
+42 identifier='expungeStaleEntries'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+9 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+26 27
+14 28
+28 29
+28 30
+30 31
+31 32
+31 33
+33 34
+34 35
+31 36
+36 37
+37 38
+28 39
+0 40
+0 41
+41 42
+
+Cleans all unused references.

@@ -1,0 +1,128 @@
+63
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='m_dtm'
+9 value (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='getDTM'
+12 scope (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='getXPathContext'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='m_transformer'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='pos'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (NameExpr)
+26 name (SimpleName)
+27 identifier='m_startNode'
+28 value (NameExpr)
+29 name (SimpleName)
+30 identifier='pos'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='traverse'
+35 scope (SuperExpr)
+36 arguments
+37 argument (NameExpr)
+38 name (SimpleName)
+39 identifier='pos'
+40 type (VoidType)
+41 name (SimpleName)
+42 identifier='traverse'
+43 parameters
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='pos'
+48 type (PrimitiveType)
+49 type='INT'
+50 thrownExceptions
+51 thrownException (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='SAXException'
+54 scope (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='sax'
+57 scope (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='xml'
+60 scope (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='org'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+15 16
+16 17
+9 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+23 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+32 36
+36 37
+37 38
+38 39
+0 40
+0 41
+41 42
+0 43
+43 44
+44 45
+44 46
+46 47
+44 48
+48 49
+0 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+
+Perform a pre-order traversal non-recursive style.

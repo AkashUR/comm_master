@@ -1,0 +1,304 @@
+151
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='DATABASE_URL'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='DatabaseMemory'
+12 value (StringLiteralExpr)
+13 value='jdbc:mysql://localhost/freebase-tech?createDatabaseIfNotExist=true'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (FieldAccessExpr)
+18 name (SimpleName)
+19 identifier='TEST'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='DatabaseMemory'
+23 value (BooleanLiteralExpr)
+24 value='true'
+25 statement (ExpressionStmt)
+26 expression (AssignExpr)
+27 operator='ASSIGN'
+28 target (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='RECREATE_DATABASE'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='DatabaseMemory'
+34 value (BooleanLiteralExpr)
+35 value='true'
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='createInstance'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='Bot'
+46 name (SimpleName)
+47 identifier='bot'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Bot'
+51 statement (ExpressionStmt)
+52 expression (VariableDeclarationExpr)
+53 variables
+54 variable (VariableDeclarator)
+55 initializer (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='getSense'
+58 scope (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='awareness'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='bot'
+64 arguments
+65 argument (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getName'
+68 scope (ClassExpr)
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='Http'
+72 name (SimpleName)
+73 identifier='sense'
+74 type (ClassOrInterfaceType)
+75 name (SimpleName)
+76 identifier='Sense'
+77 statement (ExpressionStmt)
+78 expression (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='input'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='sense'
+84 arguments
+85 argument (ObjectCreationExpr)
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='URL'
+89 arguments
+90 argument (StringLiteralExpr)
+91 value='http://www.freebase.com/view/computer/software'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='input'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='sense'
+99 arguments
+100 argument (ObjectCreationExpr)
+101 type (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='URL'
+104 arguments
+105 argument (StringLiteralExpr)
+106 value='http://www.freebase.com/view/computer/operating_system'
+107 statement (ExpressionStmt)
+108 expression (MethodCallExpr)
+109 name (SimpleName)
+110 identifier='input'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='sense'
+114 arguments
+115 argument (ObjectCreationExpr)
+116 type (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='URL'
+119 arguments
+120 argument (StringLiteralExpr)
+121 value='http://www.freebase.com/view/fictional_universe/fictional_universe'
+122 statement (ExpressionStmt)
+123 expression (MethodCallExpr)
+124 name (SimpleName)
+125 identifier='input'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='sense'
+129 arguments
+130 argument (ObjectCreationExpr)
+131 type (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='URL'
+134 arguments
+135 argument (StringLiteralExpr)
+136 value='http://www.freebase.com/view/computer/programming_language'
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='shutdown'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='bot'
+144 type (VoidType)
+145 name (SimpleName)
+146 identifier='testImportTechie'
+147 thrownExceptions
+148 thrownException (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+9 10
+10 11
+4 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+17 20
+20 21
+21 22
+15 23
+23 24
+2 25
+25 26
+26 27
+26 28
+28 29
+29 30
+28 31
+31 32
+32 33
+26 34
+34 35
+2 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+39 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+58 61
+61 62
+62 63
+55 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+70 71
+54 72
+72 73
+54 74
+74 75
+75 76
+2 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+78 84
+84 85
+85 86
+86 87
+87 88
+85 89
+89 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+93 99
+99 100
+100 101
+101 102
+102 103
+100 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+108 111
+111 112
+112 113
+108 114
+114 115
+115 116
+116 117
+117 118
+115 119
+119 120
+120 121
+2 122
+122 123
+123 124
+124 125
+123 126
+126 127
+127 128
+123 129
+129 130
+130 131
+131 132
+132 133
+130 134
+134 135
+135 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+0 144
+0 145
+145 146
+0 147
+147 148
+148 149
+149 150
+
+Test loading ~10000 OS objects from Freebase. Everything a techie should know.

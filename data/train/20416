@@ -1,0 +1,390 @@
+194
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='sql'
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='String'
+12 statement (ExpressionStmt)
+13 expression (AssignExpr)
+14 operator='ASSIGN'
+15 target (NameExpr)
+16 name (SimpleName)
+17 identifier='sql'
+18 value (BinaryExpr)
+19 operator='PLUS'
+20 left (BinaryExpr)
+21 operator='PLUS'
+22 left (BinaryExpr)
+23 operator='PLUS'
+24 left (BinaryExpr)
+25 operator='PLUS'
+26 left (BinaryExpr)
+27 operator='PLUS'
+28 left (BinaryExpr)
+29 operator='PLUS'
+30 left (BinaryExpr)
+31 operator='PLUS'
+32 left (BinaryExpr)
+33 operator='PLUS'
+34 left (BinaryExpr)
+35 operator='PLUS'
+36 left (BinaryExpr)
+37 operator='PLUS'
+38 left (BinaryExpr)
+39 operator='PLUS'
+40 left (BinaryExpr)
+41 operator='PLUS'
+42 left (BinaryExpr)
+43 operator='PLUS'
+44 left (BinaryExpr)
+45 operator='PLUS'
+46 left (BinaryExpr)
+47 operator='PLUS'
+48 left (BinaryExpr)
+49 operator='PLUS'
+50 left (BinaryExpr)
+51 operator='PLUS'
+52 left (BinaryExpr)
+53 operator='PLUS'
+54 left (StringLiteralExpr)
+55 value='CREATE TABLE '
+56 right (NameExpr)
+57 name (SimpleName)
+58 identifier='TABLE_OBJECTS'
+59 right (StringLiteralExpr)
+60 value=' ('
+61 right (NameExpr)
+62 name (SimpleName)
+63 identifier='KEY_UUID'
+64 right (StringLiteralExpr)
+65 value=' TEXT PRIMARY KEY, '
+66 right (NameExpr)
+67 name (SimpleName)
+68 identifier='KEY_CLASS_NAME'
+69 right (StringLiteralExpr)
+70 value=' TEXT NOT NULL, '
+71 right (NameExpr)
+72 name (SimpleName)
+73 identifier='KEY_OBJECT_ID'
+74 right (StringLiteralExpr)
+75 value=' TEXT, '
+76 right (NameExpr)
+77 name (SimpleName)
+78 identifier='KEY_JSON'
+79 right (StringLiteralExpr)
+80 value=' TEXT, '
+81 right (NameExpr)
+82 name (SimpleName)
+83 identifier='KEY_IS_DELETING_EVENTUALLY'
+84 right (StringLiteralExpr)
+85 value=' INTEGER DEFAULT 0, '
+86 right (StringLiteralExpr)
+87 value='UNIQUE('
+88 right (NameExpr)
+89 name (SimpleName)
+90 identifier='KEY_CLASS_NAME'
+91 right (StringLiteralExpr)
+92 value=', '
+93 right (NameExpr)
+94 name (SimpleName)
+95 identifier='KEY_OBJECT_ID'
+96 right (StringLiteralExpr)
+97 value=')'
+98 right (StringLiteralExpr)
+99 value=');'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='execSQL'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='db'
+107 arguments
+108 argument (NameExpr)
+109 name (SimpleName)
+110 identifier='sql'
+111 statement (ExpressionStmt)
+112 expression (AssignExpr)
+113 operator='ASSIGN'
+114 target (NameExpr)
+115 name (SimpleName)
+116 identifier='sql'
+117 value (BinaryExpr)
+118 operator='PLUS'
+119 left (BinaryExpr)
+120 operator='PLUS'
+121 left (BinaryExpr)
+122 operator='PLUS'
+123 left (BinaryExpr)
+124 operator='PLUS'
+125 left (BinaryExpr)
+126 operator='PLUS'
+127 left (BinaryExpr)
+128 operator='PLUS'
+129 left (BinaryExpr)
+130 operator='PLUS'
+131 left (BinaryExpr)
+132 operator='PLUS'
+133 left (BinaryExpr)
+134 operator='PLUS'
+135 left (BinaryExpr)
+136 operator='PLUS'
+137 left (BinaryExpr)
+138 operator='PLUS'
+139 left (BinaryExpr)
+140 operator='PLUS'
+141 left (StringLiteralExpr)
+142 value='CREATE TABLE '
+143 right (NameExpr)
+144 name (SimpleName)
+145 identifier='TABLE_DEPENDENCIES'
+146 right (StringLiteralExpr)
+147 value=' ('
+148 right (NameExpr)
+149 name (SimpleName)
+150 identifier='KEY_KEY'
+151 right (StringLiteralExpr)
+152 value=' TEXT NOT NULL, '
+153 right (NameExpr)
+154 name (SimpleName)
+155 identifier='KEY_UUID'
+156 right (StringLiteralExpr)
+157 value=' TEXT NOT NULL, '
+158 right (StringLiteralExpr)
+159 value='PRIMARY KEY('
+160 right (NameExpr)
+161 name (SimpleName)
+162 identifier='KEY_KEY'
+163 right (StringLiteralExpr)
+164 value=', '
+165 right (NameExpr)
+166 name (SimpleName)
+167 identifier='KEY_UUID'
+168 right (StringLiteralExpr)
+169 value=')'
+170 right (StringLiteralExpr)
+171 value=');'
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='execSQL'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='db'
+179 arguments
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='sql'
+183 type (VoidType)
+184 name (SimpleName)
+185 identifier='createSchema'
+186 parameters
+187 parameter (Parameter)
+188 isVarArgs='false'
+189 name (SimpleName)
+190 identifier='db'
+191 type (ClassOrInterfaceType)
+192 name (SimpleName)
+193 identifier='SQLiteDatabase'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+2 12
+12 13
+13 14
+13 15
+15 16
+16 17
+13 18
+18 19
+18 20
+20 21
+20 22
+22 23
+22 24
+24 25
+24 26
+26 27
+26 28
+28 29
+28 30
+30 31
+30 32
+32 33
+32 34
+34 35
+34 36
+36 37
+36 38
+38 39
+38 40
+40 41
+40 42
+42 43
+42 44
+44 45
+44 46
+46 47
+46 48
+48 49
+48 50
+50 51
+50 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+50 59
+59 60
+48 61
+61 62
+62 63
+46 64
+64 65
+44 66
+66 67
+67 68
+42 69
+69 70
+40 71
+71 72
+72 73
+38 74
+74 75
+36 76
+76 77
+77 78
+34 79
+79 80
+32 81
+81 82
+82 83
+30 84
+84 85
+28 86
+86 87
+26 88
+88 89
+89 90
+24 91
+91 92
+22 93
+93 94
+94 95
+20 96
+96 97
+18 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+101 107
+107 108
+108 109
+109 110
+2 111
+111 112
+112 113
+112 114
+114 115
+115 116
+112 117
+117 118
+117 119
+119 120
+119 121
+121 122
+121 123
+123 124
+123 125
+125 126
+125 127
+127 128
+127 129
+129 130
+129 131
+131 132
+131 133
+133 134
+133 135
+135 136
+135 137
+137 138
+137 139
+139 140
+139 141
+141 142
+139 143
+143 144
+144 145
+137 146
+146 147
+135 148
+148 149
+149 150
+133 151
+151 152
+131 153
+153 154
+154 155
+129 156
+156 157
+127 158
+158 159
+125 160
+160 161
+161 162
+123 163
+163 164
+121 165
+165 166
+166 167
+119 168
+168 169
+117 170
+170 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+173 179
+179 180
+180 181
+181 182
+0 183
+0 184
+184 185
+0 186
+186 187
+187 188
+187 189
+189 190
+187 191
+191 192
+192 193
+
+Initializes the schema for the database.

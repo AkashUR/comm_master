@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Subclass2'
+11 name (SimpleName)
+12 identifier='s'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='Subclass2'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='testConstantReturn'
+20 arguments
+21 argument (StringLiteralExpr)
+22 value='runInherited'
+23 argument (IntegerLiteralExpr)
+24 value='1'
+25 type (VoidType)
+26 name (SimpleName)
+27 identifier='testInherited'
+28 annotations
+29 annotation (SingleMemberAnnotationExpr)
+30 memberValue (StringLiteralExpr)
+31 value='unused'
+32 name (Name)
+33 identifier='SuppressWarnings'
+34 annotation (MarkerAnnotationExpr)
+35 name (Name)
+36 identifier='Test'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+23 24
+0 25
+0 26
+26 27
+0 28
+28 29
+29 30
+30 31
+29 32
+32 33
+28 34
+34 35
+35 36
+
+This test illustrates a common pattern where a method at the root of a hierarchy is the only implementation and can be statically inlined.

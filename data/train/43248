@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='forEach'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='inner'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='action'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='forEach'
+17 parameters
+18 parameter (Parameter)
+19 isVarArgs='false'
+20 name (SimpleName)
+21 identifier='action'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Consumer'
+25 typeArguments
+26 typeArgument (WildcardType)
+27 superType (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Entry'
+30 scope (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='Map'
+33 typeArguments
+34 typeArgument (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='K'
+37 typeArgument (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='V'
+40 annotations
+41 annotation (MarkerAnnotationExpr)
+42 name (Name)
+43 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+18 20
+20 21
+18 22
+22 23
+23 24
+22 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+33 37
+37 38
+38 39
+0 40
+40 41
+41 42
+42 43
+
+Performs an action for each element of this stream. <p> This is a terminal operation. <p> The behavior of this operation is explicitly nondeterministic. For parallel stream pipelines, this operation does <em>not</em> guarantee to respect the encounter order of the stream, as doing so would sacrifice the benefit of parallelism.  For any given element, the action may be performed at whatever time and in whatever thread the library chooses.  If the action accesses shared state, it is responsible for providing the required synchronization.

@@ -1,0 +1,318 @@
+158
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mConnector'
+9 value (ObjectCreationExpr)
+10 type (ClassOrInterfaceType)
+11 name (SimpleName)
+12 identifier='MqttSourceConnector'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (NameExpr)
+17 name (SimpleName)
+18 identifier='mSourceProperties'
+19 value (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='HashMap'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='put'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='mSourceProperties'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='KAFKA_TOPIC'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='MqttSourceConstant'
+37 argument (StringLiteralExpr)
+38 value='kafka_topic'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='put'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='mSourceProperties'
+46 arguments
+47 argument (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='MQTT_CLEAN_SESSION'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='MqttSourceConstant'
+53 argument (StringLiteralExpr)
+54 value='true'
+55 statement (ExpressionStmt)
+56 expression (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='put'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='mSourceProperties'
+62 arguments
+63 argument (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='MQTT_CLIENT_ID'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='MqttSourceConstant'
+69 argument (StringLiteralExpr)
+70 value='TesetClientId'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='put'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='mSourceProperties'
+78 arguments
+79 argument (FieldAccessExpr)
+80 name (SimpleName)
+81 identifier='MQTT_CONNECTION_TIMEOUT'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='MqttSourceConstant'
+85 argument (StringLiteralExpr)
+86 value='15'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='put'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='mSourceProperties'
+94 arguments
+95 argument (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='MQTT_KEEP_ALIVE_INTERVAL'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='MqttSourceConstant'
+101 argument (StringLiteralExpr)
+102 value='30'
+103 statement (ExpressionStmt)
+104 expression (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='put'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='mSourceProperties'
+110 arguments
+111 argument (FieldAccessExpr)
+112 name (SimpleName)
+113 identifier='MQTT_QUALITY_OF_SERVICE'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='MqttSourceConstant'
+117 argument (StringLiteralExpr)
+118 value='2'
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='put'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='mSourceProperties'
+126 arguments
+127 argument (FieldAccessExpr)
+128 name (SimpleName)
+129 identifier='MQTT_SERVER_URIS'
+130 scope (NameExpr)
+131 name (SimpleName)
+132 identifier='MqttSourceConstant'
+133 argument (StringLiteralExpr)
+134 value='tcp://127.0.0.1:1883'
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='put'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='mSourceProperties'
+142 arguments
+143 argument (FieldAccessExpr)
+144 name (SimpleName)
+145 identifier='MQTT_TOPIC'
+146 scope (NameExpr)
+147 name (SimpleName)
+148 identifier='MqttSourceConstant'
+149 argument (StringLiteralExpr)
+150 value='mqtt_topic'
+151 type (VoidType)
+152 name (SimpleName)
+153 identifier='beforeEach'
+154 annotations
+155 annotation (MarkerAnnotationExpr)
+156 name (Name)
+157 identifier='Before'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+46 53
+53 54
+2 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+62 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+72 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+78 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+88 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+94 101
+101 102
+2 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+104 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+110 117
+117 118
+2 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+128 129
+127 130
+130 131
+131 132
+126 133
+133 134
+2 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+136 142
+142 143
+143 144
+144 145
+143 146
+146 147
+147 148
+142 149
+149 150
+0 151
+0 152
+152 153
+0 154
+154 155
+155 156
+156 157
+
+Several tests need similar objects created before they can run.

@@ -1,0 +1,234 @@
+116
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 name (SimpleName)
+8 identifier='result'
+9 type (PrimitiveType)
+10 type='BOOLEAN'
+11 statement (ExpressionStmt)
+12 expression (VariableDeclarationExpr)
+13 variables
+14 variable (VariableDeclarator)
+15 initializer (ObjectCreationExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='MyClassFileTransformer'
+19 arguments
+20 argument (StringLiteralExpr)
+21 value='NonExistent'
+22 name (SimpleName)
+23 identifier='moreThanMeetsTheEye'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='ClassFileTransformer'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='addTransformerToManager'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='fInst'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='moreThanMeetsTheEye'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='removeTransformerFromManager'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='fInst'
+46 argument (NameExpr)
+47 name (SimpleName)
+48 identifier='moreThanMeetsTheEye'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (NameExpr)
+53 name (SimpleName)
+54 identifier='result'
+55 value (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='removeTransformer'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='fInst'
+61 arguments
+62 argument (ObjectCreationExpr)
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='MyClassFileTransformer'
+66 arguments
+67 argument (StringLiteralExpr)
+68 value='NonExistent2'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='assertTrue'
+73 arguments
+74 argument (UnaryExpr)
+75 operator='LOGICAL_COMPLEMENT'
+76 expression (NameExpr)
+77 name (SimpleName)
+78 identifier='result'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='result'
+85 value (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='removeTransformer'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='fInst'
+91 arguments
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='moreThanMeetsTheEye'
+95 statement (ExpressionStmt)
+96 expression (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='assertTrue'
+99 arguments
+100 argument (UnaryExpr)
+101 operator='LOGICAL_COMPLEMENT'
+102 expression (NameExpr)
+103 name (SimpleName)
+104 identifier='result'
+105 statement (ExpressionStmt)
+106 expression (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='verifyTransformers'
+109 arguments
+110 argument (NameExpr)
+111 name (SimpleName)
+112 identifier='fInst'
+113 type (VoidType)
+114 name (SimpleName)
+115 identifier='testRemoveNonExistentTransformer'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+2 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+15 19
+19 20
+20 21
+14 22
+22 23
+14 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+44 45
+42 46
+46 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+50 55
+55 56
+56 57
+55 58
+58 59
+59 60
+55 61
+61 62
+62 63
+63 64
+64 65
+62 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+74 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+93 94
+2 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+100 102
+102 103
+103 104
+2 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+111 112
+0 113
+0 114
+114 115
+
+Remove transformers that were not added

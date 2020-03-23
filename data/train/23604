@@ -1,0 +1,52 @@
+25
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='set'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='tcontext'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='tContext'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='threadAttach'
+17 parameters
+18 parameter (Parameter)
+19 isVarArgs='false'
+20 name (SimpleName)
+21 identifier='tContext'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='HGTransactionContext'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+18 20
+20 21
+18 22
+22 23
+23 24
+
+<p> Attach the given transaction context to the current thread. This method is normally called in a server environment. By default,  a transaction context will be created and bound to a thread if need be, every time a new transaction is requested. So when  HyperGraph is embedded in a client application, there is no need to explicitly attach/detach contexts to threads. However, in  an environment using thread pooling such as is common in servers where a single transaction can span multiple requests, use the  <code>threadAttach</code> and <code>threadDetach</code> methods to switch transactions contexts bound to clients.   </p>

@@ -1,0 +1,128 @@
+63
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='true'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='is'
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='lenient'
+12 argument (NullLiteralExpr)
+13 name (SimpleName)
+14 identifier='XmlStreamReader'
+15 parameters
+16 parameter (Parameter)
+17 isVarArgs='false'
+18 name (SimpleName)
+19 identifier='is'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='InputStream'
+23 parameter (Parameter)
+24 isVarArgs='false'
+25 name (SimpleName)
+26 identifier='lenient'
+27 type (PrimitiveType)
+28 type='BOOLEAN'
+29 thrownExceptions
+30 thrownException (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='IOException'
+33 annotations
+34 annotation (NormalAnnotationExpr)
+35 name (Name)
+36 identifier='DSGenerator'
+37 pairs
+38 pair (MemberValuePair)
+39 name (SimpleName)
+40 identifier='tool_name'
+41 value (StringLiteralExpr)
+42 value='Doppelganger'
+43 pair (MemberValuePair)
+44 name (SimpleName)
+45 identifier='tool_version'
+46 value (StringLiteralExpr)
+47 value='2.0'
+48 pair (MemberValuePair)
+49 name (SimpleName)
+50 identifier='generated_on'
+51 value (StringLiteralExpr)
+52 value='2014-09-03 14:59:53.177 -0400'
+53 pair (MemberValuePair)
+54 name (SimpleName)
+55 identifier='hash_original_method'
+56 value (StringLiteralExpr)
+57 value='D7947FA233878C6544C57437912F92F2'
+58 pair (MemberValuePair)
+59 name (SimpleName)
+60 identifier='hash_generated_method'
+61 value (StringLiteralExpr)
+62 value='59FC53656E2191F8D96CD6A9F55E8846'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+5 9
+9 10
+10 11
+5 12
+0 13
+13 14
+0 15
+15 16
+16 17
+16 18
+18 19
+16 20
+20 21
+21 22
+15 23
+23 24
+23 25
+25 26
+23 27
+27 28
+0 29
+29 30
+30 31
+31 32
+0 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+39 40
+38 41
+41 42
+37 43
+43 44
+44 45
+43 46
+46 47
+37 48
+48 49
+49 50
+48 51
+51 52
+37 53
+53 54
+54 55
+53 56
+56 57
+37 58
+58 59
+59 60
+58 61
+61 62
+
+Creates a Reader for a raw InputStream. <p> It follows the same logic used for files. <p> If lenient detection is indicated and the detection above fails as per specifications it then attempts the following: <p> If the content type was 'text/html' it replaces it with 'text/xml' and tries the detection again. <p> Else if the XML prolog had a charset encoding that encoding is used. <p> Else if the content type had a charset encoding that encoding is used. <p> Else 'UTF-8' is used. <p> If lenient detection is indicated an XmlStreamReaderException is never thrown.

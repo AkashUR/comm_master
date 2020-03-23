@@ -1,0 +1,190 @@
+94
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getFirstChildElement'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='DOMUtils'
+13 arguments
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='isElem'
+17 argument (StringLiteralExpr)
+18 value='X509IssuerName'
+19 name (SimpleName)
+20 identifier='iNElem'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Element'
+24 statement (ExpressionStmt)
+25 expression (VariableDeclarationExpr)
+26 variables
+27 variable (VariableDeclarator)
+28 initializer (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getNextSiblingElement'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='DOMUtils'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='iNElem'
+38 argument (StringLiteralExpr)
+39 value='X509SerialNumber'
+40 name (SimpleName)
+41 identifier='sNElem'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Element'
+45 statement (ExpressionStmt)
+46 expression (AssignExpr)
+47 operator='ASSIGN'
+48 target (NameExpr)
+49 name (SimpleName)
+50 identifier='issuerName'
+51 value (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='getNodeValue'
+54 scope (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getFirstChild'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='iNElem'
+60 statement (ExpressionStmt)
+61 expression (AssignExpr)
+62 operator='ASSIGN'
+63 target (NameExpr)
+64 name (SimpleName)
+65 identifier='serialNumber'
+66 value (ObjectCreationExpr)
+67 type (ClassOrInterfaceType)
+68 name (SimpleName)
+69 identifier='BigInteger'
+70 arguments
+71 argument (MethodCallExpr)
+72 name (SimpleName)
+73 identifier='getNodeValue'
+74 scope (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='getFirstChild'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='sNElem'
+80 name (SimpleName)
+81 identifier='DOMX509IssuerSerial'
+82 parameters
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='isElem'
+87 type (ClassOrInterfaceType)
+88 name (SimpleName)
+89 identifier='Element'
+90 thrownExceptions
+91 thrownException (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='MarshalException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+15 16
+13 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+34 38
+38 39
+27 40
+40 41
+27 42
+42 43
+43 44
+2 45
+45 46
+46 47
+46 48
+48 49
+49 50
+46 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+2 60
+60 61
+61 62
+61 63
+63 64
+64 65
+61 66
+66 67
+67 68
+68 69
+66 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+74 77
+77 78
+78 79
+0 80
+80 81
+0 82
+82 83
+83 84
+83 85
+85 86
+83 87
+87 88
+88 89
+0 90
+90 91
+91 92
+92 93
+
+Creates a <code>DOMX509IssuerSerial</code> from an element.

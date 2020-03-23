@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='recordEnumeratedHistogram'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='RecordHistogram'
+10 arguments
+11 argument (StringLiteralExpr)
+12 value='Search.ContextualSearchPreferenceState'
+13 argument (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='getPreferenceValue'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='PREFERENCE_HISTOGRAM_BOUNDARY'
+19 type (VoidType)
+20 name (SimpleName)
+21 identifier='logPreferenceState'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+10 13
+13 14
+14 15
+10 16
+16 17
+17 18
+0 19
+0 20
+20 21
+
+Logs the state of the Contextual Search preference. This function should be called if the Contextual Search feature is active, and will track the different preference settings (disabled, enabled or uninitialized). Calling more than once is fine.

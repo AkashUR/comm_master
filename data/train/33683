@@ -1,0 +1,46 @@
+22
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='eolIsSignificantP'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='flag'
+12 type (VoidType)
+13 name (SimpleName)
+14 identifier='eolIsSignificant'
+15 parameters
+16 parameter (Parameter)
+17 isVarArgs='false'
+18 name (SimpleName)
+19 identifier='flag'
+20 type (PrimitiveType)
+21 type='BOOLEAN'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+0 12
+0 13
+13 14
+0 15
+15 16
+16 17
+16 18
+18 19
+16 20
+20 21
+
+Determines whether or not ends of line are treated as tokens. If the flag argument is true, this tokenizer treats end of lines as tokens; the <code>nextToken</code> method returns <code>TT_EOL</code> and also sets the <code>ttype</code> field to this value when an end of line is read. <p> A line is a sequence of characters ending with either a carriage-return character (<code>'&#92;r'</code>) or a newline character (<code>'&#92;n'</code>). In addition, a carriage-return character followed immediately by a newline character is treated as a single end-of-line token. <p> If the <code>flag</code> is false, end-of-line characters are treated as white space and serve only to separate tokens.

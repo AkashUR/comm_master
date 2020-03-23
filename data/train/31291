@@ -1,0 +1,230 @@
+114
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (AssertStmt)
+4 check (BinaryExpr)
+5 operator='GREATER_EQUALS'
+6 left (NameExpr)
+7 name (SimpleName)
+8 identifier='bufferCapacity'
+9 right (IntegerLiteralExpr)
+10 value='1'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='buffer'
+17 scope (ThisExpr)
+18 value (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='order'
+21 scope (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='allocate'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='ByteBuffer'
+27 arguments
+28 argument (NameExpr)
+29 name (SimpleName)
+30 identifier='bufferCapacity'
+31 arguments
+32 argument (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='BIG_ENDIAN'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='ByteOrder'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='limit'
+42 scope (FieldAccessExpr)
+43 name (SimpleName)
+44 identifier='buffer'
+45 scope (ThisExpr)
+46 arguments
+47 argument (IntegerLiteralExpr)
+48 value='0'
+49 statement (ExpressionStmt)
+50 expression (AssignExpr)
+51 operator='ASSIGN'
+52 target (FieldAccessExpr)
+53 name (SimpleName)
+54 identifier='scratchBuffer'
+55 scope (ThisExpr)
+56 value (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='order'
+59 scope (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='allocate'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='ByteBuffer'
+65 arguments
+66 argument (IntegerLiteralExpr)
+67 value='8'
+68 arguments
+69 argument (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='BIG_ENDIAN'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='ByteOrder'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='ASSIGN'
+78 target (FieldAccessExpr)
+79 name (SimpleName)
+80 identifier='channel'
+81 scope (ThisExpr)
+82 value (NameExpr)
+83 name (SimpleName)
+84 identifier='channel'
+85 statement (ExpressionStmt)
+86 expression (AssignExpr)
+87 operator='ASSIGN'
+88 target (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='state'
+91 scope (ThisExpr)
+92 value (FieldAccessExpr)
+93 name (SimpleName)
+94 identifier='AWAITING_CHUNK'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='State'
+98 name (SimpleName)
+99 identifier='BufferingChunkedInput'
+100 parameters
+101 parameter (Parameter)
+102 isVarArgs='false'
+103 name (SimpleName)
+104 identifier='channel'
+105 type (ClassOrInterfaceType)
+106 name (SimpleName)
+107 identifier='ReadableByteChannel'
+108 parameter (Parameter)
+109 isVarArgs='false'
+110 name (SimpleName)
+111 identifier='bufferCapacity'
+112 type (PrimitiveType)
+113 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+14 17
+12 18
+18 19
+19 20
+18 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+18 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+42 45
+39 46
+46 47
+47 48
+2 49
+49 50
+50 51
+50 52
+52 53
+53 54
+52 55
+50 56
+56 57
+57 58
+56 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+56 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+2 75
+75 76
+76 77
+76 78
+78 79
+79 80
+78 81
+76 82
+82 83
+83 84
+2 85
+85 86
+86 87
+86 88
+88 89
+89 90
+88 91
+86 92
+92 93
+93 94
+92 95
+95 96
+96 97
+0 98
+98 99
+0 100
+100 101
+101 102
+101 103
+103 104
+101 105
+105 106
+106 107
+100 108
+108 109
+108 110
+110 111
+108 112
+112 113
+
+Creates a BufferingChunkedInput from a given channel with a specified buffer size.

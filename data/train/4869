@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setOnPreferenceChangeListener'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='preference'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='sBindPreferenceSummaryToValueListener'
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='onPreferenceChange'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='sBindPreferenceSummaryToValueListener'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='preference'
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getString'
+28 scope (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='getDefaultSharedPreferences'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='PreferenceManager'
+34 arguments
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getContext'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='preference'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getKey'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='preference'
+48 argument (StringLiteralExpr)
+49 value=''
+50 type (VoidType)
+51 name (SimpleName)
+52 identifier='bindPreferenceSummaryToValue'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='preference'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='Preference'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+21 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+25 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+41 48
+48 49
+0 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+
+Binds a preference's summary to its value. More specifically, when the preference's value is changed, its summary (line of text below the preference title) is updated to reflect the value. The summary is also immediately updated upon calling this method. The exact display format is dependent on the type of preference.

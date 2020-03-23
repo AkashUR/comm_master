@@ -1,0 +1,264 @@
+131
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='State'
+11 scope (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='ClusterMaintenanceTaskService'
+14 name (SimpleName)
+15 identifier='patchState'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='State'
+19 scope (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='ClusterMaintenanceTaskService'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='taskState'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='patchState'
+31 value (ObjectCreationExpr)
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='TaskState'
+35 statement (ExpressionStmt)
+36 expression (AssignExpr)
+37 operator='ASSIGN'
+38 target (FieldAccessExpr)
+39 name (SimpleName)
+40 identifier='stage'
+41 scope (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='taskState'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='patchState'
+47 value (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='STARTED'
+50 scope (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='TaskStage'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='TaskState'
+56 statement (ExpressionStmt)
+57 expression (VariableDeclarationExpr)
+58 variables
+59 variable (VariableDeclarator)
+60 initializer (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='setCompletion'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='setBody'
+66 scope (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='createPatch'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='Operation'
+72 arguments
+73 argument (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='buildUri'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='UriUtils'
+79 arguments
+80 argument (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getHost'
+83 argument (BinaryExpr)
+84 operator='PLUS'
+85 left (BinaryExpr)
+86 operator='PLUS'
+87 left (FieldAccessExpr)
+88 name (SimpleName)
+89 identifier='SELF_LINK'
+90 scope (NameExpr)
+91 name (SimpleName)
+92 identifier='ClusterMaintenanceTaskFactoryService'
+93 right (StringLiteralExpr)
+94 value='/'
+95 right (FieldAccessExpr)
+96 name (SimpleName)
+97 identifier='clusterId'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='currentState'
+101 arguments
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='patchState'
+105 arguments
+106 argument (NullLiteralExpr)
+107 name (SimpleName)
+108 identifier='patchOperation'
+109 type (ClassOrInterfaceType)
+110 name (SimpleName)
+111 identifier='Operation'
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='sendRequest'
+116 arguments
+117 argument (NameExpr)
+118 name (SimpleName)
+119 identifier='patchOperation'
+120 type (VoidType)
+121 name (SimpleName)
+122 identifier='resizeCluster'
+123 parameters
+124 parameter (Parameter)
+125 isVarArgs='false'
+126 name (SimpleName)
+127 identifier='currentState'
+128 type (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='ClusterResizeTask'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+25 28
+28 29
+29 30
+23 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+36 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+36 47
+47 48
+48 49
+47 50
+50 51
+51 52
+50 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+59 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+66 69
+69 70
+70 71
+66 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+79 83
+83 84
+83 85
+85 86
+85 87
+87 88
+88 89
+87 90
+90 91
+91 92
+85 93
+93 94
+83 95
+95 96
+96 97
+95 98
+98 99
+99 100
+63 101
+101 102
+102 103
+103 104
+60 105
+105 106
+59 107
+107 108
+59 109
+109 110
+110 111
+2 112
+112 113
+113 114
+114 115
+113 116
+116 117
+117 118
+118 119
+0 120
+0 121
+121 122
+0 123
+123 124
+124 125
+124 126
+126 127
+124 128
+128 129
+129 130
+
+Performs the resize operation using SlavesNodeRollout. On successful completion, it marks the cluster as READY and moves the current task to FINISHED state.

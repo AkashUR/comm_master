@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createProcedure'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='testUnsupportedTypesProc'
+10 argument (StringLiteralExpr)
+11 value='(OUT param VARCHAR(20)) BEGIN SELECT 1; END'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='checkUnsupportedTypesBehavior'
+16 arguments
+17 argument (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='prepareCall'
+20 scope (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='conn'
+23 scope (ThisExpr)
+24 arguments
+25 argument (StringLiteralExpr)
+26 value='{CALL testUnsupportedTypesProc(?)}'
+27 type (VoidType)
+28 name (SimpleName)
+29 identifier='testCallStmtSetObjectAndNewUnsupportedTypes'
+30 thrownExceptions
+31 thrownException (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+20 23
+17 24
+24 25
+25 26
+0 27
+0 28
+28 29
+0 30
+30 31
+31 32
+32 33
+
+Test for CallableStatement.setObject(), unsupported SQL types TIME_WITH_TIMEZONE, TIMESTAMP_WITH_TIMEZONE and REF_CURSOR.

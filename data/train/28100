@@ -1,0 +1,68 @@
+33
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='forEach'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='filter'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='entriesStream'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='bucket'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='filter'
+20 arguments
+21 argument (NullLiteralExpr)
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='insertBucket'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='bucket'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='KBucket'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+7 16
+16 17
+17 18
+18 19
+4 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+
+consider the following routing table: 0000000... 0000001... 000001... 00001... 0001... 001... 01... 1... now consider the following target key: 1001101111011100000000011101011001111100001100000010111010111110101000100010101011101001101111010011011110000111010010001100001101011110100000010000011001101000 the first bucket we will want to pick values from is 1... the second bucket with the next-higher xor distance actually is 0001... This requires a non-contiguous search

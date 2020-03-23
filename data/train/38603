@@ -1,0 +1,178 @@
+88
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Range'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='colorCode'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='count'
+18 name (SimpleName)
+19 identifier='range'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Range'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='put'
+27 scope (FieldAccessExpr)
+28 name (SimpleName)
+29 identifier='pickableObjectRanges'
+30 scope (ThisExpr)
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='range'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='factory'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='adjustExtremeColorCodes'
+42 scope (ThisExpr)
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='colorCode'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='adjustExtremeColorCodes'
+51 scope (ThisExpr)
+52 arguments
+53 argument (BinaryExpr)
+54 operator='MINUS'
+55 left (BinaryExpr)
+56 operator='PLUS'
+57 left (NameExpr)
+58 name (SimpleName)
+59 identifier='colorCode'
+60 right (NameExpr)
+61 name (SimpleName)
+62 identifier='count'
+63 right (IntegerLiteralExpr)
+64 value='1'
+65 type (VoidType)
+66 name (SimpleName)
+67 identifier='addPickableObjectRange'
+68 parameters
+69 parameter (Parameter)
+70 isVarArgs='false'
+71 name (SimpleName)
+72 identifier='colorCode'
+73 type (PrimitiveType)
+74 type='INT'
+75 parameter (Parameter)
+76 isVarArgs='false'
+77 name (SimpleName)
+78 identifier='count'
+79 type (PrimitiveType)
+80 type='INT'
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='factory'
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='PickedObjectFactory'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+27 30
+24 31
+31 32
+32 33
+33 34
+31 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+39 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+48 52
+52 53
+53 54
+53 55
+55 56
+55 57
+57 58
+58 59
+55 60
+60 61
+61 62
+53 63
+63 64
+0 65
+0 66
+66 67
+0 68
+68 69
+69 70
+69 71
+71 72
+69 73
+73 74
+68 75
+75 76
+75 77
+77 78
+75 79
+79 80
+68 81
+81 82
+81 83
+83 84
+81 85
+85 86
+86 87
+
+Associates a collection of picked objects with a range of pick colors. PickSupport uses the factory to delay PickedObject construction until a matching pick color is identified by getTopObject or resolvePick. This eliminates the overhead of creating and managing a large collection of PickedObject instances when only a few may actually be picked.

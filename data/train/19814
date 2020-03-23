@@ -1,0 +1,120 @@
+59
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='buildParentClassPath'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='cp'
+11 statement (ForeachStmt)
+12 body (BlockStmt)
+13 statements
+14 statement (ExpressionStmt)
+15 expression (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='buildSelfClassPath'
+18 scope (NameExpr)
+19 name (SimpleName)
+20 identifier='loaderImport'
+21 arguments
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='cp'
+25 iterable (NameExpr)
+26 name (SimpleName)
+27 identifier='_importLoaders'
+28 variable (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 name (SimpleName)
+32 identifier='loaderImport'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='DynamicClassLoader'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='buildSelfClassPath'
+40 arguments
+41 argument (NameExpr)
+42 name (SimpleName)
+43 identifier='cp'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='buildClassPath'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='cp'
+52 type (ClassOrInterfaceType)
+53 name (SimpleName)
+54 identifier='ArrayList'
+55 typeArguments
+56 typeArgument (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+15 21
+21 22
+22 23
+23 24
+11 25
+25 26
+26 27
+11 28
+28 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+42 43
+0 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+
+Fill data for the class path.  fillClassPath() will add all .jar and .zip files in the directory list.

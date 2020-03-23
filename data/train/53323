@@ -1,0 +1,446 @@
+222
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertU'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='adoc'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='id'
+14 argument (StringLiteralExpr)
+15 value='1'
+16 argument (StringLiteralExpr)
+17 value='stringdv'
+18 argument (StringLiteralExpr)
+19 value='b'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='assertU'
+24 arguments
+25 argument (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='adoc'
+28 arguments
+29 argument (StringLiteralExpr)
+30 value='id'
+31 argument (StringLiteralExpr)
+32 value='2'
+33 argument (StringLiteralExpr)
+34 value='stringdv'
+35 argument (StringLiteralExpr)
+36 value='a'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='assertU'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='adoc'
+45 arguments
+46 argument (StringLiteralExpr)
+47 value='id'
+48 argument (StringLiteralExpr)
+49 value='3'
+50 argument (StringLiteralExpr)
+51 value='stringdv'
+52 argument (StringLiteralExpr)
+53 value='c'
+54 statement (ExpressionStmt)
+55 expression (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='assertU'
+58 arguments
+59 argument (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='adoc'
+62 arguments
+63 argument (StringLiteralExpr)
+64 value='id'
+65 argument (StringLiteralExpr)
+66 value='4'
+67 argument (StringLiteralExpr)
+68 value='stringdv'
+69 argument (StringLiteralExpr)
+70 value='car'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='assertU'
+75 arguments
+76 argument (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='adoc'
+79 arguments
+80 argument (StringLiteralExpr)
+81 value='id'
+82 argument (StringLiteralExpr)
+83 value='5'
+84 argument (StringLiteralExpr)
+85 value='stringdv'
+86 argument (StringLiteralExpr)
+87 value='dog'
+88 argument (StringLiteralExpr)
+89 value='stringdv'
+90 argument (StringLiteralExpr)
+91 value='cat'
+92 statement (ExpressionStmt)
+93 expression (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='assertU'
+96 arguments
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='commit'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='assertQ'
+104 arguments
+105 argument (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='req'
+108 arguments
+109 argument (StringLiteralExpr)
+110 value='q'
+111 argument (StringLiteralExpr)
+112 value='stringdv:car'
+113 argument (StringLiteralExpr)
+114 value='sort'
+115 argument (StringLiteralExpr)
+116 value='id asc'
+117 argument (StringLiteralExpr)
+118 value='//*[@numFound=\'1\']'
+119 argument (StringLiteralExpr)
+120 value='//result/doc[1]/str[@name=\'id\'][.=4]'
+121 statement (ExpressionStmt)
+122 expression (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='assertQ'
+125 arguments
+126 argument (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='req'
+129 arguments
+130 argument (StringLiteralExpr)
+131 value='q'
+132 argument (StringLiteralExpr)
+133 value='stringdv:[b TO d]'
+134 argument (StringLiteralExpr)
+135 value='sort'
+136 argument (StringLiteralExpr)
+137 value='id asc'
+138 argument (StringLiteralExpr)
+139 value='//*[@numFound=\'4\']'
+140 argument (StringLiteralExpr)
+141 value='//result/doc[1]/str[@name=\'id\'][.=1]'
+142 argument (StringLiteralExpr)
+143 value='//result/doc[2]/str[@name=\'id\'][.=3]'
+144 argument (StringLiteralExpr)
+145 value='//result/doc[3]/str[@name=\'id\'][.=4]'
+146 argument (StringLiteralExpr)
+147 value='//result/doc[4]/str[@name=\'id\'][.=5]'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='assertQ'
+152 arguments
+153 argument (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='req'
+156 arguments
+157 argument (StringLiteralExpr)
+158 value='q'
+159 argument (StringLiteralExpr)
+160 value='stringdv:c*'
+161 argument (StringLiteralExpr)
+162 value='sort'
+163 argument (StringLiteralExpr)
+164 value='id asc'
+165 argument (StringLiteralExpr)
+166 value='//*[@numFound=\'3\']'
+167 argument (StringLiteralExpr)
+168 value='//result/doc[1]/str[@name=\'id\'][.=3]'
+169 argument (StringLiteralExpr)
+170 value='//result/doc[2]/str[@name=\'id\'][.=4]'
+171 argument (StringLiteralExpr)
+172 value='//result/doc[3]/str[@name=\'id\'][.=5]'
+173 statement (ExpressionStmt)
+174 expression (MethodCallExpr)
+175 name (SimpleName)
+176 identifier='assertQ'
+177 arguments
+178 argument (MethodCallExpr)
+179 name (SimpleName)
+180 identifier='req'
+181 arguments
+182 argument (StringLiteralExpr)
+183 value='q'
+184 argument (StringLiteralExpr)
+185 value='stringdv:c?r'
+186 argument (StringLiteralExpr)
+187 value='sort'
+188 argument (StringLiteralExpr)
+189 value='id asc'
+190 argument (StringLiteralExpr)
+191 value='//*[@numFound=\'1\']'
+192 argument (StringLiteralExpr)
+193 value='//result/doc[1]/str[@name=\'id\'][.=4]'
+194 statement (ExpressionStmt)
+195 expression (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='assertQ'
+198 arguments
+199 argument (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='req'
+202 arguments
+203 argument (StringLiteralExpr)
+204 value='q'
+205 argument (StringLiteralExpr)
+206 value='stringdv:/c[a-b]r/'
+207 argument (StringLiteralExpr)
+208 value='sort'
+209 argument (StringLiteralExpr)
+210 value='id asc'
+211 argument (StringLiteralExpr)
+212 value='//*[@numFound=\'1\']'
+213 argument (StringLiteralExpr)
+214 value='//result/doc[1]/str[@name=\'id\'][.=4]'
+215 type (VoidType)
+216 name (SimpleName)
+217 identifier='testStringDocValuesMatch'
+218 thrownExceptions
+219 thrownException (ClassOrInterfaceType)
+220 name (SimpleName)
+221 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+11 14
+14 15
+11 16
+16 17
+11 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+28 33
+33 34
+28 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+45 50
+50 51
+45 52
+52 53
+2 54
+54 55
+55 56
+56 57
+55 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+62 65
+65 66
+62 67
+67 68
+62 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+79 82
+82 83
+79 84
+84 85
+79 86
+86 87
+79 88
+88 89
+79 90
+90 91
+2 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+108 111
+111 112
+108 113
+113 114
+108 115
+115 116
+104 117
+117 118
+104 119
+119 120
+2 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+127 128
+126 129
+129 130
+130 131
+129 132
+132 133
+129 134
+134 135
+129 136
+136 137
+125 138
+138 139
+125 140
+140 141
+125 142
+142 143
+125 144
+144 145
+125 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+156 159
+159 160
+156 161
+161 162
+156 163
+163 164
+152 165
+165 166
+152 167
+167 168
+152 169
+169 170
+152 171
+171 172
+2 173
+173 174
+174 175
+175 176
+174 177
+177 178
+178 179
+179 180
+178 181
+181 182
+182 183
+181 184
+184 185
+181 186
+186 187
+181 188
+188 189
+177 190
+190 191
+177 192
+192 193
+2 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+200 201
+199 202
+202 203
+203 204
+202 205
+205 206
+202 207
+207 208
+202 209
+209 210
+198 211
+211 212
+198 213
+213 214
+0 215
+0 216
+216 217
+0 218
+218 219
+219 220
+220 221
+
+Tests the ability to do basic queries (without scoring, just match-only) on string docvalues fields that are not inverted (indexed "forward" only)

@@ -1,0 +1,86 @@
+42
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='v'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='Log'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='TAG'
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (StringLiteralExpr)
+17 value='onSdkAvailable recieved: Response -'
+18 right (NameExpr)
+19 name (SimpleName)
+20 identifier='isSandboxMode'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='initiateGetUserIdRequest'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='PurchasingManager'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='onSdkAvailable'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='isSandboxMode'
+36 type (PrimitiveType)
+37 type='BOOLEAN'
+38 annotations
+39 annotation (MarkerAnnotationExpr)
+40 name (Name)
+41 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+14 16
+16 17
+14 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+0 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+0 38
+38 39
+39 40
+40 41
+
+Invoked once the observer is registered with the Puchasing Manager If the boolean is false, the application is receiving responses from the SDK Tester. If the boolean is true, the application is live in production.

@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='registerWritingThread'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='rwtm'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='setIndex'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='area'
+17 arguments
+18 argument (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='size'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='requestedAreas'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='add'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='requestedAreas'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='area'
+35 statement (ExpressionStmt)
+36 expression (AssignExpr)
+37 operator='ASSIGN'
+38 target (NameExpr)
+39 name (SimpleName)
+40 identifier='upToDate'
+41 value (BooleanLiteralExpr)
+42 value='false'
+43 statement (ExpressionStmt)
+44 expression (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='notifyObserver'
+47 statement (SynchronizedStmt)
+48 body (BlockStmt)
+49 statements
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='notify'
+54 scope (ThisExpr)
+55 expression (ThisExpr)
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='unregisterWritingThread'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='rwtm'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='addArea'
+66 parameters
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='area'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='Area'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+11 17
+17 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+36 38
+38 39
+39 40
+36 41
+41 42
+2 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+50 51
+51 52
+52 53
+51 54
+47 55
+2 56
+56 57
+57 58
+58 59
+57 60
+60 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+
+Note that for speed, it is up to the caller to create areas that are multiples of area panels whenever possible. ie. if we are selecting a huge swath of area, it would be best to be  aligned at an area panel boundary, so that we aren't messing with a bunch of small area panels

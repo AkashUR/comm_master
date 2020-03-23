@@ -1,0 +1,120 @@
+59
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='generate'
+7 scope (EnclosedExpr)
+8 inner (ObjectCreationExpr)
+9 type (ClassOrInterfaceType)
+10 name (SimpleName)
+11 identifier='CacheXmlGenerator'
+12 arguments
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='cache'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='useSchema'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='version'
+22 argument (BooleanLiteralExpr)
+23 value='true'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='pw'
+28 type (VoidType)
+29 name (SimpleName)
+30 identifier='generate'
+31 parameters
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='cache'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='ClientCache'
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='pw'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='PrintWriter'
+46 parameter (Parameter)
+47 isVarArgs='false'
+48 name (SimpleName)
+49 identifier='useSchema'
+50 type (PrimitiveType)
+51 type='BOOLEAN'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='version'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+12 19
+19 20
+20 21
+12 22
+22 23
+4 24
+24 25
+25 26
+26 27
+0 28
+0 29
+29 30
+0 31
+31 32
+32 33
+32 34
+34 35
+32 36
+36 37
+37 38
+31 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+31 46
+46 47
+46 48
+48 49
+46 50
+50 51
+31 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+
+Examines the given <code>ClientCache</code> and from it generates XML data that is written to the given <code>PrintWriter</code>. The schema/dtd for the current version of GemFire is used.

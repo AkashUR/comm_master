@@ -1,0 +1,104 @@
+51
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='underlying_terms'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='t'
+14 statement (ExpressionStmt)
+15 expression (AssignExpr)
+16 operator='ASSIGN'
+17 target (NameExpr)
+18 name (SimpleName)
+19 identifier='terms'
+20 value (CastExpr)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='toArray'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='underlying_terms'
+27 arguments
+28 argument (ArrayCreationExpr)
+29 elementType (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='RatTerm'
+32 initializer (ArrayInitializerExpr)
+33 levels
+34 level (ArrayCreationLevel)
+35 type (ArrayType)
+36 origin='TYPE'
+37 componentType (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='RatTerm'
+40 type (VoidType)
+41 name (SimpleName)
+42 identifier='addElement'
+43 parameters
+44 parameter (Parameter)
+45 isVarArgs='false'
+46 name (SimpleName)
+47 identifier='t'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='RatTerm'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+2 14
+14 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+30 31
+28 32
+28 33
+33 34
+20 35
+35 36
+35 37
+37 38
+38 39
+0 40
+0 41
+41 42
+0 43
+43 44
+44 45
+44 46
+46 47
+44 48
+48 49
+49 50
+
+Appending operation. requires: t != null modifies: this effects: Adds the specified RatTerm, 't', to the end of this vector, increasing the vector's size by one. <br> e.g. Given a RatTermVec v = [t2, t3, t4], the statement "v.addElement(t3);" will make v_post = [t2, t3, t4, t3].

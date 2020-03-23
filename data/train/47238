@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='retryTime'
+9 value (BinaryExpr)
+10 operator='PLUS'
+11 left (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='currentTimeMillis'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='Utils'
+17 right (CastExpr)
+18 expression (NameExpr)
+19 name (SimpleName)
+20 identifier='backoff'
+21 type (PrimitiveType)
+22 type='LONG'
+23 statement (ExpressionStmt)
+24 expression (AssignExpr)
+25 operator='ASSIGN'
+26 target (NameExpr)
+27 name (SimpleName)
+28 identifier='backoff'
+29 value (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='min'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='Math'
+35 arguments
+36 argument (BinaryExpr)
+37 operator='MULTIPLY'
+38 left (NameExpr)
+39 name (SimpleName)
+40 identifier='backoff'
+41 right (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='multiplier'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='params'
+47 argument (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='maximum'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='params'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='trackFailure'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+9 11
+11 12
+12 13
+11 14
+14 15
+15 16
+9 17
+17 18
+18 19
+19 20
+17 21
+21 22
+2 23
+23 24
+24 25
+24 26
+26 27
+27 28
+24 29
+29 30
+30 31
+29 32
+32 33
+33 34
+29 35
+35 36
+36 37
+36 38
+38 39
+39 40
+36 41
+41 42
+42 43
+41 44
+44 45
+45 46
+35 47
+47 48
+48 49
+47 50
+50 51
+51 52
+0 53
+0 54
+54 55
+
+Track a failure - multiply the back off interval by the multiplier

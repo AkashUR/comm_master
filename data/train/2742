@@ -1,0 +1,84 @@
+41
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='load'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='unit'
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='checkFalse'
+14 type (VoidType)
+15 name (SimpleName)
+16 identifier='load'
+17 parameters
+18 parameter (Parameter)
+19 isVarArgs='false'
+20 name (SimpleName)
+21 identifier='unit'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='Entity'
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='checkFalse'
+29 type (PrimitiveType)
+30 type='BOOLEAN'
+31 parameter (Parameter)
+32 isVarArgs='false'
+33 name (SimpleName)
+34 identifier='bayNumber'
+35 type (PrimitiveType)
+36 type='INT'
+37 annotations
+38 annotation (MarkerAnnotationExpr)
+39 name (Name)
+40 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+0 14
+0 15
+15 16
+0 17
+17 18
+18 19
+18 20
+20 21
+18 22
+22 23
+23 24
+17 25
+25 26
+25 27
+27 28
+25 29
+29 30
+17 31
+31 32
+31 33
+33 34
+31 35
+35 36
+0 37
+37 38
+38 39
+39 40
+
+We need to override this function to make sure the proper load method gets called in some cases, but Squadrons can't have bays, so we can just ignore the bay number.

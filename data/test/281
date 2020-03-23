@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='BufferedReader'
+11 arguments
+12 argument (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='obtainReader'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='textSource'
+18 name (SimpleName)
+19 identifier='reader'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='BufferedReader'
+23 statement (TryStmt)
+24 finallyBlock (BlockStmt)
+25 statements
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='closeQuietly'
+30 scope (NameExpr)
+31 name (SimpleName)
+32 identifier='IOUtils'
+33 arguments
+34 argument (NameExpr)
+35 name (SimpleName)
+36 identifier='reader'
+37 tryBlock (BlockStmt)
+38 statements
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='announceSeedsFromReader'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='reader'
+47 type (VoidType)
+48 name (SimpleName)
+49 identifier='announceSeeds'
+50 annotations
+51 annotation (MarkerAnnotationExpr)
+52 name (Name)
+53 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+27 33
+33 34
+34 35
+35 36
+23 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+45 46
+0 47
+0 48
+48 49
+0 50
+50 51
+51 52
+52 53
+
+Announce all seeds from configured source to SeedListeners (including nonseed lines mixed in).

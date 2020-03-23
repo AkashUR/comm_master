@@ -1,0 +1,184 @@
+91
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='registerConfiguration'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='factory'
+10 scope (ThisExpr)
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='testableContainerId'
+14 argument (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='INSTALLED'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='ContainerType'
+20 argument (FieldAccessExpr)
+21 name (SimpleName)
+22 identifier='STANDALONE'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='ConfigurationType'
+26 argument (ClassExpr)
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='StandaloneLocalConfigurationStub'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='createConfiguration'
+37 scope (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='factory'
+40 scope (ThisExpr)
+41 arguments
+42 argument (StringLiteralExpr)
+43 value='testableContainerId'
+44 argument (FieldAccessExpr)
+45 name (SimpleName)
+46 identifier='INSTALLED'
+47 scope (NameExpr)
+48 name (SimpleName)
+49 identifier='ContainerType'
+50 argument (FieldAccessExpr)
+51 name (SimpleName)
+52 identifier='STANDALONE'
+53 scope (NameExpr)
+54 name (SimpleName)
+55 identifier='ConfigurationType'
+56 argument (StringLiteralExpr)
+57 value='/some/path'
+58 name (SimpleName)
+59 identifier='configuration'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='Configuration'
+63 statement (ExpressionStmt)
+64 expression (MethodCallExpr)
+65 name (SimpleName)
+66 identifier='assertEquals'
+67 arguments
+68 argument (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='getName'
+71 scope (ClassExpr)
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='StandaloneLocalConfigurationStub'
+75 argument (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='getName'
+78 scope (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='getClass'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='configuration'
+84 type (VoidType)
+85 name (SimpleName)
+86 identifier='testRegisterCustomConfigurationOnExistingContainer'
+87 thrownExceptions
+88 thrownException (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+4 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+11 20
+20 21
+21 22
+20 23
+23 24
+24 25
+11 26
+26 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+34 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+41 50
+50 51
+51 52
+50 53
+53 54
+54 55
+41 56
+56 57
+33 58
+58 59
+33 60
+60 61
+61 62
+2 63
+63 64
+64 65
+65 66
+64 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+67 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+0 84
+0 85
+85 86
+0 87
+87 88
+88 89
+89 90
+
+Test custom configuration registration on an existing container.

@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (UnaryExpr)
+5 operator='POSTFIX_INCREMENT'
+6 expression (NameExpr)
+7 name (SimpleName)
+8 identifier='warnings'
+9 statement (ExpressionStmt)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='err'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (BinaryExpr)
+17 operator='PLUS'
+18 left (NameExpr)
+19 name (SimpleName)
+20 identifier='NL'
+21 right (StringLiteralExpr)
+22 value='Warning : '
+23 right (NameExpr)
+24 name (SimpleName)
+25 identifier='message'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='warning'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='message'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+14 16
+16 17
+16 18
+18 19
+19 20
+16 21
+21 22
+14 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+
+print a warning without position information

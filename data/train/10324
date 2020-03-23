@@ -1,0 +1,124 @@
+61
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='collectOsrPointsAndBarriers'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='ir'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='renovateOsrPoints'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='ir'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='removeOsrBarriers'
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='ir'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='fixupCFGForOsr'
+31 arguments
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='ir'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='perform'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='branchOpts'
+42 arguments
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='ir'
+46 type (VoidType)
+47 name (SimpleName)
+48 identifier='perform'
+49 parameters
+50 parameter (Parameter)
+51 isVarArgs='false'
+52 name (SimpleName)
+53 identifier='ir'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='IR'
+57 annotations
+58 annotation (MarkerAnnotationExpr)
+59 name (Name)
+60 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+44 45
+0 46
+0 47
+47 48
+0 49
+49 50
+50 51
+50 52
+52 53
+50 54
+54 55
+55 56
+0 57
+57 58
+58 59
+59 60
+
+Goes through each instruction, reconstruct OsrPoint instructions.

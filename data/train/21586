@@ -1,0 +1,66 @@
+32
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='repaintPending'
+9 value (BooleanLiteralExpr)
+10 value='false'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='paintComponent'
+15 arguments
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='g'
+19 argument (BooleanLiteralExpr)
+20 value='true'
+21 type (VoidType)
+22 name (SimpleName)
+23 identifier='paintComponent'
+24 parameters
+25 parameter (Parameter)
+26 isVarArgs='false'
+27 name (SimpleName)
+28 identifier='g'
+29 type (ClassOrInterfaceType)
+30 name (SimpleName)
+31 identifier='Graphics'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+15 19
+19 20
+0 21
+0 22
+22 23
+0 24
+24 25
+25 26
+25 27
+27 28
+25 29
+29 30
+30 31
+
+<p>Paints this component as a root by going to all the parent components and setting the absolute translation based on coordinates and scroll status. Restores translation when the painting is finished.<br> One of the uses of this method is to create a "screenshot" as is demonstrated in the code below that creates an image for sharing on social media</p> <script src="https://gist.github.com/codenameone/6bf5e68b329ae59a25e3.js"></script>

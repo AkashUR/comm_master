@@ -1,0 +1,194 @@
+96
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='signature'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='SIG_DBASE_III'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='terminator1'
+19 scope (ThisExpr)
+20 value (IntegerLiteralExpr)
+21 value='0x0D'
+22 statement (ExpressionStmt)
+23 expression (AssignExpr)
+24 operator='ASSIGN'
+25 target (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='fileName'
+28 scope (ThisExpr)
+29 value (NameExpr)
+30 name (SimpleName)
+31 identifier='fileName'
+32 statement (ExpressionStmt)
+33 expression (MethodCallExpr)
+34 name (SimpleName)
+35 identifier='createDBFFile'
+36 arguments
+37 argument (ObjectCreationExpr)
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='File'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='fileName'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='destroy'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='setFields'
+52 arguments
+53 argument (NameExpr)
+54 name (SimpleName)
+55 identifier='fields'
+56 statement (ExpressionStmt)
+57 expression (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='write'
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='initialize'
+64 name (SimpleName)
+65 identifier='AttributeTable'
+66 parameters
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='fileName'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='String'
+74 parameter (Parameter)
+75 isVarArgs='false'
+76 name (SimpleName)
+77 identifier='fields'
+78 type (ArrayType)
+79 origin='TYPE'
+80 componentType (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='DBFField'
+83 parameter (Parameter)
+84 isVarArgs='false'
+85 name (SimpleName)
+86 identifier='destroy'
+87 type (PrimitiveType)
+88 type='BOOLEAN'
+89 thrownExceptions
+90 thrownException (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='DBFException'
+93 thrownException (ClassOrInterfaceType)
+94 name (SimpleName)
+95 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+2 22
+22 23
+23 24
+23 25
+25 26
+26 27
+25 28
+23 29
+29 30
+30 31
+2 32
+32 33
+33 34
+34 35
+33 36
+36 37
+37 38
+38 39
+39 40
+37 41
+41 42
+42 43
+43 44
+36 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+54 55
+2 56
+56 57
+57 58
+58 59
+2 60
+60 61
+61 62
+62 63
+0 64
+64 65
+0 66
+66 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+66 74
+74 75
+74 76
+76 77
+74 78
+78 79
+78 80
+80 81
+81 82
+66 83
+83 84
+83 85
+85 86
+83 87
+87 88
+0 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+
+Used to create an AttributeTable object when the DBF file does not already exist. A new DBF file will be created and initialized with the specified fields but it will not contain any records.

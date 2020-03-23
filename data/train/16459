@@ -1,0 +1,266 @@
+132
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='ObjectMapper'
+11 name (SimpleName)
+12 identifier='m'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='ObjectMapper'
+16 statement (ExpressionStmt)
+17 expression (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='enableDefaultTyping'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='m'
+23 arguments
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='NON_CONCRETE_AND_ARRAYS'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='DefaultTyping'
+30 statement (ExpressionStmt)
+31 expression (VariableDeclarationExpr)
+32 variables
+33 variable (VariableDeclarator)
+34 initializer (ObjectCreationExpr)
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='ArrayBean'
+38 arguments
+39 argument (ArrayCreationExpr)
+40 elementType (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='String'
+43 levels
+44 level (ArrayCreationLevel)
+45 dimension (IntegerLiteralExpr)
+46 value='0'
+47 name (SimpleName)
+48 identifier='bean'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='ArrayBean'
+52 statement (ExpressionStmt)
+53 expression (VariableDeclarationExpr)
+54 variables
+55 variable (VariableDeclarator)
+56 initializer (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='writeValueAsString'
+59 scope (NameExpr)
+60 name (SimpleName)
+61 identifier='m'
+62 arguments
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='bean'
+66 name (SimpleName)
+67 identifier='json'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='String'
+71 statement (ExpressionStmt)
+72 expression (VariableDeclarationExpr)
+73 variables
+74 variable (VariableDeclarator)
+75 initializer (MethodCallExpr)
+76 name (SimpleName)
+77 identifier='readValue'
+78 scope (NameExpr)
+79 name (SimpleName)
+80 identifier='m'
+81 arguments
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='json'
+85 argument (ClassExpr)
+86 type (ClassOrInterfaceType)
+87 name (SimpleName)
+88 identifier='ArrayBean'
+89 name (SimpleName)
+90 identifier='result'
+91 type (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='ArrayBean'
+94 statement (ExpressionStmt)
+95 expression (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='assertNotNull'
+98 arguments
+99 argument (FieldAccessExpr)
+100 name (SimpleName)
+101 identifier='values'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='result'
+105 statement (ExpressionStmt)
+106 expression (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='assertEquals'
+109 arguments
+110 argument (ClassExpr)
+111 type (ArrayType)
+112 origin='TYPE'
+113 componentType (ClassOrInterfaceType)
+114 name (SimpleName)
+115 identifier='String'
+116 argument (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='getClass'
+119 scope (FieldAccessExpr)
+120 name (SimpleName)
+121 identifier='values'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='result'
+125 type (VoidType)
+126 name (SimpleName)
+127 identifier='testArrayTypingSimple'
+128 thrownExceptions
+129 thrownException (ClassOrInterfaceType)
+130 name (SimpleName)
+131 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+17 20
+20 21
+21 22
+17 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+2 30
+30 31
+31 32
+32 33
+33 34
+34 35
+35 36
+36 37
+34 38
+38 39
+39 40
+40 41
+41 42
+39 43
+43 44
+44 45
+45 46
+33 47
+47 48
+33 49
+49 50
+50 51
+2 52
+52 53
+53 54
+54 55
+55 56
+56 57
+57 58
+56 59
+59 60
+60 61
+56 62
+62 63
+63 64
+64 65
+55 66
+66 67
+55 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+74 75
+75 76
+76 77
+75 78
+78 79
+79 80
+75 81
+81 82
+82 83
+83 84
+81 85
+85 86
+86 87
+87 88
+74 89
+89 90
+74 91
+91 92
+92 93
+2 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+100 101
+99 102
+102 103
+103 104
+2 105
+105 106
+106 107
+107 108
+106 109
+109 110
+110 111
+111 112
+111 113
+113 114
+114 115
+109 116
+116 117
+117 118
+116 119
+119 120
+120 121
+119 122
+122 123
+123 124
+0 125
+0 126
+126 127
+0 128
+128 129
+129 130
+130 131
+
+Simple unit test for verifying that we get String array back, even though declared type is Object array

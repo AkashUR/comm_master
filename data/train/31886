@@ -1,0 +1,406 @@
+202
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clearCounters'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='SampleFilter'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='createDoubleQueueWithFilter'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='helper'
+20 arguments
+21 argument (IntegerLiteralExpr)
+22 value='1'
+23 argument (IntegerLiteralExpr)
+24 value='1'
+25 argument (UnaryExpr)
+26 operator='MINUS'
+27 expression (IntegerLiteralExpr)
+28 value='1'
+29 argument (IntegerLiteralExpr)
+30 value='0'
+31 argument (BooleanLiteralExpr)
+32 value='false'
+33 name (SimpleName)
+34 identifier='config'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='TungstenProperties'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (ObjectCreationExpr)
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='ReplicatorRuntime'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='config'
+50 argument (ObjectCreationExpr)
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='MockOpenReplicatorContext'
+54 argument (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='getInstance'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='ReplicatorMonitor'
+60 name (SimpleName)
+61 identifier='runtime'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='ReplicatorRuntime'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='prepareAndStartPipeline'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='config'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='runtime'
+79 name (SimpleName)
+80 identifier='pipeline'
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='Pipeline'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='assertEquals'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='configured'
+91 argument (IntegerLiteralExpr)
+92 value='1'
+93 argument (FieldAccessExpr)
+94 name (SimpleName)
+95 identifier='configured'
+96 scope (NameExpr)
+97 name (SimpleName)
+98 identifier='SampleFilter'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='assertEquals'
+103 arguments
+104 argument (StringLiteralExpr)
+105 value='prepared'
+106 argument (IntegerLiteralExpr)
+107 value='1'
+108 argument (FieldAccessExpr)
+109 name (SimpleName)
+110 identifier='prepared'
+111 scope (NameExpr)
+112 name (SimpleName)
+113 identifier='SampleFilter'
+114 statement (ExpressionStmt)
+115 expression (MethodCallExpr)
+116 name (SimpleName)
+117 identifier='assertEquals'
+118 arguments
+119 argument (StringLiteralExpr)
+120 value='released'
+121 argument (IntegerLiteralExpr)
+122 value='0'
+123 argument (FieldAccessExpr)
+124 name (SimpleName)
+125 identifier='released'
+126 scope (NameExpr)
+127 name (SimpleName)
+128 identifier='SampleFilter'
+129 statement (ExpressionStmt)
+130 expression (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='shutdown'
+133 scope (NameExpr)
+134 name (SimpleName)
+135 identifier='pipeline'
+136 arguments
+137 argument (BooleanLiteralExpr)
+138 value='false'
+139 statement (ExpressionStmt)
+140 expression (MethodCallExpr)
+141 name (SimpleName)
+142 identifier='release'
+143 scope (NameExpr)
+144 name (SimpleName)
+145 identifier='pipeline'
+146 arguments
+147 argument (NameExpr)
+148 name (SimpleName)
+149 identifier='runtime'
+150 statement (ExpressionStmt)
+151 expression (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='assertEquals'
+154 arguments
+155 argument (StringLiteralExpr)
+156 value='configured'
+157 argument (IntegerLiteralExpr)
+158 value='1'
+159 argument (FieldAccessExpr)
+160 name (SimpleName)
+161 identifier='configured'
+162 scope (NameExpr)
+163 name (SimpleName)
+164 identifier='SampleFilter'
+165 statement (ExpressionStmt)
+166 expression (MethodCallExpr)
+167 name (SimpleName)
+168 identifier='assertEquals'
+169 arguments
+170 argument (StringLiteralExpr)
+171 value='prepared'
+172 argument (IntegerLiteralExpr)
+173 value='1'
+174 argument (FieldAccessExpr)
+175 name (SimpleName)
+176 identifier='prepared'
+177 scope (NameExpr)
+178 name (SimpleName)
+179 identifier='SampleFilter'
+180 statement (ExpressionStmt)
+181 expression (MethodCallExpr)
+182 name (SimpleName)
+183 identifier='assertEquals'
+184 arguments
+185 argument (StringLiteralExpr)
+186 value='released'
+187 argument (IntegerLiteralExpr)
+188 value='1'
+189 argument (FieldAccessExpr)
+190 name (SimpleName)
+191 identifier='released'
+192 scope (NameExpr)
+193 name (SimpleName)
+194 identifier='SampleFilter'
+195 type (VoidType)
+196 name (SimpleName)
+197 identifier='testStartStopFilterPipeline'
+198 thrownExceptions
+199 thrownException (ClassOrInterfaceType)
+200 name (SimpleName)
+201 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+20 23
+23 24
+20 25
+25 26
+25 27
+27 28
+20 29
+29 30
+20 31
+31 32
+13 33
+33 34
+13 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+44 45
+42 46
+46 47
+47 48
+48 49
+46 50
+50 51
+51 52
+52 53
+46 54
+54 55
+55 56
+54 57
+57 58
+58 59
+41 60
+60 61
+41 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+74 75
+72 76
+76 77
+77 78
+68 79
+79 80
+68 81
+81 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+91 92
+88 93
+93 94
+94 95
+93 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+103 106
+106 107
+103 108
+108 109
+109 110
+108 111
+111 112
+112 113
+2 114
+114 115
+115 116
+116 117
+115 118
+118 119
+119 120
+118 121
+121 122
+118 123
+123 124
+124 125
+123 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+130 133
+133 134
+134 135
+130 136
+136 137
+137 138
+2 139
+139 140
+140 141
+141 142
+140 143
+143 144
+144 145
+140 146
+146 147
+147 148
+148 149
+2 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+154 157
+157 158
+154 159
+159 160
+160 161
+159 162
+162 163
+163 164
+2 165
+165 166
+166 167
+167 168
+166 169
+169 170
+170 171
+169 172
+172 173
+169 174
+174 175
+175 176
+174 177
+177 178
+178 179
+2 180
+180 181
+181 182
+182 183
+181 184
+184 185
+185 186
+184 187
+187 188
+184 189
+189 190
+190 191
+189 192
+192 193
+193 194
+0 195
+0 196
+196 197
+0 198
+198 199
+199 200
+200 201
+
+Verify that if we can start up a pipeline containing filters and release it the filters are correctly configured, prepared, and released.

@@ -1,0 +1,80 @@
+39
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (SynchronizedStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (AssignExpr)
+8 operator='ASSIGN'
+9 target (FieldAccessExpr)
+10 name (SimpleName)
+11 identifier='statListeners'
+12 scope (ThisExpr)
+13 value (ObjectCreationExpr)
+14 type (ClassOrInterfaceType)
+15 name (SimpleName)
+16 identifier='ListenerIdMap'
+17 statement (ExpressionStmt)
+18 expression (AssignExpr)
+19 operator='ASSIGN'
+20 target (NameExpr)
+21 name (SimpleName)
+22 identifier='unreachable'
+23 value (BooleanLiteralExpr)
+24 value='true'
+25 expression (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='statListenersLock'
+28 scope (ThisExpr)
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='stopDispatching'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='dispatcher'
+36 type (VoidType)
+37 name (SimpleName)
+38 identifier='stopStatListening'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+7 9
+9 10
+10 11
+9 12
+7 13
+13 14
+14 15
+15 16
+5 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+23 24
+3 25
+25 26
+26 27
+25 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+0 36
+0 37
+37 38
+
+Stops listening for statistics updates. Invoked when this <code>GemFireVM</code> disconnects or when this member leaves the distributed system.

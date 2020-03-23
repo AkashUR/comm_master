@@ -1,0 +1,280 @@
+139
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='LocalServerRegistry'
+11 name (SimpleName)
+12 identifier='registry'
+13 type (ClassOrInterfaceType)
+14 name (SimpleName)
+15 identifier='LocalServerRegistry'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (ObjectCreationExpr)
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='LocalTransport'
+24 arguments
+25 argument (NameExpr)
+26 name (SimpleName)
+27 identifier='registry'
+28 name (SimpleName)
+29 identifier='clientTransport'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='Transport'
+33 statement (ExpressionStmt)
+34 expression (VariableDeclarationExpr)
+35 variables
+36 variable (VariableDeclarator)
+37 initializer (ObjectCreationExpr)
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='LocalTransport'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='registry'
+45 name (SimpleName)
+46 identifier='serverTransport'
+47 type (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Transport'
+50 statement (ExpressionStmt)
+51 expression (VariableDeclarationExpr)
+52 variables
+53 variable (VariableDeclarator)
+54 initializer (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='server'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='serverTransport'
+60 name (SimpleName)
+61 identifier='server'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='Server'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='client'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='clientTransport'
+75 name (SimpleName)
+76 identifier='client'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Client'
+80 statement (ExpressionStmt)
+81 expression (VariableDeclarationExpr)
+82 variables
+83 variable (VariableDeclarator)
+84 initializer (ObjectCreationExpr)
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='SingleThreadContext'
+88 arguments
+89 argument (StringLiteralExpr)
+90 value='test-thread-%d'
+91 argument (ObjectCreationExpr)
+92 type (ClassOrInterfaceType)
+93 name (SimpleName)
+94 identifier='Serializer'
+95 name (SimpleName)
+96 identifier='context'
+97 type (ClassOrInterfaceType)
+98 name (SimpleName)
+99 identifier='ThreadContext'
+100 statement (ExpressionStmt)
+101 expression (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='execute'
+104 scope (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='executor'
+107 scope (NameExpr)
+108 name (SimpleName)
+109 identifier='context'
+110 arguments
+111 argument (NullLiteralExpr)
+112 statement (ExpressionStmt)
+113 expression (MethodCallExpr)
+114 name (SimpleName)
+115 identifier='await'
+116 statement (ExpressionStmt)
+117 expression (MethodCallExpr)
+118 name (SimpleName)
+119 identifier='execute'
+120 scope (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='executor'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='context'
+126 arguments
+127 argument (NullLiteralExpr)
+128 statement (ExpressionStmt)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='await'
+132 type (VoidType)
+133 name (SimpleName)
+134 identifier='testSendReceive'
+135 thrownExceptions
+136 thrownException (ClassOrInterfaceType)
+137 name (SimpleName)
+138 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+6 11
+11 12
+6 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+20 24
+24 25
+25 26
+26 27
+19 28
+28 29
+19 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+37 41
+41 42
+42 43
+43 44
+36 45
+45 46
+36 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+53 60
+60 61
+53 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+68 75
+75 76
+68 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+88 91
+91 92
+92 93
+93 94
+83 95
+95 96
+83 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+101 104
+104 105
+105 106
+104 107
+107 108
+108 109
+101 110
+110 111
+2 112
+112 113
+113 114
+114 115
+2 116
+116 117
+117 118
+118 119
+117 120
+120 121
+121 122
+120 123
+123 124
+124 125
+117 126
+126 127
+2 128
+128 129
+129 130
+130 131
+0 132
+0 133
+133 134
+0 135
+135 136
+136 137
+137 138
+
+Tests connecting to a server and sending a message.

@@ -1,0 +1,50 @@
+24
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='testBug68562BatchWithSize'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='1'
+10 statement (ExpressionStmt)
+11 expression (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='testBug68562BatchWithSize'
+14 arguments
+15 argument (IntegerLiteralExpr)
+16 value='3'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='testBug68562'
+20 thrownExceptions
+21 thrownException (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+22 23
+
+Tests fix for BUG#68562 - Combination rewriteBatchedStatements and useAffectedRows not working as expected

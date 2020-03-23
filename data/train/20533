@@ -1,0 +1,100 @@
+49
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='LINESTRING (1 0, 0 2, 0 0, 2 2)'
+9 name (SimpleName)
+10 identifier='a'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (StringLiteralExpr)
+19 value='LINESTRING (0 0, 2 2)'
+20 name (SimpleName)
+21 identifier='b'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='String'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='assertTrue'
+29 arguments
+30 argument (UnaryExpr)
+31 operator='LOGICAL_COMPLEMENT'
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='contains'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='a'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='b'
+42 type (VoidType)
+43 name (SimpleName)
+44 identifier='testContainsIncorrect'
+45 thrownExceptions
+46 thrownException (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+17 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+30 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+0 42
+0 43
+43 44
+0 45
+45 46
+46 47
+47 48
+
+From GEOS #572. A case where B is contained in A, but  the JTS relate algorithm fails to compute this correctly. The cause is that the long segment in A nodes the single-segment line in B. The node location cannot be computed precisely. The node then tests as not lying precisely on the original long segment in A. The solution is to change the relate algorithm so that it never computes new intersection points, only ones which occur at existing vertices. (The topology of the implicit intersections can still be computed to contribute to the intersection matrix result). This will require a complete reworking of the relate algorithm.

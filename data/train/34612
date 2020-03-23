@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='setAction'
+10 scope (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='Intent'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='com.android.facelock.DELETE_GALLERY'
+17 name (SimpleName)
+18 identifier='intent'
+19 type (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='Intent'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='putExtra'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='intent'
+29 arguments
+30 argument (StringLiteralExpr)
+31 value='deleteTempGallery'
+32 argument (BooleanLiteralExpr)
+33 value='true'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='sendBroadcast'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='mContext'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='intent'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='deleteTempGallery'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+7 14
+14 15
+15 16
+6 17
+17 18
+6 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+23 29
+29 30
+30 31
+29 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+0 45
+0 46
+46 47
+
+Calls back SetupFaceLock to delete the temporary gallery file

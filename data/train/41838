@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='bytesTransferred'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getTotalBytesTransferred'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='event'
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getBytesTransferred'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='event'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getStreamSize'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='event'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='bytesTransferred'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='event'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='CopyStreamEvent'
+37 annotations
+38 annotation (NormalAnnotationExpr)
+39 name (Name)
+40 identifier='DSGenerator'
+41 pairs
+42 pair (MemberValuePair)
+43 name (SimpleName)
+44 identifier='tool_name'
+45 value (StringLiteralExpr)
+46 value='Doppelganger'
+47 pair (MemberValuePair)
+48 name (SimpleName)
+49 identifier='tool_version'
+50 value (StringLiteralExpr)
+51 value='2.0'
+52 pair (MemberValuePair)
+53 name (SimpleName)
+54 identifier='generated_on'
+55 value (StringLiteralExpr)
+56 value='2014-02-25 10:38:05.219 -0500'
+57 pair (MemberValuePair)
+58 name (SimpleName)
+59 identifier='hash_original_method'
+60 value (StringLiteralExpr)
+61 value='F49A1215DBCAFF371E059D4C820BFFAD'
+62 pair (MemberValuePair)
+63 name (SimpleName)
+64 identifier='hash_generated_method'
+65 value (StringLiteralExpr)
+66 value='D0C5A42D8CF59B609D724814F892DAB7'
+67 annotation (MarkerAnnotationExpr)
+68 name (Name)
+69 identifier='DSVerified'
+70 annotation (SingleMemberAnnotationExpr)
+71 memberValue (FieldAccessExpr)
+72 name (SimpleName)
+73 identifier='ANDROID_CALLBACK'
+74 scope (NameExpr)
+75 name (SimpleName)
+76 identifier='DSCat'
+77 name (Name)
+78 identifier='DSSafe'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+14 17
+17 18
+18 19
+7 20
+20 21
+21 22
+20 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+0 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+43 44
+42 45
+45 46
+41 47
+47 48
+48 49
+47 50
+50 51
+41 52
+52 53
+53 54
+52 55
+55 56
+41 57
+57 58
+58 59
+57 60
+60 61
+41 62
+62 63
+63 64
+62 65
+65 66
+37 67
+67 68
+68 69
+37 70
+70 71
+71 72
+72 73
+71 74
+74 75
+75 76
+70 77
+77 78
+
+This method is invoked by a CopyStreamEvent source after copying a block of bytes from a stream.  The CopyStreamEvent will contain the total number of bytes transferred so far and the number of bytes transferred in the last write.  The CopyStreamAdapater will relay the event to all of its registered listeners, listing itself as the source of the event.

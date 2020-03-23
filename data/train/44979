@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='flush'
+7 scope (ThisExpr)
+8 statement (ExpressionStmt)
+9 expression (MethodCallExpr)
+10 name (SimpleName)
+11 identifier='close'
+12 scope (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='out'
+15 scope (ThisExpr)
+16 statement (ExpressionStmt)
+17 expression (AssignExpr)
+18 operator='ASSIGN'
+19 target (FieldAccessExpr)
+20 name (SimpleName)
+21 identifier='out'
+22 scope (ThisExpr)
+23 value (NullLiteralExpr)
+24 type (VoidType)
+25 name (SimpleName)
+26 identifier='close'
+27 thrownExceptions
+28 thrownException (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+2 8
+8 9
+9 10
+10 11
+9 12
+12 13
+13 14
+12 15
+2 16
+16 17
+17 18
+17 19
+19 20
+20 21
+19 22
+17 23
+0 24
+0 25
+25 26
+0 27
+27 28
+28 29
+29 30
+
+Closes this stream and its underlying stream, after first flushing any buffered data.

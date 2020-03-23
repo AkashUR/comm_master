@@ -1,0 +1,74 @@
+36
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clear'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='failoverMap'
+10 scope (ThisExpr)
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='lastHistoryItem'
+17 scope (ThisExpr)
+18 value (IntegerLiteralExpr)
+19 value='0'
+20 statement (ExpressionStmt)
+21 expression (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='fill'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='Arrays'
+27 arguments
+28 argument (FieldAccessExpr)
+29 name (SimpleName)
+30 identifier='txHistory'
+31 scope (ThisExpr)
+32 argument (NullLiteralExpr)
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='clearForCacheClose'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+14 17
+12 18
+18 19
+2 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+21 27
+27 28
+28 29
+29 30
+28 31
+27 32
+0 33
+0 34
+34 35
+
+a static TXFarSideCMTracker is held by TXCommitMessage and is cleared when the cache has finished closing

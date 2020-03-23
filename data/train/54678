@@ -1,0 +1,222 @@
+110
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='show'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='invoker'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='x'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='y'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='setEnabled'
+22 scope (NameExpr)
+23 name (SimpleName)
+24 identifier='againMenuItem'
+25 arguments
+26 argument (BinaryExpr)
+27 operator='NOT_EQUALS'
+28 left (NameExpr)
+29 name (SimpleName)
+30 identifier='searchString'
+31 right (NullLiteralExpr)
+32 statement (ExpressionStmt)
+33 expression (VariableDeclarationExpr)
+34 variables
+35 variable (VariableDeclarator)
+36 initializer (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='getSelectedText'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='ref'
+42 name (SimpleName)
+43 identifier='selectedText'
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='String'
+47 statement (ExpressionStmt)
+48 expression (MethodCallExpr)
+49 name (SimpleName)
+50 identifier='setEnabled'
+51 scope (NameExpr)
+52 name (SimpleName)
+53 identifier='copyMenuItem'
+54 arguments
+55 argument (BinaryExpr)
+56 operator='AND'
+57 left (BinaryExpr)
+58 operator='NOT_EQUALS'
+59 left (NameExpr)
+60 name (SimpleName)
+61 identifier='selectedText'
+62 right (NullLiteralExpr)
+63 right (BinaryExpr)
+64 operator='GREATER'
+65 left (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='length'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='selectedText'
+71 right (IntegerLiteralExpr)
+72 value='0'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='setEnabled'
+77 scope (NameExpr)
+78 name (SimpleName)
+79 identifier='selectNoneMenuItem'
+80 arguments
+81 argument (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='isEnabled'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='copyMenuItem'
+87 type (VoidType)
+88 name (SimpleName)
+89 identifier='show'
+90 parameters
+91 parameter (Parameter)
+92 isVarArgs='false'
+93 name (SimpleName)
+94 identifier='invoker'
+95 type (ClassOrInterfaceType)
+96 name (SimpleName)
+97 identifier='Component'
+98 parameter (Parameter)
+99 isVarArgs='false'
+100 name (SimpleName)
+101 identifier='x'
+102 type (PrimitiveType)
+103 type='INT'
+104 parameter (Parameter)
+105 isVarArgs='false'
+106 name (SimpleName)
+107 identifier='y'
+108 type (PrimitiveType)
+109 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+8 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+22 23
+23 24
+19 25
+25 26
+26 27
+26 28
+28 29
+29 30
+26 31
+2 32
+32 33
+33 34
+34 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+35 42
+42 43
+35 44
+44 45
+45 46
+2 47
+47 48
+48 49
+49 50
+48 51
+51 52
+52 53
+48 54
+54 55
+55 56
+55 57
+57 58
+57 59
+59 60
+60 61
+57 62
+55 63
+63 64
+63 65
+65 66
+66 67
+65 68
+68 69
+69 70
+63 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+74 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+0 87
+0 88
+88 89
+0 90
+90 91
+91 92
+91 93
+93 94
+91 95
+95 96
+96 97
+90 98
+98 99
+98 100
+100 101
+98 102
+102 103
+90 104
+104 105
+104 106
+106 107
+104 108
+108 109
+
+overrides default implementation for "Search Again" enable check.

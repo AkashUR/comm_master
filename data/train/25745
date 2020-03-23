@@ -1,0 +1,190 @@
+94
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='buildURI'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='getHostRetriever'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='parent'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='EVENT_LOG_URI'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='tenant'
+23 name (SimpleName)
+24 identifier='uri'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='URI'
+28 statement (ExpressionStmt)
+29 expression (VariableDeclarationExpr)
+30 variables
+31 variable (VariableDeclarator)
+32 initializer (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='createDeleteRequest'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='RequestFactory'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='uri'
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getToken'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='parent'
+48 name (SimpleName)
+49 identifier='delete'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='HttpDeleteWithBody'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='execute'
+57 arguments
+58 argument (MethodCallExpr)
+59 name (SimpleName)
+60 identifier='getClient'
+61 scope (NameExpr)
+62 name (SimpleName)
+63 identifier='parent'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='delete'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='clearEventLog'
+70 parameters
+71 parameter (Parameter)
+72 isVarArgs='false'
+73 name (SimpleName)
+74 identifier='tenant'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='String'
+78 thrownExceptions
+79 thrownException (ClassOrInterfaceType)
+80 name (SimpleName)
+81 identifier='ClientException'
+82 thrownException (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='ClientProtocolException'
+85 thrownException (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='WebApplicationException'
+88 thrownException (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='HttpException'
+91 thrownException (ClassOrInterfaceType)
+92 name (SimpleName)
+93 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+6 23
+23 24
+6 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+42 45
+45 46
+46 47
+31 48
+48 49
+31 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+58 61
+61 62
+62 63
+57 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+0 78
+78 79
+79 80
+80 81
+78 82
+82 83
+83 84
+78 85
+85 86
+86 87
+78 88
+88 89
+89 90
+78 91
+91 92
+92 93
+
+Request that a tenant's event log be cleared out.

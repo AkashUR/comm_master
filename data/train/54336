@@ -1,0 +1,466 @@
+232
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getX'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='event'
+13 name (SimpleName)
+14 identifier='touchX'
+15 type (PrimitiveType)
+16 type='FLOAT'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getY'
+24 scope (NameExpr)
+25 name (SimpleName)
+26 identifier='event'
+27 name (SimpleName)
+28 identifier='touchY'
+29 type (PrimitiveType)
+30 type='FLOAT'
+31 statement (SwitchStmt)
+32 selector (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getAction'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='event'
+38 entries
+39 entrie (SwitchEntryStmt)
+40 label (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='ACTION_DOWN'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='MotionEvent'
+46 statements
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (NameExpr)
+51 name (SimpleName)
+52 identifier='checkStartStatus'
+53 value (BooleanLiteralExpr)
+54 value='true'
+55 statement (ExpressionStmt)
+56 expression (AssignExpr)
+57 operator='ASSIGN'
+58 target (NameExpr)
+59 name (SimpleName)
+60 identifier='checkEndStatus'
+61 value (BooleanLiteralExpr)
+62 value='false'
+63 statement (ExpressionStmt)
+64 expression (AssignExpr)
+65 operator='ASSIGN'
+66 target (NameExpr)
+67 name (SimpleName)
+68 identifier='startX'
+69 value (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getRawX'
+72 scope (NameExpr)
+73 name (SimpleName)
+74 identifier='event'
+75 statement (ExpressionStmt)
+76 expression (AssignExpr)
+77 operator='ASSIGN'
+78 target (NameExpr)
+79 name (SimpleName)
+80 identifier='startY'
+81 value (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='getRawY'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='event'
+87 statement (BreakStmt)
+88 entrie (SwitchEntryStmt)
+89 label (FieldAccessExpr)
+90 name (SimpleName)
+91 identifier='ACTION_MOVE'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='MotionEvent'
+95 statements
+96 statement (ExpressionStmt)
+97 expression (AssignExpr)
+98 operator='ASSIGN'
+99 target (NameExpr)
+100 name (SimpleName)
+101 identifier='checkStartStatus'
+102 value (BooleanLiteralExpr)
+103 value='false'
+104 statement (ExpressionStmt)
+105 expression (AssignExpr)
+106 operator='ASSIGN'
+107 target (NameExpr)
+108 name (SimpleName)
+109 identifier='currentX'
+110 value (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='getRawX'
+113 scope (NameExpr)
+114 name (SimpleName)
+115 identifier='event'
+116 statement (ExpressionStmt)
+117 expression (AssignExpr)
+118 operator='ASSIGN'
+119 target (NameExpr)
+120 name (SimpleName)
+121 identifier='currentY'
+122 value (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='getRawY'
+125 scope (NameExpr)
+126 name (SimpleName)
+127 identifier='event'
+128 statement (ExpressionStmt)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='reset'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='drawPath'
+135 statement (ExpressionStmt)
+136 expression (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='moveTo'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='drawPath'
+142 arguments
+143 argument (NameExpr)
+144 name (SimpleName)
+145 identifier='startX'
+146 argument (NameExpr)
+147 name (SimpleName)
+148 identifier='startY'
+149 statement (ExpressionStmt)
+150 expression (MethodCallExpr)
+151 name (SimpleName)
+152 identifier='lineTo'
+153 scope (NameExpr)
+154 name (SimpleName)
+155 identifier='drawPath'
+156 arguments
+157 argument (NameExpr)
+158 name (SimpleName)
+159 identifier='touchX'
+160 argument (NameExpr)
+161 name (SimpleName)
+162 identifier='touchY'
+163 statement (BreakStmt)
+164 entrie (SwitchEntryStmt)
+165 label (FieldAccessExpr)
+166 name (SimpleName)
+167 identifier='ACTION_UP'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='MotionEvent'
+171 statements
+172 statement (ExpressionStmt)
+173 expression (AssignExpr)
+174 operator='ASSIGN'
+175 target (NameExpr)
+176 name (SimpleName)
+177 identifier='checkEndStatus'
+178 value (BooleanLiteralExpr)
+179 value='true'
+180 statement (ExpressionStmt)
+181 expression (AssignExpr)
+182 operator='ASSIGN'
+183 target (NameExpr)
+184 name (SimpleName)
+185 identifier='endX'
+186 value (NameExpr)
+187 name (SimpleName)
+188 identifier='touchX'
+189 statement (ExpressionStmt)
+190 expression (AssignExpr)
+191 operator='ASSIGN'
+192 target (NameExpr)
+193 name (SimpleName)
+194 identifier='endY'
+195 value (NameExpr)
+196 name (SimpleName)
+197 identifier='touchY'
+198 statement (ExpressionStmt)
+199 expression (MethodCallExpr)
+200 name (SimpleName)
+201 identifier='invalidate'
+202 scope (ThisExpr)
+203 statement (BreakStmt)
+204 entrie (SwitchEntryStmt)
+205 statements
+206 statement (ReturnStmt)
+207 expression (BooleanLiteralExpr)
+208 value='false'
+209 statement (ExpressionStmt)
+210 expression (MethodCallExpr)
+211 name (SimpleName)
+212 identifier='invalidate'
+213 statement (ReturnStmt)
+214 expression (BooleanLiteralExpr)
+215 value='true'
+216 type (PrimitiveType)
+217 type='BOOLEAN'
+218 name (SimpleName)
+219 identifier='onTouchEvent'
+220 parameters
+221 parameter (Parameter)
+222 isVarArgs='false'
+223 name (SimpleName)
+224 identifier='event'
+225 type (ClassOrInterfaceType)
+226 name (SimpleName)
+227 identifier='MotionEvent'
+228 annotations
+229 annotation (MarkerAnnotationExpr)
+230 name (Name)
+231 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+21 24
+24 25
+25 26
+20 27
+27 28
+20 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+31 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+47 48
+48 49
+48 50
+50 51
+51 52
+48 53
+53 54
+46 55
+55 56
+56 57
+56 58
+58 59
+59 60
+56 61
+61 62
+46 63
+63 64
+64 65
+64 66
+66 67
+67 68
+64 69
+69 70
+70 71
+69 72
+72 73
+73 74
+46 75
+75 76
+76 77
+76 78
+78 79
+79 80
+76 81
+81 82
+82 83
+81 84
+84 85
+85 86
+46 87
+38 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+88 95
+95 96
+96 97
+97 98
+97 99
+99 100
+100 101
+97 102
+102 103
+95 104
+104 105
+105 106
+105 107
+107 108
+108 109
+105 110
+110 111
+111 112
+110 113
+113 114
+114 115
+95 116
+116 117
+117 118
+117 119
+119 120
+120 121
+117 122
+122 123
+123 124
+122 125
+125 126
+126 127
+95 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+95 135
+135 136
+136 137
+137 138
+136 139
+139 140
+140 141
+136 142
+142 143
+143 144
+144 145
+142 146
+146 147
+147 148
+95 149
+149 150
+150 151
+151 152
+150 153
+153 154
+154 155
+150 156
+156 157
+157 158
+158 159
+156 160
+160 161
+161 162
+95 163
+38 164
+164 165
+165 166
+166 167
+165 168
+168 169
+169 170
+164 171
+171 172
+172 173
+173 174
+173 175
+175 176
+176 177
+173 178
+178 179
+171 180
+180 181
+181 182
+181 183
+183 184
+184 185
+181 186
+186 187
+187 188
+171 189
+189 190
+190 191
+190 192
+192 193
+193 194
+190 195
+195 196
+196 197
+171 198
+198 199
+199 200
+200 201
+199 202
+171 203
+38 204
+204 205
+205 206
+206 207
+207 208
+2 209
+209 210
+210 211
+211 212
+2 213
+213 214
+214 215
+0 216
+216 217
+0 218
+218 219
+0 220
+220 221
+221 222
+221 223
+223 224
+221 225
+225 226
+226 227
+0 228
+228 229
+229 230
+230 231
+
+Clicking on the view should trigger a line to be drawn between this very clicked point and the other one clicked. After this method's call, onDraw() method is called

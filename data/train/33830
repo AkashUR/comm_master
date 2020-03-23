@@ -1,0 +1,176 @@
+87
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='initCPTs'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='bayesNet'
+11 statement (ExpressionStmt)
+12 expression (VariableDeclarationExpr)
+13 variables
+14 variable (VariableDeclarator)
+15 initializer (MethodCallExpr)
+16 name (SimpleName)
+17 identifier='enumerateInstances'
+18 scope (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='m_Instances'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='bayesNet'
+24 name (SimpleName)
+25 identifier='enumInsts'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Enumeration'
+29 typeArguments
+30 typeArgument (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='Instance'
+33 statement (WhileStmt)
+34 body (BlockStmt)
+35 statements
+36 statement (ExpressionStmt)
+37 expression (VariableDeclarationExpr)
+38 variables
+39 variable (VariableDeclarator)
+40 initializer (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='nextElement'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='enumInsts'
+46 name (SimpleName)
+47 identifier='instance'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='Instance'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='updateClassifier'
+55 arguments
+56 argument (NameExpr)
+57 name (SimpleName)
+58 identifier='bayesNet'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='instance'
+62 condition (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='hasMoreElements'
+65 scope (NameExpr)
+66 name (SimpleName)
+67 identifier='enumInsts'
+68 type (VoidType)
+69 name (SimpleName)
+70 identifier='estimateCPTs'
+71 parameters
+72 parameter (Parameter)
+73 isVarArgs='false'
+74 name (SimpleName)
+75 identifier='bayesNet'
+76 type (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='BayesNet'
+79 thrownExceptions
+80 thrownException (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='Exception'
+83 annotations
+84 annotation (MarkerAnnotationExpr)
+85 name (Name)
+86 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+15 18
+18 19
+19 20
+18 21
+21 22
+22 23
+14 24
+24 25
+14 26
+26 27
+27 28
+26 29
+29 30
+30 31
+31 32
+2 33
+33 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+39 46
+46 47
+39 48
+48 49
+49 50
+35 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+57 58
+55 59
+59 60
+60 61
+33 62
+62 63
+63 64
+62 65
+65 66
+66 67
+0 68
+0 69
+69 70
+0 71
+71 72
+72 73
+72 74
+74 75
+72 76
+76 77
+77 78
+0 79
+79 80
+80 81
+81 82
+0 83
+83 84
+84 85
+85 86
+
+estimateCPTs estimates the conditional probability tables for the Bayes Net using the network structure.

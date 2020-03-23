@@ -1,0 +1,304 @@
+151
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='DSAParameterSpec'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='P'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='Util'
+18 argument (FieldAccessExpr)
+19 name (SimpleName)
+20 identifier='Q'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='Util'
+24 argument (FieldAccessExpr)
+25 name (SimpleName)
+26 identifier='G'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='Util'
+30 name (SimpleName)
+31 identifier='param'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='DSAParams'
+35 statement (ExpressionStmt)
+36 expression (VariableDeclarationExpr)
+37 variables
+38 variable (VariableDeclarator)
+39 initializer (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='getInstance'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='KeyPairGenerator'
+45 arguments
+46 argument (StringLiteralExpr)
+47 value='DSA'
+48 name (SimpleName)
+49 identifier='gen'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='KeyPairGenerator'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='initialize'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='gen'
+60 arguments
+61 argument (CastExpr)
+62 expression (NameExpr)
+63 name (SimpleName)
+64 identifier='param'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='DSAParameterSpec'
+68 statement (ExpressionStmt)
+69 expression (VariableDeclarationExpr)
+70 variables
+71 variable (VariableDeclarator)
+72 initializer (NullLiteralExpr)
+73 name (SimpleName)
+74 identifier='key'
+75 type (ClassOrInterfaceType)
+76 name (SimpleName)
+77 identifier='DSAKey'
+78 statement (ExpressionStmt)
+79 expression (AssignExpr)
+80 operator='ASSIGN'
+81 target (NameExpr)
+82 name (SimpleName)
+83 identifier='key'
+84 value (CastExpr)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='getPrivate'
+88 scope (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='generateKeyPair'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='gen'
+94 type (ClassOrInterfaceType)
+95 name (SimpleName)
+96 identifier='DSAKey'
+97 statement (ExpressionStmt)
+98 expression (MethodCallExpr)
+99 name (SimpleName)
+100 identifier='assertDSAParamsEquals'
+101 arguments
+102 argument (NameExpr)
+103 name (SimpleName)
+104 identifier='param'
+105 argument (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='getParams'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='key'
+111 statement (ExpressionStmt)
+112 expression (AssignExpr)
+113 operator='ASSIGN'
+114 target (NameExpr)
+115 name (SimpleName)
+116 identifier='key'
+117 value (CastExpr)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='getPublic'
+121 scope (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='generateKeyPair'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='gen'
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='DSAKey'
+130 statement (ExpressionStmt)
+131 expression (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='assertDSAParamsEquals'
+134 arguments
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='param'
+138 argument (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='getParams'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='key'
+144 type (VoidType)
+145 name (SimpleName)
+146 identifier='test_getParams'
+147 thrownExceptions
+148 thrownException (ClassOrInterfaceType)
+149 name (SimpleName)
+150 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+11 18
+18 19
+19 20
+18 21
+21 22
+22 23
+11 24
+24 25
+25 26
+24 27
+27 28
+28 29
+6 30
+30 31
+6 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+38 48
+48 49
+38 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+54 60
+60 61
+61 62
+62 63
+63 64
+61 65
+65 66
+66 67
+2 68
+68 69
+69 70
+70 71
+71 72
+71 73
+73 74
+71 75
+75 76
+76 77
+2 78
+78 79
+79 80
+79 81
+81 82
+82 83
+79 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+88 91
+91 92
+92 93
+84 94
+94 95
+95 96
+2 97
+97 98
+98 99
+99 100
+98 101
+101 102
+102 103
+103 104
+101 105
+105 106
+106 107
+105 108
+108 109
+109 110
+2 111
+111 112
+112 113
+112 114
+114 115
+115 116
+112 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+121 124
+124 125
+125 126
+117 127
+127 128
+128 129
+2 130
+130 131
+131 132
+132 133
+131 134
+134 135
+135 136
+136 137
+134 138
+138 139
+139 140
+138 141
+141 142
+142 143
+0 144
+0 145
+145 146
+0 147
+147 148
+148 149
+149 150
+
+java.security.interfaces.DSAKey #getParams() test covers following use cases Case 1: check private key Case 2: check public key

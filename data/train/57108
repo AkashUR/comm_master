@@ -1,0 +1,446 @@
+222
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getPreferenceStore'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='getDefault'
+13 scope (NameExpr)
+14 name (SimpleName)
+15 identifier='MavenActivator'
+16 name (SimpleName)
+17 identifier='prefs'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='IPreferenceStore'
+21 statement (ExpressionStmt)
+22 expression (VariableDeclarationExpr)
+23 variables
+24 variable (VariableDeclarator)
+25 initializer (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='getString'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='prefs'
+31 arguments
+32 argument (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='MVN_ANALYSIS_EXECUTABLE'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='AnalysisPreferenceIds'
+38 name (SimpleName)
+39 identifier='mavenExe'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='String'
+43 statement (ExpressionStmt)
+44 expression (VariableDeclarationExpr)
+45 variables
+46 variable (VariableDeclarator)
+47 initializer (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getString'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='prefs'
+53 arguments
+54 argument (FieldAccessExpr)
+55 name (SimpleName)
+56 identifier='MVN_ANALYSIS_EFFECTIVEPOM'
+57 scope (NameExpr)
+58 name (SimpleName)
+59 identifier='AnalysisPreferenceIds'
+60 name (SimpleName)
+61 identifier='effPomCmd'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='String'
+65 statement (ExpressionStmt)
+66 expression (VariableDeclarationExpr)
+67 variables
+68 variable (VariableDeclarator)
+69 initializer (MethodCallExpr)
+70 name (SimpleName)
+71 identifier='getJavaHome'
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='prefs'
+76 name (SimpleName)
+77 identifier='javaHome'
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='String'
+81 statement (ExpressionStmt)
+82 expression (VariableDeclarationExpr)
+83 variables
+84 variable (VariableDeclarator)
+85 initializer (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='createTempFile'
+88 scope (NameExpr)
+89 name (SimpleName)
+90 identifier='File'
+91 arguments
+92 argument (StringLiteralExpr)
+93 value='depan-effpom'
+94 argument (StringLiteralExpr)
+95 value='.xml'
+96 name (SimpleName)
+97 identifier='effPomFile'
+98 type (ClassOrInterfaceType)
+99 name (SimpleName)
+100 identifier='File'
+101 statement (ExpressionStmt)
+102 expression (VariableDeclarationExpr)
+103 variables
+104 variable (VariableDeclarator)
+105 initializer (ObjectCreationExpr)
+106 type (ClassOrInterfaceType)
+107 name (SimpleName)
+108 identifier='ProcessBuilder'
+109 arguments
+110 argument (NameExpr)
+111 name (SimpleName)
+112 identifier='mavenExe'
+113 argument (StringLiteralExpr)
+114 value='-f'
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='projectPom'
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='effPomCmd'
+121 argument (BinaryExpr)
+122 operator='PLUS'
+123 left (StringLiteralExpr)
+124 value='-Doutput='
+125 right (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='getAbsolutePath'
+128 scope (NameExpr)
+129 name (SimpleName)
+130 identifier='effPomFile'
+131 name (SimpleName)
+132 identifier='builder'
+133 type (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='ProcessBuilder'
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='directory'
+140 scope (NameExpr)
+141 name (SimpleName)
+142 identifier='builder'
+143 arguments
+144 argument (NameExpr)
+145 name (SimpleName)
+146 identifier='projectDir'
+147 statement (ExpressionStmt)
+148 expression (VariableDeclarationExpr)
+149 variables
+150 variable (VariableDeclarator)
+151 initializer (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='environment'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='builder'
+157 name (SimpleName)
+158 identifier='env'
+159 type (ClassOrInterfaceType)
+160 name (SimpleName)
+161 identifier='Map'
+162 typeArguments
+163 typeArgument (ClassOrInterfaceType)
+164 name (SimpleName)
+165 identifier='String'
+166 typeArgument (ClassOrInterfaceType)
+167 name (SimpleName)
+168 identifier='String'
+169 statement (ExpressionStmt)
+170 expression (MethodCallExpr)
+171 name (SimpleName)
+172 identifier='put'
+173 scope (NameExpr)
+174 name (SimpleName)
+175 identifier='env'
+176 arguments
+177 argument (NameExpr)
+178 name (SimpleName)
+179 identifier='JAVA_HOME'
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='javaHome'
+183 statement (ExpressionStmt)
+184 expression (MethodCallExpr)
+185 name (SimpleName)
+186 identifier='execProcess'
+187 arguments
+188 argument (NameExpr)
+189 name (SimpleName)
+190 identifier='builder'
+191 statement (ExpressionStmt)
+192 expression (AssignExpr)
+193 operator='ASSIGN'
+194 target (NameExpr)
+195 name (SimpleName)
+196 identifier='effPomText'
+197 value (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='loadFile'
+200 arguments
+201 argument (NameExpr)
+202 name (SimpleName)
+203 identifier='effPomFile'
+204 type (VoidType)
+205 name (SimpleName)
+206 identifier='evalEffectivePom'
+207 parameters
+208 parameter (Parameter)
+209 isVarArgs='false'
+210 name (SimpleName)
+211 identifier='context'
+212 type (ClassOrInterfaceType)
+213 name (SimpleName)
+214 identifier='MavenContext'
+215 thrownExceptions
+216 thrownException (ClassOrInterfaceType)
+217 name (SimpleName)
+218 identifier='IOException'
+219 thrownException (ClassOrInterfaceType)
+220 name (SimpleName)
+221 identifier='InterruptedException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+24 38
+38 39
+24 40
+40 41
+41 42
+2 43
+43 44
+44 45
+45 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+46 60
+60 61
+46 62
+62 63
+63 64
+2 65
+65 66
+66 67
+67 68
+68 69
+69 70
+70 71
+69 72
+72 73
+73 74
+74 75
+68 76
+76 77
+68 78
+78 79
+79 80
+2 81
+81 82
+82 83
+83 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+85 91
+91 92
+92 93
+91 94
+94 95
+84 96
+96 97
+84 98
+98 99
+99 100
+2 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+107 108
+105 109
+109 110
+110 111
+111 112
+109 113
+113 114
+109 115
+115 116
+116 117
+109 118
+118 119
+119 120
+109 121
+121 122
+121 123
+123 124
+121 125
+125 126
+126 127
+125 128
+128 129
+129 130
+104 131
+131 132
+104 133
+133 134
+134 135
+2 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+137 143
+143 144
+144 145
+145 146
+2 147
+147 148
+148 149
+149 150
+150 151
+151 152
+152 153
+151 154
+154 155
+155 156
+150 157
+157 158
+150 159
+159 160
+160 161
+159 162
+162 163
+163 164
+164 165
+162 166
+166 167
+167 168
+2 169
+169 170
+170 171
+171 172
+170 173
+173 174
+174 175
+170 176
+176 177
+177 178
+178 179
+176 180
+180 181
+181 182
+2 183
+183 184
+184 185
+185 186
+184 187
+187 188
+188 189
+189 190
+2 191
+191 192
+192 193
+192 194
+194 195
+195 196
+192 197
+197 198
+198 199
+197 200
+200 201
+201 202
+202 203
+0 204
+0 205
+205 206
+0 207
+207 208
+208 209
+208 210
+210 211
+208 212
+212 213
+213 214
+0 215
+215 216
+216 217
+217 218
+215 219
+219 220
+220 221
+
+Compute the effective POM for the supplied POM definition file. After this method returns, various results from the execution can be retrieved.  The available results include the effective pom and the exit code from the process execution.

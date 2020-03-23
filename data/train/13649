@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='openInformation'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='ToggleMessageHelper'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='parent'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='title'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='message'
+20 argument (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getString'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='Messages'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='ToggleMessageHelper.DontDisplayAgain'
+29 argument (BooleanLiteralExpr)
+30 value='false'
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='preferenceKey'
+34 type (VoidType)
+35 name (SimpleName)
+36 identifier='openInformation'
+37 parameters
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='parent'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Shell'
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='title'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='String'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='message'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='preferenceKey'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+10 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+10 29
+29 30
+10 31
+31 32
+32 33
+0 34
+0 35
+35 36
+0 37
+37 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+37 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+37 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+37 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+
+Convenience method to optionally open a standard information dialog and store the preference using a standard toggle message which is set to not be checked by default.

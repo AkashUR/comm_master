@@ -1,0 +1,40 @@
+19
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='tryMT'
+7 arguments
+8 argument (IntegerLiteralExpr)
+9 value='1'
+10 argument (BooleanLiteralExpr)
+11 value='true'
+12 type (VoidType)
+13 name (SimpleName)
+14 identifier='testMTGrouped'
+15 thrownExceptions
+16 thrownException (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+0 12
+0 13
+13 14
+0 15
+15 16
+16 17
+17 18
+
+Table: create table MyTable(key string primary key, p0 int, p1 int, p2, int, p3 int, p4 int) For a given number of seconds: - Single writer uses merge in a loop: - inserts MyTable={key='K1', p0=1, p1=1, p2=1, p3=1, p4=1} - deletes the row - Single reader outputs p0 to p4 using "MyTable['K1'].px" Row should either exist with all values found or not exist.

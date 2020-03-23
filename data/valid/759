@@ -1,0 +1,128 @@
+63
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ConditionalExpr)
+8 condition (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='isEmpty'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='TextUtils'
+14 arguments
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='phoneNumber'
+18 elseExpr (NameExpr)
+19 name (SimpleName)
+20 identifier='phoneNumber'
+21 thenExpr (NameExpr)
+22 name (SimpleName)
+23 identifier='fallbackNumber'
+24 name (SimpleName)
+25 identifier='number'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='String'
+29 statement (ExpressionStmt)
+30 expression (AssignExpr)
+31 operator='ASSIGN'
+32 target (NameExpr)
+33 name (SimpleName)
+34 identifier='geoDescription'
+35 value (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='getGeoDescription'
+38 arguments
+39 argument (NameExpr)
+40 name (SimpleName)
+41 identifier='context'
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='number'
+45 type (VoidType)
+46 name (SimpleName)
+47 identifier='updateGeoDescription'
+48 parameters
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='context'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='Context'
+56 parameter (Parameter)
+57 isVarArgs='false'
+58 name (SimpleName)
+59 identifier='fallbackNumber'
+60 type (ClassOrInterfaceType)
+61 name (SimpleName)
+62 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+16 17
+7 18
+18 19
+19 20
+7 21
+21 22
+22 23
+6 24
+24 25
+6 26
+26 27
+27 28
+2 29
+29 30
+30 31
+30 32
+32 33
+33 34
+30 35
+35 36
+36 37
+35 38
+38 39
+39 40
+40 41
+38 42
+42 43
+43 44
+0 45
+0 46
+46 47
+0 48
+48 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+48 56
+56 57
+56 58
+58 59
+56 60
+60 61
+61 62
+
+Updates this CallerInfo's geoDescription field, based on the raw phone number in the phoneNumber field. (Note that the various getCallerInfo() methods do *not* set the geoDescription automatically; you need to call this method explicitly to get it.)

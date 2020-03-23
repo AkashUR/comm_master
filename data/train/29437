@@ -1,0 +1,652 @@
+325
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getJaxbMapper'
+10 name (SimpleName)
+11 identifier='mapper'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='ObjectMapper'
+15 statement (ExpressionStmt)
+16 expression (VariableDeclarationExpr)
+17 variables
+18 variable (VariableDeclarator)
+19 initializer (ObjectCreationExpr)
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='Bean'
+23 arguments
+24 argument (ObjectCreationExpr)
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Buffalo'
+28 arguments
+29 argument (StringLiteralExpr)
+30 value='Billy'
+31 argument (StringLiteralExpr)
+32 value='brown'
+33 name (SimpleName)
+34 identifier='input'
+35 type (ClassOrInterfaceType)
+36 name (SimpleName)
+37 identifier='Bean'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='writeValueAsString'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='mapper'
+48 arguments
+49 argument (NameExpr)
+50 name (SimpleName)
+51 identifier='input'
+52 name (SimpleName)
+53 identifier='str'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='String'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='readValue'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='mapper'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='str'
+71 argument (ClassExpr)
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Map'
+75 name (SimpleName)
+76 identifier='map'
+77 type (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='Map'
+80 typeArguments
+81 typeArgument (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='String'
+84 typeArgument (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='Object'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='assertEquals'
+91 arguments
+92 argument (IntegerLiteralExpr)
+93 value='2'
+94 argument (MethodCallExpr)
+95 name (SimpleName)
+96 identifier='size'
+97 scope (NameExpr)
+98 name (SimpleName)
+99 identifier='map'
+100 statement (ExpressionStmt)
+101 expression (VariableDeclarationExpr)
+102 variables
+103 variable (VariableDeclarator)
+104 initializer (CastExpr)
+105 expression (MethodCallExpr)
+106 name (SimpleName)
+107 identifier='get'
+108 scope (NameExpr)
+109 name (SimpleName)
+110 identifier='map'
+111 arguments
+112 argument (StringLiteralExpr)
+113 value='animal'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='Map'
+117 typeArguments
+118 typeArgument (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='String'
+121 typeArgument (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='Object'
+124 name (SimpleName)
+125 identifier='map2'
+126 type (ClassOrInterfaceType)
+127 name (SimpleName)
+128 identifier='Map'
+129 typeArguments
+130 typeArgument (ClassOrInterfaceType)
+131 name (SimpleName)
+132 identifier='String'
+133 typeArgument (ClassOrInterfaceType)
+134 name (SimpleName)
+135 identifier='Object'
+136 statement (ExpressionStmt)
+137 expression (MethodCallExpr)
+138 name (SimpleName)
+139 identifier='assertNotNull'
+140 arguments
+141 argument (NameExpr)
+142 name (SimpleName)
+143 identifier='map2'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='assertEquals'
+148 arguments
+149 argument (IntegerLiteralExpr)
+150 value='1'
+151 argument (MethodCallExpr)
+152 name (SimpleName)
+153 identifier='size'
+154 scope (NameExpr)
+155 name (SimpleName)
+156 identifier='map2'
+157 statement (ExpressionStmt)
+158 expression (MethodCallExpr)
+159 name (SimpleName)
+160 identifier='assertTrue'
+161 arguments
+162 argument (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='containsKey'
+165 scope (NameExpr)
+166 name (SimpleName)
+167 identifier='map2'
+168 arguments
+169 argument (StringLiteralExpr)
+170 value='beefalot'
+171 statement (ExpressionStmt)
+172 expression (VariableDeclarationExpr)
+173 variables
+174 variable (VariableDeclarator)
+175 initializer (CastExpr)
+176 expression (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='get'
+179 scope (NameExpr)
+180 name (SimpleName)
+181 identifier='map2'
+182 arguments
+183 argument (StringLiteralExpr)
+184 value='beefalot'
+185 type (ClassOrInterfaceType)
+186 name (SimpleName)
+187 identifier='Map'
+188 typeArguments
+189 typeArgument (ClassOrInterfaceType)
+190 name (SimpleName)
+191 identifier='String'
+192 typeArgument (ClassOrInterfaceType)
+193 name (SimpleName)
+194 identifier='Object'
+195 name (SimpleName)
+196 identifier='map3'
+197 type (ClassOrInterfaceType)
+198 name (SimpleName)
+199 identifier='Map'
+200 typeArguments
+201 typeArgument (ClassOrInterfaceType)
+202 name (SimpleName)
+203 identifier='String'
+204 typeArgument (ClassOrInterfaceType)
+205 name (SimpleName)
+206 identifier='Object'
+207 statement (ExpressionStmt)
+208 expression (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='assertEquals'
+211 arguments
+212 argument (IntegerLiteralExpr)
+213 value='2'
+214 argument (MethodCallExpr)
+215 name (SimpleName)
+216 identifier='size'
+217 scope (NameExpr)
+218 name (SimpleName)
+219 identifier='map3'
+220 statement (ExpressionStmt)
+221 expression (VariableDeclarationExpr)
+222 variables
+223 variable (VariableDeclarator)
+224 initializer (MethodCallExpr)
+225 name (SimpleName)
+226 identifier='readValue'
+227 scope (NameExpr)
+228 name (SimpleName)
+229 identifier='mapper'
+230 arguments
+231 argument (NameExpr)
+232 name (SimpleName)
+233 identifier='str'
+234 argument (ClassExpr)
+235 type (ClassOrInterfaceType)
+236 name (SimpleName)
+237 identifier='Bean'
+238 name (SimpleName)
+239 identifier='result'
+240 type (ClassOrInterfaceType)
+241 name (SimpleName)
+242 identifier='Bean'
+243 statement (ExpressionStmt)
+244 expression (VariableDeclarationExpr)
+245 variables
+246 variable (VariableDeclarator)
+247 initializer (FieldAccessExpr)
+248 name (SimpleName)
+249 identifier='animal'
+250 scope (NameExpr)
+251 name (SimpleName)
+252 identifier='result'
+253 name (SimpleName)
+254 identifier='a'
+255 type (ClassOrInterfaceType)
+256 name (SimpleName)
+257 identifier='Animal'
+258 statement (ExpressionStmt)
+259 expression (MethodCallExpr)
+260 name (SimpleName)
+261 identifier='assertNotNull'
+262 arguments
+263 argument (NameExpr)
+264 name (SimpleName)
+265 identifier='a'
+266 statement (ExpressionStmt)
+267 expression (MethodCallExpr)
+268 name (SimpleName)
+269 identifier='assertEquals'
+270 arguments
+271 argument (ClassExpr)
+272 type (ClassOrInterfaceType)
+273 name (SimpleName)
+274 identifier='Buffalo'
+275 argument (MethodCallExpr)
+276 name (SimpleName)
+277 identifier='getClass'
+278 scope (NameExpr)
+279 name (SimpleName)
+280 identifier='a'
+281 statement (ExpressionStmt)
+282 expression (MethodCallExpr)
+283 name (SimpleName)
+284 identifier='assertEquals'
+285 arguments
+286 argument (StringLiteralExpr)
+287 value='Billy'
+288 argument (FieldAccessExpr)
+289 name (SimpleName)
+290 identifier='nickname'
+291 scope (NameExpr)
+292 name (SimpleName)
+293 identifier='a'
+294 statement (ExpressionStmt)
+295 expression (MethodCallExpr)
+296 name (SimpleName)
+297 identifier='assertEquals'
+298 arguments
+299 argument (StringLiteralExpr)
+300 value='brown'
+301 argument (FieldAccessExpr)
+302 name (SimpleName)
+303 identifier='hairColor'
+304 scope (EnclosedExpr)
+305 inner (CastExpr)
+306 expression (NameExpr)
+307 name (SimpleName)
+308 identifier='a'
+309 type (ClassOrInterfaceType)
+310 name (SimpleName)
+311 identifier='Buffalo'
+312 type (VoidType)
+313 name (SimpleName)
+314 identifier='testSinglePolymorphic'
+315 thrownExceptions
+316 thrownException (ClassOrInterfaceType)
+317 name (SimpleName)
+318 identifier='Exception'
+319 annotations
+320 annotation (SingleMemberAnnotationExpr)
+321 memberValue (StringLiteralExpr)
+322 value='unchecked'
+323 name (Name)
+324 identifier='SuppressWarnings'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+2 15
+15 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+19 23
+23 24
+24 25
+25 26
+26 27
+24 28
+28 29
+29 30
+28 31
+31 32
+18 33
+33 34
+18 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+42 48
+48 49
+49 50
+50 51
+41 52
+52 53
+41 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+67 71
+71 72
+72 73
+73 74
+60 75
+75 76
+60 77
+77 78
+78 79
+77 80
+80 81
+81 82
+82 83
+80 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+91 94
+94 95
+95 96
+94 97
+97 98
+98 99
+2 100
+100 101
+101 102
+102 103
+103 104
+104 105
+105 106
+106 107
+105 108
+108 109
+109 110
+105 111
+111 112
+112 113
+104 114
+114 115
+115 116
+114 117
+117 118
+118 119
+119 120
+117 121
+121 122
+122 123
+103 124
+124 125
+103 126
+126 127
+127 128
+126 129
+129 130
+130 131
+131 132
+129 133
+133 134
+134 135
+2 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+148 151
+151 152
+152 153
+151 154
+154 155
+155 156
+2 157
+157 158
+158 159
+159 160
+158 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+162 168
+168 169
+169 170
+2 171
+171 172
+172 173
+173 174
+174 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+176 182
+182 183
+183 184
+175 185
+185 186
+186 187
+185 188
+188 189
+189 190
+190 191
+188 192
+192 193
+193 194
+174 195
+195 196
+174 197
+197 198
+198 199
+197 200
+200 201
+201 202
+202 203
+200 204
+204 205
+205 206
+2 207
+207 208
+208 209
+209 210
+208 211
+211 212
+212 213
+211 214
+214 215
+215 216
+214 217
+217 218
+218 219
+2 220
+220 221
+221 222
+222 223
+223 224
+224 225
+225 226
+224 227
+227 228
+228 229
+224 230
+230 231
+231 232
+232 233
+230 234
+234 235
+235 236
+236 237
+223 238
+238 239
+223 240
+240 241
+241 242
+2 243
+243 244
+244 245
+245 246
+246 247
+247 248
+248 249
+247 250
+250 251
+251 252
+246 253
+253 254
+246 255
+255 256
+256 257
+2 258
+258 259
+259 260
+260 261
+259 262
+262 263
+263 264
+264 265
+2 266
+266 267
+267 268
+268 269
+267 270
+270 271
+271 272
+272 273
+273 274
+270 275
+275 276
+276 277
+275 278
+278 279
+279 280
+2 281
+281 282
+282 283
+283 284
+282 285
+285 286
+286 287
+285 288
+288 289
+289 290
+288 291
+291 292
+292 293
+2 294
+294 295
+295 296
+296 297
+295 298
+298 299
+299 300
+298 301
+301 302
+302 303
+301 304
+304 305
+305 306
+306 307
+307 308
+305 309
+309 310
+310 311
+0 312
+0 313
+313 314
+0 315
+315 316
+316 317
+317 318
+0 319
+319 320
+320 321
+321 322
+320 323
+323 324
+
+First a simple test with non-collection field

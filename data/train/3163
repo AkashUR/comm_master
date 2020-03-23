@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='add'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='outgoingArcs'
+10 arguments
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Arc'
+15 arguments
+16 argument (ThisExpr)
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='destination'
+20 argument (NameExpr)
+21 name (SimpleName)
+22 identifier='weight'
+23 argument (NameExpr)
+24 name (SimpleName)
+25 identifier='label'
+26 type (VoidType)
+27 name (SimpleName)
+28 identifier='addArc'
+29 parameters
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='destination'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Node'
+37 typeArguments
+38 typeArgument (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Label'
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='weight'
+45 type (PrimitiveType)
+46 type='FLOAT'
+47 parameter (Parameter)
+48 isVarArgs='false'
+49 name (SimpleName)
+50 identifier='label'
+51 type (ClassOrInterfaceType)
+52 name (SimpleName)
+53 identifier='Label'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+13 14
+11 15
+15 16
+15 17
+17 18
+18 19
+15 20
+20 21
+21 22
+15 23
+23 24
+24 25
+0 26
+0 27
+27 28
+0 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+34 37
+37 38
+38 39
+39 40
+29 41
+41 42
+41 43
+43 44
+41 45
+45 46
+29 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+
+Adds a new outgoing arc to this node that points to the specified destination. The new arc will have the specified weight and specified label.

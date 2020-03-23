@@ -1,0 +1,110 @@
+54
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='init'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mController'
+10 statement (ExpressionStmt)
+11 expression (VariableDeclarationExpr)
+12 variables
+13 variable (VariableDeclarator)
+14 initializer (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='SyncFailedEvent'
+18 name (SimpleName)
+19 identifier='event'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='SyncFinishedEvent'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='post'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='mFakeEventBus'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='event'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='showRefreshError'
+38 scope (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='verify'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='mMockUi'
+45 argument (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='times'
+48 arguments
+49 argument (IntegerLiteralExpr)
+50 value='0'
+51 type (VoidType)
+52 name (SimpleName)
+53 identifier='testBackgroundSyncFailure_DoesNotDisplaySyncError'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+2 10
+10 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+13 18
+18 19
+13 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+45 48
+48 49
+49 50
+0 51
+0 52
+52 53
+
+Tests that a background sync does not result in a sync error being displayed.

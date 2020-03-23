@@ -1,0 +1,196 @@
+97
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='rangeCheck'
+7 arguments
+8 argument (FieldAccessExpr)
+9 name (SimpleName)
+10 identifier='length'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='a'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='fromIndex'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='toIndex'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (CastExpr)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='cloneSubarray'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='a'
+32 argument (NameExpr)
+33 name (SimpleName)
+34 identifier='fromIndex'
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='toIndex'
+38 type (ArrayType)
+39 origin='TYPE'
+40 componentType (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='Object'
+43 name (SimpleName)
+44 identifier='aux'
+45 type (ArrayType)
+46 origin='TYPE'
+47 componentType (ClassOrInterfaceType)
+48 name (SimpleName)
+49 identifier='Object'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='mergeSort'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='aux'
+58 argument (NameExpr)
+59 name (SimpleName)
+60 identifier='a'
+61 argument (NameExpr)
+62 name (SimpleName)
+63 identifier='fromIndex'
+64 argument (NameExpr)
+65 name (SimpleName)
+66 identifier='toIndex'
+67 argument (UnaryExpr)
+68 operator='MINUS'
+69 expression (NameExpr)
+70 name (SimpleName)
+71 identifier='fromIndex'
+72 type (VoidType)
+73 name (SimpleName)
+74 identifier='sort'
+75 parameters
+76 parameter (Parameter)
+77 isVarArgs='false'
+78 name (SimpleName)
+79 identifier='a'
+80 type (ArrayType)
+81 origin='TYPE'
+82 componentType (ClassOrInterfaceType)
+83 name (SimpleName)
+84 identifier='Object'
+85 parameter (Parameter)
+86 isVarArgs='false'
+87 name (SimpleName)
+88 identifier='fromIndex'
+89 type (PrimitiveType)
+90 type='INT'
+91 parameter (Parameter)
+92 isVarArgs='false'
+93 name (SimpleName)
+94 identifier='toIndex'
+95 type (PrimitiveType)
+96 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+7 14
+14 15
+15 16
+7 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+30 31
+28 32
+32 33
+33 34
+28 35
+35 36
+36 37
+24 38
+38 39
+38 40
+40 41
+41 42
+23 43
+43 44
+23 45
+45 46
+45 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+54 58
+58 59
+59 60
+54 61
+61 62
+62 63
+54 64
+64 65
+65 66
+54 67
+67 68
+67 69
+69 70
+70 71
+0 72
+0 73
+73 74
+0 75
+75 76
+76 77
+76 78
+78 79
+76 80
+80 81
+80 82
+82 83
+83 84
+75 85
+85 86
+85 87
+87 88
+85 89
+89 90
+75 91
+91 92
+91 93
+93 94
+91 95
+95 96
+
+Sorts the specified range of the specified array of objects into ascending order, according to the <i>natural ordering</i> of its elements.  The range to be sorted extends from index <tt>fromIndex</tt>, inclusive, to index <tt>toIndex</tt>, exclusive. (If <tt>fromIndex==toIndex</tt>, the range to be sorted is empty.)  All elements in this range must implement the <tt>Comparable</tt> interface.  Furthermore, all elements in this range must be <i>mutually comparable</i> (that is, <tt>e1.compareTo(e2)</tt> must not throw a <tt>ClassCastException</tt> for any elements <tt>e1</tt> and <tt>e2</tt> in the array).<p> This sort is guaranteed to be <i>stable</i>:  equal elements will not be reordered as a result of the sort.<p> The sorting algorithm is a modified mergesort (in which the merge is omitted if the highest element in the low sublist is less than the lowest element in the high sublist).  This algorithm offers guaranteed n*log(n) performance.

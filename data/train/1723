@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (StringLiteralExpr)
+8 value='1.2.3.5'
+9 name (SimpleName)
+10 identifier='myIP'
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='String'
+14 statement (ExpressionStmt)
+15 expression (VariableDeclarationExpr)
+16 variables
+17 variable (VariableDeclarator)
+18 initializer (StringLiteralExpr)
+19 value='27.124.124.122'
+20 name (SimpleName)
+21 identifier='exitIP'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='String'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (StringLiteralExpr)
+30 value='torproject.org'
+31 name (SimpleName)
+32 identifier='DNSELServer'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='String'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='println'
+40 scope (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='out'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='System'
+46 arguments
+47 argument (BinaryExpr)
+48 operator='PLUS'
+49 left (StringLiteralExpr)
+50 value='Using Tor? '
+51 right (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='isUsingTor'
+54 arguments
+55 argument (NameExpr)
+56 name (SimpleName)
+57 identifier='myIP'
+58 argument (IntegerLiteralExpr)
+59 value='443'
+60 argument (NameExpr)
+61 name (SimpleName)
+62 identifier='exitIP'
+63 argument (NameExpr)
+64 name (SimpleName)
+65 identifier='DNSELServer'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='main'
+69 parameters
+70 parameter (Parameter)
+71 isVarArgs='false'
+72 name (SimpleName)
+73 identifier='args'
+74 type (ArrayType)
+75 origin='NAME'
+76 componentType (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+6 9
+9 10
+6 11
+11 12
+12 13
+2 14
+14 15
+15 16
+16 17
+17 18
+18 19
+17 20
+20 21
+17 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+28 33
+33 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+37 46
+46 47
+47 48
+47 49
+49 50
+47 51
+51 52
+52 53
+51 54
+54 55
+55 56
+56 57
+54 58
+58 59
+54 60
+60 61
+61 62
+54 63
+63 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+70 72
+72 73
+70 74
+74 75
+74 76
+76 77
+77 78
+
+Test the checker.

@@ -1,0 +1,88 @@
+43
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='a'
+11 arguments
+12 argument (BinaryExpr)
+13 operator='PLUS'
+14 left (StringLiteralExpr)
+15 value='ERROR:\n'
+16 right (NameExpr)
+17 name (SimpleName)
+18 identifier='s'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='ALL_MESSAGE_LOGS'
+22 argument (BooleanLiteralExpr)
+23 value='true'
+24 statement (ExpressionStmt)
+25 expression (AssignExpr)
+26 operator='ASSIGN'
+27 target (NameExpr)
+28 name (SimpleName)
+29 identifier='errors'
+30 value (BooleanLiteralExpr)
+31 value='true'
+32 type (VoidType)
+33 name (SimpleName)
+34 identifier='error'
+35 parameters
+36 parameter (Parameter)
+37 isVarArgs='false'
+38 name (SimpleName)
+39 identifier='s'
+40 type (ClassOrInterfaceType)
+41 name (SimpleName)
+42 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+12 14
+14 15
+12 16
+16 17
+17 18
+7 19
+19 20
+20 21
+7 22
+22 23
+2 24
+24 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+0 32
+0 33
+33 34
+0 35
+35 36
+36 37
+36 38
+38 39
+36 40
+40 41
+41 42
+
+Posts a simple error. This causes the error flag to be raised as well.

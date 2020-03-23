@@ -1,0 +1,262 @@
+130
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createFile'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='FileTesting'
+13 name (SimpleName)
+14 identifier='file'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='File'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='allocate'
+25 scope (NameExpr)
+26 name (SimpleName)
+27 identifier='FileBuffer'
+28 arguments
+29 argument (NameExpr)
+30 name (SimpleName)
+31 identifier='file'
+32 argument (IntegerLiteralExpr)
+33 value='16'
+34 name (SimpleName)
+35 identifier='buffer'
+36 type (ClassOrInterfaceType)
+37 name (SimpleName)
+38 identifier='FileBuffer'
+39 statement (ExpressionStmt)
+40 expression (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='flip'
+43 scope (MethodCallExpr)
+44 name (SimpleName)
+45 identifier='writeLong'
+46 scope (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='writeLong'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='buffer'
+52 arguments
+53 argument (IntegerLiteralExpr)
+54 value='10'
+55 arguments
+56 argument (IntegerLiteralExpr)
+57 value='11'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='assertEquals'
+62 arguments
+63 argument (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='readLong'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='buffer'
+69 argument (IntegerLiteralExpr)
+70 value='10'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='assertEquals'
+75 arguments
+76 argument (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='readLong'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='buffer'
+82 argument (IntegerLiteralExpr)
+83 value='11'
+84 statement (ExpressionStmt)
+85 expression (MethodCallExpr)
+86 name (SimpleName)
+87 identifier='assertTrue'
+88 arguments
+89 argument (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='exists'
+92 scope (NameExpr)
+93 name (SimpleName)
+94 identifier='Files'
+95 arguments
+96 argument (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='toPath'
+99 scope (NameExpr)
+100 name (SimpleName)
+101 identifier='file'
+102 statement (ExpressionStmt)
+103 expression (MethodCallExpr)
+104 name (SimpleName)
+105 identifier='delete'
+106 scope (NameExpr)
+107 name (SimpleName)
+108 identifier='buffer'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='assertFalse'
+113 arguments
+114 argument (MethodCallExpr)
+115 name (SimpleName)
+116 identifier='exists'
+117 scope (NameExpr)
+118 name (SimpleName)
+119 identifier='Files'
+120 arguments
+121 argument (MethodCallExpr)
+122 name (SimpleName)
+123 identifier='toPath'
+124 scope (NameExpr)
+125 name (SimpleName)
+126 identifier='file'
+127 type (VoidType)
+128 name (SimpleName)
+129 identifier='testDelete'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+22 28
+28 29
+29 30
+30 31
+28 32
+32 33
+21 34
+34 35
+21 36
+36 37
+37 38
+2 39
+39 40
+40 41
+41 42
+40 43
+43 44
+44 45
+43 46
+46 47
+47 48
+46 49
+49 50
+50 51
+46 52
+52 53
+53 54
+43 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+62 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+75 82
+82 83
+2 84
+84 85
+85 86
+86 87
+85 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+89 95
+95 96
+96 97
+97 98
+96 99
+99 100
+100 101
+2 102
+102 103
+103 104
+104 105
+103 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+115 116
+114 117
+117 118
+118 119
+114 120
+120 121
+121 122
+122 123
+121 124
+124 125
+125 126
+0 127
+0 128
+128 129
+
+Tests deleting a file.

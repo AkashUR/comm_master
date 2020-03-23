@@ -1,0 +1,90 @@
+44
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (StringLiteralExpr)
+17 value='Using default training data: '
+18 right (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getString'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='rm'
+24 arguments
+25 argument (StringLiteralExpr)
+26 value='trainingData'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='trainModels'
+31 arguments
+32 argument (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='getString'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='rm'
+38 arguments
+39 argument (StringLiteralExpr)
+40 value='trainingData'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='trainModels'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+14 16
+16 17
+14 18
+18 19
+19 20
+18 21
+21 22
+22 23
+18 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+32 38
+38 39
+39 40
+0 41
+0 42
+42 43
+
+Trains the taggers with the default training data found in ChunkerConfigurator.java

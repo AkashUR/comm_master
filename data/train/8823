@@ -1,0 +1,132 @@
+65
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mExtHandlers'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='command'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='handler'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='register'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='command'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='String'
+28 parameter (Parameter)
+29 isVarArgs='false'
+30 name (SimpleName)
+31 identifier='handler'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='AtCommandHandler'
+35 annotations
+36 annotation (NormalAnnotationExpr)
+37 name (Name)
+38 identifier='DSGenerator'
+39 pairs
+40 pair (MemberValuePair)
+41 name (SimpleName)
+42 identifier='tool_name'
+43 value (StringLiteralExpr)
+44 value='Doppelganger'
+45 pair (MemberValuePair)
+46 name (SimpleName)
+47 identifier='tool_version'
+48 value (StringLiteralExpr)
+49 value='2.0'
+50 pair (MemberValuePair)
+51 name (SimpleName)
+52 identifier='generated_on'
+53 value (StringLiteralExpr)
+54 value='2014-03-25 15:32:01.518 -0400'
+55 pair (MemberValuePair)
+56 name (SimpleName)
+57 identifier='hash_original_method'
+58 value (StringLiteralExpr)
+59 value='95B367B29207B84F57FA0AC8C88D7587'
+60 pair (MemberValuePair)
+61 name (SimpleName)
+62 identifier='hash_generated_method'
+63 value (StringLiteralExpr)
+64 value='51BD899EDC75332FFDC13E22A22A2768'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+20 28
+28 29
+28 30
+30 31
+28 32
+32 33
+33 34
+0 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+41 42
+40 43
+43 44
+39 45
+45 46
+46 47
+45 48
+48 49
+39 50
+50 51
+51 52
+50 53
+53 54
+39 55
+55 56
+56 57
+55 58
+58 59
+39 60
+60 61
+61 62
+60 63
+63 64
+
+Register an Extended command handler.<p> Extended command handlers are later called via:<ul> <li><code>handleActionCommand()</code> <li><code>handleGetCommand()</code> <li><code>handleSetCommand()</code> <li><code>handleTestCommand()</code> </ul> Only one method will be called for each command processed.

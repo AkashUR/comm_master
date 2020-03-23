@@ -1,0 +1,148 @@
+73
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='createTable'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='testBug16277'
+10 argument (StringLiteralExpr)
+11 value='(field1 BIGINT, field2 BIGINT UNSIGNED)'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getMetaData'
+19 scope (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='executeQuery'
+22 scope (FieldAccessExpr)
+23 name (SimpleName)
+24 identifier='stmt'
+25 scope (ThisExpr)
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='SELECT field1, field2 FROM testBug16277'
+29 name (SimpleName)
+30 identifier='rsmd'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='ResultSetMetaData'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='assertEquals'
+38 arguments
+39 argument (StringLiteralExpr)
+40 value='java.lang.Long'
+41 argument (MethodCallExpr)
+42 name (SimpleName)
+43 identifier='getColumnClassName'
+44 scope (NameExpr)
+45 name (SimpleName)
+46 identifier='rsmd'
+47 arguments
+48 argument (IntegerLiteralExpr)
+49 value='1'
+50 statement (ExpressionStmt)
+51 expression (MethodCallExpr)
+52 name (SimpleName)
+53 identifier='assertEquals'
+54 arguments
+55 argument (StringLiteralExpr)
+56 value='java.math.BigInteger'
+57 argument (MethodCallExpr)
+58 name (SimpleName)
+59 identifier='getColumnClassName'
+60 scope (NameExpr)
+61 name (SimpleName)
+62 identifier='rsmd'
+63 arguments
+64 argument (IntegerLiteralExpr)
+65 value='2'
+66 type (VoidType)
+67 name (SimpleName)
+68 identifier='testBug16277'
+69 thrownExceptions
+70 thrownException (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+19 22
+22 23
+23 24
+22 25
+19 26
+26 27
+27 28
+15 29
+29 30
+15 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+41 47
+47 48
+48 49
+2 50
+50 51
+51 52
+52 53
+51 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+57 63
+63 64
+64 65
+0 66
+0 67
+67 68
+0 69
+69 70
+70 71
+71 72
+
+Tests fix for BUG#16277 - Invalid classname returned for RSMD.getColumnClassName() for BIGINT type.

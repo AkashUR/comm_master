@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (WhileStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='findAndInit'
+10 arguments
+11 argument (MethodCallExpr)
+12 name (SimpleName)
+13 identifier='next'
+14 scope (NameExpr)
+15 name (SimpleName)
+16 identifier='it'
+17 condition (MethodCallExpr)
+18 name (SimpleName)
+19 identifier='hasNext'
+20 scope (NameExpr)
+21 name (SimpleName)
+22 identifier='it'
+23 type (VoidType)
+24 name (SimpleName)
+25 identifier='findAndInit'
+26 parameters
+27 parameter (Parameter)
+28 isVarArgs='false'
+29 name (SimpleName)
+30 identifier='it'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='Iterator'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+3 17
+17 18
+18 19
+17 20
+20 21
+21 22
+0 23
+0 24
+24 25
+0 26
+26 27
+27 28
+27 29
+29 30
+27 31
+31 32
+32 33
+
+Eventually gets called when the DropListenerSupport is added to the BeanContext, and when other objects are added to the BeanContext anytime after that. The DropListenerSupport looks for a MapBean to manage MouseEvents for, and DefaultDndCatchers to use to manage those events. If a MapBean is added to the BeanContext while another already is in use, the second MapBean will take the place of the first.

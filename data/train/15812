@@ -1,0 +1,64 @@
+31
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addMethodNoBidirectionalUpdate'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='type'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='setClassOrInterfaceTypeNoBidirectionalUpdate'
+15 scope (NameExpr)
+16 name (SimpleName)
+17 identifier='type'
+18 arguments
+19 argument (ThisExpr)
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='addMethod'
+23 parameters
+24 parameter (Parameter)
+25 isVarArgs='false'
+26 name (SimpleName)
+27 identifier='type'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='MethodType'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+12 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+24 26
+26 27
+24 28
+28 29
+29 30
+
+Adds a method that this class contains and ensures that the back-reference on the referred entity is set as well.

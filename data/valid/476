@@ -1,0 +1,204 @@
+101
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (WhileStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='update'
+10 scope (ThisExpr)
+11 arguments
+12 argument (ArrayAccessExpr)
+13 index (NameExpr)
+14 name (SimpleName)
+15 identifier='off'
+16 name (NameExpr)
+17 name (SimpleName)
+18 identifier='in'
+19 statement (ExpressionStmt)
+20 expression (UnaryExpr)
+21 operator='POSTFIX_INCREMENT'
+22 expression (NameExpr)
+23 name (SimpleName)
+24 identifier='off'
+25 statement (ExpressionStmt)
+26 expression (UnaryExpr)
+27 operator='POSTFIX_DECREMENT'
+28 expression (NameExpr)
+29 name (SimpleName)
+30 identifier='len'
+31 condition (BinaryExpr)
+32 operator='AND'
+33 left (BinaryExpr)
+34 operator='GREATER'
+35 left (NameExpr)
+36 name (SimpleName)
+37 identifier='len'
+38 right (IntegerLiteralExpr)
+39 value='0'
+40 right (BinaryExpr)
+41 operator='LESS'
+42 left (NameExpr)
+43 name (SimpleName)
+44 identifier='messageLength'
+45 right (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='length'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='mBuf'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='update'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='digest'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='in'
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='off'
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='len'
+68 statement (ExpressionStmt)
+69 expression (AssignExpr)
+70 operator='PLUS'
+71 target (NameExpr)
+72 name (SimpleName)
+73 identifier='messageLength'
+74 value (NameExpr)
+75 name (SimpleName)
+76 identifier='len'
+77 type (VoidType)
+78 name (SimpleName)
+79 identifier='update'
+80 parameters
+81 parameter (Parameter)
+82 isVarArgs='false'
+83 name (SimpleName)
+84 identifier='in'
+85 type (ArrayType)
+86 origin='TYPE'
+87 componentType (PrimitiveType)
+88 type='BYTE'
+89 parameter (Parameter)
+90 isVarArgs='false'
+91 name (SimpleName)
+92 identifier='off'
+93 type (PrimitiveType)
+94 type='INT'
+95 parameter (Parameter)
+96 isVarArgs='false'
+97 name (SimpleName)
+98 identifier='len'
+99 type (PrimitiveType)
+100 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+7 11
+11 12
+12 13
+13 14
+14 15
+12 16
+16 17
+17 18
+5 19
+19 20
+20 21
+20 22
+22 23
+23 24
+5 25
+25 26
+26 27
+26 28
+28 29
+29 30
+3 31
+31 32
+31 33
+33 34
+33 35
+35 36
+36 37
+33 38
+38 39
+31 40
+40 41
+40 42
+42 43
+43 44
+40 45
+45 46
+46 47
+45 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+58 65
+65 66
+66 67
+2 68
+68 69
+69 70
+69 71
+71 72
+72 73
+69 74
+74 75
+75 76
+0 77
+0 78
+78 79
+0 80
+80 81
+81 82
+81 83
+83 84
+81 85
+85 86
+85 87
+87 88
+80 89
+89 90
+89 91
+91 92
+89 93
+93 94
+80 95
+95 96
+95 97
+97 98
+95 99
+99 100
+
+update the internal digest with the byte array in

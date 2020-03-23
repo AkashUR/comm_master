@@ -1,0 +1,276 @@
+137
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='WRAP_ID'
+9 scope (NameExpr)
+10 name (SimpleName)
+11 identifier='Krb5Token'
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='context'
+15 argument (NameExpr)
+16 name (SimpleName)
+17 identifier='tokenBytes'
+18 argument (NameExpr)
+19 name (SimpleName)
+20 identifier='tokenOffset'
+21 argument (NameExpr)
+22 name (SimpleName)
+23 identifier='tokenLen'
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='prop'
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (FieldAccessExpr)
+31 name (SimpleName)
+32 identifier='readTokenFromInputStream'
+33 scope (ThisExpr)
+34 value (BooleanLiteralExpr)
+35 value='false'
+36 statement (ExpressionStmt)
+37 expression (AssignExpr)
+38 operator='ASSIGN'
+39 target (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='tokenBytes'
+42 scope (ThisExpr)
+43 value (NameExpr)
+44 name (SimpleName)
+45 identifier='tokenBytes'
+46 statement (ExpressionStmt)
+47 expression (AssignExpr)
+48 operator='ASSIGN'
+49 target (FieldAccessExpr)
+50 name (SimpleName)
+51 identifier='tokenOffset'
+52 scope (ThisExpr)
+53 value (NameExpr)
+54 name (SimpleName)
+55 identifier='tokenOffset'
+56 statement (ExpressionStmt)
+57 expression (AssignExpr)
+58 operator='ASSIGN'
+59 target (FieldAccessExpr)
+60 name (SimpleName)
+61 identifier='tokenLen'
+62 scope (ThisExpr)
+63 value (NameExpr)
+64 name (SimpleName)
+65 identifier='tokenLen'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (FieldAccessExpr)
+70 name (SimpleName)
+71 identifier='privacy'
+72 scope (ThisExpr)
+73 value (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='getPrivacy'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='prop'
+79 statement (ExpressionStmt)
+80 expression (AssignExpr)
+81 operator='ASSIGN'
+82 target (NameExpr)
+83 name (SimpleName)
+84 identifier='dataSize'
+85 value (BinaryExpr)
+86 operator='MINUS'
+87 left (MethodCallExpr)
+88 name (SimpleName)
+89 identifier='getMechTokenLength'
+90 scope (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='getGSSHeader'
+93 right (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='getKrb5TokenSize'
+96 name (SimpleName)
+97 identifier='WrapToken'
+98 parameters
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='context'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='Krb5Context'
+106 parameter (Parameter)
+107 isVarArgs='false'
+108 name (SimpleName)
+109 identifier='tokenBytes'
+110 type (ArrayType)
+111 origin='TYPE'
+112 componentType (PrimitiveType)
+113 type='BYTE'
+114 parameter (Parameter)
+115 isVarArgs='false'
+116 name (SimpleName)
+117 identifier='tokenOffset'
+118 type (PrimitiveType)
+119 type='INT'
+120 parameter (Parameter)
+121 isVarArgs='false'
+122 name (SimpleName)
+123 identifier='tokenLen'
+124 type (PrimitiveType)
+125 type='INT'
+126 parameter (Parameter)
+127 isVarArgs='false'
+128 name (SimpleName)
+129 identifier='prop'
+130 type (ClassOrInterfaceType)
+131 name (SimpleName)
+132 identifier='MessageProp'
+133 thrownExceptions
+134 thrownException (ClassOrInterfaceType)
+135 name (SimpleName)
+136 identifier='GSSException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+6 9
+9 10
+10 11
+5 12
+12 13
+13 14
+5 15
+15 16
+16 17
+5 18
+18 19
+19 20
+5 21
+21 22
+22 23
+5 24
+24 25
+25 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+30 33
+28 34
+34 35
+2 36
+36 37
+37 38
+37 39
+39 40
+40 41
+39 42
+37 43
+43 44
+44 45
+2 46
+46 47
+47 48
+47 49
+49 50
+50 51
+49 52
+47 53
+53 54
+54 55
+2 56
+56 57
+57 58
+57 59
+59 60
+60 61
+59 62
+57 63
+63 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+69 72
+67 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+80 82
+82 83
+83 84
+80 85
+85 86
+85 87
+87 88
+88 89
+87 90
+90 91
+91 92
+85 93
+93 94
+94 95
+0 96
+96 97
+0 98
+98 99
+99 100
+99 101
+101 102
+99 103
+103 104
+104 105
+98 106
+106 107
+106 108
+108 109
+106 110
+110 111
+110 112
+112 113
+98 114
+114 115
+114 116
+116 117
+114 118
+118 119
+98 120
+120 121
+120 122
+122 123
+120 124
+124 125
+98 126
+126 127
+126 128
+128 129
+126 130
+130 131
+131 132
+0 133
+133 134
+134 135
+135 136
+
+Constructs a WrapToken from token bytes obtained from the peer.

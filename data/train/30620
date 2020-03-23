@@ -1,0 +1,232 @@
+115
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mDismissed'
+9 value (BooleanLiteralExpr)
+10 value='false'
+11 statement (ExpressionStmt)
+12 expression (AssignExpr)
+13 operator='ASSIGN'
+14 target (NameExpr)
+15 name (SimpleName)
+16 identifier='mShownByMe'
+17 value (BooleanLiteralExpr)
+18 value='true'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='beginTransaction'
+26 scope (NameExpr)
+27 name (SimpleName)
+28 identifier='manager'
+29 name (SimpleName)
+30 identifier='ft'
+31 type (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='FragmentTransaction'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='add'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='ft'
+41 arguments
+42 argument (ThisExpr)
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='tag'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='commit'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='ft'
+53 type (VoidType)
+54 name (SimpleName)
+55 identifier='show'
+56 parameters
+57 parameter (Parameter)
+58 isVarArgs='false'
+59 name (SimpleName)
+60 identifier='manager'
+61 type (ClassOrInterfaceType)
+62 name (SimpleName)
+63 identifier='FragmentManager'
+64 parameter (Parameter)
+65 isVarArgs='false'
+66 name (SimpleName)
+67 identifier='tag'
+68 type (ClassOrInterfaceType)
+69 name (SimpleName)
+70 identifier='String'
+71 annotations
+72 annotation (SingleMemberAnnotationExpr)
+73 memberValue (StringLiteralExpr)
+74 value='GUI, dialog'
+75 name (Name)
+76 identifier='DSComment'
+77 annotation (SingleMemberAnnotationExpr)
+78 memberValue (FieldAccessExpr)
+79 name (SimpleName)
+80 identifier='GUI'
+81 scope (NameExpr)
+82 name (SimpleName)
+83 identifier='DSCat'
+84 name (Name)
+85 identifier='DSSafe'
+86 annotation (NormalAnnotationExpr)
+87 name (Name)
+88 identifier='DSGenerator'
+89 pairs
+90 pair (MemberValuePair)
+91 name (SimpleName)
+92 identifier='tool_name'
+93 value (StringLiteralExpr)
+94 value='Doppelganger'
+95 pair (MemberValuePair)
+96 name (SimpleName)
+97 identifier='tool_version'
+98 value (StringLiteralExpr)
+99 value='2.0'
+100 pair (MemberValuePair)
+101 name (SimpleName)
+102 identifier='generated_on'
+103 value (StringLiteralExpr)
+104 value='2013-12-30 12:35:26.487 -0500'
+105 pair (MemberValuePair)
+106 name (SimpleName)
+107 identifier='hash_original_method'
+108 value (StringLiteralExpr)
+109 value='8FAA759F9028DD0FC2323799369D6711'
+110 pair (MemberValuePair)
+111 name (SimpleName)
+112 identifier='hash_generated_method'
+113 value (StringLiteralExpr)
+114 value='5C6D90FF7F0EA4F4D76354EF83F7E041'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+2 11
+11 12
+12 13
+12 14
+14 15
+15 16
+12 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+22 29
+29 30
+22 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+41 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+0 53
+0 54
+54 55
+0 56
+56 57
+57 58
+57 59
+59 60
+57 61
+61 62
+62 63
+56 64
+64 65
+64 66
+66 67
+64 68
+68 69
+69 70
+0 71
+71 72
+72 73
+73 74
+72 75
+75 76
+71 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+77 84
+84 85
+71 86
+86 87
+87 88
+86 89
+89 90
+90 91
+91 92
+90 93
+93 94
+89 95
+95 96
+96 97
+95 98
+98 99
+89 100
+100 101
+101 102
+100 103
+103 104
+89 105
+105 106
+106 107
+105 108
+108 109
+89 110
+110 111
+111 112
+110 113
+113 114
+
+Display the dialog, adding the fragment to the given FragmentManager.  This is a convenience for explicitly creating a transaction, adding the fragment to it with the given tag, and committing it.  This does <em>not</em> add the transaction to the back stack.  When the fragment is dismissed, a new transaction will be executed to remove it from the activity.

@@ -1,0 +1,482 @@
+240
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setTitle'
+7 arguments
+8 argument (MethodCallExpr)
+9 name (SimpleName)
+10 identifier='getMessage'
+11 scope (NameExpr)
+12 name (SimpleName)
+13 identifier='Bundle'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='WindowTitle'
+17 statement (ExpressionStmt)
+18 expression (VariableDeclarationExpr)
+19 variables
+20 variable (VariableDeclarator)
+21 initializer (MethodCallExpr)
+22 name (SimpleName)
+23 identifier='getContentPane'
+24 name (SimpleName)
+25 identifier='contentPane'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Container'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='setLayout'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='contentPane'
+36 arguments
+37 argument (ObjectCreationExpr)
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='BoxLayout'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='contentPane'
+45 argument (FieldAccessExpr)
+46 name (SimpleName)
+47 identifier='Y_AXIS'
+48 scope (NameExpr)
+49 name (SimpleName)
+50 identifier='BoxLayout'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='add'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='contentPane'
+58 arguments
+59 argument (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='initAddressPanel'
+62 statement (ExpressionStmt)
+63 expression (AssignExpr)
+64 operator='ASSIGN'
+65 target (NameExpr)
+66 name (SimpleName)
+67 identifier='assignmentPanel'
+68 value (ObjectCreationExpr)
+69 type (ClassOrInterfaceType)
+70 name (SimpleName)
+71 identifier='JPanel'
+72 statement (ExpressionStmt)
+73 expression (MethodCallExpr)
+74 name (SimpleName)
+75 identifier='setLayout'
+76 scope (NameExpr)
+77 name (SimpleName)
+78 identifier='assignmentPanel'
+79 arguments
+80 argument (ObjectCreationExpr)
+81 type (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='BoxLayout'
+84 arguments
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='assignmentPanel'
+88 argument (FieldAccessExpr)
+89 name (SimpleName)
+90 identifier='Y_AXIS'
+91 scope (NameExpr)
+92 name (SimpleName)
+93 identifier='BoxLayout'
+94 statement (ExpressionStmt)
+95 expression (AssignExpr)
+96 operator='ASSIGN'
+97 target (NameExpr)
+98 name (SimpleName)
+99 identifier='assignmentListModel'
+100 value (ObjectCreationExpr)
+101 type (ClassOrInterfaceType)
+102 name (SimpleName)
+103 identifier='AssignmentTableModel'
+104 statement (ExpressionStmt)
+105 expression (AssignExpr)
+106 operator='ASSIGN'
+107 target (NameExpr)
+108 name (SimpleName)
+109 identifier='assignmentTable'
+110 value (ObjectCreationExpr)
+111 type (ClassOrInterfaceType)
+112 name (SimpleName)
+113 identifier='JTable'
+114 arguments
+115 argument (NameExpr)
+116 name (SimpleName)
+117 identifier='assignmentListModel'
+118 statement (ExpressionStmt)
+119 expression (MethodCallExpr)
+120 name (SimpleName)
+121 identifier='setRowSelectionAllowed'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='assignmentTable'
+125 arguments
+126 argument (BooleanLiteralExpr)
+127 value='false'
+128 statement (ExpressionStmt)
+129 expression (MethodCallExpr)
+130 name (SimpleName)
+131 identifier='setPreferredScrollableViewportSize'
+132 scope (NameExpr)
+133 name (SimpleName)
+134 identifier='assignmentTable'
+135 arguments
+136 argument (ObjectCreationExpr)
+137 type (ClassOrInterfaceType)
+138 name (SimpleName)
+139 identifier='Dimension'
+140 scope (ClassOrInterfaceType)
+141 name (SimpleName)
+142 identifier='awt'
+143 scope (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='java'
+146 arguments
+147 argument (IntegerLiteralExpr)
+148 value='300'
+149 argument (IntegerLiteralExpr)
+150 value='350'
+151 statement (ExpressionStmt)
+152 expression (VariableDeclarationExpr)
+153 variables
+154 variable (VariableDeclarator)
+155 initializer (ObjectCreationExpr)
+156 type (ClassOrInterfaceType)
+157 name (SimpleName)
+158 identifier='JScrollPane'
+159 arguments
+160 argument (NameExpr)
+161 name (SimpleName)
+162 identifier='assignmentTable'
+163 name (SimpleName)
+164 identifier='assignmentScrollPane'
+165 type (ClassOrInterfaceType)
+166 name (SimpleName)
+167 identifier='JScrollPane'
+168 statement (ExpressionStmt)
+169 expression (MethodCallExpr)
+170 name (SimpleName)
+171 identifier='add'
+172 scope (NameExpr)
+173 name (SimpleName)
+174 identifier='assignmentPanel'
+175 arguments
+176 argument (NameExpr)
+177 name (SimpleName)
+178 identifier='assignmentScrollPane'
+179 argument (FieldAccessExpr)
+180 name (SimpleName)
+181 identifier='CENTER'
+182 scope (NameExpr)
+183 name (SimpleName)
+184 identifier='BorderLayout'
+185 statement (ExpressionStmt)
+186 expression (MethodCallExpr)
+187 name (SimpleName)
+188 identifier='add'
+189 scope (NameExpr)
+190 name (SimpleName)
+191 identifier='contentPane'
+192 arguments
+193 argument (NameExpr)
+194 name (SimpleName)
+195 identifier='assignmentPanel'
+196 statement (ExpressionStmt)
+197 expression (MethodCallExpr)
+198 name (SimpleName)
+199 identifier='add'
+200 scope (NameExpr)
+201 name (SimpleName)
+202 identifier='contentPane'
+203 arguments
+204 argument (MethodCallExpr)
+205 name (SimpleName)
+206 identifier='initNotesPanel'
+207 statement (ExpressionStmt)
+208 expression (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='add'
+211 scope (NameExpr)
+212 name (SimpleName)
+213 identifier='contentPane'
+214 arguments
+215 argument (MethodCallExpr)
+216 name (SimpleName)
+217 identifier='initButtonPanel'
+218 statement (ExpressionStmt)
+219 expression (MethodCallExpr)
+220 name (SimpleName)
+221 identifier='pack'
+222 statement (ExpressionStmt)
+223 expression (MethodCallExpr)
+224 name (SimpleName)
+225 identifier='addDiscoveryListener'
+226 scope (MethodCallExpr)
+227 name (SimpleName)
+228 identifier='getNetwork'
+229 scope (MethodCallExpr)
+230 name (SimpleName)
+231 identifier='getXBee'
+232 scope (NameExpr)
+233 name (SimpleName)
+234 identifier='xtc'
+235 arguments
+236 argument (ThisExpr)
+237 type (VoidType)
+238 name (SimpleName)
+239 identifier='initComponents'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+8 14
+14 15
+15 16
+2 17
+17 18
+18 19
+19 20
+20 21
+21 22
+22 23
+20 24
+24 25
+20 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+39 40
+37 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+45 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+2 62
+62 63
+63 64
+63 65
+65 66
+66 67
+63 68
+68 69
+69 70
+70 71
+2 72
+72 73
+73 74
+74 75
+73 76
+76 77
+77 78
+73 79
+79 80
+80 81
+81 82
+82 83
+80 84
+84 85
+85 86
+86 87
+84 88
+88 89
+89 90
+88 91
+91 92
+92 93
+2 94
+94 95
+95 96
+95 97
+97 98
+98 99
+95 100
+100 101
+101 102
+102 103
+2 104
+104 105
+105 106
+105 107
+107 108
+108 109
+105 110
+110 111
+111 112
+112 113
+110 114
+114 115
+115 116
+116 117
+2 118
+118 119
+119 120
+120 121
+119 122
+122 123
+123 124
+119 125
+125 126
+126 127
+2 128
+128 129
+129 130
+130 131
+129 132
+132 133
+133 134
+129 135
+135 136
+136 137
+137 138
+138 139
+137 140
+140 141
+141 142
+140 143
+143 144
+144 145
+136 146
+146 147
+147 148
+146 149
+149 150
+2 151
+151 152
+152 153
+153 154
+154 155
+155 156
+156 157
+157 158
+155 159
+159 160
+160 161
+161 162
+154 163
+163 164
+154 165
+165 166
+166 167
+2 168
+168 169
+169 170
+170 171
+169 172
+172 173
+173 174
+169 175
+175 176
+176 177
+177 178
+175 179
+179 180
+180 181
+179 182
+182 183
+183 184
+2 185
+185 186
+186 187
+187 188
+186 189
+189 190
+190 191
+186 192
+192 193
+193 194
+194 195
+2 196
+196 197
+197 198
+198 199
+197 200
+200 201
+201 202
+197 203
+203 204
+204 205
+205 206
+2 207
+207 208
+208 209
+209 210
+208 211
+211 212
+212 213
+208 214
+214 215
+215 216
+216 217
+2 218
+218 219
+219 220
+220 221
+2 222
+222 223
+223 224
+224 225
+223 226
+226 227
+227 228
+226 229
+229 230
+230 231
+229 232
+232 233
+233 234
+223 235
+235 236
+0 237
+0 238
+238 239
+
+Initialize the config window

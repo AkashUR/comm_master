@@ -1,0 +1,106 @@
+52
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='uninstallUI'
+7 scope (SuperExpr)
+8 arguments
+9 argument (NameExpr)
+10 name (SimpleName)
+11 identifier='c'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='uninstallClientDecorations'
+16 arguments
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='root'
+20 statement (ExpressionStmt)
+21 expression (AssignExpr)
+22 operator='ASSIGN'
+23 target (NameExpr)
+24 name (SimpleName)
+25 identifier='layoutManager'
+26 value (NullLiteralExpr)
+27 statement (ExpressionStmt)
+28 expression (AssignExpr)
+29 operator='ASSIGN'
+30 target (NameExpr)
+31 name (SimpleName)
+32 identifier='mouseInputListener'
+33 value (NullLiteralExpr)
+34 statement (ExpressionStmt)
+35 expression (AssignExpr)
+36 operator='ASSIGN'
+37 target (NameExpr)
+38 name (SimpleName)
+39 identifier='root'
+40 value (NullLiteralExpr)
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='uninstallUI'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='c'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='JComponent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+4 8
+8 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+13 16
+16 17
+17 18
+18 19
+2 20
+20 21
+21 22
+21 23
+23 24
+24 25
+21 26
+2 27
+27 28
+28 29
+28 30
+30 31
+31 32
+28 33
+2 34
+34 35
+35 36
+35 37
+37 38
+38 39
+35 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+
+Invokes supers implementation to uninstall any of its state. This will also reset the <code>LayoutManager</code> of the <code>JRootPane</code>. If a <code>Component</code> has been added to the <code>JRootPane</code> to render the window decoration style, this method will remove it. Similarly, this will revert the Border and LayoutManager of the <code> JRootPane</code> to what it was before <code>installUI</code> was invoked.

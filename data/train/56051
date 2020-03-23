@@ -1,0 +1,250 @@
+124
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='println'
+7 scope (FieldAccessExpr)
+8 name (SimpleName)
+9 identifier='out'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='System'
+13 arguments
+14 argument (StringLiteralExpr)
+15 value='create PageAuditCommand without crawler'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (StringLiteralExpr)
+21 value=''
+22 name (SimpleName)
+23 identifier='url'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='String'
+27 statement (ExpressionStmt)
+28 expression (VariableDeclarationExpr)
+29 variables
+30 variable (VariableDeclarator)
+31 initializer (NullLiteralExpr)
+32 name (SimpleName)
+33 identifier='paramSet'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='Set'
+37 typeArguments
+38 typeArgument (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Parameter'
+41 statement (ExpressionStmt)
+42 expression (VariableDeclarationExpr)
+43 variables
+44 variable (VariableDeclarator)
+45 initializer (BooleanLiteralExpr)
+46 value='false'
+47 name (SimpleName)
+48 identifier='isSite'
+49 type (PrimitiveType)
+50 type='BOOLEAN'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='setAuditPageWithCrawler'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='auditCommandFactory'
+58 arguments
+59 argument (BooleanLiteralExpr)
+60 value='false'
+61 statement (ExpressionStmt)
+62 expression (VariableDeclarationExpr)
+63 variables
+64 variable (VariableDeclarator)
+65 initializer (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='create'
+68 scope (FieldAccessExpr)
+69 name (SimpleName)
+70 identifier='auditCommandFactory'
+71 scope (ThisExpr)
+72 arguments
+73 argument (NameExpr)
+74 name (SimpleName)
+75 identifier='url'
+76 argument (NameExpr)
+77 name (SimpleName)
+78 identifier='paramSet'
+79 argument (NameExpr)
+80 name (SimpleName)
+81 identifier='isSite'
+82 name (SimpleName)
+83 identifier='result'
+84 type (ClassOrInterfaceType)
+85 name (SimpleName)
+86 identifier='AuditCommand'
+87 statement (ExpressionStmt)
+88 expression (MethodCallExpr)
+89 name (SimpleName)
+90 identifier='assertTrue'
+91 arguments
+92 argument (InstanceOfExpr)
+93 expression (NameExpr)
+94 name (SimpleName)
+95 identifier='result'
+96 type (ClassOrInterfaceType)
+97 name (SimpleName)
+98 identifier='PageAuditCommandImpl'
+99 statement (ExpressionStmt)
+100 expression (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='verify'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='EasyMock'
+106 arguments
+107 argument (NameExpr)
+108 name (SimpleName)
+109 identifier='mockAuditDataService'
+110 statement (ExpressionStmt)
+111 expression (MethodCallExpr)
+112 name (SimpleName)
+113 identifier='verify'
+114 scope (NameExpr)
+115 name (SimpleName)
+116 identifier='EasyMock'
+117 arguments
+118 argument (NameExpr)
+119 name (SimpleName)
+120 identifier='mockAudit'
+121 type (VoidType)
+122 name (SimpleName)
+123 identifier='testCreate_3args_1_2'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+19 22
+22 23
+19 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+34 37
+37 38
+38 39
+39 40
+2 41
+41 42
+42 43
+43 44
+44 45
+45 46
+44 47
+47 48
+44 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+2 61
+61 62
+62 63
+63 64
+64 65
+65 66
+66 67
+65 68
+68 69
+69 70
+68 71
+65 72
+72 73
+73 74
+74 75
+72 76
+76 77
+77 78
+72 79
+79 80
+80 81
+64 82
+82 83
+64 84
+84 85
+85 86
+2 87
+87 88
+88 89
+89 90
+88 91
+91 92
+92 93
+93 94
+94 95
+92 96
+96 97
+97 98
+2 99
+99 100
+100 101
+101 102
+100 103
+103 104
+104 105
+100 106
+106 107
+107 108
+108 109
+2 110
+110 111
+111 112
+112 113
+111 114
+114 115
+115 116
+111 117
+117 118
+118 119
+119 120
+0 121
+0 122
+122 123
+
+Test of create method, of class AuditCommandFactoryImpl.

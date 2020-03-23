@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='createServers'
+10 arguments
+11 argument (IntegerLiteralExpr)
+12 value='3'
+13 name (SimpleName)
+14 identifier='servers'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='List'
+18 typeArguments
+19 typeArgument (ClassOrInterfaceType)
+20 name (SimpleName)
+21 identifier='CopycatServer'
+22 statement (ExpressionStmt)
+23 expression (VariableDeclarationExpr)
+24 variables
+25 variable (VariableDeclarator)
+26 initializer (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='get'
+29 scope (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='findFirst'
+32 scope (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='filter'
+35 scope (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='stream'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='servers'
+41 arguments
+42 argument (NullLiteralExpr)
+43 name (SimpleName)
+44 identifier='server'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='CopycatServer'
+48 statement (ExpressionStmt)
+49 expression (MethodCallExpr)
+50 name (SimpleName)
+51 identifier='thenRun'
+52 scope (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='leave'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='server'
+58 arguments
+59 argument (NullLiteralExpr)
+60 statement (ExpressionStmt)
+61 expression (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='await'
+64 arguments
+65 argument (IntegerLiteralExpr)
+66 value='30000'
+67 type (VoidType)
+68 name (SimpleName)
+69 identifier='testLeaderLeave'
+70 thrownExceptions
+71 thrownException (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='Throwable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+15 18
+18 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+29 32
+32 33
+33 34
+32 35
+35 36
+36 37
+35 38
+38 39
+39 40
+32 41
+41 42
+25 43
+43 44
+25 45
+45 46
+46 47
+2 48
+48 49
+49 50
+50 51
+49 52
+52 53
+53 54
+52 55
+55 56
+56 57
+49 58
+58 59
+2 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+0 67
+0 68
+68 69
+0 70
+70 71
+71 72
+72 73
+
+Tests leaving the leader from a cluster.

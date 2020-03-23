@@ -1,0 +1,154 @@
+76
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getImage'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='renderer'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='instance'
+17 argument (NameExpr)
+18 name (SimpleName)
+19 identifier='scaleFactor'
+20 name (SimpleName)
+21 identifier='image'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='BufferedImage'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='write'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='ImageIO'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='image'
+36 argument (StringLiteralExpr)
+37 value='JPG'
+38 argument (NameExpr)
+39 name (SimpleName)
+40 identifier='os'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='exportToJPG'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='os'
+49 type (ClassOrInterfaceType)
+50 name (SimpleName)
+51 identifier='OutputStream'
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='renderer'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='NLPCanvasRenderer'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='instance'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='NLPInstance'
+66 parameter (Parameter)
+67 isVarArgs='false'
+68 name (SimpleName)
+69 identifier='scaleFactor'
+70 type (PrimitiveType)
+71 type='DOUBLE'
+72 thrownExceptions
+73 thrownException (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+10 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+32 36
+36 37
+32 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+50 51
+44 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+44 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+44 66
+66 67
+66 68
+68 69
+66 70
+70 71
+0 72
+72 73
+73 74
+74 75
+
+Export to JPG. For some reason the background comes out pink, I have no idea why. Note that this method /does not/ close the outputstream after writing, this is up to the caller.

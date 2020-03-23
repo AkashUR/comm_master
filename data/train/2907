@@ -1,0 +1,424 @@
+211
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='newXMLDocument'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='XMLUtils'
+13 name (SimpleName)
+14 identifier='doc'
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='Document'
+18 statement (ExpressionStmt)
+19 expression (VariableDeclarationExpr)
+20 variables
+21 variable (VariableDeclarator)
+22 initializer (ObjectCreationExpr)
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='HashSet'
+26 typeArguments
+27 typeArgument (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='String'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getParameterIds'
+34 scope (MethodCallExpr)
+35 name (SimpleName)
+36 identifier='getState'
+37 scope (NameExpr)
+38 name (SimpleName)
+39 identifier='system'
+40 name (SimpleName)
+41 identifier='parameterIds'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='Set'
+45 typeArguments
+46 typeArgument (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='String'
+49 statement (ExpressionStmt)
+50 expression (VariableDeclarationExpr)
+51 variables
+52 variable (VariableDeclarator)
+53 initializer (ObjectCreationExpr)
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='HashSet'
+57 typeArguments
+58 typeArgument (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='String'
+61 arguments
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='getChanceNodeIds'
+65 scope (MethodCallExpr)
+66 name (SimpleName)
+67 identifier='getState'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='system'
+71 name (SimpleName)
+72 identifier='otherVarsIds'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='Set'
+76 typeArguments
+77 typeArgument (ClassOrInterfaceType)
+78 name (SimpleName)
+79 identifier='String'
+80 statement (ExpressionStmt)
+81 expression (MethodCallExpr)
+82 name (SimpleName)
+83 identifier='removeAll'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='otherVarsIds'
+87 arguments
+88 argument (NameExpr)
+89 name (SimpleName)
+90 identifier='parameterIds'
+91 statement (ExpressionStmt)
+92 expression (VariableDeclarationExpr)
+93 variables
+94 variable (VariableDeclarator)
+95 initializer (ConditionalExpr)
+96 condition (EnclosedExpr)
+97 inner (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='equals'
+100 scope (NameExpr)
+101 name (SimpleName)
+102 identifier='tag'
+103 arguments
+104 argument (StringLiteralExpr)
+105 value='parameters'
+106 elseExpr (NameExpr)
+107 name (SimpleName)
+108 identifier='otherVarsIds'
+109 thenExpr (NameExpr)
+110 name (SimpleName)
+111 identifier='parameterIds'
+112 name (SimpleName)
+113 identifier='variables'
+114 type (ClassOrInterfaceType)
+115 name (SimpleName)
+116 identifier='Set'
+117 typeArguments
+118 typeArgument (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='String'
+121 statement (ExpressionStmt)
+122 expression (VariableDeclarationExpr)
+123 variables
+124 variable (VariableDeclarator)
+125 initializer (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='generateXML'
+128 scope (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='getState'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='system'
+134 arguments
+135 argument (NameExpr)
+136 name (SimpleName)
+137 identifier='doc'
+138 argument (NameExpr)
+139 name (SimpleName)
+140 identifier='variables'
+141 name (SimpleName)
+142 identifier='paramXML'
+143 type (ClassOrInterfaceType)
+144 name (SimpleName)
+145 identifier='Node'
+146 statement (ExpressionStmt)
+147 expression (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='renameNode'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='doc'
+153 arguments
+154 argument (NameExpr)
+155 name (SimpleName)
+156 identifier='paramXML'
+157 argument (NullLiteralExpr)
+158 argument (NameExpr)
+159 name (SimpleName)
+160 identifier='tag'
+161 statement (ExpressionStmt)
+162 expression (MethodCallExpr)
+163 name (SimpleName)
+164 identifier='appendChild'
+165 scope (NameExpr)
+166 name (SimpleName)
+167 identifier='doc'
+168 arguments
+169 argument (NameExpr)
+170 name (SimpleName)
+171 identifier='paramXML'
+172 statement (ExpressionStmt)
+173 expression (MethodCallExpr)
+174 name (SimpleName)
+175 identifier='writeXMLDocument'
+176 scope (NameExpr)
+177 name (SimpleName)
+178 identifier='XMLUtils'
+179 arguments
+180 argument (NameExpr)
+181 name (SimpleName)
+182 identifier='doc'
+183 argument (NameExpr)
+184 name (SimpleName)
+185 identifier='file'
+186 type (VoidType)
+187 name (SimpleName)
+188 identifier='exportContent'
+189 parameters
+190 parameter (Parameter)
+191 isVarArgs='false'
+192 name (SimpleName)
+193 identifier='system'
+194 type (ClassOrInterfaceType)
+195 name (SimpleName)
+196 identifier='DialogueSystem'
+197 parameter (Parameter)
+198 isVarArgs='false'
+199 name (SimpleName)
+200 identifier='file'
+201 type (ClassOrInterfaceType)
+202 name (SimpleName)
+203 identifier='String'
+204 parameter (Parameter)
+205 isVarArgs='false'
+206 name (SimpleName)
+207 identifier='tag'
+208 type (ClassOrInterfaceType)
+209 name (SimpleName)
+210 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+6 13
+13 14
+6 15
+15 16
+16 17
+2 18
+18 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+22 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+21 40
+40 41
+21 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+52 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+53 61
+61 62
+62 63
+63 64
+62 65
+65 66
+66 67
+65 68
+68 69
+69 70
+52 71
+71 72
+52 73
+73 74
+74 75
+73 76
+76 77
+77 78
+78 79
+2 80
+80 81
+81 82
+82 83
+81 84
+84 85
+85 86
+81 87
+87 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+94 95
+95 96
+96 97
+97 98
+98 99
+97 100
+100 101
+101 102
+97 103
+103 104
+104 105
+95 106
+106 107
+107 108
+95 109
+109 110
+110 111
+94 112
+112 113
+94 114
+114 115
+115 116
+114 117
+117 118
+118 119
+119 120
+2 121
+121 122
+122 123
+123 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+128 131
+131 132
+132 133
+125 134
+134 135
+135 136
+136 137
+134 138
+138 139
+139 140
+124 141
+141 142
+124 143
+143 144
+144 145
+2 146
+146 147
+147 148
+148 149
+147 150
+150 151
+151 152
+147 153
+153 154
+154 155
+155 156
+153 157
+153 158
+158 159
+159 160
+2 161
+161 162
+162 163
+163 164
+162 165
+165 166
+166 167
+162 168
+168 169
+169 170
+170 171
+2 172
+172 173
+173 174
+174 175
+173 176
+176 177
+177 178
+173 179
+179 180
+180 181
+181 182
+179 183
+183 184
+184 185
+0 186
+0 187
+187 188
+0 189
+189 190
+190 191
+190 192
+192 193
+190 194
+194 195
+195 196
+189 197
+197 198
+197 199
+199 200
+197 201
+201 202
+202 203
+189 204
+204 205
+204 206
+206 207
+204 208
+208 209
+209 210
+
+Exports a dialogue state or prior parameter distributions.

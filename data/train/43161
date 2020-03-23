@@ -1,0 +1,70 @@
+34
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='run'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='modes'
+11 argument (ObjectCreationExpr)
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='HashSet'
+15 typeArguments
+16 typeArgument (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='String'
+19 type (VoidType)
+20 name (SimpleName)
+21 identifier='run'
+22 parameters
+23 parameter (Parameter)
+24 isVarArgs='false'
+25 name (SimpleName)
+26 identifier='modes'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Set'
+30 typeArguments
+31 typeArgument (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+0 19
+0 20
+20 21
+0 22
+22 23
+23 24
+23 25
+25 26
+23 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+
+Modifies the network such that the subnetwork containing only links that have at least one of the specified transport modes in their set of allowed transport modes is strongly connected (=every link/node can be reached by every other link/node). If multiple modes are given, the algorithm does <em>not</em> guarantee that the resulting network is strongly connected for each of the modes individually! Nodes having links connected to them before cleaning, but none after cleaning, are removed from the network.

@@ -1,0 +1,76 @@
+37
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='httpConn'
+9 statement (ExpressionStmt)
+10 expression (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='initFromAuthHeader'
+13 arguments
+14 argument (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='getHeaderField'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='httpConn'
+20 arguments
+21 argument (StringLiteralExpr)
+22 value='WWW-Authenticate'
+23 name (SimpleName)
+24 identifier='AuthenticationException'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='httpConn'
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='HttpURLConnection'
+33 thrownExceptions
+34 thrownException (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+11 12
+10 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+14 20
+20 21
+21 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+31 32
+0 33
+33 34
+34 35
+35 36
+
+Constructs a new AuthenticationException using header and error stream information from an HTTP connection.

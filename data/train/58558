@@ -1,0 +1,94 @@
+46
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='addConsumer'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='ic'
+11 statement (ExpressionStmt)
+12 expression (VariableDeclarationExpr)
+13 variables
+14 variable (VariableDeclarator)
+15 initializer (ObjectCreationExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='Thread'
+19 arguments
+20 argument (ThisExpr)
+21 argument (StringLiteralExpr)
+22 value='RenderableImageProducer Thread'
+23 name (SimpleName)
+24 identifier='thread'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Thread'
+28 statement (ExpressionStmt)
+29 expression (MethodCallExpr)
+30 name (SimpleName)
+31 identifier='start'
+32 scope (NameExpr)
+33 name (SimpleName)
+34 identifier='thread'
+35 type (VoidType)
+36 name (SimpleName)
+37 identifier='startProduction'
+38 parameters
+39 parameter (Parameter)
+40 isVarArgs='false'
+41 name (SimpleName)
+42 identifier='ic'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='ImageConsumer'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+15 19
+19 20
+19 21
+21 22
+14 23
+23 24
+14 25
+25 26
+26 27
+2 28
+28 29
+29 30
+30 31
+29 32
+32 33
+33 34
+0 35
+0 36
+36 37
+0 38
+38 39
+39 40
+39 41
+41 42
+39 43
+43 44
+44 45
+
+Adds an ImageConsumer to the list of consumers interested in data for this image, and immediately starts delivery of the image data through the ImageConsumer interface.

@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='setSyncing'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='mFakeSyncManager'
+10 arguments
+11 argument (BooleanLiteralExpr)
+12 value='true'
+13 statement (ExpressionStmt)
+14 expression (MethodCallExpr)
+15 name (SimpleName)
+16 identifier='init'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='mController'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='build'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='FakeAppLocationTreeFactory'
+30 name (SimpleName)
+31 identifier='locationTree'
+32 type (ClassOrInterfaceType)
+33 name (SimpleName)
+34 identifier='LocationTree'
+35 statement (ExpressionStmt)
+36 expression (MethodCallExpr)
+37 name (SimpleName)
+38 identifier='post'
+39 scope (NameExpr)
+40 name (SimpleName)
+41 identifier='mFakeEventBus'
+42 arguments
+43 argument (ObjectCreationExpr)
+44 type (ClassOrInterfaceType)
+45 name (SimpleName)
+46 identifier='AppLocationTreeFetchedEvent'
+47 arguments
+48 argument (NameExpr)
+49 name (SimpleName)
+50 identifier='locationTree'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='attachFragmentUi'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='mController'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='mMockFragmentUi'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='setBusyLoading'
+66 scope (MethodCallExpr)
+67 name (SimpleName)
+68 identifier='verify'
+69 arguments
+70 argument (NameExpr)
+71 name (SimpleName)
+72 identifier='mMockFragmentUi'
+73 arguments
+74 argument (BooleanLiteralExpr)
+75 value='false'
+76 type (VoidType)
+77 name (SimpleName)
+78 identifier='testAttachFragmentUi_doesNotShowSpinnerDuringSyncWhenLocationsPresent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+15 16
+14 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+23 30
+30 31
+23 32
+32 33
+33 34
+2 35
+35 36
+36 37
+37 38
+36 39
+39 40
+40 41
+36 42
+42 43
+43 44
+44 45
+45 46
+43 47
+47 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+66 69
+69 70
+70 71
+71 72
+63 73
+73 74
+74 75
+0 76
+0 77
+77 78
+
+Tests that attaching a fragment UI does not show the spinner when locations are present, even if a sync is occurring.

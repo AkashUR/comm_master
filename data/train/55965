@@ -1,0 +1,82 @@
+40
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='clear'
+7 scope (EnclosedExpr)
+8 inner (CastExpr)
+9 expression (NameExpr)
+10 name (SimpleName)
+11 identifier='userData'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Map'
+15 typeArguments
+16 typeArgument (WildcardType)
+17 typeArgument (WildcardType)
+18 type (VoidType)
+19 name (SimpleName)
+20 identifier='releaseUserData'
+21 parameters
+22 parameter (Parameter)
+23 isVarArgs='false'
+24 name (SimpleName)
+25 identifier='userData'
+26 type (ClassOrInterfaceType)
+27 name (SimpleName)
+28 identifier='Object'
+29 parameter (Parameter)
+30 isVarArgs='false'
+31 name (SimpleName)
+32 identifier='responsePdu'
+33 type (ClassOrInterfaceType)
+34 name (SimpleName)
+35 identifier='SnmpPdu'
+36 thrownExceptions
+37 thrownException (ClassOrInterfaceType)
+38 name (SimpleName)
+39 identifier='SnmpStatusException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+10 11
+8 12
+12 13
+13 14
+12 15
+15 16
+15 17
+0 18
+0 19
+19 20
+0 21
+21 22
+22 23
+22 24
+24 25
+22 26
+26 27
+27 28
+21 29
+29 30
+29 31
+31 32
+29 33
+33 34
+34 35
+0 36
+36 37
+37 38
+38 39
+
+Called by the <CODE>SnmpAdaptorServer</CODE> adaptor. Release a previously allocated contextual object containing user-data. This method is called just before the responsePdu is sent back to the manager. It gives the user a chance to alter the responsePdu packet before it is encoded, and to free any resources that might have been allocated when creating the contextual object.

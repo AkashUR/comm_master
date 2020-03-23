@@ -1,0 +1,76 @@
+37
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='put'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='tableViewerColumnMap'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='key'
+14 argument (NameExpr)
+15 name (SimpleName)
+16 identifier='column'
+17 type (VoidType)
+18 name (SimpleName)
+19 identifier='mapTableViewerColumn'
+20 parameters
+21 parameter (Parameter)
+22 isVarArgs='false'
+23 name (SimpleName)
+24 identifier='key'
+25 type (ClassOrInterfaceType)
+26 name (SimpleName)
+27 identifier='Enum'
+28 typeArguments
+29 typeArgument (WildcardType)
+30 parameter (Parameter)
+31 isVarArgs='false'
+32 name (SimpleName)
+33 identifier='column'
+34 type (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='TableViewerColumn'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+15 16
+0 17
+0 18
+18 19
+0 20
+20 21
+21 22
+21 23
+23 24
+21 25
+25 26
+26 27
+25 28
+28 29
+20 30
+30 31
+30 32
+32 33
+30 34
+34 35
+35 36
+
+Maps a column with the enumeration key. The implementing classes should map each column they create to the enum that represents that column. Later on the column can be retrieved with the enum key if needed.

@@ -1,0 +1,98 @@
+48
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='DepartQueuePacket'
+11 arguments
+12 argument (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='workgroupJID'
+15 scope (ThisExpr)
+16 name (SimpleName)
+17 identifier='departPacket'
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='DepartQueuePacket'
+21 statement (ExpressionStmt)
+22 expression (MethodCallExpr)
+23 name (SimpleName)
+24 identifier='sendPacket'
+25 scope (FieldAccessExpr)
+26 name (SimpleName)
+27 identifier='connection'
+28 scope (ThisExpr)
+29 arguments
+30 argument (NameExpr)
+31 name (SimpleName)
+32 identifier='departPacket'
+33 type (VoidType)
+34 name (SimpleName)
+35 identifier='dequeueUser'
+36 parameters
+37 parameter (Parameter)
+38 isVarArgs='false'
+39 name (SimpleName)
+40 identifier='userID'
+41 type (ClassOrInterfaceType)
+42 name (SimpleName)
+43 identifier='String'
+44 thrownExceptions
+45 thrownException (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='XMPPException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+12 15
+6 16
+16 17
+6 18
+18 19
+19 20
+2 21
+21 22
+22 23
+23 24
+22 25
+25 26
+26 27
+25 28
+22 29
+29 30
+30 31
+31 32
+0 33
+0 34
+34 35
+0 36
+36 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+0 44
+44 45
+45 46
+46 47
+
+Removes a user from the workgroup queue. This is an administrative action that the <p/> The agent is not guaranteed of having privileges to perform this action; an exception denying the request may be thrown.

@@ -1,0 +1,118 @@
+58
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='transformInnerPositionIfNeed'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='position'
+14 name (SimpleName)
+15 identifier='transformedPosition'
+16 type (PrimitiveType)
+17 type='INT'
+18 statement (ExpressionStmt)
+19 expression (MethodCallExpr)
+20 name (SimpleName)
+21 identifier='smoothScrollToPosition'
+22 scope (SuperExpr)
+23 arguments
+24 argument (NameExpr)
+25 name (SimpleName)
+26 identifier='transformedPosition'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='e'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='Log'
+34 arguments
+35 argument (StringLiteralExpr)
+36 value='test'
+37 argument (BinaryExpr)
+38 operator='PLUS'
+39 left (StringLiteralExpr)
+40 value='transformedPosition:'
+41 right (NameExpr)
+42 name (SimpleName)
+43 identifier='transformedPosition'
+44 type (VoidType)
+45 name (SimpleName)
+46 identifier='smoothScrollToPosition'
+47 parameters
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='position'
+52 type (PrimitiveType)
+53 type='INT'
+54 annotations
+55 annotation (MarkerAnnotationExpr)
+56 name (Name)
+57 identifier='Override'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+2 18
+18 19
+19 20
+20 21
+19 22
+19 23
+23 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+34 37
+37 38
+37 39
+39 40
+37 41
+41 42
+42 43
+0 44
+0 45
+45 46
+0 47
+47 48
+48 49
+48 50
+50 51
+48 52
+52 53
+0 54
+54 55
+55 56
+56 57
+
+Starts a smooth scroll to an adapter position. if position < adapter.getActualCount, position will be transform to right position.

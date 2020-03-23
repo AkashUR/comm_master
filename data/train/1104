@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='LogFormat'
+11 arguments
+12 argument (DoubleLiteralExpr)
+13 value='10.0'
+14 argument (StringLiteralExpr)
+15 value='10'
+16 argument (BooleanLiteralExpr)
+17 value='true'
+18 name (SimpleName)
+19 identifier='f1'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='LogFormat'
+23 statement (ExpressionStmt)
+24 expression (VariableDeclarationExpr)
+25 variables
+26 variable (VariableDeclarator)
+27 initializer (CastExpr)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='serialised'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='TestUtilities'
+34 arguments
+35 argument (NameExpr)
+36 name (SimpleName)
+37 identifier='f1'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='LogFormat'
+41 name (SimpleName)
+42 identifier='f2'
+43 type (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='LogFormat'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='assertEquals'
+50 arguments
+51 argument (NameExpr)
+52 name (SimpleName)
+53 identifier='f1'
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='f2'
+57 type (VoidType)
+58 name (SimpleName)
+59 identifier='testSerialization'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+11 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+26 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+27 38
+38 39
+39 40
+26 41
+41 42
+26 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+52 53
+50 54
+54 55
+55 56
+0 57
+0 58
+58 59
+
+Serialize an instance, restore it, and check for equality.

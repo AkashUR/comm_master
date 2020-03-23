@@ -1,0 +1,188 @@
+93
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='ensureCapacity'
+7 arguments
+8 argument (BinaryExpr)
+9 operator='PLUS'
+10 left (EnclosedExpr)
+11 inner (BinaryExpr)
+12 operator='MULTIPLY'
+13 left (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='length'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='s'
+19 right (IntegerLiteralExpr)
+20 value='2'
+21 right (IntegerLiteralExpr)
+22 value='1'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='arraycopy'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='System'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getBytes'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='s'
+37 argument (IntegerLiteralExpr)
+38 value='0'
+39 argument (FieldAccessExpr)
+40 name (SimpleName)
+41 identifier='byteBuffer'
+42 scope (ThisExpr)
+43 argument (FieldAccessExpr)
+44 name (SimpleName)
+45 identifier='position'
+46 scope (ThisExpr)
+47 argument (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='length'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='s'
+53 statement (ExpressionStmt)
+54 expression (AssignExpr)
+55 operator='PLUS'
+56 target (FieldAccessExpr)
+57 name (SimpleName)
+58 identifier='position'
+59 scope (ThisExpr)
+60 value (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='length'
+63 scope (NameExpr)
+64 name (SimpleName)
+65 identifier='s'
+66 statement (ExpressionStmt)
+67 expression (AssignExpr)
+68 operator='ASSIGN'
+69 target (ArrayAccessExpr)
+70 index (UnaryExpr)
+71 operator='POSTFIX_INCREMENT'
+72 expression (FieldAccessExpr)
+73 name (SimpleName)
+74 identifier='position'
+75 scope (ThisExpr)
+76 name (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='byteBuffer'
+79 scope (ThisExpr)
+80 value (IntegerLiteralExpr)
+81 value='0'
+82 type (VoidType)
+83 name (SimpleName)
+84 identifier='putString'
+85 parameters
+86 parameter (Parameter)
+87 isVarArgs='false'
+88 name (SimpleName)
+89 identifier='s'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+8 10
+10 11
+11 12
+11 13
+13 14
+14 15
+13 16
+16 17
+17 18
+11 19
+19 20
+8 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+30 37
+37 38
+30 39
+39 40
+40 41
+39 42
+30 43
+43 44
+44 45
+43 46
+30 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+54 56
+56 57
+57 58
+56 59
+54 60
+60 61
+61 62
+60 63
+63 64
+64 65
+2 66
+66 67
+67 68
+67 69
+69 70
+70 71
+70 72
+72 73
+73 74
+72 75
+69 76
+76 77
+77 78
+76 79
+67 80
+80 81
+0 82
+0 83
+83 84
+0 85
+85 86
+86 87
+86 88
+88 89
+86 90
+90 91
+91 92
+
+Put a string in the buffer.

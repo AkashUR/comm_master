@@ -1,0 +1,56 @@
+27
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='runTest'
+7 scope (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='TestHelper'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='ticket-1202-group05-modified1'
+14 argument (StringLiteralExpr)
+15 value='ticket-1202-group05-modified1.rq'
+16 argument (StringLiteralExpr)
+17 value='ticket-1202-group05-modified1.ttl'
+18 argument (StringLiteralExpr)
+19 value='ticket-1202-group05-modified1.srx'
+20 type (VoidType)
+21 name (SimpleName)
+22 identifier='test_ticket_1202d'
+23 thrownExceptions
+24 thrownException (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+11 16
+16 17
+11 18
+18 19
+0 20
+0 21
+21 22
+0 23
+23 24
+24 25
+25 26
+
+SELECT?s ?w (COUNT(DISTINCT ?v) AS ?c) { ?s :p ?v . OPTIONAL { ?s :q ?w } } GROUP BY ?s ?w

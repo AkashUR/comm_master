@@ -1,0 +1,274 @@
+136
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getText'
+10 arguments
+11 argument (FieldAccessExpr)
+12 name (SimpleName)
+13 identifier='local_service_started'
+14 scope (FieldAccessExpr)
+15 name (SimpleName)
+16 identifier='string'
+17 scope (NameExpr)
+18 name (SimpleName)
+19 identifier='R'
+20 name (SimpleName)
+21 identifier='text'
+22 type (ClassOrInterfaceType)
+23 name (SimpleName)
+24 identifier='CharSequence'
+25 statement (ExpressionStmt)
+26 expression (VariableDeclarationExpr)
+27 variables
+28 variable (VariableDeclarator)
+29 initializer (ObjectCreationExpr)
+30 type (ClassOrInterfaceType)
+31 name (SimpleName)
+32 identifier='Notification'
+33 arguments
+34 argument (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='stat_sample'
+37 scope (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='drawable'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='R'
+43 argument (NameExpr)
+44 name (SimpleName)
+45 identifier='text'
+46 argument (MethodCallExpr)
+47 name (SimpleName)
+48 identifier='currentTimeMillis'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='System'
+52 name (SimpleName)
+53 identifier='notification'
+54 type (ClassOrInterfaceType)
+55 name (SimpleName)
+56 identifier='Notification'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='getActivity'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='PendingIntent'
+67 arguments
+68 argument (ThisExpr)
+69 argument (IntegerLiteralExpr)
+70 value='0'
+71 argument (ObjectCreationExpr)
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Intent'
+75 arguments
+76 argument (ThisExpr)
+77 argument (ClassExpr)
+78 type (ClassOrInterfaceType)
+79 name (SimpleName)
+80 identifier='Controller'
+81 scope (ClassOrInterfaceType)
+82 name (SimpleName)
+83 identifier='LocalServiceActivities'
+84 argument (IntegerLiteralExpr)
+85 value='0'
+86 name (SimpleName)
+87 identifier='contentIntent'
+88 type (ClassOrInterfaceType)
+89 name (SimpleName)
+90 identifier='PendingIntent'
+91 statement (ExpressionStmt)
+92 expression (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='setLatestEventInfo'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='notification'
+98 arguments
+99 argument (ThisExpr)
+100 argument (MethodCallExpr)
+101 name (SimpleName)
+102 identifier='getText'
+103 arguments
+104 argument (FieldAccessExpr)
+105 name (SimpleName)
+106 identifier='local_service_label'
+107 scope (FieldAccessExpr)
+108 name (SimpleName)
+109 identifier='string'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='R'
+113 argument (NameExpr)
+114 name (SimpleName)
+115 identifier='text'
+116 argument (NameExpr)
+117 name (SimpleName)
+118 identifier='contentIntent'
+119 statement (ExpressionStmt)
+120 expression (MethodCallExpr)
+121 name (SimpleName)
+122 identifier='notify'
+123 scope (NameExpr)
+124 name (SimpleName)
+125 identifier='mNM'
+126 arguments
+127 argument (NameExpr)
+128 name (SimpleName)
+129 identifier='NOTIFICATION'
+130 argument (NameExpr)
+131 name (SimpleName)
+132 identifier='notification'
+133 type (VoidType)
+134 name (SimpleName)
+135 identifier='showNotification'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+11 14
+14 15
+15 16
+14 17
+17 18
+18 19
+6 20
+20 21
+6 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+28 29
+29 30
+30 31
+31 32
+29 33
+33 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+33 43
+43 44
+44 45
+33 46
+46 47
+47 48
+46 49
+49 50
+50 51
+28 52
+52 53
+28 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+73 74
+71 75
+75 76
+75 77
+77 78
+78 79
+79 80
+78 81
+81 82
+82 83
+67 84
+84 85
+60 86
+86 87
+60 88
+88 89
+89 90
+2 91
+91 92
+92 93
+93 94
+92 95
+95 96
+96 97
+92 98
+98 99
+98 100
+100 101
+101 102
+100 103
+103 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+110 111
+111 112
+98 113
+113 114
+114 115
+98 116
+116 117
+117 118
+2 119
+119 120
+120 121
+121 122
+120 123
+123 124
+124 125
+120 126
+126 127
+127 128
+128 129
+126 130
+130 131
+131 132
+0 133
+0 134
+134 135
+
+Show a notification while this service is running.

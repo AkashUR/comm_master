@@ -1,0 +1,114 @@
+56
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='internalLimitQuery'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value=''
+10 argument (NameExpr)
+11 name (SimpleName)
+12 identifier='maxRows'
+13 argument (NameExpr)
+14 name (SimpleName)
+15 identifier='offset'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='varbinds'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='dbType'
+22 type (VoidType)
+23 name (SimpleName)
+24 identifier='addVarbindsForLimitQuery'
+25 parameters
+26 parameter (Parameter)
+27 isVarArgs='false'
+28 name (SimpleName)
+29 identifier='maxRows'
+30 type (PrimitiveType)
+31 type='INT'
+32 parameter (Parameter)
+33 isVarArgs='false'
+34 name (SimpleName)
+35 identifier='offset'
+36 type (PrimitiveType)
+37 type='LONG'
+38 parameter (Parameter)
+39 isVarArgs='false'
+40 name (SimpleName)
+41 identifier='varbinds'
+42 type (ClassOrInterfaceType)
+43 name (SimpleName)
+44 identifier='List'
+45 typeArguments
+46 typeArgument (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='Object'
+49 parameter (Parameter)
+50 isVarArgs='false'
+51 name (SimpleName)
+52 identifier='dbType'
+53 type (ClassOrInterfaceType)
+54 name (SimpleName)
+55 identifier='DBType'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+7 16
+16 17
+17 18
+7 19
+19 20
+20 21
+0 22
+0 23
+23 24
+0 25
+25 26
+26 27
+26 28
+28 29
+26 30
+30 31
+25 32
+32 33
+32 34
+34 35
+32 36
+36 37
+25 38
+38 39
+38 40
+40 41
+38 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+25 49
+49 50
+49 51
+51 52
+49 53
+53 54
+54 55
+
+Alters the varbinds to work with limitQuery.  To use this, you must have created your query with a limitQueryNoOffset call.  This decoupling of the query creating and the varbinds allows for the registration of limit queries.

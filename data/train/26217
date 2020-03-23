@@ -1,0 +1,120 @@
+59
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='arraycopy'
+7 scope (NameExpr)
+8 name (SimpleName)
+9 identifier='System'
+10 arguments
+11 argument (NameExpr)
+12 name (SimpleName)
+13 identifier='shiftRegister'
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 argument (NameExpr)
+17 name (SimpleName)
+18 identifier='dst'
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='dptr'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='blockSize'
+25 statement (ExpressionStmt)
+26 expression (MethodCallExpr)
+27 name (SimpleName)
+28 identifier='zeroShift'
+29 scope (NameExpr)
+30 name (SimpleName)
+31 identifier='Sequence'
+32 arguments
+33 argument (NameExpr)
+34 name (SimpleName)
+35 identifier='shiftRegister'
+36 argument (UnaryExpr)
+37 operator='MINUS'
+38 expression (NameExpr)
+39 name (SimpleName)
+40 identifier='blockSize'
+41 type (VoidType)
+42 name (SimpleName)
+43 identifier='flush'
+44 parameters
+45 parameter (Parameter)
+46 isVarArgs='false'
+47 name (SimpleName)
+48 identifier='dst'
+49 type (ArrayType)
+50 origin='TYPE'
+51 componentType (PrimitiveType)
+52 type='DOUBLE'
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='dptr'
+57 type (PrimitiveType)
+58 type='INT'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+4 10
+10 11
+11 12
+12 13
+10 14
+14 15
+10 16
+16 17
+17 18
+10 19
+19 20
+20 21
+10 22
+22 23
+23 24
+2 25
+25 26
+26 27
+27 28
+26 29
+29 30
+30 31
+26 32
+32 33
+33 34
+34 35
+32 36
+36 37
+36 38
+38 39
+39 40
+0 41
+0 42
+42 43
+0 44
+44 45
+45 46
+45 47
+47 48
+45 49
+49 50
+49 51
+51 52
+44 53
+53 54
+53 55
+55 56
+53 57
+57 58
+
+Flushes state information buffer - i.e. left over convolution results when no further data blocks are available

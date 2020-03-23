@@ -1,0 +1,140 @@
+69
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='stream'
+9 scope (ThisExpr)
+10 value (NameExpr)
+11 name (SimpleName)
+12 identifier='stream'
+13 statement (ExpressionStmt)
+14 expression (AssignExpr)
+15 operator='ASSIGN'
+16 target (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='cacheFile'
+19 scope (ThisExpr)
+20 value (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='createTempFile'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='File'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='jai-FCSS-'
+29 argument (StringLiteralExpr)
+30 value='.tmp'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='deleteOnExit'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='cacheFile'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (FieldAccessExpr)
+42 name (SimpleName)
+43 identifier='cache'
+44 scope (ThisExpr)
+45 value (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='RandomAccessFile'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='cacheFile'
+53 argument (StringLiteralExpr)
+54 value='rw'
+55 name (SimpleName)
+56 identifier='FileCacheSeekableStream'
+57 parameters
+58 parameter (Parameter)
+59 isVarArgs='false'
+60 name (SimpleName)
+61 identifier='stream'
+62 type (ClassOrInterfaceType)
+63 name (SimpleName)
+64 identifier='InputStream'
+65 thrownExceptions
+66 thrownException (ClassOrInterfaceType)
+67 name (SimpleName)
+68 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+11 12
+2 13
+13 14
+14 15
+14 16
+16 17
+17 18
+16 19
+14 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+26 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+41 44
+39 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+51 52
+49 53
+53 54
+0 55
+55 56
+0 57
+57 58
+58 59
+58 60
+60 61
+58 62
+62 63
+63 64
+0 65
+65 66
+66 67
+67 68
+
+Constructs a <code>MemoryCacheSeekableStream</code> that takes its source data from a regular <code>InputStream</code>. Seeking backwards is supported by means of an file cache. <p> An <code>IOException</code> will be thrown if the attempt to create the cache file fails for any reason.

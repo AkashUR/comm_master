@@ -1,0 +1,122 @@
+60
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='write'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='tag'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='putLength'
+15 arguments
+16 argument (FieldAccessExpr)
+17 name (SimpleName)
+18 identifier='length'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='buf'
+22 statement (ExpressionStmt)
+23 expression (MethodCallExpr)
+24 name (SimpleName)
+25 identifier='write'
+26 arguments
+27 argument (NameExpr)
+28 name (SimpleName)
+29 identifier='buf'
+30 argument (IntegerLiteralExpr)
+31 value='0'
+32 argument (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='length'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='buf'
+38 type (VoidType)
+39 name (SimpleName)
+40 identifier='write'
+41 parameters
+42 parameter (Parameter)
+43 isVarArgs='false'
+44 name (SimpleName)
+45 identifier='tag'
+46 type (PrimitiveType)
+47 type='BYTE'
+48 parameter (Parameter)
+49 isVarArgs='false'
+50 name (SimpleName)
+51 identifier='buf'
+52 type (ArrayType)
+53 origin='TYPE'
+54 componentType (PrimitiveType)
+55 type='BYTE'
+56 thrownExceptions
+57 thrownException (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+2 22
+22 23
+23 24
+24 25
+23 26
+26 27
+27 28
+28 29
+26 30
+30 31
+26 32
+32 33
+33 34
+32 35
+35 36
+36 37
+0 38
+0 39
+39 40
+0 41
+41 42
+42 43
+42 44
+44 45
+42 46
+46 47
+41 48
+48 49
+48 50
+50 51
+48 52
+52 53
+52 54
+54 55
+0 56
+56 57
+57 58
+58 59
+
+Writes tagged, pre-marshaled data.  This calcuates and encodes the length, so that the output data is the standard triple of { tag, length, data } used by all DER values.

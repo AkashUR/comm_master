@@ -1,0 +1,336 @@
+167
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='assertNotNull'
+7 arguments
+8 argument (NameExpr)
+9 name (SimpleName)
+10 identifier='result'
+11 statement (ExpressionStmt)
+12 expression (MethodCallExpr)
+13 name (SimpleName)
+14 identifier='assertEquals'
+15 arguments
+16 argument (IntegerLiteralExpr)
+17 value='123'
+18 argument (MethodCallExpr)
+19 name (SimpleName)
+20 identifier='getKey'
+21 scope (NameExpr)
+22 name (SimpleName)
+23 identifier='result'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='assertEquals'
+28 arguments
+29 argument (IntegerLiteralExpr)
+30 value='0'
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getVersion'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='result'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='assertEquals'
+41 arguments
+42 argument (IntegerLiteralExpr)
+43 value='1'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='getKey'
+47 scope (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='getEventDefinition'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='result'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='assertEquals'
+57 arguments
+58 argument (StringLiteralExpr)
+59 value=''
+60 argument (MethodCallExpr)
+61 name (SimpleName)
+62 identifier='getEventDescription'
+63 scope (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='getEventDefinition'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='result'
+69 statement (ExpressionStmt)
+70 expression (MethodCallExpr)
+71 name (SimpleName)
+72 identifier='assertEquals'
+73 arguments
+74 argument (StringLiteralExpr)
+75 value='eventIdentifier'
+76 argument (MethodCallExpr)
+77 name (SimpleName)
+78 identifier='getEventId'
+79 scope (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getEventDefinition'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='result'
+85 statement (ExpressionStmt)
+86 expression (MethodCallExpr)
+87 name (SimpleName)
+88 identifier='assertEquals'
+89 arguments
+90 argument (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='valueOf'
+93 scope (NameExpr)
+94 name (SimpleName)
+95 identifier='BigDecimal'
+96 arguments
+97 argument (IntegerLiteralExpr)
+98 value='999'
+99 argument (MethodCallExpr)
+100 name (SimpleName)
+101 identifier='getEventPrice'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='result'
+105 statement (ExpressionStmt)
+106 expression (VariableDeclarationExpr)
+107 variables
+108 variable (VariableDeclarator)
+109 initializer (MethodCallExpr)
+110 name (SimpleName)
+111 identifier='getSteppedPrices'
+112 scope (NameExpr)
+113 name (SimpleName)
+114 identifier='result'
+115 name (SimpleName)
+116 identifier='steppedPrices'
+117 type (ClassOrInterfaceType)
+118 name (SimpleName)
+119 identifier='List'
+120 typeArguments
+121 typeArgument (ClassOrInterfaceType)
+122 name (SimpleName)
+123 identifier='VOSteppedPrice'
+124 statement (ExpressionStmt)
+125 expression (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='assertEquals'
+128 arguments
+129 argument (IntegerLiteralExpr)
+130 value='1'
+131 argument (MethodCallExpr)
+132 name (SimpleName)
+133 identifier='size'
+134 scope (NameExpr)
+135 name (SimpleName)
+136 identifier='steppedPrices'
+137 statement (ExpressionStmt)
+138 expression (MethodCallExpr)
+139 name (SimpleName)
+140 identifier='assertEquals'
+141 arguments
+142 argument (IntegerLiteralExpr)
+143 value='2'
+144 argument (MethodCallExpr)
+145 name (SimpleName)
+146 identifier='getKey'
+147 scope (MethodCallExpr)
+148 name (SimpleName)
+149 identifier='get'
+150 scope (NameExpr)
+151 name (SimpleName)
+152 identifier='steppedPrices'
+153 arguments
+154 argument (IntegerLiteralExpr)
+155 value='0'
+156 type (VoidType)
+157 name (SimpleName)
+158 identifier='validatePricedEvent'
+159 parameters
+160 parameter (Parameter)
+161 isVarArgs='false'
+162 name (SimpleName)
+163 identifier='result'
+164 type (ClassOrInterfaceType)
+165 name (SimpleName)
+166 identifier='VOPricedEvent'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+9 10
+2 11
+11 12
+12 13
+13 14
+12 15
+15 16
+16 17
+15 18
+18 19
+19 20
+18 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+28 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+57 60
+60 61
+61 62
+60 63
+63 64
+64 65
+63 66
+66 67
+67 68
+2 69
+69 70
+70 71
+71 72
+70 73
+73 74
+74 75
+73 76
+76 77
+77 78
+76 79
+79 80
+80 81
+79 82
+82 83
+83 84
+2 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+91 92
+90 93
+93 94
+94 95
+90 96
+96 97
+97 98
+89 99
+99 100
+100 101
+99 102
+102 103
+103 104
+2 105
+105 106
+106 107
+107 108
+108 109
+109 110
+110 111
+109 112
+112 113
+113 114
+108 115
+115 116
+108 117
+117 118
+118 119
+117 120
+120 121
+121 122
+122 123
+2 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+128 131
+131 132
+132 133
+131 134
+134 135
+135 136
+2 137
+137 138
+138 139
+139 140
+138 141
+141 142
+142 143
+141 144
+144 145
+145 146
+144 147
+147 148
+148 149
+147 150
+150 151
+151 152
+147 153
+153 154
+154 155
+0 156
+0 157
+157 158
+0 159
+159 160
+160 161
+160 162
+162 163
+160 164
+164 165
+165 166
+
+Validates the settings of the assembled VO priced event.

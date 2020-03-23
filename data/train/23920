@@ -1,0 +1,136 @@
+67
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='mTimingInfo'
+9 value (NameExpr)
+10 name (SimpleName)
+11 identifier='timingInfo'
+12 statement (ExpressionStmt)
+13 expression (VariableDeclarationExpr)
+14 variables
+15 variable (VariableDeclarator)
+16 initializer (MethodCallExpr)
+17 name (SimpleName)
+18 identifier='getTime'
+19 scope (NameExpr)
+20 name (SimpleName)
+21 identifier='DomUtil'
+22 name (SimpleName)
+23 identifier='startTime'
+24 type (PrimitiveType)
+25 type='DOUBLE'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='parse'
+30 arguments
+31 argument (NameExpr)
+32 name (SimpleName)
+33 identifier='root'
+34 statement (ExpressionStmt)
+35 expression (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='addTimingInfo'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='LogUtil'
+41 arguments
+42 argument (NameExpr)
+43 name (SimpleName)
+44 identifier='startTime'
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='mTimingInfo'
+48 argument (StringLiteralExpr)
+49 value='SchemaOrgParser.parse'
+50 name (SimpleName)
+51 identifier='SchemaOrgParser'
+52 parameters
+53 parameter (Parameter)
+54 isVarArgs='false'
+55 name (SimpleName)
+56 identifier='root'
+57 type (ClassOrInterfaceType)
+58 name (SimpleName)
+59 identifier='Element'
+60 parameter (Parameter)
+61 isVarArgs='false'
+62 name (SimpleName)
+63 identifier='timingInfo'
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='TimingInfo'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+2 12
+12 13
+13 14
+14 15
+15 16
+16 17
+17 18
+16 19
+19 20
+20 21
+15 22
+22 23
+15 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+41 45
+45 46
+46 47
+41 48
+48 49
+0 50
+50 51
+0 52
+52 53
+53 54
+53 55
+55 56
+53 57
+57 58
+58 59
+52 60
+60 61
+60 62
+62 63
+60 64
+64 65
+65 66
+
+The object that extracts and verifies Schema.org markup tags from |root|.

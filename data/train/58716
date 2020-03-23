@@ -1,0 +1,178 @@
+88
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (FieldAccessExpr)
+7 name (SimpleName)
+8 identifier='allowSimpleKey'
+9 scope (ThisExpr)
+10 value (BooleanLiteralExpr)
+11 value='true'
+12 statement (ExpressionStmt)
+13 expression (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='removePossibleSimpleKey'
+16 statement (ExpressionStmt)
+17 expression (VariableDeclarationExpr)
+18 variables
+19 variable (VariableDeclarator)
+20 initializer (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='getMark'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='reader'
+26 name (SimpleName)
+27 identifier='startMark'
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='Mark'
+31 statement (ExpressionStmt)
+32 expression (MethodCallExpr)
+33 name (SimpleName)
+34 identifier='forward'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='reader'
+38 statement (ExpressionStmt)
+39 expression (VariableDeclarationExpr)
+40 variables
+41 variable (VariableDeclarator)
+42 initializer (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='getMark'
+45 scope (NameExpr)
+46 name (SimpleName)
+47 identifier='reader'
+48 name (SimpleName)
+49 identifier='endMark'
+50 type (ClassOrInterfaceType)
+51 name (SimpleName)
+52 identifier='Mark'
+53 statement (ExpressionStmt)
+54 expression (VariableDeclarationExpr)
+55 variables
+56 variable (VariableDeclarator)
+57 initializer (ObjectCreationExpr)
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='FlowEntryToken'
+61 arguments
+62 argument (NameExpr)
+63 name (SimpleName)
+64 identifier='startMark'
+65 argument (NameExpr)
+66 name (SimpleName)
+67 identifier='endMark'
+68 name (SimpleName)
+69 identifier='token'
+70 type (ClassOrInterfaceType)
+71 name (SimpleName)
+72 identifier='Token'
+73 statement (ExpressionStmt)
+74 expression (MethodCallExpr)
+75 name (SimpleName)
+76 identifier='add'
+77 scope (FieldAccessExpr)
+78 name (SimpleName)
+79 identifier='tokens'
+80 scope (ThisExpr)
+81 arguments
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='token'
+85 type (VoidType)
+86 name (SimpleName)
+87 identifier='fetchFlowEntry'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+6 9
+4 10
+10 11
+2 12
+12 13
+13 14
+14 15
+2 16
+16 17
+17 18
+18 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+19 26
+26 27
+19 28
+28 29
+29 30
+2 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+41 48
+48 49
+41 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+56 57
+57 58
+58 59
+59 60
+57 61
+61 62
+62 63
+63 64
+61 65
+65 66
+66 67
+56 68
+68 69
+56 70
+70 71
+71 72
+2 73
+73 74
+74 75
+75 76
+74 77
+77 78
+78 79
+77 80
+74 81
+81 82
+82 83
+83 84
+0 85
+0 86
+86 87
+
+Fetch an entry in the flow style. Flow-style entries occur either immediately after the start of a collection, or else after a comma.

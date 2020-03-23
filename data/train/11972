@@ -1,0 +1,222 @@
+110
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='UpdateDomoticzServerParser'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='receiver'
+15 name (SimpleName)
+16 identifier='parser'
+17 type (ClassOrInterfaceType)
+18 name (SimpleName)
+19 identifier='UpdateDomoticzServerParser'
+20 statement (ExpressionStmt)
+21 expression (VariableDeclarationExpr)
+22 variables
+23 variable (VariableDeclarator)
+24 initializer (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='constructGetUrl'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='mDomoticzUrls'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='UPDATE_DOMOTICZ_SERVER'
+34 scope (FieldAccessExpr)
+35 name (SimpleName)
+36 identifier='Request'
+37 scope (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='Url'
+40 scope (FieldAccessExpr)
+41 name (SimpleName)
+42 identifier='Json'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='DomoticzValues'
+46 name (SimpleName)
+47 identifier='url'
+48 type (ClassOrInterfaceType)
+49 name (SimpleName)
+50 identifier='String'
+51 statement (ExpressionStmt)
+52 expression (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='makeJsonPutRequest'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='RequestUtil'
+58 arguments
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='parser'
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='getUserCredentials'
+65 arguments
+66 argument (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='USERNAME'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='Authentication'
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getUserCredentials'
+75 arguments
+76 argument (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='PASSWORD'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='Authentication'
+82 argument (NameExpr)
+83 name (SimpleName)
+84 identifier='url'
+85 argument (NameExpr)
+86 name (SimpleName)
+87 identifier='mSessionUtil'
+88 argument (BooleanLiteralExpr)
+89 value='true'
+90 argument (IntegerLiteralExpr)
+91 value='3'
+92 argument (NameExpr)
+93 name (SimpleName)
+94 identifier='queue'
+95 type (VoidType)
+96 name (SimpleName)
+97 identifier='updateDomoticzServer'
+98 parameters
+99 parameter (Parameter)
+100 isVarArgs='false'
+101 name (SimpleName)
+102 identifier='receiver'
+103 type (ClassOrInterfaceType)
+104 name (SimpleName)
+105 identifier='UpdateDomoticzServerReceiver'
+106 annotations
+107 annotation (MarkerAnnotationExpr)
+108 name (Name)
+109 identifier='Nullable'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+6 15
+15 16
+6 17
+17 18
+18 19
+2 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+34 37
+37 38
+38 39
+37 40
+40 41
+41 42
+40 43
+43 44
+44 45
+23 46
+46 47
+23 48
+48 49
+49 50
+2 51
+51 52
+52 53
+53 54
+52 55
+55 56
+56 57
+52 58
+58 59
+59 60
+60 61
+58 62
+62 63
+63 64
+62 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+58 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+58 82
+82 83
+83 84
+58 85
+85 86
+86 87
+58 88
+88 89
+58 90
+90 91
+58 92
+92 93
+93 94
+0 95
+0 96
+96 97
+0 98
+98 99
+99 100
+99 101
+101 102
+99 103
+103 104
+104 105
+99 106
+106 107
+107 108
+108 109
+
+Gives the Domoticz server the command to install the latest update (if downloaded)

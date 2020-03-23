@@ -1,0 +1,160 @@
+79
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='modify'
+7 scope (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='getAdminSession'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='service'
+13 arguments
+14 argument (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='DN'
+18 arguments
+19 argument (BinaryExpr)
+20 operator='PLUS'
+21 left (BinaryExpr)
+22 operator='PLUS'
+23 left (BinaryExpr)
+24 operator='PLUS'
+25 left (BinaryExpr)
+26 operator='PLUS'
+27 left (NameExpr)
+28 name (SimpleName)
+29 identifier='rdnKey'
+30 right (CharLiteralExpr)
+31 value='='
+32 right (NameExpr)
+33 name (SimpleName)
+34 identifier='rdnValue'
+35 right (CharLiteralExpr)
+36 value=','
+37 right (NameExpr)
+38 name (SimpleName)
+39 identifier='baseDn'
+40 argument (MethodCallExpr)
+41 name (SimpleName)
+42 identifier='asList'
+43 scope (NameExpr)
+44 name (SimpleName)
+45 identifier='Arrays'
+46 arguments
+47 argument (NameExpr)
+48 name (SimpleName)
+49 identifier='mods'
+50 type (VoidType)
+51 name (SimpleName)
+52 identifier='modify'
+53 parameters
+54 parameter (Parameter)
+55 isVarArgs='false'
+56 name (SimpleName)
+57 identifier='rdnKey'
+58 type (ClassOrInterfaceType)
+59 name (SimpleName)
+60 identifier='String'
+61 parameter (Parameter)
+62 isVarArgs='false'
+63 name (SimpleName)
+64 identifier='rdnValue'
+65 type (ClassOrInterfaceType)
+66 name (SimpleName)
+67 identifier='String'
+68 parameter (Parameter)
+69 isVarArgs='true'
+70 name (SimpleName)
+71 identifier='mods'
+72 type (ClassOrInterfaceType)
+73 name (SimpleName)
+74 identifier='Modification'
+75 thrownExceptions
+76 thrownException (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+11 12
+4 13
+13 14
+14 15
+15 16
+16 17
+14 18
+18 19
+19 20
+19 21
+21 22
+21 23
+23 24
+23 25
+25 26
+25 27
+27 28
+28 29
+25 30
+30 31
+23 32
+32 33
+33 34
+21 35
+35 36
+19 37
+37 38
+38 39
+13 40
+40 41
+41 42
+40 43
+43 44
+44 45
+40 46
+46 47
+47 48
+48 49
+0 50
+0 51
+51 52
+0 53
+53 54
+54 55
+54 56
+56 57
+54 58
+58 59
+59 60
+53 61
+61 62
+61 63
+63 64
+61 65
+65 66
+66 67
+53 68
+68 69
+68 70
+70 71
+68 72
+72 73
+73 74
+0 75
+75 76
+76 77
+77 78
+
+Applies given modifications on the entity with rdn {rdnKey}={rdnValue} in base dn.

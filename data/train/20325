@@ -1,0 +1,760 @@
+379
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='build'
+10 scope (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='setStrData'
+13 scope (MethodCallExpr)
+14 name (SimpleName)
+15 identifier='newBuilder'
+16 scope (NameExpr)
+17 name (SimpleName)
+18 identifier='Response'
+19 arguments
+20 argument (StringLiteralExpr)
+21 value='Response Data'
+22 name (SimpleName)
+23 identifier='response'
+24 type (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='Response'
+27 statement (ExpressionStmt)
+28 expression (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='registerService'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='rpcForwarder'
+34 arguments
+35 argument (MethodCallExpr)
+36 name (SimpleName)
+37 identifier='newReflectiveService'
+38 scope (NameExpr)
+39 name (SimpleName)
+40 identifier='TestService'
+41 arguments
+42 argument (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='withResponse'
+45 scope (ObjectCreationExpr)
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='FakeServiceImpl'
+49 arguments
+50 argument (NameExpr)
+51 name (SimpleName)
+52 identifier='REQUEST'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='response'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='doBlockingRpc'
+64 scope (NameExpr)
+65 name (SimpleName)
+66 identifier='rpcForwarder'
+67 arguments
+68 argument (NameExpr)
+69 name (SimpleName)
+70 identifier='RPC_REQUEST'
+71 name (SimpleName)
+72 identifier='rpcResponse'
+73 type (ClassOrInterfaceType)
+74 name (SimpleName)
+75 identifier='Response'
+76 scope (ClassOrInterfaceType)
+77 name (SimpleName)
+78 identifier='SocketRpcProtos'
+79 statement (ExpressionStmt)
+80 expression (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='assertTrue'
+83 arguments
+84 argument (MethodCallExpr)
+85 name (SimpleName)
+86 identifier='getCallback'
+87 scope (NameExpr)
+88 name (SimpleName)
+89 identifier='rpcResponse'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='assertEquals'
+94 arguments
+95 argument (MethodCallExpr)
+96 name (SimpleName)
+97 identifier='toByteString'
+98 scope (NameExpr)
+99 name (SimpleName)
+100 identifier='response'
+101 argument (MethodCallExpr)
+102 name (SimpleName)
+103 identifier='getResponseProto'
+104 scope (NameExpr)
+105 name (SimpleName)
+106 identifier='rpcResponse'
+107 statement (ExpressionStmt)
+108 expression (VariableDeclarationExpr)
+109 variables
+110 variable (VariableDeclarator)
+111 initializer (ObjectCreationExpr)
+112 type (ClassOrInterfaceType)
+113 name (SimpleName)
+114 identifier='Callback'
+115 typeArguments
+116 typeArgument (ClassOrInterfaceType)
+117 name (SimpleName)
+118 identifier='Response'
+119 scope (ClassOrInterfaceType)
+120 name (SimpleName)
+121 identifier='SocketRpcProtos'
+122 name (SimpleName)
+123 identifier='rpcCallback'
+124 type (ClassOrInterfaceType)
+125 name (SimpleName)
+126 identifier='Callback'
+127 typeArguments
+128 typeArgument (ClassOrInterfaceType)
+129 name (SimpleName)
+130 identifier='Response'
+131 scope (ClassOrInterfaceType)
+132 name (SimpleName)
+133 identifier='SocketRpcProtos'
+134 statement (ExpressionStmt)
+135 expression (MethodCallExpr)
+136 name (SimpleName)
+137 identifier='doRpc'
+138 scope (NameExpr)
+139 name (SimpleName)
+140 identifier='rpcForwarder'
+141 arguments
+142 argument (NameExpr)
+143 name (SimpleName)
+144 identifier='RPC_REQUEST'
+145 argument (NameExpr)
+146 name (SimpleName)
+147 identifier='rpcCallback'
+148 statement (ExpressionStmt)
+149 expression (MethodCallExpr)
+150 name (SimpleName)
+151 identifier='assertTrue'
+152 arguments
+153 argument (MethodCallExpr)
+154 name (SimpleName)
+155 identifier='isInvoked'
+156 scope (NameExpr)
+157 name (SimpleName)
+158 identifier='rpcCallback'
+159 statement (ExpressionStmt)
+160 expression (AssignExpr)
+161 operator='ASSIGN'
+162 target (NameExpr)
+163 name (SimpleName)
+164 identifier='rpcResponse'
+165 value (MethodCallExpr)
+166 name (SimpleName)
+167 identifier='getResponse'
+168 scope (NameExpr)
+169 name (SimpleName)
+170 identifier='rpcCallback'
+171 statement (ExpressionStmt)
+172 expression (MethodCallExpr)
+173 name (SimpleName)
+174 identifier='assertTrue'
+175 arguments
+176 argument (MethodCallExpr)
+177 name (SimpleName)
+178 identifier='getCallback'
+179 scope (NameExpr)
+180 name (SimpleName)
+181 identifier='rpcResponse'
+182 statement (ExpressionStmt)
+183 expression (MethodCallExpr)
+184 name (SimpleName)
+185 identifier='assertEquals'
+186 arguments
+187 argument (MethodCallExpr)
+188 name (SimpleName)
+189 identifier='toByteString'
+190 scope (NameExpr)
+191 name (SimpleName)
+192 identifier='response'
+193 argument (MethodCallExpr)
+194 name (SimpleName)
+195 identifier='getResponseProto'
+196 scope (NameExpr)
+197 name (SimpleName)
+198 identifier='rpcResponse'
+199 statement (ExpressionStmt)
+200 expression (AssignExpr)
+201 operator='ASSIGN'
+202 target (NameExpr)
+203 name (SimpleName)
+204 identifier='response'
+205 value (MethodCallExpr)
+206 name (SimpleName)
+207 identifier='build'
+208 scope (MethodCallExpr)
+209 name (SimpleName)
+210 identifier='setStrData'
+211 scope (MethodCallExpr)
+212 name (SimpleName)
+213 identifier='newBuilder'
+214 scope (NameExpr)
+215 name (SimpleName)
+216 identifier='Response'
+217 arguments
+218 argument (StringLiteralExpr)
+219 value='New Data'
+220 statement (ExpressionStmt)
+221 expression (MethodCallExpr)
+222 name (SimpleName)
+223 identifier='registerBlockingService'
+224 scope (NameExpr)
+225 name (SimpleName)
+226 identifier='rpcForwarder'
+227 arguments
+228 argument (MethodCallExpr)
+229 name (SimpleName)
+230 identifier='toBlockingService'
+231 scope (MethodCallExpr)
+232 name (SimpleName)
+233 identifier='withResponse'
+234 scope (ObjectCreationExpr)
+235 type (ClassOrInterfaceType)
+236 name (SimpleName)
+237 identifier='FakeServiceImpl'
+238 arguments
+239 argument (NameExpr)
+240 name (SimpleName)
+241 identifier='REQUEST'
+242 arguments
+243 argument (NameExpr)
+244 name (SimpleName)
+245 identifier='response'
+246 statement (ExpressionStmt)
+247 expression (AssignExpr)
+248 operator='ASSIGN'
+249 target (NameExpr)
+250 name (SimpleName)
+251 identifier='rpcResponse'
+252 value (MethodCallExpr)
+253 name (SimpleName)
+254 identifier='doBlockingRpc'
+255 scope (NameExpr)
+256 name (SimpleName)
+257 identifier='rpcForwarder'
+258 arguments
+259 argument (NameExpr)
+260 name (SimpleName)
+261 identifier='RPC_REQUEST'
+262 statement (ExpressionStmt)
+263 expression (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='assertTrue'
+266 arguments
+267 argument (MethodCallExpr)
+268 name (SimpleName)
+269 identifier='getCallback'
+270 scope (NameExpr)
+271 name (SimpleName)
+272 identifier='rpcResponse'
+273 statement (ExpressionStmt)
+274 expression (MethodCallExpr)
+275 name (SimpleName)
+276 identifier='assertEquals'
+277 arguments
+278 argument (MethodCallExpr)
+279 name (SimpleName)
+280 identifier='toByteString'
+281 scope (NameExpr)
+282 name (SimpleName)
+283 identifier='response'
+284 argument (MethodCallExpr)
+285 name (SimpleName)
+286 identifier='getResponseProto'
+287 scope (NameExpr)
+288 name (SimpleName)
+289 identifier='rpcResponse'
+290 statement (ExpressionStmt)
+291 expression (AssignExpr)
+292 operator='ASSIGN'
+293 target (NameExpr)
+294 name (SimpleName)
+295 identifier='rpcCallback'
+296 value (ObjectCreationExpr)
+297 type (ClassOrInterfaceType)
+298 name (SimpleName)
+299 identifier='Callback'
+300 typeArguments
+301 typeArgument (ClassOrInterfaceType)
+302 name (SimpleName)
+303 identifier='Response'
+304 scope (ClassOrInterfaceType)
+305 name (SimpleName)
+306 identifier='SocketRpcProtos'
+307 statement (ExpressionStmt)
+308 expression (MethodCallExpr)
+309 name (SimpleName)
+310 identifier='doRpc'
+311 scope (NameExpr)
+312 name (SimpleName)
+313 identifier='rpcForwarder'
+314 arguments
+315 argument (NameExpr)
+316 name (SimpleName)
+317 identifier='RPC_REQUEST'
+318 argument (NameExpr)
+319 name (SimpleName)
+320 identifier='rpcCallback'
+321 statement (ExpressionStmt)
+322 expression (MethodCallExpr)
+323 name (SimpleName)
+324 identifier='assertTrue'
+325 arguments
+326 argument (MethodCallExpr)
+327 name (SimpleName)
+328 identifier='isInvoked'
+329 scope (NameExpr)
+330 name (SimpleName)
+331 identifier='rpcCallback'
+332 statement (ExpressionStmt)
+333 expression (AssignExpr)
+334 operator='ASSIGN'
+335 target (NameExpr)
+336 name (SimpleName)
+337 identifier='rpcResponse'
+338 value (MethodCallExpr)
+339 name (SimpleName)
+340 identifier='getResponse'
+341 scope (NameExpr)
+342 name (SimpleName)
+343 identifier='rpcCallback'
+344 statement (ExpressionStmt)
+345 expression (MethodCallExpr)
+346 name (SimpleName)
+347 identifier='assertTrue'
+348 arguments
+349 argument (MethodCallExpr)
+350 name (SimpleName)
+351 identifier='getCallback'
+352 scope (NameExpr)
+353 name (SimpleName)
+354 identifier='rpcResponse'
+355 statement (ExpressionStmt)
+356 expression (MethodCallExpr)
+357 name (SimpleName)
+358 identifier='assertEquals'
+359 arguments
+360 argument (MethodCallExpr)
+361 name (SimpleName)
+362 identifier='toByteString'
+363 scope (NameExpr)
+364 name (SimpleName)
+365 identifier='response'
+366 argument (MethodCallExpr)
+367 name (SimpleName)
+368 identifier='getResponseProto'
+369 scope (NameExpr)
+370 name (SimpleName)
+371 identifier='rpcResponse'
+372 type (VoidType)
+373 name (SimpleName)
+374 identifier='testGoodRpc'
+375 thrownExceptions
+376 thrownException (ClassOrInterfaceType)
+377 name (SimpleName)
+378 identifier='RpcException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+10 13
+13 14
+14 15
+13 16
+16 17
+17 18
+10 19
+19 20
+20 21
+6 22
+22 23
+6 24
+24 25
+25 26
+2 27
+27 28
+28 29
+29 30
+28 31
+31 32
+32 33
+28 34
+34 35
+35 36
+36 37
+35 38
+38 39
+39 40
+35 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+47 48
+45 49
+49 50
+50 51
+51 52
+42 53
+53 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+61 64
+64 65
+65 66
+61 67
+67 68
+68 69
+69 70
+60 71
+71 72
+60 73
+73 74
+74 75
+73 76
+76 77
+77 78
+2 79
+79 80
+80 81
+81 82
+80 83
+83 84
+84 85
+85 86
+84 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+96 97
+95 98
+98 99
+99 100
+94 101
+101 102
+102 103
+101 104
+104 105
+105 106
+2 107
+107 108
+108 109
+109 110
+110 111
+111 112
+112 113
+113 114
+112 115
+115 116
+116 117
+117 118
+116 119
+119 120
+120 121
+110 122
+122 123
+110 124
+124 125
+125 126
+124 127
+127 128
+128 129
+129 130
+128 131
+131 132
+132 133
+2 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+135 141
+141 142
+142 143
+143 144
+141 145
+145 146
+146 147
+2 148
+148 149
+149 150
+150 151
+149 152
+152 153
+153 154
+154 155
+153 156
+156 157
+157 158
+2 159
+159 160
+160 161
+160 162
+162 163
+163 164
+160 165
+165 166
+166 167
+165 168
+168 169
+169 170
+2 171
+171 172
+172 173
+173 174
+172 175
+175 176
+176 177
+177 178
+176 179
+179 180
+180 181
+2 182
+182 183
+183 184
+184 185
+183 186
+186 187
+187 188
+188 189
+187 190
+190 191
+191 192
+186 193
+193 194
+194 195
+193 196
+196 197
+197 198
+2 199
+199 200
+200 201
+200 202
+202 203
+203 204
+200 205
+205 206
+206 207
+205 208
+208 209
+209 210
+208 211
+211 212
+212 213
+211 214
+214 215
+215 216
+208 217
+217 218
+218 219
+2 220
+220 221
+221 222
+222 223
+221 224
+224 225
+225 226
+221 227
+227 228
+228 229
+229 230
+228 231
+231 232
+232 233
+231 234
+234 235
+235 236
+236 237
+234 238
+238 239
+239 240
+240 241
+231 242
+242 243
+243 244
+244 245
+2 246
+246 247
+247 248
+247 249
+249 250
+250 251
+247 252
+252 253
+253 254
+252 255
+255 256
+256 257
+252 258
+258 259
+259 260
+260 261
+2 262
+262 263
+263 264
+264 265
+263 266
+266 267
+267 268
+268 269
+267 270
+270 271
+271 272
+2 273
+273 274
+274 275
+275 276
+274 277
+277 278
+278 279
+279 280
+278 281
+281 282
+282 283
+277 284
+284 285
+285 286
+284 287
+287 288
+288 289
+2 290
+290 291
+291 292
+291 293
+293 294
+294 295
+291 296
+296 297
+297 298
+298 299
+297 300
+300 301
+301 302
+302 303
+301 304
+304 305
+305 306
+2 307
+307 308
+308 309
+309 310
+308 311
+311 312
+312 313
+308 314
+314 315
+315 316
+316 317
+314 318
+318 319
+319 320
+2 321
+321 322
+322 323
+323 324
+322 325
+325 326
+326 327
+327 328
+326 329
+329 330
+330 331
+2 332
+332 333
+333 334
+333 335
+335 336
+336 337
+333 338
+338 339
+339 340
+338 341
+341 342
+342 343
+2 344
+344 345
+345 346
+346 347
+345 348
+348 349
+349 350
+350 351
+349 352
+352 353
+353 354
+2 355
+355 356
+356 357
+357 358
+356 359
+359 360
+360 361
+361 362
+360 363
+363 364
+364 365
+359 366
+366 367
+367 368
+366 369
+369 370
+370 371
+0 372
+0 373
+373 374
+0 375
+375 376
+376 377
+377 378
+
+Test good request/response

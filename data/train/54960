@@ -1,0 +1,326 @@
+162
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Intent'
+11 arguments
+12 argument (NameExpr)
+13 name (SimpleName)
+14 identifier='mFileActivity'
+15 argument (ClassExpr)
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='OperationsService'
+19 name (SimpleName)
+20 identifier='service'
+21 type (ClassOrInterfaceType)
+22 name (SimpleName)
+23 identifier='Intent'
+24 statement (ExpressionStmt)
+25 expression (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='setAction'
+28 scope (NameExpr)
+29 name (SimpleName)
+30 identifier='service'
+31 arguments
+32 argument (FieldAccessExpr)
+33 name (SimpleName)
+34 identifier='ACTION_MOVE_FILE'
+35 scope (NameExpr)
+36 name (SimpleName)
+37 identifier='OperationsService'
+38 statement (ExpressionStmt)
+39 expression (MethodCallExpr)
+40 name (SimpleName)
+41 identifier='putExtra'
+42 scope (NameExpr)
+43 name (SimpleName)
+44 identifier='service'
+45 arguments
+46 argument (FieldAccessExpr)
+47 name (SimpleName)
+48 identifier='EXTRA_NEW_PARENT_PATH'
+49 scope (NameExpr)
+50 name (SimpleName)
+51 identifier='OperationsService'
+52 argument (MethodCallExpr)
+53 name (SimpleName)
+54 identifier='getRemotePath'
+55 scope (NameExpr)
+56 name (SimpleName)
+57 identifier='newfile'
+58 statement (ExpressionStmt)
+59 expression (MethodCallExpr)
+60 name (SimpleName)
+61 identifier='putExtra'
+62 scope (NameExpr)
+63 name (SimpleName)
+64 identifier='service'
+65 arguments
+66 argument (FieldAccessExpr)
+67 name (SimpleName)
+68 identifier='EXTRA_REMOTE_PATH'
+69 scope (NameExpr)
+70 name (SimpleName)
+71 identifier='OperationsService'
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='getRemotePath'
+75 scope (NameExpr)
+76 name (SimpleName)
+77 identifier='currentFile'
+78 statement (ExpressionStmt)
+79 expression (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='putExtra'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='service'
+85 arguments
+86 argument (FieldAccessExpr)
+87 name (SimpleName)
+88 identifier='EXTRA_ACCOUNT'
+89 scope (NameExpr)
+90 name (SimpleName)
+91 identifier='OperationsService'
+92 argument (MethodCallExpr)
+93 name (SimpleName)
+94 identifier='getAccount'
+95 scope (NameExpr)
+96 name (SimpleName)
+97 identifier='mFileActivity'
+98 statement (ExpressionStmt)
+99 expression (AssignExpr)
+100 operator='ASSIGN'
+101 target (NameExpr)
+102 name (SimpleName)
+103 identifier='mWaitingForOpId'
+104 value (MethodCallExpr)
+105 name (SimpleName)
+106 identifier='queueNewOperation'
+107 scope (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='getOperationsServiceBinder'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='mFileActivity'
+113 arguments
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='service'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='showLoadingDialog'
+121 scope (NameExpr)
+122 name (SimpleName)
+123 identifier='mFileActivity'
+124 arguments
+125 argument (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='getString'
+128 scope (MethodCallExpr)
+129 name (SimpleName)
+130 identifier='getApplicationContext'
+131 scope (NameExpr)
+132 name (SimpleName)
+133 identifier='mFileActivity'
+134 arguments
+135 argument (FieldAccessExpr)
+136 name (SimpleName)
+137 identifier='wait_a_moment'
+138 scope (FieldAccessExpr)
+139 name (SimpleName)
+140 identifier='string'
+141 scope (NameExpr)
+142 name (SimpleName)
+143 identifier='R'
+144 type (VoidType)
+145 name (SimpleName)
+146 identifier='moveFile'
+147 parameters
+148 parameter (Parameter)
+149 isVarArgs='false'
+150 name (SimpleName)
+151 identifier='newfile'
+152 type (ClassOrInterfaceType)
+153 name (SimpleName)
+154 identifier='OCFile'
+155 parameter (Parameter)
+156 isVarArgs='false'
+157 name (SimpleName)
+158 identifier='currentFile'
+159 type (ClassOrInterfaceType)
+160 name (SimpleName)
+161 identifier='OCFile'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+17 18
+6 19
+19 20
+6 21
+21 22
+22 23
+2 24
+24 25
+25 26
+26 27
+25 28
+28 29
+29 30
+25 31
+31 32
+32 33
+33 34
+32 35
+35 36
+36 37
+2 38
+38 39
+39 40
+40 41
+39 42
+42 43
+43 44
+39 45
+45 46
+46 47
+47 48
+46 49
+49 50
+50 51
+45 52
+52 53
+53 54
+52 55
+55 56
+56 57
+2 58
+58 59
+59 60
+60 61
+59 62
+62 63
+63 64
+59 65
+65 66
+66 67
+67 68
+66 69
+69 70
+70 71
+65 72
+72 73
+73 74
+72 75
+75 76
+76 77
+2 78
+78 79
+79 80
+80 81
+79 82
+82 83
+83 84
+79 85
+85 86
+86 87
+87 88
+86 89
+89 90
+90 91
+85 92
+92 93
+93 94
+92 95
+95 96
+96 97
+2 98
+98 99
+99 100
+99 101
+101 102
+102 103
+99 104
+104 105
+105 106
+104 107
+107 108
+108 109
+107 110
+110 111
+111 112
+104 113
+113 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+118 124
+124 125
+125 126
+126 127
+125 128
+128 129
+129 130
+128 131
+131 132
+132 133
+125 134
+134 135
+135 136
+136 137
+135 138
+138 139
+139 140
+138 141
+141 142
+142 143
+0 144
+0 145
+145 146
+0 147
+147 148
+148 149
+148 150
+150 151
+148 152
+152 153
+153 154
+147 155
+155 156
+155 157
+157 158
+155 159
+159 160
+160 161
+
+Start move file operation

@@ -1,0 +1,54 @@
+26
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (MethodCallExpr)
+5 name (SimpleName)
+6 identifier='requestPTY'
+7 arguments
+8 argument (StringLiteralExpr)
+9 value='dumb'
+10 argument (IntegerLiteralExpr)
+11 value='0'
+12 argument (IntegerLiteralExpr)
+13 value='0'
+14 argument (IntegerLiteralExpr)
+15 value='0'
+16 argument (IntegerLiteralExpr)
+17 value='0'
+18 argument (NullLiteralExpr)
+19 type (VoidType)
+20 name (SimpleName)
+21 identifier='requestDumbPTY'
+22 thrownExceptions
+23 thrownException (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='IOException'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+4 7
+7 8
+8 9
+7 10
+10 11
+7 12
+12 13
+7 14
+14 15
+7 16
+16 17
+7 18
+0 19
+0 20
+20 21
+0 22
+22 23
+23 24
+24 25
+
+Basically just a wrapper for lazy people - identical to calling <code>requestPTY("dumb", 0, 0, 0, 0, null)</code>.

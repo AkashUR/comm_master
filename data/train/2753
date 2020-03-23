@@ -1,0 +1,286 @@
+142
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='WAR'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='ram:///some/expanded/warfile'
+14 name (SimpleName)
+15 identifier='war'
+16 type (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='WAR'
+19 statement (ExpressionStmt)
+20 expression (MethodCallExpr)
+21 name (SimpleName)
+22 identifier='setContext'
+23 scope (NameExpr)
+24 name (SimpleName)
+25 identifier='war'
+26 arguments
+27 argument (StringLiteralExpr)
+28 value='context'
+29 statement (ExpressionStmt)
+30 expression (MethodCallExpr)
+31 name (SimpleName)
+32 identifier='setFileHandler'
+33 scope (NameExpr)
+34 name (SimpleName)
+35 identifier='war'
+36 arguments
+37 argument (FieldAccessExpr)
+38 name (SimpleName)
+39 identifier='fileHandler'
+40 scope (ThisExpr)
+41 statement (ExpressionStmt)
+42 expression (MethodCallExpr)
+43 name (SimpleName)
+44 identifier='createFolder'
+45 scope (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='resolveFile'
+48 scope (FieldAccessExpr)
+49 name (SimpleName)
+50 identifier='fsManager'
+51 scope (ThisExpr)
+52 arguments
+53 argument (MethodCallExpr)
+54 name (SimpleName)
+55 identifier='getFile'
+56 scope (NameExpr)
+57 name (SimpleName)
+58 identifier='war'
+59 statement (ExpressionStmt)
+60 expression (VariableDeclarationExpr)
+61 variables
+62 variable (VariableDeclarator)
+63 initializer (ObjectCreationExpr)
+64 type (ClassOrInterfaceType)
+65 name (SimpleName)
+66 identifier='TestableCopyingDeployer'
+67 arguments
+68 argument (MethodCallExpr)
+69 name (SimpleName)
+70 identifier='createContainer'
+71 arguments
+72 argument (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='createContainerCapability'
+75 arguments
+76 argument (FieldAccessExpr)
+77 name (SimpleName)
+78 identifier='WAR'
+79 scope (NameExpr)
+80 name (SimpleName)
+81 identifier='DeployableType'
+82 argument (NullLiteralExpr)
+83 name (SimpleName)
+84 identifier='deployer'
+85 type (ClassOrInterfaceType)
+86 name (SimpleName)
+87 identifier='AbstractCopyingInstalledLocalDeployer'
+88 statement (ExpressionStmt)
+89 expression (MethodCallExpr)
+90 name (SimpleName)
+91 identifier='assertFalse'
+92 arguments
+93 argument (MethodCallExpr)
+94 name (SimpleName)
+95 identifier='exists'
+96 scope (MethodCallExpr)
+97 name (SimpleName)
+98 identifier='resolveFile'
+99 scope (FieldAccessExpr)
+100 name (SimpleName)
+101 identifier='fsManager'
+102 scope (ThisExpr)
+103 arguments
+104 argument (StringLiteralExpr)
+105 value='ram:///webapps/context'
+106 statement (ExpressionStmt)
+107 expression (MethodCallExpr)
+108 name (SimpleName)
+109 identifier='deploy'
+110 scope (NameExpr)
+111 name (SimpleName)
+112 identifier='deployer'
+113 arguments
+114 argument (NameExpr)
+115 name (SimpleName)
+116 identifier='war'
+117 statement (ExpressionStmt)
+118 expression (MethodCallExpr)
+119 name (SimpleName)
+120 identifier='assertTrue'
+121 arguments
+122 argument (MethodCallExpr)
+123 name (SimpleName)
+124 identifier='exists'
+125 scope (MethodCallExpr)
+126 name (SimpleName)
+127 identifier='resolveFile'
+128 scope (FieldAccessExpr)
+129 name (SimpleName)
+130 identifier='fsManager'
+131 scope (ThisExpr)
+132 arguments
+133 argument (StringLiteralExpr)
+134 value='ram:///webapps/context'
+135 type (VoidType)
+136 name (SimpleName)
+137 identifier='testDeployWhenExpandedWarWithCustomContext'
+138 thrownExceptions
+139 thrownException (ClassOrInterfaceType)
+140 name (SimpleName)
+141 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+6 14
+14 15
+6 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+20 23
+23 24
+24 25
+20 26
+26 27
+27 28
+2 29
+29 30
+30 31
+31 32
+30 33
+33 34
+34 35
+30 36
+36 37
+37 38
+38 39
+37 40
+2 41
+41 42
+42 43
+43 44
+42 45
+45 46
+46 47
+45 48
+48 49
+49 50
+48 51
+45 52
+52 53
+53 54
+54 55
+53 56
+56 57
+57 58
+2 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+65 66
+63 67
+67 68
+68 69
+69 70
+68 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+77 78
+76 79
+79 80
+80 81
+71 82
+62 83
+83 84
+62 85
+85 86
+86 87
+2 88
+88 89
+89 90
+90 91
+89 92
+92 93
+93 94
+94 95
+93 96
+96 97
+97 98
+96 99
+99 100
+100 101
+99 102
+96 103
+103 104
+104 105
+2 106
+106 107
+107 108
+108 109
+107 110
+110 111
+111 112
+107 113
+113 114
+114 115
+115 116
+2 117
+117 118
+118 119
+119 120
+118 121
+121 122
+122 123
+123 124
+122 125
+125 126
+126 127
+125 128
+128 129
+129 130
+128 131
+125 132
+132 133
+133 134
+0 135
+0 136
+136 137
+0 138
+138 139
+139 140
+140 141
+
+Test deployment of an expanded WAR in a custom context.

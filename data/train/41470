@@ -1,0 +1,546 @@
+272
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (AssignExpr)
+5 operator='ASSIGN'
+6 target (NameExpr)
+7 name (SimpleName)
+8 identifier='foscHz'
+9 value (ConditionalExpr)
+10 condition (MethodCallExpr)
+11 name (SimpleName)
+12 identifier='isOsccrXenSet'
+13 elseExpr (IntegerLiteralExpr)
+14 value='0'
+15 thenExpr (NameExpr)
+16 name (SimpleName)
+17 identifier='F_HI_SPEED_OSC_HZ'
+18 statement (ExpressionStmt)
+19 expression (AssignExpr)
+20 operator='ASSIGN'
+21 target (NameExpr)
+22 name (SimpleName)
+23 identifier='fpllHz'
+24 value (ConditionalExpr)
+25 condition (MethodCallExpr)
+26 name (SimpleName)
+27 identifier='isOsscrPllonSet'
+28 elseExpr (IntegerLiteralExpr)
+29 value='0'
+30 thenExpr (EnclosedExpr)
+31 inner (BinaryExpr)
+32 operator='MULTIPLY'
+33 left (IntegerLiteralExpr)
+34 value='8'
+35 right (NameExpr)
+36 name (SimpleName)
+37 identifier='foscHz'
+38 statement (ExpressionStmt)
+39 expression (AssignExpr)
+40 operator='ASSIGN'
+41 target (NameExpr)
+42 name (SimpleName)
+43 identifier='fcHz'
+44 value (ConditionalExpr)
+45 condition (MethodCallExpr)
+46 name (SimpleName)
+47 identifier='isPllselSet'
+48 elseExpr (NameExpr)
+49 name (SimpleName)
+50 identifier='foscHz'
+51 thenExpr (NameExpr)
+52 name (SimpleName)
+53 identifier='fpllHz'
+54 statement (ExpressionStmt)
+55 expression (AssignExpr)
+56 operator='ASSIGN'
+57 target (NameExpr)
+58 name (SimpleName)
+59 identifier='fsHz'
+60 value (ConditionalExpr)
+61 condition (MethodCallExpr)
+62 name (SimpleName)
+63 identifier='isOsccrXtenSet'
+64 elseExpr (IntegerLiteralExpr)
+65 value='0'
+66 thenExpr (NameExpr)
+67 name (SimpleName)
+68 identifier='F_LO_SPEED_OSC_HZ'
+69 statement (ExpressionStmt)
+70 expression (AssignExpr)
+71 operator='ASSIGN'
+72 target (NameExpr)
+73 name (SimpleName)
+74 identifier='fgearHz'
+75 value (BinaryExpr)
+76 operator='DIVIDE'
+77 left (NameExpr)
+78 name (SimpleName)
+79 identifier='fcHz'
+80 right (MethodCallExpr)
+81 name (SimpleName)
+82 identifier='getSyscrGearDivider'
+83 statement (ExpressionStmt)
+84 expression (AssignExpr)
+85 operator='ASSIGN'
+86 target (NameExpr)
+87 name (SimpleName)
+88 identifier='fperiphHz'
+89 value (ConditionalExpr)
+90 condition (MethodCallExpr)
+91 name (SimpleName)
+92 identifier='isSyscrFpselSet'
+93 elseExpr (NameExpr)
+94 name (SimpleName)
+95 identifier='fgearHz'
+96 thenExpr (NameExpr)
+97 name (SimpleName)
+98 identifier='fcHz'
+99 statement (ExpressionStmt)
+100 expression (AssignExpr)
+101 operator='ASSIGN'
+102 target (NameExpr)
+103 name (SimpleName)
+104 identifier='fsysHz'
+105 value (ConditionalExpr)
+106 condition (MethodCallExpr)
+107 name (SimpleName)
+108 identifier='isCkselSysckSet'
+109 elseExpr (NameExpr)
+110 name (SimpleName)
+111 identifier='fgearHz'
+112 thenExpr (NameExpr)
+113 name (SimpleName)
+114 identifier='fsHz'
+115 statement (ExpressionStmt)
+116 expression (AssignExpr)
+117 operator='ASSIGN'
+118 target (NameExpr)
+119 name (SimpleName)
+120 identifier='ft0Hz'
+121 value (BinaryExpr)
+122 operator='DIVIDE'
+123 left (NameExpr)
+124 name (SimpleName)
+125 identifier='fperiphHz'
+126 right (MethodCallExpr)
+127 name (SimpleName)
+128 identifier='getSyscrPrescalerDivider'
+129 statement (SwitchStmt)
+130 selector (MethodCallExpr)
+131 name (SimpleName)
+132 identifier='getSyscrScosel'
+133 entries
+134 entrie (SwitchEntryStmt)
+135 label (IntegerLiteralExpr)
+136 value='0b00'
+137 statements
+138 statement (ExpressionStmt)
+139 expression (AssignExpr)
+140 operator='ASSIGN'
+141 target (NameExpr)
+142 name (SimpleName)
+143 identifier='fscOutHz'
+144 value (NameExpr)
+145 name (SimpleName)
+146 identifier='fsHz'
+147 statement (BreakStmt)
+148 entrie (SwitchEntryStmt)
+149 label (IntegerLiteralExpr)
+150 value='0b01'
+151 statements
+152 statement (ExpressionStmt)
+153 expression (AssignExpr)
+154 operator='ASSIGN'
+155 target (NameExpr)
+156 name (SimpleName)
+157 identifier='fscOutHz'
+158 value (BinaryExpr)
+159 operator='DIVIDE'
+160 left (NameExpr)
+161 name (SimpleName)
+162 identifier='fsysHz'
+163 right (IntegerLiteralExpr)
+164 value='2'
+165 statement (BreakStmt)
+166 entrie (SwitchEntryStmt)
+167 label (IntegerLiteralExpr)
+168 value='0b10'
+169 statements
+170 statement (ExpressionStmt)
+171 expression (AssignExpr)
+172 operator='ASSIGN'
+173 target (NameExpr)
+174 name (SimpleName)
+175 identifier='fscOutHz'
+176 value (NameExpr)
+177 name (SimpleName)
+178 identifier='fsysHz'
+179 statement (BreakStmt)
+180 entrie (SwitchEntryStmt)
+181 label (IntegerLiteralExpr)
+182 value='0b11'
+183 statements
+184 statement (ExpressionStmt)
+185 expression (AssignExpr)
+186 operator='ASSIGN'
+187 target (NameExpr)
+188 name (SimpleName)
+189 identifier='fscOutHz'
+190 value (NameExpr)
+191 name (SimpleName)
+192 identifier='ft0Hz'
+193 statement (BreakStmt)
+194 statement (SwitchStmt)
+195 selector (MethodCallExpr)
+196 name (SimpleName)
+197 identifier='getPowerMode'
+198 scope (EnclosedExpr)
+199 inner (CastExpr)
+200 expression (MethodCallExpr)
+201 name (SimpleName)
+202 identifier='getCpuState'
+203 scope (NameExpr)
+204 name (SimpleName)
+205 identifier='platform'
+206 type (ClassOrInterfaceType)
+207 name (SimpleName)
+208 identifier='TxCPUState'
+209 entries
+210 entrie (SwitchEntryStmt)
+211 label (NameExpr)
+212 name (SimpleName)
+213 identifier='STOP'
+214 entrie (SwitchEntryStmt)
+215 label (NameExpr)
+216 name (SimpleName)
+217 identifier='BACKUP_STOP'
+218 statements
+219 statement (ExpressionStmt)
+220 expression (AssignExpr)
+221 operator='ASSIGN'
+222 target (NameExpr)
+223 name (SimpleName)
+224 identifier='fCpuHz'
+225 value (IntegerLiteralExpr)
+226 value='0'
+227 statement (BreakStmt)
+228 entrie (SwitchEntryStmt)
+229 label (NameExpr)
+230 name (SimpleName)
+231 identifier='SLEEP'
+232 entrie (SwitchEntryStmt)
+233 label (NameExpr)
+234 name (SimpleName)
+235 identifier='BACKUP_SLEEP'
+236 statements
+237 statement (ExpressionStmt)
+238 expression (AssignExpr)
+239 operator='ASSIGN'
+240 target (NameExpr)
+241 name (SimpleName)
+242 identifier='fCpuHz'
+243 value (NameExpr)
+244 name (SimpleName)
+245 identifier='fsHz'
+246 statement (BreakStmt)
+247 entrie (SwitchEntryStmt)
+248 statements
+249 statement (ExpressionStmt)
+250 expression (AssignExpr)
+251 operator='ASSIGN'
+252 target (NameExpr)
+253 name (SimpleName)
+254 identifier='fCpuHz'
+255 value (NameExpr)
+256 name (SimpleName)
+257 identifier='fsysHz'
+258 statement (BreakStmt)
+259 statement (ExpressionStmt)
+260 expression (MethodCallExpr)
+261 name (SimpleName)
+262 identifier='requestResheduling'
+263 scope (MethodCallExpr)
+264 name (SimpleName)
+265 identifier='getMasterClock'
+266 scope (NameExpr)
+267 name (SimpleName)
+268 identifier='platform'
+269 type (VoidType)
+270 name (SimpleName)
+271 identifier='computeFrequencies'
+0 1
+1 2
+2 3
+3 4
+4 5
+4 6
+6 7
+7 8
+4 9
+9 10
+10 11
+11 12
+9 13
+13 14
+9 15
+15 16
+16 17
+2 18
+18 19
+19 20
+19 21
+21 22
+22 23
+19 24
+24 25
+25 26
+26 27
+24 28
+28 29
+24 30
+30 31
+31 32
+31 33
+33 34
+31 35
+35 36
+36 37
+2 38
+38 39
+39 40
+39 41
+41 42
+42 43
+39 44
+44 45
+45 46
+46 47
+44 48
+48 49
+49 50
+44 51
+51 52
+52 53
+2 54
+54 55
+55 56
+55 57
+57 58
+58 59
+55 60
+60 61
+61 62
+62 63
+60 64
+64 65
+60 66
+66 67
+67 68
+2 69
+69 70
+70 71
+70 72
+72 73
+73 74
+70 75
+75 76
+75 77
+77 78
+78 79
+75 80
+80 81
+81 82
+2 83
+83 84
+84 85
+84 86
+86 87
+87 88
+84 89
+89 90
+90 91
+91 92
+89 93
+93 94
+94 95
+89 96
+96 97
+97 98
+2 99
+99 100
+100 101
+100 102
+102 103
+103 104
+100 105
+105 106
+106 107
+107 108
+105 109
+109 110
+110 111
+105 112
+112 113
+113 114
+2 115
+115 116
+116 117
+116 118
+118 119
+119 120
+116 121
+121 122
+121 123
+123 124
+124 125
+121 126
+126 127
+127 128
+2 129
+129 130
+130 131
+131 132
+129 133
+133 134
+134 135
+135 136
+134 137
+137 138
+138 139
+139 140
+139 141
+141 142
+142 143
+139 144
+144 145
+145 146
+137 147
+133 148
+148 149
+149 150
+148 151
+151 152
+152 153
+153 154
+153 155
+155 156
+156 157
+153 158
+158 159
+158 160
+160 161
+161 162
+158 163
+163 164
+151 165
+133 166
+166 167
+167 168
+166 169
+169 170
+170 171
+171 172
+171 173
+173 174
+174 175
+171 176
+176 177
+177 178
+169 179
+133 180
+180 181
+181 182
+180 183
+183 184
+184 185
+185 186
+185 187
+187 188
+188 189
+185 190
+190 191
+191 192
+183 193
+2 194
+194 195
+195 196
+196 197
+195 198
+198 199
+199 200
+200 201
+201 202
+200 203
+203 204
+204 205
+199 206
+206 207
+207 208
+194 209
+209 210
+210 211
+211 212
+212 213
+209 214
+214 215
+215 216
+216 217
+214 218
+218 219
+219 220
+220 221
+220 222
+222 223
+223 224
+220 225
+225 226
+218 227
+209 228
+228 229
+229 230
+230 231
+209 232
+232 233
+233 234
+234 235
+232 236
+236 237
+237 238
+238 239
+238 240
+240 241
+241 242
+238 243
+243 244
+244 245
+236 246
+209 247
+247 248
+248 249
+249 250
+250 251
+250 252
+252 253
+253 254
+250 255
+255 256
+256 257
+248 258
+2 259
+259 260
+260 261
+261 262
+260 263
+263 264
+264 265
+263 266
+266 267
+267 268
+0 269
+0 270
+270 271
+
+Called when a register influencing frequencies has been modified This implements the clock cascade as expressed in figure of section 5.2

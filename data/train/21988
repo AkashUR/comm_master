@@ -1,0 +1,312 @@
+155
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='makereports'
+10 name (SimpleName)
+11 identifier='repvec'
+12 type (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='Vector'
+15 typeArguments
+16 typeArgument (ClassOrInterfaceType)
+17 name (SimpleName)
+18 identifier='RtcpSdesPacket'
+19 statement (ExpressionStmt)
+20 expression (VariableDeclarationExpr)
+21 variables
+22 variable (VariableDeclarator)
+23 initializer (ArrayCreationExpr)
+24 elementType (ClassOrInterfaceType)
+25 name (SimpleName)
+26 identifier='RtcpPacket'
+27 levels
+28 level (ArrayCreationLevel)
+29 dimension (BinaryExpr)
+30 operator='PLUS'
+31 left (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='size'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='repvec'
+37 right (IntegerLiteralExpr)
+38 value='1'
+39 name (SimpleName)
+40 identifier='packets'
+41 type (ArrayType)
+42 origin='TYPE'
+43 componentType (ClassOrInterfaceType)
+44 name (SimpleName)
+45 identifier='RtcpPacket'
+46 statement (ExpressionStmt)
+47 expression (MethodCallExpr)
+48 name (SimpleName)
+49 identifier='copyInto'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='repvec'
+53 arguments
+54 argument (NameExpr)
+55 name (SimpleName)
+56 identifier='packets'
+57 statement (ExpressionStmt)
+58 expression (VariableDeclarationExpr)
+59 variables
+60 variable (VariableDeclarator)
+61 initializer (ArrayInitializerExpr)
+62 values
+63 value (FieldAccessExpr)
+64 name (SimpleName)
+65 identifier='SSRC'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='rtcpSession'
+69 name (SimpleName)
+70 identifier='ssrc'
+71 type (ArrayType)
+72 origin='NAME'
+73 componentType (PrimitiveType)
+74 type='INT'
+75 statement (ExpressionStmt)
+76 expression (VariableDeclarationExpr)
+77 variables
+78 variable (VariableDeclarator)
+79 initializer (ObjectCreationExpr)
+80 type (ClassOrInterfaceType)
+81 name (SimpleName)
+82 identifier='RtcpByePacket'
+83 arguments
+84 argument (NameExpr)
+85 name (SimpleName)
+86 identifier='ssrc'
+87 argument (NullLiteralExpr)
+88 name (SimpleName)
+89 identifier='rtcpbyepacket'
+90 type (ClassOrInterfaceType)
+91 name (SimpleName)
+92 identifier='RtcpByePacket'
+93 statement (ExpressionStmt)
+94 expression (AssignExpr)
+95 operator='ASSIGN'
+96 target (ArrayAccessExpr)
+97 index (BinaryExpr)
+98 operator='MINUS'
+99 left (FieldAccessExpr)
+100 name (SimpleName)
+101 identifier='length'
+102 scope (NameExpr)
+103 name (SimpleName)
+104 identifier='packets'
+105 right (IntegerLiteralExpr)
+106 value='1'
+107 name (NameExpr)
+108 name (SimpleName)
+109 identifier='packets'
+110 value (NameExpr)
+111 name (SimpleName)
+112 identifier='rtcpbyepacket'
+113 statement (ExpressionStmt)
+114 expression (VariableDeclarationExpr)
+115 variables
+116 variable (VariableDeclarator)
+117 initializer (ObjectCreationExpr)
+118 type (ClassOrInterfaceType)
+119 name (SimpleName)
+120 identifier='RtcpCompoundPacket'
+121 arguments
+122 argument (NameExpr)
+123 name (SimpleName)
+124 identifier='packets'
+125 name (SimpleName)
+126 identifier='cp'
+127 type (ClassOrInterfaceType)
+128 name (SimpleName)
+129 identifier='RtcpCompoundPacket'
+130 statement (ExpressionStmt)
+131 expression (AssignExpr)
+132 operator='ASSIGN'
+133 target (FieldAccessExpr)
+134 name (SimpleName)
+135 identifier='activeSender'
+136 scope (MethodCallExpr)
+137 name (SimpleName)
+138 identifier='getMySource'
+139 scope (NameExpr)
+140 name (SimpleName)
+141 identifier='rtcpSession'
+142 value (BooleanLiteralExpr)
+143 value='false'
+144 statement (ExpressionStmt)
+145 expression (MethodCallExpr)
+146 name (SimpleName)
+147 identifier='transmit'
+148 arguments
+149 argument (NameExpr)
+150 name (SimpleName)
+151 identifier='cp'
+152 type (VoidType)
+153 name (SimpleName)
+154 identifier='sendByePacket'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+6 10
+10 11
+6 12
+12 13
+13 14
+12 15
+15 16
+16 17
+17 18
+2 19
+19 20
+20 21
+21 22
+22 23
+23 24
+24 25
+25 26
+23 27
+27 28
+28 29
+29 30
+29 31
+31 32
+32 33
+31 34
+34 35
+35 36
+29 37
+37 38
+22 39
+39 40
+22 41
+41 42
+41 43
+43 44
+44 45
+2 46
+46 47
+47 48
+48 49
+47 50
+50 51
+51 52
+47 53
+53 54
+54 55
+55 56
+2 57
+57 58
+58 59
+59 60
+60 61
+61 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+60 69
+69 70
+60 71
+71 72
+71 73
+73 74
+2 75
+75 76
+76 77
+77 78
+78 79
+79 80
+80 81
+81 82
+79 83
+83 84
+84 85
+85 86
+83 87
+78 88
+88 89
+78 90
+90 91
+91 92
+2 93
+93 94
+94 95
+94 96
+96 97
+97 98
+97 99
+99 100
+100 101
+99 102
+102 103
+103 104
+97 105
+105 106
+96 107
+107 108
+108 109
+94 110
+110 111
+111 112
+2 113
+113 114
+114 115
+115 116
+116 117
+117 118
+118 119
+119 120
+117 121
+121 122
+122 123
+123 124
+116 125
+125 126
+116 127
+127 128
+128 129
+2 130
+130 131
+131 132
+131 133
+133 134
+134 135
+133 136
+136 137
+137 138
+136 139
+139 140
+140 141
+131 142
+142 143
+2 144
+144 145
+145 146
+146 147
+145 148
+148 149
+149 150
+150 151
+0 152
+0 153
+153 154
+
+Send a BYE packet

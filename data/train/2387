@@ -1,0 +1,98 @@
+48
+0 root (ConstructorDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExplicitConstructorInvocationStmt)
+4 isThis='false'
+5 arguments
+6 argument (NameExpr)
+7 name (SimpleName)
+8 identifier='innerContext'
+9 statement (ExpressionStmt)
+10 expression (AssignExpr)
+11 operator='ASSIGN'
+12 target (FieldAccessExpr)
+13 name (SimpleName)
+14 identifier='context'
+15 scope (ThisExpr)
+16 value (EnclosedExpr)
+17 inner (ConditionalExpr)
+18 condition (BinaryExpr)
+19 operator='EQUALS'
+20 left (NameExpr)
+21 name (SimpleName)
+22 identifier='context'
+23 right (NullLiteralExpr)
+24 elseExpr (NameExpr)
+25 name (SimpleName)
+26 identifier='context'
+27 thenExpr (ObjectCreationExpr)
+28 type (ClassOrInterfaceType)
+29 name (SimpleName)
+30 identifier='HashMap'
+31 name (SimpleName)
+32 identifier='VelocityContext'
+33 parameters
+34 parameter (Parameter)
+35 isVarArgs='false'
+36 name (SimpleName)
+37 identifier='context'
+38 type (ClassOrInterfaceType)
+39 name (SimpleName)
+40 identifier='Map'
+41 parameter (Parameter)
+42 isVarArgs='false'
+43 name (SimpleName)
+44 identifier='innerContext'
+45 type (ClassOrInterfaceType)
+46 name (SimpleName)
+47 identifier='Context'
+0 1
+1 2
+2 3
+3 4
+3 5
+5 6
+6 7
+7 8
+2 9
+9 10
+10 11
+10 12
+12 13
+13 14
+12 15
+10 16
+16 17
+17 18
+18 19
+18 20
+20 21
+21 22
+18 23
+17 24
+24 25
+25 26
+17 27
+27 28
+28 29
+29 30
+0 31
+31 32
+0 33
+33 34
+34 35
+34 36
+36 37
+34 38
+38 39
+39 40
+33 41
+41 42
+41 43
+43 44
+41 45
+45 46
+46 47
+
+Initializes internal storage (never to <code>null</code>), and inner context.

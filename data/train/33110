@@ -1,0 +1,272 @@
+135
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='readValue'
+10 scope (ObjectCreationExpr)
+11 type (ClassOrInterfaceType)
+12 name (SimpleName)
+13 identifier='ObjectMapper'
+14 arguments
+15 argument (StringLiteralExpr)
+16 value='{\"list\":[\"a\",\"b\",\"c\"]}'
+17 argument (ClassExpr)
+18 type (ClassOrInterfaceType)
+19 name (SimpleName)
+20 identifier='ArrayListBean'
+21 name (SimpleName)
+22 identifier='bean'
+23 type (ClassOrInterfaceType)
+24 name (SimpleName)
+25 identifier='ArrayListBean'
+26 statement (ExpressionStmt)
+27 expression (MethodCallExpr)
+28 name (SimpleName)
+29 identifier='assertNotNull'
+30 arguments
+31 argument (FieldAccessExpr)
+32 name (SimpleName)
+33 identifier='list'
+34 scope (NameExpr)
+35 name (SimpleName)
+36 identifier='bean'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='assertEquals'
+41 arguments
+42 argument (IntegerLiteralExpr)
+43 value='3'
+44 argument (MethodCallExpr)
+45 name (SimpleName)
+46 identifier='size'
+47 scope (FieldAccessExpr)
+48 name (SimpleName)
+49 identifier='list'
+50 scope (NameExpr)
+51 name (SimpleName)
+52 identifier='bean'
+53 statement (ExpressionStmt)
+54 expression (MethodCallExpr)
+55 name (SimpleName)
+56 identifier='assertEquals'
+57 arguments
+58 argument (ClassExpr)
+59 type (ClassOrInterfaceType)
+60 name (SimpleName)
+61 identifier='ArrayList'
+62 argument (MethodCallExpr)
+63 name (SimpleName)
+64 identifier='getClass'
+65 scope (FieldAccessExpr)
+66 name (SimpleName)
+67 identifier='list'
+68 scope (NameExpr)
+69 name (SimpleName)
+70 identifier='bean'
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='assertEquals'
+75 arguments
+76 argument (StringLiteralExpr)
+77 value='a'
+78 argument (MethodCallExpr)
+79 name (SimpleName)
+80 identifier='get'
+81 scope (FieldAccessExpr)
+82 name (SimpleName)
+83 identifier='list'
+84 scope (NameExpr)
+85 name (SimpleName)
+86 identifier='bean'
+87 arguments
+88 argument (IntegerLiteralExpr)
+89 value='0'
+90 statement (ExpressionStmt)
+91 expression (MethodCallExpr)
+92 name (SimpleName)
+93 identifier='assertEquals'
+94 arguments
+95 argument (StringLiteralExpr)
+96 value='b'
+97 argument (MethodCallExpr)
+98 name (SimpleName)
+99 identifier='get'
+100 scope (FieldAccessExpr)
+101 name (SimpleName)
+102 identifier='list'
+103 scope (NameExpr)
+104 name (SimpleName)
+105 identifier='bean'
+106 arguments
+107 argument (IntegerLiteralExpr)
+108 value='1'
+109 statement (ExpressionStmt)
+110 expression (MethodCallExpr)
+111 name (SimpleName)
+112 identifier='assertEquals'
+113 arguments
+114 argument (StringLiteralExpr)
+115 value='c'
+116 argument (MethodCallExpr)
+117 name (SimpleName)
+118 identifier='get'
+119 scope (FieldAccessExpr)
+120 name (SimpleName)
+121 identifier='list'
+122 scope (NameExpr)
+123 name (SimpleName)
+124 identifier='bean'
+125 arguments
+126 argument (IntegerLiteralExpr)
+127 value='2'
+128 type (VoidType)
+129 name (SimpleName)
+130 identifier='testSpecialization'
+131 thrownExceptions
+132 thrownException (ClassOrInterfaceType)
+133 name (SimpleName)
+134 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+12 13
+7 14
+14 15
+15 16
+14 17
+17 18
+18 19
+19 20
+6 21
+21 22
+6 23
+23 24
+24 25
+2 26
+26 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+31 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+41 44
+44 45
+45 46
+44 47
+47 48
+48 49
+47 50
+50 51
+51 52
+2 53
+53 54
+54 55
+55 56
+54 57
+57 58
+58 59
+59 60
+60 61
+57 62
+62 63
+63 64
+62 65
+65 66
+66 67
+65 68
+68 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+78 79
+79 80
+78 81
+81 82
+82 83
+81 84
+84 85
+85 86
+78 87
+87 88
+88 89
+2 90
+90 91
+91 92
+92 93
+91 94
+94 95
+95 96
+94 97
+97 98
+98 99
+97 100
+100 101
+101 102
+100 103
+103 104
+104 105
+97 106
+106 107
+107 108
+2 109
+109 110
+110 111
+111 112
+110 113
+113 114
+114 115
+113 116
+116 117
+117 118
+116 119
+119 120
+120 121
+119 122
+122 123
+123 124
+116 125
+125 126
+126 127
+0 128
+0 129
+129 130
+0 131
+131 132
+132 133
+133 134
+
+It should be ok to overload with specialized  version; more specific method should be used.

@@ -1,0 +1,186 @@
+92
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='IdentitySubclass'
+11 arguments
+12 argument (StringLiteralExpr)
+13 value='test'
+14 argument (ObjectCreationExpr)
+15 type (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='IdentityScopeSubclass'
+18 name (SimpleName)
+19 identifier='sub'
+20 type (ClassOrInterfaceType)
+21 name (SimpleName)
+22 identifier='IdentitySubclass'
+23 statement (ExpressionStmt)
+24 expression (MethodCallExpr)
+25 name (SimpleName)
+26 identifier='setPublicKey'
+27 scope (NameExpr)
+28 name (SimpleName)
+29 identifier='sub'
+30 arguments
+31 argument (MethodCallExpr)
+32 name (SimpleName)
+33 identifier='getPubKey'
+34 statement (ExpressionStmt)
+35 expression (VariableDeclarationExpr)
+36 variables
+37 variable (VariableDeclarator)
+38 initializer (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='getPublicKey'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='sub'
+44 name (SimpleName)
+45 identifier='returnedPubKey'
+46 type (ClassOrInterfaceType)
+47 name (SimpleName)
+48 identifier='PublicKey'
+49 statement (ExpressionStmt)
+50 expression (MethodCallExpr)
+51 name (SimpleName)
+52 identifier='assertEquals'
+53 arguments
+54 argument (StringLiteralExpr)
+55 value='Wrong PublicKey returned'
+56 argument (MethodCallExpr)
+57 name (SimpleName)
+58 identifier='getPubKey'
+59 argument (NameExpr)
+60 name (SimpleName)
+61 identifier='returnedPubKey'
+62 statement (ExpressionStmt)
+63 expression (MethodCallExpr)
+64 name (SimpleName)
+65 identifier='setPublicKey'
+66 scope (NameExpr)
+67 name (SimpleName)
+68 identifier='sub'
+69 arguments
+70 argument (NullLiteralExpr)
+71 statement (ExpressionStmt)
+72 expression (MethodCallExpr)
+73 name (SimpleName)
+74 identifier='assertEquals'
+75 arguments
+76 argument (StringLiteralExpr)
+77 value='Wrong PublicKey returned'
+78 argument (NullLiteralExpr)
+79 argument (MethodCallExpr)
+80 name (SimpleName)
+81 identifier='getPublicKey'
+82 scope (NameExpr)
+83 name (SimpleName)
+84 identifier='sub'
+85 type (VoidType)
+86 name (SimpleName)
+87 identifier='testSetPublicKey'
+88 thrownExceptions
+89 thrownException (ClassOrInterfaceType)
+90 name (SimpleName)
+91 identifier='Exception'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+7 11
+11 12
+12 13
+11 14
+14 15
+15 16
+16 17
+6 18
+18 19
+6 20
+20 21
+21 22
+2 23
+23 24
+24 25
+25 26
+24 27
+27 28
+28 29
+24 30
+30 31
+31 32
+32 33
+2 34
+34 35
+35 36
+36 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+37 44
+44 45
+37 46
+46 47
+47 48
+2 49
+49 50
+50 51
+51 52
+50 53
+53 54
+54 55
+53 56
+56 57
+57 58
+53 59
+59 60
+60 61
+2 62
+62 63
+63 64
+64 65
+63 66
+66 67
+67 68
+63 69
+69 70
+2 71
+71 72
+72 73
+73 74
+72 75
+75 76
+76 77
+75 78
+75 79
+79 80
+80 81
+79 82
+82 83
+83 84
+0 85
+0 86
+86 87
+0 88
+88 89
+89 90
+90 91
+
+java.security.Identity#setPublicKey(PublicKey key)

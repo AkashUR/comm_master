@@ -1,0 +1,150 @@
+74
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (WhileStmt)
+4 body (BlockStmt)
+5 statements
+6 statement (ExpressionStmt)
+7 expression (MethodCallExpr)
+8 name (SimpleName)
+9 identifier='remove'
+10 scope (NameExpr)
+11 name (SimpleName)
+12 identifier='history'
+13 arguments
+14 argument (BinaryExpr)
+15 operator='PLUS'
+16 left (NameExpr)
+17 name (SimpleName)
+18 identifier='currentIndex'
+19 right (IntegerLiteralExpr)
+20 value='1'
+21 condition (BinaryExpr)
+22 operator='LESS'
+23 left (NameExpr)
+24 name (SimpleName)
+25 identifier='currentIndex'
+26 right (BinaryExpr)
+27 operator='MINUS'
+28 left (MethodCallExpr)
+29 name (SimpleName)
+30 identifier='size'
+31 scope (NameExpr)
+32 name (SimpleName)
+33 identifier='history'
+34 right (IntegerLiteralExpr)
+35 value='1'
+36 statement (ExpressionStmt)
+37 expression (MethodCallExpr)
+38 name (SimpleName)
+39 identifier='add'
+40 scope (NameExpr)
+41 name (SimpleName)
+42 identifier='history'
+43 arguments
+44 argument (NameExpr)
+45 name (SimpleName)
+46 identifier='url'
+47 statement (ExpressionStmt)
+48 expression (AssignExpr)
+49 operator='ASSIGN'
+50 target (NameExpr)
+51 name (SimpleName)
+52 identifier='currentIndex'
+53 value (BinaryExpr)
+54 operator='MINUS'
+55 left (MethodCallExpr)
+56 name (SimpleName)
+57 identifier='size'
+58 scope (NameExpr)
+59 name (SimpleName)
+60 identifier='history'
+61 right (IntegerLiteralExpr)
+62 value='1'
+63 type (VoidType)
+64 name (SimpleName)
+65 identifier='addURL'
+66 parameters
+67 parameter (Parameter)
+68 isVarArgs='false'
+69 name (SimpleName)
+70 identifier='url'
+71 type (ClassOrInterfaceType)
+72 name (SimpleName)
+73 identifier='String'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+7 10
+10 11
+11 12
+7 13
+13 14
+14 15
+14 16
+16 17
+17 18
+14 19
+19 20
+3 21
+21 22
+21 23
+23 24
+24 25
+21 26
+26 27
+26 28
+28 29
+29 30
+28 31
+31 32
+32 33
+26 34
+34 35
+2 36
+36 37
+37 38
+38 39
+37 40
+40 41
+41 42
+37 43
+43 44
+44 45
+45 46
+2 47
+47 48
+48 49
+48 50
+50 51
+51 52
+48 53
+53 54
+53 55
+55 56
+56 57
+55 58
+58 59
+59 60
+53 61
+61 62
+0 63
+0 64
+64 65
+0 66
+66 67
+67 68
+67 69
+69 70
+67 71
+71 72
+72 73
+
+Add a new URL to the browsing history. Adding a new URL causes all items beyond the current position to be eliminated from the history. The newly added URL will be at the end of the browser history upon return.

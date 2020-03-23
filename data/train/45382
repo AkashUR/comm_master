@@ -1,0 +1,134 @@
+66
+0 root (MethodDeclaration)
+1 body (BlockStmt)
+2 statements
+3 statement (ExpressionStmt)
+4 expression (VariableDeclarationExpr)
+5 variables
+6 variable (VariableDeclarator)
+7 initializer (ObjectCreationExpr)
+8 type (ClassOrInterfaceType)
+9 name (SimpleName)
+10 identifier='Pair'
+11 typeArguments
+12 typeArgument (ClassOrInterfaceType)
+13 name (SimpleName)
+14 identifier='String'
+15 typeArgument (ClassOrInterfaceType)
+16 name (SimpleName)
+17 identifier='HealerBehaviour'
+18 arguments
+19 argument (NameExpr)
+20 name (SimpleName)
+21 identifier='npcName'
+22 argument (NameExpr)
+23 name (SimpleName)
+24 identifier='behaviour'
+25 name (SimpleName)
+26 identifier='pair'
+27 type (ClassOrInterfaceType)
+28 name (SimpleName)
+29 identifier='Pair'
+30 typeArguments
+31 typeArgument (ClassOrInterfaceType)
+32 name (SimpleName)
+33 identifier='String'
+34 typeArgument (ClassOrInterfaceType)
+35 name (SimpleName)
+36 identifier='HealerBehaviour'
+37 statement (ExpressionStmt)
+38 expression (MethodCallExpr)
+39 name (SimpleName)
+40 identifier='add'
+41 scope (NameExpr)
+42 name (SimpleName)
+43 identifier='healers'
+44 arguments
+45 argument (NameExpr)
+46 name (SimpleName)
+47 identifier='pair'
+48 type (VoidType)
+49 name (SimpleName)
+50 identifier='add'
+51 parameters
+52 parameter (Parameter)
+53 isVarArgs='false'
+54 name (SimpleName)
+55 identifier='npcName'
+56 type (ClassOrInterfaceType)
+57 name (SimpleName)
+58 identifier='String'
+59 parameter (Parameter)
+60 isVarArgs='false'
+61 name (SimpleName)
+62 identifier='behaviour'
+63 type (ClassOrInterfaceType)
+64 name (SimpleName)
+65 identifier='HealerBehaviour'
+0 1
+1 2
+2 3
+3 4
+4 5
+5 6
+6 7
+7 8
+8 9
+9 10
+8 11
+11 12
+12 13
+13 14
+11 15
+15 16
+16 17
+7 18
+18 19
+19 20
+20 21
+18 22
+22 23
+23 24
+6 25
+25 26
+6 27
+27 28
+28 29
+27 30
+30 31
+31 32
+32 33
+30 34
+34 35
+35 36
+2 37
+37 38
+38 39
+39 40
+38 41
+41 42
+42 43
+38 44
+44 45
+45 46
+46 47
+0 48
+0 49
+49 50
+0 51
+51 52
+52 53
+52 54
+54 55
+52 56
+56 57
+57 58
+51 59
+59 60
+59 61
+61 62
+59 63
+63 64
+64 65
+
+Adds an NPC to the NPCList. Does nothing if an NPC with the same name already exists. This makes sure that each NPC can be uniquely identified by his/her name.
